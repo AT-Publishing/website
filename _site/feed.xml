@@ -5,13 +5,17 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 May 2016 20:10:34 +0200</pubDate>
-    <lastBuildDate>Thu, 19 May 2016 20:10:34 +0200</lastBuildDate>
+    <pubDate>Fri, 20 May 2016 00:35:27 +0200</pubDate>
+    <lastBuildDate>Fri, 20 May 2016 00:35:27 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
         <title>Buy the rumor, sell the news</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/coinbase/coinbase-eth.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/coinbase/coinbase-eth.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;As of 20th May 2016 it is no longer rumor! &lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/4k47rq/coinbase_exchange_to_rebrand_following_launch_of/&quot;&gt;Coinbase is rebranding to GDAX and is launching Ethereum trading&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/coinbase/coinbase-eth.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/coinbase/coinbase-eth.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: Coinbase API already responds to ETH queries.&lt;/em&gt;&lt;/p&gt;
 

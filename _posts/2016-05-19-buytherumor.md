@@ -9,9 +9,12 @@ image:
 - "/img/okcoin/okcoin-eth.jpg"
 image_alt:
 - "Coinbase API already responds to ETH queries."
-update: 2016-05-19
+update: 2016-05-20
 ---
 
+**As of 20th May 2016 it is no longer rumor! [Coinbase is rebranding to GDAX and is launching Ethereum trading](https://www.reddit.com/r/Bitcoin/comments/4k47rq/coinbase_exchange_to_rebrand_following_launch_of/).**
+
+________________________
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 
