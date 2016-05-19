@@ -1,0 +1,23 @@
+# Site settings
+title: "Altcoin Trading"
+subtitle: "The forex of cryptocurrencies, bitcoin as the base."
+description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency."
+baseurl: ""
+url: "https://www.altcointrading.net"
+#url: "http://127.0.0.1:4000"
+author: "AltcoinTrading"
+# Build settings
+markdown: kramdown
+## Default image size: 700x360
+ads:
+  ledger: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274"><img alt="Ledger Wallet protects your bitcoins" src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"></a></div>'
+  trezor: '<div class="shifted-left"><a rel="nofollow" target="_blank" href="https://buytrezor.com?a=fany@tutanota.com"><img src="/img/wallets/trezor.jpg" alt="Trezor Wallet for bitcoins and altcoins" title="Trezor Wallet for bitcoins and altcoins"></a></div>'
+  pm1: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697"><img alt="Perfect Money" src="/img/ads/pm1.jpg"></a></div>'
+  pm2: '<div class="shifted-left"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697"><img alt="Perfect Money" src="/img/ads/pm2.jpg"></a></div>'
+  acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+  aads728: '<div class="shifted-left"><iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe></div>'
+
+
+
+
+# {% banner300 /img/vcc/wirex.png https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}
