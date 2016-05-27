@@ -5,9 +5,126 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 May 2016 00:23:00 +0200</pubDate>
-    <lastBuildDate>Wed, 25 May 2016 00:23:00 +0200</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 08:54:38 +0200</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 08:54:38 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>ETH vs LISK</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-4.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-4.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: ETH vs LSK&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ethereum&quot;&gt;Ethereum&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.ethereum.org/&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/ethereum&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://ethereum.stackexchange.com/&quot;&gt;ETH StackExchange&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So you probably know the ETH. It’s tradable crypto-currency that isn’t scarce as bitcoin and is primarily supposed to be used as a token for blockchain apps. So even though if it technically isn’t meant to be a currency suitable for payments its fiat value can still be significant if it is used widely.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ethereum makes it easy for people to create their own decentralized apps and tokens for them - these tokens are also tradable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ethereum is also a platform for smart contracts. That is a contract that will hold a contributor’s money until any given date or goal is reached. Depending on the outcome, the funds will either be released to the project owners or safely returned back to the contributors. All of this is possible without requiring a centralized arbitrator, clearing house or having to trust anyone.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The last step of what is possible with Ethereum is creation of DAOs - decentralized autonomous applications.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ethereum is run by Ethereum foundation (Stiftung Ethereum), Zug, Switzerland. Unlike with bitcoin, ETH has enough of well paid developers to take care of the legwork. One of their main offices is in Berlin.&lt;/p&gt;
+
+&lt;h2 id=&quot;lisk&quot;&gt;Lisk&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”Lisk is a next generation crypto-currency and decentralized application platform, written entirely in JavaScript.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://lisk.io&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/LiskHQ/lisk&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Developers also call lisk the &lt;a href=&quot;https://blog.lisk.io/lisk-the-first-modular-crypto-currency-dd3e8df87613#.y5kr9jxnm&quot;&gt;”first modular crypto-currency”&lt;/a&gt;, leveraging the age old issue of bitcoin scalability that is still being discussed.&lt;/p&gt;
+
+&lt;p&gt;Lisk is supposed to be used for development of decentralized apps of which each one will have its own sidechain. Lisk only uses Javascript which is supposed to make it unique and easy to use.&lt;/p&gt;
+
+&lt;p&gt;That’s for the buzzwords. The reality is LISK is just a &lt;a href=&quot;https://blog.lisk.io/olivier-and-max-leave-crypti-to-establish-lisk-3fd60eb0808f#.4uuz8ur23&quot;&gt;fork of a failed altcoin, Crypti (XCR)&lt;/a&gt;. The lead developers left the Crypti project because of lack of efficient leadership and forked it to improve it. To finance that they had ICO (initial coin offering) that started in February.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/lisk.jpeg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/lisk.jpeg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;In order to kick start our platform, i.e. pay for developers and marketing, we will hold an ICO starting 22nd February 2016, in which we will accept Bitcoin, Crypti and Ethereum. At this point we can only say that we will keep a constant conversion rate for your Crypti at 1300 satoshi per XCR. We feel this provides a fair value to your XCR and creates an escape route to a fresh project for the whole Crypti community. More details will be published soon.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The ICO page is now offline (the ICO was up for 1 month) but the stats and data are available &lt;a href=&quot;https://blog.lisk.io/lisk-ico-statistics-ac36fbb94fe3#.88l7agnip&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;
+Total Amount  
+
+BTC exchanged ~ 14,052 BTC
+BTC bonus ~ 410 BTC
+XCR exchanged ~ 78,242,600 XCR
+Total equivalent ~ 15,480 BTC
+Exchange rate ~ 0.0001821238671 BTC/LSK
+&lt;/pre&gt;
+
+&lt;p&gt;You see that anyone who bought LSK in the ICO cashed in nicely. Poloniex started trading LSK at about 0.0004, during first three days the price saw 0.0012 and LSKBTC was the most traded pair. It was traded more than ETHBTC on Poloniex, until ETH started crashing hard that is.&lt;/p&gt;
+
+&lt;p&gt;That is the initial fad. All coins get pumped when they just start trading. But will the coin last?&lt;/p&gt;
+
+&lt;p&gt;We can say that ETH is probably here to stay, at least for some forseeable future. It’s price is a different matter, and The DAO can fail hard. Meanwhile, LSK forum is jumping the shark.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The &lt;a href=&quot;https://twitter.com/LiskHQ&quot;&gt;@LiskHQ&lt;/a&gt; forum has the usual tribalism. I am sure &lt;a href=&quot;https://twitter.com/VitalikButerin&quot;&gt;@VitalikButerin&lt;/a&gt; is worried lol &lt;a href=&quot;https://t.co/gglZ0s6RzZ&quot;&gt;https://t.co/gglZ0s6RzZ&lt;/a&gt; &lt;a href=&quot;https://t.co/VYSRenFpwW&quot;&gt;pic.twitter.com/VYSRenFpwW&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chris Ellis (@MrChrisEllis) &lt;a href=&quot;https://twitter.com/MrChrisEllis/status/735612073527382016&quot;&gt;May 25, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;I wouldn’t trust a German engineer more than a Russian geek. I know that many Germans would though, and truth or reason is not what governs the markets. It’s questionable though if these people are the people around cryptocurrencies or if they are too old or otherwise irrelevant to this space.&lt;/p&gt;
+
+&lt;p&gt;German geeks know about ETH. And not only geeks. &lt;a href=&quot;http://www.welt.de/wirtschaft/webwelt/article153228987/Das-ist-der-neue-grosse-Rivale-des-Bitcoin.html&quot;&gt;Welt&lt;/a&gt; even called it the new great rival of BTC - which is something that would be called clickbait if it wasn’t a reputable German newspaper.&lt;/p&gt;
+
+&lt;p&gt;Another thing is that ETH also uses Javascript, &lt;a href=&quot;https://solidity.readthedocs.io/en/latest/&quot;&gt;sort of&lt;/a&gt;. It’s called Solidity and it’s a language very similar to JS. As far as blockchain apps are concern, Solidity should be better than JS. So if the usability is the fundament, LSK shouldn’t really be any better. Quite so the opposite.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The problem&lt;/h2&gt;
+
+&lt;p&gt;The issue with all this is that as of yet, all of it is &lt;em&gt;just words&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;ETH’s The DAO and slockit is a geek’s pipedream that wouldn’t survive without funding&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lisk is just this new thing to play with on Poloniex.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In both cases, it’s just speculations.&lt;/p&gt;
+
+&lt;p&gt;To make some speculatory conclusions…ETH has quite a good tribe. Not to say I support them in particular but they’ve been through a lot. Lisk is neither first nor better, both from the tech and community point.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 May 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/eth-vs-lisk/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/eth-vs-lisk/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Ethereum sentiment - Where to get reliable information?</title>
