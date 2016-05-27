@@ -37,6 +37,12 @@ So you probably know the ETH. It's tradable crypto-currency that isn't scarce as
 
 Ethereum is run by Ethereum foundation (Stiftung Ethereum), Zug, Switzerland. Unlike with bitcoin, ETH has enough of well paid developers to take care of the legwork. One of their main offices is in Berlin.
 
+The flagship decentralized autonomous organization _The DAO_ just pumped (and dumped) the ETH value, now the DAO tokens themselves will be traded at Poloniex. It is taking off at 28th of May.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Reminder: <a href="https://twitter.com/search?q=%24DAO&amp;src=ctag">$DAO</a> will be available for trading on May 28th. We will announce when the market is live.</p>&mdash; Poloniex Exchange (@Poloniex) <a href="https://twitter.com/Poloniex/status/736038608361132032">May 27, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## Lisk
 
 > ”Lisk is a next generation crypto-currency and decentralized application platform, written entirely in JavaScript.”
