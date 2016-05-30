@@ -5,9 +5,115 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 09:19:07 +0200</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 09:19:07 +0200</lastBuildDate>
+    <pubDate>Mon, 30 May 2016 09:56:11 +0200</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 09:56:11 +0200</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Technical Analysis in Altcoin Trading</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/ethereum.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/ethereum.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Ethereum has enough volume, technical analysis is justified.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What’s the &lt;strong&gt;best technical indicator&lt;/strong&gt; for an altcoin?&lt;/p&gt;
+
+&lt;p&gt;Who knows.&lt;/p&gt;
+
+&lt;p&gt;You should be asking if &lt;strong&gt;technical analysis&lt;/strong&gt; will apply for your altcoin at all.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;In any case, markets are small and available leverage easy to get. In some cases, like with LTC or ETH, the leverage available is 20x or more. LTC is traded on Okcoin, ETH has futures on BitMEX. It’s easy to be a whale and manipulate the markets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Usually, if a trend is good, some changes in volume should occure before a spike or chop. But volume indicators should only be applied above certain daily volume. Otherwise the market is too susceptible to manipulation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;daily-volume&quot;&gt;Daily volume&lt;/h2&gt;
+
+&lt;p&gt;You can see volume for last 24 hours on &lt;a href=&quot;http://coinmarketcap.com/&quot;&gt;coinmarketcap.com&lt;/a&gt;. You should be looking at 100k USD and up if you want to use TA meaningfully.&lt;/p&gt;
+
+&lt;p&gt;That’s not to say you shouldn’t trade anything else. It’s just that your everyday usual normal technical analysis won’t work there.&lt;/p&gt;
+
+&lt;p&gt;Take for instance Lisk and The DAO. Both these things were launching on Poloniex (and elsewhere) at close dates. In both cases there was ICO (initial coin offering) where people could buy the token with a discount.&lt;/p&gt;
+
+&lt;p&gt;Very similar situation but different sentiment. There was a lot of talking about DAOs in general (that they are pretty much nonsense). There was no such talk about LISK.&lt;/p&gt;
+
+&lt;p&gt;Even though the long term value is questionable in both cases, people launched the trading with the sentiment “new playground for traders, upupupupup free money” in the case of Lisk and with the sentiment “where can I short it?” in the case of The DAO tokens.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-look-for&quot;&gt;What to look for?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1/ News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Read forums, slack chats, gitter chats, idiotic click baits in well-respected printed media etc. Forget about truth or justice. Buy the rumor, sell the news.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2/ Price&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Set up price alarm. For altcoins it’s easy to do on mobile with app called TabTrader. It’s free. On desktop you can try cryptowat.ch and bitcoinwisdom.com. During rally though cryptowat.ch tends to lag.&lt;/p&gt;
+
+&lt;p&gt;Once there is a spike or chop in price, it’s generally good idea to trade it as it usually doesn’t end after the first leg. Unless it is a &lt;em&gt;head fake&lt;/em&gt;, a fake movement that will turn into big trend in the other direction. Look for price patterns, more on that in the resources section further down.&lt;/p&gt;
+
+&lt;p&gt;Indicators that will tell you if the altcoin has enough juice to carry on the movement it started are momentum indicators. They are all lagging though - based on past price only. Look for patterns and use indicators only for confirmations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3/ Volume&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes, when the volume of the altcoin is good enough, you will see increase in buying volume before the price moves up or increased selling volume before the price drops. There are volume based indicators that follow just that.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bitcoinwisdom has &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:chaikin_money_flow_cmf&quot;&gt;CMF - Chaikin money flow&lt;/a&gt; which is probably your best option.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cryptowatch has &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:on_balance_volume_obv&quot;&gt;OBV - on balance volume&lt;/a&gt;. To spot emerging trend on Cryptowatch you can also use &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:aroon&quot;&gt;Aroon&lt;/a&gt; even though it’s a momentum indicator.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources-to-learn-technical-analysis&quot;&gt;Resources to learn technical analysis&lt;/h2&gt;
+
+&lt;p&gt;…the good way.&lt;/p&gt;
+
+&lt;p&gt;You won’t find here any resources that give explicit trading or investment advice. That’s not meant to be (just) the standard no investment advice disclaimer but for real - you should try and see what fits you and what’s the best way you can form decisions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;John Bollinger&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The creator of Bollinger bands is on twitter and sometimes posting crypto-related ideas.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thanks to all the Bitcoin folk who acknowledged my work! BTCUSD is a great vehicle for Bollinger Band analysis. Look at other pairs too.&lt;/p&gt;&amp;mdash; John Bollinger (@bbands) &lt;a href=&quot;https://twitter.com/bbands/status/736226984322203648&quot;&gt;27. Mai 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;There is also a website called &lt;a href=&quot;http://www.bollingeronbollingerbands.com/methods/?m=3&quot;&gt;Bollinger on Bollinger bands&lt;/a&gt; that is full of methods for signal recognition, typical patterns etc. But as the author says himself - try it out yourself and see what fits you. It’s a long read and a 90’s style website but it’s worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bollingeronbollingerbands.com/methods/?m=0&quot; class=&quot;button&quot;&gt;Bollinger on BBANDS&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Chart Patterns&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simple website not loaded with tons of graphics and ad trash. Just text and a couple of images showcasing chart patterns. Take a look at triangles and pennants if you want to look smart in crypto-trading chats.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.chartpatterns.com/&quot; class=&quot;button&quot;&gt;Chart Patterns&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Swing Trading Stocks&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here it’s not so much about the nitty gritty of technical analysis and more about strategies and methods how to day trade. If you are looking to swing trading altcoins, or even any altcoin trading in shorter timespans, not holding long term - this one will be good for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.swing-trade-stocks.com/&quot; class=&quot;button&quot;&gt;Swing Trading Stocks&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 May 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/technical-analysis/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/technical-analysis/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>ETH vs LISK</title>
@@ -181,7 +287,13 @@ Exchange rate ~ 0.0001821238671 BTC/LSK
 
 &lt;ul&gt;
   &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://sebfor.com/&quot;&gt;Ethereum News Website - Sebfor&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://medium.com/the-coinbase-blog/ethereum-is-the-forefront-of-digital-currency-5300298f6c75#.jbwf3mjft&quot;&gt;Coinbase blog is now very pro-ETH&lt;/a&gt; saying that basically, BTC is a legacy technology now and its fundamentals are out of the loop.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://telegram.me/joinchat/AyAwggbO-w_gl8xqPkiLuw&quot;&gt;Ethereum Trading Telegram Chat&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Reddit’s reactions?&lt;/p&gt;
@@ -437,7 +549,7 @@ Profit ~ 16%
 &lt;p&gt;Learn more about the SAFE network &lt;a href=&quot;http://maidsafe.net/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Ether&lt;/li&gt;
+  &lt;li&gt;Ether &amp;amp; Co&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Ether was heavily pumped, before which fanboys kept spamming bitcoin traders on Reddit claiming ETH is the new bitcoin. Now the interest is cooling down, there are no real massively popular Ethereum apps (Đapps) that would make the interest in Ether more than a pump/dump scheme for now.&lt;/p&gt;
@@ -445,6 +557,16 @@ Profit ~ 16%
 &lt;p&gt;There in infinite amount of Ether to be mined but the inflation is only 1% a year. If the value of the coin gets stable it makes ETH a better value storage than traditional money.&lt;/p&gt;
 
 &lt;p&gt;Ethereum is the platform on which Ether is the token. It is a platform on which Đapps (decentralized apps) are supposed to live. These can be used to store data or smart contracts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other important tokens related to ETH:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;/eth-vs-lisk/&quot;&gt;The DAO&lt;/a&gt; - Decentralized Autonomous Organization - and slock.it&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://dgx.io/#/&quot;&gt;Digix&lt;/a&gt; - Gold certificates&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Ripple&lt;/li&gt;
@@ -972,80 +1094,6 @@ Profit ~ 16%
         <category>trading</category>
         
         <category>arbitrage</category>
-        
-      </item>
-    
-      <item>
-        <title>Altcoin trading charts</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ethbtc-feb.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ethbtc-feb.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;bitcoinwisdomcomhttpbitcoinwisdomcom&quot;&gt;&lt;a href=&quot;http://bitcoinwisdom.com&quot;&gt;Bitcoinwisdom.com&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bitcoinwisdom.com&quot;&gt;Bitcoinwisdom.com&lt;/a&gt; was superb but sadly, it is no longer updated. No new markets, no new exchanges. Not so good for altcoins.&lt;/p&gt;
-
-&lt;h4 id=&quot;cryptocoinchartsinfohttpwwwcryptocoinchartsinfo&quot;&gt;&lt;a href=&quot;http://www.cryptocoincharts.info&quot;&gt;Cryptocoincharts.info&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Good source of information. &lt;a href=&quot;http://www.cryptocoincharts.info&quot;&gt;Cryptocoincharts.info&lt;/a&gt; keep stats for most traded pairs, most growing pairs and situation at many &lt;a href=&quot;http://www.cryptocoincharts.info/markets/info&quot;&gt;exchanges&lt;/a&gt; (even at smaller ones). The charts could be better though.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ccc.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ccc.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;cryptowatchhttpcryptowatch&quot;&gt;&lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt; is probably best option nowadays, especially if you are looking for better charts with &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt; data. (See links to charts &lt;a href=&quot;#better-poloniex-charts&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;You can select your indicators in settings, drawing tools are available too (see image below).&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/cwatch.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/cwatch.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;better-poloniex-charts&quot;&gt;Better Poloniex charts&lt;/h4&gt;
-
-&lt;p&gt;Because if you trade altcoins then you probably trade on Poloniex. Charts there are not quite advanced.&lt;/p&gt;
-
-&lt;p&gt;Go for Cryprowatch for better trading charts.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/ethbtc&quot;&gt;Poloniex Ethereum - ETHBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/xmrbtc&quot;&gt;Poloniex Monero - XMRBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/btsbtc&quot;&gt;Poloniex Bitshares - BTSBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/strbtc&quot;&gt;Poloniex Lumens - STRBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/dashbtc&quot;&gt;Poloniex Dash (DarkCoin) - DASHBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://cryptowat.ch/poloniex/ltcbtc&quot;&gt;Poloniex Litecoin - LTCBTC&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;tradingviewhttpswwwtradingviewcomchart&quot;&gt;&lt;a href=&quot;https://www.tradingview.com/chart/&quot;&gt;TradingView&lt;/a&gt;&lt;/h4&gt;
-
-&lt;figure class=&quot;chart&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/tradingview-eth.png&quot; alt=&quot;Altcoin Trading TradingView Charts&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;415px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you only want to have a quick look or if you are up to some more advanced technical analysis (whether or not it may work with altcoins), do try &lt;a href=&quot;https://www.tradingview.com/chart/&quot;&gt;TradingView&lt;/a&gt;. They don’t have a selection of exchanges and marketplaces like &lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt; but their charting is a bit more advanced.&lt;/p&gt;
-
-&lt;p&gt;You can access the charts without registration by typing the code of the pair into the input field in upper left corner. They have XMRBTC of &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://hitbtc.com/?ref_id=569e7b123be70&quot;&gt;HitBTC&lt;/a&gt; and ETHXBT of &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://kraken.com&quot;&gt;Kraken&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;chart&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/tradingview-xmr.png&quot; alt=&quot;Altcoin Trading TradingView Charts&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;415px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;
-
-&lt;p&gt;No MAID or FCT, actually no Poloniex charting.&lt;/p&gt;
-
-&lt;h4 id=&quot;ethereum-charts&quot;&gt;Ethereum Charts&lt;/h4&gt;
-
-&lt;p&gt;If you are trading the pump now, you will be interested in this. &lt;a href=&quot;http://ethereumwisdom.com/&quot;&gt;EthereumWisdom&lt;/a&gt; has Karken, Poloniex, Gatecoin and BitTrex ETH markets.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Jan 2016 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/altcoin-trading-charts/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/altcoin-trading-charts/</guid>
-        
-        
-        <category>trading</category>
         
       </item>
     

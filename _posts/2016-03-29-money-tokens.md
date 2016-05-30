@@ -8,7 +8,7 @@ image:
 - "/img/charts/ethdash.jpg"
 image_alt:
 - "ETH-Dash chart (data from ShapeShift instant exchange, chart altcoinwisdom.com)"
-update: 2016-03-29
+update: 2016-05-30
 ---
 
 
@@ -64,13 +64,20 @@ MaidSafeCoin is a token for SAFE network. SAFE means Secure access for everyone,
 
 Learn more about the SAFE network [here](http://maidsafe.net/).
 
-* Ether
+* Ether & Co
 
 Ether was heavily pumped, before which fanboys kept spamming bitcoin traders on Reddit claiming ETH is the new bitcoin. Now the interest is cooling down, there are no real massively popular Ethereum apps (Đapps) that would make the interest in Ether more than a pump/dump scheme for now.
 
 There in infinite amount of Ether to be mined but the inflation is only 1% a year. If the value of the coin gets stable it makes ETH a better value storage than traditional money.
 
 Ethereum is the platform on which Ether is the token. It is a platform on which Đapps (decentralized apps) are supposed to live. These can be used to store data or smart contracts.
+
+**Other important tokens related to ETH:**
+
+> [The DAO](/eth-vs-lisk/) - Decentralized Autonomous Organization - and slock.it
+
+> [Digix](https://dgx.io/#/) - Gold certificates
+
 
 * Ripple
 
