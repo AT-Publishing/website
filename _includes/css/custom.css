@@ -254,6 +254,11 @@ font-size: 80%;
     display: block;}
 
 figure.chart {margin:1.5em 0}
+figure.noborder {
+    max-width: 100% !important;
+    margin: 0 0 30px;
+    border: 0px dotted #7A838D;
+}
 /* Media Queries */
 /* Larger than mobile */
 @media (min-width: 400px) {}
