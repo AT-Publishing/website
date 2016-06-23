@@ -12,7 +12,7 @@ image:
 - "/img/screenshots/dao-reg.PNG"
 image_alt:
 - "DAOs have a critical vulnerability that can probably be removed only by a hard fork."
-update: 2016-06-23
+update: 2016-06-22
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
