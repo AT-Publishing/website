@@ -5,9 +5,108 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jun 2016 15:51:02 +0200</pubDate>
-    <lastBuildDate>Thu, 23 Jun 2016 15:51:02 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.0</generator>
+    <pubDate>Sat, 02 Jul 2016 11:40:25 +0200</pubDate>
+    <lastBuildDate>Sat, 02 Jul 2016 11:40:25 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Bitcoin and Altcoin Trading with the Ichimoku Cloud</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/bitfinex_ichimoku.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/bitfinex_ichimoku.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Ethereum has enough volume, technical analysis is justified.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ichimoku cloud is the mysterious indicator available on &lt;a href=&quot;https://cryptowat.ch/&quot;&gt;cryptowat.ch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:ichimoku_cloud&quot;&gt;Stockcharts on Ichimoku cloud&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ichimoku Kinko Hyo translates into “one look equilibrium chart”. With one look, chartists can identify the trend and look for potential signals within that trend. The indicator was developed by Goichi Hosoda, a journalist, and published in his 1969 book. Even though the Ichimoku Cloud may seem complicated when viewed on the price chart, it is really a straight forward indicator that is very usable. It was, after all, created by a journalist, not a rocket scientist!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;lines-on-ichimoku-cloud-explained-like-youre-five&quot;&gt;Lines on Ichimoku cloud explained like you’re five&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/bitfinex_ichimoku_leg.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/bitfinex_ichimoku_leg.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ichimoku cloud uses past action of the market to predict future most likely direction along with support and resistance lines.
+It is calculated from past EMAs and highs vs lows, among other things, &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:ichimoku_cloud&quot;&gt;here’s more if you need to know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The number of lines is confusing but here’s the basic info you need to know:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Senkou span are the borders of the (here) green cloud. It is green in this case as the market is bullish. It will be red in bearish markets. The space between the lines is called kumo. Senkou spans are major support/resistance lines - people set their stop orders on them because once the trend breaks through both of them, a reversal should come.&lt;/li&gt;
+  &lt;li&gt;Kinjun and Tenken lines are “balance” lines - &lt;a href=&quot;http://www.babypips.com/school/elementary/moving-averages/moving-average-crossover-trading.html&quot;&gt;fast and slow EMAs&lt;/a&gt;. If the price keeps around them, it is not overhyped nor underpriced. If it gets distant it is changing direction way faster than it “should” and a pullback is likely. In such a case, people set stop-loss orders around the lines if they are in a position and don’t want to take profits until necessary.&lt;/li&gt;
+  &lt;li&gt;The Chinkou line is a lagging indicator. You can use it to confirm a trend.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Video Intro into Ichimoku Cloud from Youtube by @CarpeNoctom&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;700&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/J3t2Tsn_Imk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;BASICS: Ichimoku cloud Bullish signals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For a strong bullish signal, everything must occur above the Kumo cloud: The price action must remain &lt;strong&gt;above&lt;/strong&gt; the Kumo cloud. The Chinkou line must stay &lt;strong&gt;above&lt;/strong&gt; the kumo and Tenken should be crossing Kinjun also &lt;strong&gt;above&lt;/strong&gt; the Kumo. Tenken should be crossing upside - if this cross occurs inside of the Kumo that’s still bullish but not so strongly bullish.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BASICS: Ichimoku cloud Bearish signals&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are looking for strong bearish signal, with Ichimoku cloud you can pretty much reverse all that has been said to bullish signals - price action occurs &lt;strong&gt;below&lt;/strong&gt; Kumo, as well as Tenken and Kinjun crossing and the lagging line Chinkou. Basically the more happens below the stronger the bears are.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;BASICS: None of this?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If none of this is happening then it most likely means that at your timeframe the market is &lt;em&gt;undecided, sideways, waiting for direction&lt;/em&gt;. Don’t worry, if a breakout happens the traders of twitter and reddit will call it - keep reading to learn whom to follow.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;what-to-read-and-whom-to-follow&quot;&gt;What to read and whom to follow&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;[TOOL]&lt;/strong&gt; Ichimoku Trading signals&lt;/p&gt;
+
+&lt;p&gt;A whole website about it. None of anything is investment advice though - trade your thoughts. &lt;a href=&quot;http://www.ichimokutrader.com/signals.html&quot;&gt;See the signal page.&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Traders who tweet about Ichimoku cloud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CarpeNoctom&lt;/strong&gt; (Josh Olszewicz)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/CarpeNoctom&quot;&gt;#BubbleMoku&lt;/a&gt; is the author of the above mentioned Youtube channel, and also DrWD on Reddit, as mentioned below.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Busy chart that says we&amp;#39;re going up, so long as we don&amp;#39;t break 600. &lt;br /&gt;&lt;br /&gt;trgt = 840-940 BFX &lt;a href=&quot;https://t.co/j5pzJjXORI&quot;&gt;pic.twitter.com/j5pzJjXORI&lt;/a&gt;&lt;/p&gt;&amp;mdash; #BubbleMoku (@CarpeNoctom) &lt;a href=&quot;https://twitter.com/CarpeNoctom/status/748010819775041542&quot;&gt;29 June 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;Triforcetrader&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/triforcetrader&quot;&gt;Triforcetrader&lt;/a&gt; tweets general trading stuff since he is a full-time trader. Sometimes he’ll feaure some TA but there is plenty of it on his website - &lt;a href=&quot;http://triforcetrader.com/trading/ichimoku/&quot;&gt;Here is his post on Ichimoku cloud.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;He made a video on how he trades Ichimoku cloud.&lt;/p&gt;
+
+&lt;iframe width=&quot;700&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/p_Z6ogQIE6E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Redditors who post about Ichimoku cloud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DrWD&lt;/strong&gt; (Josh Olszewicz) is probably the only consistent Ichimoku advocate in the cryptocurrency space on Reddit these days. He posts in the stickied threads on /r/BitcoinMarkets. &lt;a href=&quot;https://www.reddit.com/user/drwd&quot;&gt;Bookmark his profile page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SFFWMorin&lt;/strong&gt; posted an &lt;a href=&quot;https://www.reddit.com/r/StockMarket/comments/434jrn/ichimoku_cloud_how_to_trade_guide/&quot;&gt;Ichimoku cloud tutorial on the subreddit /r/StockMarkets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 01 Jul 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/ichimoku-cloud/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/ichimoku-cloud/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>All about the DAO hack</title>
@@ -104,7 +203,7 @@
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/screenshots/dao-reg.PNG&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/screenshots/dao-reg.PNG&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;some-more-reading&quot;&gt;Some more reading&lt;/h4&gt;
+&lt;p&gt;####Some more reading&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -306,7 +405,7 @@
 
 &lt;p&gt;New altcoin will be added to Poloniex next week. Initial coin offering (ICO) ended on the first of June but if you want to ride some waves as trading of new coin opens, do follow this one - Waves.&lt;/p&gt;
 
-&lt;h4 id=&quot;waves---quick-info&quot;&gt;Waves - Quick Info&lt;/h4&gt;
+&lt;p&gt;####Waves - Quick Info&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;What is Waves: &lt;em&gt;Waves is a blockchain-based colored coins platform, which will allow for future decentralized value transfers all over the world. It connects the fiat world and cryptocurrencies.&lt;/em&gt;&lt;/li&gt;
@@ -324,7 +423,7 @@ financial instruments on the blockchain.&lt;/p&gt;
 
 &lt;p&gt;It is interesting idea but it should be noted that it is unclear how and if it will actually work in real world.&lt;/p&gt;
 
-&lt;h4 id=&quot;getting-waves-as-a-supporter-bounty&quot;&gt;Getting Waves as a Supporter Bounty&lt;/h4&gt;
+&lt;p&gt;####Getting Waves as a Supporter Bounty&lt;/p&gt;
 
 &lt;p&gt;Early supporters receive bounties for the following activities:&lt;/p&gt;
 
@@ -336,7 +435,7 @@ financial instruments on the blockchain.&lt;/p&gt;
   &lt;li&gt;300000 tokens reserved for signature campaign participants at Bitcointalk.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;more-info&quot;&gt;More info:&lt;/h4&gt;
+&lt;p&gt;####More info:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://slack.wavesplatform.com/&quot;&gt;Free to join Slack channel&lt;/a&gt; - wavesplatform.slack.com&lt;/p&gt;
 
@@ -344,7 +443,7 @@ financial instruments on the blockchain.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://blog.wavesplatform.com/&quot;&gt;Wavesplatform Blog&lt;/a&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;press&quot;&gt;Press:&lt;/h4&gt;
+&lt;p&gt;####Press:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://bravenewcoin.com/news/the-new-mycelium-wallet-is-integrating-fiat-currencies-debit-cards-personal-finance-and-more/&quot;&gt;BraveNewCoin: The new Mycelium wallet is integrating fiat currencies, debit cards, personal finance, and more.&lt;/a&gt;&lt;/p&gt;
 
@@ -662,7 +761,7 @@ Exchange rate ~ 0.0001821238671 BTC/LSK
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;non-trading-services-that-announced-eth-support&quot;&gt;Non-Trading Services that announced ETH support&lt;/h4&gt;
+&lt;p&gt;####Non-Trading Services that announced ETH support&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -724,7 +823,7 @@ BTFD = buy the fucking dip
 &lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;services-that-also-announced-eth-support&quot;&gt;Services that also announced ETH support&lt;/h4&gt;
+&lt;p&gt;####Services that also announced ETH support&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -760,7 +859,7 @@ BTFD = buy the fucking dip
 
 &lt;p&gt;The answer is yes, indeed, but not if market moves rapidly.&lt;/p&gt;
 
-&lt;h4 id=&quot;go-for-less-profits&quot;&gt;Go for less profits&lt;/h4&gt;
+&lt;p&gt;####Go for less profits&lt;/p&gt;
 
 &lt;p&gt;If you want to close your position as soon as possible and with profit, don’t look for huge profit from every single trade. You might find them by coincidence but don’t think twice before jumping into them.&lt;/p&gt;
 
@@ -777,7 +876,7 @@ BTFD = buy the fucking dip
 
 &lt;p&gt;&lt;strong&gt;Daytrading is the legwork and it also means you don’t want to hold that altcoin.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;daytrading-example&quot;&gt;Daytrading example&lt;/h4&gt;
+&lt;p&gt;####Daytrading example&lt;/p&gt;
 
 &lt;p&gt;Let’s see the title picture for illustration. It shows the recent altcoin crash that indeed also affected Monero. Monero started dropping with what looked like a single sell-off.
 Opportunity for a daytrader?&lt;/p&gt;
@@ -789,7 +888,7 @@ Sell: 362 XMR, at 0.00321  ~ 1.16144 BTC after fee 0.25%
 Profit ~ 16%
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&quot;where-to-do-this&quot;&gt;Where to do this?&lt;/h4&gt;
+&lt;p&gt;####Where to do this?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Smaller alctoins&lt;/strong&gt;&lt;/p&gt;
 
@@ -830,121 +929,6 @@ Profit ~ 16%
         <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/daytrading/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/daytrading/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Value of Altcoins: Money and Tokens</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/ethdash.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/ethdash.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: ETH-Dash chart (data from ShapeShift instant exchange, chart altcoinwisdom.com)&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;What is it all about altcoins in 2016? It looks like a big thing starting out. Sure, markets are volatile and risky but in spite of that interesting things are on the horizon.&lt;/p&gt;
-
-&lt;p&gt;So, to the altcoin value, apart from the fact that every altcoin is &lt;em&gt;new paradigm, totally&lt;/em&gt; and &lt;em&gt;absolutely something new&lt;/em&gt;, there are two, well - actually three categories of altcoins out there.&lt;/p&gt;
-
-&lt;h3 id=&quot;types-of-altcoins&quot;&gt;Types of altcoins&lt;/h3&gt;
-
-&lt;h4 id=&quot;altcoins-as-money&quot;&gt;Altcoins as money&lt;/h4&gt;
-
-&lt;p&gt;Some altcoins were developed as means of payment. You can usually tell from the coin’s name - like &lt;em&gt;Monero&lt;/em&gt; or &lt;em&gt;Digital Cash (DASH)&lt;/em&gt;. Litecoin was also developed primarily for payments.&lt;/p&gt;
-
-&lt;p&gt;These altcoins usually solve one of the drawbacks of Bitcoin: the fact that Bitcoin is not anonymous, that scalability is not built in by default (see the current block size debate) or that there is still some sort of centralized governance needed.&lt;/p&gt;
-
-&lt;p&gt;Trading money-altcoins is much like trading forex. It’s money, it’s a storage of value, a hedge - it is (if all is right) held and used by some people.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Interesting altcoins:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Monero&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Scalable and mined in a decentralized fashion Monero also takes privacy into account: Payments are unlinkable, untraceable and anonymous. At the moment there is a Monero-based market on Poloniex along with the BTC-based one.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;DASH&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Dash is short for digital cash. The pivotal property of DASH is anonymous blockchain. No more block explorers. Another advantage is no governance and no way to link transactions together. DASH is currently traded heavily on Poloniex and Bittrex.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Litecoin&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Up until recently LTC was the second most popular altcoin. It was created to handle massive transaction volumes but, uh, whatever happened to it, nobody seems interested anymore.&lt;/p&gt;
-
-&lt;p&gt;Similar properties regarding volumes also has Nextcoin.&lt;/p&gt;
-
-&lt;h4 id=&quot;altcoins-as-tokens&quot;&gt;Altcoins as tokens&lt;/h4&gt;
-
-&lt;p&gt;Some altcoins were developed with blockchain technology in mind. Anyone who wants to participate in whatever lives on whichever blockchain needs to have the appropriate token. That can be &lt;em&gt;Ether&lt;/em&gt; or &lt;em&gt;MaidSafeCoin&lt;/em&gt;, for instance.&lt;/p&gt;
-
-&lt;p&gt;That is why Vitalik Buterin doesn’t endorse Ether as a value storage. It is not supposed to be money, it is supposed to be used to fuel certain type of apps. That is supposed to be it.&lt;/p&gt;
-
-&lt;p&gt;Why are these tokens speculated so much then? The answer is &lt;a href=&quot;https://en.wikipedia.org/wiki/Blue_Ocean_Strategy#Concept&quot;&gt;Blue ocean Strategy&lt;/a&gt;. Traders argue that Ether and other tokens are downplaying the monetary value of the coin on purpose: To show that it is &lt;em&gt;not&lt;/em&gt; just another “better money”. Tokens are a new category - something for which the demand is yet to be created. The value is expected to surge with the new demand. The demand will be by nature of the process focused on the token with no competition.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Interesting altcoins:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MaidSafeCoin&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;MaidSafeCoin is a token for SAFE network. SAFE means Secure access for everyone, it is a distributed data management. All data is encrypted and cryptosigned by client. Computers storing data of SAFE network are mining credits ( ~ safecoins ) which are exchanged for goods and services.&lt;/p&gt;
-
-&lt;p&gt;Learn more about the SAFE network &lt;a href=&quot;http://maidsafe.net/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ether &amp;amp; Co&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ether was heavily pumped, before which fanboys kept spamming bitcoin traders on Reddit claiming ETH is the new bitcoin. Now the interest is cooling down, there are no real massively popular Ethereum apps (Đapps) that would make the interest in Ether more than a pump/dump scheme for now.&lt;/p&gt;
-
-&lt;p&gt;There in infinite amount of Ether to be mined but the inflation is only 1% a year. If the value of the coin gets stable it makes ETH a better value storage than traditional money.&lt;/p&gt;
-
-&lt;p&gt;Ethereum is the platform on which Ether is the token. It is a platform on which Đapps (decentralized apps) are supposed to live. These can be used to store data or smart contracts.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other important tokens related to ETH:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;/eth-vs-lisk/&quot;&gt;The DAO&lt;/a&gt; - Decentralized Autonomous Organization - and slock.it&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://dgx.io/#/&quot;&gt;Digix&lt;/a&gt; - Gold certificates&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ripple&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ripple is focused on smart contracts too. As a currency, its value is that of a bridge currency: All transaction across currencies can be instantaneous if every currency is liquid to Ripple and if exchange transactions are done through Ripple.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BitShares&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;BitShares are one of the most interesting ideas in the altcoin space (click &lt;a href=&quot;https://bitsharestalk.org/index.php?topic=7628.0&quot;&gt;here&lt;/a&gt; for ELI5). The concept of BTS are shares in Decentralized Autonomous Companies (DACs). Anyone can become a “shareholder” of the first DAC by buying BitShares. The company’s work is then focused on revenue generation in form of bitUSD or whatever the company decides to call their profit unit. That is: the profit is generated in form of a “currency” pegged to USD. BTS (BitShares) can be thought of as a regular stock on a stock market&lt;/p&gt;
-
-&lt;h4 id=&quot;shitcoins&quot;&gt;Shitcoins&lt;/h4&gt;
-
-&lt;p&gt;Last category are shitcoins. Coins that were created as an ego-blast of someone who could afford to pay the programmer and have no value proposition. If you check their websites you will see generic terms and buzzwords regarding issues that were already solved by many altcoins before, like&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Vcash was engineered to be innovative and forward-thinking. It prevents eavesdropping and censorship, promotes decentralized, energy efficient and instant network transactions.&lt;/em&gt; &lt;a href=&quot;http://www.vanillacoin.net/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Their value is purely speculative. They might pump and you might be coming early enough to cash in but that’s it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 29 Mar 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/value/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/value/</guid>
         
         
         <category>trading</category>
