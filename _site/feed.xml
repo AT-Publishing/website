@@ -5,9 +5,90 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Jul 2016 11:40:25 +0200</pubDate>
-    <lastBuildDate>Sat, 02 Jul 2016 11:40:25 +0200</lastBuildDate>
+    <pubDate>Sun, 17 Jul 2016 10:22:34 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Jul 2016 10:22:34 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Ethereum hard fork and your positions on exchanges</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-5.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-5.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: ETH, the centralized mutable digital token.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The event that is by some pegged as the end of mETH as cryptocurrency is actually hapenning. The response to the DAO hack will, after all, be the hard fork. This is a solution that some say could have happened after the MtGox collaps during the first years of bitcoin, it didn’t happen though since it effectively undermines the most valuable asset of a blockchain based token - it’s immutability.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;the-immutability-of-blockchain---its-not-a-dogma-folks&quot;&gt;The immutability of blockchain - It’s not a dogma, folks&lt;/h4&gt;
+
+&lt;p&gt;There is a misconception that blockchain is immutable by some kind of magic that has no way around it.&lt;/p&gt;
+
+&lt;p&gt;The very simplistic explanation of blockchain immutability is the hash that is generated for each blockchain block mined. The hash contains among other data also a reference to the previous block’s hash - which contains a reference to the previous block’s hash, and so on. Because of this the blockchain is &lt;em&gt;internally consistent&lt;/em&gt;, there can be some checks run on this. If a block shows up that contains the wrong reference it will be disregarded as invalid.&lt;/p&gt;
+
+&lt;p&gt;To create a tampered blockchain therefore needs to effectively rebuild the blockchain from the modified block on. This is something that is difficult and won’t occur with no one noticing it, nevertheless &lt;strong&gt;it is possible&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is presumably more difficult with bitcoin since the governance is (in spite of all tryings) still more decentralized. There was a hardfork on bitcoin blockchain once, during the very early stages of it when Satoshi Nakamoto was still the lead and also one of the very few people who actually knew bitcoin.&lt;/p&gt;
+
+&lt;p&gt;ETH is far more widespread than BTC during the time it was forked, but it still revolves all about Vitalik Buterin and Ethereum Foundation. There are many other people on /r/ethereum or /r/ethtrader but if you’ve read them for a while you see they look up to their leaders a lot. It is even now relatively easy for them to just “give a green light” to a decision like this.&lt;/p&gt;
+
+&lt;p&gt;To be fair, it should also be mentioned the ETH hard fork will not have the effect of erasing all transaction history to the point of the fork. (More on this in next paragraph.)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-blockchains/&quot;&gt;Read more - Immutability of blockchain on bitsonblocks.net.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-it-means-for-an-altcoin-trader&quot;&gt;What it means for an altcoin trader?&lt;/h4&gt;
+
+&lt;p&gt;There are many speculations as to the USD and BTC value of Ether and TheDAO.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.colony.io/why-a-post-hard-fork-ethereum-will-be-more-valuable-abc35bbf6e98#.2q2vd0xwo&quot;&gt;Here a TheDAO token holder argues post-hard fork ETH will be more valuable.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unlike Bitcoin, an Ethereum hard fork will not involve a wholesale rollback of the blockchain state. It will involve only a surgical strike to convert theDAO to a withdrawal only contract, allowing theDAO tokens to be redeemed for Ether. That’s it. It will not effect any other transaction history or balances.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;~ This is a very good news since &lt;strong&gt;your positions on exchanges will not be affected&lt;/strong&gt;. There will be a brief period of instability during the actual fork. Because of this, exchanges will freeze withdrawals and deposits for a few hours but trading will carry on as usual. The hard fork will occur and a winnign blockchain will be chosen but all past transactions wil be transferred onto it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It is recommended to record your ETH positions - profits, losses, funding costs and maintenance margin - in case of a glitch on behalf of the exchange.&lt;/em&gt; Make a screenshot or write them on paper and check after the fork if all is OK.&lt;/p&gt;
+
+&lt;p&gt;Another smart argument that speculators will like to see is that ETH hard fork might be very well received by the general public. Forking a coin to mitigate a downside, a bailout effectively, is something most people like to see since it gives them a sense of security. Much like insurance and pension funds. It’s a fact that there are very few people who prefer to really take care of themselves, think through possible risks and manage them - while all this doesn’t make for a good reputation because it is something not quite common among people, making one unpredictable and un-see-through-able for others, which is frowned upon.&lt;/p&gt;
+
+&lt;p&gt;After the hard fork, it’s quite likely ETH will be seen as the legit digital token used for benevolent app development while bitcoin will be seen as the drug money.&lt;/p&gt;
+
+&lt;p&gt;It is quite ironic that a token that has security holes and nothing new about its governance (which is centralized) will come better off out of this but as for trading, there is no truth - the price action depends on if most traders share the same opinion.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;&lt;img src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; title=&quot;Trezor Wallet for bitcoins and altcoins&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;official-statements-of-exchanges&quot;&gt;Official statements of exchanges&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://blog.ethereum.org/2016/07/15/to-fork-or-not-to-fork/&quot;&gt;Here is the official blog of Ethereum foundation.&lt;/a&gt; It’s more about the technical details if that’s what you are interested in.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://poloniex.com/press-releases/2016.07.15-Ethereum-Hard-Fork/&quot;&gt;Poloniex press release assures customers they don’t need to do anything.&lt;/a&gt; Deposits and withdrawals will be paused around the hard fork but all ETH balances will be automatically transferred to the winning blockchain.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.bitfinex.com/posts/118&quot;&gt;Bitfinex also released an announcement, similar to Poloniex.&lt;/a&gt; If you have more questions you can try support or Reddit, where Bitfinex’s product manager resides at /u/zanetackett. He has already been talking about this - browse through his posts before asking. There will be status updates on &lt;a href=&quot;http://bitfinex.statuspage.io/&quot;&gt;http://bitfinex.statuspage.io/&lt;/a&gt; which you can subscribe via email.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;4122a9e5-b2f3-4e80-a502-cb17d6d176a6&quot; data-embed-created=&quot;2016-07-17T08:19:29.133Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/4sxxjf/daily_discussion_15jul2016/d5dp8nj&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/4sxxjf/daily_discussion_15jul2016/&quot;&gt;[Daily Discussion] - 15/Jul/2016&lt;/a&gt;.&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 17 Jul 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/eth-hard-fork/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/eth-hard-fork/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Bitcoin and Altcoin Trading with the Ichimoku Cloud</title>
@@ -841,94 +922,6 @@ BTFD = buy the fucking dip
         <pubDate>Thu, 19 May 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/eth-okcoin-coinbase/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/eth-okcoin-coinbase/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Buy and sell altcoins in one day</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/charts/xmr1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/charts/xmr1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: XMRBTC Chart - Cryptowat.ch&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So you are looking into daytrading with altcoins, basically. You want to buy an altcoin and sell it the same day for profit in bitcoin or fiat. Is that possible?&lt;/p&gt;
-
-&lt;p&gt;The answer is yes, indeed, but not if market moves rapidly.&lt;/p&gt;
-
-&lt;p&gt;####Go for less profits&lt;/p&gt;
-
-&lt;p&gt;If you want to close your position as soon as possible and with profit, don’t look for huge profit from every single trade. You might find them by coincidence but don’t think twice before jumping into them.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you see a breakout on bitcoin markets, you check TA indicators and might decide to buy. Your order probably will fill and you will make it safely to your sell at the top.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If you see parabolic growth on altcoin markets chances are it was a single order pump or so. If you buy there might not be enough sellers if nobody trades long term with that particular altcoin (which depends). If you leave that order there it might first execute on the way back down.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of the altcoin markets are simply not deep enough yet. If you are okay with holding that coin for a few months you might try things but remember that altcoin prices are very volatile. You will either go with your money in an altcoin stuck for a few months or you sell that altcoin and lose big.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Daytrading is the legwork and it also means you don’t want to hold that altcoin.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;####Daytrading example&lt;/p&gt;
-
-&lt;p&gt;Let’s see the title picture for illustration. It shows the recent altcoin crash that indeed also affected Monero. Monero started dropping with what looked like a single sell-off.
-Opportunity for a daytrader?&lt;/p&gt;
-
-&lt;p&gt;Monero has relatively mid to big trade volume and quite some stable audience. A daytrader should buy as low as possible right after the dip (that was at about 0.00275 BTC) and wait for correction. Correction topped at some 0.00321 BTC.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Buy: 1 BTC, at 0.00275 ~ 362 XMR after fee 0.25%
-Sell: 362 XMR, at 0.00321  ~ 1.16144 BTC after fee 0.25%
-Profit ~ 16%
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;####Where to do this?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Smaller alctoins&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You need a good altcoin exchange with real liquidity. That’s only &lt;a href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt; these days.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Poloniex is a full altcoin exchange, you won’t be able to withdraw cash directly though they do have tether. Tether is altcoin that is pegged to USD and linked to a bank account. To obtain a tether address one has to go through full identity verification. &lt;a href=&quot;https://tether.to&quot;&gt;More here&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A major drawback to Poloniex is that their website is not stable enough for the fact that everyone trades there. During major sales or volatility it &lt;em&gt;will be&lt;/em&gt; down or at least cranky.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For these cases it might be better to also have account on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://bleutrade.com/sign_up/25600&quot;&gt;Bleutrade&lt;/a&gt;, a much smaller exchange that also trades many relatively unknown altcoins.&lt;/p&gt;
-
-&lt;p&gt;Apart from these two indeed, do have accounts on &lt;a href=&quot;https://btc-e.com&quot;&gt;BTC-e&lt;/a&gt; which also has some smaller coins like NMC or PPC. You can withdraw fiat on BTC-e - they support services like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;PerfectMoney&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://perfectmoney.is/?ref=7622697&quot;&gt;&lt;img alt=&quot;Perfect Money&quot; src=&quot;/img/ads/pm2.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Big names only&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are only interested in Ether trading, go for the classics.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://kraken.com&quot;&gt;Kraken&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Their volumes are best, for charts head over to &lt;a href=&quot;https://cryptowat.ch/&quot;&gt;Cryptowatch&lt;/a&gt;. These two will also let you withdraw fiat.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/daytrading/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/daytrading/</guid>
         
         
         <category>trading</category>
