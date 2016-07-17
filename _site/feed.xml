@@ -5,9 +5,84 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jul 2016 10:22:34 +0200</pubDate>
-    <lastBuildDate>Sun, 17 Jul 2016 10:22:34 +0200</lastBuildDate>
+    <pubDate>Sun, 17 Jul 2016 14:13:32 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Jul 2016 14:13:32 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Technical Analysis: Divergences</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/ta/bitfinex-divergences.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/ta/bitfinex-divergences.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Divergeces between lows or highs on the price action and the MACD can provide valuable signals.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;so-technical-analysis&quot;&gt;So, technical analysis?&lt;/h4&gt;
+
+&lt;p&gt;Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is astounding. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don’t have as much time to promote the Youtube channel - which is why most often you will not hear about them.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;TA Indicator: Divergences&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is one channel maintained (occasionally) by a redditor /u/drwd. He does a series called “Better know an indicator” which already provided a very fine intro to the Ichimoku cloud for many traders. He made a good video on divergences (“divs”) that is worth looking at unless you are a seasoned trader.&lt;/p&gt;
+
+&lt;iframe width=&quot;700&quot; height=&quot;365&quot; src=&quot;https://www.youtube.com/embed/nGbqFV0koaQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Divergences in short&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Divergence happens when market price disagrees with indicators action. Divergence can be regular, hidden and exaggerated.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Regular Div&lt;/em&gt; is a sign of trend reversal. Price keeps the trend but indicator already shows the reversal.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Signal to short = the price makes higher high but MACD makes lower high. Underlying weakness, possible exhaustion of a bull trend.&lt;/li&gt;
+  &lt;li&gt;Signal to long = the price makes lower low but MACD makes higher low. Underlying strength, possible exhaustion of bears.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Hidden Div&lt;/em&gt; is a divergence that follows the trend.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Signal to short = price makes lower highs but MACD makes higher highs. Tends to be found during a retracement up during a downtrend.&lt;/li&gt;
+  &lt;li&gt;Signal to long = price makes higher low but MACD makes lower low. Tends to be found during a retracement in an uptrend.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Exaggerated Div&lt;/em&gt; is similar to regular div but price action makes double tops and double bottoms.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/ta/divergences1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/ta/divergences1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The logic behind divergences is that sometimes the indicators shows hidden tendencies of the market (strength or weakness) that might not be visible from the price action yet.&lt;/p&gt;
+
+&lt;p&gt;It’s not 100%, as always with technical analysis - the divergence can only inform you about a bias.&lt;/p&gt;
+
+&lt;p&gt;If you’ve read the list above it should be clear to you that you should first look at the bigger picture - are we in an uptrend or a downtrend? - and then start looking for divergences.&lt;/p&gt;
+
+&lt;p&gt;If you master them you can use them as a signal to enter or exit the market - they mark good spots for dip-buying and rally-selling.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;good-to-read&quot;&gt;Good to read:&lt;/h4&gt;
+
+&lt;p&gt;”dukascopy.com / Do you know everything about divergences?” - The image above is taken from dukascopy.com&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dukascopy.com/fxcomm/fx-article-contest/?Do-You-Know-Everything-About=&amp;amp;action=read&amp;amp;id=890&quot; class=&quot;button&quot;&gt;Divs on dukascopy.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;”babypips.com / Divergence cheat sheet” - As images below. PRINT THEM!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.babypips.com/school/high-school/trading-divergences/divergence-cheat-sheet.html&quot; class=&quot;button&quot;&gt;Cheatsheet on babypips.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ta/bp-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ta/bp-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Jul 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/ta-divergences/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/ta-divergences/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Ethereum hard fork and your positions on exchanges</title>
@@ -81,7 +156,7 @@
 &lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
 
 </description>
-        <pubDate>Sun, 17 Jul 2016 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/eth-hard-fork/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/eth-hard-fork/</guid>
         
@@ -866,62 +941,6 @@ BTFD = buy the fucking dip
         <pubDate>Tue, 24 May 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/ethereum-may-2016/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/ethereum-may-2016/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Buy the rumor, sell the news</title>
-        <description>&lt;p&gt;&lt;strong&gt;As of 20th May 2016 it is no longer rumor! &lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/4k47rq/coinbase_exchange_to_rebrand_following_launch_of/&quot;&gt;Coinbase is rebranding to GDAX and is launching Ethereum trading&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/coinbase/coinbase-eth.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/coinbase/coinbase-eth.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Coinbase API already responds to ETH queries.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This is how the rumor started - bitcoin traders looking for a reason for the recent series of dips. There has been a speculation that traders get tired of the ever sideways non-eventness of BTCUSD, are dropping their positions and move funds into ETHBTC and ETHUSD to cash in on the &lt;a href=&quot;http://daohub.org&quot;&gt;DAO&lt;/a&gt; bubble. And there was loads of long positions in BTCUSD with the expectation of the halving which is believed to drive the price up.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So &lt;a href=&quot;https://twitter.com/coinbase&quot;&gt;@coinbase&lt;/a&gt; is adding &lt;a href=&quot;https://twitter.com/search?q=%24ETH&amp;amp;src=ctag&quot;&gt;$ETH&lt;/a&gt;. Go to the exchange, click &amp;quot;My fees&amp;quot; and there it&amp;#39;s listed. &lt;a href=&quot;https://t.co/CmvdvigcRE&quot;&gt;pic.twitter.com/CmvdvigcRE&lt;/a&gt;&lt;/p&gt;&amp;mdash; WhalePanda (@WhalePanda) &lt;a href=&quot;https://twitter.com/WhalePanda/status/733194899265327104&quot;&gt;19. Mai 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Either way, after a tweet with (real or fake?) screenshot from Coinbase featuring ETH appeared, people were looking to verify or deny this, and found out it is most likely real news since Coinbase API already responds to ETH queries.&lt;/p&gt;
-
-&lt;p&gt;You can try it yourself: &lt;a href=&quot;https://api.coinbase.com/v2/prices/buy?currency=ETH&quot;&gt;https://api.coinbase.com/v2/prices/buy?currency=ETH&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/okcoin/okcoin-eth.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/okcoin/okcoin-eth.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There has been a similar rumor regarding OkCoin (The Place To Get Rekt&lt;sup&gt;TM&lt;/sup&gt;) last week. The story went also from people randomly querying the API for ETH. And while once it redirected all wrong requests to BTCUSD, ETH queries for some reson stopped doing that. At some point, a column featuring ETH balance started to show up and someone captured it &lt;a href=&quot;http://archive.is/Kd2VN&quot;&gt;on archive.is right here (scroll below the chart)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So, so far it is all a rumor but indeed, if you went long on ETH as the DAO pump started, you might be a rich man by now. If you didn’t, don’t catch the knife now - the volatility will be wild now. Plenty of time to ride the waves. I can imagine &lt;a href=&quot;https://bestbitcoinexchange.co/leveraged-trading.html#some-numbers&quot;&gt;with OKCoin’s 20x leverage it will be a bloodbath&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;####Services that also announced ETH support&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com/?a=fany@tutanota.com&quot;&gt;TREZOR the bitcoin wallet &lt;/a&gt; already supports altcoins, unlike Ledger. They &lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/4jsz9j/ethereum_support_coming_soon_to_trezor/&quot;&gt;announced&lt;/a&gt; they will now support ETH too.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://plutus.it/&quot;&gt;Plutus&lt;/a&gt; is now planning to feature &lt;a href=&quot;https://www.reddit.com/r/plutus/comments/4jw8j4/crowdsale_updates_pludao_eth_payment_option/&quot;&gt;Ethereum as a payment option&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;Up&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;&lt;img src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; title=&quot;Trezor Wallet for bitcoins and altcoins&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-</description>
-        <pubDate>Thu, 19 May 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/eth-okcoin-coinbase/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/eth-okcoin-coinbase/</guid>
         
         
         <category>trading</category>
