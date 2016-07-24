@@ -8,7 +8,7 @@ image:
 - "/img/charts/ethdash.jpg"
 image_alt:
 - "ETH-Dash chart (data from ShapeShift instant exchange, chart altcoinwisdom.com)"
-update: 2016-05-30
+update: 2016-07-20
 ---
 
 
@@ -22,9 +22,9 @@ What is it all about altcoins in 2016? It looks like a big thing starting out. S
 
 So, to the altcoin value, apart from the fact that every altcoin is _new paradigm, totally_ and _absolutely something new_, there are two, well - actually three categories of altcoins out there.
 
-###Types of altcoins
+### Types of altcoins
 
-####Altcoins as money
+#### Altcoins as means of payment
 
 Some altcoins were developed as means of payment. You can usually tell from the coin's name - like _Monero_ or _Digital Cash (DASH)_. Litecoin was also developed primarily for payments.
 
@@ -48,7 +48,7 @@ Up until recently LTC was the second most popular altcoin. It was created to han
 
 Similar properties regarding volumes also has Nextcoin.
 
-####Altcoins as tokens
+#### Altcoins as tokens
 
 Some altcoins were developed with blockchain technology in mind. Anyone who wants to participate in whatever lives on whichever blockchain needs to have the appropriate token. That can be _Ether_ or _MaidSafeCoin_, for instance.
 
@@ -87,8 +87,23 @@ Ripple is focused on smart contracts too. As a currency, its value is that of a 
 
 BitShares are one of the most interesting ideas in the altcoin space (click [here](https://bitsharestalk.org/index.php?topic=7628.0) for ELI5). The concept of BTS are shares in Decentralized Autonomous Companies (DACs). Anyone can become a "shareholder" of the first DAC by buying BitShares. The company's work is then focused on revenue generation in form of bitUSD or whatever the company decides to call their profit unit. That is: the profit is generated in form of a "currency" pegged to USD. BTS (BitShares) can be thought of as a regular stock on a stock market
 
+**List of "Smart Contract" Coins**
 
-####Shitcoins
+* ETH
+* DAO
+* LISK
+* MAID
+* ~~XRP / Codius~~
+* BURST
+* XCH
+* STEEM
+
+Some reading:
+
+* [How smart contracts work @changelly.com](https://changelly.com/blog/how-smart-contracts-work/)
+* [Steem as a Smart Contract Platform](https://steemit.com/lisk/@dan/why-lisk-is-inferior-to-ethereum)
+
+#### Shitcoins
 
 Last category are shitcoins. Coins that were created as an ego-blast of someone who could afford to pay the programmer and have no value proposition. If you check their websites you will see generic terms and buzzwords regarding issues that were already solved by many altcoins before, like
 
