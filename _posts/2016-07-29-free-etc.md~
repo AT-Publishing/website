@@ -1,0 +1,37 @@
+---
+layout: blog
+title: "How to get free ETC out of thin air"
+description: "There is no code implemented to stop duplicating coins from one chain to another. Free money!"
+category: "trading"
+permalink: free-etc/
+image:
+- "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-1.jpg"
+image_alt:
+- "Small part of Ethereum community formed Ethereum Classic."
+update: 2016-07-29
+---
+
+{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+
+_Image: {{page.image_alt[0]}}_
+
+________________________
+
+This [gist](https://gist.github.com/taoeffect/c910ebb16d9f6d248e9f1f3c6e10b1b8) explains it all.
+
+> [...]At the moment it's more like there are "1.25 Ethereum chains" because of the replay attacks, which are causing almost every transaction to get mirrored on the other chain. Replay attacks are possible because Ethereum's hard fork did not take steps to make Ethereum transactions invalid on the original chain. Instead, all transactions are valid on both chains unless special smart contracts are used to distinguish between them (and most users probably aren't doing this).
+
+```
+Send BTC to Coinbase
+Transfer instantly that BTC to GDAX (Coinbase's fancy trading platform)
+Trade BTC for ETH on GDAX
+Transfer that ETH back to Coinbase
+Transfer that ETH then to Poloniex (unclear whether skipping Step 4 and doing a direct transfer is possible)
+Poloniex should "credit" you ETC for that ETH
+Sell ETH and ETC for BTC
+Send BTC back to Coinbase (repeat)
+```
+
+{{ site.ads.aads728 }}
+
+<div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="702e8fcc-1caa-477e-9725-9b2f7645c5d3" data-embed-created="2016-07-29T04:24:40.540Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4uysor/daily_discussion_thursday_july_28_2016/d5v9dc5">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4uysor/daily_discussion_thursday_july_28_2016/">[Daily Discussion] Thursday, July 28, 2016</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
