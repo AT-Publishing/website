@@ -5,9 +5,49 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Jul 2016 20:03:55 +0200</pubDate>
-    <lastBuildDate>Sun, 24 Jul 2016 20:03:55 +0200</lastBuildDate>
+    <pubDate>Fri, 29 Jul 2016 06:28:28 +0200</pubDate>
+    <lastBuildDate>Fri, 29 Jul 2016 06:28:28 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>How to get free ETC out of thin air</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Small part of Ethereum community formed Ethereum Classic.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This &lt;a href=&quot;https://gist.github.com/taoeffect/c910ebb16d9f6d248e9f1f3c6e10b1b8&quot;&gt;gist&lt;/a&gt; explains it all.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…]At the moment it’s more like there are “1.25 Ethereum chains” because of the replay attacks, which are causing almost every transaction to get mirrored on the other chain. Replay attacks are possible because Ethereum’s hard fork did not take steps to make Ethereum transactions invalid on the original chain. Instead, all transactions are valid on both chains unless special smart contracts are used to distinguish between them (and most users probably aren’t doing this).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Send BTC to Coinbase
+Transfer instantly that BTC to GDAX (Coinbase&#39;s fancy trading platform)
+Trade BTC for ETH on GDAX
+Transfer that ETH back to Coinbase
+Transfer that ETH then to Poloniex (unclear whether skipping Step 4 and doing a direct transfer is possible)
+Poloniex should &quot;credit&quot; you ETC for that ETH
+Sell ETH and ETC for BTC
+Send BTC back to Coinbase (repeat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;702e8fcc-1caa-477e-9725-9b2f7645c5d3&quot; data-embed-created=&quot;2016-07-29T04:24:40.540Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/4uysor/daily_discussion_thursday_july_28_2016/d5v9dc5&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/4uysor/daily_discussion_thursday_july_28_2016/&quot;&gt;[Daily Discussion] Thursday, July 28, 2016&lt;/a&gt;.&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+        <link>https://www.altcointrading.net/free-etc/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/free-etc/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Ethereum Classic on Poloniex today, on Bitfinex soon</title>
@@ -807,112 +847,6 @@ financial instruments on the blockchain.&lt;/p&gt;
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/waves/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/waves/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Technical Analysis in Altcoin Trading</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/ethereum.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/ethereum.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Ethereum has enough volume, technical analysis is justified.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;What’s the &lt;strong&gt;best technical indicator&lt;/strong&gt; for an altcoin?&lt;/p&gt;
-
-&lt;p&gt;Who knows.&lt;/p&gt;
-
-&lt;p&gt;You should be asking if &lt;strong&gt;technical analysis&lt;/strong&gt; will apply for your altcoin at all.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;In any case, markets are small and available leverage easy to get. In some cases, like with LTC or ETH, the leverage available is 20x or more. LTC is traded on Okcoin, ETH has futures on BitMEX. It’s easy to be a whale and manipulate the markets.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Usually, if a trend is good, some changes in volume should occure before a spike or chop. But volume indicators should only be applied above certain daily volume. Otherwise the market is too susceptible to manipulation.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;daily-volume&quot;&gt;Daily volume&lt;/h2&gt;
-
-&lt;p&gt;You can see volume for last 24 hours on &lt;a href=&quot;http://coinmarketcap.com/&quot;&gt;coinmarketcap.com&lt;/a&gt;. You should be looking at 100k USD and up if you want to use TA meaningfully.&lt;/p&gt;
-
-&lt;p&gt;That’s not to say you shouldn’t trade anything else. It’s just that your everyday usual normal technical analysis won’t work there.&lt;/p&gt;
-
-&lt;p&gt;Take for instance Lisk and The DAO. Both these things were launching on Poloniex (and elsewhere) at close dates. In both cases there was ICO (initial coin offering) where people could buy the token with a discount.&lt;/p&gt;
-
-&lt;p&gt;Very similar situation but different sentiment. There was a lot of talking about DAOs in general (that they are pretty much nonsense). There was no such talk about LISK.&lt;/p&gt;
-
-&lt;p&gt;Even though the long term value is questionable in both cases, people launched the trading with the sentiment “new playground for traders, upupupupup free money” in the case of Lisk and with the sentiment “where can I short it?” in the case of The DAO tokens.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-to-look-for&quot;&gt;What to look for?&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;1/ News&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Read forums, slack chats, gitter chats, idiotic click baits in well-respected printed media etc. Forget about truth or justice. Buy the rumor, sell the news.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2/ Price&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Set up price alarm. For altcoins it’s easy to do on mobile with app called TabTrader. It’s free. On desktop you can try cryptowat.ch and bitcoinwisdom.com. During rally though cryptowat.ch tends to lag.&lt;/p&gt;
-
-&lt;p&gt;Once there is a spike or chop in price, it’s generally good idea to trade it as it usually doesn’t end after the first leg. Unless it is a &lt;em&gt;head fake&lt;/em&gt;, a fake movement that will turn into big trend in the other direction. Look for price patterns, more on that in the resources section further down.&lt;/p&gt;
-
-&lt;p&gt;Indicators that will tell you if the altcoin has enough juice to carry on the movement it started are momentum indicators. They are all lagging though - based on past price only. Look for patterns and use indicators only for confirmations.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3/ Volume&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Sometimes, when the volume of the altcoin is good enough, you will see increase in buying volume before the price moves up or increased selling volume before the price drops. There are volume based indicators that follow just that.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bitcoinwisdom has &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:chaikin_money_flow_cmf&quot;&gt;CMF - Chaikin money flow&lt;/a&gt; which is probably your best option.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cryptowatch has &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:on_balance_volume_obv&quot;&gt;OBV - on balance volume&lt;/a&gt;. To spot emerging trend on Cryptowatch you can also use &lt;a href=&quot;http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:aroon&quot;&gt;Aroon&lt;/a&gt; even though it’s a momentum indicator.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;resources-to-learn-technical-analysis&quot;&gt;Resources to learn technical analysis&lt;/h2&gt;
-
-&lt;p&gt;…the good way.&lt;/p&gt;
-
-&lt;p&gt;You won’t find here any resources that give explicit trading or investment advice. That’s not meant to be (just) the standard no investment advice disclaimer but for real - you should try and see what fits you and what’s the best way you can form decisions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;John Bollinger&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The creator of Bollinger bands is on twitter and sometimes posting crypto-related ideas.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thanks to all the Bitcoin folk who acknowledged my work! BTCUSD is a great vehicle for Bollinger Band analysis. Look at other pairs too.&lt;/p&gt;&amp;mdash; John Bollinger (@bbands) &lt;a href=&quot;https://twitter.com/bbands/status/736226984322203648&quot;&gt;27. Mai 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;There is also a website called &lt;a href=&quot;http://www.bollingeronbollingerbands.com/methods/?m=3&quot;&gt;Bollinger on Bollinger bands&lt;/a&gt; that is full of methods for signal recognition, typical patterns etc. But as the author says himself - try it out yourself and see what fits you. It’s a long read and a 90’s style website but it’s worth it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.bollingeronbollingerbands.com/methods/?m=0&quot; class=&quot;button&quot;&gt;Bollinger on BBANDS&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Chart Patterns&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Simple website not loaded with tons of graphics and ad trash. Just text and a couple of images showcasing chart patterns. Take a look at triangles and pennants if you want to look smart in crypto-trading chats.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.chartpatterns.com/&quot; class=&quot;button&quot;&gt;Chart Patterns&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Swing Trading Stocks&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here it’s not so much about the nitty gritty of technical analysis and more about strategies and methods how to day trade. If you are looking to swing trading altcoins, or even any altcoin trading in shorter timespans, not holding long term - this one will be good for you.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.swing-trade-stocks.com/&quot; class=&quot;button&quot;&gt;Swing Trading Stocks&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 May 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/technical-analysis/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/technical-analysis/</guid>
         
         
         <category>trading</category>
