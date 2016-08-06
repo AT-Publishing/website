@@ -25,6 +25,14 @@ Bad news for all ETH, ETC or LTC traders is that even though their assets were n
 
 Here is the most important info you might have missed if you haven't been lurking on Reddit since that not-so-much-black-swan event happened.
 
+## Update - Recording of Zane Tackett's press conference on teamspeak
+
+<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=s1TgZO1BXVZw&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=s1TgZO1BXVZw&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object><br><a href="http://vocaroo.com" style="font-size:xx-small;" title="Vocaroo Voice Recorder">Online recording software &gt;&gt;</a>
+
+> Yes, Bitfinex takes part in paying the missing money. All customers will get a haircut of 36%. The hack wasn't done via logging into customers accounts. There will be a shitcoin released to pay for the 36% that will not be paid back right now. No details about the hack.
+
+_____________________________
+
 #### Will it affect the general trust in cryptocurrencies?
 
 There is a lot of people who don't really think so.
