@@ -20,7 +20,7 @@ ________________________
 [Link to Kraken's blog](http://blog.kraken.com/post/155126375697/kraken-launches-monero-trading)
 
 * Monero trading on Kraken opened on 2nd of January 2017
-* There is a herd fork on 9th or 10th of January 2017, deposits will be defunct shortly
+* There is a hard fork on 9th or 10th of January 2017, deposits will be defunct shortly
 * Available pairs: XMR/XBT, XMR/EUR, XMR/USD (all spot)
 * Margin trading coming soon.
 

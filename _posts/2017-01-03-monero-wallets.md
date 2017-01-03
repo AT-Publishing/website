@@ -20,7 +20,7 @@ _Image: {{page.image_alt[0]}}_
 ________________________
 
 
-Monero is undoubtedly one of the altcoins that cannot be called shitcoin: private and untracable, developers are responsive and not assholes just collecting money, setup is trustless. Yet if you want to trade the coin the only hassle free way seems to be the dodgy setup of money on the exchange. Since the Bitfinex hack in August 2016 it has been a popular topic to joke whether thenext in line is Kraken or Poloniex.
+Monero is undoubtedly one of the altcoins that cannot be called shitcoin: private and untracable, developers are responsive and not assholes just collecting money, setup is trustless, market cap grew insanely in 2016. Yet if you want to trade the coin the only hassle free way seems to be the dodgy setup of money on the exchange. Since the Bitfinex hack in August 2016 it has been a popular topic to joke whether thenext in line is Kraken or Poloniex.
 
 Either way, if you trade Monero short term on spot or with leverage you can always cashout Bitcoin and store it in your Electrum or Mycelium wallet.
 
