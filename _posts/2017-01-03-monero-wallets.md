@@ -56,7 +56,9 @@ This client is your best bet if you want GUI and don't want to store your coins 
 
 **[getmonero.com](https://getmonero.org/downloads/)**
 
-Of course, if you don't mind running the full node, there is a command-line wallet that comes with it. No GUI though - you need to use the command line.
+Of course, if you don't mind running the full node, on the main "Downloads" page there is a command-line wallet that comes with it. No GUI though - you need to use the command line.
+
+There is a beta release of Monero GUI as of 22 Dec 2016 - [see here](https://getmonero.org/2016/12/22/monero-core-gui-beta-released.html). [Redditors are sofar excited](https://www.reddit.com/r/Monero/comments/5jr7r4/monero_core_gui_beta_1_released/).
 
 
 
@@ -128,7 +130,7 @@ ______________________
 
 So, the problem is that as Monero keeps evolving the codebase is not stable enough to think about hardware implementations. The code gets obsolete before there is chance to properly test it.
 
-Hopefully, there will at least be a native GUI soon™.
+
 
 
 {{ site.ads.aads728 }}

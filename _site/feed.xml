@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Jan 2017 05:37:14 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Jan 2017 05:37:14 +0100</lastBuildDate>
+    <pubDate>Tue, 03 Jan 2017 05:51:19 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2017 05:51:19 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -51,7 +51,9 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;getmonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Of course, if you don’t mind running the full node, there is a command-line wallet that comes with it. No GUI though - you need to use the command line.&lt;/p&gt;
+&lt;p&gt;Of course, if you don’t mind running the full node, on the main “Downloads” page there is a command-line wallet that comes with it. No GUI though - you need to use the command line.&lt;/p&gt;
+
+&lt;p&gt;There is a beta release of Monero GUI as of 22 Dec 2016 - &lt;a href=&quot;https://getmonero.org/2016/12/22/monero-core-gui-beta-released.html&quot;&gt;see here&lt;/a&gt;. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5jr7r4/monero_core_gui_beta_1_released/&quot;&gt;Redditors are sofar excited&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;web-client&quot;&gt;Web Client&lt;/h4&gt;
 
@@ -134,8 +136,6 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
 &lt;hr /&gt;
 
 &lt;p&gt;So, the problem is that as Monero keeps evolving the codebase is not stable enough to think about hardware implementations. The code gets obsolete before there is chance to properly test it.&lt;/p&gt;
-
-&lt;p&gt;Hopefully, there will at least be a native GUI soon™.&lt;/p&gt;
 
 &lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 </description>
