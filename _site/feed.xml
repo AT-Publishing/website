@@ -5,9 +5,148 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Aug 2016 23:08:05 +0200</pubDate>
-    <lastBuildDate>Sat, 06 Aug 2016 23:08:05 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Tue, 03 Jan 2017 05:27:06 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Jan 2017 05:27:06 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Monero - Where the heck are you supposed to cold-store it?</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/monero-logo.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/monero-logo.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: XMR wallet&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Monero is undoubtedly one of the altcoins that cannot be called shitcoin: private and untracable, developers are responsive and not assholes just collecting money, setup is trustless. Yet if you want to trade the coin the only hassle free way seems to be the dodgy setup of money on the exchange. Since the Bitfinex hack in August 2016 it has been a popular topic to joke whether thenext in line is Kraken or Poloniex.&lt;/p&gt;
+
+&lt;p&gt;Either way, if you trade Monero short term on spot or with leverage you can always cashout Bitcoin and store it in your Electrum or Mycelium wallet.&lt;/p&gt;
+
+&lt;p&gt;What if you want to invest in Monero long term? You should not leave the coin on an exchange and forget about it for a couple of months.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;lightweight-client-like-electrum-for-moneroeh&quot;&gt;Lightweight client like Electrum for Monero…Eh?&lt;/h4&gt;
+
+&lt;blockquote class=&quot;reddit-card&quot; data-card-created=&quot;1483411736&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/?ref=share&amp;amp;ref_source=embed&quot;&gt;Will there ever be a lightweight wallet (like Electrum) for Monero?&lt;/a&gt; from &lt;a href=&quot;http://www.reddit.com/r/Monero&quot;&gt;Monero&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//embed.redditmedia.com/widgets/platform.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Every cryptotrader knows Electrum. It’s the lightweight wallet that is easy to use and doesn’t need you to download the full blockchain. There are integrations - Electrum for Litecoin and Dash (&lt;a href=&quot;/altcoin-wallets/&quot;&gt;see here&lt;/a&gt;). Unfortunately, nothing like this for Monero.&lt;/p&gt;
+
+&lt;p&gt;The only alternative for Monero is software called LightWallet. It is not the same system as Electrum - it needs full node, the &lt;em&gt;light&lt;/em&gt; part is that the node runs somewhere else and the wallet connects to it from outside.&lt;/p&gt;
+
+&lt;p&gt;In other words someone runs the node for you and will let your wallet to use it.&lt;/p&gt;
+
+&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;true&quot; data-embed-uuid=&quot;61d47572-8d5f-448b-92bd-3ae43bd693f4&quot; data-embed-created=&quot;2017-01-03T02:49:16.915Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/d2hnur8/&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/&quot;&gt;Will there ever be a lightweight wallet (like Electrum) for Monero?&lt;/a&gt;.&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=903579.0&quot;&gt;Lightweight wallet&lt;/a&gt;, &lt;a href=&quot;https://github.com/jwinterm/LightWallet2/releases&quot;&gt;Releases on Github - exe for Windows and jar for Linux/Android/anything with java&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to have simplewallet and necessary dlls in the same folder as LightWallet to run the program - you will get these on the official download page at &lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;getmonero.com&lt;/a&gt;. Or, you know, &lt;a href=&quot;https://github.com/jwinterm/LightWallet2&quot;&gt;read the docs yourself&lt;/a&gt; actually.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/xmr-lightwallet.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/xmr-lightwallet.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This client is your best bet if you want GUI and don’t want to store your coins with some third party web service.&lt;/p&gt;
+
+&lt;h4 id=&quot;full-node&quot;&gt;Full Node&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;getmonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, if you don’t mind running the full node, there is a command-line wallet that comes with it. No GUI though - you need to use the command line.&lt;/p&gt;
+
+&lt;h4 id=&quot;web-client&quot;&gt;Web Client&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mymonero.com/#/&quot;&gt;mymonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is something that is actually endorsed on the getmonero.com website unlike the LightWallet. MyMonero is website that will get you a Monero address, sign up pretty much takes one click. You click the one and only button on the landing page and in thenext step it is already showing you your private login key:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Below this you will find your thirteen word “Private Login Key”. Keeping this secure and private is very important, as it is the only way that you will be able to login to your MyMonero account. As we don’t store your private login key on the server there is no way to recover it if it is lost!&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The next step is already your web wallet, it doesn’t even want your email address:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/mymonero.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/mymonero.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pretty impressive.&lt;/p&gt;
+
+&lt;p&gt;If you don’t want to use MyMonero for some reason, there are also multi-altcoin web wallets like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.cryptonator.com/about&quot;&gt;Cryptonator&lt;/a&gt; but in this case I’d follow the XMR devs endorsement.&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware-wallets&quot;&gt;Hardware Wallets&lt;/h3&gt;
+
+&lt;p&gt;If you are a serious believer it would of course be ideal to have proper cold storage. However the present situation is still bleak.&lt;/p&gt;
+
+&lt;h4 id=&quot;trezor-hardware-wallet-and-monero&quot;&gt;Trezor hardware wallet and Monero&lt;/h4&gt;
+
+&lt;p&gt;Developer &lt;a href=&quot;https://forum.getmonero.org/4/academic-and-technical/2495/experimental-trezor-firmware-testing&quot;&gt;NoodleDoodle started thread on the official Monero forum&lt;/a&gt; documenting that he’s working on Trezor firmware that would support XMR. He kept the thread updated with new (experimental) releases up until December 2016 when the links to his Github repo went defunct. Alarmed Monero users started inquiring and &lt;a href=&quot;https://www.reddit.com/r/TREZOR/comments/5ezhly/monero_with_trezor/&quot;&gt;here&lt;/a&gt; is the response that was posted on Reddit:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NoodleDoodle’s experimental binaries are available &lt;a href=&quot;https://forum.getmonero.org/4/academic-and-technical/2495/experimental-trezor-firmware-testing&quot;&gt;here&lt;/a&gt;, while his source code is no longer posted at github, but source code forks are referenced &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5dnhgv/does_anyone_have_a_linkcopy_to_noodledoodles/&quot;&gt;here&lt;/a&gt;.
+&lt;strong&gt;The experimental V0313 simplewallet client supports the –hardware-wallet flag, i.e. ./simplewallet –hardware-wallet 0. This simplewallet command will cease to function about this time next year when implementation of CT functionality becomes mandatory.&lt;/strong&gt; This point about CT forced me to examine how well the experimental code supports wallet recovery from 25 Electrum mnemonic seed words synthesized from the 24 BIP 39 mnemonic seed words - used to typically restore a Trezor hardware wallet. No use in using a Trezor with an experimental Monero capability unless there is a “reliable” means to perform a software wallet restore when Monero CT becomes mandatory.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I was unsuccessful carrying out the 25 Electrum seed word recovery unless the Trezor V0313 firmware was used with with no Trezor password (a plausible deniability rubber-hose password) that can complement the a Trezor’s connection PIN. For example, within the V0313 binary distributions there is a C++ ./trezorctl command, which is different from https://github.com/trezor/python-trezor/blob/master/trezorctl. Try a V0313
+% ./trezorctl recover_mnemonic 0 “” English explain olympic caught soccer ethics retire outdoor giant deposit legal quarter cupboard radar silent palm ecology scrap adapt install bone warm clog fantasy language
+Private key: f7a5feeec0bf87c4124c158d298388f3adf0009ad35cdbfcde4888a95ba8d200 Wallet address: 49y97TqN1yyHMPmHPWFt7aHkF9zpLdGV51Lsx8j7tEDuHw7kALtQVoWTyitz5qhcwADnPsg7fFKZs5XynjzDuTm134tRyyv Mnemonic: exult toenail snug dotted germs begun dual lettuce alpine enlist patio nutshell upon cuddled shocking gumball upgrade unfit glide camp sovereign neither smash snake lettuce&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For the 24 word BIP 39 seed test vector above, I could only get a blank password (the empty quotes after the integer 0) to be used to reconstitute a Monero wallet that didn’t involve the Trezor hardware device using either simplewallet or monero-wallet-cli using the bolded mnemonic with the –restore-deterministic-wallet argument.
+IMO, the Monero Trezor wallet capability is at a standstill unless some serious software development talent steps up to the plate an takes over were NoodleDoodle left off, or NoodleDoodle is incentivized to get the ball rolling again so hardware wallet vendors can perform tighter integrations with their existing frameworks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If memory serves me from postings, &lt;strong&gt;NoodleDoodle is more interested with trying to integrate Monero with Ledger or Keepkey hardware implementations 1st&lt;/strong&gt; before pressing forward with any other Trezor integrations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Another point worth noting is the &lt;strong&gt;current Monero Trezor implementation is not consistent with recommended BIP 32/39/44 test vector results&lt;/strong&gt; posted here that properly mimics Trezor password behaviors. Additionally, bitcoin-explorer (bx) commands also faithfully mimic Jaxx private/public keys and address synthesis abilities for a number of other altcoins. (Worth noting Jaxx doesn’t currently support BIP 39 passwords.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As another example, using the same BIP 39 seed words above, and a rubber-hose password of 1234, here the results relevant to m/44/128/0 which IMO should correspond to ./simplewallet –hardware-wallet 0 to simplify integration with existing hardware wallets in general:
+% echo “explain olympic caught soccer ethics retire outdoor giant deposit legal quarter cupboard radar silent palm ecology scrap adapt install bone warm clog fantasy language” | bx mnemonic-to-seed -p “1234” | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 | bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
+Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private Spend Key : 1f326ada06a021e5eb29955abef22d2c05b8c16d79b3fee2f9108162876e4a0f Private View Key : beb076f8fa3e0c4508a111c683e85bde8776886d5654f15fede38b4f34c21b04 Public Spend Key : 932ab0238a1091443b1374f7d078ee4fc5a7797f9f1b1aaad54cda388a1e397a Public View Key : 8f6efc5e1187ea49ec2969fbdd4416d06d739ea0b2ef0aa2c394eeb04820c609 Monero Address : 47Ca9Q9pMEQCQvazCgp1oTELtaAHGB2CyVaJAzHZQbvQMVzKgU2FEdFDN9B3TeNChbbs1Ur8bnCdFUE1r7zpKc7X26Quv91 Electrum Seed Words : aspire argue upwards bias berries zero eldest anybody illness voyage fizzle laboratory sewage emit powder foyer sanity oyster vitals afloat igloo gleeful heels ivory oyster&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;FYSA - Monero kicked my butt for a while to determine how to write the ./xmr command above in C++.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In other words, the experimental Trezor firmware became obsolete before it stopped being experimental.&lt;/p&gt;
+
+&lt;p&gt;There already was a &lt;a href=&quot;https://forum.getmonero.org/9/work-in-progress/265/adding-monero-support-for-trezor?page=&amp;amp;noscroll=1#post-1520&quot;&gt;project to add Trezor support for Monero&lt;/a&gt; (even successfully funded!) in 2015 but it is marked as &lt;strong&gt;“Completed  -  Failed promises and broken dreams”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt;&lt;img src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; title=&quot;Trezor Wallet for bitcoins and altcoins&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;ledger-the-hardware-wallet-and-monero&quot;&gt;Ledger the hardware wallet and Monero&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Ledger Wallet already supports altcoins as long as they support BIP39 and BIP 32. However, a client application (the software wallet) is needed to communicate with the chip. Fork the Ledger Chrome app (https://github.com/LedgerHQ/ledger-wallet-chrome) and build support for the altcoin.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.ledgerwallet.com/knowledge_base/topics/are-altcoin-supported-by-ledger-hardware-wallets&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;text-center&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt;&lt;img alt=&quot;Ledger Wallet protects your bitcoins&quot; src=&quot;https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So, the problem is that as Monero keeps evolving the codebase is not stable enough to think about hardware implementations. The code gets obsolete before there is chance to properly test it.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, there will at least be a native GUI soon™.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 03 Jan 2017 00:00:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/monero-wallet/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/monero-wallet/</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>The Finexening - Bitfinex hack</title>
@@ -145,7 +284,7 @@
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Send BTC to Coinbase
-Transfer instantly that BTC to GDAX (Coinbase&#39;s fancy trading platform)
+Transfer instantly that BTC to GDAX (Coinbase's fancy trading platform)
 Trade BTC for ETH on GDAX
 Transfer that ETH back to Coinbase
 Transfer that ETH then to Poloniex (unclear whether skipping Step 4 and doing a direct transfer is possible)
@@ -779,132 +918,6 @@ It is calculated from past EMAs and highs vs lows, among other things, &lt;a hre
         <pubDate>Fri, 17 Jun 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/eth-17-06-2016/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/eth-17-06-2016/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Some more ICOs in 2016?</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/icowatch.jpeg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/icowatch.jpeg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: In case you missed DAO, Lisk and Waves you might be firing up the search engines in the mighty state of FOMO. Well, there is not much to miss this year.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;ico-watching-services&quot;&gt;ICO Watching Services&lt;/h4&gt;
-
-&lt;p&gt;Right first off: There are a few websites that gather information about ICOs.&lt;/p&gt;
-
-&lt;p&gt;First of all you can go directlt to &lt;a href=&quot;http://icostart.com&quot;&gt;icostart.com&lt;/a&gt; and place random bets. But if you are not a gambler, sign up for newsletter at icocountdown and also watch their blog where they do some good investigative journalism, pretty much.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.icocountdown.com/&quot; class=&quot;button&quot;&gt;Homepage IcoCountdown.com&lt;/a&gt;  &lt;a href=&quot;https://medium.com/@icocountdown/&quot; class=&quot;button&quot;&gt;Blog IcoCountdown&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;you-think-you-know-whats-ico&quot;&gt;You think you know what’s ICO&lt;/h4&gt;
-
-&lt;p&gt;You think you know what’s ICO, right? Initial coin offering, a way to crowdfund development of a new blockchain-based platform. Funds or social media support are provided in return for tokens that are sold out cheap in the presale so &lt;em&gt;speculators&lt;/em&gt; buy in hoping the token will eventually get dearer.&lt;/p&gt;
-
-&lt;p&gt;Well that is quite wrong my friend! Initial coin offering is actually more realistically an easy way for the project leaders to get rich and then let the project stall for whatever reason (governance issues, technical issues, political issues, personal issues) which can in turn serve as a good reason to open a new ICO for a fork of the stalled project (with better governance etc).&lt;/p&gt;
-
-&lt;p&gt;It is easy to get the money off of people since tokens on ICOs are always speculative in value so anyone setting up an ICO for a vaporware token will get away with that.&lt;/p&gt;
-
-&lt;h4 id=&quot;so-is-it-a-good-idea-to-invest-in-an-ico&quot;&gt;So is it a good idea to invest in an ICO?&lt;/h4&gt;
-
-&lt;p&gt;It might be a good idea in some cases - and that’s how many investors think about that: If the project turns out to be vapor and you didn’t go all in, it’s easy to write off a bunch of tokens that were actually very cheap and also a &lt;em&gt;small investment as a whole&lt;/em&gt;. If on the other hand the rare event should occur that the coin will get relatively expensive (like ETH) you might get a very &lt;em&gt;outsized profit&lt;/em&gt; which will also cover the losses - if you let the winner ride, which can be nerve wrecking.&lt;/p&gt;
-
-&lt;h4 id=&quot;some-research-is-needed-though&quot;&gt;Some research is needed though&lt;/h4&gt;
-
-&lt;p&gt;The way I described the ICO investment, it’s very similar to betting. That’s something to keep in mind - because in gamble it might be a good idea to bet on the jockey, not the horse: &lt;strong&gt;Google some information about the project leaders.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It is usually fairly easy to find out if the leaders were previously related to a failed shitcoin in which case it might be a good idea to stay the fuck away.&lt;/p&gt;
-
-&lt;p&gt;Let’s see what’s still out there for the rest of 2016.&lt;/p&gt;
-
-&lt;h4 id=&quot;pending-icos-in-june-2016&quot;&gt;Pending ICOs in June 2016&lt;/h4&gt;
-
-&lt;p&gt;And let’s pick those kind of interesting. There are plenty more, you can invest directly at &lt;a href=&quot;https://www.icostart.com/&quot;&gt;icostart.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h6 id=&quot;plutusin--get-plutons&quot;&gt;Plutus.in / Get Plutons&lt;/h6&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;To Be Announced - June 2016&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Plutus was on the radar since deep into last year already as a platform claiming to &lt;em&gt;not trying to change the paradigm&lt;/em&gt;, but rather &lt;em&gt;working with what’s out there&lt;/em&gt;. Next to all the shitcoins that are definitely the next big thing this sound incredibly sane.&lt;/p&gt;
-
-&lt;p&gt;The use case, to keep it simple, is something like a proxy: You want to shop in a store that only accepts USD, you send a cryptocurrency equivalent to plutus and they will pay the goods for you via a virtual debit card.&lt;/p&gt;
-
-&lt;p&gt;The exchange/contract logic runs on Ethereum blockchain with plutons as tokens that can be used to get a rebate for using the platform.&lt;/p&gt;
-
-&lt;p&gt;The question is if you are not better off simply with a virtual credit card of Advcash or Neteller - and you know many merchants don’t want to accept these anyway. But you see that it is not a complete bullshit. The crowdsale is yet to be announced, you can sign up for news on the homepage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://getplutons.plutus.it/&quot;&gt;Plutus ICO homepage&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;icoo--initial-coin-offering-open-ledger&quot;&gt;ICOO / Initial Coin Offering Open Ledger&lt;/h6&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Crowdsale On in June 2016&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The Danish cryptocurrency platform, CCEDK, and OpenLedger have announced the crowdsale of its Initial Coin Offering OpenLedger (ICOO) crowdsale.&lt;/p&gt;
-
-&lt;p&gt;ICOO crowdsale allows people to buy ICOO tokens with Bitcoin or any other currency supported on the CCEDK or OpenLedger platform. However, all the payments towards ICOO tokens, irrespective of the currency will be converted to Bitcoin to prevent loss of value.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.icoo.io/&quot;&gt;ICOO has quite a lot of info about the project&lt;/a&gt;. If you want it more PR-style, &lt;a href=&quot;http://www.newsbtc.com/2016/05/25/initial-coin-offering-openledger-icoo/&quot;&gt;try newsbtc.com&lt;/a&gt;. To see the Danish trading platform CCEDK &lt;a href=&quot;https://www.ccedk.com/&quot;&gt;click here&lt;/a&gt;, &lt;a href=&quot;https://www.openledger.info/&quot;&gt;Open Ledger is a transparent decentralized crypto exchange&lt;/a&gt; using OBITS as means of investing in digital assets.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The ICOO’s tokens crowdsale details:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Start Date: May 20th at 18:00 UTC.&lt;/p&gt;
-
-&lt;p&gt;Duration: 42 days.&lt;/p&gt;
-
-&lt;p&gt;Conversion Schedule:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;For the first 12 days: 1000 ICOO tokens for 1 bitcoin (BTC)&lt;/li&gt;
-  &lt;li&gt;For the 15 subsequent days: 925 ICOO tokens for 1 bitcoin (BTC)&lt;/li&gt;
-  &lt;li&gt;For the 10 successive days: 850 ICOO tokens for 1 bitcoin (BTC)&lt;/li&gt;
-  &lt;li&gt;For the last 5 days: constant 775 ICOO tokens for 1 bitcoin (BTC)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;rise&quot;&gt;Rise&lt;/h6&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Crowdsale On in June 2016 (close 24 June)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CAREFUL!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://rise.vision/ico&quot;&gt;Rise ICO&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Rise looks like an ambitions project. However, Alex of &lt;a href=&quot;http://icocountdown.com&quot;&gt;icocountdown.com&lt;/a&gt; did the legwork of googling and &lt;a href=&quot;https://medium.com/@icocountdown/why-has-rise-been-delisted-from-icocountdown-com-2907e956d5a4#.g81o85j0g&quot;&gt;delisted Rise from his ICO-watching website&lt;/a&gt;. The founders already have a history of &lt;a href=&quot;http://cointelegraph.com/news/cloakcoin-we-had-to-do-everything-from-scratch-only-the-name-has-stuck&quot;&gt;CloakCoin&lt;/a&gt; and the testnet seems cranky.&lt;/p&gt;
-
-&lt;p&gt;If you are still interested &lt;a href=&quot;https://rise.vision/blog/post/ico-terms&quot;&gt;here are the full ICO terms&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h6 id=&quot;elastic-project&quot;&gt;Elastic Project&lt;/h6&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Crowdsale On in Summer 2016 (close 12 August)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Elastic project is listed as an ICO, which it basically is, but not a speculative one. The project needs to be funded which is supposed to be done by means of donations. Donors however shouldn’t expect any profit: The tokens have no value other than accessing the software.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;That is, do not expect any future rewards for your donation. Elastic Coins (XEL) have no value and should neither be considered as a storage of value nor as any kind of investment. Instead, the Elastic Coins (XEL) you receive are just an early access to the open source software that is created in the context of Elastic. That is, Elastic Coins (XEL) can be seen as the “cryptographic fuel” that is needed to submit work to the Elastic Network and/or perform transactions on the Elastic blockchain and so Elastic Coins (XEL) are a software product under Swiss law. Donating, to emphasize once again, just means supporting the development of an open source project and nothing else.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.elastic.pro/donations&quot;&gt;Elastic.pro Donations&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;cometcoin&quot;&gt;CometCoin&lt;/h6&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Crowdsale On in June 2nd to 12th 2016&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;A small coin that opens ICO to fund a small dev team. The only place it is ever mentioned is &lt;a href=&quot;https://bitcointalk.org/index.php?topic=1501173.0&quot;&gt;bitcointalk, very briefly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cometcoin.com/cometcoin-ico&quot;&gt;CometCoin Home&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt;&lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-</description>
-        <pubDate>Thu, 09 Jun 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/ico-2016/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ico-2016/</guid>
         
         
         <category>trading</category>
