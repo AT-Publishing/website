@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Jan 2017 04:03:27 +0100</pubDate>
-    <lastBuildDate>Sun, 22 Jan 2017 04:03:27 +0100</lastBuildDate>
+    <pubDate>Sun, 22 Jan 2017 05:56:20 +0100</pubDate>
+    <lastBuildDate>Sun, 22 Jan 2017 05:56:20 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -138,6 +138,10 @@
 &lt;p&gt;Pretty impressive.&lt;/p&gt;
 
 &lt;p&gt;If you don’t want to use MyMonero for some reason, there are also multi-altcoin web wallets like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.cryptonator.com/about&quot;&gt;Cryptonator&lt;/a&gt; but in this case I’d follow the XMR devs endorsement.&lt;/p&gt;
+
+&lt;h3 id=&quot;jaxx-support&quot;&gt;Jaxx support&lt;/h3&gt;
+
+&lt;p&gt;The multi-altcoin wallet Jaxx announced they got &lt;a href=&quot;https://bitcoinmagazine.com/articles/monero-coming-jaxx-wallets-including-ios-with-apple-s-blessing-1476224917/&quot;&gt;Apple’s blessing&lt;/a&gt; to include Monero in their iOS app available from Apple store. So far the Jaxx wallet only supports BTC, LTC, ETH, RSK and Dash while Dash is not available in the iOS version. Apple actually has a list of approved coins for the App store and Dash is not on the list.&lt;/p&gt;
 
 &lt;h3 id=&quot;hardware-wallets&quot;&gt;Hardware Wallets&lt;/h3&gt;
 
