@@ -4,6 +4,8 @@ title: "Best Altcoin Exchanges, Tried and True"
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?"
 category: "trading"
 permalink: altcoin-exchanges/
+tags:
+- "popular"
 image:
 - "/img/exchanges/bitfinex.jpg"
 - "/img/exchanges/okcoin-na.jpg"
@@ -20,7 +22,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2016-04-12
+update: 2017-01-22
 ---
 
 So you want to join the madness and start trading altoins?

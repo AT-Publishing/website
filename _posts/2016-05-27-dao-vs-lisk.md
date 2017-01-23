@@ -2,7 +2,9 @@
 layout: blog
 title: "ETH vs LISK"
 description: "Lisk launched trading on Poloniex just a few days ago and is currently going through the initial fad pump. Will it last though?"
-category: "trading"
+categories:
+- "coins"
+- "trading"
 permalink: eth-vs-lisk/
 image:
 - "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-4.jpg"

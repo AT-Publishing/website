@@ -2,7 +2,7 @@
 layout: blog
 title: "Monero - Where the heck are you supposed to cold-store it?"
 description: "One of the most mature altcoins. How to hold it though?"
-category: "trading"
+category: "coins"
 permalink: monero-wallet/
 image:
 - "/img/monero-logo.jpg"
@@ -81,7 +81,7 @@ If you don't want to use MyMonero for some reason, there are also multi-altcoin 
 
 ### Jaxx support
 
-The multi-altcoin wallet Jaxx announced they got [Apple's blessing](https://bitcoinmagazine.com/articles/monero-coming-jaxx-wallets-including-ios-with-apple-s-blessing-1476224917/) to include Monero in their iOS app available from Apple store. So far the Jaxx wallet only supports BTC, LTC, ETH, RSK and Dash while Dash is not available in the iOS version. Apple actually has a list of approved coins for the App store and Dash is not on the list. 
+The multi-altcoin wallet Jaxx announced they got [Apple's blessing](https://bitcoinmagazine.com/articles/monero-coming-jaxx-wallets-including-ios-with-apple-s-blessing-1476224917/) to include Monero in their iOS app available from Apple store. So far the Jaxx wallet only supports BTC, LTC, ETH, RSK and Dash while Dash is not available in the iOS version. Apple actually has a list of approved coins for the App store and Dash is not on the list.
 
 ### Hardware Wallets
 

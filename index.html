@@ -14,14 +14,18 @@ navi:
         {% if post.tags contains 'popular' %}
        <p>
          <strong>
-           <a href=".{{ post.url }}">{{ post.title }}</a> -
+           <a href=".{{ post.url }}">{{ post.title }}</a>
          </strong>
-         {{ post.description }}
+       <br>
+         {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
        </p>
        {% endif %}
      {% endfor %}
      <hr style="border-top: 2px solid #7A838D;">
       <br>
+
+      {{ site.ads.aads728 }}
+
       <span id="note">New Posts</span>
       {% for post in site.posts offset: 0 limit: 15 %}
         <h4 class="post">
@@ -30,19 +34,34 @@ navi:
           </strong>
           <small>{{ post.date | date_to_string }}</small>
         </h4>
-        <p>
-          {{ post.description }}
-        </p>
+
+        <div class="row">
+
+          <div class="nine columns">
+            {{ post.description }}
+          </div>
+
+          {% if post.image[0] %}
+          <div class="three columns">
+            <a target="_blank" href="{{ post.url }}">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          {% endif %}
+
+
+
+        </div>
+
       {% endfor %}
 
       {{ site.ads.aads728 }}
 
-      <h4 class="post">From Reddit /r/BitcoinMarkets Daily Thread:</h4>
-      <div id="reddit-daily0"></div>
-      <div id="reddit-daily1"></div>
-      <div id="reddit-daily2"></div>
-      <div id="reddit-daily3"></div>
-      <div id="reddit-daily4"></div>
+    
 
 
     </div>

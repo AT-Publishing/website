@@ -1,7 +1,7 @@
 ---
 layout: page
-title: bonuses
-permalink: /referral-bonuses/
+title: coupons
+permalink: /referral-coupons/
 description: List of referrer codes and offers that will give you a fee rebate.
 ---
 

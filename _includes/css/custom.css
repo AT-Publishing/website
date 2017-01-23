@@ -233,6 +233,18 @@ max-width: 100%!important;
 margin: 0 0 30px;
 border: 2px dotted #7A838D;
 }
+figure.thumb {
+  position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    clear: both;
+    max-width: 200px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-bottom: 13px;
+}
 
 .notopmargin {
   margin-top:0;
