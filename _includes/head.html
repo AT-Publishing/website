@@ -1,17 +1,20 @@
 <head>
 <meta charset="utf-8">
+<!-- MOTHERFUCKERS OF AMP PROJECT ORG SHOULD BURN IN HELL -->
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/all.css">
-<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/font/css/font-awesome.min.css">
+<!-- here should be the remote html nonsense -->
+<link href="{{ site.url }}{{ site.baseurl }}/assets/css/all.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Slabo+27px' rel='stylesheet'>
 <script async src="{{ site.url }}{{ site.baseurl }}/assets/js/jq.min.js"></script>
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
 <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
 <style amp-custom></style>
@@ -54,5 +57,4 @@
   ga('send', 'pageview');
 </script>
 <script async src="//cdn.jsdelivr.net/cookie-bar/1/cookiebar-latest.min.js?forceLang=en&theme=white&tracking=1&thirdparty=1&remember=180&privacyPage=%2Fabout%2F"></script>
-<script async src="/assets/js/daily.js"></script>
 </head>

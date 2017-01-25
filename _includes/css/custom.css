@@ -1,6 +1,4 @@
-@-moz-document url-prefix() {
-  ul {list-style: circle;}
-}
+
 body {
     font-family: 'Droid Sans', sans-serif;
     color: #413F4F;
@@ -29,6 +27,15 @@ h6 {
 .maincontent img a{
   border-bottom: 0px solid #7A838D;
 }
+
+
+
+.nomargintop {
+  margin-top:0
+}
+
+
+
 
 h4.post {
     margin-top: 0px;
