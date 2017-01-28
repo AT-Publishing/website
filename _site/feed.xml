@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Jan 2017 15:28:55 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Jan 2017 15:28:55 +0100</lastBuildDate>
+    <pubDate>Sat, 28 Jan 2017 15:36:45 +0100</pubDate>
+    <lastBuildDate>Sat, 28 Jan 2017 15:36:45 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -87,11 +87,15 @@
 
 &lt;h4 id=&quot;altcoin-storage-the-altcoin-wallets&quot;&gt;Altcoin Storage: The Altcoin Wallets&lt;/h4&gt;
 
-&lt;p&gt;https://github.com/ethereum/mist/releases&lt;/p&gt;
+&lt;p&gt;You have two options - an altcoin-specific wallet or a multi-altcoin wallet. In any case, it is always a bad idea to leave your coin on an exchange. That doesn’t mean that an altcoin in an altcoin-specific wallet is automatically 100% safe though.&lt;/p&gt;
 
-&lt;p&gt;Jaxx&lt;/p&gt;
+&lt;p&gt;Keep in mind that all altcoins are works in progress - even the big ones like Ether. &lt;strong&gt;There are bugs in the software&lt;/strong&gt;. &lt;a href=&quot;https://github.com/ethereum/mist/releases&quot;&gt;See the Ethereum’s Mist release notes on Github&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;Because of that, proprietary wallets might not always be the best bet. The Jaxx might be much better - but it doesn’t support all the altcoins.&lt;/p&gt;
+
+&lt;p&gt;You will need to compromise a bit but it certainly won’t hurt if you simulate cold storage by having your desktop wallets on a computer that is mostly offline and that you don’t use for your day to day web browsing or downloading.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/altcoin-wallets/&quot;&gt;Full post on altcoin wallets here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 28 Jan 2017 00:00:00 +0100</pubDate>
         <link>https://www.altcointrading.net/how-to-buy-altcoins/</link>

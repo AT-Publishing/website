@@ -90,12 +90,12 @@ Altcoins: Ripple
 
 #### Altcoin Storage: The Altcoin Wallets
 
+You have two options - an altcoin-specific wallet or a multi-altcoin wallet. In any case, it is always a bad idea to leave your coin on an exchange. That doesn't mean that an altcoin in an altcoin-specific wallet is automatically 100% safe though.
 
-https://github.com/ethereum/mist/releases
+Keep in mind that all altcoins are works in progress - even the big ones like Ether. **There are bugs in the software**. [See the Ethereum's Mist release notes on Github](https://github.com/ethereum/mist/releases)
 
+Because of that, proprietary wallets might not always be the best bet. The Jaxx might be much better - but it doesn't support all the altcoins.
 
-Jaxx
+You will need to compromise a bit but it certainly won't hurt if you simulate cold storage by having your desktop wallets on a computer that is mostly offline and that you don't use for your day to day web browsing or downloading.
 
-
-
-.
+[Full post on altcoin wallets here](/altcoin-wallets/).
