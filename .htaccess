@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule (.+)\.html?$ https://www.altcointrading.net/$1/ [R=301,L]
+RewriteRule https://www.altcointrading.net/trading-strategies/ https://www.altcointrading.net/category/trading/ [R=301,L]
+RewriteRule https://www.altcointrading.net/sample-post https://www.altcointrading.net/ [R=301,L]
+RewriteRule https://www.altcointrading.net/bitcoin-bots/ https://www.altcointrading.net/automated-trading/ [R=301,L]
+RewriteRule https://www.altcointrading.net/exchanges/ https://www.altcointrading.net/category/exchanges/ [R=301,L]
+</IfModule>

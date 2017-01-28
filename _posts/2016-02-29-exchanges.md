@@ -2,7 +2,9 @@
 layout: blog
 title: "Best Altcoin Exchanges, Tried and True"
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?"
-category: "trading"
+categories:
+- "exchanges"
+- "trading"
 permalink: altcoin-exchanges/
 tags:
 - "popular"

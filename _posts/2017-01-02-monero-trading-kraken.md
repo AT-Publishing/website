@@ -2,7 +2,9 @@
 layout: blog
 title: "Kraken opens Monero trading"
 description: "Monero trading on Kraken opened on 2nd of January 2017"
-category: "trading"
+categories:
+- "trading"
+- "exchanges"
 permalink: monero-kraken/
 image:
 - "/img/monero-logo.jpg"
