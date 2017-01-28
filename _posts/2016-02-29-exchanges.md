@@ -9,13 +9,14 @@ permalink: altcoin-exchanges/
 tags:
 - "popular"
 image:
-- "/img/exchanges/bitfinex.jpg"
+- "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
 - "/img/exchanges/okcoin-na.jpg"
 - "/img/exchanges/bittrex.jpg"
 - "/img/exchanges/bitx.jpg"
 - "/img/exchanges/btce.jpg"
 - "/img/exchanges/anxpro.jpg"
 - "/img/exchanges/poloniex.jpg"
+- "https://bestbitcoinexchange.co/images/trading/bitcoin-trading-theory.jpg"
 image_alt:
 - "Bitfinex for altcoin trading - Only LTCBTC pair thus far."
 - "OKCoin for altcoin trading - list of forbidden countries"
@@ -24,18 +25,24 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2017-01-22
+update: 2017-01-28
 ---
 
-So you want to join the madness and start trading altoins?
+{% amp700 border {{page.image[7]}} {{page.image_alt[0]}} %}
+
+_Image: Altcoin Trading_
+
+________________________
+
+So you want to join the madness and start trading altcoins?
 
 Let's first look at what is important - what you should be looking for - and what you can leave behind.
 
-**You need:**
+**Your priorities:**
 
 * Find a liquid exchange. Chinese exchanges are perfect for that, simply because of the number of Chinese.
 
-* Keep checking is [Coinmarketcap 24h volume](http://coinmarketcap.com/currencies/volume/24-hour/). Different cryptocurrencies have different liquidity, go with the flow.
+* Keep checking [Coinmarketcap 24h volume](http://coinmarketcap.com/currencies/volume/24-hour/). Different cryptocurrencies have different liquidity, go with the flow.
 
 * Keep in mind that smaller market means wilder changes, less predictability and high risk of bad losses.
 
@@ -45,7 +52,7 @@ Let's first look at what is important - what you should be looking for - and wha
 
 * Screw inhouse charts. Use [Bitcoinwisdom.com](http://bitcoinwisdom.com), [Cryptowat.ch](http://cryptowat.ch) or [Cryptocoincharts.info](http://www.cryptocoincharts.info). Cryptowatch is best for altcoin trading and also actively maintained. It leaves quite some footprint in browsers though.
 
-###Altcoin traders from the US  
+### Altcoin traders from the US  
 
 You probably know about the witch hunt. US traders have it always more difficult.
 
@@ -56,7 +63,7 @@ The only thing worth mentioning is probably to distribute your bankroll on sever
 [Up](#)
 
 
-###Best Altcoin Trading Liquidity
+### Best Altcoin Trading Liquidity
 
 #### Chinese Exchanges (LTC)
 
@@ -87,7 +94,7 @@ Also: When signing up you need to certify you are not from US, Indonesia or othe
 
 
 
-{{ site.ads.pm2 }}
+{{ site.ads.aads728 }}
 
 
 #### Poloniex (most altcoins)
@@ -98,9 +105,9 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 * Policies:
   * [Poloniex is based in US but has restriction for US altcoin traders](https://poloniex.com/terms/).
-  * Verification is not really necessary. You need to state your name and country to get $2000 daily limit. Filling in your address and phone number gives you $7000 daily. The dollar limits are for illustration only - {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies.  
+  * Verification is not really necessary. You need to state your name and country to get $2000 daily limit. Filling in your address and phone number gives you $7000 daily. The limits are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies.  
 
-* Charts: {% aff Poloniex https://poloniex.com/ %} has awful charts. Use [Cryptocoincharts](http://www.cryptocoincharts.info/pair/dash/btc/poloniex).
+* Charts: {% aff Poloniex https://poloniex.com/ %} has awful web app. All altcoins on Poloniex are listed on {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %} though - and those are real professional charts and chat where you sometimes even learn, not just alts pumping.
 
 * Fees
   * Trade: 0.15%/0.25% maker-taker.
@@ -111,7 +118,7 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 [Up](#)
 
-###Other Big Names
+### Other Big Names
 
 #### Bitfinex
 
@@ -121,25 +128,24 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} bitcoin deposits and withdrawals go without verification. You need 6 confirmations to use the deposit.
 
-* Liquidity: {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} launched Ethereum market even though they are not ETH supporters. The market has been lively since, it is not a bad choice to go there if you are of all altcoins only interested in ETH.
+* Liquidity: {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a very good liquidity on all altcoin markets. That is at the moment **Ether, Ether Classic, Zcash, Monero and Litecoin**.
 
-{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} also has a LTCBTC market but it is markedly smaller than the BTCUSD one: [see on coinmarketcap](http://coinmarketcap.com/exchanges/bitfinex/).
-  * Try [BTC-e](#btc-e) or [Bit-x](#bit-x) for bigger LTCBTC markets.
+Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
 
 * Policies: Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don't put too much in one basket. Also, when they get hacked, they are not liable for losses.
 
-* Charts: Use Bitcoinwisdom [LTC / BTC](https://bitcoinwisdom.com/markets/bitfinex/ltcbtc)
+* Charts: Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %}.
 
 * {% aff Fees https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC %}
   * Trade: Maker-Taker, 0.1%/0.2% below $500k monthly
-  * Deposit: Bitcoin, Litecoin **free**
-  * Withdrawal: Bitcoin, Litecoin **free**
+  * Deposit: Coins **free**
+  * Withdrawal: Coins **free**
 
 * Mobile trading: Native app, TabTrader, zTrader
 
 **Special offer - Sign up with {% aff this link https://www.bitfinex.com/?refcode=5egV78YtlC %} to get 10% discount on Bitfinex fees!**
 
-#### BTC-e (many altcoins)
+#### BTC-e
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[4]}} %}
 
@@ -177,7 +183,6 @@ On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} bitcoin depos
 {% amp700 border {{page.image[2]}} {{page.image_alt[2]}} %}
 
 {% aff Bittrex https://bittrex.com/ %} is exclusively altcoin exchange. Newish, but people trade [dash and ether there](http://www.cryptocoincharts.info/markets/show/bittrex).
-
 
 * Policies: Again - [Based in US and has US restrictions](https://bittrex.com/Home/Terms). **DO NOT keep untraded coins in**: Funds left on the account not moved for an unspecified period of time will be treated as unclaimed property.
 
@@ -239,9 +244,9 @@ Looks fine but doesn't have enough liquidity yet - only some DOGE trades up unti
 [Up](#)
 
 
-###Who has problems
+### Who has problems
 
-* YoBit.net - [Probably short on coin, users have issues withdrawing.](http://siliconangle.com/blog/2016/02/28/problems-with-withdrawals-support-reported-at-bitcoin-altcoin-exchange-yobit/)
+* YoBit.net - [Users have issues withdrawing, fake new coins listed etc - AVOID](http://siliconangle.com/blog/2016/02/28/problems-with-withdrawals-support-reported-at-bitcoin-altcoin-exchange-yobit/)
 
 * HitBTC - [As for altcoins withdrawals seem fine, not in fiat though.](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/)
 
