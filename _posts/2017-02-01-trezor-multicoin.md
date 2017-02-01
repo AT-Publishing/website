@@ -87,7 +87,10 @@ Let's hope that in the future there will be more working forks of Insight for al
 
 **...and backorder while you cannot.**
 
-You can buy Trezor via the {% aff shop.trezor.io online store or on Amazon https://shop.trezor.io?a=fany@tutanota.com %}.
+You can get your own Trezor via the {% aff shop.trezor.io online store or on Amazon https://shop.trezor.io?a=fany@tutanota.com %}. Don't forget to check if the package is uncorrupted upon arrival. If it was apparently tampered with, take a picture and ask for a replacement.
+
+As for the altcoins, you can buy, trade and lend ZCASH on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} - the link will get you 10% fee discount.
+DASH is best available to buy, trade and lend at {% aff Poloniex https://poloniex.com %}.
 
 **More about Trezor:**
 

@@ -9,7 +9,9 @@ image:
 - "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-19.jpg"
 image_alt:
 - "Ethereum, Monero and the rest of it: How to buy?"
-update: 2017-01-28
+update: 2017-02-01
+tags:
+- "popular"
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

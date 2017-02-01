@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Feb 2017 16:55:05 +0100</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2017 16:55:05 +0100</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2017 17:46:36 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2017 17:46:36 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -86,7 +86,10 @@ decred
 
 &lt;p&gt;&lt;strong&gt;…and backorder while you cannot.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You can buy Trezor via the &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt;shop.trezor.io online store or on Amazon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can get your own Trezor via the &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt;shop.trezor.io online store or on Amazon&lt;/a&gt;. Don’t forget to check if the package is uncorrupted upon arrival. If it was apparently tampered with, take a picture and ask for a replacement.&lt;/p&gt;
+
+&lt;p&gt;As for the altcoins, you can buy, trade and lend ZCASH on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; - the link will get you 10% fee discount.
+DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;More about Trezor:&lt;/strong&gt;&lt;/p&gt;
 
@@ -199,6 +202,8 @@ decred
         <link>https://www.altcointrading.net/how-to-buy-altcoins/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/how-to-buy-altcoins/</guid>
         
+        <category>popular</category>
+        
         
         <category>exchanges</category>
         
@@ -259,7 +264,8 @@ decred
   &lt;li&gt;&lt;a href=&quot;https://np.reddit.com/r/ethtrader/comments/5pb4gv/real_iconomi_has_been_added_to_mercatox_fake_icn/&quot;&gt;22 Jan 2017 - Fake Iconomi tokens added to YoBit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;text-center&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ledger Wallet protects your bitcoins&quot; src=&quot;https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg&quot; layout=&quot;responsive&quot; data-original-width=&quot;468px&quot; data-original-height=&quot;90px&quot; width=&quot;468px&quot; height=&quot;90px&quot;&gt;&lt;/amp-img&gt; &lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;text-center&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ledger Wallet protects your bitcoins&quot; src=&quot;/img/wallets/ledger-hero.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;710px&quot; data-original-height=&quot;60px&quot; width=&quot;710px&quot; height=&quot;60px&quot;&gt;&lt;/amp-img&gt; &lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2017 00:00:00 +0100</pubDate>
         <link>https://www.altcointrading.net/iconomi/</link>
