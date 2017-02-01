@@ -52,6 +52,37 @@ ul {
     left: -10px;
 }
 
+/* css toggle */
+
+.tooltip-label {
+font-size: 1em;
+background: #7A838D;
+padding: 0.4em;
+cursor: pointer;
+display: inline-block;
+margin-bottom: 1em;
+color: white;
+margin-left: -10px;
+margin-top: 10px;
+font-weight: 400;
+}
+.tooltip-input {
+  display: none !important;
+} /*Hide input element*/
+
+.tooltip-content {
+  margin-bottom: 1.5em;
+}
+.tooltip-input:not(checked) ~ .tooltip-content {
+  display: none;
+}
+.tooltip-input:checked ~ .tooltip-content {
+  display: block;
+}
+
+
+/**/
+
 
 
 h4.post {

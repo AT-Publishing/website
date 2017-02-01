@@ -5,9 +5,107 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Jan 2017 16:01:55 +0100</pubDate>
-    <lastBuildDate>Sat, 28 Jan 2017 16:01:55 +0100</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2017 16:55:05 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2017 16:55:05 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Trezor (SatoshiLabs) announced altcoin support</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-alena-slush.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-alena-slush.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: The new Trezor supports DASH and ZCASH&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.lo4zsnogf&quot;&gt;Read the whole post on blog.trezor.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin. It was previously possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum software.&lt;/p&gt;
+
+&lt;p&gt;Electrum was long ago also forked to support &lt;a href=&quot;https://electrum-ltc.org/&quot;&gt;Litecoin&lt;/a&gt; and &lt;a href=&quot;https://electrum-dash.org/&quot;&gt;Dash&lt;/a&gt;. The disadvantage for Trezor users however was that one had to manage several separate wallets.&lt;/p&gt;
+
+&lt;p&gt;The new upgraded version of Trezor now allows to manage accounts with different currencies accessible all at once from the web wallet interface. All you have to do is choose the currency from the menu in the left column.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-altcoins1.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-altcoins1.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-altcoins2.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-altcoins2.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a limitation for ZCASH users who want to enjoy the full privacy of Z-addresses though:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“As for ZCASH: TREZOR Wallet only supports T-addresses only. This is due to the hardware limitations of the device and the requirements of Z-addresses. We apologize for the inconvenience caused.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because of the increased load related to browsing additional blockchains Trezor also upgraded their servers for the release:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“We are happy to announce that [server availability] spottiness will no longer be an issue. We have successfully deployed additional Insight/Bitcore servers for multi-currency support to address availability issues on the beta. As we are now using self-hosted servers, the speed of the Wallet should be greatly increased.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;why-dash-and-zcash&quot;&gt;Why DASH and ZCASH?&lt;/h4&gt;
+
+&lt;p&gt;There is a straightforward reason why DASH and ZCASH were chosen rather than for instance &lt;a href=&quot;http://coinmarketcap.com/currencies/monero/&quot;&gt;Monero&lt;/a&gt; which has much bigger user base than &lt;a href=&quot;http://coinmarketcap.com/currencies/zcash/&quot;&gt;ZCASH&lt;/a&gt;. The Trezor wallet uses &lt;strong&gt;insight/bitcore&lt;/strong&gt; to gather information about the blockchain. And while Insight was originally developed for Bitcoin, several other cryptocurrencies forked it to make it work with their own blockchain.&lt;/p&gt;
+
+&lt;p&gt;The Insight API project is opensource, you can read its code on &lt;a href=&quot;https://github.com/bitpay/insight-api/&quot;&gt;Github&lt;/a&gt; - just as you can see &lt;a href=&quot;https://github.com/bitpay/insight-api/network/members&quot;&gt;the list of people who forked it on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You’ll see quite a few coin-y names:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dashpay
+zcash
+vbuterin
+shadowproject (shadowcash)
+casinocoin
+auroracoin
+startcoin
+litecoin
+reddcoin
+opalcoin
+nanocoin
+beavercoin
+ai-coin
+templecoin
+dogeparty
+digibyte
+decred
+...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;…and others like Blocktrail, Bitgo, Blockexplorer or 21dotco.&lt;/p&gt;
+
+&lt;p&gt;Let’s hope that in the future there will be more working forks of Insight for altcoins that are actually used and traded beyond the initial pump and dump.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;get-trezor-while-you-can&quot;&gt;Get Trezor while you can&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;…and backorder while you cannot.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can buy Trezor via the &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt;shop.trezor.io online store or on Amazon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More about Trezor:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/BitcoinTrezor&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; https://www.facebook.com/BitcoinTrezor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/bitcointrezor&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; https://twitter.com/bitcointrezor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.reddit.com/r/TREZOR/&quot;&gt;&lt;i class=&quot;fa fa-reddit&quot;&gt;&lt;/i&gt; https://www.reddit.com/r/TREZOR/&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/trezor-multicoin/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/trezor-multicoin/</guid>
+        
+        
+        <category>wallets</category>
+        
+      </item>
     
       <item>
         <title>Back to Basics: How to buy altcoins</title>
@@ -288,7 +386,7 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
 
 &lt;p&gt;There already was a &lt;a href=&quot;https://forum.getmonero.org/9/work-in-progress/265/adding-monero-support-for-trezor?page=&amp;amp;noscroll=1#post-1520&quot;&gt;project to add Trezor support for Monero&lt;/a&gt; (even successfully funded!) in 2015 but it is marked as &lt;strong&gt;“Completed  -  Failed promises and broken dreams”&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -355,7 +453,7 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
 
 &lt;p&gt;If you are reading this bit chances are you didn’t miss all the drama. The best source of information is probably their status page at &lt;a href=&quot;https://bitfinex.statuspage.io&quot;&gt;bitfinex.statuspage.io&lt;/a&gt;, though the information is scarce. Sane Tackett /u/zanetackett is trying to keep the facade of the company and panic hasn’t kicked in but as for useful info he doesn’t provide much.&lt;/p&gt;
 
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;Bad news for all ETH, ETC or LTC traders is that even though their assets were not affected by the hack, it seems they are lost too - just as USD assets, which were uneffected as well. The most likely outcome is some form socialized loss - a haircut - if it can be made in a legal way. The official statement however is still “we have not decided yet”. Most traders conclude it was actually quite expected after the spectacular 24h downtime couple of weeks earlier during wild price movements. Though Kraken fails like this too, repeatedly, and no hack occured as of yet - so take out of it what you like.&lt;/p&gt;
 
@@ -399,7 +497,7 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
 
 &lt;p&gt;Only thing we can do is to NEVER baghold or anything like that: Send money to exchange, do the trade, send them to Trezor.&lt;/p&gt;
 
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;who-runs-bitfinex-anyway&quot;&gt;Who runs Bitfinex anyway?&lt;/h4&gt;
 
@@ -775,89 +873,6 @@ Send BTC back to Coinbase (repeat)
         <link>https://www.altcointrading.net/ta-divergences/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/ta-divergences/</guid>
         
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Ethereum hard fork and your positions on exchanges</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-5.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-5.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: ETH, the centralized mutable digital token.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The event that is by some pegged as the end of mETH as cryptocurrency is actually hapenning. The response to the DAO hack will, after all, be the hard fork. This is a solution that some say could have happened after the MtGox collaps during the first years of bitcoin, it didn’t happen though since it effectively undermines the most valuable asset of a blockchain based token - it’s immutability.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-
-&lt;h4 id=&quot;the-immutability-of-blockchain---its-not-a-dogma-folks&quot;&gt;The immutability of blockchain - It’s not a dogma, folks&lt;/h4&gt;
-
-&lt;p&gt;There is a misconception that blockchain is immutable by some kind of magic that has no way around it.&lt;/p&gt;
-
-&lt;p&gt;The very simplistic explanation of blockchain immutability is the hash that is generated for each blockchain block mined. The hash contains among other data also a reference to the previous block’s hash - which contains a reference to the previous block’s hash, and so on. Because of this the blockchain is &lt;em&gt;internally consistent&lt;/em&gt;, there can be some checks run on this. If a block shows up that contains the wrong reference it will be disregarded as invalid.&lt;/p&gt;
-
-&lt;p&gt;To create a tampered blockchain therefore needs to effectively rebuild the blockchain from the modified block on. This is something that is difficult and won’t occur with no one noticing it, nevertheless &lt;strong&gt;it is possible&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is presumably more difficult with bitcoin since the governance is (in spite of all tryings) still more decentralized. There was a hardfork on bitcoin blockchain once, during the very early stages of it when Satoshi Nakamoto was still the lead and also one of the very few people who actually knew bitcoin.&lt;/p&gt;
-
-&lt;p&gt;ETH is far more widespread than BTC during the time it was forked, but it still revolves all about Vitalik Buterin and Ethereum Foundation. There are many other people on /r/ethereum or /r/ethtrader but if you’ve read them for a while you see they look up to their leaders a lot. It is even now relatively easy for them to just “give a green light” to a decision like this.&lt;/p&gt;
-
-&lt;p&gt;To be fair, it should also be mentioned the ETH hard fork will not have the effect of erasing all transaction history to the point of the fork. (More on this in next paragraph.)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-blockchains/&quot;&gt;Read more - Immutability of blockchain on bitsonblocks.net.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;what-it-means-for-an-altcoin-trader&quot;&gt;What it means for an altcoin trader?&lt;/h4&gt;
-
-&lt;p&gt;There are many speculations as to the USD and BTC value of Ether and TheDAO.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.colony.io/why-a-post-hard-fork-ethereum-will-be-more-valuable-abc35bbf6e98#.2q2vd0xwo&quot;&gt;Here a TheDAO token holder argues post-hard fork ETH will be more valuable.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unlike Bitcoin, an Ethereum hard fork will not involve a wholesale rollback of the blockchain state. It will involve only a surgical strike to convert theDAO to a withdrawal only contract, allowing theDAO tokens to be redeemed for Ether. That’s it. It will not effect any other transaction history or balances.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;~ This is a very good news since &lt;strong&gt;your positions on exchanges will not be affected&lt;/strong&gt;. There will be a brief period of instability during the actual fork. Because of this, exchanges will freeze withdrawals and deposits for a few hours but trading will carry on as usual. The hard fork will occur and a winnign blockchain will be chosen but all past transactions wil be transferred onto it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;It is recommended to record your ETH positions - profits, losses, funding costs and maintenance margin - in case of a glitch on behalf of the exchange.&lt;/em&gt; Make a screenshot or write them on paper and check after the fork if all is OK.&lt;/p&gt;
-
-&lt;p&gt;Another smart argument that speculators will like to see is that ETH hard fork might be very well received by the general public. Forking a coin to mitigate a downside, a bailout effectively, is something most people like to see since it gives them a sense of security. Much like insurance and pension funds. It’s a fact that there are very few people who prefer to really take care of themselves, think through possible risks and manage them - while all this doesn’t make for a good reputation because it is something not quite common among people, making one unpredictable and un-see-through-able for others, which is frowned upon.&lt;/p&gt;
-
-&lt;p&gt;After the hard fork, it’s quite likely ETH will be seen as the legit digital token used for benevolent app development while bitcoin will be seen as the drug money.&lt;/p&gt;
-
-&lt;p&gt;It is quite ironic that a token that has security holes and nothing new about its governance (which is centralized) will come better off out of this but as for trading, there is no truth - the price action depends on if most traders share the same opinion.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://buytrezor.com?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;official-statements-of-exchanges&quot;&gt;Official statements of exchanges&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://blog.ethereum.org/2016/07/15/to-fork-or-not-to-fork/&quot;&gt;Here is the official blog of Ethereum foundation.&lt;/a&gt; It’s more about the technical details if that’s what you are interested in.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://poloniex.com/press-releases/2016.07.15-Ethereum-Hard-Fork/&quot;&gt;Poloniex press release assures customers they don’t need to do anything.&lt;/a&gt; Deposits and withdrawals will be paused around the hard fork but all ETH balances will be automatically transferred to the winning blockchain.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.bitfinex.com/posts/118&quot;&gt;Bitfinex also released an announcement, similar to Poloniex.&lt;/a&gt; If you have more questions you can try support or Reddit, where Bitfinex’s product manager resides at /u/zanetackett. He has already been talking about this - browse through his posts before asking. There will be status updates on &lt;a href=&quot;http://bitfinex.statuspage.io/&quot;&gt;http://bitfinex.statuspage.io/&lt;/a&gt; which you can subscribe via email.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;4122a9e5-b2f3-4e80-a502-cb17d6d176a6&quot; data-embed-created=&quot;2016-07-17T08:19:29.133Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/4sxxjf/daily_discussion_15jul2016/d5dp8nj&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/4sxxjf/daily_discussion_15jul2016/&quot;&gt;[Daily Discussion] - 15/Jul/2016&lt;/a&gt;.&lt;/div&gt;
-&lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Fri, 15 Jul 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/eth-hard-fork/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/eth-hard-fork/</guid>
-        
-        
-        <category>coins</category>
         
         <category>trading</category>
         

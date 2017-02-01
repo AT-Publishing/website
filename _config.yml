@@ -4,6 +4,7 @@ subtitle: "The forex of cryptocurrencies, bitcoin as the base."
 description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency."
 baseurl: ""
 url: "https://www.altcointrading.net"
+# url: http://localhost:4000
 
 author: "AltcoinTrading"
 # Build settings
@@ -20,7 +21,7 @@ ads:
   width="468px" height="90px"></amp-img>
   </a></div>'
   trezor: '<div class="shifted-left">
-  <a rel="nofollow" target="_blank" href="https://buytrezor.com?a=fany@tutanota.com">
+  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
   <amp-img itemprop="image"
   src="https://www.altcointrading.net/img/wallets/trezor.jpg"
   alt="Trezor Wallet for bitcoins and altcoins" data-original-width="728px"

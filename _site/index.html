@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- here should be the remote html nonsense -->
 <link href="https://www.altcointrading.net/assets/css/all.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Slabo+27px' rel='stylesheet'>
 <script async src="https://www.altcointrading.net/assets/js/jq.min.js"></script>
 <!--AMP-->
@@ -137,8 +137,30 @@
    <div class="eight columns">
 
 
+     <div class="tooltip">
+       <input type="checkbox" value="selected" id="warning-1" class="tooltip-input">
+       <label for="warning-1" class="tooltip-label">Toggle Warning</label>
+       <div role="tooltip" id="tooltipID" class="tooltip-content">
+         <div class="warning">
+           <strong>WARNING</strong>
+             <p>These days, after Jan 27 2017, it is most important to check if you're getting clean coins.
+             <a href="https://bitcointalk.org/index.php?topic=1766723.0" target="_blank">On Jan 27 someone published a list of transactions</a>
+             that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving.</p>
+             <p>Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges.
+             It is likely that they might try to use a mixing service to clean the bitcoin or that they will
+             even set up their own mixer. </p>
+             <p>Therefore always check where did your bitcoins came from - even
+             if you just deposited them for lending on Poloniex. You will probably not be getting back your
+             original bitcoins but bitcoins with a different history.</p>
+             </div>
+      </div> <!--/.tooltip-content-->
+     </div><!--/.tooltip-->
+
+
      <span id="note">Popular Posts</span>
      <br><br>
+     
+        
      
         
      
@@ -217,26 +239,43 @@
         
      
      <hr style="border-top: 2px solid #7A838D;">
-      <br>
+
 
       <div class="shifted-left"> <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe> </div>
 
-
-      <div class="warning">
-        <strong>WARNING</strong>
-
-      <p>These days, after Jan 27 2017, it is most important to check if you're getting clean coins.
-      <a href="https://bitcointalk.org/index.php?topic=1766723.0" target="_blank">On Jan 27 someone published a list of transactions</a>
-      that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving.</p>
-      <p>Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges.
-      It is likely that they might try to use a mixing service to clean the bitcoin or that they will
-      even set up their own mixer. </p>
-      <p>Therefore always check where did your bitcoins came from - even
-      if you just deposited them for lending on Poloniex. You will probably not be getting back your
-      original bitcoins but bitcoins with a different history.</p>
-      </div>
+      <br>
 
       <span id="note">New Posts</span>
+      
+        <h4 class="post">
+          <strong>
+            <a href="./trezor-multicoin/">Trezor (SatoshiLabs) announced altcoin support</a>
+          </strong>
+          <small>01 Feb 2017</small>
+        </h4>
+
+        <div class="row">
+
+          <div class="nine columns">
+            Trezor now added support for some altcoins - and explained what the altcoin needs to get supported.
+          </div>
+
+          
+          <div class="three columns">
+            <a target="_blank" href="/trezor-multicoin/">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="/img/wallets/trezor-alena-slush.jpg" alt="Altcoin Trading Blog" layout=""
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+          
+
+
+
+        </div>
+
       
         <h4 class="post">
           <strong>
@@ -658,36 +697,6 @@
         </div>
 
       
-        <h4 class="post">
-          <strong>
-            <a href="./waves/">What's Waves Platform</a>
-          </strong>
-          <small>06 Jun 2016</small>
-        </h4>
-
-        <div class="row">
-
-          <div class="nine columns">
-            Waves is a decentralized blockchain platform focusing on custom blockchain tokens operations.
-          </div>
-
-          
-          <div class="three columns">
-            <a target="_blank" href="/waves/">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/img/trading/waves.jpeg" alt="Altcoin Trading Blog" layout=""
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
-
-
-
-        </div>
-
-      
 
       <div class="shifted-left"> <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe> </div>
 
@@ -783,7 +792,7 @@
   <a title="Trading disclaimer" href="/disclaimer/">Disclaimer</a>
 </div>
 <div class="six columns">
-  <div class="text-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697"> <amp-img itemprop="image" alt="Perfect Money" src="/img/ads/pm1.jpg" data-original-width="468px" data-original-height="20px" layout="responsive" width="468px" height="20px"> </amp-img></a></div>
+  <div class="shifted-left"> <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com"> <amp-img itemprop="image" src="https://www.altcointrading.net/img/wallets/trezor.jpg" alt="Trezor Wallet for bitcoins and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"> </amp-img></a></div>
 </div>
 
   </div>
