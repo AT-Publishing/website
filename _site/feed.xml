@@ -5,9 +5,118 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Feb 2017 18:06:14 +0100</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2017 18:06:14 +0100</lastBuildDate>
+    <pubDate>Mon, 06 Feb 2017 15:37:10 +0100</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2017 15:37:10 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Privacy-centric altcoins: Dash vs Monero</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/coffee.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/coffee.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: It goes way beyond the libertarian dream about paying for coffee.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;Monero and Dash are both privacy-focused cryptocurrencies that are heavily speculated on in 2017 despite having been around for quite some time already.&lt;/p&gt;
+
+&lt;p&gt;If you are looking for a long-term investment you should know a wee bit more than &lt;em&gt;private - uh, good?&lt;/em&gt; because there are actually quite some differences between Monero and Dash while both aim towards being the untraceable future currency - the digital cash.&lt;/p&gt;
+
+&lt;h3 id=&quot;dash-dash&quot;&gt;Dash (DASH)&lt;/h3&gt;
+
+&lt;p&gt;Dash is a &lt;strong&gt;Bitcoin fork&lt;/strong&gt; with a &lt;strong&gt;network improvement&lt;/strong&gt; that takes care of the privacy.&lt;/p&gt;
+
+&lt;p&gt;Dash uses 2-tier network system which keeps the transactions private and kind of untraceable. It’s only kind of though. Some information about transactions is still available, transactions are only mixed together and confirmed faster that they would be on the Bitcoin blockchain.&lt;/p&gt;
+
+&lt;p&gt;The Dash transactions confirm faster than Bitcoin transactions since this work is not done by miners but by the Masternodes. Confirmations are almost instant, payments are cheaper and often have no fees at all.&lt;/p&gt;
+
+&lt;p&gt;The main drawback however:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;a href=&quot;https://explorer.dash.org/chain/Dash&quot;&gt;Dash blockchain is still public&lt;/a&gt; and the list of transaction can be browsed by anyone but Dash has an inherent mixing protocol.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Good thing about the mixing in Dash is that there is no third party involved (as there would be with mixing services common for Bitcoin) therefore the setup is trustless.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where to buy and hold Dash&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dash has quite clever marketing, currently being supported by Amanda B. Johnson the former presenter of The Daily Decrypt.&lt;/p&gt;
+
+&lt;p&gt;You can buy and trade Dash on majority of altcoins exchanges are you can get it &lt;a href=&quot;https://www.dash.org/direct-purchase/&quot;&gt;anonymously for cash too&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Storage looks also very good.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Desktop: &lt;a href=&quot;https://www.dash.org/downloads/&quot;&gt;See officialy endorsed downloads&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dash Core (full), Dash Lite (electrum/lite wallet)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multicoin wallets: Jaxx, Coinomi&lt;/li&gt;
+  &lt;li&gt;Mobile wallets:
+    &lt;ul&gt;
+      &lt;li&gt;Android: Dash Wallet, Coinomi, Jaxx&lt;/li&gt;
+      &lt;li&gt;iOS: Dash wallet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cold storage: Is available! Via Trezor! (&lt;a href=&quot;/trezor-multicoin/&quot;&gt;see this post&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Adoption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a major drawback: Dash should be the virtual cash, untraceable and anonymous, but is not commonly used as a means of payment. There is one payments system &lt;a href=&quot;https://cointelegraph.com/news/dash-accepted-here-blockpay-pos-system-integrates-with-dash&quot;&gt;BlockPay that integrated Dash in Aug 2016&lt;/a&gt;, overall only about 60 merchants worldwide accept Dash payments.&lt;/p&gt;
+
+&lt;h3 id=&quot;monero-xmr&quot;&gt;Monero (XMR)&lt;/h3&gt;
+
+&lt;p&gt;Monero has probably the most dedicated developer team of all altcoins. Anyone can make a proposal about features they want to see. If the feature gets adequate funding via user contributions in the Monero forum, it will be worked on.&lt;/p&gt;
+
+&lt;p&gt;Monero stresses the value of absolutely private transactions because of the fungibility of a currency: once there is a quick way to distinguish between a “clean” coin and a coin that was in the dark net, and oncepeople start commonly do this, the value of those two coins will be different. Nobody will want to buy the risky DNM coin for full price.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From an economic point of view, a currency needs to be fungible. Fungibility is a property of money that makes all units “equal.” Without fungibility, money flows can be tracked and tainted, making it very difficult to use the digital tokens as money.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Monero transactions are entirely private - it is a CryptoNote currency, not a Bitcoin variation. On the Monero blockchain a casual observer cannot find out the origin, amount nor destination  of the transaction.&lt;/p&gt;
+
+&lt;p&gt;So this is one step further than Dash which “only” uses mixing but transaction flow is still available. The Monero blockchain on the other hand is truly private to the extent that it could be a layer for private settlements.&lt;/p&gt;
+
+&lt;p&gt;Other than this, there is one additional layer of privacy on the Monero blockchain - the network layer. Monero has an i2p router incorporated in it. I2P is an anonymous overlay network - a network within a network. In case you have never heard of it, here’s a &lt;a href=&quot;https://geti2p.net/en/docs/how/intro&quot;&gt;gentle intro&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;User controls what is shown&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Although the transactions on Monero blockchain are private for an outside observer, the person who has access to the Monero wallet can provide the chain of transactions to anyone - for instance for an audit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mining Monero&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Monero is based on PoW, Proof of Work. The Monero devs say that PoS, Proof of stake which is now pushed as a “better” thing, penalizes less active participants and makes them “second class citizens” while Bitcoin’s PoW led to ASIC based mining pool centralization.&lt;/p&gt;
+
+&lt;p&gt;The mining process in Monero is a PoW algorithm optimalized so that it is ideally performed by millions of small x86 CPUs - that means, common personal computers - so it shouldn’t lead to the rat race of ASICs.
+There is permanent block reward - 0.3 XMR per block forever.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adoption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Monero is accepted a bit more widely than Dash it seems: &lt;a href=&quot;https://getmonero.org/getting-started/merchants&quot;&gt;https://getmonero.org/getting-started/merchants&lt;/a&gt;
+There is currently one functional payment processor available for merchants to use if they want to integrate monero - “Monero Merchants”.&lt;/p&gt;
+
+&lt;p&gt;By the end of Summer 2016 the famous dark net market AlphaBay implemented Monero payments alongside Bitcoin. This led to a major price action on the Monero markets as this truly was a huge step. Darknet markets don’t jump at every new thing because of the security risk related to upgrades on an illegal website. Accepting an altcoin is a big jump, and they picked Monero over Dash because the stealth of Monero is better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Buying and holding Monero&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a number of exchanges and OTC markets for Monero, recently you can get Monero also on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; and Kraken - see &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;How to buy altcoins&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The hodling business is a bit tough to crack still. &lt;a href=&quot;/monero-wallet/&quot;&gt;Read about Monero wallets here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Feb 2017 00:00:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/private-altcoins-dash-monero/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/private-altcoins-dash-monero/</guid>
+        
+        
+        <category>wallets</category>
+        
+      </item>
     
       <item>
         <title>Trezor (SatoshiLabs) announced altcoin support</title>
@@ -803,81 +912,6 @@ Send BTC back to Coinbase (repeat)
         <pubDate>Sat, 23 Jul 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/value/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/value/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Technical Analysis: Divergences</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/ta/bitfinex-divergences.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/ta/bitfinex-divergences.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Divergeces between lows or highs on the price action and the MACD can provide valuable signals.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;so-technical-analysis&quot;&gt;So, technical analysis?&lt;/h4&gt;
-
-&lt;p&gt;Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is astounding. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don’t have as much time to promote the Youtube channel - which is why most often you will not hear about them.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;TA Indicator: Divergences&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is one channel maintained (occasionally) by a redditor /u/drwd. He does a series called “Better know an indicator” which already provided a very fine intro to the Ichimoku cloud for many traders. He made a good video on divergences (“divs”) that is worth looking at unless you are a seasoned trader.&lt;/p&gt;
-
-&lt;iframe width=&quot;700&quot; height=&quot;365&quot; src=&quot;https://www.youtube.com/embed/nGbqFV0koaQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;strong&gt;Divergences in short&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Divergence happens when market price disagrees with indicators action. Divergence can be regular, hidden and exaggerated.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Regular Div&lt;/em&gt; is a sign of trend reversal. Price keeps the trend but indicator already shows the reversal.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Signal to short = the price makes higher high but MACD makes lower high. Underlying weakness, possible exhaustion of a bull trend.&lt;/li&gt;
-  &lt;li&gt;Signal to long = the price makes lower low but MACD makes higher low. Underlying strength, possible exhaustion of bears.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Hidden Div&lt;/em&gt; is a divergence that follows the trend.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Signal to short = price makes lower highs but MACD makes higher highs. Tends to be found during a retracement up during a downtrend.&lt;/li&gt;
-  &lt;li&gt;Signal to long = price makes higher low but MACD makes lower low. Tends to be found during a retracement in an uptrend.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Exaggerated Div&lt;/em&gt; is similar to regular div but price action makes double tops and double bottoms.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/ta/divergences1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/ta/divergences1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The logic behind divergences is that sometimes the indicators shows hidden tendencies of the market (strength or weakness) that might not be visible from the price action yet.&lt;/p&gt;
-
-&lt;p&gt;It’s not 100%, as always with technical analysis - the divergence can only inform you about a bias.&lt;/p&gt;
-
-&lt;p&gt;If you’ve read the list above it should be clear to you that you should first look at the bigger picture - are we in an uptrend or a downtrend? - and then start looking for divergences.&lt;/p&gt;
-
-&lt;p&gt;If you master them you can use them as a signal to enter or exit the market - they mark good spots for dip-buying and rally-selling.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-
-&lt;h4 id=&quot;good-to-read&quot;&gt;Good to read:&lt;/h4&gt;
-
-&lt;p&gt;”dukascopy.com / Do you know everything about divergences?” - The image above is taken from dukascopy.com&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.dukascopy.com/fxcomm/fx-article-contest/?Do-You-Know-Everything-About=&amp;amp;action=read&amp;amp;id=890&quot; class=&quot;button&quot;&gt;Divs on dukascopy.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;”babypips.com / Divergence cheat sheet” - As images below. PRINT THEM!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.babypips.com/school/high-school/trading-divergences/divergence-cheat-sheet.html&quot; class=&quot;button&quot;&gt;Cheatsheet on babypips.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/ta/bp-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/ta/bp-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 17 Jul 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/ta-divergences/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ta-divergences/</guid>
         
         
         <category>trading</category>
