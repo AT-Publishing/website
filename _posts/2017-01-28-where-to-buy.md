@@ -6,7 +6,7 @@ categories:
 - "exchanges"
 permalink: how-to-buy-altcoins/
 image:
-- "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-19.jpg"
+- "/img/eth/eth2.jpg"
 image_alt:
 - "Ethereum, Monero and the rest of it: How to buy?"
 update: 2017-02-01
