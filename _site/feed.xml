@@ -5,9 +5,52 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Feb 2017 15:58:37 +0100</pubDate>
-    <lastBuildDate>Tue, 21 Feb 2017 15:58:37 +0100</lastBuildDate>
+    <pubDate>Wed, 01 Mar 2017 21:55:03 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Mar 2017 21:55:03 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Kraken acquires Cryptowatch, lead dev will work for them</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/kraken.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/kraken.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Kraken’s UI is leaving the 1990s baby&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;Lately Kraken has been the last exchange you’d recommend for trading - bitcoin or altcoins all the same.&lt;/p&gt;
+
+&lt;p&gt;The selection of markets was extremely good. The very limited reliability of their infrastructure was a dealbreaker though and the awful, awful&lt;sup&gt;awful&lt;sup&gt;awful&lt;/sup&gt;&lt;/sup&gt; charts were only adding insult to injury.&lt;/p&gt;
+
+&lt;p&gt;People on Reddit even set up a joint thread “&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/5vwgye/i_too_got_fucked_by_kraken_general_thread/&quot;&gt;I too got fucked by Kraken&lt;/a&gt;” just this February.&lt;/p&gt;
+
+&lt;p&gt;Today however Kraken announced they acquired Cryptowatch, currently the most popular cryptocurrency charting engine.&lt;/p&gt;
+
+&lt;p&gt;The interface is available at &lt;a href=&quot;https://trade.kraken.com/kraken/ethbtc&quot;&gt;trade.kraken.com&lt;/a&gt; accessible to all Kraken users. At the moment the functionality is the same as &lt;strong&gt;the old Cryptowatch Premium&lt;/strong&gt; access. Nothing changes for people who don’t trade at Kraken, standard Cryptowatch is still available for free to everyone as it was.&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;Artur Sapek, &lt;a href=&quot;https://cryptowat.ch/announcement/kraken-acquires-cryptowatch&quot;&gt;the developer of Cryptowatch, says&lt;/a&gt; we can look forward to faster development of the charting platform as the work with Kraken will bring in some capital.&lt;/p&gt;
+
+&lt;p&gt;That’s helluva good news for today.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptowat.ch/announcement/kraken-acquires-cryptowatch&quot;&gt;Announcement on Cryptowat.ch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.kraken.com/post/157796880417/kraken-acquires-cryptowatch-and-launches-new-trade&quot;&gt;Announcement on Kraken&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.kraken.com/post/157561097377/how-to-get-started-trading-on-krakens-new-trading&quot;&gt;Here&lt;/a&gt; is a how-to from Kraken.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+</description>
+        <pubDate>Wed, 01 Mar 2017 00:00:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/kraken-cryptowatch/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/kraken-cryptowatch/</guid>
+        
+        
+        <category>exchanges</category>
+        
+      </item>
     
       <item>
         <title>Don't miss out if you're into Ripple</title>
@@ -65,7 +108,7 @@ The Bitstamp Team&lt;/p&gt;
         <guid isPermaLink="true">https://www.altcointrading.net/ripple-trading/</guid>
         
         
-        <category>wallets</category>
+        <category>exchanges</category>
         
       </item>
     
@@ -773,70 +816,6 @@ Send BTC back to Coinbase (repeat)
         <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
         <link>https://www.altcointrading.net/free-etc/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/free-etc/</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Ethereum Classic on Poloniex today, on Bitfinex soon</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/eth/eth4.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/eth/eth4.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Small part of Ethereum community formed Ethereum Classic.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The &lt;a href=&quot;/eth-hard-fork/&quot;&gt;Ethereum hard fork&lt;/a&gt; on 20th of July went smoothly without any issues. All was received well by the community, both ETHBTC and ETHUSD price kept rising, DAO funds were recovered, attacker was left with nothing. So what happened?&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/ethbtc-postfork.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/ethbtc-postfork.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://themerkle.com/the-ethereum-hard-fork-ethereum-classic/&quot;&gt;The Merkle&lt;/a&gt; puts it in a brief enough way:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A small group within the Ethereum community has stayed on the old side of the fork with their own duplicate blockchain. This project is called Ethereum Classic and it promises to keep the ecosystem decentralized and free from censorship.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is a contradictory view to some, in the sense that Ethereum Classic has kept their own set of rules despite the consensus of the community, which is the exact opposite of what decentralized and censorship-free means. The project gained traction, none the less, with two mining pools dedicated to classic miners.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now, only four days after the hard fork, the first exchange is adding ETH Classic:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://themerkle.com/ethereum-classic-is-now-trading-on-poloniex/&quot;&gt;Ethereum Classic is now trading on Poloniex&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ETH Classic is the old blockchain, to be continued by people who don’t agree with recovering of the DAO stolen funds&lt;/li&gt;
-  &lt;li&gt;Trading of the Classic coin started on Poloniex on 24 July under the symbol ETC.&lt;/li&gt;
-  &lt;li&gt;ETCBTC keeps low price after some wild initial pumping but volume is picking up (see below). At the time of writing ETCBTC costs 0.0014 while ETHBTC keeps at 0.0195 but sinking.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/etcbtc.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/etcbtc.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Zane Tackett, Bitfinex product manager, confirmed on /r/ethereum that ETHC will indeed be added soon:&lt;/p&gt;
-
-&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;08749486-76d2-462e-aced-88ca08bdea5e&quot; data-embed-created=&quot;2016-07-24T16:41:31.232Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/4uczsp/bitfinex_to_list_ethc_soon/d5opzjn&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/4uczsp/bitfinex_to_list_ethc_soon/&quot;&gt;Bitfinex to list $ETHC soon&lt;/a&gt;.&lt;/div&gt;
-&lt;script async=&quot;&quot; src=&quot;https://www.redditstatic.com/comment-embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-
-&lt;h4 id=&quot;what-is-expected-from-a-traders-point-of-view&quot;&gt;What is expected from a trader’s point of view&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In spite of ETC being “the original” Ethereum it is not expected ETC will moon to the ETH levels any time soon.&lt;/li&gt;
-  &lt;li&gt;Volume is great though, people might be buying in case it sticks.&lt;/li&gt;
-  &lt;li&gt;51% attack against ETC has been outed &lt;a href=&quot;https://www.reddit.com/r/ethereum/comments/4ucgia/i_am_chandler_guo_a_51_attack_on_ethereum_classic/?st=ir0ugc2w&amp;amp;sh=d12a2146&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ETC might be underpriced because traders are finding “free ETC” on their Poloniex accounts and selling them en masse. &lt;strong&gt;That’s the most important thing:&lt;/strong&gt; If you were holding ETH before the hard fork, you should be sitting on some ETC on Poloniex today. &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/4ud74f/free_money_on_polo/?ref=share&amp;amp;ref_source=link&quot;&gt;Read here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;On the other hand, the ETC blockchain is not fit to be used for dApps anymore which makes it’s value only speculative at the moment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
-</description>
-        <pubDate>Sun, 24 Jul 2016 00:00:00 +0200</pubDate>
-        <link>https://www.altcointrading.net/eth-classic/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/eth-classic/</guid>
         
         
         <category>trading</category>
