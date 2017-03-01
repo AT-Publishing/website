@@ -32,7 +32,7 @@ The interface is available at [trade.kraken.com](https://trade.kraken.com/kraken
 
 {{ site.ads.aads728 }}
 
-Artur Sapek, [the developer of Cryptowatch, says](https://cryptowat.ch/announcement/kraken-acquires-cryptowatch) we can look forward to faster development of the charting platform as the work with Kraken will bring in some capital.
+Artur Sapek (/u/excited_by_typos), [the developer of Cryptowatch, says](https://cryptowat.ch/announcement/kraken-acquires-cryptowatch) we can look forward to faster development of the charting platform as the work with Kraken will bring in some capital.
 
 That's helluva good news for today.
 
