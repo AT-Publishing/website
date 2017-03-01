@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Kraken acquires Cryptowatch, lead dev will work for them"
-description: "Not so long ago the last of many shitstorms about Kraken's crappy matching engine there is finally some good news from the exchange."
+description: "Not so long after the last of many shitstorms about Kraken's crappy trading engine there is finally some good news from the exchange."
 categories:
 - "exchanges"
 permalink: kraken-cryptowatch/
