@@ -5,9 +5,12 @@ description: "Featured altcoins and analyses."
 permalink: /category/altcoins/
 ---
 
-{{ site.ads.aads }}
+{{ site.ads.aads728 }}
+
 
 <h4 class="exa">All posts related to <b>altcoins</b></h4>
+
+<p>{{ site.ads.trezorlong }}</p>
 
 <span id="note">"Featured altcoins"</span>
 
@@ -42,6 +45,6 @@ permalink: /category/altcoins/
 
   </div>
 
-  
+
   {% endif %}
 {% endfor %}

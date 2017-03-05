@@ -7,6 +7,8 @@ permalink: /category/trading/
 
 <h4 class="exa">All posts related to <b>altcoin trading</b> or <b>technical analysis</b></h4>
 
+<p>{{ site.ads.aads728 }}</p>
+
 <span id="note">"Altcoin Trading"</span>
 
 {% for post in site.posts %}
@@ -42,4 +44,4 @@ permalink: /category/trading/
   {% endif %}
 {% endfor %}
 
-{{ site.ads.trezor }}
+{{ site.ads.trezorlong }}

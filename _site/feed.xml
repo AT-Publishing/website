@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Mar 2017 22:03:03 +0100</pubDate>
-    <lastBuildDate>Wed, 01 Mar 2017 22:03:03 +0100</lastBuildDate>
+    <pubDate>Sun, 05 Mar 2017 01:23:24 +0100</pubDate>
+    <lastBuildDate>Sun, 05 Mar 2017 01:23:24 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -109,6 +109,8 @@ The Bitstamp Team&lt;/p&gt;
         
         
         <category>exchanges</category>
+        
+        <category>xrp</category>
         
       </item>
     
@@ -217,7 +219,13 @@ There is currently one functional payment processor available for merchants to u
         <guid isPermaLink="true">https://www.altcointrading.net/private-altcoins-dash-monero/</guid>
         
         
-        <category>wallets</category>
+        <category>coins</category>
+        
+        <category>dash</category>
+        
+        <category>zcash</category>
+        
+        <category>xmr</category>
         
       </item>
     
@@ -231,11 +239,19 @@ There is currently one functional payment processor available for merchants to u
 
 &lt;div class=&quot;shifted-left&quot;&gt; &lt;iframe data-aa=&quot;147076&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot; scrolling=&quot;no&quot; style=&quot;width:728px; height:90px; border:0px; padding:0;overflow:hidden&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Trezor the hardware wallet now supports not only Bitcoin but also ZCASH and DASH in its native interface. It is also possible to store ETH and LTC through external wallets.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.lo4zsnogf&quot;&gt;Read the whole post on blog.trezor.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin. It was previously possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum software.&lt;/p&gt;
+&lt;p&gt;By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;It has been already possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum light wallet - or to another supported wallet, like &lt;a href=&quot;https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08#.2g4f3e2h7&quot;&gt;MyEtherWallet&lt;/a&gt; for ETH.&lt;/p&gt;
 
 &lt;p&gt;Electrum was long ago also forked to support &lt;a href=&quot;https://electrum-ltc.org/&quot;&gt;Litecoin&lt;/a&gt; and &lt;a href=&quot;https://electrum-dash.org/&quot;&gt;Dash&lt;/a&gt;. The disadvantage for Trezor users however was that one had to manage several separate wallets.&lt;/p&gt;
+
+&lt;h4 id=&quot;dash-and-zcash-right-in-the-native-trezor-interface&quot;&gt;DASH and ZCASH right in the native Trezor interface&lt;/h4&gt;
 
 &lt;p&gt;The new upgraded version of Trezor now allows to manage accounts with different currencies accessible all at once from the web wallet interface. All you have to do is choose the currency from the menu in the left column.&lt;/p&gt;
 
@@ -317,8 +333,16 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
         <link>https://www.altcointrading.net/trezor-multicoin/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/trezor-multicoin/</guid>
         
+        <category>popular</category>
+        
         
         <category>wallets</category>
+        
+        <category>dash</category>
+        
+        <category>zcash</category>
+        
+        <category>eth</category>
         
       </item>
     
@@ -370,7 +394,7 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
 
 &lt;p&gt;&lt;strong&gt;Bitfinex&lt;/strong&gt; / HK (wire only)&lt;/p&gt;
 
-&lt;p&gt;Altcoins: Ether, Ether Classic, Zcash, Monero, Litecoin&lt;/p&gt;
+&lt;p&gt;Altcoins: Ether, Ether Classic, Zcash, Monero, DASH, Litecoin&lt;/p&gt;
 
 &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Get 10% off fees on Bitfinex&lt;/a&gt;&lt;/p&gt;
 
@@ -418,6 +442,12 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
         
         
         <category>exchanges</category>
+        
+        <category>dash</category>
+        
+        <category>zcash</category>
+        
+        <category>eth</category>
         
       </item>
     
@@ -631,6 +661,8 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
         
         <category>coins</category>
         
+        <category>xmr</category>
+        
       </item>
     
       <item>
@@ -658,6 +690,8 @@ Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private 
         <category>trading</category>
         
         <category>exchanges</category>
+        
+        <category>xmr</category>
         
       </item>
     

@@ -7,6 +7,8 @@ permalink: /category/arbitrage/
 
 <h4 class="exa">All posts related to <b>bitcoin arbitrage</b> or <b>altcoin arbitrage</b></h4>
 
+{{ site.ads.aads728 }}
+<br>
 <span id="note">"Arbitrage Trading"</span>
 
 {% for post in site.posts %}
@@ -43,4 +45,4 @@ permalink: /category/arbitrage/
 {% endfor %}
 
 
-{{ site.ads.pm2 }}
+{{ site.ads.trezorlong }}

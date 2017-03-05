@@ -48,12 +48,12 @@ If there are any questions regarding this privacy policy you may contact us usin
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:altcointrading@openmailbox.org"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:info@altcointrading.net"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/altcointrading" target="_blank"><i class="fa fa-github-square"></i></a>
 </span>
 
 <div class="col three caption">
-	For questions or suggestions please reach out to us by email.
+	For questions or suggestions please reach out to us by email info@altcointrading.net.
 </div>
 <br/>
 <hr/>

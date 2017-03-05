@@ -7,6 +7,8 @@ permalink: /category/exchanges/
 
 <h4 class="exa">All posts related to <b>altcoin exchanges</b></h4>
 
+<p>{{ site.ads.aads728 }}</p>
+
 <span id="note">"Altcoin exchanges"</span>
 
 {% for post in site.posts %}

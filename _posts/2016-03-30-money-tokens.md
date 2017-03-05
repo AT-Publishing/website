@@ -2,7 +2,11 @@
 layout: blog
 title: "Value of Altcoins: Money and Tokens"
 description: "Altcoins can be very roughly divided into two categories: Altcoins that are meant for payments or remittance, and altcoins that are tokens. That determines their value - but it's not so simple."
-category: "trading"
+categories:
+- "trading"
+- "dash"
+- "eth"
+- "xmr"
 permalink: value/
 image:
 - "/img/charts/ethdash.jpg"

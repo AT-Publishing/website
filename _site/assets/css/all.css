@@ -41,6 +41,12 @@ ul {
     list-style: circle!important;
 }
 
+ul>li>a.coin {
+  background: #7a838d;
+    color: white;
+    padding: 5px 10px;
+}
+
 
 .warning {
     background: #FF4136;

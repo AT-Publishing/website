@@ -4,6 +4,9 @@ title: "Trezor (SatoshiLabs) announced altcoin support"
 description: "Trezor now added support for some altcoins - and explained what the altcoin needs to get supported."
 categories:
 - "wallets"
+- "dash"
+- "zcash"
+- "eth"
 permalink: trezor-multicoin/
 image:
 - "/img/wallets/trezor-alena-slush.jpg"
@@ -11,7 +14,9 @@ image:
 - "/img/wallets/trezor-altcoins2.png"
 image_alt:
 - "The new Trezor supports DASH and ZCASH"
-update: 2017-02-01
+update: 2017-03-03
+tags:
+- "popular"
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
@@ -23,11 +28,17 @@ ________________________
 
 {{ site.ads.aads728 }}
 
+> **Trezor the hardware wallet now supports not only Bitcoin but also ZCASH and DASH in its native interface. It is also possible to store ETH and LTC through external wallets.**
+
 [Read the whole post on blog.trezor.io](https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.lo4zsnogf)
 
-By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin. It was previously possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum software.
+By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin.
+
+It has been already possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum light wallet - or to another supported wallet, like [MyEtherWallet](https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08#.2g4f3e2h7) for ETH.
 
 Electrum was long ago also forked to support [Litecoin](https://electrum-ltc.org/) and [Dash](https://electrum-dash.org/). The disadvantage for Trezor users however was that one had to manage several separate wallets.
+
+#### DASH and ZCASH right in the native Trezor interface
 
 The new upgraded version of Trezor now allows to manage accounts with different currencies accessible all at once from the web wallet interface. All you have to do is choose the currency from the menu in the left column.
 

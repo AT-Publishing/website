@@ -4,6 +4,9 @@ title: "Back to Basics: How to buy altcoins"
 description: "They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the <strike>gambling</strike> trading you need the liquidity of Alt/BTC pairs though."
 categories:
 - "exchanges"
+- "dash"
+- "zcash"
+- "eth"
 permalink: how-to-buy-altcoins/
 image:
 - "/img/eth/eth2.jpg"
@@ -62,7 +65,7 @@ Altcoins: Ether, Ether Classic, Iconomi, Litecoin, Augur, Dogecoin, Lumen, Moner
 
 **Bitfinex** / HK (wire only)
 
-Altcoins: Ether, Ether Classic, Zcash, Monero, Litecoin
+Altcoins: Ether, Ether Classic, Zcash, Monero, DASH, Litecoin
 
 {% aff Get 10% off fees on Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %}
 

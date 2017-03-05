@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 5egV78YtlC Fee Discount Coupon Bitfinex
+title: 5egV78YtlC 10% Fee Discount Coupon Bitfinex
 permalink: /coupon-bitfinex-5egV78YtlC/
 tags:
 - hidden
@@ -23,13 +23,13 @@ ________________________
 
 Bitfinex is a Hong Kong based exchange infamous for being hacked in August 2016. Despite the hack it still has a wide user base thanks to its superior trading interface.
 
-You can buy or trade BTC, LTC, ETH, ETC, ZEC and XMR. There are both USD markets and pairs or altcoin/bitcoin.
+You can buy or trade BTC, LTC, ETH, ETC, ZEC, XMR and since March 2017 also DASH. There are both USD markets and pairs or altcoin/bitcoin.
 
 The exchange is available worldwide. There is limitation on margin trade for Americans - however the exchange is still operational from American IP address. New users on US IP just have to state they are not American residents.
 
 No verification is needed other than for fiat withdrawal.
 
-**There is an initial 30 day 10% fee rebate for users who sign up with a referral code.**
+**There is an 10% fee discount for users who sign up with a referral code.**
 
 `bitfinex.com use code 5egV78YtlC`
 

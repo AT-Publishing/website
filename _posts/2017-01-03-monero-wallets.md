@@ -2,7 +2,9 @@
 layout: blog
 title: "Monero - Where the heck are you supposed to cold-store it?"
 description: "One of the most mature altcoins. How to hold it though?"
-category: "coins"
+categories:
+- "coins"
+- "xmr"
 permalink: monero-wallet/
 image:
 - "/img/monero-logo.jpg"
