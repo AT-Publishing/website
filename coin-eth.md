@@ -7,4 +7,10 @@ navi:
  exclude: yes
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality. It provides a decentralized virtual machine, the Ethereum Virtual Machine (EVM).
+
+ETC or ETH "Classic" is worth steadily about 10% of ETH and it is the underlying asset of the proposed [Ethereum ETF](https://grayscale.co/ethereum-investment-trust/).
+
+You can trade ETH and ETC on {% aff Poloniex https://poloniex.com %} with fees of .15%/.25% and also on {% aff Bitfinex - sign up with this link to get the generous fees of .09%/.18% https://www.bitfinex.com/?refcode=5egV78YtlC %}. Charts and indicators are available on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}.
+
+{{ site.ads.aads728 }}
