@@ -12,7 +12,9 @@
 <script async src="{{ site.url }}{{ site.baseurl }}/assets/js/jq.min.js"></script>
 <!--langs-->
 <link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" hreflang="en-us" />
-
+{% if page.german %}
+<link rel="alternate" href="https://de.altcointrading.net/{{ page.german }}" hreflang="de-de" />
+{% endif %}
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
