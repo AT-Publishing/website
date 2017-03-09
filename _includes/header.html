@@ -1,8 +1,17 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns stripe">
-      <div class="hl"><a href="/">{{ site.title }}</a></div>
-      <small><em>{{ site.subtitle }}</em></small>
+      <div class="logo">
+        <amp-img itemprop="image" alt="{{ site.title }}"
+        src="{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
+        layout="responsive"
+        data-original-width="75px" data-original-height="90px"
+        width="75px" height="90px"></amp-img>
+      </div>
+      <div class="textlogo">
+        <div class="hl"><a href="/">{{ site.title }}</a></div>
+        <small><em>{{ site.subtitle }}</em></small>
+      </div>
     </div>
   </div>
   <nav class="main">

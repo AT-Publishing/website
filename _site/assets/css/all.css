@@ -17,6 +17,19 @@ h6 {
     font-family: 'Slabo 27px', serif;
 }
 
+
+.logo {
+  width: 75px;
+  float:left;
+  margin-right: 10px;
+}
+.textlogo {
+  display: block;
+  float: left;
+  padding-top: 6px;
+}
+
+
 .maincontent h3 {
   margin-top: 0px;
   background: rgba(122, 131, 141, 0.64);
