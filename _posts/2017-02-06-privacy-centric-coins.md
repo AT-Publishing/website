@@ -14,6 +14,7 @@ image:
 image_alt:
 - "It goes way beyond the libertarian dream about paying for coffee."
 update: 2017-02-06
+comments: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

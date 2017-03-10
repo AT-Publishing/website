@@ -55,12 +55,20 @@ navi:
             <a href=".{{ post.url }}">{{ post.title }}</a>
           </strong>
           <small>{{ post.date | date_to_string }}</small>
+
         </h4>
 
         <div class="row">
 
           <div class="nine columns">
             {{ post.description }}
+            {% if post.comments %}
+            <p>
+              [<a href="{{ site.url }}{{ site.baseurl}}{{ post.url }}#disqus_thread">
+              Comments
+              </a>]
+            </p>
+            {% endif %}
           </div>
 
           {% if post.image[0] %}
@@ -95,3 +103,5 @@ navi:
 
 
   </div>
+
+<script id="dsq-count-scr" src="//altcointrading.disqus.com/count.js" async></script>

@@ -11,6 +11,7 @@ image:
 image_alt:
 - "Divergeces between lows or highs on the price action and the MACD can provide valuable signals."
 update: 2016-07-17
+comments: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

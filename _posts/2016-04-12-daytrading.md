@@ -9,6 +9,7 @@ image:
 image_alt:
 - "XMRBTC Chart - Cryptowat.ch"
 update: 2016-04-12
+comments: true
 ---
 
 

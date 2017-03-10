@@ -13,6 +13,7 @@ image:
 image_alt:
 - "ETH-Dash chart (data from ShapeShift instant exchange, chart altcoinwisdom.com)"
 update: 2016-07-20
+comments: true
 ---
 
 

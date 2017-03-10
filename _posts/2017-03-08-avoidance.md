@@ -14,6 +14,7 @@ image_alt:
 update: 2017-03-09
 german: "wyckoff/"
 published: true
+comments: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

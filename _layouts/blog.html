@@ -24,10 +24,35 @@ layout: default-news
         </small>
         {% endif %}
         <article class="maincontent">
+
           {{ content }}
+
+          {% if page.comments %}
+
+          <br>
+
+          <h4 class="post comment">Comment on "{{ page.title }}"</h4>
+
+            <div id="disqus_thread"></div>
+             <script>
+                (function() {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://altcointrading.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+              </script>
+             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+          <br>
+
+          {% endif %}
+
         </article>
     </div>
     <div class="four columns nomargintop">
       {% include sidebar.html %}
     </div>
   </div>
+
+  <script id="dsq-count-scr" src="//altcointrading.disqus.com/count.js" async></script>

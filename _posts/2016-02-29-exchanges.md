@@ -26,6 +26,7 @@ image_alt:
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
 update: 2017-01-28
+comments: true
 ---
 
 {% amp700 border {{page.image[7]}} {{page.image_alt[0]}} %}

@@ -13,6 +13,7 @@ image:
 image_alt:
 - "XMR wallet"
 update: 2017-01-22
+comments: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
