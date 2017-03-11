@@ -16,7 +16,11 @@ image_alt:
 update: 2017-01-03
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TZi9xx6aiuY" frameborder="0" allowfullscreen></iframe>
+
+<div class=" clearfix adfix"><amp-iframe width="560px" height="315px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://www.youtube.com/embed/TZi9xx6aiuY"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
 
 ________________________
 

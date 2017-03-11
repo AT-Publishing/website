@@ -44,4 +44,7 @@ The ETC product (created by Barry Silbert's Grayscale) [is supposed to launch th
 
 In short, it is not going to get any easier for legacy investors to trade cryptocurrency in the months to come, but that's about it. Cryptocurrencies are for now just cryptocurrencies, the niche speculative bet on the future. That's not quite a reason to panic.
 
-<div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="fdd8c008-2a3b-444a-8fc1-425cd015e24e" data-embed-created="2017-03-10T22:51:11.030Z"><a href="https://www.reddit.com/r/ethtrader/comments/5yoqdr/denied/dersobt/">Comment</a> from discussion <a href="https://www.reddit.com/r/ethtrader/comments/5yoqdr/denied/">DENIED</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
+> They have two mutually exclusive, and self destructive ideals.
+Pursue valuation from regulated sources.
+Or undermine those sources they pursue.
+These Ideas can't exist on the same chain, there isn't some quantum solution. They need to fork to meet both, or continue in purgatory. meanwhile, Ethereum will just find implementation and application as a tool. It really is oil vs gold. [via /r/ethtrader](https://www.reddit.com/r/ethtrader/comments/5yoqdr/denied/)

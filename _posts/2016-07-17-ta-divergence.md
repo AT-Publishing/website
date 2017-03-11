@@ -31,7 +31,11 @@ Technical analysis is something that newbie crypto-traders search for a lot whil
 
 There is one channel maintained (occasionally) by a redditor /u/drwd. He does a series called "Better know an indicator" which already provided a very fine intro to the Ichimoku cloud for many traders. He made a good video on divergences ("divs") that is worth looking at unless you are a seasoned trader.
 
-<iframe width="700" height="365" src="https://www.youtube.com/embed/nGbqFV0koaQ" frameborder="0" allowfullscreen></iframe>
+
+<div class=" clearfix adfix"><amp-iframe width="560px" height="315px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://www.youtube.com/embed/nGbqFV0koaQ"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
 
 **Divergences in short**
 

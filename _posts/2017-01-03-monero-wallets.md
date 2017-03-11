@@ -35,8 +35,7 @@ What if you want to invest in Monero long term? You should not leave the coin on
 
 #### Lightweight client like Electrum for Monero...Eh?
 
-<blockquote class="reddit-card" data-card-created="1483411736"><a href="https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/?ref=share&ref_source=embed">Will there ever be a lightweight wallet (like Electrum) for Monero?</a> from <a href="http://www.reddit.com/r/Monero">Monero</a></blockquote>
-<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+[Will there ever be lightweight wallet for Monero? via r/monero](https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/)
 
 Every cryptotrader knows Electrum. It's the lightweight wallet that is easy to use and doesn't need you to download the full blockchain. There are integrations - Electrum for Litecoin and Dash ([see here](/altcoin-wallets/)). Unfortunately, nothing like this for Monero.
 
@@ -44,7 +43,10 @@ The only alternative for Monero is software called LightWallet. It is not the sa
 
 In other words someone runs the node for you and will let your wallet to use it.
 
-<div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="true" data-embed-uuid="61d47572-8d5f-448b-92bd-3ae43bd693f4" data-embed-created="2017-01-03T02:49:16.915Z"><a href="https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/d2hnur8/">Comment</a> from discussion <a href="https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/">Will there ever be a lightweight wallet (like Electrum) for Monero?</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
+> You can use lightWallet which uses a remote node. This is perfectly safe from the perspective that you keep your own private keys and therefore the remote node can not steal your coins, but compromises your privacy in various ways. So does Electrum and other Bitcoin thin clients for that matter (even more than Bitcoin itself).
+If you are okay with CLI, simplewallet can also be used with a remote node.
+There is no alternative to running your own full node that gives you maximum privacy and security, but there are alternatives. Again this applies to Bitcoin as well. [via r/monero](https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/d2hnur8/)
+
 
 **[Lightweight wallet](https://bitcointalk.org/index.php?topic=903579.0), [Releases on Github - exe for Windows and jar for Linux/Android/anything with java](https://github.com/jwinterm/LightWallet2/releases)**
 
