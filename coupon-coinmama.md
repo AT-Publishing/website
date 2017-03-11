@@ -18,9 +18,13 @@ The payment executes via Simplex gateway. There will be no mention on the bank/e
 
 Coinmama is available in most countries. If you live in the US Coinmama is only available in the following states: *California, Colorado, Florida, Illinois, Indiana, Kansas, Massachusetts, Michigan, Montana, New Mexico, North Carolina, Pennsylvania, South Carolina, Tennessee, Texas*.
 
-`coinmama.com use referral code fny3000 and coupon 190TY584`
+```
+coinmama.com
+code fny3000
+coupon 190TY584
+```
 
-<a rel="nofollow" href="https://www.coinmama.com/?ref=fny3000" class="button" target="_blank">Go to Coinmama and use coupon code 190TY584 for 5% discount</a>
+<a rel="nofollow" href="https://www.coinmama.com/?ref=fny3000" class="button" target="_blank">Get 5% discount</a>
 
 
 {{ site.ads.aads728 }}

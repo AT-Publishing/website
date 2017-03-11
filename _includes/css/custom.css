@@ -13,6 +13,10 @@ h6 {
     font-family: 'Slabo 27px', serif;
 }
 
+hr.home {
+  border-top: 2px solid #7A838D;
+}
+
 
 .logo {
   width: 75px;
@@ -47,7 +51,7 @@ h6 {
   margin-top:0
 }
 ul {
-    list-style: circle!important;
+    list-style: circle ;
 }
 
 ul>li>a.coin {
@@ -82,7 +86,8 @@ margin-top: 10px;
 font-weight: 400;
 }
 .tooltip-input {
-  display: none !important;
+  display: none  ;
+  visibility: hidden;
 } /*Hide input element*/
 
 .tooltip-content {
@@ -123,7 +128,7 @@ a.last {
 
 a {
     color: #001f3f;
-    text-decoration: none!important;
+    text-decoration: none ;
 }
 
 a:hover {
@@ -177,8 +182,8 @@ ul.navi li {
     font-size: 1.6rem;
     margin-right:15px;
     font-weight:800;
-    padding-left: 0!important;
-    margin-bottom: 0.3rem!important;
+    padding-left: 0 ;
+    margin-bottom: 0.3rem ;
 
 }
 
@@ -188,7 +193,7 @@ ul.navi li:first-of-type {
 
 nav ul ul {
     display: none;
-    margin-left: 0!important;
+    margin-left: 0 ;
     position: absolute;
     top: 70px;
     background: rgba(255, 255, 255, 0.7);
@@ -203,9 +208,9 @@ nav ul li:hover > ul {
 
 nav ul ul li {
     float: none;
-    display: block!important;
+    display: block ;
     position: relative;
-    padding: 0!important;
+    padding: 0 ;
 }
 
 
@@ -235,7 +240,7 @@ ul.divided li div {
 #sidebar h3,
 #sidebar h3 a {
     font-size: 1.8rem;
-    color: #001f3f!important;
+    color: #001f3f ;
     background: transparent;
     padding: 15px 0;
     font-weight: 800;
@@ -251,7 +256,7 @@ ul.divided li div {
 #side2 h3,
 #side2 h3 a {
     font-size: 1.8rem;
-    color: #fff!important;
+    color: #fff ;
     background: #111;
     padding: 5px 15px
 }
@@ -263,11 +268,11 @@ ul.divided li div {
 .stripe {
   margin: 0;
     padding: 20px 0;
-    color: #7A838D!important;
+    color: #7A838D ;
     background: #fff;
-    margin-left: auto!important;
-    margin-right: auto!important;
-    width: 101%!important;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 101% ;
     border-bottom: 2px solid #7A838D;
   }
 
@@ -295,11 +300,11 @@ ul.divided li div {
 }
 
 figure.post {
-    max-width: 100%!important;
+    max-width: 100% ;
     margin: 0 0 30px;
 }
 figure.border {
-max-width: 100%!important;
+max-width: 100% ;
 margin: 0 0 30px;
 border: 2px dotted #7A838D;
 }
@@ -337,10 +342,24 @@ font-size: 80%;
 
 figure.chart {margin:1.5em 0}
 figure.noborder {
-    max-width: 100% !important;
+    max-width: 100%  ;
     margin: 0 0 30px;
     border: 0px dotted #7A838D;
 }
+
+
+.clearfix {
+  clear: both;
+}
+.adfix {
+  clear: both;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
 /* Media Queries */
 /* Larger than mobile */
 @media (min-width: 400px) {}
@@ -349,16 +368,57 @@ figure.noborder {
   h4 {font-size: 2.3rem;}
 }
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+ #togglemenu {
+   display: none;
+ }
+}
 /* Larger than desktop */
 @media (min-width: 1000px) {}
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+  @media (max-width: 750px) {
+   #desktopmenu {
+     display: none;
+   }
+   .swapper {
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+   }
+   #new-posts {
+     -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+   }
+   #popular-posts {
+     -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+   }
+  }
+
 @media (max-width: 500px) {
   ul.navi li {
     min-width: 100%;
-    padding-left: 0!important;
+    padding-left: 0 ;
     text-align: center;
   }
   .stripe .hl a {
@@ -371,6 +431,18 @@ figure.noborder {
     text-align: center;
   }
   img, figure {
-    max-width: 100%!important;
+    max-width: 100% ;
+  }
+  .tooltip-label-menu {
+    font-size: 1em;
+    background: #ff4136;
+    padding: 0.4em;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 2em;
+    color: white;
+    margin-left: -10px;
+    margin-top: 0;
+    font-weight: 400;
   }
 }

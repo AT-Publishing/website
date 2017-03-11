@@ -30,6 +30,10 @@ h6 {
     font-family: 'Slabo 27px', serif;
 }
 
+hr.home {
+  border-top: 2px solid #7A838D;
+}
+
 
 .logo {
   width: 75px;
@@ -64,7 +68,7 @@ h6 {
   margin-top:0
 }
 ul {
-    list-style: circle!important;
+    list-style: circle ;
 }
 
 ul>li>a.coin {
@@ -99,7 +103,8 @@ margin-top: 10px;
 font-weight: 400;
 }
 .tooltip-input {
-  display: none !important;
+  display: none  ;
+  visibility: hidden;
 } /*Hide input element*/
 
 .tooltip-content {
@@ -140,7 +145,7 @@ a.last {
 
 a {
     color: #001f3f;
-    text-decoration: none!important;
+    text-decoration: none ;
 }
 
 a:hover {
@@ -194,8 +199,8 @@ ul.navi li {
     font-size: 1.6rem;
     margin-right:15px;
     font-weight:800;
-    padding-left: 0!important;
-    margin-bottom: 0.3rem!important;
+    padding-left: 0 ;
+    margin-bottom: 0.3rem ;
 
 }
 
@@ -205,7 +210,7 @@ ul.navi li:first-of-type {
 
 nav ul ul {
     display: none;
-    margin-left: 0!important;
+    margin-left: 0 ;
     position: absolute;
     top: 70px;
     background: rgba(255, 255, 255, 0.7);
@@ -220,9 +225,9 @@ nav ul li:hover > ul {
 
 nav ul ul li {
     float: none;
-    display: block!important;
+    display: block ;
     position: relative;
-    padding: 0!important;
+    padding: 0 ;
 }
 
 
@@ -252,7 +257,7 @@ ul.divided li div {
 #sidebar h3,
 #sidebar h3 a {
     font-size: 1.8rem;
-    color: #001f3f!important;
+    color: #001f3f ;
     background: transparent;
     padding: 15px 0;
     font-weight: 800;
@@ -268,7 +273,7 @@ ul.divided li div {
 #side2 h3,
 #side2 h3 a {
     font-size: 1.8rem;
-    color: #fff!important;
+    color: #fff ;
     background: #111;
     padding: 5px 15px
 }
@@ -280,11 +285,11 @@ ul.divided li div {
 .stripe {
   margin: 0;
     padding: 20px 0;
-    color: #7A838D!important;
+    color: #7A838D ;
     background: #fff;
-    margin-left: auto!important;
-    margin-right: auto!important;
-    width: 101%!important;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 101% ;
     border-bottom: 2px solid #7A838D;
   }
 
@@ -312,11 +317,11 @@ ul.divided li div {
 }
 
 figure.post {
-    max-width: 100%!important;
+    max-width: 100% ;
     margin: 0 0 30px;
 }
 figure.border {
-max-width: 100%!important;
+max-width: 100% ;
 margin: 0 0 30px;
 border: 2px dotted #7A838D;
 }
@@ -354,10 +359,24 @@ font-size: 80%;
 
 figure.chart {margin:1.5em 0}
 figure.noborder {
-    max-width: 100% !important;
+    max-width: 100%  ;
     margin: 0 0 30px;
     border: 0px dotted #7A838D;
 }
+
+
+.clearfix {
+  clear: both;
+}
+.adfix {
+  clear: both;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
 /* Media Queries */
 /* Larger than mobile */
 @media (min-width: 400px) {}
@@ -366,16 +385,57 @@ figure.noborder {
   h4 {font-size: 2.3rem;}
 }
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+ #togglemenu {
+   display: none;
+ }
+}
 /* Larger than desktop */
 @media (min-width: 1000px) {}
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+  @media (max-width: 750px) {
+   #desktopmenu {
+     display: none;
+   }
+   .swapper {
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+   }
+   #new-posts {
+     -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+   }
+   #popular-posts {
+     -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+   }
+  }
+
 @media (max-width: 500px) {
   ul.navi li {
     min-width: 100%;
-    padding-left: 0!important;
+    padding-left: 0 ;
     text-align: center;
   }
   .stripe .hl a {
@@ -388,7 +448,19 @@ figure.noborder {
     text-align: center;
   }
   img, figure {
-    max-width: 100%!important;
+    max-width: 100% ;
+  }
+  .tooltip-label-menu {
+    font-size: 1em;
+    background: #ff4136;
+    padding: 0.4em;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 2em;
+    color: white;
+    margin-left: -10px;
+    margin-top: 0;
+    font-weight: 400;
   }
 }
 
@@ -396,7 +468,6 @@ figure.noborder {
 <!-- allowed resources -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Slabo+27px' rel='stylesheet'>
-<script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
 <!--langs-->
 <link rel="alternate" href="https://www.altcointrading.net/" hreflang="en-us" />
 
@@ -484,8 +555,88 @@ figure.noborder {
         <small><em>The forex of cryptocurrencies, bitcoin as the base.</em></small>
       </div>
     </div>
+    <div class="tooltip" id="togglemenu">
+      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
+      <label for="mobile-menu-1" class="tooltip-label-menu">
+        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
+      </label>
+      <div role="tooltip" id="togglemenuID" class="tooltip-content">
+
+        <nav class="main">
+          <div class="twelve columns">
+            <ul class="navi">
+
+              
+              
+              
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/referral-coupons/">coupons</a></li>
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/category/arbitrage/">arbitrage trading</a></li>
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/category/altcoins/">best altcoins</a></li>
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/category/exchanges/">altcoin exchanges</a></li>
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/category/trading/">altcoin trading</a></li>
+              
+              
+              
+              <li><a href="https://www.altcointrading.net/category/wallets/">altcoin wallets</a></li>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+
+              <li><a class="coin" href="/coin/dash/">DASH</a></li>
+              <li><a class="coin" href="/coin/eth/">ETH</a></li>
+              <li><a class="coin" href="/coin/xmr/">XMR</a></li>
+            </ul>
+
+
+          </div>
+        </nav>
+
+     </div> <!--/.tooltip-content-->
+    </div><!--/.tooltip-->
   </div>
-  <nav class="main">
+  <nav class="main" id="desktopmenu">
     <div class="twelve columns">
       <ul class="navi">
 
@@ -555,141 +706,123 @@ figure.noborder {
 
     </div>
   </nav>
+
 </div>
 
 <div class="container">
   <div class="row">
-   <div class="eight columns">
+   <div class="eight columns swapper">
+
+    <section id="popular-posts">
+      <span id="note">Popular Posts</span>
+      <br><br>
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+        <p>
+          <strong>
+            <a href="./trezor-multicoin/">Trezor (SatoshiLabs) announced altcoin support</a>
+          </strong>
+        <br>
+          <em> Updated 03 Mar 2017: </em>Trezor now added support for some altcoins - and explained what the altcoin needs to get supported.
+        </p>
+        
+      
+         
+        <p>
+          <strong>
+            <a href="./how-to-buy-altcoins/">Back to Basics: How to buy altcoins</a>
+          </strong>
+        <br>
+          <em> Updated 01 Feb 2017: </em>They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the <strike>gambling</strike> trading you need the liquidity of Alt/BTC pairs though.
+        </p>
+        
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+      
+         
+        <p>
+          <strong>
+            <a href="./altcoin-exchanges/">Best Altcoin Exchanges, Tried and True</a>
+          </strong>
+        <br>
+          <em> Updated 28 Jan 2017: </em>Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?
+        </p>
+        
+      
+         
+        <p>
+          <strong>
+            <a href="./altcoin-wallets/">Best Altcoin Wallets</a>
+          </strong>
+        <br>
+          <em> Updated 22 Jan 2017: </em>Where to store altcoins? See a list of altcoin wallets, from web based to hardware.
+        </p>
+        
+      
+         
+      
+         
+      
+      <hr class="home">
+    </section>
 
 
-     <div class="tooltip">
-       <input type="checkbox" value="selected" id="warning-1" class="tooltip-input">
-       <label for="warning-1" class="tooltip-label">Toggle Warning</label>
-       <div role="tooltip" id="tooltipID" class="tooltip-content">
-         <div class="warning">
-           <strong>WARNING</strong>
-             <p>These days, after Jan 27 2017, it is most important to check if you're getting clean coins.
-             <a href="https://bitcointalk.org/index.php?topic=1766723.0" target="_blank">On Jan 27 someone published a list of transactions</a>
-             that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving.</p>
-             <p>Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges.
-             It is likely that they might try to use a mixing service to clean the bitcoin or that they will
-             even set up their own mixer. </p>
-             <p>Therefore always check where did your bitcoins came from - even
-             if you just deposited them for lending on Poloniex. You will probably not be getting back your
-             original bitcoins but bitcoins with a different history.</p>
-             </div>
-      </div> <!--/.tooltip-content-->
-     </div><!--/.tooltip-->
 
-
-     <span id="note">Popular Posts</span>
-     <br><br>
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-       <p>
-         <strong>
-           <a href="./trezor-multicoin/">Trezor (SatoshiLabs) announced altcoin support</a>
-         </strong>
-       <br>
-         <em> Updated 03 Mar 2017: </em>Trezor now added support for some altcoins - and explained what the altcoin needs to get supported.
-       </p>
-       
-     
-        
-       <p>
-         <strong>
-           <a href="./how-to-buy-altcoins/">Back to Basics: How to buy altcoins</a>
-         </strong>
-       <br>
-         <em> Updated 01 Feb 2017: </em>They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the <strike>gambling</strike> trading you need the liquidity of Alt/BTC pairs though.
-       </p>
-       
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-     
-        
-       <p>
-         <strong>
-           <a href="./altcoin-exchanges/">Best Altcoin Exchanges, Tried and True</a>
-         </strong>
-       <br>
-         <em> Updated 28 Jan 2017: </em>Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?
-       </p>
-       
-     
-        
-       <p>
-         <strong>
-           <a href="./altcoin-wallets/">Best Altcoin Wallets</a>
-         </strong>
-       <br>
-         <em> Updated 22 Jan 2017: </em>Where to store altcoins? See a list of altcoin wallets, from web based to hardware.
-       </p>
-       
-     
-        
-     
-        
-     
-     <hr style="border-top: 2px solid #7A838D;">
-
-
-      <div class="shifted-left"> <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe> </div>
-
+    <section id="new-posts">
+      <div class="shifted-left clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
       <br>
-
       <span id="note">New Posts</span>
       
         <h4 class="post">
@@ -697,549 +830,446 @@ figure.noborder {
             <a href="./ethereum-etf-unlikely/">Bitcoin ETF rejected, Ethereum ETF is probably off the table too</a>
           </strong>
           <small>10 Mar 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for ETH too
             
             <p>
-              [<a href="https://www.altcointrading.net/ethereum-etf-unlikely/#disqus_thread">
+              [<a href="https://www.altcointrading.net/ethereum-etf-unlikely/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/ethereum-etf-unlikely/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/emotions/sadness.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/emotions/sadness.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./wyckoff-avoidance/">Avoidance Strategy in Altcoin Trading</a>
           </strong>
           <small>08 Mar 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies?
             
             <p>
-              [<a href="https://www.altcointrading.net/wyckoff-avoidance/#disqus_thread">
+              [<a href="https://www.altcointrading.net/wyckoff-avoidance/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/wyckoff-avoidance/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/emotions/standby.JPG" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/emotions/standby.JPG" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./dash-03-2017/">TradingView users on DASH: March 7th 2017</a>
           </strong>
           <small>06 Mar 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Selection of ideas regarding the recent DASH price action.
             
             <p>
-              [<a href="https://www.altcointrading.net/dash-03-2017/#disqus_thread">
+              [<a href="https://www.altcointrading.net/dash-03-2017/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/dash-03-2017/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/coins/dash.png" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/coins/dash.png" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./kraken-cryptowatch/">Kraken acquires Cryptowatch, lead dev will work for them</a>
           </strong>
           <small>01 Mar 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Not so long after the last of many shitstorms about Kraken's crappy trading engine there is finally some good news from the exchange.
             
             <p>
-              [<a href="https://www.altcointrading.net/kraken-cryptowatch/#disqus_thread">
+              [<a href="https://www.altcointrading.net/kraken-cryptowatch/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/kraken-cryptowatch/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/kraken.png" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/kraken.png" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./ripple-trading/">Don't miss out if you're into Ripple</a>
           </strong>
           <small>21 Feb 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             If you are a fan of Ripple you still have time to get verified on Bitstamp and on Cryptofacilities - Bitstamp offers fee discount.
             
             <p>
-              [<a href="https://www.altcointrading.net/ripple-trading/#disqus_thread">
+              [<a href="https://www.altcointrading.net/ripple-trading/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/ripple-trading/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/coins/ripple.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/coins/ripple.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./private-altcoins-dash-monero/">Privacy-centric altcoins: Dash vs Monero</a>
           </strong>
           <small>06 Feb 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Dash and Monero are both privacy oriented altcoins which is also pretty much the only thing that many traders know about them. Let's go a bit fundamentalistic though.
             
             <p>
-              [<a href="https://www.altcointrading.net/private-altcoins-dash-monero/#disqus_thread">
+              [<a href="https://www.altcointrading.net/private-altcoins-dash-monero/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/private-altcoins-dash-monero/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/emotions/coffee.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/emotions/coffee.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./trezor-multicoin/">Trezor (SatoshiLabs) announced altcoin support</a>
           </strong>
           <small>01 Feb 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Trezor now added support for some altcoins - and explained what the altcoin needs to get supported.
             
             <p>
-              [<a href="https://www.altcointrading.net/trezor-multicoin/#disqus_thread">
+              [<a href="https://www.altcointrading.net/trezor-multicoin/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/trezor-multicoin/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/wallets/trezor-alena-slush.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/wallets/trezor-alena-slush.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./how-to-buy-altcoins/">Back to Basics: How to buy altcoins</a>
           </strong>
           <small>28 Jan 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the <strike>gambling</strike> trading you need the liquidity of Alt/BTC pairs though.
             
             <p>
-              [<a href="https://www.altcointrading.net/how-to-buy-altcoins/#disqus_thread">
+              [<a href="https://www.altcointrading.net/how-to-buy-altcoins/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/how-to-buy-altcoins/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/eth/eth2.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/eth/eth2.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./iconomi/">ICONOMI</a>
           </strong>
           <small>21 Jan 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             You must have heard about Iconomi. What is it?
             
             <p>
-              [<a href="https://www.altcointrading.net/iconomi/#disqus_thread">
+              [<a href="https://www.altcointrading.net/iconomi/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/iconomi/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="https://ico.iconomi.net/img/press/company/ICONOMI-logo-white.png" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="https://ico.iconomi.net/img/press/company/ICONOMI-logo-white.png" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./monero-wallet/">Monero - Where the heck are you supposed to cold-store it?</a>
           </strong>
           <small>03 Jan 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             One of the most mature altcoins. How to hold it though?
             
             <p>
-              [<a href="https://www.altcointrading.net/monero-wallet/#disqus_thread">
+              [<a href="https://www.altcointrading.net/monero-wallet/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/monero-wallet/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/monero-logo.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/monero-logo.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./monero-kraken/">Kraken opens Monero trading</a>
           </strong>
           <small>02 Jan 2017</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Monero trading on Kraken opened on 2nd of January 2017
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/monero-kraken/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/monero-logo.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/monero-logo.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./finexening/">The Finexening - Bitfinex hack</a>
           </strong>
           <small>06 Aug 2016</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             The best of Reddit's response on the Bitfinex hack
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/finexening/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./free-etc/">How to get free ETC out of thin air</a>
           </strong>
           <small>29 Jul 2016</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             There is no code implemented to stop duplicating coins from one chain to another. Free money!
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/free-etc/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/eth/eth1.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/eth/eth1.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./eth-classic/">Ethereum Classic on Poloniex today, on Bitfinex soon</a>
           </strong>
           <small>24 Jul 2016</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             What is Ethereum Classic and how it came about. Sure you can trade it on Poloniex as ETHC, Bitfinex will follow suit.
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/eth-classic/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/eth/eth4.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/eth/eth4.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
         <h4 class="post">
           <strong>
             <a href="./value/">Value of Altcoins: Money and Tokens Reloaded</a>
           </strong>
           <small>23 Jul 2016</small>
-
         </h4>
-
         <div class="row">
-
           <div class="nine columns">
             Altcoins can be very roughly divided into two categories: Altcoins that are meant for payments or remittance, and altcoins that are tokens. That determines their value - but it's not so simple.
             
             <p>
-              [<a href="https://www.altcointrading.net/value/#disqus_thread">
+              [<a href="https://www.altcointrading.net/value/#disqus_embed">
               Comments
               </a>]
             </p>
             
           </div>
-
           
           <div class="three columns">
             <a target="_blank" href="/value/">
               <figure class="thumb">
-                <amp-img itemprop="image" src="/img/charts/ethdash.jpg" alt="Altcoin Trading Blog" layout=""
+                <amp-img itemprop="image" src="/img/charts/ethdash.jpg" alt="Altcoin Trading Blog"
+                layout="fixed"
                 width="150px" height="80px">
                 </amp-img>
               </figure>
             </a>
           </div>
           
-
-
-
         </div>
-
       
+      <div class="shifted-left clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
+    </section>
 
-      <div class="shifted-left"> <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe> </div>
+
 
 
 
@@ -1253,7 +1283,14 @@ figure.noborder {
     <ul class="divided">
       <li>
         <div>
-          <iframe data-aa='147074' src='https://ad.a-ads.com/147074?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+          <amp-iframe
+            width=336 height=280
+            layout="responsive"
+            data-aa="147074"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://ad.a-ads.com/147074?size=336x280">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
         </div>
       </li>
       <li>
@@ -1305,19 +1342,45 @@ figure.noborder {
 
       <li>
         <div>
-          <iframe data-aa='147074' src='https://ad.a-ads.com/147074?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+
+          <amp-iframe
+            width=336 height=280
+            layout="responsive"
+            data-aa="147074"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://ad.a-ads.com/147074?size=336x280">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+
         </div>
       </li>
 
       <h3>Follow this site</h3>
 
-      <div class="gt_newpost" style="padding: 20px; outline: 0px none; vertical-align: baseline; background: rgb(255, 255, 255) none repeat scroll 0% 0%; font-size: 100%; box-shadow: 0px 0px 5px rgb(204, 204, 204); display: inline-table; width: 240px; height: auto;"> <div class="form-overlay"></div> <form method="post" target="popupwindow" action="http://www.specificfeeds.com/widgets/subscribeWidget/dWZIOCtQa3JQaElqd2ZMTEx3QklkNFJZc3UreUtCUHM4SGtZeStVd2tZYUxwUUlpZmNkWis2UUpBNG5JWHhKaFdyMFBRaVJZWTc1Z3hJeng4eUlkTnYydStTaWFHVVZyMXArcCtjam5TYWZjNGRlejhhNE5XQ21DQTh1MGdPM1Z8WGpCOGY1UURSZ0FEcVZ0eVh1bnlIdnhQYmNTTW8yQWp0ZjdEVWk3ZkNzdz0=/8/"> <p style="margin: 0px; font-family: Verdana; font-size: 16px; text-align: center; color: rgb(0, 31, 63); font-weight: bold;">Get new posts by email:</p> <input name="data[Widget][email]" placeholder="Your email please" value="" style="margin: 15px 0 0 0; line-height: 38px; font-size: 16px; width: 100%; text-align: center;" type="text"> <input name="data[Widget][feed_id]" value="dWZIOCtQa3JQaElqd2ZMTEx3QklkNFJZc3UreUtCUHM4SGtZeStVd2tZYUxwUUlpZmNkWis2UUpBNG5JWHhKaFdyMFBRaVJZWTc1Z3hJeng4eUlkTnYydStTaWFHVVZyMXArcCtjam5TYWZjNGRlejhhNE5XQ21DQTh1MGdPM1Z8WGpCOGY1UURSZ0FEcVZ0eVh1bnlIdnhQYmNTTW8yQWp0ZjdEVWk3ZkNzdz0=" type="hidden"> <input name="data[Widget][feedtype]" value="8" type="hidden"> <input value="Yes alert me on news" name="subscribe" class="sub_inp_subt" style="line-height: 38px; margin: 15px 0px 0px; width: 100%; font-size: 16px; cursor: pointer; box-shadow: 1px 1px 0px rgb(102, 102, 102) ! important; font-family: Helvetica,Arial,sans-serif; text-align: center; font-weight: bold; color: rgb(0, 31, 63); background-color: rgb(122, 131, 141);" type="submit"> </form> </div>
-
-      <h3>Latest comments</h3>
+      <a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>
 
       <li>
-        <script src="https://altcointrading.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=1&excerpt_length=120" charset="utf-8"></script>
+
+             <div class="tooltip">
+               <input type="checkbox" value="selected" id="warning-1" class="tooltip-input">
+               <label for="warning-1" class="tooltip-label">Toggle Warning</label>
+               <div role="tooltip" id="tooltipID" class="tooltip-content">
+                 <div class="warning">
+                   <strong>WARNING</strong>
+                     <p>These days, after Jan 27 2017, it is most important to check if you're getting clean coins.
+                     <a href="https://bitcointalk.org/index.php?topic=1766723.0" target="_blank">On Jan 27 someone published a list of transactions</a>
+                     that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving.</p>
+                     <p>Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges.
+                     It is likely that they might try to use a mixing service to clean the bitcoin or that they will
+                     even set up their own mixer. </p>
+                     <p>Therefore always check where did your bitcoins came from - even
+                     if you just deposited them for lending on Poloniex. You will probably not be getting back your
+                     original bitcoins but bitcoins with a different history.</p>
+                     </div>
+              </div> <!--/.tooltip-content-->
+             </div><!--/.tooltip-->
       </li>
+
 
 
     </ul>
@@ -1328,8 +1391,6 @@ figure.noborder {
 
 
   </div>
-
-<script id="dsq-count-scr" src="//altcointrading.disqus.com/count.js" async></script>
 
 <footer>
   <div class="footer">

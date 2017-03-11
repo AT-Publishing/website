@@ -13,8 +13,36 @@
         <small><em>{{ site.subtitle }}</em></small>
       </div>
     </div>
+    <div class="tooltip" id="togglemenu">
+      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
+      <label for="mobile-menu-1" class="tooltip-label-menu">
+        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
+      </label>
+      <div role="tooltip" id="togglemenuID" class="tooltip-content">
+
+        <nav class="main">
+          <div class="twelve columns">
+            <ul class="navi">
+
+              {% for page in site.pages %}
+              {% unless page.navi.exclude == true %}
+              <li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+              {% endunless %}
+              {% endfor %}
+
+              <li><a class="coin" href="/coin/dash/">DASH</a></li>
+              <li><a class="coin" href="/coin/eth/">ETH</a></li>
+              <li><a class="coin" href="/coin/xmr/">XMR</a></li>
+            </ul>
+
+
+          </div>
+        </nav>
+
+     </div> <!--/.tooltip-content-->
+    </div><!--/.tooltip-->
   </div>
-  <nav class="main">
+  <nav class="main" id="desktopmenu">
     <div class="twelve columns">
       <ul class="navi">
 
@@ -32,4 +60,5 @@
 
     </div>
   </nav>
+
 </div>

@@ -3,7 +3,14 @@
     <ul class="divided">
       <li>
         <div>
-          <iframe data-aa='147074' src='https://ad.a-ads.com/147074?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+          <amp-iframe
+            width=336 height=280
+            layout="responsive"
+            data-aa="147074"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://ad.a-ads.com/147074?size=336x280">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
         </div>
       </li>
       <li>
@@ -53,7 +60,16 @@
 
       <li>
         <div>
-          <iframe data-aa='147074' src='https://ad.a-ads.com/147074?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+
+          <amp-iframe
+            width=336 height=280
+            layout="responsive"
+            data-aa="147074"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://ad.a-ads.com/147074?size=336x280">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+
         </div>
       </li>
 
@@ -61,11 +77,28 @@
 
       {{ site.ads.feeds }}
 
-      <h3>Latest comments</h3>
-
       <li>
-        <script src="https://altcointrading.disqus.com/recent_comments_widget.js?num_items=5&hide_avatars=1&excerpt_length=120" charset="utf-8"></script>
+
+             <div class="tooltip">
+               <input type="checkbox" value="selected" id="warning-1" class="tooltip-input">
+               <label for="warning-1" class="tooltip-label">Toggle Warning</label>
+               <div role="tooltip" id="tooltipID" class="tooltip-content">
+                 <div class="warning">
+                   <strong>WARNING</strong>
+                     <p>These days, after Jan 27 2017, it is most important to check if you're getting clean coins.
+                     <a href="https://bitcointalk.org/index.php?topic=1766723.0" target="_blank">On Jan 27 someone published a list of transactions</a>
+                     that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving.</p>
+                     <p>Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges.
+                     It is likely that they might try to use a mixing service to clean the bitcoin or that they will
+                     even set up their own mixer. </p>
+                     <p>Therefore always check where did your bitcoins came from - even
+                     if you just deposited them for lending on Poloniex. You will probably not be getting back your
+                     original bitcoins but bitcoins with a different history.</p>
+                     </div>
+              </div> <!--/.tooltip-content-->
+             </div><!--/.tooltip-->
       </li>
+
 
 
     </ul>

@@ -31,9 +31,9 @@ No verification is needed other than for fiat withdrawal.
 
 **There is an 10% fee discount for users who sign up with a referral code.**
 
-`bitfinex.com use code 5egV78YtlC`
+`bitfinex.com 5egV78YtlC`
 
-<a rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Go to Bitfinex</a>
+<a rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Get 10% fee discount</a>
 
 
 {{ site.ads.aads728 }}

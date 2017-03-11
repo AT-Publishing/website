@@ -33,9 +33,9 @@ The exchange doesn't serve US customers. However there is no verification other 
 
 **There is an initial 6 months 10% fee discount for users who sign up at BitMEX with a referral code.**
 
-`bitmex.com use code iYQB44`
+`bitmex.com iYQB44`
 
-<a rel="nofollow" href="https://www.bitmex.com/register/iYQB44" class="button" target="_blank">Go to BitMEX and get 10% fee discount</a>
+<a rel="nofollow" href="https://www.bitmex.com/register/iYQB44" class="button" target="_blank">Get 10% fee discount</a>
 
 
 {{ site.ads.aads728 }}

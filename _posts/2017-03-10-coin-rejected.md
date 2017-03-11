@@ -22,7 +22,9 @@ _Image: {{page.image_alt[0]}}_
 
 ________________________
 
+
 {{ site.ads.aads728 }}
+
 
 Today just after 4PM Eastern time the SEC finally dropped the long postponed decision regarding the proposed COIN ETF, the first Bitcoin exchange traded fund.
 
