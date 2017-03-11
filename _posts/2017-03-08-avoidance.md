@@ -9,6 +9,7 @@ image:
 - "/img/emotions/standby.JPG"
 - "/img/trading/cmc-snapshot.jpg"
 - "/img/trading/btc-rsidiv.png"
+- "/img/trading/bbands1.jpg"
 image_alt:
 - "Wyckoffian Avoidance Strategy?"
 update: 2017-03-09
@@ -30,7 +31,7 @@ Wyckoff method is getting popular in the cryptocurrency space mainly because Joh
 While it can be called a "legacy" thing no doubt it is useful for crypto as well:
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://twitter.com/kenzboard">@kenzboard</a> <a href="https://twitter.com/MrJozza">@MrJozza</a> Yeah, Wyckoff is as near to a universal key to understanding trading as we have.</p>&mdash; John Bollinger (@bbands) <a href="https://twitter.com/bbands/status/835170564431962112">24 February 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 #### The value trading
 
