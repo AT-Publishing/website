@@ -8,7 +8,7 @@ image:
 - "/img/charts/xmr1.jpg"
 image_alt:
 - "XMRBTC Chart - Cryptowat.ch"
-update: 2016-04-12
+update: 2017-03-11
 comments: true
 ---
 
@@ -23,7 +23,7 @@ So you are looking into daytrading with altcoins, basically. You want to buy an 
 
 The answer is yes, indeed, but not if market moves rapidly.
 
-####Go for less profits
+#### Go for less profits
 
 If you want to close your position as soon as possible and with profit, don't look for huge profit from every single trade. You might find them by coincidence but don't think twice before jumping into them.
 
@@ -35,7 +35,7 @@ Most of the altcoin markets are simply not deep enough yet. If you are okay with
 
 **Daytrading is the legwork and it also means you don't want to hold that altcoin.**
 
-####Daytrading example
+#### Daytrading example
 
 Let's see the title picture for illustration. It shows the recent altcoin crash that indeed also affected Monero. Monero started dropping with what looked like a single sell-off.
 Opportunity for a daytrader?
@@ -50,7 +50,7 @@ Profit ~ 16%
 
 
 
-####Where to do this?
+#### Where to do this?
 
 **Smaller alctoins**
 
@@ -64,16 +64,20 @@ For these cases it might be better to also have account on {% aff Bleutrade http
 
 Apart from these two indeed, do have accounts on [BTC-e](https://btc-e.com) which also has some smaller coins like NMC or PPC. You can withdraw fiat on BTC-e - they support services like {% aff PerfectMoney https://perfectmoney.is/?ref=7622697 %}.
 
-{{ site.ads.pm2 }}
+{{ site.ads.aads728 }}
 
 **Big names only**
 
-If you are only interested in Ether trading, go for the classics.
+If you are only interested in more capitalized altcoins, go for what used to be known as "bitcoin" exchanges.
 
-* {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %}
+* {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} trades ETH, ETC, XMR, DASH, ZEC...
 
-* {% aff Kraken https://kraken.com %}
+* {% aff Kraken https://kraken.com %} trades ETH, ETC, ICN, XRP, ZEC, XMR...
 
-Their volumes are best, for charts head over to [Cryptowatch](https://cryptowat.ch/). These two will also let you withdraw fiat.
+Their liquidity is OK, UI better than the one of Poloniex but remember that Kraken will collapse under heavy load that comes with every major BTC event.
+
+For charts head over to [Cryptowatch](https://cryptowat.ch/).
+
+Bitfinex and Kraken will also let you withdraw fiat, unlike Poloniex.
 
 [Up](#)

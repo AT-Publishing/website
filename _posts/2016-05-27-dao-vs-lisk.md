@@ -21,7 +21,7 @@ _Image: {{page.image_alt[0]}}_
 
 ________________________
 
-## Ethereum
+#### Ethereum
 
 > [Homepage](https://www.ethereum.org/)
 
@@ -45,7 +45,7 @@ The flagship decentralized autonomous organization _The DAO_ just pumped (and du
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## Lisk
+#### Lisk
 
 > ”Lisk is a next generation crypto-currency and decentralized application platform, written entirely in JavaScript.”
 
@@ -93,7 +93,7 @@ German geeks know about ETH. And not only geeks. [Welt](http://www.welt.de/wirts
 
 Another thing is that ETH also uses Javascript, [sort of](https://solidity.readthedocs.io/en/latest/). It's called Solidity and it's a language very similar to JS. As far as blockchain apps are concern, Solidity should be better than JS. So if the usability is the fundament, LSK shouldn't really be any better. Quite so the opposite.
 
-## The problem
+#### The problem
 
 The issue with all this is that as of yet, all of it is _just words_.
 
