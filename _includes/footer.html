@@ -16,3 +16,29 @@
 <div class="six columns">
   {{ site.ads.trezor }}
 </div>
+
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-73503011-2"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    },
+    "outboundLinks": {
+        "on": "click",
+        "selector": "a",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventValue": "${outboundLink}"
+        }
+      }
+  }
+}
+</script>
+</amp-analytics>

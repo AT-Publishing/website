@@ -478,9 +478,8 @@ figure.noborder {
 <script async custom-element="amp-analytics"
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <style>body {opacity: 0}</style>
-<style amp-custom></style>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
-<noscript><style amp-boilerplate>body{opacity: 1;-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -510,31 +509,7 @@ figure.noborder {
   }
 }
 </script>
-<amp-analytics type="googleanalytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "UA-73503011-2"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    },
-    "outboundLinks": {
-        "on": "click",
-        "selector": "a",
-        "request": "event",
-        "vars": {
-          "eventCategory": "outbound",
-          "eventAction": "click",
-          "eventValue": "${outboundLink}"
-        }
-      }
-  }
-}
-</script>
-</amp-analytics>
+
 </head>
 
 <body>
@@ -888,6 +863,32 @@ figure.noborder {
 <div class="six columns">
   <div class="shifted-left"> <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com"> <amp-img itemprop="image" src="https://www.altcointrading.net/img/wallets/trezor.jpg" alt="Trezor Wallet for bitcoins and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"> </amp-img></a></div>
 </div>
+
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-73503011-2"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    },
+    "outboundLinks": {
+        "on": "click",
+        "selector": "a",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventValue": "${outboundLink}"
+        }
+      }
+  }
+}
+</script>
+</amp-analytics>
 
   </div>
 </footer>
