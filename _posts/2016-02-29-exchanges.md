@@ -25,7 +25,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2017-01-28
+update: 2017-03-13
 comments: true
 ---
 
@@ -35,7 +35,7 @@ _Image: Altcoin Trading_
 
 ________________________
 
-So you want to join the madness and start trading altcoins?
+So you want to join the madness and start with altcoin trading?
 
 Let's first look at what is important - what you should be looking for - and what you can leave behind.
 
@@ -53,6 +53,13 @@ Let's first look at what is important - what you should be looking for - and wha
 
 * Screw inhouse charts. Use [Bitcoinwisdom.com](http://bitcoinwisdom.com), [Cryptowat.ch](http://cryptowat.ch) or [Cryptocoincharts.info](http://www.cryptocoincharts.info). Cryptowatch is best for altcoin trading and also actively maintained. It leaves quite some footprint in browsers though.
 
+### Bitfinex & Poloniex
+
+To keep it short, your best bet is generally either [Bitfinex](#bitfinex) or [Poloniex](#poloniex).
+
+You can also trade some altcoins on Kraken and there is ETH available on GDAX but it's a **popular fixture** that these two exchanges **will crash** under heavy load during important price action. You have been warned.
+
+
 ### Altcoin traders from the US  
 
 You probably know about the witch hunt. US traders have it always more difficult.
@@ -66,39 +73,13 @@ The only thing worth mentioning is probably to distribute your bankroll on sever
 
 ### Best Altcoin Trading Liquidity
 
-#### Chinese Exchanges (LTC)
-
-{% amp700 border {{page.image[1]}} {{page.image_alt[1]}} %}
-
-
-Chinese exchanges are good place to trade. Keep in mind that Chinese have more interest in coins due to their capital control. That means prices will usually be a bit above the western markets. If you find a way to arbitrage this, good on you.
-
-Typically though you will only be able to trade LTC pairs in China.
-
-* Policies: No AML/KYC paperwork necessary. Chinese traders say that international traders are never hassled, but sometimes traders with high balance are picked and asked to state their ID number or so. The trick is that you get asked for ID number (without verification) on sign up but as they lock your account and ask you, you cannot go and check. This is theor way to filter out frauds (and seize their coins).
-
-Also: When signing up you need to certify you are not from US, Indonesia or other restricted countries (they are specified in Terms).
-
-* [OKCoin (China)](https://www.okcoin.com/) needs 2-factor authentification.
-  * [LTCCNY Charts](https://bitcoinwisdom.com/markets/okcoin/ltccny).
-
-
-* [BTCC](https://exchange.btcc.com/)
-  * BTCC has a [spot exchange](https://exchange.btcc.com/) and pro-exchange [which is leveraged (up to 20x)](https://pro.btcc.com/).
-  * [Fees](https://www.btcc.com/fees)
-  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/btcchina/ltccny).
-
-
-* [Huobi (China)](https://www.huobi.com/) needs a verified phone number.
-  * Fee: 0.5% on withdrawal.
-  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/huobi/ltccny).
-
-
 
 {{ site.ads.aads728 }}
 
 
-#### Poloniex (most altcoins)
+#### Poloniex
+
+##### (most altcoins, even the lesser known and new ones)
 
 {% amp700 border {{page.image[6]}} {{page.image_alt[6]}} %}
 
@@ -106,7 +87,7 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 * Policies:
   * [Poloniex is based in US but has restriction for US altcoin traders](https://poloniex.com/terms/).
-  * Verification is not really necessary. You need to state your name and country to get $2000 daily limit. Filling in your address and phone number gives you $7000 daily. The limits are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies.  
+  * Verification is not really necessary. You need to state your name and country to get $2000 daily limit. Filling in your address and phone number gives you $7000 daily. The limits are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies - so, if your favourite altcoin surges you might not be able to withdraw all of your profits at once.  
 
 * Charts: {% aff Poloniex https://poloniex.com/ %} has awful web app. All altcoins on Poloniex are listed on {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %} though - and those are real professional charts and chat where you sometimes even learn, not just alts pumping.
 
@@ -119,7 +100,14 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 [Up](#)
 
-### Other Big Names
+
+
+
+
+
+### Bitcoin exchanges going altcoin
+
+What used to be known as Bitcoin exchanges in the past is now becoming a serious trading bussiness encompassing the whole new asset class. Couple years ago you couldn't trade or lend altcoins on Bitfinex, these days it's your second best option right after Poloniex.
 
 #### Bitfinex
 
@@ -127,24 +115,24 @@ Definitely the best choice is you are looking to trade small altcoins, not only 
 
 {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} is based in HongKong, owned by JL van der Velde - CEO of iFinex Inc.
 
-On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} bitcoin deposits and withdrawals go without verification. You need 6 confirmations to use the deposit.
+On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} crypto deposits and withdrawals go without verification. You need some confirmations to use BTC or altcoin deposit, they don't do instant deposits - that might be a drawback if you're doing altcoin arbitrage.  
 
-* Liquidity: {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a very good liquidity on all altcoin markets. That is at the moment **Ether, Ether Classic, Zcash, Monero and Litecoin**.
+* Liquidity: {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
 
-Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
+
+* Altcoin markets: **Ether, Ether Classic, Zcash, Monero, Dash and Litecoin**.
 
 * Policies: Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don't put too much in one basket. Also, when they get hacked, they are not liable for losses.
 
 * Charts: Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %}.
 
 * {% aff Fees https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC %}
-  * Trade: Maker-Taker, 0.1%/0.2% below $500k monthly
-  * Deposit: Coins **free**
-  * Withdrawal: Coins **free**
+  * Trade: maker/taker **.09%/.18%** if you sign up with {% aff this referral link https://www.bitfinex.com/?refcode=5egV78YtlC %}
+  * Deposit: BTC & altcoins **free**
+  * Withdrawal: BTC & altcoins **free**
 
 * Mobile trading: Native app, TabTrader, zTrader
 
-**Special offer - Sign up with {% aff this link https://www.bitfinex.com/?refcode=5egV78YtlC %} to get 10% discount on Bitfinex fees!**
 
 #### BTC-e
 
@@ -172,6 +160,37 @@ Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC
   * Withdrawal: Any crypto has fee of **0.001 coin** (quite high). Fees on fiat withdrawals change with method but generally are quite high compared to the industry levels.
 
 * Mobile trading: TabTrader
+
+
+#### Chinese Exchanges
+
+##### (mostly LTC only)
+
+{% amp700 border {{page.image[1]}} {{page.image_alt[1]}} %}
+
+
+Chinese exchanges are good place to trade. Keep in mind that Chinese have more interest in coins due to their capital control. That means prices will usually be a bit above the western markets. If you find a way to arbitrage this, good on you.
+
+Typically though you will only be able to trade LTC pairs in China.
+
+* Policies: No AML/KYC paperwork necessary. Chinese traders say that international traders are never hassled, but sometimes traders with high balance are picked and asked to state their ID number or so. The trick is that you get asked for ID number (without verification) on sign up but as they lock your account and ask you, you cannot go and check. This is theor way to filter out frauds (and seize their coins).
+
+Also: When signing up you need to certify you are not from US, Indonesia or other restricted countries (they are specified in Terms).
+
+* [OKCoin (HongKong)](https://www.okcoin.com/?invid=2091151) needs 2-factor authentification.
+  * [LTCCNY Charts](https://bitcoinwisdom.com/markets/okcoin/ltccny).
+  * On the okcoin.com you can also trade BTC and LTC futures.
+
+
+* [BTCC](https://exchange.btcc.com/)
+  * BTCC has a [spot exchange](https://exchange.btcc.com/) and pro-exchange [which is leveraged (up to 20x)](https://pro.btcc.com/).
+  * [Fees](https://www.btcc.com/fees)
+  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/btcchina/ltccny).
+
+
+* [Huobi (China)](https://www.huobi.com/) needs a verified phone number.
+  * Fee: 0.5% on withdrawal.
+  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/huobi/ltccny).
 
 
 [Up](#)
