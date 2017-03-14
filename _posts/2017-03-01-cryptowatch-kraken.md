@@ -11,6 +11,7 @@ image_alt:
 - "Kraken's UI is leaving the 1990s baby"
 update: 2017-03-01
 comments: true
+stories: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

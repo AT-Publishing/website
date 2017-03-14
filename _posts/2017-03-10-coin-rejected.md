@@ -14,6 +14,7 @@ update: 2017-03-10
 german: false
 published: true
 comments: true
+stories: true
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

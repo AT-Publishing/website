@@ -1,4 +1,9 @@
 <head>
+
+{% unless page.stories %}
+<meta name="Googlebot-News" content="noindex, nofollow">
+{% endunless %}
+
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">

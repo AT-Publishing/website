@@ -1,15 +1,35 @@
-# Site settings
+
 title: "Altcoin Trading"
 subtitle: "The forex of cryptocurrencies, bitcoin as the base."
 description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency."
 baseurl: ""
 url: "https://www.altcointrading.net"
-# url: http://localhost:4000
+
+defaults:
+ -
+    scope:
+      path: "" # all
+      type: "posts"
+    values:
+      layout: "blog"
+      german: false
+      published: true
+      comments: true
+      stories: false
+      genres: "Blog" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+      tickers: false
+ -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      german: false
+      published: true
+      comments: false
+      stories: false
 
 author: "AltcoinTrading"
-# Build settings
 markdown: kramdown
-## Default image size: 700x360
 
 ads:
   ledger: '<div class="text-center">
@@ -69,7 +89,3 @@ oldads:
   aads728: '<div class="shifted-left">
   <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe>
   </div>'
-
-
-
-# {% banner300 /img/vcc/wirex.png https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}

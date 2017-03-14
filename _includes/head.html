@@ -1,4 +1,7 @@
 <head>
+  {% unless page.stories %}
+  <meta name="Googlebot-News" content="noindex, nofollow">
+  {% endunless %}
 <meta charset="utf-8">
 <!-- MOTHERFUCKERS OF AMP PROJECT ORG SHOULD BURN IN HELL -->
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>

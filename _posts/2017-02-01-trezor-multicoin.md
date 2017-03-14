@@ -18,6 +18,8 @@ update: 2017-03-03
 tags:
 - "popular"
 comments: true
+stories: true
+
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

@@ -9,6 +9,8 @@ image:
 image_alt:
 - "Comparisons to MtGox is quite obvious."
 update: 2016-08-06
+stories: true
+
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
