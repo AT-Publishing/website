@@ -1,5 +1,8 @@
 User-agent: *
 
 Disallow: /README.md
+Disallow: /app/*
+Disallow: /sw.js
+Disallow: /posts.json
 
 Sitemap: https://www.altcointrading.net/sitemap.xml

@@ -1,0 +1,52 @@
+---
+layout: null
+navi:
+ exclude: yes
+---
+
+{% include css/normalize.min.css %}
+{% include css/skeleton.min.css %}
+{% include css/custom.css %}
+
+
+/* styling of the offline content */
+
+@media (min-width: 300px) {
+  .adfix, figure.border, .nomargintop {
+    display: none;
+  }
+  #togglemenu, #desktopmenu {
+    visibility: hidden;
+  }
+
+  .offline-ready {
+    display: none
+  }
+  .offline-ready.active {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #new-posts.app>.row {
+    padding-bottom: 20px;
+  }
+  h4.post {
+      background: #000b17 !important;
+      color: #fff;
+      clear: both;
+      max-width: 100%;
+      margin-left: 0px;
+  }
+  h4.post a {
+    color: #fff !important
+  }
+
+
+
+}
+
+@media (min-width: 770px) {
+
+}

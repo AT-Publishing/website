@@ -1,0 +1,15 @@
+---
+navi:
+ exclude: yes
+---
+
+[
+  {% for post in site.posts %}
+  {
+    "title":"{{ post.title }}",
+    "date":"{{ post.date }}"
+    "content":"{{ post.description | escape }}"
+    "url":"{{ post.url}}"
+  },
+  {% endfor %}
+]

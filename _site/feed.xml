@@ -5,9 +5,81 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Mar 2017 22:30:51 +0100</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 22:30:51 +0100</lastBuildDate>
+    <pubDate>Wed, 15 Mar 2017 21:03:30 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Mar 2017 21:03:30 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Monero Cold Storage: Current Situation</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/crowd.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/crowd.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: The crowd wants it but there won’t be an easy-to-use Monero cold storage any time soon even though this single product could make a new leader in the field of hardware wallets.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Not so long ago there were rumors about various wallet providers finally integrating Monero - desktop wallets, light clients, hardware wallets. Turns out we got all of this for DASH, also for ETH, in some cases for ZEC, DAO, REP…Not for XMR though.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Monero’s long-term holder base increased, price has been consolidating at a nice level after the surge by the end of summer 2016 and everyone who ever heard of altcoin trading is eager to jump after the first viable product that will provide a safe storage for Monero.&lt;/p&gt;
+
+&lt;p&gt;It got to the point that such a feature would shake up the market of hardware wallet providers - even if it were a standalone Monero-only wallet, &lt;strong&gt;&lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5lf9ns/is_there_any_update_on_monero_support_for_the/&quot;&gt;people would buy it&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s an obvious opportunity, so what is the problem?&lt;/p&gt;
+
+&lt;p&gt;It is a technical one. There is a lot of open sourced code to handle Bitcoin and today’s most popular altcoins all use some of Bitcoin’s basics. DASH is the obvious example but even ETH was in fact built up on a Bitcoin fork. That means, for most altcoins you could pick, you would always just tweak a BTC block explorer and use it, or you would fork a BTC light wallet and so on - it makes the process a whole lot easier.&lt;/p&gt;
+
+&lt;p&gt;That is, you can do this with most altcoins other than Monero. Monero was built from scratch and none of the BTC codebase can be reused. The whole system has to be developed again, specifically for Monero.&lt;/p&gt;
+
+&lt;p&gt;Apparently this will be a chance for someone new to enter the market because the winners of today don’t have enough people (nor pressing need for the profit and glory) to be bothered with Monero.&lt;/p&gt;
+
+&lt;h4 id=&quot;ledger-nano---no-eta&quot;&gt;Ledger Nano - ,,No ETA”&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-ledger.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-ledger.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a &lt;a href=&quot;https://trello.com/c/wsK0myEm/52-monero-support&quot;&gt;public Trello board&lt;/a&gt; regarding the Monero support and for a time it looked quite promising. However, u/btchip from Ledger cleared it up:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not yet started - a few other things to work on first. We have no ETA but have the right communication channels open to move quickly once we go. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5lf9ns/is_there_any_update_on_monero_support_for_the/dbvmfo0/&quot;&gt;via r/ledgerwallet&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;trezor---project-stalled&quot;&gt;Trezor - Project Stalled&lt;/h4&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;text-center&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-altcoins-long.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Trezor by SatoshiLabs was supposed to get Monero supported by their hardware wallet, &lt;a href=&quot;monero-wallet/&quot;&gt;someone worked on the project before&lt;/a&gt; and there are a few brave ones who hacked up their Trezors to get a working hardware wallet for Monero punk-style. Working for now, that is. The code written for Trezor will be incompatible soon as Monero upgraded since that.&lt;/p&gt;
+
+&lt;h4 id=&quot;jaxx---near-term-plans-halted&quot;&gt;Jaxx - ,,Near term plans halted”&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/jaxx.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/jaxx.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Saddens me to announce we&amp;#39;ve halted &lt;a href=&quot;https://twitter.com/jaxx_io&quot;&gt;@jaxx_io&lt;/a&gt; &lt;a href=&quot;https://twitter.com/monerocurrency&quot;&gt;@monerocurrency&lt;/a&gt; near term integration plans. Too many difficulties. Need to refocus resources.&lt;/p&gt;&amp;mdash; Anthony Di Iorio (@diiorioanthony) &lt;a href=&quot;https://twitter.com/diiorioanthony/status/826953622088982528&quot;&gt;2 February 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Jaxx was the most promising Monero integration, hands down. In &lt;a href=&quot;http://decentral.ca/jaxx-monero-integration-update/&quot;&gt;November 2016&lt;/a&gt; Jaxx people asked the Monero team for help - fluffypony &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5dsqrf/jaxx_monero_integration_update_3/da73yrj&quot;&gt;provided source code for both backend and frontend&lt;/a&gt; and whenever Jaxx developers were clueless with something they could ask. The discussion was even public on Reddit at first, before trolls chased the devs away to private channels. Since then amount of news diminished.&lt;/p&gt;
+
+&lt;p&gt;Fast-forward to February 2017, &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;something something no Monero for Jaxx&quot;&lt;/code&gt;. It seems like there was some tension between the Jaxx team and fluffypony - apparently fluffy’s changes in XMR codebase rendered some of the Jaxx’s new code useless again so the management decided to ditch it for now and focus on the &lt;a href=&quot;https://twitter.com/diiorioanthony/status/842000749106237441&quot;&gt;currently ongoing major Jaxx upgrade&lt;/a&gt;, although &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5rjll8/looks_like_monero_wont_be_in_jaxx_for_a_while/dd7yfo6/&quot;&gt;fluffypony was more sarcastic than that&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whos-still-working-on-that&quot;&gt;Who’s still working on that?&lt;/h3&gt;
+
+&lt;p&gt;Chances are it’s going to be fashionable to start claiming work on XMR support to get people buy your product in expectations of future joy.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, &lt;a href=&quot;https://www.exodus.io/&quot;&gt;Exodus, the desktop multicoin wallet with Shapeshift integration&lt;/a&gt; seems to have Monero support as top priority for new features.&lt;/p&gt;
+
+&lt;p&gt;Likewise the official web client mymonero.com should get a mobile interface later this year. Mymonero.com is a fully functional thing by now, the obvious idea would be to use what is there now as a webview to create the most basic online-only app. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5tfz27/why_not_use_opensourced_mymonero_fronend_as_quick/&quot;&gt;And some have indeed succeeded with that&lt;/a&gt;, so hopefully this is expectation is a realistic one.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Mar 2017 01:20:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/monero-cold-storage-2017/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/monero-cold-storage-2017/</guid>
+        
+        
+        <category>coins</category>
+        
+        <category>xmr</category>
+        
+      </item>
     
       <item>
         <title>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</title>
@@ -446,7 +518,7 @@ The Bitstamp Team&lt;/p&gt;
   &lt;li&gt;Cold storage: Is available! Via Trezor! (&lt;a href=&quot;/trezor-multicoin/&quot;&gt;see this post&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Adoption&lt;/strong&gt;&lt;/p&gt;
 
@@ -585,7 +657,7 @@ decred
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
@@ -802,155 +874,6 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
         <category>coins</category>
         
         <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Monero - Where the heck are you supposed to cold-store it?</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/monero-logo.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/monero-logo.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: XMR wallet&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Monero is undoubtedly one of the altcoins that cannot be called shitcoin: private and untracable, developers are responsive and not assholes just collecting money, setup is trustless, market cap grew insanely in 2016. Yet if you want to trade the coin the only hassle free way seems to be the dodgy setup of money on the exchange. Since the Bitfinex hack in August 2016 it has been a popular topic to joke whether thenext in line is Kraken or Poloniex.&lt;/p&gt;
-
-&lt;p&gt;Either way, if you trade Monero short term on spot or with leverage you can always cashout Bitcoin and store it in your Electrum or Mycelium wallet.&lt;/p&gt;
-
-&lt;p&gt;What if you want to invest in Monero long term? You should not leave the coin on an exchange and forget about it for a couple of months.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;lightweight-client-like-electrum-for-moneroeh&quot;&gt;Lightweight client like Electrum for Monero…Eh?&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/&quot;&gt;Will there ever be lightweight wallet for Monero? via r/monero&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Every cryptotrader knows Electrum. It’s the lightweight wallet that is easy to use and doesn’t need you to download the full blockchain. There are integrations - Electrum for Litecoin and Dash (&lt;a href=&quot;/altcoin-wallets/&quot;&gt;see here&lt;/a&gt;). Unfortunately, nothing like this for Monero.&lt;/p&gt;
-
-&lt;p&gt;The only alternative for Monero is software called LightWallet. It is not the same system as Electrum - it needs full node, the &lt;em&gt;light&lt;/em&gt; part is that the node runs somewhere else and the wallet connects to it from outside.&lt;/p&gt;
-
-&lt;p&gt;In other words someone runs the node for you and will let your wallet to use it.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You can use lightWallet which uses a remote node. This is perfectly safe from the perspective that you keep your own private keys and therefore the remote node can not steal your coins, but compromises your privacy in various ways. So does Electrum and other Bitcoin thin clients for that matter (even more than Bitcoin itself).
-If you are okay with CLI, simplewallet can also be used with a remote node.
-There is no alternative to running your own full node that gives you maximum privacy and security, but there are alternatives. Again this applies to Bitcoin as well. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/d2hnur8/&quot;&gt;via r/monero&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=903579.0&quot;&gt;Lightweight wallet&lt;/a&gt;, &lt;a href=&quot;https://github.com/jwinterm/LightWallet2/releases&quot;&gt;Releases on Github - exe for Windows and jar for Linux/Android/anything with java&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You need to have simplewallet and necessary dlls in the same folder as LightWallet to run the program - you will get these on the official download page at &lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;getmonero.com&lt;/a&gt;. Or, you know, &lt;a href=&quot;https://github.com/jwinterm/LightWallet2&quot;&gt;read the docs yourself&lt;/a&gt; actually.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/xmr-lightwallet.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/xmr-lightwallet.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This client is your best bet if you want GUI and don’t want to store your coins with some third party web service.&lt;/p&gt;
-
-&lt;h4 id=&quot;full-node&quot;&gt;Full Node&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;getmonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Of course, if you don’t mind running the full node, on the main “Downloads” page there is a command-line wallet that comes with it. No GUI though - you need to use the command line.&lt;/p&gt;
-
-&lt;p&gt;There is a beta release of Monero GUI as of 22 Dec 2016 - &lt;a href=&quot;https://getmonero.org/2016/12/22/monero-core-gui-beta-released.html&quot;&gt;see here&lt;/a&gt;. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5jr7r4/monero_core_gui_beta_1_released/&quot;&gt;Redditors are sofar excited&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;web-client&quot;&gt;Web Client&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mymonero.com/#/&quot;&gt;mymonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is something that is actually endorsed on the getmonero.com website unlike the LightWallet. MyMonero is website that will get you a Monero address, sign up pretty much takes one click. You click the one and only button on the landing page and in thenext step it is already showing you your private login key:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Below this you will find your thirteen word “Private Login Key”. Keeping this secure and private is very important, as it is the only way that you will be able to login to your MyMonero account. As we don’t store your private login key on the server there is no way to recover it if it is lost!&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The next step is already your web wallet, it doesn’t even want your email address:&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/mymonero.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/mymonero.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pretty impressive.&lt;/p&gt;
-
-&lt;p&gt;If you don’t want to use MyMonero for some reason, there are also multi-altcoin web wallets like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.cryptonator.com/about&quot;&gt;Cryptonator&lt;/a&gt; but in this case I’d follow the XMR devs endorsement.&lt;/p&gt;
-
-&lt;h3 id=&quot;jaxx-support&quot;&gt;Jaxx support&lt;/h3&gt;
-
-&lt;p&gt;The multi-altcoin wallet Jaxx announced they got &lt;a href=&quot;https://bitcoinmagazine.com/articles/monero-coming-jaxx-wallets-including-ios-with-apple-s-blessing-1476224917/&quot;&gt;Apple’s blessing&lt;/a&gt; to include Monero in their iOS app available from Apple store. So far the Jaxx wallet only supports BTC, LTC, ETH, RSK and Dash while Dash is not available in the iOS version. Apple actually has a list of approved coins for the App store and Dash is not on the list.&lt;/p&gt;
-
-&lt;h3 id=&quot;hardware-wallets&quot;&gt;Hardware Wallets&lt;/h3&gt;
-
-&lt;p&gt;If you are a serious believer it would of course be ideal to have proper cold storage. However the present situation is still bleak.&lt;/p&gt;
-
-&lt;h4 id=&quot;trezor-hardware-wallet-and-monero&quot;&gt;Trezor hardware wallet and Monero&lt;/h4&gt;
-
-&lt;p&gt;Developer &lt;a href=&quot;https://forum.getmonero.org/4/academic-and-technical/2495/experimental-trezor-firmware-testing&quot;&gt;NoodleDoodle started thread on the official Monero forum&lt;/a&gt; documenting that he’s working on Trezor firmware that would support XMR. He kept the thread updated with new (experimental) releases up until December 2016 when the links to his Github repo went defunct. Alarmed Monero users started inquiring and &lt;a href=&quot;https://www.reddit.com/r/TREZOR/comments/5ezhly/monero_with_trezor/&quot;&gt;here&lt;/a&gt; is the response that was posted on Reddit:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;NoodleDoodle’s experimental binaries are available &lt;a href=&quot;https://forum.getmonero.org/4/academic-and-technical/2495/experimental-trezor-firmware-testing&quot;&gt;here&lt;/a&gt;, while his source code is no longer posted at github, but source code forks are referenced &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5dnhgv/does_anyone_have_a_linkcopy_to_noodledoodles/&quot;&gt;here&lt;/a&gt;.
-&lt;strong&gt;The experimental V0313 simplewallet client supports the –hardware-wallet flag, i.e. ./simplewallet –hardware-wallet 0. This simplewallet command will cease to function about this time next year when implementation of CT functionality becomes mandatory.&lt;/strong&gt; This point about CT forced me to examine how well the experimental code supports wallet recovery from 25 Electrum mnemonic seed words synthesized from the 24 BIP 39 mnemonic seed words - used to typically restore a Trezor hardware wallet. No use in using a Trezor with an experimental Monero capability unless there is a “reliable” means to perform a software wallet restore when Monero CT becomes mandatory.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I was unsuccessful carrying out the 25 Electrum seed word recovery unless the Trezor V0313 firmware was used with with no Trezor password (a plausible deniability rubber-hose password) that can complement the a Trezor’s connection PIN. For example, within the V0313 binary distributions there is a C++ ./trezorctl command, which is different from https://github.com/trezor/python-trezor/blob/master/trezorctl. Try a V0313
-% ./trezorctl recover_mnemonic 0 “” English explain olympic caught soccer ethics retire outdoor giant deposit legal quarter cupboard radar silent palm ecology scrap adapt install bone warm clog fantasy language
-Private key: f7a5feeec0bf87c4124c158d298388f3adf0009ad35cdbfcde4888a95ba8d200 Wallet address: 49y97TqN1yyHMPmHPWFt7aHkF9zpLdGV51Lsx8j7tEDuHw7kALtQVoWTyitz5qhcwADnPsg7fFKZs5XynjzDuTm134tRyyv Mnemonic: exult toenail snug dotted germs begun dual lettuce alpine enlist patio nutshell upon cuddled shocking gumball upgrade unfit glide camp sovereign neither smash snake lettuce&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For the 24 word BIP 39 seed test vector above, I could only get a blank password (the empty quotes after the integer 0) to be used to reconstitute a Monero wallet that didn’t involve the Trezor hardware device using either simplewallet or monero-wallet-cli using the bolded mnemonic with the –restore-deterministic-wallet argument.
-IMO, the Monero Trezor wallet capability is at a standstill unless some serious software development talent steps up to the plate an takes over were NoodleDoodle left off, or NoodleDoodle is incentivized to get the ball rolling again so hardware wallet vendors can perform tighter integrations with their existing frameworks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If memory serves me from postings, &lt;strong&gt;NoodleDoodle is more interested with trying to integrate Monero with Ledger or Keepkey hardware implementations 1st&lt;/strong&gt; before pressing forward with any other Trezor integrations.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Another point worth noting is the &lt;strong&gt;current Monero Trezor implementation is not consistent with recommended BIP 32/39/44 test vector results&lt;/strong&gt; posted here that properly mimics Trezor password behaviors. Additionally, bitcoin-explorer (bx) commands also faithfully mimic Jaxx private/public keys and address synthesis abilities for a number of other altcoins. (Worth noting Jaxx doesn’t currently support BIP 39 passwords.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As another example, using the same BIP 39 seed words above, and a rubber-hose password of 1234, here the results relevant to m/44/128/0 which IMO should correspond to ./simplewallet –hardware-wallet 0 to simplify integration with existing hardware wallets in general:
-% echo “explain olympic caught soccer ethics retire outdoor giant deposit legal quarter cupboard radar silent palm ecology scrap adapt install bone warm clog fantasy language” | bx mnemonic-to-seed -p “1234” | bx hd-new | bx hd-private -d -i 44 | bx hd-private -d -i 128 | bx hd-private -d -i 0 | bx hd-to-ec | ./xmr
-Seed : 0c0660372103343dc2c68cfd9cec0c4105b8c16d79b3fee2f9108162876e4a1f Private Spend Key : 1f326ada06a021e5eb29955abef22d2c05b8c16d79b3fee2f9108162876e4a0f Private View Key : beb076f8fa3e0c4508a111c683e85bde8776886d5654f15fede38b4f34c21b04 Public Spend Key : 932ab0238a1091443b1374f7d078ee4fc5a7797f9f1b1aaad54cda388a1e397a Public View Key : 8f6efc5e1187ea49ec2969fbdd4416d06d739ea0b2ef0aa2c394eeb04820c609 Monero Address : 47Ca9Q9pMEQCQvazCgp1oTELtaAHGB2CyVaJAzHZQbvQMVzKgU2FEdFDN9B3TeNChbbs1Ur8bnCdFUE1r7zpKc7X26Quv91 Electrum Seed Words : aspire argue upwards bias berries zero eldest anybody illness voyage fizzle laboratory sewage emit powder foyer sanity oyster vitals afloat igloo gleeful heels ivory oyster&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;FYSA - Monero kicked my butt for a while to determine how to write the ./xmr command above in C++.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In other words, the experimental Trezor firmware became obsolete before it stopped being experimental.&lt;/p&gt;
-
-&lt;p&gt;There already was a &lt;a href=&quot;https://forum.getmonero.org/9/work-in-progress/265/adding-monero-support-for-trezor?page=&amp;amp;noscroll=1#post-1520&quot;&gt;project to add Trezor support for Monero&lt;/a&gt; (even successfully funded!) in 2015 but it is marked as &lt;strong&gt;“Completed  -  Failed promises and broken dreams”&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Wallet for bitcoins and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;ledger-the-hardware-wallet-and-monero&quot;&gt;Ledger the hardware wallet and Monero&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Ledger Wallet already supports altcoins as long as they support BIP39 and BIP 32. However, a client application (the software wallet) is needed to communicate with the chip. Fork the Ledger Chrome app (https://github.com/LedgerHQ/ledger-wallet-chrome) and build support for the altcoin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://support.ledgerwallet.com/knowledge_base/topics/are-altcoin-supported-by-ledger-hardware-wallets&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;text-center&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ledger Wallet protects your bitcoins&quot; src=&quot;https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg&quot; layout=&quot;responsive&quot; data-original-width=&quot;468px&quot; data-original-height=&quot;90px&quot; width=&quot;468px&quot; height=&quot;90px&quot;&gt;&lt;/amp-img&gt; &lt;/a&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So, the problem is that as Monero keeps evolving the codebase is not stable enough to think about hardware implementations. The code gets obsolete before there is chance to properly test it.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 03 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/monero-wallet/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/monero-wallet/</guid>
-        
-        
-        <category>coins</category>
-        
-        <category>xmr</category>
         
       </item>
     
