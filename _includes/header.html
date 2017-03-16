@@ -1,6 +1,8 @@
 <div class="container">
   <div class="row">
+
     <div class="twelve columns stripe">
+
       <div class="logo">
         <amp-img itemprop="image" alt="{{ site.title }}"
         src="{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
@@ -12,7 +14,17 @@
         <div class="hl"><a href="/">{{ site.title }}</a></div>
         <small><em>{{ site.subtitle }}</em></small>
       </div>
+      <div class="four columns pull-right">
+          <amp-iframe
+            width=300 height=90
+            layout="fixed"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/embed/index.html">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+      </div>
     </div>
+
     <div class="tooltip" id="togglemenu">
       <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
       <label for="mobile-menu-1" class="tooltip-label-menu">
