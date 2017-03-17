@@ -12,4 +12,7 @@ BTC price of altcoin set by date. This chart doesn't have autorefresh yet (worki
 
 {% include chart-standalone.html %}
 
+{% include chart-coins.html %}
+
+
 {{ site.ads.aads728 }}
