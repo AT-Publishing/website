@@ -12,7 +12,7 @@ image:
 - "/img/wallets/jaxx.png"
 image_alt:
 - "In the months to come ETH should get payments privacy enhancements which could mean a big change in fundamentals."
-update: 2017-03-18 17:20
+update: 2017-03-18 20:04
 german: false
 comments: true
 stories: true
@@ -61,6 +61,16 @@ The abbreviation zk-SNARK means "zero knowledge succinct argument of knowledge".
 <strong> <a href="//www.slideshare.net/FengRenTsai1/zksnarks-in-ethereum-and-baby-zoe" title="zkSNARKs in Ethereum, and Baby ZoE" target="_blank">zkSNARKs in Ethereum, and Baby ZoE</a> </strong> von <strong><a target="_blank" href="//www.slideshare.net/FengRenTsai1">Feng-Ren Tsai</a></strong>
 
 {{ site.ads.aads728 }}
+
+These days an ETH transaction gets confirmed within seconds which is a relief for everyone coming in from the BTC blockchain. However, ETH doesn't have any magical scaling solution - under Bitcoin's occasional network load the Ethereum blockchain wouldn't perform much better. Nevertheless this is not an issue ETH should be facing in the months to come.
+
+{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+
+Adding the privacy enhancements to ETH would give it a significant advantage: ETH would become a private coin that is being actively developed, is easily available on most exchanges and can be stored comfortably in both light clients ({% aff Jaxx https://jaxx.io/ %}, {% aff Exodus https://www.exodus.io/ %}) and cold storage ({% aff Trezor https://shop.trezor.io/?a=fany@tutanota.com %}, {% aff Ledger https://www.ledgerwallet.com/r/e274 %}).
+
+Meanwhile Monero holders still need to resort to downloading the full blockchain if they want to store the altcoin on their computer and DASH seems to be rebranding and refocusing away from "the private coin" image to "the easy payment system" image in spite of its lack of merchant adoption. Not to mention Bitcoin - the oldest cryptocurrency is currently amidst the [FUD over potential network split](https://www.bloomberg.com/view/articles/2017-03-16/someone-wants-to-stick-a-fork-in-bitcoin). The market is taking a dive even though the news is probably exaggerated since it is not clear whether the fork will indeed happen at all in the first place, let alone any time soon.
+
+Nonetheless ETH could potentialy profit greatly from this situation.
 
 ______________________
 

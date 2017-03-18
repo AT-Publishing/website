@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2017 19:54:33 +0100</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2017 19:54:33 +0100</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 21:05:56 +0100</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 21:05:56 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -48,6 +48,16 @@ future.
 
 &lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;These days an ETH transaction gets confirmed within seconds which is a relief for everyone coming in from the BTC blockchain. However, ETH doesn’t have any magical scaling solution - under Bitcoin’s occasional network load the Ethereum blockchain wouldn’t perform much better. Nevertheless this is not an issue ETH should be facing in the months to come.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/jaxx.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/jaxx.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding the privacy enhancements to ETH would give it a significant advantage: ETH would become a private coin that is being actively developed, is easily available on most exchanges and can be stored comfortably in both light clients (&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://jaxx.io/&quot;&gt;Jaxx&lt;/a&gt;, &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.exodus.io/&quot;&gt;Exodus&lt;/a&gt;) and cold storage (&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io/?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt;, &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt;Ledger&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Meanwhile Monero holders still need to resort to downloading the full blockchain if they want to store the altcoin on their computer and DASH seems to be rebranding and refocusing away from “the private coin” image to “the easy payment system” image in spite of its lack of merchant adoption. Not to mention Bitcoin - the oldest cryptocurrency is currently amidst the &lt;a href=&quot;https://www.bloomberg.com/view/articles/2017-03-16/someone-wants-to-stick-a-fork-in-bitcoin&quot;&gt;FUD over potential network split&lt;/a&gt;. The market is taking a dive even though the news is probably exaggerated since it is not clear whether the fork will indeed happen at all in the first place, let alone any time soon.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless ETH could potentialy profit greatly from this situation.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -635,7 +645,7 @@ There is currently one functional payment processor available for merchants to u
       </item>
     
       <item>
-        <title>Trezor (SatoshiLabs) announced altcoin support</title>
+        <title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</title>
         <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-alena-slush.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-alena-slush.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: The new Trezor supports DASH and ZCASH&lt;/em&gt;&lt;/p&gt;
