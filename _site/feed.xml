@@ -5,9 +5,64 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2017 03:24:07 +0100</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2017 03:24:07 +0100</lastBuildDate>
+    <pubDate>Sat, 18 Mar 2017 18:54:41 +0100</pubDate>
+    <lastBuildDate>Sat, 18 Mar 2017 18:54:41 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Alphabay to adopt ETH for payments ahead of new privacy features</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/bridge.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/bridge.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: In the months to come ETH should get payments privacy enhancements which could mean a big change in fundamentals.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Today Alphabay posted an announcement on their &lt;a href=&quot;https://www.reddit.com/r/AlphaBayMarket/comments/60355i/alphabay_will_add_etherum_to_its_payment_options/&quot;&gt;subreddit&lt;/a&gt; stating that they are implementing ETH for payments. The implementation should be operational by May 1st 2017.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Following the popularity of the new altcoin Ethereum and the recent price
+hike showing a growing interest, Alphabay has made the decision to start
+accepting Ethereum for marketplace listing purchases.
+
+We are currently laying out the framework to make ETH acceptance possible,
+and we will enable Ethereum deposits and withdrawals starting May 1st, 2017.
+Vendors wishing to accept Ethereum can edit their listings and set the &quot;Accept
+ETH&quot; to &quot;On&quot; in order to be able to be paid in Ethereum.
+
+We have plenty of new stuff in the works, so expect more updates in the near
+future.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There was some &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/603xpa/alphabay_market_adding_ethereum_for_payments/df39uks/&quot;&gt;backlash against this news&lt;/a&gt; since ETH is not currently meant as a cash-like payment system and transactions are easily traceable, as opposed to Monero transactions. However, in the months to come ETH should start support zkSNARKs which would put the transaction privacy on the level with ZCASH.&lt;/p&gt;
+
+&lt;p&gt;The abbreviation zk-SNARK means “zero knowledge succinct argument of knowledge”.&lt;/p&gt;
+
+&lt;amp-iframe width=&quot;700px&quot; height=&quot;360px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://www.slideshare.net/slideshow/embed_code/key/ZPGDobtOhYwC2&quot;&gt;
+  &lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;
+&lt;/amp-iframe&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/FengRenTsai1/zksnarks-in-ethereum-and-baby-zoe&quot; title=&quot;zkSNARKs in Ethereum, and Baby ZoE&quot; target=&quot;_blank&quot;&gt;zkSNARKs in Ethereum, and Baby ZoE&lt;/a&gt; &lt;/strong&gt; von &lt;strong&gt;&lt;a target=&quot;_blank&quot; href=&quot;//www.slideshare.net/FengRenTsai1&quot;&gt;Feng-Ren Tsai&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.ethereum.org/2017/01/19/update-integrating-zcash-ethereum/&quot;&gt;Read the update on ZCASH integration on the Ethereum blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Mar 2017 17:20:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/zoe-ethereum-alphabay/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/zoe-ethereum-alphabay/</guid>
+        
+        
+        <category>coins</category>
+        
+        <category>eth</category>
+        
+      </item>
     
       <item>
         <title>Monero Cold Storage: Current Situation</title>
@@ -803,77 +858,6 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
         <category>zcash</category>
         
         <category>eth</category>
-        
-      </item>
-    
-      <item>
-        <title>ICONOMI</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://ico.iconomi.net/img/press/company/ICONOMI-logo-white.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://ico.iconomi.net/img/press/company/ICONOMI-logo-white.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Iconomi&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;what-is-iconomi&quot;&gt;What is ICONOMI&lt;/h4&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;The ICO for ICONOMI is long gone yet the project is still well alive - in the altcoin space, this is a very good sign.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;ICONOMI is creating the missing link between the old and the new economy. Speaking the language of the old economy and acting by the principles of the new one, ICONOMI’s transparent management will be provided by an EU legislation compliant and regulated service operator.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;ICONOMI is a digital assets management platform. If you want to invest into decentralised economy, the easiest way to create portfolio of preselected coins can be ICONOMI.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;what-does-iconomi-work-with&quot;&gt;What does ICONOMI work with?&lt;/h4&gt;
-
-&lt;p&gt;ICONOMI is written on Ethereum - it is a smart contract platform.&lt;/p&gt;
-
-&lt;p&gt;The platform was launched to alpha-testers by the end of 2016. Public launch was set to some time in 2017 to gain some time for fixes and improvements. &lt;a href=&quot;https://medium.com/iconominet/iconomi-optimising-its-digital-assets-management-platform-before-the-public-launch-in-early-2017-5cf78c51776b#.avadakup0&quot;&gt;Read their blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;trading&quot;&gt;Trading&lt;/h4&gt;
-
-&lt;p&gt;The Iconomi token trades as ICN. The token is tradable on several high profile exchanges - see &lt;a href=&quot;https://coinmarketcap.com/assets/iconomi/#markets&quot;&gt;coinmarketcap&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Kraken	ICN/BTC&lt;/li&gt;
-  &lt;li&gt;Kraken	ICN/ETH&lt;/li&gt;
-  &lt;li&gt;Liqui	ICN/BTC&lt;/li&gt;
-  &lt;li&gt;Gatecoin	ICN/BTC&lt;/li&gt;
-  &lt;li&gt;EtherDelta	ICN/ETH&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitcointalk.org/index.php?topic=1587736.0&quot;&gt;Bitcointalk&lt;/a&gt; - This is the first ever post with all basic info. A lot of the info is related to the ICO that is now closed but it is still informative if you don’t know anything about ICONOMI.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/iconominet&quot;&gt;Medium&lt;/a&gt; - This is the official ICONOMI blog. Some of the posts will be quite technical. If you just want to follow the news, go for twitter.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/iconominet&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/ICONOMI/&quot;&gt;Reddit&lt;/a&gt; - The ICONOMI subreddit is lively and active.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;scam-corner&quot;&gt;Scam corner&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://np.reddit.com/r/ethtrader/comments/5pb4gv/real_iconomi_has_been_added_to_mercatox_fake_icn/&quot;&gt;22 Jan 2017 - Fake Iconomi tokens added to YoBit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;text-center&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ledger Wallet protects your bitcoins&quot; src=&quot;/img/wallets/ledger-hero.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;710px&quot; data-original-height=&quot;60px&quot; width=&quot;710px&quot; height=&quot;60px&quot;&gt;&lt;/amp-img&gt; &lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/iconomi/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/iconomi/</guid>
-        
-        
-        <category>coins</category>
-        
-        <category>trading</category>
         
       </item>
     
