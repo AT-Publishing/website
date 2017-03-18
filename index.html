@@ -40,13 +40,6 @@ navi:
         <div class="row">
           <div class="nine columns">
             {{ post.description }}
-            {% if post.comments %}
-            <p>
-              [<a href="{{ site.url }}{{ site.baseurl}}{{ post.url }}#disqus_embed">
-              Comments
-              </a>]
-            </p>
-            {% endif %}
           </div>
           {% if post.image[0] %}
           <div class="three columns">
