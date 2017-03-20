@@ -39,14 +39,15 @@ navi:
         </h4>
         <div class="row">
           <div class="nine columns">
-            {{ post.description }}
+            {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
           </div>
           {% if post.image[0] %}
           <div class="three columns">
             <a target="_blank" href="{{ post.url }}">
               <figure class="thumb">
                 <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
-                layout="fixed"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
                 width="150px" height="80px">
                 </amp-img>
               </figure>

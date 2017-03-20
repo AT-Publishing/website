@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Mar 2017 23:33:48 +0100</pubDate>
-    <lastBuildDate>Mon, 20 Mar 2017 23:33:48 +0100</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2017 23:48:30 +0100</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2017 23:48:30 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -116,6 +116,14 @@ future.
 &lt;/p&gt;
 
 &lt;p&gt;Trezor by SatoshiLabs was supposed to get Monero supported by their hardware wallet, &lt;a href=&quot;monero-wallet/&quot;&gt;someone worked on the project before&lt;/a&gt; and there are a few brave ones who hacked up their Trezors to get a working hardware wallet for Monero punk-style. Working for now, that is. The code written for Trezor will be incompatible soon as Monero upgraded since that.&lt;/p&gt;
+
+&lt;h3 id=&quot;keepkey---erm-not-really&quot;&gt;Keepkey - ,,Erm, not really.”&lt;/h3&gt;
+
+&lt;p&gt;The Trezor spin-off is not planning to implement Monero either:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are considering it, but it is not on the roadmap at the moment. &lt;a href=&quot;https://www.reddit.com/r/keepkey/comments/5m58vv/monero_support/dc1fkzx/&quot;&gt; via r/keepkey&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h4 id=&quot;jaxx---near-term-plans-halted&quot;&gt;Jaxx - ,,Near term plans halted”&lt;/h4&gt;
 
