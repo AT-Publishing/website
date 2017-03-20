@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "best altcoins"
-description: "Featured altcoins and analyses."
+description: "What is the best altcoin to invest in at the moment?"
 permalink: /category/altcoins/
 ---
 
@@ -33,7 +33,7 @@ permalink: /category/altcoins/
     <div class="three columns">
       <a target="_blank" href="{{ post.url }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Best altcoins to invest in" layout="responsive"
           width="150px" height="80px">
           </amp-img>
         </figure>

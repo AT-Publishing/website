@@ -206,7 +206,7 @@
   {
     "title":"Value of Altcoins: Money and Tokens",
     "date":"2016-03-30 00:00:00 +0200"
-    "content":"Altcoins can be very roughly divided into two categories: Altcoins that are meant for payments or remittance, and altcoins that are tokens. That determines their value - but it&#39;s not so simple."
+    "content":"Altcoin value: Some altcoins are meant for payments and remittance, some altcoins are network tokens."
     "url":"/value/"
   },
   
@@ -232,9 +232,9 @@
   },
   
   {
-    "title":"Trading Bots: Where to run a trading bot?",
+    "title":"Crypto Trading Bots: Where to run an altcoin trading bot?",
     "date":"2016-02-20 00:00:00 +0100"
-    "content":"Trading bot can be a good way to earn bitcoin or altcoins. It is not quite a passive income though."
+    "content":"Crypto trading bot can be a good way to earn bitcoin or altcoins on small but frequent price movements. It is not quite a passive income though."
     "url":"/automated-trading/"
   },
   

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Value of Altcoins: Money and Tokens"
-description: "Altcoins can be very roughly divided into two categories: Altcoins that are meant for payments or remittance, and altcoins that are tokens. That determines their value - but it's not so simple."
+description: "Altcoin value: Some altcoins are meant for payments and remittance, some altcoins are network tokens."
 categories:
 - "trading"
 - "dash"
@@ -11,7 +11,7 @@ permalink: value/
 image:
 - "/img/charts/ethdash.jpg"
 image_alt:
-- "ETH-Dash chart (data from ShapeShift instant exchange, chart altcoinwisdom.com)"
+- "About Altcoin value: an altcoin-vs-altcoin chart via ShapeShift"
 update: 2016-07-20
 comments: true
 ---

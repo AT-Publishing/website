@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "altcoin wallets"
-description: "Where to keep altcoin safely? There are hardware wallets for altcoins already!"
+description: "Where to keep alternative cryptocurrencies safely? Find about desktop altcoin wallets and hardware wallets for alt coins."
 permalink: /category/wallets/
 ---
 
@@ -29,7 +29,7 @@ permalink: /category/wallets/
     <div class="three columns">
       <a target="_blank" href="{{ post.url }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Alt Coin Wallet" layout=""
           width="150px" height="80px">
           </amp-img>
         </figure>

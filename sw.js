@@ -10,7 +10,7 @@ const staticCacheName = "altcointrading-static-v61";
 const filesToCache = [
   "/posts.json",
   "/assets/css/app.css",
-  "/app/",
+  "/app/index.html",
   "/img/logo.jpg",
   "/img/favicon.ico",
   "/img/wallets/trezor-altcoins.jpg",
