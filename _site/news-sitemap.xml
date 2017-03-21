@@ -13,7 +13,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-03-18T17:20:00+01:00</news:publication_date>
         <news:title>Alphabay to adopt ETH for payments ahead of new privacy features</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -32,7 +32,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-03-15T01:20:00+01:00</news:publication_date>
         <news:title>Monero Cold Storage: Current Situation</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -51,7 +51,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-03-10T00:00:00+01:00</news:publication_date>
         <news:title>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -91,7 +91,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-03-01T00:00:00+01:00</news:publication_date>
         <news:title>Kraken acquires Cryptowatch, lead dev will work for them</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -114,7 +114,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-02-01T00:00:00+01:00</news:publication_date>
         <news:title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -141,7 +141,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2016-08-06T00:00:00+02:00</news:publication_date>
         <news:title>The Finexening - Bitfinex hack</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>

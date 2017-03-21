@@ -3,32 +3,63 @@ navi:
  exclude: yes
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>{{ site.url }}</loc>
+      <loc>{{ site.url }}{{ site.baseurl }}</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="http://www.altcointrading.net/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
     </url>
-
-    <url><loc>https://www.altcointrading.net/coupon-bitfinex-5egV78YtlC/</loc></url>
-    <url><loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc></url>
-    <url><loc>https://www.altcointrading.net/coupon-coinmama-fny3000/</loc></url>
-    <url><loc>https://www.altcointrading.net/coin/dash/</loc></url>
-    <url><loc>https://www.altcointrading.net/coin/eth/</loc></url>
-    <url><loc>https://www.altcointrading.net/coin/xmr/</loc></url>
-
-
-    {% for page in site.pages %}
-    {% unless page.navi.exclude == true %}
+    <url>
+      <loc>https://www.altcointrading.net/coupon-bitfinex-5egV78YtlC/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-bitfinex-5egv78ytlc/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitfinex-5egv78ytlc/"/>
+    </url>
+    <url>
+      <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitmex-iyqb44/"/>
+    </url>
+    <url>
+      <loc>https://www.altcointrading.net/coupon-coinmama-fny3000/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-coinmama-fny3000/"/>
+    </url>
+    <url>
+      <loc>https://www.altcointrading.net/coin/dash/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/dash/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/dash/"/>
+    </url>
+    <url>
+      <loc>https://www.altcointrading.net/coin/eth/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/eth/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/eth/"/>
+    </url>
+    <url>
+      <loc>https://www.altcointrading.net/coin/xmr/</loc>
+      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/xmr/"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/xmr/"/>
+    </url>
+    {% for page in site.pages %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
+        {% if page.german %}
+        <xhtml:link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ page.url }}"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}"/>
+        {% endif %}
     </url>
-    {% endunless %}
-    {% endfor %}
-
+    {% endunless %}{% endfor %}
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
+        {% if post.german %}
+        <xhtml:link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ post.url }}"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}"/>
+        {% endif %}
     </url>
     {% endfor %}
-
-
-  </urlset>
+</urlset>

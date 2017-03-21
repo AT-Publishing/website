@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html amp lang="en">
+<html amp lang="en-us">
 <head>
 <meta charset="utf-8">
-<!-- MOTHERFUCKERS OF AMP PROJECT ORG SHOULD BURN IN HELL -->
-<title>{{ page.title | upcase }} - All News | {{ site.title }}</title>
-<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico">
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" hreflang="en-us" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.url }}">
+
+<title>{{ page.title | upcase }} - All News | {{ site.title }}</title>
+<link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="altcoin trading, altcoin wallet, altcoin exchanges, altcoin trader">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- custom resources -->
 <style amp-custom>
@@ -19,11 +22,6 @@
 <!-- allowed resources -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Slabo+27px' rel='stylesheet'>
-<!--langs-->
-<link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" hreflang="en-us" />
-{% unless page.title %}
-<link rel="alternate" href="https://de.altcointrading.net" hreflang="de-de" />
-{% endunless %}
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>

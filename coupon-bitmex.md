@@ -1,7 +1,7 @@
 ---
 layout: page
 title: iYQB44 10% Fee Discount Coupon BitMEX
-permalink: /coupon-bitmex-iYQB44/
+permalink: /coupon-bitmex-iyqb44/
 tags:
 - hidden
 navi:

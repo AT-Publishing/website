@@ -16,7 +16,7 @@ defaults:
       published: true
       comments: true
       stories: false
-      genres: "Blog" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+      genres: "Blog, OpEd, Opinion" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
       tickers: false
  -
     scope:

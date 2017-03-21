@@ -14,7 +14,7 @@ image:
 image_alt:
 - "The crowd wants it but there won't be an easy-to-use Monero cold storage any time soon even though this single product could make a new leader in the field of hardware wallets."
 update: 2017-03-20 22:42
-german: false
+german: "monero-cold-storage-2017/"
 comments: true
 stories: true
 
@@ -60,7 +60,7 @@ There is a [public Trello board](https://trello.com/c/wsK0myEm/52-monero-support
 {{ site.ads.trezorlong }}
 </p>
 
-Trezor by SatoshiLabs was supposed to get Monero supported by their hardware wallet, [someone worked on the project before](monero-wallet/) and there are a few brave ones who hacked up their Trezors to get a working hardware wallet for Monero punk-style. Working for now, that is. The code written for Trezor will be incompatible soon as Monero upgraded since that.
+Trezor by SatoshiLabs was supposed to get Monero supported by their hardware wallet, [someone worked on the project before](https://altcointrading.net/monero-wallet/) and there are a few brave ones who hacked up their Trezors to get a working hardware wallet for Monero punk-style. Working for now, that is. The code written for Trezor will be incompatible soon as Monero upgraded since that.
 
 
 #### Keepkey - ,,Erm, not really."

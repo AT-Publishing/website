@@ -1,7 +1,6 @@
 User-agent: *
 
 Disallow: /README.md
-Disallow: /app/*
 Disallow: /sw.js
 Disallow: /posts.json
 
