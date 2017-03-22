@@ -11,7 +11,7 @@ navi:
 About **altcointrading.net**
 
 
-We are traders and we write for traders. Even if this website is aimed at altcoin trading, we are bitcoin supporters.
+{{ site.mailchimp }} We are traders and we write for traders. Even if this website is aimed at altcoin trading, we are bitcoin supporters.
 That is why we use bitcoin as the base currency and trade altcoins: to generate more bitcoins.
 
 Even if you didn't buy your bitcoins early there is still plenty of opportunities to get some. People panic-sell, go ahead and chill-buy. That's what this blog is about.

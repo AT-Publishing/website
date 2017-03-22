@@ -15,7 +15,7 @@ image_alt:
 - "The crowd wants it but there won't be an easy-to-use Monero cold storage any time soon even though this single product could make a new leader in the field of hardware wallets."
 update: 2017-03-20 22:42
 german: "monero-cold-storage-2017/"
-comments: true
+comments: false
 stories: true
 
 published: true
@@ -39,7 +39,7 @@ It got to the point that such a feature would shake up the market of hardware wa
 
 That's an obvious opportunity, so what is the problem?
 
-It is a technical one. There is a lot of open sourced code to handle Bitcoin and today's most popular altcoins all use some of Bitcoin's basics. DASH is the obvious example but even ETH was in fact built up on a Bitcoin fork. That means, for most altcoins you could pick, you would always just tweak a BTC block explorer and use it, or you would fork a BTC light wallet and so on - it makes the process a whole lot easier.
+{{ site.mailchimp }} It is a technical one. There is a lot of open sourced code to handle Bitcoin and today's most popular altcoins all use some of Bitcoin's basics. DASH is the obvious example but even ETH was in fact built up on a Bitcoin fork. That means, for most altcoins you could pick, you would always just tweak a BTC block explorer and use it, or you would fork a BTC light wallet and so on - it makes the process a whole lot easier.
 
 That is, you can do this with most altcoins other than Monero. Monero was built from scratch and none of the BTC codebase can be reused. The whole system has to be developed again, specifically for Monero.
 
@@ -86,3 +86,10 @@ Chances are it's going to be fashionable to start claiming work on XMR support t
 Nonetheless, [Exodus, the desktop multicoin wallet with Shapeshift integration](https://www.exodus.io/) seems to have Monero support as top priority for new features.
 
 Likewise the official web client mymonero.com should get a mobile interface later this year. Mymonero.com is a fully functional thing by now, the obvious idea would be to use what is there now as a webview to create the most basic online-only app. [And some have indeed succeeded with that](https://www.reddit.com/r/Monero/comments/5tfz27/why_not_use_opensourced_mymonero_fronend_as_quick/), so hopefully this is expectation is a realistic one.
+
+
+<h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+
+
+<amp-iframe width="600px" height="400px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/#monero"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+ placeholder></amp-img></amp-iframe>

@@ -59,7 +59,7 @@ If you figure out consistently strong cryptocurrencies and their counterparts yo
 * Strong altcoins rally quite easily but after the rally retraces some of the gains remain.
 * Weak altcoins are traded but don't rally consistently. If they do, the retrace kills all the gains.
 
-In legacy markets one can compare stocks against a composite index. In a bull market well below a known resistance line, if a stock gains more than the index, it's typically a good bet to open a long, avoding all the rest of the assets in the group. If the resistance approaches it's time to close that long and find which stock was performing poorly in the rally. That is going to be to one most likely to drop significantly, you can short it and avoid trading the strong performers.
+{{ site.mailchimp }} In legacy markets one can compare stocks against a composite index. In a bull market well below a known resistance line, if a stock gains more than the index, it's typically a good bet to open a long, avoding all the rest of the assets in the group. If the resistance approaches it's time to close that long and find which stock was performing poorly in the rally. That is going to be to one most likely to drop significantly, you can short it and avoid trading the strong performers.
 
 In cryptocurrencies we don't have an index that would track the performance of top 100 or 500 altcoins. You will have to put in a little bit more work.
 

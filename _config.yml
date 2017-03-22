@@ -85,6 +85,11 @@ ads:
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
   feeds: '<a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>'
 
+mailchimp: '<div class="mailchimpfix">
+<amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://amp2disqus.netlify.com/altcointrading/signup.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>'
+
 oldads:
   aads728: '<div class="shifted-left">
   <iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe>

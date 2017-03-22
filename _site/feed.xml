@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Mar 2017 04:45:17 +0100</pubDate>
-    <lastBuildDate>Tue, 21 Mar 2017 04:45:17 +0100</lastBuildDate>
+    <pubDate>Wed, 22 Mar 2017 03:41:16 +0100</pubDate>
+    <lastBuildDate>Wed, 22 Mar 2017 03:41:16 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -93,6 +93,7 @@ future.
 
 &lt;p&gt;That’s an obvious opportunity, so what is the problem?&lt;/p&gt;
 
+&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
 &lt;p&gt;It is a technical one. There is a lot of open sourced code to handle Bitcoin and today’s most popular altcoins all use some of Bitcoin’s basics. DASH is the obvious example but even ETH was in fact built up on a Bitcoin fork. That means, for most altcoins you could pick, you would always just tweak a BTC block explorer and use it, or you would fork a BTC light wallet and so on - it makes the process a whole lot easier.&lt;/p&gt;
 
 &lt;p&gt;That is, you can do this with most altcoins other than Monero. Monero was built from scratch and none of the BTC codebase can be reused. The whole system has to be developed again, specifically for Monero.&lt;/p&gt;
@@ -142,6 +143,10 @@ future.
 &lt;p&gt;Nonetheless, &lt;a href=&quot;https://www.exodus.io/&quot;&gt;Exodus, the desktop multicoin wallet with Shapeshift integration&lt;/a&gt; seems to have Monero support as top priority for new features.&lt;/p&gt;
 
 &lt;p&gt;Likewise the official web client mymonero.com should get a mobile interface later this year. Mymonero.com is a fully functional thing by now, the obvious idea would be to use what is there now as a webview to create the most basic online-only app. &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/5tfz27/why_not_use_opensourced_mymonero_fronend_as_quick/&quot;&gt;And some have indeed succeeded with that&lt;/a&gt;, so hopefully this is expectation is a realistic one.&lt;/p&gt;
+
+&lt;h4 class=&quot;post comment&quot; id=&quot;disqus_embed&quot;&gt;Comment on &quot;Monero Cold Storage: Current Situation&quot;&lt;/h4&gt;
+
+&lt;amp-iframe width=&quot;600px&quot; height=&quot;400px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/#monero&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;
 </description>
         <pubDate>Wed, 15 Mar 2017 01:20:00 +0100</pubDate>
         <link>https://www.altcointrading.net/monero-cold-storage-2017/</link>
@@ -258,6 +263,7 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
   &lt;li&gt;Weak altcoins are traded but don’t rally consistently. If they do, the retrace kills all the gains.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
 &lt;p&gt;In legacy markets one can compare stocks against a composite index. In a bull market well below a known resistance line, if a stock gains more than the index, it’s typically a good bet to open a long, avoding all the rest of the assets in the group. If the resistance approaches it’s time to close that long and find which stock was performing poorly in the rally. That is going to be to one most likely to drop significantly, you can short it and avoid trading the strong performers.&lt;/p&gt;
 
 &lt;p&gt;In cryptocurrencies we don’t have an index that would track the performance of top 100 or 500 altcoins. You will have to put in a little bit more work.&lt;/p&gt;
