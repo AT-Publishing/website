@@ -5,9 +5,92 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Mar 2017 04:37:16 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Mar 2017 04:37:16 +0100</lastBuildDate>
+    <pubDate>Wed, 22 Mar 2017 06:17:40 +0100</pubDate>
+    <lastBuildDate>Wed, 22 Mar 2017 06:17:40 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Cryptosignal - New tool for Ethereum traders</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/u-wot2.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/u-wot2.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Yeah it’s a wonder&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;cryptosignal&quot;&gt;Cryptosign.al&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cryptosign.al&quot;&gt;https://cryptosign.al&lt;/a&gt; is a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions.&lt;/p&gt;
+
+&lt;p&gt;The tool was published via r/bitcoinmarkets only a few hours ago. &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/60php5/introducing_cryptosignal_directly_analyze_bitcoin/&quot;&gt;Here’s what&lt;/a&gt; the author himself has to say:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hey BitcoinMarkets,
+Cryptosign.al is a tool for finding patterns in the prices / data of the top cryptocurrencies (right now just BTC and ETH). It gives you the ability to directly overlay charts, use common technical indicators, and visualize statistics including linear and polynomial regression, and correlation. Right now, the data is updated daily but I’m looking to make the periods smaller in the near future.
+I’m a data scientist by trade and have been working on this site casually for the last 6 months, it’s been a ton of fun and I hope you guys find it useful. Some upcoming features I was thinking of: hourly (or finer) periods and live updates, more data sources (signals) to analyze, more advanced modeling features.
+I would really enjoy hearing some feedback and any ideas you guys have (e.g., the next feature you want to see the most).
+Also worth mentioning that I’ve been a long time member on these and other crypto subreddits but I’m separating my work/play accounts. Thanks for all your contributions and I hope this website reciprocates that at least a little bit.
+Edit: Some people may be receiving a startup page for Nginx. I’ll look into it, but PM if it’s still an issue in a day or two, thanks :)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;is-eth-overpriced-now-at-40-usd&quot;&gt;Is ETH overpriced now at 40 USD?&lt;/h4&gt;
+
+&lt;p&gt;So far Cryptosignal is only available for BTCUSD and ETHUSD but if it gets popular it might change in the future. Specifically, people already suggested to add Google Trends volume (to track adoption and general interest) and of course more altcoins.&lt;/p&gt;
+
+&lt;p&gt;It is amazing to see it clearly how considering the hashrate ETH was undervalued for some time. The price matched the hashrate in the recent ETH surge:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/eth/cryptosignal.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/eth/cryptosignal.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On the contrary, BTC looks undervalued at the moment.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, the correlation between hash rate and price has been a controversial topic. The majority opinion seems to be that hash rate follows price, not the other way round.&lt;/p&gt;
+
+&lt;p&gt;Consider &lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/577awf/hashrate_vs_price/&quot;&gt;this thread from October 2016&lt;/a&gt;. OP suggests that (on the bitcoin market) the hash rate could act as a ceiling for potential price growth:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;BTC supply can be divided between existing bitcoins [where the supply (just for simplification) is very unelastic, because of hodling etc.] and freshly minted bitcoins [where the supply is very elastic, because miners are selling everything they mine for current price (again for simplification)].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So with those assumptions, where the price is defined by near zero profit of miners, the price should be rising max at the pace of hashrate surge. But the trick is the max. It would happen only in a world without technological innovation. If miners get more effective tools, then the price will surge less than hashrate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So if those thoughts are correct, I think much more hashrate has to be added to allow btc price to grow. For example from halving we see only 25% rise of hashrate, but much of it if not all is swallowed by the technological advance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So does bitcoin need surge in demand that will cause temporary high price that will be very attractive for miners and that will then cause the high hashrate and new equilibrium will come?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In short: should the hashrate follow the price or vice versa? Maybe there was some article about that, I would be happy to read it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To a comment that says hash rate and price are not correlated like this, OP responds with an explanation that the correlation for BTCUSD was bad when BTC was in it’s infancy but as the market matures the correlation improves.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They were not related in the past, because it was a wild west. The approx 2 years 1/2013-1/2015 were anomal in many ways (price overshooted). But during the last year the correlation is near perfect for example. Now the situation must consolidate for next few halvings. After them, who knows how the price will be determined. Maybe another factor steps in by then - the fees.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bitcoin.stackexchange.com/questions/3171/relation-between-network-hash-rate-bitcoin-value&quot;&gt;This Stack Overflow thread&lt;/a&gt; back from 2012 claims the hash rate to be rather a lagging indicator but on the individual level, if hash rate grows it means that more people decided to mine the coin. If they decided so for profit it indicates they expect the coin they mine will increase in value over time.&lt;/p&gt;
+
+&lt;p&gt;That would go well together with the idea that in some cases if price lags behind growing hash rate it could mean bullish sentiment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cryptosign.al&quot;&gt;Go to Cryptosignal&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Mar 2017 04:20:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/eth-traders-tool/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/eth-traders-tool/</guid>
+        
+        
+        <category>trading</category>
+        
+        <category>eth</category>
+        
+      </item>
     
       <item>
         <title>Alphabay to adopt ETH for payments ahead of new privacy features</title>
@@ -768,114 +851,6 @@ DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot
         
         
         <category>wallets</category>
-        
-        <category>dash</category>
-        
-        <category>zcash</category>
-        
-        <category>eth</category>
-        
-      </item>
-    
-      <item>
-        <title>Back to Basics: How to buy altcoins</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/eth/eth2.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/eth/eth2.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Ethereum, Monero and the rest of it: How to buy?&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;buying-bitcoin-first&quot;&gt;Buying bitcoin first&lt;/h4&gt;
-
-&lt;p&gt;Getting an altcoin for your bitcoins that you already bought on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://localbitcoins.com/?ch=4nq3&quot;&gt;localbitcoins&lt;/a&gt; or elsewhere is the classic way to start holding or trading altcoins.&lt;/p&gt;
-
-&lt;p&gt;These days, after 27 Jan 2017, it is vital to check if you’re getting clean coins though. &lt;a href=&quot;https://bitcointalk.org/index.php?topic=1766723.0&quot;&gt;Yesterday someone published a list of transactions&lt;/a&gt; that proved the bitcoins stolen in the Bitfinex hack in august 2016 started moving. Apparently the hacker is now trying to move small chunks of the coins to bitcoin exchanges. It is likely that they might try to use a mixing service to clean the bitcoin or that they will even set up their own mixer.&lt;/p&gt;
-
-&lt;p&gt;Therefore always check where did your bitcoins came from - even if you just deposited them for lending on Poloniex. You will probably not be getting back your original bitcoins but bitcoins with a different history.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Buy and hold&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you just want to buy an altcoin like Monero, Ether, Dash, Factom or Maid, you can use ShapeShift. You don’t need a user account, you simply send in the money. You need to have bitcoins or an altcoin and a wallet address where you want to receive the altcoin you’re buying.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shapeshift.io/#/coins&quot;&gt;ShapeShift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Trading Alt/BTC pairs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Mecca of altcoin trading. Poloniex usually lists new coins reasonably fast, all the intial trading of a new coin usually happens there. You can buy and sell on spot, you can long and short with margin and you can lend out any coin for interest. The web app is kind of sluggish at times but API is reliable.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Some smaller altcoins are not listed on Polo though. In such case they will probably be on Bittrex.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://bittrex.com/home/markets&quot;&gt;Bittrex&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Try and avoid Hitbtc, they don’t have a good reputation.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;getting-altcoins-for-fiat&quot;&gt;Getting altcoins for fiat&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Kraken&lt;/strong&gt; / US (SEPA, wire)&lt;/p&gt;
-
-&lt;p&gt;Altcoins: Ether, Ether Classic, Iconomi, Litecoin, Augur, Dogecoin, Lumen, Monero, Ripple, Zcash&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.kraken.com/en-gb/help/fees&quot;&gt;Kraken fee structure coin by coin&lt;/a&gt; shows the rates for buying an altcoin with cash might be easily the lowest for you. You need to get verified though and the support is kind of slow. And in addition to that, on slower days the less popular markets are pretty much abandoned.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bitfinex&lt;/strong&gt; / HK (wire only)&lt;/p&gt;
-
-&lt;p&gt;Altcoins: Ether, Ether Classic, Zcash, Monero, DASH, Litecoin&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Get 10% off fees on Bitfinex&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It is not cheap to get money to Bitfinex but their trading interface has no competition. If you want to margin  trade one of the coins that are listed on Bitfinex, go for it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Coincheck&lt;/strong&gt; / JP (wire or debit card - overseas cards limited to 10.000 yen a day)&lt;/p&gt;
-
-&lt;p&gt;Altcoins: Ether, Ether Classic, Lisk, Factom, Monero, Augur, Ripple, Zcash&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://coincheck.com/?c=IHffq2cUTu4&quot;&gt;Coincheck has a zero-fee campaign through Feb and Mar 2017&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Coincheck is one of the Japanese exchanges that are now getting the speculators who used to be trading bitcoin in China for as long as there was the zero-fee policy. Coincheck is one of the smaller exchanges. &lt;a href=&quot;https://bitflyer.jp/discussion/roger-ver?top_link&amp;amp;footer&quot;&gt;Bitflyer&lt;/a&gt; seems to be the one that profits from the Chinese ban on zerofee trading but Coincheck is the one that has a fine selection of altcoins.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BTC-e&lt;/strong&gt; / RU (SEPA, eWallets, wire)&lt;/p&gt;
-
-&lt;p&gt;Altcoins: Litecoin, Dash, Peercoin, Namecoin, Novacoin, Ether&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://btc-e.com/page/2&quot;&gt;Trading fee is always 0.2 perc&lt;/a&gt; and prices are lower but deposit and withdrawal fees make up for it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;BitStamp&lt;/strong&gt; / EU (SEPA, wire)&lt;/p&gt;
-
-&lt;p&gt;Altcoins: Ripple&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitstamp.net/market/tradeview/&quot;&gt;Bitstamp’s tradeview&lt;/a&gt; is good but liquidity is next to nonexistent. When they setup a new market, like just now with Ripple, nobody is really running in to trade there.&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;altcoin-storage-the-altcoin-wallets&quot;&gt;Altcoin Storage: The Altcoin Wallets&lt;/h4&gt;
-
-&lt;p&gt;You have two options - an altcoin-specific wallet or a multi-altcoin wallet. In any case, it is always a bad idea to leave your coin on an exchange. That doesn’t mean that an altcoin in an altcoin-specific wallet is automatically 100% safe though.&lt;/p&gt;
-
-&lt;p&gt;Keep in mind that all altcoins are works in progress - even the big ones like Ether. &lt;strong&gt;There are bugs in the software&lt;/strong&gt;. &lt;a href=&quot;https://github.com/ethereum/mist/releases&quot;&gt;See the Ethereum’s Mist release notes on Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Because of that, proprietary wallets might not always be the best bet. The Jaxx might be much better - but it doesn’t support all the altcoins.&lt;/p&gt;
-
-&lt;p&gt;You will need to compromise a bit but it certainly won’t hurt if you simulate cold storage by having your desktop wallets on a computer that is mostly offline and that you don’t use for your day to day web browsing or downloading.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/altcoin-wallets/&quot;&gt;Full post on altcoin wallets here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 28 Jan 2017 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/how-to-buy-altcoins/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/how-to-buy-altcoins/</guid>
-        
-        <category>popular</category>
-        
-        
-        <category>exchanges</category>
         
         <category>dash</category>
         
