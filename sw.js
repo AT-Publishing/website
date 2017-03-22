@@ -8,19 +8,16 @@ const staticCacheName = "altcointrading-static-v61";
 
 // to cache
 const filesToCache = [
-  "/posts.json",
-  "/assets/css/app.css",
+  "/app/",
   "/app/index.html",
+  "/assets/bower_components/rss-parser/dist/rss-parser.js",
+  "/feed.xml",
+  "/assets/css/app.css",
   "/img/logo.jpg",
   "/img/favicon.ico",
   "/img/wallets/trezor-altcoins.jpg",
   "/img/wallets/trezor-altcoins-long.jpg",
   "https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Slabo+27px",
-
-  {% for post in site.posts %}
-  '{{ post.url }}',
-  {% endfor %}
-
   "/assets/css/all.css",
   "/img/app/1.png",
   "/img/app/2.png",
@@ -48,6 +45,6 @@ self.addEventListener("fetch", function(e){
    )
  });
 
- console.log("caching active")
+ console.log("sw")
 
 // ===
