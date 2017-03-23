@@ -1,6 +1,13 @@
 [
   
   {
+    "title":"How to setup Monero core wallet (for dummies)",
+    "date":"2017-03-23 03:20:00 +0100"
+    "content":"Monero CLI wallet is the only reasonable and well tested we have option to store larger amount of XMR although the graphical wallet (GUI) is out too. Finally something user-friendly. "
+    "url":"/monero-wallet-dummies/"
+  },
+  
+  {
     "title":"Cryptosignal - New tool for Ethereum traders",
     "date":"2017-03-22 04:20:00 +0100"
     "content":"A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions."

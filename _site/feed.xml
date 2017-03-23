@@ -5,9 +5,95 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Mar 2017 06:17:40 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Mar 2017 06:17:40 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Mar 2017 04:25:44 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Mar 2017 04:25:44 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>How to setup Monero core wallet (for dummies)</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-cli-1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-cli-1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Monero CLI wallet is the only reasonable and well tested option to store larger amount of XMR. A graphical wallet (GUI) is out too and working though. It’s probably safe but it is beta and it’s always safer to wait some time with new releases to get them tested.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;If you hold a sizable amount of Monero and &lt;a href=&quot;https://mymonero.com&quot;&gt;mymonero.com&lt;/a&gt; is not an option for security reasons (which it shouldn’t if you have a large stash) you’ll have to get the Monero’s core client.&lt;/p&gt;
+
+&lt;p&gt;That means downloading the full blockchain and creating a seed for your XMR wallet.&lt;/p&gt;
+
+&lt;p&gt;The setup is not difficult, especially now that there is a GUI option for those who are not comfortable with command line clients. However, you should consider the size of the Monero blockchain: it is around 10 GB now so you’ll use a lot of data. And even though it’s not really a big issue for most people these days, the blockchain also grows so make sure you have enough space on your hard drive. &lt;a href=&quot;https://forum.getmonero.org/20/general-discussion/315/blockchain-size-forecast&quot;&gt;This thread&lt;/a&gt; on Monero forums says 57 GB blockchain by 2020 is a reasonable estimate so with some commonly retailed 1 TB external HDD you should be well beyond OK even for a very long term storage.&lt;/p&gt;
+
+&lt;p&gt;If you want to store a lot of XMR you should go for the CLI wallet. A &lt;a href=&quot;http://monero.stackexchange.com/questions/3237/is-the-gui-safe-for-storing-thousands-of-monero&quot;&gt;Stack Overflow thread here&lt;/a&gt; explains this code of good practice: The GUI wallet works with the same deamon as the CLI wallet, it is just a wrapper. The GUI shouldn’t be less secure than the CLI - but you just don’t know. The CLI client has been used since Monero’s inception, it is thoroughly tested by real users. The GUI wallet is new. Leave it some time.&lt;/p&gt;
+
+&lt;h4 id=&quot;monero-cli-wallet&quot;&gt;Monero CLI Wallet&lt;/h4&gt;
+
+&lt;p&gt;You can download Monero Core for your OS &lt;a href=&quot;https://getmonero.org/downloads/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-cli-1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-cli-1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re a real human the only two scripts you’ll use are &lt;code class=&quot;highlighter-rouge&quot;&gt;monerod&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;monero-wallet-cli&lt;/code&gt;. In a console app (like iTerm on Mac) simply navigate into the extracted file you downloaded from the link above and run &lt;code class=&quot;highlighter-rouge&quot;&gt;./monerod&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;MoneroD means Monero deamon, it will start downloading the blockchain. This will take a few hours. You should see random gibberish of this kind until the blockchain is fully synced:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-cli-2.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-cli-2.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When it’s done it’ll tell you SYNCHRONIZED OK. At this point you can generate the monero CLI wallet, run &lt;code class=&quot;highlighter-rouge&quot;&gt;./monero-wallet-cli&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-cli-3.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-cli-3.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The client will ask for a name of the wallet and a password. It will generate your address and seed for you so copy the address and write the seed on paper. You should have the monero deamon running.&lt;/p&gt;
+
+&lt;p&gt;Now, right now and until you &lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt; this process you are in the CLI wallet interface. You only need to know the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To check your balance, type &lt;code class=&quot;highlighter-rouge&quot;&gt;refresh&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;To send Monero, type &lt;code class=&quot;highlighter-rouge&quot;&gt;transfer [address] [amount]&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;To leave the CLI wallet, type &lt;code class=&quot;highlighter-rouge&quot;&gt;save&lt;/code&gt;, wait for response and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;exit&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;monero-gui-wallet&quot;&gt;Monero GUI Wallet&lt;/h4&gt;
+
+&lt;p&gt;You can download the beta release of Monero GUI wallet &lt;a href=&quot;https://getmonero.org/2016/12/22/monero-core-gui-beta-released.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-gui-1.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-gui-1.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-gui-2.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-gui-2.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: Allowing an app from outside of the App Store in system preferences is as much challenge as you’ll be facing with the XMR GUI wallet&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The GUI is much easier to work with, especially if you have worked with BTC wallets like Electrum before. You simply download your distribution from the link above, extract the file and if you’re on Mac, move the app into Applications. Once you launch the GUI it guides you through the wallet creation and starts synchronizing the blockchain automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-gui-3.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-gui-3.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re just creating a new wallet go with the default localhost:18081 and write down your seed and password on paper. Your wallet files will be in home/Monero/wallets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/xmr/monero-gui-4.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/xmr/monero-gui-4.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;With a wallet at the ready you get into this view which is the actual GUI client. The wallet will start downloading the blockchain by itself. All you do from here is wait, and wait, and wait.&lt;/p&gt;
+
+&lt;h4 id=&quot;further-reading&quot;&gt;Further reading&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://weuse.cash/monero/&quot;&gt;Learn more about Monero cryptocurrency&lt;/a&gt; - how it works&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.monero.how/&quot;&gt;Monero tutorials&lt;/a&gt; - how to create paper wallet for Monero cold storage and other useful things.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 23 Mar 2017 03:20:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/monero-wallet-dummies/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/monero-wallet-dummies/</guid>
+        
+        
+        <category>coins</category>
+        
+        <category>xmr</category>
+        
+      </item>
     
       <item>
         <title>Cryptosignal - New tool for Ethereum traders</title>
@@ -738,125 +824,6 @@ There is currently one functional payment processor available for merchants to u
         <category>zcash</category>
         
         <category>xmr</category>
-        
-      </item>
-    
-      <item>
-        <title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-alena-slush.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-alena-slush.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: The new Trezor supports DASH and ZCASH&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Trezor the hardware wallet now supports not only Bitcoin but also ZCASH and DASH in its native interface. It is also possible to store ETH and LTC through external wallets.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.lo4zsnogf&quot;&gt;Read the whole post on blog.trezor.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;By the end of January 2017 Trezor released an announcement that the hardware wallet will now support DASH and ZCASH in addition to Bitcoin.&lt;/p&gt;
-
-&lt;p&gt;It has been already possible to store altcoins in Trezor if you linked the hardware wallet to an Electrum light wallet - or to another supported wallet, like &lt;a href=&quot;https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08#.2g4f3e2h7&quot;&gt;MyEtherWallet&lt;/a&gt; for ETH.&lt;/p&gt;
-
-&lt;p&gt;Electrum was long ago also forked to support &lt;a href=&quot;https://electrum-ltc.org/&quot;&gt;Litecoin&lt;/a&gt; and &lt;a href=&quot;https://electrum-dash.org/&quot;&gt;Dash&lt;/a&gt;. The disadvantage for Trezor users however was that one had to manage several separate wallets.&lt;/p&gt;
-
-&lt;h4 id=&quot;dash-and-zcash-right-in-the-native-trezor-interface&quot;&gt;DASH and ZCASH right in the native Trezor interface&lt;/h4&gt;
-
-&lt;p&gt;The new upgraded version of Trezor now allows to manage accounts with different currencies accessible all at once from the web wallet interface. All you have to do is choose the currency from the menu in the left column.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-altcoins1.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-altcoins1.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/wallets/trezor-altcoins2.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor-altcoins2.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There is a limitation for ZCASH users who want to enjoy the full privacy of Z-addresses though:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“As for ZCASH: TREZOR Wallet only supports T-addresses only. This is due to the hardware limitations of the device and the requirements of Z-addresses. We apologize for the inconvenience caused.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Because of the increased load related to browsing additional blockchains Trezor also upgraded their servers for the release:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“We are happy to announce that [server availability] spottiness will no longer be an issue. We have successfully deployed additional Insight/Bitcore servers for multi-currency support to address availability issues on the beta. As we are now using self-hosted servers, the speed of the Wallet should be greatly increased.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;why-dash-and-zcash&quot;&gt;Why DASH and ZCASH?&lt;/h4&gt;
-
-&lt;p&gt;There is a straightforward reason why DASH and ZCASH were chosen rather than for instance &lt;a href=&quot;http://coinmarketcap.com/currencies/monero/&quot;&gt;Monero&lt;/a&gt; which has much bigger user base than &lt;a href=&quot;http://coinmarketcap.com/currencies/zcash/&quot;&gt;ZCASH&lt;/a&gt;. The Trezor wallet uses &lt;strong&gt;insight/bitcore&lt;/strong&gt; to gather information about the blockchain. And while Insight was originally developed for Bitcoin, several other cryptocurrencies forked it to make it work with their own blockchain.&lt;/p&gt;
-
-&lt;p&gt;The Insight API project is opensource, you can read its code on &lt;a href=&quot;https://github.com/bitpay/insight-api/&quot;&gt;Github&lt;/a&gt; - just as you can see &lt;a href=&quot;https://github.com/bitpay/insight-api/network/members&quot;&gt;the list of people who forked it on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You’ll see quite a few coin-y names:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dashpay
-zcash
-vbuterin
-shadowproject (shadowcash)
-casinocoin
-auroracoin
-startcoin
-litecoin
-reddcoin
-opalcoin
-nanocoin
-beavercoin
-ai-coin
-templecoin
-dogeparty
-digibyte
-decred
-...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;…and others like Blocktrail, Bitgo, Blockexplorer or 21dotco.&lt;/p&gt;
-
-&lt;p&gt;Let’s hope that in the future there will be more working forks of Insight for altcoins that are actually used and traded beyond the initial pump and dump.&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div class=&quot;shifted-left&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Altcoins - Trezor is Hardware wallet for bitcoin and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;h4 id=&quot;get-trezor-while-you-can&quot;&gt;Get Trezor while you can&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;…and backorder while you cannot.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can get your own Trezor via the &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt;shop.trezor.io online store or on Amazon&lt;/a&gt;. Don’t forget to check if the package is uncorrupted upon arrival. If it was apparently tampered with, take a picture and ask for a replacement.&lt;/p&gt;
-
-&lt;p&gt;As for the altcoins, you can buy, trade and lend ZCASH on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; - the link will get you 10% fee discount.
-DASH is best available to buy, trade and lend at &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://poloniex.com&quot;&gt;Poloniex&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More about Trezor:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/BitcoinTrezor&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; https://www.facebook.com/BitcoinTrezor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://twitter.com/bitcointrezor&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; https://twitter.com/bitcointrezor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.reddit.com/r/TREZOR/&quot;&gt;&lt;i class=&quot;fa fa-reddit&quot;&gt;&lt;/i&gt; https://www.reddit.com/r/TREZOR/&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;shifted-left clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/trezor-multicoin/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/trezor-multicoin/</guid>
-        
-        <category>popular</category>
-        
-        
-        <category>wallets</category>
-        
-        <category>dash</category>
-        
-        <category>zcash</category>
-        
-        <category>eth</category>
         
       </item>
     
