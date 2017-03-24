@@ -11,7 +11,7 @@ image:
 - "/img/trading/btc-rsidiv.png"
 - "/img/trading/bbands1.jpg"
 image_alt:
-- "Wyckoffian Avoidance Strategy?"
+- "Altcoin trading strategy: Wyckoffian avoidance?"
 update: 2017-03-09
 german: "wyckoff/"
 published: true
@@ -40,7 +40,7 @@ The Wyckoff style is to trade only the best stocks in the leading sectors. Can y
 * You want to buy/hold a *valuable* asset through shorter timespans when the *price* is not reflecting the value (yet).
 * You want to take profits and abandon an asset that is appreciating in the short term because of things like tiny market hence manipulation, or media hype.
 
-#### How strong a coin is
+#### Altcoin Trading Strategy: How strong a coin is
 
 > The Wyckoffian mission is to trade and invest in the best stocks in the leading Industry Groups. We have been studying examples of leadership characteristics using **Wyckoff Analysis** in combination with **Relative Strength**. [...] Always seeking the strongest stocks in the strongest groups. It is also a worthwhile exercise to study groups that are stalling and falling from favor. [StockCharts](http://stockcharts.com/articles/wyckoff/2017/02/avoidance-strategy.html)
 

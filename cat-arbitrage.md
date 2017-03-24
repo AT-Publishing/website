@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "arbitrage trading"
+title: "arbitrage"
 description: "How to arbitrage trade altcoins and also all info on trade bots."
 permalink: /category/arbitrage/
 ---

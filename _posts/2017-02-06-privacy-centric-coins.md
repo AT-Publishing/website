@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Privacy-centric altcoins: Dash vs Monero"
+title: "Privacy-centric altcoins: Monero vs DASH"
 description: "Dash and Monero are both privacy oriented altcoins which is also pretty much the only thing that many traders know about them. Let's go a bit fundamentalistic though."
 categories:
 - "coins"
@@ -15,6 +15,8 @@ image_alt:
 - "It goes way beyond the libertarian dream about paying for coffee."
 update: 2017-02-06
 comments: true
+tags:
+- "popular"
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

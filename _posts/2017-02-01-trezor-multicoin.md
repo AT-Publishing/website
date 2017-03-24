@@ -15,8 +15,8 @@ image:
 image_alt:
 - "The new Trezor supports DASH and ZCASH"
 update: 2017-03-03
-tags:
-- "popular"
+#tags:
+#- "popular"
 comments: true
 stories: true
 

@@ -12,18 +12,23 @@ navi:
  exclude: yes
 ---
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+**DASH vs Bitcoin**
 
+DASH is a privacy-centric cryptocurrency focused on fast and private payments - an alternative of digital cash. It is built on Bitcoin, solving the problem of its pseudo-privacy and traceability of Bitcoin transactions.
 
-<a target="_blank" class="button" href="https://cryptowat.ch/bitfinex/dashusd">DASHUSD Chart</a>
+**XMR vs DASH**
 
-DASH is a privacy-centric cryptocurrency focused on fast and private payments - an alternative of digital cash. It is built on BTC, solving the problem of BTC's pseudo-privacy and traceability of BTC transactions.
+Generally speaking the privacy features of Monero are better than those of DASH - [read here](https://www.altcointrading.net/private-altcoins-dash-monero/).
 
-<h4>Trading DASH</h4>
+**Controversial insta-mine**
+
+There is a controversy about DASH since the developers mined 2 mil coins right after the coin's inception. There is currently about 7 mil DASH which makes its creators potentially powerful whales.
+
+**Where to trade DASH**
 
 You can trade DASH on {% aff Poloniex https://poloniex.com %} with fees of .15%/.25% and also on {% aff Bitfinex - sign up with this link to get the generous fees of .09%/.18% https://www.bitfinex.com/?refcode=5egV78YtlC %}. Charts and indicators are available on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}.
 
-<h4>Hodling DASH</h4>
+**DASH cold storage**
 
 <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a> supports DASH natively. <a target="_blank" href="https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.fe76qc6og">Read more</a>
 

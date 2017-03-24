@@ -13,18 +13,21 @@ navi:
  exclude: yes
 ---
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+**Monero vs Bitcoin**
 
+Monero has far more enhanced privacy features compared to Bitcoin: stealth addresses & ring signatures
 
-<a target="_blank" class="button" href="https://cryptowat.ch/bitfinex/xmrusd">XMRUSD Chart</a>
+* Stealth addresses make sure your balance of your wallet is private by default. Unlike with Bitcoin, Monero transactions to a particular wallet cannot be linked together.
+* Ring signatures make sure individual transaction outputs on the blockchain can’t be traced. Ring signatures give Monero fungibility, there can never be "dirty" Monero coins.
 
-<h4>Trading Monero</h4>
+**Trading Monero**
 
-You can trade XMR on {% aff Poloniex https://poloniex.com %} with fees of .15%/.25% and also on {% aff Bitfinex - sign up with this link to get the generous fees of .09%/.18% https://www.bitfinex.com/?refcode=5egV78YtlC %}. Charts and indicators are available on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}.
+You can trade XMR on {% aff Poloniex https://poloniex.com %} with fees of .15%/.25% and also on {% aff Bitfinex - sign up with this link to get the generous fees of .09%/.18% https://www.bitfinex.com/?refcode=5egV78YtlC %}. Best Monero charts and indicators are available on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}.
 
-<h4>Hodling XMR</h4>
+**Monero Storage**
 
 Trezor hardware wallet so far doesn't have XMR integration even though that's what we all wish for.
+
 
 
 {{ site.ads.aads728 }}
