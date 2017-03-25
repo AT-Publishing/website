@@ -5,9 +5,206 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Mar 2017 05:50:19 +0100</pubDate>
-    <lastBuildDate>Fri, 24 Mar 2017 05:50:19 +0100</lastBuildDate>
+    <pubDate>Sat, 25 Mar 2017 19:12:37 +0100</pubDate>
+    <lastBuildDate>Sat, 25 Mar 2017 19:12:37 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>About the proposed Ethereum ETF</title>
+        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/document.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/document.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Image: The surveillance section of the rule change seems to be the key part after the rejection of Winklevoss COIN ETF. EtherIndex’s suggestion seems more plausible.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;After the SEC disapproved the rule change to allow listing of Bitcoin ETF on the 10th of March 2017 the majority opinion has been along the lines that other cryptocurrency ETFs most likely don’t have a chance because all cryptocurrency markets are unregulated. Nonetheless there is a nice twist in the rule change for ETH ETF - an idea that didn’t appear in the Bitcoin rule change.&lt;/p&gt;
+
+&lt;h3 id=&quot;etherindex---the-eth-exchange-traded-fund&quot;&gt;EtherIndex - The ETH Exchange Traded Fund&lt;/h3&gt;
+
+&lt;p&gt;The initial S-1 filling for the ETH fund appeared in July 2016 after the SEC opening a proposal for the COIN ETF for public comment and also right after a filing by SolidX to launch a Bitcoin ETF. Laura Shin of Forbes commented the “filing appears to be hastily put together”:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;EtherIndex itself was only founded a month ago, and its filing is mostly incomplete, acting more as a shell or placeholder. It does not name an exchange, ticker, trustee or administrator. &lt;a href=&quot;https://www.forbes.com/sites/laurashin/2016/07/18/as-race-to-offer-first-bitcoin-etf-heats-up-new-company-files-to-create-an-ether-etf/#2e9e14a47d76&quot;&gt;via forbes.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;the-s-1-filing&quot;&gt;The S-1 Filing&lt;/h4&gt;
+
+&lt;p&gt;This is a snippet from the filing itself. It introduces Ether by comparison to Bitcoin.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As filed with the Securities and Exchange Commission on &lt;strong&gt;July 15, 2016&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ether is a digital asset (“Digital Asset”) &lt;strong&gt;similar to bitcoin&lt;/strong&gt; that is not issued by any government, bank or central organization. […] The Ethereum Network is a recent technological innovation, and the ether that is created, transferred, used and stored by entities and individuals have certain features associated with several types of assets, most notably commodities and currencies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Trust’s Sponsor is EtherIndex LLC, a Delaware limited liability company formed on &lt;strong&gt;June 15, 2016&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1679791/000121390016015007/fs12016_etherindexether.htm#a_001&quot;&gt;via sec.gov&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, further down in the text it clears up distinctions between Ether and Bitcoin.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While the bitcoin network permits users primarily to execute value transfers, the Ethereum Network allows users to program any arbitrary code and execute it, including value transfers. […] The Ethereum Network may be viewed as a &lt;strong&gt;global, decentralized computer&lt;/strong&gt; in comparison to the bitcoin network, which is more
+similar to a global, decentralized &lt;strong&gt;payment network&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1679791/000121390016015007/fs12016_etherindexether.htm#a_001&quot;&gt;via sec.gov&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The filing also explains that as Bitcoin is meant more like a store of value it has a cap on the amount of BTC that will be ever mined. It goes on to say that ETH has no such cap and more Ether will be created as needed, but the utility of Ether is primarily not a store of value or a payment system.&lt;/p&gt;
+
+&lt;p&gt;The nonexistent cap has been controversial ans is also the reason why this &lt;a href=&quot;https://moneymorning.com/2016/07/20/bitcoin-etfs-can-work-but-this-ethereum-etf-wont/&quot;&gt;moneymorning.com&lt;/a&gt; article claims that an ETH ETF can never work - it is supposed to be a bad idea since ETH has no cap on the amount of Ether that will be created.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-rule-change&quot;&gt;The Rule Change&lt;/h4&gt;
+
+&lt;p&gt;The rule change to allow listing of an ETF trading Ether shares was published in January 2017. The ETH ETF should be listed under NYSE Arca Equities.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Release No. 34-79792; File No. SR-NYSEARCA-2016-176, January 13, 2017&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pursuant to Section 19(b)(1)1 of the Securities Exchange Act of 1934 (the “Act”)2 and
+Rule 19b-4 thereunder,3 notice is hereby given that, on December 30, 2016, NYSE Arca, Inc.
+(the “Exchange” or “NYSE Arca”) filed with the Securities and Exchange Commission (the
+“Commission”) the proposed rule change […] The Commission is publishing this notice to solicit comments
+on the proposed rule change from interested persons.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Exchange proposes to list and trade shares of the following under &lt;strong&gt;NYSE Arca
+Equities&lt;/strong&gt; Rule 8.201: EtherIndex Ether Trust (“Trust”).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For the EtherIndex ETF, Coinbase is supposed to be the custodian and the pricing should be based on GDAX dollar price of ETH.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The
+Exchange proposes to list and trade shares (“Shares”) of the Trust pursuant to NYSE Arca
+Equities […] The sponsor of the Trust is EtherIndex LLC (“Sponsor”), a Delaware limited liability
+company. Delaware Trust Company is the trustee of the Trust (“Trustee”). The Bank of New
+York Mellon will be the administrator (“Administrator”) and custodian of cash of the Trust
+(“Cash Custodian”). &lt;strong&gt;Coinbase will be the custodian of the ether of the Trust (“Ether
+Custodian”)&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For one thing, the participation of Coinbase/GDAX itself seems to be a better idea compared to the Winklevoss Gemini - an exchange that doesn’t have much volume and was probably created only with the ETF in mind.&lt;/p&gt;
+
+&lt;p&gt;The interesting part comes with the Surveillance section of the ETH ETF rule change though.&lt;/p&gt;
+
+&lt;p&gt;If you didn’t care about the Bitcoin ETF much you might not know it but insufficient control over BTC markets (both spot and derivatives) was the most prominent critic the SEC mentioned in their order disapproving the COIN ETF.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Order disapproving rule change for COIN ETF&lt;/em&gt;: […] the Commission is disapproving this proposed rule change because it does not find the proposal to be consistent with Section 6(b)(5) of the Exchange Act,
+which requires […] to prevent fraudulent and manipulative acts and practices […]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] First, the
+exchange must have &lt;strong&gt;surveillance-sharing agreements&lt;/strong&gt; with significant markets for trading the
+underlying commodity or derivatives on that commodity. And second, those &lt;strong&gt;markets must be
+regulated&lt;/strong&gt;. Based on the record before it, the Commission believes that the &lt;strong&gt;significant&lt;/strong&gt; markets for
+&lt;strong&gt;bitcoin&lt;/strong&gt; are &lt;strong&gt;unregulated&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf&quot;&gt;via sec.gov (Release No. 34-80206; File No. SR-BatsBZX-2016-30)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The SEC didn’t like the fact that majority of BTC trading occurs on exchanges out of their reach. Should a manipulation occur the SEC also wouldn’t be able to find out who’s causing it.&lt;/p&gt;
+
+&lt;p&gt;The surveillance-sharing agreement was a term that caught on quickly at Bitcoin trading forums. It quickly solidified into “the SEC wanted access to data about customers, exchanges didn’t want to provide it”. How did this surveillance-sharing agreement come about? It was the central point of the Bats rule change for COIN ETF:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Bats rule change / Surveillance&lt;/em&gt;: The Exchange believes that its surveillance procedures are adequate to properly monitor
+the trading of the Shares on the Exchange during all trading sessions and to deter and detect
+violations of Exchange rules and the applicable federal securities laws. […] The Exchange may obtain information regarding trading in the Shares via the Intermarket Surveillance Group
+(“ISG”), from other exchanges who are members or affiliates of the ISG, or with which the
+Exchange has entered into a comprehensive surveillance sharing agreement. In addition, &lt;strong&gt;the
+Exchange may obtain information&lt;/strong&gt; about bitcoin transactions, trades and market data &lt;strong&gt;from
+Bitcoin Exchanges&lt;/strong&gt; with which the Exchange has entered into a &lt;strong&gt;comprehensive surveillance
+sharing agreement&lt;/strong&gt; as well as certain additional information that is publicly available through the
+Blockchain. The Exchange notes that &lt;strong&gt;it has entered&lt;/strong&gt; into a comprehensive surveillance sharing
+agreement &lt;strong&gt;with Gemini Exchange&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/batsbzx/2016/34-78262.pdf&quot;&gt;via sec.gov (Release No. 34-78262; File No. SR-BatsBZX-2016-30)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Was it the Winkletwins’ idea that exchanges should agree to provide data so that there can be an ETF listed? There is no mention about surveillance-sharing agreement in the EtherIndex rule change. Instead, the exchange pleads to monitor the market and intervene in case there is an anomaly in the trading activity which could potentially be a manipulation.&lt;/p&gt;
+
+&lt;p&gt;Given enough data this sounds like a plausible way to detect manipulation while at the same time there is no agreement needed whatsoever: the market data are freely accessible.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;NYSE rule change / Surveillance&lt;/em&gt;: The Exchange represents that trading in the Shares will be subject to the existing trading
+surveillances administered by the Exchange, as well as cross-market surveillances administered
+by the Financial Industry Regulatory Authority (“FINRA”) on behalf of the Exchange&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The surveillances referred to above generally focus on &lt;strong&gt;detecting securities trading outside
+their normal patterns&lt;/strong&gt;, which could be indicative of &lt;strong&gt;manipulative&lt;/strong&gt; or other violative &lt;strong&gt;activity&lt;/strong&gt;.
+When such situations are detected, surveillance analysis follows and investigations are opened,
+where appropriate, to review the behavior of all relevant parties for all relevant trading
+violations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The rule change also states that price of Ether shares should be determined based on GDAX ETHUSD market but if the market will seem unhealthy, a Kraken pricing might be used. If Kraken is not available, it would be Gemini. If no big American exchange provides reasonable data, &lt;em&gt;the pricing of Ether shares can be set manually&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[…] if the Sponsor determines that the Kraken Bitcoin Exchange and the Gemini
+Exchange prices are not appropriate bases for evaluation of the Trust’s ether, &lt;strong&gt;the Sponsor’s&lt;/strong&gt; [EtherIndex LLC] &lt;strong&gt;good
+faith estimate&lt;/strong&gt; of the market price of ether.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course one question is whether there was a reason the Winklevoss brothers opted for the tedious and probably next to impossible route of surveillance agreements - or whether simply nobody considered this way. In the recent days &lt;a href=&quot;http://www.coindesk.com/winklevoss-bitcoin-etf-relaunch-analysts-chance/&quot;&gt;Bats filed a petition for the SEC to change their decision and list the COIN ETF after all&lt;/a&gt; but even now there has been no change made to the proposal. And another question is indeed what will the SEC actually say to the EtherIndex suggested solution for the surveillance and control problem. We’ll have to wait for that.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, one thing that could surely help the ETH ETF is the majority of ETH/fiat trading occurs in the US. Only very small amount of ETH/fiat trading happens in China and Russia.&lt;/p&gt;
+
+&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ethereum ETF&quot; src=&quot;/img/eth/eth-vol-by-country.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;578px&quot; data-original-height=&quot;638px&quot; width=&quot;578px&quot; height=&quot;638px&quot;&gt;&lt;/amp-img&gt;
+
+&lt;p&gt;&lt;em&gt;Image: An illustration, not a statistics! Volume distribution across countries for ETH/fiat pairs in the top 20 ETH markets. Single day data only, via coinmarketcap.com. &lt;a href=&quot;https://www.altcointrading.net/img/eth/ETH-GEO.pdf&quot;&gt;View as PDF&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After all, from a legacy investor point of view it does not make such a fundamental difference whether to invest in Bitcoin or in Ether. The two currencies trade like competitors, very often they are inversely correlated, while both of them are equally uncorrelated with all of the legacy markets.&lt;/p&gt;
+
+&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;amp-iframe width=&quot;700px&quot; height=&quot;360px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://www.slideshare.net/slideshow/embed_code/key/lTYUhBkIAJ5Q0Y&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;
+</description>
+        <pubDate>Sat, 25 Mar 2017 15:20:00 +0100</pubDate>
+        <link>https://www.altcointrading.net/ethereum-etf/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/ethereum-etf/</guid>
+        
+        
+        <category>coins</category>
+        
+        <category>eth</category>
+        
+      </item>
     
       <item>
         <title>How to setup Monero core wallet (for dummies)</title>
@@ -710,124 +907,6 @@ The Bitstamp Team&lt;/p&gt;
         <category>exchanges</category>
         
         <category>xrp</category>
-        
-      </item>
-    
-      <item>
-        <title>Privacy-centric altcoins: Monero vs DASH</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/coffee.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/coffee.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: It goes way beyond the libertarian dream about paying for coffee.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Monero and Dash are both privacy-focused cryptocurrencies that are heavily speculated on in 2017 despite having been around for quite some time already.&lt;/p&gt;
-
-&lt;p&gt;If you are looking for a long-term investment you should know a wee bit more than &lt;em&gt;private - uh, good?&lt;/em&gt; because there are actually quite some differences between Monero and Dash while both aim towards being the untraceable future currency - the digital cash.&lt;/p&gt;
-
-&lt;h3 id=&quot;dash-dash&quot;&gt;Dash (DASH)&lt;/h3&gt;
-
-&lt;p&gt;Dash is a &lt;strong&gt;Bitcoin fork&lt;/strong&gt; with a &lt;strong&gt;network improvement&lt;/strong&gt; that takes care of the privacy.&lt;/p&gt;
-
-&lt;p&gt;Dash uses 2-tier network system which keeps the transactions private and kind of untraceable. It’s only kind of though. Some information about transactions is still available, transactions are only mixed together and confirmed faster that they would be on the Bitcoin blockchain.&lt;/p&gt;
-
-&lt;p&gt;The Dash transactions confirm faster than Bitcoin transactions since this work is not done by miners but by the Masternodes. Confirmations are almost instant, payments are cheaper and often have no fees at all.&lt;/p&gt;
-
-&lt;p&gt;The main drawback however:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The &lt;a href=&quot;https://explorer.dash.org/chain/Dash&quot;&gt;Dash blockchain is still public&lt;/a&gt; and the list of transaction can be browsed by anyone but Dash has an inherent mixing protocol.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Good thing about the mixing in Dash is that there is no third party involved (as there would be with mixing services common for Bitcoin) therefore the setup is trustless.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Where to buy and hold Dash&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Dash has quite clever marketing, currently being supported by Amanda B. Johnson the former presenter of The Daily Decrypt.&lt;/p&gt;
-
-&lt;p&gt;You can buy and trade Dash on majority of altcoins exchanges are you can get it &lt;a href=&quot;https://www.dash.org/direct-purchase/&quot;&gt;anonymously for cash too&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Storage looks also very good.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Desktop: &lt;a href=&quot;https://www.dash.org/downloads/&quot;&gt;See officialy endorsed downloads&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Dash Core (full), Dash Lite (electrum/lite wallet)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Multicoin wallets: Jaxx, Coinomi&lt;/li&gt;
-  &lt;li&gt;Mobile wallets:
-    &lt;ul&gt;
-      &lt;li&gt;Android: Dash Wallet, Coinomi, Jaxx&lt;/li&gt;
-      &lt;li&gt;iOS: Dash wallet&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cold storage: Is available! Via Trezor! (&lt;a href=&quot;/trezor-multicoin/&quot;&gt;see this post&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;clearfix&quot;&gt; &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://shop.trezor.io?a=fany@tutanota.com&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/wallets/trezor.jpg&quot; alt=&quot;Trezor Altcoins - Trezor is Hardware wallet for bitcoin and altcoins&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Adoption&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a major drawback: Dash should be the virtual cash, untraceable and anonymous, but is not commonly used as a means of payment. There is one payments system &lt;a href=&quot;https://cointelegraph.com/news/dash-accepted-here-blockpay-pos-system-integrates-with-dash&quot;&gt;BlockPay that integrated Dash in Aug 2016&lt;/a&gt;, overall only about 60 merchants worldwide accept Dash payments.&lt;/p&gt;
-
-&lt;h3 id=&quot;monero-xmr&quot;&gt;Monero (XMR)&lt;/h3&gt;
-
-&lt;p&gt;Monero has probably the most dedicated developer team of all altcoins. Anyone can make a proposal about features they want to see. If the feature gets adequate funding via user contributions in the Monero forum, it will be worked on.&lt;/p&gt;
-
-&lt;p&gt;Monero stresses the value of absolutely private transactions because of the fungibility of a currency: once there is a quick way to distinguish between a “clean” coin and a coin that was in the dark net, and oncepeople start commonly do this, the value of those two coins will be different. Nobody will want to buy the risky DNM coin for full price.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;From an economic point of view, a currency needs to be fungible. Fungibility is a property of money that makes all units “equal.” Without fungibility, money flows can be tracked and tainted, making it very difficult to use the digital tokens as money.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Monero transactions are entirely private - it is a CryptoNote currency, not a Bitcoin variation. On the Monero blockchain a casual observer cannot find out the origin, amount nor destination  of the transaction.&lt;/p&gt;
-
-&lt;p&gt;So this is one step further than Dash which “only” uses mixing but transaction flow is still available. The Monero blockchain on the other hand is truly private to the extent that it could be a layer for private settlements.&lt;/p&gt;
-
-&lt;p&gt;Other than this, there is one additional layer of privacy on the Monero blockchain - the network layer. Monero has an i2p router incorporated in it. I2P is an anonymous overlay network - a network within a network. In case you have never heard of it, here’s a &lt;a href=&quot;https://geti2p.net/en/docs/how/intro&quot;&gt;gentle intro&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;User controls what is shown&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Although the transactions on Monero blockchain are private for an outside observer, the person who has access to the Monero wallet can provide the chain of transactions to anyone - for instance for an audit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mining Monero&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Monero is based on PoW, Proof of Work. The Monero devs say that PoS, Proof of stake which is now pushed as a “better” thing, penalizes less active participants and makes them “second class citizens” while Bitcoin’s PoW led to ASIC based mining pool centralization.&lt;/p&gt;
-
-&lt;p&gt;The mining process in Monero is a PoW algorithm optimalized so that it is ideally performed by millions of small x86 CPUs - that means, common personal computers - so it shouldn’t lead to the rat race of ASICs.
-There is permanent block reward - 0.3 XMR per block forever.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adoption&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Monero is accepted a bit more widely than Dash it seems: &lt;a href=&quot;https://getmonero.org/getting-started/merchants&quot;&gt;https://getmonero.org/getting-started/merchants&lt;/a&gt;
-There is currently one functional payment processor available for merchants to use if they want to integrate monero - “Monero Merchants”.&lt;/p&gt;
-
-&lt;p&gt;By the end of Summer 2016 the famous dark net market AlphaBay implemented Monero payments alongside Bitcoin. This led to a major price action on the Monero markets as this truly was a huge step. Darknet markets don’t jump at every new thing because of the security risk related to upgrades on an illegal website. Accepting an altcoin is a big jump, and they picked Monero over Dash because the stealth of Monero is better.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Buying and holding Monero&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is a number of exchanges and OTC markets for Monero, recently you can get Monero also on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitfinex.com/?refcode=5egV78YtlC&quot;&gt;Bitfinex&lt;/a&gt; and Kraken - see &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;How to buy altcoins&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The hodling business is a bit tough to crack still. &lt;a href=&quot;/monero-wallet/&quot;&gt;Read about Monero wallets here&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 Feb 2017 00:00:00 +0100</pubDate>
-        <link>https://www.altcointrading.net/private-altcoins-dash-monero/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/private-altcoins-dash-monero/</guid>
-        
-        <category>popular</category>
-        
-        
-        <category>coins</category>
-        
-        <category>dash</category>
-        
-        <category>zcash</category>
-        
-        <category>xmr</category>
         
       </item>
     

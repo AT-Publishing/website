@@ -1,6 +1,13 @@
 [
   
   {
+    "title":"About the proposed Ethereum ETF",
+    "date":"2017-03-25 15:20:00 +0100"
+    "content":"The surveillance section of EtherIndex&#39;s rule change (which after the Winklevoss&#39; BTC ETF seems to be the key part) proposes a strategy which might be more plausible."
+    "url":"/ethereum-etf/"
+  },
+  
+  {
     "title":"How to setup Monero core wallet (for dummies)",
     "date":"2017-03-23 03:20:00 +0100"
     "content":"Monero CLI wallet is the only reasonable and well tested option we have to store larger amount of XMR although the new beta graphical wallet (GUI) is out too. Finally something user-friendly. "
@@ -31,7 +38,7 @@
   {
     "title":"Bitcoin ETF rejected, Ethereum ETF is probably off the table too",
     "date":"2017-03-10 00:00:00 +0100"
-    "content":"The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for ETH too"
+    "content":"The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for Ethereum too"
     "url":"/ethereum-etf-unlikely/"
   },
   

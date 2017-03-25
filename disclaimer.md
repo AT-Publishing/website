@@ -9,7 +9,9 @@ navi:
 ---
 
 
-Disclaimer **Updated: February 16, 2016**
+Disclaimer **Updated: March 25, 2017**
+
+*Information provided on Altcointrading.net (including subdomains) serves only for educational purposes and is not intended as financial advice.*
 
 **Risks of trade in cryptocurrencies**
 
@@ -37,7 +39,7 @@ Although Altcointrading.net may recommend an exchange or other Internet site or 
 
 No trading occurs on the Altcointrading.net Website. Altcointrading.net is not an exchange nor a trading platform.
 
-Altcointrading.net does not promote or encourage illegal or underage activities, or the use of cryptocurrencies to persons who reside in jurisdictions where use of cryptocurrencies is considered unlawful. In those instances, this site is presented for informational and entertainment purposes only. By entering Altcointrading.net you agree that you are aware of the terms outlined herein and reside in an area where it is not unlawful to use cryptocurrencies online.
+Altcointrading.net does not promote or encourage illegal or underage activities, or the use of cryptocurrencies to persons who reside in jurisdictions where use of cryptocurrencies is considered unlawful. Altcointrading.net presented for informational, educational and entertainment purposes only.
 
 **Contacting Us**
 
