@@ -2,266 +2,266 @@
   
   {
     "title":"About the proposed Ethereum ETF",
-    "date":"2017-03-25 15:20:00 +0100"
+    "date":"2017-03-25 15:20:00 -0300"
     "content":"The surveillance section of EtherIndex&#39;s rule change (which after the Winklevoss&#39; BTC ETF seems to be the key part) proposes a strategy which might be more plausible."
     "url":"/ethereum-etf/"
   },
   
   {
     "title":"How to setup Monero core wallet (for dummies)",
-    "date":"2017-03-23 03:20:00 +0100"
+    "date":"2017-03-23 03:20:00 -0300"
     "content":"Monero CLI wallet is the only reasonable and well tested option we have to store larger amount of XMR although the new beta graphical wallet (GUI) is out too. Finally something user-friendly. "
     "url":"/monero-wallet-dummies/"
   },
   
   {
     "title":"Cryptosignal - New tool for Ethereum traders",
-    "date":"2017-03-22 04:20:00 +0100"
+    "date":"2017-03-22 04:20:00 -0300"
     "content":"A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions."
     "url":"/eth-traders-tool/"
   },
   
   {
     "title":"Alphabay to adopt ETH for payments ahead of new privacy features",
-    "date":"2017-03-18 17:20:00 +0100"
+    "date":"2017-03-18 17:20:00 -0300"
     "content":"With ZCash-on-Ethereum (ZoE) a fundamental change in ETH is possibly ahead."
     "url":"/zoe-ethereum-alphabay/"
   },
   
   {
     "title":"Monero Cold Storage: Current Situation",
-    "date":"2017-03-15 01:20:00 +0100"
+    "date":"2017-03-15 01:20:00 -0300"
     "content":"The promises of upcoming Monero hardware wallets are for now just promises."
     "url":"/monero-cold-storage-2017/"
   },
   
   {
     "title":"Bitcoin ETF rejected, Ethereum ETF is probably off the table too",
-    "date":"2017-03-10 00:00:00 +0100"
+    "date":"2017-03-10 00:00:00 -0300"
     "content":"The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for Ethereum too"
     "url":"/ethereum-etf-unlikely/"
   },
   
   {
     "title":"Avoidance Strategy in Altcoin Trading",
-    "date":"2017-03-08 00:00:00 +0100"
+    "date":"2017-03-08 00:00:00 -0300"
     "content":"The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies?"
     "url":"/wyckoff-avoidance/"
   },
   
   {
     "title":"TradingView users on DASH: March 7th 2017",
-    "date":"2017-03-06 00:00:00 +0100"
+    "date":"2017-03-06 00:00:00 -0300"
     "content":"Selection of ideas regarding the recent DASH price action."
     "url":"/dash-03-2017/"
   },
   
   {
     "title":"Kraken acquires Cryptowatch, lead dev will work for them",
-    "date":"2017-03-01 00:00:00 +0100"
+    "date":"2017-03-01 00:00:00 -0300"
     "content":"Not so long after the last of many shitstorms about Kraken&#39;s crappy trading engine there is finally some good news from the exchange."
     "url":"/kraken-cryptowatch/"
   },
   
   {
     "title":"Don't miss out if you're into Ripple",
-    "date":"2017-02-21 00:00:00 +0100"
+    "date":"2017-02-21 00:00:00 -0300"
     "content":"If you are a fan of Ripple you still have time to get verified on Bitstamp and on Cryptofacilities - Bitstamp offers fee discount."
     "url":"/ripple-trading/"
   },
   
   {
     "title":"Privacy-centric altcoins: Monero vs DASH",
-    "date":"2017-02-06 00:00:00 +0100"
+    "date":"2017-02-06 00:00:00 -0300"
     "content":"Dash and Monero are both privacy oriented altcoins which is also pretty much the only thing that many traders know about them. Let&#39;s go a bit fundamentalistic though."
     "url":"/private-altcoins-dash-monero/"
   },
   
   {
     "title":"Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet",
-    "date":"2017-02-01 00:00:00 +0100"
+    "date":"2017-02-01 00:00:00 -0300"
     "content":"Trezor now added native support for DASH and ZCASH - and explained what the altcoin needs to get supported (looking at you, Monero)."
     "url":"/trezor-multicoin/"
   },
   
   {
     "title":"Back to Basics: How to buy altcoins",
-    "date":"2017-01-28 00:00:00 +0100"
+    "date":"2017-01-28 00:00:00 -0300"
     "content":"They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the &lt;strike&gt;gambling&lt;/strike&gt; trading you need the liquidity of Alt/BTC pairs though."
     "url":"/how-to-buy-altcoins/"
   },
   
   {
     "title":"ICONOMI",
-    "date":"2017-01-21 00:00:00 +0100"
+    "date":"2017-01-21 00:00:00 -0300"
     "content":"You must have heard about Iconomi. What is it?"
     "url":"/iconomi/"
   },
   
   {
     "title":"Monero - Where the heck are you supposed to cold-store it?",
-    "date":"2017-01-03 00:00:00 +0100"
+    "date":"2017-01-03 00:00:00 -0300"
     "content":"One of the most mature altcoins. How to hold it though?"
     "url":"/monero-wallet/"
   },
   
   {
     "title":"Kraken opens Monero trading",
-    "date":"2017-01-02 00:00:00 +0100"
+    "date":"2017-01-02 00:00:00 -0300"
     "content":"Monero trading on Kraken opened on 2nd of January 2017"
     "url":"/monero-kraken/"
   },
   
   {
     "title":"The Finexening - Bitfinex hack",
-    "date":"2016-08-06 00:00:00 +0200"
+    "date":"2016-08-06 00:00:00 -0400"
     "content":"The best of Reddit&#39;s response on the Bitfinex hack"
     "url":"/finexening/"
   },
   
   {
     "title":"How to get free ETC out of thin air",
-    "date":"2016-07-29 00:00:00 +0200"
+    "date":"2016-07-29 00:00:00 -0400"
     "content":"There is no code implemented to stop duplicating coins from one chain to another. Free money!"
     "url":"/free-etc/"
   },
   
   {
     "title":"Ethereum Classic on Poloniex today, on Bitfinex soon",
-    "date":"2016-07-24 00:00:00 +0200"
+    "date":"2016-07-24 00:00:00 -0400"
     "content":"What is Ethereum Classic and how it came about. Sure you can trade it on Poloniex as ETHC, Bitfinex will follow suit."
     "url":"/eth-classic/"
   },
   
   {
     "title":"Value of Altcoins: Money and Tokens Reloaded",
-    "date":"2016-07-23 00:00:00 +0200"
+    "date":"2016-07-23 00:00:00 -0400"
     "content":"Altcoins can be very roughly divided into two categories: Altcoins that are meant for payments or remittance, and altcoins that are tokens. That determines their value - but it&#39;s not so simple."
     "url":"/value/"
   },
   
   {
     "title":"Technical Analysis: Divergences",
-    "date":"2016-07-17 00:00:00 +0200"
+    "date":"2016-07-17 00:00:00 -0400"
     "content":"Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is astounding. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don&#39;t have as much time to promote the Youtube channel - which is why most often you will not hear about them."
     "url":"/ta-divergences/"
   },
   
   {
     "title":"Ethereum hard fork and your positions on exchanges",
-    "date":"2016-07-15 00:00:00 +0200"
+    "date":"2016-07-15 00:00:00 -0400"
     "content":"ETH will undergo a hard fork as a response to the DAO hack. Good thing is you don&#39;t need to do anything."
     "url":"/eth-hard-fork/"
   },
   
   {
     "title":"Bitcoin and Altcoin Trading with the Ichimoku Cloud",
-    "date":"2016-07-01 00:00:00 +0200"
+    "date":"2016-07-01 00:00:00 -0400"
     "content":"Ichimoku cloud is an indicator that looks far too complex to learn for traders with 5 s attention spans. Once you know what it does it makes your trading so much easier though."
     "url":"/ichimoku-cloud/"
   },
   
   {
     "title":"All about the DAO hack",
-    "date":"2016-06-22 00:00:00 +0200"
+    "date":"2016-06-22 00:00:00 -0400"
     "content":"A sum up of what is going on with DAO&#39;s and ETH"
     "url":"/dao-hack/"
   },
   
   {
     "title":"ETH is selling off...",
-    "date":"2016-06-17 00:00:00 +0200"
+    "date":"2016-06-17 00:00:00 -0400"
     "content":"...and exchanges are crashing left and right."
     "url":"/eth-17-06-2016/"
   },
   
   {
     "title":"Some more ICOs in 2016?",
-    "date":"2016-06-09 00:00:00 +0200"
+    "date":"2016-06-09 00:00:00 -0400"
     "content":"In case you missed DAO, Lisk and Waves you might be firing up the search engines in the mighty state of FOMO. Well, there is not much to miss this year."
     "url":"/ico-2016/"
   },
   
   {
     "title":"What's Waves Platform",
-    "date":"2016-06-06 00:00:00 +0200"
+    "date":"2016-06-06 00:00:00 -0400"
     "content":"Waves is a decentralized blockchain platform focusing on custom blockchain tokens operations."
     "url":"/waves/"
   },
   
   {
     "title":"Technical Analysis in Altcoin Trading",
-    "date":"2016-05-30 00:00:00 +0200"
+    "date":"2016-05-30 00:00:00 -0400"
     "content":"Indicators work. Sometimes. Should you use technical analysis when trading altcoins?"
     "url":"/technical-analysis/"
   },
   
   {
     "title":"ETH vs LISK",
-    "date":"2016-05-27 00:00:00 +0200"
+    "date":"2016-05-27 00:00:00 -0400"
     "content":"Lisk launched trading on Poloniex just a few days ago and is currently going through the initial fad pump. Will it last though?"
     "url":"/eth-vs-lisk/"
   },
   
   {
     "title":"Ethereum sentiment - Where to get reliable information?",
-    "date":"2016-05-24 00:00:00 +0200"
+    "date":"2016-05-24 00:00:00 -0400"
     "content":"Now right in the midst of The DAO (ETH), LISK (BTC) and Coinbase rebranding to GDAX"
     "url":"/ethereum-may-2016/"
   },
   
   {
     "title":"Buy the rumor, sell the news",
-    "date":"2016-05-19 00:00:00 +0200"
+    "date":"2016-05-19 00:00:00 -0400"
     "content":"There are serious rumors going on that ETH trading is being added to Coinbase and OKCoin."
     "url":"/eth-okcoin-coinbase/"
   },
   
   {
     "title":"Buy and sell altcoins in one day",
-    "date":"2016-04-12 00:00:00 +0200"
+    "date":"2016-04-12 00:00:00 -0400"
     "content":"Is altcoin daytrading possible?"
     "url":"/daytrading/"
   },
   
   {
     "title":"Value of Altcoins: Money and Tokens",
-    "date":"2016-03-30 00:00:00 +0200"
+    "date":"2016-03-30 00:00:00 -0400"
     "content":"Altcoin value: Some altcoins are meant for payments and remittance, some altcoins are network tokens."
     "url":"/value/"
   },
   
   {
     "title":"Earning More of a Coin: Interests and Lending",
-    "date":"2016-03-07 00:00:00 +0100"
+    "date":"2016-03-07 00:00:00 -0300"
     "content":"Bitcoin lending, margin swaps and lending bots. Is altcoin lending worth it or better to stick with BTC loans?"
     "url":"/lending/"
   },
   
   {
     "title":"Best Altcoin Exchanges, Tried and True",
-    "date":"2016-02-29 00:00:00 +0100"
+    "date":"2016-02-29 00:00:00 -0300"
     "content":"Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?"
     "url":"/altcoin-exchanges/"
   },
   
   {
     "title":"Best Altcoin Wallets",
-    "date":"2016-02-28 00:00:00 +0100"
+    "date":"2016-02-28 00:00:00 -0300"
     "content":"Where to store altcoins? See a list of altcoin wallets, from web based to hardware."
     "url":"/altcoin-wallets/"
   },
   
   {
     "title":"Crypto Trading Bots: Where to run an altcoin trading bot?",
-    "date":"2016-02-20 00:00:00 +0100"
+    "date":"2016-02-20 00:00:00 -0300"
     "content":"Crypto trading bot can be a good way to earn bitcoin or altcoins on small but frequent price movements. It is not quite a passive income though."
     "url":"/automated-trading/"
   },
   
   {
     "title":"Altcoin trading charts",
-    "date":"2016-01-27 00:00:00 +0100"
+    "date":"2016-01-27 00:00:00 -0300"
     "content":"Where to get the best charts for altcoin trading."
     "url":"/altcoin-trading-charts/"
   },

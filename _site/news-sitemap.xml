@@ -14,7 +14,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-25T15:20:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-25T15:20:00-03:00</news:publication_date>
         <news:title>About the proposed Ethereum ETF</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -35,7 +35,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-22T04:20:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-22T04:20:00-03:00</news:publication_date>
         <news:title>Cryptosignal - New tool for Ethereum traders</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -54,7 +54,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-18T17:20:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-18T17:20:00-03:00</news:publication_date>
         <news:title>Alphabay to adopt ETH for payments ahead of new privacy features</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -73,7 +73,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-15T01:20:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-15T01:20:00-03:00</news:publication_date>
         <news:title>Monero Cold Storage: Current Situation</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -92,7 +92,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-10T00:00:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-10T00:00:00-03:00</news:publication_date>
         <news:title>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -113,7 +113,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>UserGenerated</news:genres>
-        <news:publication_date>2017-03-06T00:00:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-06T00:00:00-03:00</news:publication_date>
         <news:title>TradingView users on DASH: March 7th 2017</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -132,7 +132,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-03-01T00:00:00+01:00</news:publication_date>
+        <news:publication_date>2017-03-01T00:00:00-03:00</news:publication_date>
         <news:title>Kraken acquires Cryptowatch, lead dev will work for them</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -155,7 +155,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2017-02-01T00:00:00+01:00</news:publication_date>
+        <news:publication_date>2017-02-01T00:00:00-03:00</news:publication_date>
         <news:title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
@@ -182,7 +182,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>Blog, OpEd, Opinion</news:genres>
-        <news:publication_date>2016-08-06T00:00:00+02:00</news:publication_date>
+        <news:publication_date>2016-08-06T00:00:00-04:00</news:publication_date>
         <news:title>The Finexening - Bitfinex hack</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
