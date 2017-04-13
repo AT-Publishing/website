@@ -9,8 +9,8 @@ layout: default-news
        {{ site.ads.aads728 }}
      </div>
        <span id="note">
-         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update: {{ page.update | date: "%d %b %Y" }}</time>,&nbsp;{% endif %}
-         Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }}</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }}</time>
        </span>
        <h4 class="post post-main">
           <strong>
