@@ -40,11 +40,11 @@ Arthur Hayes of BitMEX made his prognosis in the last issue of their newsletter 
 
 > Litecoin has acted like a rock in trader’s bags since it hit its all time high of $40 in 2013. The technical merits of why Litecoin should be worth more than $0 are few and far between. Litecoin exists on life support only because Chinese traders for some reason enjoy trading it.
 
-Litecoin is some form of legacy. A BTC spinoff dangerously close to bitcoin only with the advantage of faster transactions, it is easy to implement for an exchange that already does BTC. The reason most people who aren't bagholders buy and sell litecoin is they are bitcoin traders and want to move USD from one exchange to the other whenever BTC is too volatile or too FUD-ridden to be safely in. By the way, that's also what people sometimes use DOGE for but LTC is more widely supported. For one thing, it's the only non-fiat and non-BTC way to get out of OkCoin.   
+Litecoin is some form of legacy. A BTC spinoff dangerously close to bitcoin only with the advantage of faster transactions, it is easy to implement for an exchange that already does BTC. The reason most people who aren't bagholders buy and sell litecoin is they are bitcoin traders and [want to move USD from one exchange to the other](/altcoin-exchanges/) whenever BTC is too volatile or too FUD-ridden to be safely in. By the way, that's also what people sometimes use DOGE for but LTC is more widely supported. For one thing, it's the only non-fiat and non-BTC way to get out of OkCoin.   
 
 #### First class and second class
 
-Over time this developed into a popular strategy: Altcoin traders might trade the first class altcoins - think Ethereum or Monero. Once they feel like the bull cycle is soon to be over they park the money in the second grade alts that remain more or less stable. With the money in the second class they wait for another opportunity in the first class.
+Over time this developed into a popular strategy: Altcoin traders might trade the first class altcoins - think [Ethereum](/coin/eth/) or [Monero](/coin/xmr/). Once they feel like the bull cycle is soon to be over they park the money in the second grade alts that remain more or less stable. With the money in the second class they wait for another opportunity in the first class.
 
 The second class coins rarely dump without pumping first so it's not a totally unreasonable idea, especially if you don't pick the parking coin completely by random. Sometimes the second grade coins do pump which makes for a nice benefit.
 

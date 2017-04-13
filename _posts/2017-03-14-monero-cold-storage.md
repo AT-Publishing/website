@@ -14,8 +14,8 @@ image:
 image_alt:
 - "The crowd wants it but there won't be an easy-to-use Monero cold storage any time soon even though this single product could make a new leader in the field of hardware wallets."
 
-tags:
-- "popular"
+#tags:
+#- "popular"
 
 update: 2017-03-20 22:42
 german: "monero-cold-storage-2017/"

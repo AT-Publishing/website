@@ -25,7 +25,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2017-03-13
+update: 2017-04-14 16:35
 comments: true
 ---
 
@@ -41,7 +41,7 @@ Let's first look at what is important - what you should be looking for - and wha
 
 **Your priorities:**
 
-* Find a liquid exchange. Chinese exchanges are perfect for that, simply because of the number of Chinese.
+* Find a liquid exchange - especially when looking for the best altcoin *trading* platform. Chinese exchanges are perfect for that, simply because of the number of Chinese. However they notoriously don't do altcoins too much.
 
 * Keep checking [Coinmarketcap 24h volume](http://coinmarketcap.com/currencies/volume/24-hour/). Different cryptocurrencies have different liquidity, go with the flow.
 
@@ -57,7 +57,7 @@ Let's first look at what is important - what you should be looking for - and wha
 
 To keep it short, your best bet is generally either [Bitfinex](#bitfinex) or [Poloniex](#poloniex).
 
-You can also trade some altcoins on Kraken and there is ETH available on GDAX but it's a **popular fixture** that these two exchanges **will crash** under heavy load during important price action. You have been warned.
+You can also trade some altcoins on [Kraken](/kraken-cryptowatch/) and there is ETH available on GDAX but it's a **popular fixture** that these two exchanges **will crash** under heavy load during important price action. You have been warned.
 
 
 ### Altcoin traders from the US  
@@ -77,31 +77,48 @@ The only thing worth mentioning is probably to distribute your bankroll on sever
 {{ site.ads.aads728 }}
 
 
-#### Poloniex
+#### Poloniex AKA Polo
 
 ##### (most altcoins, even the lesser known and new ones)
 
 {% amp700 border {{page.image[6]}} {{page.image_alt[6]}} %}
 
-Definitely the best choice is you are looking to trade small altcoins, not only Litecoin. {% aff Poloniex https://poloniex.com/ %} has a lot of traders on ETH, DASH, DOGE, Monero and other markets. Exchange trading and margin (leveraged) trading available. Funds for margin are provided by other users - you can lend out your bitcoins to earn interest too.
+Definitely the best choice is you are looking to trade small altcoins. Polo is the epicenter of all altcoin trading - if there is a pump starting it is starting on Polo.
 
-* Policies:
-  * [Poloniex is based in US but has restriction for US altcoin traders](https://poloniex.com/terms/).
-  * Verification is not really necessary. You need to state your name and country to get $2000 daily limit. Filling in your address and phone number gives you $7000 daily. The limits are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies - so, if your favourite altcoin surges you might not be able to withdraw all of your profits at once.  
+{% aff Poloniex https://poloniex.com/ %} has a lot of traders on ETH, DASH, DOGE, Monero and other markets. When there is a new token coming up it's always listed on Poloniex.
 
-* Charts: {% aff Poloniex https://poloniex.com/ %} has awful web app. All altcoins on Poloniex are listed on {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %} though - and those are real professional charts and chat where you sometimes even learn, not just alts pumping.
+Exchange trading and margin (leveraged) trading is available, although the selection of leveraged pairs is limited. New altcoins are generally only available for spot (exchange) trading.
 
-* Fees
-  * Trade: 0.15%/0.25% maker-taker.
+**Poloniex lending**
+
+Funds for margin are provided by other users - you can lend out your bitcoins and altcoins to earn interest too. If you want to do so it's best that you use a [lending bot](https://cryptotradingtools.com/bots/) that will pick out the best lending rates. The rates fluctuate based on the price actions - if altcoins are generally surging, BTC loans will be in high demand to long the altcoins. If altcoins are looking bearish, it will be best to lend out the most traded or least offered losers.
+
+**Poloniex policies**
+
+[Poloniex is based in US but has restriction for some US altcoin traders](https://poloniex.com/terms/).
+
+Poloniex verification levels:
+
+    * Verification is not absolutely necessary.
+    * You need to state your (any) name and country to get $2000 daily withdrawal limit.
+    * Filling in your address and phone number gives you $7000 daily.
+    * The verification limits on Poloniex are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies - so, if your favourite altcoin surges you might not be able to withdraw all of your profits at once.  
+
+**Poloniex Charts**
+
+{% aff Poloniex https://poloniex.com/ %} has an awful web app. All altcoins on Poloniex are listed on {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %} though - and those are real professional charts and chat where you sometimes even learn, not just alts pumping. You can also find most coins on {% aff Cryptowatch https://cryptowat.ch %}.
+
+**Poloniex Fees**
+
+  * Trade: 0.15%/0.25% maker-taker. Trading on Poloniex is expensive compared to Bitfinex.
   * Deposit: All crypto **free**.
   * Withdrawal: All crypto **free**.
 
-* Mobile trading: TabTrader. **There is a "Poloniex app" for Android but it is fraudulent!**
+**Mobile trading**
+
+Via third party app called TabTrader. **There is a "Poloniex app" for Android but it is fraudulent!**
 
 [Up](#)
-
-
-
 
 
 
@@ -117,21 +134,34 @@ What used to be known as Bitcoin exchanges in the past is now becoming a serious
 
 On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} crypto deposits and withdrawals go without verification. You need some confirmations to use BTC or altcoin deposit, they don't do instant deposits - that might be a drawback if you're doing altcoin arbitrage.  
 
-* Liquidity: {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
+**Bitfinex Liquidity**
+
+{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
 
 
-* Altcoin markets: **Ether, Ether Classic, Zcash, Monero, Dash and Litecoin**.
+**Altcoin markets**
 
-* Policies: Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don't put too much in one basket. Also, when they get hacked, they are not liable for losses.
+**Ether, Ether Classic, Zcash, Monero, Dash and Litecoin**. {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} also trades Bitcoin Core and Bitcoin Unlimited prediction tokens.
 
-* Charts: Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %}.
+**Bitfinex Policies**
 
-* {% aff Fees https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC %}
+Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don't put too much in one basket. Also, when they get hacked, they are not liable for losses - and they have been hacked indeed.
+
+Currently their USD withdrawals are held back because they lost their only USD clearing center (Wells Fargo). The company that holds Bitfinex tried to sue Wells Fargo but the lawsuit was withdrawn [so there either was a settlement or the lawsuit simply didn't have a chance](https://www.myownman.org/single-post/2017/04/11/iFinex-vs-Wells-and-the-price-of-Bitcoin-in-Hong-Kong).
+
+**Bitfinex Charts**
+
+Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %}.
+
+**Bitfinex {% aff Fees https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC %}**
+
   * Trade: maker/taker **.09%/.18%** if you sign up with {% aff this referral link https://www.bitfinex.com/?refcode=5egV78YtlC %}
   * Deposit: BTC & altcoins **free**
   * Withdrawal: BTC & altcoins **free**
 
-* Mobile trading: Native app, TabTrader, zTrader
+**Mobile trading on Bitfinex**
+
+Native app ("Bitfinex", issued by iFinex), TabTrader, zTrader
 
 
 #### BTC-e
@@ -140,26 +170,39 @@ On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} crypto deposi
 
 {% aff BTC-e https://btc-e.com %} is most likely based in Russia but no official info is given. They are now the oldest exchange, operating since 2011 without scams.
 
-* Policies: ID verification only for fiat deposits or withdrawal. To deposit an altcoin, trade it in any way, and withdraw more altcoin goes without verification.
+Good selection of lively altcoin markets involving coins like LTC, NVC, PPC and NMC. Markets are quite big.
 
-* The BTC-e exchange has no liability for losses. Have a 2FA, please.
+**BTC-e Policies**
 
-*  The presently supported payment methods are:
+ID verification only for fiat deposits or withdrawal. To deposit an altcoin, trade it in any way, and withdraw more altcoin goes without verification.
+
+The BTC-e exchange has no liability for losses. Have a 2FA, please - there were users reporting hacks but no site-wide hack was ever announced.
+
+**BTC-e deposits**
+
+BTC-e uses a complicated fiat route that goes through several offshore proxies so fiat deposits and withdrawals are complicated and expensive. [More here](http://archive.is/xy6QA)
+
+The presently supported payment methods are:
+
   * US Bank Wire, EU Bank Wire (SEPA)
   * Visa, Mastercard
   * {% aff PerfectMoney https://perfectmoney.is/?ref=7622697 %}
   * Liqpay.com, unikarta.com, WebCreds.com, Ukash.com, Webmoney.ru
 
-* Good selection of lively altcoin markets involving coins like LTC, NVC, PPC and NMC. Markets are quite big.
 
-* Charts: Use Bitcoinwisdom.
+**BTC-e Charts**
 
-* {% aff Fees https://btc-e.com/page/2 %}
+Use Bitcoinwisdom.
+
+**BTC-e {% aff Fees https://btc-e.com/page/2 %}**
+
   * Trade: Flat 0.2%
   * Deposit: Any crypto for **free**
   * Withdrawal: Any crypto has fee of **0.001 coin** (quite high). Fees on fiat withdrawals change with method but generally are quite high compared to the industry levels.
 
-* Mobile trading: TabTrader
+**BTC-e Mobile trading**
+
+Third party app TabTrader.
 
 
 #### Chinese Exchanges
