@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>https://www.altcointrading.net/</link>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Apr 2017 23:04:24 -0400</pubDate>
-    <lastBuildDate>Thu, 13 Apr 2017 23:04:24 -0400</lastBuildDate>
+    <pubDate>Fri, 14 Apr 2017 11:53:00 -0400</pubDate>
+    <lastBuildDate>Fri, 14 Apr 2017 11:53:00 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -175,6 +175,10 @@
 &lt;blockquote&gt;
   &lt;p&gt;(S)ome people say LN on Bitcoin will kill any reason to use Litecoin. If people can do instantaneous transactions on Bitcoin, why would they use Litecoin? My gut feel is that this is not the case. […] LN nodes will charge a fee for LN txns going through them and that fee will be relative to the Bitcoin network fee. So &lt;strong&gt;Bitcoin LN txns will be more expensive than Litecoin LN&lt;/strong&gt; txns. It may make economic sense for a LN txn to go via Litecoin and back to Bitcoin to get the cheapest rate. Lightning makes this possible because it allows the two LN to be &lt;strong&gt;interoperable&lt;/strong&gt;. I don’t know that this use case will be economical or not, but we won’t know until both LNs are built and running.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h3 id=&quot;segwit-activation-litecoin&quot;&gt;Segwit Activation Litecoin&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://segwit.co/ltc&quot;&gt;Follow segwit.co/ltc to see whether segwit was activated yet&lt;/a&gt;. It should be activated in mid May 2017.&lt;/p&gt;
 
 &lt;hr /&gt;
 

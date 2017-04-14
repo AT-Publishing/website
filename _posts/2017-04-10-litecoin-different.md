@@ -15,7 +15,7 @@ image:
 image_alt:
 - "Wait is this up or down?"
 
-update: 2017-04-10 14:49
+update: 2017-04-14 11:52
 
 german: false
 comments: true
@@ -102,6 +102,10 @@ Charlie Lee via [litecointalk.io](https://litecointalk.io/t/my-vision-for-segwit
 > (Y)ou may wonder why I’m pushing for SegWit. Litecoin does not have a block size problem. That’s right, and SegWit is not just a block scaling solution. I would even say block scaling is just a side benefit of SegWit. The main fix is transaction malleability, which would **allow Lightning Networks (LN)** to be built on top of Litecoin.
 
 > (S)ome people say LN on Bitcoin will kill any reason to use Litecoin. If people can do instantaneous transactions on Bitcoin, why would they use Litecoin? My gut feel is that this is not the case. [...] LN nodes will charge a fee for LN txns going through them and that fee will be relative to the Bitcoin network fee. So **Bitcoin LN txns will be more expensive than Litecoin LN** txns. It may make economic sense for a LN txn to go via Litecoin and back to Bitcoin to get the cheapest rate. Lightning makes this possible because it allows the two LN to be **interoperable**. I don’t know that this use case will be economical or not, but we won’t know until both LNs are built and running.
+
+### Segwit Activation Litecoin
+
+[Follow segwit.co/ltc to see whether segwit was activated yet](http://segwit.co/ltc). It should be activated in mid May 2017.
 
 
 ________________________
