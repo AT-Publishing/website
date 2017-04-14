@@ -57,17 +57,20 @@ So, how should you look at an asset if you want to hold?
 
 1/ Real-World Adoption&trade; - That's why [Ethereum on Alphabay](https://www.altcointrading.net/zoe-ethereum-alphabay/) is bigger a deal than [Raiden network](http://raiden.network/) or dapps even though both of the latter features are really cool.
 
-2/ [Transactions per day](https://etherscan.io/chart/tx/) which is related to adoption.
+2/ [Transactions per day](https://etherscan.io/chart/tx/) which is related to adoption, and [other network data](/eth-traders-tool/).
 
 3/ [Exchange volume per day](http://coinmarketcap.com/) and (anti)correlation with bitcoin to see how much of the use is just speculation.
 
 Of course all cryptocurrency is still very young though.
 
+{{ site.ads.aads728 }}
+
+
 ### An unlikely altcoin fundamental
 
 {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
 
-What would happen if Ethereum lost Vitalik? Something explicit for sure, right?
+What would happen if Ethereum lost Vitalik? Something quite explicit for sure, right?
 
 > *"Go for a business that any idiot can run - because sooner or later, an idiot probably is going to run it." - Peter Lynch*
 
@@ -75,6 +78,9 @@ I believe this is a drawback of Ethereum as an investment asset. That **doesn't 
 
 Now, compare it to other popular altcoins on the market.
 
-I am sure there are people who believe [certain coins](https://www.reddit.com/r/Monero/comments/61atcg/what_i_believe_is_holding_back_our_adoption_and/) are lead by idiots at present already, while other coins are [quickly getting there](https://twitter.com/notgrubles/status/851878073909862400/photo/1).
+I am sure there are people who believe [certain coins](https://www.reddit.com/r/Monero/comments/61atcg/what_i_believe_is_holding_back_our_adoption_and/) are lead by idiots at present already, while other coins are [quickly](https://twitter.com/notgrubles/status/851878073909862400/photo/1) getting [there](http://cointimes.tech/2017/04/napoleonbitcoin/).
 
 You shouldn't blame people for holding on to assets with slower development and moronic leads. After all [the longer the assets are surviving this misfortune the more valuable they are for the long run](https://en.wikipedia.org/wiki/Lindy_effect).
+
+
+{{ site.ads.aads728 }}

@@ -2,7 +2,7 @@
 layout: blog
 date: 2017-03-22 4:20
 title: "Cryptosignal - New tool for Ethereum traders"
-description: "A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions."
+description: "A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions - that's a free altcoin trading signal."
 categories:
 - "trading"
 - "eth"
@@ -13,7 +13,7 @@ image:
 image_alt:
 - "Yeah it's a wonder"
 
-update: 2017-03-22 4:20
+update: 2017-04-14 13:00
 german: false
 comments: true
 stories: true
@@ -76,4 +76,4 @@ To a comment that says hash rate and price are not correlated like this, OP resp
 
 That would go well together with the idea that in some cases if price lags behind growing hash rate it could mean bullish sentiment.
 
-[Go to Cryptosignal](https://cryptosign.al) 
+[Go to Cryptosignal](https://cryptosign.al)

@@ -70,9 +70,9 @@ These days an ETH transaction gets confirmed within seconds which is a relief fo
 
 Adding the privacy enhancements to ETH would give it a significant advantage: ETH would become a private coin that is being actively developed, is easily available on most exchanges and can be stored comfortably in both light clients ({% aff Jaxx https://jaxx.io/ %}, {% aff Exodus https://www.exodus.io/ %}) and cold storage ({% aff Trezor https://shop.trezor.io/?a=fany@tutanota.com %}, {% aff Ledger https://www.ledgerwallet.com/r/e274 %}).
 
-Meanwhile Monero holders still need to resort to downloading the full blockchain if they want to store the altcoin on their computer and DASH seems to be rebranding and refocusing away from "the private coin" image to "the easy payment system" image in spite of its lack of merchant adoption. Not to mention Bitcoin - the oldest cryptocurrency is currently amidst the [FUD over potential network split](https://www.bloomberg.com/view/articles/2017-03-16/someone-wants-to-stick-a-fork-in-bitcoin). The market is taking a dive even though the news is probably exaggerated since it is not clear whether the fork will indeed happen at all in the first place, let alone any time soon.
+Meanwhile [Monero holders still need to resort to downloading the full blockchain](https://www.altcointrading.net/monero-cold-storage-2017/) if they want to store the altcoin on their computer and DASH seems to be rebranding and refocusing away from "the private coin" image to "the easy payment system" image in spite of its lack of merchant adoption. Not to mention Bitcoin - the oldest cryptocurrency is currently amidst the [FUD over potential network split](https://www.bloomberg.com/view/articles/2017-03-16/someone-wants-to-stick-a-fork-in-bitcoin). The market is taking a dive even though the news is probably exaggerated since it is not clear whether the fork will indeed happen at all in the first place, let alone any time soon.
 
-Nonetheless ETH could potentialy profit greatly from this situation.
+Nonetheless ETH could potentially profit greatly from this situation.
 
 ______________________
 
