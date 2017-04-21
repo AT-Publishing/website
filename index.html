@@ -8,6 +8,7 @@ navi:
    <div class="eight columns swapper">
 
     <section id="popular-posts">
+      {{ site.ads.aads728 }}
       <span id="note">Popular Posts</span>
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
@@ -20,7 +21,7 @@ navi:
         {% endif %}
       {% endfor %}
     </section>
-    
+
     <section id="new-posts">
       {{ site.ads.aads728 }}
       <br>
@@ -51,7 +52,6 @@ navi:
           {% endif %}
         </div>
       {% endfor %}
-      {{ site.ads.aads728 }}
     </section>
 
 
