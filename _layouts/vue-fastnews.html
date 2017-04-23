@@ -6,11 +6,15 @@
 <div class="container">
   <div class="row">
    <div class="eight columns swapper">
-     {{ content }}
+     <p>
+       <span id="note"><em>Fast</em> News on Altcoin Trading</span>
+     </p>    
+     <p>{{ content }}</p>
      {% include fastnews.html %}
+     {{ site.ads.aads728 }}
     </div>
     <div class="four columns notopmargin">
-    { % include sidebar .html %   }
+    {% include sidebar.html %}
   </div>
 </div>
 <footer>

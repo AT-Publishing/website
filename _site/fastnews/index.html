@@ -247,6 +247,8 @@ h4.post-main {background: rgba(122, 131, 141, 0.21);color: #000b17;border-left: 
               
               
               
+              
+              
 
               <li><a class="coin" href="/coin/dash/">DASH</a></li>
               <li><a class="coin" href="/coin/eth/">ETH</a></li>
@@ -331,6 +333,8 @@ h4.post-main {background: rgba(122, 131, 141, 0.21);color: #000b17;border-left: 
         
         
         
+        
+        
 
         <li><a class="coin" href="/coin/dash/">DASH</a></li>
         <li><a class="coin" href="/coin/eth/">ETH</a></li>
@@ -346,66 +350,128 @@ h4.post-main {background: rgba(122, 131, 141, 0.21);color: #000b17;border-left: 
 <div class="container">
   <div class="row">
    <div class="eight columns swapper">
-     Whatever
+     <p>
+       <span id="note"><em>Fast</em> News on Altcoin Trading</span>
+     </p>    
+     <p></p>
+     <amp-iframe
+  width=700 height=1400
+  layout="responsive"
+  sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://data.altcointrading.net/newsblade/">
+  <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+</amp-iframe>
 
-       <script src="https://unpkg.com/vue/dist/vue.min.js"></script><!-- 2.2.1 -->
-  <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
-  <div id="news">
-    <div v-for="item in $data.gridData">
-      <div v-for="title in item">
-      <p></p>
-      <small><a v-bind:href='title["url"]' target="_blank"></a></small>
-      <article></article>
-      </div>
-    </div>
-   <pre>testtest</pre>
-  </div>
-
-  <script type="text/javascript">
-
-  Vue.use(VueResource)
-
-  var news = new Vue({
-      el: '#news',
-      data: {
-        gridData: [
-        "-"
-        ]
-      },
-      filters: {
-        moment: function(str) {
-          var d = new Date(str);
-          if (moment(d).isValid() ) {
-            return moment(d).format('MMMM Do \'YY, h:mm a');
-          } else {
-            return "-";
-          }
-        }
-      },
-      mounted: function() {
-        var vm = this
-        vm.$http.get("https://www.reddit.com/r/ethtrader.json")
-          .then(function (response) {
-            vm.gridData = response.data["data"]["children"].slice(1,6) //[0]["data"]["title"]
-            console.log( response.data["data"]["children"].slice(1,6)[0] )
-          })
-          .catch(function (error) {
-            vm.gridData = error
-          })
-        setInterval(function() {
-          vm.$http.get("https://www.reddit.com/r/ethtrader.json")
-            .then(function (response) {
-              vm.gridData = response.data["data"]["children"].slice(1,6) //[0]["data"]["title"]
-            })
-        }, 10000)
-      }
-  })
-  </script>
-
+     <div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad></div><div class="clearfix"></div>
     </div>
     <div class="four columns notopmargin">
-    { % include sidebar .html %   }
+    <div id="sidebar">
+  <section>
+    <ul class="divided">
+      <li><!-- testing AdSense below fold -->
+        <amp-ad
+            layout="responsive"
+            width="300px"
+            height="250px"
+            type="adsense"
+            data-ad-client="ca-pub-6979812205705127"
+            data-ad-slot="1212489691">
+       </amp-ad>
+      </li>
+      <li>
+      <h3>Altcoin Performance:</h3>
+      <div>
+        <amp-iframe
+          width=320 height=235px
+          layout="responsive"
+          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          src="https://data.altcointrading.net/compare/">
+          <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+        </amp-iframe>
+      </div>
+      </li>
+      <li><!-- testing AdSense below fold -->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <amp-ad
+            layout="responsive"
+            width="320px"
+            height="100px"
+            type="adsense"
+            data-ad-client="ca-pub-6979812205705127"
+            data-ad-slot="4508876499">
+       </amp-ad>
+      </li>
+      <li>
+        <h3>Coupon Codes For Crypto Exchanges:</h3>
+        <ul>
+          <li>
+            <a  target="_blank" rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" >BITFINEX COUPON <b>5egV78YtlC</b> (10% off fee)</a></li>
+          <li>
+            <a  target="_blank" rel="nofollow" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
+          <li>
+            <a  target="_blank" rel="nofollow" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
+            <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
+        </ul>
+      </li>
+      <li>
+      <h3>Hardware Wallet for altcoins:</h3>
+        <div class="text-center"> <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com"> <amp-img itemprop="image" src="/img/wallets/trezor-altcoins.jpg" alt="Trezor Altcoins - Trezor is Hardware wallet for bitcoin and altcoins" data-original-width="350px" data-original-height="320px" layout="responsive" width="350px" height="320px"> </amp-img></a></div>
+        <br>
+        <a href="/trezor-multicoin/">Trezor supports altcoins ZCASH, DASH, ETH and LTC.</a>
+      </li>
+
+      <li>
+      <h3>Hassle-free profit taking to virtual Credit Card:</h3>
+        <div>
+          <div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash_green.jpeg" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>
+        </div>
+      </li>
+      <li>
+        <h3>Follow this site</h3>
+        <div class="mailchimpfix"> <amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/signup.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe> </div>
+      </li>
+      <h3>Bitcoin News:</h3>
+        <ul>
+          <li><a href="https://www.reddit.com/r/bitcoinmarkets" target="_blank">/r/bitcoinmarkets</a></li>
+          <li><a href="https://www.reddit.com/r/cryptomarkets" target="_blank">/r/cryptomarkets</a></li>
+          <li><a href="http://www.altcointoday.com">AltcoinToday</a></li>
+          <li><a href="http://www.coindesk.com/category/technology/altcoins/">Coindesk</a></li>
+        </ul>
+      <li>
+        <h3>Algo Trading</h3>
+        <ul>
+          <li><a target="_blank" href="https://cryptotradingtools.com">Crypto Trading Tools</a></li>
+
+        </ul>
+      </li>
+
+      <li>
+        <h3>Bitcoin Cold Storage:</h3>
+        <div>
+          <a class='' rel='nofollow' target='_blank' href='https://www.ledgerwallet.com/r/e274'>
+      <amp-img itemprop="image" src='https://www.ledgerwallet.com/images/promo/ledger-500x500-01.jpg' layout="responsive" width="300px" height="250px">
+      </a>
+        </div>
+      </li>
+
+      <li>
+       <h3>Recent News via Reddit:</h3>
+       <div>
+         <amp-iframe
+           width=320 height=450
+           layout="responsive"
+           sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+           src="https://data.altcointrading.net/reddit/">
+           <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+         </amp-iframe>
+       </div>
+      </li>
+
+
+    </ul>
+  </section>
+</div>
+
   </div>
 </div>
 <footer>

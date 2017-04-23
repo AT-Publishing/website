@@ -3,8 +3,20 @@
 {% include head.html %}
 <body>
 {% include header.html %}
-{{ content }}
-{% include fastnews.html %}
+<div class="container">
+  <div class="row">
+   <div class="eight columns swapper">
+     <p>
+       <span id="note"><em>Time</em> Killer</span>
+     </p>
+     <p>{{ content }}</p>
+     {% include gossip.html %}
+     {{ site.ads.aads728 }}
+    </div>
+    <div class="four columns notopmargin">
+    {% include sidebar.html %}
+  </div>
+</div>
 <footer>
   <div class="footer">
     {% include footer.html %}

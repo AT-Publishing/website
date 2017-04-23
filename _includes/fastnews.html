@@ -1,54 +1,7 @@
-  <script src="https://unpkg.com/vue/dist/vue.min.js"></script><!-- 2.2.1 -->
-  <script src="https://cdn.jsdelivr.net/vue.resource/1.0.3/vue-resource.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
-  <div id="news">
-    <div v-for="item in $data.gridData">
-      <div v-for="title in item">
-      <p>{{title["title"]}}</p>
-      <small><a v-bind:href='title["url"]' target="_blank">{{title["url"]}}</a></small>
-      <article>{{title["selftext"]}}</article>
-      </div>
-    </div>
-   <pre>test{{$data.gridData}}test</pre>
-  </div>
-
-  <script type="text/javascript">
-
-  Vue.use(VueResource)
-
-  var news = new Vue({
-      el: '#news',
-      data: {
-        gridData: [
-        "-"
-        ]
-      },
-      filters: {
-        moment: function(str) {
-          var d = new Date(str);
-          if (moment(d).isValid() ) {
-            return moment(d).format('MMMM Do \'YY, h:mm a');
-          } else {
-            return "-";
-          }
-        }
-      },
-      mounted: function() {
-        var vm = this
-        vm.$http.get("https://www.reddit.com/r/ethtrader.json")
-          .then(function (response) {
-            vm.gridData = response.data["data"]["children"].slice(1,6) //[0]["data"]["title"]
-            console.log( response.data["data"]["children"].slice(1,6)[0] )
-          })
-          .catch(function (error) {
-            vm.gridData = error
-          })
-        setInterval(function() {
-          vm.$http.get("https://www.reddit.com/r/ethtrader.json")
-            .then(function (response) {
-              vm.gridData = response.data["data"]["children"].slice(1,6) //[0]["data"]["title"]
-            })
-        }, 10000)
-      }
-  })
-  </script>
+<amp-iframe
+  width=700 height=1400
+  layout="responsive"
+  sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://data.altcointrading.net/newsblade/">
+  <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+</amp-iframe>
