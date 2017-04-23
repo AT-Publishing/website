@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "best altcoins"
-description: "What is the best altcoin to invest in at the moment?"
+description: "Best altcoins to invest in at the moment."
 permalink: /category/altcoins/
 ---
 

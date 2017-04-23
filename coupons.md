@@ -3,6 +3,9 @@ layout: page
 title: coupons
 permalink: /referral-coupons/
 description: List of referrer codes and offers that will give you a fee rebate.
+
+navi:
+ exclude: yes
 ---
 
 
@@ -23,7 +26,7 @@ It is not the most transparent company. However, they don't demand more from the
 
 You can buy or trade BTC, LTC, ETH, ETC, ZEC, XMR and since March 2017 also DASH. There are both USD markets and pairs or altcoin/bitcoin.
 
-Fees are beautiful: **with referral link you get fees of .09%/.18% maker/taker**. Compare that with Poloniex - there you'll pay 15%/.25% on fee. 
+Fees are beautiful: **with referral link you get fees of .09%/.18% maker/taker**. Compare that with Poloniex - there you'll pay 15%/.25% on fee.
 
 {% aff - Click this link to get 10% off fees on Bitfinex for your first month https://www.bitfinex.com/?refcode=5egV78YtlC %}
 

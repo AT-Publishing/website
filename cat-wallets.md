@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "altcoin wallets"
-description: "Where to keep alternative cryptocurrencies safely? Find about desktop altcoin wallets and hardware wallets for alt coins."
+description: "All about desktop altcoin wallets and hardware wallets for safe alt coin storage."
 permalink: /category/wallets/
 ---
 

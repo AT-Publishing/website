@@ -8,7 +8,6 @@ navi:
    <div class="eight columns swapper">
 
     <section id="popular-posts">
-      {{ site.ads.aads728 }}
       <span id="note">Popular Posts</span>
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
@@ -23,7 +22,6 @@ navi:
     </section>
 
     <section id="new-posts">
-      {{ site.ads.aads728 }}
       <br>
       <span id="note">New Posts</span>
       {% for post in site.posts offset: 0 limit: 15 %}
