@@ -91,7 +91,7 @@ Exchange trading and margin (leveraged) trading is available, although the selec
 
 **Poloniex lending**
 
-Funds for margin are provided by other users - you can lend out your bitcoins and altcoins to earn interest too. If you want to do so it's best that you use a [lending bot](https://cryptotradingtools.com/bots/) that will pick out the best lending rates. The rates fluctuate based on the price actions - if altcoins are generally surging, BTC loans will be in high demand to long the altcoins. If altcoins are looking bearish, it will be best to lend out the most traded or least offered losers.
+Funds for margin are provided by other users - you can lend out your bitcoins and altcoins to earn interest too. If you want to do so it's best that you use a [lending bot](https://cryptotradingtools.com/) that will pick out the best lending rates. The rates fluctuate based on the price actions - if altcoins are generally surging, BTC loans will be in high demand to long the altcoins. If altcoins are looking bearish, it will be best to lend out the most traded or least offered losers.
 
 **Poloniex policies**
 
