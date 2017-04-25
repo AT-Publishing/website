@@ -7,6 +7,25 @@
   
 
     <url>
+      <loc>https://www.altcointrading.net/gnosis/</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:publication_date>2017-04-25T08:06:00-04:00</news:publication_date>
+        <news:title>The Gnosis thing</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>https://www.altcointrading.net/time-vs-timing/</loc>
       <news:news>
         <news:publication>
