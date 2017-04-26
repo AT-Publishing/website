@@ -1,6 +1,13 @@
 [
   
   {
+    "title":"Grayscale did it",
+    "date":"2017-04-26 09:06:00 -0400"
+    "content":"Look at the price of ETC yourself."
+    "url":"/etc-etf/"
+  },
+  
+  {
     "title":"The Gnosis thing",
     "date":"2017-04-25 08:06:00 -0400"
     "content":"A prediction market, like Augur -- but this one made it to Forbes somehow."
@@ -45,7 +52,7 @@
   {
     "title":"Alphabay to adopt ETH for payments ahead of new privacy features",
     "date":"2017-03-18 17:20:00 -0300"
-    "content":"With ZCash-on-Ethereum (ZoE) a fundamental change in ETH is possibly ahead."
+    "content":"With ZCash on Ethereum (ZoE) a fundamental change in ETH is possibly ahead."
     "url":"/zoe-ethereum-alphabay/"
   },
   
