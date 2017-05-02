@@ -18,6 +18,7 @@ defaults:
       stories: false
       genres: "Blog, OpEd, Opinion" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
       tickers: false
+      author: "https://reddit.com/u/KarlVonBahnhof"
  -
     scope:
       path: ""

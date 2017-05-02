@@ -23,6 +23,8 @@ stories: true
 
 published: true
 
+tickers: "LTCUSD, LTCBTC"
+
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

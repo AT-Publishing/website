@@ -15,6 +15,7 @@ german: false
 published: true
 comments: true
 stories: true
+tickers: "COIN, ^NYXBT"
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
