@@ -5,10 +5,6 @@ description: "Best altcoins to invest in at the moment."
 permalink: /category/altcoins/
 ---
 
-<h4 class="exa">All posts related to <b>altcoins</b></h4>
-
-<span id="note">"Featured altcoins"</span>
-
 {% for post in site.posts offset: 0 limit: 1 %}
   {% if post.category contains "coins" or post.categories contains "coins" %}
   <h4 class="post">

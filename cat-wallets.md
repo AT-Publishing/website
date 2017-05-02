@@ -5,9 +5,7 @@ description: "All about desktop altcoin wallets and hardware wallets for safe al
 permalink: /category/wallets/
 ---
 
-<h4 class="exa">All posts related to <b>altcoin wallets</b></h4>
-<p>{{ site.ads.trezorlong }}</p>
-<span id="note">"Altcoin wallets"</span>
+
 {% for post in site.posts offset: 0 limit: 1 %}
   {% if post.category contains "wallets" or post.categories contains "wallets" %}
   <h4 class="post">

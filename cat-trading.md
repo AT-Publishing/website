@@ -4,10 +4,7 @@ title: "altcoin trading"
 description: "Where to trade altcoins? What are good exchanges for altcoin trading? Who has lowest fees?"
 permalink: /category/trading/
 ---
-
-<h4 class="exa">All posts related to <b>altcoin trading</b> or <b>technical analysis</b></h4>
 {{ site.ads.trezorlong }}
-<span id="note">"Altcoin Trading"</span>
 
 {% for post in site.posts offset: 0 limit: 1 %}
   {% if post.category contains "trading" or post.categories contains "trading" %}
@@ -63,12 +60,7 @@ permalink: /category/trading/
   {% endif %}
 {% endfor %}
 
-
-
-
-<h4 class="exa">All posts related to <b>bitcoin arbitrage</b> or <b>altcoin arbitrage</b></h4>
-
-<span id="note">"Arbitrage Trading"</span>
+<span id="note">"Altcoin Arbitrage"</span>
 
 {% for post in site.posts %}
   {% if post.category contains "arbitrage" or post.categories contains "arbitrage" %}

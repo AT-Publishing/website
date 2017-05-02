@@ -5,9 +5,6 @@ description: "Best altcoin exchanges - for new coins, for trading, for trading b
 permalink: /category/exchanges/
 ---
 
-<h4 class="exa">All posts related to <b>altcoin exchanges</b></h4>
-
-<span id="note">"Altcoin exchanges"</span>
 
 {% for post in site.posts offset: 0 limit: 1 %}
   {% if post.category contains "exchanges" or post.categories contains "exchanges" %}

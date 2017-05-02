@@ -19,6 +19,9 @@ Ethereum is an open-source, public, blockchain-based distributed computing platf
 
 ETC or ETH "Classic" is worth steadily about 10% of ETH and it is the underlying asset of the proposed [Ethereum ETF](https://grayscale.co/ethereum-investment-trust/).
 
+{{ site.ads.aads728 }}
+
+
 **ETH vs BTC**
 
 Ethereum is primarily meant as a smart contract and DApp platform but with [ZoE](https://www.altcointrading.net/zoe-ethereum-alphabay/) there is also transactional privacy implemented. Confirmation times are much faster than on the Bitcoin blockchain.
@@ -30,5 +33,3 @@ You can trade ETH and ETC on {% aff Poloniex https://poloniex.com %} with fees o
 **Ethereum cold storage**
 
 <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a> offers integration with MyEtherWallet to provide cold storage for your ETH. <a target="_blank" href="https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08#.u88e8jwbe">Read more</a>
-
-{{ site.ads.aads728 }}

@@ -20,6 +20,9 @@ DASH is a privacy-centric cryptocurrency focused on fast and private payments - 
 
 Generally speaking the privacy features of Monero are better than those of DASH - [read here](https://www.altcointrading.net/private-altcoins-dash-monero/).
 
+{{ site.ads.aads728 }}
+
+
 **Controversial insta-mine**
 
 There is a controversy about DASH since the developers mined 2 mil coins right after the coin's inception. There is currently about 7 mil DASH which makes its creators potentially powerful whales.
@@ -31,5 +34,3 @@ You can trade DASH on {% aff Poloniex https://poloniex.com %} with fees of .15%/
 **DASH cold storage**
 
 <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a> supports DASH natively. <a target="_blank" href="https://blog.trezor.io/multi-currency-support-bitcoin-dash-and-zcash-in-trezor-wallet-7377d812112a#.fe76qc6og">Read more</a>
-
-{{ site.ads.aads728 }}
