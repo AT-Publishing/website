@@ -1,0 +1,94 @@
+---
+layout: default-news
+---
+<div class="container">
+  <div class="row">
+
+   <div class="eight columns post-content">
+     <div class="shifted-left">
+       {{ site.ads.aads728 }}
+     </div>
+       <span id="note">
+         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }}</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }}</time>
+       </span>
+       <h4 class="post post-main">
+          <strong>
+            {{ page.title }}
+          </strong>
+        </h4>
+        <article class="maincontent">
+          <div>
+            {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+          </div>
+          <p>
+            <em>
+              Image: {{page.image_alt[0]}}
+            </em>
+          </p>
+          <hr>
+          <div>
+            {{ site.ads.aads728 }}
+          </div>
+          <div>
+            {{ content }}
+          </div>
+          <p>
+            <hr>
+            <ul class="social">
+              <li>
+                <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
+                  <i class="fa fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
+                  <i class="fa fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Google Plus" target="_blank">
+                  <i class="fa fa-google-plus-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/social_plugins/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Xing" target="_blank">
+                  <i class="fa fa-xing-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
+            <hr>
+            {% if page.stories %}
+            <p>
+              <a target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+            </p>
+            {% endif %}
+            <p>
+              <a href="mailto:info@altcointrading.net">Report typo or misinformation</a>
+            </p>
+          </p>
+
+          {% if page.comments %}
+          <br>
+          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+          <amp-iframe width=600 height=140
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            resizable
+            src="https://amp2disqus.netlify.com/altcointrading/index.html?url=https://www.altcointrading.net&identifier={{ page.permalink }}">
+            <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
+          </amp-iframe>
+          <br>
+          {% endif %}
+
+        </article>
+    </div>
+    <div class="four columns nomargintop">
+      {% include sidebar.html %}
+    </div>
+  </div>
