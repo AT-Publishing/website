@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 german: ''
 published: true
 comments: ''
