@@ -1,5 +1,5 @@
 ---
-layout: '"blog-v2"'
+layout: blog
 german: ''
 published: true
 comments: ''
@@ -10,7 +10,7 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Test post !
 date: 2017-05-07 12:19
-description: '"test descr"'
+description: whatever
 permalink: "/test"
 image:
 - "/img/xmr/monero-cli-3.jpg"
