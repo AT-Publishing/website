@@ -19,6 +19,7 @@ defaults:
       genres: "Blog, OpEd, Opinion" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
       tickers: false
       author: "https://reddit.com/u/KarlVonBahnhof"
+      author_name: "KarlVonBahnhof"
  -
     scope:
       path: ""
@@ -28,6 +29,8 @@ defaults:
       published: true
       comments: false
       stories: false
+      author: "https://reddit.com/u/KarlVonBahnhof"
+      author_name: "KarlVonBahnhof"
 
 author: "AltcoinTrading"
 markdown: kramdown

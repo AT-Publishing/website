@@ -7,7 +7,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/etc-etf/</loc>
+      <loc>http://localhost:4000/etc-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -26,7 +26,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/gnosis/</loc>
+      <loc>http://localhost:4000/gnosis/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -45,7 +45,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/time-vs-timing/</loc>
+      <loc>http://localhost:4000/time-vs-timing/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -64,7 +64,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/litecoin-pump/</loc>
+      <loc>http://localhost:4000/litecoin-pump/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -83,7 +83,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/ethereum-etf/</loc>
+      <loc>http://localhost:4000/ethereum-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -104,7 +104,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/eth-traders-tool/</loc>
+      <loc>http://localhost:4000/eth-traders-tool/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -123,7 +123,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/zoe-ethereum-alphabay/</loc>
+      <loc>http://localhost:4000/zoe-ethereum-alphabay/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -142,7 +142,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/monero-cold-storage-2017/</loc>
+      <loc>http://localhost:4000/monero-cold-storage-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -161,7 +161,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/ethereum-etf-unlikely/</loc>
+      <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -182,7 +182,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/dash-03-2017/</loc>
+      <loc>http://localhost:4000/dash-03-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -201,7 +201,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/kraken-cryptowatch/</loc>
+      <loc>http://localhost:4000/kraken-cryptowatch/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -224,7 +224,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/trezor-multicoin/</loc>
+      <loc>http://localhost:4000/trezor-multicoin/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -251,7 +251,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/finexening/</loc>
+      <loc>http://localhost:4000/finexening/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>

@@ -3,10 +3,10 @@
   <channel>
     <title>Altcoin Trading</title>
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
-    <link>https://www.altcointrading.net/</link>
-    <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2017 17:13:36 -0400</pubDate>
-    <lastBuildDate>Thu, 04 May 2017 17:13:36 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 May 2017 15:39:08 -0400</pubDate>
+    <lastBuildDate>Mon, 08 May 2017 15:39:08 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -23,8 +23,8 @@
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Ethereum Classic Investment Trust is now live for eligible accredited investors! &lt;a href=&quot;https://t.co/ViBWrnpmaP&quot;&gt;https://t.co/ViBWrnpmaP&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;cc: &lt;a href=&quot;https://twitter.com/EthereumTrust&quot;&gt;@EthereumTrust&lt;/a&gt; &lt;a href=&quot;https://twitter.com/search?q=%24ETC&amp;amp;src=ctag&quot;&gt;$ETC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Grayscale (@GrayscaleInvest) &lt;a href=&quot;https://twitter.com/GrayscaleInvest/status/857217741161459715&quot;&gt;26 April 2017&lt;/a&gt;&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 26 Apr 2017 09:06:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/etc-etf/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/etc-etf/</guid>
+        <link>http://localhost:4000/etc-etf/</link>
+        <guid isPermaLink="true">http://localhost:4000/etc-etf/</guid>
         
         
         <category>coins</category>
@@ -116,8 +116,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;p&gt;&lt;a href=&quot;@tradingfanbois&quot;&gt;- Article by @tradingfanbois&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Apr 2017 08:06:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/gnosis/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/gnosis/</guid>
+        <link>http://localhost:4000/gnosis/</link>
+        <guid isPermaLink="true">http://localhost:4000/gnosis/</guid>
         
         
         <category>trading</category>
@@ -194,8 +194,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 13 Apr 2017 12:24:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/time-vs-timing/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/time-vs-timing/</guid>
+        <link>http://localhost:4000/time-vs-timing/</link>
+        <guid isPermaLink="true">http://localhost:4000/time-vs-timing/</guid>
         
         
         <category>trading</category>
@@ -304,8 +304,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;p&gt;Follow Charlie Lee on twitter &lt;a href=&quot;https://twitter.com/SatoshiLite&quot;&gt;https://twitter.com/SatoshiLite&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Apr 2017 11:20:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/litecoin-pump/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/litecoin-pump/</guid>
+        <link>http://localhost:4000/litecoin-pump/</link>
+        <guid isPermaLink="true">http://localhost:4000/litecoin-pump/</guid>
         
         
         <category>coins</category>
@@ -491,7 +491,7 @@ faith estimate&lt;/strong&gt; of the market price of ether.&lt;/p&gt;
 
 &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ethereum ETF&quot; src=&quot;/img/eth/eth-vol-by-country.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;578px&quot; data-original-height=&quot;638px&quot; width=&quot;578px&quot; height=&quot;638px&quot;&gt;&lt;/amp-img&gt;
 
-&lt;p&gt;&lt;em&gt;Image: An illustration, not a statistics! Volume distribution across countries for ETH/fiat pairs in the top 20 ETH markets. Single day data only, via coinmarketcap.com. &lt;a href=&quot;https://www.altcointrading.net/img/eth/ETH-GEO.pdf&quot;&gt;View as PDF&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image: An illustration, not a statistics! Volume distribution across countries for ETH/fiat pairs in the top 20 ETH markets. Single day data only, via coinmarketcap.com. &lt;a href=&quot;http://localhost:4000/img/eth/ETH-GEO.pdf&quot;&gt;View as PDF&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;After all, from a legacy investor point of view it does not make such a fundamental difference whether to invest in Bitcoin or in Ether. The two currencies trade like competitors, very often they are inversely correlated, while both of them are equally uncorrelated with all of the legacy markets.&lt;/p&gt;
 
@@ -501,8 +501,8 @@ faith estimate&lt;/strong&gt; of the market price of ether.&lt;/p&gt;
 &lt;amp-iframe width=&quot;700px&quot; height=&quot;360px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://www.slideshare.net/slideshow/embed_code/key/lTYUhBkIAJ5Q0Y&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;
 </description>
         <pubDate>Sat, 25 Mar 2017 15:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/ethereum-etf/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ethereum-etf/</guid>
+        <link>http://localhost:4000/ethereum-etf/</link>
+        <guid isPermaLink="true">http://localhost:4000/ethereum-etf/</guid>
         
         
         <category>coins</category>
@@ -587,8 +587,8 @@ faith estimate&lt;/strong&gt; of the market price of ether.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 23 Mar 2017 03:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/monero-wallet-dummies/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/monero-wallet-dummies/</guid>
+        <link>http://localhost:4000/monero-wallet-dummies/</link>
+        <guid isPermaLink="true">http://localhost:4000/monero-wallet-dummies/</guid>
         
         
         <category>wallets</category>
@@ -670,8 +670,8 @@ Edit: Some people may be receiving a startup page for Nginx. I’ll look into it
 &lt;p&gt;&lt;a href=&quot;https://cryptosign.al&quot;&gt;Go to Cryptosignal&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Mar 2017 04:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/eth-traders-tool/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/eth-traders-tool/</guid>
+        <link>http://localhost:4000/eth-traders-tool/</link>
+        <guid isPermaLink="true">http://localhost:4000/eth-traders-tool/</guid>
         
         
         <category>trading</category>
@@ -735,8 +735,8 @@ future.
 &lt;p&gt;&lt;a href=&quot;https://blog.ethereum.org/2017/01/19/update-integrating-zcash-ethereum/&quot;&gt;Read the update on ZCASH integration on the Ethereum blog&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Mar 2017 17:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/zoe-ethereum-alphabay/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/zoe-ethereum-alphabay/</guid>
+        <link>http://localhost:4000/zoe-ethereum-alphabay/</link>
+        <guid isPermaLink="true">http://localhost:4000/zoe-ethereum-alphabay/</guid>
         
         <category>popular</category>
         
@@ -822,8 +822,8 @@ future.
 &lt;amp-iframe width=&quot;600px&quot; height=&quot;400px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/#monero&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;
 </description>
         <pubDate>Wed, 15 Mar 2017 01:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/monero-cold-storage-2017/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/monero-cold-storage-2017/</guid>
+        <link>http://localhost:4000/monero-cold-storage-2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/monero-cold-storage-2017/</guid>
         
         
         <category>wallets</category>
@@ -877,8 +877,8 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 10 Mar 2017 00:00:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/ethereum-etf-unlikely/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ethereum-etf-unlikely/</guid>
+        <link>http://localhost:4000/ethereum-etf-unlikely/</link>
+        <guid isPermaLink="true">http://localhost:4000/ethereum-etf-unlikely/</guid>
         
         
         <category>coins</category>
