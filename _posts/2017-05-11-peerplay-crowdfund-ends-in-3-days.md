@@ -5,7 +5,7 @@ published: true
 comments: true
 stories: true
 genres: Blog, Opinion
-tickers: 'false'
+tickers: 'no'
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Peerplays crowdfund ends in 3 days
