@@ -18,10 +18,11 @@ image_alt:
 - 'Something something no need for traditional bookies. '
 categories:
 - altcoins
-description: Peerplays is currently in the stage 2 of their crowdfund where anyone
-  can buy PPY tokens.
+description: Do you actually think this has future or did you just hear dividends?
 tags: []
 ---
+
+
 At the current stage the PPY tokens cost $5.20 each, the [ICO - sorry, the crowdfund](https://www.altcointrading.net/ico-regulations) - ends in three days at 15:00 UTC on 14 May 2017, the PPY tokens will be distributed to participants on 30 May 2017. You can invest BTC, ETH, LTC, DOGE, BitShares and [couple other coins to participate](http://prntscr.com/f6pdj3).
 
 [https://www.peerplays.com/crowdfund/](https://www.peerplays.com/crowdfund/)
@@ -32,31 +33,36 @@ Peerplays aim to work as a betting platform. Because it's on the blockchain, it 
 
 It is an interesting concept, except the red flag that comes with everything that is *the UBER of [industry]*:
 
-> “Peerplays will eliminate the need for traditional bookies in their sports betting.”
+<blockquote>
+<p>“Peerplays will eliminate the need for traditional bookies in their sports betting.”</p>
+</blockquote>
 
-There is this problem with people who keep coming back to estabilished bookies because everyone keeps coming back to estabilished bookies. Peerplays would require people to trust a dapp and it would require them to work with a dapp, that's two new things. 
+There is this problem with people who keep coming back to estabilished bookies because everyone keeps coming back to estabilished bookies. Peerplays would require people to trust a dapp and it would require them to work with a dapp, that's two very new things.
 
-But who knows. The Bookie app that should enable betting is not going to be out before November 2017. 
+But who knows. The Bookie app that should enable betting is not going to be out before November 2017.
 
-However unlikely, perhaps it will be sports betting made simple, and maybe the network effect will not play out because that's a more substantial thing with poker rooms and trading platforms - places where you need other people to come by otherwise the experience sucks. Sports betting is something you do on your own, after all. 
+However unlikely, maybe it will be sports betting made simple, and maybe the network effect will not play out because that's a more substantial thing with poker rooms and trading platforms - places where you need other people to come by otherwise the experience sucks. Sports betting is something you do on your own, after all.
 
 Either way, this is what everyone likes to hear preferentially these days: **Peerplays is a divident paying token**. Yay!
 
-> Peerplays Makes HODLing Profitable with Automatic Fee-Sharing Distributions: “Peerplays is aiming to be the first truly Decentralized Autonomous Cooperative (DAC) [...] With this new profit sharing module, all the **fees that Peerplays charges** for smart contract operations and peer-to-peer wagering will be **distributed directly to the holders of the core Peerplays blockchain tokens**, just like a traditional co-op pays **dividends to its shareholders**.” [- via steem](https://steemit.com/peerplays/@cryptoprometheus/peerplays-makes-hodling-profitable-with-automatic-fee-sharing-distributions)
-
-
+<blockquote>
+<p>Peerplays Makes HODLing Profitable with Automatic Fee-Sharing Distributions: “Peerplays is aiming to be the first truly Decentralized Autonomous Cooperative (DAC) [...] With this new profit sharing module, all the <strong>fees that Peerplays charges</strong> for smart contract operations and peer-to-peer wagering will be <strong>distributed directly to the holders of the core Peerplays blockchain tokens</strong>, just like a traditional co-op pays <strong>dividends to its shareholders</strong>.” <a href="https://steemit.com/peerplays/@cryptoprometheus/peerplays-makes-hodling-profitable-with-automatic-fee-sharing-distributions">- via steem</a></p>
+</blockquote>
 
 #### Resources
 
 The ICO:
 
 * [Peerplays FAQ](https://www.peerplays.com/news/faq/)
+
 * [Crowdfund info](https://www.peerplays.com/news/primary_crowdfund/)
 
-People and networks: 
+People and networks:
 
 * [FalloutComplex on Reddit](https://www.reddit.com/user/FalloutComplex)
-* [Johnatan Bahai on LinkedIn](https://ca.linkedin.com/in/jonathanbahai), [Daniel Maloney of http://www.pbsa.info/ on LinkedIn](https://nl.linkedin.com/in/dan-maloney). Speaking of PBSA, despite fancy sounding names, their partners are a freelancer on Upwork and a "[master marketer and speaker on Internet marketing, success, happiness and the enlightened workplace](http://prntscr.com/f6pjxo)".
-* [Peerplays Telegram Group](https://t.me/PeerplaysBlockchain)
-* [The CEO Michael Maloney in an old interview at Beyond Bitcoin](https://soundcloud.com/beyond-bitcoin-hangouts/e167-beyond-bitcoin-peerplays-update-blockpay-ceo-talks-privacy-faddats-nanochip-implant)
 
+* [Johnatan Bahai on LinkedIn](https://ca.linkedin.com/in/jonathanbahai), [Daniel Maloney of http://www.pbsa.info/ on LinkedIn](https://nl.linkedin.com/in/dan-maloney). Speaking of PBSA, despite fancy sounding names, their partners are a freelancer on Upwork and a "[master marketer and speaker on Internet marketing, success, happiness and the enlightened workplace](http://prntscr.com/f6pjxo)".
+
+* [Peerplays Telegram Group](https://t.me/PeerplaysBlockchain)
+
+* [The CEO Michael Maloney in an old interview at Beyond Bitcoin](https://soundcloud.com/beyond-bitcoin-hangouts/e167-beyond-bitcoin-peerplays-update-blockpay-ceo-talks-privacy-faddats-nanochip-implant)
