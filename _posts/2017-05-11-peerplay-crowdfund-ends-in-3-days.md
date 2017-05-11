@@ -5,12 +5,12 @@ published: true
 comments: true
 stories: true
 genres: Blog, Opinion
-tickers: ''
+tickers: 'false'
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Peerplays crowdfund ends in 3 days
 date: 2017-05-11 12:49
-update: '2017-05-11T16:52:12.182Z'
+update: '2017-05-11T18:21:48.015Z'
 permalink: "/peerplays"
 image:
 - "/uploads/2017/05/11/peerplays.png"
@@ -61,7 +61,7 @@ People and networks:
 
 * [FalloutComplex on Reddit](https://www.reddit.com/user/FalloutComplex)
 
-* [Johnatan Bahai on LinkedIn](https://ca.linkedin.com/in/jonathanbahai), [Daniel Maloney of http://www.pbsa.info/ on LinkedIn](https://nl.linkedin.com/in/dan-maloney). Speaking of PBSA, despite fancy sounding names, their partners are a freelancer on Upwork and a "[master marketer and speaker on Internet marketing, success, happiness and the enlightened workplace](http://prntscr.com/f6pjxo)".
+* [Johnatan Bahai on LinkedIn](https://ca.linkedin.com/in/jonathanbahai), [Daniel Maloney of http://www.pbsa.info/ on LinkedIn](https://nl.linkedin.com/in/dan-maloney). Speaking of PBSA, despite fancy sounding names, their [partners](http://www.pbsa.info/partners/) are a freelancer on Upwork and a "[master marketer and speaker on Internet marketing, success, happiness and the enlightened workplace](http://prntscr.com/f6pjxo)".
 
 * [Peerplays Telegram Group](https://t.me/PeerplaysBlockchain)
 
