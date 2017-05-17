@@ -7,7 +7,26 @@
   
 
     <url>
-      <loc>http://localhost:4000/ico-regulations</loc>
+      <loc>https://www.altcointrading.net/peerplays</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog, Opinion</news:genres>
+        <news:publication_date>2017-05-11T12:49:00-04:00</news:publication_date>
+        <news:title>Peerplays crowdfund ends in 3 days</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>https://www.altcointrading.net/ico-regulations</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -26,13 +45,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/etc-etf/</loc>
+      <loc>https://www.altcointrading.net/etc-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-04-26T09:06:00-04:00</news:publication_date>
         <news:title>Grayscale did it</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -45,13 +64,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/gnosis/</loc>
+      <loc>https://www.altcointrading.net/gnosis/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-04-25T08:06:00-04:00</news:publication_date>
         <news:title>The Gnosis thing</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -64,7 +83,7 @@
   
 
     <url>
-      <loc>http://localhost:4000/time-vs-timing/</loc>
+      <loc>https://www.altcointrading.net/time-vs-timing/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -83,13 +102,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/litecoin-pump/</loc>
+      <loc>https://www.altcointrading.net/litecoin-pump/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-04-09T11:20:00-04:00</news:publication_date>
         <news:title>Litecoin: This time it's different?</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -102,13 +121,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/ethereum-etf/</loc>
+      <loc>https://www.altcointrading.net/ethereum-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-25T15:20:00-03:00</news:publication_date>
         <news:title>About the proposed Ethereum ETF</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -123,13 +142,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/eth-traders-tool/</loc>
+      <loc>https://www.altcointrading.net/eth-traders-tool/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-22T04:20:00-03:00</news:publication_date>
         <news:title>Cryptosignal - New tool for Ethereum traders</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -142,13 +161,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/zoe-ethereum-alphabay/</loc>
+      <loc>https://www.altcointrading.net/zoe-ethereum-alphabay/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-18T17:20:00-03:00</news:publication_date>
         <news:title>Alphabay to adopt ETH for payments ahead of new privacy features</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -161,13 +180,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/monero-cold-storage-2017/</loc>
+      <loc>https://www.altcointrading.net/monero-cold-storage-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-15T01:20:00-03:00</news:publication_date>
         <news:title>Monero Cold Storage: Current Situation</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -180,13 +199,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
+      <loc>https://www.altcointrading.net/ethereum-etf-unlikely/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-10T00:00:00-03:00</news:publication_date>
         <news:title>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -201,7 +220,7 @@
   
 
     <url>
-      <loc>http://localhost:4000/dash-03-2017/</loc>
+      <loc>https://www.altcointrading.net/dash-03-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -220,13 +239,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/kraken-cryptowatch/</loc>
+      <loc>https://www.altcointrading.net/kraken-cryptowatch/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-03-01T00:00:00-03:00</news:publication_date>
         <news:title>Kraken acquires Cryptowatch, lead dev will work for them</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -243,13 +262,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/trezor-multicoin/</loc>
+      <loc>https://www.altcointrading.net/trezor-multicoin/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2017-02-01T00:00:00-03:00</news:publication_date>
         <news:title>Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
@@ -270,13 +289,13 @@
   
 
     <url>
-      <loc>http://localhost:4000/finexening/</loc>
+      <loc>https://www.altcointrading.net/finexening/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Blog, OpEd, Opinion</news:genres>
+        <news:genres>Opinion</news:genres>
         <news:publication_date>2016-08-06T00:00:00-04:00</news:publication_date>
         <news:title>The Finexening - Bitfinex hack</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>

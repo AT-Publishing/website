@@ -19,8 +19,7 @@ stories: true
 
 published: true
 
-tags:
-- "popular"
+
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
