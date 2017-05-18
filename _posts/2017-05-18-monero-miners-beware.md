@@ -8,7 +8,7 @@ genres: News
 tickers: 'no'
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: Monero miners beware
+title: Monero mining malware
 date: 2017-05-18 03:41
 update: '2017-05-18T07:43:48.996Z'
 description: After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit
