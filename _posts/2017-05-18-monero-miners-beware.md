@@ -2,7 +2,7 @@
 layout: forestry
 german: ''
 published: true
-comments: true
+comments: ''
 stories: true
 genres: News
 tickers: 'no'
@@ -22,8 +22,9 @@ image_alt:
 - Random image of the monero deamon. Don't read too much into it.
 tags: []
 ---
-
 Just a few days after the WannaCry mass ransomware a Monero mining malware has been reported.
+
+{{ site.ads.aads728 }}
 
 After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit.
 
