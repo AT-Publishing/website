@@ -9,7 +9,7 @@ tickers: BTCUSD, ETHUSD
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: A "This Is Gentlemen" Moment
-date: 2017-05-17 08:14
+date: 2017-05-19 02:19
 image:
 - "/uploads/2017/05/19/thisisgentlemen.png"
 permalink: "/all-green"
