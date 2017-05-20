@@ -168,6 +168,6 @@ After all, from a legacy investor point of view it does not make such a fundamen
 
 <amp-iframe width="700px" height="360px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://www.slideshare.net/slideshow/embed_code/key/lTYUhBkIAJ5Q0Y"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
 
-#### Other important detail
+#### One more important detail
 
 Ethereum is backed by [https://entethalliance.org/](https://entethalliance.org/). The EEA is a group of about 30 companies that include Accenture, JPMorgan Chase or Intel. 
