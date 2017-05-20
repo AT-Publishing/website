@@ -1,29 +1,30 @@
 ---
 layout: blog
 date: 2017-03-25 15:20
-title: "About the proposed Ethereum ETF"
-description: "The surveillance section of EtherIndex's rule change (which after the Winklevoss' BTC ETF seems to be the key part) proposes a strategy which might be more plausible."
+title: About the proposed Ethereum ETF
+description: The surveillance section of EtherIndex's rule change (which after the
+  Winklevoss' BTC ETF seems to be the key part) proposes a strategy which might be
+  more plausible.
 categories:
-- "coins"
-- "eth"
+- coins
+- eth
 permalink: ethereum-etf/
 image:
 - "/img/emotions/document.jpg"
 image_alt:
-- "The surveillance section of the rule change seems to be the key part after the rejection of Winklevoss COIN ETF. EtherIndex's suggestion seems more plausible."
-
-update: 2017-03-25 17:40
-
+- The surveillance section of the rule change seems to be the key part after the rejection
+  of Winklevoss COIN ETF. EtherIndex's suggestion seems more plausible.
+update: '2017-05-20T12:59:56.033Z'
 german: false
 comments: true
 stories: true
-
 published: true
-
-tickers: "OTCMKTS:GBTC, ^NYXBT"
-
+tickers: OTCMKTS:GBTC, ^NYXBT
+author: https://twitter.com/tradingfanbois
+author_name: "@tradingfanbois"
+tags: []
+genres: Blog, OpEd, Opinion
 ---
-
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 
 _Image: {{page.image_alt[0]}}_
@@ -166,3 +167,7 @@ After all, from a legacy investor point of view it does not make such a fundamen
 {{ site.ads.aads728 }}
 
 <amp-iframe width="700px" height="360px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://www.slideshare.net/slideshow/embed_code/key/lTYUhBkIAJ5Q0Y"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+
+#### Other important detail
+
+Ethereum is backed by [https://entethalliance.org/](https://entethalliance.org/). The EEA is a group of about 30 companies that include Accenture, JPMorgan Chase or Intel. 
