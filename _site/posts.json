@@ -1,6 +1,27 @@
 [
   
   {
+    "title":"How the legacy finance might be feeling about cryptocurrencies",
+    "date":"2017-05-20 09:11:00 -0400"
+    "content":"This comes from a mainstream finance &amp; investing newsletter. "
+    "url":"/diversification-craze"
+  },
+  
+  {
+    "title":"A "This Is Gentlemen" Moment",
+    "date":"2017-05-19 02:19:00 -0400"
+    "content":"A rare moment of all crypto in the green that must be noted, plus some more substantial posts from Reddit."
+    "url":"/all-green"
+  },
+  
+  {
+    "title":"Monero mining malware",
+    "date":"2017-05-18 03:41:00 -0400"
+    "content":"After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit"
+    "url":"/monero-mining-malware"
+  },
+  
+  {
     "title":"Peerplays crowdfund ends in 3 days",
     "date":"2017-05-11 12:49:00 -0400"
     "content":"Do you actually think this has future or did you just hear dividends?"
@@ -289,7 +310,7 @@
   
   {
     "title":"Best Altcoin Wallets",
-    "date":"2016-02-28 00:00:00 -0300"
+    "date":"2016-02-27 21:00:00 -0300"
     "content":"Where to store altcoins? See a list of altcoin wallets, from web based wallets to best hardware wallets."
     "url":"/altcoin-wallets/"
   },

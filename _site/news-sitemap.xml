@@ -7,6 +7,63 @@
   
 
     <url>
+      <loc>https://www.altcointrading.net/diversification-craze</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-20T09:11:00-04:00</news:publication_date>
+        <news:title>How the legacy finance might be feeling about cryptocurrencies</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>https://www.altcointrading.net/all-green</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-19T02:19:00-04:00</news:publication_date>
+        <news:title>A "This Is Gentlemen" Moment</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>https://www.altcointrading.net/monero-mining-malware</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>News</news:genres>
+        <news:publication_date>2017-05-18T03:41:00-04:00</news:publication_date>
+        <news:title>Monero mining malware</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>https://www.altcointrading.net/peerplays</loc>
       <news:news>
         <news:publication>
@@ -127,7 +184,7 @@
           <news:name>Altcoin Trading</news:name>
           <news:language>en</news:language>
         </news:publication>
-        <news:genres>Opinion</news:genres>
+        <news:genres>Blog, OpEd, Opinion</news:genres>
         <news:publication_date>2017-03-25T15:20:00-03:00</news:publication_date>
         <news:title>About the proposed Ethereum ETF</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
