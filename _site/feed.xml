@@ -3,11 +3,150 @@
   <channel>
     <title>Altcoin Trading</title>
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
-    <link>https://www.altcointrading.net/</link>
-    <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 May 2017 02:38:17 -0400</pubDate>
-    <lastBuildDate>Mon, 22 May 2017 02:38:17 -0400</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 22 May 2017 05:50:20 -0400</pubDate>
+    <lastBuildDate>Mon, 22 May 2017 05:50:20 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Ripple vs Stellar</title>
+        <description>&lt;p&gt;Bitfinex has added Ripple trading recently (May 19 announcement &lt;a href=&quot;https://www.bitfinex.com/posts/204&quot;&gt;here&lt;/a&gt;), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.&lt;/p&gt;
+
+&lt;p&gt;With Ripple, a double-top going on is already old news:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/uploads/2017/05/21/hJtMYhLc.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/uploads/2017/05/21/hJtMYhLc.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what the lovely Ripple chart looks like in 1D version on Bitfinex:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.tradingview.com/x/ctF9dUWV&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.tradingview.com/x/ctF9dUWV&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;would-you-buy-ripple-now&quot;&gt;Would you buy Ripple now?&lt;/h4&gt;
+
+&lt;p&gt;Buy Ripple only of you trust its fundamentals, as a long term investment - and this is entirely your call. There is no problem storing it - &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s&quot;&gt;Ledger Nano S&lt;/a&gt; has a Ripple wallet now.&lt;/p&gt;
+
+&lt;h3 id=&quot;ripples-fundamentals&quot;&gt;Ripple’s Fundamentals&lt;/h3&gt;
+
+&lt;p&gt;To some altcoin traders, Ripple is a &lt;em&gt;centralized bankster scamcoin&lt;/em&gt;, a sort of “step back” in the world of crypto. To others, Ripple being &lt;a href=&quot;https://dealbook.nytimes.com/2013/11/11/the-rush-to-coin-virtual-money-with-real-value/?_php=true&amp;amp;_type=blogs&amp;amp;_r=1&quot;&gt;backed by banks&lt;/a&gt; is actually a good, reassuring sign.&lt;/p&gt;
+
+&lt;p&gt;Some things to keep in mind:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ripple is not a blockchain.&lt;/strong&gt; No blockchain also means there is no scaling problem and so in this way, Ripple as a medium for payments and settlements is better. The Ripple network works in such a way that transactions are forgotten once they are through so the ledger doesn’t grow as fast as blockchains do (all of them, Ethereum too).&lt;/p&gt;
+
+&lt;p&gt;In Ripple, only address balances are kept - no histories. Meaning, &lt;strong&gt;Ripple is only a payment protocol&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ripple cannot be mined. Transactions get validated via consensus mechanism where participants are responsible to choose a set of validators that will not be fraudulent: &lt;a href=&quot;https://ripple.com/technical-faq-ripple-consensus-ledger/&quot;&gt;https://ripple.com/technical-faq-ripple-consensus-ledger/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/i6mhQcpPtyk&quot;&gt;https://youtu.be/i6mhQcpPtyk&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; custom-element=&quot;amp-youtube&quot; src=&quot;https://cdn.ampproject.org/v0/amp-youtube-0.1.js&quot;&gt;&lt;/script&gt;
+
+&lt;amp-youtube data-videoid=&quot;i6mhQcpPtyk&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-youtube&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;ripples-competition-stellar&quot;&gt;Ripple’s Competition: Stellar&lt;/h3&gt;
+
+&lt;p&gt;Stellar makes it possible to send remittances cheaply across borders via its tokens, lumens. Originally, Stellar was based on the Ripple protocol (and founded by one of the Ripple founders) but after changes in the Ripple codebase Stellar forked.&lt;/p&gt;
+
+&lt;p&gt;Compared to Ripple being picked up mostly by banks, Stellar is a platform that gets used &lt;a href=&quot;http://fortune.com/2016/12/06/fintech-stellar-blockchain-stripe-remittances/&quot;&gt;IRL in non-profits&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On a call with Fortune, McCaleb, Stellar’s cofounder and chief technology officer, expressed his desire to connect everyone in the world through the Stellar network. “We’re trying to be an Internet-level protocol for payments,” he said, drawing an analogy to SMTP, a standard for email transmission.
+He added: “We want everybody to plug into it and for money to float seamlessly.”Other companies are also competing to become the standard for blockchain-based cross-border payments. Among them are McCaleb’s former firm Ripple, and Chain, a fintech startup backed by Visa.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is no mining in Stellar. Confirmations are done by selected trusted nodes - AKA Stellar Consensus Protocol. To a non-techie it is similar to Ripple: In Bitcoin, any miner is a trusted node by default, in consensus mechanism participants choose a trusted set of validators.&lt;/p&gt;
+
+&lt;p&gt;The reality is more complex:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At a low level, the consensus mechanism used by Stellar is a decentralized version of PBFT called &lt;a href=&quot;https://www.stellar.org/papers/stellar-consensus-protocol.pdf&quot;&gt;Stellar Consensus Protocol&lt;/a&gt;, whereas &lt;a href=&quot;https://ripple.com/dev-blog/consensus-whitepaper-released/&quot;&gt;Ripple uses probabilistic voting&lt;/a&gt;. Those are fairly different even though they both tackle solving the same problem of reaching consensus between nodes. SCP biases towards correctness at the expense of liveness; Ripple follows a model similar to Bitcoin allowing ledger forks to occur temporarily and relying on majority validation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is not clear from this but the Stellar network &lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/ledger.html&quot;&gt;remembers transactional history&lt;/a&gt;. “Transactions are now a series of operations that affect the state of the world. For example, a single transaction can trivially say A sends to B if B sends to C. These abstractions, coupled with the network’s distributed exchange, produce a surprisingly rich vocabulary for contracts. Bonds, escrow, collateralized debt and the Lightning Network are all possible on the network.” - via &lt;a href=&quot;https://bitcoinmagazine.com/articles/stellar-s-jed-mccaleb-what-s-new-on-the-upgraded-stellar-network-1452109082/&quot;&gt;bitcoinmagazine&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At the system level, &lt;strong&gt;Stellar’s native currency is inflationary whereas Ripple’s is not&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;More to this below.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At the ledger operation level, Stellar adopted a very &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1832.html&quot;&gt;strict API based off XDR&lt;/a&gt;, Ripple is built on top of &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;Google Protocol Buffers&lt;/a&gt;. XDR can be thought of as “statically typed” vs “dynamically typed” for something like proto buf: the tradeoffs made are speed of development (in Ripple) vs safety and correctness (for Stellar’s approach).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-main-difference-between-Stellar-and-Ripple-protocols&quot;&gt;via Quora&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;the-inflation&quot;&gt;The Inflation&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Stellar has limited supply with built-in inflation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/inflation.html&quot;&gt;via stellar.org:&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Stellar distributed network has a built-in, fixed, nominal inflation mechanism. New lumens are added to the network at the rate of 1% each year. Each week, the protocol distributes these lumens to any account that gets over .05% of the “votes” from other accounts in the network.
+Using the set options operation, every account selects another account as its inflation destination, or nominee to receive new currency. The inflation destination will persist until changed with another set options operation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ripple has limited supply buy the native currency gets destroyed with successful transactions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.xrpchat.com/topic/2207-xrps-deflationary-nature/&quot;&gt;via xrpchat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; I guess this is a very basic-level question, but I don’t see it usually comes up on this forum whenever people speculate about XRP’s future price:&lt;/p&gt;
+
+&lt;p&gt;Given the deflationary nature of XRP, do you believe this feature might ever be an obstacle for XRP’s success? I mean, people will tend to save their XRP and not to spend them because they will be supposed to get more valuable over time, but at the same time this could also result in a constraint of XRP market and liquidity. By contrast, the Stellar network automatically applies a small inflation rate of 1% to its currency that could help solve this issue.&lt;/p&gt;
+
+&lt;p&gt;What is your opinion? Could this be an original design flaw of XRP?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Small amount of xrp gets destroyed with each transaction and its expected that as demand and transaction will increase that destruction rate will increase which will cause the same effect as inflation because of slowly decreasing supply but since things are in initial stage its gonna take long time in my opinion.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-giveaway&quot;&gt;The giveaway&lt;/h4&gt;
+
+&lt;p&gt;If you hold Bitcoins you can invest in Stellar for free (which is frankly a no-brainer). &lt;strong&gt;There is a &lt;a href=&quot;https://www.stellar.org/blog/bitcoin-claim-lumens/&quot;&gt;second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017&lt;/a&gt;.&lt;/strong&gt; The giveaway starts on July the 5th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Due to regulatory restrictions, this program is closed to residents of the U.S. states of New York, Georgia, New Hampshire, and Connecticut as well as the nations of Iran, Cuba, North Korea, and other countries subject to sanctions by the United States.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s probably still enough time to make one.&lt;/p&gt;
+
+&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;so-ripple-is-deflationary&quot;&gt;So, Ripple is deflationary.&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is currently circulating 38,532,538,149 XRP out of 99,994,681,824.21 XRP.&lt;/li&gt;
+  &lt;li&gt;There is currently circulating 9,624,904,739 XLM out of 102,920,806,155 XLM.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both coins are really only possibly valuable for payment processing – at least as long as Paypal or something like that is not an option. Well.&lt;/p&gt;
+
+&lt;p&gt;Meh.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unlike some other fintechs, Ripple is bank centric. Banks connect to the Ripple network not their customers. This has two big benefits. First, customers are used to trusting banks (which is better than having to get comfortable with entrusting your money to some fintech you never heard of). Second, regulators are comfortable with banks (which means they will not pull the plug on Ripple as they might with non bank fintechs). - via &lt;a href=&quot;https://www.linkedin.com/pulse/ripple-vs-swift-payment-revolution-david-blair&quot;&gt;linkedin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is something to the obsession with bank coins. They say that when the wall street decides to pour all the money into something you would be stupid for not taking the ride with them. It’s just that in the case of Ripple, the banks &lt;a href=&quot;https://www.linkedin.com/pulse/ripple-vs-swift-payment-revolution-david-blair&quot;&gt;are thrilled to use Ripple as a layer&lt;/a&gt; but that can only increase the value of Ripple by burning the currency as transactions get settled.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, given the hype on altcoin forums whenever anything gets official acknowledgement from the shiny official people up there in the institutions, it’s quite likely the “fundamental” price growth is going to be small compared to the &lt;em&gt;buy the rumor&lt;/em&gt; hype. In other words, bubbles.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, Stellar looks more compatible with Bitcoin - maybe as an offchain layer, one day?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 May 2017 02:38:00 -0400</pubDate>
+        <link>http://localhost:4000/ripple-vs-stellar</link>
+        <guid isPermaLink="true">http://localhost:4000/ripple-vs-stellar</guid>
+        
+        <category>feature</category>
+        
+        
+        <category>altcoins</category>
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>How the legacy finance might be feeling about cryptocurrencies</title>
@@ -48,8 +187,8 @@
 &lt;p&gt;Seems that in case there were a cryptocurrency ETF, there would be plenty of buyers.&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 May 2017 09:11:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/diversification-craze</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/diversification-craze</guid>
+        <link>http://localhost:4000/diversification-craze</link>
+        <guid isPermaLink="true">http://localhost:4000/diversification-craze</guid>
         
         
         <category>trading</category>
@@ -109,8 +248,8 @@ The Daily Chart http://imgur.com/a/MA8UM&lt;/p&gt;
 &lt;p&gt;For those who don’t know, a “long pole” warning means a correction is due. However, in bubbles these corrections sometimes don’t come – the worse is then the burst.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 May 2017 02:19:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/all-green</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/all-green</guid>
+        <link>http://localhost:4000/all-green</link>
+        <guid isPermaLink="true">http://localhost:4000/all-green</guid>
         
         
         <category>trading</category>
@@ -133,8 +272,8 @@ The Daily Chart http://imgur.com/a/MA8UM&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://blog.trendmicro.com/trendlabs-security-intelligence/wannacry-uiwix-ransomware-monero-mining-malware-follow-suit/&quot;&gt;Read the full report.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 May 2017 03:41:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/monero-mining-malware</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/monero-mining-malware</guid>
+        <link>http://localhost:4000/monero-mining-malware</link>
+        <guid isPermaLink="true">http://localhost:4000/monero-mining-malware</guid>
         
         
         <category>xmr</category>
@@ -202,8 +341,8 @@ The Daily Chart http://imgur.com/a/MA8UM&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 11 May 2017 12:49:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/peerplays</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/peerplays</guid>
+        <link>http://localhost:4000/peerplays</link>
+        <guid isPermaLink="true">http://localhost:4000/peerplays</guid>
         
         
         <category>altcoins</category>
@@ -316,8 +455,8 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
 
 </description>
         <pubDate>Tue, 09 May 2017 14:46:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/ico-regulations</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ico-regulations</guid>
+        <link>http://localhost:4000/ico-regulations</link>
+        <guid isPermaLink="true">http://localhost:4000/ico-regulations</guid>
         
         
         <category>eth</category>
@@ -331,8 +470,8 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
         <description>&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Ethereum Classic Investment Trust is now live for eligible accredited investors! &lt;a href=&quot;https://t.co/ViBWrnpmaP&quot;&gt;https://t.co/ViBWrnpmaP&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;cc: &lt;a href=&quot;https://twitter.com/EthereumTrust&quot;&gt;@EthereumTrust&lt;/a&gt; &lt;a href=&quot;https://twitter.com/search?q=%24ETC&amp;amp;src=ctag&quot;&gt;$ETC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Grayscale (@GrayscaleInvest) &lt;a href=&quot;https://twitter.com/GrayscaleInvest/status/857217741161459715&quot;&gt;26 April 2017&lt;/a&gt;&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 26 Apr 2017 09:06:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/etc-etf/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/etc-etf/</guid>
+        <link>http://localhost:4000/etc-etf/</link>
+        <guid isPermaLink="true">http://localhost:4000/etc-etf/</guid>
         
         
         <category>coins</category>
@@ -422,8 +561,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Tue, 25 Apr 2017 08:06:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/gnosis/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/gnosis/</guid>
+        <link>http://localhost:4000/gnosis/</link>
+        <guid isPermaLink="true">http://localhost:4000/gnosis/</guid>
         
         
         <category>trading</category>
@@ -500,8 +639,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 13 Apr 2017 12:24:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/time-vs-timing/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/time-vs-timing/</guid>
+        <link>http://localhost:4000/time-vs-timing/</link>
+        <guid isPermaLink="true">http://localhost:4000/time-vs-timing/</guid>
         
         
         <category>trading</category>
@@ -610,8 +749,8 @@ Posted by OldManKidd at 2017-04-24 19:28:26
 &lt;p&gt;Follow Charlie Lee on twitter &lt;a href=&quot;https://twitter.com/SatoshiLite&quot;&gt;https://twitter.com/SatoshiLite&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Apr 2017 11:20:00 -0400</pubDate>
-        <link>https://www.altcointrading.net/litecoin-pump/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/litecoin-pump/</guid>
+        <link>http://localhost:4000/litecoin-pump/</link>
+        <guid isPermaLink="true">http://localhost:4000/litecoin-pump/</guid>
         
         <category>popular</category>
         
@@ -619,209 +758,6 @@ Posted by OldManKidd at 2017-04-24 19:28:26
         <category>coins</category>
         
         <category>ltc</category>
-        
-      </item>
-    
-      <item>
-        <title>About the proposed Ethereum ETF</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/document.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/document.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: The surveillance section of the rule change seems to be the key part after the rejection of Winklevoss COIN ETF. EtherIndex’s suggestion seems more plausible.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;After the SEC disapproved the rule change to allow listing of Bitcoin ETF on the 10th of March 2017 the majority opinion has been along the lines that other cryptocurrency ETFs most likely don’t have a chance because all cryptocurrency markets are unregulated. Nonetheless there is a nice twist in the rule change for ETH ETF - an idea that didn’t appear in the Bitcoin rule change.&lt;/p&gt;
-
-&lt;h3 id=&quot;etherindex---the-eth-exchange-traded-fund&quot;&gt;EtherIndex - The ETH Exchange Traded Fund&lt;/h3&gt;
-
-&lt;p&gt;The initial S-1 filling for the ETH fund appeared in July 2016 after the SEC opening a proposal for the COIN ETF for public comment and also right after a filing by SolidX to launch a Bitcoin ETF. Laura Shin of Forbes commented the “filing appears to be hastily put together”:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;EtherIndex itself was only founded a month ago, and its filing is mostly incomplete, acting more as a shell or placeholder. It does not name an exchange, ticker, trustee or administrator. &lt;a href=&quot;https://www.forbes.com/sites/laurashin/2016/07/18/as-race-to-offer-first-bitcoin-etf-heats-up-new-company-files-to-create-an-ether-etf/#2e9e14a47d76&quot;&gt;via forbes.com&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;the-s-1-filing&quot;&gt;The S-1 Filing&lt;/h4&gt;
-
-&lt;p&gt;This is a snippet from the filing itself. It introduces Ether by comparison to Bitcoin.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As filed with the Securities and Exchange Commission on &lt;strong&gt;July 15, 2016&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ether is a digital asset (“Digital Asset”) &lt;strong&gt;similar to bitcoin&lt;/strong&gt; that is not issued by any government, bank or central organization. […] The Ethereum Network is a recent technological innovation, and the ether that is created, transferred, used and stored by entities and individuals have certain features associated with several types of assets, most notably commodities and currencies.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Trust’s Sponsor is EtherIndex LLC, a Delaware limited liability company formed on &lt;strong&gt;June 15, 2016&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1679791/000121390016015007/fs12016_etherindexether.htm#a_001&quot;&gt;via sec.gov&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;However, further down in the text it clears up distinctions between Ether and Bitcoin.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;While the bitcoin network permits users primarily to execute value transfers, the Ethereum Network allows users to program any arbitrary code and execute it, including value transfers. […] The Ethereum Network may be viewed as a &lt;strong&gt;global, decentralized computer&lt;/strong&gt; in comparison to the bitcoin network, which is more
-similar to a global, decentralized &lt;strong&gt;payment network&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1679791/000121390016015007/fs12016_etherindexether.htm#a_001&quot;&gt;via sec.gov&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The filing also explains that as Bitcoin is meant more like a store of value it has a cap on the amount of BTC that will be ever mined. It goes on to say that ETH has no such cap and more Ether will be created as needed, but the utility of Ether is primarily not a store of value or a payment system.&lt;/p&gt;
-
-&lt;p&gt;The nonexistent cap has been controversial ans is also the reason why this &lt;a href=&quot;https://moneymorning.com/2016/07/20/bitcoin-etfs-can-work-but-this-ethereum-etf-wont/&quot;&gt;moneymorning.com&lt;/a&gt; article claims that an ETH ETF can never work - it is supposed to be a bad idea since ETH has no cap on the amount of Ether that will be created.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-rule-change&quot;&gt;The Rule Change&lt;/h4&gt;
-
-&lt;p&gt;The rule change to allow listing of an ETF trading Ether shares was published in January 2017. The ETH ETF should be listed under NYSE Arca Equities.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Release No. 34-79792; File No. SR-NYSEARCA-2016-176, January 13, 2017&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Pursuant to Section 19(b)(1)1 of the Securities Exchange Act of 1934 (the “Act”)2 and
-Rule 19b-4 thereunder,3 notice is hereby given that, on December 30, 2016, NYSE Arca, Inc.
-(the “Exchange” or “NYSE Arca”) filed with the Securities and Exchange Commission (the
-“Commission”) the proposed rule change […] The Commission is publishing this notice to solicit comments
-on the proposed rule change from interested persons.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Exchange proposes to list and trade shares of the following under &lt;strong&gt;NYSE Arca
-Equities&lt;/strong&gt; Rule 8.201: EtherIndex Ether Trust (“Trust”).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For the EtherIndex ETF, Coinbase is supposed to be the custodian and the pricing should be based on GDAX dollar price of ETH.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The
-Exchange proposes to list and trade shares (“Shares”) of the Trust pursuant to NYSE Arca
-Equities […] The sponsor of the Trust is EtherIndex LLC (“Sponsor”), a Delaware limited liability
-company. Delaware Trust Company is the trustee of the Trust (“Trustee”). The Bank of New
-York Mellon will be the administrator (“Administrator”) and custodian of cash of the Trust
-(“Cash Custodian”). &lt;strong&gt;Coinbase will be the custodian of the ether of the Trust (“Ether
-Custodian”)&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For one thing, the participation of Coinbase/GDAX itself seems to be a better idea compared to the Winklevoss Gemini - an exchange that doesn’t have much volume and was probably created only with the ETF in mind.&lt;/p&gt;
-
-&lt;p&gt;The interesting part comes with the Surveillance section of the ETH ETF rule change though.&lt;/p&gt;
-
-&lt;p&gt;If you didn’t care about the Bitcoin ETF much you might not know it but insufficient control over BTC markets (both spot and derivatives) was the most prominent critic the SEC mentioned in their order disapproving the COIN ETF.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Order disapproving rule change for COIN ETF&lt;/em&gt;: […] the Commission is disapproving this proposed rule change because it does not find the proposal to be consistent with Section 6(b)(5) of the Exchange Act,
-which requires […] to prevent fraudulent and manipulative acts and practices […]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[…] First, the
-exchange must have &lt;strong&gt;surveillance-sharing agreements&lt;/strong&gt; with significant markets for trading the
-underlying commodity or derivatives on that commodity. And second, those &lt;strong&gt;markets must be
-regulated&lt;/strong&gt;. Based on the record before it, the Commission believes that the &lt;strong&gt;significant&lt;/strong&gt; markets for
-&lt;strong&gt;bitcoin&lt;/strong&gt; are &lt;strong&gt;unregulated&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf&quot;&gt;via sec.gov (Release No. 34-80206; File No. SR-BatsBZX-2016-30)&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The SEC didn’t like the fact that majority of BTC trading occurs on exchanges out of their reach. Should a manipulation occur the SEC also wouldn’t be able to find out who’s causing it.&lt;/p&gt;
-
-&lt;p&gt;The surveillance-sharing agreement was a term that caught on quickly at Bitcoin trading forums. It quickly solidified into “the SEC wanted access to data about customers, exchanges didn’t want to provide it”. How did this surveillance-sharing agreement come about? It was the central point of the Bats rule change for COIN ETF:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Bats rule change / Surveillance&lt;/em&gt;: The Exchange believes that its surveillance procedures are adequate to properly monitor
-the trading of the Shares on the Exchange during all trading sessions and to deter and detect
-violations of Exchange rules and the applicable federal securities laws. […] The Exchange may obtain information regarding trading in the Shares via the Intermarket Surveillance Group
-(“ISG”), from other exchanges who are members or affiliates of the ISG, or with which the
-Exchange has entered into a comprehensive surveillance sharing agreement. In addition, &lt;strong&gt;the
-Exchange may obtain information&lt;/strong&gt; about bitcoin transactions, trades and market data &lt;strong&gt;from
-Bitcoin Exchanges&lt;/strong&gt; with which the Exchange has entered into a &lt;strong&gt;comprehensive surveillance
-sharing agreement&lt;/strong&gt; as well as certain additional information that is publicly available through the
-Blockchain. The Exchange notes that &lt;strong&gt;it has entered&lt;/strong&gt; into a comprehensive surveillance sharing
-agreement &lt;strong&gt;with Gemini Exchange&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/batsbzx/2016/34-78262.pdf&quot;&gt;via sec.gov (Release No. 34-78262; File No. SR-BatsBZX-2016-30)&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Was it the Winkletwins’ idea that exchanges should agree to provide data so that there can be an ETF listed? There is no mention about surveillance-sharing agreement in the EtherIndex rule change. Instead, the exchange pleads to monitor the market and intervene in case there is an anomaly in the trading activity which could potentially be a manipulation.&lt;/p&gt;
-
-&lt;p&gt;Given enough data this sounds like a plausible way to detect manipulation while at the same time there is no agreement needed whatsoever: the market data are freely accessible.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;NYSE rule change / Surveillance&lt;/em&gt;: The Exchange represents that trading in the Shares will be subject to the existing trading
-surveillances administered by the Exchange, as well as cross-market surveillances administered
-by the Financial Industry Regulatory Authority (“FINRA”) on behalf of the Exchange&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The surveillances referred to above generally focus on &lt;strong&gt;detecting securities trading outside
-their normal patterns&lt;/strong&gt;, which could be indicative of &lt;strong&gt;manipulative&lt;/strong&gt; or other violative &lt;strong&gt;activity&lt;/strong&gt;.
-When such situations are detected, surveillance analysis follows and investigations are opened,
-where appropriate, to review the behavior of all relevant parties for all relevant trading
-violations.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The rule change also states that price of Ether shares should be determined based on GDAX ETHUSD market but if the market will seem unhealthy, a Kraken pricing might be used. If Kraken is not available, it would be Gemini. If no big American exchange provides reasonable data, &lt;em&gt;the pricing of Ether shares can be set manually&lt;/em&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;[…] if the Sponsor determines that the Kraken Bitcoin Exchange and the Gemini
-Exchange prices are not appropriate bases for evaluation of the Trust’s ether, &lt;strong&gt;the Sponsor’s&lt;/strong&gt; [EtherIndex LLC] &lt;strong&gt;good
-faith estimate&lt;/strong&gt; of the market price of ether.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://www.sec.gov/rules/sro/nysearca/2017/34-79792.pdf&quot;&gt;via sec.gov (Release No. 34-79792; File No. SR-NYSEARCA-2016-176)&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Of course one question is whether there was a reason the Winklevoss brothers opted for the tedious and probably next to impossible route of surveillance agreements - or whether simply nobody considered this way. In the recent days &lt;a href=&quot;http://www.coindesk.com/winklevoss-bitcoin-etf-relaunch-analysts-chance/&quot;&gt;Bats filed a petition for the SEC to change their decision and list the COIN ETF after all&lt;/a&gt; but even now there has been no change made to the proposal. And another question is indeed what will the SEC actually say to the EtherIndex suggested solution for the surveillance and control problem. We’ll have to wait for that.&lt;/p&gt;
-
-&lt;p&gt;Last but not least, one thing that could surely help the ETH ETF is the majority of ETH/fiat trading occurs in the US. Only very small amount of ETH/fiat trading happens in China and Russia.&lt;/p&gt;
-
-&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Ethereum ETF&quot; src=&quot;/img/eth/eth-vol-by-country.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;578px&quot; data-original-height=&quot;638px&quot; width=&quot;578px&quot; height=&quot;638px&quot;&gt;&lt;/amp-img&gt;
-
-&lt;p&gt;&lt;em&gt;Image: An illustration, not a statistics! Volume distribution across countries for ETH/fiat pairs in the top 20 ETH markets. Single day data only, via coinmarketcap.com. &lt;a href=&quot;https://www.altcointrading.net/img/eth/ETH-GEO.pdf&quot;&gt;View as PDF&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;After all, from a legacy investor point of view it does not make such a fundamental difference whether to invest in Bitcoin or in Ether. The two currencies trade like competitors, very often they are inversely correlated, while both of them are equally uncorrelated with all of the legacy markets.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;amp-iframe width=&quot;700px&quot; height=&quot;360px&quot; layout=&quot;responsive&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://www.slideshare.net/slideshow/embed_code/key/lTYUhBkIAJ5Q0Y&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;one-more-important-detail&quot;&gt;One more important detail&lt;/h4&gt;
-
-&lt;p&gt;Ethereum is backed by &lt;a href=&quot;https://entethalliance.org/&quot;&gt;https://entethalliance.org/&lt;/a&gt;. The EEA is a group of about 30 companies that include Accenture, JPMorgan Chase or Intel.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Mar 2017 15:20:00 -0300</pubDate>
-        <link>https://www.altcointrading.net/ethereum-etf/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ethereum-etf/</guid>
-        
-        
-        <category>coins</category>
-        
-        <category>eth</category>
         
       </item>
     

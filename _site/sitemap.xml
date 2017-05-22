@@ -6,7 +6,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>https://www.altcointrading.net</loc>
+      <loc>http://localhost:4000</loc>
       <xhtml:link rel="alternate" hreflang="en-us" href="http://www.altcointrading.net/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
     </url>
@@ -42,273 +42,278 @@
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/category/altcoins/</loc>
+        <loc>http://localhost:4000/category/altcoins/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/category/exchanges/</loc>
+        <loc>http://localhost:4000/category/exchanges/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/category/trading/</loc>
+        <loc>http://localhost:4000/category/trading/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/category/wallets/</loc>
+        <loc>http://localhost:4000/category/wallets/</loc>
         
     </url>
     
     
     <url>
-        <loc>https://www.altcointrading.net/diversification-craze</loc>
+        <loc>http://localhost:4000/ripple-vs-stellar</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/all-green</loc>
+        <loc>http://localhost:4000/diversification-craze</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/monero-mining-malware</loc>
+        <loc>http://localhost:4000/all-green</loc>
         
-        <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/monero-mining-malware"/>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/monero-mining-malware</loc>
+        
+        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/monero-mining-malware"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/peerplays</loc>
+        <loc>http://localhost:4000/peerplays</loc>
         
-        <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/peerplays"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/peerplays"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ico-regulations</loc>
+        <loc>http://localhost:4000/ico-regulations</loc>
         
-        <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/ico-regulations"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/ico-regulations"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/etc-etf/</loc>
+        <loc>http://localhost:4000/etc-etf/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/gnosis/</loc>
+        <loc>http://localhost:4000/gnosis/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/time-vs-timing/</loc>
+        <loc>http://localhost:4000/time-vs-timing/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/litecoin-pump/</loc>
+        <loc>http://localhost:4000/litecoin-pump/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ethereum-etf/</loc>
+        <loc>http://localhost:4000/ethereum-etf/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/monero-wallet-dummies/</loc>
+        <loc>http://localhost:4000/monero-wallet-dummies/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-traders-tool/</loc>
+        <loc>http://localhost:4000/eth-traders-tool/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/zoe-ethereum-alphabay/</loc>
+        <loc>http://localhost:4000/zoe-ethereum-alphabay/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/monero-cold-storage-2017/</loc>
+        <loc>http://localhost:4000/monero-cold-storage-2017/</loc>
         
-        <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/monero-cold-storage-2017/"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/monero-cold-storage-2017/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/monero-cold-storage-2017/"/>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ethereum-etf-unlikely/</loc>
+        <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/wyckoff-avoidance/</loc>
+        <loc>http://localhost:4000/wyckoff-avoidance/</loc>
         
-        <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/wyckoff-avoidance/"/>
+        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/wyckoff-avoidance/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/wyckoff/"/>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/dash-03-2017/</loc>
+        <loc>http://localhost:4000/dash-03-2017/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/kraken-cryptowatch/</loc>
+        <loc>http://localhost:4000/kraken-cryptowatch/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ripple-trading/</loc>
+        <loc>http://localhost:4000/ripple-trading/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/private-altcoins-dash-monero/</loc>
+        <loc>http://localhost:4000/private-altcoins-dash-monero/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/trezor-multicoin/</loc>
+        <loc>http://localhost:4000/trezor-multicoin/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/how-to-buy-altcoins/</loc>
+        <loc>http://localhost:4000/how-to-buy-altcoins/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/iconomi/</loc>
+        <loc>http://localhost:4000/iconomi/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/monero-wallet/</loc>
+        <loc>http://localhost:4000/monero-wallet/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/monero-kraken/</loc>
+        <loc>http://localhost:4000/monero-kraken/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/finexening/</loc>
+        <loc>http://localhost:4000/finexening/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/free-etc/</loc>
+        <loc>http://localhost:4000/free-etc/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-classic/</loc>
+        <loc>http://localhost:4000/eth-classic/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/value/</loc>
+        <loc>http://localhost:4000/value/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ta-divergences/</loc>
+        <loc>http://localhost:4000/ta-divergences/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-hard-fork/</loc>
+        <loc>http://localhost:4000/eth-hard-fork/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ichimoku-cloud/</loc>
+        <loc>http://localhost:4000/ichimoku-cloud/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/dao-hack/</loc>
+        <loc>http://localhost:4000/dao-hack/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-17-06-2016/</loc>
+        <loc>http://localhost:4000/eth-17-06-2016/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ico-2016/</loc>
+        <loc>http://localhost:4000/ico-2016/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/waves/</loc>
+        <loc>http://localhost:4000/waves/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/technical-analysis/</loc>
+        <loc>http://localhost:4000/technical-analysis/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-vs-lisk/</loc>
+        <loc>http://localhost:4000/eth-vs-lisk/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/ethereum-may-2016/</loc>
+        <loc>http://localhost:4000/ethereum-may-2016/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/eth-okcoin-coinbase/</loc>
+        <loc>http://localhost:4000/eth-okcoin-coinbase/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/daytrading/</loc>
+        <loc>http://localhost:4000/daytrading/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/value/</loc>
+        <loc>http://localhost:4000/value/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/lending/</loc>
+        <loc>http://localhost:4000/lending/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/altcoin-exchanges/</loc>
+        <loc>http://localhost:4000/altcoin-exchanges/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/altcoin-wallets/</loc>
+        <loc>http://localhost:4000/altcoin-wallets/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/automated-trading/</loc>
+        <loc>http://localhost:4000/automated-trading/</loc>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/altcoin-trading-charts/</loc>
+        <loc>http://localhost:4000/altcoin-trading-charts/</loc>
         
     </url>
     

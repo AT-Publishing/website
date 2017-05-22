@@ -7,7 +7,26 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/diversification-craze</loc>
+      <loc>http://localhost:4000/ripple-vs-stellar</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Opinion</news:genres>
+        <news:publication_date>2017-05-21T02:38:00-04:00</news:publication_date>
+        <news:title>Ripple vs Stellar</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/diversification-craze</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -26,7 +45,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/all-green</loc>
+      <loc>http://localhost:4000/all-green</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -45,7 +64,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/monero-mining-malware</loc>
+      <loc>http://localhost:4000/monero-mining-malware</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -64,7 +83,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/peerplays</loc>
+      <loc>http://localhost:4000/peerplays</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -83,7 +102,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/ico-regulations</loc>
+      <loc>http://localhost:4000/ico-regulations</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -102,7 +121,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/etc-etf/</loc>
+      <loc>http://localhost:4000/etc-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -121,7 +140,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/gnosis/</loc>
+      <loc>http://localhost:4000/gnosis/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -140,7 +159,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/time-vs-timing/</loc>
+      <loc>http://localhost:4000/time-vs-timing/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -159,7 +178,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/litecoin-pump/</loc>
+      <loc>http://localhost:4000/litecoin-pump/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -178,7 +197,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/ethereum-etf/</loc>
+      <loc>http://localhost:4000/ethereum-etf/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -199,7 +218,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/eth-traders-tool/</loc>
+      <loc>http://localhost:4000/eth-traders-tool/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -218,7 +237,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/zoe-ethereum-alphabay/</loc>
+      <loc>http://localhost:4000/zoe-ethereum-alphabay/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -237,7 +256,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/monero-cold-storage-2017/</loc>
+      <loc>http://localhost:4000/monero-cold-storage-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -256,7 +275,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/ethereum-etf-unlikely/</loc>
+      <loc>http://localhost:4000/ethereum-etf-unlikely/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -277,7 +296,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/dash-03-2017/</loc>
+      <loc>http://localhost:4000/dash-03-2017/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -296,7 +315,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/kraken-cryptowatch/</loc>
+      <loc>http://localhost:4000/kraken-cryptowatch/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -319,7 +338,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/trezor-multicoin/</loc>
+      <loc>http://localhost:4000/trezor-multicoin/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
@@ -346,7 +365,7 @@
   
 
     <url>
-      <loc>https://www.altcointrading.net/finexening/</loc>
+      <loc>http://localhost:4000/finexening/</loc>
       <news:news>
         <news:publication>
           <news:name>Altcoin Trading</news:name>
