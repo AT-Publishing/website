@@ -5,8 +5,11 @@ description: "All about desktop altcoin wallets and hardware wallets for safe al
 permalink: /category/wallets/
 ---
 
+{{ site.ads.aads728 }}
 
-  {% if post.category contains "wallets" or post.categories contains "wallets" %}
+{% for post in site.posts %}
+
+{% if post.category contains "wallets" or post.categories contains "wallets" %}
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
@@ -29,4 +32,6 @@ permalink: /category/wallets/
     </div>
     {% endif %}
    </div>
-  {% endif %}
+{% endif %}
+
+{% endfor %}
