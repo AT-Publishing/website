@@ -107,7 +107,7 @@ What is your opinion? Could this be an original design flaw of XRP?
 
 #### The giveaway
 
-If you hold **Bitcoins or Ripple** you can invest in Stellar/Lumens for free (which is frankly a no-brainer). **There is a [second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017](https://www.stellar.org/blog/bitcoin-claim-lumens-2/).** The giveaway starts on July the 27th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:
+If you hold **Bitcoins or Ripple** you can invest in Stellar/Lumens for free (which is frankly a no-brainer). **There is a [second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017](https://www.stellar.org/blog/bitcoin-claim-lumens-2/).** The giveaway starts on June the 27th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:
 
 *Due to regulatory restrictions, this program is closed to residents of the U.S. states of New York, Georgia, New Hampshire, and Connecticut as well as the nations of Iran, Cuba, North Korea, and other countries subject to sanctions by the United States.*
 
