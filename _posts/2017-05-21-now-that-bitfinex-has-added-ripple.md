@@ -10,7 +10,7 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Ripple vs Stellar
 date: 2017-05-22 02:38 -04:00
-update: 2017-05-22 05:20 -04:00
+update: 2017-05-23 03:20 -04:00
 description: "And by the way, now that Bitfinex has added Ripple...will it kill the bull run?"
 permalink: "/ripple-vs-stellar"
 image:
@@ -107,11 +107,13 @@ What is your opinion? Could this be an original design flaw of XRP?
 
 #### The giveaway
 
-If you hold Bitcoins you can invest in Stellar for free (which is frankly a no-brainer). **There is a [second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017](https://www.stellar.org/blog/bitcoin-claim-lumens/).** The giveaway starts on July the 5th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:
+If you hold **Bitcoins or Ripple** you can invest in Stellar/Lumens for free (which is frankly a no-brainer). **There is a [second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017](https://www.stellar.org/blog/bitcoin-claim-lumens-2/).** The giveaway starts on July the 27th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:
 
 *Due to regulatory restrictions, this program is closed to residents of the U.S. states of New York, Georgia, New Hampshire, and Connecticut as well as the nations of Iran, Cuba, North Korea, and other countries subject to sanctions by the United States.*
 
 There's probably still enough time to make one.
+
+You will get Lumens automatically if you have BTC or XRP on Kraken, Poloniex, Deribit or BTC38.
 
 {{ site.ads.aads728 }}
 
