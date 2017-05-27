@@ -17,7 +17,7 @@ permalink: "/huobi-eth"
 image:
 - "/uploads/2017/05/27/pexels-photo-207691.jpeg"
 image_alt:
-- Nobody expected new pairs to be added now that people still cannot withdraw fiat
+- Nobody expected new pairs to be added now that people still cannot withdraw coins
   from Chinese exchanges.
 categories:
 - trading
