@@ -20,6 +20,7 @@ image_alt:
 - Nobody expected new pairs to be added now that people still cannot withdraw coins
   from Chinese exchanges.
 categories:
+- eth
 - trading
 tags: []
 ---
