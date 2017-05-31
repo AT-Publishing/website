@@ -21,14 +21,14 @@ categories:
 image_alt: []
 tags: []
 ---
-
-
 Only a few hours before the BAT ICO opening, today's news is already more exciting than a double espresso after a night on BitMEX: OKCoin, everyone's favorite bitcoin casino, is adding ETH trading.
 
 Full announcement: [https://www.okcoin.com/t-387.html](https://www.okcoin.com/t-387.html)
 
-*[...] Recently, OKCoin users have taken interest in the development of Ethereum (ETH) and Ethereum Classic (ETC), and there is an increasing demand for OKCoin to enable ETH and ETC trading. For the past two years, we have been constantly reviewing the viability of listing ETH and ETC based on factors including technical maturity, innovation, market liquidity, and compliance. *
+*[...] Recently, OKCoin users have taken interest in the development of Ethereum (ETH) and Ethereum Classic (ETC), and there is an increasing demand for OKCoin to enable ETH and ETC trading. For the past two years, we have been constantly reviewing the viability of listing ETH and ETC based on factors including technical maturity, innovation, market liquidity, and compliance.*
 
-*Today, we are formally launching ETH on the OKCoin exchange. Ethereum has a current circulation of 90 million, with ETH reaching a market cap in excess of USD 10 billion, and a total hashrate of more than 25K GB. Hundreds of applications are now built on Ethereum and a growing number of applications are using smart contracts run on the Ethereum blockchain. [...]*
+*Today, we are formally launching ETH on the OKCoin exchange. Ethereum has a current circulation of 90 million, with ETH reaching a market cap in excess of USD 10 billion, and a total hashrate of more than 25K GB. Hundreds of applications are now built on Ethereum and a growing number of applications are using smart contracts run on the Ethereum blockchain.*
 
-**Don't forget that OkCoin.com is a spot exchange only. **The derivative trading (futures) has been moved to OKEx.com. Hence sadly, there are no ETH futures at the moment. OKEx trades BTC and LTC futures, OkCoin.com trades BTC, LTC and ETH spot.
+*OKCoin will officially enable Ethereum (ETH) deposit and withdrawal services on 22:00, May 31. ETH trading services will be officially available on 12:00, June 1.[...]*
+
+**Don't forget that OkCoin.com is a spot exchange only.** The derivative trading (futures) has been moved to OKEx.com. Hence sadly, there are no ETH futures at the moment. OKEx trades BTC and LTC futures, OkCoin.com trades BTC, LTC and ETH spot.
