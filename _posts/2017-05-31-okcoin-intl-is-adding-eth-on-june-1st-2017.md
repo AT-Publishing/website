@@ -18,7 +18,8 @@ image:
 - "/uploads/2017/05/31/pexels-photo-147485.jpeg"
 categories:
 - trading
-image_alt: []
+image_alt:
+- up uP UP
 tags: []
 ---
 Only a few hours before the BAT ICO opening, today's news is already more exciting than a double espresso after a night on BitMEX: OKCoin, everyone's favorite bitcoin casino, is adding ETH trading.
