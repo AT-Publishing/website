@@ -15,7 +15,7 @@ permalink: "/quantum"
 description: The business friendly blockchain from Asia, they say. The token is traded
   on BTER and Yunbi or you can trade contracts on BitMEX.
 image:
-- "/uploads/2017/06/02/qtum-bitmex.jpg"
+- "/uploads/2017/06/02/qtum-bitmex1.jpg"
 image_alt:
 - BitMEX listed QTUM trading yesterday.
 categories: []
