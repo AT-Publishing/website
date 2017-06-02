@@ -5,9 +5,107 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 May 2017 06:00:54 -0400</pubDate>
-    <lastBuildDate>Mon, 22 May 2017 06:00:54 -0400</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2017 20:48:07 -0400</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2017 20:48:07 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>BAT/ETH trading is live</title>
+        <description>&lt;p&gt;Congratulations to everyone who was faster than a regular American’s spermatozoon and got into the BAT presale.&lt;/p&gt;
+
+&lt;p&gt;For everyone else, here’s where you can lose some lunch money over it:&lt;/p&gt;
+
+&lt;p&gt;https://liqui.io/#/exchange/BAT_ETH&lt;/p&gt;
+
+&lt;p&gt;The BAT ICO was so hyped that the Ethereum network got congested and the sale was finished right in its first block. Some people got in by sending the transaction couple of blocks beforehand, counting on the congestion - but not all of them. It was a hit or miss. The miners gave preference to the chunky transactions, that means, the whales.&lt;/p&gt;
+
+&lt;p&gt;That’s how the distribution of the token became so much “the rich are getting richer”. Plebs who just wanted in with 1 ETH didn’t stand a chance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/DBKavddU0AA4T3r.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hilarious &lt;a href=&quot;https://twitter.com/search?q=%24BAT&amp;amp;src=ctag&quot;&gt;$BAT&lt;/a&gt; &lt;a href=&quot;https://t.co/qMp5Y9JqjI&quot;&gt;pic.twitter.com/qMp5Y9JqjI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Angelo฿TC (@AngeloBTC) &lt;a href=&quot;https://twitter.com/AngeloBTC/status/869927821463797760&quot;&gt;May 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 11:53:00 -0400</pubDate>
+        <link>http://localhost:4000/bat-eth</link>
+        <guid isPermaLink="true">http://localhost:4000/bat-eth</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>OkCoin resumed BTC withdrawals</title>
+        <description>&lt;p&gt;Today’s is the day. OkCoin.cn apparently resuming withdrawals - at least this is what the rumor says.&lt;/p&gt;
+
+&lt;p&gt;https://twitter.com/cnLedger/status/869934911179735040&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;BREAKING: We received report that OKCoin (CN site) resumed withdraws!&lt;br /&gt;W/d limit based on vip level, starting from 10BTC/200LTC/1000ETH daily&lt;/p&gt;&amp;mdash; cnLedger (@cnLedger) &lt;a href=&quot;https://twitter.com/cnLedger/status/869934911179735040&quot;&gt;31 May 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;ETH on the other hand is experiencing a selloff, perhaps all the people who didn’t get in BAT.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 11:23:00 -0400</pubDate>
+        <link>http://localhost:4000/okcoin-withdrawals</link>
+        <guid isPermaLink="true">http://localhost:4000/okcoin-withdrawals</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>OkCoin Intl is adding ETH on June 1st 2017</title>
+        <description>&lt;p&gt;Only a few hours before the BAT ICO opening, today’s news is already more exciting than a double espresso after a night on BitMEX: OKCoin, everyone’s favorite bitcoin casino, is adding ETH trading.&lt;/p&gt;
+
+&lt;p&gt;Full announcement: &lt;a href=&quot;https://www.okcoin.com/t-387.html&quot;&gt;https://www.okcoin.com/t-387.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[…] Recently, OKCoin users have taken interest in the development of Ethereum (ETH) and Ethereum Classic (ETC), and there is an increasing demand for OKCoin to enable ETH and ETC trading. For the past two years, we have been constantly reviewing the viability of listing ETH and ETC based on factors including technical maturity, innovation, market liquidity, and compliance.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Today, we are formally launching ETH on the OKCoin exchange. Ethereum has a current circulation of 90 million, with ETH reaching a market cap in excess of USD 10 billion, and a total hashrate of more than 25K GB. Hundreds of applications are now built on Ethereum and a growing number of applications are using smart contracts run on the Ethereum blockchain.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;OKCoin will officially enable Ethereum (ETH) deposit and withdrawal services on 22:00, May 31. ETH trading services will be officially available on 12:00, June 1.[…]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t forget that OkCoin.com is a spot exchange only.&lt;/strong&gt; The derivative trading (futures) has been moved to OKEx.com. Hence sadly, there are no ETH futures at the moment. OKEx trades BTC and LTC futures, OkCoin.com trades BTC, LTC and ETH spot.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 03:00:00 -0400</pubDate>
+        <link>http://localhost:4000/okcoin-eth</link>
+        <guid isPermaLink="true">http://localhost:4000/okcoin-eth</guid>
+        
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>Huobi is adding ETH on May 31st</title>
+        <description>&lt;p&gt;Huobi announced an announcement this morning (fluffypony style!), the actual news came soon after from @cnLedger.&lt;/p&gt;
+
+&lt;p&gt;Many had high hopes for the withdrawal situation update – but it’s “just” ETH trading.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Huobi has millions of users in China. Up to now none of the &amp;quot;big 3&amp;quot; listed any coins except BTC &amp;amp; LTC. Many CN traders are unaware of ETH &lt;a href=&quot;https://t.co/Wdd8sE8WuG&quot;&gt;https://t.co/Wdd8sE8WuG&lt;/a&gt;&lt;/p&gt;&amp;mdash; cnLedger (@cnLedger) &lt;a href=&quot;https://twitter.com/cnLedger/status/868457182429233155&quot;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;People &lt;a href=&quot;https://cointelegraph.com/news/bitcoin-withdrawals-expected-to-resume-as-chinese-exchanges-ask-users-for-funds-info&quot;&gt;still cannot withdraw coins from major Chinese exchanges&lt;/a&gt; but the BTC and LTC premium started diminishing on rumors the withdrawals might be resumed in June.&lt;/p&gt;
+
+&lt;p&gt;There was a letter shared via @cnLedger saying the exchanges were not asked to suspend withdrawals, that they did that on their own accord:&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;PBoC reply to BTC user: we did not ask trading platforms to suspend w/d. It was a decision made by themselves. The inspection has not ended. &lt;a href=&quot;https://t.co/mi3IxXR93g&quot;&gt;pic.twitter.com/mi3IxXR93g&lt;/a&gt;&lt;/p&gt;&amp;mdash; cnLedger (@cnLedger) &lt;a href=&quot;https://twitter.com/cnLedger/status/867651423038603264&quot;&gt;May 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;…Surely they were asked nicely.&lt;/p&gt;
+
+&lt;p&gt;Either way, Huobi is the first major exchange to list ETH. That could mean a boost for the coin as new wave of speculators (and bots) chimes in. &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/6deopl/daily_discussion_friday_may_26_2017/di3fto6/&quot;&gt;Don’t forget more than 50% of the volume on the now-zero-fee Japanese exchange Bitflyer is done by three monster-bots only&lt;/a&gt; - the volatility there was insane.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.okcoin.com/post/161088088064/okcoin-to-migrate-futures-activity-to-okexcom&quot;&gt;OkCoin had a big announcement too this week&lt;/a&gt; as they announced the migration to a new platform OKEx (coins-only, no fiat hence possibly less intervention) but no word about new altcoin implementations.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 May 2017 09:29:00 -0400</pubDate>
+        <link>http://localhost:4000/huobi-eth</link>
+        <guid isPermaLink="true">http://localhost:4000/huobi-eth</guid>
+        
+        
+        <category>eth</category>
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Ripple vs Stellar</title>
@@ -105,11 +203,13 @@ Using the set options operation, every account selects another account as its in
 
 &lt;h4 id=&quot;the-giveaway&quot;&gt;The giveaway&lt;/h4&gt;
 
-&lt;p&gt;If you hold Bitcoins you can invest in Stellar for free (which is frankly a no-brainer). &lt;strong&gt;There is a &lt;a href=&quot;https://www.stellar.org/blog/bitcoin-claim-lumens/&quot;&gt;second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017&lt;/a&gt;.&lt;/strong&gt; The giveaway starts on July the 5th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:&lt;/p&gt;
+&lt;p&gt;If you hold &lt;strong&gt;Bitcoins or Ripple&lt;/strong&gt; you can invest in Stellar/Lumens for free (which is frankly a no-brainer). &lt;strong&gt;There is a &lt;a href=&quot;https://www.stellar.org/blog/bitcoin-claim-lumens-2/&quot;&gt;second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017&lt;/a&gt;.&lt;/strong&gt; The giveaway starts on June the 27th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Due to regulatory restrictions, this program is closed to residents of the U.S. states of New York, Georgia, New Hampshire, and Connecticut as well as the nations of Iran, Cuba, North Korea, and other countries subject to sanctions by the United States.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;There’s probably still enough time to make one.&lt;/p&gt;
+
+&lt;p&gt;You will get Lumens automatically if you have BTC or XRP on Kraken, Poloniex, Deribit or BTC38.&lt;/p&gt;
 
 &lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
@@ -462,302 +562,6 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
         <category>eth</category>
         
         <category>altcoins</category>
-        
-      </item>
-    
-      <item>
-        <title>Grayscale did it</title>
-        <description>&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The Ethereum Classic Investment Trust is now live for eligible accredited investors! &lt;a href=&quot;https://t.co/ViBWrnpmaP&quot;&gt;https://t.co/ViBWrnpmaP&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;cc: &lt;a href=&quot;https://twitter.com/EthereumTrust&quot;&gt;@EthereumTrust&lt;/a&gt; &lt;a href=&quot;https://twitter.com/search?q=%24ETC&amp;amp;src=ctag&quot;&gt;$ETC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Grayscale (@GrayscaleInvest) &lt;a href=&quot;https://twitter.com/GrayscaleInvest/status/857217741161459715&quot;&gt;26 April 2017&lt;/a&gt;&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 26 Apr 2017 09:06:00 -0400</pubDate>
-        <link>http://localhost:4000/etc-etf/</link>
-        <guid isPermaLink="true">http://localhost:4000/etc-etf/</guid>
-        
-        
-        <category>coins</category>
-        
-      </item>
-    
-      <item>
-        <title>The Gnosis thing</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/coins/gnosis.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/coins/gnosis.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Wtf is Gnosis?&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Yesterday, Poloniex announced on their website they will list Gnosis token one week after the end of the auction.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Gnosis GNO tokens will be available
-for trading on Poloniex one week
-after the close of the auction.
-
-Posted by OldManKidd at 2017-04-24 19:28:26
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Gnosis &lt;a href=&quot;https://twitter.com/search?q=%24GNO&amp;amp;src=ctag&quot;&gt;$GNO&lt;/a&gt; tokens will be available for trading on Poloniex one week after the close of the auction. &lt;a href=&quot;https://t.co/GlwkoAO1UE&quot;&gt;https://t.co/GlwkoAO1UE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Poloniex Exchange (@Poloniex) &lt;a href=&quot;https://twitter.com/Poloniex/status/856570173112942593&quot;&gt;24 April 2017&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;It came shortly after the controversial &lt;a href=&quot;https://bitcointalk.org/index.php?topic=1876467.0&quot;&gt;delisting of 17 coins&lt;/a&gt;. Some traders were even talking about &lt;a href=&quot;https://www.reddit.com/r/CryptoMarkets/comments/668gim/poloniex_delisting_some_apparently_good_coins_on/&quot;&gt;broken trust&lt;/a&gt; and moving &lt;a href=&quot;https://www.reddit.com/r/CryptoMarkets/comments/668gim/poloniex_delisting_some_apparently_good_coins_on/dgglcbv/?utm_content=permalink&amp;amp;utm_medium=front&amp;amp;utm_source=reddit&amp;amp;utm_name=CryptoMarkets&quot;&gt;coins to bittrex&lt;/a&gt;. Anyway. Apparently the time has come to have fun on new and totally different altcoin markets!&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-gnosis-for&quot;&gt;What is Gnosis for&lt;/h4&gt;
-
-&lt;p&gt;It’s a prediction multi-market where you can create your own markets for events if you have WIZ tokens.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You get WIZ tokens in exchange for your Gnosis tokens if you decide to lock them in a smart contract for some period of time.&lt;/li&gt;
-  &lt;li&gt;You get Gnosis tokens for ETH, Gnosis runs on Ethereum.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The token model is not implemented yet.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The auction is over by now and people who bought the Gnosis tokens will receive them right before the trading will start at Polo.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.gnosis.pm/what-are-gnosis-tokens-the-new-access-based-token-model-e59c5a490af6&quot;&gt;blog.gnosis.pm/what-are-gnosis…&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;why-it-would-make-crypto-traders-rage&quot;&gt;Why it would make crypto traders rage&lt;/h4&gt;
-
-&lt;p&gt;…if they still had emotions?&lt;/p&gt;
-
-&lt;p&gt;1) The Gnosis token sale ended at a theoretical 312.5 Million valuation.
-2) Only 4.17 % of all tokens have been distributed to you early investors, the other 95.83 % of the tokens is in hands of the Gnosis team.
-3) The Gnosis team now owns 299 million USD in artificial token value. They’ve invested 0 USD.
-4) In contrast, the investors who paid 100 % of the money, invested and own 13 million USD in tokens.
-5) Let me be more clear: You paid 31.25 USD per Gnosis token and as a collective, have only received 4.17 % of all tokens.
-6) Now take a seat before you read number 7
-7) The actual value of the Gnosis tokens is 13 million USD (this is all of the actual money brought in by the investors) divided by 10 million tokens. That means each individual token now has a factual value of 1.3 USD.
-8) As of now, your net result on your investment is -95 %
-9) We did warn you: http://i.imgur.com/WAVLXWE.png - You triggered the worst case scenario in this graph
-10) And warned by /r/ethtrader
-11) But you just didn’t want to listen, did you&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/67ax24/to_all_gnosis_token_holders_take_a_seat_before/&quot;&gt;r/ethtrader/comments/67ax…&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-media&quot;&gt;The media&lt;/h3&gt;
-
-&lt;h4 id=&quot;obligatory-what-does-forbes-say&quot;&gt;Obligatory, what does Forbes say?&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.forbes.com/sites/rogeraitken/2017/04/24/gnosis-prediction-market-scores-12-5m-in-record-breaking-crypto-auction/#1aa4f80ae87d&quot;&gt;forbes.com/sites/rogeraitken/2017/04/24/…&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Gnosis, a decentralized platform for prediction markets that uses “crowdsourced wisdom” sourced globally and built on Ethereum technology, has set a new record by raising $12.5 million (m) in a token offering via a Dutch auction, the first successful one of its kind in crypto, and the fastest crowdsale to date to sell out more than $10m.&lt;/p&gt;
-
-&lt;h4 id=&quot;so-what-do-people-say&quot;&gt;So what do people say?&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Starting at over $300mill market cap?  Dump city (-90%)  RIP ICO investors.&lt;/em&gt; - &lt;a href=&quot;https://twitter.com/3ideRaven/status/856570546204663809&quot;&gt;twitter, @3ideRaven&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;So you are listing a coin where the devs own 95% of the total supply with more ICOS coming? Just wow…&lt;/em&gt; - &lt;a href=&quot;https://twitter.com/GetYourBounty/status/856614171768750082&quot;&gt;twitter, @GetYourBounty&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Remember though, it’s not an obvious short either - it’s the same as DASH where the empire can move the price as needed because they have their precious instamine.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 25 Apr 2017 08:06:00 -0400</pubDate>
-        <link>http://localhost:4000/gnosis/</link>
-        <guid isPermaLink="true">http://localhost:4000/gnosis/</guid>
-        
-        
-        <category>trading</category>
-        
-        <category>coins</category>
-        
-      </item>
-    
-      <item>
-        <title>Opinion: Time in the market vs timing the market</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/editorial/likeaboss.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/editorial/likeaboss.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: In the long run, time in the market beats timing the market.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Let’s take a quick look at the difference between trading and investing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When you trade&lt;/strong&gt; you don’t care which way the market goes as long as your position is making you money. All you need is to be right about the direction. For what it’s worth, even if you hold a shitcoin with absolutely no future and it pumps, you are making money - not that it wouldn’t resemble casino though.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When you invest&lt;/strong&gt; you are looking for value and you put in money that you realistically won’t need even in a few years time. You go for value.&lt;/p&gt;
-
-&lt;h4 id=&quot;which-one-is-more-profitable&quot;&gt;Which one is more profitable?&lt;/h4&gt;
-
-&lt;p&gt;They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what’s likely, not what’s hundred percent sure.&lt;/p&gt;
-
-&lt;p&gt;Realistically you have higher chance to be wrong in timing the market than you have when carefully picking an asset which you think has a long term chance.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Time in the market is so much more important for an investor’s long-term returns than timing the market. This is something The Motley Fool takes to heart, because no one can accurately know when to get in and get out.  […] “Generally that tends to be true. But, alas, there are no firm rules here, and context is king in pretty much all of this. For example, there are times where valuations get super lofty.”&lt;/em&gt; - via &lt;a href=&quot;https://www.fool.com/investing/2016/07/01/time-in-the-market-vs-timing-the-market.aspx&quot;&gt;The Motley Fool&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;hodlers-hate&quot;&gt;Hodlers Hate&lt;/h4&gt;
-
-&lt;p&gt;These days everyone hates the hodler cult in both BTC and ETH. The truth is though, as a hodler who is in a position for the long run, your biggest risk really is &lt;em&gt;losing your position&lt;/em&gt;. And the best way to lose it is to try and sell high to rebuy lower. &lt;a href=&quot;https://www.altcointrading.net/litecoin-pump/#the-technicals&quot;&gt;In a bull market, the low won’t be so low.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;So, how should you look at an asset if you want to hold?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Investors look at the following characteristics:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1/ Real-World Adoption™ - That’s why &lt;a href=&quot;https://www.altcointrading.net/zoe-ethereum-alphabay/&quot;&gt;Ethereum on Alphabay&lt;/a&gt; is bigger a deal than &lt;a href=&quot;http://raiden.network/&quot;&gt;Raiden network&lt;/a&gt; or dapps even though both of the latter features are really cool.&lt;/p&gt;
-
-&lt;p&gt;2/ &lt;a href=&quot;https://etherscan.io/chart/tx/&quot;&gt;Transactions per day&lt;/a&gt; which is related to adoption, and &lt;a href=&quot;/eth-traders-tool/&quot;&gt;other network data&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;3/ &lt;a href=&quot;http://coinmarketcap.com/&quot;&gt;Exchange volume per day&lt;/a&gt; and (anti)correlation with bitcoin to see how much of the use is just speculation.&lt;/p&gt;
-
-&lt;p&gt;Of course all cryptocurrency is still very young though.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;an-unlikely-altcoin-fundamental&quot;&gt;An unlikely altcoin fundamental&lt;/h3&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/editorial/fuck.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/editorial/fuck.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;What would happen if Ethereum lost Vitalik? Something quite explicit for sure, right?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Go for a business that any idiot can run - because sooner or later, an idiot probably is going to run it.” - Peter Lynch&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I believe this is a drawback of Ethereum as an investment asset. That &lt;strong&gt;doesn’t mean ETH wasn’t an outstanding trading opportunity&lt;/strong&gt; just recently - but that’s precisely the difference between trading and investment. For the &lt;em&gt;long&lt;/em&gt; long term, it’s a question how sustainable this is.&lt;/p&gt;
-
-&lt;p&gt;Now, compare it to other popular altcoins on the market.&lt;/p&gt;
-
-&lt;p&gt;I am sure there are people who believe &lt;a href=&quot;https://www.reddit.com/r/Monero/comments/61atcg/what_i_believe_is_holding_back_our_adoption_and/&quot;&gt;certain coins&lt;/a&gt; are lead by idiots at present already, while other coins are &lt;a href=&quot;https://twitter.com/notgrubles/status/851878073909862400/photo/1&quot;&gt;quickly&lt;/a&gt; getting &lt;a href=&quot;http://cointimes.tech/2017/04/napoleonbitcoin/&quot;&gt;there&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You shouldn’t blame people for holding on to assets with slower development and moronic leads. After all &lt;a href=&quot;https://en.wikipedia.org/wiki/Lindy_effect&quot;&gt;the longer the assets are surviving this misfortune the more valuable they are for the long run&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Thu, 13 Apr 2017 12:24:00 -0400</pubDate>
-        <link>http://localhost:4000/time-vs-timing/</link>
-        <guid isPermaLink="true">http://localhost:4000/time-vs-timing/</guid>
-        
-        
-        <category>trading</category>
-        
-        <category>coins</category>
-        
-      </item>
-    
-      <item>
-        <title>Litecoin: This time it's different?</title>
-        <description>&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/emotions/up.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/emotions/up.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: Wait is this up or down?&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;the-rock&quot;&gt;The Rock&lt;/h4&gt;
-
-&lt;p&gt;Arthur Hayes of BitMEX made his prognosis in the last issue of their newsletter - &lt;a href=&quot;http://us3.campaign-archive1.com/?u=db45c09bdf20e1866bb32123f&amp;amp;id=256c134334&quot;&gt;available here&lt;/a&gt;, scroll down to &lt;em&gt;The Rock Is In The Building&lt;/em&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Litecoin has acted like a rock in trader’s bags since it hit its all time high of $40 in 2013. The technical merits of why Litecoin should be worth more than $0 are few and far between. Litecoin exists on life support only because Chinese traders for some reason enjoy trading it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Litecoin is some form of legacy. A BTC spinoff dangerously close to bitcoin only with the advantage of faster transactions, it is easy to implement for an exchange that already does BTC. The reason most people who aren’t bagholders buy and sell litecoin is they are bitcoin traders and &lt;a href=&quot;/altcoin-exchanges/&quot;&gt;want to move USD from one exchange to the other&lt;/a&gt; whenever BTC is too volatile or too FUD-ridden to be safely in. By the way, that’s also what people sometimes use DOGE for but LTC is more widely supported. For one thing, it’s the only non-fiat and non-BTC way to get out of OkCoin.&lt;/p&gt;
-
-&lt;h4 id=&quot;first-class-and-second-class&quot;&gt;First class and second class&lt;/h4&gt;
-
-&lt;p&gt;Over time this developed into a popular strategy: Altcoin traders might trade the first class altcoins - think &lt;a href=&quot;/coin/eth/&quot;&gt;Ethereum&lt;/a&gt; or &lt;a href=&quot;/coin/xmr/&quot;&gt;Monero&lt;/a&gt;. Once they feel like the bull cycle is soon to be over they park the money in the second grade alts that remain more or less stable. With the money in the second class they wait for another opportunity in the first class.&lt;/p&gt;
-
-&lt;p&gt;The second class coins rarely dump without pumping first so it’s not a totally unreasonable idea, especially if you don’t pick the parking coin completely by random. Sometimes the second grade coins do pump which makes for a nice benefit.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-reason&quot;&gt;The Reason™&lt;/h4&gt;
-
-&lt;p&gt;Nevertheless it wouldn’t be a proper pump without people coming up with arbitrary rationalization of the surge. In the case of the Litecoin surge the rationalization says it’s network scaling implementation that is currently still argued about in BTC. This way LTC could be a flagship - if anything the market is letting everybody know that &lt;em&gt;little less conversation little more action please&lt;/em&gt; is what makes the community happy.&lt;/p&gt;
-
-&lt;p&gt;This is from &lt;a href=&quot;https://www.tradingview.com/chart/LTCBTC/cFRt8jgX-LTC-BTC-this-time-is-different-lol/&quot;&gt;btc_joe’s TradingView idea&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In a world where bitcoin gets bigger and bigger (and thus less and less likely to make any &lt;strong&gt;consensus changes&lt;/strong&gt; whether it be a hard fork or segwit, etc), ask yourself, does litecoin deserve a place in the market? I certainly have my opinion.  Not to mention, if it gets the &lt;strong&gt;lightning network&lt;/strong&gt; before bitcoin…are you excited about this technology? I certainly am.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Indeed, this news came in a moment where the market was so to say available to be affected by the news.&lt;/p&gt;
-
-&lt;p&gt;Litecoin was in a downtrend for all of 2016. Technically the price (relatively to BTC) was closing towards a support back from pre-pump 2013 (see BTC-e Quandl data &lt;a href=&quot;https://www.quandl.com/data/BTCE/BTCLTC&quot;&gt;https://www.quandl.com/data/BTCE/BTCLTC&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/ltcbtc-quandl.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/ltcbtc-quandl.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Soon after that the BTC ETF and BU FUD took over which helped as well. On the April fool’s day someone started signaling segwit on the LTC network originally as a joke but lo and behold, traders took it quite seriously because the discussion was ongoing since February already, see &lt;a href=&quot;https://medium.com/@thecryptoconomy/the-barely-discussed-incredible-benefit-of-the-lightning-network-4ce82c75eb58&quot;&gt;this medium.com post&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;With the adoption of Segregated Witness and the announcements of support progressing quickly within the Litecoin network, we may first get to see the full benefits of this technology on one of the original altcoins. With a smaller market cap and some distance from contentious Bitcoin politics, Litecoin is able to take greater risks. It may get to be the first to see this incredible innovation in action.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;laggards-beware&quot;&gt;Laggards beware&lt;/h4&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/litecoin-coinbase.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/litecoin-coinbase.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Image: You see that squishy?&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Litecoin &lt;a href=&quot;https://twitter.com/GDAX&quot;&gt;@GDAX&lt;/a&gt; vol is over $10M. &lt;a href=&quot;https://twitter.com/brian_armstrong&quot;&gt;@brian_armstrong&lt;/a&gt;, I think it&amp;#39;s time we let people easily buy LTC with fiat on &lt;a href=&quot;https://twitter.com/coinbase&quot;&gt;@coinbase&lt;/a&gt;. What do you say? 😁&lt;/p&gt;&amp;mdash; Charlie Lee (@SatoshiLite) &lt;a href=&quot;https://twitter.com/SatoshiLite/status/849792340357029888&quot;&gt;6 April 2017&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;The prognosis of Arthur Hayes in his &lt;a href=&quot;http://us3.campaign-archive1.com/?u=db45c09bdf20e1866bb32123f&amp;amp;id=256c134334&quot;&gt;newsletter&lt;/a&gt; is that LTC is bound to go down since GDAX got the USD pair too when it showed such a pretty activity now.&lt;/p&gt;
-
-&lt;p&gt;It is likely that this is what’s going to happen: GDAX is the exchange removed far from the Poloniex altcoin trading epicenter. It’s where a newly listed altcoin might be bought by laggards who don’t really know much about its market but hope to still make a buck.&lt;/p&gt;
-
-&lt;p&gt;They’ll be buying the coins sold by those who bought at Polo early enough.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-technicals&quot;&gt;The Technicals&lt;/h4&gt;
-
-&lt;p&gt;From the cryptowatch snapshot above you’ll probably be able to tell the current action looks like &lt;em&gt;wave 4&lt;/em&gt;. The people who timed it right took their profits but there is still some buying by those who came a bit late. It should still make for one more up before crashing though, and how big the crash will be, nobody knows.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/img/trading/BTC-squishies.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/img/trading/BTC-squishies.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;After all, altcoins in general are in a bull market. As such, the end of the wave cycle shouldn’t be as dreary as it was in 2013. In a bull market, the end of the cycle could be a simple consolidation and after a few weeks there could be more of the movement up north - see the image from the BTCUSD market.&lt;/p&gt;
-
-&lt;p&gt;In this case one should look into fundamentals for clarity.&lt;/p&gt;
-
-&lt;p&gt;And in the case of litecoin, this doesn’t end up on a positive note: no real adoption, not much innovation. For cryptogeeks it’s a legacy, it’ll stick around for some time no matter what, but in the real world litecoin as a name is nonexistent. That shouldn’t make for an exciting future…Unless.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-lightning-network-plans&quot;&gt;The lightning network plans&lt;/h4&gt;
-
-&lt;p&gt;…Unless LN. The Lightning Network can bridge channels between different blockchains, possibly allowing users to use their LTC at places that accepts Bitcoin.&lt;/p&gt;
-
-&lt;p&gt;Charlie Lee via &lt;a href=&quot;https://litecointalk.io/t/my-vision-for-segwit-and-lightning-networks-on-litecoin-and-bitcoin-by-charlie-lee/600&quot;&gt;litecointalk.io&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(Y)ou may wonder why I’m pushing for SegWit. Litecoin does not have a block size problem. That’s right, and SegWit is not just a block scaling solution. I would even say block scaling is just a side benefit of SegWit. The main fix is transaction malleability, which would &lt;strong&gt;allow Lightning Networks (LN)&lt;/strong&gt; to be built on top of Litecoin.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;(S)ome people say LN on Bitcoin will kill any reason to use Litecoin. If people can do instantaneous transactions on Bitcoin, why would they use Litecoin? My gut feel is that this is not the case. […] LN nodes will charge a fee for LN txns going through them and that fee will be relative to the Bitcoin network fee. So &lt;strong&gt;Bitcoin LN txns will be more expensive than Litecoin LN&lt;/strong&gt; txns. It may make economic sense for a LN txn to go via Litecoin and back to Bitcoin to get the cheapest rate. Lightning makes this possible because it allows the two LN to be &lt;strong&gt;interoperable&lt;/strong&gt;. I don’t know that this use case will be economical or not, but we won’t know until both LNs are built and running.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;segwit-activation-litecoin&quot;&gt;Segwit Activation Litecoin&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://segwit.co/ltc&quot;&gt;Follow segwit.co/ltc to see whether segwit was activated yet&lt;/a&gt;. It should be activated in mid May 2017.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Follow the LTCBTC pair technicals on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://tradingview.go2cloud.org/SHW9&quot;&gt;TradingView&lt;/a&gt; via &lt;a href=&quot;https://www.tradingview.com/chart/LTCBTC/cFRt8jgX-LTC-BTC-this-time-is-different-lol/&quot;&gt;this btc_joe’s idea from 23 February&lt;/a&gt; - it gets updated daily.&lt;/p&gt;
-
-&lt;p&gt;Follow Charlie Lee on twitter &lt;a href=&quot;https://twitter.com/SatoshiLite&quot;&gt;https://twitter.com/SatoshiLite&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Apr 2017 11:20:00 -0400</pubDate>
-        <link>http://localhost:4000/litecoin-pump/</link>
-        <guid isPermaLink="true">http://localhost:4000/litecoin-pump/</guid>
-        
-        <category>popular</category>
-        
-        
-        <category>coins</category>
-        
-        <category>ltc</category>
         
       </item>
     

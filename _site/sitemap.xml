@@ -63,6 +63,26 @@
     
     
     <url>
+        <loc>http://localhost:4000/bat-eth</loc>
+        
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/okcoin-withdrawals</loc>
+        
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/okcoin-eth</loc>
+        
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/huobi-eth</loc>
+        
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/ripple-vs-stellar</loc>
         
     </url>

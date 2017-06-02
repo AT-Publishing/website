@@ -7,6 +7,82 @@
   
 
     <url>
+      <loc>http://localhost:4000/bat-eth</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-31T11:53:00-04:00</news:publication_date>
+        <news:title>BAT/ETH trading is live</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/okcoin-withdrawals</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-31T11:23:00-04:00</news:publication_date>
+        <news:title>OkCoin resumed BTC withdrawals</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/okcoin-eth</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-31T03:00:00-04:00</news:publication_date>
+        <news:title>OkCoin Intl is adding ETH on June 1st 2017</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/huobi-eth</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-05-27T09:29:00-04:00</news:publication_date>
+        <news:title>Huobi is adding ETH on May 31st</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>http://localhost:4000/ripple-vs-stellar</loc>
       <news:news>
         <news:publication>
