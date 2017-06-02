@@ -45,7 +45,7 @@ Turns out the founder, Patric Dai, has been acting in cryptocurrency space [usin
 
 The article by [@icocountdown says](https://medium.com/@icocountdown/due-diligence-pack-for-qtum-7369ef48917b) that Dai should have stolen some money from developer funds he had access to. He then should have used the money to manipulate prices and profit from the pump and dump. 
 
-![](https://cdn-images-1.medium.com/max/800/1*E_d_jyZ0T_JaODIjRuLQhg.png)
+[See the screenshot](https://cdn-images-1.medium.com/max/800/1*E_d_jyZ0T_JaODIjRuLQhg.png)
 
 ### QTUM - Technicals
 
@@ -59,7 +59,7 @@ To be more specific: people doubled their money on the QTUM contract yesterday a
 
 Technically though, what we see today looks like a bull flag. 
 
-{% amp700 border {{page.image[7]}} {{page.image_alt[0]}} %}
+{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 
 **Full specification from BitMEX:**
 
