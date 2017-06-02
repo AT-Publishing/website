@@ -9,8 +9,8 @@ tickers: QTUMBTC, QTUMCNY
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: What you need to know about QTUM
-date: 2017-06-02 11:33
-update: '2017-06-02T15:33:27.500Z'
+date: 2017-06-02 07:27
+update: 2017-06-02 07:27
 permalink: "/quantum"
 description: The business friendly blockchain from Asia, they say. The token is traded
   on BTER and Yunbi or you can trade contracts on BitMEX.
@@ -46,6 +46,8 @@ Turns out the founder, Patric Dai, has been acting in cryptocurrency space [usin
 The article by [@icocountdown says](https://medium.com/@icocountdown/due-diligence-pack-for-qtum-7369ef48917b) that Dai should have stolen some money from developer funds he had access to. He then should have used the money to manipulate prices and profit from the pump and dump. 
 
 [See the screenshot](https://cdn-images-1.medium.com/max/800/1*E_d_jyZ0T_JaODIjRuLQhg.png)
+
+Forbes have been much friendlier towards this project - read here https://www.forbes.com/sites/rogeraitken/2017/03/17/qtums-blockchain-crowdfund-scores-over-12m-from-bitcoin-ethereum-investors/#5ee97ed434ef 
 
 ### QTUM - Technicals
 
