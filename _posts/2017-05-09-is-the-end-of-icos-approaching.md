@@ -1,16 +1,16 @@
 ---
 layout: forestry
-german: ''
+german: false
 published: true
 comments: true
-stories: ''
+stories: false
 genres: Blog, Opinion
 tickers: ETHBTC, ETHUSD
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Is the end of ICOs approaching?
 date: 2017-05-09 14:46
-update: '2017-05-09T18:48:33.017Z'
+update: '2017-06-03T23:38:37.963Z'
 description: 'The very first ICO-ish thing was fined heavily. Will new regulations
   pop the ICO bubble? '
 permalink: "/ico-regulations"
@@ -27,7 +27,7 @@ A lot has changed since [the last post on ICOs](https://www.altcointrading.net/i
 
 ### Lawmakers have noticed
 
-There has been a post on 2nd May 2017 at law111 and elsewhere that caught the attention of the crypto community. To be honest, it was an interesting thing for some die hard bitcoiners since they started projecting the EndOfEtherium&trade; - the ICOs will get regulated, there will be no reason to buy ETH anymore, ETH will collapse and BTC will get it's market cap share back. It is a bit too far out there, nonetheless there seem to be regulations in the making. The [post on law111](https://www.law111.com/11state-lawmakers-increasing-their-focus-on-vc-and-blockchain-technology) says: 
+There has been a post on 2nd May 2017 at law111 and elsewhere that caught the attention of the crypto community. To be honest, it was an interesting thing for some die hard bitcoiners since they started projecting the EndOfEtherium&trade; - the ICOs will get regulated, there will be no reason to buy ETH anymore, ETH will collapse and BTC will get it's market cap share back. It is a bit too far out there, nonetheless there seem to be regulations in the making. The [post on law111](http://archive.is/rSxQs) says: 
 
 > In early 2017, multiple state legislatures have taken action reflecting their recognition of the potential impact of virtual currency and blockchain technology. These actions have ranged from requests for further information regarding the technology to an active debate regarding a specific use case.
 
@@ -102,11 +102,4 @@ The market cap thing is flawed, there is a good in-depth article about that on [
 
 > Inflation factors calculated for the top 15 tokens [here](https://cdn-images-1.medium.com/max/1600/1*goypbtaXje1QRL7KGoAK4g.png).
 
-You see that only by making economically sound decision rather than spreading your money randomly across all ICOs will shrink the amount of feasible ICOs a lot. But indeed, reason is never enough to stop the bubble. 
-
-
-
-
-
-
-
+You see that only by making economically sound decision rather than spreading your money randomly across all ICOs will shrink the amount of feasible ICOs a lot. But indeed, reason is never enough to stop the bubble.
