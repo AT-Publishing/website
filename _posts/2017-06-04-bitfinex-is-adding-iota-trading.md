@@ -16,6 +16,7 @@ description: Bitfinex just issued a statement they will be adding IOTA pairs. IO
 permalink: "/iota"
 image:
 - "/uploads/2017/06/04/pexels-photo-398532.jpeg"
+- "/uploads/2017/06/04/iota.png"
 image_alt:
 - 'This time Bitfinex is the first exchange to list a new token. '
 categories:
@@ -35,6 +36,8 @@ So far IOTA hasn't been traded on any exchange. There was p2p trading with escro
 
 > from https://www.bitfinex.com/posts/206
 
+{% amp700 post {{page.image[1]}} {{page.image_alt[0]}} %}
+
 **The technicalities**
 
 So, IOTA is not on a blockchain, similarly as Ripple although the technology underneath is different. That's how it can scale and all the rest of it - it is not a blockchain. IOTA uses what they call Tangle:
@@ -52,6 +55,12 @@ The team behind IOTA has formed a foundation in Berlin. Names: Dominik Schiener,
 With this type of coin that had a big ICO and OTC market and is premined it is expected that early adopters will cash out at the exchange listing launch, so don't rush with your purchase. 
 
 After that, a reasonable amount of hype and "potential"-buying is probably going to happen.
+
+**Charts and info**
+
+http://iotaprice.com/
+
+https://www.iotatoken.com
 
 #### Some in-depth reading
 
