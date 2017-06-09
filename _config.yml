@@ -4,6 +4,11 @@ description: "Altcoin Trading is the forex of cryptocurrencies, with bitcoin as 
 baseurl: ""
 url: "https://www.altcointrading.net"
 
+collections:
+  press:
+    output: true
+    permalink: /:collection/:name
+
 defaults:
  -
     scope:
@@ -30,6 +35,20 @@ defaults:
       stories: false
       author: "https://reddit.com/u/KarlVonBahnhof"
       author_name: "KarlVonBahnhof"
+ -
+   scope:
+     path: "" # all
+     type: "press"
+   values:
+     layout: "forestry"
+     german: false
+     published: true
+     comments: false
+     stories: true
+     genres: "PressRelease" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+     tickers: false
+     author: "mailto:info@altcointrading.net"
+     author_name: "AltcoinTrading"
 
 author: "AltcoinTrading"
 markdown: kramdown

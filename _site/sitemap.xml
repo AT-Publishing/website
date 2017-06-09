@@ -63,6 +63,16 @@
     
     
     <url>
+        <loc>http://localhost:4000/iota</loc>
+        
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/quantum</loc>
+        
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/bat-eth</loc>
         
     </url>
@@ -115,9 +125,6 @@
     
     <url>
         <loc>http://localhost:4000/ico-regulations</loc>
-        
-        <xhtml:link rel="alternate" hreflang="en-us" href="http://localhost:4000/ico-regulations"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
         
     </url>
     

@@ -7,6 +7,27 @@
   
 
     <url>
+      <loc>http://localhost:4000/iota</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>News</news:genres>
+        <news:publication_date>2017-06-04T17:07:00-04:00</news:publication_date>
+        <news:title>Bitfinex is adding IOTA trading</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+  
+  
+
+    <url>
       <loc>http://localhost:4000/bat-eth</loc>
       <news:news>
         <news:publication>
@@ -176,23 +197,6 @@
     
   
   
-
-    <url>
-      <loc>http://localhost:4000/ico-regulations</loc>
-      <news:news>
-        <news:publication>
-          <news:name>Altcoin Trading</news:name>
-          <news:language>en</news:language>
-        </news:publication>
-        <news:genres>Blog, Opinion</news:genres>
-        <news:publication_date>2017-05-09T14:46:00-04:00</news:publication_date>
-        <news:title>Is the end of ICOs approaching?</news:title>
-        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
-        
-      </news:news>
-    </url>
-
-    
   
   
 

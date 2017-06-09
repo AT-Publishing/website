@@ -19,14 +19,34 @@ navi:
           </p>
         {% endif %}
       {% endfor %}
+
+
     </section>
 
     <section id="new-posts">
-      <br>
-      <span id="note">New Posts</span>
 
       {{ site.ads.aads728 }}
 
+
+      <span id="note">New Posts</span>
+
+      {% for post in site.press offset: 0 limit: 2 %}
+        <h4 class="post">
+          <strong>
+            <a href=".{{ post.url }}"><span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}</a>
+          </strong>
+          <small>{{ post.date | date_to_string }}</small>
+        </h4>
+        <p>
+        {{ post.description }}
+        </p>
+      {% endfor %}
+
+
+    <br>
+
+
+    {% unless post.tags contains 'press' %}
       {% for post in site.posts offset: 0 limit: 15 %}
         <h4 class="post">
           <strong>
@@ -53,6 +73,7 @@ navi:
           {% endif %}
         </div>
       {% endfor %}
+     {% endunless %}
     </section>
 
 

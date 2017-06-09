@@ -23,7 +23,7 @@ tags: []
 ---
 
 
-At the current stage the PPY tokens cost $5.20 each, the [ICO - sorry, the crowdfund](https://www.altcointrading.net/ico-regulations) - ends in three days at 15:00 UTC on 14 May 2017, the PPY tokens will be distributed to participants on 30 May 2017. You can invest BTC, ETH, LTC, DOGE, BitShares and [couple other coins to participate](http://prntscr.com/f6pdj3).
+{{ site.mailchimp }} At the current stage the PPY tokens cost $5.20 each, the [ICO - sorry, the crowdfund](https://www.altcointrading.net/ico-regulations) - ends in three days at 15:00 UTC on 14 May 2017, the PPY tokens will be distributed to participants on 30 May 2017. You can invest BTC, ETH, LTC, DOGE, BitShares and [couple other coins to participate](http://prntscr.com/f6pdj3).
 
 [https://www.peerplays.com/crowdfund/](https://www.peerplays.com/crowdfund/)
 

@@ -20,6 +20,17 @@ h4.post-main {background: rgba(122, 131, 141, 0.21);color: #000b17;border-left: 
   color: #ffdc00;
 }
 
+.tag {
+    display: inherit;
+    background: #ffdc00;
+    padding: 1px 7px;
+    color: #fff;
+    font-size: 80%;
+    font-weight: 200;
+    position: relative;
+    top: -2px;
+}
+
 @media(min-width:480px){
   .logo {
     width: 75px;float: none;margin: 0 auto;

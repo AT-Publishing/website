@@ -21,6 +21,9 @@ categories:
 - trading
 tags: []
 ---
+
+{{ site.mailchimp }}
+
 Today's is the day. OkCoin.cn apparently resuming withdrawals - at least this is what the rumor says.
 
 https://twitter.com/cnLedger/status/869934911179735040

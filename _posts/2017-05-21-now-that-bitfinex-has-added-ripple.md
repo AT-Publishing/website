@@ -25,7 +25,7 @@ tags: [feature]
 ---
 
 
-Bitfinex has added Ripple trading recently (May 19 announcement [here](https://www.bitfinex.com/posts/204)), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.
+{{ site.mailchimp }} Bitfinex has added Ripple trading recently (May 19 announcement [here](https://www.bitfinex.com/posts/204)), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.
 
 With Ripple, a double-top going on is already old news:
 

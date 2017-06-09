@@ -24,9 +24,12 @@ categories:
 - trading
 tags: []
 ---
-So whats today's hype about? 
 
-IOTA is a token that is meant to work with the IoT. It promises zero-fee transactions and infinite scalability. 
+{{ site.mailchimp }}
+
+So whats today's hype about?
+
+IOTA is a token that is meant to work with the IoT. It promises zero-fee transactions and infinite scalability.
 
 So far IOTA hasn't been traded on any exchange. There was p2p trading with escrow going on on the [IOTA Slack chanel](http://slack.iota.org), the channel is now closed to new subscribers though and IOTA will be listed on Bitfinex in a few days. Unless you already are in that channel you won't be able to buy IOTA until it launches on Finex.
 
@@ -52,7 +55,7 @@ The team behind IOTA has formed a foundation in Berlin. Names: Dominik Schiener,
 
 **Expectations**
 
-With this type of coin that had a big ICO and OTC market and is premined it is expected that early adopters will cash out at the exchange listing launch, so don't rush with your purchase. 
+With this type of coin that had a big ICO and OTC market and is premined it is expected that early adopters will cash out at the exchange listing launch, so don't rush with your purchase.
 
 After that, a reasonable amount of hype and "potential"-buying is probably going to happen.
 

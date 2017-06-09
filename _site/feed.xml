@@ -5,13 +5,151 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 20:48:07 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 20:48:07 -0400</lastBuildDate>
+    <pubDate>Fri, 09 Jun 2017 05:01:34 -0400</pubDate>
+    <lastBuildDate>Fri, 09 Jun 2017 05:01:34 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
+        <title>Bitfinex is adding IOTA trading</title>
+        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;So whats today’s hype about?&lt;/p&gt;
+
+&lt;p&gt;IOTA is a token that is meant to work with the IoT. It promises zero-fee transactions and infinite scalability.&lt;/p&gt;
+
+&lt;p&gt;So far IOTA hasn’t been traded on any exchange. There was p2p trading with escrow going on on the &lt;a href=&quot;http://slack.iota.org&quot;&gt;IOTA Slack chanel&lt;/a&gt;, the channel is now closed to new subscribers though and IOTA will be listed on Bitfinex in a few days. Unless you already are in that channel you won’t be able to buy IOTA until it launches on Finex.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On Tuesday, June 13, we will be adding support for IOTA (IOT) exchange trading through IOT/USD and IOT/BTC pairs. Margin trading for IOT pairs will be enabled in the coming days as the order book develops suitable liquidity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bitfinex has followed IOTA since its earliest stages of development and supports the project’s innovative approach toward a blockless distributed ledger. We believe the underlying technology can lead to a new ecosystem of applications built upon this decentralized and self-regulating peer-to-peer network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;from https://www.bitfinex.com/posts/206&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/uploads/2017/06/04/iota.png&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/uploads/2017/06/04/iota.png&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The technicalities&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So, IOTA is not on a blockchain, similarly as Ripple although the technology underneath is different. That’s how it can scale and all the rest of it - it is not a blockchain. IOTA uses what they call Tangle:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the Tangle, every single transaction forms a new block and is essentially verified by itself: In order to successfully conduct a transaction, you first have to verify two randomly chosen transactions is the network. This is done with help of a very simple version of proof-of-work, therefore one could argue that transactions aren’t zero-cost. Yet, the transaction costs are essentially not existent, as the needed PoW is so low that every single device is able to independently carry it out. &lt;a href=&quot;https://medium.com/@cryptojudgement/iota-promise-of-a-bright-crypto-future-6b7517349e32&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With this kind of decentralized PoW the scalability is also naturally growing as the network gets used more. This is good for the network effect of money that is needed for micropayments.&lt;/p&gt;
+
+&lt;p&gt;IOTA is premined. There is no mining at all. 2779530283277761 IOTA were created, that is more than 2 · 10^15. Hint: It’s a lot.&lt;/p&gt;
+
+&lt;p&gt;The team behind IOTA has formed a foundation in Berlin. Names: Dominik Schiener, David Sønstebø, Sergey Ivancheglo and Sergei Popov. The development of IOTA was funded via ICO from back in 2015.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Expectations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With this type of coin that had a big ICO and OTC market and is premined it is expected that early adopters will cash out at the exchange listing launch, so don’t rush with your purchase.&lt;/p&gt;
+
+&lt;p&gt;After that, a reasonable amount of hype and “potential”-buying is probably going to happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Charts and info&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;http://iotaprice.com/&lt;/p&gt;
+
+&lt;p&gt;https://www.iotatoken.com&lt;/p&gt;
+
+&lt;h4 id=&quot;some-in-depth-reading&quot;&gt;Some in-depth reading&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@cryptojudgement/iota-promise-of-a-bright-crypto-future-6b7517349e32&quot;&gt;@cryptojudgement: ,,Promise of a bright crypto future”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://altcoinspekulant.wordpress.com/category/iota/&quot;&gt;altcoinspekulant, for the German in you&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Jun 2017 17:07:00 -0400</pubDate>
+        <link>http://localhost:4000/iota</link>
+        <guid isPermaLink="true">http://localhost:4000/iota</guid>
+        
+        
+        <category>altcoins</category>
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>What you need to know about QTUM</title>
+        <description>&lt;p&gt;The coin in the news this week is Quantum - newly traded altcoin that &lt;a href=&quot;https://coinmarketcap.com/currencies/qtum/#charts&quot;&gt;doubled in dollar value between June 1st ‘17 and June 2nd ‘17&lt;/a&gt;. (But this is not a bubble though, is it? Certainly doesn’t look like it. Corrections are a myth, as said someone in Facebook’s Ethereum group.)&lt;/p&gt;
+
+&lt;h3 id=&quot;qtum---fundamentals&quot;&gt;QTUM - Fundamentals&lt;/h3&gt;
+
+&lt;p&gt;Quantum is a Bitcoin/Ethereum hybrid branded as the “business-friendly blockchain”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;By implementing the Bitcoin Improvement Protocols (BIPs), and making use of the Ethereum Virtual Machine, digital currency enthusiasts can finally agree on one platform that will offer stability and direction. – via https://qtum.org/en/general-faq&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The main fundamental advantage of the QTUM blockchain is supposed to be the UTXO model. Each token can only be either “spent” or “unspent”, there is no doublespend issue, in this way the blockchain is more secure.&lt;/p&gt;
+
+&lt;p&gt;That’s what the QTUM people say about their project, anyway.&lt;/p&gt;
+
+&lt;p&gt;The ICO Countdown published a full due dilligence post &lt;a href=&quot;https://medium.com/@icocountdown/due-diligence-pack-for-qtum-7369ef48917b&quot;&gt;here on medium.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;ico-countdowns-due-dilligence-tldr&quot;&gt;ICO Countdown’s Due Dilligence TLDR&lt;/h4&gt;
+
+&lt;p&gt;One worrying thing is that there was apparently something unclear about the QTUM’s lead identity, and there were news about collaborations altered and deleted.&lt;/p&gt;
+
+&lt;p&gt;Turns out the founder, Patric Dai, has been acting in cryptocurrency space &lt;a href=&quot;https://bitcointalk.org/index.php?topic=1720632.msg17970584#msg17970584&quot;&gt;using various western names as he says himself&lt;/a&gt; after he was &lt;a href=&quot;https://bitcointalk.org/index.php?topic=1720632.msg17970464#msg17970464&quot;&gt;called out on bitcointalk&lt;/a&gt;. He was involved in the BitBay exchange and co-founded Tilepay. From comments on bitcointalk:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yes, Shuai Early is Patrick Dai, Steven Dai. And Tilepay’s co-founder, people said he made fake promises at tilepay project, therefor he had several projects before. THB, he should be no face to create more projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The article by &lt;a href=&quot;https://medium.com/@icocountdown/due-diligence-pack-for-qtum-7369ef48917b&quot;&gt;@icocountdown says&lt;/a&gt; that Dai should have stolen some money from developer funds he had access to. He then should have used the money to manipulate prices and profit from the pump and dump.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cdn-images-1.medium.com/max/800/1*E_d_jyZ0T_JaODIjRuLQhg.png&quot;&gt;See the screenshot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Forbes have been much friendlier towards this project - read here https://www.forbes.com/sites/rogeraitken/2017/03/17/qtums-blockchain-crowdfund-scores-over-12m-from-bitcoin-ethereum-investors/#5ee97ed434ef&lt;/p&gt;
+
+&lt;h3 id=&quot;qtum---technicals&quot;&gt;QTUM - Technicals&lt;/h3&gt;
+
+&lt;p&gt;The safest place to bet on this project is &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitmex.com/register/iYQB44&quot;&gt;BitMEX&lt;/a&gt; where they opened QTUM contract trading on June 1st with 2x leverage and 25% cap on changes to fight the manipulation.&lt;/p&gt;
+
+&lt;p&gt;As with any ICO these days, traders have gone apathic towards the fundamentals and are ready to buy cheap anything to dump it on the greater fool two hours later.&lt;/p&gt;
+
+&lt;p&gt;However, the QTUM BitMEX trading was only announced today in their &lt;a href=&quot;http://mailchi.mp/bitmex/crypto-trader-digest-1307645?e=e9cf3ee662&quot;&gt;latest digest&lt;/a&gt; while people have been trading since yesterday already.&lt;/p&gt;
+
+&lt;p&gt;To be more specific: people doubled their money on the QTUM contract yesterday already.&lt;/p&gt;
+
+&lt;p&gt;Technically though, what we see today looks like a bull flag.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/uploads/2017/06/02/qtum-bitmex1.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/uploads/2017/06/02/qtum-bitmex1.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Full specification from BitMEX:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;BitMEX is proud to announce the launch of QTUM Futures contracts, expiry 29 September 12:00 UTC with symbol QTUMU17. Each contract is worth 1 QTUM and the contract offers 2x leverage.&lt;/p&gt;
+
+&lt;p&gt;Since the QTUM platform is still under development, the following rules will apply:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;QTUMU17 will have a 25% Up and Down Limit against the previous session close price to prevent price manipulation. Each session is 2 hours long, and session closes occur every even numbered hour.&lt;/li&gt;
+  &lt;li&gt;Settlement will occur either at the ICO price (if QTUM/XBT trading has not begun) or at the .QTUMXBT30M Index Price if QTUM/XBT has begun trading prior to 28 September 12:00 UTC.
+Further details about this contract can be read in the &lt;a href=&quot;https://www.bitmex.com/app/seriesGuide/QTUM&quot;&gt;QTUM Series Guide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitmex.com/register/iYQB44&quot;&gt;Signup at BitMEX&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Jun 2017 07:27:00 -0400</pubDate>
+        <link>http://localhost:4000/quantum</link>
+        <guid isPermaLink="true">http://localhost:4000/quantum</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>BAT/ETH trading is live</title>
-        <description>&lt;p&gt;Congratulations to everyone who was faster than a regular American’s spermatozoon and got into the BAT presale.&lt;/p&gt;
+        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;Congratulations to everyone who was faster than a regular American’s spermatozoon and got into the BAT presale.&lt;/p&gt;
 
 &lt;p&gt;For everyone else, here’s where you can lose some lunch money over it:&lt;/p&gt;
 
@@ -21,7 +159,7 @@
 
 &lt;p&gt;That’s how the distribution of the token became so much “the rich are getting richer”. Plebs who just wanted in with 1 ETH didn’t stand a chance.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/DBKavddU0AA4T3r.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pbs.twimg.com/media/DBKavddU0AA4T3r.jpg&quot; style=&quot;max-width:100%&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hilarious &lt;a href=&quot;https://twitter.com/search?q=%24BAT&amp;amp;src=ctag&quot;&gt;$BAT&lt;/a&gt; &lt;a href=&quot;https://t.co/qMp5Y9JqjI&quot;&gt;pic.twitter.com/qMp5Y9JqjI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Angelo฿TC (@AngeloBTC) &lt;a href=&quot;https://twitter.com/AngeloBTC/status/869927821463797760&quot;&gt;May 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
 </description>
@@ -36,7 +174,9 @@
     
       <item>
         <title>OkCoin resumed BTC withdrawals</title>
-        <description>&lt;p&gt;Today’s is the day. OkCoin.cn apparently resuming withdrawals - at least this is what the rumor says.&lt;/p&gt;
+        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+
+&lt;p&gt;Today’s is the day. OkCoin.cn apparently resuming withdrawals - at least this is what the rumor says.&lt;/p&gt;
 
 &lt;p&gt;https://twitter.com/cnLedger/status/869934911179735040&lt;/p&gt;
 
@@ -109,7 +249,8 @@
     
       <item>
         <title>Ripple vs Stellar</title>
-        <description>&lt;p&gt;Bitfinex has added Ripple trading recently (May 19 announcement &lt;a href=&quot;https://www.bitfinex.com/posts/204&quot;&gt;here&lt;/a&gt;), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.&lt;/p&gt;
+        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+&lt;p&gt;Bitfinex has added Ripple trading recently (May 19 announcement &lt;a href=&quot;https://www.bitfinex.com/posts/204&quot;&gt;here&lt;/a&gt;), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.&lt;/p&gt;
 
 &lt;p&gt;With Ripple, a double-top going on is already old news:&lt;/p&gt;
 
@@ -250,7 +391,8 @@ Using the set options operation, every account selects another account as its in
     
       <item>
         <title>How the legacy finance might be feeling about cryptocurrencies</title>
-        <description>&lt;p&gt;Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl’d Ethereum since it was $9 – or something like that.&lt;/p&gt;
+        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+&lt;p&gt;Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl’d Ethereum since it was $9 – or something like that.&lt;/p&gt;
 
 &lt;p&gt;Back in the day when Ethereum didn’t exist yet there were running jokes in Bitcoin forums about one day getting as rich as to be able to bribe senators. Well, these days nobody jokes about things like that anymore. By now the people from two three years back are probably just getting closer to where the target audience of &lt;a href=&quot;http://www.mauldineconomics.com/&quot;&gt;Mauldin Economics&lt;/a&gt; is: people who have earned some, yet aren’t the ones who move the ocean.&lt;/p&gt;
 
@@ -377,189 +519,6 @@ The Daily Chart http://imgur.com/a/MA8UM&lt;/p&gt;
         
         
         <category>xmr</category>
-        
-        <category>altcoins</category>
-        
-      </item>
-    
-      <item>
-        <title>Peerplays crowdfund ends in 3 days</title>
-        <description>&lt;p&gt;At the current stage the PPY tokens cost $5.20 each, the &lt;a href=&quot;https://www.altcointrading.net/ico-regulations&quot;&gt;ICO - sorry, the crowdfund&lt;/a&gt; - ends in three days at 15:00 UTC on 14 May 2017, the PPY tokens will be distributed to participants on 30 May 2017. You can invest BTC, ETH, LTC, DOGE, BitShares and &lt;a href=&quot;http://prntscr.com/f6pdj3&quot;&gt;couple other coins to participate&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.peerplays.com/crowdfund/&quot;&gt;https://www.peerplays.com/crowdfund/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;whats-peerplays&quot;&gt;What’s Peerplays&lt;/h4&gt;
-
-&lt;p&gt;Peerplays aim to work as a betting platform. Because it’s on the blockchain, it will be available from all countries. Users place a bet, the bet is processed on the blockchain (it’s a dapp), profits are distributed via PPY - the Peerplays profit sharing tokens.&lt;/p&gt;
-
-&lt;p&gt;It is an interesting concept, except the red flag that comes with everything that is &lt;em&gt;the UBER of [industry]&lt;/em&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Peerplays will eliminate the need for traditional bookies in their sports betting.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is this problem with people who keep coming back to estabilished bookies because everyone keeps coming back to estabilished bookies. Peerplays would require people to trust a dapp and it would require them to work with a dapp, that’s two very new things.&lt;/p&gt;
-
-&lt;p&gt;But who knows. The Bookie app that should enable betting is not going to be out before November 2017.&lt;/p&gt;
-
-&lt;p&gt;However unlikely, maybe it will be sports betting made simple, and maybe the network effect will not play out because that’s a more substantial thing with poker rooms and trading platforms - places where you need other people to come by otherwise the experience sucks. Sports betting is something you do on your own, after all.&lt;/p&gt;
-
-&lt;p&gt;Either way, this is what everyone likes to hear preferentially these days: &lt;strong&gt;Peerplays is a divident paying token&lt;/strong&gt;. Yay!&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Peerplays Makes HODLing Profitable with Automatic Fee-Sharing Distributions: “Peerplays is aiming to be the first truly Decentralized Autonomous Cooperative (DAC) [...] With this new profit sharing module, all the &lt;strong&gt;fees that Peerplays charges&lt;/strong&gt; for smart contract operations and peer-to-peer wagering will be &lt;strong&gt;distributed directly to the holders of the core Peerplays blockchain tokens&lt;/strong&gt;, just like a traditional co-op pays &lt;strong&gt;dividends to its shareholders&lt;/strong&gt;.” &lt;a href=&quot;https://steemit.com/peerplays/@cryptoprometheus/peerplays-makes-hodling-profitable-with-automatic-fee-sharing-distributions&quot;&gt;- via steem&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
-
-&lt;p&gt;The ICO:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.peerplays.com/news/faq/&quot;&gt;Peerplays FAQ&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.peerplays.com/news/primary_crowdfund/&quot;&gt;Crowdfund info&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;People and networks:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/user/FalloutComplex&quot;&gt;FalloutComplex on Reddit&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://ca.linkedin.com/in/jonathanbahai&quot;&gt;Johnatan Bahai on LinkedIn&lt;/a&gt;, &lt;a href=&quot;https://nl.linkedin.com/in/dan-maloney&quot;&gt;Daniel Maloney of http://www.pbsa.info/ on LinkedIn&lt;/a&gt;. Speaking of PBSA, despite fancy sounding names, their &lt;a href=&quot;http://www.pbsa.info/partners/&quot;&gt;partners&lt;/a&gt; are a freelancer on Upwork and a “&lt;a href=&quot;http://prntscr.com/f6pjxo&quot;&gt;master marketer and speaker on Internet marketing, success, happiness and the enlightened workplace&lt;/a&gt;”.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://t.me/PeerplaysBlockchain&quot;&gt;Peerplays Telegram Group&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://soundcloud.com/beyond-bitcoin-hangouts/e167-beyond-bitcoin-peerplays-update-blockpay-ceo-talks-privacy-faddats-nanochip-implant&quot;&gt;The CEO Michael Maloney in an old interview at Beyond Bitcoin&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 11 May 2017 12:49:00 -0400</pubDate>
-        <link>http://localhost:4000/peerplays</link>
-        <guid isPermaLink="true">http://localhost:4000/peerplays</guid>
-        
-        
-        <category>altcoins</category>
-        
-      </item>
-    
-      <item>
-        <title>Is the end of ICOs approaching?</title>
-        <description>&lt;p&gt;A lot has changed since &lt;a href=&quot;https://www.altcointrading.net/ico-2016/&quot;&gt;the last post on ICOs&lt;/a&gt; in summer 2016.&lt;/p&gt;
-
-&lt;h3 id=&quot;lawmakers-have-noticed&quot;&gt;Lawmakers have noticed&lt;/h3&gt;
-
-&lt;p&gt;There has been a post on 2nd May 2017 at law111 and elsewhere that caught the attention of the crypto community. To be honest, it was an interesting thing for some die hard bitcoiners since they started projecting the EndOfEtherium™ - the ICOs will get regulated, there will be no reason to buy ETH anymore, ETH will collapse and BTC will get it’s market cap share back. It is a bit too far out there, nonetheless there seem to be regulations in the making. The &lt;a href=&quot;https://www.law111.com/11state-lawmakers-increasing-their-focus-on-vc-and-blockchain-technology&quot;&gt;post on law111&lt;/a&gt; says:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In early 2017, multiple state legislatures have taken action reflecting their recognition of the potential impact of virtual currency and blockchain technology. These actions have ranged from requests for further information regarding the technology to an active debate regarding a specific use case.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;…continuing with a state-by-state US legislations.&lt;/p&gt;
-
-&lt;p&gt;In a more human readable form, this was discussed at &lt;a href=&quot;https://www.crowdfundinsider.com/2017/03/96598-initial-coin-offering-probably-regulated-securities-law/&quot;&gt;crowdfundinginsider.com&lt;/a&gt; in March already:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For those of you not familiar with what ICOs are, here’s a quick summary. Lots of folks working in the blockchain world needed money to fund their project or startup. So they decided to invent their own “coin” variant and sold those coins to fund their project/startup, in exchange for some financial upside in the project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sound familiar? That’s because it is. This is the story of every capital-hungry startup/business/entrepreneur.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’ve heard ICOs described as a “donation with financial upside” or “crowdsale” (whatever that is), and a number of other things—to try to avoid securities laws. First of all, a donation is a donation— you’re giving away money (or bitcoin), and there is no financial upside to a donation. A “crowdsale” of tokens—to the extent those “tokens” represent securities—is still a security. There are a number of different things that ICOs are doing, so it’s difficult to address the entire industry in one article, but let me impart some guidance to make this easier to understand: If walks like a duck and quacks like a duck, its probably a duck.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;eric-voorhees-was-the-first-to-test-the-waters&quot;&gt;Eric Voorhees was the first to test the waters&lt;/h4&gt;
-
-&lt;p&gt;The penalty for such offense is a fine and restriction for the person that was the head of the enterprise - typically they cannot serve as a chief executive of any company again, or they cannot raise capital again. This is supposed to mean the end of the person’s career although apparently &lt;a href=&quot;https://www.sec.gov/litigation/admin/2014/33-9592.pdf&quot;&gt;Eric Voorhees is still around and doing well&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;June 3, 2014, via SEC.gov/litigation – Respondent has undertaken to: Forgo directly or indirectly, including, but not limited to, through any entity owned or controlled by Respondent, participating in any issuance of any security in an unregistered
-transaction, in exchange for bitcoins or other virtual currency, for a period of five years.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;His later crypto-focused company that he founded, ShapeShift, &lt;a href=&quot;https://www.crunchbase.com/organization/shapeshift#/entity&quot;&gt;had normal funding rounds&lt;/a&gt; like your usual startup would have.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-is-the-regulation-actually-for&quot;&gt;What is the regulation actually for?&lt;/h4&gt;
-
-&lt;p&gt;Well, it is supposed to be a way to check the entrepreneur, in theory it should reduce the amount of scam artists in the industry.&lt;/p&gt;
-
-&lt;p&gt;First thing, however, it is safe to say it will take the regulators a while to figure out how to deal with the very new thing an ICO is.&lt;/p&gt;
-
-&lt;p&gt;Another thing is, many people who had done ICOs before are certainly safe. There is several hundreds of crypto tokens by now. Some of them were funded by pseudonymous identities. In some cases the project that was backing them doesn’t exist anymore. Nobody will ever know.&lt;/p&gt;
-
-&lt;p&gt;Wait…is there a way this could possibly be done in the future as well? Could this actually mean the scams will not go away, not even with the regulation?&lt;/p&gt;
-
-&lt;h3 id=&quot;new-icos-in-2017&quot;&gt;New ICOs in 2017&lt;/h3&gt;
-
-&lt;p&gt;Tim Draper has been “the person in the news” this week when he announced his participation in Tezos token ICO. Some people even said, &lt;em&gt;this might be the last ICO before regulations so I might just invest&lt;/em&gt;. That’s totally a … reason /s.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.pehub.com/2017/05/investor-tim-draper-to-participate-in-blockchain-token-sale-for-first-time-reuters/#&quot;&gt;Via Reuters News:&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Draper, an early supporter of bitcoin and its underlying blockchain financial ledger technology, told Reuters in an interview he will for the first time participate in a so-called “initial coin offering” (ICO) of Tezos slated later [in May 2017].
-“The best thing I can do is lead by example,” said Draper, on his plan to participate in Tezos’ token offering. “Over time, I actually feel that some of these tokens are going to improve the world, and I want to make sure those tokens get promoted as well. I think Tezos is one of those tokens.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;With someone so influential backing a token, this could likely be a self fulfulling prophecy.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tezos&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Tezos is a self-governing technology running with proof of stake. All upgrades and changes can be done automatically, without forking and without political infights. There should also be incentive for making the inovation on the Tezos ledger rather than forking off an appcoin. The Tezor creators argue the appcoins dilute the value of the parent coin rather than contribute to the network effect.&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.tezos.com/&quot;&gt;Tezos Homepage&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Your usual popular ICO 2017 resources:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/1216757095051232/&quot;&gt;Facebook Group&lt;/a&gt; - closed group, login and ask for membership. The group is not very active, mostly just people posting announcements.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.icocountdown.com/&quot;&gt;ICO Countdown&lt;/a&gt; - the only site that has been featured here in 2016 and stays top.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://icoindex.com/&quot;&gt;Icoindex.com&lt;/a&gt;and their Slack channel - &lt;a href=&quot;https://icoindex-official.herokuapp.com/&quot;&gt;invite&lt;/a&gt; - they are also on &lt;a href=&quot;https://www.facebook.com/ICOindex/&quot;&gt;facebook and are not getting very good&lt;/a&gt; reviews.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;you-still-have-to-make-your-own-decision&quot;&gt;You still have to make your own decision&lt;/h4&gt;
-
-&lt;p&gt;Look at the idea, the team, the marketing, the roadmap and last but not least the token. The price, the allocation (how much will the developers have?) and inflation.&lt;/p&gt;
-
-&lt;p&gt;The market cap thing is flawed, there is a good in-depth article about that on &lt;a href=&quot;https://blog.sia.tech/want-to-deflate-the-token-bubble-fix-the-market-cap-indicator-d50f7f1e1ec4&quot;&gt;blog.sia.tech&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Take Zcash for example. It has a current market cap of $110 million with a total supply of 1.2 million ZEC, but over the next five years 9.8 million ZEC will enter existence. This super-high inflation will drastically increase supply each year, which in turn will affect the market cap. There is no way, however, for the average investor to quickly discover this inflation factor.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We recommend adding a new metric called inflation factor that indicates how the market cap could be affected over the next five years by token inflation:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Inflation factor = (new supply over 5 years) / (current total supply) * 100%.&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Inflation factors calculated for the top 15 tokens &lt;a href=&quot;https://cdn-images-1.medium.com/max/1600/1*goypbtaXje1QRL7KGoAK4g.png&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You see that only by making economically sound decision rather than spreading your money randomly across all ICOs will shrink the amount of feasible ICOs a lot. But indeed, reason is never enough to stop the bubble.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 09 May 2017 14:46:00 -0400</pubDate>
-        <link>http://localhost:4000/ico-regulations</link>
-        <guid isPermaLink="true">http://localhost:4000/ico-regulations</guid>
-        
-        
-        <category>eth</category>
         
         <category>altcoins</category>
         
