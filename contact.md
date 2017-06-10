@@ -35,6 +35,9 @@ For questions, corrections in content or love and hate you can either use our Di
 
 For business inquiries, advertising and the like please send an email to jmt@altcointrading.net or use the form below.
 
+
+**Contact Us:**
+
 <style>
 input, textarea {
   display:block;
@@ -42,7 +45,7 @@ input, textarea {
 }
 </style>
 
-<form method="POST" action="http://formspree.io/jmt@altcointrading.net">
+<form method="POST" action="https://formspree.io/jmt@altcointrading.net">
 Your Name: <input type="text" name="name"><br>
 Email: <input type="email" name="_replyto"><br>
 Message: <textarea name="message"></textarea>
