@@ -9,7 +9,7 @@ tickers: XMRUSD
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Ledger CTO says Monero viable
-date: 2017-06-15 02:43
+date: 2017-06-15 06:36
 description: The likelihood of Monero getting its first hardware wallet is growing
   - the CTO of Ledger wallet says the next step is providing ETA.
 permalink: "/ledger-monero"
@@ -20,7 +20,7 @@ image_alt:
 categories:
 - xmr
 - wallets
-update: 2017-06-15 02:43
+update: '2017-06-15T10:45:15.570Z'
 tags: []
 ---
 
