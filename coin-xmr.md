@@ -29,4 +29,4 @@ You can trade XMR on {% aff Poloniex https://poloniex.com %} with fees of .15%/.
 
 **Monero Storage**
 
-Trezor hardware wallet so far doesn't have XMR integration even though that's what we all wish for.
+Trezor hardware wallet so far doesn't have XMR integration even though that's what we all wish for. [Ledger CTO said in June 2017 they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero).
