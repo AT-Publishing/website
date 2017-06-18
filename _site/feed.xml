@@ -5,9 +5,144 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 12:55:11 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 12:55:11 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 16:47:26 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 16:47:26 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Lending in the time of chain split</title>
+        <description>&lt;p&gt;Even if you are die hard altcoiner, if you are trading altcoins actively on Poloniex or Bittrex you definitely have some bitcoins. And if you sometimes take a break from trades,
+maybe you loan them out for interest.&lt;/p&gt;
+
+&lt;p&gt;If you don’t lend out your bitcoin, &lt;a href=&quot;https://1august.org&quot;&gt;there is a new website that was shared on reddit that is dedicated to explaining the 1st of August thing&lt;/a&gt; - the day when the bitcoin network might split (but might not). The chain split might occur but might not.&lt;/p&gt;
+
+&lt;p&gt;The general rule is if you have your bitcoins in a wallet where you own your private keys (&lt;a href=&quot;https://electrum.org/#download&quot;&gt;Electrum&lt;/a&gt;, &lt;a href=&quot;https://shop.trezor.io/?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt;, &lt;a href=&quot;https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s&quot;&gt;Ledger&lt;/a&gt; to name the best) you will be able to extract both chains after the split.&lt;/p&gt;
+
+&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
+&lt;p&gt;If you have your bitcoins on an exchange but &lt;strong&gt;not in an open margin position or lent out&lt;/strong&gt;, you should &lt;strong&gt;probably&lt;/strong&gt; get both chains automatically. The exchange is however not forced to support both chains though, but there are no statements available regarding this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;As of today, exchanges haven’t released statements regarding the possible network split in August so the only available information is their statements from the possible hard fork of core vs unlimited in March 2017. This post will be updated once there are statements available and newsletter subscribers will get a notification, as usually.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;if-you-dont-lend-your-coins&quot;&gt;If you don’t lend your coins&lt;/h4&gt;
+
+&lt;p&gt;So, if you don’t have to have bitcoins on the exchange and you don’t want to sell them, your best bet is to have them in your wallet where you easily control the private key.&lt;/p&gt;
+
+&lt;p&gt;You can always go for &lt;a href=&quot;https://electrum.org/#download&quot;&gt;Electrum&lt;/a&gt; which doesn’t have the new hip frontend design but is actually easy to use while it also stood the test of time without hacks and heists. If you don’t have a cold storage (hardware wallet) you are probably too late ordering it now. &lt;a href=&quot;https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s&quot;&gt;Ledger Nano S&lt;/a&gt; is sold out on backorder, ETA September 2017 which is too late. As for &lt;a href=&quot;https://shop.trezor.io/?a=fany@tutanota.com&quot;&gt;Trezor&lt;/a&gt;, some amount of Trezors is available right now (for a markup) or you can opt in for the normally-priced backorder Trezor (ETA August 2017 – too late).&lt;/p&gt;
+
+&lt;h4 id=&quot;if-you-make-money-lending-to-the-people-who-borrow-to-gamble&quot;&gt;If you make money lending to the people who borrow to gamble&lt;/h4&gt;
+
+&lt;p&gt;The following is what exchanges have put out regarding possible chain splits. There were statements when the whole Bitcoin Core vs Bitcoin Unlimited affair was going on, but the problem was essentially the same: the network split.&lt;/p&gt;
+
+&lt;h3 id=&quot;poloniex&quot;&gt;Poloniex&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/5zz0a9/poloniex_our_position_on_the_possible_hard_fork/&quot;&gt;Poloniex - Our position on possible hard fork&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you have Bitcoin on loan at the time of the fork, you do not have it on balance and therefore you cannot receive corresponding Bitcoin Unlimited. The terms of the loan dictate that you will receive the same number and type of coins you loaned within X days plus the agreed upon interest.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Spot traders unambiguously own their purchases, and are the rightful recipients of the coins on the new chain and they can do with them what they like, whether that is selling them to others or taking them off of the platform entirely.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;TLDR;&lt;/strong&gt; Both coins listed. If you lend out your bitcoins you don’t have them in your wallet, therefore you cannot receive the coins of the new chain. If you hold bitcoins in your wallet (spot or margin), you receive coins from both chains.&lt;/p&gt;
+
+&lt;p&gt;Poloniex is the only exchange that has this kind of lending policy for hard fork, maybe it has something to do with how the exchange engines are coded.&lt;/p&gt;
+
+&lt;h3 id=&quot;bitfinex&quot;&gt;Bitfinex&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/62a1pv/how_bitfinex_will_handle_a_hardfork_with_respect/&quot;&gt;How Bitfinex will handle hard fork&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is for the split into BTC-Core and BTC-Unlimited but the procedure is likely to be the same for the scaling split:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the event of a hardfork that results in a chain split, Bitfinex and other major exchanges—such as Poloniex, Kraken, and GDAX—are faced with the challenge of resolving complex accounting issues in margin trading. Ideally, each exchange would agree to a uniform and coherent methodology; however, each serves different audiences and have different market structures, making a universal solution unworkable. For example, Bitfinex has decided to take a different approach than the one proffered by Poloniex.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After much analysis, we have chosen to handle the accounting of margin trading and funding based on the model of how stock spinoffs, dividends, and distributions are handled in equity markets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Specifically, in the case of a hardfork event, &lt;strong&gt;lenders will receive both BTC and BTU&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Anyone that is short BTC/USD or long any BTC trading pair (ETH/BTC, LTC/BTC, etc.) [that is, borrowing BTC] will owe BTU to the lender, effectively making the user short BTU. An exception is in the case that BTC is borrowed but not in use as margin collateral, in which case BTU accrues to the lender.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Users that are margin long BTC/USD or short any BTC trading pair will receive BTU.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;TLDR;&lt;/strong&gt; Both coins listed. If you are borrowing BTC for your margin position, you &lt;strong&gt;don’t&lt;/strong&gt; own coins from the new chain for your borrowed coins. If you are lending out BTC to other people, you own the new chain’s coins.&lt;/p&gt;
+
+&lt;p&gt;The agreement of several exchanges regarding the listing of coins of both chains is &lt;a href=&quot;https://www.scribd.com/document/342194766/Hardfork-Statement-3-17-11-00am&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;No new contingency statement has been released regarding the Jihan Wu drama, in May though PGP said Bitfinex might list a BIP148 token trading.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/6dcrim/bitfinex_is_likely_going_to_list_a_bip148_chain/&quot;&gt;Bitcoin is likely going to list a BIP148 token&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kraken&quot;&gt;Kraken&lt;/h3&gt;
+
+&lt;p&gt;Kraken has not released any statement statement regarding bitcoin fork (not now and not for the Unlimited drama), but the exchange was signed in the &lt;a href=&quot;https://www.scribd.com/document/342194766/Hardfork-Statement-3-17-11-00am&quot;&gt;BCC/BCU agreement&lt;/a&gt; alongside Bitfinex so it is likely their plan will be the same: both coins listed, borrowed bitcoins don’t own new chain. &lt;a href=&quot;http://blog.kraken.com/post/151941749242/on-the-imminent-ethereum-eth-hard-fork&quot;&gt;However, during the Ethereum network split Kraken did not support ETC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;exchanges-with-no-lending&quot;&gt;Exchanges with no lending&lt;/h3&gt;
+
+&lt;h4 id=&quot;bitstamp&quot;&gt;Bitstamp&lt;/h4&gt;
+
+&lt;p&gt;Bitstamp is adding Litecoin on Monday the 19th of June 2017. In the statement that announced the LTC trading they also mentioned margin trading feature. It’s not clear whether there will also be lending like on Bitfinex or whether they will handle the funds privately like Kraken. Either way, for one public lending system is unlikely with their slow engines, and the whole margin function is not likely to be rolled out until it is clear whether there will be the split or not.&lt;/p&gt;
+
+&lt;p&gt;Bitstamp was also signed under &lt;a href=&quot;https://www.scribd.com/document/342194766/Hardfork-Statement-3-17-11-00am&quot;&gt;the agreement&lt;/a&gt; regarding BCC/BCU alongside Bitfinex or Kraken.&lt;/p&gt;
+
+&lt;h4 id=&quot;bittrex&quot;&gt;Bittrex&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bittrex.zendesk.com/hc/en-us/articles/115004479127-Statement-about-potential-Bitcoin-hard-fork&quot;&gt;Statement from March 2017&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bittrex would like to support both tokens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bittrex also signed &lt;a href=&quot;https://www.scribd.com/document/342194766/Hardfork-Statement-3-17-11-00am&quot;&gt;the agreement&lt;/a&gt; regarding BCC/BCU alongside Bitfinex or Kraken.&lt;/p&gt;
+
+&lt;h3 id=&quot;derivative-exchanges&quot;&gt;Derivative Exchanges&lt;/h3&gt;
+
+&lt;p&gt;If you trade futures or use them to hedge, you also need to know what your exchange will do.&lt;/p&gt;
+
+&lt;h4 id=&quot;cryptofacilities&quot;&gt;Cryptofacilities&lt;/h4&gt;
+
+&lt;p&gt;Cryptofacilities sent out their plan for bitcoin BCC/BCU hard fork &lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/60xxe3/cryptofacilities_hard_fork_contingency_procedures/&quot;&gt;via email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Indices: Crypto Facilities would calculate a new XBZ/USD real-time index (for marking) and reference rate (for settlement), representing the combined price of XBT and XBU. All outstanding bitcoin Futures and Turbos would be marked to and settled on XBZ/USD. This means that they would reference the combined value of both tokens, such that the impact of a potential split of value is mitigated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It may be operationally impossible to implement a XBZ/USD index without delay right after a fork. For as long as the integrity of the new index cannot be assured, we reserve the right to mark outstanding contracts manually or to suspend trading. We would strive to minimize any such interruptions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;All new maturities of bitcoin-related Futures would be listed on either of XBT or XBU, depending on what we deem to be the “major” token. We reserve the right to not list any new Futures for as long as no major token has emerged or to list Futures on both tokens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;TLDR;&lt;/strong&gt; Trading will be halted until a dominant chain emerges. All contracts will be settled to the combined dollar value of both chains once the network splits.&lt;/p&gt;
+
+&lt;h4 id=&quot;deribit&quot;&gt;Deribit&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/DeribitExchange/status/844087435856371712&quot;&gt;Deribit will handle a fork&lt;/a&gt; similarly as Cryptofacilities - contracts will be settled at the combined price.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In case of a hard fork our existing futures and options will at expire at BTC + BTU price. More details will follow in a newsletter soon.&lt;/p&gt;&amp;mdash; Deribit (@DeribitExchange) &lt;a href=&quot;https://twitter.com/DeribitExchange/status/844087435856371712&quot;&gt;21 March 2017&lt;/a&gt;&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 18 Jun 2017 10:12:00 -0400</pubDate>
+        <link>http://localhost:4000/lending-btc-chain-split</link>
+        <guid isPermaLink="true">http://localhost:4000/lending-btc-chain-split</guid>
+        
+        <category>popular</category>
+        
+        
+        <category>trading</category>
+        
+      </item>
     
       <item>
         <title>Tezos fundraiser scheduled 1 July</title>
@@ -391,148 +526,6 @@ Further details about this contract can be read in the &lt;a href=&quot;https://
         
         
         <category>eth</category>
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Ripple vs Stellar</title>
-        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
-&lt;p&gt;Bitfinex has added Ripple trading recently (May 19 announcement &lt;a href=&quot;https://www.bitfinex.com/posts/204&quot;&gt;here&lt;/a&gt;), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.&lt;/p&gt;
-
-&lt;p&gt;With Ripple, a double-top going on is already old news:&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/uploads/2017/05/21/hJtMYhLc.jpg&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/uploads/2017/05/21/hJtMYhLc.jpg&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is what the lovely Ripple chart looks like in 1D version on Bitfinex:&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.tradingview.com/x/ctF9dUWV&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.tradingview.com/x/ctF9dUWV&quot; alt=&quot;&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;would-you-buy-ripple-now&quot;&gt;Would you buy Ripple now?&lt;/h4&gt;
-
-&lt;p&gt;Buy Ripple only of you trust its fundamentals, as a long term investment - and this is entirely your call. There is no problem storing it - &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s&quot;&gt;Ledger Nano S&lt;/a&gt; has a Ripple wallet now.&lt;/p&gt;
-
-&lt;h3 id=&quot;ripples-fundamentals&quot;&gt;Ripple’s Fundamentals&lt;/h3&gt;
-
-&lt;p&gt;To some altcoin traders, Ripple is a &lt;em&gt;centralized bankster scamcoin&lt;/em&gt;, a sort of “step back” in the world of crypto. To others, Ripple being &lt;a href=&quot;https://dealbook.nytimes.com/2013/11/11/the-rush-to-coin-virtual-money-with-real-value/?_php=true&amp;amp;_type=blogs&amp;amp;_r=1&quot;&gt;backed by banks&lt;/a&gt; is actually a good, reassuring sign.&lt;/p&gt;
-
-&lt;p&gt;Some things to keep in mind:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ripple is not a blockchain.&lt;/strong&gt; No blockchain also means there is no scaling problem and so in this way, Ripple as a medium for payments and settlements is better. The Ripple network works in such a way that transactions are forgotten once they are through so the ledger doesn’t grow as fast as blockchains do (all of them, Ethereum too).&lt;/p&gt;
-
-&lt;p&gt;In Ripple, only address balances are kept - no histories. Meaning, &lt;strong&gt;Ripple is only a payment protocol&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ripple cannot be mined. Transactions get validated via consensus mechanism where participants are responsible to choose a set of validators that will not be fraudulent: &lt;a href=&quot;https://ripple.com/technical-faq-ripple-consensus-ledger/&quot;&gt;https://ripple.com/technical-faq-ripple-consensus-ledger/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/i6mhQcpPtyk&quot;&gt;https://youtu.be/i6mhQcpPtyk&lt;/a&gt;&lt;/p&gt;
-
-&lt;script async=&quot;&quot; custom-element=&quot;amp-youtube&quot; src=&quot;https://cdn.ampproject.org/v0/amp-youtube-0.1.js&quot;&gt;&lt;/script&gt;
-
-&lt;amp-youtube data-videoid=&quot;i6mhQcpPtyk&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-youtube&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;h3 id=&quot;ripples-competition-stellar&quot;&gt;Ripple’s Competition: Stellar&lt;/h3&gt;
-
-&lt;p&gt;Stellar makes it possible to send remittances cheaply across borders via its tokens, lumens. Originally, Stellar was based on the Ripple protocol (and founded by one of the Ripple founders) but after changes in the Ripple codebase Stellar forked.&lt;/p&gt;
-
-&lt;p&gt;Compared to Ripple being picked up mostly by banks, Stellar is a platform that gets used &lt;a href=&quot;http://fortune.com/2016/12/06/fintech-stellar-blockchain-stripe-remittances/&quot;&gt;IRL in non-profits&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;On a call with Fortune, McCaleb, Stellar’s cofounder and chief technology officer, expressed his desire to connect everyone in the world through the Stellar network. “We’re trying to be an Internet-level protocol for payments,” he said, drawing an analogy to SMTP, a standard for email transmission.
-He added: “We want everybody to plug into it and for money to float seamlessly.”Other companies are also competing to become the standard for blockchain-based cross-border payments. Among them are McCaleb’s former firm Ripple, and Chain, a fintech startup backed by Visa.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is no mining in Stellar. Confirmations are done by selected trusted nodes - AKA Stellar Consensus Protocol. To a non-techie it is similar to Ripple: In Bitcoin, any miner is a trusted node by default, in consensus mechanism participants choose a trusted set of validators.&lt;/p&gt;
-
-&lt;p&gt;The reality is more complex:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At a low level, the consensus mechanism used by Stellar is a decentralized version of PBFT called &lt;a href=&quot;https://www.stellar.org/papers/stellar-consensus-protocol.pdf&quot;&gt;Stellar Consensus Protocol&lt;/a&gt;, whereas &lt;a href=&quot;https://ripple.com/dev-blog/consensus-whitepaper-released/&quot;&gt;Ripple uses probabilistic voting&lt;/a&gt;. Those are fairly different even though they both tackle solving the same problem of reaching consensus between nodes. SCP biases towards correctness at the expense of liveness; Ripple follows a model similar to Bitcoin allowing ledger forks to occur temporarily and relying on majority validation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It is not clear from this but the Stellar network &lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/ledger.html&quot;&gt;remembers transactional history&lt;/a&gt;. “Transactions are now a series of operations that affect the state of the world. For example, a single transaction can trivially say A sends to B if B sends to C. These abstractions, coupled with the network’s distributed exchange, produce a surprisingly rich vocabulary for contracts. Bonds, escrow, collateralized debt and the Lightning Network are all possible on the network.” - via &lt;a href=&quot;https://bitcoinmagazine.com/articles/stellar-s-jed-mccaleb-what-s-new-on-the-upgraded-stellar-network-1452109082/&quot;&gt;bitcoinmagazine&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At the system level, &lt;strong&gt;Stellar’s native currency is inflationary whereas Ripple’s is not&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;More to this below.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At the ledger operation level, Stellar adopted a very &lt;a href=&quot;http://www.faqs.org/rfcs/rfc1832.html&quot;&gt;strict API based off XDR&lt;/a&gt;, Ripple is built on top of &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;Google Protocol Buffers&lt;/a&gt;. XDR can be thought of as “statically typed” vs “dynamically typed” for something like proto buf: the tradeoffs made are speed of development (in Ripple) vs safety and correctness (for Stellar’s approach).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.quora.com/What-is-the-main-difference-between-Stellar-and-Ripple-protocols&quot;&gt;via Quora&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;the-inflation&quot;&gt;The Inflation&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Stellar has limited supply with built-in inflation&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.stellar.org/developers/guides/concepts/inflation.html&quot;&gt;via stellar.org:&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The Stellar distributed network has a built-in, fixed, nominal inflation mechanism. New lumens are added to the network at the rate of 1% each year. Each week, the protocol distributes these lumens to any account that gets over .05% of the “votes” from other accounts in the network.
-Using the set options operation, every account selects another account as its inflation destination, or nominee to receive new currency. The inflation destination will persist until changed with another set options operation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ripple has limited supply buy the native currency gets destroyed with successful transactions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.xrpchat.com/topic/2207-xrps-deflationary-nature/&quot;&gt;via xrpchat&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; I guess this is a very basic-level question, but I don’t see it usually comes up on this forum whenever people speculate about XRP’s future price:&lt;/p&gt;
-
-&lt;p&gt;Given the deflationary nature of XRP, do you believe this feature might ever be an obstacle for XRP’s success? I mean, people will tend to save their XRP and not to spend them because they will be supposed to get more valuable over time, but at the same time this could also result in a constraint of XRP market and liquidity. By contrast, the Stellar network automatically applies a small inflation rate of 1% to its currency that could help solve this issue.&lt;/p&gt;
-
-&lt;p&gt;What is your opinion? Could this be an original design flaw of XRP?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A:&lt;/strong&gt; Small amount of xrp gets destroyed with each transaction and its expected that as demand and transaction will increase that destruction rate will increase which will cause the same effect as inflation because of slowly decreasing supply but since things are in initial stage its gonna take long time in my opinion.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-giveaway&quot;&gt;The giveaway&lt;/h4&gt;
-
-&lt;p&gt;If you hold &lt;strong&gt;Bitcoins or Ripple&lt;/strong&gt; you can invest in Stellar/Lumens for free (which is frankly a no-brainer). &lt;strong&gt;There is a &lt;a href=&quot;https://www.stellar.org/blog/bitcoin-claim-lumens-2/&quot;&gt;second Stellar giveaway for Bitcoin hodlers lined up for the summer 2017&lt;/a&gt;.&lt;/strong&gt; The giveaway starts on June the 27th and the only drawback is you will need to have a facebook profile that confirms you reside in an unrestricted state:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Due to regulatory restrictions, this program is closed to residents of the U.S. states of New York, Georgia, New Hampshire, and Connecticut as well as the nations of Iran, Cuba, North Korea, and other countries subject to sanctions by the United States.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;There’s probably still enough time to make one.&lt;/p&gt;
-
-&lt;p&gt;You will get Lumens automatically if you have BTC or XRP on Kraken, Poloniex, Deribit or BTC38.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;so-ripple-is-deflationary&quot;&gt;So, Ripple is deflationary.&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;There is currently circulating 38,532,538,149 XRP out of 99,994,681,824.21 XRP.&lt;/li&gt;
-  &lt;li&gt;There is currently circulating 9,624,904,739 XLM out of 102,920,806,155 XLM.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Both coins are really only possibly valuable for payment processing – at least as long as Paypal or something like that is not an option. Well.&lt;/p&gt;
-
-&lt;p&gt;Meh.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unlike some other fintechs, Ripple is bank centric. Banks connect to the Ripple network not their customers. This has two big benefits. First, customers are used to trusting banks (which is better than having to get comfortable with entrusting your money to some fintech you never heard of). Second, regulators are comfortable with banks (which means they will not pull the plug on Ripple as they might with non bank fintechs). - via &lt;a href=&quot;https://www.linkedin.com/pulse/ripple-vs-swift-payment-revolution-david-blair&quot;&gt;linkedin&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is something to the obsession with bank coins. They say that when the wall street decides to pour all the money into something you would be stupid for not taking the ride with them. It’s just that in the case of Ripple, the banks &lt;a href=&quot;https://www.linkedin.com/pulse/ripple-vs-swift-payment-revolution-david-blair&quot;&gt;are thrilled to use Ripple as a layer&lt;/a&gt; but that can only increase the value of Ripple by burning the currency as transactions get settled.&lt;/p&gt;
-
-&lt;p&gt;Ultimately, given the hype on altcoin forums whenever anything gets official acknowledgement from the shiny official people up there in the institutions, it’s quite likely the “fundamental” price growth is going to be small compared to the &lt;em&gt;buy the rumor&lt;/em&gt; hype. In other words, bubbles.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, Stellar looks more compatible with Bitcoin - maybe as an offchain layer, one day?&lt;/p&gt;
-</description>
-        <pubDate>Mon, 22 May 2017 02:38:00 -0400</pubDate>
-        <link>http://localhost:4000/ripple-vs-stellar</link>
-        <guid isPermaLink="true">http://localhost:4000/ripple-vs-stellar</guid>
-        
-        <category>feature</category>
-        
-        
-        <category>altcoins</category>
         
         <category>trading</category>
         
