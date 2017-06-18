@@ -1,6 +1,13 @@
 [
   
   {
+    "title":"Gary Vee on Ethereum",
+    "date":"2017-06-18 17:12:00 -0400"
+    "content":"Video of gary Vee endorsing Ethereum when asked about it by a fan."
+    "url":"/garyvee-eth"
+  },
+  
+  {
     "title":"Lending in the time of chain split",
     "date":"2017-06-18 10:12:00 -0400"
     "content":"Collecting the data on exchange policy in case of Bitcoin network split. If you lend out bitcoins, you need to read this."

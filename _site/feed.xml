@@ -5,9 +5,36 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 16:47:26 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 16:47:26 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 17:35:14 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 17:35:14 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Gary Vee on Ethereum</title>
+        <description>&lt;p&gt;Entrepreneur and influencer Gary Vaynerchuk on Ethereum:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ethereum’s got huge upside […] I still know that there’s so many people that know so much more, but here’s what I would say: It can’t lose over time. So I don’t know how that manifests but it’s binary. It’s going to work over time. Here’s what I don’t know - I don’t know how I think because I haven’t done my homework and what governments will do about it. [Ethereum is backed by big companies] - Big companies are much smaller than governments. So I don’t know that. The reason I love Ethereum is that it’s so much more agnostic than a currency. […] So overall I think it’s gonna work.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/mkR4-ZDAWcI&quot;&gt;On Youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;script async=&quot;&quot; custom-element=&quot;amp-youtube&quot; src=&quot;https://cdn.ampproject.org/v0/amp-youtube-0.1.js&quot;&gt;&lt;/script&gt;
+
+&lt;amp-youtube data-videoid=&quot;mkR4-ZDAWcI&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-youtube&gt;
+
+&lt;p&gt;There is &lt;a href=&quot;https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/&quot;&gt;another version on Facebook in the Ethereum group&lt;/a&gt; that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he’s going to say ‘You know what, fuck it,’ and go full on crypto. &lt;a href=&quot;http://archive.is/L3dMO&quot;&gt;archive&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Gary Vee has been asked many time about bitcoin in his Youtube ask show but every time he simply said he understands neither crypto nor the regulations hence he can’t talk about that.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Jun 2017 17:12:00 -0400</pubDate>
+        <link>http://localhost:4000/garyvee-eth</link>
+        <guid isPermaLink="true">http://localhost:4000/garyvee-eth</guid>
+        
+        
+        <category>eth</category>
+        
+      </item>
     
       <item>
         <title>Lending in the time of chain split</title>
@@ -495,37 +522,6 @@ Further details about this contract can be read in the &lt;a href=&quot;https://
         <link>http://localhost:4000/okcoin-eth</link>
         <guid isPermaLink="true">http://localhost:4000/okcoin-eth</guid>
         
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Huobi is adding ETH on May 31st</title>
-        <description>&lt;p&gt;Huobi announced an announcement this morning (fluffypony style!), the actual news came soon after from @cnLedger.&lt;/p&gt;
-
-&lt;p&gt;Many had high hopes for the withdrawal situation update – but it’s “just” ETH trading.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Huobi has millions of users in China. Up to now none of the &amp;quot;big 3&amp;quot; listed any coins except BTC &amp;amp; LTC. Many CN traders are unaware of ETH &lt;a href=&quot;https://t.co/Wdd8sE8WuG&quot;&gt;https://t.co/Wdd8sE8WuG&lt;/a&gt;&lt;/p&gt;&amp;mdash; cnLedger (@cnLedger) &lt;a href=&quot;https://twitter.com/cnLedger/status/868457182429233155&quot;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;People &lt;a href=&quot;https://cointelegraph.com/news/bitcoin-withdrawals-expected-to-resume-as-chinese-exchanges-ask-users-for-funds-info&quot;&gt;still cannot withdraw coins from major Chinese exchanges&lt;/a&gt; but the BTC and LTC premium started diminishing on rumors the withdrawals might be resumed in June.&lt;/p&gt;
-
-&lt;p&gt;There was a letter shared via @cnLedger saying the exchanges were not asked to suspend withdrawals, that they did that on their own accord:&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;PBoC reply to BTC user: we did not ask trading platforms to suspend w/d. It was a decision made by themselves. The inspection has not ended. &lt;a href=&quot;https://t.co/mi3IxXR93g&quot;&gt;pic.twitter.com/mi3IxXR93g&lt;/a&gt;&lt;/p&gt;&amp;mdash; cnLedger (@cnLedger) &lt;a href=&quot;https://twitter.com/cnLedger/status/867651423038603264&quot;&gt;May 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;…Surely they were asked nicely.&lt;/p&gt;
-
-&lt;p&gt;Either way, Huobi is the first major exchange to list ETH. That could mean a boost for the coin as new wave of speculators (and bots) chimes in. &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/6deopl/daily_discussion_friday_may_26_2017/di3fto6/&quot;&gt;Don’t forget more than 50% of the volume on the now-zero-fee Japanese exchange Bitflyer is done by three monster-bots only&lt;/a&gt; - the volatility there was insane.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.okcoin.com/post/161088088064/okcoin-to-migrate-futures-activity-to-okexcom&quot;&gt;OkCoin had a big announcement too this week&lt;/a&gt; as they announced the migration to a new platform OKEx (coins-only, no fiat hence possibly less intervention) but no word about new altcoin implementations.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 May 2017 09:29:00 -0400</pubDate>
-        <link>http://localhost:4000/huobi-eth</link>
-        <guid isPermaLink="true">http://localhost:4000/huobi-eth</guid>
-        
-        
-        <category>eth</category>
         
         <category>trading</category>
         
