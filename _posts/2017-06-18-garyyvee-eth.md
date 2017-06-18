@@ -33,6 +33,13 @@ Entrepreneur and influencer Gary Vaynerchuk on Ethereum:
 <amp-youtube data-videoid="mkR4-ZDAWcI" layout="responsive" width="700" height="360"></amp-youtube>
 
 
-There is [another version on Facebook in the Ethereum group](https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/) that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he's going to say 'You know what, fuck it,' and go full on crypto. [archive](http://archive.is/L3dMO)
+There is [another version on Facebook in the Ethereum group](https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/) that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he's going to say 'You know what, fuck it,' and go full on crypto.
+
+Here is a [screencast of the missing part](http://www.dailymotion.com/video/x5r4p9h) from the private video from Facebook:
+
+<script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
+<amp-dailymotion data-videoid="x5r4p9h" layout="responsive" width="700" height="360"></amp-dailymotion>
+
+<hr>
 
 Gary Vee has been asked many time about bitcoin in his Youtube ask show but every time he simply said he understands neither crypto nor the regulations hence he can't talk about that.

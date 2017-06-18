@@ -5,8 +5,8 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 17:35:14 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 17:35:14 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 18:00:48 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 18:00:48 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -23,7 +23,15 @@
 
 &lt;amp-youtube data-videoid=&quot;mkR4-ZDAWcI&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-youtube&gt;
 
-&lt;p&gt;There is &lt;a href=&quot;https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/&quot;&gt;another version on Facebook in the Ethereum group&lt;/a&gt; that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he’s going to say ‘You know what, fuck it,’ and go full on crypto. &lt;a href=&quot;http://archive.is/L3dMO&quot;&gt;archive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is &lt;a href=&quot;https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/&quot;&gt;another version on Facebook in the Ethereum group&lt;/a&gt; that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he’s going to say ‘You know what, fuck it,’ and go full on crypto.&lt;/p&gt;
+
+&lt;p&gt;Here is a &lt;a href=&quot;http://www.dailymotion.com/video/x5r4p9h&quot;&gt;screencast of the missing part&lt;/a&gt; from the private video from Facebook:&lt;/p&gt;
+
+&lt;script async=&quot;&quot; custom-element=&quot;amp-dailymotion&quot; src=&quot;https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js&quot;&gt;&lt;/script&gt;
+
+&lt;amp-dailymotion data-videoid=&quot;x5r4p9h&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-dailymotion&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Gary Vee has been asked many time about bitcoin in his Youtube ask show but every time he simply said he understands neither crypto nor the regulations hence he can’t talk about that.&lt;/p&gt;
 </description>
