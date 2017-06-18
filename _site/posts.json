@@ -1,6 +1,27 @@
 [
   
   {
+    "title":"Tezos fundraiser scheduled 1 July",
+    "date":"2017-06-15 10:12:00 -0400"
+    "content":"Updated - Details about the funding ways, conditions set by Bitcoin Suisse and conversion rates from BTC"
+    "url":"/tezos"
+  },
+  
+  {
+    "title":"Ledger CTO says Monero viable",
+    "date":"2017-06-15 06:36:00 -0400"
+    "content":"The likelihood of Monero getting its first hardware wallet is growing - the CTO of Ledger wallet says the next step is providing ETA."
+    "url":"/ledger-monero"
+  },
+  
+  {
+    "title":"Important - Jaxx Vulnerability",
+    "date":"2017-06-11 21:39:00 -0400"
+    "content":"Jaxx wallet has a serious vulnerability that is being worked on - but at the moment is there."
+    "url":"/jaxx-vulnerability"
+  },
+  
+  {
     "title":"Bitfinex is adding IOTA trading",
     "date":"2017-06-04 17:07:00 -0400"
     "content":"Bitfinex just issued a statement they will be adding IOTA pairs. IOTA is the blockchain for the internet of things."

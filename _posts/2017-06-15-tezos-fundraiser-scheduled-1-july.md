@@ -10,9 +10,8 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Tezos fundraiser scheduled 1 July
 date: 2017-06-15 10:12
-update: '2017-06-15T14:12:28.499Z'
-description: Tezos foundation just sent out an email with the ICO date. Contribution
-  via Bitcoun Suisse is open as of today.
+update: '2017-06-18T11:12:28.499Z'
+description: "Updated - Details about the funding ways, conditions set by Bitcoin Suisse and conversion rates from BTC"
 permalink: "/tezos"
 image_alt:
 - Tezos fundraiser will happen soon!
@@ -20,7 +19,8 @@ image:
 - "/img/emotions/whales.jpg"
 categories:
 - trading
-tags: []
+tags:
+- popular
 ---
 
 
@@ -59,3 +59,34 @@ The Tezos Foundation is extremely pleased with the fantastic community that is s
 Note: If you intend to participate through Bitcoin Suisse rather than directly through https://tezos.com, bear in mind that funding arrangements can take longer than expected - in some cases, two weeks or longer. So if you want to ensure your participation, you should start the process immediately.
 
 <hr>
+
+### The fees and all
+
+Some information about the Bitcoin Suisse way: There is a fee of 100 CHF (cca 100USD) and 1.25% fee on the money you want to contribute. You have to AML/KYC with your ID, selfie with ID and proof of address. They say they are getting a lot of requests.
+
+To look at the numbers, if you want to send them 10K in bitcoins, your fee will be about 225 USD. You can also send them Ether or several kinds of fiat but in that case expect more haircut as the ICO is on BTC blockchain and all contributions will be changed into bitcoins.
+
+**What you get for this fee in pre-sale is that you are guaranteed to be put in the blocks that get a bonus:**
+
+The Tezos ICO is capped by transactions that will make it in between the first 2000 blocks after opening.
+
+```
+BTC Block # Bonus   XTZ/BTC
+0-399       20%     6’000
+400-799     15%     5’750
+800-1’199   10%     5’500
+1’200-1’599 5%      5’250
+1’600-1’999 0%      5’000
+```
+
+So for one bitcoin invested you are kind-of guaranteed to receive at least 5250 tezzies.
+
+It is not clear how they are planning to do it, overpaying the fees on bundled transactions or what, to get the transactions confirmed, but that is the phrasing of it in the agreement:
+
+> Contributors who have signed up with and participate through Bitcoin Suisse AG, and who have completed their onboarding and funding at least 4 hours prior to the applicable rounds, is guaranteed participation in the "bonus" phase of the respective rounds.
+
+> N.B: In case of force majeure, no guarantees regarding allocation or pricing of tokens are applicable.
+
+> N.B: Exact conditions regarding the crowd sale may be subject to change from the side of TZ and founders.
+
+Force majeure means 'unforeseeable circumstances that prevent someone from fulfilling a contract'. That's a normal condition to have in a contract but at the same time there is always a lot of unforeseeable circumstances in crypto.

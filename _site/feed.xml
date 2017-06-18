@@ -5,9 +5,158 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Jun 2017 04:09:42 -0400</pubDate>
-    <lastBuildDate>Sat, 10 Jun 2017 04:09:42 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Jun 2017 12:55:11 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Jun 2017 12:55:11 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Tezos fundraiser scheduled 1 July</title>
+        <description>&lt;p&gt;Tezos Foundation just sent out an email detailing the eagerly awaited ICO.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://image.prntscr.com/image/XujkhUErQmCyI-hpq7qM2A.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;text-of-the-email&quot;&gt;Text of the email:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Tezos Fundraiser scheduled for July 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is a message from the Tezos foundation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Tezos Foundation is pleased to announce that the legal structure of the Tezos Foundation, its fundraiser, and related contracts have been approved by the Swiss Foundation Supervisory Authority.&lt;/p&gt;
+
+&lt;p&gt;With this regulatory stamp of approval, we are now excited to announce the official start of the &lt;strong&gt;Tezos fundraiser on Saturday, July 1, 2017 at 6 am UTC&lt;/strong&gt;. We chose this date to give everyone enough time to complete their funding arrangements.&lt;/p&gt;
+
+&lt;p&gt;We believe it’s important to do things right and protect our contributors and users from risk, which is why we went beyond current industry practice and waited to receive official approval before accepting contributions. We expect this high level of care to serve our technology, our community, and the world as we continue to build and grow this essential infrastructure for a free and prosperous society.&lt;/p&gt;
+
+&lt;p&gt;For technical information on how to participate in the Tezos fundraiser, please always refer exclusively to the Tezos website at https://tezos.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contributions will open at https://tezos.com on July 1 at 6 am UTC&lt;/strong&gt;. In addition, we have approved our broker, &lt;strong&gt;Bitcoin Suisse&lt;/strong&gt;, to offer its customers participation in the Tezos fundraiser for a fee. Note that only Bitcoin Suisse and no other service has been approved to do so, and that using such a service requires you to trust the service provider with your private keys.&lt;/p&gt;
+
+&lt;p&gt;If you would like to contribute, only do so through our own website https://tezos.com once the fundraiser opens, or through &lt;strong&gt;&lt;a href=&quot;https://www.bitcoinsuisse.ch/tezos&quot;&gt;https://www.bitcoinsuisse.ch/tezos&lt;/a&gt; starting today&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;No other websites are authorized to provide information on Tezos or accept contributions to the Tezos fundraiser.&lt;/p&gt;
+
+&lt;p&gt;To stay updated with developments, sign up for the mailing list at https://tezos.com.&lt;/p&gt;
+
+&lt;p&gt;The Tezos Foundation is extremely pleased with the fantastic community that is starting to sprout around the Tezos project. The interest in the Tezos fundraiser has been electrifying. It is an amazing vote of confidence in decentralized governance and in the world class team developing the project. That interest has been matched by engineering development resulting in a testnet that has been operating for several months already and a production version that is expected to ship later this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Many thanks&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Johann, Guido, Diego, and the Tezos Foundation team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Note: If you intend to participate through Bitcoin Suisse rather than directly through https://tezos.com, bear in mind that funding arrangements can take longer than expected - in some cases, two weeks or longer. So if you want to ensure your participation, you should start the process immediately.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-fees-and-all&quot;&gt;The fees and all&lt;/h3&gt;
+
+&lt;p&gt;Some information about the Bitcoin Suisse way: There is a fee of 100 CHF (cca 100USD) and 1.25% fee on the money you want to contribute. You have to AML/KYC with your ID, selfie with ID and proof of address. They say they are getting a lot of requests.&lt;/p&gt;
+
+&lt;p&gt;To look at the numbers, if you want to send them 10K in bitcoins, your fee will be about 225 USD. You can also send them Ether or several kinds of fiat but in that case expect more haircut as the ICO is on BTC blockchain and all contributions will be changed into bitcoins.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What you get for this fee in pre-sale is that you are guaranteed to be put in the blocks that get a bonus:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Tezos ICO is capped by transactions that will make it in between the first 2000 blocks after opening.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BTC Block # Bonus   XTZ/BTC
+0-399       20%     6’000
+400-799     15%     5’750
+800-1’199   10%     5’500
+1’200-1’599 5%      5’250
+1’600-1’999 0%      5’000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So for one bitcoin invested you are kind-of guaranteed to receive at least 5250 tezzies.&lt;/p&gt;
+
+&lt;p&gt;It is not clear how they are planning to do it, overpaying the fees on bundled transactions or what, to get the transactions confirmed, but that is the phrasing of it in the agreement:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Contributors who have signed up with and participate through Bitcoin Suisse AG, and who have completed their onboarding and funding at least 4 hours prior to the applicable rounds, is guaranteed participation in the “bonus” phase of the respective rounds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;N.B: In case of force majeure, no guarantees regarding allocation or pricing of tokens are applicable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;N.B: Exact conditions regarding the crowd sale may be subject to change from the side of TZ and founders.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Force majeure means ‘unforeseeable circumstances that prevent someone from fulfilling a contract’. That’s a normal condition to have in a contract but at the same time there is always a lot of unforeseeable circumstances in crypto.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Jun 2017 10:12:00 -0400</pubDate>
+        <link>http://localhost:4000/tezos</link>
+        <guid isPermaLink="true">http://localhost:4000/tezos</guid>
+        
+        <category>popular</category>
+        
+        
+        <category>trading</category>
+        
+      </item>
+    
+      <item>
+        <title>Ledger CTO says Monero viable</title>
+        <description>&lt;p&gt;Everyone who managed to buy the blip to $16 on Bitfinex XMRUSD the other day, good on you! It’s time for Monero to rise from the ashes and lure back in all the butthurt ex-holders who got fluffyponied.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://reddit.com/u/btchip&quot;&gt;CTO of Ledger&lt;/a&gt; says the team determined Monero integration is viable after all. Next step is providing the estimated time to delivery.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ledgerwallet/comments/6hdo1r/does_ledger_nano_s_support_monero_xmr_yet/&quot;&gt;Thread on reddit&lt;/a&gt; from just two hours ago&lt;/p&gt;
+
+&lt;p&gt;u/btchip: &lt;em&gt;From our current evaluation we’re convinced it’s doable. Next step will be to provide an ETA.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 15 Jun 2017 06:36:00 -0400</pubDate>
+        <link>http://localhost:4000/ledger-monero</link>
+        <guid isPermaLink="true">http://localhost:4000/ledger-monero</guid>
+        
+        
+        <category>xmr</category>
+        
+        <category>wallets</category>
+        
+      </item>
+    
+      <item>
+        <title>Important - Jaxx Vulnerability</title>
+        <description>&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;: &lt;a href=&quot;https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/&quot;&gt;vxlabs.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Even when your Jaxx has a security PIN configured, anyone with 20 seconds of (network) access to your PC can extract your 12 word backup phrase and copy it down. Jaxx does not have to be running for this to happen.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;With the 12 word backup phrase, they can later restore your wallet, including all of your private keys, on their own computers, and then proceed to transfer away all of your cryptocurrency.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The main problem is that the Jaxx software encrypts the mnemonic using a hard-coded encryption key, instead of making use of a strong user-supplied password. (As Daira Hopwood points out in the comments, using the PIN would not be sufficient.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This means we can easily read and decrypt the full recovery phrase from local storage using sqlite3 and some straight-forward code.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I successfully tested this vulnerability on the Jaxx Chrome extension v1.2.17 and the Jaxx Linux desktop app 1.2.13.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have BTC, ETH, ETC or other coins in Jaxx &lt;a href=&quot;https://image.prntscr.com/image/H0bBXL7eQvmoiHnzyhF5nQ.png&quot;&gt;get them out now&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you only ever used the Jaxx mobile apps your coins are apparently safe (not if you use both desktop and and mobile though).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: &lt;a href=&quot;https://image.prntscr.com/image/jfXeeLw_Ri2VJjd-sz60fg.png&quot;&gt;People report stolen ETH, ETC and ZEC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you lost coins report it &lt;a href=&quot;https://t.me/whalepoolbtc&quot;&gt;on whalepool telegram&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Jun 2017 21:39:00 -0400</pubDate>
+        <link>http://localhost:4000/jaxx-vulnerability</link>
+        <guid isPermaLink="true">http://localhost:4000/jaxx-vulnerability</guid>
+        
+        
+        <category>wallets</category>
+        
+      </item>
     
       <item>
         <title>Bitfinex is adding IOTA trading</title>
@@ -352,7 +501,7 @@ Using the set options operation, every account selects another account as its in
 
 &lt;p&gt;You will get Lumens automatically if you have BTC or XRP on Kraken, Poloniex, Deribit or BTC38.&lt;/p&gt;
 
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
+&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-iframe width=&quot;728px&quot; height=&quot;90px&quot; layout=&quot;responsive&quot; data-aa=&quot;147076&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://ad.a-ads.com/147076?size=728x90&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt;&lt;/div&gt;
 &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;so-ripple-is-deflationary&quot;&gt;So, Ripple is deflationary.&lt;/h4&gt;
@@ -386,141 +535,6 @@ Using the set options operation, every account selects another account as its in
         <category>altcoins</category>
         
         <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>How the legacy finance might be feeling about cryptocurrencies</title>
-        <description>&lt;div class=&quot;mailchimpfix&quot;&gt; &lt;amp-iframe width=&quot;400px&quot; height=&quot;300px&quot; layout=&quot;fixed&quot; sandbox=&quot;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&quot; src=&quot;https://amp2disqus.netlify.com/altcointrading/signup.html&quot;&gt;&lt;amp-img layout=&quot;fill&quot; src=&quot;/img/ads/ad-placeholder.jpg&quot; placeholder=&quot;&quot;&gt;&lt;/amp-img&gt;&lt;/amp-iframe&gt; &lt;/div&gt;
-&lt;p&gt;Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl’d Ethereum since it was $9 – or something like that.&lt;/p&gt;
-
-&lt;p&gt;Back in the day when Ethereum didn’t exist yet there were running jokes in Bitcoin forums about one day getting as rich as to be able to bribe senators. Well, these days nobody jokes about things like that anymore. By now the people from two three years back are probably just getting closer to where the target audience of &lt;a href=&quot;http://www.mauldineconomics.com/&quot;&gt;Mauldin Economics&lt;/a&gt; is: people who have earned some, yet aren’t the ones who move the ocean.&lt;/p&gt;
-
-&lt;p&gt;Below are excerpts taken from a today’s newsletter on Mauldin Economics. The letter does not even mention let alone endorse cryptocurrencies (&lt;a href=&quot;https://www.youtube.com/watch?v=hrrF6Wz61HE&quot;&gt;although the autors have in the past&lt;/a&gt;), but it is an interesting insight into the minds of a lot people who on Reddit would be called &lt;em&gt;normies&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Apparently, no matter how zerohedge “every day is a doomsday” it sounds, these people might be starting to worry about the &lt;a href=&quot;http://www.zerohedge.com/news/2016-05-11/what-will-global-economy-look-after-great-reset&quot;&gt;Great Reset&lt;/a&gt;, the re-evaluation of the markets. The &lt;a href=&quot;http://archive.is/djUcU&quot;&gt;newsletter&lt;/a&gt; seems to be targeting people who have good income and reinvest the extra money so that it doesn’t lie around losing value. That means, a lot of people.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We need […] to restructure our portfolios to make sure we get as much of our wealth as we possibly can to the “other side” of the coming crisis […] We just have to get there with our assets intact.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you read the &lt;a href=&quot;http://archive.is/djUcU&quot;&gt;full thing&lt;/a&gt; you’ll learn why the debt-economy could collapse and all the rest of it in detail.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, the newsletter is primarily a pitch and the main point consist mainly of the modern portfolio theory getting beaten. If there is a truly global crisis …&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I believe that diversifying among asset classes will simply diversify your losses during the next global recession.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Hence …&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I think the answer lies in diversifying among noncorrelated &lt;em&gt;trading strategies&lt;/em&gt; that can invest in any asset class.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;… And that’s about it, with one little detail - it’s focused on ETFs. Diverse ETF trading strategies.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You know how somebody will talk about getting a time-consuming task done and then the next person says, “There’s an app for that”? No matter what asset you want, there’s now an ETF for that. I am constantly amazed how narrowly focused ETFs can be. There is now an ETF that focuses its investments just on companies in the ETF industry. It’s not all large-cap-index ETFs anymore. &lt;strong&gt;Some really small, niche-market ETFs have attracted significant capital.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;What I find interesting is how they particularly consider the niche ETFs. It almost sounds like they’d take any ETF, and perhaps the more outlandish the better.&lt;/p&gt;
-
-&lt;p&gt;Seems that in case there were a cryptocurrency ETF, there would be plenty of buyers.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 May 2017 09:11:00 -0400</pubDate>
-        <link>http://localhost:4000/diversification-craze</link>
-        <guid isPermaLink="true">http://localhost:4000/diversification-craze</guid>
-        
-        
-        <category>trading</category>
-        
-        <category>eth</category>
-        
-        <category>altcoins</category>
-        
-      </item>
-    
-      <item>
-        <title>A &quot;This Is Gentlemen&quot; Moment</title>
-        <description>&lt;p&gt;Something sober to thin down the moonjuice before the weekend:&lt;/p&gt;
-
-&lt;h3 id=&quot;ethereum-past-100&quot;&gt;Ethereum past $100&lt;/h3&gt;
-
-&lt;p&gt;r/ethtrader&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’m not liking this whole “Bitcoin to the Moon on devasted fundamentals,” thing we got going on right now. Having to resist the fomo.
-I certainly hope those off chain scaling fanatics drop the price if BTC forks,I don’t want to be left behind.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;ba94139b-7ccb-4cc3-93bc-42da8a30efa1&quot; data-embed-created=&quot;2017-05-19T12:12:38.822Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/6c0opi/we_hit_100_mirin_my_btc_hodlings/dhrcy8s/&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/6c0opi/we_hit_100_mirin_my_btc_hodlings/&quot;&gt;We hit $100!! &amp;#x27;Mirin my BTC hodlings? 😜&lt;/a&gt;.&lt;/div&gt;
-
-&lt;p&gt;What caused the jump?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;could be ripple pump earlier this week is selling off into ETH + big announcements coming up next week.
-but the real answer is no one really knows except more buyers than sellers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;0fbdf20c-6593-469c-a796-129e21884251&quot; data-embed-created=&quot;2017-05-19T12:14:01.121Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/6c0opi/we_hit_100_mirin_my_btc_hodlings/dhr5ms4/&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/ethtrader/comments/6c0opi/we_hit_100_mirin_my_btc_hodlings/&quot;&gt;We hit $100!! &amp;#x27;Mirin my BTC hodlings? 😜&lt;/a&gt;.&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/Ethereum/&quot;&gt;Facebook group&lt;/a&gt; posters remain quite conservative, expecting mostly $200 or $300 ETH by the end of 2017, although $500 can be seen too.&lt;/p&gt;
-
-&lt;h3 id=&quot;bitcoin-hitting-2000-on-bitfinex&quot;&gt;Bitcoin hitting $2000 on Bitfinex&lt;/h3&gt;
-
-&lt;p&gt;r/bitcoinmarkets&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;u/Merlin560: &lt;strong&gt;Point and Figure Update&lt;/strong&gt;
-It did not take long to hit our first price target at $1,940. And now we are at the &lt;strong&gt;Long Pole&lt;/strong&gt;.
-The price looks like it just keeps getting stronger. The Alts continue move up as well. Is this because the Japanese are going nuts? Is it because there are bad bongos coming out of China? Or is it just “growth.”
-Anyone telling you definitively what is driving this will be lying to you.
-For now the pole grows higher. If it turns quickly expect to see lows around $1,800. Obviously, that is not the end of the world.
-But, I am going to sit back and enjoy this. It was payday today…and I made more on paper before six AM this morning that I got paid last week. Not a bad place to me.
-Enjoy it while its going up.
-PS: Happy Birthday to my daughter!
-The Daily Chart http://imgur.com/a/MA8UM&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;reddit-embed&quot; data-embed-media=&quot;www.redditmedia.com&quot; data-embed-parent=&quot;false&quot; data-embed-live=&quot;false&quot; data-embed-uuid=&quot;c46c276e-da5f-45f8-9339-6fda983100cb&quot; data-embed-created=&quot;2017-05-19T12:01:28.838Z&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/6c1eim/daily_discussion_friday_may_19_2017/dhrh84o/&quot;&gt;Comment&lt;/a&gt; from discussion &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/6c1eim/daily_discussion_friday_may_19_2017/&quot;&gt;[Daily Discussion] Friday, May 19, 2017&lt;/a&gt;.&lt;/div&gt;
-
-&lt;p&gt;For those who don’t know, a “long pole” warning means a correction is due. However, in bubbles these corrections sometimes don’t come – the worse is then the burst.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 May 2017 02:19:00 -0400</pubDate>
-        <link>http://localhost:4000/all-green</link>
-        <guid isPermaLink="true">http://localhost:4000/all-green</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>Monero mining malware</title>
-        <description>&lt;p&gt;Just a few days after the WannaCry mass ransomware a Monero mining malware has been reported.&lt;/p&gt;
-
-&lt;div class=&quot;clearfix clearfix adfix&quot;&gt;&lt;amp-ad layout=&quot;responsive&quot; width=&quot;728px&quot; height=&quot;90px&quot; type=&quot;adsense&quot; data-ad-client=&quot;ca-pub-6979812205705127&quot; data-ad-slot=&quot;4445157690&quot;&gt;&lt;/amp-ad&gt;&lt;/div&gt;
-&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit.&lt;/p&gt;
-
-&lt;p&gt;WannaCry ransomware’s outbreak during the weekend was mitigated by having its kill switch domain registered. It was only a matter of time, however, for other cybercriminals to follow suit. Case in point: the emergence of UIWIX ransomware (detected by Trend Micro as RANSOM_UIWIX.A) and one notable Trojan our sensors detected.&lt;/p&gt;
-
-&lt;p&gt;Apart from WannaCry and UIWIX, our sensors also detected a Trojan delivered using EternalBlue—Adylkuzz (TROJ_COINMINER.WN). This malware turns infected systems into zombies and steals its resources in order to mine for the cryptocurrency Monero.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.trendmicro.com/trendlabs-security-intelligence/wannacry-uiwix-ransomware-monero-mining-malware-follow-suit/&quot;&gt;Read the full report.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 May 2017 03:41:00 -0400</pubDate>
-        <link>http://localhost:4000/monero-mining-malware</link>
-        <guid isPermaLink="true">http://localhost:4000/monero-mining-malware</guid>
-        
-        
-        <category>xmr</category>
-        
-        <category>altcoins</category>
         
       </item>
     

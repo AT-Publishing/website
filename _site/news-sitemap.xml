@@ -7,6 +7,63 @@
   
 
     <url>
+      <loc>http://localhost:4000/tezos</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-06-15T10:12:00-04:00</news:publication_date>
+        <news:title>Tezos fundraiser scheduled 1 July</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/ledger-monero</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-06-15T06:36:00-04:00</news:publication_date>
+        <news:title>Ledger CTO says Monero viable</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
+      <loc>http://localhost:4000/jaxx-vulnerability</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>News</news:genres>
+        <news:publication_date>2017-06-11T21:39:00-04:00</news:publication_date>
+        <news:title>Important - Jaxx Vulnerability</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>http://localhost:4000/iota</loc>
       <news:news>
         <news:publication>
