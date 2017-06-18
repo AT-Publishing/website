@@ -17,7 +17,7 @@ image_alt:
 #tags:
 #- "popular"
 
-update: 2017-03-20 22:42
+update: 2017-06-18 18:18 -04:00
 german: "monero-cold-storage-2017/"
 comments: false
 stories: true
@@ -34,6 +34,13 @@ ________________________
 
 
 {{ site.ads.aads728 }}
+
+
+Update June 2017: [Ledger CTO said they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero)
+
+
+<hr>
+
 
 Not so long ago there were rumors about various wallet providers finally integrating Monero - desktop wallets, light clients, hardware wallets. Turns out we got all of this for DASH, also for ETH, in some cases for ZEC, DAO, REP...Not for XMR though.
 
