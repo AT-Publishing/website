@@ -15,7 +15,7 @@ description: It looks like Slush & Co. don't want to miss out after the Ledger p
   promised to implement on Monero, but...
 permalink: "/trezor-monero"
 image:
-- "/_site/img/wallets/trezor-alena-slush.jpg"
+- "/_site/img/bitfinex/gox.png"
 image_alt:
 - According to a steemit article, there would be a bounty.
 categories:
