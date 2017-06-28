@@ -9,8 +9,8 @@ tickers: ''
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Trezor might be getting Monero, too
-date: 2017-06-28 03:09 +01:00
-update: '2017-06-28 03:29 +01:00'
+date: 2017-06-28 03:09
+update: 2017-06-28 03:29
 description: It looks like Slush & Co. don't want to miss out after the Ledger people
   promised to implement on Monero, but...
 permalink: "/trezor-monero"

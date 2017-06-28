@@ -5,9 +5,36 @@
     <description>Altcoin Trading is the forex of cryptocurrencies, with bitcoin as the base currency.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Jun 2017 18:00:48 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Jun 2017 18:00:48 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Jun 2017 03:33:37 +0200</pubDate>
+    <lastBuildDate>Wed, 28 Jun 2017 03:33:37 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Trezor might be getting Monero, too</title>
+        <description>&lt;p&gt;Could it be that Trezor people don’t want to lose their customers for Ledger?&lt;/p&gt;
+
+&lt;p&gt;In mid June 2017 the &lt;a href=&quot;https://www.altcointrading.net/ledger-monero&quot;&gt;CTO of Ledger wallet said on Reddit they would implement Monero, someday&lt;/a&gt;. There is no ETA yet and probably will not be any time soon.&lt;/p&gt;
+
+&lt;p&gt;Apparently, Slush of Satoshi Labs (the company behind Trezor wallet) is probably not willing to be left behind:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/2017/06/28/slush-monero.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/slushcz/status/783654392071323649&quot;&gt;Link to tweet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Any time scale of this is as unclear as with the Ledger wallet though:&lt;a href=&quot;https://www.reddit.com/r/Monero/comments/68ulcx/would_raising_money_for_the_development_of/dh2kril/&quot;&gt; Slush apparently doesn’t have time to work on this so he is looking for someone from the Monero community to do the code.&lt;/a&gt; There already is an older implementation of Monero into the Trezor firmware and it needs modifications.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://steemit.com/programming/@arcitecx/bounty-5-btc-for-xmr-implementation-on-trezor&quot;&gt;According to a post from Steemit, Slush apparently offers 5 BTC for this gig.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Jun 2017 03:09:00 +0200</pubDate>
+        <link>http://localhost:4000/trezor-monero</link>
+        <guid isPermaLink="true">http://localhost:4000/trezor-monero</guid>
+        
+        
+        <category>xmr</category>
+        
+        <category>altcoins</category>
+        
+      </item>
     
       <item>
         <title>Gary Vee on Ethereum</title>
@@ -23,6 +50,8 @@
 
 &lt;amp-youtube data-videoid=&quot;mkR4-ZDAWcI&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;&lt;/amp-youtube&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;There is &lt;a href=&quot;https://www.facebook.com/groups/Ethereum/permalink/1221683854624326/&quot;&gt;another version on Facebook in the Ethereum group&lt;/a&gt; that is longer, Gary goes on to hint that maybe if the crypto space continues to grow someday in the future he’s going to say ‘You know what, fuck it,’ and go full on crypto.&lt;/p&gt;
 
 &lt;p&gt;Here is a &lt;a href=&quot;http://www.dailymotion.com/video/x5r4p9h&quot;&gt;screencast of the missing part&lt;/a&gt; from the private video from Facebook:&lt;/p&gt;
@@ -33,9 +62,9 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Gary Vee has been asked many time about bitcoin in his Youtube ask show but every time he simply said he understands neither crypto nor the regulations hence he can’t talk about that.&lt;/p&gt;
+&lt;p&gt;Gary Vee has been asked many times about bitcoin in his Youtube ask show but every time he simply said he understands neither crypto nor the regulations hence he can’t talk about that.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 18 Jun 2017 17:12:00 -0400</pubDate>
+        <pubDate>Sun, 18 Jun 2017 23:12:00 +0200</pubDate>
         <link>http://localhost:4000/garyvee-eth</link>
         <guid isPermaLink="true">http://localhost:4000/garyvee-eth</guid>
         
@@ -168,7 +197,7 @@ maybe you loan them out for interest.&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en-gb&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;In case of a hard fork our existing futures and options will at expire at BTC + BTU price. More details will follow in a newsletter soon.&lt;/p&gt;&amp;mdash; Deribit (@DeribitExchange) &lt;a href=&quot;https://twitter.com/DeribitExchange/status/844087435856371712&quot;&gt;21 March 2017&lt;/a&gt;&lt;/blockquote&gt;
 </description>
-        <pubDate>Sun, 18 Jun 2017 10:12:00 -0400</pubDate>
+        <pubDate>Sun, 18 Jun 2017 16:12:00 +0200</pubDate>
         <link>http://localhost:4000/lending-btc-chain-split</link>
         <guid isPermaLink="true">http://localhost:4000/lending-btc-chain-split</guid>
         
@@ -254,7 +283,7 @@ maybe you loan them out for interest.&lt;/p&gt;
 
 &lt;p&gt;Force majeure means ‘unforeseeable circumstances that prevent someone from fulfilling a contract’. That’s a normal condition to have in a contract but at the same time there is always a lot of unforeseeable circumstances in crypto.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 15 Jun 2017 10:12:00 -0400</pubDate>
+        <pubDate>Thu, 15 Jun 2017 10:12:00 +0200</pubDate>
         <link>http://localhost:4000/tezos</link>
         <guid isPermaLink="true">http://localhost:4000/tezos</guid>
         
@@ -276,7 +305,7 @@ maybe you loan them out for interest.&lt;/p&gt;
 &lt;p&gt;u/btchip: &lt;em&gt;From our current evaluation we’re convinced it’s doable. Next step will be to provide an ETA.&lt;/em&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 Jun 2017 06:36:00 -0400</pubDate>
+        <pubDate>Thu, 15 Jun 2017 06:36:00 +0200</pubDate>
         <link>http://localhost:4000/ledger-monero</link>
         <guid isPermaLink="true">http://localhost:4000/ledger-monero</guid>
         
@@ -319,7 +348,7 @@ maybe you loan them out for interest.&lt;/p&gt;
 
 &lt;p&gt;If you lost coins report it &lt;a href=&quot;https://t.me/whalepoolbtc&quot;&gt;on whalepool telegram&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 11 Jun 2017 21:39:00 -0400</pubDate>
+        <pubDate>Sun, 11 Jun 2017 21:39:00 +0200</pubDate>
         <link>http://localhost:4000/jaxx-vulnerability</link>
         <guid isPermaLink="true">http://localhost:4000/jaxx-vulnerability</guid>
         
@@ -384,7 +413,7 @@ maybe you loan them out for interest.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://altcoinspekulant.wordpress.com/category/iota/&quot;&gt;altcoinspekulant, for the German in you&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 04 Jun 2017 17:07:00 -0400</pubDate>
+        <pubDate>Sun, 04 Jun 2017 17:07:00 +0200</pubDate>
         <link>http://localhost:4000/iota</link>
         <guid isPermaLink="true">http://localhost:4000/iota</guid>
         
@@ -457,7 +486,7 @@ Further details about this contract can be read in the &lt;a href=&quot;https://
 
 &lt;p&gt;&lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://www.bitmex.com/register/iYQB44&quot;&gt;Signup at BitMEX&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Jun 2017 07:27:00 -0400</pubDate>
+        <pubDate>Fri, 02 Jun 2017 07:27:00 +0200</pubDate>
         <link>http://localhost:4000/quantum</link>
         <guid isPermaLink="true">http://localhost:4000/quantum</guid>
         
@@ -482,7 +511,7 @@ Further details about this contract can be read in the &lt;a href=&quot;https://
 
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hilarious &lt;a href=&quot;https://twitter.com/search?q=%24BAT&amp;amp;src=ctag&quot;&gt;$BAT&lt;/a&gt; &lt;a href=&quot;https://t.co/qMp5Y9JqjI&quot;&gt;pic.twitter.com/qMp5Y9JqjI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Angelo฿TC (@AngeloBTC) &lt;a href=&quot;https://twitter.com/AngeloBTC/status/869927821463797760&quot;&gt;May 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
 </description>
-        <pubDate>Wed, 31 May 2017 11:53:00 -0400</pubDate>
+        <pubDate>Wed, 31 May 2017 11:53:00 +0200</pubDate>
         <link>http://localhost:4000/bat-eth</link>
         <guid isPermaLink="true">http://localhost:4000/bat-eth</guid>
         
@@ -503,32 +532,9 @@ Further details about this contract can be read in the &lt;a href=&quot;https://
 
 &lt;p&gt;ETH on the other hand is experiencing a selloff, perhaps all the people who didn’t get in BAT.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 31 May 2017 11:23:00 -0400</pubDate>
+        <pubDate>Wed, 31 May 2017 11:23:00 +0200</pubDate>
         <link>http://localhost:4000/okcoin-withdrawals</link>
         <guid isPermaLink="true">http://localhost:4000/okcoin-withdrawals</guid>
-        
-        
-        <category>trading</category>
-        
-      </item>
-    
-      <item>
-        <title>OkCoin Intl is adding ETH on June 1st 2017</title>
-        <description>&lt;p&gt;Only a few hours before the BAT ICO opening, today’s news is already more exciting than a double espresso after a night on BitMEX: OKCoin, everyone’s favorite bitcoin casino, is adding ETH trading.&lt;/p&gt;
-
-&lt;p&gt;Full announcement: &lt;a href=&quot;https://www.okcoin.com/t-387.html&quot;&gt;https://www.okcoin.com/t-387.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;[…] Recently, OKCoin users have taken interest in the development of Ethereum (ETH) and Ethereum Classic (ETC), and there is an increasing demand for OKCoin to enable ETH and ETC trading. For the past two years, we have been constantly reviewing the viability of listing ETH and ETC based on factors including technical maturity, innovation, market liquidity, and compliance.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Today, we are formally launching ETH on the OKCoin exchange. Ethereum has a current circulation of 90 million, with ETH reaching a market cap in excess of USD 10 billion, and a total hashrate of more than 25K GB. Hundreds of applications are now built on Ethereum and a growing number of applications are using smart contracts run on the Ethereum blockchain.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;OKCoin will officially enable Ethereum (ETH) deposit and withdrawal services on 22:00, May 31. ETH trading services will be officially available on 12:00, June 1.[…]&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Don’t forget that OkCoin.com is a spot exchange only.&lt;/strong&gt; The derivative trading (futures) has been moved to OKEx.com. Hence sadly, there are no ETH futures at the moment. OKEx trades BTC and LTC futures, OkCoin.com trades BTC, LTC and ETH spot.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 May 2017 03:00:00 -0400</pubDate>
-        <link>http://localhost:4000/okcoin-eth</link>
-        <guid isPermaLink="true">http://localhost:4000/okcoin-eth</guid>
         
         
         <category>trading</category>

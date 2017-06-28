@@ -63,6 +63,11 @@
     
     
     <url>
+        <loc>http://localhost:4000/trezor-monero</loc>
+        
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/garyvee-eth</loc>
         
     </url>
