@@ -1,8 +1,15 @@
 [
   
   {
+    "title":"Economics of Proof of Stake",
+    "date":"2017-07-07 23:09:00 +0200"
+    "content":"Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing."
+    "url":"/pos"
+  },
+  
+  {
     "title":"Trezor might be getting Monero, too",
-    "date":"2017-06-28 03:09:00 +0200"
+    "date":"2017-06-27 00:09:00 +0200"
     "content":"It looks like Slush &amp; Co. don&#39;t want to miss out after the Ledger people promised to implement on Monero, but..."
     "url":"/trezor-monero"
   },

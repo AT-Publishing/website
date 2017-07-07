@@ -7,6 +7,25 @@
   
 
     <url>
+      <loc>http://localhost:4000/pos</loc>
+      <news:news>
+        <news:publication>
+          <news:name>Altcoin Trading</news:name>
+          <news:language>en</news:language>
+        </news:publication>
+        <news:genres>Blog</news:genres>
+        <news:publication_date>2017-07-07T23:09:00+02:00</news:publication_date>
+        <news:title>Economics of Proof of Stake</news:title>
+        <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
+        
+      </news:news>
+    </url>
+
+    
+  
+  
+
+    <url>
       <loc>http://localhost:4000/trezor-monero</loc>
       <news:news>
         <news:publication>
@@ -14,7 +33,7 @@
           <news:language>en</news:language>
         </news:publication>
         <news:genres>News</news:genres>
-        <news:publication_date>2017-06-28T03:09:00+02:00</news:publication_date>
+        <news:publication_date>2017-06-27T00:09:00+02:00</news:publication_date>
         <news:title>Trezor might be getting Monero, too</news:title>
         <news:keywords>markets, cryptocurrency, ethereum, monero, dash, bitcoin</news:keywords>
         
