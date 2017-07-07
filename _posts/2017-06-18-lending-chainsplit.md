@@ -19,8 +19,7 @@ image:
 - "/img/emotions/lending-chain-split.jpg"
 categories:
 - trading
-tags:
-- popular
+tags: []
 ---
 
 Even if you are die hard altcoiner, if you are trading altcoins actively on Poloniex or Bittrex you definitely have some bitcoins. And if you sometimes take a break from trades,

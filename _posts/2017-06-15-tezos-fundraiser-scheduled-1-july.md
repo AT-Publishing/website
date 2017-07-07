@@ -19,8 +19,7 @@ image:
 - "/img/emotions/whales.jpg"
 categories:
 - trading
-tags:
-- popular
+tags: []
 ---
 
 
