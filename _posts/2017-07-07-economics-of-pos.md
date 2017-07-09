@@ -1,33 +1,34 @@
 ---
-layout: forestry
-german: false
-published: true
-comments: true
-stories: true
-genres: Blog
-tickers: 'ETHUSD'
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: Economics of Proof of Stake
-date: 2017-07-07 23:09 +02:00
-update: 2017-07-07 23:09 +02:00
-description: "Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing."
-permalink: "/pos"
+categories:
+- eth
+- altcoins
+comments: true
+date: 2017-07-07 01:00
+description: Proof of stake shows off the extraordinary ability of crypto news portals
+  to write a 500 word article that says absolutely nothing.
+genres: Blog
+german: false
 image:
 - "/img/editorial/steak2.jpg"
 - "/img/daddyvitalik/yeswecan.png"
 - "/img/daddyvitalik/IsHeForReal.png"
 - "/img/daddyvitalik/VitalikTheLordSavior.png"
-
 image_alt:
-- "Even if you want to, you won't be staking before mid-2018, but Vitalik says he is not afraid of the switch, and that clearly means something."
-categories:
-- eth
-- altcoins
-tags: [ 'popular' ]
+- Even if you want to, you won't be staking before mid-2018, but Vitalik says he is
+  not afraid of the switch, and that clearly means something.
+layout: forestry
+permalink: "/pos"
+published: true
+stories: true
+tags:
+- popular
+tickers: true
+title: Economics of Proof of Stake
+update: 2017-07-10 01:00
+chart: []
 ---
-
-
 ### The gist of PoS
 
 {{ site.mailchimp }} In PoW (Proof of work) the longest chain is valid, as in the one with most *work*. In PoS the one that is agreed upon in betting *consensus* is accepted.
@@ -72,7 +73,7 @@ The most promoted advantage of proof of stake is that it fights centralization o
 **PoS**:
 If ETH main office says you cheat, you lose your stake. If ETH main office says you are honest, you get transaction fees and the block reward. Your profit is proportional to how much you stake, nothing else - there is no difficulty, there will be some hardware maintenance but not as much as with PoW. If you have more starting capital you will earn more, but proportionally more - you are not supposed to get an edge when you have more money.
 
-To put it bluntly, if everything should work as drafted it would mean that the business of *staking* would not scale the way the business of *mining* does, while at the same time *staking* would not pay off for small individual participants, similarly as with *mining* of well established coins.
+To put it bluntly, if everything should work as drafted it would mean that the business of *staking* would not scale the way the business of *mining* does, but  while at the same time *staking* would not pay off for small individual participants, similarly as with *mining* of well established coins.
 
 This kind of anti-capitalistic compromise understandably causes some stir, but Vitalik is clearly bigger than that:
 
@@ -102,7 +103,11 @@ In one Ethereum implementation called *slasher*, this behavior would fall under 
 
 ___________________________
 
-In the Ethereum roadmap, [the switch to PoS is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course PoS in ETH is not ready yet,** but frankly it does not really scream advantages, other than what regards "Vitalik philosophy":
+In the Ethereum roadmap, [the switch to PoS is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course PoS in ETH is not ready yet,** but what is the hype all about, really? 
+
+PoS is not convenient for big miners, it is not convenient for hobby miners/stakers, it is not convenient for traders & holders because it introduces new possible problems and reasons for forks - but it's the next big thing because it is a system that is "more fair" and also "eco friendly"? Quite serious there?
+
+Frankly it does not really scream advantages, other than what relates to "Vitalik philosophy":
 
 {% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
 
