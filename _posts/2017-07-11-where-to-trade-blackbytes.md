@@ -9,7 +9,7 @@ tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Where to trade blackbytes
-date: 2017-07-11 04:01
+date: 2017-07-11 02:35
 update: '2017-07-11T02:01:38.300Z'
 description: Byteball is a payment network that makes it easy to set conditional payments
   - finalize payment only if condition is met - similar to ethereum smart contracts
@@ -20,7 +20,9 @@ image:
 image_alt:
 - The next airdrop comes August the 7th
 chart: []
-categories: []
+categories:
+- altcoins
+- trading
 tags: []
 ---
 Two days ago, on the full moon, there was a blackbytes airdrop. If you signed a message with a BTC address before the deadline on 9th of July, you received free **bytes** and some hours later also some **blackbytes**.
