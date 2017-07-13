@@ -27,7 +27,7 @@ tags:
 - popular
 tickers: true
 title: Economics of Proof of Stake
-update: 2017-07-10 01:00
+update: 2017-07-13 01:00
 chart: []
 ---
 ### The gist of PoS
@@ -122,3 +122,12 @@ ___________________________
 * [https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 * [https://github.com/ethereum/economic-modeling/tree/master/casper](https://github.com/ethereum/economic-modeling/tree/master/casper)
 * [Paper on Selfish Mining](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf)
+
+
+_________________________________
+
+### Update, 13 Jul '17
+
+[Tuur Demeester](https://twitter.com/TuurDemeester) published [critique of Vitalik's piece on the PoS](https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6). 
+
+[Vitalik's response and discussion here](https://www.reddit.com/r/ethereum/comments/6mvu7m/critique_of_buterins_a_proof_of_stake_design/dk50ny4/)
