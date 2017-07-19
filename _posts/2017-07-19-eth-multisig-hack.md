@@ -10,7 +10,7 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: ETH multisig hack
 date: 2017-07-19 16:47
-update: 2017-07-19 01:00
+update: 2017-07-19 22:00
 permalink: "/eth-multisig-hack"
 description: Some ETH multisig wallets created with parity are being drained right
   now.
@@ -43,3 +43,7 @@ Update:
 > Black hat hacker wallet address with stolen ether: https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32
 
 > White hat wallet address with preserved ether: https://etherscan.io/address/0x1dba1131000664b884a1ba238464159892252d3a
+
+Update 2:
+
+The bug has been fixed - [github](https://github.com/paritytech/parity/commit/e06a1e8dd9cfd8bf5d87d24b11aee0e8f6ff9aeb)
