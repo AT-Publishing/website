@@ -22,16 +22,12 @@ chart: []
 categories: []
 tags: []
 ---
-There is a reason for the selloff, if you are looking for one. 
+There is a reason for the selloff, if you are looking for one.
 
-<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Someone stole ~$32M (~153k ether) from three multisig wallets. More info and blog post coming soon.<a href="https://t.co/hXYuPto1vI">https://t.co/hXYuPto1vI</a></p>&mdash; Manuel Aráoz (@maraoz) <a href="https://twitter.com/maraoz/status/887751004971831296">19 July 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+![](https://pbs.twimg.com/media/DFHvB86W0AEOnX0.jpg)
 
-Multisig wallets with contracts for ICOs created with some versions of Parity are vulnerable and getting drained at the moment. 
+Some multisig wallets with contracts for ICOs created with certain versions of Parity are vulnerable and getting drained. 
 
-So far all ICO money for Edgeless Casino, aeternity and swarm.city are gone.
+So far all ICO money for Edgeless Casino, aeternity and swarm.city is gone. It is about $32M or 153k ether. [This is where the coins were sent to](https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32#internaltx).
 
-The bug has not been fixed yet so the draining might be going to continue for a while longer.
-
-<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Multisig wallets affected by this hack: <br>- Edgeless Casino (<a href="https://twitter.com/edgelessproject">@edgelessproject</a>)<br>- Swarm City (<a href="https://twitter.com/SwarmCityDApp">@swarmcitydapp</a>)<br>- æternity blockchain (<a href="https://twitter.com/aetrnty">@aetrnty</a>)</p>&mdash; Manuel Aráoz (@maraoz) <a href="https://twitter.com/maraoz/status/887755889897295872">19 July 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+The bug has not been fixed yet so the draining might be going to continue for a while longer, unless money is moved out of vulnerable wallets in time.
