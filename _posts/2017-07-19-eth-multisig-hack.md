@@ -32,4 +32,14 @@ So far all ICO money for Edgeless Casino, aeternity and swarm.city is gone. It i
 
 The bug has not been fixed yet so the draining might be going to continue for a while longer, unless money is moved out of vulnerable wallets in time.
 
-**The vulnerability is a serious one, allegedly one only needs the public key and certain kind of metadata and that is enough to regenerate the wallet.**
+*The vulnerability is a serious one, allegedly one only needs the public key and certain kind of metadata and that is enough to regenerate the wallet.*
+
+Update: 
+
+[Some of the funds were secured by ways of the same hack by a group of white hackers.](https://press.swarm.city/parity-multisig-wallet-exploit-hits-swarm-city-funds-statement-by-the-swarm-city-core-team-d1f3929b4e4e)
+
+> Swarm: A swift response from a whitehat hacker group used the same exploit to drain many other project’s parity multisig wallets, in order to protect them from theft. This group was able to save over 377,000 ETH. Unfortunately the 44,055 ETH that was in Swarm City’s wallet is gone.
+
+> Black hat hacker wallet address with stolen ether: https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32
+
+> White hat wallet address with preserved ether: https://etherscan.io/address/0x1dba1131000664b884a1ba238464159892252d3a
