@@ -9,8 +9,8 @@ tickers: true
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: ETH multisig hack
-date: 2017-07-19 21:47
-update: '2017-07-19T19:47:58.593Z'
+date: 2017-07-19 16:47
+update: 2017-07-19 01:00
 permalink: "/eth-multisig-hack"
 description: Some ETH multisig wallets created with parity are being drained right
   now
