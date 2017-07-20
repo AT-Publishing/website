@@ -24,8 +24,6 @@ categories:
 chart: []
 tags: []
 ---
-
-
 Anonymous coins have always been a concern for the App Store as allegedly they didn't want to be linked to illicit activities. If you are a DASH holder though, your situation regarding wallets is a bit less bleak than what's normal for crypto right now.
 
 **The new official DASH wallet**
@@ -38,11 +36,11 @@ The DASH wallet app was released just yesterday to the Apple App Store. It is a 
 
 Zcash was the first anonymous cryptocurrency to get Apple's blessings. There was a [press release campaign in April 2017](https://forum.z.cash/t/zcash-and-jaxx-announce-zec-approved-and-live-on-ios-appstore/15227) announcing Apple approved ZEC for App Store, and Jaxx integrated it. Right now the Jaxx wallet for iOS from April 2017 supports both DASH and ZEC, **even though the description of the app on iTunes doesn't say so**.
 
-<span style="font-size: 1rem;">Jaxx was planning to integrate ZCASH&nbsp;</span><a href="https://twitter.com/jaxx_io/status/785833459772162048" style="font-size: 1rem;">unce upon a time even along with Monero</a><span style="font-size: 1rem;"> - but that doesn't look very likely anymore.&nbsp;</span>
+Jaxx was planning to integrate ZCASH&nbsp;<a href="https://twitter.com/jaxx_io/status/785833459772162048">unce upon a time even along with Monero</a> - but that doesn't look very likely anymore.&nbsp;
 
-<span style="font-size: 1rem;">Either way, the problem with <a href="https://www.altcointrading.net/jaxx-vulnerability">Jaxx is the security vulnerability of Jaxx desktop</a> version. Recently there was also a problem with the servers on which the backend is running, and people were <a href="https://twitter.com/jaxx_io/status/883849413294256128">unable to access their ETC funds for the whole weekend</a>. There was no warning in the app, it just showed old data apparetly from a backup, and the app was frozen - not a nice way to persuade people to store their monies in it.&nbsp;</span>
+Either way, the problem with <a href="https://www.altcointrading.net/jaxx-vulnerability">Jaxx is the security vulnerability of Jaxx desktop</a> version. Recently there was also a problem with the servers on which the backend is running, and people were <a href="https://twitter.com/jaxx_io/status/883849413294256128">unable to access their ETC funds for the whole weekend</a>. There was no warning in the app, it just showed old data apparetly from a backup, and the app was frozen - not a nice way to persuade people to store their monies in it.&nbsp;
 
-<span style="font-size: 1rem;">So, although the iOS app is not suffering from the vulnerability of the desktop wallet, it is currently </span><a href="https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8" style="font-size: 1rem;">collecting negative reviews on the App Store</a><span style="font-size: 1rem;">.</span>
+So, although the iOS app is not suffering from the vulnerability of the desktop wallet, it is currently <a href="https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8">collecting negative reviews on the App Store</a>.
 
 **Monero people, don't get ahead of yourselves**
 
