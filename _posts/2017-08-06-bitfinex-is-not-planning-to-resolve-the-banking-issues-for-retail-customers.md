@@ -38,3 +38,4 @@ PGP's explanation as to why Bitfinex suddenly lists tokens that are unheard of a
 
 This post will be updated with a link to the YouTube video of the teamspeak interview once it's uploaded. To catch the next event connect to [https://whalepool.io/connect/teamspeak](https://whalepool.io/connect/teamspeak) - the rumor has it John Bollinger will be coming soon.
 
+Update: [Link to Youtube](https://www.youtube.com/watch?v=rhu4c8sL0AE)
