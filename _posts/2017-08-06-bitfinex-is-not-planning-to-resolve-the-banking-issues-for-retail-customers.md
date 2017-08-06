@@ -18,7 +18,8 @@ chart: []
 image:
 - "/img/emotions/whales.jpg"
 update: 2017-08-06 00:00:00 +00:00
-image_alt: []
+image_alt:
+- It's only the whales that are lucky.
 tags: []
 ---
 
