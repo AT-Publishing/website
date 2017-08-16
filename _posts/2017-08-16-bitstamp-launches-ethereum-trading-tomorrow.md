@@ -30,4 +30,4 @@ Bitstamp sent a reminder to their customers today that Ethereum trading is start
 
 > **FREE TRADING will be available on these pairs until 1 October**, with other generous discounts to follow until the end of the year!
 
-<img src="https://www.bitstamp.net/s/email_images/trading-news@2x.png" style="max-width:100%>
+<img src="https://www.bitstamp.net/s/email_images/trading-news@2x.png" style="max-width:100%">
