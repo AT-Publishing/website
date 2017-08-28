@@ -31,14 +31,14 @@ tags: []
 
 [FT](https://www.ft.com/content/46910d8c-d958-3e46-ac69-8c739cbf052b)
 
-![gold](https://data.altcointrading.net/img/gold.png)
+<img src="https://data.altcointrading.net/img/gold.png" style="max-width:100%">
 
 As soon as the news was out, BTCUSD shot up, gold got what the cryptocurrency traders would call *a green dildo*, and USDJPY got what cryptocurrency traders call *rekt*. 
 
-![usdjpy](https://data.altcointrading.net/img/usdjpy.png)
+<img src="https://data.altcointrading.net/img/usdjpy.png" style="max-width:100%">
 
 As [someone on Reddit noted](https://www.reddit.com/r/BitcoinMarkets/comments/6wh1vp/daily_discussion_monday_august_28_2017/dm97mhc/), *To me this makes Bitcoin's sudden popularity in South Korea and Japan much less mysterious. I really didn't understand it before.* 
 
 It's of course not only Bitcoin: There was a whole ETH frenzy at one point and more recently, South Korean exchange [Bithumb listed XMR just the other day](https://www.reddit.com/r/Monero/comments/6vwlfl/hello_im_korean/) which coincided with its massive bull run.
 
-![xmr](https://data.altcointrading.net/img/xmr.png)
+<img src="https://data.altcointrading.net/img/xmr.png" style="max-width:100%">
