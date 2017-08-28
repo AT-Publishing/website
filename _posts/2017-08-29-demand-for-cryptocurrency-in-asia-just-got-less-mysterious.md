@@ -9,7 +9,7 @@ tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Demand for cryptocurrency in Asia just got less mysterious
-date: 2017-08-29 22:46:33 +0200
+date: 2017-08-28 22:46:33 +0200
 description: It might be inventing random reasons, but there is some general truth
   in people searching for uncorrelated assets.
 permalink: "/korea-missile-cryptocurrency"
@@ -17,7 +17,7 @@ image:
 - "/uploads/2017/08/28/korea.png"
 image_alt:
 - Via BBC News - The latest missile test follows a similar launch on Saturday
-update: 2017-08-29 22:00:00 +0200
+update: 2017-08-28 22:00:00 +0200
 categories:
 - trading
 chart: []
