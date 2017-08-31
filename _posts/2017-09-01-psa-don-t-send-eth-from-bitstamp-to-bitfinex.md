@@ -9,7 +9,7 @@ tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: 'PSA: Don''t send ETH from Bitstamp to Bitfinex'
-date: 2017-09-01 00:00:00 +0000
+date: 2017-09-01 00:18:50 +0200
 description: Your money will be lost.
 permalink: "/bitifinex-eats-your-eth"
 image:
@@ -19,7 +19,7 @@ image_alt:
 categories:
 - trading
 - bitfinex
-update: 2017-09-01 00:00:00 +0200
+update: 2017-09-01 01:00:00 +0200
 chart: []
 tags: []
 ---
