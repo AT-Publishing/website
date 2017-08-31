@@ -1,0 +1,168 @@
+---
+pages:
+- _posts/psa-don-t-send-eth-from-bitstamp-to-bitfinex.md
+- _posts/2017-08-29-demand-for-cryptocurrency-in-asia-just-got-less-mysterious.md
+- _posts/2017-08-17-trezor-devices-have-serious-security-vulnerability.md
+- _posts/2017-08-16-bitstamp-launches-ethereum-trading-tomorrow.md
+- _posts/2017-08-06-bitfinex-is-not-planning-to-resolve-the-banking-issues-for-retail-customers.md
+- _posts/2017-07-20-first-anonymous-cryptocurrency-wallet-on-the-app-store.md
+- _posts/2017-07-19-eth-multisig-hack.md
+- _posts/2017-07-11-where-to-trade-blackbytes.md
+- _posts/2017-07-07-economics-of-pos.md
+- _posts/2017-06-27-trezor-might-be-getting-monero-too.md
+- _posts/2017-06-18-garyyvee-eth.md
+- _posts/2017-06-18-lending-chainsplit.md
+- _posts/2017-06-15-tezos-fundraiser-scheduled-1-july.md
+- _posts/2017-06-15-ledger-cto-says-monero-viable.md
+- _posts/2017-06-11-important-jaxx-vulnerability.md
+- _posts/2017-06-04-bitfinex-is-adding-iota-trading.md
+- _posts/2017-06-02-what-you-need-to-know-about-qtum.md
+- _posts/2017-05-31-bat-eth-trading-is-live.md
+- _posts/2017-05-31-okcoin-resumed-btc-withdrawals.md
+- _posts/2017-05-31-okcoin-intl-is-adding-eth-on-june-1st-2017.md
+- _posts/2017-05-27-huobi-is-adding-eth-on-may-31st.md
+- _posts/2017-05-21-now-that-bitfinex-has-added-ripple.md
+- _posts/2017-05-20-how-the-legacy-finance-might-be-feeling-about-cryptocurrencies.md
+- _posts/2017-05-19-a-this-is-gentlemen-moment.md
+- _posts/2017-05-18-monero-miners-beware.md
+- _posts/2017-05-11-peerplay-crowdfund-ends-in-3-days.md
+- _posts/2017-05-09-is-the-end-of-icos-approaching.md
+- _posts/2017-04-26-etc.md
+- _posts/2017-04-25-gnosis.md
+- _posts/2017-04-13-time-vs-timing.md
+- _posts/2017-04-10-litecoin-different.md
+- _posts/2017-03-25-ethereum-etf.md
+- _posts/2017-03-23-monero-wallet-HOWTO.md
+- _posts/2017-03-22-cryptosignal.md
+- _posts/2017-03-18-eth-fundamental-change.md
+- _posts/2017-03-14-monero-cold-storage.md
+- _posts/2017-03-10-coin-rejected.md
+- _posts/2017-03-08-avoidance.md
+- _posts/2017-03-06-dash.md
+- _posts/2017-03-01-cryptowatch-kraken.md
+- _posts/2017-02-21-ripple.md
+- _posts/2017-02-06-privacy-centric-coins.md
+- _posts/2017-02-01-trezor-multicoin.md
+- _posts/2017-01-28-where-to-buy.md
+- _posts/2017-01-21-iconomi.md
+- _posts/2017-01-03-monero-wallets.md
+- _posts/2017-01-02-monero-trading-kraken.md
+- _posts/2016-08-06-finexening.md
+- _posts/2016-07-29-free-etc.md
+- _posts/2016-07-24-ethc.md
+- _posts/2016-07-23-money-tokens~.md
+- _posts/2016-07-17-ta-divergence.md
+- _posts/2016-07-15-eth-fork.md
+- _posts/2016-07-01-ichimoku.md
+- _posts/2016-06-22-the-dao-hack.md
+- _posts/2016-06-17-eth-collapse.md
+- _posts/2016-06-09-icos.md
+- _posts/2016-06-06-waves.md
+- _posts/2016-05-30-ta.md
+- _posts/2016-05-27-dao-vs-lisk.md
+- _posts/2016-05-24-eth.md
+- _posts/2016-05-19-buytherumor.md
+- _posts/2016-04-12-daytrading.md
+- _posts/2016-03-30-money-tokens.md
+- _posts/2016-03-07-lending.md
+- _posts/2016-02-29-exchanges.md
+- _posts/2016-02-28-wallets.md
+- _posts/2016-02-20-bots.md
+- _posts/2016-01-27-charts.md
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: blog
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: image_gallery
+  hidden: false
+  default: ''
+- name: image_alt
+  label: Image alt
+  type: list
+  hidden: false
+  default: ''
+- name: chart
+  label: Chart
+  type: image_gallery
+  hidden: false
+  default: ''
+- name: update
+  label: Update
+  type: datetime
+  hidden: false
+  default: ''
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: stories
+  label: Stories
+  type: boolean
+  hidden: false
+  default: false
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: author
+  label: Author
+  type: text
+  hidden: false
+  default: https://reddit.com/u/KarlVonBahnhof
+- name: author_name
+  label: Author name
+  type: text
+  hidden: false
+  default: KarlVonBahnhof
+- name: published
+  label: Published
+  type: boolean
+  hidden: false
+  default: true
+- name: genres
+  label: Genres
+  type: text
+  hidden: false
+  default: Opinion
+- name: tickers
+  label: Tickers
+  type: boolean
+  hidden: false
+  default: false
+- name: german
+  label: German
+  type: boolean
+  hidden: false
+  default: false
