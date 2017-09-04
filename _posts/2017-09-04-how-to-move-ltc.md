@@ -23,6 +23,8 @@ categories:
 update: 2017-09-04 14:09:00 +0200
 chart: []
 tags: []
+identifier:
+- ltcaddresses
 ---
 
 Litecoin recently upgraded their network to get SegWit support and to enable the possibility of atomic swaps with BTC. Trezor upgraded their wallets accordingly but most exchanges haven't followed yet. Consequently, people have been having withdrawal issues recently and as customer support is nonexistent ([at least for plebs - traders who are not ultra high net worth](https://www.reddit.com/r/BitcoinMarkets/comments/6xjp5f/even_corporate_accounts_cant_withdraw_real_money/dmgwmzp/)), you don't get to know what to do because the money coming from your trading fees obviously doesn't matter.

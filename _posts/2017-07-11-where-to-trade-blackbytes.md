@@ -24,6 +24,8 @@ categories:
 - altcoins
 - trading
 tags: []
+identifier:
+- gbyte
 ---
 Two days ago, on the full moon, there was a blackbytes airdrop. If you signed a message with a BTC address before the deadline on 9th of July, you received free **bytes** and some hours later also some **blackbytes**.
 
@@ -31,9 +33,9 @@ While the bytes can be traded on [Bittrex (by millions as GBYTE)](https://bittre
 
 ![](https://image.prntscr.com/image/D2NJV0HoTAqCiTrhnt38OQ.png)
 
-Currently the top of the ask book is at 0.01290 GB/GBB and top of the bid book at 0.02008 GB/GBB. 
+Currently the top of the ask book is at 0.01290 GB/GBB and top of the bid book at 0.02008 GB/GBB.
 
-Gigabytes per bitcoin are trading at Bittrex around 0.24 BTC ($585). 
+Gigabytes per bitcoin are trading at Bittrex around 0.24 BTC ($585).
 
 #### About Byteball
 

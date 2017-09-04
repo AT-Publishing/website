@@ -24,6 +24,8 @@ categories:
 update: 2017-09-01 01:00:00 +0200
 chart: []
 tags: []
+identifier:
+- missingethbitfinex
 ---
 Apparently, the newly launched ETH trading on Bitstamp comes with an unpleasant surprise: If you withdraw ETH, the withdrawal is processed via a smart contract, **which is not indicated on the ETH withdrawal page** - there is only a fineprint note below the withdrawal page's fold that says "Please make sure that the receiving party supports Ethereum transactions generated from smart contracts prior to initiating an ETH withdrawal".
 

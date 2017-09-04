@@ -23,6 +23,8 @@ categories:
 - wallets
 chart: []
 tags: []
+identifier:
+- empirestrikes
 ---
 Anonymous coins have always been a concern for the App Store as allegedly they didn't want to be linked to illicit activities. If you are a DASH holder though, your situation regarding wallets is a bit less bleak than what's normal for crypto right now.
 

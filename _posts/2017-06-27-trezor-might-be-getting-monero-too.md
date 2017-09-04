@@ -22,6 +22,8 @@ categories:
 - xmr
 - altcoins
 tags: []
+identifier:
+- trezormonero
 ---
 
 

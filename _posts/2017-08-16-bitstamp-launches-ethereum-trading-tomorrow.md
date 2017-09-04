@@ -22,6 +22,8 @@ image_alt:
 - Ethereum trading finally starts on Bitstamp
 chart: []
 tags: []
+identifier:
+- bitstampeth
 ---
 Bitstamp sent a reminder to their customers today that Ethereum trading is starting soon - Thursday, 17 August 2017.
 

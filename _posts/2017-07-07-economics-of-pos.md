@@ -28,6 +28,8 @@ tickers: true
 title: Economics of Proof of Stake
 update: 2017-07-13 01:00
 chart: []
+identifier:
+- pieceofshit
 ---
 ### The gist of PoS
 
