@@ -2,7 +2,9 @@
 layout: blog
 title: "The Finexening - Bitfinex hack"
 description: "The best of Reddit's response on the Bitfinex hack"
-category: "trading"
+categories:
+- "trading"
+- "exchanges"
 permalink: finexening/
 image:
 - "/img/bitfinex/gox.png"

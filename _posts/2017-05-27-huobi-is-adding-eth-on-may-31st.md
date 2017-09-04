@@ -22,20 +22,21 @@ image_alt:
 categories:
 - eth
 - trading
+- exchanges
 tags: []
 ---
 
-Huobi announced an announcement this morning (fluffypony style!), the actual news came soon after from @cnLedger. 
+Huobi announced an announcement this morning (fluffypony style!), the actual news came soon after from @cnLedger.
 
-Many had high hopes for the withdrawal situation update -- but it's "just" ETH trading. 
+Many had high hopes for the withdrawal situation update -- but it's "just" ETH trading.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Huobi has millions of users in China. Up to now none of the &quot;big 3&quot; listed any coins except BTC &amp; LTC. Many CN traders are unaware of ETH <a href="https://t.co/Wdd8sE8WuG">https://t.co/Wdd8sE8WuG</a></p>&mdash; cnLedger (@cnLedger) <a href="https://twitter.com/cnLedger/status/868457182429233155">May 27, 2017</a></blockquote> 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Huobi has millions of users in China. Up to now none of the &quot;big 3&quot; listed any coins except BTC &amp; LTC. Many CN traders are unaware of ETH <a href="https://t.co/Wdd8sE8WuG">https://t.co/Wdd8sE8WuG</a></p>&mdash; cnLedger (@cnLedger) <a href="https://twitter.com/cnLedger/status/868457182429233155">May 27, 2017</a></blockquote>
 
 People [still cannot withdraw coins from major Chinese exchanges](https://cointelegraph.com/news/bitcoin-withdrawals-expected-to-resume-as-chinese-exchanges-ask-users-for-funds-info) but the BTC and LTC premium started diminishing on rumors the withdrawals might be resumed in June.  
 
 There was a letter shared via @cnLedger saying the exchanges were not asked to suspend withdrawals, that they did that on their own accord:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">PBoC reply to BTC user: we did not ask trading platforms to suspend w/d. It was a decision made by themselves. The inspection has not ended. <a href="https://t.co/mi3IxXR93g">pic.twitter.com/mi3IxXR93g</a></p>&mdash; cnLedger (@cnLedger) <a href="https://twitter.com/cnLedger/status/867651423038603264">May 25, 2017</a></blockquote> 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">PBoC reply to BTC user: we did not ask trading platforms to suspend w/d. It was a decision made by themselves. The inspection has not ended. <a href="https://t.co/mi3IxXR93g">pic.twitter.com/mi3IxXR93g</a></p>&mdash; cnLedger (@cnLedger) <a href="https://twitter.com/cnLedger/status/867651423038603264">May 25, 2017</a></blockquote>
 
 ...Surely they were asked nicely.
 

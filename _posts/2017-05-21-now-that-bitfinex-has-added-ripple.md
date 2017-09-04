@@ -19,6 +19,7 @@ image:
 categories:
 - altcoins
 - trading
+- exchanges
 image_alt:
 - Ripple has already double-topped on the daily. - Chart via TradingView.
 tags: [feature]

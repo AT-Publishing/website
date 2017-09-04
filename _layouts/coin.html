@@ -12,6 +12,10 @@ layout: default-coin
         </h4>
         <article class="maincontent">
 
+
+
+          {% if page.image[0] %}
+
           {{ site.ads.aads }}
 
           <figure class="thumb textflow">
@@ -21,6 +25,8 @@ layout: default-coin
             width="150px" height="80px">
             </amp-img>
           </figure>
+
+          {% endif %}
 
           {{ content }}
 

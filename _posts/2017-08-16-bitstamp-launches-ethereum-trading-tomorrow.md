@@ -17,6 +17,7 @@ image:
 update: 2017-08-16 19:00:00 +0200
 categories:
 - trading
+- exchanges
 image_alt:
 - Ethereum trading finally starts on Bitstamp
 chart: []

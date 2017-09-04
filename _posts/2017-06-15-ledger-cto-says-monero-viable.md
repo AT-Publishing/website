@@ -20,8 +20,9 @@ image_alt:
 categories:
 - xmr
 - wallets
+- altcoins
 update: '2017-06-15T10:45:15.570Z'
-tags: []
+tags: ['popular']
 ---
 
 
@@ -32,4 +33,3 @@ Everyone who managed to buy the blip to $16 on Bitfinex XMRUSD the other day, go
 [Thread on reddit](https://www.reddit.com/r/ledgerwallet/comments/6hdo1r/does_ledger_nano_s_support_monero_xmr_yet/) from just two hours ago
 
 u/btchip: *From our current evaluation we're convinced it's doable. Next step will be to provide an ETA.*
-

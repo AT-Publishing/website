@@ -6,7 +6,7 @@ permalink: /category/altcoins/
 ---
 
 {% for post in site.posts offset: 0 limit: 1 %}
-  {% if post.category contains "coins" or post.categories contains "coins" %}
+  {% if post.category contains "coins" or post.categories contains "coins" or post.categories contains "altcoins" %}
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
@@ -35,7 +35,7 @@ permalink: /category/altcoins/
 {{ site.ads.aads728 }}
 
 {% for post in site.posts offset: 1 limit: 30 %}
-  {% if post.category contains "coins" or post.categories contains "coins" %}
+  {% if post.category contains "coins" or post.categories contains "coins"  or post.categories contains "altcoins" %}
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>

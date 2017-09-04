@@ -4,7 +4,7 @@ date: 2017-04-09 11:20
 title: "Litecoin: This time it's different?"
 description: "It's always different until it isn't and it's never different until it is."
 categories:
-- "coins"
+- "altcoins"
 - "ltc"
 permalink: litecoin-pump/
 image:
@@ -25,8 +25,7 @@ published: true
 
 tickers: "LTCUSD, LTCBTC"
 
-tags:
-- "popular"
+tags: []
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

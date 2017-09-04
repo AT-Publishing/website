@@ -23,8 +23,7 @@ layout: forestry
 permalink: "/pos"
 published: true
 stories: true
-tags:
-- popular
+tags: []
 tickers: true
 title: Economics of Proof of Stake
 update: 2017-07-13 01:00
@@ -104,7 +103,7 @@ In one Ethereum implementation called *slasher*, this behavior would fall under 
 
 ___________________________
 
-In the Ethereum roadmap, [the switch to PoS is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course PoS in ETH is not ready yet,** but what is the hype all about, really? 
+In the Ethereum roadmap, [the switch to PoS is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course PoS in ETH is not ready yet,** but what is the hype all about, really?
 
 PoS is not convenient for big miners, it is not convenient for hobby miners/stakers, it is not convenient for traders & holders because it introduces new possible problems and reasons for forks - but it's the next big thing because it is a system that is "more fair" and also "eco friendly"? Quite serious there?
 
@@ -128,6 +127,6 @@ _________________________________
 
 ### Update, 13 Jul '17
 
-[Tuur Demeester](https://twitter.com/TuurDemeester) published [critique of Vitalik's piece on the PoS](https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6). 
+[Tuur Demeester](https://twitter.com/TuurDemeester) published [critique of Vitalik's piece on the PoS](https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6).
 
 [Vitalik's response and discussion here](https://www.reddit.com/r/ethereum/comments/6mvu7m/critique_of_buterins_a_proof_of_stake_design/dk50ny4/)

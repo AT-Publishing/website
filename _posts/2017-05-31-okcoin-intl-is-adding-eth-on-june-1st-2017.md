@@ -18,6 +18,7 @@ image:
 - "/uploads/2017/05/31/pexels-photo-147485.jpeg"
 categories:
 - trading
+- exchanges
 image_alt:
 - up uP UP
 tags: []

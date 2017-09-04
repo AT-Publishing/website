@@ -22,6 +22,7 @@ image_alt:
 categories:
 - altcoins
 - trading
+- exchanges
 tags: []
 ---
 

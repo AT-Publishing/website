@@ -3,8 +3,8 @@ layout: blog
 title: "Best Altcoin Exchanges, Tried and True"
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?"
 categories:
-- "exchanges"
-- "trading"
+- exchanges
+- trading
 permalink: altcoin-exchanges/
 tags:
 - "popular"
@@ -25,7 +25,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2017-04-14 16:35
+update: 2017-09-04 13:35
 comments: true
 ---
 
