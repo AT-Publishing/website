@@ -2,7 +2,7 @@
 layout: forestry
 german: false
 published: true
-comments: true
+comments: false
 stories: false
 genres: Opinion
 tickers: false

@@ -2,7 +2,7 @@
 layout: forestry
 german: false
 published: true
-comments: true
+comments: false
 stories: true
 genres: Blog
 tickers: 'BTCUSD'

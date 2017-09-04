@@ -4,7 +4,7 @@ author_name: KarlVonBahnhof
 categories:
 - eth
 - altcoins
-comments: true
+comments: false
 date: 2017-07-07 01:00
 description: Proof of stake shows off the extraordinary ability of crypto news portals
   to write a 500 word article that says absolutely nothing, and the amazing regard
