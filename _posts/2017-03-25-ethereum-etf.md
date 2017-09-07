@@ -14,15 +14,15 @@ image:
 image_alt:
 - The surveillance section of the rule change seems to be the key part after the rejection
   of Winklevoss COIN ETF. EtherIndex's suggestion seems more plausible.
-update: '2017-05-20T12:59:56.033Z'
+update: '2017-09-07T16:59:16.033Z'
 german: false
-comments: true
+comments: false
 stories: true
 published: true
 tickers: OTCMKTS:GBTC, ^NYXBT
 author: https://twitter.com/tradingfanbois
 author_name: "@tradingfanbois"
-tags: []
+tags: ['popular']
 genres: Blog, OpEd, Opinion
 ---
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
@@ -33,6 +33,15 @@ ________________________
 
 
 {{ site.ads.aads728 }}
+
+
+### Update - September 2017
+
+EtherIndex has withdrawn their application. [Full document at sec.gov](https://www.sec.gov/rules/sro/nysearca/2017/34-81538.pdf)
+
+
+
+________________________
 
 After the SEC disapproved the rule change to allow listing of Bitcoin ETF on the 10th of March 2017 the majority opinion has been along the lines that other cryptocurrency ETFs most likely don't have a chance because all cryptocurrency markets are unregulated. Nonetheless there is a nice twist in the rule change for ETH ETF - an idea that didn't appear in the Bitcoin rule change.
 
@@ -172,4 +181,4 @@ ____________________________________
 
 #### One more important detail
 
-Ethereum is backed by [https://entethalliance.org/](https://entethalliance.org/). The EEA is a group of about 30 companies that include Accenture, JPMorgan Chase or Intel. 
+Ethereum is backed by [https://entethalliance.org/](https://entethalliance.org/). The EEA is a group of about 30 companies that include Accenture, JPMorgan Chase or Intel.
