@@ -4,7 +4,7 @@ german: false
 published: true
 comments: false
 stories: false
-genres: Opinion
+genres: false
 tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof

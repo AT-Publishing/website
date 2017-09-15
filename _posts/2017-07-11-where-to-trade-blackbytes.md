@@ -3,8 +3,8 @@ layout: forestry
 german: false
 published: true
 comments: false
-stories: true
-genres: News
+stories: false
+genres: false
 tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof

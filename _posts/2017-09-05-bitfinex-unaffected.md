@@ -8,7 +8,7 @@ genres: UserGenerated
 tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: 'Bitfinex is not affected by the PBOC decision from yesterday'
+title: 'Bitfinex not affected by the PBOC decision'
 date: 2017-09-05 09:12:00 +0200
 description: "The BusinessInsider article was a prime example of FUD anyway."
 permalink: "/bitfinex-not-affected-pbox-ico"
