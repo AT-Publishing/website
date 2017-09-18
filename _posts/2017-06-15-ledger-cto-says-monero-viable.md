@@ -22,7 +22,7 @@ categories:
 - wallets
 - altcoins
 update: '2017-06-15T10:45:15.570Z'
-tags: ['popular']
+tags: []
 ---
 
 

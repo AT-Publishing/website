@@ -6,8 +6,7 @@ categories:
 - exchanges
 - trading
 permalink: altcoin-exchanges/
-tags:
-- "popular"
+tags: []
 image:
 - "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
 - "/img/exchanges/okcoin-na.jpg"

@@ -23,7 +23,7 @@ categories:
 - eth
 update: 2017-09-05 09:39:00 +0200
 chart: []
-tags: []
+tags: ['popular']
 identifier:
 - shitfinexunaffected
 ---

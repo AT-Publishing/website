@@ -20,9 +20,9 @@ image_alt:
 categories:
 - trading
 - altcoins
-update: 2017-09-17 09:39:00 +0200
+update: 2017-09-18 11:39:00 +0700
 chart: []
-tags: []
+tags: ['popular']
 identifier: []
 ---
 
@@ -59,6 +59,8 @@ There was a photo of a document stating all OTC and p2p exchange was to become i
 ### The gossip (unsourced and unproven food for thought)
 
 The rumors have it there is some kind of power struggle between Beijing and Shanghai in China. [Some speculate](https://twitter.com/_submono/status/908615183857278978) that as cryptocurrencies have been used to get money out of the country for reinvestment into foreign real estate markets it could be a competition to the Chinese markets.
+
+Another speculation claims the exchanges are shutting down at the moment because they are [forced to get a license](https://news.bitcoin.com/chinese-bitcoin-exchanges-may-face-stricter-regulation-and-licensure/) and AML/KYC upgrade so that the government could monitor cryptocurrency movements. If this is true, there might be a similar situation as with [Bitfinex where fiat/crypto routes are not available to the retail customer and will not ever be](https://www.altcointrading.net/bitfinex-banking) because the KYC checks are too expensive to run for every small fish.
 
 Either way, the prognoses [remain realistic](http://www.zerohedge.com/news/2017-09-14/bitcoin-crashes-chinese-trading-second-largest-exchange-halt-all-trading):
 
