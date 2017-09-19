@@ -11,7 +11,7 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: 'China bans Bitcoin show season 3'
 date: 2017-09-15 09:12:00 +0200
-description: "This is meant to be a summary of what was going on and what's the unofficial, bad, and most likely false gossip that's been going around. It will come handy during season 4 and later."
+description: "Is China also trying to stop mining?"
 permalink: "/china-bans-btc-season-3"
 image:
 - "/img/emotions/bears.jpg"
@@ -20,7 +20,7 @@ image_alt:
 categories:
 - trading
 - altcoins
-update: 2017-09-18 11:39:00 +0700
+update: 2017-09-20 02:36:00 +0700
 chart: []
 tags: ['popular']
 identifier: []
@@ -66,6 +66,8 @@ Either way, the prognoses [remain realistic](http://www.zerohedge.com/news/2017-
 
 > “People in China will be more careful about marketing these events, and a lot of that marketing activity will come to Hong Kong in the form of conferences and communities,” said Weese.
 It remains to be seen if Chinese bitcoin fans will simply switch to other OTC/bilateral forms of trading, or simply take their trading to neighboring Japan and South Korea which remain eager advocates of trading in the crypto space.
+
+On Sep 19th, [trustnodes](http://www.trustnodes.com/2017/09/19/china-bans-bitcoin-executives-leaving-country-miners-preparing-worst) published an article citing rumors that China is trying to stop the cryptocurrency mining industry. Apparently, people are preparing for the worst, relocating mining operations to other countries if they can. It seems that some executives are not allowed to leave the country.
 
 
 <div id="casualties"></div>
