@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: "_headers"
+navi:
+ exclude: yes
+---
+
+/eth.json
+  # Headers for that path:
+  Access-Control-Allow-Origin: *
+  X-Frame-Options: ALLOW
+  X-XSS-Protection: 1; mode=block
+/posts.json
+  Access-Control-Allow-Origin: *
+  X-Frame-Options: ALLOW
