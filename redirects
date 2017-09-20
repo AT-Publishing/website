@@ -9,3 +9,4 @@ navi:
 /exchanges/ /category/exchanges/ 301
 /sample-post/ / 301
 /trading-strategies/ /category/trading/ 301
+/coin/eth/ https://news.altcointrading.net/#/eth 301

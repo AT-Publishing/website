@@ -32,20 +32,20 @@
       </label>
       <div role="tooltip" id="togglemenuID" class="tooltip-content">
 
+        <!-- nav START -->
+
         <nav class="main">
           <div class="twelve columns">
             <ul class="navi">
 
               <li><a href="https://news.altcointrading.net/"><em>News</em>Feed</a></li>
-
+              <li><a href="https://news.altcointrading.net/#/eth">ETH<sup><span class="">New</span></sup></a></li>
               {% for page in site.pages %}
               {% unless page.navi.exclude == true %}
               <li><a href="{{ site.url }}{{ page.url }}" title="{{page.description}}">{{ page.title }}</a></li>
               {% endunless %}
               {% endfor %}
-
               <li><a class="coin" href="/coin/ltc/">LTC</a></li>
-              <li><a class="coin" href="/coin/eth/">ETH</a></li>
               <li><a class="coin" href="/coin/xmr/">XMR</a></li>
             </ul>
 
@@ -61,6 +61,7 @@
       <ul class="navi">
 
         <li><a href="https://news.altcointrading.net/"><em><span class="yellow">News</span> </em>Feed</a></li>
+        <li><a href="https://news.altcointrading.net/#/eth">ETH<sup><span class="">New</span></sup></a></li>
 
         {% for page in site.pages %}
         {% unless page.navi.exclude == true %}
@@ -69,12 +70,12 @@
         {% endfor %}
 
         <li><a class="coin" href="/coin/ltc/">LTC</a></li>
-        <li><a class="coin" href="/coin/eth/">ETH</a></li>
         <li><a class="coin" href="/coin/xmr/">XMR</a></li>
       </ul>
 
 
     </div>
   </nav>
+  <!-- nav END -->
 
 </div>
