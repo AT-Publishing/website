@@ -1,12 +1,12 @@
 ---
 layout: blog
 title: "Best Altcoin Exchanges, Tried and True"
-description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam?"
+description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam? Updated for 2017/2018"
 categories:
 - exchanges
 - trading
 permalink: altcoin-exchanges/
-tags: []
+tags: ['update']
 image:
 - "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
 - "/img/exchanges/okcoin-na.jpg"
@@ -24,7 +24,7 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
-update: 2017-09-04 13:35
+update: 2017-09-21 00:35 +0700
 comments: true
 ---
 
@@ -48,15 +48,18 @@ Let's first look at what is important - what you should be looking for - and wha
 
 **Less important:**
 
-* AML/KYC for altcoin trading is still (luckily) an overkill in many places. Go with that.
+* AML/KYC for altcoin trading is still an overkill in many places. Go with that.
 
 * Screw inhouse charts. Use [Bitcoinwisdom.com](http://bitcoinwisdom.com), [Cryptowat.ch](http://cryptowat.ch) or [Cryptocoincharts.info](http://www.cryptocoincharts.info). Cryptowatch is best for altcoin trading and also actively maintained. It leaves quite some footprint in browsers though.
 
-### Bitfinex & Poloniex
+### Bitfinex
 
-To keep it short, your best bet is generally either [Bitfinex](#bitfinex) or [Poloniex](#poloniex).
+To keep it short, your best bet for spot liquidity is these days generally [Bitfinex](#bitfinex) or [Bittrex](#bittrex).
 
-You can also trade some altcoins on [Kraken](/kraken-cryptowatch/) and there is ETH available on GDAX but it's a **popular fixture** that these two exchanges **will crash** under heavy load during important price action. You have been warned.
+* Bitfinex has the main coins you might want to trade but there will be no fiat banking routes for you unless you want to transfer 5-6 figures USD (if you do, you should contact their support). You should also know there has been [a controversy regarding Tether issuance](https://medium.com/@bitfinexed/are-fraudulent-tethers-being-used-for-margin-lending-on-bitfinex-5de9dd80f330) and [audit has been promised](http://archive.is/6T7Ha).
+* Bittrex has many pairs and poor liquidity on some which can be exploited if you are a good short term trader. They are currently a more reliable altcoin exchange than Poloniex, but their customer support is overloaded too.
+
+You can also trade some altcoins on [Kraken](/kraken-cryptowatch/) and there is ETH available on GDAX but **it's been long a popular fixture** that these two exchanges **will crash during every important price action**. You have been warned.
 
 
 ### Altcoin traders from the US  
@@ -100,7 +103,7 @@ Poloniex verification levels:
 
     * Verification is not absolutely necessary.
     * You need to state your (any) name and country to get $2000 daily withdrawal limit.
-    * Filling in your address and phone number gives you $7000 daily.
+    * Getting verified takes months. Corporate verifications are no longer possible.
     * The verification limits on Poloniex are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies - so, if your favourite altcoin surges you might not be able to withdraw all of your profits at once.  
 
 **Poloniex Charts**
@@ -115,7 +118,7 @@ Poloniex verification levels:
 
 **Mobile trading**
 
-Via third party app called TabTrader. **There is a "Poloniex app" for Android but it is fraudulent!**
+Via third party app called TabTrader. **There is a "Poloniex app" for Android but it is fraudulent.**
 
 [Up](#)
 
@@ -129,24 +132,17 @@ What used to be known as Bitcoin exchanges in the past is now becoming a serious
 
 {% amp700 {{border}} {{page.image[0]}} {{page.image_alt[0]}} %}
 
-{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} is based in HongKong, owned by JL van der Velde - CEO of iFinex Inc.
+{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} is based in [British Virgin Islands](https://www.altcointrading.net/bitfinex-not-affected-pbox-ico), owned by JL van der Velde - CEO of iFinex Inc.
 
 On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} crypto deposits and withdrawals go without verification. You need some confirmations to use BTC or altcoin deposit, they don't do instant deposits - that might be a drawback if you're doing altcoin arbitrage.  
 
 **Bitfinex Liquidity**
 
-{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are less liquid than Alt/BTC but you can use them for arbitrage or hedging.
-
-
-**Altcoin markets**
-
-**Ether, Ether Classic, Zcash, Monero, Dash and Litecoin**. {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} also trades Bitcoin Core and Bitcoin Unlimited prediction tokens.
+{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are  slightly less liquid than Alt/BTC. There are new markets for coins like IOTA or OMG and new coins keep getting listed but the trading picks up very quickly on these new markets.
 
 **Bitfinex Policies**
 
-Might require AML/KYC if you are from certain locations or trade a lot of money. So be careful and don't put too much in one basket. Also, when they get hacked, they are not liable for losses - and they have been hacked indeed.
-
-Currently their USD withdrawals are held back because they lost their only USD clearing center (Wells Fargo). The company that holds Bitfinex tried to sue Wells Fargo but the lawsuit was withdrawn [so there either was a settlement or the lawsuit simply didn't have a chance](https://www.myownman.org/single-post/2017/04/11/iFinex-vs-Wells-and-the-price-of-Bitcoin-in-Hong-Kong).
+[There is no fiat-crypto banking for retail nor is there going to be](https://www.altcointrading.net/bitfinex-banking).
 
 **Bitfinex Charts**
 
@@ -163,82 +159,16 @@ Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview ht
 Native app ("Bitfinex", issued by iFinex), TabTrader, zTrader
 
 
-#### BTC-e
-
-{% amp700 border {{page.image[4]}} {{page.image_alt[4]}} %}
-
-{% aff BTC-e https://btc-e.com %} is most likely based in Russia but no official info is given. They are now the oldest exchange, operating since 2011 without scams.
-
-Good selection of lively altcoin markets involving coins like LTC, NVC, PPC and NMC. Markets are quite big.
-
-**BTC-e Policies**
-
-ID verification only for fiat deposits or withdrawal. To deposit an altcoin, trade it in any way, and withdraw more altcoin goes without verification.
-
-The BTC-e exchange has no liability for losses. Have a 2FA, please - there were users reporting hacks but no site-wide hack was ever announced.
-
-**BTC-e deposits**
-
-BTC-e uses a complicated fiat route that goes through several offshore proxies so fiat deposits and withdrawals are complicated and expensive. [More here](http://archive.is/xy6QA)
-
-The presently supported payment methods are:
-
-  * US Bank Wire, EU Bank Wire (SEPA)
-  * Visa, Mastercard
-  * {% aff PerfectMoney https://perfectmoney.is/?ref=7622697 %}
-  * Liqpay.com, unikarta.com, WebCreds.com, Ukash.com, Webmoney.ru
-
-
-**BTC-e Charts**
-
-Use Bitcoinwisdom.
-
-**BTC-e {% aff Fees https://btc-e.com/page/2 %}**
-
-  * Trade: Flat 0.2%
-  * Deposit: Any crypto for **free**
-  * Withdrawal: Any crypto has fee of **0.001 coin** (quite high). Fees on fiat withdrawals change with method but generally are quite high compared to the industry levels.
-
-**BTC-e Mobile trading**
-
-Third party app TabTrader.
-
-
 #### Chinese Exchanges
 
-##### (mostly LTC only)
+##### (mostly BTC/LTC only)
 
 {% amp700 border {{page.image[1]}} {{page.image_alt[1]}} %}
 
-
-Chinese exchanges are good place to trade. Keep in mind that Chinese have more interest in coins due to their capital control. That means prices will usually be a bit above the western markets. If you find a way to arbitrage this, good on you.
-
-Typically though you will only be able to trade LTC pairs in China.
-
-* Policies: No AML/KYC paperwork necessary. Chinese traders say that international traders are never hassled, but sometimes traders with high balance are picked and asked to state their ID number or so. The trick is that you get asked for ID number (without verification) on sign up but as they lock your account and ask you, you cannot go and check. This is theor way to filter out frauds (and seize their coins).
-
-Also: When signing up you need to certify you are not from US, Indonesia or other restricted countries (they are specified in Terms).
-
-* [OKCoin (HongKong)](https://www.okcoin.com/?invid=2091151) needs 2-factor authentification.
-  * [LTCCNY Charts](https://bitcoinwisdom.com/markets/okcoin/ltccny).
-  * On the okcoin.com you can also trade BTC and LTC futures.
-
-
-* [BTCC](https://exchange.btcc.com/)
-  * BTCC has a [spot exchange](https://exchange.btcc.com/) and pro-exchange [which is leveraged (up to 20x)](https://pro.btcc.com/).
-  * [Fees](https://www.btcc.com/fees)
-  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/btcchina/ltccny).
-
-
-* [Huobi (China)](https://www.huobi.com/) needs a verified phone number.
-  * Fee: 0.5% on withdrawal.
-  * [LTC / CNY Charts](https://bitcoinwisdom.com/markets/huobi/ltccny).
-
+Chinese exchanges are shutting down CNY pairs for now, it is unclear if they will get licensed and reopen. The only place that remains is [OkCoin International](https://okcoin.com) (USD denominated BTC, LTC, ETH markets).
 
 [Up](#)
 
-
-### New-ish places but tested without issues
 
 #### Bittrex
 
@@ -255,55 +185,29 @@ Also: When signing up you need to certify you are not from US, Indonesia or othe
 
 * Mobile trading: TabTrader
 
-#### Bit-X
-
-{% amp700 border {{page.image[3]}} {{page.image_alt[3]}} %}
-
-
-{% aff Bit-x https://bit-x.com %} only needs an unverified phone number. The only quite lively altcoin market is LTCBTC but don't expect too much.
-
-They also offer a {% aff virtual credit card (or a plastic one.) https://bit-x.com %}
-
-
-* Policies: They charge fee per open transaction (0,02%). You don't get it back if you cancel the trade. In addition to this, there also are trade fees as normally.
-
-* Charts: Use [Bitcoinity](https://bitcoinity.org/markets/bit-x/USD)
-
-* Fees
-  * Trade: Flat 0.2%
-  * Deposit: Any crypto for **free**
-  * Withdrawal: Any crypto **free**
-
-* Mobile trading: So far no app has them?
 
 [Up](#)
 
-
-### To keep checking (Low volumes for now)
-
-#### AnxPro
-
-{% amp700 border {{page.image[5]}} {{page.image_alt[5]}} %}
+### Derivatives
 
 
-{% aff Anxpro https://anxpro.com/ %} looks like a Forex platform.  
+#### BitMEX
 
-Looks fine but doesn't have enough liquidity yet - only some DOGE trades up until now (check out the [trade volume table at the bottom](http://www.cryptocoincharts.info/markets/show/anxpro)). Probably only worth checking out for now.
+BitMEX is a cryptocurrency derivative platform. You cannot buy altcoins or bitcoin on BitMEX with your national currency, you can only trade their products for profit. You get your winnings paid out in BTC.
 
+Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (derivative mimicking spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.
 
-* Policies: No verification needed for altcoin trading without fiat movements. Users in US or prohibited countries will be banned if they use a VPN. There is no clear specification which countries these are.
+US customers are not allowed to sign up to the platform per T&C but Tor/VPN access is not blocked.
 
-* Charts: Use [Cryptocoincharts](http://www.cryptocoincharts.info/markets/show/anxpro)
+<a rel="nofollow" href="https://www.bitmex.com/register/iYQB44" class="button" target="_blank">Get 10% fee discount</a>
 
-* Fees
-    * Trade: Makers 0.3%, takers0.6%
-    * Deposit: All crypto **free**
-    * Withdrawal: All crypto **free**
+#### OKEX
 
-* Mobile trading: TabTrader
+BTC and LTC futures only. Probably too close to China for calm sleep these days.
 
 
-[Up](#)
+[okex.com](https://okex.com)
+
 
 
 ### Who has problems

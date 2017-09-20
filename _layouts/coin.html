@@ -44,7 +44,7 @@ layout: default-coin
             <div class="row">
 
               <div class="nine columns">
-                {{ post.description }}
+                {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %} {{ post.description }}
               </div>
 
               {% if post.image[0] %}

@@ -53,6 +53,14 @@ navi:
         {% endif %}
     </url>
     {% endunless %}{% endfor %}
+    <url>
+      <loc>https://www.altcointrading.net/security/</loc>
+    </url>
+    {% for page in site.security %}{% unless page.navi.exclude == true %}
+    <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+    </url>
+    {% endunless %}{% endfor %}
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>

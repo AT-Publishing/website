@@ -13,8 +13,7 @@ image:
 image_alt:
 - "Ethereum, Monero and the rest of it: How to buy?"
 update: 2017-02-01
-#tags:
-#- "popular"
+tags: ['update']
 comments: true
 ---
 

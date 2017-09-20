@@ -5,9 +5,17 @@ baseurl: ""
 url: "https://www.altcointrading.net"
 
 collections:
+  - press
+  - security
+
+collections:
   press:
     output: true
     permalink: /:collection/:name
+  security:
+    output: true
+    permalink: /:collection/:slug
+
 
 defaults:
  -
@@ -46,6 +54,19 @@ defaults:
      comments: false
      stories: true
      genres: "PressRelease" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
+     tickers: false
+     author: "mailto:info@altcointrading.net"
+     author_name: "AltcoinTrading"
+ -
+   scope:
+     path: "security" # all
+     type: "security"
+   values:
+     layout: "forestry"
+     german: false
+     published: true
+     comments: false
+     stories: false
      tickers: false
      author: "mailto:info@altcointrading.net"
      author_name: "AltcoinTrading"

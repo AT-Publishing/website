@@ -1,8 +1,86 @@
 <div id="sidebar">
+  <section class="posts-security">
+
+    {% assign items = (site.security | sort: date) | reverse %}
+    {% for post in items limit:1 %}
+    <h3>New in Homelab</h3>
+    <section class="row homelab">
+      <div class="columns twelve">
+        <h5 class="post">
+          <strong>
+            <a href="{{ site.url }}{{ post.url }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
+          </strong>
+          <small>{{ post.date | date_to_string }}</small>
+        </h5>
+      </div>
+      <div class="columns twelve">
+        {% if post.image[0] %}
+        <div class="six columns">
+          <a target="_blank" href="{{ site.url }}{{ post.url }}">
+            <figure class="thumb">
+              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+              layout="responsive"
+              data-original-width="720px" data-original-height="360px"
+              width="150px" height="80px">
+              </amp-img>
+            </figure>
+          </a>
+        </div>
+        {% endif %}
+        <div class="six columns alignleft">
+        {{ post.description }}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+
+    {% assign items = (site.security | sort: date) | reverse %}
+    {% for post in items offset:1 limit:2 %}
+    <section class="row homelab">
+      <div class="columns twelve">
+        <h6 class="post">
+          <strong>
+            <a href="{{ site.url }}{{ post.url }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
+          </strong>
+          <small>{{ post.date | date_to_string }}</small>
+        </h6>
+      </div>
+      <div class="columns twelve">
+        {% if post.image[0] %}
+        <div class="four columns">
+          <a target="_blank" href="{{ site.url }}{{ post.url }}">
+            <figure class="thumb">
+              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+              layout="responsive"
+              data-original-width="720px" data-original-height="360px"
+              width="150px" height="80px">
+              </amp-img>
+            </figure>
+          </a>
+        </div>
+        {% endif %}
+        <div class="eight columns alignleft">
+        {{ post.description }}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+
+  </section>
   <section>
     <ul class="divided">
       <li>
-        {{ site.ads.sidebar }}
+        <h3>Everyone's Favorite Cold Storage:</h3>
+        <div>
+          {% banner300 https://www.ledgerwallet.com/images/promo/ledger-500x500-01.jpg https://www.ledgerwallet.com/r/e274 %}
+        </div>
+        <p>
+          <u>Fully Opensource - Ethereum tokens supported</u>
+          <br>
+          <strong>{% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %}</strong> native support: BTC, ETH, ETC, DOGE, LTC, ZEC, DASH, XRP, STRAT.
+          <br>
+          <strong>Support via MyEtherWallet:</strong> 1ST, ARC, BeerCoin, BCDN, CRB, CryptoCarbon, DAO, DAO_extraBalance, DGD, DGX 1.0, EDG, EMV, GNO, GNT, GUP, HKG, HMQ, ICN, LUN, MIT, MKR, MLN, NxC, PLU, REP, RLC, ROL, ROUND, SNGLS, SWT, TaaS, TIME, TKN, TRST, Unicorn, VSL, WINGS, XAUR.
+        </p>
       </li>
       <li>
       <h3>Altcoin Performance:</h3>
@@ -16,9 +94,13 @@
         </amp-iframe>
       </div>
       </li>
+
       <li>
-        <strong>Have a story you want published?</strong>
-        <p><a target="_blank" href="https://t.me/joinchat/AAAAAA2zSzLY3u45TZ-VoQ"><i class="fa fa-telegram"></i> Talk to us on Telegram</a></p>
+        <strong>Altcoin Trading Telegram Group</strong>
+        <p><a target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a></p>
+      </li>
+      <li>
+        {{ site.ads.sidebar }}
       </li>
       <li>
         <h3>Cryptocurrency Markets Data</h3>
@@ -45,27 +127,6 @@
             <a  target="_blank" rel="nofollow" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
             <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
         </ul>
-      </li>
-      <li>
-        <h3>Everyone's Favorite Cold Storage:</h3>
-        <p>Fully Opensource - Ethereum tokens supported</p>
-        <div>
-          {% banner300 https://www.ledgerwallet.com/images/promo/ledger-500x500-01.jpg https://www.ledgerwallet.com/r/e274 %}
-        </div>
-        <p>
-          <br>
-          <strong>{% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %}</strong> native support: BTC, ETH, ETC, DOGE, LTC, ZEC, DASH, XRP, STRAT.
-        </p>
-        <p>
-          Support via MyEtherWallet: 1ST, ARC, BeerCoin, BCDN, CRB, CryptoCarbon, DAO, DAO_extraBalance, DGD, DGX 1.0, EDG, EMV, GNO, GNT, GUP, HKG, HMQ, ICN, LUN, MIT, MKR, MLN, NxC, PLU, REP, RLC, ROL, ROUND, SNGLS, SWT, TaaS, TIME, TKN, TRST, Unicorn, VSL, WINGS, XAUR.
-        </p>
-      </li>
-
-      <li>
-      <h3>Hassle-free profit taking to virtual Credit Card:</h3>
-        <div>
-          {{ site.ads.acashgreen }}
-        </div>
       </li>
       <li>
         <h3>Follow this site</h3>

@@ -1,13 +1,17 @@
 ---
 layout: page
-title: "altcoin wallets"
+title: "Altcoin Security & Cold Storage | Crypto Homelab"
 description: "All about desktop altcoin wallets and hardware wallets for safe alt coin storage."
-permalink: /category/wallets/
+permalink: /security/
+navi:
+ exclude: yes
 ---
 
-{% for post in site.posts %}
+{{ site.ads.aads728 }}
 
-{% if post.category contains "wallets" or post.categories contains "wallets" %}
+{% assign items = (site.security | sort: date) | reverse %}
+{% for post in items  %}
+
   <h4 class="post">
   <strong>
   <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
@@ -16,7 +20,7 @@ permalink: /category/wallets/
   </h4>
   <div class="row">
     <div class="nine columns">
-      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %} {{ post.description }}
+      {{ post.description }}
     </div>
     {% if post.image[0] %}
     <div class="three columns">
@@ -30,6 +34,6 @@ permalink: /category/wallets/
     </div>
     {% endif %}
    </div>
-{% endif %}
+
 
 {% endfor %}

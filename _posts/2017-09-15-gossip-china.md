@@ -22,7 +22,7 @@ categories:
 - altcoins
 update: 2017-09-20 02:36:00 +0700
 chart: []
-tags: ['popular']
+tags: ['popular', 'update']
 identifier: []
 ---
 
