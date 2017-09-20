@@ -2,14 +2,11 @@
 navi:
  exclude: yes
 ---
-
+{% assign isFirst = true %}
 [
-  {% for post in site.posts %}
-  {
-    "title":"{{ post.title }}",
-    "date":"{{ post.date }}"
-    "content":"{{ post.description | escape }}"
-    "url":"{{ post.url}}"
-  },
-  {% endfor %}
-]
+  {% for post in site.posts %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}{
+    "title":"{{ post.title | escape }}",
+    "date":"{{ post.date | escape  }}",
+    "content":"{{ post.description | escape }}",
+    "url":"{{site.url}}{{ post.url | escape }}"
+  }{% endfor %}]
