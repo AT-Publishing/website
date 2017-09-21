@@ -9,6 +9,8 @@ navi:
 
 {{ site.ads.aads728 }}
 
+<blockquote>If you can send 100k USD instantly for 0.50 USD leaving money on exchanges is plain self-sabotage.</blockquote>
+
 {% assign items = (site.security | sort: date) | reverse %}
 {% for post in items  %}
 
