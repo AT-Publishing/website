@@ -28,7 +28,7 @@ navi:
     <div class="three columns">
       <a target="_blank" href="{{ post.url }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Alt Coin Wallet" layout=""
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Cryptocurrency cold storage" layout=""
           width="150px" height="80px">
           </amp-img>
         </figure>
