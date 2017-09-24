@@ -22,7 +22,7 @@ input, select, textarea {width: 100%}
 
 Submit news source, idea for an article or a press release.
 
-<form action="https://formspree.io/submit@altcointrading.net" method="POST">
+<form name="submission" action="/contact/" netlify>
 <p> What are you submitting? <br>
 <select>
  <option value="pr">Press Release</option>
