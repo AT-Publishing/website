@@ -20,23 +20,12 @@ __________________________
 input, select, textarea {width: 100%}
 </style>
 
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
 Submit news source, idea for an article or a press release.
 
-<form name="submission" action="/contact/" netlify>
-<p> What are you submitting? <br>
-<select>
- <option value="pr">Press Release</option>
- <option value="idea">Idea</option>
- <option value="news">News Source</option>
-</select>
-</p>
-<p> Your email <br>
-<input type="email" name="email" placeholder="E-mail address">
-</p>
-<p> Content or links to source<br>
-<textarea name="message" placeholder="Your message"></textarea>
-</p>
-<p>
-<button type="submit">Send</button>
-</p>
-</form>
+
+<div class="mailchimpfix">
+<amp-iframe width="700px" height="500px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://astronomer-julia-20385.netlify.com/submit.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>
