@@ -1,9 +1,12 @@
 ---
 published: true
 
+comments: true
+identifier: "chinagossip"
+
+
 layout: forestry
 german: false
-comments: false
 stories: true
 genres: Blog
 tickers: false
@@ -23,7 +26,6 @@ categories:
 update: 2017-09-20 02:36:00 +0700
 chart: []
 tags: ['popular', 'update']
-identifier: []
 ---
 
 Hello and welcome to the *China bans Bitcoin* show season 3. Except this time it was about all crypto.
