@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 guest: true
 
 date: 2017-10-02 18:12:00 +0700
-update: 2017-09-24 12:36:00 +0700
+update: 2017-10-03 04:36:00 +0700
 
 author: https://www.reddit.com/user/atc2017
 author_name: atc2017
@@ -17,10 +17,10 @@ layout: forestry
 german: false
 tickers: false
 
-title: 'Altcoin Analytics - NEO'
+title: 'Sentiment: Altcoin Analytics Primer - NEO'
 description: "Maynard Keynes said in relation to some markets that \'we devote our intelligence to anticipating what average opinion expects the average opinion to be\'."
 
-permalink: "/altcoin-analytics-october-2017"
+permalink: "/altcoin-analytics-primer-neo"
 image:
 - "/editorial/asia-street-small.png"
 - "/img/neo/neo-twitter.jpg"
@@ -99,9 +99,11 @@ o   R2: What percentage of the altcoin return are explained by Bitcoin's price a
 
 ### About the data processing
 
-The reports retrieves historical price series to calculate Risk Metrics. For the Twitter analysis **tweets with a hashtag** on the specific coin are downloaded in bulk with a Python script. The textual analysis is done with the help of the [TextBlob library](https://pypi.python.org/pypi/textblob), which is used to analyze the sentiment of each individual tweet.
+The reports retrieves historical price series to calculate Risk Metrics. For the Twitter analysis **tweets with a hashtag** on the specific coin are downloaded in bulk with a Python script using the [Tweepy](http://www.tweepy.org/) library. The textual analysis is done with the help of the [TextBlob library](https://pypi.python.org/pypi/textblob), which is used to analyze the sentiment of each individual tweet. The code is not opensourced at the moment.
 
 
 _____________________
 
 *Edited by u/KarlVonBahnhof.*
+
+_____________________
