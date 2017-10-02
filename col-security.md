@@ -7,7 +7,7 @@ navi:
  exclude: yes
 ---
 
-{{ site.ads.aads728 }}
+{{ site.ledger_728-90_animated }}
 
 <blockquote>If you can send 100k USD instantly for 0.50 USD leaving money on exchanges is plain self-sabotage.</blockquote>
 

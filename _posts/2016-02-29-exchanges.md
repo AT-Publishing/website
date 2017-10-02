@@ -5,6 +5,7 @@ description: "Where to trade altcoins? Which exchanges are liquid, which have is
 categories:
 - exchanges
 - trading
+- basics
 permalink: altcoin-exchanges/
 tags: ['update']
 image:

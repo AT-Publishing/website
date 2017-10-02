@@ -9,7 +9,7 @@ tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: 'How to safely move Litecoins after recent network upgrades'
-date: 2017-09-04 12:18:00 +0200
+date: 2017-09-01 00:18:00 +0200
 description: "Litecoin got new P2SH which most exchanges and mainstream wallets don't support yet."
 permalink: "/moving-ltc-p2sh"
 image:
@@ -20,7 +20,7 @@ categories:
 - wallets
 - altcoins
 - ltc
-update: 2017-09-04 14:09:00 +0200
+update: 2017-09-04 10:09:00 +0200
 chart: []
 tags: []
 identifier:

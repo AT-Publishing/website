@@ -24,6 +24,7 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
+      guest: false
       german: false
       published: true
       comments: true
@@ -132,9 +133,17 @@ ads:
     src="https://ad.a-ads.com/147074?size=336x280"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
+ledger_300-250_animated: '<div class="containter-center"><a href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledger wallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+ledger_728-90_animated: '<div class="containter-center"><a href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledger wallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+
+
 mailchimp: '<div class="mailchimpfix">
 <amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
 src="https://amp2disqus.netlify.com/altcointrading/signup.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>'
+mailchimp_thin: '<div class="mailchimpfix">
+<amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
 </div>'
 
 

@@ -9,7 +9,20 @@ navi:
 ---
 
 
-Disclaimer **Updated: March 25, 2017**
+<br>
+
+<div>
+
+<p id="socicons" class="contacticon center">
+	<a href="mailto:info@altcointrading.net"><i class="fa fa-3x fa-envelope-square"></i></a>
+	<a href="https://t.me/altcointrading_net" target="_blank"><i class="fa fa-3x fa-telegram"></i></a>
+  <a href="https://reddit.com/r/altcointrader" target="_blank"><i class="fa fa-3x fa-reddit"></i></a>
+</p>
+
+</div>
+
+Disclaimer **Updated: October 2, 2017**
+
 
 *Information provided on Altcointrading.net (including subdomains) serves only for educational purposes and is not intended as financial advice.*
 
@@ -46,16 +59,9 @@ Altcointrading.net does not promote or encourage illegal or underage activities,
 If there are any questions regarding this privacy policy you may contact us using the information below.
 
 
-<br/>
-<hr/>
-<br/>
-<span class="contacticon center">
-	<a href="mailto:info@altcointrading.net"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/altcointrading" target="_blank"><i class="fa fa-github-square"></i></a>
-</span>
 
 <div class="col three caption">
-	For questions or suggestions please reach out to us by email info@altcointrading.net.
+	For questions or suggestions please reach out to us by email info@altcointrading.net or via Telegram at https://t.me/altcointrading_net.
 </div>
 <br/>
 <hr/>

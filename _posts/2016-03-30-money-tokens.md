@@ -7,6 +7,7 @@ categories:
 - "dash"
 - "eth"
 - "xmr"
+- "basics"
 permalink: value/
 image:
 - "/img/charts/ethdash.jpg"

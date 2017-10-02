@@ -22,7 +22,7 @@ published: true
 tickers: OTCMKTS:GBTC, ^NYXBT
 author: https://twitter.com/tradingfanbois
 author_name: "@tradingfanbois"
-tags: ['popular', 'update']
+tags: ['update']
 genres: Blog, OpEd, Opinion
 ---
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}

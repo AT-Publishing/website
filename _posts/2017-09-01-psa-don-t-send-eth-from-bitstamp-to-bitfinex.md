@@ -3,12 +3,12 @@ layout: forestry
 german: false
 published: true
 comments: false
-stories: false
-genres: false
+stories: true
+genres: 'PSA'
 tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: 'PSA: Don''t send ETH from Bitstamp to Bitfinex'
+title: 'Don''t send ETH from Bitstamp to Bfx'
 date: 2017-09-01 00:18:50 +0200
 description: Your money will be lost.
 permalink: "/bitifinex-eats-your-eth"

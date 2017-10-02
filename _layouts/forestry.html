@@ -27,6 +27,7 @@ layout: default-news
        <span id="note">
          {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }}</time>.&nbsp;{% endif %}
          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }}</time>
+         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
        </span>
        <h4 class="post post-main">
           <strong>
@@ -93,7 +94,7 @@ layout: default-news
             <hr>
             {% if page.stories %}
             <p>
-              <a target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+              <a rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
             </p>
             {% endif %}
             <p>

@@ -8,32 +8,45 @@ navi:
    <div class="eight columns swapper">
 
     <section id="popular-posts">
-
+      <!-- SLOT 1 -->
       {{ site.ads.aads728 }}
-
-
+      {{ site.mailchimp_thin }}
       <span id="note">Popular Posts</span>
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
-          <h3>
-            <a href=".{{ post.url }}">{{ post.title }}</a>
+          <h3 class="popular">
+            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
           </h3>
           <p>
           {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
           </p>
         {% endif %}
       {% endfor %}
-
-
     </section>
 
     <section id="new-posts">
 
-      {{ site.ads.aads728 }}
-
-
       <span id="note">New Posts</span>
 
+      <div class="row home-top-new">
+        {% unless post.tags contains 'press' %}
+          {% for post in site.posts offset: 0 limit: 2 %}
+            {% include latestarticle.html %}
+          {% endfor %}
+         {% endunless %}
+      </div><!-- row end-->
+      <div class="row home-top-new">
+        {% unless post.tags contains 'press' %}
+          {% for post in site.posts offset: 2 limit: 2 %}
+            {% include latestarticle.html %}
+          {% endfor %}
+         {% endunless %}
+      </div><!-- row end-->
+
+
+      <!-- SLOT 2 -->
+      <p>{{ site.ads.aads728 }}</p>
+      <!-- press -->
       {% for post in site.press offset: 0 limit: 2 %}
         <h4 class="post">
           <strong>
@@ -44,26 +57,31 @@ navi:
         <p>
         {{ post.description }}
         </p>
+        <br>
       {% endfor %}
-
-
-    <br>
-
+      <!-- end press -->
 
     {% unless post.tags contains 'press' %}
-      {% for post in site.posts offset: 0 limit: 15 %}
-        <h4 class="post">
-          <strong>
-            <a href=".{{ post.url }}">{% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;{% endif %}{{ post.title }}</a>
-          </strong>
-          <small>{{ post.date | date_to_string }}</small>
-        </h4>
-        <div class="row">
-          <div class="nine columns">
-            {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+      {% for post in site.posts offset: 4 limit: 15 %}
+
+        <div class="row home-latest">
+          <div class="seven columns">
+            <h5 class="post">
+              <strong>
+                {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;{% endif %}
+                <small>{{ post.date | date_to_string }}</small>
+
+                {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+
+                <br><a href=".{{ post.url }}">{{ post.title }}</a>
+              </strong>
+            </h5>
+            <div class="home-latest-excerpt">
+              {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+            </div>
           </div>
           {% if post.image[0] %}
-          <div class="three columns">
+          <div class="five columns">
             <a target="_blank" href="{{ post.url }}">
               <figure class="thumb">
                 <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
@@ -78,6 +96,8 @@ navi:
         </div>
       {% endfor %}
      {% endunless %}
+
+
     </section>
 
 

@@ -35,7 +35,7 @@ We sometimes (not always) use affiliate links. We do not use affiliate links on 
 ______________________________
 
 
-Privacy Policy **Last updated: Jun 9 2017**
+Privacy Policy **Last updated: October 2, 2017**
 
 This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 
@@ -79,11 +79,15 @@ Third party links
 
 Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
 
+**Comment system**
+
+We have enabled Disqus as a third party comment engine. [Link to their privacy policy](https://help.disqus.com/customer/portal/articles/466259-privacy-policy).
+
 **Google**
 
 Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en
 
-= We **have enabled Google AdSense** on our site.
+= We **have not enabled Google AdSense** on our site. We use Anonymous Ads for display ads.
 
 **California Online Privacy Protection Act**
 
@@ -127,20 +131,4 @@ The CAN-SPAM Act is a law that sets the rules for commercial email, establishes 
 
 **Contacting Us**
 
-If there are any questions regarding this privacy policy you may contact us using the information below.
-
-
-<br/>
-<hr/>
-<br/>
-<span class="contacticon center">
-	<a href="mailto:info@altcointrading.net"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/at-publishing" target="\_blank"><i class="fa fa-github-square"></i></a>
-</span>
-
-<div class="col three caption">
-	For questions or suggestions please reach out to us by email.
-</div>
-<br/>
-<hr/>
-<br/>
+If there are any questions regarding this privacy policy you may contact us at info@altcointrading.net.

@@ -24,7 +24,7 @@ layout: default-news
        <a href="{{site.url}}">Home</a> > <a href="{{site.url}}/security/">Security</a>
      </p>
      <div class="shifted-left">
-       {{ site.ads.aads728 }}
+       {{ site.ledger_728-90_animated }}
      </div>
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
@@ -112,37 +112,25 @@ layout: default-news
           </p>
 
           {% if page.comments %}
-          <br>
-          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
 
-          <p>
-          <a
-            target="_blank"
-            href="https://amp2disqus.netlify.com/altcointrading/index.html&#35;altcointradingnet{% if page.identifier %}{{ page.identifier }}{% else %}{{ page.permalink }}{% endif %}">
-            Open Disqus in new tab
-          </a>
-          </p>
+                    <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
 
-          <amp-iframe width=600 height=240
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            resizable
-            src="https://amp2disqus.netlify.com/altcointrading/index.html&#35;altcointradingnet{% if page.identifier %}{{ page.identifier }}{% else %}{{ page.permalink }}{% endif %}">
-            <div overflow tabindex=0 role=button class="button" aria-label="Read more">LOAD MORE</div>
-          </amp-iframe>
+                    <div id="disqus_thread"></div>
+                    <script>
+                    var disqus_config = function () {
+                    this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = "altcointradingnetsecurity{{page.slug}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
 
-          &nbsp;
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://altcointrading.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-          <amp-iframe width=600 height=240
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            resizable
-            src="https://amp2disqus.netlify.com/altcointrading/index.html?url=altcointrading.net&identifier=altcointradingnet{% if page.identifier %}{{ page.identifier }}{% else %}{{ page.permalink }}{% endif %}">
-            <div overflow tabindex=0 role=button class="button" aria-label="Read more">LOAD MORE</div>
-          </amp-iframe>
-
-          <br>
-          <br>
           {% endif %}
 
         </article>

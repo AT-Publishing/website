@@ -7,6 +7,7 @@ categories:
 - "dash"
 - "zcash"
 - "eth"
+- "basics"
 permalink: how-to-buy-altcoins/
 image:
 - "/img/eth/eth2.jpg"
