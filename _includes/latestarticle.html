@@ -2,7 +2,9 @@
 <article class="columns six">
   <h4 class="post">
     <strong>
-      {% if post.stories %}<span class="tag">{{ post.genres }}</span>{% endif %}
+      {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+      {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+      {% endif %}
       <small>{{ post.date | date_to_string }}</small>
       {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
       <a href="{{site.url}}{{ post.url }}">

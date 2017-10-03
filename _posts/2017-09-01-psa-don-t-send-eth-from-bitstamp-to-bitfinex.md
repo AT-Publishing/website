@@ -3,9 +3,12 @@ layout: forestry
 german: false
 published: true
 comments: false
-stories: true
-genres: 'PSA'
+stories: false
+genres: 'Blog'
 tickers: false
+
+note: 'PSA'
+
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: 'Don''t send ETH from Bitstamp to Bfx'

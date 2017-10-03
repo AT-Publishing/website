@@ -68,7 +68,9 @@ navi:
           <div class="seven columns">
             <h5 class="post">
               <strong>
-                {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;{% endif %}
+                {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+                {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+                {% endif %}
                 <small>{{ post.date | date_to_string }}</small>
 
                 {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}

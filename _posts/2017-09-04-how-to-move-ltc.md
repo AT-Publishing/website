@@ -6,6 +6,9 @@ comments: true
 stories: false
 genres: false
 tickers: false
+
+note: 'PSA'
+
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: 'How to safely move Litecoins after recent network upgrades'

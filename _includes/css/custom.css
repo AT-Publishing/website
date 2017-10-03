@@ -6,6 +6,11 @@ blockquote {font-family: 'Alegreya';font-style:italic;
     padding-left: 3rem;
     margin-left: 0;
 }
+ul.airdrops {
+    list-style: disc;
+    margin-left: 22px;
+}
+ul.airdrops a {text-decoration: underline;}
 .homelab, .homelab * {text-align: left;margin-bottom: 4px;}
 .alignleft, .alignleft > p {text-align: left}
 ul.social{list-style:none;font-size:37px;margin-bottom:-3px}ul.social li{display:inline-block}.mailchimpfix{width: auto;float: left;margin-right: 30px;margin-bottom: 0;clear: both;display: block;}.warning{position:relative;left:-10px}#side2 ul li a,#sidebar ul.sq li a,.stripe .hl a,a,nav.main a{text-decoration:none}.adfix,.clearfix{clear:both}body{font-family:'Droid Sans',sans-serif;color:#413F4F}h1,h2,h3,h4,h5,h6{font-family:'Fira Sans Condensed',serif}
@@ -44,12 +49,12 @@ h5.post {
 .row.home-latest .seven.columns {width: 60.666667%;}
 .home-latest-excerpt{margin:-5px 15px 15px 15px}
 
-.yellow {color: #ffdc00;}
-.tag {display: inherit;background: #ffdc00;padding: 1px 7px;color: #fff;font-size: 80%;font-weight: 200;position: relative;top: -2px;}
+.yellow {color:#ffdc00;}
+.tag {display:inherit;background:#ffdc00;padding:1px 7px;color:#fff;font-size:80%;font-weight:200;position:relative;top:-2px}
+.custom-note {background:#CDDC39;}
 
 .post-content .guest{color:rgba(122, 131, 141, 0.81)}
 .post-content .guest > a {color:rgba(122, 131, 141, 0.81);text-decoration: underline;}
-
 
 @media(min-width:480px){
   .logo {
@@ -109,4 +114,10 @@ h5.post {
     float: left;
     margin-right: 20px;
   }
+}
+
+@media (max-width: 480px){
+ .row.home-top-new > article > .row > .overlay {bottom: 35px;}
+ .row.home-latest .seven.columns {width: 100%;}
+ #popular-posts{max-width: 100%}
 }
