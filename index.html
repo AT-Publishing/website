@@ -28,14 +28,14 @@ navi:
 
       <span id="note">New Posts</span>
 
-      <div class="row home-top-new">
+      <div class="row home-top-new" id="gtm-top-new-1">
         {% unless post.tags contains 'press' %}
           {% for post in site.posts offset: 0 limit: 2 %}
             {% include latestarticle.html %}
           {% endfor %}
          {% endunless %}
       </div><!-- row end-->
-      <div class="row home-top-new">
+      <div class="row home-top-new" id="gtm-top-new-2">
         {% unless post.tags contains 'press' %}
           {% for post in site.posts offset: 2 limit: 2 %}
             {% include latestarticle.html %}
@@ -64,7 +64,7 @@ navi:
     {% unless post.tags contains 'press' %}
       {% for post in site.posts offset: 4 limit: 15 %}
 
-        <div class="row home-latest">
+        <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
