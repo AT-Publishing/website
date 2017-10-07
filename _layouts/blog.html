@@ -20,34 +20,34 @@ layout: default-news
 
         <article class="maincontent">
 
-          {{ content }}
+          {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
           <p>
             <hr>
 
             <ul class="social">
               <li>
-                <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
+                <a  title="Share on Facebook {{ page.title }}" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
                   <i class="fa fa-facebook-square"></i>
                 </a>
               </li>
               <li>
-                <a href="http://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
+                <a  title="Share to Twitter {{ page.title }}" href="http://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
                   <i class="fa fa-twitter-square"></i>
                 </a>
               </li>
               <li>
-                <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Google Plus" target="_blank">
+                <a  title="Share on Google plus {{ page.title }}" href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Google Plus" target="_blank">
                   <i class="fa fa-google-plus-square"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.xing.com/social_plugins/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Xing" target="_blank">
+                <a  title="Share on Xing {{ page.title }}" href="https://www.xing.com/social_plugins/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Xing" target="_blank">
                   <i class="fa fa-xing-square"></i>
                 </a>
               </li>
               <li>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
+                <a  title="Share on Linkedin {{ page.title }}" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
                   <i class="fa fa-linkedin-square"></i>
                 </a>
               </li>
@@ -56,11 +56,11 @@ layout: default-news
             <hr>
             {% if page.stories %}
             <p>
-              <a target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+              <a title="{{ page.title }} Author {{ page.author }}" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
             </p>
             {% endif %}
             <p>
-              <a href="mailto:info@altcointrading.net">Report typo or misinformation</a>
+              <a title="Typo {{ page.title }}" href="mailto:info@altcointrading.net">Report typo or misinformation</a>
             </p>
           </p>
 
@@ -73,13 +73,6 @@ layout: default-news
           <a target="_blank" href="https://amp2disqus.netlify.com/altcointrading/index.html?url=https://www.altcointrading.net&identifier={{ page.permalink }}">Go to Disqus</a>
 
 
-          <!--<amp-iframe width=600 height=140
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            resizable
-            src="https://amp2disqus.netlify.com/altcointrading/index.html?url=https://www.altcointrading.net&identifier={{ page.permalink }}">
-            <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
-          </amp-iframe>-->
           <br>
 
           {% endif %}

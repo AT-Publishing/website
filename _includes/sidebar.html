@@ -8,7 +8,7 @@
       <div class="columns twelve">
         <h5 class="post">
           <strong>
-            <a href="{{ site.url }}{{ post.url }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
           </strong>
         </h5>
         <p>
@@ -20,7 +20,7 @@
       <div class="columns twelve">
         {% if post.image[0] %}
         <div class="six columns">
-          <a target="_blank" href="{{ site.url }}{{ post.url }}">
+          <a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
             <figure class="thumb">
               <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
               layout="responsive"
@@ -52,7 +52,7 @@
       <div class="columns twelve">
         {% if post.image[0] %}
         <div class="four columns">
-          <a target="_blank" href="{{ site.url }}{{ post.url }}">
+          <a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
             <figure class="thumb">
               <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
               layout="responsive"
@@ -71,6 +71,20 @@
     {% endfor %}
 
   </section>
+
+
+        <section>
+          <h3>Coupon Codes For Crypto Exchanges:</h3>
+          <ul>
+            <li>
+              <a  target="_blank" rel="nofollow" title="bitfinex cryptocurrency exchange coupons" href="https://www.bitfinex.com/?refcode=5egV78YtlC" >BITFINEX COUPON <b>5egV78YtlC</b> (10% off fee)</a></li>
+            <li>
+              <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
+            <li>
+              <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
+              <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
+          </ul>
+        </section>
 
 
   <section>
@@ -107,35 +121,23 @@
 
       <li>
         <strong>Altcoin Trading Telegram Group</strong>
-        <p><a target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a></p>
+        <p><a target="_blank" href="https://t.me/altcointrading_net" title="Telegram altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a></p>
       </li>
       <li>
         {{ site.ads.sidebar }}
       </li>
 
       <li>
-        <h3>Coupon Codes For Crypto Exchanges:</h3>
-        <ul>
-          <li>
-            <a  target="_blank" rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" >BITFINEX COUPON <b>5egV78YtlC</b> (10% off fee)</a></li>
-          <li>
-            <a  target="_blank" rel="nofollow" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
-          <li>
-            <a  target="_blank" rel="nofollow" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
-            <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
-        </ul>
-      </li>
-      <li>
         <h3>Cryptocurrency Markets Data</h3>
         <ul>
           <li>
-            <a href="https://spreadstreet.io" target="_blank" rel="nofollow">Spreadstreet.io (free *.csv datasets)</a>
+            <a title="spreadstreet" href="https://spreadstreet.io" target="_blank" rel="nofollow">Spreadstreet.io (free *.csv datasets)</a>
           </li>
           <li>
-            <a href="https://cryptosign.al/" target="_blank" rel="nofollow">Cryptosign.al (charting price vs hash rate)</a>
+            <a title="cryptosignal" href="https://cryptosign.al/" target="_blank" rel="nofollow">Cryptosign.al (charting price vs hash rate)</a>
           </li>
           <li>
-            <a href="https://cointradeanalysis.ovh/" target="_blank" rel="nofollow">Cointradeanalysis.ovh (exchange monitoring)</a>
+            <a title="cointradeanalysis" href="https://cointradeanalysis.ovh/" target="_blank" rel="nofollow">Cointradeanalysis.ovh (exchange monitoring)</a>
           </li>
         </ul>
       </li>
@@ -153,7 +155,7 @@
       <li>
         <h3>Algo Trading</h3>
         <ul>
-          <li><a target="_blank" href="https://cryptotradingtools.com">Crypto Trading Tools</a></li>
+          <li><a title="algo trading" target="_blank" href="https://cryptotradingtools.com">Crypto Trading Tools</a></li>
 
         </ul>
       </li>
@@ -163,7 +165,7 @@
        <h3>Recent News via Reddit:</h3>
        <div>
          <amp-iframe
-           width=320 height=450
+           width=320 height=650
            layout="responsive"
            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
            src="https://data.altcointrading.net/reddit/">

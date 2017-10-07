@@ -11,7 +11,7 @@ layout: default
           </strong>
         </h4>
         <article class="maincontent">
-          {{ content }}
+          {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
         </article>
     </div>
     <div class="four columns notopmargin">

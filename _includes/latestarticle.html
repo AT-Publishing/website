@@ -7,7 +7,7 @@
       {% endif %}
       <small>{{ post.date | date_to_string }}</small>
       {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-      <a href="{{site.url}}{{ post.url }}">
+      <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
         <br>
         {{ post.title }}
       </a>
@@ -16,7 +16,7 @@
   <div class="row">
     {% if post.image[0] %}
     <div class="twelve columns">
-      <a target="_blank" href="{{ post.url }}">
+      <a target="_blank" href="{{ post.url }}" title="{{ post.title }}">
         <figure class="thumb">
           <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
           layout="responsive"
@@ -28,7 +28,7 @@
     </div>
     {% endif %}
     <div class="twelve columns overlay">
-      <a target="_blank" href="{{ post.url }}">
+      <a target="_blank" href="{{ post.url }}" title="{{ post.title }}">
         {{ post.description }}
         {% if post.update %}&nbsp;&middot;&nbsp;<em> Last update {{ post.update | date: "%d %b %Y" }} </em>{% endif %}
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}

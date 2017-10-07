@@ -1,21 +1,5 @@
 <head>
 
-<!-- page level //
-//
-//
-// FUCK GOOGLE ADSENSE
-//
-//
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-6979812205705127",
-      enable_page_level_ads: true
-    });
-</script>
--->
-
-
 {% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -36,9 +20,6 @@
   {% include css/skeleton.min.css %}
   {% include css/custom.css %}
 </style>
-<!-- allowed resources -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i' rel='stylesheet'>
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <!--<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>-->
