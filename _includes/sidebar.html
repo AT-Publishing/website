@@ -73,7 +73,23 @@
   </section>
 
 
-        <section>
+    <section>
+      <h3>Latest PSA's:</h3>
+      <ul>
+      {% assign items = (site.posts | sort: date) | reverse %}
+      {% for post in items  %}
+      {% if post.note contains 'PSA' %}
+      <a href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+        <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.update | date: "%d %b %Y" }}
+      </a>
+      </br>
+      {% endif %}
+      {% endfor %}
+      </ul>
+    </section>
+
+
+   <section>
           <h3>Coupon Codes For Crypto Exchanges:</h3>
           <ul>
             <li>
@@ -84,14 +100,15 @@
               <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
               <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
           </ul>
-        </section>
+   </section>
 
 
-  <section>
+   <section>
     <h3>This month's airdrops:</h3>
     {% include thismonth-airdrops.html %}
-  </section>
-  <section>
+   </section>
+
+   <section>
     <h3>Everyone's Favorite Cold Storage (BTC+ERC20)</h3>
     {{ site.ledger_300-250_animated }}
     <p>
@@ -101,9 +118,10 @@
       <br>
       <strong>Support via MyEtherWallet:</strong> 1ST, ARC, BeerCoin, BCDN, CRB, CryptoCarbon, DAO, DAO_extraBalance, DGD, DGX 1.0, EDG, EMV, GNO, GNT, GUP, HKG, HMQ, ICN, LUN, MIT, MKR, MLN, NxC, PLU, REP, RLC, ROL, ROUND, SNGLS, SWT, TaaS, TIME, TKN, TRST, Unicorn, VSL, WINGS, XAUR.
     </p>
-  </section>
+   </section>
 
-  <section>
+
+   <section>
     <ul class="divided">
       <li>
       <h3>Altcoin Performance:</h3>
@@ -126,6 +144,8 @@
       <li>
         {{ site.ads.sidebar }}
       </li>
+
+
 
       <li>
         <h3>Cryptocurrency Markets Data</h3>
@@ -156,9 +176,21 @@
         <h3>Algo Trading</h3>
         <ul>
           <li><a title="algo trading" target="_blank" href="https://cryptotradingtools.com">Crypto Trading Tools</a></li>
-
+          <li><a title="altindex dataset" target="_blank"  href="https://data.altcointrading.net/api/chartdata.json">AltIndex chart data source</a></li>
         </ul>
       </li>
+
+      <li>
+        <h3>Find us on:</h3>
+        <span itemscope itemtype="http://schema.org/Organization">
+          <link itemprop="url" href="https://www.altcointrading.net">
+          <a itemprop="sameAs" href="https://t.me/altcointrading_net">Telegram</a>
+          &nbsp;-&nbsp;
+          <a itemprop="sameAs" href="https://reddit.com/r/altcointrader">Reddit</a>
+        </span>
+      </li>
+
+
 
 
       <li>
@@ -173,6 +205,7 @@
          </amp-iframe>
        </div>
       </li>
+
 
 
     </ul>

@@ -86,6 +86,19 @@ layout: default-news
             <p>
               <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
             </p>
+            
+            <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "{{ page.author_name }}",
+              "url": "https://www.altcointrading.net",
+              "sameAs": [
+                "{{ page.author }}"
+              ]
+            }
+            </script>
+
             {% endif %}
             <p>
               <a title="Typo {{ page.title }}" href="mailto:info@altcointrading.net">Report typo or misinformation</a>
