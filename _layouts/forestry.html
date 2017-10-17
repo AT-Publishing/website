@@ -15,6 +15,10 @@ layout: default-news
   width: auto;
   float: left;
 }
+.maincontent ul {
+    list-style: square;
+    padding-left: 17px;
+}
 </style>
 <div class="container">
   <div class="row">
@@ -86,7 +90,7 @@ layout: default-news
             <p>
               <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
             </p>
-            
+
             <script type="application/ld+json">
             {
               "@context": "http://schema.org",
@@ -128,6 +132,17 @@ layout: default-news
 
           <p></p>
 
+          {% else %}
+
+          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+
+          <p>&nbsp;</p>
+
+          <hr>
+
+          <p>Comments are disabled for posts with 2+ months of inactivity.</p>
+
+          <hr>
 
           {% endif %}
 

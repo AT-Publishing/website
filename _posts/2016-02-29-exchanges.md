@@ -7,7 +7,6 @@ categories:
 - trading
 - basics
 permalink: altcoin-exchanges/
-tags: ['update']
 image:
 - "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
 - "/img/exchanges/okcoin-na.jpg"
@@ -25,7 +24,10 @@ image_alt:
 - "BTC-E selection of altcoin markets"
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
+
 update: 2017-09-21 00:35 +0700
+tags: ['update']
+
 comments: true
 ---
 
