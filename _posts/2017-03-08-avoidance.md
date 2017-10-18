@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "Avoidance Strategy in Altcoin Trading"
 description: "The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies?"
 categories:
@@ -15,16 +15,14 @@ image_alt:
 update: 2017-03-09
 german: "wyckoff/"
 published: true
-comments: true
+
+comments: false
+note: 'Trading Strategy'
+tags: ['strategy']
+
 ---
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
-
-_Image: {{page.image_alt[0]}}_
-
-________________________
-
-{{ site.ads.aads728 }}
+{{ site.tv_728-90_animated }}
 
 Wyckoff method is getting popular in the cryptocurrency space mainly because John Bollinger the author of bbands keeps recommending it on twitter.
 

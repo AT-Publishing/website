@@ -124,11 +124,11 @@ ads:
   acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
   acashgreen: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash_green.jpeg" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
   feeds: '<a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>'
-  aads728: '<div class="clearfix clearfix adfix"><amp-iframe width="728px" height="90px"
+  aads728: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
     layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
     src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
-  sidebar: '<div class="clearfix clearfix adfix"><amp-iframe width="336px" height="280px"
+  sidebar: '<div class="clearfix adfix"><amp-iframe width="336px" height="280px"
     layout="responsive" data-aa="147074" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
     src="https://ad.a-ads.com/147074?size=336x280"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
@@ -145,6 +145,16 @@ mailchimp_thin: '<div class="mailchimpfix">
 <amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
 src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
 </div>'
+
+# /uploads/tv1.html
+tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
+tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height="275px"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://amp2disqus.netlify.com/altcointrading/tv2.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
 
 fucksense:

@@ -1,19 +1,25 @@
 
-<article class="columns four nogutter post-bg-outer"  style="background-image: url({{ post.image[0] }})">
+<article class="three columns nogutter post-bg-outer"  style="background-image: url({{ post.image[0] }})">
   <div class="row post-bg-inner">
 
 
     <div class="twelve columns update-overlay">
+
       <strong>
-        {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
-        {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
-        {% endif %}
         <span class="updated-excerpt">{{ post.date | date_to_string }}</span>
+
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
         <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}" class="updated-title">
           {{ post.title }}
         </a>
       </strong>
+      <div class="updated-tag">
+        <strong>
+        {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+        {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+        {% endif %}
+        </strong>
+      </div>
       <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" class="updated-excerpt" title="{{ post.title }}">
           {{ post.description }}
           {% if post.update %}&nbsp;&middot;&nbsp;Last update {{ post.update | date: "%d %b %Y" }}{% endif %}

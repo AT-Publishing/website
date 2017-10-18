@@ -23,6 +23,8 @@ permalink: /category/exchanges/
 
 <hr>
 
+<p>{{ site.tv_728-90_animated }}</p>
+
 
 {% for post in items  %}
 {% if post.category contains "exchanges" or post.categories contains "exchanges" %}

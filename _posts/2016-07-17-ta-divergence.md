@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Technical Analysis: Divergences"
-description: "Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is astounding. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don't have as much time to promote the Youtube channel - which is why most often you will not hear about them."
+description: "Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources can be intimidating."
 category: "trading"
 permalink: ta-divergences/
 image:
@@ -10,8 +10,11 @@ image:
 - "/img/ta/hiddendivergences.png"
 image_alt:
 - "Divergeces between lows or highs on the price action and the MACD can provide valuable signals."
+
 update: 2016-07-17
-comments: true
+comments: false
+note: 'Trading Strategy'
+tags: ['strategy']
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
@@ -22,7 +25,7 @@ ________________________
 
 #### So, technical analysis?
 
-Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is astounding. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don't have as much time to promote the Youtube channel - which is why most often you will not hear about them.
+Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is intimidating. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don't have as much time to promote the Youtube channel - which is why most often you will not hear about them.
 
 {{ site.ads.aads728 }}
 

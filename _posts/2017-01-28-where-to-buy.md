@@ -4,6 +4,8 @@ layout: forestry
 update: 2017-10-16 11:56 +0700
 tags: ['update', 'popular']
 comments: false
+note: 'User Guide'
+
 
 categories:
 - "exchanges"

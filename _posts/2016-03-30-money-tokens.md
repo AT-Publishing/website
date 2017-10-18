@@ -1,5 +1,9 @@
 ---
-layout: blog
+layout: forestry
+
+note: 'Trading Strategy'
+tags: ['strategy']
+
 title: "Value of Altcoins: Money and Tokens"
 description: "Altcoin value: Some altcoins are meant for payments and remittance, some altcoins are network tokens."
 categories:
@@ -14,15 +18,8 @@ image:
 image_alt:
 - "About Altcoin value: an altcoin-vs-altcoin chart via ShapeShift"
 update: 2016-07-20
-comments: true
+comments: false
 ---
-
-
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
-
-_Image: {{page.image_alt[0]}}_
-
-________________________
 
 What is it all about altcoins in 2016? It looks like a big thing starting out. Sure, markets are volatile and risky but in spite of that interesting things are on the horizon.
 

@@ -19,7 +19,7 @@ permalink: /category/101/
 
 <section class="clearfix">
 <hr>
-<p>{{ site.ledger_728-90_animated }}</p>
+<p>{{ site.tv_728-90_animated }}</p>
 </section>
 
 {% for post in site.posts %}

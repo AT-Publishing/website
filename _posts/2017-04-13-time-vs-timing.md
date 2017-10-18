@@ -19,9 +19,9 @@ german: false
 comments: true
 stories: true
 
-tags: ['update']
+tags: []
 
-genres: "Opinion, OpEd"
+genres: "Blog"
 
 published: true
 

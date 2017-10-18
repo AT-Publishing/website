@@ -71,5 +71,5 @@ navi:
 {% endfor %}
 
 <p>
-{{ site.ledger_728-90_animated }}
+{{ site.tv_728-90_animated }}
 </p>

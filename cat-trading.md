@@ -7,6 +7,21 @@ permalink: /category/trading/
 
 {% assign items = (site.posts | sort: date) | reverse %}
 
+<div class="clearfix">&nbsp;</div>
+
+<h5><span class="tag custom-note">Featured: Crypto Trading Strategy</span></h5>
+
+<section class="row columns twelve">
+{% for post in items  %}
+ {% if post.categories contains "trading" and post.tags contains 'strategy' %}
+  {% include latestupdates.html %}
+ {% endif %}
+{% endfor %}
+</section>
+
+<div class="clearfix">&nbsp;</div>
+
+
 <h5><span class="tag">Recently updated articles:</span></h5>
 
 {% for post in items  %}
@@ -23,6 +38,8 @@ permalink: /category/trading/
 
 
 <hr>
+
+<p>{{ site.tv_728-90_animated }}</p>
 
 <span class="note">Articles on Altcoin Trading</span>
 

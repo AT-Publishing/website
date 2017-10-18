@@ -1,10 +1,9 @@
 ---
-layout: blog
+layout: forestry
 title: "Best Altcoin Exchanges, Tried and True"
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam? Updated for 2017/2018"
 categories:
 - exchanges
-- trading
 - basics
 permalink: altcoin-exchanges/
 image:
@@ -25,17 +24,14 @@ image_alt:
 - "AnxPro altcoin trading platform"
 - "Poloniex altcoin trading - exclusively crypto exchange"
 
-update: 2017-09-21 00:35 +0700
+update: 2017-10-18 14:35 +0700
 tags: ['update']
+note: 'User Guide'
 
-comments: true
+comments: false
 ---
 
-{% amp700 border {{page.image[7]}} {{page.image_alt[0]}} %}
-
-_Image: Altcoin Trading_
-
-________________________
+{{ site.tv_728-90_animated }}
 
 So you want to join the madness and start with altcoin trading?
 
@@ -62,16 +58,23 @@ To keep it short, your best bet for spot liquidity is these days generally [Bitf
 * Bitfinex has the main coins you might want to trade but there will be no fiat banking routes for you unless you want to transfer 5-6 figures USD (if you do, you should contact their support). You should also know there has been [a controversy regarding Tether issuance](https://medium.com/@bitfinexed/are-fraudulent-tethers-being-used-for-margin-lending-on-bitfinex-5de9dd80f330) and [audit has been promised](http://archive.is/6T7Ha).
 * Bittrex has many pairs and poor liquidity on some which can be exploited if you are a good short term trader. They are currently a more reliable altcoin exchange than Poloniex, but their customer support is overloaded too.
 
-You can also trade some altcoins on [Kraken](/kraken-cryptowatch/) and there is ETH available on GDAX but **it's been long a popular fixture** that these two exchanges **will crash during every important price action**. You have been warned.
+You can also trade altcoins on Kraken and there is ETH available on GDAX but **it's been long a popular fixture** that these two exchanges **will crash during every important price action**. You have been warned. Bitstamp also has some altcoins -- XRP and newly also ETH and LTC -- you need to be fully verified to trade there.
 
 
 ### Altcoin traders from the US  
 
 You probably know about the witch hunt. US traders have it always more difficult.
 
-I use VPN at all times as a general security measure and it is fine with any of the following exchanges. Since ID verification is not usually a requirement when only cryptocurrencies are in play (and not fiat), you should be OK. For performance I can recommend {% aff AirVPN https://airvpn.org/?referred_by=209931 %} though I have also tried PureVPN and Hide My Ass.
+You have the following options:
 
-The only thing worth mentioning is probably to distribute your bankroll on several exchanges. Don't trade a lot of money on a single account if you don't want to go through verification.
+* Verify on exchanges that are regulated within the US -- [Gemini](https://gemini.com), [GDAX](https://gdax.com) -- if they will take you. They don't accept all banks, all states and sometimes they just refuse for undisclosed reasons. These two are where you'll have your deposits in the fastest.
+* Verify on [Bitstamp](https://bitstamp.net) -- EU-based but accepts US users. You will need to wire money to Slovenia.
+
+I'm not mentioning [Kraken](https://trade.kraken.com) as it's too unreliable for trading but it is indeed an option. [Bitfinex stops servicing verified US residents in November 2017](https://www.reddit.com/r/BitcoinMarkets/comments/76slkb/did_everyone_get_the_us_person_notice_from/?utm_content=comments&utm_medium=hot&utm_source=reddit&utm_name=BitcoinMarkets).
+
+Once you onramp, even if via p2p or whatever, your problem is kind-of solved. You can and trade unverified on [Bitmex](https://www.bitmex.com/register/iYQB44) (with VPN), [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC), [Bittrex](https://bittrex.com) or elsewhere.
+
+Don't leave your money on exchanges, especially when you're not verified.
 
 [Up](#)
 
