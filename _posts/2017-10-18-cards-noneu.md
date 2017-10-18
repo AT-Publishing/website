@@ -59,7 +59,7 @@ In the case of [Cryptopay in particular](https://bitcointalk.org/index.php?topic
 
 And, before you flee to the next safe haven, you will find [very recent and very heated scam accusations regarding worldcore.eu](https://bitcointalk.org/index.php?topic=2236259.new) too, though. Additionally -- for those who want to be looking for red flags -- both Cryptopay (partnering with PSI Pay) and Worldcore started ICOs recently.
 
-So, a word of caution: [Localbitcoins](https://localbitcoins.com/?ref=4nq3) don't sound so risky after all, does it?
+So, a word of caution: [Localbitcoins](https://localbitcoins.com/?ref=4nq3) doesn't sound so risky after all, does it?
 
 ### Which cryptocurrency debit cards might work for non-EU residents?
 
