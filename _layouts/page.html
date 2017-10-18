@@ -5,14 +5,14 @@ layout: default
   <div class="row">
 
    <div class="eight columns">
-       <h4 class="post">
-          <strong>
-            {{ page.title }}
-          </strong>
-        </h4>
-        <article class="maincontent">
-          {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
-        </article>
+
+     {{ site.ads.aads728 }}
+
+    <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
+    <hr>
+    <article class="maincontent">
+     {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+    </article>
     </div>
     <div class="four columns notopmargin">
       {% include sidebar.html %}

@@ -1,7 +1,7 @@
 ---
-layout: blog
+layout: forestry
 title: "The Finexening - Bitfinex hack"
-description: "The best of Reddit's response on the Bitfinex hack"
+description: "Bitfinex was hacked in August 2016. Read the basic info about the hack and the best of Reddit's response on the Bitfinex hack from back then."
 categories:
 - "trading"
 - "exchanges"
@@ -10,76 +10,82 @@ image:
 - "/img/bitfinex/gox.png"
 image_alt:
 - "Comparisons to MtGox is quite obvious."
-update: 2016-08-06
+
+update: 2017-10-17 17:57 +0700
+comments: false
+
 stories: true
+genres: 'UserGenerated'
 
 ---
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+> One of the largest cryptocurrency exchanges by volume, [Bitfinex, was hacked in August 2016](https://en.wikipedia.org/wiki/Bitfinex_hack). They suffered a substantial monetary loss of 72 million USD in cryptocurrencies (based on exchange rates from August 2016) that was eventually returned to traders in form of redemption tokens, or RRT. Before that happened, users got a "haircut" -- a socialized loss of 36% regardless of whether their assets were affected.  
 
-_Image: {{page.image_alt[0]}}_
+> RRT is a token issued on the Omni platform to makeup for the USD value of the loss that was tradeable and eventually was paid for to the USD value of the user losses. This was a unique solution and some people who traded the token actively made good profits on it.
 
-________________________
+> Zane Tackett mentioned throughout the original article has since stopped working for Bitfinex.
 
-If you are reading this bit chances are you didn't miss all the drama. The best source of information is probably their status page at [bitfinex.statuspage.io](https://bitfinex.statuspage.io), though the information is scarce. Sane Tackett /u/zanetackett is trying to keep the facade of the company and panic hasn't kicked in but as for useful info he doesn't provide much.
+Original post from August 2016:
+
+### Reddit's reactions
+
+If you are reading this bit chances are you didn't miss all the drama. The best source of information is probably their status page at [bitfinex.statuspage.io](https://bitfinex.statuspage.io), though the information is scarce. Zane Tackett /u/zanetackett is trying to keep the facade of the company and panic hasn't kicked in but as for useful info he doesn't provide much.
 
 {{ site.ads.trezor }}
 
-Bad news for all ETH, ETC or LTC traders is that even though their assets were not affected by the hack, it seems they are lost too - just as USD assets, which were uneffected as well. The most likely outcome is some form socialized loss - a haircut - if it can be made in a legal way. The official statement however is still "we have not decided yet". Most traders conclude it was actually quite expected after the spectacular 24h downtime couple of weeks earlier during wild price movements. Though Kraken fails like this too, repeatedly, and no hack occured as of yet - so take out of it what you like.
+During the heist, only BTC assets were in fact taken by the hacker. Bad news for all ETH, ETC or LTC traders is that even though their assets were not affected by the hack, it seems they are lost too - just as USD assets, which were unaffected as well.
 
-Here is the most important info you might have missed if you haven't been lurking on Reddit since that not-so-much-black-swan event happened.
+Aug 6, 2016: The most likely outcome is some form socialized loss - a haircut - if it can be made in a legal way. The official statement however is still "we have not decided yet". Most traders conclude it was actually quite expected after the spectacular 24h downtime couple of weeks earlier during wild price movements. Though Kraken fails like this too, repeatedly, and no hack occured as of yet - so take out of it what you like.
 
-## Update - Recording of Zane Tackett's press conference on teamspeak
+**Recording of Zane Tackett's press conference on Whalepool TS:**
 
-<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=s1TgZO1BXVZw&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=s1TgZO1BXVZw&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object><br><a href="http://vocaroo.com" style="font-size:xx-small;" title="Vocaroo Voice Recorder">Online recording software &gt;&gt;</a>
+[vocaroo.com](http://vocaroo.com/player.swf?playMediaID=s1TgZO1BXVZw&autoplay=0)
 
 > Yes, Bitfinex takes part in paying the missing money. All customers will get a haircut of 36%. The hack wasn't done via logging into customers accounts. There will be a shitcoin released to pay for the 36% that will not be paid back right now. No details about the hack.
 
 _____________________________
 
-#### Will it affect the general trust in cryptocurrencies?
-
-There is a lot of people who don't really think so.
+> Will it affect the general trust in cryptocurrencies?
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Collectively, high-profile exchange hacks like MtGox and Bitfinex have set <a href="https://twitter.com/hashtag/Bitcoin?src=hash">#Bitcoin</a> back...</p>&mdash; #BubbleMoku (@CarpeNoctom) <a href="https://twitter.com/CarpeNoctom/status/761502184571822080">5 August 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-After all Bitfinex was hacked, there is no flaw in any coin - but, if you are not actually able to safely trade anywhere, what is it for? This is a setback for all cryptos, and probably will be "solved" by bullshit regulations that will make crypto trading even more of a hassle with risks not really lowered.
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="f4695195-89c8-4417-8f22-089008d82f51" data-embed-created="2016-08-06T15:08:25.903Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/d667ehe">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/">Bitfinex down due to bitcoin security breach</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
 
 {{ site.ads.ledger }}
 
-#### Was the Bitfinex hack an inside job?
+> Was the Bitfinex hack an inside job?
 
 Maybe.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Bitcoin?src=hash">#Bitcoin</a> <a href="https://twitter.com/hashtag/HackLeak?src=hash">#HackLeak</a> exposed.<br>hypot. P2SH stats vs Futures <a href="https://twitter.com/OKCoinBTC">@OKCoinBTC</a>, hack info = value.<br><br>HD: <a href="https://t.co/CH4kErhTfs">https://t.co/CH4kErhTfs</a> <a href="https://t.co/GI4nzBXQf7">pic.twitter.com/GI4nzBXQf7</a></p>&mdash; Beetcoin (@Beetcoin) <a href="https://twitter.com/Beetcoin/status/761299853985058817">4 August 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-#### Can we learn from our mistakes for the next time?
+> Can we learn from our mistakes for the next time?
 
-Some say it was plain as a yoghurt that Finex will be hacked: It had strange downtimes during busy times - but so do many exchanges. [It was hosted on an AWS](https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/d666nk6) - every expert will cringe but Gemini also run on AWS and OKCoin International too. Ask the bot coders - they know where to put their codes to be in the same datacenter as the exchange. There is no exchange that would keep their own bare metal in a server room. Cost cutting wins.
+Some say it was plain as a yoghurt that Finex would get hacked since it had strange downtimes during busy times - but so do many exchanges. [It was hosted on an AWS](https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/d666nk6) - experts might cringe at that but Gemini also run on AWS and OKCoin International was too. Ask the bot coders - they know where to put their codes to be in the same datacenter as the exchange. There is no exchange that would keep their own bare metal in a server room. Cost cutting wins.
 
 Only thing we can do is to NEVER baghold or anything like that: Send money to exchange, do the trade, send them to Trezor.
 
 {{ site.ads.trezor }}
 
-#### Who runs Bitfinex anyway?
+> Who runs Bitfinex anyway?
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="324f63fa-8a2d-4886-a9b7-fa6dbef79390" data-embed-created="2016-08-06T14:49:21.941Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4webkx/daily_discussion_saturday_august_06_2016/d66oeue">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4webkx/daily_discussion_saturday_august_06_2016/">[Daily Discussion] Saturday, August 06, 2016</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
 
 Bitfinex's CEO is a Dutch man [Jean-Louis van der Velde](https://bestbitcoinexchange.co/locations.html#asia). [Here is his LinkedIn](https://www.linkedin.com/in/j-l-van-der-velde-26a24b6). Their risk manager is also public on LinkedIn - [here](https://www.linkedin.com/in/giancarlo-devasini-2a564682?trk=pub-pbmap). Their PR representative Zane Tackett is well known to anyone on Reddit - /u/zanetackett, loyal till his death and beyond. His boss is [Phill Potter](https://www.linkedin.com/in/philip-potter-087495a6). However **none of these people actually founded Bitfinex**. The platform was fonded by [a freelance sysadmin Raphael Nicolle](https://fr.linkedin.com/in/raphaelnicolle/en) with codebase from Bitcoinica, an exchange that was hacked back in the 2012.
 
-#### Is someone liable for something? They had BitGo which is insured..?
+> Is someone liable for something? They had BitGo which is insured..?
 
-The insurance doesn't cover this hack. BitGo supplied Bitfinex with an implementation of segregated user-specific wallets to fill the regulatory requirements that were raised by futures regulatory commissions - margin swaps offered on finex were basically a futures product without the user specific wallets. However Bitfinex **probably** had complete control over the BitGo implementation and turned off its security functions (like, limits on withdrawals).
+Bitfinex used to advertize on their website the assets were insured through BitGo which handled their wallets.
+
+The insurance however doesn't cover this hack. BitGo supplied Bitfinex with an implementation of segregated user-specific wallets to fill the regulatory requirements that were raised by futures regulatory commissions - margin swaps offered on Finex were basically a futures product without the user specific wallets. However Bitfinex had complete control over the BitGo implementation and turned off some of its security functions (like, limits on withdrawals) for convenience.
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="6d857b4d-0587-4229-8a58-2fb7b34eea5c" data-embed-created="2016-08-06T15:04:07.053Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4w2osg/daily_discussion_thursday_august_04_2016/d63n4rp">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4w2osg/daily_discussion_thursday_august_04_2016/">[Daily Discussion] Thursday, August 04, 2016</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
 
-USD funds for verified USA customers that came from US bank accounts should be insured via SynapsePay.
+USD funds for verified USA customers that came from US bank accounts were insured via SynapsePay.
 
-#### Are now Kraken and Poloniex coming next?
+> Are now other exchanges that use BitGo vulnerable?
 
 Kraken uses BitGo but with a different setup:
 
@@ -88,28 +94,17 @@ Kraken uses BitGo but with a different setup:
 Poloniex ... Well, who knows anything about Poloniex, right?
 
 
-#### Is there still hope?
+> Is there still hope?
 
-Bitfinex will not pay for the losses of its customers. Bitstamp did, but the loss was smaller and they had VC funding. The only way a VC might want to flow into Bitfinex would probably be via an acquisition. If some other exchange with better security bought Finex they could essentially only buy the user base and their position. To simplify it, Finex accounts could carry on their existence on another platform with their pre-hack balance.
+Bitfinex reps said the company will not pay for the losses of its customers. Bitstamp did, but the loss was smaller and they had VC funding. The only way a VC might want to flow into Bitfinex would probably be via an acquisition.
 
-Bitfinex's daily volume was known and it seems that a hack of this size wasn't such a big hit really. It is unclear why Bitfinex people refuse to state their net BTC worth.
+Bitfinex's daily volume was known and it seems that a hack of this size wasn't such a big hit really. However, Bitfinex reps refuse to state the exchange's net worth.
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="fdea13c4-49b9-4650-8d42-28a36418d318" data-embed-created="2016-08-06T15:11:12.669Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/d666970">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4vtv1m/bitfinex_down_due_to_bitcoin_security_breach/">Bitfinex down due to bitcoin security breach</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
 
-## Places to watch
 
-* stakepool teamspeak
-* reddit's bitcoin markets
-* trading view cryptocurrency trollbox
-* /u/zanetackett with a big grain of salt
-* bitfinex.statuspage.io
+> The price action coming from this?
 
-**NOTE** There have been phishing emails from "ibitfinex.com", these are fraudulent.
-
-## The price action coming from this?
-
-Because altcoins often mirror Bitcoin's price action, do expect a wild ride until the dust settles...Which might take months. In an event like this all TA is probably worthless.
-
-There will be more shit to come once people realize Zane is a nice guy but all in all, not your family, and that blockchain companies are full of ex JP Morgan motherfuckers who are only going where the $$$ is and don't give a shit about the people who actually make the existence of the business possible - the customers. And since folks with pedigrees are so networked each with another they will never lose a penny or reputation, effectively. We traders will, unless we protect our assets by a proper risk management.
+There was a major dump.
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="d2b63219-1fca-4470-89f6-4ae4d2375cb6" data-embed-created="2016-08-06T15:21:08.578Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/4webkx/daily_discussion_saturday_august_06_2016/d66p3hw">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/4webkx/daily_discussion_saturday_august_06_2016/">[Daily Discussion] Saturday, August 06, 2016</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>

@@ -8,29 +8,13 @@ layout: default
 
       <p>{{ site.ledger_728-90_animated }}</p>
 
-       <h2 class="col-page">{{ page.title }}</h2>
-       <h3 class="col-page">{{ page.description }}</h3>
-        <article class="maincontent">
+      <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
+      <hr>
+      <article class="maincontent">
           {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
-        </article>
+      </article>
     </div>
     <div class="four columns notopmargin">
       {% include sidebar.html %}
     </div>
   </div>
-  <style>
-    h2.col-page{
-        background: #021f40;
-        color: #fff;
-        padding: 10px 15px;
-        font-size: 32px;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    h3.col-page{
-        color: #021f40;
-        font-size: 20px;
-        padding: 10px 15px;
-        text-transform: capitalize;
-    }
-  </style>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+  <div class="container">
+    <div class="row">
+
+     <div class="twelve columns">
+
+       <p>{{ site.ledger_728-90_animated }}</p>
+
+      <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
+      <hr>
+      <article class="maincontent">
+       {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+      </article>
+      </div>
+    
+    </div>

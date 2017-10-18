@@ -11,7 +11,7 @@ navi:
       <!-- SLOT 1 -->
       {{ site.ads.aads728 }}
       {{ site.mailchimp_thin }}
-      <span id="note">Popular Posts</span>
+      <span id="note">Popular</span>
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
           <h3 class="popular">
@@ -26,7 +26,7 @@ navi:
 
     <section id="new-posts">
 
-      <span id="note">New Posts</span>
+      <span class="note">Latest</span>
 
       <div class="row home-top-new" id="gtm-top-new-1">
         {% unless post.tags contains 'press' %}

@@ -19,8 +19,6 @@ Ethereum is an open-source, public, blockchain-based distributed computing platf
 
 ETC or ETH "Classic" is worth steadily about 10% of ETH and it is the underlying asset of the proposed [Ethereum ETF](https://grayscale.co/ethereum-investment-trust/).
 
-{{ site.ads.aads728 }}
-
 
 **ETH vs BTC**
 

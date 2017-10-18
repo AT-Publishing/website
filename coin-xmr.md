@@ -20,9 +20,6 @@ Monero has far more enhanced privacy features compared to Bitcoin: stealth addre
 * Stealth addresses make sure your balance of your wallet is private by default. Unlike with Bitcoin, Monero transactions to a particular wallet cannot be linked together.
 * Ring signatures make sure individual transaction outputs on the blockchain can’t be traced. Ring signatures give Monero fungibility, there can never be "dirty" Monero coins.
 
-{{ site.ads.aads728 }}
-
-
 **Trading Monero**
 
 You can trade XMR on {% aff Poloniex https://poloniex.com %} with fees of .15%/.25% and also on {% aff Bitfinex - sign up with this link to get the generous fees of .09%/.18% https://www.bitfinex.com/?refcode=5egV78YtlC %}. Best Monero charts and indicators are available on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}.

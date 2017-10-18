@@ -7,6 +7,7 @@ permalink: /category/trading/
 
 {% assign items = (site.posts | sort: date) | reverse %}
 
+<h5><span class="tag">Recently updated articles:</span></h5>
 
 {% for post in items  %}
 {% if post.categories contains "trading" and post.tags contains 'update' %}
@@ -21,27 +22,41 @@ permalink: /category/trading/
 {% endfor %}
 
 
+<hr>
 
-
+<span class="note">Articles on Altcoin Trading</span>
 
 
 {% for post in site.posts %}
   {% if post.category contains "trading" or post.categories contains "trading" %}
-  <h4 class="post">
-  <strong>
-  <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
-  </strong>
-  <small>{{ post.date | date_to_string }}</small>
-  </h4>
-  <div class="row">
-    <div class="nine columns">
-      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %} {{ post.description }}
+
+
+
+  <div class="row home-latest"  id="gtm-{{post.categories[0]}}">
+    <div class="seven columns">
+      <h5 class="post">
+        <strong>
+          {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+          {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+          {% endif %}
+          <small>{{ post.date | date_to_string }}</small>
+
+          {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+
+          <br><a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </strong>
+      </h5>
+      <div class="home-latest-excerpt">
+        {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+      </div>
     </div>
     {% if post.image[0] %}
-    <div class="three columns">
-      <a target="_blank" href="{{ post.url }}">
+    <div class="five columns">
+      <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
           width="150px" height="80px">
           </amp-img>
         </figure>
@@ -49,37 +64,60 @@ permalink: /category/trading/
     </div>
     {% endif %}
   </div>
+
+
+
   {% endif %}
 {% endfor %}
 
 
-<span id="note">"Altcoin Arbitrage"</span>
+<hr>
+
+{{ site.ads.aads728 }}
+
+<hr>
+
+<span class="note">Articles on Altcoin Arbitrage</span>
 
 {% for post in site.posts %}
   {% if post.category contains "arbitrage" or post.categories contains "arbitrage" %}
-  <h4 class="post">
-  <strong>
-  <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
-  </strong>
-  <small>{{ post.date | date_to_string }}</small>
-  </h4>
-  <div class="row">
 
-    <div class="nine columns">
-      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %} {{ post.description }}
+
+
+  <div class="row home-latest"  id="gtm-{{post.categories[0]}}">
+    <div class="seven columns">
+      <h5 class="post">
+        <strong>
+          {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+          {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+          {% endif %}
+          <small>{{ post.date | date_to_string }}</small>
+
+          {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+
+          <br><a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </strong>
+      </h5>
+      <div class="home-latest-excerpt">
+        {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+      </div>
     </div>
-
     {% if post.image[0] %}
-    <div class="three columns">
-      <a target="_blank" href="{{ post.url }}">
+    <div class="five columns">
+      <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
         <figure class="thumb">
-          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog" layout=""
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
           width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
     </div>
     {% endif %}
+  </div>
+
+
 
     {% endif %}
   {% endfor %}

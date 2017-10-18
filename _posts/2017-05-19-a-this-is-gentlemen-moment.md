@@ -1,14 +1,14 @@
 ---
 layout: forestry
 german: false
-published: true
+published: false
 comments: true
 stories: true
 genres: Blog
 tickers: BTCUSD, ETHUSD
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: A "This Is Gentlemen" Moment
+title: "A \"This Is Gentlemen\" Moment"
 date: 2017-05-19 02:19
 image:
 - "/uploads/2017/05/19/thisisgentlemen.png"
@@ -42,7 +42,7 @@ but the real answer is no one really knows except more buyers than sellers.
 
 _____________________
 
-[Facebook group](https://www.facebook.com/groups/Ethereum/) posters remain quite conservative, expecting mostly $200 or $300 ETH by the end of 2017, although $500 can be seen too. 
+[Facebook group](https://www.facebook.com/groups/Ethereum/) posters remain quite conservative, expecting mostly $200 or $300 ETH by the end of 2017, although $500 can be seen too.
 
 
 ### Bitcoin hitting $2000 on Bitfinex
@@ -62,4 +62,4 @@ The Daily Chart http://imgur.com/a/MA8UM
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="c46c276e-da5f-45f8-9339-6fda983100cb" data-embed-created="2017-05-19T12:01:28.838Z"><a href="https://www.reddit.com/r/BitcoinMarkets/comments/6c1eim/daily_discussion_friday_may_19_2017/dhrh84o/">Comment</a> from discussion <a href="https://www.reddit.com/r/BitcoinMarkets/comments/6c1eim/daily_discussion_friday_may_19_2017/">[Daily Discussion] Friday, May 19, 2017</a>.</div>
 
-For those who don't know, a "long pole" warning means a correction is due. However, in bubbles these corrections sometimes don't come -- the worse is then the burst. 
+For those who don't know, a "long pole" warning means a correction is due. However, in bubbles these corrections sometimes don't come -- the worse is then the burst.
