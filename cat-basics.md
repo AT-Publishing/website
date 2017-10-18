@@ -25,8 +25,8 @@ permalink: /category/101/
 {% for post in site.posts %}
   {% if post.category contains "basics" or post.categories contains "basics" %}
 
-    <div class="row home-latest clearfix">
-      <div class="seven columns">
+  <div class="row home-latest clearfix">
+    <div class="seven columns">
         <h5 class="post">
           <strong>
             {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
@@ -42,9 +42,9 @@ permalink: /category/101/
         <div class="home-latest-excerpt">
           {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
         </div>
-      </div>
+    </div>
       {% if post.image[0] %}
-      <div class="five columns">
+    <div class="five columns">
         <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           <figure class="thumb">
             <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
@@ -54,9 +54,9 @@ permalink: /category/101/
             </amp-img>
           </figure>
         </a>
-      </div>
-      {% endif %}
     </div>
+      {% endif %}
+  </div>
 
   {% endif %}
 {% endfor %}
