@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "featured altcoins"
-description: "Best altcoins to invest in, as they come and go."
+description: "Best cryptocurrencies to invest in, as they come and go."
 permalink: /category/altcoins/
 ---
 
