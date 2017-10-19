@@ -27,7 +27,10 @@ navi:
       </strong>
     </h5>
     <div class="home-latest-excerpt">
-      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}</em>{% endif %}
+      {% if post.author %}&nbsp;&middot;&nbsp;<em class="author">Article by {{ post.author_name }}</em>{% endif %}
+      <br>
+      {{ post.description }}
     </div>
   </div>
   {% if post.image[0] %}

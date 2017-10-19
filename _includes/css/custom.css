@@ -1,19 +1,19 @@
 section em{font-family:"Alegreya",serif;font-style:italic;font-size: 115%;color: #000b17;}
 
-ul.airdrops {
-    list-style: disc;
-    margin-left: 22px;
-}
+ul.airdrops {list-style: disc;margin-left: 22px;}
 ul.airdrops a {text-decoration: underline;}
+#sidebar table.airdrops {display:block;width:100%;font-family:'Courier New', monospace}
+#sidebar table.airdrops tr,
+#sidebar table.airdrops th,
+#sidebar table.airdrops td {display:block;width:100%;padding:0 5px;border: none;}
+#sidebar table.airdrops tr:nth-of-type(1){background: #7a838d;padding: 10px 5px;color: white;}
+#sidebar table.airdrops tr:nth-of-type(2n){background: #f9f9f9;}
+#sidebar table.airdrops tr > td:nth-of-type(1) {color:#001f3f;font-weight: 800}
 
+.maincontent table.airdrops{table-layout: fixed;width: 100%;white-space: pre-wrap;}
+table.airdrops a{border-bottom: 2px solid #7A838D}
 
-blockquote {font-family: 'Alegreya';font-style:italic;
-    font-size: 125%;
-    color: #001f3f;
-    border-left: 2px solid #001f3f;
-    padding-left: 3rem;
-    margin-left: 0;
-}
+blockquote {font-family: 'Alegreya';font-style:italic;font-size: 125%;color: #001f3f;border-left: 2px solid #001f3f;padding-left: 3rem;margin-left: 0;}
 
 .homelab, .homelab * {text-align: left;margin-bottom: 4px;}
 .alignleft, .alignleft > p {text-align: left}
