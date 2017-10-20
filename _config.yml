@@ -15,6 +15,9 @@ collections:
   security:
     output: true
     permalink: /:collection/:slug
+  strategy:
+    output: true
+    permalink: /:collection/:slug
 
 
 defaults:
@@ -71,6 +74,19 @@ defaults:
      tickers: false
      author: "mailto:info@altcointrading.net"
      author_name: "AltcoinTrading"
+ -
+   scope:
+     path: "strategy" # all
+     type: "strategy"
+   values:
+     layout: "strategy"
+     german: false
+     published: true
+     comments: false
+     stories: false
+     tickers: false
+     author: "https://reddit.com/u/KarlVonBahnhof"
+     author_name: "KarlVonBahnhof"
 
 author: "AltcoinTrading"
 markdown: kramdown

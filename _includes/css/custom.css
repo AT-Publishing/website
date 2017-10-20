@@ -1,3 +1,21 @@
+@media (max-width: 667px) {
+  .mobile-only {display: block}
+  .desktop-only {display: none}
+}
+@media (min-width: 667px) {
+  .mobile-only {display: none}
+  .desktop-only {display: block}
+}
+
+h1.post-main {
+    background: transparent;
+    color: #000b17;
+    border-left: 5px solid #000b17;
+    padding: 3rem;
+    font-size: 4rem;
+}
+
+
 section em{font-family:"Alegreya",serif;font-style:italic;font-size: 115%;color: #000b17;}
 
 ul.airdrops {list-style: disc;margin-left: 22px;}

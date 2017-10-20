@@ -32,11 +32,10 @@
       </label>
       <div role="tooltip" id="togglemenuID" class="tooltip-content">
 
-        <!-- nav START -->
-
+        <!-- mobile nav START -->
         <nav class="main">
           <div class="twelve columns">
-            <ul class="navi">
+            <ul class="navi mobile-only">
               {% include menu.html %}
             </ul>
           </div>
@@ -45,9 +44,10 @@
      </div> <!--/.tooltip-content-->
     </div><!--/.tooltip-->
   </div>
-  <!-- DESKTOP MENU START -->
+
+  <!-- ====DESKTOP===== MENU START -->
   <nav class="main" id="desktopmenu">
-    <div class="twelve columns">
+    <div class="twelve columns desktop-only">
       <ul class="navi">
         {% include menu.html %}
       </ul>
