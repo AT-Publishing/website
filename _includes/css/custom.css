@@ -16,6 +16,8 @@ h1.post-main {
 }
 
 
+
+
 section em{font-family:"Alegreya",serif;font-style:italic;font-size: 115%;color: #000b17;}
 
 ul.airdrops {list-style: disc;margin-left: 22px;}
@@ -193,3 +195,38 @@ a.updated-excerpt:hover{color:white}
  .row.home-latest .seven.columns {width: 100%;}
  #popular-posts{max-width: 100%}
 }
+
+
+
+/*=================================*/
+
+/* strategy specific */
+.strategy-content blockquote {
+    font-family: 'Passion+One';
+    font-style: initial;
+    font-size: 32px;
+    color: #001f3f;
+    border-left: none;
+    padding: 3rem;
+    margin-left: 0;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 800;
+}
+.strategy-content h1, .strategy-content h2, .strategy-content h3,
+.strategy-content h4, .strategy-content h5, .strategy-content h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #021f40;
+}
+.strategy-content h1 {font-size: 4rem}
+.strategy-content h2 {font-size: 3.5rem}
+.strategy-content h3 {
+    font-size: 3rem;
+    background: #fff;
+    padding: 25px 30px;
+    border-left: 5px solid #021f40;
+    text-transform: capitalize;
+    margin-left: 1px;}
+.strategy-content h4 {font-size: 2.5rem}
+.strategy-content h5 {font-size: 2rem}

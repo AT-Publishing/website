@@ -3,7 +3,7 @@ published: false
 
 layout: strategy
 title: "Wyckoff method for trading ranges"
-description: ".."
+description: "Long read about how to trade ranges in cryptocurrency trading, and some basic Wyckoff method to look into the market phases."
 
 tags:
 - "update"
@@ -11,18 +11,150 @@ tags:
 categories:
 - "longread"
 
-slug: wyckoff-ranges
+slug: wyckoff-ranging-markets/
 
 image:
-- "/img/lending/poloniex-bot.png"
+- "/editorial/report2.jpg"
+- "/img/wyckoff/wyckoff.png"
+- "/img/wyckoff/w_accum1.png"
+- "/img/wyckoff/w_reaccum1.png"
+- "/img/wyckoff/w_widening.png"
+- "/img/wyckoff/w_higherlow.png"
 image_alt:
 - "Cryptocurrency trading strategy."
 
-update: 2017-09-20 22:36:00 +0700
-published: false
+update: 2017-09-23 15:36:00 +0700
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
 
 ---
-Woke up dis morning
+
+Wyckoff method in cryptocurrency trading has been made popular among serious traders mainly thanks to John Bollinger who is such a great help to the trading community. In his [twitter feed, he regularly explains how to combine the Wyckoff method with the Bollinger bands](https://twitter.com/bbands/status/920763449742970880), which are his invention.
+
+> Wyckoff and BBands in crypto is not an arbitrary Tits&Ass magic combo: cryptocurrencies trade in pairs and show the typical pair behavior. Trading pairs with Bollinger bands give you an edge.
+
+This is not an arbitrary TA magic combo: [cryptocurrencies trade in pairs and show the typical pair behavior. Trading pairs with bbands give you an edge](http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/), which is something to consider now that the time of capitalizing on "omg it's going to zero" panic drops might be coming to its close. The market is maturing, some say it's too big for a 2 year near-zero bear market to be likely. If the bull mood doesn't fail to continue the irrational volatility might dampen and traders might actually need to develop a skill.
+
+[Taken from the Meb Faber podcast:](http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/)
+
+*Meb: So what this is, tell me. Is it one we ever owned or traded Bitcoin? Do you think it’s actually, you know, the same rules apply? Do you think the Bollinger Band has been worked on Bitcoin?*
+
+*John: Bollinger Bands work fantastic on Bitcoin. And they work fantastic on all forex.*
+
+*Meb: Yeah. As you did say, currency traders in general ones tend towards lean towards technical analysis in general but often you hear in the circles in the vernacular love using Bollinger Bands.*
+
+*John: So, there is a reason for that, currency trading is pairs trading, you’re long one and short the other essentially. So, sometimes you’re, you know, you find a stock you like enough stock you hate, you pair them together and that’s a pair. Their portfolios are full of pairs trading. The ideas to earn a return at reduced volatility over time take out the market factor and just capture the sweetness of your ideas. So, forex is pairs trading and pairs have a statistical property, they’re stationary or they exhibit in the statistical parlance, stationarity. And it just turns out that Bollinger Bands in any approach like Bollinger Bands work just a little bit better with series that exhibit stationarity. So, there is sort of a built-in edge to using Bollinger Bands on anything that’s a pair.*
+
+
+## Recognizing the nature of the range
+
+One of the most notable things the very old Wyckoff method left us are the so called *phases*. Ranges are market structures when the market is not trending, it is testing support and resistance levels to decide the next move and start the next markup or markdown.
+
+The two most prominent ranges in cryptocurrency markets are the reacummulation phase and the start of the distribution phase: that is, the breather pause in a bull run and a trend reversal. These two are also the two that look very much alike.
+
+* [Here is a thorough distribution phase description from stockcharts.com](http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#distributionwyckoff_phases).
+
+* [Here is the acummulation phase from the same source](http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#accumilationwyckoff_phases) - which is basically a bottom of the bear market. Re-accumulation according to the Wyckoff method is similar, with the difference that this step occurs in the middle of a bull run, as a temporary pause.
+
+And picture of accumulation and distribution from [another great source on readticker.com](https://www.readtheticker.com/Pages/IndLibrary.aspx?65tf=84_richard-wyckoff-method):
+
+{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+
+The re-acummulation looks very much like the distribution, from the high-level point of view only with the difference that the market continues to rise rather than proceeding to markdown. You will need to go deeper to see how the distribution and re-accumulation differ.
+
+Let's look into the ways you can tell one from another.
+
+#### Real data
+
+As they say, hindsight is 20/20. Here are two different kinds of BTCUSD price action.
+
+A/ Weekly BTCUSD chart with the infamous 2-year bear market: there was an accumulation structure at the bottom.
+
+{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+
+B/ Daily BTCUSD chart of recent BTCUSD action that ended up corrective continuation.
+
+{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+
+The structure A/ formed obviously after a long downtrend. The fundamentals were shaken by MtGox bankruptcy, the prevailing opinion was that bitcoin was going to bleed out into death and that the whole cryptocurrency experiment failed.
+
+From the fundamental point of view, at this stage savvy traders are have the option to literally buy wholesale: Buying the capitulation, provided the trader sees an opportunity in the asset. ("It will not really fail, there are industries that need payments resistant to censorship and regulations, people who just went in during the hype to make a quick buck are just capitulating irrationally.")
+
+**Ranges within ranges**
+
+Considering B/ is a range on the 1D BTCUSD chart, for a deeper analysis you can scale in to shorter timeframes and look for ranges within the range.
+
+In every range, there will be part of a price action that will trade closer to the upper boundary of the range. That can be identified as the micro-distribution. From there, the price might drop to the middle of the range or deeper and consolidate there for a bit. In crypto, it typically results in a deeper drop: the accumulation. From there, the price gets bought up towards the middle of the range again. The future direction depends among other things on the strength of the bounce.
+
+
+..
+
+
+
+[ranges within ranges ]
+
+Assessing the shorter timeframe movements of the range should help you get the idea about the health of the trend and the next direction of the market.
+
+#### Differences between Wyckoff distribution and reaccumulation
+
+Richard Wyckoff considered the basic principles of supply and demand and applied them to the markets.
+
+> Excess supply leads to decrease in price, excess demand leads to price increase -- plus, if there is effort, in the markets the result must be proportional to it. The volume and the price change must be in harmony.
+
+This supply vs demand logic is particularly useful at the ends of ranges.
+
+**The market behavior: trying to jump the creek vs walking on thin ice**
+
+This is a thing that will be most helpful for more macro-oriented traders. In the final stages of the range the market either keeps pressing down to support levels, getting bought up short term but not in a way that would gain following and become long-lived. Or the market keeps rallying up and pushing up towards resistance, getting shorted back down for the stort term gains but not in a way that would gain longer term following. In a way, traders are making the market and in this way they agree on the next direction.
+
+**Using Bollinger Bands**
+
+John Bollinger got recently [asked on Twitter what TA he uses for crypto trading](https://twitter.com/bbands/status/920763449742970880). As always, this time too he explained he goes with his own BBands and the basic supply/demand logic outlined in the previous paragraph.
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Mostly just Bollinger Bands, %b and BandWidth. Logical levels and pivots are helpful too, along with basic supply/demand and Wyckoff stuff.</p>&mdash; John Bollinger (@bbands) <a href="https://twitter.com/bbands/status/920763449742970880?ref_src=twsrc%5Etfw">18 October 2017</a></blockquote>
+
+In ranging markets, Bollinger bands provide this kind of balance boundaries. The center line, which is a moving average, forms the mean price around which the ranging occurs. The upper and lower bands work with standard deviations so with StdDev of 3, overshooting the bands will likely lead to a retracement back inside of the bands in ranging markets. There is one more important thing to watch though: double bottoms and tripple tops -- relatively to the bbands.
+
+This is where bbands get to be really helpful: Traders often look for lower highs when they are looking for a top formation and higher lows when they are looking for a bottom formation. Because of the fear and greed psychology, cryptocurrency markets typically do three pushes when forming a top but only two drops when forming a bottom - also known as *three pushes to a high* and *W-bottom*. While most traders look for these, they often do so in relation to the chart vertical axis only: If the price of a bottom 2 is higher than the price of bottom 1, it's a higher low and a *convincing bounce*. If the prices are the same, it's still a W-bottom but somewhat weaker. If the bottom 2 is lower, itmight not be the final bottom yet.
+
+However, with bbands you can look for the 3-push and W-bottom structures relative to the bbands, which works very well: If the bottom 2 has lower price than bottom 1 but is farther up from the lower bband than bottom 1, it's still a very convincing bounce. That's a higher low *relatively to the bbands*, a bullish structure that a lot of traders will miss.
+
+{% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
+
+
+**Watching Volume**
+
+
+
+...
+
+
+
+**Technical Tools**
+
+Of course, simpler and more basic TA will also be helpful:
+
+* Do the rises form nice bull flags?
+* Does the range have M/W patterns?
+* Do the candles at the bottoms of the retracements have long wicks, indicating strong BTFD?
+
+Also look for rare formations provided they are reliable -- like widening formations that resemble bull flag which is rare but it indicates good bullish momentum:
+
+{% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
+
+**Fundamental Reasons**
+
+Last but not least, fundamental reasons and events cannot be discounted. Cryptocurrencies are mostly correlated with each other -- the money flows easily from one crypto to another -- and uncorrelated with traditional markets. Because for most altcoins, and some say for bitcoin too, the valuation is based mostly on future expectation rather than present utility, big fundamental events could influence the market as a whole. However, over time cryptocurrencies exhibit more and more resilience against bans, slurs and other events that should be damaging them.
+
+To this, seekingalpha once commented the real fundamental data for crypto are something else -- the network activity data, how much do people transact, number of ATMs, p2p data, for altcoins newly used in the darknet also number of vendors and so on.
+
+What also comes to mind here is how different the typical holders are in crypto when compared to traditional markets: There is still a lot of hodlers of cryptocurrencies who don't really want to sell, or are willing to sell only some part to cover their initial investment. It is typical that people don't want to short crypto, they either feel it's still too cheap for what it can do or they feel like their money is safer in crypto than in a bank. In short, especially in BTC, ETH, XMR and IOTA, a lot of people are in for the long haul and don't have the aim of filling spreadsheets with USD values of successfully closed trades to please their boss. This is what legacy people call 'delusion', at the present moment it forms the cryptocurrency markets though -- and makes them better suited for technical analysis.
+
+## How to trade a ranging market
+
+
+
+
+
+.

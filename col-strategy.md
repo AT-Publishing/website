@@ -15,7 +15,7 @@ navi:
 
   {% if post.image[0] %}
   <div class="twelve columns security-bg">
-    <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a rel="follow" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }}"
         layout="responsive"
@@ -40,7 +40,7 @@ navi:
 
         <br>
 
-        <a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+        <a rel="follow" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
         </a>
 
