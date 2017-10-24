@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 
 layout: strategy
-title: "Wyckoff method for trading ranges"
+title: "Wyckoff method and trading ranging markets"
 description: "Long read about how to trade ranges in cryptocurrency trading, and some basic Wyckoff method to look into the market phases."
 
 tags:
@@ -20,10 +20,14 @@ image:
 - "/img/wyckoff/w_reaccum1.png"
 - "/img/wyckoff/w_widening.png"
 - "/img/wyckoff/w_higherlow.png"
+- "/img/wyckoff/inner_4h.png"
+- "/img/wyckoff/volflow.png"
+
 image_alt:
 - "Cryptocurrency trading strategy."
 
-update: 2017-09-23 15:36:00 +0700
+date: 2017-10-22 05:16:00 +0700
+update: 2017-10-24 15:36:00 +0700
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
@@ -65,37 +69,6 @@ The re-acummulation looks very much like the distribution, from the high-level p
 
 Let's look into the ways you can tell one from another.
 
-#### Real data
-
-As they say, hindsight is 20/20. Here are two different kinds of BTCUSD price action.
-
-A/ Weekly BTCUSD chart with the infamous 2-year bear market: there was an accumulation structure at the bottom.
-
-{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
-
-B/ Daily BTCUSD chart of recent BTCUSD action that ended up corrective continuation.
-
-{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
-
-The structure A/ formed obviously after a long downtrend. The fundamentals were shaken by MtGox bankruptcy, the prevailing opinion was that bitcoin was going to bleed out into death and that the whole cryptocurrency experiment failed.
-
-From the fundamental point of view, at this stage savvy traders are have the option to literally buy wholesale: Buying the capitulation, provided the trader sees an opportunity in the asset. ("It will not really fail, there are industries that need payments resistant to censorship and regulations, people who just went in during the hype to make a quick buck are just capitulating irrationally.")
-
-**Ranges within ranges**
-
-Considering B/ is a range on the 1D BTCUSD chart, for a deeper analysis you can scale in to shorter timeframes and look for ranges within the range.
-
-In every range, there will be part of a price action that will trade closer to the upper boundary of the range. That can be identified as the micro-distribution. From there, the price might drop to the middle of the range or deeper and consolidate there for a bit. In crypto, it typically results in a deeper drop: the accumulation. From there, the price gets bought up towards the middle of the range again. The future direction depends among other things on the strength of the bounce.
-
-
-..
-
-
-
-[ranges within ranges ]
-
-Assessing the shorter timeframe movements of the range should help you get the idea about the health of the trend and the next direction of the market.
-
 #### Differences between Wyckoff distribution and reaccumulation
 
 Richard Wyckoff considered the basic principles of supply and demand and applied them to the markets.
@@ -104,11 +77,67 @@ Richard Wyckoff considered the basic principles of supply and demand and applied
 
 This supply vs demand logic is particularly useful at the ends of ranges.
 
-**The market behavior: trying to jump the creek vs walking on thin ice**
+##### The market behavior: trying to jump the creek vs walking on thin ice
 
 This is a thing that will be most helpful for more macro-oriented traders. In the final stages of the range the market either keeps pressing down to support levels, getting bought up short term but not in a way that would gain following and become long-lived. Or the market keeps rallying up and pushing up towards resistance, getting shorted back down for the stort term gains but not in a way that would gain longer term following. In a way, traders are making the market and in this way they agree on the next direction.
 
-**Using Bollinger Bands**
+#### Real data
+
+As they say, hindsight is 20/20. Here are two different kinds of BTCUSD price action.
+
+**A/ Weekly BTCUSD chart with the infamous 2-year bear market:** there was an accumulation structure at the bottom.
+
+{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+
+**B/ Daily BTCUSD chart of recent BTCUSD action that ended up corrective continuation.**
+
+{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+
+The structure A/ formed obviously after a long downtrend. The fundamentals were shaken by MtGox bankruptcy, the prevailing opinion was that bitcoin was going to bleed out into death and that the whole cryptocurrency experiment failed.
+
+From the fundamental point of view, at this stage savvy traders are have the option to literally buy wholesale: Buying the capitulation, provided the trader sees an opportunity in the asset. ("It will not really fail, there are industries that need payments resistant to censorship and regulations, people who just went in during the hype to make a quick buck are just capitulating irrationally.")
+
+##### Ranges within ranges
+
+Considering B/ is a range on the 1D BTCUSD chart, for a deeper analysis you can scale in to shorter timeframes and look for ranges within the range.
+
+In every range, there will be part of a price action that will trade closer to the upper boundary of the range. That can be identified as the micro-distribution. From there, the price might drop to the middle of the range or deeper and consolidate there for a bit. In crypto, it typically results in a deeper drop: the accumulation. From there, the price gets bought up towards the middle of the range again. The future direction depends among other things on the strength of the bounce.
+
+##### Finding the inner ranges
+
+You get your inner ranges simply by checking lower timeframes, which you do anyway when you are looking for entries. The only change here is you are looking for ranging structures that stay within the bbands.
+
+Let's take the daily range in BTCUSD from above - that's a 1D chart with the original range:
+
+{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+
+Now let's switch to 4H:
+
+{% amp700 border {{page.image[6]}} {{page.image_alt[0]}} %}
+
+Here you can easily spot the first inner reaccumulation range:
+
+* Market reaches a resistance, tests it several times. In this case there were some long-term Fibonacci retracement lines.
+* Relevant bband basis starts curling down.
+* Price-wise, higher highs form but are already further from the upper bband, indicating weakness.
+* Eventually, the market drops below the bband basis and fails to return up over it.
+* Panic drop occurs but is bought up with force.
+* Market continues upwards.
+
+The second inner range was a distribution:
+
+* Market hits an important fib line and makes a sharp top.
+* Negative volume keeps picking up.
+* Drop to median of the outer range (red dashed line) gets bought up but this rally crashes and fails to push through resistance.
+* Market continues downwards.
+
+Following the fast markdown the market tests previous breakout point and gets quickly bought up, consolidates a little on diminishing volume (sign of ranging coming to close) and continues upward. Looking back to the 1D chart you see the market formed a strong w-bottom with good higher low (both price-wise and relatively to the bband) and pushed through a resistance line.
+
+All in all, on the 1D this was reaccumulation: a normal continuation corrective structure in a bull trend.
+
+Assessing the shorter timeframe movements of the range should help you get the idea about the health of the trend and the next direction of the market.
+
+##### Using Bollinger Bands in Ranging Markets
 
 John Bollinger got recently [asked on Twitter what TA he uses for crypto trading](https://twitter.com/bbands/status/920763449742970880). As always, this time too he explained he goes with his own BBands and the basic supply/demand logic outlined in the previous paragraph.
 
@@ -123,15 +152,34 @@ However, with bbands you can look for the 3-push and W-bottom structures relativ
 {% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
 
 
-**Watching Volume**
+##### Reading Volume and Volume-based Indicators
+
+The simplest and perhaps the most effective approach is simply to look at volume. Like candles, on shorter timeframes traders with high net worths will always be able to paint the volume just as they can paint the candles -- but sometimes the market gains following nonetheless.
+
+There are pumpers' groups in XRPUSD and generally in cryptocurrencies with shallow liquidity -- for obvious reasons. In developed crypto markets (BTC, ETH, LTC...And whatever is being popular at present) you won't come across these things every day anymore. It doesn't pay off for most people.
+
+With basic volume, you get to use the basic supply/demand logic:
+
+* If there is a drop, the volume is rising but price gradually drops less and less -- that's a price vs volume divergence. It means there is significant demand and the drop is not expected to continue for much longer.
+* If there is a drop, the volume is rising and the price keeps sliding down -- there is not enough demand and plenty of supply. The price is bound to drop some more.
+
+* If there is a rally, the volume is rising but price starts topping -- again, that's a divergence. Local top there.
+* If there is a rally, the volume is rising and price is still pumping -- it will keep going.
+
+By this logic, when there the market starts ranging, flagging and correcting healthily, the volume will diminish through the range too.
+
+There are volume-based indicators like on-balance volume and others but what's perhaps most helpful for traders are colored candles. There are several scripts for TradingView available that will color your chart's candles according to the changing trading volume flow. Volume flow colored candles will give you a quick single-look idea about the state of the market, no need to overcomplicate it.
 
 
+One of the best ones is a free one, was made by [spacetrader](https://www.tradingview.com/u/spacetrader/) and you can get it from the strategy library if you search for `[ST] Volume Flow v6`. The [code and some how-to is available here](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/), it is well possible to reuse it for a script in another language.
 
-...
+[Legend for the colors of the candles:](http://i.imgur.com/nZu9rbe.png)
 
 
+{% amp700 border {{page.image[7]}} {{page.image_alt[0]}} %}
 
-**Technical Tools**
+
+##### Basic Technical Tools
 
 Of course, simpler and more basic TA will also be helpful:
 
@@ -143,7 +191,7 @@ Also look for rare formations provided they are reliable -- like widening format
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 
-**Fundamental Reasons**
+##### Basic Fundamental Reasons
 
 Last but not least, fundamental reasons and events cannot be discounted. Cryptocurrencies are mostly correlated with each other -- the money flows easily from one crypto to another -- and uncorrelated with traditional markets. Because for most altcoins, and some say for bitcoin too, the valuation is based mostly on future expectation rather than present utility, big fundamental events could influence the market as a whole. However, over time cryptocurrencies exhibit more and more resilience against bans, slurs and other events that should be damaging them.
 
@@ -153,8 +201,62 @@ What also comes to mind here is how different the typical holders are in crypto 
 
 ## How to trade a ranging market
 
+* **Short-Term:** Look for bounds of the inner ranges and formations and scalp them.
+* **Long-Term:** Prepare to take substantial position at important points. Determine the "doom" bottom and set buys or the "upthrust" and set sells.
+
+#### Targets for your trades
+
+##### Short Term: Formation targets
+
+If you are trading flags, channels, megafones and triangles, the height of these usually provides a short term target within the range.
 
 
+##### Short/Mid Term: SCMR (Blue candle magic)
+
+One of the very popular (paid) technical analysis suites for TradingView has been [the SCMR](https://www.tradingview.com/market/sc-spydercrusher/). It provides the elusive colored candles - blue candle signifying a bullish shift in volume, suggesting bottom is near. Another popular feature are the dynamic levels which are basically better pivot lines. Traders use these very successfully.
+
+##### Mid/Long-Term: Point & Figure
+
+PnF charts are whole another magic. If you trade BTCUSD and don't know PnF, stop by to the r/bitcoinmarkets Daily to search for posts by [u/merlin560](https://www.reddit.com/user/merlin560) and [u/joyrider5](https://www.reddit.com/user/joyrider5) who post PnF summary regularly.
+
+##### Mid/Long-Term: Fibonacci retracement
+
+It's anyone's guess if the Fibonacci retracement stuff fundamentally makes sense but in 2017 most traders still use fibs to determine their targets, especially in a bull run that keeps reaching new ATHs where there is no previous data to draw resistance lines from. Some people do use simple pivots, but it seems that Fibs are still the most prevalent -- which, if nothing else, makes them valid.
+
+**How to draw fibs from a correction/markdown**
+
+The correct way to draw Fibonacci retracement lines for a currection or a markdown is to start from the swing high and drag the fib all the way to the swing low. This way you get to where to the north the market can reach in recovery from the correction.
+
+You can get a fib retracement from a corrective range too - drag from its high to its low on the timeframe where you see the range. It's far from a bad idea to have several fib structures one over another to see which fib levels coincide.
+
+Cryptocurrencies seem to be particularly fond of the following fib extension levels: 1, 1.618, 2.618, 4.236. These are the ones that you need to have ticked in your TradingView settings as a minimum.
+
+**How to draw fibs from a runup**
+
+If you want to see how far the market will correct from a runup, you do the opposite: start drawing the fib from the bottom to the high.
+
+Fibonacci levels can provide longer term and swing targets if you use them on higher timeframes, even targets that will contain multiple ranges.
 
 
-.
+> That's all. Share it, if you like it.
+
+<ul class="social">
+  <li class="cta">Share this article:</li>
+  <li>
+    <a title="Share {{ page.title }} on Facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
+      <i class="fa fa-facebook-square"></i>
+    </a>
+  </li>
+  <li>
+    <a title="Share {{ page.title }} on Twitter" href="http://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
+      <i class="fa fa-twitter-square"></i>
+    </a>
+  </li>
+  <li>
+    <a title="Share {{ page.title }} on Linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
+      <i class="fa fa-linkedin-square"></i>
+    </a>
+  </li>
+</ul>
+
+___________________________
