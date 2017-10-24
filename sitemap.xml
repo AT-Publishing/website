@@ -53,17 +53,19 @@ navi:
         {% endif %}
     </url>
     {% endunless %}{% endfor %}
-    <url>
-      <loc>https://www.altcointrading.net/security/</loc>
-    </url>
     {% for page in site.security %}{% unless page.navi.exclude == true %}
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+    </url>
+    {% endunless %}{% endfor %}
+    {% for page in site.strategy %}{% unless page.navi.exclude == true %}
+    <url>
+        <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
     </url>
     {% endunless %}{% endfor %}
     {% for post in site.posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
         {% if post.german %}
         <xhtml:link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ post.url }}"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}"/>

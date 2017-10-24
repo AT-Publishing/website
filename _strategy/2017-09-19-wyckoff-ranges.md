@@ -3,7 +3,7 @@ published: true
 
 layout: strategy
 title: "Wyckoff method and trading ranging markets"
-description: "Long read about how to trade ranges in cryptocurrency trading, and some basic Wyckoff method to look into the market phases."
+description: "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
 
 tags:
 - "update"
@@ -81,7 +81,7 @@ This supply vs demand logic is particularly useful at the ends of ranges.
 
 This is a thing that will be most helpful for more macro-oriented traders. In the final stages of the range the market either keeps pressing down to support levels, getting bought up short term but not in a way that would gain following and become long-lived. Or the market keeps rallying up and pushing up towards resistance, getting shorted back down for the stort term gains but not in a way that would gain longer term following. In a way, traders are making the market and in this way they agree on the next direction.
 
-#### Real data
+#### Look at the BTCUSD market - Primer
 
 As they say, hindsight is 20/20. Here are two different kinds of BTCUSD price action.
 
@@ -204,7 +204,7 @@ What also comes to mind here is how different the typical holders are in crypto 
 * **Short-Term:** Look for bounds of the inner ranges and formations and scalp them.
 * **Long-Term:** Prepare to take substantial position at important points. Determine the "doom" bottom and set buys or the "upthrust" and set sells.
 
-#### Targets for your trades
+#### Tools for setting targets
 
 ##### Short Term: Formation targets
 
