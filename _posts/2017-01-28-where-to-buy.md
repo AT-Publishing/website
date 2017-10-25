@@ -6,6 +6,7 @@ tags: ['update', 'popular']
 comments: false
 note: 'User Guide'
 
+german: 'kryptowahrung-kaufen/'
 
 categories:
 - "exchanges"
