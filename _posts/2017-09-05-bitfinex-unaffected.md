@@ -28,7 +28,7 @@ categories:
 - eth
 update: 2017-09-05 09:39:00 +0200
 chart: []
-tags: ['popular']
+tags: []
 ---
 
 About 12 hours ago a Medium article was published that says Bitfinex might need to close the shop after the PBOC decision to shut down ICOs.

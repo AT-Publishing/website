@@ -31,7 +31,7 @@ image_alt:
 categories:
 - trading
 chart: []
-tags: ['popular']
+tags: []
 identifier: 'guestaltcoinanalytics10012017'
 ---
 

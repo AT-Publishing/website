@@ -79,7 +79,13 @@ h1.post-main {margin-bottom: 0}
         </h1>
         <br>
         <div>
-          {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+          <!-- hero image -->
+          <amp-img itemprop="image"
+          src="{{page.image[0]}}"
+          alt="{{page.image_alt[0]}}" data-original-width="1200px"
+          data-original-height="628px" layout="responsive" width="1152px" height="600px">
+          </amp-img>
+          <br>
         </div>
       </div>
       <div class="row">
