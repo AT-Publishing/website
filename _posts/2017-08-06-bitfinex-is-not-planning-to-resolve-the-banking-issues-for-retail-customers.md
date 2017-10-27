@@ -1,6 +1,8 @@
 ---
 layout: forestry
-german: false
+permalink: "/bitfinex-banking"
+german:  "bitfinex-banking"
+
 published: true
 comments: false
 stories: true
@@ -10,7 +12,6 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Bitfinex is not planning to resolve the banking issues for retail customers
 date: 2017-08-06 00:00:00 +00:00
-permalink: "/bitfinex-banking"
 description: News straight from the horse's mouth.
 categories:
 - trading
