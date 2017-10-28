@@ -1,83 +1,9 @@
 <div id="sidebar">
+
   <section class="posts-security" id="gtm-sidebar-security">
-
-    {% assign items = (site.security | sort: date) | reverse %}
-    {% for post in items limit:1 %}
-    <h3>New in Homelab</h3>
-    <section class="row homelab">
-      <div class="columns twelve">
-        <h5 class="post">
-          <strong>
-            <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
-              <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
-            </a>
-          </strong>
-        </h5>
-        <p>
-          <strong>
-          {{ post.date | date: "%d %b %Y" }}{% if post.update %} (Update {{ post.update | date: "%d %b %Y at %R" }}){% endif %}
-          </strong>
-        </p>
-      </div>
-      <div class="columns twelve">
-        {% if post.image[0] %}
-        <div class="six columns">
-          <a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-            <figure class="thumb">
-              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
-              layout="responsive"
-              data-original-width="720px" data-original-height="360px"
-              width="150px" height="80px">
-              </amp-img>
-            </figure>
-          </a>
-        </div>
-        {% endif %}
-        <div class="six columns alignleft">
-        {{ post.description }}
-        </div>
-      </div>
-    </section>
-    {% endfor %}
-
-    {% assign items = (site.security | sort: date) | reverse %}
-    {% for post in items offset:1 limit:2 %}
-    <section class="row homelab">
-      <div class="columns twelve">
-        <h6 class="post">
-          <strong>
-            <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
-              <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
-            </a>
-          </strong>
-          <small>{{ post.date | date_to_string }}</small>
-        </h6>
-      </div>
-      <div class="columns twelve">
-        {% if post.image[0] %}
-        <div class="four columns">
-          <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
-            <figure class="thumb">
-              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
-              layout="responsive"
-              data-original-width="720px" data-original-height="360px"
-              width="150px" height="80px">
-              </amp-img>
-            </figure>
-          </a>
-        </div>
-        {% endif %}
-        <div class="eight columns alignleft">
-        {{ post.description }}
-        </div>
-      </div>
-    </section>
-    {% endfor %}
-
+    {% include latestsecurity.html %}
   </section>
-
-
-    <section>
+  <section>
       <h3>Latest PSA's:</h3>
       <ul>
       {% assign items = (site.posts | sort: date) | reverse %}
@@ -90,28 +16,24 @@
       {% endif %}
       {% endfor %}
       </ul>
-    </section>
+  </section>
+  <section>
+     <h3>Coupon Codes For Crypto Exchanges:</h3>
+      <ul class="airdrops">
+        <li>
+          <a  target="_blank" rel="nofollow" title="bitfinex cryptocurrency exchange coupons" href="https://www.bitfinex.com/?refcode=5egV78YtlC" >BITFINEX COUPON <b>5egV78YtlC</b> (10% off fee)</a></li>
+        <li>
+          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
+        <li>
+          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
+        <li>
+          <a class="internal" href="{{site.url}}{{site.baseurl}}/referral-coupons/">Other coupons and rebate offers</a></li>
+      </ul>
+  </section>
+  <section class="posts-security" id="gtm-sidebar-strategy">
+    {% include lateststrategy.html %}
+  </section>
 
-
-
-
-   <section>
-          <h3>Coupon Codes For Crypto Exchanges:</h3>
-          <ul class="airdrops">
-            <li>
-              <a  target="_blank" rel="nofollow" title="bitfinex cryptocurrency exchange coupons" href="https://www.bitfinex.com/?refcode=5egV78YtlC" >BITFINEX COUPON <b>5egV78YtlC</b> (10% off fee)</a></li>
-            <li>
-              <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
-            <li>
-              <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
-              <li><a href="/referral-coupons/">Other referral coupons for discounts and rebates</a></li>
-          </ul>
-   </section>
-
-   <section>
-    <h3>Best Charting for Cryptocurrency Trading & TA</h3>
-    {{ site.tv_side_animated }}
-   </section>
 
 
    <section>
@@ -129,6 +51,11 @@
       <br>
       <strong>Support via MyEtherWallet:</strong> 1ST, ARC, BeerCoin, BCDN, CRB, CryptoCarbon, DAO, DAO_extraBalance, DGD, DGX 1.0, EDG, EMV, GNO, GNT, GUP, HKG, HMQ, ICN, LUN, MIT, MKR, MLN, NxC, PLU, REP, RLC, ROL, ROUND, SNGLS, SWT, TaaS, TIME, TKN, TRST, Unicorn, VSL, WINGS, XAUR.
     </p>
+   </section>
+
+   <section>
+     <h3>Best Charting for Cryptocurrency Trading & TA</h3>
+     {{ site.tv_side_animated }}
    </section>
 
 

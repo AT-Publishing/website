@@ -16,7 +16,7 @@ h1.post-main {
 }
 
 
-
+.relative{position: relative;}
 
 section em{font-family:"Alegreya",serif;font-style:italic;font-size: 115%;color: #000b17;}
 
@@ -29,6 +29,17 @@ ul.airdrops a {text-decoration: underline;}
 #sidebar table.airdrops tr:nth-of-type(1){background: #7a838d;padding: 10px 5px;color: white;}
 #sidebar table.airdrops tr:nth-of-type(2n){background: #f9f9f9;}
 #sidebar table.airdrops tr > td:nth-of-type(1) {color:#001f3f;font-weight: 800}
+
+#sidebar .strategy-overlay {
+    position: absolute;
+    max-width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.14);
+    bottom: 9px;
+    height: 190px;
+    color: white;
+    font-weight: 800;
+}
 
 .maincontent table.airdrops{table-layout: fixed;width: 100%;white-space: pre-wrap;}
 table.airdrops a{border-bottom: 2px solid #7A838D}
@@ -298,4 +309,11 @@ a.updated-excerpt:hover{color:white}
  .security-bg {height: 420px;background: #929292;}
  .security-olay h2 a {font-size: 2rem;}
  .security-olay .home-latest-excerpt {font-size:2rem;padding:15px;}
+
+ #sidebar .strategy-overlay {
+   font-weight: 400;
+    line-height: 1;
+    font-size: 14px;
+    height: auto;
+ }
 }

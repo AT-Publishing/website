@@ -1,0 +1,57 @@
+{% assign items = (site.strategy | sort: date) | reverse %}
+{% for post in items limit:1 %}
+<h3>New in Trading Strategy</h3>
+<section class="row homelab">
+  <div class="columns twelve">
+    <h5 class="post">
+      <strong>
+        <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+          <span class="tag custom-note">STRATEGY</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+    </h5>
+  </div>
+  <a class="sidebar-internal" target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+   <div class="columns twelve relative">
+    {% if post.image[0] %}
+    <div class="twelve columns">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
+          width="353px" height="190px">
+          </amp-img>
+        </figure>
+    </div>
+    {% endif %}
+    <div class="twelve columns alignleft strategy-overlay">
+    {{ post.description }}
+    <p>
+      | Published {{ post.date | date: "%d %b %Y" }}
+      {% if post.update %}<br>| Updated {{ post.update | date: "%d %b %Y at %R" }}{% endif %}
+    </p>
+    </div>
+   </div>
+  </a>
+</section>
+{% endfor %}
+
+{% assign items = (site.strategy | sort: date) | reverse %}
+{% for post in items offset:1 limit:2 %}
+<section class="row homelab">
+  <div class="columns twelve">
+    <h6 class="post">
+      <strong>
+        <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+          <span class="tag custom-note">STRATEGY</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+    </h6>
+  </div>
+  <div class="columns twelve">
+    <div class="twelve columns alignleft">
+      <small>{{ post.description }}</small> - <small>{{ post.date | date_to_string }}</small>
+    </div>
+  </div>
+</section>
+{% endfor %}

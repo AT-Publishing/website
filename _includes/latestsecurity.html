@@ -1,0 +1,72 @@
+{% assign items = (site.security | sort: date) | reverse %}
+{% for post in items limit:1 %}
+<h3>New in Homelab</h3>
+<section class="row homelab">
+  <div class="columns twelve">
+    <h5 class="post">
+      <strong>
+        <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+          <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+    </h5>
+    <p>
+      <strong>
+      {{ post.date | date: "%d %b %Y" }}{% if post.update %} (Update {{ post.update | date: "%d %b %Y at %R" }}){% endif %}
+      </strong>
+    </p>
+  </div>
+  <div class="columns twelve">
+    {% if post.image[0] %}
+    <div class="six columns">
+      <a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
+          width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+    </div>
+    {% endif %}
+    <div class="six columns alignleft">
+    {{ post.description }}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% assign items = (site.security | sort: date) | reverse %}
+{% for post in items offset:1 limit:2 %}
+<section class="row homelab">
+  <div class="columns twelve">
+    <h6 class="post">
+      <strong>
+        <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+          <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+      <small>{{ post.date | date_to_string }}</small>
+    </h6>
+  </div>
+  <div class="columns twelve">
+    {% if post.image[0] %}
+    <div class="four columns">
+      <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
+          width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+    </div>
+    {% endif %}
+    <div class="eight columns alignleft">
+    {{ post.description }}
+    </div>
+  </div>
+</section>
+{% endfor %}

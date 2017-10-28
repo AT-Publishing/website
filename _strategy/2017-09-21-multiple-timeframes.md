@@ -3,25 +3,21 @@ published: false
 
 layout: strategy
 title: "Trading multiple timeframes at the same time"
-description: "Long read about the multiple time frame trading strategy: Why it's good to trade multiple time frames at the same time and how to manage the positions."
+description: "A quick tip: Why it's good to trade multiple time frames at the same time and how to manage the positions."
 
-tags:
-- "update"
-
+#tags: ['popular']
 note: 'Strategy'
 
 categories:
-- "longread"
+- "tip"
 
 slug: multiple-time-frame/
 
-image:
-- "/editorial/data.jpg"
-image_alt:
-- "Cryptocurrency trading strategy."
+image: ["/editorial/socialmedia2.jpg"]
+image_alt: ["Cryptocurrency trading strategy."]
 
-update: 2017-09-22 22:36:00 +0700
-published: false
+date: 2017-10-27 22:36:00 +0700
+update: 2017-10-27 22:36:00 +0700
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"

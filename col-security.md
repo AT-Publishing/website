@@ -17,7 +17,7 @@ permalink: /security/
 
   {% if post.image[0] %}
   <div class="twelve columns security-bg">
-    <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="col-internal-link" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }}"
         layout="responsive"
@@ -48,7 +48,7 @@ permalink: /security/
 
       </strong>
     </h2>
-    <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="col-internal-link" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
     <div class="home-latest-excerpt">
 
       {{ post.description }}

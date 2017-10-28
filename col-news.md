@@ -23,7 +23,8 @@ navi:
 
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
-        <br><a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <br>
+        <a class="col-internal-link" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </strong>
     </h5>
     <div class="home-latest-excerpt">
@@ -35,7 +36,7 @@ navi:
   </div>
   {% if post.image[0] %}
   <div class="five columns">
-    <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="col-internal-link" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
         layout="responsive"
