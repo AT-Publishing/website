@@ -8,7 +8,9 @@
       <div class="columns twelve">
         <h5 class="post">
           <strong>
-            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
+            <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+              <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
+            </a>
           </strong>
         </h5>
         <p>
@@ -44,7 +46,9 @@
       <div class="columns twelve">
         <h6 class="post">
           <strong>
-            <a href="{{ site.url }}{{ post.url }}"><span class="tag">SECURITY</span>&nbsp;{{ post.title }}</a>
+            <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
+              <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
+            </a>
           </strong>
           <small>{{ post.date | date_to_string }}</small>
         </h6>
@@ -52,7 +56,7 @@
       <div class="columns twelve">
         {% if post.image[0] %}
         <div class="four columns">
-          <a target="_blank" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+          <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.url }}{{ post.url }}">
             <figure class="thumb">
               <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
               layout="responsive"
@@ -79,7 +83,7 @@
       {% assign items = (site.posts | sort: date) | reverse %}
       {% for post in items  %}
       {% if post.note contains 'PSA' %}
-      <a href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+      <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
         <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.update | date: "%d %b %Y" }}
       </a>
       </br>
@@ -174,10 +178,10 @@
       </li>
       <h3>Bitcoin News:</h3>
         <ul>
-          <li><a href="https://www.reddit.com/r/bitcoinmarkets" target="_blank">/r/bitcoinmarkets</a></li>
-          <li><a href="https://www.reddit.com/r/cryptomarkets" target="_blank">/r/cryptomarkets</a></li>
-          <li><a href="http://www.altcointoday.com">AltcoinToday</a></li>
-          <li><a href="http://www.coindesk.com/category/technology/altcoins/">Coindesk</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="https://www.reddit.com/r/bitcoinmarkets">/r/bitcoinmarkets</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="https://www.reddit.com/r/cryptomarkets">/r/cryptomarkets</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="http://www.altcointoday.com">AltcoinToday</a></li>
+          <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="http://www.coindesk.com/category/technology/altcoins/">Coindesk</a></li>
         </ul>
       <li>
         <h3>Algo Trading</h3>

@@ -9,7 +9,7 @@
         <span class="updated-excerpt">{{ post.date | date_to_string }}</span>
 
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-        <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}" class="updated-title">
+        <a class="updated-title" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
           {{ post.title }}
         </a>
       </strong>
@@ -20,7 +20,7 @@
         {% endif %}
         </strong>
       </div>
-      <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" class="updated-excerpt" title="{{ post.title }}">
+      <a class="updated-excerpt" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           {{ post.description }}
           {% if post.update %}&nbsp;&middot;&nbsp;Last update {{ post.update | date: "%d %b %Y" }}{% endif %}
           {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}

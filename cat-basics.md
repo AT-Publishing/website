@@ -36,7 +36,11 @@ permalink: /category/101/
 
             {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
-            <br><a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <br>
+            <a title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+              {{ post.title }}
+            </a>
+
           </strong>
         </h5>
         <div class="home-latest-excerpt">
@@ -45,7 +49,7 @@ permalink: /category/101/
     </div>
       {% if post.image[0] %}
     <div class="five columns">
-        <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+        <a title="{{ post.title }}" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
           <figure class="thumb">
             <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
             layout="responsive"

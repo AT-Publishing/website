@@ -14,7 +14,7 @@ permalink: /category/altcoins/
 {% if post.categories contains "coins" and post.tags contains 'update' %}
 
 <p>
- <strong>Recently Updated:</strong> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
+ <strong>Recently Updated:</strong> <a title="{{ post.title | capitalize }}" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | capitalize }}</a>
  <br>
  {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}: </em>{% endif %} {{ post.description }}
 </p>
@@ -49,7 +49,8 @@ permalink: /category/altcoins/
 
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
-        <br><a href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <br>
+        <a title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
       </strong>
     </h5>
     <div class="home-latest-excerpt">

@@ -14,7 +14,7 @@ navi:
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
           <h3 class="popular">
-            <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <a class="index-internal" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           </h3>
           <p>
           {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
@@ -24,7 +24,7 @@ navi:
     </section>
 
     {{ site.ads.aads728 }}
-    
+
     <section id="new-posts">
 
       <span class="note">Latest</span>
@@ -51,7 +51,9 @@ navi:
       {% for post in site.press offset: 0 limit: 2 %}
         <h4 class="post">
           <strong>
-            <a href=".{{ post.url }}"  title="{{ post.title }}"><span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}</a>
+            <a class="index-internal" href=".{{ post.url }}" title="{{ post.title }}">
+              <span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}
+            </a>
           </strong>
           <small>{{ post.date | date_to_string }}</small>
         </h4>
@@ -76,7 +78,10 @@ navi:
 
                 {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
-                <br><a href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                <br>
+
+                <a  class="index-internal"  href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+
               </strong>
             </h5>
             <div class="home-latest-excerpt">
@@ -85,7 +90,7 @@ navi:
           </div>
           {% if post.image[0] %}
           <div class="five columns">
-            <a target="_blank" href="{{ post.url }}" title="{{ post.title }}">
+            <a  class="index-internal" target="_blank" href="{{ post.url }}" title="{{ post.title }}">
               <figure class="thumb">
                 <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
                 layout="responsive"
