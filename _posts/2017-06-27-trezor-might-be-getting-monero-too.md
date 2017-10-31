@@ -21,7 +21,7 @@ image_alt:
 categories:
 - xmr
 - altcoins
-tags: ['update']
+tags: ['update', 'monero', 'trezor', 'hardware wallet']
 identifier:
 - trezormonero
 ---

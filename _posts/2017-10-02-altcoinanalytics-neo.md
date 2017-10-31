@@ -31,7 +31,7 @@ image_alt:
 categories:
 - trading
 chart: []
-tags: []
+tags: ["altcoinanalytics", "neo", "sentiment analysis"]
 identifier: 'guestaltcoinanalytics10012017'
 ---
 

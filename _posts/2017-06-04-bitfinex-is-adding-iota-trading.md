@@ -23,7 +23,7 @@ categories:
 - altcoins
 - trading
 - exchanges
-tags: []
+tags: ['iota', 'bitfinex']
 ---
 
 {{ site.mailchimp }}

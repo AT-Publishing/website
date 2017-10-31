@@ -25,7 +25,7 @@ categories:
 - altcoins
 update: 2017-09-20 02:36:00 +0700
 chart: []
-tags: []
+tags: ["bitcoin ban", "china ban", "cnledger"]
 ---
 
 Hello and welcome to the *China bans Bitcoin* show season 3. Except this time it was about all crypto.

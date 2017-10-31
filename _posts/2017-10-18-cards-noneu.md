@@ -30,7 +30,7 @@ image_alt:
 categories:
 - basics
 chart: []
-tags: []
+tags: ["bitcoin debit cards", "debit cards", "cryptopay", "bitwala", "wirex", "shakepay", "xapo", "wavecrest"]
 identifier: 'cards10182017'
 ---
 

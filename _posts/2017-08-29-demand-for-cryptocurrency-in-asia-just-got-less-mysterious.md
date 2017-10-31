@@ -21,7 +21,7 @@ update: 2017-08-29 01:07:00 +0200
 categories:
 - trading
 chart: []
-tags: []
+tags: ["north korea", "bitcoin", "market analysis", "fundamentals"]
 identifier:
 - northkoreabestkorea
 ---

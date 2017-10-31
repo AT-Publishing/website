@@ -21,7 +21,7 @@ categories:
 image_alt:
 - Ethereum trading finally starts on Bitstamp
 chart: []
-tags: []
+tags: ["bitstamp", "ethereum"]
 identifier:
 - bitstampeth
 ---

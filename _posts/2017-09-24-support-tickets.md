@@ -28,7 +28,7 @@ categories:
 - basics
 update: 2017-10-10 12:36:00 +0700
 chart: []
-tags: []
+tags: ["satire", "bitfinex", "kraken"]
 ---
 
 > Once upon a time, people said: "Enough is enough!" and started leaving Poloniex because of their unresponsive customer support.

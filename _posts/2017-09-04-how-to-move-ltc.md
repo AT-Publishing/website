@@ -25,7 +25,7 @@ categories:
 - ltc
 update: 2017-09-04 10:09:00 +0200
 chart: []
-tags: []
+tags: ["litecoin segwit", "segwit", "ltc", "p2sh"]
 identifier:
 - ltcaddresses
 ---

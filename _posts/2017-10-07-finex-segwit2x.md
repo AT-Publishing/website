@@ -30,7 +30,7 @@ categories:
 - trading
 - coins
 chart: []
-tags: []
+tags: ["bitfinex", "SegWit2x"]
 identifier: 's2x10072017'
 ---
 

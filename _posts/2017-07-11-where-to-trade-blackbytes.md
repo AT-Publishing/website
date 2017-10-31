@@ -23,7 +23,7 @@ chart: []
 categories:
 - altcoins
 - trading
-tags: []
+tags: ['gbyte', 'blackbytes', 'byteball', 'airdrop']
 identifier:
 - gbyte
 ---
