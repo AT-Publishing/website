@@ -123,6 +123,54 @@ h5.post {
     font-weight: 800;
 }
 
+#altcointrading-security .google-news-tag {
+  display: block;
+  background: #ffdc00;
+  padding: 4px 15px;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  width: auto;
+  float: left;
+}
+#altcointrading-security .maincontent ul {
+    list-style: square;
+    padding-left: 35px;
+}
+
+/* Strategy */
+
+#altcointrading-strategy .google-news-tag {
+  display: block;
+  background: #ffdc00;
+  padding: 4px 15px;
+  color: #fff;
+  font-size: 100%;
+  font-weight: 600;
+  position: relative;
+  top: 0;
+  width: auto;
+  float: left;
+}
+#altcointrading-strategy .maincontent ul {
+    list-style: square;
+    padding-left: 17px;
+}
+#altcointrading-strategy ul.social,
+#altcointrading-strategy ul.social a {
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: -3px;
+    color: #413F4F;
+    padding-top: 33px;
+}
+#altcointrading-strategy ul.social li {margin-right: 10px}
+#altcointrading-strategy li.cta {font-size: 15px; font-family: "Courier New", "courier", monospace; font-weight: 400}
+
+#altcointrading-strategy h1.post-main {margin-bottom: 0}
+
 /* 101 - updated */
 
 .nogutter{margin:0;padding:0;position:relative;margin-bottom:20px}
