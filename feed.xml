@@ -22,6 +22,7 @@ navi:
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.description | xml_escape }}</description>
+
         <author>{{ post.author_name }}@altcointrading.net</author>
         <webmaster>info@altcointrading.net</webmaster>
 

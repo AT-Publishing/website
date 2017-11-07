@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-07 18:12:00 +0700
-update: 2017-11-07 18:36:00 +0700
+update: 2017-11-07 20:36:00 +0700
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -16,13 +16,14 @@ stories: true
 genres: Blog
 
 layout: forestry
-german: false
 tickers: false
 
 title: "Hardware wallets and Bitcoin SegWit2x Fork: Ledger vs Trezor"
 description: "Both of the top hardware wallet companies have published their stances on the upcoming Bitcoin fork and how they will deal with the missing replay protection."
 
 permalink: "/segwit2x-ledger-trezor"
+german: "segwit2x-ledger-trezor"
+
 image:
 - "/editorial/keys.jpg"
 
@@ -68,7 +69,7 @@ Ledger will provide further details closer to the fork.
 
 You will need to split your coins manually if you want to value the 1x and 2x chains independently. This process will only be manual with Trezor and a splitting tool specific to this fork (a fork without replay protection) will be implemented.
 
-SatishiLabs make it clear in their blog post that the coin splitting tool will come without any warranties -- if something happens to your coins, they are not responsible.
+SatoshiLabs make it clear in their blog post that the coin splitting tool will come without any warranties -- if something happens to your coins, they are not responsible.
 
 SatoshiLabs will update [the Trezor blog post](https://blog.trezor.io/trezor-statement-segwit2x-2x-hard-fork-b2x-f245fe4f0fb) with splitting guide closer to the fork.
 
