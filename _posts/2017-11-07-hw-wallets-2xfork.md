@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-07 18:12:00 +0700
-update: 2017-11-07 20:36:00 +0700
+update: 2017-11-09 10:36:00 +0700
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -32,9 +32,14 @@ image_alt:
 categories:
 - basics
 chart: []
-tags: ["segwit2x", "bitcoin", "bitcoin fork", "trezor", "ledger"]
+tags: [ "update", "segwit2x", "bitcoin", "bitcoin fork", "trezor", "ledger"]
 identifier: 'hwsegwit2x11072017'
 ---
+
+
+And none of this matters for now - [SegWit2x was canceled](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-November/000685.html).
+
+____________________________________
 
 Bitcoin is set for a chain split from a hard fork again -- this time the consensus is that it won't be a non-event like the Bitcoin Gold fork. To some traders, this is just a dividend - getting free coins to add to their stash, to either trade them, sell them for BTC or cash them out. The SegWit2x creators insist 2x will be the new Bitcoin though, and that the legacy chain will die -- which means they did not implement replay protection. Transactions relayed on the 2x chain can be replayed on the legacy Bitcoin chain too, which makes splitting your coins to get the 2x coin trickier.
 
