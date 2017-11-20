@@ -12,7 +12,38 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday and Cyber Monday 2017 is closing upon us so if you are a crypto trader thinking of going PRO on Tradingview, getting Coinigy subscription or just buy something with bitcoin, you might want to wait until the 24th of November to get the best yearly deals.
 
-#### Jump to Deal
+## Live Deals for Black Friday 2017  
+
+<div class="clearfix adfix">
+<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">
+<amp-img itemprop="image" src="/ads/BlackFriday728-90.png"
+alt="Tradingview Black Friday deals 2017 for crypto traders"
+data-original-width="728px"
+data-original-height="90px"
+width="728px" height="90px"
+layout="responsive">
+</amp-img>
+</a>
+</div>
+
+#### TradingView Black Friday Deal is live!
+
+From 20 November to 27 November TradingView gives between 40% and 60% discount on **yearly plans** only.
+
+* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
+* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
+* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
+
+The Black Friday discount applies to yearly subscription only but here's a cost breakdown per month for your information:
+
+* **PRO** with yearly payment ~ **9 USD/month**
+* **PRO+** with yearly payment ~ **14.95 USD/month**
+* **PREMIUM** with yearly payment ~ **23.98 USD/month**
+
+<a href="http://tradingview.go2cloud.org/SH1Je" class="button" rel="nofollow" target="_blank">See what the plans include</a>
+
+
+#### Jump to Deal Description
 
 **Hardware Wallets**
 
