@@ -1,0 +1,49 @@
+---
+published: true
+guest: false
+
+date: 2017-11-22 10:02:00 +0700
+update: 2017-11-22 10:06:00 +0700
+
+author: https://reddit.com/u/KarlVonBahnhof
+author_name: KarlVonBahnhof
+author_twitter: '@_KarlVonBahnhof'
+
+comments: false
+
+stories: true
+genres: Blog
+
+layout: forestry
+tickers: false
+
+title: "Bitfinex added fiat deposits and withdrawals for individual and corporate accounts."
+description: "Yay. Oh yeah, and also EUR trading."
+
+permalink: "/bitfinex-fiat-routes"
+german: false
+
+image: ["/editorial/berries.jpg"]
+image_alt: ["Bitfinex added fiat deposits and withdrawals for individual and corporate accounts."]
+
+categories: ["trading", "coins"]
+chart: []
+tags: [ "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
+---
+
+[From bfx_drew on Reddit:](https://www.reddit.com/r/BitcoinMarkets/comments/7ef1bo/daily_discussion_tuesday_november_21_2017/dq63pqt/)
+
+Couple new things at [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC):
+
+* Individual users can now access USD wires for deposits and withdrawals
+* Euro wires added for both corporate and individual accounts
+* First Euro trading pair, [/t/BTC:EUR](https://www.bitfinex.com/t/BTC:EUR/?refcode=5egV78YtlC), now live.
+
+To the delays in crypto withdrawals, bfx_drew said:
+
+> Withdrawals should be speeding up now. First, there was a delay in refilling hot wallet due to travel on behalf of a couple of the signers, then it is taking a while to work through the queue, requiring frequent refilling of hot wallet.
+
+
+*This post will be amended once there is more information available.*
+
+________________________
