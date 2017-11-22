@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-22 10:02:00 +0700
-update: 2017-11-22 10:06:00 +0700
+update: 2017-11-22 18:06:00 +0700
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
@@ -26,9 +26,9 @@ german: false
 image: ["/editorial/berries.jpg"]
 image_alt: ["Bitfinex added fiat deposits and withdrawals for individual and corporate accounts."]
 
-categories: ["trading", "coins"]
+categories: ["trading", "exchanges"]
 chart: []
-tags: [ "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
+tags: [ "update", "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
 ---
 
 [From bfx_drew on Reddit:](https://www.reddit.com/r/BitcoinMarkets/comments/7ef1bo/daily_discussion_tuesday_november_21_2017/dq63pqt/)
@@ -43,7 +43,10 @@ To the delays in crypto withdrawals, bfx_drew said:
 
 > Withdrawals should be speeding up now. First, there was a delay in refilling hot wallet due to travel on behalf of a couple of the signers, then it is taking a while to work through the queue, requiring frequent refilling of hot wallet.
 
+**Update:**
 
-*This post will be amended once there is more information available.*
+According to [this screenshot taken from 4chan](https://image.prntscr.com/image/M3xDGd1kRbuN2Nue214ULg.png), Bitfinex is using a Polish bank for their EUR wires. The bank is called Bank Spółdzielczy w Skierniewicach (BS Skierniewice) [https://www.bsskierniewice.pl/](https://www.bsskierniewice.pl/) and it is not a well known, big institute. It has triggered a [wave of mistrust on the Cryptocurrency subreddit](https://www.reddit.com/r/CryptoCurrency/comments/7entmf/upvote_gtfo_of_bitfinex_and_maybe_bitcoin_in/).
+
+*This post will be further amended once there is more information available.*
 
 ________________________
