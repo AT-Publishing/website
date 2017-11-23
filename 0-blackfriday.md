@@ -4,6 +4,7 @@ title: "Black Friday Deals for Crypto Traders"
 description: "Black friday 2017 deals for charting and trading portals for bitcoin and altcoin traders."
 permalink: /blackfriday/
 date: 2017-10-26 13:14 +0700
+update: 2017-11-23 19:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg']
 
 author_name: 'GenericShill'
@@ -102,7 +103,7 @@ Ledger Nano S also supports Bitcoin Cash and Bitcoin Gold. Ledger is generally f
 
 <a rel="nofollow external" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">See crypto supported by Ledger Nano S</a>
 
-Ledger Nano S currently retails at a regular price of 69.90 EUR but on Black Friday customers get up to 21% discount and free shipping with a promo code they will publish on Black Friday.
+Ledger Nano S currently retails at a regular price of **up to 69.90 EUR** (price varies based on your location - the US retail price is still 58 EUR) but on Black Friday customers get up to 21% discount and free shipping with a promo code they will publish on Black Friday.
 
 <a rel="nofollow external" target="_blank" class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
 
