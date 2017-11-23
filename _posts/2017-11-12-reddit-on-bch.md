@@ -29,7 +29,7 @@ image_alt: ["Best of Reddit regarding the Bcash November 2017 runup."]
 
 categories: ["trading", "coins"]
 chart: []
-tags: [ "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
+tags: [ 'popular', "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
 ---
 
 At the time of writing the Bcash price sits around 1300 USD (0.2 BTC) with [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) ATH of 2799 USD (0.54 BTC).

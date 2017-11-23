@@ -18,14 +18,20 @@ categories:
 chart: []
 image:
 - "/img/emotions/whales.jpg"
-update: 2017-08-06 00:00:00 +00:00
+update: 2017-11-23 13:24 +0700
 image_alt:
 - It's only the whales that are lucky.
-tags: ['popular', 'bitfinex', 'bitfinex banking', 'tether']
+tags: ['update', 'bitfinex', 'bitfinex-banking', 'tether']
 identifier:
 - phillpotteravalancheofbullshit
 ---
 
+
+**Update Nov 23 2017:**
+
+<a class="internal" href="https://www.altcointrading.net/bitfinex-fiat-routes">Bitfinex enabled fiat routes utilizing a small unknown Polish bank.</a>
+
+**Original post:**
 
 Phill G. Potter of Bitfinex (PGP) did an interview on Whalepool's teamspeak just now. PGP used to be a regular on there but over the past few weeks there was no sight of him - it is not so hard to imagine he'd be bombarded with questions for hours the minute he'd log in these days.
 

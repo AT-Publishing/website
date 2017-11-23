@@ -29,7 +29,7 @@ image_alt: ["What is Bitcoin Gold and why it is relevant"]
 
 categories: ["trading", "coins"]
 chart: []
-tags: [ "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
+tags: [ 'popular', "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
 ---
 
 Bitcoin Gold is one of the recent Bitcoin forks. Their official website moved from btcgpu.org to bitcoingold.org and the dev team is so secret that it allows for the wildest conspiracy fantasies.

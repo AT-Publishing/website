@@ -175,13 +175,14 @@ tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height=
 bf1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/blackfriday/">
 <amp-img itemprop="image"
-src="/cta/blackfriday-crypto-live.png"
+src="/cta/ledger-blackfriday-2017.png"
 alt="Black Friday deals 2017 for crypto traders"
-data-original-width="828px"
-data-original-height="315px"
+data-original-width="819px"
+data-original-height="310px"
 width="730px" height="275px"
 layout="responsive">
 </amp-img></a></div><br>'
+
 
 fucksense:
   aads728: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"

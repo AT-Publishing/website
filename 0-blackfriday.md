@@ -14,6 +14,38 @@ Black Friday and Cyber Monday 2017 is closing upon us so if you are a crypto tra
 
 ## Live Deals for Black Friday 2017  
 
+
+#### Ledger Wallet Black Friday 2017 21% OFF is LIVE starting 24 Nov
+
+<div class="adfix text-center">
+<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+<amp-img itemprop="image"
+src="https://www.ledgerwallet.com/images/promo/black-friday-2017/ledger-7-2-8x9-0.gif"
+alt="Ledger Nano S - The multi-currency hardware wallet" data-original-width="728px"
+data-original-height="90px" layout="responsive" width="728px" height="90px">
+</amp-img></a></div>
+
+
+If you have been waiting to buy your Ledger Nano S, the Black Friday 2017 deal starts on Friday November 24th. You get **21% off on your Ledger Ledger Nano S** if you place your order between Friday 24 November and Monday 27 November 2017.
+
+Note that Ledger is running the same Black Friday sale from Friday through Cyber Monday with 21% OFF and that the discount applies on all Ledger Nano S orders, but not on other Ledger products!
+
+<p><a rel="nofollow external" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Get your Ledger Nano S</a></p>
+
+<div class="adfix text-center">
+<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">
+<amp-img itemprop="image"
+src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_8-5-0x4-2-0.jpg"
+alt="Ledger Nano S - The multi-currency hardware wallet" data-original-width="850px"
+data-original-height="420px" layout="responsive" width="850px" height="420px">
+</amp-img></a>
+</div>
+
+
+
+#### TradingView Black Friday Deal is live!
+
+
 <div class="clearfix adfix">
 <a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">
 <amp-img itemprop="image" src="/ads/BlackFriday728-90.png"
@@ -26,7 +58,6 @@ layout="responsive">
 </a>
 </div>
 
-#### TradingView Black Friday Deal is live!
 
 From 20 November to 27 November TradingView gives between 40% and 60% discount on **yearly plans** only.
 
@@ -43,7 +74,7 @@ The Black Friday discount applies to yearly subscription only but here's a cost 
 <a href="http://tradingview.go2cloud.org/SH1Je" class="button" rel="nofollow" target="_blank">See what the plans include</a>
 
 
-#### Jump to Deal Description
+### Jump to Deal Description
 
 **Hardware Wallets**
 
@@ -67,9 +98,11 @@ The Black Friday discount applies to yearly subscription only but here's a cost 
 
 Ledger wallet is currently the most trusted hardware wallet for bitcoin and altcoins. The code is fully open source and the Ledger Nano S supports a mass of altcoins, including all ERC20 compliant tokens. Other than Bitcoin, Litecoin, Dash, Zcash, Ethereum and forks, Ledger also supports cryptocurrencies like Ripple and Stratis via Ledger's Companion Apps.
 
+Ledger Nano S also supports Bitcoin Cash and Bitcoin Gold. Ledger is generally fast and diligent in Bitcoin fork support apps so the Nano S wallet is definitely a good choice if you are a BTC holder and want to be able to split coins safely. (Don't worry if you missed out so far, there will likely be more forks in the future.)
+
 <a rel="nofollow external" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">See crypto supported by Ledger Nano S</a>
 
-Ledger Nano S retails at a regular price of 58 EUR but on Black Friday customers get up to 21% discount and free shipping with a promo code they will publish on Black Friday.
+Ledger Nano S currently retails at a regular price of 69.90 EUR but on Black Friday customers get up to 21% discount and free shipping with a promo code they will publish on Black Friday.
 
 <a rel="nofollow external" target="_blank" class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
 
