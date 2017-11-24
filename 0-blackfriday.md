@@ -4,7 +4,7 @@ title: "Black Friday Deals for Crypto Traders"
 description: "Black friday 2017 deals for charting and trading portals for bitcoin and altcoin traders."
 permalink: /blackfriday/
 date: 2017-10-26 13:14 +0700
-update: 2017-11-23 19:14 +0700
+update: 2017-11-24 12:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg']
 
 author_name: 'GenericShill'
@@ -16,7 +16,7 @@ Black Friday and Cyber Monday 2017 is closing upon us so if you are a crypto tra
 ## Live Deals for Black Friday 2017  
 
 
-#### Ledger Wallet Black Friday 2017 21% OFF is LIVE starting 24 Nov
+#### Ledger Wallet Black Friday 2017 21% OFF is live!
 
 <div class="adfix text-center">
 <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
@@ -42,6 +42,20 @@ data-original-height="420px" layout="responsive" width="850px" height="420px">
 </amp-img></a>
 </div>
 
+#### Trezor Wallet 3for2 Black Friday 2017 is live!
+
+Trezor wallets don't get a percent discounts during Black Friday 2017 but there is a discount package of 3 for 2 available.
+
+There is no need to apply a discount code - the offer applies on all orders from Black Friday through the weekend and Cyber Monday, and possibly on and on while the supplies last.
+
+The price for the pack of **3 Trezor wallets is 178 EUR**, taking the cost for device down to **59 EUR**. The price stays the same for all geolocations. There will be delivery costs added on checkout.
+
+
+<a rel="nofollow external" target="_blank" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor Black Friday offer</a>
+
+You can also preorder the new Trezor model T but there is no Black Friday deal on it. The more advanced Trezor T device with a large display costs currently 149 EUR and will ship in January 2018.
+
+<a rel="nofollow external" target="_blank" class="button" href="https://preorder.trezor.io/?a=fany@tutanota.com">See Trezor current offers</a>
 
 
 #### TradingView Black Friday Deal is live!
