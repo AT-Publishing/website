@@ -24,7 +24,7 @@ permalink: "/tether-hack"
 german: false
 
 image: ["/editorial/peanuts2.jpg"]
-image_alt: ["This is your captain speaking: There is absolutely no cause for alarm."]
+image_alt: ["This is your captain speaking: There is absolutely no cause for alarm. Peanuts image via Pexels."]
 
 categories: ["trading", "coins"]
 chart: []

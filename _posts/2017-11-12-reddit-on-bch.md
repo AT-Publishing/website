@@ -25,7 +25,7 @@ permalink: "/bcash-rally-november-2017"
 german: false
 
 image: ["/editorial/freelunch2.jpg"]
-image_alt: ["Best of Reddit regarding the Bcash November 2017 runup."]
+image_alt: ["Best of Reddit regarding the Bcash November 2017 runup. Free Lunch image via Pexels."]
 
 categories: ["trading", "coins"]
 chart: []

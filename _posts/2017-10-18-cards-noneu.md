@@ -26,7 +26,7 @@ image:
 - "/editorial/storm.jpg"
 
 image_alt:
-- "For non-EU residents, the latest regulation storm seems to be a sh1tshorm."
+- "For non-EU residents, the latest regulation storm seems to be a sh1tshorm. Storm image via Pexels."
 categories:
 - basics
 chart: []

@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-21 16:12:00 +0700
-update: 2017-11-21 17:06:00 +0700
+update: 2017-11-24 17:16:00 +0700
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
@@ -25,7 +25,7 @@ permalink: "/bitcoin-gold"
 german: false
 
 image: ["/editorial/freelunch1.jpg"]
-image_alt: ["What is Bitcoin Gold and why it is relevant"]
+image_alt: ["Free Lunch via Pexels"]
 
 categories: ["trading", "coins"]
 chart: []
@@ -50,7 +50,7 @@ The most popular wallets where you can import your keys are Coinomi and Freewall
 
 [Freewallet is just another wallet provider that announced BTG support lately](https://cointelegraph.com/news/first-dedicated-bitcoin-gold-wallet-announced). The difference here is that Freewallet provides a dedicated wallet for BTG whereas Coinomi is a multi-cryptocurrency wallet, similar to Jaxx or Exodus. [FreeWallet](https://freewallet.org/currency/btg) is just as good an option as Coinomi: Will do the job, nothing to worry if you move BTC from the pre-fork wallet first and if you want to sell your BTG right now anyway, you'll just send them to an exchange either way.
 
-You can sell BTG on [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) or Binance, out of the more popular exchanges. [HitBTC](https://hitbtc.com), [BitBay](https://bitbay.com) and [CEX.IO](https://cex.io) were among the first exchanges associated with Bitcoin Gold and support the trading of it as well, indeed.
+You can sell BTG on [Bittrex](https://bittrex.com), [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) or [Binance](https://binance.com), out of the more popular exchanges. [HitBTC](https://hitbtc.com), [BitBay](https://bitbay.com) and [CEX.IO](https://cex.io) were among the first exchanges associated with Bitcoin Gold and support the trading of it as well, indeed.
 
 
 **The most important essentials to know:**
@@ -68,7 +68,7 @@ You can sell BTG on [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) or 
 
 **Trezor**
 
-Trezor wallet](https://shop.trezor.io?a=fany@tutanota.com) implemented a BTG wallet in their beta wallet interface today. If you had BTC on a Trezor device before the BTG fork, you can claim them [as described in their blog](https://blog.trezor.io/claim-bitcoin-gold-bgold-btg-f66969e7f2c0). You get BTG for both SegWit and legacy wallet -- no matter where your BTC were.
+[Trezor wallet](https://shop.trezor.io?a=fany@tutanota.com) implemented a BTG wallet in their beta wallet interface today. If you had BTC on a Trezor device before the BTG fork, you can claim them [as described in their blog](https://blog.trezor.io/claim-bitcoin-gold-bgold-btg-f66969e7f2c0). You get BTG for both SegWit and legacy wallet -- no matter where your BTC were.
 
 If you claim with Trezor, you aren't moving BTC away from it because you are using a tool they developed natively - you aren't sharing your keys with a third party.
 

@@ -26,7 +26,7 @@ image:
 - "/editorial/people1.jpg"
 
 image_alt:
-- "There has been some talk about that you need to claim IOTAs else you lose them - it gets a little misinterpreted."
+- "There has been some talk about that you need to claim IOTAs else you lose them - it gets a little misinterpreted. People image via Pexels."
 categories:
 - basics
 - coins

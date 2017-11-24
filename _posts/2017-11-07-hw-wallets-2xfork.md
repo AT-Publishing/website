@@ -28,7 +28,7 @@ image:
 - "/editorial/keys.jpg"
 
 image_alt:
-- "With all hardware wallets, you own your private keys in form of the seed so you get the SegWit2x coins. The redeem procedure is different though."
+- "With all hardware wallets, you own your private keys in form of the seed so you get the SegWit2x coins. The redeem procedure is different though. Keys image via Pexels."
 categories:
 - basics
 chart: []
