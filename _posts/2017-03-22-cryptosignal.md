@@ -1,9 +1,10 @@
 ---
 layout: blog
 date: 2017-03-22 4:20
-title: "Cryptosignal - New tool for Ethereum traders"
+title: "Cryptosignal - ETH Hashrate vs Price Correlation"
 description: "A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions - that's a free altcoin trading signal."
 categories:
+- "no-ico"
 - "trading"
 - "eth"
 permalink: eth-traders-tool/

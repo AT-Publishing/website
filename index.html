@@ -9,20 +9,8 @@ navi:
 
     <section id="popular-posts">
 
-        {{ site.bf1 }}
-
-
-      <div class="adfix text-center">
-        <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
-        <amp-img itemprop="image"
-        src="https://www.ledgerwallet.com/images/promo/black-friday-2017/ledger-7-2-8x9-0.gif"
-        alt="Ledger Nano S - The multi-currency hardware wallet" data-original-width="728px"
-        data-original-height="90px" layout="responsive" width="728px" height="90px">
-        </amp-img></a>
-      </div>
-
-
-      <!-- SLOT 1 {{ site.mailchimp_thin }} -->
+      <!-- SLOT 1  -->
+      {{ site.mailchimp_thin }}
 
       <span id="note">Popular</span>
       {% for post in site.posts %}
@@ -60,18 +48,9 @@ navi:
 
 
       <!-- SLOT 2 -->
-      <!--<p>{{ site.tv_728-90_animated }}</p>-->
-      <div class="clearfix adfix">
-      <a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">
-      <amp-img itemprop="image" src="/ads/BlackFriday728-90.png"
-      alt="Tradingview Black Friday deals 2017 for crypto traders"
-      data-original-width="728px"
-      data-original-height="90px"
-      width="728px" height="90px"
-      layout="responsive">
-      </amp-img>
-      </a>
-      </div>
+      <p>{{ site.tv_728-90_animated }}</p>
+
+
       <!-- press -->
       {% for post in site.press offset: 0 limit: 2 %}
         <h4 class="post">

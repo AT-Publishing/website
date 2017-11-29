@@ -91,6 +91,16 @@ defaults:
 author: "AltcoinTrading"
 markdown: kramdown
 
+# referral links
+ref:
+  bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>'
+  ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger</a>'
+  trezor: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a>'
+  tradingview: '<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a>'
+  bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>'
+  coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>'
+
+# image ads
 ads:
   ledger: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">

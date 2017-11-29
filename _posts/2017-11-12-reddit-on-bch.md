@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-12 17:12:00 +0700
-update: 2017-11-12 18:26:00 +0700
+update: 2017-11-29 17:26:00 +0700
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -29,8 +29,32 @@ image_alt: ["Best of Reddit regarding the Bcash November 2017 runup. Free Lunch 
 
 categories: ["trading", "coins"]
 chart: []
-tags: [ 'popular', "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
+tags: [ 'update', 'popular', "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
 ---
+
+
+#### Tabloid Update on 29 November 2017: Staying in the loop
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;please post this to the entire world&quot;           ..........will do <a href="https://t.co/cK5ssCSHR3">pic.twitter.com/cK5ssCSHR3</a></p>&mdash; Jim (@JimBTC) <a href="https://twitter.com/JimBTC/status/935326980026830848?ref_src=twsrc%5Etfw">November 28, 2017</a></blockquote>
+
+
+Roger Ver has been internet famous just a tad more than usually in the recent days after everyone saw [his emotional interview with JimBTC](https://twitter.com/JimBTC/status/935326980026830848) where Ver boasted about his superior business achievements.
+
+The value of BCH has been taking a hit during that time and Ver consequently apologized for losing his cool.
+
+BitcoinErrorLog then shared how Ver called BTC a crippled coin.
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Salty Roger sold his Bitcoins at $6k, gets offended at <a href="https://twitter.com/hashtag/bcash?src=hash&amp;ref_src=twsrc%5Etfw">#bcash</a> name, judges me for adult business... Then calls $10k <a href="https://twitter.com/hashtag/bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#bitcoin</a> cripple coin while shilling a gambling site. 🤔 <a href="https://t.co/jmnzqwWTgj">https://t.co/jmnzqwWTgj</a></p>&mdash; John Carvalho (@BitcoinErrorLog) <a href="https://twitter.com/BitcoinErrorLog/status/935786314204680192?ref_src=twsrc%5Etfw">29 November 2017</a></blockquote>
+
+From Reddit:
+
+> Roger Ver calling BTC 'Cripple Coin' now? [twitter.com/...](https://twitter.com/BitcoinErrorLog/status/935786314204680192) This is a man on the verge of losing a lot of $ and a lot of credibility.
+
+-- [u/leafac1](https://www.reddit.com/r/BitcoinMarkets/comments/7gae0g/daily_discussion_wednesday_november_29_2017/dqhyjkf)
+
+
+
+_____________________________________
 
 At the time of writing the Bcash price sits around 1300 USD (0.2 BTC) with [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) ATH of 2799 USD (0.54 BTC).
 
