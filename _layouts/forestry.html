@@ -48,7 +48,7 @@ layout: default-news
             {{ site.ads.aads728 }}
           </div>
           <div>
-            {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+            {{ content | replace: 'Bitfinex ', site.ref.bitfinex | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
           </div>
           <p>
             <em>
