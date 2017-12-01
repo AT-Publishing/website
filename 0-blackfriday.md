@@ -1,5 +1,8 @@
 ---
 layout: marketing
+
+published: false
+
 title: "Black Friday Deals for Crypto Traders"
 description: "Black friday 2017 deals for charting and trading portals for bitcoin and altcoin traders."
 permalink: /blackfriday/
