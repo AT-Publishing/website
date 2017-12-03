@@ -106,6 +106,7 @@ h5.post {
 .yellow {color:#ffdc00;}
 .tag {display:inherit;background:#ffdc00;padding:1px 7px;color:#fff;font-size:80%;font-weight:200;position:relative;top:-2px}
 .custom-note {background:#CDDC39;}
+.custom-note.bg-red {background: #FF4136}
 
 .post-content .guest{color:rgba(122, 131, 141, 0.81)}
 .post-content .guest > a {color:rgba(122, 131, 141, 0.81);text-decoration: underline;}
