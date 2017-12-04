@@ -2,8 +2,8 @@
 published: true
 guest: false
 
-date: 2017-12-04 18:02:00 +0700
-update: 2017-12-04 02:16:00 +0700
+date: 2017-12-04 02:16:00 +0700
+update: 2017-12-04 03:36:00 +0700
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: KarlVonBahnhof
@@ -70,3 +70,13 @@ On the 19th November about 30.9 million USDT sent from Tether single-sig hot wal
 * Since the stolen Tethers were frozen, there can be a wild unfounded speculation that the hack was either a test or a stunt to make Tether look bad, [38:33](https://youtu.be/Z8k5ne-iFP0?t=38m33s).
 * [39:13](https://youtu.be/Z8k5ne-iFP0?t=39m13s) There are security updates for Tether underway.
 * ChrisJ calls for allowing the benefit of the doubt. [44:18](https://youtu.be/Z8k5ne-iFP0?t=44m18s)
+
+
+
+<style>
+
+.maincontent ul li a {
+  border-bottom: 4px solid #03203f5c;
+}
+
+</style>
