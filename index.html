@@ -10,9 +10,21 @@ navi:
     <section id="popular-posts">
 
       <!-- SLOT 1  -->
-      {{ site.mailchimp_thin }}
+      {{ site.ledger_728-90_animated }}
 
       <span id="note">Popular</span>
+      {% for post in site.security %}
+         {% if post.tags contains 'popular' %}
+          <h3 class="popular">
+            <a class="index-internal popular-security" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
+              <span>SECURITY</span> {{ post.title }}
+            </a>
+          </h3>
+          <p>
+          {{ post.description }}
+          </p>
+        {% endif %}
+      {% endfor %}
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
           <h3 class="popular">
