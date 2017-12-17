@@ -26,7 +26,7 @@ categories:
 - exchanges
 update: 2017-09-01 01:00:00 +0200
 chart: []
-tags: ["psa", "bitstamp", "smart contracts", "bitfinex"]
+tags: ["psa","popular",  "bitstamp", "smart contracts", "bitfinex"]
 identifier:
 - missingethbitfinex
 ---
@@ -42,4 +42,4 @@ What a time to be alive.
 
 The support is at Poloniex level at the moment: too many users having the same issue, no tickets resolved. The only thing that sparks some "hope" is a recent tweet from Bitfinex: Apparently, they [solve deposit "errors" for a $25 processing fee](https://twitter.com/bitfinex/status/900646338941128704). I say "errors" because they were talking about sending BCH to an old BTC wallet, which is not really an error since the blockchain got duplicated so the address exists on BCH too if it existed on BTC before the fork. It's not as much a payment for an error as a ... payment for something that is invented to solve a problem which doesn't really exist.
 
-Anyway! Main thing is we have a new frontend interface boys!
+Anyway! Main thing is we have a new front-end interface boys!

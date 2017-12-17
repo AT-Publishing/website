@@ -22,7 +22,7 @@ ETC or ETH "Classic" is worth steadily about 10% of ETH and it is the underlying
 
 **ETH vs BTC**
 
-Ethereum is primarily meant as a smart contract and DApp platform but with [ZoE](https://www.altcointrading.net/zoe-ethereum-alphabay/) there is also transactional privacy implemented. Confirmation times are much faster than on the Bitcoin blockchain.
+Ethereum is primarily meant as a smart contract and dapp platform but with [ZoE](https://www.altcointrading.net/zoe-ethereum-alphabay/) there is also transactional privacy implemented. Confirmation times are much faster than on the Bitcoin blockchain.
 
 **Where to trade ETH and ETC**
 

@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-11-21 15:02:00 +0700
-update: 2017-11-21 15:06:00 +0700
+update: 2017-12-17 15:26:00 +0100
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
@@ -28,12 +28,14 @@ image_alt: ["This is your captain speaking: There is absolutely no cause for ala
 
 categories: ["trading", "coins"]
 chart: []
-tags: [ "bitfinex", "tether", "USDT", "ifinex", "hack", "omni"]
+tags: [ "update", "bitfinex", "tether", "USDT", "ifinex", "hack", "omni"]
 ---
 
 Tether has issued an emergency notice stating that more than 30 millions of newly generated tethers have been stolen by an unknown malicious hacker.
 
 [https://tether.to/tether-critical-announcement/](https://tether.to/tether-critical-announcement/)
+
+The Tether hack will need to be reported to law enforcement which was the reason why [ChrisJ removed the warrant canaries from his Twitter account](https://twitter.com/AMuse1512/status/941730603535425536) - an event that [left people wondering](https://www.reddit.com/r/BitcoinMarkets/comments/7k5asc/bitfinex_employee_removes_warrant_canaries_from/) whether Bitfinex is under subpoena.
 
 On the notice, the price of some cryptocurrencies dropped sharply (mainly BTC and also IOTA, which is mostly traded at Bitfinex, company related to Tether via Tether's owning company). The markets have since seen a recovery.
 

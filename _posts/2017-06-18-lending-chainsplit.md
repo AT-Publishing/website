@@ -37,7 +37,7 @@ The general rule is if you have your bitcoins in a wallet where you own your pri
 
 So, if you don't have to have bitcoins on the exchange and you don't want to sell them, your best bet is to have them in your wallet where you easily control the private key.
 
-You can always go for [Electrum](https://electrum.org/#download) which doesn't have the new hip frontend design but is actually easy to use while it also stood the test of time without hacks and heists. If you don't have a cold storage (hardware wallet) you are probably too late ordering it now. [Ledger Nano S](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s) is sold out on backorder, ETA September 2017 which is too late. As for [Trezor](https://shop.trezor.io/?a=fany@tutanota.com), some amount of Trezors is available right now (for a markup) or you can opt in for the normally-priced backorder Trezor (ETA August 2017 -- too late).
+You can always go for [Electrum](https://electrum.org/#download) which doesn't have the new hip front-end design but is actually easy to use while it also stood the test of time without hacks and heists. If you don't have a cold storage (hardware wallet) you are probably too late ordering it now. [Ledger Nano S](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s) is sold out on backorder, ETA September 2017 which is too late. As for [Trezor](https://shop.trezor.io/?a=fany@tutanota.com), some amount of Trezors is available right now (for a markup) or you can opt in for the normally-priced backorder Trezor (ETA August 2017 -- too late).
 
 #### If you make money lending to the people who borrow to gamble
 
@@ -61,11 +61,11 @@ Poloniex is the only exchange that has this kind of lending policy for hard fork
 
 This is for the split into BTC-Core and BTC-Unlimited but the procedure is likely to be the same for the scaling split:
 
-> In the event of a hardfork that results in a chain split, Bitfinex and other major exchanges—such as Poloniex, Kraken, and GDAX—are faced with the challenge of resolving complex accounting issues in margin trading. Ideally, each exchange would agree to a uniform and coherent methodology; however, each serves different audiences and have different market structures, making a universal solution unworkable. For example, Bitfinex has decided to take a different approach than the one proffered by Poloniex.
+> In the event of a hard fork that results in a chain split, Bitfinex and other major exchanges—such as Poloniex, Kraken, and GDAX—are faced with the challenge of resolving complex accounting issues in margin trading. Ideally, each exchange would agree to a uniform and coherent methodology; however, each serves different audiences and have different market structures, making a universal solution unworkable. For example, Bitfinex has decided to take a different approach than the one proffered by Poloniex.
 
 > After much analysis, we have chosen to handle the accounting of margin trading and funding based on the model of how stock spinoffs, dividends, and distributions are handled in equity markets.
 
-> Specifically, in the case of a hardfork event, **lenders will receive both BTC and BTU**.
+> Specifically, in the case of a hard fork event, **lenders will receive both BTC and BTU**.
 
 > Anyone that is short BTC/USD or long any BTC trading pair (ETH/BTC, LTC/BTC, etc.) [that is, borrowing BTC] will owe BTU to the lender, effectively making the user short BTU. An exception is in the case that BTC is borrowed but not in use as margin collateral, in which case BTU accrues to the lender.
 

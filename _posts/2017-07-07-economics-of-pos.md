@@ -33,7 +33,7 @@ identifier:
 ---
 ### The gist of PoS
 
-{{ site.mailchimp }} In PoW (Proof of work) the longest chain is valid, as in the one with most *work*. In PoS the one that is agreed upon in betting *consensus* is accepted.
+{{ site.mailchimp }} In Proof-of-work (PoW) the longest chain is valid, as in the one with most *work*. In Proof-of-stake the one that is agreed upon in betting *consensus* is accepted.
 
 In the proposed version of proof of stake in ETH, stakers make bets on which block will be included in the blockchain. The block that is backed up by most bets is the winning one. The betting is automated and has several rounds as the odds of reaching consensus at each block changes. The initial bets are small, when a leader starts to emerge the bets grow.
 
@@ -63,7 +63,7 @@ ___________________________
 
 #### How is it really with the centralization and unfair advantages
 
-The most promoted advantage of proof of stake is that it fights centralization of mining that seems to always emerge in PoW after some time.
+The most promoted advantage of proof of stake is that it fights centralization of mining that seems to always emerge in Proof-of-work after some time.
 
 **PoW**: If you are late to the party or don't have access to cheap electricity or don't have enough capital to constantly upgrade your mining equipment, your mining profits will not pay for your expenses - at least not until your coin increases in price, and if you should be waiting for that it would make more sense to simply trade. In addition to this you are fighting mining cartels that might be engaged in [selfish mining](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf).
 
@@ -85,7 +85,7 @@ _Image: via [@BitfuryGeorge](https://twitter.com/BitfuryGeorge/status/8831772973
 
 ___________________________
 
-And to add to this: it is not even quite clear that PoS is really free from all this unfairness.
+And to add to this: it is not even quite clear that Proof-of-stake is really free from all this unfairness.
 
 **What's  not clear**
 
@@ -105,7 +105,7 @@ In one Ethereum implementation called *slasher*, this behavior would fall under 
 
 ___________________________
 
-In the Ethereum roadmap, [the switch to PoS is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course PoS in ETH is not ready yet,** but what is the hype all about, really?
+In the Ethereum roadmap, [the switch to Proof-of-stake is planned for June 2018](https://np.reddit.com/r/ethereum/comments/609yjl/vladzamfir_if_the_price_of_ether_stays_high_i/df4r7hq/) (the switch has been [postponed several times](https://www.quora.com/When-will-ethereum-switch-to-proof-of-stake)). **At this stage, of course Proof-of-stake in ETH is not ready yet,** but what is the hype all about, really?
 
 PoS is not convenient for big miners, it is not convenient for hobby miners/stakers, it is not convenient for traders & holders because it introduces new possible problems and reasons for forks - but it's the next big thing because it is a system that is "more fair" and also "eco friendly"? Quite serious there?
 

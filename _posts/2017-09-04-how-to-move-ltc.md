@@ -11,14 +11,14 @@ note: 'PSA'
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: 'How to safely move Litecoins after recent network upgrades'
+title: 'How to safely move litecoins after recent network upgrades'
 date: 2017-09-01 00:18:00 +0200
 description: "Litecoin got new P2SH which most exchanges and mainstream wallets don't support yet."
 permalink: "/moving-ltc-p2sh"
 image:
 - "/img/coins/ltc.png"
 image_alt:
-- How to move Litecoins between exchanges
+- How to move litecoins between exchanges
 categories:
 - wallets
 - altcoins
@@ -30,15 +30,15 @@ identifier:
 - ltcaddresses
 ---
 
-Litecoin recently upgraded their network to get SegWit support and to enable the possibility of atomic swaps with BTC. Trezor upgraded their wallets accordingly but most exchanges haven't followed yet. Consequently, people have been having withdrawal issues recently and as customer support is nonexistent ([at least for plebs - traders who are not ultra high net worth](https://www.reddit.com/r/BitcoinMarkets/comments/6xjp5f/even_corporate_accounts_cant_withdraw_real_money/dmgwmzp/)), you don't get to know what to do because the money coming from your trading fees obviously doesn't matter.
+Litecoin recently upgraded their network to get SegWit support and to enable the possibility of atomic swaps with BTC. Trezor wallet upgraded their wallets accordingly but most exchanges haven't followed yet. Consequently, people have been having withdrawal issues recently and as customer support is nonexistent ([at least for plebs - traders who are not ultra high net worth](https://www.reddit.com/r/BitcoinMarkets/comments/6xjp5f/even_corporate_accounts_cant_withdraw_real_money/dmgwmzp/)), you don't get to know what to do because the money coming from your trading fees obviously doesn't matter.
 
 Here's how to move litecoins around without losing them.
 
-#### Getting Litecoin from exchange to Trezor
+#### Getting Litecoin from Exchange to Trezor
 
 > P2SH stands for “Pay to script hash”. Segregated Witness accounts and multisig accounts use these addresses.
 
-After the Litecoin network upgrade [Trezor enabled LTC SegWit addresses](https://blog.trezor.io/litecoins-new-p2sh-segwit-addresses-843633e3e707). These are different from the old Litecoin addresses - the legacy ones start with L, the new ones with M or 3. When you try to withdraw to an M-address though, the exchange interface will mostly tell you it's not a valid Litecoin address.
+After the litecoin network upgrade [Trezor enabled LTC SegWit addresses](https://blog.trezor.io/litecoins-new-p2sh-segwit-addresses-843633e3e707). These are different from the old Litecoin addresses - the legacy ones start with L, the new ones with M or 3. When you try to withdraw to an M-address though, the exchange interface will mostly tell you it's not a valid Litecoin address.
 
 Trezor offers an advice - you can [convert the M-address into a 3-address](https://litecoin-project.github.io/p2sh-convert/), which is equivalent. That's not the ideal way though - some platforms mess this up:
 
@@ -54,9 +54,9 @@ Once your LTC is transferred and confirmed you can send the LTC from the legacy 
 
 &nbsp;
 
-#### Jaxx has the same issue as exchanges
+#### Jaxx Wallet: The Same Issue as Exchanges
 
-Jaxx LTC wallet won't send LTC to a P2SH address, the send button will remain greyed out. You will need to generate an L-address too if you are moving Litecoin from Jaxx.
+Jaxx LTC wallet won't send LTC to a P2SH address, the send button will remain greyed out. You will need to generate an L-address too if you are moving litecoin from Jaxx.
 
 #### Ledger Wallet and LTC SegWit
 

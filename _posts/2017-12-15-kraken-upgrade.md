@@ -52,11 +52,11 @@ The hopefully better part of the post sets the date of the deployment to the wee
 
 Now, hopefully a meme of 'waiting for OP to deliver' will not be fitting here.
 
-What is slightly more alarming is there have been some problems with fiat routes as well, although according to the blog nothing of the sorts of the Bitfinex cat-and-mouse game.
+What is slightly more alarming is there have been some problems with fiat routes as well, although according to the blog nothing of the sorts of the cat-and-mouse game we know from Bitfinex.
 
 > Our fiat funding partners are also experiencing strain [...] current delays are outside of the usual range, especially for domestic USD.  Cryptocurrency funding remains unaffected.
 
 Since trading on Kraken started being a pain the perfect availability of fiat routes has been the only reason to actually do business with Kraken. If the upgrade is a flop and fiat processing starts to be problematic there wouldn't be much of a reason to be on Kraken at all.
 
 
-Join the discussion on Reddit [here](https://www.reddit.com/r/BitcoinMarkets/comments/7jy6k2/kraken_degraded_service_upgrade_next_week/).
+Join the [discussion on Reddit](https://www.reddit.com/r/BitcoinMarkets/comments/7jy6k2/kraken_degraded_service_upgrade_next_week/).

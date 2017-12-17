@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-12-04 02:16:00 +0700
-update: 2017-12-04 03:36:00 +0700
+update: 2017-12-17 15:06:00 +0100
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: KarlVonBahnhof
@@ -36,9 +36,11 @@ tags: [ 'update', "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryp
 
 On December 3rd, ChrisJ who works for Bitfinex talked on Whalepool TS about <a class="intern" href="/bitfinex-banking">Bfx transparency</a> issues, the <a class="intern" href="/tether-hack">recent Tether hack</a> and more.
 
-The whole 51 minutes of footage is available on [Youtube](https://youtu.be/Z8k5ne-iFP0) -- by the way, it's still alright at 1.5x speed.
+The Tether hack will need to be reported to law enforcement which was the reason why [ChrisJ removed the warrant canaries from his Twitter account](https://twitter.com/AMuse1512/status/941730603535425536) - an event that [left people wondering](https://www.reddit.com/r/BitcoinMarkets/comments/7k5asc/bitfinex_employee_removes_warrant_canaries_from/) whether Bitfinex is under subpoena.
 
-Below a substantially shortened transcript of the most important info from the session with timestamps to relevant parts of the footage. Links of timestamps open in new tab.
+The 51 minutes of footage from Whalepool is available on [Youtube](https://youtu.be/Z8k5ne-iFP0) -- by the way, it's still alright at 1.5x speed.
+
+Below a substantially shortened transcript of the most important info from the first part of the session with timestamps to relevant parts of the footage. Links of timestamps open in new tab.
 
 _________________
 

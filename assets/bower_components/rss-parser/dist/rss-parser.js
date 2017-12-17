@@ -3021,7 +3021,7 @@ process.umask = function() { return 0; };
 	}
 
 	/**
-	 * Converts a string of Unicode symbols (e.g. a domain name label) to a
+	 * Converts a string of Unicode symbols (eg a domain name label) to a
 	 * Punycode string of ASCII-only symbols.
 	 * @memberOf punycode
 	 * @param {String} input The string of Unicode symbols.
@@ -5661,7 +5661,7 @@ try {
 } catch (e) {}
 
 var xhr = new global.XMLHttpRequest()
-// If location.host is empty, e.g. if this page/worker was loaded
+// If location.host is empty, eg if this page/worker was loaded
 // from a Blob, then use example.com to avoid an error
 xhr.open('GET', global.location.host ? '/' : 'https://example.com')
 
@@ -13969,7 +13969,7 @@ module.exports = isNative;
 },{"./internal/isHostObject":138,"./isFunction":166,"./isObjectLike":170}],169:[function(require,module,exports){
 /**
  * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
- * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ * (eg arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
  *
  * @static
  * @memberOf _

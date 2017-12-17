@@ -19,7 +19,7 @@ layout: forestry
 tickers: ['BTGUSD']
 
 title: "Bitcoin Gold: Why is it getting dismissed so fast?"
-description: "Bitcoin Gold is one of the recent Bitcoin forks. Ridden with controversy and skepticism - but relevant."
+description: "Bitcoin Gold is one of the recent bitcoin forks. Ridden with controversy and skepticism - but relevant."
 
 permalink: "/bitcoin-gold"
 german: false
@@ -32,7 +32,7 @@ chart: []
 tags: [ "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
 ---
 
-Bitcoin Gold is one of the recent Bitcoin forks. Their official website moved from btcgpu.org to bitcoingold.org and the dev team is so secret that it allows for the wildest conspiracy fantasies.
+Bitcoin Gold is one of the recent bitcoin forks. Their official website moved from btcgpu.org to bitcoingold.org and the dev team is so secret that it allows for the wildest conspiracy fantasies.
 
 The BTG blockchain has replay protection, which means that it is safe to proceed with transactions there - you won't accidentally spend your BTC by doing that. Splitting tools are largely at works by now, and BTG is traded in several markets.
 
@@ -97,7 +97,7 @@ Arstechnica continues to explain how the introduction of application-specific in
 
 -- which is not entirely the truth. The big miners get in fact disproportionate advantage because of unfair mining exploits that allow them to manipulate the pool of smaller miners.
 
-BTG implements a modified PoW called [Equihash](https://www.cryptolux.org/images/b/b9/Equihash.pdf): Zcash already uses it. The main advantage of Equihash over BTC's SHA256 is that it doesn’t get more convenient with better hardware because of a crucial step in the Equihash mining process that is memory-intensive rather than computationally intensive.
+BTG implements a modified Proof-of-work called [Equihash](https://www.cryptolux.org/images/b/b9/Equihash.pdf): Zcash already uses it. The main advantage of Equihash over BTC's SHA256 is that it doesn’t get more convenient with better hardware because of a crucial step in the Equihash mining process that is memory-intensive rather than computationally intensive.
 
 More memory will make Equihash mining faster but it makes no sense to optimize the hardware: it just needs a lot of generic memory. There is no application-specific hardware optimization in Equihash, just more or less memory. That means normal PC with a lot of memory still has a chance.
 
@@ -197,7 +197,7 @@ In case you are interested in BTG mining, here's what they have to say on their 
 
 #### WHAT COULD HAVE BEEN DONE DIFFERENTLY?
 
-Nothing about it being a Bitcoin fork that is called Bitcoin *something*.
+Nothing about it being a bitcoin fork that is called Bitcoin *something*.
 
 If there was meant to be an appeal to Bitcoin development, an altcoin wouldn’t really do the trick because people are used to having new altcoins cropping up left, right and center.
 

@@ -88,9 +88,9 @@ Although the transactions on Monero blockchain are private for an outside observ
 
 **Mining Monero**
 
-Monero is based on PoW, Proof of Work. The Monero devs say that PoS, Proof of stake which is now pushed as a "better" thing, penalizes less active participants and makes them “second class citizens” while Bitcoin’s PoW led to ASIC based mining pool centralization.
+Monero is based on PoW, Proof of Work. The Monero devs say that PoS, Proof of stake which is now pushed as a "better" thing, penalizes less active participants and makes them “second class citizens” while Bitcoin’s Proof-of-work led to ASIC based mining pool centralization.
 
-The mining process in Monero is a PoW algorithm optimalized so that it is ideally performed by millions of small x86 CPUs - that means, common personal computers - so it shouldn't lead to the rat race of ASICs.
+The mining process in Monero is a Proof-of-work algorithm optimalized so that it is ideally performed by millions of small x86 CPUs - that means, common personal computers - so it shouldn't lead to the rat race of ASICs.
 There is permanent block reward - 0.3 XMR per block forever.
 
 **Adoption**

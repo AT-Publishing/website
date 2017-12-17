@@ -41,7 +41,7 @@ The tool was published via r/bitcoinmarkets only a few hours ago. [Here's what](
 > Hey BitcoinMarkets,
 Cryptosign.al is a tool for finding patterns in the prices / data of the top cryptocurrencies (right now just BTC and ETH). It gives you the ability to directly overlay charts, use common technical indicators, and visualize statistics including linear and polynomial regression, and correlation. Right now, the data is updated daily but I’m looking to make the periods smaller in the near future.
 I’m a data scientist by trade and have been working on this site casually for the last 6 months, it’s been a ton of fun and I hope you guys find it useful. Some upcoming features I was thinking of: hourly (or finer) periods and live updates, more data sources (signals) to analyze, more advanced modeling features.
-I would really enjoy hearing some feedback and any ideas you guys have (e.g., the next feature you want to see the most).
+I would really enjoy hearing some feedback and any ideas you guys have (eg, the next feature you want to see the most).
 Also worth mentioning that I’ve been a long time member on these and other crypto subreddits but I’m separating my work/play accounts. Thanks for all your contributions and I hope this website reciprocates that at least a little bit.
 Edit: Some people may be receiving a startup page for Nginx. I'll look into it, but PM if it's still an issue in a day or two, thanks :)
 

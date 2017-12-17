@@ -46,9 +46,9 @@ So far IOTA hasn't been traded on any exchange. There was p2p trading with escro
 
 So, IOTA is not on a blockchain, similarly as Ripple although the technology underneath is different. That's how it can scale and all the rest of it - it is not a blockchain. IOTA uses what they call Tangle:
 
-> In the Tangle, every single transaction forms a new block and is essentially verified by itself: In order to successfully conduct a transaction, you first have to verify two randomly chosen transactions is the network. This is done with help of a very simple version of proof-of-work, therefore one could argue that transactions aren’t zero-cost. Yet, the transaction costs are essentially not existent, as the needed PoW is so low that every single device is able to independently carry it out. [source](https://medium.com/@cryptojudgement/iota-promise-of-a-bright-crypto-future-6b7517349e32)
+> In the Tangle, every single transaction forms a new block and is essentially verified by itself: In order to successfully conduct a transaction, you first have to verify two randomly chosen transactions is the network. This is done with help of a very simple version of proof-of-work, therefore one could argue that transactions aren’t zero-cost. Yet, the transaction costs are essentially not existent, as the needed Proof-of-work is so low that every single device is able to independently carry it out. [source](https://medium.com/@cryptojudgement/iota-promise-of-a-bright-crypto-future-6b7517349e32)
 
-With this kind of decentralized PoW the scalability is also naturally growing as the network gets used more. This is good for the network effect of money that is needed for micropayments.
+With this kind of decentralized Proof-of-work the scalability is also naturally growing as the network gets used more. This is good for the network effect of money that is needed for micropayments.
 
 IOTA is premined. There is no mining at all. 2779530283277761 IOTA were created, that is more than 2 &middot; 10^15. Hint: It's a lot.
 
