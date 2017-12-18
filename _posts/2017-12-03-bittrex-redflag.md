@@ -30,7 +30,7 @@ image_alt: ["Bittrex demands the r/bittrex to be shut down. Joke image from Pexe
 
 categories: ["exchanges", "trading"]
 chart: []
-tags: [ 'update', "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+tags: ["Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
 ---
 
 On Friday Dec 1 2017, Bittrex representative [u/jyap](https://reddit.com/u/jyap) reached out to the admins of the `r/bittrex` subreddit and demanded it to be closed down and set to private. The subreddit is an inofficial one, maintained by people who are not affiliated with Bittrex. The subreddit exists as a place for Bittrex customers who have to deal with the exchange's unresponsive customer support.

@@ -16,7 +16,7 @@ navi:
       {% for post in site.security %}
          {% if post.tags contains 'popular' %}
           <h3 class="popular">
-            <a class="index-internal popular-security" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
+            <a class="index-internal popular-security" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
               <span>SECURITY</span> {{ post.title }}
             </a>
           </h3>
@@ -28,7 +28,7 @@ navi:
       {% for post in site.posts %}
          {% if post.tags contains 'popular' %}
           <h3 class="popular">
-            <a class="index-internal" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           </h3>
           <p>
           {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
@@ -67,7 +67,7 @@ navi:
       {% for post in site.press offset: 0 limit: 2 %}
         <h4 class="post">
           <strong>
-            <a class="index-internal" href=".{{ post.url }}" title="{{ post.title }}">
+            <a class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
               <span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}
             </a>
           </strong>
@@ -96,7 +96,7 @@ navi:
 
                 <br>
 
-                <a  class="index-internal"  href=".{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
               </strong>
             </h5>
@@ -106,7 +106,7 @@ navi:
           </div>
           {% if post.image[0] %}
           <div class="five columns">
-            <a  class="index-internal" target="_blank" href="{{ post.url }}" title="{{ post.title }}">
+            <a  class="index-internal" target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
               <figure class="thumb">
                 <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
                 layout="responsive"

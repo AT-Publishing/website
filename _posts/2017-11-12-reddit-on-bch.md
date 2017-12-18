@@ -29,7 +29,7 @@ image_alt: ["Best of Reddit regarding the Bcash November 2017 runup. Free Lunch 
 
 categories: ["trading", "coins"]
 chart: []
-tags: [ 'update', "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
+tags: [ "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
 ---
 
 
