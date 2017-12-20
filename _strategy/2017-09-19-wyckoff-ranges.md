@@ -7,6 +7,11 @@ description: "A primer on how to look at a ranging market. Long read, specific t
 
 tags:
 - "update"
+- "wyckoff"
+- "wyckoff-phases"
+- "wyckoff-accumulation"
+- "wyckoff-redistribution"
+- "wyckoff-distribution"
 
 categories:
 - "longread"
@@ -27,7 +32,7 @@ image_alt:
 - "Cryptocurrency trading strategy."
 
 date: 2017-10-22 05:16:00 +0700
-update: 2017-10-24 15:36:00 +0700
+update: 2017-12-19 12:36:00 +0100
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
@@ -129,7 +134,9 @@ The second inner range was a distribution:
 * Market hits an important fib line and makes a sharp top.
 * Negative volume keeps picking up.
 * Drop to median of the outer range (red dashed line) gets bought up but this rally crashes and fails to push through resistance.
+* In a very simplified way you can say that if the price keeps pressing onto a support/resistance for some time, you can assume it will break it, even if only for short time. With support/resistance, it's typically either a clear bounce, or it goes through.
 * Market continues downwards.
+
 
 Following the fast markdown the market tests previous breakout point and gets quickly bought up, consolidates a little on diminishing volume (sign of ranging coming to close) and continues upward. Looking back to the 1D chart you see the market formed a strong w-bottom with good higher low (both price-wise and relatively to the bband) and pushed through a resistance line.
 
