@@ -27,8 +27,7 @@
     <div class="twelve columns alignleft strategy-overlay">
     {{ post.description }}
     <p>
-      &middot;&nbsp;Published {{ post.date | date: "%d %b %Y" }}
-      {% if post.update %}<br>&middot;&nbsp;Updated {{ post.update | date: "%d %b %Y at %R" }}{% endif %}
+      {% if post.update %}Last update {{ post.update | date: "%d %b %Y at %R" }} UTC{% else %}Published {{ post.date | date: "%d %b %Y" }}{% endif %}
     </p>
     </div>
    </div>

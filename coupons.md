@@ -18,18 +18,6 @@ That said, we do try businesses that are still no-name and new. It is probably a
 _________________
 
 
-### Bitfinex referral code - 10% off fees
-
-Bitfinex is one of the largest bitcoin exchanges out there. It has the largest BTCUSD volume, pretty much only chinese exchanges are bigger. The company was founded by iFinex and is legally based in Hong Kong.
-
-It is not the most transparent company. However, they don't demand more from their customers - there is no need for AML/KYC if you are willing to only withdraw cryptocurrencies. Ideal for altcoin trading and long term hodling.
-
-You can buy or trade BTC, LTC, ETH, ETC, ZEC, XMR and since March 2017 also DASH. There are both USD markets and pairs or altcoin/bitcoin.
-
-Fees are beautiful: **with referral link you get fees of .09%/.18% maker/taker**. Compare that with Poloniex - there you'll pay 15%/.25% on fee.
-
-{% aff - Click this link to get 10% off fees on Bitfinex for your first month https://www.bitfinex.com/?refcode=5egV78YtlC %}
-
 
 ### CoinMama - Buy ETH with a credit card
 

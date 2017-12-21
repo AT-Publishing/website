@@ -23,7 +23,7 @@ permalink: /category/exchanges/
 
 <hr>
 
-<p>{{ site.tv_728-90_animated }}</p>
+<p>{{ site.ledger_728-90_animated }}</p>
 
 
 {% for post in items  %}

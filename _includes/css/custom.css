@@ -31,6 +31,10 @@ h1.post-main {
     list-style: square;
     padding-left: 17px;
 }
+.maincontent ul li a {
+  color: #6a6e73;
+  border-bottom: 2px solid rgba(122,131,141,.64);
+}
 
 .popular-security > span {
     background: #fddc33;
@@ -65,15 +69,16 @@ ul.airdrops a {text-decoration: underline;}
     bottom: 9px;
     height: 190px;
     color: white;
-    font-weight: 800;
+    font-weight: 400;
 }
+#sidebar .strategy-overlay p {margin: 10px 0;}
 
 .maincontent table.airdrops{table-layout: fixed;width: 100%;white-space: pre-wrap;}
 table.airdrops a{border-bottom: 2px solid #7A838D}
 
-blockquote {font-family: 'Alegreya';font-style:italic;font-size: 125%;color: #001f3f;border-left: 2px solid #001f3f;padding-left: 3rem;margin-left: 0;}
+blockquote {font-family: 'Courier New', monospace;font-style: normal;font-size: inherit;color: #001f3f;border-left: 5px solid #fddc33;padding-left: 2rem;margin-left: 0;line-height: 1.1;} 
 
-.homelab, .homelab * {text-align: left;margin-bottom: 4px;}
+.homelab, .homelab * {text-align: left;margin-bottom: 4px;line-height: 1.1;}
 .alignleft, .alignleft > p {text-align: left}
 ul.social{list-style:none;font-size:37px;margin-bottom:-3px}ul.social li{display:inline-block}.mailchimpfix{width: auto;float: left;margin-right: 30px;margin-bottom: 0;clear: both;display: block;}.warning{position:relative;left:-10px}#side2 ul li a,#sidebar ul.sq li a,.stripe .hl a,a,nav.main a{text-decoration:none}.adfix,.clearfix{clear:both}body{font-family:'Droid Sans',sans-serif;color:#413F4F}h1,h2,h3,h4,h5,h6{font-family:'Fira Sans Condensed',serif}
 hr.home{border-top: 1px solid #001f3f;}.textlogo{display:block;float:none;padding-top:6px}.maincontent h3{margin-top:0;background:rgba(122,131,141,.64);color:#fff;padding:5px 10px 3px;margin-left:-10px;font-size:2.3rem}.maincontent p a{border-bottom:2px solid #7A838D}.maincontent img a{border-bottom:0 solid #7A838D}.nomargintop{margin-top:0}ul{list-style:circle}ul>li>a.coin{background:#7a838d;color:#fff;padding:5px 10px}.warning{background:#FF4136;color:#fff;padding:1em 2em;margin:1em 0 2em;width:auto}  .logo {width: 75px;float: none;margin: 0 auto;}#altindexbox{text-align: right;margin-top: 10px;}#togglemenu{clear: both;display: block;margin: -30px 0 -10px;float: left;width: 100%;}span#note, span.note {color: #001f3f;font-family: "Fira Sans Condensed";font-size: 16px;display: block;left:0;font-weight: 800;border-left: 5px solid #ffdc00;margin-bottom: 10px;background: #fff;clear: both;}
@@ -392,4 +397,5 @@ a.updated-excerpt:hover{color:white}
     font-size: 14px;
     height: auto;
  }
+ #sidebar .strategy-overlay p {margin: 10px 0;}
 }

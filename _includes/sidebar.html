@@ -17,6 +17,11 @@
       {% endfor %}
       </ul>
   </section>
+
+  <section class="posts-security" id="gtm-sidebar-strategy">
+    {% include lateststrategy.html %}
+  </section>
+
   <section>
      <h3>Coupon Codes For Crypto Exchanges:</h3>
       <ul class="airdrops">
@@ -27,9 +32,6 @@
         <li>
           <a class="internal" href="{{site.url}}{{site.baseurl}}/referral-coupons/">Other coupons and rebate offers</a></li>
       </ul>
-  </section>
-  <section class="posts-security" id="gtm-sidebar-strategy">
-    {% include lateststrategy.html %}
   </section>
 
 
@@ -98,10 +100,7 @@
           </li>
         </ul>
       </li>
-      <li>
-        <h3>Follow this site</h3>
-        {{ site.mailchimp }}
-      </li>
+
       <h3>Bitcoin News:</h3>
         <ul>
           <li><a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="https://www.reddit.com/r/bitcoinmarkets">/r/bitcoinmarkets</a></li>
@@ -118,6 +117,11 @@
       </li>
 
       <li>
+        <h3>Follow this site</h3>
+        {{ site.mailchimp }}
+      </li>
+
+      <li>
         <h3>Find us on:</h3>
         <span itemscope itemtype="http://schema.org/Organization">
           <link itemprop="url" href="https://www.altcointrading.net">
@@ -128,7 +132,7 @@
       </li>
 
       <li>
-        <h3>Submit </h3>
+        <h3>Submit News or Press Release</h3>
           <a title="{{site.title}} Submit" href="/submit/"><strong><span class="yellow">Submit</span> News or Press Release</strong></a>
       </li>
 

@@ -20,6 +20,12 @@ collections:
     output: true
     permalink: /:collection/:slug
 
+stars:
+  one: '<span class="star-rating">★☆☆☆☆</span>'
+  two: '<span class="star-rating">★★☆☆☆</span>'
+  three: '<span class="star-rating">★★★☆☆</span>'
+  four: '<span class="star-rating">★★★★☆</span>'
+  five: '<span class="star-rating">★★★★★</span>'
 
 defaults:
  -
@@ -100,6 +106,7 @@ ref:
   tradingview: '<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a>&nbsp;'
   bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>&nbsp;'
   coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
+  coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
 
 # image ads
 ads:

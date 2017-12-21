@@ -9,7 +9,7 @@ permalink: /category/no-ico/
 
 <section class="clearfix">
 <hr>
-<p>{{ site.tv_728-90_animated }}</p>
+<p>{{ site.ledger_728-90_animated }}</p>
 </section>
 
 {% for post in site.posts %}
