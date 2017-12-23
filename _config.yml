@@ -115,7 +115,7 @@ ref:
 
 # image ads
 ads:
-  binance728: '<div class="text-center">
+  binance728: '<div class="text-center" id="gtm-binance-banner">
   <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
   <amp-img itemprop="image" alt="Binance cryptocurrency exchange"
   src="/ads/binance-exchange-728x90.jpg"
