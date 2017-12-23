@@ -1,6 +1,8 @@
 ---
 layout: forestry
 title: "Best Altcoin Exchanges, Tried and True"
+guide: yes
+
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam? Updated for 2017/2018"
 categories:
 - exchanges

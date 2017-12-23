@@ -1,5 +1,7 @@
 ---
 layout: forestry
+guide: yes
+
 
 update: 2017-12-21 15:56 +0100
 tags: ['update', 'popular', 'where-to-buy-crypto', 'crypto-exchanges', 'how-to', 'cryptocurrency-guide']

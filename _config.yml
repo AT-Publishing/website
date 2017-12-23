@@ -5,6 +5,10 @@ baseurl: ""
 url: "https://www.altcointrading.net"
 timezone: "Etc/GMT"
 
+gems: [jekyll-paginate]
+paginate: 10
+
+
 collections:
   - press
   - security
@@ -100,6 +104,7 @@ markdown: kramdown
 
 # referral links
 ref:
+  binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
   bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
   ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a>&nbsp;'
   trezor: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a>&nbsp;'
@@ -110,6 +115,14 @@ ref:
 
 # image ads
 ads:
+  binance728: '<div class="text-center">
+  <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
+  <amp-img itemprop="image" alt="Binance cryptocurrency exchange"
+  src="/ads/binance-exchange-728x90.jpg"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
   ledger: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
   <amp-img itemprop="image" alt="Ledger Wallet protects your bitcoins"

@@ -37,7 +37,7 @@ navi:
       {% endfor %}
     </section>
 
-    {{ site.ads.aads728 }}
+    {{ site.ads.binance728 }}
 
     <section id="new-posts">
 
@@ -60,28 +60,24 @@ navi:
 
 
       <!-- SLOT 2 -->
-      <p>    {{ site.ads.aads728 }}</p>
+      <p>{{ site.ads.aads728 }}</p>
 
+      <!-- Pagination links -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="prev"><< Previous</a>
+        {% else %}
+          <span class="prev"><< Previous</span>
+        {% endif %}
+        <span class="page_number ">All Articles - Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
+        {% else %}
+          <span class="next ">Next >></span>
+        {% endif %}
+      </div>
 
-      <!-- press -->
-      {% for post in site.press offset: 0 limit: 2 %}
-        <h4 class="post">
-          <strong>
-            <a class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-              <span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}
-            </a>
-          </strong>
-          <small>{{ post.date | date_to_string }} </small>
-        </h4>
-        <p>
-        {{ post.description }}
-        </p>
-        <br>
-      {% endfor %}
-      <!-- end press -->
-
-    {% unless post.tags contains 'press' %}
-      {% for post in site.posts offset: 4 limit: 15 %}
+      {% for post in paginator.posts offset:4  %}
 
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
@@ -90,7 +86,7 @@ navi:
                 {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
                 {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
                 {% endif %}
-                <small>{{ post.date | date_to_string }}</small>
+                <small>{{ post.date | date: "%d %b %Y, %R" }} UTC</small>
 
                 {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
@@ -101,7 +97,7 @@ navi:
               </strong>
             </h5>
             <div class="home-latest-excerpt">
-              {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }} UTC: </em>{% endif %}{{ post.description }}
+              {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y, %R" }} UTC: </em>{% endif %}{{ post.description }}
             </div>
           </div>
           {% if post.image[0] %}
@@ -119,9 +115,44 @@ navi:
           {% endif %}
         </div>
       {% endfor %}
-     {% endunless %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="prev"><< Previous</a>
+      {% else %}
+        <span class="prev"><< Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
+      {% else %}
+        <span class="next ">Next >></span>
+      {% endif %}
+    </div>
 
 
+    </section>
+
+    <section>
+     <h3 class="home-bottom">Current airdrops & forks:</h3>
+     {% include thismonth-airdrops.html %}
+    </section>
+
+    <section>
+       <h3 class="home-bottom">Recent News via Reddit:</h3>
+         <amp-iframe
+           width=750 height=350
+           layout="responsive"
+           sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+           src="https://data.altcointrading.net/reddit/">
+           <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+         </amp-iframe>
+    </section>
+
+    <section>
+      <h3 class="home-bottom">Follow this site</h3>
+      {{ site.mailchimp_thin }}
     </section>
 
 
@@ -129,7 +160,8 @@ navi:
 
 
 
-    </div>
+      </div>
+
 
 
     <div class="four columns notopmargin">
@@ -138,3 +170,4 @@ navi:
 
 
   </div>
+</div>
