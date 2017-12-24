@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-12-20 12:16:00 +0100
-update: 2017-12-20 13:26:00 +0100
+update: 2017-12-22 10:21:00 +0100
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: KarlVonBahnhof
@@ -44,6 +44,8 @@ In this case the support is responsive, and here is what they have to say:
 
 > We are currently working on a new program whereby existing users will be able to invite a limited group of new users to sign-up or the Bitfinex platform. Once this has been finalized then we will notify existing users who qualify with details regarding this program.
 At this time , and until such a time as the new program is operational we will not be accepting new users to the platform.
+
+-- There still hasn't been a formal announcement but it is apparent from the mail that Bitfinex stopped new user registrations. That's a second big exchange after [Bittrex did that on December 15th](https://support.bittrex.com/hc/en-us/articles/115003463331-New-Account-Sign-Ups).
 
 <div>
   {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
