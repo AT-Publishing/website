@@ -1,0 +1,35 @@
+{% assign items = (site.fibs | sort: date) | reverse %}
+{% for post in items limit:1 %}
+<h3>Fib Levels of {{ post.update | date: "%d %b %Y" }}</h3>
+<section class="row homelab">
+  <div class="columns twelve">
+    <h5 class="post">
+      <strong>
+        <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+          <span class="tag custom-note">TRADING</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+    </h5>
+  </div>
+  <a class="sidebar-internal" target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+   <div class="columns twelve relative">
+    {% if post.image[0] %}
+    <div class="twelve columns">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Cold Storage Security"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
+          width="353px" height="190px">
+          </amp-img>
+        </figure>
+    </div>
+    {% endif %}
+    <div class="twelve columns alignleft strategy-overlay">
+    <p>
+      {% if post.update %}Last update {{ post.update | date: "%d %b %Y at %R" }} UTC{% else %}Published {{ post.date | date: "%d %b %Y" }}{% endif %}
+    </p>
+    </div>
+   </div>
+  </a>
+</section>
+{% endfor %}

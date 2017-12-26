@@ -12,6 +12,7 @@ paginate: 10
 collections:
   - press
   - security
+  - fibs
 
 collections:
   press:
@@ -21,6 +22,9 @@ collections:
     output: true
     permalink: /:collection/:slug
   strategy:
+    output: true
+    permalink: /:collection/:slug
+  fibs:
     output: true
     permalink: /:collection/:slug
 
@@ -98,6 +102,20 @@ defaults:
      tickers: false
      author: "https://reddit.com/u/KarlVonBahnhof"
      author_name: "KarlVonBahnhof"
+ -
+   scope:
+     path: "fibs" # all
+     type: "fibs"
+   values:
+     layout: "fibs"
+     german: false
+     published: true
+     comments: false
+     stories: false
+     tickers: false
+     author: "https://reddit.com/u/KarlVonBahnhof"
+     author_name: "KarlVonBahnhof"
+     author_twitter: "@_KarlVonBahnhof"
 
 author: "AltcoinTrading"
 markdown: kramdown

@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-10-12 19:12:00 +0700
-update: 2017-10-12 19:36:00 +0700
+update: 2017-10-26 02:06:00 +0100
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
@@ -69,6 +69,8 @@ So finally for the fix.
 
 <div id="iota-zero-balance-fix"></div>
 
+Since the IOTA wallet release [v2.5.6 in December 2017](https://github.com/iotaledger/wallet/releases/tag/v2.5.6) the problem with reattaching should be diminished as the devs added a "promotion" feature to the wallet. That applies mainly to [failed unconfirmed outgoing transactions](https://www.reddit.com/r/Iota/comments/7kcz6j/forget_reattach_promote_is_coming/) but generally in the future the reattach feature should disappear.
+
 ### How to fix IOTA wallet zero balance issue
 
 1. Make sure you have the [latest version of the IOTA wallet](https://github.com/iotaledger/wallet/releases/).
@@ -76,5 +78,6 @@ So finally for the fix.
 3. Click receive to generate your receiving address.
 4. Click 'attach to tangle' and wait for the process to complete.
 5. If the first attachment didn't fix the issue, go to 'Tools' - 'Edit Node Config' - 'minWeightMagnitude', set the value to 14, save and attach again.
+6. If the attaching takes longer than 10 minutes you should change to another node.
 
 You can try attaching to tangle for as long as you want, eventually your balance will show up. If you skipped the previous part: Your IOTA coins are most likely not lost, the zero balance is just a result of the regular snapshots.

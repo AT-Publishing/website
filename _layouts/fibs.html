@@ -1,0 +1,120 @@
+---
+layout: default-news
+---
+
+
+<div class="container" id="altcointrading-fibs">
+  <div class="row">
+
+     <div class="twelve columns post-content">
+
+       <div class="row">
+         <div class="columns eight">
+         {{ site.ads.aads728 }}
+       </div><!--1st-->
+         <div class="columns four">
+           <ul class="social">
+             <li>
+               <a title="Share {{ page.title }} on Telegram" href="https://t.me/share/url?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Telegram" target="_blank">
+                 <i class="fa fa-telegram"></i>
+               </a>
+             </li>
+             <li>
+               <a title="Share {{ page.title }} on Reddit" href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Strategy%20-%20{{ page.title }}" title="Reddit" target="_blank">
+                 <i class="fa fa-reddit"></i>
+               </a>
+             </li>
+             <li>
+               <a title="Share {{ page.title }} on Facebook" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
+                 <i class="fa fa-facebook-square"></i>
+               </a>
+             </li>
+             <li>
+               <a title="Share {{ page.title }} on Twitter" href="https://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
+                 <i class="fa fa-twitter-square"></i>
+               </a>
+             </li>
+
+           </ul>
+         </div><!--2nd-->
+       </div>
+
+       {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
+       <span id="note">
+         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
+
+         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+
+         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+       </span>
+       <h1 class="post post-main container-center">
+          <strong>
+            {{ page.title }} - Updated {{ page.update | date: "%d %b %Y at %R" }} UTC
+          </strong>
+        </h1>
+        <br>
+      </div>
+      <div class="row">
+        <div class="columns eight">
+          <article class="maincontent">
+
+						<div class="strategy-content">
+              {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+            </div>
+						<hr>
+						<div class="strategy-content fibs-charts">
+							{% for item in page.charts %}
+							<div>
+								<h2>{{ item.market }}</h2>
+								<figure class="border">
+									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
+									</amp-img>
+								</figure>
+								<br>
+								<p>
+									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
+								</p>
+								<p class="container-center">
+									&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+								</p>
+
+							</div>
+							{% endfor %}
+            </div>
+
+            <p>
+              <em>
+                Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
+              </em>
+
+            </p>
+            <p>
+              {% if page.stories %}
+              <p>
+                <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+              </p>
+
+              <script type="application/ld+json">
+              {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "{{ page.author_name }}",
+                "url": "https://www.altcointrading.net",
+                "sameAs": [
+                  "{{ page.author }}"
+                ]
+              }
+              </script>
+
+              {% endif %}
+
+            </p>
+
+          </article>
+        </div>
+        <div class="four columns nomargintop">
+          {% include sidebar.html %}
+        </div>
+      </div>
+  </div>
