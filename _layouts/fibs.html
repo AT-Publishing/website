@@ -60,30 +60,95 @@ layout: default-news
           <article class="maincontent">
 
 						<div class="strategy-content">
-              {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
-            </div>
-						<hr>
-						<div class="strategy-content fibs-charts">
-							{% for item in page.charts %}
+
+              <section>
+
+                {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+
+              </section>
+
+
+
+            <h2>USD Charts</h2>
+
+            <div class="strategy-content fibs-charts">
+							{% for item in page.dollars %}
 							<div>
-								<h2>{{ item.market }}</h2>
+								<h3>Fib retracement for {{ item.market }}</h3>
 								<figure class="border">
 									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
 									</amp-img>
 								</figure>
 								<br>
+                {% if item.comment %}
 								<p>
 									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
 								</p>
-								<p class="container-center">
-									&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
-								</p>
+                {% endif %}
 
 							</div>
 							{% endfor %}
             </div>
 
+            <p>{{ site.ledger_728-90_animated }}</p>
+
+
+            <h2>Ratio Charts</h2>
+
+            <div class="strategy-content fibs-charts">
+							{% for item in page.ratios %}
+							<div>
+								<h3>Fib retracement for {{ item.market }}</h3>
+								<figure class="border">
+									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
+									</amp-img>
+								</figure>
+								<br>
+                {% if item.comment %}
+								<p>
+									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
+								</p>
+                {% endif %}
+
+							</div>
+							{% endfor %}
+            </div>
+
+            <h2>Fibs in a spreadsheet</h2>
+
+
+
+            <section class="airtable-embed">
+                <amp-iframe
+                  width="728px" height="533px"
+                  layout="responsive"
+                  sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+                  src="https://airtable.com/embed/shrSUZxqj868zkUcM?backgroundColor=blue&viewControls=on">
+                  <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+                </amp-iframe>
+            </section>
+
+            <p>&nbsp;</p>
+
+            <section class="airtable-embed">
+                <amp-iframe
+                  width="728px" height="533px"
+                  layout="responsive"
+                  sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+                  src="https://airtable.com/embed/shrh2F0IALp1f9d0p?backgroundColor=blue&viewControls=on">
+                  <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+                </amp-iframe>
+            </section>
+
+
+
+          </div><!-- content end -->
+
+
             <p>
+              <br>
+              <hr>
+              <br>
               <em>
                 Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
               </em>
