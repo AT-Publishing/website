@@ -140,6 +140,24 @@ layout: default-news
                 </amp-iframe>
             </section>
 
+            <p>&nbsp;</p>
+
+            {{ site.ads.aads728 }}
+
+            <p>&nbsp;</p>
+
+            <section>
+              <h2>Archive</h2>
+
+              <ul>
+              {% loop_directory directory:fibs/archive iterator:image filter:*.png sort:descending %}
+                 <li><a target="_blank" href="/fibs/archive/{{ image }}.png">{{ image }}</a></li>
+              {% endloop_directory %}
+              </ul>
+
+
+            </section>
+
 
 
           </div><!-- content end -->

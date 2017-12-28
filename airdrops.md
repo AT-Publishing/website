@@ -5,7 +5,7 @@ description: "For cryptocurrency holders or for as little as an early signup."
 permalink: /airdrops/
 ---
 
-> Note: Never give away your private keys. 
+> Note: Never give away your private keys.
 
 
 <p>{{site.ledger_728-90_animated}}</p>
@@ -18,6 +18,46 @@ permalink: /airdrops/
 
 * There will be no more Stellar Lumen distributions to BTC or XRP holders.
 * There will be no more OMG distributions to ETH holders.
+
+#### December 2017 Crypto Airdrops
+
+<table class="airdrops">
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>How to access</th>
+    <th>Official URL</th>
+    <th>Additional Info</th>
+  </tr>
+  <tr>
+    <td>Daneel</td>
+    <td>Nov 20 - Dec 4</td>
+    <td>Daneel (AI portfolio management token) is giving out 50 tokens if you sign-up.</td>
+    <td><a rel="nofollow" target="_blank" href="https://daneel.io/ico/signup">daneel.io/ico/signup</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://daneel.io/">daneel.io</a></td>
+  </tr>
+  <tr>
+    <td>Bitcoin Platinum</td>
+    <td>before Dec 12 (block 498533)</td>
+    <td>[BTC holders get forked coin] Equihash Bitcoin fork with SehWit2x, GPU mining and difficulty adjustment every block (basically BTG2x).</td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcoinplatinum.github.io/">Github</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcoinplatinum.github.io/hardfork.html">bitcoinplatinum.github.io</a></td>
+  </tr>
+  <tr>
+    <td>Bitcoin Super</td>
+    <td>before Dec 17 (block 498888)</td>
+    <td>[BTC holders get forked coin] Experimental Bitcoin fork with smart contracts, LN, zero-knowledge proof and bigger blocks.</td>
+    <td><a rel="nofollow" target="_blank" href="http://supersmartbitcoin.com/">supersmartbitcoin.com</a></td>
+    <td><a rel="nofollow" target="_blank" href="http://supersmartbitcoin.com/">supersmartbitcoin.com</a></td>
+  </tr>
+  <tr>
+    <td>Bitcoin Cash Plus</td>
+    <td>Public launch 2nd of Jan 2018, fork at block 501407.</td>
+    <td>[BTC holders get forked coin] On-chain scaling, SigHash for better security, EDA.</td>
+    <td><a rel="nofollow" target="_blank" href="http://www.bitcoincashplus.org/">bitcoincashplus.org</a></td>
+    <td><a rel="nofollow" target="_blank" href="http://www.bitcoincashplus.org/">bitcoincashplus.org</a></td>
+  </tr>
+</table>
 
 #### November 2017 Crypto Airdrops
 
