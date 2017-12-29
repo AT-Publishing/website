@@ -26,7 +26,7 @@ categories:
 - exchanges
 update: 2017-09-01 01:00:00 +0200
 chart: []
-tags: ["psa","popular",  "bitstamp", "smart contracts", "bitfinex"]
+tags: ["psa",  "bitstamp", "smart-contracts", "bitfinex"]
 identifier:
 - missingethbitfinex
 ---

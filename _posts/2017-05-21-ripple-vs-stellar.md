@@ -10,35 +10,27 @@ author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Ripple vs Stellar
 date: 2017-05-22 02:38 -04:00
-update: 2017-05-23 03:20 -04:00
-description: "And by the way, now that Bitfinex has added Ripple...will it kill the bull run?"
+update: 2017-12-29 21:20 +0100
+description: "Ripple's end of 2017 epic bull run is closely followed by Stellar price action. How do Ripple vs Stellar compare?"
 permalink: "/ripple-vs-stellar"
 image:
-- "/uploads/2017/05/21/hJtMYhLc.jpg"
+- "/features/ripple-network.jpg"
 - "https://www.tradingview.com/x/ctF9dUWV"
 categories:
 - altcoins
+- coins
 - trading
 - exchanges
 image_alt:
-- Ripple has already double-topped on the daily. - Chart via TradingView.
-tags: [feature]
+- Ripple is having an epic bull run at the end of 2017 that actually follows fibs real licely. Check for updates at altcointrading.net/fibs/daily
+tags: [updates, popular, feature, no-blockchain]
 ---
 
+Ripple is pumping. Okay. It <a class="intern" href="/fibs/daily">follows fibs nicely</a> and the market is finally not as thin as it was at the bottom so if you are an active trader, this is a blessing.
 
-{{ site.mailchimp }} Bitfinex has added Ripple trading recently (May 19 announcement [here](https://www.bitfinex.com/posts/204)), and according to the crypto trading myths that should mean the rally is over. They say, whenever a mainstream exchange with fiat deposits adds a coin, the smart money leaves it and sells to the laggards.
+But should you buy Ripple now?
 
-With Ripple, a double-top going on is already old news:
-
-{% amp700 post {{page.image[0]}} {{page.image_alt[0]}} %}
-
-This is what the lovely Ripple chart looks like in 1D version on Bitfinex:
-
-{% amp700 post {{page.image[1]}} {{page.image_alt[0]}} %}
-
-#### Would you buy Ripple now?
-
-Buy Ripple only of you trust its fundamentals, as a long term investment - and this is entirely your call. There is no problem storing it - {% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %} has a Ripple wallet now.
+Buy Ripple only of you trust its fundamentals, as a long term investment - and this is entirely your call. There is no problem storing it - {% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %} has a Ripple wallet.
 
 ### Ripple's Fundamentals
 

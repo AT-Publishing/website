@@ -31,11 +31,11 @@ categories:
 - basics
 - coins
 chart: []
-tags: ["popular", "iota-snapshots", "iota", "iota wallet"]
+tags: ["popular", "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
 identifier: 'iota10122017'
 ---
 
-*For a guide to securing your IOTA storage click [here](https://www.altcointrading.net/security/iota).*
+<em>For a guide to securing your IOTA storage <a class="intern" href="/security/iota">go to the Security section</a>.</em>
 
 If you don't care for the fluff [skip right to the zero-balance fix](#iota-zero-balance-fix).
 

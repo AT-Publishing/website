@@ -1,3 +1,9 @@
+```
+<!-- {% if post.categories contains "coins" and post.tags contains 'no-blockchain' %} -->
+
+```
+
+
 # full website - altcointrading.net
 
 `All content belongs to github.com/altcointrading`
