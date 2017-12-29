@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2017-12-28 02:09:00 +0100
+update: 2017-12-29 21:02:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -17,14 +17,14 @@ name: "daily/"
 image: ["/strat/finexfibs.png"]
 
 dollars:
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "Bitcoin is currently sitting around the area of several fibs that coincide and make for a strongish resistance. The formation is a potential W bottom, relatively to bbands there was a lower high already but the news from Korea can shake things up." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Similar formation as Bitcoin's but bbands are tighter which should make for a more explosive move (either way). Bbands are curling down. ETH is popular in South Korea so again, the bad news will have effect here." }
-- { market: "XMRUSD", chart: "/fibs/xmrusd.png"}
-- { market: "XRPUSD", chart: "/fibs/xrpusd.png", comment: "Ripple is one cryptocurrency that is not painting pretty much the same W chart. There is an ATH resistance at the moment though. " }
-- { market: "OMGUSD", chart: "/fibs/omgusd.png", comment: "OmiseGo looks the droopiest of the pack with the new low. Bbands are tight and curling down." }
+- { market: "XRPUSD", chart: "/fibs/xrpusd.png", comment: "Ripple broke the ATH resistance nicely and currently sitting at the next fib resistance. It really should retrace a bit if this run is to be sustainable. A bull flag up here would be nice as well." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Still not making new highs but the short term downtrend line was broken. Bbands on 6H and 12H are looking more optimistic, on 1D the positive trend clearly hasn't been broken." }
+- { market: "EDOUSD", chart: "/fibs/edousd.png", comment: "Looking strong over the past days - Eidoo got the same kind of correction as BTC and many alts but swiftly made new highs. Currently sitting at ATH resistance. I am testing the Eidoo wallet for Android, there will be a post."}
+- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "Compared to for instance the ETHUSD 1D chart, IOTA is looking weaker at the moment. According to this strawpol the majority of the crowd has been bullish on it for 2018: https://strawpoll.de/3e111xx - What we see now is a consolidation after a big move though. Not a good convincing place to pick sides for the short term." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "Bitcoin is also consolidating and also weaker than ETHUSD. Currently sitting under an area of major resistance." }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "If the ETH ratio has seen the bottom this would be in for a nice long entry. There's no breakout yet though." }
-- { market: "LTCBTC", chart: "/fibs/ltcbtc.png", comment: "Huge range. Break of ATH would be bullish." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "In the ratio, ETH is attempting a breakout again. Now would be a good time to do it when BTC is just consolidating." }
+- { market: "EOSBTC", chart: "/fibs/eosbtc.png", comment: "Here's a madway chart without fibs. It's the BTC ratio of EOS, but: an unbroken positive trend and again, a good time to paint something resembing a cup and handle. Volume is miniscule at the moment." }
 
 #- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "dolor" }
 
@@ -35,7 +35,6 @@ This is a new section on AltcoinTrading that will have only USD and BTC charts f
 
 > Relevant news for today
 
-* There's some new FUD from South Korea about exchanges being shut down. For now with no official English resources. [Here's an article from Reuters](https://uk.reuters.com/article/uk-southkorea-bitcoin/south-korea-to-impose-additional-regulatory-curbs-on-cryptocurrency-trading-idUKKBN1EM05K)
-* Ethfinex went live, currently trading Status and Golem tokens. People with account on Bitfinex can access. [Thread on Reddit](https://www.reddit.com/r/ethtrader/comments/7mg4g3/status_golem_trading_live_on_ethfinex/)
-* Vlad Zamfir [tweeted](https://twitter.com/VladZamfir/status/945960959079829504) Casper will be released soon
-* From CNBC, [Ripple jumps after news about linking with Japanese credit card companies](https://www.cnbc.com/2017/12/27/ripple-jumps-after-news-of-link-to-some-japanese-credit-card-companies.html)
+* [South Korean FUD has been largely cleared up, as usually](https://www.reddit.com/r/Bitcoin/comments/7mnmxo/south_koreas_bitcoin_regulation_is_highly/)
+* For 2018, [people are bullish on quite a few non-blockchain cryptocurrencies](https://strawpoll.de/3e111xx) - IOTA, RaiBlocks, Ripple
+* HackerNoon recently published a [comprehensive post about IOTA, Raiblocks and Radix](https://hackernoon.com/iota-vs-raiblocks-413679bb4c3e), if you are new to this type of cryptocurrencies.
