@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2017-12-29 21:02:00 +0100
+update: 2017-12-31 07:02:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -17,14 +17,13 @@ name: "daily/"
 image: ["/strat/finexfibs.png"]
 
 dollars:
-- { market: "XRPUSD", chart: "/fibs/xrpusd.png", comment: "Ripple broke the ATH resistance nicely and currently sitting at the next fib resistance. It really should retrace a bit if this run is to be sustainable. A bull flag up here would be nice as well." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Still not making new highs but the short term downtrend line was broken. Bbands on 6H and 12H are looking more optimistic, on 1D the positive trend clearly hasn't been broken." }
-- { market: "EDOUSD", chart: "/fibs/edousd.png", comment: "Looking strong over the past days - Eidoo got the same kind of correction as BTC and many alts but swiftly made new highs. Currently sitting at ATH resistance. I am testing the Eidoo wallet for Android, there will be a post."}
-- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "Compared to for instance the ETHUSD 1D chart, IOTA is looking weaker at the moment. According to this strawpol the majority of the crowd has been bullish on it for 2018: https://strawpoll.de/3e111xx - What we see now is a consolidation after a big move though. Not a good convincing place to pick sides for the short term." }
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "Bitcoin is also consolidating and also weaker than ETHUSD. Currently sitting under an area of major resistance." }
+- { market: "XRPUSD", chart: "/fibs/xrpusd.png", comment: "Beautiful top wick below 2.618, currently about 20% down over the last 24 hours. On shorter timeframes currently bouncing off 1.618 but on small volume." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "The positive trend line defined by moving average (bband center) was broken on 1D - daily of 30 Dec closed below. ETH is still holding the level for now but there is some downward pressure (sell volumes)." }
+- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "Iota is keeping in the slight downtrend (consolidation), not much going on. The ratio (IOTBTC) is up thanks to bitcoin's action." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "Bitcoin sold off in a big way, now sitting on its last support area and looking very heavy." }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "In the ratio, ETH is attempting a breakout again. Now would be a good time to do it when BTC is just consolidating." }
-- { market: "EOSBTC", chart: "/fibs/eosbtc.png", comment: "Here's a madway chart without fibs. It's the BTC ratio of EOS, but: an unbroken positive trend and again, a good time to paint something resembing a cup and handle. Volume is miniscule at the moment." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "The ETH ratio is climbing but still not breaking out convincingly." }
+
 
 #- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "dolor" }
 
@@ -35,6 +34,6 @@ This is a new section on AltcoinTrading that will have only USD and BTC charts f
 
 > Relevant news for today
 
-* [South Korean FUD has been largely cleared up, as usually](https://www.reddit.com/r/Bitcoin/comments/7mnmxo/south_koreas_bitcoin_regulation_is_highly/)
-* For 2018, [people are bullish on quite a few non-blockchain cryptocurrencies](https://strawpoll.de/3e111xx) - IOTA, RaiBlocks, Ripple
-* HackerNoon recently published a [comprehensive post about IOTA, Raiblocks and Radix](https://hackernoon.com/iota-vs-raiblocks-413679bb4c3e), if you are new to this type of cryptocurrencies.
+* It's [from zerohedge so grain of salt and all that](https://www.zerohedge.com/news/2017-12-29/stunning-look-inside-world-south-koreas-bitcoin-zombies), but it's an interesting article about how the crypto madness looks in South Korea: Everybody wants to be a crypto investors, young folks are making tons of money, students have "clubs" where they trade together (and make decisions together as opposed to the western world that engages in fights between subreddits). It's not difficult to see why these new traders lead the market and how it looks like.
+* [You can now vote to have RaiBlocks listed on Binance next month](https://www.reddit.com/r/RaiBlocks/comments/7n4k0c/xrb_officially_on_the_ballet_for_the_binance_coin/). If you don't have an account on Binance yet go ahead and use our [shill link](https://www.binance.com/?ref=15980293).
+* Happy new year.
