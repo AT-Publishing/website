@@ -21,10 +21,10 @@ layout: forestry
 german: false
 tickers: false
 
-title: "New kids on the block: Smaller cryptocurrency exchanges good for trading"
+title: "Update for 2018: Smaller cryptocurrency exchanges good for trading"
 description: ""
 
-permalink: "/new-exchanges"
+permalink: "/exchanges-2018"
 image:
 - "/features/newcrypto.jpg"
 
