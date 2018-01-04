@@ -1,0 +1,179 @@
+---
+layout: default-news
+---
+
+<div class="container">
+  <div class="row">
+
+   <div class="eight columns post-content">
+     <div class="shifted-left">
+       {{ site.ads.aads728 }}
+     </div>
+       {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
+       <span id="note">
+         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
+         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+       </span>
+       <h4 class="post post-main">
+          <strong>
+            {{ page.title }}
+          </strong>
+        </h4>
+        {% if page.german %}
+          <h5 class="post post-main">
+            <a rel="nofollow" href="https://de.altcointrading.net/{{page.german}}">
+              READ THIS ARTICLE IN GERMAN
+            </a>
+          </h5>
+        {% endif %}
+        <br>
+        <article class="maincontent">
+          <div>
+            {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+          </div>
+          <p>
+            <em>
+              Image: {{page.image_alt[0]}}
+            </em>
+          </p>
+          <p>
+            <em>
+              <a title="{{ site.title }} Subscribe" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
+            </em>
+          </p>
+          <hr>
+          <div>
+            {{ site.ads.binance728 }}
+          </div>
+          <div>
+            {{ content | replace: 'Coinbase ', site.ref.coinbase | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+          </div>
+          {% if page.review %}
+          <div>
+            {% for item in page.review %}
+
+            {% if item.pic %}
+            <a rel="nofollow" target="_blank" href="{{item.link}}">
+            <figure class="border">
+              <amp-img itemprop="image" src="{{ item.pic }}" alt="{{item.name}} Review - Altcoin Trading" layout="responsive" width="700px" height="360px">
+              </amp-img>
+            </figure>
+            </a>
+            {% endif %}
+
+
+            <h4>{{ item.name }}</h4>
+
+            {% if item.rating %}<p><strong>Overall Rating:</strong> {{ item.rating }}</p>{% endif %}
+            {% if item.bestfor %}<p><strong>Best for:</strong> {{ item.bestfor }}</p>{% endif %}
+            {% if item.signup %}<p><strong>Sign-up:</strong> <a rel="nofollow" target="_blank" href="{{item.link}}">Sign up here.</a>&nbsp;{{ item.signup }}</p>{% endif %}
+            {% if item.comment %}<p>{{ item.comment }}</p>{% endif %}
+
+            <p>
+              <hr>
+            </p>
+
+            {% endfor %}
+          </div>
+          {% endif %}
+          <p>
+            <hr>
+          </p>
+          <p>
+            <em>
+              Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
+            </em>
+
+          </p>
+          <p>
+            <em>
+              Subreddit: <a title="{{ site.title }} Reddit" target="_blank" href="https://reddit.com/r/altcointrader"><i class="fa fa-reddit"></i> r/altcointrader</a>
+            </em>
+
+          </p>
+          <p>
+            <hr>
+            <ul class="social">
+              <li>
+                <a title="Share {{ page.title }} on Facebook" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
+                  <i class="fa fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a title="Share {{ page.title }} on Twitter" href="https://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
+                  <i class="fa fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a title="Share {{ page.title }} on Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
+            <hr>
+            {% if page.stories %}
+            <p>
+              <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
+            </p>
+
+            <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "{{ page.author_name }}",
+              "url": "https://www.altcointrading.net",
+              "sameAs": [
+                "{{ page.author }}"
+              ]
+            }
+            </script>
+
+            {% endif %}
+            <p>
+              <a title="Typo {{ page.title }}" href="mailto:info@altcointrading.net">Report typo or misinformation</a>
+            </p>
+          </p>
+
+          {% if page.comments %}
+
+          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+
+          <div id="disqus_thread"></div>
+          <script>
+
+          var disqus_config = function () {
+          this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "{{page.identifier}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://altcointrading.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+          <p></p>
+
+          {% else %}
+
+          <p>&nbsp;</p>
+
+          <hr>
+
+          <p>Comments are disabled for this post.</p>
+
+          <hr>
+
+          {% endif %}
+
+        </article>
+    </div>
+    <div class="four columns nomargintop">
+      {% include sidebar.html %}
+    </div>
+  </div>
