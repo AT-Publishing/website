@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-01-04 03:52:00 +0100
+update: 2018-01-05 03:02:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -14,7 +14,7 @@ tags: ['fibs', 'crypto-trading', 'technical-analysis', 'fibonacci-retracement']
 
 name: "daily/"
 
-image: ["/strat/finexfibs.png"]
+image: ["/features/fibs.jpeg"]
 
 dollars:
 
