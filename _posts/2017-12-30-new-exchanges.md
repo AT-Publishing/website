@@ -33,7 +33,7 @@ image_alt:
 - "Find new emerging cryptocurrency exchanges for your altcoin trading in 2018. Flying image via Pexels."
 categories:
 - basics
-- coins
+- trading
 chart: []
 tags: ["crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
 

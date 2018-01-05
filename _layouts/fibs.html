@@ -63,62 +63,67 @@ layout: default-news
 
               <section>
 
-                <p>This is a new section on AltcoinTrading that will have only USD and BTC charts from Bitfinex for selected cryptocurrencies with Fib retracements drawn on them and some brief commentary. It's going to be updated often but it will stay under this current link so you can bookmark it to check for updates. The latest update date will always be in the headline.</p>
+                <p>This is a new section on AltcoinTrading that will have only USD and BTC charts from Bitfinex for selected cryptocurrencies with <a href="/strategy/fibs">Fib retracements</a> drawn on them and some brief commentary. It's going to be updated every day around 2AM UTC but it will stay under this current link so you can bookmark it to check for updates. The latest update date will always be in the headline.</p>
 
                 {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
+                <p>Links to the last trade & settlement dates for both CME and CBOE futures are in the sidebar. <strong>There can be some unusual action on the BTCUSD markets during those times which can mess with the altcoin ratios</strong> so don't ignore that.</p>
+
               </section>
 
+              <section id="usd-crypto-pairs">
+                <h2>USD Charts</h2>
 
+                <div class="strategy-content fibs-charts">
+    							{% for item in page.dollars %}
+    							<div>
+    								<h3>Fib retracement for {{ item.market }}</h3>
+    								<figure class="border">
+    									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
+    									</amp-img>
+    								</figure>
+    								<br>
+                    {% if item.comment %}
+    								<p>
+    									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
+    								</p>
+                    {% endif %}
 
-            <h2>USD Charts</h2>
+    							</div>
+    							{% endfor %}
+                </div>
+              </section>
 
-            <div class="strategy-content fibs-charts">
-							{% for item in page.dollars %}
-							<div>
-								<h3>Fib retracement for {{ item.market }}</h3>
-								<figure class="border">
-									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
-									</amp-img>
-								</figure>
-								<br>
-                {% if item.comment %}
-								<p>
-									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
-								</p>
-                {% endif %}
+              <p>{{ site.ledger_728-90_animated }}</p>
 
-							</div>
-							{% endfor %}
-            </div>
+              <section id="btc-crypto-pairs">
+                <h2>Ratio Charts</h2>
 
-            <p>{{ site.ledger_728-90_animated }}</p>
+                <div class="strategy-content fibs-charts">
+    							{% for item in page.ratios %}
+    							<div>
+    								<h3>Fib retracement for {{ item.market }}</h3>
+    								<figure class="border">
+    									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
+    									</amp-img>
+    								</figure>
+    								<br>
+                    {% if item.comment %}
+    								<p>
+    									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
+    								</p>
+                    {% endif %}
 
+    							</div>
+    							{% endfor %}
+                </div>
+              </section>
 
-            <h2>Ratio Charts</h2>
+              <section>
+                
+                <h2>Fibs in a spreadsheet</h2>
 
-            <div class="strategy-content fibs-charts">
-							{% for item in page.ratios %}
-							<div>
-								<h3>Fib retracement for {{ item.market }}</h3>
-								<figure class="border">
-									<amp-img itemprop="image" src="{{ item.chart }}" alt="Altcoin Trading Fibs {{ item.market }}" layout="responsive" width="700px" height="360px">
-									</amp-img>
-								</figure>
-								<br>
-                {% if item.comment %}
-								<p>
-									<strong>{{ item.market }} Comment: </strong> {{ item.comment }}
-								</p>
-                {% endif %}
-
-							</div>
-							{% endfor %}
-            </div>
-
-            <h2>Fibs in a spreadsheet</h2>
-
-
+              </section>
 
             <section class="airtable-embed">
                 <amp-iframe
