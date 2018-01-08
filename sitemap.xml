@@ -11,44 +11,44 @@ navi:
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="http://www.altcointrading.net/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coupon-bitfinex-5egV78YtlC/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-bitfinex-5egv78ytlc/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitfinex-5egv78ytlc/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitfinex-5egv78ytlc/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitmex-iyqb44/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coupon-coinmama-fny3000/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-coinmama-fny3000/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coin/dash/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/dash/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/dash/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/dash/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coin/eth/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/eth/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/eth/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/eth/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coin/xmr/</loc>
-      <xhtml:link rel="alternate" hreflang="en-us" href="https://www.altcointrading.net/coin/xmr/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/xmr/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/xmr/"/>
     </url>
     {% for page in site.pages %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         {% if page.german %}
-        <xhtml:link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ page.url }}"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}"/>
         {% endif %}
     </url>
@@ -58,11 +58,24 @@ navi:
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
     </url>
     {% endunless %}{% endfor %}
+
+
     {% for page in site.strategy %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+        {% if page.cz or page.german %}
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}/"/>
+        {% endif %}
+        {% if page.cz %}
+        <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/strategie/{{ page.cz }}/"/>
+        {% endif %}
+        {% if page.german %}
+        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/strategie/{{ page.german }}/"/>
+        {% endif %}
     </url>
     {% endunless %}{% endfor %}
+
+
     {% for page in site.fibs %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
@@ -71,9 +84,14 @@ navi:
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
+        {% if post.german or post.cz %}
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ post.url }}/"/>
+        {% endif %}
         {% if post.german %}
-        <xhtml:link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ post.url }}"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}/"/>
+        {% endif %}
+        {% if post.cz %}
+        <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ post.cz }}/"/>
         {% endif %}
     </url>
     {% endfor %}

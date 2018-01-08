@@ -19,13 +19,15 @@ stories: false
 note: 'Feature'
 genres: Blog
 
+permalink: "/altcoinio"
 german: false
+cz: altcoinio
+
 tickers: false
 
 title: "Review of Altcoin.io: Launching early in 2018, pre-registration available now."
 description: "New exchange built on atomic swaps with Josh Olzsewicz on board. You can play with the atomic swaps on testnet now."
 
-permalink: "/altcoinio"
 image:
 - "/features/altcoinio.png"
 - "/features/swap1.png"

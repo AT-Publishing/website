@@ -120,7 +120,7 @@ layout: default-news
               </section>
 
               <section>
-                
+
                 <h2>Fibs in a spreadsheet</h2>
 
               </section>
@@ -157,9 +157,7 @@ layout: default-news
               <h2>Archive</h2>
 
               <ul>
-              {% loop_directory directory:fibs/archive iterator:image filter:*.png sort:descending %}
-                 <li><a target="_blank" href="/fibs/archive/{{ image }}.png">{{ image }}</a></li>
-              {% endloop_directory %}
+                 <li><a target="_blank" href="https://github.com/AT-Publishing/website/commits/master/_fibs/daily.md">Versioned history</a></li>
               </ul>
 
 

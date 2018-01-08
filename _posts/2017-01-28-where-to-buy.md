@@ -9,6 +9,7 @@ comments: false
 note: 'User Guide'
 
 german: 'kryptowahrung-kaufen/'
+cz: 'jak-koupit-kryptomeny'
 
 categories:
 - "exchanges"
