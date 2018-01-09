@@ -38,7 +38,7 @@ image_alt:
 categories: ["no-ico", "trading"]
 
 chart: []
-tags: ["crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
+tags: ["popular", "crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
 
 ---
 

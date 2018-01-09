@@ -23,7 +23,7 @@ categories:
 - exchanges
 image_alt:
 - Ripple is having an epic bull run at the end of 2017 that actually follows fibs real licely. Check for updates at altcointrading.net/fibs/daily
-tags: [updates, popular, feature, no-blockchain]
+tags: [updates, feature, no-blockchain]
 ---
 
 Ripple is pumping. Okay. It <a class="intern" href="/fibs/daily">follows fibs nicely</a> and the market is finally not as thin as it was at the bottom so if you are an active trader, this is a blessing.

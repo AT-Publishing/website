@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-10-12 19:12:00 +0700
-update: 2017-10-26 02:06:00 +0100
+update: 2018-01-09 10:06:00 +0100
 
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
@@ -19,7 +19,7 @@ german: false
 tickers: false
 
 title: "IOTA Snapshots"
-description: "IOTA snapshot is typically the culprit when you check your IOTA wallet and find zero balance. Here's what they are for and how to get rid of that zero balance glitch."
+description: "IOTA snapshot is typically the culprit when you check your IOTA wallet and find zero balance. Updated with the info about reused receiving addresses."
 
 permalink: "/iota-snapshots"
 image:
@@ -31,7 +31,7 @@ categories:
 - basics
 - coins
 chart: []
-tags: ["popular", "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
+tags: ["update", "popular", "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
 identifier: 'iota10122017'
 ---
 
@@ -81,3 +81,5 @@ Since the IOTA wallet release [v2.5.6 in December 2017](https://github.com/iotal
 6. If the attaching takes longer than 10 minutes you should change to another node.
 
 You can try attaching to tangle for as long as you want, eventually your balance will show up. If you skipped the previous part: Your IOTA coins are most likely not lost, the zero balance is just a result of the regular snapshots.
+
+If you have lost your balance and reattaching doesn't work, it might be a more serious issue. Check the receiving address your wallet generated in an IOTA explorer (thetangle.org or iotasear.ch) to see if there are any outgoing transactions. If there are some, it means the address was used for sending before and is not a safe receiving address. **Always check your address like this before you send in some new money to an address.** Apparently after snapshots the IOTA wallet sometimes generates addresses that had been used before, if there are outgoing transactions it will drain your IOTA. [Here's a thread on r/IOTA about the issue.](https://www.reddit.com/r/Iota/comments/7njjyy/here_is_what_i_learnt_after_losing_53_gi_to_a_hack/?utm_content=title&utm_medium=user&utm_source=reddit)
