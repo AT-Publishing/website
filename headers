@@ -13,3 +13,6 @@ navi:
 /posts.json
   Access-Control-Allow-Origin: *
   X-Frame-Options: ALLOW
+/fibs.json
+  Access-Control-Allow-Origin: *
+  X-Frame-Options: ALLOW
