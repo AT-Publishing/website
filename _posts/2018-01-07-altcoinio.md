@@ -6,7 +6,7 @@ published: true
 guest: false
 
 date: 2018-01-07 12:23:00 +0100
-update: 2018-01-07 12:23:00 +0100
+#update: 2018-01-07 12:23:00 +0100
 
 
 author: https://reddit.com/u/KarlVonBahnhof
