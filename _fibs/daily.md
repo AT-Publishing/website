@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-01-09 10:08:00 +0100
+update: 2018-01-10 10:01:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -17,17 +17,18 @@ name: "daily/"
 image: ["/features/fibs.jpeg"]
 
 dollars:
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "The bounce from the MA on the daily and wick to the .382 fib look convincing. It needs some time, bbands are still not pointing anywhere on the 1D (on 12H they go up) but this could be the end of the correction." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "As yesterday, ETH is the place to be today. The surge is too steep though, even if the next fib is around 1460 the trend could bounce down from the bband if it keeps going this fast." }
-- { market: "NEOUSD", chart: "/fibs/neousd.png", comment: "The daily candle on NEOUSD stopped pretty much on the fib around $124. Looking at the bbands it could carry on to around $140 but it would need more volume. If there's a local top here it would be a lower high relatively to the bbands and a sign to get out. " }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "Bitcoin broke down below the MA and keeps dumping. If there's not a bounce between 12.7k and 12.9k, 10k will be a real possibility." }
+- { market: "XRPUSD", chart: "/fibs/xrpusd.png", comment: "So the 3-something USD was the top for real. The 1.7 USD level doesn't look like holding, next potential bounce level would be at around 1.25 USD. Looks like this time the pumpcoin profits didn't flow to BTC though." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Despite all the bullish fundamentals ETH actually joined the blood on the streets today: what looked like a bull flag below a fib resistance broke down to previous breakout level around 1240 USD. There has been a good bounce though, and if the daily closes green the bias remains positive." }
+- { market: "IOTUSD", chart: "/fibs/iotusd.png", comment: "Consolidation broke down, although not too dramatically. " }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Yesterday's action was a convincing break up through the resistance. Next potential stop is at .087, after that .1 BTC." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Look at the bands! Rise to .1 BTC in one day yesterday was too much too fast. Even a dip to 0.08 and some consolidation would not be a place to panic." }
 ---
 
 
 > Relevant news for today
 
-* Two of the [new BTC ETF proposals were withdrawn](https://www.reddit.com/r/BitcoinMarkets/comments/7ovyjx/daily_discussion_monday_january_08_2018/dse67db/?context=3)
-* Coinmarketcap [removed Korean exchanges](https://www.reddit.com/r/BitcoinMarkets/comments/7p1mei/the_crypto_market_just_dropped_on_one_data/) from their scripts
-* Ethereum [gets a new scaling solution](https://twitter.com/ethereum_alex/status/950405374099603461)
-* [Binance re-enabled user signups](https://support.binance.com/hc/en-us/articles/115003834812-Binance-Re-opens-Limited-User-Registrations-and-Adjusts-Referral-Program-Terms) - [signup here](https://www.binance.com/?ref=15980293)
+* [5 alarming reasons Ripple might not be what you think](https://hackernoon.com/4-alarming-reasons-ripple-might-not-be-what-you-think-9debc3c86985) - for one, the coin does not have the same relationship to the Ripple company as for instance ETH to Ethereum.
+* [Block explorer declares BTC dead](https://blockexplorer.com/news/blockexplorer-support-bitcoin-cash-bitcoin-legacy/) and moves to call BTC "Bitcoin Legacy" and BCH "Bitcoin"
+* **[Bitfury de-anonymizes millions of bitcoin addresses](http://www.trustnodes.com/2018/01/09/bitfury-de-anonymises-millions-bitcoin-transactions-addresses)** - "It’s unclear whether that suggests they are working with law enforcement and if they are, which law enforcement that is. Two of the paper’s authors were funded by Bitfury while a third was funded by the Russian Science Foundation." ... "Crude ways around it are obfuscation methods whereby one makes a number of transactions for the sole purpose of de-linking the original identity to a specific address. In bitcoin, however, that is now very expensive, if at all possible, due to a very limited 1MB of data, which Bitfury campaigned to maintain perhaps in aid of their surveillance work." ... "Which spurred work on privacy for ethereum, while for bitcoin there hasn’t really been much movement with the project feeling stale at the protocol level."
+* [Update of the Electrum vulnerability](https://github.com/spesmilo/electrum-docs/blob/master/cve.rst) from its dev
