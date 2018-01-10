@@ -1,0 +1,13 @@
+---
+navi:
+ exclude: yes
+---
+{% assign isFirst = true %}
+[{% for post in site.fibs %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}
+  {
+     "title":"{{ post.title | escape  }}",
+     "update":"{{ post.update  | escape  }}",
+     "content":"{{ post.description | escape }}",
+     "url":"{{site.url}}{{ post.url | escape }}",
+     "img":"{{site.url}}{{ post.image[0] | escape }}"}
+     {% endfor %}]
