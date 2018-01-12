@@ -97,7 +97,9 @@ layout: default-news
               <p>{{ site.ledger_728-90_animated }}</p>
 
               <section id="btc-crypto-pairs">
+                {% if page.ratios %}
                 <h2>Ratio Charts</h2>
+                {% endif %}
 
                 <div class="strategy-content fibs-charts">
     							{% for item in page.ratios %}
