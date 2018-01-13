@@ -3,7 +3,7 @@ published: true
 guest: false
 
 date: 2017-12-20 12:16:00 +0100
-update: 2017-12-24 23:11:00 +0100
+update: 2017-01-13 09:11:00 +0100
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: KarlVonBahnhof
@@ -21,7 +21,7 @@ layout: forestry
 tickers: false
 
 title: "Bitfinex stopping user signups and referral program"
-description: "It is not possible to get 10% discount with a referral link, no new users to be accepted to the platform for the time being."
+description: "Bitfinex reopened user signups on January 12, 2018 and added a minimum equity requirement for new accounts."
 
 permalink: "/bitfinex-referrals-stopped"
 german: false
@@ -31,8 +31,18 @@ image_alt: ["Bitfinex closed user signups, going to be invitation only. Money im
 
 categories: ["exchanges"]
 chart: []
-tags: [ "bitfinex", "bitfinex-referral-link", "cryptocurrency-exchange", "exchange-issues"]
+tags: [ "popular", "update", "bitfinex", "bitfinex-referral-link", "cryptocurrency-exchange", "exchange-issues"]
 ---
+
+Update: Bitfinex reopened user signups on January 12, 2018 and added a minimum equity requirement for new accounts.
+
+> [...] to allow us to maintain focus on our core customer base, all accounts created after January 1st, 2018, will have a new activation equity requirement.
+
+> New accounts will need to deposit fiat or crypto to achieve minimum account equity of 10,000 USD equivalent before they can trade or offer funding. After reaching this minimum, an account becomes fully activated (Note that after this initial activation, account equity is allowed to drop below this activation threshold without consequence).
+
+> Existing accounts will not be affected by these changes. This change only affects new accounts.
+
+_____________________
 
 There has been a [discussion on /r/bitfinex](https://www.reddit.com/r/bitfinex/comments/7kzo4c/referral_link_ticket_answered_in_41_min_missing/) about new people not being able to get their referral link to become Bitfinex representatives.
 
