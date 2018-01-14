@@ -1,11 +1,11 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-01-12 12:41:00 +0100
+update: 2018-01-14 08:40:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
-description: "Current fib levels for selected markets on Bitfinex."
+description: "Current Fibonacci levels and comments for selected markets on Bitfinex."
 
 note: 'Technical Analysis'
 
@@ -17,18 +17,16 @@ name: "daily/"
 image: ["/features/fibs.jpeg"]
 
 dollars:
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "While bitcoin is still in the danger of panic selloff, the bottom wicks, bbands and bull divergences (not on this chart) are looking positive. The bad news is there is plenty of resistance right where it sits (the dotted lines) from old candle closes. On top of that, the weekend is coming where the volume is typically lower, but the sentiment seems to be there's plenty of cash on the sidelines ready to pull the trigger once the market shows some action in either direction." }
-- { market: "EOSUSD", chart: "/fibs/eosusd.png", comment: "EOS broke upwards out of the consolidation zone, which is bullish and targeting the next fibs for retracements (next one at cca 18USD). There could be a throwback to previous ATH before it continues to surge though." }
-- { market: "OMGUSD", chart: "/fibs/omgusd.png", comment: "OmiseGo had a surge through the previous ATH (21.5 USD) and stopped at the next fib (29.2 USD). Consolidation from there looks complete now, with throwback to the previous ATH." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "ETH is still finishing its bounce. Other than fibs, there will be some double top resistance and ETH could be making a consolidation range - which would mean one more drop down." }
-- { market: "BCHUSD", chart: "/fibs/bchusd.png", comment: "There have been some voices that BCH is nearing the end of its consolidation and there could be a surge soon. It is based more on news and social media rather than TA though." }
-
-#ratios:
-#- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "The surge to .1 BTC was indeed stopped by the bband. On the next push, there will be some resistance on the candle closes at .089 but the action depends on both ETHUSD and BTCUSD actions now." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "I think we can call it a failed bounce, all resistances get sold off." }
+- { market: "EOSUSD", chart: "/fibs/eosusd.png", comment: "There was this buy the rumor surge with the mysterious news (CEO of Bithumb joining block.one), usually that comes with a sell the news event afterwards." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Failing to blast through ATH resistance, it looks to form a range over the next days. We might see 12xx USD ETH, LT bullish." }
+ratios:
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Looking at daily and weekly the ETH ratio is looking bullish but the psychological .1 resistance is strong. It looks like ranging for a bit, there might be a good long entry soon." }
 ---
 
 
 > Relevant news for today
 
-* [Vitalik on the UnChained podcast](https://tunein.com/radio/Unchained-Big-Ideas-From-The-Worlds-Of-Blockchain-And-Fintech-p887100/)
-* [Cisco found vulnerabilities in Ethereum clients](https://hype.codes/cisco-found-many-vulnerabilities-ethereums-clients): "Processing of smart contracts with the operational code create2 can trigger a DoS attack. The implementation of create2 in the main network of Ethereum is planned within the second phase of the Metropolis' hardfork called Constantinople. This vulnerability currently threatens only those nodes that already use the create2 opcode. However, in potential, the Ethereum network can run the risk of concurrently attacking all nodes immediately after the implementation of the hardware, when create2 will enter the default settings list."
+* [The EOS news](https://www.reddit.com/r/eos/comments/7q4dsp/explaining_what_just_happened_you_need_to_read/): Among these is that block.one (the company behind EOS) has so far raised ~1.1 billion dollars from the token sale. Also, the CEO of Bithumb is joining block.one (good for Asian markets), and finally, that the first serious project on EOS, everipedia (a decentralized wikipedia by the co-founder of wikipedia), will be airdropping their tokens.
+* Ledger Nano S is working on [support for IOTA](https://codebuffet.co/2018/01/13/iota-on-the-ledger-nano-s-development-report-3/)
+* Bitcoin's LN is progressing, [here an explorer](https://explorer.acinq.co/#/)
