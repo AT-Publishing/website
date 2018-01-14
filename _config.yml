@@ -133,6 +133,14 @@ ref:
 
 # image ads
 ads:
+  iqcrypto728: '<div class="text-center" id="gtm-iqcrypto728-banner">
+  <a rel="nofollow" target="_blank" href="https://iqoption.com/land/crypto/en/eth.html?aff=88342&afftrack=atnet">
+  <amp-img itemprop="image" alt="IQOption Buy Ethereum"
+  src="/ads/iqoption_728x90.gif"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
   binance728: '<div class="text-center" id="gtm-binance-banner">
   <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
   <amp-img itemprop="image" alt="Binance cryptocurrency exchange"
