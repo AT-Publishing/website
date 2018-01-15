@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: page
 title: 5egV78YtlC 10% Fee Discount Coupon Bitfinex
 permalink: /coupon-bitfinex-5egv78ytlc/
@@ -22,9 +22,11 @@ ________________________
 
 #### About Bitfinex
 
-Bitfinex is a Hong Kong based exchange infamous for being hacked in August 2016. Despite the hack it still has a wide user base thanks to its superior trading interface.
+Bitfinex is a BVI-based exchange infamous for being hacked in August 2016. Despite the hack it still has a wide user base thanks to its superior trading interface.
 
-You can buy or trade BTC, LTC, ETH, ETC, ZEC, XMR and since March 2017 also DASH. There are both USD markets and pairs or altcoin/bitcoin.
+Bitfinex offers a wide range of markets denominated in BTC, ETH, USD and EUR. They allow Tether withdrawals but the merkets on Bitfinex trade against USD, not Tether.
+
+Since January 1st 2018, there is a minimum equity requirement for Bitfinex - to activate new accounts for trading, users have to deposit at least 10k USD to the exchange.
 
 The exchange is available worldwide. There is limitation on margin trade for Americans - however the exchange is still operational from American IP address. New users on US IP just have to state they are not American residents.
 
