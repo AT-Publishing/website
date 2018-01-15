@@ -122,6 +122,7 @@ markdown: kramdown
 
 # referral links
 ref:
+  kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
   binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
   bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
   ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a>&nbsp;'
@@ -133,6 +134,14 @@ ref:
 
 # image ads
 ads:
+  kucoin728: '<div class="text-center" id="gtm-kucoin728-banner">
+  <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">
+  <amp-img itemprop="image" alt="KuCoin cryptocurrency exchange"
+  src="/ads/kucoin_728x90.png"
+  layout="responsive"
+  data-original-width="728px" data-original-height="90px"
+  width="728px" height="90px"></amp-img>
+  </a></div><br>'
   iqcrypto728: '<div class="text-center" id="gtm-iqcrypto728-banner">
   <a rel="nofollow" target="_blank" href="https://iqoption.com/land/crypto/en/eth.html?aff=88342&afftrack=atnet">
   <amp-img itemprop="image" alt="IQOption Buy Ethereum"
