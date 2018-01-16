@@ -3,6 +3,7 @@ layout: page
 title: Upcoming Airdrops and Giveaways
 description: "For cryptocurrency holders or for as little as an early signup."
 permalink: /airdrops/
+date: 2018-01-16 17:07:00 +0100
 ---
 
 > Note: Never give away your private keys.
@@ -10,7 +11,18 @@ permalink: /airdrops/
 
 <p>{{site.ledger_728-90_animated}}</p>
 
-#### December 2017
+#### Upcoming Airdrops
+
+### 2018
+
+**ETC holders will receive Callisto tokens in March 2018**
+
+* [announcement](https://forum.ethereumclassic.org/t/january-dev-update-commonwealth/404/27)
+* [price tracking on tradingview](https://www.tradingview.com/chart/ETCUSDT/z8KYoRPJ-ETC-Hard-Fork-Air-Drop-coming-medium/)
+
+Callisto (CTO) is an off-chain solution to ETC scaling. All ETC holders who own their private keys will receive the CTO tokens. The fork will happen on block number 5500000 (approximately 5 March, 2018).
+
+#### January 2018
 
 {% include thismonth-airdrops.html %}
 
