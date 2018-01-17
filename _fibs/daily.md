@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-01-15 09:24:00 +0100
+update: 2018-01-17 12:21:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -17,10 +17,10 @@ name: "daily/"
 image: ["/features/fibs.jpeg"]
 
 dollars:
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "I think we can call it a failed bounce, all resistances get sold off. BTCUSD keeps hovering in the lower parts of the range." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "ETH went as low as 1255-ish and bounced but no new highs. Consolidation is not over." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "And we have seen four digit bitcoins today. BTCUSD is currently back in the old fib scheme, 7896 USD would be a good capitulation wick." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Retest of previous breakout level, time for some bounce - whether it will be sustained is another matter though." }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "The ratio keeps testing the .618 fib and eventually that resistance will probably be broken, but it might take a while." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "The ratio is the one market that is closest to bullish right now." }
 ---
 
 
