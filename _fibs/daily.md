@@ -26,6 +26,4 @@ ratios:
 
 > Relevant news for today
 
-* [P&D groups on business insider](http://uk.businessinsider.com/ico-cryptocurrency-pump-and-dump-telegram-2017-11), "Regulators will slowly move towards a solution"
-* [Kraken's update didn't work out as well as planned](https://www.reddit.com/r/BitcoinMarkets/comments/7qcp24/major_unresolved_bug_with_kraken_please_upvote/) - the exchange downtime exceeded all expectations and there are still bugs left
-* [The ETH blockchain processes about as much USD value as other blockchains combined](https://www.reddit.com/r/ethtrader/comments/7qcksi/the_ethereum_blockchain_now_processes_about_as/)
+* [Arb opportunities are suddenly gone, proper trading shops are probably in then](https://www.reddit.com/r/BitcoinMarkets/comments/7r2qib/this_meltdown_proves_one_thing_the_fat_arb/)
