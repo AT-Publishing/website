@@ -251,6 +251,11 @@ width="730px" height="275px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+affop:
+  # UK, ZA, AU, CA, FI, DE, SK, NL
+  system: '<div class="text-center" id="nous"><a rel="nofollow" target="_blank" href="http://affiliatepartnersltd.go2cloud.org/aff_c?offer_id=59&aff_id=1433&url_id=447"><amp-img itemprop="image" src="/ads/cryptosystem.png"
+  alt="Learn to trade cryptocurrencies" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+
 
 fucksense:
   aads728: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"

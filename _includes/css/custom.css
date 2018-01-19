@@ -432,3 +432,9 @@ a.updated-excerpt:hover{color:white}
  }
  #sidebar .strategy-overlay p {margin: 10px 0;}
 }
+
+
+
+/* HIDDEN */
+
+.hidden {display:none}
