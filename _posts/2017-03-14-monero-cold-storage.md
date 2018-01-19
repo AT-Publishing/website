@@ -5,6 +5,7 @@ title: "Monero Cold Storage: Current Situation"
 description: "The promises of upcoming Monero hardware wallets are for now just promises."
 categories:
 - "wallets"
+- "altcoins"
 - "xmr"
 permalink: monero-cold-storage-2017/
 image:
@@ -14,10 +15,9 @@ image:
 image_alt:
 - "The crowd wants it but there won't be an easy-to-use Monero cold storage any time soon even though this single product could make a new leader in the field of hardware wallets."
 
-#tags:
-#- "popular"
+tags: ["update"]
 
-update: 2017-06-18 18:18 -04:00
+update: 2017-01-19 20:18 +0100
 german: "monero-cold-storage-2017/"
 comments: false
 stories: true
@@ -36,7 +36,11 @@ ________________________
 {{ site.ads.aads728 }}
 
 
-Update June 2017: [Ledger CTO said they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero)
+**Updates**
+
+* For hot wallets, there is a new [iOS app - Cakewallet for Monero](/cakewallet/)
+* Coinomi is [nearly done with their Monero integration](https://twitter.com/kimionis/status/954112970338029570) (web, iOS, Android)
+* [Ledger CTO said they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero)
 
 
 <hr>
