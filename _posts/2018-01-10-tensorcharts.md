@@ -44,6 +44,13 @@ categories: ["no-ico", "trading"]
 chart: []
 tags: ["footprint-charts", "tensor-charts", "crypto-trading", "whale-watching", "altcoin-trading"]
 
+
+
+about:
+ name: "tensorcharts"
+ sameas: ["https://tensorcharts.com/", "https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g", "https://bitcointalk.org/index.php?topic=2542026.0"]
+
+
 ---
 
 The idea of [TensorCharts](https://tensorcharts.com/) is similar as the one behind [Footprint Charts](https://footprintchart.com/) - the charts that will let you "see inside the bars" as their slogan says. It's an advanced software tool particularly good for daytraders and scalpers, you can request a free demo [here](https://marketdelta.com/solutions/footprint-charts/).

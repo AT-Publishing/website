@@ -6,6 +6,7 @@
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% unless page.title %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net">{% endunless %}
 {% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
+{% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}">{% endif %}
 
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>

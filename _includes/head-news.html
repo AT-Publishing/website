@@ -5,6 +5,7 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
+{% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}/">{% endif %}
 
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -16,7 +17,7 @@
 <!-- robots  -->
 <meta name="robots" content="noodp,noydir" />
 <!-- opengraph -->
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{{ page.title | markdownify | strip_html | trim }}" />
 <meta property="og:description" content="{{ page.description | markdownify | strip_html | trim }}" />
@@ -46,12 +47,7 @@
 <meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@tradingfanbois{% endif %}" />
 
-<!-- custom resources -->
-<style amp-custom>
-  {% include css/normalize.min.css %}
-  {% include css/skeleton.min.css %}
-  {% include css/custom.css %}
-</style>
+
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
@@ -77,13 +73,25 @@
     "associatedArticle": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
     "caption": "{{ page.image_alt[0] }}"
   },
-  "datePublished": "{{ page.date }}",
-  "dateModified": "{{ page.update }} 00:00:00 +0100",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.update  }}",
+  "contentReferenceTime": "{{ page.update }}",
   "author": {
     "@type": "Person",
     "name": "{{ page.author_name }}",
     "contactPoint": "{{ page.author }}"
   },
+  {% if page.about %}
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.about.name }}",
+    "sameAs": [
+      {% for item in page.about.sameas %}
+      "{{ item }}",
+      {% endfor %}
+    ]
+  },
+  {% endif %}
    "publisher": {
     "@type": "Organization",
     "name": "AltcoinTrading.net",
@@ -102,4 +110,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
 
+
+<!-- custom resources -->
+<style amp-custom>
+  {% include css/normalize.min.css %}
+  {% include css/skeleton.min.css %}
+  {% include css/custom.css %}
+</style>
 </head>
