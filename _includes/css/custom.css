@@ -305,8 +305,7 @@ a.updated-excerpt:hover{color:white}
     text-transform: capitalize;
   }
   #altindexbox {
-    position: absolute;
-    top: 50px;
+    position: relative;
     right: 0;
   }
   #popular-posts h3 {

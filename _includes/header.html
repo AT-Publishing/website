@@ -3,17 +3,31 @@
 
     <div class="twelve columns stripe">
 
-      <div class="logo">
-        <amp-img itemprop="image" alt="{{ site.title }}"
-        src="{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
-        layout="responsive"
-        data-original-width="75px" data-original-height="90px"
-        width="75px" height="90px"></amp-img>
+      <div class="four columns pull-left" id="performancebox">
+        <amp-iframe
+          width=320 height=235px
+          layout="responsive"
+          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          src="https://data.altcointrading.net/compare/header.html">
+          <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+        </amp-iframe>
       </div>
-      <div class="textlogo">
-        <div class="hl"><a href="/">{{ site.title }}</a></div>
-        <small><em>{{ site.subtitle }}</em></small>
+
+      <div class="four columns">
+        <div class="logo">
+          <amp-img itemprop="image" alt="{{ site.title }}"
+          src="{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
+          layout="responsive"
+          data-original-width="75px" data-original-height="90px"
+          width="75px" height="90px"></amp-img>
+        </div>
+        <div class="textlogo">
+          <div class="hl"><a href="/">{{ site.title }}</a></div>
+          <small><em>{{ site.subtitle }}</em></small>
+        </div>
       </div>
+
+
       <div class="four columns pull-right" id="altindexbox">
           <amp-iframe
             width=300 height=90
