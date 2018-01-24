@@ -9,7 +9,9 @@ date: 2018-01-19 19:56:00 +0100
 author: "news@altcointrading.net"
 author_name: GenericShill
 
-comments: false
+comments: true
+identifier: 'cakewalletjan18'
+
 stories: true
 #note: 'Feature'
 genres: Blog
