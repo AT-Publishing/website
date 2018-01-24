@@ -50,7 +50,8 @@ This post will be updated later with new information.
 
 #### Updates
 
-The free preview can be found [here](http://archive.is/F5fo8).
+* The free preview can be found [here](http://archive.is/F5fo8)
+* Full report in PDF at  [wcy.weissratings.com/media](https://wcy.weissratings.com/media/wri/PDF/WCY/Weiss-Cryptocurrency-Ratings.pdf)
 
 BTC: C+ "fair but full blocks&trade;"
 
