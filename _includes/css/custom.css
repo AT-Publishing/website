@@ -47,6 +47,10 @@ h1.post-main {
     padding: 3rem;
     font-size: 4rem;
 }
+.maincontent h5.category-post {
+  border-right: 5px solid #7A838D;
+  border-left: none;
+}
 
 .google-news-tag {
   display: block;
@@ -79,6 +83,7 @@ h1.post-main {
     color: #fff;
 }
 
+input, select, textarea {width: 100%}
 
 .relative{position: relative;}
 
@@ -434,6 +439,8 @@ a.updated-excerpt:hover{color:white}
 }
 
 
+.securitycontent img {max-width: 100%}
+.securitycontent article ul > li > a {text-decoration: underline}
 
 /* HIDDEN */
 

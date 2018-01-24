@@ -8,6 +8,7 @@ tags: ['update', 'popular', 'where-to-buy-crypto', 'crypto-exchanges', 'how-to',
 comments: false
 note: 'User Guide'
 
+permalink: how-to-buy-altcoins/
 german: 'kryptowahrung-kaufen/'
 cz: 'jak-koupit-kryptomeny'
 
@@ -21,7 +22,6 @@ categories:
 title: "Back to Basics: How to buy altcoins"
 description: "They say you need bitcoin to get altcoins but the fiat to alt markets are slowly appearing on previously bitcoin-only exchanges. For the <strike>gambling</strike> trading you need the liquidity of Alt/BTC pairs though."
 
-permalink: how-to-buy-altcoins/
 image:
 - "/editorial/flying.jpg"
 image_alt:
@@ -97,7 +97,7 @@ Some people don't trust Bitfinex because their parent company is involved with T
 * Margin trading and margin funding is enabled and working mostly OK but if you check what you're paid you will find the occasional cockup
 * Cryptocurrency deposits get cranky often, especially with ETH and IOTA. That is not entirely fault of Bitfinex but it is annoying because you might not be able to get hold of a customer support rep. Watch out for <a class="intern" href="/bitifinex-eats-your-eth">PSAs like sending ETH from Bitstamp</a>
 
-**Bottom Line:** To buy from Bitfinex for fiat, you'll need to verify and perhaps check with customer support for your options. If you get the chance to do the business though, you will get your cryptocurrency from the most liquid market or even fairly easily via their OTC desk. You will definitely pay less on fees than on other exchanges. [Bitfinex was hacked in Aug 2016](https://en.wikipedia.org/wiki/Bitfinex_hack) but if you are willing to keep money on [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) only for the duration of your trade you are reasonably safe using them.
+**Bottom Line:** To buy from Bitfinex for fiat, you'll need to verify and perhaps check with customer support for your options. If you get the chance to do the business though, you will get your cryptocurrency from the most liquid market or even fairly easily via their OTC desk. You will definitely pay less on fees than on other exchanges. Bitfinex was [hacked in Aug 2016](https://en.wikipedia.org/wiki/Bitfinex_hack) but if you are willing to keep money on [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) only for the duration of your trade you are reasonably safe using them.
 
 {{ site.ads.aads728 }}
 

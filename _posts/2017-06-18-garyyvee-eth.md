@@ -29,7 +29,6 @@ Entrepreneur and influencer Gary Vaynerchuk on Ethereum:
 [On Youtube](https://youtu.be/mkR4-ZDAWcI)
 
 
-<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <amp-youtube data-videoid="mkR4-ZDAWcI" layout="responsive" width="700" height="360"></amp-youtube>
 
 <hr>
@@ -39,7 +38,6 @@ There is [another version on Facebook in the Ethereum group](https://www.faceboo
 
 Here is a [screencast of the missing part](http://www.dailymotion.com/video/x5r4p9h) from the private video from Facebook:
 
-<script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
 <amp-dailymotion data-videoid="x5r4p9h" layout="responsive" width="700" height="360"></amp-dailymotion>
 
 <hr>

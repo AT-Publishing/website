@@ -25,8 +25,6 @@ tags: []
 
 Tezos Foundation just sent out an email detailing the eagerly awaited ICO.
 
-![](https://image.prntscr.com/image/XujkhUErQmCyI-hpq7qM2A.png)
-
 ### Text of the email:
 
 **Tezos Fundraiser scheduled for July 1**

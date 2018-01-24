@@ -61,10 +61,7 @@ Ledger calls the automatic process *“half custodian” process*: They will tai
 
 Ledger will provide further details closer to the fork.
 
-**If you don't own a [Ledger Nano S](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s), you probably won't get one before the 2x fork if you order now. You can still [order one here (currently in stock)](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s), chances are this is not the last Bitcoin fork.**
-
-{{ site.ledger_728-90_animated }}
-
+**If you don't own a [Ledger Nano S](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s), you probably won't get one before the 2x fork if you order now. You can still [order one here (next re-stocking in March 2018)](https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s), chances are this is not the last Bitcoin fork.**
 
 ## Trezor Wallet and SegWit2x
 

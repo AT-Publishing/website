@@ -16,6 +16,7 @@ description: It looks like Slush & Co. don't want to miss out after the Ledger p
 permalink: "/trezor-monero"
 image:
 - "/img/bitfinex/gox.png"
+- "/uploads/2017/06/28/slush-monero.jpg"
 image_alt:
 - According to a steemit article, there would be a bounty.
 categories:
@@ -33,7 +34,8 @@ In mid June 2017 the [CTO of Ledger wallet said on Reddit they would implement M
 
 Apparently, Slush of Satoshi Labs (the company behind Trezor wallet) is probably not willing to be left behind:
 
-![](/uploads/2017/06/28/slush-monero.jpg)
+{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+
 
 [Link to tweet](https://twitter.com/slushcz/status/783654392071323649)
 

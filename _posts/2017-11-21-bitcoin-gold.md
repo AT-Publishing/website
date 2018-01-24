@@ -63,7 +63,6 @@ You can sell BTG on [Bittrex](https://bittrex.com), [Bitfinex](https://www.bitfi
 
 #### STORAGE
 
-{{ site.ledger_728-90_animated }}
 
 
 **Trezor**

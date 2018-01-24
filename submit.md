@@ -16,10 +16,6 @@ Use the following form if you want to submit a news idea or source, if you are m
 
 If the form below doesn't work, shoot your email to `jmt@altcointrading.net`. You can also talk to us on [Telegram](https://t.me/altcointrading_net).
 
-<style>
-input, select, textarea {width: 100%}
-</style>
-
 <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 
 

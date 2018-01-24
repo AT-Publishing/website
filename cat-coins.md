@@ -26,7 +26,7 @@ permalink: /category/altcoins/
 </div>
 {% endif %}
   <div class="seven columns">
-    <h5 class="post">
+    <h5 class="category-post post">
       <strong>
         {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
         {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
@@ -75,7 +75,7 @@ permalink: /category/altcoins/
   </div>
   {% endif %}
   <div class="seven columns">
-    <h5 class="post">
+    <h5 class="category-post post">
       <strong>
         {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
         {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
@@ -98,10 +98,3 @@ permalink: /category/altcoins/
 
 {% endif %}
 {% endfor %}
-
-<style>
-.maincontent h5.post {
-  border-right: 5px solid #7A838D;
-  border-left: none;
-}
-</style>

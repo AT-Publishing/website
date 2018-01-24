@@ -47,7 +47,6 @@ Ripple cannot be mined. Transactions get validated via consensus mechanism where
 
 [https://youtu.be/i6mhQcpPtyk](https://youtu.be/i6mhQcpPtyk)
 
-<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <amp-youtube data-videoid="i6mhQcpPtyk" layout="responsive" width="700" height="360"></amp-youtube>
 
 &nbsp;

@@ -136,7 +136,7 @@ ref:
 ads:
   kucoin728: '<div class="text-center" id="gtm-kucoin728-banner">
   <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">
-  <amp-img itemprop="image" alt="KuCoin cryptocurrency exchange"
+  <amp-img itemprop="image" alt="KuCoin-cryptocurrency exchange"
   src="/ads/kucoin_728x90.png"
   layout="responsive"
   data-original-width="728px" data-original-height="90px"
@@ -144,7 +144,7 @@ ads:
   </a></div><br>'
   iqcrypto728: '<div class="text-center" id="gtm-iqcrypto728-banner">
   <a rel="nofollow" target="_blank" href="https://iqoption.com/land/crypto/en/eth.html?aff=88342&afftrack=atnet">
-  <amp-img itemprop="image" alt="IQOption Buy Ethereum"
+  <amp-img itemprop="image" alt="IQOption-Buy Ethereum"
   src="/ads/iqoption_728x90.gif"
   layout="responsive"
   data-original-width="728px" data-original-height="90px"
@@ -152,7 +152,7 @@ ads:
   </a></div><br>'
   binance728: '<div class="text-center" id="gtm-binance-banner">
   <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
-  <amp-img itemprop="image" alt="Binance cryptocurrency exchange"
+  <amp-img itemprop="image" alt="Binance-cryptocurrency exchange"
   src="/ads/binance-exchange-728x90.jpg"
   layout="responsive"
   data-original-width="728px" data-original-height="90px"
@@ -160,7 +160,7 @@ ads:
   </a></div><br>'
   ledger: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
-  <amp-img itemprop="image" alt="Ledger Wallet protects your bitcoins"
+  <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
   src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
   layout="responsive"
   data-original-width="468px" data-original-height="90px"
@@ -168,7 +168,7 @@ ads:
   </a></div>'
   ledger-thin: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
-  <amp-img itemprop="image" alt="Ledger Wallet protects your bitcoins"
+  <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
   src="/img/wallets/ledger-hero.png"
   layout="responsive"
   data-original-width="710px" data-original-height="60px"
@@ -178,21 +178,21 @@ ads:
   <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
   <amp-img itemprop="image"
   src="/img/wallets/trezor.jpg"
-  alt="Trezor Altcoins - Trezor is Hardware wallet for bitcoin and altcoins" data-original-width="728px"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
   data-original-height="90px" layout="responsive" width="728px" height="90px">
   </amp-img></a></div>'
   trezorbox: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
   <amp-img itemprop="image"
   src="/img/wallets/trezor-altcoins.jpg"
-  alt="Trezor Altcoins - Trezor is Hardware wallet for bitcoin and altcoins" data-original-width="350px"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="350px"
   data-original-height="320px" layout="responsive" width="350px" height="320px">
   </amp-img></a></div>'
   trezorlong: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
   <amp-img itemprop="image"
   src="/img/wallets/trezor-altcoins-long.jpg"
-  alt="Trezor Wallet for bitcoins and altcoins" data-original-width="728px"
+  alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
   data-original-height="90px" layout="responsive" width="728px" height="90px">
   </amp-img></a></div>'
   pm1: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
@@ -215,8 +215,8 @@ ads:
     src="https://ad.a-ads.com/147074?size=336x280"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
-ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledger wallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
-ledger_728-90_animated: '<div class="containter-center"><a  id="gtm-ledger-728-90" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledger wallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 
 forkit: '<div class="containter-center"><a href="https://forkit.info" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/features/forkit-info.png" alt="Bitcoin Forks Info" data-original-width="516px" data-original-height="474px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
 
