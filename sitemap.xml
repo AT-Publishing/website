@@ -11,9 +11,9 @@ navi:
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/"/>
-      <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/"/>
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
+      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net"/>
+      <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coupon-kucoin/</loc>
@@ -68,7 +68,7 @@ navi:
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
         {% if page.cz or page.german %}
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
         {% endif %}
         {% if page.cz %}
         <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/strategie/{{ page.cz }}/"/>
@@ -89,7 +89,7 @@ navi:
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
         {% if post.german or post.cz %}
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ post.url }}/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ post.url }}"/>
         {% endif %}
         {% if post.german %}
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}/"/>
