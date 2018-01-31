@@ -5,6 +5,8 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% unless page.title %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net">{% endunless %}
+{% unless page.title %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz">{% endunless %}
+
 {% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
 {% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}">{% endif %}
 
@@ -12,15 +14,23 @@
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="altcoin trading, altcoin wallet, altcoin exchanges">
-<meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+<meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, cryptocurrency exchanges">
+<meta name="author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<!-- custom resources -->
-<style amp-custom>
-  {% include css/normalize.min.css %}
-  {% include css/skeleton.min.css %}
-  {% include css/custom.css %}
-</style>
+
+<!-- opengraph -->
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{% if page.title %}{{ page.title | markdownify | strip_html | trim }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+<meta property="og:site_name" content="{{ site.title | markdownify | strip_html | strip_newlines | trim }}" />
+<meta property="og:updated_time" content="{% if page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+<meta property="og:image" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{ site.url }}{{ site.baseurl }}/editorial/fork.jpg{% endif %}" />
+<meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/fork.jpg{% endif %}" />
+<meta property="og:image:width" content="700" />
+<meta property="og:image:height" content="360" />
+
 <!--AMP-->
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <!--<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>-->
@@ -32,10 +42,19 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "WebPage",
-  "mainEntityOfPage": "https://www.altcointrading.net/",
+  {% unless page.title %}
+  "@type": "WebSite",
+  "@id":"#website",
+  "url":"{{ site.url }}{{ site.baseurl}}"
+  {% else %}
+  "@type": "BlogPosting",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+  },
+  "headline": "{{ page.title }}",
+  {% endunless %}
   "name": "AltcoinTrading.net",
-  "contentRating": "Mature",
   "author": {
     "@type": "Organization",
     "name": "AltcoinTrading.net",
@@ -64,4 +83,10 @@
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i' rel='stylesheet'>
 
 
+<!-- custom resources -->
+<style amp-custom>
+  {% include css/normalize.min.css %}
+  {% include css/skeleton.min.css %}
+  {% include css/custom.css %}
+</style>
 </head>

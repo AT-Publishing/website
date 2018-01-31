@@ -11,38 +11,39 @@
 
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="altcoin trading, altcoin wallet, altcoin exchanges, altcoin trader">
+<meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, altcoin wallet, altcoin exchanges, altcoin trader">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- robots  -->
 <meta name="robots" content="noodp,noydir" />
 <!-- opengraph -->
+<!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{{ page.title | markdownify | strip_html | trim }}" />
-<meta property="og:description" content="{{ page.description | markdownify | strip_html | trim }}" />
+<meta property="og:title" content="{% if page.title %}AltcoinTrading.net: {{ page.title | markdownify | strip_html | trim | strip_newlines }}{% else %}{{ site.title | strip_html | strip_newlines  }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:site_name" content="{{ site.title | markdownify | strip_html | trim }}" />
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
+<meta property="og:site_name" content="{{ site.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta property="og:updated_time" content="{% if page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+<meta property="og:image" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}/editorial/fork.jpg{% endif %}" />
+<meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/fork.jpg{% endif %}" />
 <meta property="og:image:width" content="700" />
 <meta property="og:image:height" content="360" />
 <!-- article -->
-<meta property="article:publisher" content="AltcoinTrading.net" />
-<meta property="article:author" content="{% if page.author_name %}{{ page.author_name }}{% else %}AltcoinTrading.net{% endif %}" />
-{% if page.date %}<meta property="article:published_time" content="{{ page.date }}" />{% endif %}
-{% if page.update %}<meta property="article:modified_time" content="{{ page.update }}" />{% endif %}
+<meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
+<meta property="article:author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}" />
+{% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
+<meta property="article:modified_time" content="{% if page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
 <!-- post tags -->
-{% if page.tags[0] %}{% for tag in page.tags %}
-<meta property="article:tag" content="{{ tag }}" />{% endfor %}{% endif %}
+{% if page.tags[0] %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}" />{% endfor %}{% endif %}
 <!-- post categories -->
-{% if page.categories[0] %}{% for cat in page.categories %}
-<meta property="article:section" content="{{ cat }}" />{% endfor %}{% endif %}
+{% if page.categories[0] %}{% for cat in page.categories %}{% if cat contains "trading" %}<meta property="article:section" content="Cryptocurrency Trading" />{% elsif cat contains "coins" %}<meta property="article:section" content="New Cryptocurrencies" />{% elsif cat contains "exchanges" %}<meta property="article:section" content="Cryptocurrency Exchanges" />{% elsif cat contains "wallets" %}<meta property="article:section" content="Cryptocurrency Wallets" />{% else %}<meta property="article:section" content="Cryptocurrencies" />{% endif %}{% endfor %}{% endif %}
 
 <!-- twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:description" content="{{ page.title | markdownify | strip_html | trim }}" />
-<meta name="twitter:title" content="{{ page.description | markdownify | strip_html | trim }}" />
-<meta name="twitter:site" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@tradingfanbois" />
+<meta name="twitter:title" content="AltcoinTrading.net: {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
 <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@tradingfanbois{% endif %}" />
@@ -58,7 +59,7 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "NewsArticle",
+  "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
     "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
@@ -73,8 +74,8 @@
     "caption": "{{ page.image_alt[0] }}"
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.update  }}",
-  "contentReferenceTime": "{{ page.update }}",
+  "dateModified": "{% if page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "contentReferenceTime": "{% if page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "author": {
     "@type": "Person",
     "name": "{{ page.author_name }}",
