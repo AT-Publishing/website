@@ -441,6 +441,8 @@ a.updated-excerpt:hover{color:white}
 .securitycontent img {max-width: 100%}
 .securitycontent article ul > li > a {text-decoration: underline}
 
+img {max-width: 100%}
+
 /* HIDDEN */
 
 .hidden {display:none}

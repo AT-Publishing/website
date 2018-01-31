@@ -33,6 +33,12 @@ categories:
 chart: []
 tags: ["popular", "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
 identifier: 'iota10122017'
+
+
+about:
+ name: "iota snapshots"
+ sameas: ["https://forum.helloiota.com/4659/How-do-I-prepare-for-a-snapshot", "https://steemit.com/technology/@steemhoops99/iota-snapshot-what-is-it"]
+
 ---
 
 <em>For a guide to securing your IOTA storage <a class="intern" href="/security/iota">go to the Security section</a>.</em>

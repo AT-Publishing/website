@@ -29,6 +29,12 @@ image_alt: ["This is your captain speaking: There is absolutely no cause for ala
 categories: ["trading", "coins"]
 chart: []
 tags: [ "bitfinex", "tether", "USDT", "ifinex", "hack", "omni"]
+
+
+about:
+ name: "tether"
+ sameas: ["https://tether.to/", "https://en.wikipedia.org/wiki/Tether_(cryptocurrency)"]
+
 ---
 
 Tether has issued an emergency notice stating that more than 30 millions of newly generated tethers have been stolen by an unknown malicious hacker.

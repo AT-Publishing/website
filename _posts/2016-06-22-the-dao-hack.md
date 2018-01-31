@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "All about the DAO hack"
-description: "A sum up of what is going on with DAO's and ETH"
+description: "A summary of what is going on with DAO's and ETH"
 category: "trading"
 permalink: dao-hack/
 image:
@@ -13,6 +13,12 @@ image:
 image_alt:
 - "DAOs have a critical vulnerability that can probably be removed only by a hard fork."
 update: 2016-06-23
+
+
+about:
+ name: "the dao"
+ sameas: ["https://en.wikipedia.org/wiki/The_DAO_(organization)", "https://www.coindesk.com/understanding-dao-hack-journalists/"]
+
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
@@ -59,7 +65,7 @@ This attempt to shake off the hacker failed. Since the whitehat DAOs needed capi
 
 <div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-created="2016-06-22T19:18:28.549Z"><a href="https://www.reddit.com/r/ethereum/comments/4p9z93/it_seems_attacker_just_targeted_the_whitehatdaos/d4j7ldn">Comment</a> from discussion <a href="https://www.reddit.com/r/ethereum/comments/4p9z93/it_seems_attacker_just_targeted_the_whitehatdaos/">It seems attacker just targeted the WhiteHatDAOs</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
 
-Meanwhile, a Cornell professor found 10 other vulnerabilities in DAO and calls for a DAO 2.0 movement. 
+Meanwhile, a Cornell professor found 10 other vulnerabilities in DAO and calls for a DAO 2.0 movement.
 
 * [Cornell Professor Calls for 'DAO 2.0' Movement, coindesk.com](http://www.coindesk.com/cornell-prof-discovered-dao-vulnerability-reveals-10-exploits/)
 

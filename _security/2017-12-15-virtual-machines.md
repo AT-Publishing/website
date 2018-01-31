@@ -147,9 +147,3 @@ When you have the app you setup a new wallet like you normally would and backup 
 And that is it. If something happens to your laptop or to the VirtualBox you will have access to your coins if you backed up your seed on that paper, like said before. If you want to save yourself the hassle of going through this neckbeard hell again you can backup the entire machine as well so that you'll be able to import it into another VirtualBox installation with just a couple of clicks.
 
 The cryptocurrency wallets will synchronize when you launch them so there's no need to do the backup regularly. You really just need to do it once after your wallet(s) have been set up. [Here is a tutorial for the backup if you're up for it](https://www.howtogeek.com/howto/36870/how-to-backup-and-move-virtualbox-machines/) - it is not an easy piece of cake though, being you I'd be pretty happy with the pencil and paper solution.
-
-<style>
-
-img {max-width: 100%}
-article ul > li > a {text-decoration: underline}
-</style>

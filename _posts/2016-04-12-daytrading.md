@@ -10,6 +10,12 @@ image_alt:
 - "XMRBTC Chart - Cryptowat.ch"
 update: 2017-03-11
 comments: true
+
+
+about:
+ name: "daytrading"
+ sameas: ["https://en.wikipedia.org/wiki/Day_trading", "https://www.thebalance.com/day-trading-4074032"] 
+
 ---
 
 

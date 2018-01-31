@@ -20,6 +20,11 @@ image:
 categories:
 - eth
 
+
+about:
+ name: "gary vaynerchuk"
+ sameas: ["https://www.garyvaynerchuk.com/", "https://en.wikipedia.org/wiki/Gary_Vaynerchuk", "https://www.youtube.com/channel/UCctXZhXmG-kf3tlIXgVZUlw"]
+
 ---
 
 Entrepreneur and influencer Gary Vaynerchuk on Ethereum:

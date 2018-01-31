@@ -32,6 +32,11 @@ image_alt: ["Careful, it's a long session of British English. Coffee image from 
 categories: ["exchanges", "trading"]
 chart: []
 tags: [ 'update', "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+
+about:
+ name: "bitfinex"
+ sameas: ["https://www.bitfinex.com/", "https://en.wikipedia.org/wiki/Bitfinex", "https://twitter.com/bitfinex"]
+
 ---
 
 On December 3rd, ChrisJ who works for Bitfinex talked on Whalepool TS about <a class="intern" href="/bitfinex-banking">Bfx transparency</a> issues, the <a class="intern" href="/tether-hack">recent Tether hack</a> and more.
@@ -72,13 +77,3 @@ On the 19th November about 30.9 million USDT sent from Tether single-sig hot wal
 * Since the stolen Tethers were frozen, there can be a wild unfounded speculation that the hack was either a test or a stunt to make Tether look bad, [38:33](https://youtu.be/Z8k5ne-iFP0?t=38m33s).
 * [39:13](https://youtu.be/Z8k5ne-iFP0?t=39m13s) There are security updates for Tether underway.
 * ChrisJ calls for allowing the benefit of the doubt. [44:18](https://youtu.be/Z8k5ne-iFP0?t=44m18s)
-
-
-
-<style>
-
-.maincontent ul li a {
-  border-bottom: 4px solid #03203f5c;
-}
-
-</style>

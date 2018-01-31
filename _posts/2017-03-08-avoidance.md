@@ -20,6 +20,12 @@ comments: false
 note: 'Trading Strategy'
 tags: ['strategy']
 
+
+about:
+ name: "wyckoff avoidance"
+ sameas: ["stockcharts.com/articles/wyckoff/2017/02/avoidance-strategy.html", "www.wyckoffanalytics.com/wyckoff-power-charting-blog/"]
+
+
 ---
 
 {{ site.tv_728-90_animated }}

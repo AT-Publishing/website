@@ -30,6 +30,12 @@ image_alt: ["Free Lunch via Pexels"]
 categories: ["trading", "coins"]
 chart: []
 tags: [ "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
+
+
+about:
+ name: "bitcoin gold"
+ sameas: ["https://bitcoingold.org/", "https://en.wikipedia.org/wiki/Bitcoin_Gold", "https://www.tradingview.com/symbols/BTGUSD/"]
+
 ---
 
 Bitcoin Gold is one of the recent bitcoin forks. Their official website moved from btcgpu.org to bitcoingold.org and the dev team is so secret that it allows for the wildest conspiracy fantasies.

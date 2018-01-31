@@ -32,6 +32,11 @@ categories: ["basics", "news"]
 tags: ["blockstream", "lightning-network", "bitcoin-scaling", "micropayments", "ln"]
 chart: []
 
+
+about:
+ name: "lightning charge"
+ sameas: ["https://blockstream.com/2018/01/16/lightning-charge.html", "https://lightning.network/"]
+
 ---
 
 On January 16th, first implementation of Lightning Network went on the mainnet. LN is the Bitcoin's off-chain scaling solution, analogous project with Ethereum's Raiden.

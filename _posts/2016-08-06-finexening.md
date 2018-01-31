@@ -19,7 +19,7 @@ genres: 'UserGenerated'
 
 ---
 
-> One of the largest cryptocurrency exchanges by volume, [Bitfinex, was hacked in August 2016](https://en.wikipedia.org/wiki/Bitfinex_hack). They suffered a substantial monetary loss of 72 million USD in cryptocurrencies (based on exchange rates from August 2016) that was eventually returned to traders in form of redemption tokens, or RRT. Before that happened, users got a "haircut" -- a socialized loss of 36% regardless of whether their assets were affected.  
+> One of the largest cryptocurrency exchanges by volume, Bitfinex, was [hacked in August 2016](https://en.wikipedia.org/wiki/Bitfinex_hack). They suffered a substantial monetary loss of 72 million USD in cryptocurrencies (based on exchange rates from August 2016) that was eventually returned to traders in form of redemption tokens, or RRT. Before that happened, users got a "haircut" -- a socialized loss of 36% regardless of whether their assets were affected.  
 
 > RRT is a token issued on the Omni platform to makeup for the USD value of the loss that was tradeable and eventually was paid for to the USD value of the user losses. This was a unique solution and some people who traded the token actively made good profits on it.
 

@@ -31,6 +31,12 @@ tags: ['update']
 note: 'User Guide'
 
 comments: false
+
+
+about:
+ name: "cryptocurrency exchange"
+ sameas: ["https://en.wikipedia.org/wiki/Cryptocurrency_exchange", "https://cryptocoincharts.info/markets/info"]
+
 ---
 
 {{ site.tv_728-90_animated }}
