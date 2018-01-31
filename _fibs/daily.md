@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-01-25 23:21:00 +0100
+update: 2018-01-31 02:41:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
@@ -17,15 +17,13 @@ name: "daily/"
 image: ["/features/chop.jpeg"]
 
 dollars:
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "On ETHUSD 3H the downtrend line was broken yesterday, completed with a throwback." }
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "BTCUSD is looking more undecided than ETHUSD." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "The decision wasn't reached yet on ETHUSD - looking fairly neutral. Either it will bounce around 1k or there will be a reversal and possible deeper correction to around 700 USD." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "It looked quite bullish lately with BTC, with the symmetric triangle broken upwards and then doing what seemed to be a throwback to the triangle. The bears are stronger on BTCUSD today, though. With the drop today, the high-vol support box is in play again." }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "ETH is stronger than BTC at the moment the ratio of ETHBTC is again bullish-looking, likely to break upwards." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Bullish break on ETHBTC." }
 ---
 
 
 > Cryptocurrency Price Action Comments
 
-* [RobinHood to launch BTC and ETH trading](https://www.cnbc.com/2018/01/25/stock-trading-app-robinhood-to-roll-out-bitcoin-ethereum-trading.html)
-* New coins added to Ethfinex yesterday: REP, SNGLS, RLC, TRX, RCN, AID & ELF, all tradable against ETH & USDT
-* [LN node number increases](https://www.reddit.com/r/Bitcoin/comments/7sv7xv/mainnet_lightning_network_has_reached_200_nodes/)
+* [Read the post about the Tether subpoena](/tether-subpoena) and follow the links there
