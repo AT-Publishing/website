@@ -22,14 +22,65 @@ date: 2018-01-16 17:07:00 +0100
 
 Callisto (CTO) is an off-chain solution to ETC scaling. All ETC holders who own their private keys will receive the CTO tokens. The fork will happen on block number 5500000 (approximately 5 March, 2018).
 
-#### January 2018
+#### February 2018
 
 {% include thismonth-airdrops.html %}
+
+
 
 ### Past Airdrops
 
 * There will be no more Stellar Lumen distributions to BTC or XRP holders.
 * There will be no more OMG distributions to ETH holders.
+
+
+#### January 2018
+
+<table class="airdrops">
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>How to access</th>
+    <th>Official URL</th>
+    <th>Additional Info</th>
+  </tr>
+
+  <tr>
+    <td>ELF</td>
+    <td>Dec 31 - launch Jan 1 2018</td>
+    <td>ELF tokens will be granted to people who are in ELF Telegram and update their Twitter account. ELF trades on Binance.</td>
+    <td><a rel="nofollow" target="_blank" href="http://aelf.io/?utm_source=altcointradingnet">http://aelf.io/</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2629781.msg26760309#msg26760309">Airdrop info</a></td>
+  </tr>
+
+
+  <tr>
+    <td>NEX</td>
+    <td>Jan 1 2018, 4:00 GMT -5</td>
+    <td>Novex ERC20 tokens will be given to people who follow Novex Twiter and Telegram accounts.</td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=1498460">bitcointalk profile</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2654389.0?utm_source=altcointradingnet">Airdrop info</a></td>
+  </tr>
+
+  <tr>
+    <td>SEM</td>
+    <td>Before 25 Feb 2018, claims processed every Sun</td>
+    <td>Airdrop against BTC balances at block height 480000. 1 BTC = 20 SEM. You need to sign your Semux address with your Bitcoin wallet and submit the signature to https://goo.gl/forms/tXh3Gd8Z6LddBw6H2. You also need a SEM address, wallets are <a rel="nofollow" href="https://github.com/semuxproject/semux/releases">on Github</a>.</td>
+    <td><a rel="nofollow" target="_blank" href="https://www.semux.org/">semux.org</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2159012.0?utm_source=altcointradingnet">Bitcointalk</a></td>
+  </tr>
+
+  <tr>
+    <td>Bitcore</td>
+    <td>Nov 2 but claiming is still open</td>
+    <td>It involves sharing your private key so do it securely.</td>
+    <td><a rel="nofollow" target="_blank" href="https://bitcore.cc/?utm_source=altcointradingnet">https://bitcore.cc/</a></td>
+    <td><a rel="nofollow" target="_blank" href="https://steemit.com/crypto-news/@xwerk/bitcore-btx-guide-the-2nd-snapshot-for-btc-hodlers-free-btx-or-how-it-works?utm_source=altcointradingnet">Steemit Guide on claiming</a></td>
+  </tr>
+
+
+</table>
+
 
 #### December 2017 Crypto Airdrops
 
