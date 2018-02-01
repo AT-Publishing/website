@@ -71,7 +71,7 @@ Week after the report, on January 31st, Weiss Ratings sent out a newsletter decl
 
 > Crashes of 10% or more in a single day are not uncommon. They happen pretty frequently, actually. [...] That's why most bitcoin lovers are  long-term buy-and-hodlers. [...] "Bah! We don't care," say Bitcoin veterans.
 
-No word about how the rest of the market moved along with bitcoin.
+No word about how the rest of the market moved along with bitcoin. They could have added a note saying something like "this coin we gave a green rating to retraced as well but only this much, plus on the 1D timeframe it kept above the MA which could signify stronger market". That would also support their sales objective while they would come off as a serious business. They opted for a simple exuberant exclamation though.
 
 
 #### Breaking Down Old News
