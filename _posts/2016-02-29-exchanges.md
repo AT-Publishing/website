@@ -18,7 +18,7 @@ image:
 - "/img/exchanges/poloniex.jpg"
 - "https://bestbitcoinexchange.co/images/trading/bitcoin-trading-theory.jpg"
 image_alt:
-- "Bitfinex for altcoin trading - Only LTCBTC pair thus far."
+- "Bitfinex for altcoin trading"
 - "OKCoin for altcoin trading - list of forbidden countries"
 - "Bittrex altcoin trading"
 - "Bit-X, for altcoin trading only LTC markets"

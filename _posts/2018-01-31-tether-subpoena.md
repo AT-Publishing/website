@@ -21,7 +21,6 @@ permalink: "/tether-subpoena"
 german: false
 cz: false
 
-
 title: "Bloomberg publishes two months old Tether subpoena"
 description: "Meanwhile, crypto traders panic and social_bfx on Reddit keeps posting the subpoena was related to the Tether hack."
 

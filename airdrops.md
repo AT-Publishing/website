@@ -3,7 +3,7 @@ layout: page
 title: Upcoming Airdrops and Giveaways
 description: "For cryptocurrency holders or for as little as an early signup."
 permalink: /airdrops/
-date: 2018-01-16 17:07:00 +0100
+date: 2018-01-31 07:07:00 +0100
 ---
 
 > Note: Never give away your private keys.

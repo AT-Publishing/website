@@ -4,7 +4,7 @@ published: true
 guest: false
 
 date: 2018-01-24 04:56:00 +0100
-update: 2018-01-25 23:12:00 +0100
+update: 2018-01-31 23:57:00 +0100
 
 author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
@@ -51,7 +51,7 @@ This post will be updated later with new information.
 #### Updates
 
 * The free preview can be found [here](http://archive.is/F5fo8)
-* [Full report in PDF]((/features/2018/Weiss-Cryptocurrency-Ratings.pdf)) downloaded from wcy.weissratings.com/media (now defunct)
+* [Full report in PDF](/features/2018/Weiss-Cryptocurrency-Ratings.pdf) downloaded from wcy.weissratings.com/media (now defunct)
 
 BTC: C+ "fair but full blocks&trade;"
 
@@ -61,7 +61,20 @@ Novacoin (D) and SaluS (D) are "weak"
 
 STEEM B- "moderate strength in all key factors"
 
-#### Breaking Down Yesterday's News
+Week after the report, on January 31st, Weiss Ratings sent out a newsletter declaring overall victory:
+
+> Your timing for getting our  alerts couldn't be better.
+
+> Last week, we caused global outrage with our C+ rating for Bitcoin. We were cursed, ridiculed and laughed at. One group even tried to mount a cyberattack against our Weiss Ratings website.
+
+> But yesterday, the price of Bitcoin plunged from $10,908 to $9,723. Nearly 11% in just 13 hours.
+
+> Crashes of 10% or more in a single day are not uncommon. They happen pretty frequently, actually. [...] That's why most bitcoin lovers are  long-term buy-and-hodlers. [...] "Bah! We don't care," say Bitcoin veterans.
+
+No word about how the rest of the market moved along with bitcoin.
+
+
+#### Breaking Down Old News
 
 For those who subscribed for the email notification from Weiss Ratings, there was an email quite late in the day when the report had already leaked. The subject read "Korean Cyberattack Fails to Foil Crypto-Ratings Release". The email went to explain why the website was down for most of the day: a surge of visitors and an attack or two, the usuall stuff. At Weiss, they threw more money on the problem ("our staff instantly expanded its server capacity on the cloud many times over") which is probably impressive in finance circles but rarely smart when it comes to system administration. In this case it apparently didn't work either but everyone gave them a break once the PDF was found unprotected in a marketing folder somewhere (the link is now redirected as it probably should have been the whole time). So, were they even a bit aware what kind of thing they were getting into? Or did they expect that Reddit, 4chan and Kakao will each delegate a single representative to take care of the news distribution while the rest of the crowd will obediently refrain from F5-ing weissratings.com? This is the internet, people. Look down from your ivory tower.
 

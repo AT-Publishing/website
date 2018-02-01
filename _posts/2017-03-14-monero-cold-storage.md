@@ -38,7 +38,7 @@ ________________________
 
 **Updates**
 
-* For hot wallets, there is a new [iOS app - Cakewallet for Monero](/cakewallet/)
+* For hot wallets, there is a new [iOS app - Cakewallet for Monero](/cakewallet)
 * Coinomi is [nearly done with their Monero integration](https://twitter.com/kimionis/status/954112970338029570) (web, iOS, Android)
 * [Ledger CTO said they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero)
 
