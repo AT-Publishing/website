@@ -31,7 +31,7 @@ image_alt:
 - "Weiss rating of cryptocurrencies"
 
 categories: ["trading", "altcoins", "coins"]
-tags: ["update", "popular", "weiss-rating", "cryptocurrencies", "bitcoin", "cryptocurrency-trading", "mainstream-finance"]
+tags: ["weiss-rating", "cryptocurrencies", "bitcoin", "cryptocurrency-trading", "mainstream-finance"]
 chart: []
 
 about:

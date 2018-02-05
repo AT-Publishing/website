@@ -31,7 +31,7 @@ categories:
 - basics
 - coins
 chart: []
-tags: ["popular", "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
+tags: [ "iota-snapshots", "iota", "iota wallet", "no-blockchain"]
 identifier: 'iota10122017'
 
 
