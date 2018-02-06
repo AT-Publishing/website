@@ -31,7 +31,7 @@ image_alt: ["Careful, it's a long session of British English. Coffee image from 
 
 categories: ["exchanges", "trading"]
 chart: []
-tags: [ 'update', "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+tags: [  "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
 
 about:
  name: "bitfinex"

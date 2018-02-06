@@ -18,7 +18,7 @@ published: true
 
 comments: false
 note: 'Trading Strategy'
-tags: ['strategy']
+tags: []
 
 
 about:

@@ -32,7 +32,7 @@ image_alt:
 categories:
 - basics
 chart: []
-tags: [ "update", "segwit2x", "bitcoin", "bitcoin fork", "trezor", "ledger"]
+tags: [ "segwit2x", "bitcoin", "bitcoin fork", "trezor", "ledger"]
 identifier: 'hwsegwit2x11072017'
 ---
 

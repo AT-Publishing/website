@@ -30,7 +30,7 @@ image:
 image_alt:
 - "This particular implementation is called c-lightning, was developed by Blockstream."
 
-categories: ["basics", "wallets", "coins", "no-ico", "altcoins", "monero", "xmr"]
+categories: ["wallets", "coins", "no-ico", "altcoins", "monero", "xmr"]
 tags: ["monero", "cakewallet", "xmr", "ios-wallet", "new-release"]
 chart: []
 

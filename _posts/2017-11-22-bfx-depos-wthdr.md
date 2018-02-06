@@ -28,7 +28,7 @@ image_alt: ["Bitfinex added fiat deposits and withdrawals for individual and cor
 
 categories: ["trading", "exchanges"]
 chart: []
-tags: [ "update", "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
+tags: [ "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
 ---
 
 [From bfx_drew on Reddit:](https://www.reddit.com/r/BitcoinMarkets/comments/7ef1bo/daily_discussion_tuesday_november_21_2017/dq63pqt/)

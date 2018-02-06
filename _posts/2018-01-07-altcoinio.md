@@ -38,7 +38,7 @@ image_alt:
 categories: ["no-ico", "trading"]
 
 chart: []
-tags: ["popular", "crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
+tags: ["crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
 
 about:
  name: "decentralized cryptocurrency exchange"

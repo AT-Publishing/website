@@ -31,7 +31,7 @@ image_alt: ["Bitfinex closed user signups, going to be invitation only. Money im
 
 categories: ["exchanges"]
 chart: []
-tags: [ "update", "bitfinex", "bitfinex-referral-link", "cryptocurrency-exchange", "exchange-issues"]
+tags: [ "bitfinex", "bitfinex-referral-link", "cryptocurrency-exchange", "exchange-issues"]
 ---
 
 Update: Bitfinex reopened user signups on January 12, 2018 and added a minimum equity requirement for new accounts.
