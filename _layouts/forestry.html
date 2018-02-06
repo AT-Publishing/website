@@ -21,13 +21,11 @@ layout: default-news
             {{ page.title }}
           </strong>
         </h4>
-        {% if page.german %}
-          <h5 class="post post-main">
-            <a rel="nofollow" href="https://de.altcointrading.net/{{page.german}}">
-              READ THIS ARTICLE IN GERMAN
-            </a>
-          </h5>
-        {% endif %}
+        <p>
+        {% if page.german %}<a href="https://de.altcointrading.net/{{page.german}}">[DE]</a>{% endif %}
+        &nbsp;
+        {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/">[CZ]</a>{% endif %}
+        </p>
         <br>
         <article class="maincontent">
           <div>
