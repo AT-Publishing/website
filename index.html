@@ -112,17 +112,13 @@ navi:
                 {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
                 {% endif %}
                 <small>{{ post.date | date: "%d %b %Y, %R" }} UTC</small>
-
                 {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-
                 <br>
-
                 <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-
               </strong>
             </h5>
             <div class="home-latest-excerpt">
-              {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y, %R" }} UTC: </em>{% endif %}{{ post.description }}
+              {% if post.last_modified_at %}UPDATE {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC - {% endif %}{{ post.description }}
             </div>
           </div>
           {% if post.image[0] %}
@@ -193,6 +189,6 @@ navi:
       {% include sidebar.html %}
     </div>
 
-
+  </div>
   </div>
 </div>

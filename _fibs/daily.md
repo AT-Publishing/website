@@ -26,5 +26,6 @@ ratios:
 
 > Cryptocurrency Price Action Comments
 
-* [On 6 Feb there should be a SEC/CFTC hearing about cryptocurrencies](http://thehill.com/policy/technology/368492-senate-committee-to-hold-bitcoin-hearing-with-regulators-report) - the expectations are quite bad
-* [Read the post about the Tether subpoena](/tether-subpoena) and follow the links there
+* The CFTC/SEC hearing about cryptocurrencies went well - [notes here](https://www.reddit.com/r/BitcoinMarkets/comments/7vp809/watched_the_us_senate_hearing_on_regulating/)
+* [Bitfinex'd twitter was suspended](https://twitter.com/alistairmilne/status/961181932192194560)
+* [Peter Brandt is calling a BTC bounce to over 9k](https://twitter.com/PeterLBrandt/status/960961854771118080)
