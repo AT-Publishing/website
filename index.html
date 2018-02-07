@@ -77,7 +77,7 @@ navi:
         {% endif %}
       </div>
 
-    
+
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script type="text/javascript">
       $(document).ready(function($) {
@@ -126,7 +126,7 @@ navi:
           </div>
           {% if post.image[0] %}
           <div class="five columns">
-            <a  class="index-internal" target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+            <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
               <figure class="thumb">
                 <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
                 layout="responsive"

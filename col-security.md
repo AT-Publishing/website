@@ -48,7 +48,7 @@ permalink: /security/
 
       </strong>
     </h2>
-    <a class="col-internal-link" target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="col-internal-link" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
     <div class="home-latest-excerpt">
 
       {{ post.description }}

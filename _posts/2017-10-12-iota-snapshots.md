@@ -39,6 +39,12 @@ about:
  name: "iota snapshots"
  sameas: ["https://forum.helloiota.com/4659/How-do-I-prepare-for-a-snapshot", "https://steemit.com/technology/@steemhoops99/iota-snapshot-what-is-it"]
 
+
+related:
+ - {"Securing IOTA wallets": "/security/iota"}
+ - {"No-ICO projects": "/category/no-ico/"}
+ - {"Featured coin: EOS": "/eos"}
+
 ---
 
 <em>For a guide to securing your IOTA storage <a class="intern" href="/security/iota">go to the Security section</a>.</em>

@@ -51,7 +51,7 @@ permalink: /category/exchanges/
   </div>
   {% if post.image[0] %}
   <div class="five columns">
-    <a title="{{ post.title }}" target="_blank" href="{{site.baseurl}}{{ post.url }}">
+    <a title="{{ post.title }}" href="{{site.baseurl}}{{ post.url }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
         layout="responsive"

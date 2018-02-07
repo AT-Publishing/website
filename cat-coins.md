@@ -14,7 +14,7 @@ permalink: /category/altcoins/
 <div class="row home-latest">
 {% if post.image[0] %}
 <div class="five columns">
-  <a  class="index-internal" target="_blank" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+  <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
     <figure class="thumb">
       <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
       layout="responsive"
@@ -63,7 +63,7 @@ permalink: /category/altcoins/
 <div class="row home-latest">
   {% if post.image[0] %}
   <div class="five columns">
-    <a target="_blank" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="cat-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
         layout="responsive"

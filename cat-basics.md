@@ -49,7 +49,7 @@ permalink: /category/101/
     </div>
       {% if post.image[0] %}
     <div class="five columns">
-        <a class="cat-internal-link" title="{{ post.title }}" target="_blank" href="{{site.baseurl}}{{ post.url }}">
+        <a class="cat-internal-link" title="{{ post.title }}" href="{{site.baseurl}}{{ post.url }}">
           <figure class="thumb">
             <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
             layout="responsive"

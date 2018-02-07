@@ -20,7 +20,7 @@
         {% endif %}
         </strong>
       </div>
-      <a class="updated-excerpt" target="_blank" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+      <a class="updated-excerpt" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
           {{ post.description }}
           {% if post.update %}&nbsp;&middot;&nbsp;Last update {{ post.update | date: "%d %b %Y" }}{% endif %}
           {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}

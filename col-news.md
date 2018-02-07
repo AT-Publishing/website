@@ -36,7 +36,7 @@ navi:
   </div>
   {% if post.image[0] %}
   <div class="five columns">
-    <a class="col-internal-link" target="_blank" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="col-internal-link" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
         layout="responsive"

@@ -29,7 +29,7 @@ permalink: /category/wallets/
 <div class="row home-latest">
   {% if post.image[0] %}
   <div class="five columns">
-    <a target="_blank" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+    <a class="internal" href="{{site.url}}{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
       <figure class="thumb">
         <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
         layout="responsive"

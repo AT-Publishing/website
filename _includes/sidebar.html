@@ -26,7 +26,7 @@
       {% assign items = (site.posts | sort: date) | reverse %}
       {% for post in items  %}
       {% if post.note contains 'PSA' %}
-      <a class="sidebar-internal" target="_blank" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+      <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
         <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.update | date: "%d %b %Y" }}
       </a>
       </br>

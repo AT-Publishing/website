@@ -43,6 +43,12 @@ tags: ["crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
 about:
  name: "decentralized cryptocurrency exchange"
  sameas: ["http://www.altcoin.io", "https://medium.com/@coreyj_miller/overview-of-decentralized-crypto-exchanges-3ce97627e771", "https://hackernoon.com/atomic-swap-why-its-a-game-changer-for-exchanges-fb1380f5cb6c"]
+
+ related:
+ - {"Orderbook heatmap and more: TensorCharts": "/tensorcharts"}
+ - {"New crypto exchanges for 2018": "/exchanges-2018"}
+ - {"No-ICO projects": "/category/no-ico/"}
+
 ---
 
 [Altcoin.io](http://www.altcoin.io?kid=KHPDT) is a very promising decentralized exchange project with **no ICO or VC funding backing it**. The list of people involved can be found [right on their homepage](http://www.altcoin.io?kid=KHPDT) and includes some familiar names and handles - [Coinrun](https://medium.com/@cryptocoinrun), [Pizpie](https://twitter.com/mBTCPizpie) and [Josh Olszewicz](https://www.youtube.com/user/carpenoctom/featured).
