@@ -14,7 +14,7 @@ tags: ['fibs', 'crypto-trading', 'technical-analysis', 'fibonacci-retracement']
 
 name: "daily/"
 
-image: ["/features/chop.jpeg"]
+image: ["/editorial/victory.jpg"]
 
 dollars:
 - { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "The downside goal of 700 USD level is being reached. It lies on a high volume range that should act as a support, but if it doesn't, the next meaningful range is at about 450 USD. ETH was trading in a horizontal range for a long time - until today Feb 5 really, which shows some strength but for now there is need for a reversal anyway." }

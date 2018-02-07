@@ -1,31 +1,29 @@
-
-<article class="three columns nogutter post-bg-outer"  style="background-image: url({{ post.image[0] }})">
-  <div class="row post-bg-inner">
-
-
-    <div class="twelve columns update-overlay">
-
+<div class="row cat-updates">
+{% if post.image[0] %}
+<div class="three columns">
+  <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+{% endif %}
+  <div class="nine columns">
+    <h5 class="category-post post">
       <strong>
-        <span class="updated-excerpt">{{ post.date | date_to_string }}</span>
-
-        {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-        <a class="updated-title" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-          {{ post.title }}
-        </a>
-      </strong>
-      <div class="updated-tag">
-        <strong>
         {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
-        {% elsif post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;
+        {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
         {% endif %}
-        </strong>
-      </div>
-      <a class="updated-excerpt" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-          {{ post.description }}
-          {% if post.update %}&nbsp;&middot;&nbsp;Last update {{ post.update | date: "%d %b %Y" }}{% endif %}
-          {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-      </a>
-    </div>
-
+        <small>&nbsp;<u>UPDATE</u> {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC</small>
+        <small>&nbsp;PUBLISHED {{ post.date | date: "%d %b %Y" }}</small>
+        {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+        <br>
+        <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </strong>
+    </h5>
   </div>
-</article>
+</div>

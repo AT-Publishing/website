@@ -27,8 +27,7 @@ image:
 image_alt:
 - "SegWit2x, the fork flavor of the month."
 categories:
-- trading
-- coins
+- exchanges
 chart: []
 tags: ["bitfinex", "SegWit2x"]
 identifier: 's2x10072017'

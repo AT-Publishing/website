@@ -29,7 +29,7 @@ german: false
 image: ["/editorial/coffee2.jpg"]
 image_alt: ["Careful, it's a long session of British English. Coffee image from Pexels."]
 
-categories: ["exchanges", "trading"]
+categories: ["exchanges"]
 chart: []
 tags: [  "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
 

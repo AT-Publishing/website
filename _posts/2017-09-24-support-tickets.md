@@ -23,7 +23,6 @@ image:
 image_alt:
 - "Happiness is a matter of choice independent of any externalities !!1"
 categories:
-- trading
 - exchanges
 - basics
 update: 2017-10-10 12:36:00 +0700

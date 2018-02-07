@@ -51,6 +51,7 @@ navi:
     {% for page in site.pages %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
         {% if page.german %}
         <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}"/>
@@ -60,6 +61,8 @@ navi:
     {% for page in site.security %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+
     </url>
     {% endunless %}{% endfor %}
 
@@ -67,6 +70,8 @@ navi:
     {% for page in site.strategy %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+
         {% if page.cz or page.german %}
         <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
         {% endif %}
@@ -83,6 +88,8 @@ navi:
     {% for page in site.fibs %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+
     </url>
     {% endunless %}{% endfor %}
     {% for post in site.posts %}

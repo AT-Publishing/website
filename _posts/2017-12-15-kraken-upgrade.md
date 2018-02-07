@@ -29,7 +29,7 @@ german: false
 image: ["/editorial/blood.jpg"]
 image_alt: ["In a recent post the Kraken exchange shared with us more details about the upgrade /u/jespow was promising for beginning of December. Blood image via Pexels."]
 
-categories: ["exchanges", "trading"]
+categories: ["exchanges"]
 chart: []
 tags: [ "kraken", "jesse-powell", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
 ---

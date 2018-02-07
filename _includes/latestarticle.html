@@ -30,7 +30,7 @@
     <div class="twelve columns overlay">
       <a  class="index-internal"  target="_blank" href="{{ post.url }}" title="{{ post.title }}">
         {{ post.description }}
-        {% if post.update %}&nbsp;&middot;&nbsp;<em> Last update {{ post.update | date: "%d %b %Y" }} </em>{% endif %}
+        {% if post.last_modified_at %}&nbsp;&middot;&nbsp;Last update {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
         {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
       </a>

@@ -26,7 +26,7 @@ german: false
 image: ["/editorial/berries.jpg"]
 image_alt: ["Bitfinex added fiat deposits and withdrawals for individual and corporate accounts. Berries image via Pexels."]
 
-categories: ["trading", "exchanges"]
+categories: ["exchanges"]
 chart: []
 tags: [ "bitfinex", "tether", "eur", "ifinex", "depost", "withdrawal"]
 ---

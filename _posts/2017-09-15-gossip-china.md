@@ -22,7 +22,6 @@ image_alt:
 - A lot of gossip traspiring regarding this round of China bans Bitcoin (all very vague).
 categories:
 - trading
-- altcoins
 update: 2017-09-20 02:36:00 +0700
 chart: []
 tags: ["bitcoin ban", "china ban", "cnledger"]

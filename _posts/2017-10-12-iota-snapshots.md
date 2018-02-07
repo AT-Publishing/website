@@ -28,7 +28,6 @@ image:
 image_alt:
 - "There has been some talk about that you need to claim IOTAs else you lose them - it gets a little misinterpreted. People image via Pexels."
 categories:
-- basics
 - coins
 chart: []
 tags: [ "iota-snapshots", "iota", "iota wallet", "no-blockchain"]

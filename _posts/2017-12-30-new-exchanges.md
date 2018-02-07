@@ -31,10 +31,10 @@ image:
 image_alt:
 - "Find new emerging cryptocurrency exchanges for your altcoin trading in 2018. Flying image via Pexels."
 categories:
-- basics
+- exchanges
 - trading
 chart: []
-tags: [ "popular", "update", "crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
+tags: [ "altcoin-io", "crypto-trading", "cryptocurrency-exchanges", "altcoin-trading"]
 
 review:
 - {name: "Binance", rating: "GREAT", bestfor: "Trading small altcoins. They have regular additions of new coins (one a month) and users can vote which coins they want added.", signup: "Open, no verification necessary but they limit withdrawal to 1 BTC worth per day without verification.", comment: "Binance is where eager shitcoin traders and P&D groups migrate from Polo and Trex. If you are looking to trade a coin that is just about to be hyped up, changes are it's on Binance. There also sometimes happen to be opportunities for manual arb between Binance and some of the bigger crypto exchanges.", link: "https://www.binance.com/?ref=15980293", pic: "/features/2018/binance.png"}

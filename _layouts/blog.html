@@ -9,7 +9,7 @@ layout: default-news
        {{ site.ads.aads728 }}
      </div>
        <span id="note">
-         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }}</time>.&nbsp;{% endif %}
+         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }}</time>.&nbsp;{% endif %}
          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }}</time>
        </span>
        <h4 class="post post-main">
@@ -70,7 +70,7 @@ layout: default-news
               ]
             }
             </script>
-            
+
             {% endif %}
             <p>
               <a title="Typo {{ page.title }}" href="mailto:info@altcointrading.net">Report typo or misinformation</a>

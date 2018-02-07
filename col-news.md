@@ -1,12 +1,11 @@
 ---
 layout: col-page
 title: "All Altcoin Trading News"
-description: "News for cryptocurrency traders. Also on Telegram: altcointrading_net."
+description: "News for cryptocurrency traders - all timely posts here. Also on Telegram (altcointrading_net) and Facebook (Altcoin Trading Chatroom)."
 permalink: /all-news/
 navi:
  exclude: yes
 ---
-
 
 {% assign items = (site.posts | sort: date) | reverse %}
 {% for post in items  %}
@@ -28,8 +27,8 @@ navi:
       </strong>
     </h5>
     <div class="home-latest-excerpt">
-      {% if post.update %}<em> Last update {{ post.update | date: "%d %b %Y" }}</em>{% endif %}
-      {% if post.author %}&nbsp;&middot;&nbsp;<em class="author">Article by {{ post.author_name }}</em>{% endif %}
+      {% if post.last_modified_at %}<strong>UPDATE {{ post.last_modified_at | date: "%d %b %Y" }}</strong>&nbsp;{% endif %}
+      {% if post.author %}<span class="author">Article by <a target="_blank" href="{{ post.author }}">{{ post.author_name }}</a></span>{% endif %}
       <br>
       {{ post.description }}
     </div>

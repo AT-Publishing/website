@@ -18,8 +18,6 @@ image_alt:
 image:
 - "/img/editorial/effort.jpg"
 categories:
-- altcoins
-- dash
 - wallets
 chart: []
 tags: []

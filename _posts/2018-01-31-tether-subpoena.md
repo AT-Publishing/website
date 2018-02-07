@@ -29,7 +29,7 @@ image:
 image_alt:
 - "Tether - Image from tether.to"
 
-categories: ["trading", "exchanges", "news"]
+categories: ["exchanges", "news"]
 tags: [ "bitfinex", "usdt", "tether","cryptocurrencies", "bitcoin", "cryptocurrency-trading", "fud"]
 chart: []
 

@@ -1,0 +1,7 @@
+{% assign daysToSec = 604800 %}
+{% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
+{% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+
+{% if pageTime > endTime %}
+{% include latestupdates.html %}
+{% endif %}

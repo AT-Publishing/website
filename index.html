@@ -11,6 +11,7 @@ navi:
 
       <!-- SLOT 1  -->
       {{ site.ledger_728-90_animated }}
+      <br>
 
       <span id="note">Popular</span>
       {% for post in site.security %}
@@ -31,7 +32,7 @@ navi:
             <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
           </h3>
           <p>
-          {% if post.update %}<em> Updated {{ post.update | date: "%d %b %Y" }}: </em>{% endif %}{{ post.description }}
+          {% if post.last_modified_at %}[UPDATE {{ post.last_modified_at | date: "%d %b %Y" }}] {% endif %}{{ post.description }}
           </p>
         {% endif %}
       {% endfor %}

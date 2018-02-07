@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://www.altcointrading.net"
 timezone: "Etc/GMT"
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 
 

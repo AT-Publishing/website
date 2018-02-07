@@ -28,7 +28,7 @@ german: false
 image: ["/editorial/joke.jpg", "/features/redflag/bittrex-dec2017.png"]
 image_alt: ["Bittrex demands the r/bittrex to be shut down. Joke image from Pexels."]
 
-categories: ["exchanges", "trading"]
+categories: ["exchanges"]
 chart: []
 tags: ["Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
 ---

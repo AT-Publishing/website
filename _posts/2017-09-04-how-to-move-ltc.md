@@ -21,7 +21,7 @@ image_alt:
 - How to move litecoins between exchanges
 categories:
 - wallets
-- altcoins
+- coins
 - ltc
 update: 2017-09-04 10:09:00 +0200
 chart: []

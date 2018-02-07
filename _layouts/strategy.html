@@ -40,36 +40,13 @@ $(document).ready(function($) {
 
        	 </div><!--1st-->
          <div class="columns four">
-           <ul class="social">
-             <li class="cta">Share this article:</li>
-             <li>
-               <a title="Share {{ page.title }} on Telegram" href="https://t.me/share/url?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Telegram" target="_blank">
-                 <i class="fa fa-telegram"></i>
-               </a>
-             </li>
-             <li>
-               <a title="Share {{ page.title }} on Reddit" href="http://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title=Strategy%20-%20{{ page.title }}" title="Reddit" target="_blank">
-                 <i class="fa fa-reddit"></i>
-               </a>
-             </li>
-             <li>
-               <a title="Share {{ page.title }} on Facebook" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
-                 <i class="fa fa-facebook-square"></i>
-               </a>
-             </li>
-             <li>
-               <a title="Share {{ page.title }} on Twitter" href="https://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
-                 <i class="fa fa-twitter-square"></i>
-               </a>
-             </li>
-
-           </ul>
+  			    {% include dogeshare.html %}
          </div><!--2nd-->
        </div>
 
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
-         {% if page.update %}<time datetime="{{ page.update | date_to_xmlschema }}">Last Update {{ page.update | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
+         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
 
          {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}

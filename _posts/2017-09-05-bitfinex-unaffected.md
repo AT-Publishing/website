@@ -24,8 +24,6 @@ image_alt:
 - Bitfinex is not affected by the PBOC decision
 categories:
 - exchanges
-- altcoins
-- eth
 update: 2017-09-05 09:39:00 +0200
 chart: []
 tags: ["bitfinex", "pboc"]

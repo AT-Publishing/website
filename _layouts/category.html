@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign items = (site.posts | sort: date) | reverse %}
+
+<p><strong>Recently updated articles</strong></p>
+
+<section class="row columns twelve">
+{% for post in items  %}
+ {% if post.categories contains page.category %}
+  {% include category/updated.html %}
+ {% endif %}
+{% endfor %}
+</section>
+
+<p>&nbsp;</p>
+
+<section class="clearfix">
+<hr>
+<p>Trade large and small-cap altcoins on <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a> - the new Asian hotspot.</p>
+<hr>
+</section>
+
+<h3 class="cat-post clear"><strong>All in this category</strong></h3>
+
+{% for post in site.posts %}
+ {% if post.category contains page.title or post.categories contains page.category %}
+  {% include category/all.html %}
+ {% endif %}
+{% endfor %}

@@ -63,8 +63,8 @@ layout: default-coin
 
                   {{ post.description }}
 
-                  {% if post.update %}
-                    <p><small><br> Last update {{ post.update | date: "%d %b %Y" }} </small></p>
+                  {% if post.last_modified_at %}
+                    <p><small><br> Last update {{ post.last_modified_at | date: "%d %b %Y" }} </small></p>
                   {% endif %}
 
                 </div>
