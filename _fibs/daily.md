@@ -14,18 +14,22 @@ tags: ['fibs', 'crypto-trading', 'technical-analysis', 'fibonacci-retracement']
 
 name: "daily/"
 
-image: ["/editorial/victory.jpg"]
+image: ["/editorial/tagged/fear.png"]
 
 dollars:
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "The downside goal of 700 USD level is being reached. It lies on a high volume range that should act as a support, but if it doesn't, the next meaningful range is at about 450 USD. ETH was trading in a horizontal range for a long time - until today Feb 5 really, which shows some strength but for now there is need for a reversal anyway." }
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "The support in high 7xxx USD appears to be failing, and this is not a quick panic sell-off to scare people. This is failing rallies and slow bleed. If 7k is broken, the next range lies around 4.5K but honestly at this point the time is to look for a long entry already. " }
+- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Everybody is watching that inverted head and shoulders that could be a possible bottom but the truth is if the horizontal range on the ETH top is a distribution, a recovery now should reverse at around 1k USD and head back down." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "There are bullish divergences on shorter timeframes but hidden bearish divergence on a 1D chart with RSI. The situation is similar to ETH, at this point in crypto markets there is still the situation where cryptocurrencies move rather together (as stocks)." }
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Wrecked on the shorter timeframes but preparing for a big move on the 1D, judging from the bbands." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Nothing changed here this week, not even with that massive sell volume. Bbands are still tightening." }
 ---
 
 
 > Cryptocurrency Price Action Comments
 
-* The CFTC/SEC hearing about cryptocurrencies went well - [notes here](https://www.reddit.com/r/BitcoinMarkets/comments/7vp809/watched_the_us_senate_hearing_on_regulating/)
-* [Bitfinex'd twitter was suspended](https://twitter.com/alistairmilne/status/961181932192194560)
-* [Peter Brandt is calling a BTC bounce to over 9k](https://twitter.com/PeterLBrandt/status/960961854771118080)
+* Bitfinex will build a decentralized exchange based on EOS - [EOSfinex](https://medium.com/bitfinex/announcing-eosfinex-69eea273369f) will be an addition to Ethfinex which is the DEX built on ETH.
+* Ethfinex has a maker loyalty program btw. You can earn your stake in it - more [here](https://www.ethfinex.com/fees).
+* People are [overwhelmingly margin long everything](https://datamish.com).
+
+> Other
+
+* [Article about divergences](/divergences/)
