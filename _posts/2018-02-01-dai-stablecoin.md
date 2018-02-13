@@ -35,7 +35,7 @@ chart: []
 
 about:
  name: "dai"
- sameas: []
+ sameas: ["https://dai.makerdao.com/"]
 ---
 
 Dai is the first product of a distributed autonomous organization called MakerDAO. It is a decentralized stablecoin that runs entirely on Ethereum - more on that later. For now it is not widely known nor used but a system like this is a great addition to the crypto space as it advances in the way of removing a middle man.

@@ -1,33 +1,41 @@
 ---
-layout: blog
+layout: forestry
 title: "Technical Analysis: Divergences"
 description: "Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources can be intimidating."
-category: "trading"
-permalink: ta-divergences/
+
+permalink: divergences/
+german: false
+cz: false
+
 image:
 - "/img/ta/bitfinex-divergences.png"
 - "/img/ta/divergences1.jpg"
 - "/img/ta/hiddendivergences.png"
-image_alt:
-- "Divergeces between lows or highs on the price action and the MACD can provide valuable signals."
 
-update: 2016-07-17
-comments: false
+image_alt:
+- "Divergences between lows or highs on the price action and the MACD can provide valuable signals."
+
+comments: true
+identifier: 'divsfeb18'
+
+stories: false
 note: 'Trading Strategy'
-tags: ['strategy']
+
+categories: ['trading']
+tags: ['strategy', 'indicators']
+
+author: https://twitter.com/tradingfanbois
+author_name: tradingfanbois
+
+about:
+ name: "technical analysis divergence"
+ sameas: ["https://www.investopedia.com/terms/d/divergence.asp"]
 ---
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
-
-_Image: {{page.image_alt[0]}}_
-
-________________________
 
 #### So, technical analysis?
 
 Technical analysis is something that newbie crypto-traders search for a lot while the sheer amount of resources is intimidating. Often, the little Youtube channels are the best since they are managed by people who make living of trading and don't have as much time to promote the Youtube channel - which is why most often you will not hear about them.
-
-{{ site.ads.aads728 }}
 
 
 **TA Indicator: Divergences**
@@ -69,6 +77,9 @@ If you master them you can use them as a signal to enter or exit the market - th
 {{ site.ads.aads728 }}
 
 #### Good to read:
+
+[Cheatsheet](https://i.imgur.com/5SnaDpt.png)
+
 
 ”dukascopy.com / Do you know everything about divergences?” - The image above is taken from dukascopy.com
 

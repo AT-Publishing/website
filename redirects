@@ -11,4 +11,6 @@ navi:
 /trading-strategies/ /category/trading/ 301
 /coin/eth/ https://news.altcointrading.net/#/eth 301
 
+/ta-divergences/ /divergences/ 301
+
 /cryptoloop /coinloop 301
