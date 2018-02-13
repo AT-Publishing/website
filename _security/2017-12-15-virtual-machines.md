@@ -72,43 +72,72 @@ What you'll need is the software for the virtualization - download [VirtualBox f
 
 First things first, install VirtualBox.
 
-![](/sec/virtualbox-setup/1androidiso.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/1androidiso.jpeg" layout="responsive"
+ data-original-width="753px" data-original-height="823px"
+width="753px" height="823px"></amp-img>
 
 Go to http://www.android-x86.org/download and get the ISO file of the latest Android. I am going with the 64 bit 7.1 here.
 
-![](/sec/virtualbox-setup/2virtualbox.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/2virtualbox.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Now create the virtual machine on which you will use the Android: Open VirtualBox and click "New".
 
-![](/sec/virtualbox-setup/3.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/3.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Name the machine (doesn't matter), say it is a Linux - Other Linux x86.
 
-![](/sec/virtualbox-setup/4.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/4.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 For the rest of the setup you can go with defaults - you will have VDI disk image with some amount of disk space and RAM allocated.
 
-![](/sec/virtualbox-setup/5.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/5.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 That created a machine that is ready to have the Android installed on it. Start it up clicking on "Start".
 
-![](/sec/virtualbox-setup/6.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/6.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 You will be asked to select a startup disk - this is where you select the Android ISO you downloaded.
 
 Here comes the installation.
 
-![](/sec/virtualbox-setup/7.jpeg)
+
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/7.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Create a new partition - select "New", press enter.
 
-![](/sec/virtualbox-setup/8.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/8.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Press enter while on bootable and navigate to "Write", enter. Confirm by typing in "yes", enter.
 
 When it's done you'll have an sda1 partition, go to "Quit", enter.
 
-![](/sec/virtualbox-setup/8i.jpeg)
+
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/8i.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 The installer will take you to dialog to format the partition - select sda1, enter.
 
@@ -117,32 +146,61 @@ Select ext4 and format the disk.
 Choose YES from now on - you really want to format, you want GRUB and you want that whatever directory writeable.
 
 
-![](/sec/virtualbox-setup/9.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/9.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 When it finishes you are done, the Android device will launch on next start of the machine.
 
-![](/sec/virtualbox-setup/10unmount.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/10unmount.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Before you reboot the machine to launch your Android you need to unmount the ISO because otherwise the machine will keep attempting to reinstall Android. In Virtualbox menu go to Devices > Optical Drives and unselect the ISO.
 
 Restarting the device will take you to the Android setup, the same thing you'd do on a phone.
 
-![](/sec/virtualbox-setup/11.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/11.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 Set up the device as a new device with Google account. You need a Google account because you need access to the Play Store but sometimes there is a problem if you try and setup a new account. You can still try though.
 
-![](/sec/virtualbox-setup/12.jpeg)
-![](/sec/virtualbox-setup/13.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/12.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
+
+
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/13.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 The last step is to launch the Play Store and looking up app the wallet you want.
 
-![](/sec/virtualbox-setup/15play.jpeg)
 
-![](/sec/virtualbox-setup/15.jpeg)
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/15play.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
+
+
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/15.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 When you have the app you setup a new wallet like you normally would and backup your seed on a piece of paper because that's the easiest fool-proof way.
 
-![](/sec/virtualbox-setup/16voila.jpeg)
+
+<amp-img itemprop="image" alt="Altcoin Trading Security"
+ src="/sec/virtualbox-setup/16voila.jpeg" layout="responsive"
+ data-original-width="1920px" data-original-height="1080px"
+width="753px" height="423px"></amp-img>
 
 And that is it. If something happens to your laptop or to the VirtualBox you will have access to your coins if you backed up your seed on that paper, like said before. If you want to save yourself the hassle of going through this neckbeard hell again you can backup the entire machine as well so that you'll be able to import it into another VirtualBox installation with just a couple of clicks.
 
