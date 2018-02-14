@@ -8,7 +8,6 @@ date: 2018-01-31 07:07:00 +0100
 
 > Note: Never give away your private keys.
 
-
 <p>{{site.ledger_728-90_animated}}</p>
 
 #### Upcoming Airdrops
@@ -22,11 +21,32 @@ date: 2018-01-31 07:07:00 +0100
 
 Callisto (CTO) is an off-chain solution to ETC scaling. All ETC holders who own their private keys will receive the CTO tokens. The fork will happen on block number 5500000 (approximately 5 March, 2018).
 
-#### February 2018
+
+**XMR holders will receive XMV in March 2018**
+
+* [XMV subbreddit](https://www.reddit.com/r/MoneroV/)
+* [homepage monerov.org](https://monerov.org/)
+
+At the block 1529810 (probably around 14 March 2018) of the XMR chain holders of the XMR with access to their private keys will receive a forked coin called MoneroV in the ratio of 1 XMR : 10 XMV. [Read this article for Monero wallets where you can store your XMR pre-fork](/monero-wallet/).
+
+MoneroV is supposed to be focused on scaling and privacy, it should have lower transaction fees and MimbleWimble integration.
+
+It is not clear yet which exchanges will support XMV. There is one controversial thing, [the chain replication compromises the XMR transaction privacy](https://www.reddit.com/r/MoneroV/comments/7x9mja/monerov_airdrop_automatic/du6pdki/), not only for the user who claims the forked coins but also for people who the user transacted with.  
+
+**Litecoin fork/airdrop rumors**
+
+[Charlie Lee said on Twitter](https://twitter.com/SatoshiLite/status/960197866546282496) the rumored LTC fork or airdrop is a scam.
+
+#### Airdrops for February 2018
 
 {% include thismonth-airdrops.html %}
 
+<div class="clearfix">
+<amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
+</div>
 
+<div class="clearfix"></div>
 
 ### Past Airdrops
 
