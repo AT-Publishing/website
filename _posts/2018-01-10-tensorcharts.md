@@ -26,7 +26,7 @@ cz: tensorcharts
 tickers: false
 
 title: "TensorCharts - Free charting webapp where you'll get to watch the whales"
-description: "TensorCharts are available free for now - collateral data from the developer's other project."
+description: "TensorCharts are available free for now - February 2018 update adds Bitstamp, BitMEX, Binance and GDAX to Bitfinex data."
 
 image:
 - "/features/tensorcharts.png"
@@ -50,8 +50,14 @@ about:
  name: "tensorcharts"
  sameas: ["https://tensorcharts.com/", "https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g", "https://bitcointalk.org/index.php?topic=2542026.0"]
 
-
+related:
+ - {"New crypto exchanges for 2018": "/exchanges-2018"}
+ - {"No-ICO projects": "/category/no-ico/"}
 ---
+
+**Update**: On 15 February of 2018 [TensorCharts](https://tensorcharts.com/) expanded the data collection from Bitfinex only to also include Binance, GDAX, BitStamp and BitMEX markets. If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), at this point Tensorcharts are a full alternative to Cryptowatch.
+
+_______________
 
 The idea of [TensorCharts](https://tensorcharts.com/) is similar as the one behind [Footprint Charts](https://footprintchart.com/) - the charts that will let you "see inside the bars" as their slogan says. It's an advanced software tool particularly good for daytraders and scalpers, you can request a free demo [here](https://marketdelta.com/solutions/footprint-charts/).
 
@@ -79,7 +85,7 @@ On this BTCUSD 5m chart you see the differences in order sizes are more marked, 
 {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 
 
-[TensorCharts](https://tensorcharts.com/) are available free for now pulling data from Bitfinex API, it is collateral data from the developer's other project.
+[TensorCharts](https://tensorcharts.com/) are available free for now pulling data from several exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. The platform is built on collateral data from the developer's other project.
 
 The other project is called [cointerminal.io](https://cointerminal.io/). There is another project named [CoinTerminal which is a news aggregator](https://site.cointerminal.co/) like Bloomberg terminal for cryptocurrencies, it is a paid one and has nothing to do with cointerminal.io.
 
