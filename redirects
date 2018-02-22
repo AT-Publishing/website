@@ -9,7 +9,6 @@ navi:
 /exchanges/ /category/exchanges/ 301
 /sample-post/ / 301
 /trading-strategies/ /category/trading/ 301
-/coin/eth/ https://news.altcointrading.net/#/eth 301
 
 /ta-divergences/ /divergences/ 301
 /monero-cold-storage-2017/ /monero-cold-storage/

@@ -1,0 +1,21 @@
+---
+published: false
+navi:
+ exclude: yes
+---
+{% assign isFirst = true %}
+[
+  {% for post in site.posts %}{% if post.stories %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}{
+    "title":"{{ post.title | escape }}",
+    "date":"{{ post.date | date_to_xmlschema  }}",
+    "update":"{{ page.last_modified_at | date_to_xmlschema }}",
+    "img":"{{ post.image[0] | escape  }}",
+    "full_url":"{{site.url}}{{ post.url | escape }}",
+    "author_uri":"{{post.author | escape }}",
+    "author_name":"{{post.author_name | escape }}",
+    "genres":"{{post.genres | escape}}",
+    "content":"{{ post.content | truncatewords: 300 }}",
+    {% if post.tickers %}"tickers":"{{ post.tickers | escape }}"{% endif %},
+    {% if post.comments %}"disqus_id":"{{ post.identifier | escape }}"{% endif %}
+
+  }{% endif %}{% endfor %}]

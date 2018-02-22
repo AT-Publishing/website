@@ -1,0 +1,127 @@
+---
+layout: forestry
+published: true
+guest: false
+
+date: 2018-02-22 12:13:00 +0100
+#update: 2018-01-25 23:12:00 +0100
+
+author: https://reddit.com/u/karlvonbahnhof
+author_name: KarlVonBahnhof
+
+comments: true
+identifier: 'noicolistfeb18'
+
+stories: false
+note: 'Feature'
+#genres: Blog
+tickers: false
+
+permalink: tools/
+german: false
+cz: false
+
+title: "List of No-ICO Tools for Crypto Traders and Investors"
+description: "Curated list of tools for crypto traders. If you want to add a tool, comment below the article and also post your crypto address if you want people to send in donations."
+
+image:
+- "/editorial/tagged/altcointrading-data.png"
+- "/features/noico/cryptopanic.jpg"
+- "/features/noico/cryptoflash.jpg"
+- "/features/noico/coinmarketcal.jpg"
+- "/features/noico/moonitor.jpg"
+- "/features/noico/tensorcharts.jpg"
+image_alt:
+- "Curated list of tools for crypto traders - if you want to submit a tool comment below and add your crypto address for people to send in donations."
+
+categories: ["trading", "no-ico", "featured"]
+tags: [ "crypto-trading-tools", "blockfolio", "tensorcharts","market-sentiment", "cryptocurrency-trading"]
+chart: []
+
+about:
+ name: "best crypto trading tools"
+ sameas: ["https://www.thebalance.com/forex-traders-technical-analysis-tools-4127157", "https://hackernoon.com/a-short-list-of-tools-i-use-daily-for-crypto-trading-investment-4991ceff55d7"]
+---
+
+
+This is a list of free or freemium phone apps and web apps that are useful for cryptocurrency traders or investors and were not backed by money from an ICO. Some of them you will already know from the [No-ICO section of altcointrading.net](/no-ico/), this is meant to be a **featured post summarizing all of them and more** in one place.
+
+**If you want to submit a tool comment below and add your crypto address for people to send in donations.**
+
+#### News aggregators
+
+A lot of portfolio tracking apps that provide some news section, usually only tracking the major publications though. In addition to that there is a couple of dedicated apps that aggregate interesting news from smaller channels and that also hand-pick the more interesting things that gets posted to r/cryptocurrency or r/cryptomarkets on Reddit.
+
+{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+
+
+* [CryptoPanic](https://cryptopanic.com/) is the most popular news aggregator that comes in a free and premium version. In the premium version you can add your own RSS feeds or Twitter handles to track. In the default version you will get an app with style similar to cryptowat.ch and news mostly from Cointelegraph, Bitcoinist, CoinSpectator and several coin-specific subreddits. The information is mostly global news and comes as a timely feed, only sortable by categories such as *Regulation* or *ICO News*. However if you type a symbol like ETH into the search box it will filter out news mentioning your coin plus on the side it will plot a chart pulling data from coinmarketcap.
+
+{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+
+
+* [CryptoFlash](https://cryptoflash.io) is a newer aggregator that gathers news mainly from various subreddits related to cryptocurrencies, the main difference from CryptoPanic is with CryptoFlash listing you see the title of the shared article and a note to which cryptocurrency it relates, not the information about the source website, which might be better for your focus. The app will let you filter out specific coin news as well, it tends to focus on price comments, analyses and exchange news, not so much on fundamentals or the politics of crypto.
+
+
+#### Crypto Events
+
+{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+
+
+* [CoinMarketCal](https://coinmarketcal.com/) is a calendar of crypto-related events. Features not only conferences and meetups but also some of the new coin listings on important crypto exchanges so if that's the thing you want to play, it will pay off to follow this aggregator. The website provides email alerts if you sign up and the information is community-driven.
+
+
+#### Portfolio tracking
+
+{% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
+
+
+There are several options to track the value of your cryptocurrency portfolio. The most common ones track against the fiat value of crypto but there have been some talks on r/bitcoinmarkets about adding more features for crypto traders who are interested in increasing their BTC or ETH stash rather than to monitor the fiat value of their crypto.
+
+**There are some privacy risks associated with the use of these third party apps, especially of you need an email to sign up. You should not use your standard email address to sign up for these, and also not the one you use on any exchange.**
+
+* The [Blockfolio](https://www.blockfolio.com/) app is almost legendary at this point - the most popular smartphone app for portfolio value tracking. It is worth pointing out there was no ICO and no expensive marketing to get Blockfolio to this place. It has basic charting and newsfeed, it supports major fiat currencies and it gives you price alerts.
+* [Coinloop](https://coinloop.io/) is a webapp that tracks cryptocurrencies against USD for now. There are some basic news and an event calendar but for traders the most valuable functionalities are the AI signals provided on Coinloop [with optional alerts](https://www.reddit.com/r/BitcoinMarkets/comments/7zcbqb/you_can_now_get_alerts_as_soon_as_we_generate_a/) and also the tracking of [CME and CBOE Bitcoin futures](https://coinloop.io/futures). [Here a few words from the author and tips on how to use Coinloop most effectively](/coinloop).
+* [Moonitor](https://moonitor.io/) is a desktop app developed by an enthusiast who posts to Reddit as [u/kumakote](https://www.reddit.com/user/kumakote). It is an electron app (the technology you know from Jaxx desktop client) and the biggest advantage of this approach is the potential user privacy. With smartphone apps or web apps your data are invariably stored on a remote server somewhere. That means the owner of the website has not only the aggregate information about what people on the market hold, buy and sell but also the portfolio value of your email address or your phone's ID information. With desktop app the information stays on your computer unless there is some kind of script that sends this information away. I am pointing this out because I have not reviewed the code so this is always a possibility.
+
+
+#### Orderbook monitoring
+
+{% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
+
+* [TensorCharts](https://tensorcharts.com) are the webapp with orderbook heatmap and segmented candlesticks for a bunch of markets of Bitfinex, BitMEX, Bitstamp and GDAX. Great tool for your short time trades or for picking your entries and exits at the 5M chart because with the heatmap you get to see at the first glance where the big aggregates of orders are stacked. [Read more about TensorCharts](/tensorcharts)
+* [GDAX Whales](http://whales.cracklord.com/) is someone's hosted version of [this python code](https://github.com/pmaji/eth_python_tracker/) that was originally written to track big orders in the ETH market on GDAX.
+* [DataMish](datamish.com) is a Grafana dashboard with lending data from Bitfinex - shorts vs longs for BTC, ETH, BCH and LTC markets on finex. It is basically a more stable version of [bfxdata](https://bfxdata.com), if that has been getting cranky for you as well.
+
+
+#### Social media sentiment
+
+* [sentimnt.io](https://sentimnt.io/) is a simple one-glance tool that measures Reddit post and comment sentiment for major cryptocurrencies. You get the total number of mentions, positive and negative percentages and a simple chart plotting the development of the sentiment over time.
+* [AltcoinAnalytics](http://altcoinanalytics.com/) publishes social media analyse reports with data from a Python script that gives you the information about which cryptocurrencies and ICOs are getting most attention - positive and negative. You get free primers but the full analyses are paid. Primer on NEO from October 2017 with brief explanations [here on altcointrading.net](/altcoin-analytics-primer-neo).
+
+#### Market KPI Monitoring
+
+* [CoinLib](https://coinlib.io/) is pretty much [CoinMarketCap](https://coinmarketcap.com) updated in real time. One interesting and unique tool is the [best price explorer](https://coinlib.io/best-price-explorer) that will scan arbitrage opportunities for you and find the cheapes path to get your selected cryptocurrency.
+* [LiveCoinWatch](https://www.livecoinwatch.com/) is another *CMC but better* with live updates, portfolio tracking and the option to disregard Korean markets which sometimes have a high premium.
+* [Bitgur](https://bitgur.com/) also focuses on market cap and similar traditional performance indicators, whether you believe in them or not. The best value are the [heat maps summarizing the state of the crypto market as a whole](/bitgur).
+* [CryptoCompare](https://www.cryptocompare.com/) is a great data resource with the basics for most cryptocurrencies - if you want to learn the basics such as if a coin is PoW or PoS without the marketing fluff that you usually get on blogs and forums. Another great thing is tracking by exchanges with live updates over multiple important fiat currency segments - such as [markets on Korean exchanges at one page](https://www.cryptocompare.com/coins/list/KRW/1).
+* Moonmath
+* [CoinTrading.ninja](https://cointrading.ninja/correlation) has a correlation matrix of a set of cryptocurrencies. You can customize the coins that you want to track, no user account required. The data gets updated only once a day and the source is CryptoCompare API.
+
+#### Standard Charting
+
+* [CryptoWatch](https://cryptowat.ch) is the only free charting tool that has been updated regularly, keeps listing new coins and handles a lot of traffic. There was never an ICO, Cryptowatch runs on free and premium plans. The platform [was acquired by Kraken Exchange in 2017](https://www.altcointrading.net/kraken-cryptowatch/) but the free and premium plans were kept as before, the only change was the addition of trade.kraken.com interface - a free portal for Kraken customers to trade from.
+
+
+#### Network stats
+
+There hasn't been a lot of apps that track the network activity of cryptocurrencies even though some traders take into account metrics such as transactions per day, fees, mempool size or transactions per block. AFAIK there is also no tool to track the current production costs of mineable cryptocurrencies around the world.
+
+* [CryptoSignal](https://cryptosign.al/) has been closest to investigating some fundamental metrics for the major cryptocoins. You can plot price development vs metrics like hashrate, transactions per block or fees for BTC and similar kind of fundamental metrics for ETH and whatever applies for other big coins like XRP. [Quick intro to the tool here](/eth-traders-tool/)
+
+
+
+### Also worth reading
+
+* [List of forex trading tools from thebalance.com](https://www.thebalance.com/forex-traders-technical-analysis-tools-4127157)
+* [Basic crypto trading tools from hackernoon.com](https://hackernoon.com/a-short-list-of-tools-i-use-daily-for-crypto-trading-investment-4991ceff55d7)

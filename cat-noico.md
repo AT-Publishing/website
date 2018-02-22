@@ -5,3 +5,18 @@ description: "Featured no-ICO cryptocurrency projects: People who develop a proj
 permalink: /category/no-ico/
 category: "no-ico"
 ---
+
+
+{% assign features = (site.posts | sort: date) | reverse %}
+
+<p><strong>FEATURED</strong></p>
+
+<section class="row columns twelve">
+{% for post in features  %}
+{% if post.categories contains page.category %}
+{% if post.categories contains "featured" %}
+  {% include category/updated.html %}
+  {% endif %}
+  {% endif %}
+{% endfor %}
+</section>
