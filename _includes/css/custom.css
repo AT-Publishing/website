@@ -27,3 +27,23 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
     text-align: center;
     margin: 0 auto;
 }
+
+.sidebar-nl {
+  background: #ffdc00;
+  color: #001f3f;
+  display: block;
+  padding: 20px;
+  font-family: "Courier New";
+  font-size: 12px;
+  line-height: 1;
+}
+.sidebar-nl li {
+  list-style-type: none;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.sidebar-nl .optin {
+  font-weight: 800;
+    background: white;
+    padding: 5px 9px;
+}

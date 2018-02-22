@@ -79,29 +79,6 @@ navi:
       </div>
 
 
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      <script type="text/javascript">
-      $(document).ready(function($) {
-
-      	$.get("https://api.teletext.io/api/v1/geo-ip", function(response) {
-      		var country = response["alpha2"];
-        	console.log(country);
-      		// ZA, IN, KR
-      		if ( country == 'US' ) {
-      			$("#nous").addClass("hidden");
-      		} else {
-      			$("#nous").addClass("visible");
-      		}
-      	});
-
-
-      });
-      </script>
-      <!-- SLOT 3 -->
-      <p>{{ site.affop.system }}</p>
-
-
-
       {% for post in paginator.posts offset:4  %}
 
         <div class="row home-latest"  id="gtm-latest">
@@ -151,6 +128,31 @@ navi:
         <span class="next ">Next >></span>
       {% endif %}
     </div>
+
+
+    </section>
+
+    <section>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+      $(document).ready(function($) {
+
+      	$.get("https://api.teletext.io/api/v1/geo-ip", function(response) {
+      		var country = response["alpha2"];
+        	console.log(country);
+      		// ZA, IN, KR
+      		if ( country == 'US' ) {
+      			$("#nous").addClass("hidden");
+      		} else {
+      			$("#nous").addClass("visible");
+      		}
+      	});
+
+
+      });
+      </script>
+      <!-- SLOT 3 -->
+      <p>{{ site.affop.system }}</p>
 
 
     </section>
