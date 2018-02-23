@@ -6,40 +6,28 @@ permalink: /airdrops/
 date: 2018-01-31 07:07:00 +0100
 ---
 
-> Note: Never give away your private keys.
+## Crypto Airdrops in 2018
 
-<p>{{site.ledger_728-90_animated}}</p>
+This is our section for upcoming cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
-#### Upcoming Airdrops
+<h3 class="posh">Airdrops in March 2018</h3>
 
-### 2018
+{% include nextmonth-airdrops.html %}
 
-**ETC holders will receive Callisto tokens in March 2018**
-
-* [announcement](https://forum.ethereumclassic.org/t/january-dev-update-commonwealth/404/27)
-* [price tracking on tradingview](https://www.tradingview.com/chart/ETCUSDT/z8KYoRPJ-ETC-Hard-Fork-Air-Drop-coming-medium/)
-
-Callisto (CTO) is an off-chain solution to ETC scaling. All ETC holders who own their private keys will receive the CTO tokens. The fork will happen on block number 5500000 (approximately 5 March, 2018).
-
-
-**XMR holders will receive XMV in March 2018**
-
-* [XMV subbreddit](https://www.reddit.com/r/MoneroV/)
-* [homepage monerov.org](https://monerov.org/)
-
-At the block 1529810 (probably around 14 March 2018) of the XMR chain holders of the XMR with access to their private keys will receive a forked coin called MoneroV in the ratio of 1 XMR : 10 XMV. [Read this article for Monero wallets where you can store your XMR pre-fork](/monero-wallet/).
-
-MoneroV is supposed to be focused on scaling and privacy, it should have lower transaction fees and MimbleWimble integration.
-
-It is not clear yet which exchanges will support XMV. There is one controversial thing, [the chain replication compromises the XMR transaction privacy](https://www.reddit.com/r/MoneroV/comments/7x9mja/monerov_airdrop_automatic/du6pdki/), not only for the user who claims the forked coins but also for people who the user transacted with.  
-
-**Litecoin fork/airdrop rumors**
-
-[Charlie Lee said on Twitter](https://twitter.com/SatoshiLite/status/960197866546282496) the rumored LTC fork or airdrop is a scam.
-
-#### Airdrops for February 2018
+<h3 class="posh">Airdrops in February 2018</h3>
 
 {% include thismonth-airdrops.html %}
+
+
+
+> Airdrop Archive
+
+We archive all airdrops published on altcointrading.net, if we ever promoted a scam anyone will be able to call us out. **Interested in publishing your airdrop?** Head to our [contact page](/contact/).
+
+<a href="/airdrop-archive/" class="button">Archive of Past Airdrops</a>
+
+<div class="clearfix"></div>
+
 
 <div class="clearfix">
 <amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
@@ -47,173 +35,3 @@ src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img 
 </div>
 
 <div class="clearfix"></div>
-
-### Past Airdrops
-
-* There will be no more Stellar Lumen distributions to BTC or XRP holders.
-* There will be no more OMG distributions to ETH holders.
-
-
-#### January 2018
-
-<table class="airdrops">
-  <tr>
-    <th>Name</th>
-    <th>Date</th>
-    <th>How to access</th>
-    <th>Official URL</th>
-    <th>Additional Info</th>
-  </tr>
-
-  <tr>
-    <td>ELF</td>
-    <td>Dec 31 - launch Jan 1 2018</td>
-    <td>ELF tokens will be granted to people who are in ELF Telegram and update their Twitter account. ELF trades on Binance.</td>
-    <td><a rel="nofollow" target="_blank" href="http://aelf.io/?utm_source=altcointradingnet">http://aelf.io/</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2629781.msg26760309#msg26760309">Airdrop info</a></td>
-  </tr>
-
-
-  <tr>
-    <td>NEX</td>
-    <td>Jan 1 2018, 4:00 GMT -5</td>
-    <td>Novex ERC20 tokens will be given to people who follow Novex Twiter and Telegram accounts.</td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?action=profile;u=1498460">bitcointalk profile</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2654389.0?utm_source=altcointradingnet">Airdrop info</a></td>
-  </tr>
-
-  <tr>
-    <td>SEM</td>
-    <td>Before 25 Feb 2018, claims processed every Sun</td>
-    <td>Airdrop against BTC balances at block height 480000. 1 BTC = 20 SEM. You need to sign your Semux address with your Bitcoin wallet and submit the signature to https://goo.gl/forms/tXh3Gd8Z6LddBw6H2. You also need a SEM address, wallets are <a rel="nofollow" href="https://github.com/semuxproject/semux/releases">on Github</a>.</td>
-    <td><a rel="nofollow" target="_blank" href="https://www.semux.org/">semux.org</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2159012.0?utm_source=altcointradingnet">Bitcointalk</a></td>
-  </tr>
-
-  <tr>
-    <td>Bitcore</td>
-    <td>Nov 2 but claiming is still open</td>
-    <td>It involves sharing your private key so do it securely.</td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcore.cc/?utm_source=altcointradingnet">https://bitcore.cc/</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://steemit.com/crypto-news/@xwerk/bitcore-btx-guide-the-2nd-snapshot-for-btc-hodlers-free-btx-or-how-it-works?utm_source=altcointradingnet">Steemit Guide on claiming</a></td>
-  </tr>
-
-
-</table>
-
-
-#### December 2017 Crypto Airdrops
-
-<table class="airdrops">
-  <tr>
-    <th>Name</th>
-    <th>Date</th>
-    <th>How to access</th>
-    <th>Official URL</th>
-    <th>Additional Info</th>
-  </tr>
-  <tr>
-    <td>Daneel</td>
-    <td>Nov 20 - Dec 4</td>
-    <td>Daneel (AI portfolio management token) is giving out 50 tokens if you sign-up.</td>
-    <td><a rel="nofollow" target="_blank" href="https://daneel.io/ico/signup">daneel.io/ico/signup</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://daneel.io/">daneel.io</a></td>
-  </tr>
-  <tr>
-    <td>Bitcoin Platinum</td>
-    <td>before Dec 12 (block 498533)</td>
-    <td>[BTC holders get forked coin] Equihash Bitcoin fork with SehWit2x, GPU mining and difficulty adjustment every block (basically BTG2x).</td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcoinplatinum.github.io/">Github</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcoinplatinum.github.io/hardfork.html">bitcoinplatinum.github.io</a></td>
-  </tr>
-  <tr>
-    <td>Bitcoin Super</td>
-    <td>before Dec 17 (block 498888)</td>
-    <td>[BTC holders get forked coin] Experimental Bitcoin fork with smart contracts, LN, zero-knowledge proof and bigger blocks.</td>
-    <td><a rel="nofollow" target="_blank" href="http://supersmartbitcoin.com/">supersmartbitcoin.com</a></td>
-    <td><a rel="nofollow" target="_blank" href="http://supersmartbitcoin.com/">supersmartbitcoin.com</a></td>
-  </tr>
-  <tr>
-    <td>Bitcoin Cash Plus</td>
-    <td>Public launch 2nd of Jan 2018, fork at block 501407.</td>
-    <td>[BTC holders get forked coin] On-chain scaling, SigHash for better security, EDA.</td>
-    <td><a rel="nofollow" target="_blank" href="http://www.bitcoincashplus.org/">bitcoincashplus.org</a></td>
-    <td><a rel="nofollow" target="_blank" href="http://www.bitcoincashplus.org/">bitcoincashplus.org</a></td>
-  </tr>
-</table>
-
-#### November 2017 Crypto Airdrops
-
-<table class="airdrops">
-  <tr>
-    <th>Name</th>
-    <th>Date</th>
-    <th>How to access</th>
-    <th>Official URL</th>
-    <th>Additional Info</th>
-  </tr>
-  <tr>
-    <td>AltCom Extra Airdrop</td>
-    <td>November 1</td>
-    <td>To receive an Airdrop you must put in your receiving address somewhere on your Bitcointalk account details or your ALTCOM forum account.</td>
-    <td><a rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2105778">bitcointalk.org</a></td>
-    <td><a rel="nofollow" target="_blank" href="https://twitter.com/AltComCoin/status/923523496692592640">On Twitter</a></td>
-  </tr>
-  <tr>
-    <td>Byteball Airdrop</td>
-    <td>November 4 05:23 UTC -- Full Moon</td>
-    <td>Have BTC in a non-segwit address, have GBYTE in your wallet.</td>
-    <td><a rel="nofollow" target="_blank" href="https://byteball.org/">byteball.org</a></td>
-    <td>16 BTC = +0.1 GB, 1 GB = +0.1 GB.
-      <a target="_blank" href="https://www.altcointrading.net/byteball#about-byteball">More about GBYTE.</a></td>
-  </tr>
-  <tr>
-    <td>Bitcoin 2x Fork</td>
-    <td>November 2017 at block 494,784.</td>
-    <td>Have BTC in a wallet where you control private keys.</td>
-    <td><a rel="nofollow" target="_blank" href="https://segwit2x.github.io/segwit2x-announce.html">Official announcement on Github</a></td>
-    <td><a rel="nofollow" target="_blank" href="http://bashco.github.io/2x_Countdown/">Countdown on Github</a>.
-      <a rel="nofollow" target="_blank" href="https://medium.com/@jimmysong/segwit2x-what-you-need-to-know-about-the-2mb-hard-fork-27749e1544ce"></a>Jimmy Song's What you need to know about SegWit2x.</td>
-  </tr>
-</table>
-
-
-#### October 2017 Crypto Airdrops
-
-<table class="airdrops">
-  <tr>
-    <th>Name</th>
-    <th>Date</th>
-    <th>How to access</th>
-    <th>Official URL</th>
-    <th>Additional Info</th>
-  </tr>
-  <tr>
-    <td>PowToken Airdrop</td>
-    <td>October 3, 2017</td>
-    <td>Sign up with FB at powtoken.com</td>
-    <td><a rel="nofollow" target="_blank" href="http://www.powtoken.com/">powtoken.com</a></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>Xenon Airdrop</td>
-    <td>October 4-6, 2017</td>
-    <td>Have ETH in MyEtherWallet</td>
-    <td>-</td>
-    <td>For ETH holders with more than 0.1 ETH</td>
-  </tr>
-  <tr>
-    <td>Helium Airdrop</td>
-    <td>October 9, 2017, 9 PM UTC</td>
-    <td>Spreadcoin holders on Bittrex and Cryptopia</td>
-    <td><a rel="nofollow" target="_blank" href="https://heliumpay.com/">heliumpay.com</a></td>
-    <td>Helium is going to be distributed to Spreadcoin holders with snapshot on October 10 at 10AM NZ local time (Monday October 9, 9 PM UTC). You are eligible if you have Spreadcoin in your local Spreadcoin wallet or on Cryptopia, not on Bittrex.</td>
-  </tr>
-  <tr>
-    <td>Bitcoin Gold Fork</td>
-    <td>October 25, 2017</td>
-    <td>Bitcoin holders in wallets where they control seeds, Bitcoin holders on Coincheck</td>
-    <td><a rel="nofollow" target="_blank" href="http://btcgpu.org/">btcgpu.org</a></td>
-    <td>Bitcoin Gold (BTG) is a friendly BTC fork on October 25. Holders of BTC get the dividend. <a rel="nofollow" target="_blank" href="https://pastebin.com/raw/8kz6B57D">Japanese exchange CoinCheck will distribute BTG tokens to BTC holders.</a></td>
-  </tr>
-</table>

@@ -47,3 +47,15 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
     background: white;
     padding: 5px 9px;
 }
+
+.maincontent table.airdrops th:nth-of-type(3){width:300px}
+.maincontent h3.posh {
+    margin-top: 0;
+    background: none;
+    color: #01101f;
+    padding: 5px 10px 3px;
+    margin-left: -10px;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid #fddc33;
+}

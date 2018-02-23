@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About & Privacy Policy
-permalink: /about/
+permalink: /about-privacy/
 tags:
 - hidden
 navi:
