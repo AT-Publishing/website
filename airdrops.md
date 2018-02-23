@@ -1,9 +1,11 @@
 ---
 layout: page
+image: ["/editorial/tagged/altcointrading-crowd.png"]
+
 title: Upcoming Airdrops and Giveaways
-description: "For cryptocurrency holders or for as little as an early signup."
+description: "Crypto airdrops for coin holders or for as little as an early signup."
 permalink: /airdrops/
-date: 2018-01-31 07:07:00 +0100
+date: 2018-02-23 15:07:00 +0100
 ---
 
 ## Crypto Airdrops in 2018
