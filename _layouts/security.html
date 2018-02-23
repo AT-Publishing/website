@@ -13,13 +13,15 @@ layout: default-news
        {{ site.ledger_728-90_animated }}
      </div>
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
+
+
        <span id="note">
          {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
          Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
        </span>
        <h4 class="post post-main">
           <strong>
-            {{ page.title }}
+            {{ page.title }}  {% if page.guest %}<small class="guest"> - Guest post by {{ page.author_name }}</small>{% endif %}
           </strong>
         </h4>
         <br>
@@ -38,9 +40,6 @@ layout: default-news
             </em>
           </p>
           <hr>
-          <div>
-            {{ site.ads.aads728 }}
-          </div>
           <div class="securitycontent">
             {{ content }}
           </div>
@@ -51,50 +50,19 @@ layout: default-news
             </strong>
           </div>
           <hr>
-          <p>
-            <em>
-              Join our Telegram group: <a target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
-            </em>
 
-          </p>
+          <div class="">
+            {% include dogeshare.html %}
+          </div>
+
           <p>
-            <hr>
-            <ul class="social">
-              <li>
-                <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
-                  <i class="fa fa-facebook-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
-                  <i class="fa fa-twitter-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Google Plus" target="_blank">
-                  <i class="fa fa-google-plus-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.xing.com/social_plugins/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Xing" target="_blank">
-                  <i class="fa fa-xing-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
-                  <i class="fa fa-linkedin-square"></i>
-                </a>
-              </li>
-            </ul>
-            <hr>
+
             {% if page.stories %}
             <p>
               <a target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
             </p>
             {% endif %}
-            <p>
-              <a href="mailto:info@altcointrading.net">Report typo or misinformation</a>
-            </p>
+
           </p>
 
           {% if page.comments %}
