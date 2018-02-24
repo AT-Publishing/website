@@ -21,7 +21,7 @@ genres: Blog
 german: false
 tickers: false
 
-title: "Update for 2018: Smaller cryptocurrency exchanges for trading"
+title: "New cryptocurrency exchanges for trading in 2018"
 description: "Added Kucoin. Find new emerging cryptocurrency exchanges for your altcoin trading in 2018 (and avoid potential drama)."
 
 permalink: "/exchanges-2018"
