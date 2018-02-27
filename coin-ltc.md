@@ -1,5 +1,7 @@
 ---
 layout: coin
+published: false
+
 title: ltc
 description: "All altcoin trading posts about LTC, Litecoin trading, Litecoin news."
 permalink: /coin/ltc/

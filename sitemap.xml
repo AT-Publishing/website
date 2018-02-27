@@ -18,11 +18,7 @@ navi:
     <url>
       <loc>https://www.altcointrading.net/coupon-kucoin/</loc>
     </url>
-    <url>
-      <loc>https://www.altcointrading.net/coupon-bitfinex-5egV78YtlC/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitfinex-5egv78ytlc/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitfinex-5egv78ytlc/"/>
-    </url>
+    
     <url>
       <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
@@ -33,21 +29,7 @@ navi:
       <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
       <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-coinmama-fny3000/"/>
     </url>
-    <url>
-      <loc>https://www.altcointrading.net/coin/dash/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/dash/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/dash/"/>
-    </url>
-    <url>
-      <loc>https://www.altcointrading.net/coin/eth/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/eth/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/eth/"/>
-    </url>
-    <url>
-      <loc>https://www.altcointrading.net/coin/xmr/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coin/xmr/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/coin/xmr/"/>
-    </url>
+
     {% for page in site.pages %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>

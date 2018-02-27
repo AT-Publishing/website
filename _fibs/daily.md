@@ -5,7 +5,7 @@ update: 2018-02-05 19:09:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
-description: "Current Fibonacci levels and comments for selected markets on Bitfinex."
+description: "Current Fibonacci levels and commentary for selected markets on Bitfinex."
 
 note: 'Technical Analysis'
 
@@ -14,22 +14,23 @@ tags: ['fibs', 'crypto-trading', 'technical-analysis', 'fibonacci-retracement']
 
 name: "daily/"
 
-image: ["/editorial/tagged/fear.png"]
+image: ["/editorial/tagged/market-leader.png"]
 
 dollars:
-- { market: "ETHUSD", chart: "/fibs/ethusd.png", comment: "Everybody is watching that inverted head and shoulders that could be a possible bottom but the truth is if the horizontal range on the ETH top is a distribution, a recovery now should reverse at around 1k USD and head back down." }
-- { market: "BTCUSD", chart: "/fibs/btcusd.png", comment: "There are bullish divergences on shorter timeframes but hidden bearish divergence on a 1D chart with RSI. The situation is similar to ETH, at this point in crypto markets there is still the situation where cryptocurrencies move rather together (as stocks)." }
+- { market: "BTCUSD", chart: "/fibs/btcusd.jpg", comment: "The bullish action at $BTCUSD looks like possibly a second attempt to break to high-volume resistance around 11.5k USD (on the chart coinciding with the blue rectangle drawn from previous fibs). If this is successful, a lot of traders will scream iH&S which, if played out, would have a target somewhere over 16k USD. If you follow datamish.com you probably notices how in the recent days rapid increases in shorts didn't move the market much anymore, therefore there must be some demand already." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.jpg", comment: "On the Bitfinex chart, $ETHUSD is just breaking out of the downtrend (yellow dotted trendline). There is some resistance upcoming - a current fib coincides with kumo top and and a previous support-turned-resistance (yellow dotted horizontal line). This area around 990 USD is a key one for now. " }
+
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.png", comment: "Nothing changed here this week, not even with that massive sell volume. Bbands are still tightening." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.jpg", comment: "For now, the short term, ETH is more in the consolidation phase than BTC which is attempting a surge at the moment. The ratio will therefore not be very bullish. It bounced down off a fib but overall the short play seems to be almost over too. There is still a lot of longs in $ETHBTC although a massive amount closed couple days ago (on Bitfinex)." }
 ---
 
 
 > Cryptocurrency Price Action Comments
 
-* Bitfinex will build a decentralized exchange based on EOS - [EOSfinex](https://medium.com/bitfinex/announcing-eosfinex-69eea273369f) will be an addition to Ethfinex which is the DEX built on ETH.
-* Ethfinex has a maker loyalty program btw. You can earn your stake in it - more [here](https://www.ethfinex.com/fees).
-* People are [overwhelmingly margin long everything](https://datamish.com).
+* Currently on EthFinex - verified users can make Nectar ERC20 tokens for market making (limit orders) - [more here](https://support.ethfinex.com/hc/en-us/articles/115002549332-Nectar-Token-FAQ)
+* [VechainTHOR rebranding news](https://www.reddit.com/r/AltcoinTrader/comments/80fiji/vechainthor_rebranding_bmw_bitocean_tokyo_dnv_gl/)
+* [Circle acquired Poloniex](/circle-poloniex/) and plans many changes
 
 > Other
 
-* [Article about divergences](/divergences/)
+* Bitfinex is building a DEX on EOS - [EOSfinex](https://medium.com/bitfinex/announcing-eosfinex-69eea273369f)

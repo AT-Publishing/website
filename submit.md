@@ -12,21 +12,14 @@ image_alt:
 
 __________________________
 
-Use the following form if you want to submit a news idea or source, if you are making an altcoin and are planning to do a distribution (**airdrop**) that you want featured or if you want to publish a **press release**.
+Use [this Typeform](https://jmt3.typeform.com/to/sWypuE) if you want to submit a news idea or source. **If you add your crypto addresses they will be published with the post** from your source so that readers can reward you if they find the info valuable.
 
-If the form below doesn't work, shoot your email to `jmt@altcointrading.net`. You can also talk to us on [Telegram](https://t.me/altcointrading_net).
+If you are making an altcoin and are planning to do a distribution (**airdrop**) that you want featured [use this form](https://jmt3.typeform.com/to/fOiSfP) and if you want to publish a **press release** [go here]().
 
-<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+If you prefer, you can also shoot an email to `jmt@altcointrading.net`.
 
-
-__________________________
-
-
-
-<div class="mailchimpfix">
-<amp-iframe width="700px" height="500px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-src="https://astronomer-julia-20385.netlify.com/submit.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
-</div>
-
-
-__________________________
+<a class="button" href="https://jmt3.typeform.com/to/fOiSfP" target="_blank">Airdrops</a>
+&nbsp;
+<a class="button" href="https://jmt3.typeform.com/to/eXvdSo" target="_blank">Press Realases</a>
+&nbsp;
+<a class="button" href="https://jmt3.typeform.com/to/sWypuE" target="_blank">Ideas</a>

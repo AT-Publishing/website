@@ -1,5 +1,7 @@
 ---
 layout: coin
+published: false
+
 title: xmr
 description: "All altcoin trading posts about Monero, XMR trading, XMR hodling."
 permalink: /coin/xmr/

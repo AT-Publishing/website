@@ -23,6 +23,7 @@ tags: []
 
 {{ site.mailchimp }}
 
+
 Congratulations to everyone who was faster than a regular American's spermatozoon and got into the BAT presale.
 
 For everyone else, here's where you can lose some lunch money over it:
@@ -31,8 +32,7 @@ https://liqui.io/#/exchange/BAT_ETH
 
 The BAT ICO was so hyped that the Ethereum network got congested and the sale was finished right in its first block. Some people got in by sending the transaction couple of blocks beforehand, counting on the congestion - but not all of them. It was a hit or miss. The miners gave preference to the chunky transactions, that means, the whales.
 
-That's how the distribution of the token became so much "the rich are getting richer". Plebs who just wanted in with 1 ETH didn't stand a chance.
+That's how the distribution of the token became so much "the rich are getting richer". Plebs who just wanted in with 1 ETH [didn't stand a chance](https://pbs.twimg.com/media/DBKavddU0AA4T3r.jpg).
 
-<p><img src="https://pbs.twimg.com/media/DBKavddU0AA4T3r.jpg" style="max-width:100%"></p>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hilarious <a href="https://twitter.com/search?q=%24BAT&amp;src=ctag">$BAT</a> <a href="https://t.co/qMp5Y9JqjI">pic.twitter.com/qMp5Y9JqjI</a></p>&mdash; Angelo฿TC (@AngeloBTC) <a href="https://twitter.com/AngeloBTC/status/869927821463797760">May 31, 2017</a></blockquote>

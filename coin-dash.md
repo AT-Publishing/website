@@ -1,5 +1,6 @@
 ---
 layout: coin
+published: false
 title: dash
 description: "All altcoin trading posts about DASH, Dash trading, DASH hodling."
 permalink: /coin/dash/

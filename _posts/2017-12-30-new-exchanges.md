@@ -1,5 +1,6 @@
 ---
 layout: review
+guide: true
 
 published: true
 
