@@ -21,11 +21,13 @@ This is our section for upcoming cryptocurrency airdrops, published in sections 
 
 <h3 class="posh">Airdrops in March 2018</h3>
 
+{% include thismonth-airdrops.html %}
+
+<h3 class="posh">Airdrops in April 2018</h3>
+
 {% include nextmonth-airdrops.html %}
 
-<h3 class="posh">Airdrops in February 2018</h3>
 
-{% include thismonth-airdrops.html %}
 
 
 
