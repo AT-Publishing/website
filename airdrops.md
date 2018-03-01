@@ -2,13 +2,11 @@
 layout: page
 image: ["/editorial/tagged/altcointrading-crowd.png"]
 
-title: Upcoming Airdrops and Giveaways
+title: "Upcoming Airdrops and Giveaways (March 2018, April 2018)"
 description: "Crypto airdrops for coin holders or for as little as an early signup."
 permalink: /airdrops/
 date: 2018-02-23 15:07:00 +0100
 ---
-
-___________
 
 
 **Get email alerts about new airdrops** - [subscribe here](http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c) and choose *Updates on the Airdrops page*
@@ -21,13 +19,19 @@ This is our section for upcoming cryptocurrency airdrops, published in sections 
 
 <h3 class="posh">Airdrops in March 2018</h3>
 
+<div id="gtm-thismonth-airdrops">
+
 {% include thismonth-airdrops.html %}
+
+</div>
 
 <h3 class="posh">Airdrops in April 2018</h3>
 
+<div id="gtm-nextmonth-airdrops">
+
 {% include nextmonth-airdrops.html %}
 
-
+</div>
 
 
 
