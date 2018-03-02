@@ -7,6 +7,10 @@ permalink: /guides/
 
 <p>{{ site.ads.binance728 }}</p>
 
+<hr>
+Join <a target="_blank" href="https://plus.google.com/b/118152650417780550154/communities/115259878580948161888">our community on Google+</a> for more basics and trading guides from all around the web.
+</hr>
+
 
 {% assign items = (site.posts | sort: date) | reverse %}
 {% for post in items  %}
