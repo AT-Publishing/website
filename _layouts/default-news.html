@@ -5,6 +5,32 @@
 
   <!-- Cointraffic -->
   <script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>
+  <!-- optin form -->
+  <amp-user-notification
+      layout="nodisplay"
+      id="amp-altcointrading-newsletter">
+
+      <div class="row">
+        <div class="columns ten">
+          <strong>Subscribe to AT.net - YMMV</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+          / All blog and news updates&nbsp;
+          / Strategy and Security ONLY&nbsp;
+          / Airdrops ONLY&nbsp;&nbsp;
+          <a target="_blank" href="http://eepurl.com/cOgd6P" class="optin">Take me to opt-in</a>
+          <button on="tap:amp-altcointrading-newsletter.dismiss">Sod off forever</button>
+        </div>
+        <div class="columns two">
+          <a target="_blank" href="http://eepurl.com/cOgd6P">
+          <amp-img itemprop="image" alt="Altcoin Trading Newsletter"
+          src="/cta/atnet_qr.png"
+          layout="fixed"
+          data-original-width="528px" data-original-height="528px"
+          width="50px" height="50px"></amp-img>
+          </a>
+        </div>
+      </div>
+
+  </amp-user-notification>
 
 {% include header.html %}
 {{ content }}

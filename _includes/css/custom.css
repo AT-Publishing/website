@@ -28,7 +28,21 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
     margin: 0 auto;
 }
 
-.sidebar-nl {
+amp-user-notification {
+  top: 0;
+  bottom:auto;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+}
+amp-user-notification.amp-hidden {
+  top: -250px;
+}
+amp-user-notification.amp-active {
+  transition:all 500ms ease;
+}
+
+.sidebar-nl, amp-user-notification > div {
   background: #ffdc00;
   color: #001f3f;
   display: block;
@@ -37,16 +51,23 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
   font-size: 12px;
   line-height: 1;
 }
+
+amp-user-notification > div {padding: 0;}
+amp-user-notification > div > div:first-of-type {padding: 6px 0 0 70px;}
+amp-user-notification > div > div:last-of-type {padding: 2px 0 0}
+
 .sidebar-nl li {
   list-style-type: none;
   line-height: 1;
   margin-bottom: 0;
 }
-.sidebar-nl .optin {
+.sidebar-nl .optin, amp-user-notification > div .optin {
   font-weight: 800;
     background: white;
     padding: 5px 9px;
+  line-height: 1.5;
 }
+amp-user-notification > div button {border: none;}
 
 .maincontent table.airdrops th:nth-of-type(3){width:300px}
 .maincontent h3.posh {
@@ -58,4 +79,35 @@ h3.cat-post{background: transparent;color: #403f4e;text-transform: uppercase;fon
     font-size: 3.3rem;
     text-transform: uppercase;
     border-bottom: 5px solid #fddc33;
+}
+
+.alt-langs > a {
+  background-color: #001f3f;
+  color: white;
+  padding: 3px 19px;
+  display: inline-block;
+  margin-right: -12px;
+}
+.alt-langs > a.alt-de {
+  background-color: #001f3f;
+}
+.alt-langs > a.alt-cs {
+  background-color: #CDDC39;
+}
+
+.amp-social-share-facebook,
+.amp-social-share-twitter,
+.amp-social-share-linkedin,
+.amp-social-share-whatsapp,
+.amp-social-share-gplus,
+amp-social-share[type="facebookmessenger"] {
+    background-color: #696d72;
+    border-radius: 50%;
+    margin-right: -5px;
+}
+
+amp-social-share[type="facebookmessenger"] {
+    background-image: url(/img/facebook-messenger.png);
+    filter: grayscale();
+    background-size: contain;
 }

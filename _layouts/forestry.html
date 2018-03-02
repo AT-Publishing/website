@@ -22,10 +22,10 @@ layout: default-news
             {{ page.title }}
           </strong>
         </h4>
-        <div>
-        {% if page.german %}<a href="https://de.altcointrading.net/{{page.german}}">[DE]</a>{% endif %}
+        <div class="alt-langs">
+        {% if page.german %}<a class="alt-de" href="https://de.altcointrading.net/{{page.german}}">[DE]</a>{% endif %}
         &nbsp;
-        {% if page.cz %}<a href="https://altcointrading.cz/{{page.cz}}/">[CZ]</a>{% endif %}
+        {% if page.cz %}<a class="alt-cs" href="https://altcointrading.cz/{{page.cz}}/">[CZ]</a>{% endif %}
         &nbsp;
         </div>
         <br>

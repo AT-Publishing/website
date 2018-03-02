@@ -1,25 +1,26 @@
 <span class="doge-share"></span>
 <span class="share-cta">PLZ SHARE THIS POST</span>
 <ul class="social share">
-  <li>
-    <a id="gtm-fbshare" title="Share {{ page.title }} on Facebook" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Facebook" target="_blank">
-      <i class="fa fa-facebook-square"></i>
-    </a>
+  <li id="gtm-fbshare">
+    <amp-social-share type="facebook" width="40" height="40"></amp-social-share>
+  </li>
+  <li id="gtm-twittershare">
+    <amp-social-share type="twitter" width="40" height="40"></amp-social-share>
+  </li>
+  <li id="gtm-linkedinshare">
+    <amp-social-share type="linkedin" width="40" height="40"></amp-social-share>
   </li>
   <li>
-    <a id="gtm-twittershare" title="Share {{ page.title }} on Twitter" href="https://twitter.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Twitter" target="_blank">
-      <i class="fa fa-twitter-square"></i>
-    </a>
+    <amp-social-share type="whatsapp" width="40" height="40"></amp-social-share>
   </li>
   <li>
-    <a id="gtm-linkedinshare" title="Share {{ page.title }} on Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" title="Linkedin" target="_blank">
-      <i class="fa fa-linkedin-square"></i>
-    </a>
+    <amp-social-share type="gplus" width="40" height="40"></amp-social-share>
   </li>
   <li>
-    <a id="gtm-redditshare" title="Share {{ page.title }} on Reddit" href="http://www.reddit.com/submit?url={{site.url}}{{site.baseurl}}{{page.url}}&title={{page.title}}" title="Reddit" target="_blank">
-      <i class="fa fa-reddit-square"></i>
-    </a>
+    <amp-social-share type="facebookmessenger" width="40" height="40"
+        data-share-endpoint="fb-messenger://share"
+        data-param-text="Check out this article -> {{ page.title }} at {{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    </amp-social-share>
   </li>
 
 </ul>
