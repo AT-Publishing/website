@@ -10,10 +10,12 @@ navi:
 
 About **altcointrading.net**
 
-Contact:
+**Contact**
 
-Love & Hate: info@altcointrading.net<br>
+General: info@altcointrading.net<br>
 Business: jmt@altcointrading.net
+
+Use the "Author" link below each post to contact author directly.
 
 ______________________________
 
@@ -27,10 +29,19 @@ Even if you didn't buy your bitcoins early there is still plenty of opportunitie
 ______________________________
 
 
-Full disclosure
+**Full disclosure**
 
 We sometimes (not always) use affiliate links. We do not use affiliate links on products belonging to companies that we work for on a professional basis. We also don't mask referral links - what you see is what you get.
 
+
+______________________________
+
+**Images and Icons Credits**
+
+* Featured images (articles, pages, strategy, security): [pexels.com](https://pexels.com), edit: [venngage.com](https://venngage.com)
+* Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
+* Teasers and CTAs: [canva](https://canva.com)
+* Icons: [Font Awesome](https://fontawesome.com/)
 
 ______________________________
 
