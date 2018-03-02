@@ -2,6 +2,9 @@
 
 {% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
+<link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% unless page.title %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net">{% endunless %}
