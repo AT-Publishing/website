@@ -33,7 +33,7 @@ Market updates - Fibonacci retracement for cryptocurrencies.
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.description | xml_escape }}</description>
 
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <pubDate>{{ post.last_modified_at  | date_to_rfc822 }}</pubDate>
 
         {% if post.author_name %}<author>{{ post.author_name }}@altcointrading.net</author>{% else %}<author>info@altcointrading.net</author>{% endif %}
         <webmaster>strategy@altcointrading.net</webmaster>

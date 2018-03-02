@@ -1,7 +1,6 @@
 ---
 published: true
 date: 2017-12-27 10:36:00 +0100
-update: 2018-02-05 19:09:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"

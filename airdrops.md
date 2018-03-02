@@ -2,9 +2,11 @@
 layout: page
 image: ["/editorial/tagged/altcointrading-crowd.png"]
 
+permalink: /airdrops/
+cz: "airdropy"
+
 title: "Upcoming Airdrops and Giveaways (March 2018, April 2018)"
 description: "Crypto airdrops for coin holders or for as little as an early signup."
-permalink: /airdrops/
 date: 2018-02-23 15:07:00 +0100
 ---
 

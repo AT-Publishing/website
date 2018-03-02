@@ -18,7 +18,7 @@ navi:
     <url>
       <loc>https://www.altcointrading.net/coupon-kucoin/</loc>
     </url>
-    
+
     <url>
       <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
@@ -34,10 +34,17 @@ navi:
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
-        {% if page.german %}
-        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}"/>
+        
+        {% if page.cz or page.german %}
+        <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
         {% endif %}
+        {% if page.cz %}
+        <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}/"/>
+        {% endif %}
+        {% if page.german %}
+        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}/"/>
+        {% endif %}
+
     </url>
     {% endunless %}{% endfor %}
     {% for page in site.security %}{% unless page.navi.exclude == true %}
