@@ -9,7 +9,8 @@ navi:
 /exchanges/ /category/exchanges/ 301
 /sample-post/ / 301
 /trading-strategies/ /category/trading/ 301
-/about/ /about-privacy/ 301
+/about/ /about-legal/ 301
+/about-privacy/ /about-legal/ 301
 /ta-divergences/ /divergences/ 301
 /monero-cold-storage-2017/ /monero-cold-storage/
 /cryptoloop /coinloop 301

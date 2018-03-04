@@ -1,30 +1,37 @@
 ---
 layout: page
-title: About & Privacy Policy
-permalink: /about-privacy/
+title: About US & Legal
+permalink: /about-legal/
 tags:
 - hidden
 navi:
  exclude: yes
 ---
 
-About **altcointrading.net**
+## About AltcoinTrading.NET
 
-**Contact**
+We are a group of traders and we write for traders. We are not a fast-news website, the aim of AltcoinTrading.NET is to
 
-General: info@altcointrading.net<br>
-Business: jmt@altcointrading.net
+1. publish information and analyses that could be important for our readers' investment decisions
+2. to serve people interested in building a skill
 
-Use the "Author" link below each post to contact author directly.
+For the sake of clarity, we only serve the information on which our readers should form their decision themselves, non of the content we publish constitutes an investment advice or a security advice.
 
-______________________________
 
-{{ site.mailchimp }} We are traders and we write for traders. Even if this website is aimed at altcoin trading, we are bitcoin supporters.
+**Contact Us**
 
-That is why we use bitcoin as the base currency and trade altcoins: to generate more bitcoins.
+ATNET
+4th Floor Edificio Citicenter
+Av. Francisco Solano Lopez 3794
+Asuncion 3794, Paraguay
 
-Even if you didn't buy your bitcoins early there is still plenty of opportunities to get some. People panic-sell, go ahead and chill-buy. That's what this blog is about.
+You are welcome to contact us per email with feedback, questions or offers. If you are interested is submitting an airdrop, a press release or a guest post, [please use the links on our contact page](/contact/).
 
+* General: info@altcointrading.net
+* Business: jmt@altcointrading.net
+* Use the "Author" link below each post to contact author directly.
+
+Even though this website is aimed at altcoin trading, we are bitcoin supporters and you can find us on bitcoin subreddits.
 
 ______________________________
 
