@@ -15,15 +15,17 @@ We are a group of traders and we write for traders. We are not a fast-news websi
 1. publish information and analyses that could be important for our readers' investment decisions
 2. to serve people interested in building a skill
 
-For the sake of clarity, we only serve the information on which our readers should form their decision themselves, non of the content we publish constitutes an investment advice or a security advice.
+For the sake of clarity, we only serve the information on which our readers should form their decision themselves, non of the content we publish constitutes an investment advice or a security advice. [Read our disclaimer](/disclaimer/)
 
 
 **Contact Us**
 
+```
 ATNET
 4th Floor Edificio Citicenter
 Av. Francisco Solano Lopez 3794
 Asuncion 3794, Paraguay
+```
 
 You are welcome to contact us per email with feedback, questions or offers. If you are interested is submitting an airdrop, a press release or a guest post, [please use the links on our contact page](/contact/).
 

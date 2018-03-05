@@ -2,6 +2,9 @@
 published: true
 guest: false
 
+ampreddit: true
+amptwitter: true
+
 date: 2017-11-12 17:12:00 +0700
 update: 2017-11-29 17:26:00 +0700
 
