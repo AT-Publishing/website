@@ -13,6 +13,8 @@ date: 2018-02-23 15:07:00 +0100
 
 **Get email alerts about new airdrops** - [subscribe here](http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c) and choose *Updates on the Airdrops page*
 
+...or **follow our [Twitter news outlet](https://twitter.com/altcointrading_)** and [Google+ Crypto Airdrops](https://plus.google.com/b/118152650417780550154/collection/kB3JSF) collection
+
 ___________
 
 ## Crypto Airdrops in 2018
