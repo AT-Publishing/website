@@ -21,7 +21,7 @@
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{% if page.title %}AltcoinTrading.net: {{ page.title | markdownify | strip_html | trim | strip_newlines }}{% else %}{{ site.title | strip_html | strip_newlines  }}{% endif %}" />
+<meta property="og:title" content="{% if page.title %}AltcoinTrading.NET | {{ page.title | markdownify | strip_html | trim | strip_newlines }}{% else %}{{ site.title | strip_html | strip_newlines  }}{% endif %}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.title | markdownify | strip_html | trim | strip_newlines }}" />
@@ -43,7 +43,7 @@
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@tradingfanbois" />
-<meta name="twitter:title" content="AltcoinTrading.net: {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta name="twitter:title" content="AltcoinTrading.NET | {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
 <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
 <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
@@ -104,10 +104,8 @@
     "@type": "Thing",
     "name": "{{ page.about.name }}",
     "sameAs": [
-      {% for item in page.about.sameas %}
-      "{{ item }}",
-      {% endfor %}
-    ]
+      {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
+      {% endfor %}]
   },
   {% endif %}
    "publisher": {
@@ -115,9 +113,7 @@
     "name": "AltcoinTrading.net",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg",
-      "width": 75,
-      "height": 90
+      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
     }
   },
   "description": "{{ page.description }}"
@@ -125,7 +121,6 @@
 </script>
 
 <!-- AMP allowed resources -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
 
 

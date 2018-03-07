@@ -50,7 +50,7 @@ ______________________________
 * Featured images (articles, pages, strategy, security): [pexels.com](https://pexels.com), edit: [venngage.com](https://venngage.com)
 * Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
 * Teasers and CTAs: [canva](https://canva.com)
-* Icons: [Font Awesome](https://fontawesome.com/)
+* Icons: Google AMP default set
 
 ______________________________
 

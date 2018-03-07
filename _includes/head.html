@@ -51,7 +51,7 @@
   {% unless page.title %}
   "@type": "WebSite",
   "@id":"#website",
-  "url":"{{ site.url }}{{ site.baseurl}}"
+  "url":"{{ site.url }}{{ site.baseurl}}",
   {% else %}
   "@type": "BlogPosting",
   "mainEntityOfPage":{
@@ -60,20 +60,22 @@
   },
   "headline": "{{ page.title }}",
   {% endunless %}
-  "name": "AltcoinTrading.net",
+  "name": "AltcoinTrading.NET",
   "author": {
     "@type": "Organization",
     "name": "AltcoinTrading.net",
-    "contactPoint": "info@altcointrading.net"
+    "contactPoint": {
+     "@type": "ContactPoint",
+     "contactType": "office",
+     "telephone": "+595 21 620 7326"
+   }
   },
   "publisher": {
     "@type": "Organization",
-    "name": "AltcoinTrading.net",
+    "name": "AltcoinTrading.NET",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg",
-      "width": 90,
-      "height": 75
+      "url": "{{ site.url }}{{ site.baseurl}}/img/logo.jpg"
     }
   },
   "image": {
@@ -81,11 +83,12 @@
     "url": "{{ site.url }}{{ site.baseurl }}/img/emotions/whales.jpg",
     "height": 700,
     "width": 360
-  }
+  },
+  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"
 }
 </script>
 <!-- AMP allowed resources -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i' rel='stylesheet'>
 
 
