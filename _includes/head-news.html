@@ -24,7 +24,7 @@
 <meta property="og:title" content="{% if page.title %}AltcoinTrading.NET | {{ page.title | markdownify | strip_html | trim | strip_newlines }}{% else %}{{ site.title | strip_html | strip_newlines  }}{% endif %}" />
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-<meta property="og:site_name" content="{{ site.title | markdownify | strip_html | trim | strip_newlines }}" />
+<meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
 <meta property="og:image" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}/editorial/fork.jpg{% endif %}" />
 <meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/fork.jpg{% endif %}" />
@@ -42,7 +42,7 @@
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@tradingfanbois" />
+<meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="AltcoinTrading.NET | {{ page.title | markdownify | strip_html | trim | strip_newlines }}" />
 <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
 <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
@@ -74,6 +74,87 @@
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+{% if page.stories %}
+<script type="application/ld+json">
+{
+ "@context":"http:\/\/schema.org",
+ "@type":"Organization",
+ "url":"{{ site.url | xml_escape }}",
+ "sameAs":[
+    "https:\/\/t.me\/altcointrading_net",
+    "https:\/\/reddit.com\/r\/altcointrader",
+    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
+    "https:\/\/twitter.com\/altcointrading_",
+    "https:\/\/medium.com\/cryptolounge",
+    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
+    "https:\/\/www.investfeed.com\/atnet\/overview"
+ ],
+ "@id":"#organization",
+ "name":"AltcoinTrading.NET",
+ "logo":{
+    "@type":"ImageObject",
+    "url":"https://i.imgur.com/IVO8now.png",
+    "width":371,
+    "height":245
+ },
+ "telephone":"+595 21 620 7326",
+ "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
+    "addressLocality":"Asuncion",
+    "addressCountry":"PY",
+    "postalCode":"3794"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context":"http:\/\/schema.org",
+   "@type":"Article",
+   "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#article",
+   "mainEntityOfPage":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}",
+   "publisher":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#organization"
+   },
+   "headline":"{{ page.title | xml_escape }}",
+   "datePublished": "{{ page.date | date_to_xmlschema }}",
+   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "author":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}"
+      }
+   ],
+   "description":"{{ page.description | xml_escape }}",
+   "articleBody":"{{ page.content | xml_escape }}",
+   "isPartOf":{
+      "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#webpage"
+   },
+   "image":[
+     {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
+     {% endfor %}]
+   ],
+   {% if page.about %}
+   "about": {
+     "@type": "Thing",
+     "name": "{{ page.about.name }}",
+     "sameAs": [
+       {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
+       {% endfor %}]
+   },
+   {% endif %}
+   "mentions":[
+      {
+         "@type":"Person",
+         "name":"{{ page.author_name }}",
+         "sameAs":"{{ page.author | xml_escape }}"
+      }
+   ]
+}
+</script>
+{% else %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -83,22 +164,20 @@
     "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
   },
   "headline": "{{ page.title }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}",
-    "height": 700,
-    "width": 360,
-    "associatedArticle": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
-    "caption": "{{ page.image_alt[0] }}"
-  },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "author": {
     "@type": "Person",
     "name": "{{ page.author_name }}",
-    "contactPoint": "{{ page.author }}"
   },
+  "mentions":[
+     {
+        "@type":"Person",
+        "name":"{{ page.author_name }}",
+        "sameAs":"{{ page.author | xml_escape }}"
+     }
+  ],
   {% if page.about %}
   "about": {
     "@type": "Thing",
@@ -119,6 +198,7 @@
   "description": "{{ page.description }}"
 }
 </script>
+{% endif %}
 
 <!-- AMP allowed resources -->
 <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
