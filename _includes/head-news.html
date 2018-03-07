@@ -134,7 +134,7 @@
    },
    "image":[
      {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
-     {% endfor %}]
+     {% endfor %}
    ],
    {% if page.about %}
    "about": {
@@ -169,7 +169,7 @@
   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "author": {
     "@type": "Person",
-    "name": "{{ page.author_name }}",
+    "name": "{{ page.author_name }}"
   },
   "mentions":[
      {
