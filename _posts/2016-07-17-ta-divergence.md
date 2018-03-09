@@ -24,7 +24,7 @@ stories: false
 note: 'Trading Strategy'
 
 categories: ['trading']
-tags: ['popular', 'strategy', 'indicators']
+tags: ['strategy', 'indicators']
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois

@@ -132,6 +132,19 @@ ref:
   coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
   coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
 
+# animals
+animals:
+  gro: '<div class="text-center" id="gtm-gro728-banner">
+  <a rel="nofollow,noopener" target="_blank" href="https://grondigital.icoref.link/click?pid=1915&offer_id=4">
+  <amp-img itemprop="image" alt="GRON ICO" src="/ads/gron.gif"
+  layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img>
+  </a></div><br>'
+  repux: '<div class="text-center" id="gtm-repux728-banner">
+  <a rel="nofollow,noopener" target="_blank" href="https://t.icoref.link/click?pid=1915&offer_id=10">
+  <amp-img itemprop="image" alt="GRON ICO" src="/ads/repux.gif"
+  layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img>
+  </a></div><br>'
+
 # image ads
 ads:
   kucoin728: '<div class="text-center" id="gtm-kucoin728-banner">

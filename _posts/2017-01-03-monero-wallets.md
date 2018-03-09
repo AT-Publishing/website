@@ -8,7 +8,7 @@ comments: true
 identifier: 'monerowallet0218'
 
 categories: ["wallets", "altcoins", "xmr"]
-tags: [ "popular", "xmr", "monero", "monero-wallets","cryptocurrencies", "hot-wallets"]
+tags: [  "xmr", "monero", "monero-wallets","cryptocurrencies", "hot-wallets"]
 
 permalink: monero-wallet/
 german: false
