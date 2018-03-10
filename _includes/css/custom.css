@@ -95,6 +95,8 @@ amp-user-notification > div button {border: none;}
   background-color: #CDDC39;
 }
 
+a.line {border-bottom: 2px solid #7A838D;}
+
 .amp-social-share-facebook,
 .amp-social-share-twitter,
 .amp-social-share-linkedin,
