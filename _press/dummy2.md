@@ -18,7 +18,7 @@ comments: true
 identifier: 'leverjmarch18'
 tickers: true
 
-permalink: leverj/
+permalink: dummy2/
 german: false
 cz: false
 

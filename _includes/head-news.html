@@ -2,9 +2,10 @@
 <meta charset="utf-8">
 {% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
 
+<!-- 2 amp requirements -->
 <link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
 {% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}/">{% endif %}
@@ -47,7 +48,7 @@
 <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | trim | strip_newlines }}" />
 <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
 <meta property="twitter:image:secure_url" content="{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}" />
-<meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@tradingfanbois{% endif %}" />
+<meta name="twitter:creator" content="{% if page.author_twitter %}{{ page.author_twitter }}{% elsif page.author %}{{ page.author }}{% else %}@altcointrading_{% endif %}" />
 
 
 <!--AMP-->
@@ -82,13 +83,14 @@
  "@type":"Organization",
  "url":"{{ site.url | xml_escape }}",
  "sameAs":[
-    "https:\/\/t.me\/altcointrading_net",
-    "https:\/\/reddit.com\/r\/altcointrader",
+    "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
     "https:\/\/www.facebook.com\/groups\/332750657242745\/",
     "https:\/\/twitter.com\/altcointrading_",
     "https:\/\/medium.com\/cryptolounge",
     "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
-    "https:\/\/www.investfeed.com\/atnet\/overview"
+    "https:\/\/www.investfeed.com\/atnet\/overview",
+    "https:\/\/reddit.com\/r\/altcointrader",
+    "https:\/\/t.me\/altcointrading_net"
  ],
  "@id":"#organization",
  "name":"AltcoinTrading.NET",
