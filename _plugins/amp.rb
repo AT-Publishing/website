@@ -22,9 +22,10 @@ module Jekyll
       @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
       @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
       @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
+      @title_as_alt = Liquid::Template.parse("{{ page.title }}").render(context)
 
       amp = "<figure class=\"th\"><amp-img itemprop=\"image\" "
-      amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@alt}\" layout=\"responsive\" width=\"70px\" height=\"36px\"  >"
+      amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@title_as_alt}\" title=\"#{@title_as_alt}\" layout=\"responsive\" width=\"70px\" height=\"36px\"  >"
       amp += "</amp-img></figure>"
 #480 854
     end
@@ -98,14 +99,17 @@ module Jekyll
       @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
       @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
 
+      @title_as_alt = Liquid::Template.parse("{{ page.title }}").render(context)
+
+
 
       if @class
-        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
+        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
       else
-        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
+        amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
       end
 
-      amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@alt}\" layout=\"responsive\" width=\"700px\" height=\"360px\" >" #width=\"520px\" height=\"270px\"
+      amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@title_as_alt}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\" layout=\"responsive\" width=\"700px\" height=\"360px\" >" #width=\"520px\" height=\"270px\"
       amp += "</amp-img></figure></a>"
 #480 854
     end

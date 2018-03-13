@@ -44,13 +44,9 @@ Other reliable places to buy altcoins for USD or EUR are Bitstamp, GDAX and Krak
 
 The biggest heists, the craziest price actions and the most important government statements regarding Bitcoin.
 
-<figure>
-<amp-img itemprop="image" alt="62 Moments from Bitcoin History"
-src="/features/altcointrading_net-62-moments-bitcoin-history-repost.png"
-layout="responsive"
-data-original-width="800px" data-original-height="17256px"
-width="800px" height="17256px"></amp-img>
-</figure>
+<a rel="nofollow,noopener" target="_blank" href="https://bitcoinplay.net">
+<amp-img itemprop="image" alt="62 Moments from Bitcoin History" src="/features/altcointrading_net-62-moments-bitcoin-history-repost.png" layout="responsive" data-original-width="800px" data-original-height="17256px" width="800px" height="17256px"></amp-img>
+</a>
 
 Originally published at [bitcoinplay.net](https://bitcoinplay.net/58-insane-facts-about-bitcoin/), reposted with permission.
 

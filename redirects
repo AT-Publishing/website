@@ -5,6 +5,7 @@ navi:
  exclude: yes
 ---
 
+/index.html / 301
 /bitcoin-bots/ /automated-trading/ 301
 /exchanges/ /category/exchanges/ 301
 /sample-post/ / 301
