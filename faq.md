@@ -6,7 +6,7 @@ permalink: /faq/
 cz: false
 
 title: "Cryptocurrency Trading FAQ"
-description: "Altcoin Trading FAQ and basics of basics."
+description: "Altcoin Trading FAQ and basics of basics, like what are altcoins."
 date: 2018-03-03 13:07:00 -0300
 ---
 
@@ -40,11 +40,18 @@ Other reliable places to buy altcoins for USD or EUR are Bitstamp, GDAX and Krak
 
 <div class="clearfix"></div>
 
+#### And for the legacy: 62 Big Moments in Bitcoin History
 
-<div class="clearfix">
-  <amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-  src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-  </amp-iframe>
-</div>
+The biggest heists, the craziest price actions and the most important government statements regarding Bitcoin.
+
+<figure>
+<amp-img itemprop="image" alt="62 Moments from Bitcoin History"
+src="/features/altcointrading_net-62-moments-bitcoin-history-repost.png"
+layout="responsive"
+data-original-width="800px" data-original-height="17256px"
+width="800px" height="17256px"></amp-img>
+</figure>
+
+Originally published at [bitcoinplay.net](https://bitcoinplay.net/58-insane-facts-about-bitcoin/), reposted with permission.
 
 <div class="clearfix"></div>
