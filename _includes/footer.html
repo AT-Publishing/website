@@ -35,11 +35,21 @@
   "vars": {
     "account": "UA-73503011-2"
   },
+  {% if page.stories %}
+  "trackPageviewWithCustom" : {
+      "on": "visible",
+      "request": "pageviewWithCG1",
+      "vars": {
+        "cg1": "TimelyNews"
+      }
+    },
+  {% else %}
   "triggers": {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
     },
+  {% endif %}
     "outboundLinks": {
         "on": "click",
         "selector": "a",
