@@ -7,10 +7,6 @@ tags: ['strategy']
 title: "Value of Altcoins: Money and Tokens"
 description: "Altcoin value: Some altcoins are meant for payments and remittance, some altcoins are network tokens."
 categories:
-- "trading"
-- "dash"
-- "eth"
-- "xmr"
 - "basics"
 permalink: value/
 image:

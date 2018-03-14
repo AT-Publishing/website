@@ -39,7 +39,7 @@
 <!-- post tags -->
 {% if page.tags[0] %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}" />{% endfor %}{% endif %}
 <!-- post categories -->
-{% if page.categories[0] %}{% for cat in page.categories %}{% if cat contains "trading" %}<meta property="article:section" content="Cryptocurrency Trading" />{% elsif cat contains "basics" %}<meta property="article:section" content="Cryptocurrency Trading 101" />{% elsif cat contains "coins" %}<meta property="article:section" content="New Cryptocurrencies" />{% elsif cat contains "exchanges" %}<meta property="article:section" content="Cryptocurrency Exchanges" />{% elsif cat contains "wallets" %}<meta property="article:section" content="Cryptocurrency Wallets" />{% else %}<meta property="article:section" content="Cryptocurrencies" />{% endif %}{% endfor %}{% endif %}
+{% if page.categories[0] %}{% for cat in page.categories %}{% if cat contains "trading" %}<meta property="article:section" content="Cryptocurrency Trading" />{% elsif cat contains "basics" %}<meta property="article:section" content="Cryptocurrency Trading 101" />{% elsif cat contains "altcoins" %}<meta property="article:section" content="New Cryptocurrencies" />{% elsif cat contains "exchanges" %}<meta property="article:section" content="Cryptocurrency Exchanges" />{% elsif cat contains "wallets" %}<meta property="article:section" content="Cryptocurrency Wallets" />{% else %}<meta property="article:section" content="Cryptocurrencies" />{% endif %}{% endfor %}{% endif %}
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />

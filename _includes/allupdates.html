@@ -1,0 +1,20 @@
+
+<div class="row columns twelve">
+
+{% for category in site.categories %}
+<div class="columns three">
+  <span class="note" id="updates-{{ category[0] }}">Updated in {{ category[0] | capitalize }}</span>
+    {% assign pages_list = category[1] %}
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+        {% include home/updated.html %}
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+</div>
+{% endfor %}
+
+</div>

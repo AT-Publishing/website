@@ -19,7 +19,7 @@ image_alt:
 image:
 - "/uploads/2017/05/31/pexels-photo-247873.jpeg"
 chart: []
-categories: ['coins']
+categories: ['altcoins']
 tags: ['eth-multisig-hack', 'security']
 identifier:
 - ethhack452525

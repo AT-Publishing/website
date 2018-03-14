@@ -36,7 +36,7 @@
 {% endfor %}
 
 {% assign items = (site.strategy | sort: date) | reverse %}
-{% for post in items offset:1 limit:3 %}
+{% for post in items offset:1 limit:6 %}
 <section class="row homelab">
   <div class="columns twelve">
     <h6 class="post">

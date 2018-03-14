@@ -6,8 +6,7 @@ description: The surveillance section of EtherIndex's rule change (which after t
   Winklevoss' BTC ETF seems to be the key part) proposes a strategy which might be
   more plausible.
 categories:
-- coins
-- eth
+- altcoins
 permalink: ethereum-etf/
 image:
 - "/img/emotions/document.jpg"

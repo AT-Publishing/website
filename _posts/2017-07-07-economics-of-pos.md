@@ -2,7 +2,6 @@
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 categories:
-- eth
 - altcoins
 comments: false
 date: 2017-07-07 01:00

@@ -21,8 +21,7 @@ image_alt:
 - How to move litecoins between exchanges
 categories:
 - wallets
-- coins
-- ltc
+- altcoins
 update: 2017-09-04 10:09:00 +0200
 chart: []
 tags: ["litecoin segwit", "segwit", "ltc", "p2sh"]

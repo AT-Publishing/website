@@ -158,37 +158,56 @@ navi:
         <span class="next ">Next >></span>
       {% endif %}
     </div>
-
-
     </section>
 
-
-
-    <section>
-     <h3 class="home-bottom">Current airdrops & forks:</h3>
-     {% include thismonth-airdrops.html %}
+    <section class="atnet-home-bottom space">
+        <span class="note">Upcoming ICOs / Fundraiser's Finest</span>
+        <b>REPUX</b> Data aggregation protocol to gather information from small enterprises to use them for machine learning.
+        <a rel="nofollow" target="_blank" class="line" href="https://t.icoref.link/click?pid=1915&offer_id=10">ICO starts March 6th, 2018</a>
+        <br>
+        <b>GRON</b> Gambling platform fully on blockchain, no human intervention.
+        <a rel="nofollow" target="_blank" class="line" href="https://grondigital.icoref.link/click?pid=1915&offer_id=4">ICO starts March 15, 2018</a>.
     </section>
 
-    <section class="home-news-reddit">
-       <h3 class="home-bottom">Recent News via Reddit:</h3>
-         <amp-iframe
-           width=750 height=350
-           layout="responsive"
-           sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-           src="https://data.altcointrading.net/reddit/">
-           <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-         </amp-iframe>
-    </section>
-
-
+    <section class="atnet-home-bottom space">
+      <div class="row">
+        <div class="columns six">
+          <span class="note">Everyone's Favorite Cold Storage (BTC+ERC20)</span>
+          {{ site.ledger_300-250_animated }}
+          <p>
+            <u>Fully Opensource - Ethereum tokens supported</u>
+            <br>
+            <strong>{% aff Ledger Nano S https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s %}</strong> native support: BTC, ETH, ETC, DOGE, LTC, ZEC, DASH, XRP, STRAT.
+            <br>
+            <strong>Support of any ERC20 token via MyEtherWallet:</strong>DAO, DGD, DGX 1.0, GNO, GNT, ICN, LUN, MLN and more.
+          </p>
+        </div>
+        <div class="columns six">
+          <span class="note">Bitcoin Forks List</span>
+           {{ site.forkit }}
+           <p>&nbsp;</p>
+        </div>
       </div>
-
-
+    </section>
+    </div>
 
     <div class="four columns notopmargin">
       {% include sidebar.html %}
     </div>
 
-  </div>
-  </div>
+  </div><!-- row -->
+</div><!-- container -->
+
+<div class="clearfix"></div>
+<section id="updates" class="atnet-home-bottom space">
+ {% include allupdates.html %}
+</section>
+
+<div class="clearfix"></div>
+<section id="bottom" class="atnet-home-bottom space">
+ {% include contacts.html %}
+</section>
+
+<div class="clearfix"></div>
+
 </div>

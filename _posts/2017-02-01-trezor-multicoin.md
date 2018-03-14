@@ -4,9 +4,9 @@ title: "Trezor (SatoshiLabs) added DASH wallet and ZCASH wallet"
 description: "Trezor now added native support for DASH and ZCASH - and explained what the altcoin needs to get supported (looking at you, Monero)."
 categories:
 - "wallets"
-- "dash"
-- "zcash"
-- "eth"
+
+
+
 permalink: trezor-multicoin/
 image:
 - "/img/wallets/trezor-alena-slush.jpg"

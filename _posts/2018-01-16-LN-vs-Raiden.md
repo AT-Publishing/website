@@ -28,7 +28,7 @@ image:
 image_alt:
 - "Lightning network vs Raiden network. Storm image via Pexels."
 
-categories: ["coins", "altcoins", "basics"]
+categories: ["altcoins", "altcoins", "basics"]
 tags: ["lightning-network", "raiden", "micro-raiden", "bitcoin", "ethereum", "fundamentals"]
 chart: []
 

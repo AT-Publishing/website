@@ -6,7 +6,7 @@ layout: page
 
 {% assign items = (site.posts | sort: date) | reverse %}
 
-<p><strong>Recently updated articles</strong></p>
+<p><strong>Recently updated articles in category "{{ page.category }}"</strong></p>
 
 <section class="row columns twelve">
 {% for post in items  %}

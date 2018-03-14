@@ -1,3 +1,7 @@
+`        {% include category/updated.html %}
+`
+
+
 # full website - altcointrading.net
 
 `All content belongs to github.com/altcointrading`

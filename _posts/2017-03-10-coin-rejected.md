@@ -3,8 +3,8 @@ layout: blog
 title: "Bitcoin ETF rejected, Ethereum ETF is probably off the table too"
 description: "The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for Ethereum too"
 categories:
-- "coins"
-- "eth"
+- "altcoins"
+
 permalink: ethereum-etf-unlikely/
 image:
 - "/img/emotions/sadness.jpg"

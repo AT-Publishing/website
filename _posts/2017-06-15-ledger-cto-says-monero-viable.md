@@ -18,7 +18,7 @@ image:
 image_alt:
 - Screen of the thread on r/ledgerwallet
 categories:
-- xmr
+
 - wallets
 - altcoins
 update: '2017-06-15T10:45:15.570Z'

@@ -5,7 +5,7 @@ title: "Litecoin: This time it's different?"
 description: "It's always different until it isn't and it's never different until it is."
 categories:
 - "altcoins"
-- "ltc"
+
 permalink: litecoin-pump/
 image:
 - "/img/emotions/up.jpg"

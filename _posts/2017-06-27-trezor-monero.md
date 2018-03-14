@@ -20,7 +20,7 @@ image:
 image_alt:
 - According to a steemit article, there would be a bounty.
 categories:
-- xmr
+
 - altcoins
 tags: ['update', 'monero', 'trezor', 'hardware wallet']
 identifier:

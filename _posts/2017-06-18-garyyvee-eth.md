@@ -18,7 +18,7 @@ image_alt:
 image:
 - "/img/emotions/gary.png"
 categories:
-- eth
+- news
 
 
 about:

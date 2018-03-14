@@ -38,7 +38,7 @@
 {% endfor %}
 
 {% assign items = (site.security | sort: date) | reverse %}
-{% for post in items offset:1 limit:2 %}
+{% for post in items offset:1 limit:5 %}
 <section class="row homelab">
   <div class="columns twelve">
     <h6 class="post">

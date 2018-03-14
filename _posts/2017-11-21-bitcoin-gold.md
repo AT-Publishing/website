@@ -27,7 +27,7 @@ german: false
 image: ["/editorial/freelunch1.jpg"]
 image_alt: ["Free Lunch via Pexels"]
 
-categories: ["coins"]
+categories: ["altcoins"]
 chart: []
 tags: [ "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
 

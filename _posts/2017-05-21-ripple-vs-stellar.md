@@ -18,7 +18,7 @@ image:
 - "https://www.tradingview.com/x/ctF9dUWV"
 categories:
 - altcoins
-- coins
+- altcoins
 - trading
 - exchanges
 image_alt:

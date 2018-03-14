@@ -5,7 +5,7 @@ title: "Opinion: Time in the market vs timing the market"
 description: "They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure."
 categories:
 - "trading"
-- "coins"
+- "altcoins"
 permalink: time-vs-timing/
 image:
 - "/img/editorial/likeaboss.jpg"

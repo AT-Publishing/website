@@ -6,7 +6,7 @@ description: "A data scientist created a free tool that lets you correlate the d
 categories:
 - "no-ico"
 - "trading"
-- "eth"
+
 permalink: eth-traders-tool/
 image:
 - "/img/emotions/u-wot2.jpg"

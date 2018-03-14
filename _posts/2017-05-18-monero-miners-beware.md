@@ -16,7 +16,7 @@ permalink: "/monero-mining-malware"
 image:
 - "/img/xmr/monero-cli-2.png"
 categories:
-- xmr
+
 - altcoins
 image_alt:
 - Random image of the monero deamon. Don't read too much into it.

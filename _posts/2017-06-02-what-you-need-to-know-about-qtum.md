@@ -18,7 +18,7 @@ image:
 - "/uploads/2017/06/02/qtum-bitmex1.jpg"
 image_alt:
 - BitMEX listed QTUM trading yesterday.
-categories: ['trading', 'coins']
+categories: ['trading']
 tags: ['qtum', 'altcoins']
 ---
 The coin in the news this week is Quantum - newly traded altcoin that [doubled in dollar value between June 1st '17 and June 2nd '17](https://coinmarketcap.com/currencies/qtum/#charts). (But this is not a bubble though, is it? Certainly doesn't look like it. Corrections are a myth, as said someone in Facebook's Ethereum group.)
