@@ -67,7 +67,7 @@ $(document).ready(function($) {
         <div class="columns eight">
           <article class="maincontent">
             <div class="shifted-left">
-              {{ site.ads.aads728 }}
+              {{ site.ads.kucoin728 }}
             </div>
             <p>
               <a title="{{ site.title }} Subscribe" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
@@ -75,35 +75,44 @@ $(document).ready(function($) {
             <hr>
             <div class="strategy-content">
               {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
-            </div>
-            <p>
-              <em>
-                Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
-              </em>
 
-            </p>
-            <p>
-              {% if page.stories %}
-              <p>
-                <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
-              </p>
 
-              <script type="application/ld+json">
-              {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "{{ page.author_name }}",
-                "url": "https://www.altcointrading.net",
-                "sameAs": [
-                  "{{ page.author }}"
-                ]
-              }
-              </script>
+						{% if page.comments %}
 
-              {% endif %}
+						<h2 id="disqus_embed">Discussion</h2>
 
-            </p>
+						<div id="disqus_thread"></div>
+						<script>
 
+						var disqus_config = function () {
+						this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
+						this.page.identifier = "strategy{{page.identifier}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+
+						(function() { // DON'T EDIT BELOW THIS LINE
+						var d = document, s = d.createElement('script');
+						s.src = 'https://altcointrading.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+						<p></p>
+
+						{% else %}
+
+						<p>&nbsp;</p>
+
+						<hr>
+
+						<p>Comments are disabled for this post.</p>
+
+						<hr>
+
+						{% endif %}
+
+					 </div><!-- strategy content -->
           </article>
         </div>
         <div class="four columns nomargintop">
@@ -111,3 +120,6 @@ $(document).ready(function($) {
         </div>
       </div>
   </div>
+</div>
+</div>
+</div>

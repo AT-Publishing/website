@@ -7,6 +7,13 @@
 
 {% include header.html %}
 {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+
+<div class="clearfix"></div>
+<section id="bottom" class="atnet-home-bottom space">
+ {% include contacts.html %}
+</section>
+
+
 <footer>
   <div class="footer">
     {% include footer.html %}
