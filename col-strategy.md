@@ -5,9 +5,15 @@ description: "Long reads about technical analysis in cryptocurrency trading and 
 permalink: /strategy/
 ---
 
+{% if site.strategy_callout %}
+<section class="sidebar-nl container-center">
+{{ site.strategy_callout }}
+<p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
+</section>
+{% endif %}
+
 {% assign items = (site.strategy | sort: date) | reverse %}
 {% for post in items  %}
-
 
 <div class="row sec-latest">
 
@@ -58,10 +64,4 @@ permalink: /strategy/
   </div>
 
 </div><!-- gtm -->
-
-
-
-
 {% endfor %}
-
-<p>{{ site.ledger_728-90_animated }}</p>

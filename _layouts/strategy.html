@@ -69,13 +69,22 @@ $(document).ready(function($) {
             <div class="shifted-left">
               {{ site.ads.kucoin728 }}
             </div>
-            <p>
-              <a title="{{ site.title }} Subscribe" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
-            </p>
+
+						<div class="">
+							Follow us on Twitter for news, strategy and airdrop updates: <a target="_blank" href="https://twitter.com/altcointrading_"><u>@altcointrading_</u></a>
+						</div>
+
             <hr>
             <div class="strategy-content">
               {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
+						{% if site.strategy_callout %}
+						<section class="sidebar-nl container-center">
+						{{ site.strategy_callout }}
+						<p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
+						</section>
+						<br>
+						{% endif %}
 
 						{% if page.comments %}
 

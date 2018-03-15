@@ -9,6 +9,13 @@ permalink: /security/
 
 <hr>
 
+{% if site.security_callout %}
+<section class="sidebar-nl container-center">
+{{ site.security_callout }}
+<p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
+</section>
+{% endif %}
+
 {% assign items = (site.security | sort: date) | reverse %}
 {% for post in items  %}
 
@@ -62,10 +69,4 @@ permalink: /security/
   </div>
 
 </div><!-- gtm -->
-
-
-
-
 {% endfor %}
-
-<p>{{ site.ledger_728-90_animated }}</p>
