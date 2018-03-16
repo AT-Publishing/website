@@ -5,21 +5,23 @@ image: ["/editorial/tagged/altcointrading-crowd.png"]
 permalink: /airdrops/
 cz: "airdropy"
 
-title: "Upcoming Airdrops and Giveaways (March 2018, April 2018)"
+title: "Upcoming Airdrops, Giveaways & Bounties"
 description: "Crypto airdrops for coin holders or for as little as an early signup."
 date: 2018-02-23 15:07:00 +0100
 ---
-
 
 **Get email alerts about new airdrops** - [subscribe here](http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c) and choose *Updates on the Airdrops page*
 
 ...or **follow our [Twitter news outlet](https://twitter.com/altcointrading_)** and [Google+ Crypto Airdrops](https://plus.google.com/b/118152650417780550154/collection/kB3JSF) collection
 
+
+Airdrop updates are now also reposted to [medium.com/cryptolounge/airdrops/home](https://medium.com/cryptolounge/airdrops/home)
+
 ___________
 
 ## Crypto Airdrops in 2018
 
-This is our section for upcoming cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
+This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
 <h3 class="posh">Upcoming Airdrops in March 2018</h3>
 

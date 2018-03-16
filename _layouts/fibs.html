@@ -2,7 +2,6 @@
 layout: default-news
 ---
 
-
 <div class="container" id="altcointrading-fibs">
   <div class="row">
 
@@ -10,7 +9,7 @@ layout: default-news
 
        <div class="row">
          <div class="columns eight">
-         {{ site.ads.binance728 }}
+         {{ site.ads.trezor }}
        </div><!--1st-->
          <div class="columns four">
            {% include dogeshare.html %}
@@ -131,11 +130,6 @@ layout: default-news
                 </amp-iframe>
             </section>
 
-            <p>&nbsp;</p>
-
-            {{ site.ads.aads728 }}
-
-            <p>&nbsp;</p>
 
             <section>
               <h2>Archive</h2>
@@ -144,42 +138,19 @@ layout: default-news
                  <li><a target="_blank" href="https://github.com/AT-Publishing/website/commits/master/_fibs/daily.md">Versioned history</a></li>
               </ul>
 
-
             </section>
 
-
-
           </div><!-- content end -->
-
-
             <p>
               <br>
               <hr>
               <br>
+
+
               <em>
-                Join our Telegram group: <a title="{{ site.title }} Telegram" target="_blank" href="https://t.me/altcointrading_net"><i class="fa fa-telegram"></i> altcointrading_net</a>
+                Strategy, Security, Airdrop updates & more is now also reposted to <a target="_blank" href="https://medium.com/cryptolounge/airdrops/home">Cryptolounge, our publication on Medium.com</a>.
               </em>
 
-            </p>
-            <p>
-              {% if page.stories %}
-              <p>
-                <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
-              </p>
-
-              <script type="application/ld+json">
-              {
-                "@context": "http://schema.org",
-                "@type": "Person",
-                "name": "{{ page.author_name }}",
-                "url": "https://www.altcointrading.net",
-                "sameAs": [
-                  "{{ page.author }}"
-                ]
-              }
-              </script>
-
-              {% endif %}
 
             </p>
 
@@ -190,3 +161,4 @@ layout: default-news
         </div>
       </div>
   </div>
+</div>

@@ -4,7 +4,7 @@ date: 2017-12-27 10:36:00 +0100
 
 layout: fibs
 title: "Fib Levels for Crypto Markets"
-description: "Current Fibonacci levels and commentary for selected markets on Bitfinex."
+description: "Cryptocurrency market news and price commentary for selected markets on Bitfinex."
 
 note: 'Technical Analysis'
 
@@ -13,22 +13,24 @@ tags: ['fibs', 'crypto-trading', 'technical-analysis', 'fibonacci-retracement']
 
 name: "daily/"
 
-image: ["/editorial/tagged/market-leader.png"]
+image: ["/editorial/tagged/rain.png"]
 
 dollars:
-- { market: "BTCUSD", chart: "/fibs/btcusd.jpg", comment: "The bullish action at $BTCUSD looks like possibly a second attempt to break to high-volume resistance around 11.5k USD (on the chart coinciding with the blue rectangle drawn from previous fibs). If this is successful, a lot of traders will scream iH&S which, if played out, would have a target somewhere over 16k USD. If you follow datamish.com you probably notices how in the recent days rapid increases in shorts didn't move the market much anymore, therefore there must be some demand already." }
-- { market: "ETHUSD", chart: "/fibs/ethusd.jpg", comment: "On the Bitfinex chart, $ETHUSD is just breaking out of the downtrend (yellow dotted trendline). There is some resistance upcoming - a current fib coincides with kumo top and and a previous support-turned-resistance (yellow dotted horizontal line). This area around 990 USD is a key one for now. " }
+- { market: "BTCUSD", chart: "/fibs/btcusd.jpg", comment: "Bitcoin bounced off its high-volume support from a previous meaningful range (blue dotted line) for now. The next resistance is a fib line coinciding with some short term sideways history area around 8700. Scaling down to shorter timeframe reveals oscillators jumped up to the overbought territory way too fast to take down that resistance and continue up." }
+- { market: "SANUSD", chart: "/fibs/sanusd.jpg", comment: "Santiment is (not surprisingly) moving similarly to bitcoin, however, but the volume indicator PVT here is leaning a bit more bullish. It is way too soon to make any conclusions out of that though." }
+- { market: "ETHUSD", chart: "/fibs/ethusd.jpg", comment: "Ethereum dropped out of all ranges, still a way to go to a high volume support around 415 though (blue dotted line)." }
 
 ratios:
-- { market: "ETHBTC", chart: "/fibs/ethbtc.jpg", comment: "For now, the short term, ETH is more in the consolidation phase than BTC which is attempting a surge at the moment. The ratio will therefore not be very bullish. It bounced down off a fib but overall the short play seems to be almost over too. There is still a lot of longs in $ETHBTC although a massive amount closed couple days ago (on Bitfinex)." }
+- { market: "ETHBTC", chart: "/fibs/ethbtc.jpg", comment: "In the ratio, ETHBTC already sits at a high volume support. This one was hard to break up, if it breaks down now things might get ugly." }
 ---
 
 
 > Cryptocurrency Price Action Comments
 
-* Currently on EthFinex - verified users can make Nectar ERC20 tokens for market making (limit orders) - [more here](https://support.ethfinex.com/hc/en-us/articles/115002549332-Nectar-Token-FAQ)
-* [VechainTHOR rebranding news](https://www.reddit.com/r/AltcoinTrader/comments/80fiji/vechainthor_rebranding_bmw_bitocean_tokyo_dnv_gl/)
-* [Circle acquired Poloniex](/circle-poloniex/) and plans many changes
+* Fundstrat's [Tom Lee sees more pain before recovery](https://www.bloomberg.com/news/articles/2018-03-15/bitcoin-bull-tom-lee-sees-more-pain-ahead-before-price-recovery)
+* [Lightning for Bitcoin mainnet is out](https://twitter.com/starkness/status/974305137991667712?s=03)
+* As you surely heard, [Google regulated crypto ads](https://www.npr.org/sections/thetwo-way/2018/03/14/593553255/google-follows-facebook-in-banning-cryptocurrency-ads)
+* Monero [dumped the hardest](https://ambcrypto.com/monero-xmr-crashing-the-hardest-xmv-delay-and-apples-mining-app-removal-the-reason/), Apple removes XMR mining apps from the App store, XMV fork is delayed
 
 > Other
 
