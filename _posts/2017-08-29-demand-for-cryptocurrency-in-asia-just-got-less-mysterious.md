@@ -12,7 +12,7 @@ title: Demand for cryptocurrency in Asia just got less mysterious
 date: 2017-08-29 01:01:00 +0200
 description: It might be inventing random reasons, but there is some general truth
   in people searching for uncorrelated assets.
-permalink: "/korea-missile-cryptocurrency"
+permalink: korea-missile-cryptocurrency/
 image:
 - "/uploads/2017/08/28/korea.png"
 image_alt:

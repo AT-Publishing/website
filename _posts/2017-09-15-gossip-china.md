@@ -15,7 +15,7 @@ author_name: KarlVonBahnhof
 title: 'China bans Bitcoin show season 3'
 date: 2017-09-15 09:12:00 +0200
 description: "Is China also trying to stop mining?"
-permalink: "/china-bans-btc-season-3"
+permalink: china-bans-btc-season-3/
 image:
 - "/img/emotions/bears.jpg"
 image_alt:

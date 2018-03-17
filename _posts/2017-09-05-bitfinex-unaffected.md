@@ -16,7 +16,7 @@ author_name: KarlVonBahnhof
 title: 'Bitfinex not affected by PBOC'
 date: 2017-09-05 09:12:00 +0200
 description: "The BusinessInsider article was a prime example of FUD anyway."
-permalink: "/bitfinex-not-affected-pbox-ico"
+permalink: bitfinex-not-affected-pbox-ico/
 image:
 - "/img/emotions/bridge.jpg"
 - "/img/exchanges/finex-notdown.jpg"

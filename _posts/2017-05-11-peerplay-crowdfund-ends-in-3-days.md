@@ -4,14 +4,14 @@ german: ''
 published: true
 comments: true
 stories: true
-genres: Blog, Opinion
+genres: Blog
 tickers: 'no'
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
 title: Peerplays crowdfund ends in 3 days
 date: 2017-05-11 12:49
 update: '2017-05-11T18:21:48.015Z'
-permalink: "/peerplays"
+permalink: peerplays/
 image:
 - "/uploads/2017/05/11/peerplays.png"
 image_alt:

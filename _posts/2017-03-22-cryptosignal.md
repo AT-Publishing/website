@@ -7,7 +7,7 @@ categories:
 - "no-ico"
 - "trading"
 
-permalink: eth-traders-tool/
+permalink: cryptosignal/
 image:
 - "/img/emotions/u-wot2.jpg"
 - "/img/eth/cryptosignal.jpg"

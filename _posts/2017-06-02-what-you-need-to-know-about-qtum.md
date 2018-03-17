@@ -11,7 +11,7 @@ author_name: KarlVonBahnhof
 title: "What you need to know about QTUM"
 date: 2017-06-02 07:27
 update: 2017-06-02 07:27
-permalink: "/quantum"
+permalink: quantum/
 description: The business friendly blockchain from Asia, they say. The token is traded
   on BTER and Yunbi or you can trade contracts on BitMEX.
 image:

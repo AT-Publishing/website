@@ -14,7 +14,7 @@ author_name: KarlVonBahnhof
 title: 'How to safely move litecoins after recent network upgrades'
 date: 2017-09-01 00:18:00 +0200
 description: "Litecoin got new P2SH which most exchanges and mainstream wallets don't support yet."
-permalink: "/moving-ltc-p2sh"
+permalink: moving-ltc-p2sh/
 image:
 - "/img/coins/ltc.png"
 image_alt:

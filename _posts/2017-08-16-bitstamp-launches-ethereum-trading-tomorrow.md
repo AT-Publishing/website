@@ -11,7 +11,7 @@ author_name: KarlVonBahnhof
 title: Bitstamp launches Ethereum trading tomorrow
 date: 2017-08-16 18:37:48 +0200
 description: And there will be free trading until October
-permalink: "/bitstamp-ethereum"
+permalink: bitstamp-ethereum/
 image:
 - "/img/trading/ethereum2.jpg"
 update: 2017-08-16 19:00:00 +0200

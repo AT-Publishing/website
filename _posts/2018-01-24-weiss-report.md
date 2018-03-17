@@ -17,7 +17,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/weiss-rating"
+permalink: weiss-rating/
 german: false
 cz: false
 

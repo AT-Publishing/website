@@ -17,7 +17,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/cakewallet"
+permalink: cakewallet/
 german: false
 cz: false
 

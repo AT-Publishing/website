@@ -12,7 +12,7 @@ title: How the legacy finance might be feeling about cryptocurrencies
 date: 2017-05-20 09:11
 update: '2017-05-20T13:14:43.844Z'
 description: 'This comes from a mainstream finance & investing newsletter. '
-permalink: "/diversification-craze"
+permalink: diversification-craze/
 image:
 - "/uploads/2017/05/20/eth-mainstream.png"
 image_alt:

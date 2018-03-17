@@ -24,7 +24,7 @@ tickers: ['BCHUSD']
 title: "Reddit on the Bcash runup: BCH vs BTC"
 description: "Reddit's opinions on why is this happening, Roger Ver sending 25k BTC to Bitfinex, Korean zero-fee volume."
 
-permalink: "/bcash-rally-november-2017"
+permalink: bcash-rally-november-2017/
 german: false
 
 image: ["/editorial/freelunch2.jpg"]

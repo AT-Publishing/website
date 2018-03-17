@@ -19,7 +19,7 @@ stories: false
 note: 'Feature'
 genres: Blog
 
-permalink: "/altcoinio"
+permalink: altcoinio/
 german: false
 cz: altcoinio
 

@@ -21,7 +21,7 @@ tickers: false
 title: "IOTA Snapshots"
 description: "IOTA snapshot is typically the culprit when you check your IOTA wallet and find zero balance. Updated with the info about reused receiving addresses."
 
-permalink: "/iota-snapshots"
+permalink: iota-snapshots/
 image:
 - "/editorial/people1.jpg"
 

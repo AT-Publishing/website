@@ -15,7 +15,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/blockstream-lightning-charge"
+permalink: blockstream-lightning-charge/
 german: false
 cz: false
 

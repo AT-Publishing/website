@@ -8,6 +8,11 @@ cz: "airdropy"
 title: "Upcoming Airdrops, Giveaways & Bounties"
 description: "Crypto airdrops for coin holders or for as little as an early signup."
 date: 2018-02-23 15:07:00 +0100
+categories: ["airdrops"]
+images: ["/editorial/tagged/rain.png"]
+
+newlyadded: "Clickgem new airdrop update."
+
 ---
 
 **Get email alerts about new airdrops** - [subscribe here](http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c) and choose *Updates on the Airdrops page*
@@ -55,6 +60,8 @@ We archive all airdrops published on altcointrading.net, if we ever promoted a s
 ### What are cryptocurrency airdrops?
 
 A token airdrop is a PR tool used in the cryptocurrency space to increase brand awareness of new blockchain projects. Tokens related to new projects are typically distributed as bounties for social media engagement.
+
+Now that Facebook and Google banned ICO advertisement it is likely that companies launching an ICO will make more use of airdrops and bounties as a form of advertisment, at least for some time.
 
 ### What is the difference between a fork and an airdrop?
 

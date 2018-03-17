@@ -23,7 +23,7 @@ tickers: false
 title: "Kraken's long awaited upgrade postponed"
 description: "It is still happening soon&trade; guys!"
 
-permalink: "/kraken-upgrade"
+permalink: kraken-upgrade/
 german: false
 
 image: ["/editorial/blood.jpg"]

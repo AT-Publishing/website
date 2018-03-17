@@ -12,7 +12,7 @@ title: Monero mining malware
 date: 2017-05-18 03:41
 update: '2017-05-18T07:43:48.996Z'
 description: After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit
-permalink: "/monero-mining-malware"
+permalink: monero-mining-malware/
 image:
 - "/img/xmr/monero-cli-2.png"
 categories:
@@ -28,7 +28,7 @@ Just a few days after the WannaCry mass ransomware a Monero mining malware has b
 
 After WannaCry, UIWIX Ransomware and Monero-Mining Malware Follow Suit.
 
-WannaCry ransomware’s outbreak during the weekend was mitigated by having its kill switch domain registered. It was only a matter of time, however, for other cybercriminals to follow suit. Case in point: the emergence of UIWIX ransomware (detected by Trend Micro as RANSOM_UIWIX.A) and one notable Trojan our sensors detected. 
+WannaCry ransomware’s outbreak during the weekend was mitigated by having its kill switch domain registered. It was only a matter of time, however, for other cybercriminals to follow suit. Case in point: the emergence of UIWIX ransomware (detected by Trend Micro as RANSOM_UIWIX.A) and one notable Trojan our sensors detected.
 
 Apart from WannaCry and UIWIX, our sensors also detected a Trojan delivered using EternalBlue—Adylkuzz (TROJ_COINMINER.WN). This malware turns infected systems into zombies and steals its resources in order to mine for the cryptocurrency Monero.
 

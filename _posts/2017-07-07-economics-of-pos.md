@@ -19,7 +19,7 @@ image_alt:
 - Even if you want to, you won't be staking before mid-2018, but Vitalik says he is
   not afraid of the switch, and that clearly means something.
 layout: forestry
-permalink: "/pos"
+permalink: pos/
 published: true
 stories: true
 tags: ['pos', 'proof of stake']

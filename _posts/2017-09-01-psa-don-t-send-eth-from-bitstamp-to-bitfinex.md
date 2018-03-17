@@ -14,7 +14,7 @@ author_name: KarlVonBahnhof
 title: 'Don''t send ETH from Bitstamp to Bfx'
 date: 2017-09-01 00:18:50 +0200
 description: Your money will be lost.
-permalink: "/bitifinex-eats-your-eth"
+permalink: bitifinex-eats-your-eth/
 image:
 - "/img/trading/ethereum.jpg"
 image_alt:

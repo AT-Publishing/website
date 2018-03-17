@@ -12,7 +12,7 @@ title: Lending in the time of chain split
 date: 2017-06-18 10:12 -04:00
 update: 2017-06-18 16:31 -04:00
 description: "Collecting the data on exchange policy in case of Bitcoin network split. If you lend out bitcoins, you need to read this."
-permalink: "/lending-btc-chain-split"
+permalink: lending-btc-chain-split/
 image_alt:
 - How long would you wait for dough?
 image:

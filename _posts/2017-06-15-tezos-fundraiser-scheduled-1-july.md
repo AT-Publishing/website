@@ -12,7 +12,7 @@ title: Tezos fundraiser scheduled 1 July
 date: 2017-06-15 10:12
 update: '2017-06-18T11:12:28.499Z'
 description: "Updated - Details about the funding ways, conditions set by Bitcoin Suisse and conversion rates from BTC"
-permalink: "/tezos"
+permalink: tezos/
 image_alt:
 - Tezos fundraiser will happen soon!
 image:

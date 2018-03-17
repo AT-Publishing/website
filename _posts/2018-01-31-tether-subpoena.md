@@ -17,7 +17,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/tether-subpoena"
+permalink: tether-subpoena/
 german: false
 cz: false
 

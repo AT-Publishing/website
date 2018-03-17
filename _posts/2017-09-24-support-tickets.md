@@ -16,7 +16,7 @@ author_name: KarlVonBahnhof
 title: 'Customer Support Zen'
 date: 2017-10-10 20:12:00 +0700
 description: "Poor things, they are so busy."
-permalink: "/customer-support-zen"
+permalink: customer-support-zen/
 image:
 - "/editorial/buddha.jpg"
 - "/img/bitfinex/hallelujah.jpg"

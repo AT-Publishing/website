@@ -11,7 +11,7 @@ author_name: KarlVonBahnhof
 title: OkCoin Intl is adding ETH on June 1st 2017
 date: 2017-05-31 03:00
 update: '2017-05-31T07:43:36.234Z'
-permalink: "/okcoin-eth"
+permalink: okcoin-eth/
 description: OKCoin.com, the --happy trading environment for everyone--, is adding ETH
   trading - that's spot ETH trading, don't forget the futures have moved to OKEx.com
 image:

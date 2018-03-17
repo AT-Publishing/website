@@ -13,7 +13,7 @@ date: 2017-05-09 14:46
 update: '2017-06-03T23:38:37.963Z'
 description: 'The very first ICO-ish thing was fined heavily. Will new regulations
   pop the ICO bubble? '
-permalink: "/ico-regulations"
+permalink: ico-regulations/
 image:
 - "/uploads/2017/05/09/facebook-ico-group.jpg"
 image_alt:

@@ -19,7 +19,7 @@ stories: false
 note: 'Feature'
 genres: Blog
 
-permalink: "/tensorcharts"
+permalink: tensorcharts/
 german: false
 cz: tensorcharts
 

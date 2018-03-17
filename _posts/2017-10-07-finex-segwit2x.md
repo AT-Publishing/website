@@ -20,7 +20,7 @@ tickers: false
 title: "Bitfinex released statement regarding 2X-coin distribution."
 description: "They are making it convenient to long BTC and short Altcoin/BTC ratios if you care to get as much SegWit2x-coin as you can."
 
-permalink: "/bitfinex-segwit2x-distribution"
+permalink: bitfinex-segwit2x-distribution/
 image:
 - "/editorial/fork.jpg"
 

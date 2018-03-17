@@ -1,6 +1,6 @@
 ---
 layout: forestry
-permalink: "/bitfinex-banking"
+permalink: bitfinex-banking/
 german:  "bitfinex-banking"
 
 published: true

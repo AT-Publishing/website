@@ -20,7 +20,7 @@ tickers: false
 title: "Bitfinex added fiat deposits and withdrawals for individual and corporate accounts."
 description: "Yay. Oh yeah, and also EUR trading."
 
-permalink: "/bitfinex-fiat-routes"
+permalink: bitfinex-fiat-routes/
 german: false
 
 image: ["/editorial/berries.jpg"]

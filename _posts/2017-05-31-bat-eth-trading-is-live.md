@@ -11,7 +11,7 @@ author_name: "@tradingfanbois"
 title: BAT/ETH trading is live
 date: 2017-05-31 11:53
 update: '2017-05-31T15:53:03.890Z'
-permalink: "/bat-eth"
+permalink: bat-eth/
 image:
 - "/img/emotions/crowd.jpg"
 categories:

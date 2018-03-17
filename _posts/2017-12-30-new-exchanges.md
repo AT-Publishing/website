@@ -25,7 +25,7 @@ tickers: false
 title: "New cryptocurrency exchanges for trading in 2018"
 description: "Added Kucoin. Find new emerging cryptocurrency exchanges for your altcoin trading in 2018 (and avoid potential drama)."
 
-permalink: "/exchanges-2018"
+permalink: exchanges-2018/
 image:
 - "/editorial/flying.jpg"
 

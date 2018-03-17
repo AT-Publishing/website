@@ -13,7 +13,7 @@ date: 2017-06-04 17:07
 update: '2017-06-04T21:07:23.280Z'
 description: Bitfinex just issued a statement they will be adding IOTA pairs. IOTA
   is the blockchain for the internet of things.
-permalink: "/iota"
+permalink: iota/
 image:
 - "/uploads/2017/06/04/pexels-photo-398532.jpeg"
 - "/uploads/2017/06/04/iota.png"

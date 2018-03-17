@@ -12,7 +12,7 @@ title: Gary Vee on Ethereum
 date: 2017-06-18 17:12 -04:00
 update: 2017-06-18 18:11 -04:00
 description: "Video of gary Vee endorsing Ethereum when asked about it by a fan."
-permalink: "/garyvee-eth"
+permalink: garyvee-eth/
 image_alt:
 - This video was first posted on facebook after Gary's latest meetup
 image:

@@ -20,7 +20,7 @@ tickers: false
 title: "Tether Emergency Notice"
 description: "This is your captain speaking: There is absolutely no cause for alarm."
 
-permalink: "/tether-hack"
+permalink: tether-hack/
 german: false
 
 image: ["/editorial/peanuts2.jpg"]

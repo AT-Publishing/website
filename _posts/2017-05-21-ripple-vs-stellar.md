@@ -12,7 +12,7 @@ title: Ripple vs Stellar
 date: 2017-05-22 02:38 -04:00
 update: 2017-12-29 21:20 +0100
 description: "Ripple's end of 2017 epic bull run is closely followed by Stellar price action. How do Ripple vs Stellar compare?"
-permalink: "/ripple-vs-stellar"
+permalink: ripple-vs-stellar/
 image:
 - "/features/ripple-network.jpg"
 - "https://www.tradingview.com/x/ctF9dUWV"

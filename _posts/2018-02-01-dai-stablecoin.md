@@ -17,7 +17,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/dai-stablecoin"
+permalink: dai-stablecoin/
 german: false
 cz: false
 

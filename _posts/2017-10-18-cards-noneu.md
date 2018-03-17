@@ -21,7 +21,7 @@ tickers: false
 title: "Crypto cards for non-EU residents"
 description: "Are there any though? It's all over for non-EU residents and what's miraculously left gets scam accusations left right and center. Stay with your LBC cash, folks. There's also LocalEthereum now, don't forget that."
 
-permalink: "/cryptocurrency-debit-card-non-eu"
+permalink: cryptocurrency-debit-card-non-eu/
 image:
 - "/editorial/storm.jpg"
 

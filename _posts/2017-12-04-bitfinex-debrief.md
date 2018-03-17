@@ -23,7 +23,7 @@ tickers: false
 title: "ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"
 description: "A shortened transcript with the most important info from the session with timestamps to relevant parts of the footage"
 
-permalink: "/bitfinex-tether-transparency"
+permalink: bitfinex-tether-transparency/
 german: false
 
 image: ["/editorial/coffee2.jpg"]

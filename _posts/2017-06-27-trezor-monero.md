@@ -13,7 +13,7 @@ date: 2017-06-27 00:09
 update: 2017-06-28 00:29
 description: It looks like Slush & Co. don't want to miss out after the Ledger people
   promised to implement on Monero, but...
-permalink: "/trezor-monero"
+permalink: trezor-monero/
 image:
 - "/img/bitfinex/gox.png"
 - "/uploads/2017/06/28/slush-monero.jpg"

@@ -15,7 +15,7 @@ stories: true
 genres: Blog
 tickers: false
 
-permalink: "/lightning-network-vs-raiden"
+permalink: lightning-network-vs-raiden/
 german: false
 cz: lightning-network-vs-raiden
 

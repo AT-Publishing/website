@@ -22,7 +22,7 @@ tickers: false
 title: "Something rotten: Strange actions from Bittrex"
 description: "Bittrex representatives reached out to the admins of the innoficial r/bittrex subreddit to threaten with legal action."
 
-permalink: "/red-flag-bittrex"
+permalink: red-flag-bittrex/
 german: false
 
 image: ["/editorial/joke.jpg", "/features/redflag/bittrex-dec2017.png"]

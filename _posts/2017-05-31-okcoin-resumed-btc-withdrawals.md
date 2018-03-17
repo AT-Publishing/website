@@ -11,7 +11,7 @@ author_name: KarlVonBahnhof
 title: OkCoin resumed BTC withdrawals
 date: 2017-05-31 11:23
 update: '2017-05-31T15:23:31.741Z'
-permalink: "/okcoin-withdrawals"
+permalink: okcoin-withdrawals/
 description: We've got news from @cnLedger
 image:
 - "/uploads/2017/05/31/pexels-photo-247873.jpeg"

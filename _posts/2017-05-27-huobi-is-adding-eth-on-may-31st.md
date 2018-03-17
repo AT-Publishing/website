@@ -13,7 +13,7 @@ date: 2017-05-27 09:29
 update: '2017-05-27T13:32:30.285Z'
 description: Huobi announced an announcement this morning, many had high hopes for
   the withdrawal situation update -- it's just ETH trading.
-permalink: "/huobi-eth"
+permalink: huobi-eth/
 image:
 - "/uploads/2017/05/27/pexels-photo-207691.jpeg"
 image_alt:

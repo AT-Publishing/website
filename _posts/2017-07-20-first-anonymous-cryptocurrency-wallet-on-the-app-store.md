@@ -11,7 +11,7 @@ author_name: KarlVonBahnhof
 title: Anonymous coins on the Apple App Store
 date: 2017-07-20 10:38
 update: '2017-07-20T10:38:12.097Z'
-permalink: "/ios-dash-wallet-app"
+permalink: ios-dash-wallet-app/
 description: DASH wallet was released just yesterday to the Apple App Store.
 image_alt:
 - itshappening.gif

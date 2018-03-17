@@ -12,7 +12,7 @@ title: Ledger CTO says Monero viable
 date: 2017-06-15 06:36
 description: The likelihood of Monero getting its first hardware wallet is growing
   - the CTO of Ledger wallet says the next step is providing ETA.
-permalink: "/ledger-monero"
+permalink: ledger-monero/
 image:
 - "/uploads/2017/06/15/ledger-monero.png"
 image_alt:

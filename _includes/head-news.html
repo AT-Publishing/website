@@ -4,7 +4,11 @@
 
 <!-- 2 amp requirements -->
 <link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% if page.stories %}
+<link rel="canonical" href="https://news.altcointrading.net{{ page.url }}">
+{% else %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
 
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
@@ -17,8 +21,6 @@
 <meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, altcoin wallet, altcoin exchanges, altcoin trader">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-<!-- robots  -->
-<meta name="robots" content="noodp,noydir" />
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
