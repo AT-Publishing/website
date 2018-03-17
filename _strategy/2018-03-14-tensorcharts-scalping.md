@@ -35,6 +35,23 @@ author_twitter: "@tradingfanbois"
 
 The year 2017 was the year to buy your crypto in January and hold. Then, maybe, if you felt like it, to [spot a range](/strategy/wyckoff-ranging-markets) and sell the right bounce to rebuy lower and carry on the Mr Bones' wild ride. But all things come to an end. In 2018, the first most obvious thing cryptofolks noticed is that everyone's long-term stacks keep losing their dollar value.
 
+<section class="sidebar-nl container-center">
+<h4>Scalping Strategy PDF</h4>
+<p>Too long to read now? Save it for offline - download this scalping strategy article as a PDF. No risk of eye cancer from its design either.</p>
+<p><a href="/uploads/pdf/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF</b></a></p>
+</section>
+
+<p>&nbsp;</p>
+
+## About Scalping
+
+What is scalping?
+
+*Scalping [noun] - trading technique of capitalizing on small price changes. Positions are typically closed as soon as they become profitable, earning a small profit.*
+
+Scalping requires a 5M or shorter timeframe chart with indicators that work well for you there (oscillators such as StochRSI tend to be good), stable exchange or API that will not freeze on you and definitely, definitely a reliable stop loss. In a trading strategy where you collect a lot of small profits from a big number of trades [losers need to be cut quickly with a discipline](https://www.thebalance.com/introduction-to-scalping-1031052) as a single large loss could wipe out what you felt was a hard work, putting you psychologically in a bad place.
+
+
 ##### Why scalping matters
 
 Judging [from Google Trends](/strat/scalping/googletrends-cryptotrading.png), a lot of new people got into cryptocurrencies as they started hearing about the Bitcoin doubling...tripling...you what, 10k?...and so on. Another crop, smaller still, came at the start of the Bitcoin's bull run in late 2016.
@@ -49,13 +66,7 @@ It is no doubt good to know when not to trade in order to minimize losses but it
 
 There is still money on the table, why not collect it then?
 
-## About Scalping
 
-What is scalping?
-
-*Scalping [noun] - trading technique of capitalizing on small price changes. Positions are typically closed as soon as they become profitable, earning a small profit.*
-
-Scalping requires a 5M or shorter timeframe chart with indicators that work well for you there (oscillators such as StochRSI tend to be good), stable exchange or API that will not freeze on you and definitely, definitely a reliable stop loss. In a trading strategy where you collect a lot of small profits from a big number of trades [losers need to be cut quickly with a discipline](https://www.thebalance.com/introduction-to-scalping-1031052) as a single large loss could wipe out what you felt was a hard work, putting you psychologically in a bad place.
 
 ## Your scalping tool
 

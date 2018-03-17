@@ -3,5 +3,6 @@
 {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
 
 {% if pageTime > endTime %}
+<span class="note" id="updates-{{ category[0] }}">Updated in {{ category[0] | capitalize }}</span>
 {% include home/columnupdates.html %}
 {% endif %}
