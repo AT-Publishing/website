@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Clickgem new airdrop update."
+newlyadded: "Cryptoloans published an update of their ERC20 bounty."
 
 ---
 
