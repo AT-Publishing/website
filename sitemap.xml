@@ -5,24 +5,24 @@ navi:
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_pages.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-pages.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_posts.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-posts.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_strategy.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-strategy.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_security.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-security.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_pressreleases.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-pressreleases.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_markets.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-markets.xml</loc>
   </sitemap>
   <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap_airdrops.xml</loc>
+    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-airdrops.xml</loc>
   </sitemap>
 </sitemapindex>
