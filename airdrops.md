@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "TokenDesk & Macro Project ERC20 Airdrops added."
+newlyadded: "Monday's airdrops: TokenDesk, xDAC, Macro Project and more."
 
 ---
 
