@@ -17,7 +17,7 @@ author_twitter: "@altcointrading_"
 comments: false
 tickers: false
 
-permalink: cryptoloans/
+slug: cryptoloans/
 german: false
 cz: false
 

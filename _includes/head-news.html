@@ -1,7 +1,5 @@
 <head>
 <meta charset="utf-8">
-{% unless page.stories %}<meta name="Googlebot-News" content="noindex, nofollow">{% endunless %}
-
 <!-- 2 amp requirements -->
 <link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% if page.stories %}

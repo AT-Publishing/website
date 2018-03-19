@@ -19,7 +19,7 @@ collections:
 collections:
   press:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:slug/
   security:
     output: true
     permalink: /:collection/:slug
