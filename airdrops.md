@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Cryptoloans published an update of their ERC20 bounty."
+newlyadded: "TokenDesk & Macro Project ERC20 Airdrops added."
 
 ---
 
@@ -24,7 +24,7 @@ Airdrop updates are now also reposted to [medium.com/cryptolounge/airdrops/home]
 
 ___________
 
-## Crypto Airdrops in 2018
+**Crypto airdrops 2018, month by month**
 
 This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
