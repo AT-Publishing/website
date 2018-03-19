@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Press Releases
+title: Press Release Archive
 permalink: /press-releases/
 tags:
 - hidden
@@ -9,14 +9,12 @@ navi:
 image:
  - "/img/editorial/cleanslate.jpg"
 image_alt:
- - "altcointrading.net"
+ - "altcointrading.net press releases"
 ---
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 
 __________________________
-
-{{ site.ads.aads728 }}
 
 {% for post in site.press offset: 0 limit: 15 %}
   <h4 class="post">
@@ -31,7 +29,5 @@ __________________________
 {% endfor %}
 
 __________________________
-
-{{ site.ads.aads728 }}
 
 If you want to inquire about publishing a press release please shoot us an email to `jmt@altcointrading.net`.

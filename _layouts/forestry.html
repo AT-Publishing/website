@@ -105,30 +105,13 @@ layout: default-news
 
           <hr>
 
-            {% if page.stories %}
-            <p>
-              <a title="Author of {{ page.title }} {{ page.author }}" rel="nofollow" target="_blank" href="{{ page.author }}">Author</a> | Filed under <strong>{{ page.genres }}</strong> {% if page.tickers %}| Related tickers: <strong>{{ page.tickers }}</strong>{% endif %}
-            </p>
 
-            <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Person",
-              "name": "{{ page.author_name }}",
-              "url": "https://www.altcointrading.net",
-              "sameAs": [
-                "{{ page.author }}"
-              ]
-            }
-            </script>
-
-            {% endif %}
 
           </p>
 
           {% if page.comments %}
 
-          <h4 class="post comment" id="disqus_embed">Comment on "{{ page.title }}"</h4>
+          <h4 class="post comment" id="comments">Comments</h4>
 
           <div id="disqus_thread"></div>
           <script>
@@ -155,7 +138,7 @@ layout: default-news
 
           <hr>
 
-          <p>Comments are disabled for this post.</p>
+          <p>Comments are disabled for this article.</p>
 
           <hr>
 

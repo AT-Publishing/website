@@ -6,6 +6,7 @@
       {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
       {% endif %}
       <small>{{ post.date | date_to_string }}</small>
+      {% if post.comments %}<small>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}#comments">Comments</a></small>{% endif %}
       {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
       <a  class="index-internal" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
         <br>
