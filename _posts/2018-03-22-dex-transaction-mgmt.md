@@ -166,7 +166,7 @@ The only feasible solution that would enable smooth trading experience on par wi
 
 Unfilled cancelled orders on IDEX are purged and invalidated as needed, they are not recorded on the blockchain and therefore do not cost anything.
 
-Grossly discounting the technicals to make non-custodial leveraged trading possible, [LeverJ](https://leverj.io) offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.
+Grossly discounting the technology needed to make non-custodial leveraged trading possible, [LeverJ](https://leverj.io) offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.
 
 * users link their wallets via a zero-knowledge API (more on that further down)
 * orders are processed and either cancelled or matched by a centralized engine
