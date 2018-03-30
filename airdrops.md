@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Thurdsday's massive update - EighthCoin, Develop, LusoCoin and XAIN."
+newlyadded: "We've added new crypto airdrops and bounties - follow @altcointrading_ to see what they are."
 
 ---
 
