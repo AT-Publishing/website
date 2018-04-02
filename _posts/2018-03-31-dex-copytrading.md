@@ -143,6 +143,7 @@ They use the centralized off-chain orderbook and matching, transactions are batc
 
 LeverJ planned for the copy trading business already in their whitepaper. Starting with a trade replay feature to be used for studying, the roadmap also includes managed trading features and a social network idea similar to TradingView user feeds (here called *subscription*). These are supposed to start launching [closer to the end of 2018](https://leverj.io/#cp-tl), we will see how optimistic that was. Further down the road a marketplace for automated strategies is planned - that means basically mirror trading.
 
+[LeverJ Whitepaper (PDF)](https://leverj.io/whitepaper.pdf)
 
 ### Summary
 
