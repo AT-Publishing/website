@@ -30,8 +30,9 @@ image:
 image_alt:
 - "On non-custodial trade execution - what has been done, what is proposed and how zero-knowldge API keys can make decentralized exchanges user-friendly. Roadmap image from Pexels."
 
-categories: ["dex", "exchanges"]
+categories: ["exchanges"]
 tags: [ "leverj", "leverj-io", "altcoin-io", "0x", "ddex", "dex", "decentralized-exchange", "non-custodial-trading", "crypto-trading"]
+series: dex
 chart: []
 
 about:
@@ -141,7 +142,7 @@ There is a lot of great work being done but keep in mind it's not the end of his
 
 The slow trade execution on EtherDelta is caused by its [lack of automated matching routine](https://www.reddit.com/r/EtherDelta/comments/6t4w55/does_etherdelta_has_a_matching_algorithm_or_the/). Trades from the order book don't get matched by an engine, each order needs to be picked up be someone in order to complete, as explained [here in a guide on how to trade on EtherDelta](https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/).
 
-While that keeps EtherDelta a truly decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.
+While that keeps EtherDelta a more decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.
 
 **The 0x solution of the liquidity problem**
 
