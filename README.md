@@ -24,6 +24,51 @@ ________________________
 
 
 ```
+
+<!-- Google Tag Manager -->
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-TJNG2LQ&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+
+
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-73503011-2"
+  },
+  {% if page.stories %}
+  "trackPageviewWithCustom" : {
+      "on": "visible",
+      "request": "pageviewWithCG1",
+      "vars": {
+        "cg1": "TimelyNews"
+      }
+    },
+  {% else %}
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    },
+  {% endif %}
+    "outboundLinks": {
+        "on": "click",
+        "selector": "a",
+        "request": "event",
+        "vars": {
+          "eventCategory": "outbound",
+          "eventAction": "click",
+          "eventValue": "${outboundLink}"
+        }
+      }
+  }
+}
+</script>
+</amp-analytics>s
+
+```
+
+
+```
 <section>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript">
