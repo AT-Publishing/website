@@ -18,16 +18,17 @@ newlyadded: "We've added new crypto airdrops and bounties - follow @altcointradi
 
 <section class="sidebar-nl container-center">
 <h5>AltcoinTrading.NET Verified Airdrops</h5>
-Get them [per email](http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c) - select *Updates on the Airdrops page*. We tweet drops at [altcointrading_](https://twitter.com/altcointrading_) at most mornings for US, Europe and India and repost to [Google+ Crypto Airdrops](https://plus.google.com/b/118152650417780550154/collection/kB3JSF) collection.
-<br>
-Follow [CryptoLounge on Medium](https://medium.com/cryptolounge/airdrops/home) to get your drops separated in posts.
+
+<p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
+
+<p>We tweet drops at <a href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and repost to <a href="https://plus.google.com/b/118152650417780550154/collection/kB3JSF">Google+ Crypto Airdrops collection</a>.</p>
+
+<p>
+Follow <a href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a> to get your drops separated in posts.
+</p>
 </section>
 
-
-
-**Crypto airdrops 2018, month by month**
-
-This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
+<hr>
 
 <h3 class="posh">Upcoming Airdrops in April 2018</h3>
 
@@ -45,6 +46,10 @@ This is our section for cryptocurrency airdrops, published in sections month by 
 
 </div>
 
+
+> Crypto airdrops 2018, month by month
+
+This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
 
 > Airdrop Archive
