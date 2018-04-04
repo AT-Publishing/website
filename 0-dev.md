@@ -21,5 +21,15 @@ permalink: /dev
   <div placeholder>Loading ...</div>
   <div fallback>Failed to load data.</div>
 </amp-list>
+<hr>
+<div class="columns four">
+<amp-iframe
+  width=320 height=270px
+  layout="responsive"
+  sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://atnet-feeds.netlify.com/newsblade">
+  <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+</amp-iframe>
+</div>
 </div>
 </div>
