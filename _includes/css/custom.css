@@ -5,3 +5,6 @@
 .top2 h5.post {font-size:18px}
 
 li.popular-item{list-style-position: inside;list-style-image: url(/img/list.jpg);}
+
+.newsblade{background: #f9f9f9;}
+#newsnews > h2#news {font-size: 4rem;padding: 15px;font-weight: 800;text-align: center;font-family: serif;margin-bottom: -10px;}
