@@ -1,0 +1,21 @@
+---
+---
+{ "items": [
+  {
+    "title": "Title 1",
+    "url": "https://example.com/#1"
+  },
+  {
+    "title": "Title 2",
+    "url": "https://example.com/#2"
+  },
+  {
+    "title": "Title 3",
+    "url": "https://example.com/#3"
+  },
+  {
+    "title": "Title 4",
+    "url": "https://example.com/#4"
+  }
+]
+}

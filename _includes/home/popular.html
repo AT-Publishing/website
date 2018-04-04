@@ -1,0 +1,24 @@
+<!--
+<amp-list width="auto"
+  height="100"
+  layout="fixed-height"
+  src="/sample.json">
+  <template type="amp-mustache">
+    <div class="url-entry atnet-popular">
+      <a href="{{url}}">{{title}}</a>
+    </div>
+  </template>
+</amp-list>
+-->
+
+
+<span id="note">Most Read Articles</span>
+<ul class="popular">
+{% for post in site.posts %}
+   {% if post.tags contains 'popular' %}
+    <li class="popular-item">
+      <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">{{ post.title }} {% if post.last_modified_at %}, updated {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

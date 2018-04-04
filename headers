@@ -16,3 +16,11 @@ navi:
 /fibs.json
   Access-Control-Allow-Origin: *
   X-Frame-Options: ALLOW
+/atnet.json
+  Content-type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+  X-Frame-Options: ALLOW
+  Access-Control-Allow-Credentials: true
+  Access-Control-Allow-Origin: https://www.altcointrading.net
+  AMP-Access-Control-Allow-Source-Origin: https://www.altcointrading.net
+  Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin

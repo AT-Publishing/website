@@ -1,0 +1,11 @@
+<span class="note">Latest</span>
+<div class="row home-top-new" id="gtm-top-new-1">
+    {% for post in site.posts offset: 0 limit: 2 %}
+      {% include latestarticle.html %}
+    {% endfor %}
+</div><!-- row end-->
+<div class="row home-top-new" id="gtm-top-new-2">
+    {% for post in site.posts offset: 2 limit: 2 %}
+      {% include latestarticle.html %}
+    {% endfor %}
+</div><!-- row end-->

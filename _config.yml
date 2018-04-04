@@ -122,6 +122,17 @@ defaults:
 author: "AltcoinTrading"
 markdown: kramdown
 
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
 # referral links
 ref:
   kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
