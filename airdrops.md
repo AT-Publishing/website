@@ -28,7 +28,7 @@ ___________
 
 This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
-<h3 class="posh">Upcoming Airdrops in March 2018</h3>
+<h3 class="posh">Upcoming Airdrops in April 2018</h3>
 
 <div id="gtm-thismonth-airdrops">
 
@@ -36,7 +36,7 @@ This is our section for cryptocurrency airdrops, published in sections month by 
 
 </div>
 
-<h3 class="posh">Upcoming Airdrops in April 2018</h3>
+<h3 class="posh">Upcoming Airdrops in May 2018</h3>
 
 <div id="gtm-nextmonth-airdrops">
 
