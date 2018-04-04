@@ -8,3 +8,23 @@ li.popular-item{list-style-position: inside;list-style-image: url(/img/list.jpg)
 
 .newsblade{background: #f9f9f9;}
 #newsnews > h2#news {font-size: 4rem;padding: 15px;font-weight: 800;text-align: center;font-family: serif;margin-bottom: -10px;}
+
+h1.tagged-as {background: 0 0;
+    color: #000b17;
+    border-left: 5px solid #000b17;
+    padding: 3rem;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.tagfeed-items h5.post {background: transparent;}
+.tagfeed-items .six h5.post {font-size: 16px;}
+.tagfeed-items ul.popular {padding: 0 15px;}
+@media(min-width:667px){
+  .tagfeed-items .six{margin: 0;
+    width: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    min-height: 301px;}
+}

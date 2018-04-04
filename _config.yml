@@ -8,6 +8,7 @@ timezone: "Etc/GMT"
 gems: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 
+
 strategy_callout: '<h4>Coming up in Strategy:</h4><p>Advanced tools and resources for your trading. What is used by the people who are not attention-wh88ing on Twitter?</p>'
 #security_callout: '<h4>Coming up in Security:</h4><p>Pi-VPN - personal VPN on a Raspberry pi. Easy to setup, really.</p>'
 

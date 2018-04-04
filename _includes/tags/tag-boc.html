@@ -1,0 +1,22 @@
+<div class="row tagfeed-items">
+<h1 class="tagged-as clear">Tagged as <a href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a></h1>
+{% for tag in site.tags %}
+{% if tag contains "business-of-crypto" %}
+    {% assign pages_list = tag[1] %}
+{% for post in pages_list limit:1 %}
+<div class="columns six">
+  {% include home/columnupdates.html %}
+</div>
+{% endfor %}
+<div class="columns six">
+  <ul class="popular">
+  {% for post in pages_list offset:1 limit:4 %}
+      <li class="popular-item">
+        <a class="index-internal" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}{% if post.last_modified_at %}, updated {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+      </li>
+  {% endfor %}
+  </ul>
+  <p><a href="/tag/businessofcrypto/">All in #BusinessOfCrypto</a></p>
+</div>
+{% endif %}{% endfor %}
+</div>

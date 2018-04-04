@@ -1,4 +1,5 @@
 ---
+published: true
 navi:
  exclude: yes
 ---
@@ -18,7 +19,7 @@ navi:
     {% for page in site.pages %}{% unless page.navi.exclude == true %}{% unless page.categories contains "airdrops" %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        {% if page.last_modified_at %}<lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>{% endif %}
         {% if page.cz or page.german %}
         <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
         {% endif %}{% if page.cz %}

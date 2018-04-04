@@ -21,7 +21,7 @@ image:
 update: 2017-11-23 13:24 +0700
 image_alt:
 - It's only the whales that are lucky.
-tags: [ 'bitfinex', 'bitfinex-banking', 'tether']
+tags: [ "business-of-crypto", 'bitfinex', 'bitfinex-banking', 'tether']
 identifier:
 - phillpotteravalancheofbullshit
 ---

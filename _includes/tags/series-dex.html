@@ -1,0 +1,8 @@
+<div class="row tagfeed-items">
+<h1 class="tagged-as clear">Series: Decentralized Trading #DEX</h1>
+{% for post in site.posts %}{% if post.series contains "dex" %}
+<div class="columns six">
+  {% include home/columnupdates.html %}
+</div>
+{% endif %}{% endfor %}
+</div>

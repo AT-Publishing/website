@@ -31,7 +31,7 @@ image_alt:
 - "On non-custodial trade execution - what has been done, what is proposed and how zero-knowldge API keys can make decentralized exchanges user-friendly. Roadmap image from Pexels."
 
 categories: ["exchanges"]
-tags: [ "leverj", "leverj-io", "altcoin-io", "0x", "ddex", "dex", "decentralized-exchange", "non-custodial-trading", "crypto-trading"]
+tags: ["business-of-crypto", "leverj", "leverj-io", "altcoin-io", "0x", "ddex", "dex", "decentralized-exchange", "non-custodial-trading", "crypto-trading"]
 series: dex
 chart: []
 
