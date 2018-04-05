@@ -28,3 +28,31 @@ h1.tagged-as {background: 0 0;
     display: inline-block;
     min-height: 301px;}
 }
+/*mobile*/
+@media (max-width:480px) {
+.logo{width: 25px}
+.stripe .hl a{font-size: 2rem}
+span.note,.stripe small,#altindexbox,
+h5.post small,.top2 figure,
+#atnet-press figure,
+.top .four figure {display: none}
+.top2 h5.post, .top .four h5.post {
+    font-size: 18px;
+    border-top: 2px solid #03203f;
+    margin: 0;
+    padding: 10px;
+}
+#atnet-press>div.columns{font-size: 14px}
+.tagfeed-items .six figure{
+    width: 66%;
+    margin: 40px auto;
+  }
+.tagfeed-items .six h5.post {
+    border: none;
+    text-align: center;
+ }
+ .tagfeed-items .six .row{
+   background-color: #ffffff;
+   background-image: -webkit-linear-gradient(0deg, #fddc33 50%, #ffffff 50%);
+ }
+}
