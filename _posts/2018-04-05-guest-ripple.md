@@ -8,7 +8,7 @@ date: 2018-04-05 06:35:00 -0300
 title: "4 Reasons to Be Bullish on Ripple"
 description: "The main scoop of the week is the result of Ripple's partnership with Western Union, but there's more."
 
-author: https://www.cityofhype.com
+author: https://twitter.com/cityofhype
 author_name: Cameron
 author_twitter: '@cityofhype'
 
@@ -42,7 +42,7 @@ related:
 
 ---
 
-> This is a guest article by Cameron of the [cityofhype.com](https://www.cityofhype.com) - domain that sounds very Ripple but check them out, they are not at all one-sided when it comes to finance. Cameron is a finance analysts and investor in currencies and securities.
+> This is a guest article by Cameron of the [cityofhype.com](https://www.cityofhype.com/cryptocurrency/) - domain that sounds very Ripple but check them out, they are not at all one-sided when it comes to finance. Cameron is a finance analysts and investor in currencies and securities.
 
 
 #### 1 - Uphold and The London Bank Exchange are Using Ripple
