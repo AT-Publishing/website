@@ -42,7 +42,7 @@ related:
 
 ---
 
-> This is a guest article by Cameron of the [cityofhype.com](https://www.cityofhype.com/cryptocurrency/) - domain that sounds very Ripple but check them out, they are not at all one-sided when it comes to finance. Cameron is a finance analysts and investor in currencies and securities.
+> This is a guest article by Cameron of the [cityofhype.com](https://www.cityofhype.com/ripple-xrp-news-where-to-buy-ripple-tokens/) - domain that sounds very Ripple but check them out, they are not at all one-sided when it comes to finance. Cameron is a finance analysts and investor in currencies and securities.
 
 
 #### 1 - Uphold and The London Bank Exchange are Using Ripple
