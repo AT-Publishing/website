@@ -25,7 +25,7 @@ cz: false
 image:
 - "/editorial/unsplash2/atnet-twitter.jpg"
 image_alt:
-- ""
+- "Ad bans aren’t necessarily bad  . Twitter image by Unsplash."
 
 categories: ["trading"]
 tags: [ "twitter", "twitter-crypto-ban", "cryptodisrupt", "token-launch-marketing", "business-of-crypto"]
@@ -37,14 +37,16 @@ about:
 
 related:
 - {"Collection of No-ICO projects for traders": "/category/no-ico/"}
-- {"LeverJ / Non-custodial trading with leverage": "/leverj/"}
-- {"Bloomberg publishes two months old Tether subpoena": "/tether-subpoena/"}
+- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
+- {"Series: Inside of Decentralized Trading Platforms": "/dex-copytrading/"}
 
 series: "token-launch-marketing"
 
 ---
 
 > This is a guest article by the lovely folks of [CryptoDisrupt](http://cryptodisrupt.com), the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe [right here](https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg). Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.
+
+> **New post in series #TokenLaunchMarketing on Tuesday 10 April**
 
 Twitter’s ban on crypto-related ads came into effect on Tuesday April the 3rd and saw the social blogging platform follow Google and Facebook’s lead in prohibiting most crypto-related media.
 

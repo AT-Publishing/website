@@ -27,6 +27,27 @@ h1.tagged-as, h2.tagged-as {background: 0 0;
     position: relative;
     display: inline-block;
     min-height: 301px;}
+  ul.navi {
+    display: block;
+    margin: 0 auto 0px;
+    border-bottom: 5px solid #03203f;
+    text-transform: capitalize;
+  }
+  .top h5.post {margin-bottom: 0}
+  .atnet-last-2 {border-top: 5px solid #03203f;}
+  hr.skinny {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-width: 0;
+    border-top: 1px solid #e1e1e1;
+  }
+  h5.post strong > small {
+    font-size: 63%;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: -3px;
+  }
 }
 /*mobile*/
 @media (max-width:480px) {

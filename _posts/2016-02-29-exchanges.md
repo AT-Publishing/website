@@ -39,7 +39,7 @@ about:
 
 ---
 
-{{ site.tv_728-90_animated }}
+{{ site.tv_728-90_static }}
 
 So you want to join the madness and start with altcoin trading?
 

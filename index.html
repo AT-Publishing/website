@@ -9,12 +9,18 @@ navi:
         <div class="columns eight">{% include home/columnupdates.html %}</div>
       {% endfor %}
       {% for post in site.posts offset: 1 limit: 1 %}
-        <div class="columns four">{% include home/columnupdates.html %}</div>
+        <div class="columns four atnet-second">
+          {% include home/columnupdates.html %}
+          <br>
+          <hr class="skinny">
+          {{ site.deribit_xs }}
+          <hr class="skinny">
+        </div>
       {% endfor %}
   </div>
   <div class="row top top2">
       {% for post in site.posts offset: 2 limit: 3 %}
-        <div class="columns four">{% include home/columnupdates.html %}</div>
+        <div class="columns four atnet-last-2">{% include home/columnupdates.html %}</div>
       {% endfor %}
   </div>
   <div class="row">
@@ -148,7 +154,7 @@ navi:
       </section>
       {% else %}
       <div>
-        {{ site.tv_728-90_animated }}
+        {{ site.tv_728-90_static }}
       </div>
       {% endif %}
       <hr>

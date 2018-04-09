@@ -56,7 +56,7 @@ layout: default-news
           {% endif %}
           <hr>
           <div>
-            {{ site.tv_728-90_animated }}
+            {{ site.tv_728-90_static }}
           </div>
           <hr>
           <div>
@@ -107,12 +107,10 @@ layout: default-news
 
           <div id="disqus_thread"></div>
           <script>
-
-          var disqus_config = function () {
-          this.page.url = "{{site.url}}{{page.url}}";  // Replace PAGE_URL with your page's canonical URL variable
+           disqus_config = function () {
+          this.page.url = "{{page.url | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
           this.page.identifier = "{{page.identifier}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
           };
-
           (function() { // DON'T EDIT BELOW THIS LINE
           var d = document, s = d.createElement('script');
           s.src = 'https://altcointrading.disqus.com/embed.js';
@@ -126,7 +124,7 @@ layout: default-news
 
           {% else %}
 
-          <p>&nbsp;</p>
+          <p></p>
 
           <hr>
 
