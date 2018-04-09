@@ -7,6 +7,10 @@ layout: default
 
     <h1 class="tagged-as clear">tagged as #{{ page.tag }}</h1>
 
+    <div class="">
+      {{ content }}
+    </div>
+
     {% for tag in site.tags %}
     {% if tag contains page.tag %}
 
@@ -108,13 +112,28 @@ layout: default
 
       <hr>
       <div>
-        {{ site.ads.binance728 }}
+        {{ site.tv_728-90_animated }}
       </div>
       <hr>
 
+      {% if page.series %}
+      {% for series in page.series %}
+      <div class="row tagfeed-items">
+        <h2 class="tagged-as">More in #{{ page.tag | upcase }}: Series {{ series | upcase }}</h2>
+        {% for post in site.posts %}
+         {% if post.series contains series %}
+         <div class="columns six">
+           {% include home/columnupdates.html %}
+         </div>
+         {% endif %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+      {% endif %}
+
       {% if page.category %}
       <div class="row">
-        <span class="note">Related: {{ page.category | capitalize }}</span>
+        <h2 class="tagged-as">Related: {{ page.category | capitalize }}</h2>
         {% for post in site.posts limit: 5 %}
          {% if post.categories contains page.category %}
           {% include category/all.html %}

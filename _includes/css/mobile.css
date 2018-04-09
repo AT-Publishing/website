@@ -1,0 +1,30 @@
+.tooltip-label-menu {
+  display: none;
+}
+@media (max-width: 500px){
+  .tooltip-label-menu {
+    font-size: 2em;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-bottom: 2em;
+    color: #000b17;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  amp-sidebar {
+    max-width: 50vw!important;
+    background-color: #010b18;
+    color: white;
+  }
+  .close-sidebar {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  amp-sidebar a, amp-sidebar a:hover {
+    color: #6e8ba9d1
+  }
+}

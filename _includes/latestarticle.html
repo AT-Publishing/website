@@ -7,7 +7,7 @@
       {% endif %}
       <small>{{ post.date | date_to_string }}</small>
       {% if post.comments %}<small>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}#comments">Comments</a></small>{% endif %}
-      {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+      {% if post.guest %}&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
       <a  class="index-internal" href="{{site.url}}{{ post.url }}" title="{{ post.title }}">
         <br>
         {{ post.title }}
@@ -31,8 +31,8 @@
     <div class="twelve columns overlay">
       <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
         {{ post.description }}
-        {% if post.last_modified_at %}&nbsp;&middot;&nbsp;Last update {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
-        {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
+        {% if post.last_modified_at %}&nbsp;Last update {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
+        {% if post.guest %}&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
 
       </a>
     </div>

@@ -22,8 +22,14 @@
           width="75px" height="90px"></amp-img>
         </div>
         <div class="textlogo">
-          <div class="hl"><a href="/">{{ site.title }}</a></div>
-          <small><em>{{ site.subtitle }} Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a></em></small>
+          <div class="hl">
+            <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="tooltip-label-menu"><i class="fa fa-bars fa-2" aria-hidden="true"></i></div>
+            <a href="/">{{ site.title }}</a></div>
+          <small>
+            <em>
+              {{ site.subtitle }} Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+            </em>
+          </small>
         </div>
         <div class="atnet-social">
 
@@ -60,24 +66,6 @@
       </div>
     </div>
 
-    <div class="tooltip" id="togglemenu">
-      <input type="checkbox" value="selected" id="mobile-menu-1" class="tooltip-input">
-      <label for="mobile-menu-1" class="tooltip-label-menu">
-        <i class="fa fa-bars fa-2" aria-hidden="true"></i>&nbsp;MENU
-      </label>
-      <div role="tooltip" id="togglemenuID" class="tooltip-content">
-
-        <!-- mobile nav START -->
-        <nav class="main">
-          <div class="twelve columns">
-            <ul class="navi mobile-only">
-              {% include menu.html %}
-            </ul>
-          </div>
-        </nav>
-
-     </div> <!--/.tooltip-content-->
-    </div><!--/.tooltip-->
   </div>
 
   <!-- ====DESKTOP===== MENU START -->
@@ -89,5 +77,13 @@
     </div>
   </nav>
   <!-- nav END -->
+
+
+  <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+  <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+  <ul class="navi mobile-only">
+    {% include menu.html %}
+  </ul>
+  </amp-sidebar>
 
 </div>
