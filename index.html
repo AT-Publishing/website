@@ -11,10 +11,11 @@ navi:
       {% for post in site.posts offset: 1 limit: 1 %}
         <div class="columns four atnet-second">
           {% include home/columnupdates.html %}
-          <br>
-          <hr class="skinny">
-          {{ site.deribit_xs }}
-          <hr class="skinny">
+          <div class="smallad">
+            <hr class="skinny">
+            {{ site.deribit_xs }}
+            <hr class="skinny">
+          </div>
         </div>
       {% endfor %}
   </div>

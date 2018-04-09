@@ -60,11 +60,12 @@ layout: default-news
           </div>
           <hr>
           <div>
-            {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+            {{ content | strip | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
           </div>
           {% if page.guest %}
           <div>
-            This is a guest article by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>. Views expressed in this article are author\'s own.
+            <hr>
+            This is a guest article by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>. Views expressed in this article are author's own.
           </div>
           {% endif %}
           <hr>

@@ -32,17 +32,13 @@ Follow <a href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on M
 
 <h3 class="posh">Upcoming Airdrops in April 2018</h3>
 
-
 {% include thismonth-airdrops.html %}
 
 
 <h3 class="posh">Upcoming Airdrops in May 2018</h3>
 
-<div id="gtm-nextmonth-airdrops">
-
 {% include nextmonth-airdrops.html %}
 
-</div>
 
 
 > Crypto airdrops 2018, month by month
