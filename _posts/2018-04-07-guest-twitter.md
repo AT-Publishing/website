@@ -46,7 +46,7 @@ series: "token-launch-marketing"
 
 > This is a guest article by the lovely folks of [CryptoDisrupt](http://cryptodisrupt.com), the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe [right here](https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg). Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.
 
-> **New post in series #TokenLaunchMarketing on Tuesday 10 April**
+> **Second post in series #TokenLaunchMarketing from Tuesday 10 April 2018 here: [Token Marketing #2: Agencies are more than happy about the bans](/token-marketing-agencies/)**
 
 Twitter’s ban on crypto-related ads came into effect on Tuesday April the 3rd and saw the social blogging platform follow Google and Facebook’s lead in prohibiting most crypto-related media.
 

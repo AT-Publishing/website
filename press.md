@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Press Release Archive
-permalink: /press-releases/
+permalink: /press/
 tags:
 - hidden
 navi:

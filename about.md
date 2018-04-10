@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About US & Legal
+title: About & Legal
 permalink: /about-legal/
 tags:
 - hidden
@@ -8,17 +8,44 @@ navi:
  exclude: yes
 ---
 
-## About AltcoinTrading.NET
+Last Update: {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC
+
+#### About AltcoinTrading.NET
 
 We are a group of traders and we write for traders. We are not a fast-news website, the aim of AltcoinTrading.NET is to
 
-1. publish information and analyses that could be important for our readers' investment decisions
+1. publish product and news analyses on subjects that move the crypto world
 2. to serve people interested in building a skill
 
 For the sake of clarity, we only serve the information on which our readers should form their decision themselves, non of the content we publish constitutes an investment advice or a security advice. [Read our disclaimer](/disclaimer/)
 
+#### Content disclosure
 
-**Contact Us**
+AltcoinTrading.NET does **not** publish trading advice, tips, calls or any other directional recommendations regarding cryptocurrencies, cryptocurrency markets or any other markets. We occasionally publish [market news commentary](/fibs/daily) which is meant to remain neutral and is only published for educational purposes, to showcase how information can be extracted from charting patterns.
+
+We sometimes (not always) get compensated to distribute press releases and information about information airdrops.
+
+All sponsored content is separated from regular articles on the site: [Airdrops are limited to the single page /airdrops/](/airdrops/), [Press Releases are always prominently tagged PRESS RELEASE and all listed at /press/](/press/). Press releases are not distributed to our readers via email marketing.
+
+Articles published in the main content sections (prominently tagged as BLOG, FEATURE, USER GUIDE, SECURITY, STRATEGY) **are never sponsored in any way**, even if they feature a commercial product.
+
+For any content that features a tradeable cryptocurrency we require the author to not have an open position in said cryptocurrency nor to open one within 48 hours after publishing.
+
+#### Links disclosure
+
+In the sidebar, in the Airdrops section, in advertisement banners and very occasionally in text, we sometimes use affiliate links. We do not use affiliate links to products belonging to companies that we work for on a professional basis. We don't use shorteners to mask referral links.
+
+**If you want to avoid affiliate links:**
+
+All content from AltcoinTrading.NET that is marked as "News" gets deployed simultaneously at AltcoinTrading.NET and at News.AltcoinTrading.NET. **Articles on News.AltcoinTrading.NET do not contain any affiliate links** and banner advertising on News.AltcoinTrading.NET is limited to the homepage.
+
+If you want to read our articles but want to avoid all affiliate links, you can subscribe to our mailing list and deselect everything except *News analyses ONLY* - [opt in here](http://eepurl.com/cOgd6P). That way you will get new post alerts with links to News.AltcoinTrading.NET rather than to AltcoinTrading.NET.
+
+[Go to News.AltcoinTrading.NET](https://news.altcointrading.net/)
+
+
+#### Contact Us
+
 
 ```
 ATNET
@@ -27,35 +54,29 @@ Av. Francisco Solano Lopez 3794
 Asuncion 3794, Paraguay
 ```
 
-You are welcome to contact us per email with feedback, questions or offers. If you are interested is submitting an airdrop, a press release or a guest post, [please use the links on our contact page](/contact/).
+Twitter: [@altcointrading_](https://twitter.com/altcointrading_)
+
+LinkedIn: [AltcoinTrading.NET](https://www.linkedin.com/company/altcointradingnet/)
+
+Email:
 
 * General: info@altcointrading.net
 * Business: jmt@altcointrading.net
 * Use the "Author" link below each post to contact author directly.
 
-Even though this website is aimed at altcoin trading, we are bitcoin supporters and you can find us on bitcoin subreddits.
 
-______________________________
-
-
-**Full disclosure**
-
-We sometimes (not always) use affiliate links. We do not use affiliate links on products belonging to companies that we work for on a professional basis. We also don't mask referral links - what you see is what you get.
+You are welcome to contact us per email with feedback, questions or offers. If you are interested is submitting an airdrop, a press release or a guest post, [please use the links on our contact page](/contact/).
 
 
-______________________________
-
-**Images and Icons Credits**
+#### Images and Icons Credits
 
 * Featured images (articles, pages, strategy, security): [pexels.com](https://pexels.com), edit: [venngage.com](https://venngage.com)
 * Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
 * Teasers and CTAs: [canva](https://canva.com)
 * Icons: Google AMP default set
 
-______________________________
 
-
-Privacy Policy **Last updated: October 2, 2017**
+#### Privacy Policy **Last updated: October 2, 2017**
 
 This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 
@@ -107,7 +128,7 @@ We have enabled Disqus as a third party comment engine. [Link to their privacy p
 
 Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en
 
-= We **have not enabled Google AdSense** on our site. We use Anonymous Ads for display ads.
+= We **have not enabled Google AdSense** on our site.
 
 **California Online Privacy Protection Act**
 
