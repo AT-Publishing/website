@@ -15,7 +15,7 @@
     font-weight: 400;
   }
   amp-sidebar {
-    max-width: 50vw!important;
+    max-width: 50vw;
     background-color: #010b18;
     color: white;
   }

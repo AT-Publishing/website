@@ -33,14 +33,14 @@ navi:
     padding-bottom: 20px;
   }
   h4.post {
-      background: #000b17 !important;
+      background: #000b17 ;
       color: #fff;
       clear: both;
       max-width: 100%;
       margin-left: 0px;
   }
   h4.post a {
-    color: #fff !important
+    color: #fff 
   }
 
 
