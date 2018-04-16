@@ -36,9 +36,9 @@ navi:
 
       <!-- Press Releases -->
       {% if site.press[0] %}
-      <span class="note">Industry Press Releases</span>
+      <span class="note">Industry Press Releases</span> // <a href="/press/">Press Archive</a>
       <div class="row" id="atnet-press">
-        {% for post in site.press offset: 0 limit: 3 %}
+        {% for post in site.press reversed offset: 0 limit: 3 %}
         <div class="columns four">
             <strong>
               <span class="tag">PRESS RELEASE</span>
@@ -65,10 +65,21 @@ navi:
       </div>
       {% endif %}
 
+      <section>
+        <hr>
+        {% if site.security_callout %}
+        <section class="sidebar-nl container-center">
+        {{ site.security_callout }}
+        <p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
+        </section>
+        {% else %}
+        <div>
+          {{ site.ledger_728-90_animated }}
+        </div>
+        {% endif %}
+        <hr>
+      </section>
 
-      <!-- SLOT 2 -->
-      {{ site.ledger_728-90_animated }}
-      <br>
 
       <!-- Pagination links -->
       <div class="pagination">
@@ -162,12 +173,9 @@ navi:
     </section>
 
     <section class="atnet-home-bottom space">
-        <span class="note">Fundraiser's Finest</span>
-        <b>REPUX</b> Data aggregation protocol to gather information from small enterprises to use them for machine learning.
-        <a rel="nofollow" target="_blank" class="line" href="https://t.icoref.link/click?pid=1915&offer_id=10">ICO starts March 6th, 2018</a>
-        <br>
-        <b>GRON</b> Gambling platform fully on blockchain, no human intervention.
-        <a rel="nofollow" target="_blank" class="line" href="https://grondigital.icoref.link/click?pid=1915&offer_id=4">ICO starts March 15, 2018</a>.
+      <span class="note">Fundraiser's Finest</span>
+        <b>SHOPIBLOCK</b> - Tokenization of e-commerce. Pre-sale April 28th, KYC already open. <b>Use code JANA7G36</b>
+      <a target="_blank" class="line" href="/press/shopiblock/">Read the press release.</a>
     </section>
 
     <div class="clearfix"></div>
