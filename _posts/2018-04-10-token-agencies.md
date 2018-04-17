@@ -34,7 +34,7 @@ image_alt:
 - "Goodbye crypto bootstrappers, it's strictly big business only now. "
 
 categories: ["news"]
-tags: [ "business-of-crypto", "fundamentals", "market-analysis", "cryptocurrency-investing"]
+tags: [ "popular", "business-of-crypto", "fundamentals", "market-analysis", "cryptocurrency-investing"]
 chart: []
 
 about:

@@ -10,7 +10,7 @@ paginate: 10
 
 
 strategy_callout: '<h4>Coming up in Strategy:</h4><p>Advanced tools and resources for your trading. What is used by the people who are not attention-wh88ing on Twitter?</p>'
-security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
+#security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
 #series_callout: '<h4>Series Publishing Schedule</h4><p>New post in series #TokenLaunchMarketing on Tuesday 10 April, new in #DEX series Thursday 12 April.</p>'
 
 collections:
