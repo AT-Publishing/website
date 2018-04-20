@@ -44,7 +44,7 @@ series: "token-launch-marketing"
 
 ---
 
-> This is a guest article by the lovely folks of [CryptoDisrupt](http://cryptodisrupt.com), the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe [right here](https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg). Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.
+> This is a guest article by the lovely folks of <a target="_blank" rel="nofollow" href="http://cryptodisrupt.com">CryptoDisrupt</a>, the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe [right here](https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg). Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.
 
 > **Second post in series #TokenLaunchMarketing from Tuesday 10 April 2018 here: [Token Marketing #2: Agencies are more than happy about the bans](/token-marketing-agencies/)**
 

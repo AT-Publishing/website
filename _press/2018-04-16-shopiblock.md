@@ -75,8 +75,9 @@ The company Shopiblock GmbH is incorporated in Switzerland.
 * [Rahel Baumgartner]( https://www.linkedin.com/in/rahel-baumgartner-586a73158/), CEO, comes from corporate finance
 * [Benjamin Weber](https://www.linkedin.com/in/benjamin-weber-8920a6159/), business development
 * [Özgür Arslan](https://www.linkedin.com/in/özgür-arslan-518a73158/), marketing
+* [Anthony Lange](https://twitter.com/anthonypaslange), CTO
 
-Dev team: [Anthony Lange](https://twitter.com/anthonypaslange), Ankur Panch, Deepak Jain
+Dev team: Ankur Panch, Deepak Jain
 
 ## Overview of the upcoming ICO
 
@@ -118,7 +119,7 @@ Token distribution:
 * Unsold tokens will be burned
 * The airdrop between April 1 and April 15 was capped at 40MM SHB
 
-Interested individuals are welcome to register at ico.shopiblock.io already as KYC (government ID) is necessary to participate. Citizens of the United States of America cannot participate.
+Interested individuals are welcome to register at ico.shopiblock.io already. Citizens of the United States of America cannot participate.
 
 ## Bounty Programs
 
