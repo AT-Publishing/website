@@ -111,4 +111,6 @@ Homepage at [monero-classic.org](http://monero-classic.org/) includes only a let
 
 XMC has a BTC pair on the Gate.io exchange, Lomostar and several other places. According to [the Twitter @xmccurrency](https://twitter.com/xmccurrency) the coin was getting listed on various exchanges massively just recently over the days around 20 April 2018.
 
-So far on the BTC markets all you can see is the initial P&D but the development on XMC seems to look the most promising.
+So far on the BTC markets all you can see is the initial P&D but the development on XMC seems to look the most promising of the three ASIC-friendly Monero forks.
+
+Considering all of the forks, MoneroV has the most active community and most responsive development. 
