@@ -1,5 +1,5 @@
 title: "AltcoinTrading.NET"
-subtitle: "Strategies and tools for crypto trading, the forex of cryptocurrencies."
+subtitle: "Trading strategies, security primers & secondary economy forming around crypto. This is, gentlemen."
 description: "Independent cryptocurrency news analyses & opinions, technical trading strategies, the best tools for crypto trading or hodling and basic security guides. Follow us on Twitter @altcointrading_"
 baseurl: ""
 url: "https://www.altcointrading.net"
@@ -293,6 +293,6 @@ affop:
 
 
 fucksense:
-  aads728: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
+  banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
     type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad></div><div class="clearfix"></div>'
   sidebar: '<amp-ad layout="responsive" width="300px" height="250px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="1212489691"></amp-ad>'

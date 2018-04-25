@@ -6,9 +6,9 @@ layout: default-news
   <div class="row">
 
    <div class="eight columns post-content">
-     <div class="shifted-left">
+     <!--<div class="shifted-left">
        {{ site.tv_728-90_static }}
-     </div>
+     </div>-->
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
          {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;
@@ -47,14 +47,7 @@ layout: default-news
           </div>
 
           <hr>
-          {% if page.related %}
-          <div class="related">
-            <p><strong>Related posts:</strong></p>
-            <ul>
-              {% for line in page.related %}{% for item in line %}<li><a href="{{ item[1] }}">{{ item[0] }}</a></li>{% endfor %}{% endfor %}
-            </ul>
-          </div>
-          {% endif %}
+
           <div>
             {{ content | strip | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
           </div>
