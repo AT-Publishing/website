@@ -1,20 +1,32 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div class="row">
+  <div class="container">
+    <div class="row">
 
-   <div class="eight columns">
+     <div class="eight columns">
+      <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
+      <hr>
+      <article class="maincontent">
+       {{ content }}
+      </article>
 
-    <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
-    <hr>
-    <article class="maincontent">
-     {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
-    </article>
 
-   </div>
-   <div class="four columns notopmargin">
+    </div><!-- main cols -->
+    <div class="four columns nomargintop">
       {% include sidebar.html %}
-   </div>
+    </div>
+
+    </div>
   </div>
-</div>
+  <article class="">
+     {% include contacts.html %}
+    <footer>
+      <div class="footer">
+        {% include footer.html %}
+      </div>
+    </footer>
+  </article>
+  <article class="maincontent">
+    {{ site.tv_1200-628 }}
+  </article>

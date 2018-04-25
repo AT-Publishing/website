@@ -19,9 +19,6 @@ __________________________
 
 #### Publish an airdrop at altcointrading.net
 
-Airdrops get automatically reposted to `altcointrading.cz` and `de.altcointrading.net`.
-
-
 <a class="button" href="https://jmt3.typeform.com/to/fOiSfP" target="_blank">Go to Typeform</a>
 
 

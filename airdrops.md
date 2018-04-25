@@ -80,13 +80,3 @@ Airdrops and giveaways are not directly risky as long as the user does not need 
 Cryptocurrency forks are directly risky because to access the forked coins one needs to import private keys into a third party wallet. Therefore [it is recommended to move the legacy chain coins out to a newly generated legacy wallet](https://electrum.org/bcc2.txt) before importing the private keys to the forked chain's software.
 
 If it is required to install a specific client to receive airdropped tokens, it is safer to do it on a device that does not have the legacy chain's wallet. It is [only somewhat safe-ish to install the new wallet on a virtual machine](/security/virtualbox).
-
-<div class="clearfix"></div>
-
-
-<div class="clearfix">
-<amp-iframe width="750px" height="140px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>
-</div>
-
-<div class="clearfix"></div>
