@@ -76,7 +76,7 @@ You are welcome to contact us per email with feedback, questions or offers. If y
 * Icons: Google AMP default set
 
 
-#### Privacy Policy **Last updated: October 2, 2017**
+#### Privacy Policy **Last updated: April 26, 2018**
 
 This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 
@@ -128,7 +128,7 @@ We have enabled Disqus as a third party comment engine. [Link to their privacy p
 
 Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en
 
-= We **have not enabled Google AdSense** on our site.
+= We **have enabled Google AdSense on April 25, 2018** on our site. The "News" site at news.altcointrading.net continues to run without display advertising and affiliate links in posts.
 
 **California Online Privacy Protection Act**
 
