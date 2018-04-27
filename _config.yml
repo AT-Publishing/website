@@ -8,6 +8,8 @@ timezone: "Etc/GMT"
 gems: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 
+ga: UA-73503011-2
+
 
 strategy_callout: '<h4>Coming up in Strategy:</h4><p>Advanced tools and resources for your trading. What is used by the people who are not attention-wh88ing on Twitter?</p>'
 #security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'

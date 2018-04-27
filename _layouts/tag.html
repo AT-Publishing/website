@@ -1,7 +1,23 @@
----
-layout: default
----
-
+<!DOCTYPE html>
+<html amp lang="en">
+{% include head.html %}
+<body>
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "{{ site.ga }}"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
+{% include header.html %}
 <div class="container">
   <div class="row top">
 
@@ -150,3 +166,19 @@ layout: default
 
   </div>
 </div>
+
+
+
+<div class="clearfix"></div>
+
+<section id="bottom" class="atnet-home-bottom space">
+ {% include contacts.html %}
+</section>
+
+<footer>
+  <div class="footer">
+    {% include footer.html %}
+  </div>
+</footer>
+</body>
+</html>

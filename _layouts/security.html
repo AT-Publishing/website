@@ -41,7 +41,7 @@ layout: default-news
           </p>
           <hr>
           <div class="securitycontent">
-            {{ content }}
+            {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
           </div>
           <hr>
           <div class="">

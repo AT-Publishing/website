@@ -1,32 +1,45 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html amp lang="en">
+{% include head.html %}
+<body>
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "{{ site.ga }}"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
+{% include header.html %}
   <div class="container">
     <div class="row">
-
      <div class="eight columns">
       <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
       <hr>
       <article class="maincontent">
-       {{ content }}
+       {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
       </article>
-
-
     </div><!-- main cols -->
     <div class="four columns nomargintop">
       {% include sidebar.html %}
     </div>
-
     </div>
   </div>
-  <article class="">
-     {% include contacts.html %}
-    <footer>
-      <div class="footer">
-        {% include footer.html %}
-      </div>
-    </footer>
-  </article>
-  <article class="maincontent">
-    {{ site.tv_1200-628 }}
-  </article>
+  <div class="clearfix"></div>
+  <section id="bottom" class="atnet-home-bottom space">
+   {% include contacts.html %}
+  </section>
+  <footer>
+    <div class="footer">
+      {% include footer.html %}
+    </div>
+  </footer>
+</body>
+</html>

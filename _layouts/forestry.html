@@ -1,14 +1,9 @@
 ---
 layout: default-news
 ---
-
 <div class="container">
   <div class="row">
-
    <div class="eight columns post-content">
-     <!--<div class="shifted-left">
-       {{ site.tv_728-90_static }}
-     </div>-->
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
          {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;
