@@ -7,29 +7,22 @@ layout: default-news
 
      <div class="twelve columns post-content">
 
-       <div class="row">
-         <div class="columns seven">
-					 <!-- slot -->
-       	 </div><!--1st-->
-         <div class="columns five">
-  			    {% include dogeshare.html %}
-         </div><!--2nd-->
-       </div>
-
-       {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
-       <span id="note">
-         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
-         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
-
-         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-
-         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-       </span>
        <h1 class="post post-main">
           <strong>
             {{ page.title }}
           </strong>
         </h1>
+
+        <br>
+
+       {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{%else %}<span class="google-news-tag">{{ page.note }}</span>&nbsp;{% endif %}
+       <span class="note">
+         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
+         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
+         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+       </span>
+
         <br>
         <div>
           {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
@@ -38,17 +31,24 @@ layout: default-news
       <div class="row">
         <div class="columns eight">
           <article class="maincontent">
-            <div class="shifted-left">
-              {{ site.ads.kucoin728 }}
-            </div>
 
-						<div class="">
-							Follow us on Twitter for news, strategy and airdrop updates: <a target="_blank" href="https://twitter.com/altcointrading_"><u>@altcointrading_</u></a>
-						</div>
+            <div class="row">
+              <div class="columns six">
+                <p>
+    							Follow us on Twitter for news, strategy and airdrop updates: <a target="_blank" href="https://twitter.com/altcointrading_"><u>@altcointrading_</u></a>
+    						</p>
+              </div><!--1st-->
+              <div class="columns six">
+                 {% include dogeshare.html %}
+              </div><!--2nd-->
+            </div>
 
             <hr>
             <div class="strategy-content">
-              {{ content | replace: 'BitMEX ', site.ref.bitmex | replace: 'Ledger wallet ', site.ref.ledger | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+
+            {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
+
+
 
 						{% if site.strategy_callout %}
 						<section class="sidebar-nl container-center">
@@ -56,6 +56,8 @@ layout: default-news
 						<p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
 						</section>
 						<br>
+            {% else %}
+            {{ site.shill_links }}
 						{% endif %}
 
 						{% if page.comments %}

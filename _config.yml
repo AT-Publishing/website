@@ -11,9 +11,11 @@ paginate: 10
 ga: UA-73503011-2
 
 
-strategy_callout: '<h4>Coming up in Strategy:</h4><p>Advanced tools and resources for your trading. What is used by the people who are not attention-wh88ing on Twitter?</p>'
+#strategy_callout: '<h4>Coming up in Strategy:</h4><p>Advanced tools and resources for your trading. What is used by the people who are not attention-wh88ing on Twitter?</p>'
 #security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
 #series_callout: '<h4>Series Publishing Schedule</h4><p>New post in series #TokenLaunchMarketing on Tuesday 10 April, new in #DEX series Thursday 12 April.</p>'
+
+shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>, <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>, <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0">CoinMate</a>, <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>, <a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a></p></section>'
 
 collections:
   - press
@@ -148,6 +150,8 @@ ref:
   bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>&nbsp;'
   coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
   coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
+#https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0
+#https://localbitcoins.com/?ref=4nq3
 
 # animals
 animals:
