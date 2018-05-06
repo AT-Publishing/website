@@ -49,6 +49,22 @@ layout: default-news
             {{ content | replace: '<a href="http', '<a rel="nofollow" target="_blank" href="http' }}
 
 
+            {% if page.editor_name %}
+            <br>
+            <section class="altcointradingnet-bio container-center">
+            <p><strong>Edited by: {{ page.editor_name }}</strong></p>
+						<p>
+              {% if page.editor_name contains "Marc" %}
+              {{ site.bio.marc }}
+              {% else %}
+              {{ site.bio.jmt }}
+              {% endif %}
+            </p>
+						</section>
+						<br>
+            {% endif %}
+
+
 
 						{% if site.strategy_callout %}
 						<section class="sidebar-nl container-center">
@@ -57,7 +73,10 @@ layout: default-news
 						</section>
 						<br>
             {% else %}
+            <br>
             {{ site.shill_links }}
+            <br>
+            <br>
 						{% endif %}
 
 						{% if page.comments %}
@@ -94,6 +113,22 @@ layout: default-news
 						<hr>
 
 						{% endif %}
+
+            <section class="altcointradingnet-bio">
+              <p>
+                <strong>About the author</strong>
+              </p>
+              <p>
+                Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
+              </p>
+              <div>
+                {% for item in site.author_details %}
+                  {% if page.author_name contains item.name %}
+                    {% include bios/template.html %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </section>
 
 					 </div><!-- strategy content -->
           </article>

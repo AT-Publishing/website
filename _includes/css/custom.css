@@ -53,6 +53,10 @@ h1.tagged-as, h2.tagged-as {background: 0 0;
     top: -3px;
   }
 }
+.altcointradingnet-bio {
+    background: #f9f9f9;
+    padding: 3em 2em 1em;
+}
 /*mobile*/
 @media (max-width:480px) {
 .logo{width: 25px}

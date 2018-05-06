@@ -17,6 +17,17 @@ ga: UA-73503011-2
 
 shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>, <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>, <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0">CoinMate</a>, <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>, <a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a></p></section>'
 
+bio:
+  marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
+  jmt: 'JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.'
+
+author_details:
+  - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
+  - {name: "tradingfanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
+  - {name: "CryptoDisrupt", bio: "CryptoDisrupt.com is a crypto news portal and a Youtube channel with regular live panel discussions.", twitter: false, facebook: false, reddit: "https://www.reddit.com/user/AlfieMarsh", quora: false, telegram: false, email: "info@cryptodisrupt.com"}
+  - {name: "Cameron", bio: "Cameron is a writer at cityofhype.com, a portal (not only) about all things personal finance. Cameron is a finance analysts and investor in currencies and securities.", twitter: "https://twitter.com/cityofhype", facebook: false, reddit: false, quora: false, telegram: false, email: "info@cityofhype.com"}
+
+
 collections:
   - press
   - security

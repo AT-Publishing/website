@@ -1,0 +1,9 @@
+<p>{{item.bio}}</p>
+<p id="author-social">
+  <a href="{{item.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a>
+  {% if item.quora %}<a href="{{item.quora}}"><i class="fa fa-quora fa-2x"></i></a>{% endif %}
+  {% if item.facebook %}<a href="{{item.facebook}}"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}
+  {% if item.reddit %}<a href="{{item.reddit}}"><i class="fa fa-reddit-square fa-2x"></i></a>{% endif %}
+  {% if item.telegram %}<a href="{{item.telegram}}"><i class="fa fa-telegram fa-2x"></i></a>{% endif %}
+  <a href="mailto:{{item.email}}"><i class="fa fa-envelope fa-2x"></i></a>
+</p>
