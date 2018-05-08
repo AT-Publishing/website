@@ -11,31 +11,25 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added new crypto airdrops and bounties - follow @altcointrading_ to see what they are."
+newlyadded: "We've added new crypto airdrops and bounties - follow @altcointrading_ or medium.com/cryptolounge to see what they are."
 
 ---
 
-
 <section class="sidebar-nl container-center">
 <h5>AltcoinTrading.NET Verified Airdrops</h5>
-
 <p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
-
-<p>We tweet drops at <a href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and repost to <a href="https://plus.google.com/b/118152650417780550154/collection/kB3JSF">Google+ Crypto Airdrops collection</a>.</p>
-
-<p>
-Follow <a href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a> to get your drops separated in posts.
-</p>
+<p>We tweet drops at <a class="intern" href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and also post them to <a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a>.</p>
+<p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
 </section>
 
 <hr>
 
-<h3 class="posh">Upcoming Airdrops in April 2018</h3>
+<h3 class="posh">Upcoming Airdrops in May 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
 
-<h3 class="posh">Upcoming Airdrops in May 2018</h3>
+<h3 class="posh">Recurring Airdrops & Drops for June 2018</h3>
 
 {% include nextmonth-airdrops.html %}
 
