@@ -34,43 +34,16 @@ navi:
 
     <section id="new-posts">
 
-      <!-- Press Releases -->
-      {% if site.press[0] %}
-      <span class="note">Industry Press Releases // <a href="/press/">Press Archive</a></span>
-      <div class="row" id="atnet-press">
-        {% for post in site.press reversed offset: 0 limit: 3 %}
-        <div class="columns four">
-            <strong>
-              <span class="tag">PRESS RELEASE</span>
-              <br>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </strong>
-          <br>
-            <small>{{ post.date | date_to_string }}</small>
-          <br>
-            {{ post.description }}
-          {% if post.image[0] %}
-          <a  class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
-            <figure class="thumb">
-              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
-              layout="responsive"
-              data-original-width="720px" data-original-height="360px"
-              width="150px" height="80px">
-              </amp-img>
-            </figure>
-          </a>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %}
+      <section class="atnet-home-pressblock">
+        {% include home/pressblock.html %}
+      </section>
 
       <section>
         <hr>
         {% if site.security_callout %}
         <section class="sidebar-nl container-center">
         {{ site.security_callout }}
-        <p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a></p>
+        <p>To get an email alert <u><a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in here and choose "Trading strategy & security"</a></u></p>
         </section>
         {% else %}
         <div>

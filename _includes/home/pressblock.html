@@ -1,0 +1,31 @@
+<!-- Press Releases -->
+{% if site.press[0] %}
+{% assign items = (site.press | sort: date) | reverse %}
+<span class="note">Industry Press Releases // <a href="/press/">Press Archive</a></span>
+<div class="row" id="atnet-press">
+  {% for post in items limit:3 %}
+  <div class="columns four">
+      <strong>
+        <span class="tag">PRESS RELEASE</span>
+        <br>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </strong>
+    <br>
+      <small>{{ post.date | date_to_string }}</small>
+    <br>
+      {{ post.description }}
+    {% if post.image[0] %}
+    <a  class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

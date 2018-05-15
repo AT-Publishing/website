@@ -84,6 +84,12 @@
       {% endif %}
       <hr>
 
+      {% if page.tag contains "business-of-crypto" %}
+      <section class="atnet-home-pressblock">
+        {% include home/pressblock.html %}
+      </section>
+      {% endif %}
+
       <div class="row">
         {% for tag in site.tags %}
         {% if tag contains page.tag %}

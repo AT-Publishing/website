@@ -138,6 +138,21 @@ layout: default-news
           </div>
           <hr>
 
+          {% if page.editor_name %}
+          <br>
+          <section class="altcointradingnet-bio container-center">
+          <p><strong>Edited by: {{ page.editor_name }}</strong></p>
+          <p>
+            {% if page.editor_name contains "Marc" %}
+            {{ site.bio.marc }}
+            {% else %}
+            {{ site.bio.jmt }}
+            {% endif %}
+          </p>
+          </section>
+          <br>
+          {% endif %}
+
           <section class="altcointradingnet-bio">
             <p>
               <strong>About the author</strong>

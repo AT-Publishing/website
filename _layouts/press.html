@@ -38,6 +38,22 @@ layout: default-news
 									Publishing of press releases and industry news should not be taken for endorsement from AltcoinTrading.NET or its editors.
 							</section>
 						 <br>
+             
+             {% if page.editor_name %}
+             <br>
+             <section class="altcointradingnet-bio container-center">
+             <p><strong>Edited by: {{ page.editor_name }}</strong></p>
+ 						<p>
+               {% if page.editor_name contains "Marc" %}
+               {{ site.bio.marc }}
+               {% else %}
+               {{ site.bio.jmt }}
+               {% endif %}
+             </p>
+ 						</section>
+ 						<br>
+             {% endif %}
+
 						{% if page.comments %}
 						<h2 id="comments">Comments</h2>
 						<div id="disqus_thread"></div>

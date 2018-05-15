@@ -16,6 +16,51 @@
   </section>
 
   <section>
+      <h3>Latest PSA's:</h3>
+      <ul>
+      {% assign items = (site.posts | sort: date) | reverse %}
+      {% for post in items  %}
+      {% if post.note contains 'PSA' %}
+      <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+        <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
+      </a>
+      </br>
+      {% endif %}
+      {% endfor %}
+      </ul>
+  </section>
+
+  <section>
+     <h3>Support this publication by using our shill links</h3>
+      <ul class="airdrops">
+        <li>
+          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
+        <li>
+          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
+        <li>
+          <a class="internal" href="{{site.url}}{{site.baseurl}}/referral-coupons/">Other coupons and offers</a></li>
+      </ul>
+  </section>
+
+   <section>
+    <ul class="divided">
+      <li>
+      <h3>Altcoin Performance:</h3>
+        <div>
+          <amp-iframe
+            width=320 height=235px
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/compare/">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <section>
     <div class="row sidebar-nl">
       <div class="columns six">
         <a rel="nofollow" target="_blank" href="http://eepurl.com/cOgd6P">
@@ -44,51 +89,4 @@
     </div>
   </section>
 
-  <section>
-      <h3>Latest PSA's:</h3>
-      <ul>
-      {% assign items = (site.posts | sort: date) | reverse %}
-      {% for post in items  %}
-      {% if post.note contains 'PSA' %}
-      <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
-        <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
-      </a>
-      </br>
-      {% endif %}
-      {% endfor %}
-      </ul>
-  </section>
-
-  <section>
-     <h3>Support this publication by using our shill links</h3>
-      <ul class="airdrops">
-        <li>
-          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="https://www.bitmex.com/register/iYQB44">BITMEX COUPON <b>iYQB44</b> (10% off fee)</a></li>
-        <li>
-          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="https://www.coinmama.com/?ref=fny3000">COINMAMA fny3000 + <b>5% discount 190TY584</b></a></li>
-        <li>
-          <a class="internal" href="{{site.url}}{{site.baseurl}}/referral-coupons/">Other coupons and rebate offers</a></li>
-      </ul>
-  </section>
-
-   <section>
-    <ul class="divided">
-      <li>
-      <h3>Altcoin Performance:</h3>
-        <div>
-          <amp-iframe
-            width=320 height=235px
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            src="https://data.altcointrading.net/compare/">
-            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-          </amp-iframe>
-        </div>
-      </li>
-
-    </ul>
-  </section>
-  <section class="posts-security" id="gtm-sidebar-fibs">
-    {% include latestfibs.html %}
-  </section>
 </div><!-- end sidebar-->

@@ -19,7 +19,7 @@ __________________________
 {% for post in site.press offset: 0 limit: 15 %}
   <h4 class="post">
     <strong>
-      <a href="/{{ post.url }}"><span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}"><span class="tag">PRESS RELEASE</span>&nbsp;{{ post.title }}</a>
     </strong>
     <small>{{ post.date | date_to_string }}</small>
   </h4>
