@@ -1,0 +1,141 @@
+---
+layout: null
+navi:
+ exclude: yes
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" >
+  <channel>
+
+    <title><![CDATA[ {{ site.title | xml_escape }} Weekly Roundup ]]></title>
+    <description>
+      <![CDATA[  {% if site.teaser %}{{ site.teaser }}{% elsif site.strategy_callout %}{{ site.strategy_callout }}{% else %}Oh would you look at that. We didn't set any cute relevant intro for the email blast this week! It's probably because we are crypto bazzillionaires and so we don't give a flying eff about the state of our website! -- Just kidding, we probably just fucked something up. Keep it real, believe in Satoshi and follow us on Twitter @altcointrading_. What we do: {{ site.description }}{% endif %} ]]>
+    </description>
+    <image>
+      <url>{{ site.url }}{{ site.baseurl }}/img/logo.jpg</url>
+      <title><![CDATA[ {{ site.title | xml_escape }} ]]></title>
+      <link>{{ site.baseurl | prepend:site.url }}</link>
+    </image>
+    <language>en</language>
+    <link>{{ site.baseurl | prepend:site.url }}</link>
+    <atom:link href="{{ "/rss-0-combined-weekly.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
+    <item>
+      <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
+      <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
+      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <author><![CDATA[ press@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for post in site.press reversed %}
+        {% assign daysToSec = 1209600 %}
+        {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
+        {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+        {% if pageTime > endTime %}
+        <![CDATA[
+        {{ post.date | date_to_rfc822 }}, "{{ post.title | xml_escape }}" by {{ post.author_name | xml_escape }} - {{ post.url | prepend: site.baseurl | prepend: site.url }}
+        ]]>
+        {% endif %}
+        {% endfor %}
+        {% for item in site.data.medium.payload.posts %}
+        {% if item.virtuals.subtitle contains "Press" %}
+         <![CDATA[
+         {{item.title}} - {{item.uniqueSlug | prepend: "https://medium.com/cryptolounge/"}}
+         ]]>
+         {% endif %}
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ Airdrop Re-Hash - Recent #Airdrops via Cryptolounge: ]]></title>
+      <description><![CDATA[ You know you love them free coinz. ]]></description>
+      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <author><![CDATA[ airdrops@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/airdrops/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for item in site.data.medium.payload.posts %}
+        {% if item.title contains "Airdrops" %}
+         <![CDATA[
+         {{item.title}} - {{item.uniqueSlug | prepend: "https://medium.com/cryptolounge/"}}
+         ]]>
+         {% endif %}
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ This Week's Top Posts on Cryptoreddits: ]]></title>
+      <description><![CDATA[ Top from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
+      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <author><![CDATA[ info@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for item in site.data.reddit.data.children %}
+         <![CDATA[
+         "{{ item.data.title }}" - Votes: {{ item.data.score }} - From r/{{ item.data.subreddit }} by u/{{ item.data.author }}: {{ item.data.url}}
+         ]]>
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ What We're Reading ]]></title>
+      <description><![CDATA[ This week's Newsblade top picks from around the cryptointernets. ]]></description>
+      <author><![CDATA[ news@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for item in site.data.blade.items %}
+        <![CDATA[
+         {{item.title}} - {{item.url}}
+         ]]>
+        {% endfor %}
+        {% for item in site.data.medium.payload.posts %}
+        {% unless item.title contains "Airdrops" %}
+         <![CDATA[
+         {{item.title}} / {{ item.virtuals.subtitle }} - {{item.uniqueSlug | prepend: "https://medium.com/cryptolounge/"}}
+         ]]>
+         {% endunless %}
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ Latest articles on {{ site.title | xml_escape }} ]]></title>
+      <description><![CDATA[ {% if site.strategy_callout %}{{ site.strategy_callout }}{% elsif site.security_callout%}{{ site.security_callout }}{% elsif site.series_callout%}{{ site.series_callout }}{% else%}For more long reads follow the #Cryptolounge on Medium.com/Cryptolounge{% endif %} ]]></description>
+      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <author><![CDATA[ info@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        <![CDATA[ NEWS ]]>
+        {% for post in site.posts limit:3 %}
+        <![CDATA[
+        {{ post.date | date_to_rfc822 }}, "{{ post.title | xml_escape }}" by {{ post.author_name | xml_escape }} - {{ post.url | prepend: site.baseurl | prepend: site.url }}
+        ]]>
+        {% endfor %}
+        <![CDATA[ STRATEGY ]]>
+        {% for post in site.strategy limit:3 %}
+        <![CDATA[
+        {{ post.date | date_to_rfc822 }}, "{{ post.title | xml_escape }}" by {{ post.author_name | xml_escape }} - {{ post.url | prepend: site.baseurl | prepend: site.url }}
+        ]]>
+        {% endfor %}
+        <![CDATA[ SECURITY ]]>
+        {% for post in site.security limit:3 %}
+        <![CDATA[
+        {{ post.date | date_to_rfc822 }}, "{{ post.title | xml_escape }}" by {{ post.author_name | xml_escape }} - {{ post.url | prepend: site.baseurl | prepend: site.url }}
+        ]]>
+        {% endfor %}
+      </content:encoded>
+    </item>
+
+
+  </channel>
+</rss>
