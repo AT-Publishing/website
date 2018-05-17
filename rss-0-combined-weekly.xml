@@ -25,9 +25,9 @@ navi:
     <item>
       <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
       <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
-      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <media:content url="https://cdn-images-1.medium.com/max/800/1*HYTEgxhpZ6iItz2JJh76cw.png" medium="image" />
       <author><![CDATA[ press@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <dc:creator><![CDATA[ BusinessOfCrypto, @BOC__Official ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
@@ -50,7 +50,7 @@ navi:
         {% if item.virtuals.subtitle contains "Press" %}
         <![CDATA[
         <h4>{{item.title}}</h4>
-        <p><strong>{{ item.virtuals.subtitle }}</strong>
+        <p>{{ item.virtuals.subtitle }}</br>
         <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
         </p>
         ]]>
@@ -61,9 +61,9 @@ navi:
     <item>
       <title><![CDATA[ Airdrop Re-Hash - Recent #Airdrops via Cryptolounge: ]]></title>
       <description><![CDATA[ You know you love them free coinz. ]]></description>
-      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <dc:creator><![CDATA[ JMT, jmt@altcointrading.net ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/airdrops/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
@@ -80,13 +80,13 @@ navi:
     <item>
       <title><![CDATA[ This Week's Top Posts on Cryptoreddits: ]]></title>
       <description><![CDATA[ Top from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
-      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
-        {% for item in site.data.reddit.data.children %}
+        {% for item in site.data.reddit.data.children limit: 15 %}
          <![CDATA[
          <h4>{{ item.data.title }} - {{ item.data.score }} votes</h4>
          <p>- From r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
@@ -99,7 +99,7 @@ navi:
       <title><![CDATA[ What We're Reading ]]></title>
       <description><![CDATA[ This week's Newsblade top picks from around the cryptointernets. ]]></description>
       <author><![CDATA[ news@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
@@ -113,9 +113,9 @@ navi:
         {% unless item.title contains "Airdrops" %}
          <![CDATA[
          <h4>{{item.title}}</h4>
-         <p><strong>{{ item.virtuals.subtitle }}</strong>
+         <p>{{ item.virtuals.subtitle }}
          <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
-       </p>
+        </p>
          ]]>
          {% endunless %}
         {% endfor %}
@@ -124,13 +124,13 @@ navi:
     <item>
       <title><![CDATA[ Latest articles on {{ site.title | xml_escape }} ]]></title>
       <description><![CDATA[ {% if site.strategy_callout %}{{ site.strategy_callout }}{% elsif site.security_callout%}{{ site.security_callout }}{% elsif site.series_callout%}{{ site.series_callout }}{% else%}For more long reads follow the #Cryptolounge on Medium.com/Cryptolounge{% endif %} ]]></description>
-      {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
+      <media:content url="https://cdn-images-1.medium.com/max/1000/1*5qMcgRmoNVbUKJredX7CRQ.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+      <dc:creator><![CDATA[ JMT, jmt@altcointrading.net ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
-        <![CDATA[ NEWS ]]>
+        <![CDATA[ <img src="https://i.imgur.com/uMgLKmt.png"> ]]>
         {% for post in site.posts limit:3 %}
         <![CDATA[
         <h4>{{ post.title | xml_escape }}</h4>
@@ -141,7 +141,7 @@ navi:
         </p>
         ]]>
         {% endfor %}
-        <![CDATA[ STRATEGY ]]>
+        <![CDATA[ <img src="https://i.imgur.com/q9vaDf2.png"> ]]>
         {% assign strat = (site.strategy | sort: date) | reverse %}
         {% for post in strat limit:3 %}
         <![CDATA[
@@ -153,7 +153,7 @@ navi:
         </p>
         ]]>
         {% endfor %}
-        <![CDATA[ SECURITY ]]>
+        <![CDATA[ <img src="https://i.imgur.com/F1xX7ts.png"> ]]>
         {% assign sec = (site.security | sort: date) | reverse %}
         {% for post in sec limit:3 %}
         <![CDATA[
@@ -165,12 +165,11 @@ navi:
         </p>
         ]]>
         {% endfor %}
-        <![CDATA[ PSA ]]>
         {% assign items = (site.posts | sort: date) | reverse %}
         {% for post in items  %}
         {% if post.note contains 'PSA' %}
         <![CDATA[
-        <h4>{{ post.title | xml_escape }}</h4>
+        <h4>PSA | {{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
