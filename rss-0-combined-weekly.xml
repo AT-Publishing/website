@@ -37,7 +37,7 @@ navi:
         {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
         {% if pageTime > endTime %}
         <![CDATA[
-        <h5>{{ post.title | xml_escape }}</h5>
+        <h4>{{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
@@ -49,9 +49,10 @@ navi:
         {% for item in site.data.medium.payload.posts %}
         {% if item.virtuals.subtitle contains "Press" %}
         <![CDATA[
-        <h5>{{item.title}}</h5>
+        <h4>{{item.title}}</h4>
         <p><strong>{{ item.virtuals.subtitle }}</strong>
-        <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a><br>
+        <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
+        </p>
         ]]>
          {% endif %}
         {% endfor %}
@@ -69,7 +70,7 @@ navi:
         {% for item in site.data.medium.payload.posts %}
         {% if item.title contains "Airdrops" %}
         <![CDATA[
-        <h5>{{item.title}}</h5>
+        <h4>{{item.title}}</h4>
         <p><a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a></p>
         ]]>
          {% endif %}
@@ -87,7 +88,7 @@ navi:
       <content:encoded>
         {% for item in site.data.reddit.data.children %}
          <![CDATA[
-         <h5>{{ item.data.title }} - {{ item.data.score }} votes</h5>
+         <h4>{{ item.data.title }} - {{ item.data.score }} votes</h4>
          <p>- From r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
          <p><a href="{{ item.data.url}}">[Read it]</a></p>
          ]]>
@@ -104,16 +105,17 @@ navi:
       <content:encoded>
         {% for item in site.data.blade.items %}
         <![CDATA[
-         <h5>{{item.title}}</h5>
-         <a href="{{item.url}}">[Read it]</a><br>
+         <h4>{{item.title}}</h4>
+         <p><a href="{{item.url}}">[Read it]</a></p>
          ]]>
         {% endfor %}
         {% for item in site.data.medium.payload.posts %}
         {% unless item.title contains "Airdrops" %}
          <![CDATA[
-         <h5>{{item.title}}</h5>
+         <h4>{{item.title}}</h4>
          <p><strong>{{ item.virtuals.subtitle }}</strong>
-         <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a><br>
+         <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
+       </p>
          ]]>
          {% endunless %}
         {% endfor %}
@@ -131,7 +133,7 @@ navi:
         <![CDATA[ NEWS ]]>
         {% for post in site.posts limit:3 %}
         <![CDATA[
-        <h5>{{ post.title | xml_escape }}</h5>
+        <h4>{{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
@@ -143,7 +145,7 @@ navi:
         {% assign strat = (site.strategy | sort: date) | reverse %}
         {% for post in strat limit:3 %}
         <![CDATA[
-        <h5>{{ post.title | xml_escape }}</h5>
+        <h4>{{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
@@ -155,7 +157,7 @@ navi:
         {% assign sec = (site.security | sort: date) | reverse %}
         {% for post in sec limit:3 %}
         <![CDATA[
-        <h5>{{ post.title | xml_escape }}</h5>
+        <h4>{{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
@@ -168,7 +170,7 @@ navi:
         {% for post in items  %}
         {% if post.note contains 'PSA' %}
         <![CDATA[
-        <h5>{{ post.title | xml_escape }}</h5>
+        <h4>{{ post.title | xml_escape }}</h4>
         <p>
           {{ post.description | xml_escape }}<br>
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
