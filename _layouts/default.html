@@ -5,7 +5,7 @@ layout: compress
 <html amp lang="en">
 {% include head.html %}
 <body>
-<amp-analytics type="googleanalytics">
+<amp-analytics type="googleanalytics" data-permit-notification-id="amp-privacy">
 <script type="application/json">
 {
   "vars": {
@@ -22,6 +22,15 @@ layout: compress
 </amp-analytics>
 <!-- Cointraffic -->
 <!--<script async src="//appsha1.cointraffic.io/js/?wkey=RCH5ZI"></script>-->
+
+<amp-user-notification
+    layout=nodisplay
+    id="amp-privacy"
+    data-persist-dismissal="true">
+    This site uses cookies.
+    <a href="/about-legal/">More</a>
+   <button on="tap:amp-privacy.dismiss">No problem</button>
+</amp-user-notification>
 
 {% include header.html %}
 {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
