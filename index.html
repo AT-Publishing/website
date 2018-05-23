@@ -6,15 +6,15 @@ navi:
 <div class="container">
   <div class="row top">
       {% for post in site.posts offset: 0 limit: 1 %}
-        <div class="columns eight">{% include home/columnupdates.html %}</div>
+        <div class="columns eight">{% include home/columnupdates.html %}
+          <p>{{ post.description }}</p>
+        </div>
       {% endfor %}
       {% for post in site.posts offset: 1 limit: 1 %}
         <div class="columns four atnet-second">
           {% include home/columnupdates.html %}
           <div class="smallad">
-            <hr class="skinny">
-            {{ site.deribit_xs }}
-            <hr class="skinny">
+             {% include home/smallad.html %}
           </div>
         </div>
       {% endfor %}

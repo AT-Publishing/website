@@ -18,6 +18,7 @@
         {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
         {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
         {% endif %}
+        {% if post.categories %}<small>#{{ post.categories[0] }}</small>&nbsp;{% endif %}
         <small>&nbsp;{{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC</small>
         {% if post.guest %}&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
         <br>

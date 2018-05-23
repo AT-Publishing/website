@@ -1,0 +1,30 @@
+<span class="note">Latest in Extras</span>
+<ul class="popular">
+
+{% assign strat = (site.strategy | sort: date) | reverse %}
+{% assign sec = (site.security | sort: date) | reverse %}
+
+{% for post in strat limit:1 %}
+<li class="popular-item">
+  <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoTrading | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+</li>
+{% endfor %}
+{% for post in sec limit:1 %}
+<li class="popular-item">
+  <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoSecurity | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+</li>
+{% endfor %}
+
+
+{% for tag in site.tags %}
+{% if tag contains "business-of-crypto" %}
+    {% assign pages_list = tag[1] %}
+{% for post in pages_list limit:1 %}
+<li class="popular-item">
+  <a class="index-internal" href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a><a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}"> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+</li>
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+</ul>
