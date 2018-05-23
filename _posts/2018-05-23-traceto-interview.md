@@ -6,7 +6,7 @@ guest: false
 date: 2018-04-23 11:15:00 -0400
 
 title: "Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"
-description: "Chye Kit in an interview explains why regulatory compliance is one of the sectors where decentralized solutions are actually more efficient than traditional ones."
+description: "Chye Kit in an interview explains how blockchain KYC relates to credit risk and why regulatory compliance is one of the sectors that actually gets more efficient when decentralized."
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -68,7 +68,7 @@ Traceto's main competitors are Civic, uPort and Selfkey. If you care to make an 
 ##### Chionh Chye Kit:
 ## "The regulatory standards in the crypto-world will only become more stringent."
 
-**The legal standards are often very unclear in an international industry that is as young as the blockchain sector, so let's first consider the basics: With Traceto, the personal data of the customer is stored within a dapp and available to crypto businesses only per qualified request. Is this a legally acceptable model for instance for cryptocurrency exchanges?**
+**The legal standards are often very unclear in an international industry that is as young as the blockchain sector, so let's first consider the basics: With Traceto, the personal data of the customer is stored within a dapp and available to crypto businesses only per qualified request. Is this a legally acceptable model for instance for cryptocurrency exchanges - something, that businesses could readily implement and use even these days?**
 
 It is true that the details of the particular law might differ from country to country but in general, cryptocurrency exchanges always have the obligation to perform due diligence so that they can combat money laundering and financing of terrorism.
 
@@ -122,9 +122,11 @@ Under the Traceto model users only submit their documents to one place, they nev
 
 **But with your solution, while the platform protects the data of their users, it also can pair the identity of the person with their cryptocurrency address. This means the platform has information about the user's ICO investments as well as general transaction activity. The whitepaper even names this kind of transaction monitoring as the basis to establish the user's credit score. That is a lot of sensitive information - what are your policies for handling user privacy?**
 
+User transaction monitoring and analysis already is a key component of KYC and an important standard practice in traditional industries. We simply intend to provide this crucial aspect of KYC service to exchanges, wallets and other platform providers in the blockchain industry.
+
 The credit assessment is a feature planned for a more distant phase in our roadmap as we get closer to the nexus between KYC and credit risk in the blockchain industry.
 
-Transaction monitoring of customers already is a key KYC component, it is an important standard practice in traditional industries. We simply intend to provide this crucial aspect of KYC service to exchanges, wallets and other platform providers in the blockchain industry. We will of course not share this information without first obtaining explicit permission from the user and the relevant business we work with.
+We will of course not share this information without first obtaining explicit permission from the user and the relevant business we work with.
 
 
 <a href="https://sg.linkedin.com/in/chionhchyekit"><i class="fa fa-linkedin-square fa-2x"></i> Chionh Chye Kit on LinkedIn</a>
