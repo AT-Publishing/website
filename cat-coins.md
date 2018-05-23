@@ -6,7 +6,7 @@ permalink: /category/altcoins/
 category: "altcoins"
 ---
 
-{{ site.ads.binance728 }}
+{{ site.ads.ethfinex728 }}
 
 {% assign allitems = (site.posts | sort: date) | reverse %}
 

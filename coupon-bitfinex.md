@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 layout: page
-title: 5egV78YtlC 10% Fee Discount Coupon Bitfinex
+title: Ethfinex Referral coupn 5egV78YtlC 10% Fee Discount Coupon on Bitfinex
 permalink: /coupon-bitfinex-5egv78ytlc/
 tags:
 - hidden
@@ -10,18 +10,25 @@ navi:
 image:
 - "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
 image_alt:
-- "Bitfinex coupon referral code 5egV78YtlC"
+- "Ethfinex and Bitfinex coupon referral code 5egV78YtlC"
 
 date: 2018-01-31 07:07:00 +0100
 
 ---
 
+{{ site.ads.ethfinex728 }}
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+#### About Ethfinex
 
-_Image: {{page.image_alt[0]}}_
+Ethfinex is a decentralized cryptocurrency exchange that runs on the Ethereum blockchain. It is owned and maintained by the same company as the Bitfinex exchange, and your equity and other account information can be shared between those two if you choose so.
 
-________________________
+Ethfinex does not have a fee schedule, unlike Bitfinex, but traders can earn Nectar tokens (ERC20) for market-making. In other words, Ethfinex distributes a rebate for limit orders in the form of the Nectar token. The token can be traded for ETH, other crypto or fiat.
+
+Users get to vote which new ETH tokens they want to get listed on the exchange. The EthFinex community is also building knowledge base, blog about decentralized exchanges and an informative weekly newsletter.
+
+The interface of Ethfinex is pretty much the same as the interface of Bitfinex, embedded charts are also provided by TradingView just like on Bitfinex.
+
+<a rel="nofollow" href="https://www.ethfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">EthFinex Decentralized Exchange</a> &nbsp; <a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" class="button" target="_blank">TradingView Charting Platform</a>
 
 #### About Bitfinex
 
@@ -39,7 +46,4 @@ No verification is needed other than for fiat withdrawal.
 
 `bitfinex.com 5egV78YtlC`
 
-<a rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Get 10% fee discount</a>
-
-
-{{ site.ads.aads728 }}
+<a rel="nofollow" href="https://www.ethfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Get 10% fee discount</a>
