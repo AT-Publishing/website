@@ -3,7 +3,7 @@ layout: forestry
 published: true
 guest: false
 
-date: 2018-04-23 11:15:00 -0400
+date: 2018-05-23 11:15:00 -0400
 
 title: "Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"
 description: "Chye Kit in an interview explains how blockchain KYC relates to credit risk and why regulatory compliance is one of the sectors that actually gets more efficient when decentralized."
