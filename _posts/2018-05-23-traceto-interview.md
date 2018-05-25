@@ -1,6 +1,6 @@
 ---
 layout: forestry
-published: true
+published: false
 guest: false
 
 date: 2018-04-23 11:15:00 -0400
@@ -31,7 +31,7 @@ image:
 image_alt:
 - "Interview with Chye Kit (CEO of traceto.io) for AltcoinTrading.NET."
 
-categories: ["interview", "news"]
+categories: ["interview"]
 tags: [ "business-of-crypto", "traceto", "aml-kyc", "digitising-kyc", "cynopsis", "cynopsis-solutions", "chye-kit-chionh", "chye-kit"]
 chart: []
 

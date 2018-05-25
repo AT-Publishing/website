@@ -14,7 +14,9 @@ strategy_callout: '<h4>Coming up in Strategy</h4><p>Cryptotwitter is bitching ab
 #security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
 series_callout: '<h4>Coming up in #DEX series</h4><p>General update in case you are too busy shorting the house: What has been new in the DEX space lately?</p>'
 
-shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>, <a target="_blank" href="https://www.ethfinex.com/?refcode=5egV78YtlC">EthFinex</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0">CoinMate</a>, <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>, <a rel="nofollow" target="_blank" href="https://localbitcoins.com/?ref=4nq3">Localbitcoins</a></p></section>'
+teaser: '<h4>May 24 | Tired of shorting the house?</h4><p>I am Jack’s complete lack of surprise. Actually considering setting up a mental health page on altcointrading.net for those of us who are never fully hedged, lol (only slightly joking). But you can already go follow Trading Composure on twitter @yvanbyeajee. Anyway - what has been new this week: One Crypto Security post about the dangers of the Telegram messenger PLUS one interview (to be released as soon as we receive approval) with a guy who is setting up a decentralized KYC platform and his name is not Vinny Lingham (I would never). Interesting stuff, the man actually has experience and was able to talk about regulatory issues in a way that was almost engaging.<br> / KvB</p>'
+
+shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-mex">BitMEX 10% Fee Discount</a>, <a target="_blank" href="http://bit.ly/ethfinex">EthFinex</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-coinmate">CoinMate</a>, <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>, <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-lbc">Localbitcoins</a></p></section>'
 
 bio:
   marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
@@ -167,19 +169,17 @@ ref:
   kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
   binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
   bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
-  ledger: '<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger wallet</a>&nbsp;'
-  trezor: '<a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a>&nbsp;'
-  tradingview: '<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">TradingView</a>&nbsp;'
-  bitmex: '<a rel="nofollow" target="_blank" href="https://www.bitmex.com/register/iYQB44">BitMEX</a>&nbsp;'
-  coinmama: '<a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>&nbsp;'
-  coinbase: '<a rel="nofollow" target="_blank" href="https://www.coinbase.com/join/564e7650f7cad400d90001ef">Coinbase</a>&nbsp;'
-#https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0
-#https://localbitcoins.com/?ref=4nq3
+  ledger: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a>&nbsp;'
+  trezor: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor">Trezor</a>&nbsp;'
+  tradingview: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a>&nbsp;'
+  bitmex: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
+  coinmama: '<a rel="nofollow" target="_blank" href="http://bit.ly/coinmutter">CoinMama</a>&nbsp;'
+  coinbase: '<a rel="nofollow" target="_blank" href="http://bit.ly/bumfuck-exchange-for-plebs">Coinbase</a>&nbsp;'
 
 # image ads
 ads:
   ethfinex728: '<div class="text-center" id="gtm-ethfinex-banner">
-  <a rel="nofollow" target="_blank" href="https://www.ethfinex.com/?refcode=5egV78YtlC">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/ethfinex">
   <amp-img itemprop="image" alt="Ethfinex-cryptocurrency exchange"
   src="/ads/ethfinex-shill-3.jpg"
   layout="responsive"
@@ -211,7 +211,7 @@ ads:
   width="728px" height="90px"></amp-img>
   </a></div><br>'
   ledger: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">
   <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
   src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
   layout="responsive"
@@ -219,7 +219,7 @@ ads:
   width="468px" height="90px"></amp-img>
   </a></div>'
   ledger-thin: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">
   <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
   src="/img/wallets/ledger-hero.png"
   layout="responsive"
@@ -227,34 +227,26 @@ ads:
   width="710px" height="60px"></amp-img>
   </a></div><br>'
   trezor: '<div class="clearfix">
-  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor">
   <amp-img itemprop="image"
   src="/img/wallets/trezor.jpg"
   alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
   data-original-height="90px" layout="responsive" width="728px" height="90px">
   </amp-img></a></div>'
   trezorbox: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor">
   <amp-img itemprop="image"
   src="/img/wallets/trezor-altcoins.jpg"
   alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="350px"
   data-original-height="320px" layout="responsive" width="350px" height="320px">
   </amp-img></a></div>'
   trezorlong: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor">
   <amp-img itemprop="image"
   src="/img/wallets/trezor-altcoins-long.jpg"
   alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
   data-original-height="90px" layout="responsive" width="728px" height="90px">
   </amp-img></a></div>'
-  pm1: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
-  <amp-img itemprop="image" alt="Perfect Money" src="/img/ads/pm1.jpg"
-  data-original-width="468px" data-original-height="20px" layout="responsive" width="468px" height="20px">
-  </amp-img></a></div>'
-  pm2: '<div class="clearfix"><a rel="nofollow" target="_blank" href="https://perfectmoney.is/?ref=7622697">
-  <amp-img itemprop="image" alt="Perfect Money" src="/img/ads/pm2.jpg"
-  data-original-width="468px" data-original-height="20px" layout="responsive" width="468px" height="20px"></amp-img>
-  </a></div>'
   acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
   acashgreen: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash_green.jpeg" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
   feeds: '<a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>'
@@ -283,7 +275,7 @@ src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img 
 </div>'
 
 # /uploads/tv1.html
-tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_728x90.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/atnet-tv" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_728x90.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
@@ -292,10 +284,9 @@ tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height=
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv2.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
    placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
-tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
+tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.ly/atnet-tv" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
 
-deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="https://www.deribit.com/reg-525.5377" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
-
+deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
 
 
 bf1: '<div class="text-center">
@@ -308,12 +299,6 @@ data-original-height="310px"
 width="730px" height="275px"
 layout="responsive">
 </amp-img></a></div><br>'
-
-
-affop:
-  # UK, ZA, AU, CA, FI, DE, SK, NL
-  system: '<div class="text-center" id="nous"><a rel="nofollow" target="_blank" href="http://affiliatepartnersltd.go2cloud.org/aff_c?offer_id=59&aff_id=1433&url_id=447"><amp-img itemprop="image" src="/ads/cryptosystem.png"
-  alt="Learn to trade cryptocurrencies" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 
 
 fucksense:
