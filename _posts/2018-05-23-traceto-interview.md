@@ -1,6 +1,6 @@
 ---
 layout: forestry
-published: false
+published: true
 guest: false
 
 date: 2018-04-23 11:15:00 -0400
@@ -61,14 +61,14 @@ Chionh Chye Kit is the Founder and CEO of **traceto.io**, a decentralized KYC pl
 * A platform on the Ethereum blockchain for reusable KYC.
 * Users store their identity information in an encrypted, multisig-based way and get privately verified through the combination of AI technology and a community of carefully selected humans who work as verifiers.
 * Human verifiers must stake the network utility token (T2T) in order to be able to participate in the verification process, which creates the incentive for them to behave honestly - either they earn T2T or they lose their stake.
-* Companies that provide services for the end users, such as cryptocurrency trading platforms, may for valid reasons purchase access to information about their customers.
+* Companies that provide services for the end users, such as cryptocurrency trading platforms, may request access to KYC information about their customers. The customer has prerogative whether or not to grant his KYC information to the requesting platform.
 
-Traceto's main competitors are Civic, uPort and Selfkey. If you care to make an informed opinion, the [traceto.io whitepaper](https://traceto.io/static/wp/traceto_Whitepaper_v1_35_en.pdf) is well constructed, understandable and does cover the differences between Traceto and its competitors.
+The main competitors of traceto.io are Civic, uPort and Selfkey. If you care to make an informed opinion, the [traceto.io whitepaper](https://traceto.io/static/wp/traceto_Whitepaper_v1_35_en.pdf) is well constructed, understandable and does cover the differences between traceto.io and its competitors.
 
 ##### Chionh Chye Kit:
 ## "The regulatory standards in the crypto-world will only become more stringent."
 
-**The legal standards are often very unclear in an international industry that is as young as the blockchain sector, so let's first consider the basics: With Traceto, the personal data of the customer is stored within a dapp and available to crypto businesses only per qualified request. Is this a legally acceptable model for instance for cryptocurrency exchanges - something, that businesses could readily implement and use even these days?**
+**The legal standards are often very unclear in an international industry that is as young as the blockchain sector, so let's first consider the basics: With traceto.io, the personal data of the customer is stored within a dapp and available to crypto businesses only per qualified request. Is this a legally acceptable model for instance for cryptocurrency exchanges - something, that businesses could readily implement and use even these days?**
 
 It is true that the details of the particular law might differ from country to country but in general, cryptocurrency exchanges always have the obligation to perform due diligence so that they can combat money laundering and financing of terrorism.
 
@@ -86,7 +86,7 @@ A blockchain-based KYC network can achieve higher efficiency than any traditiona
 
 Token staking, slashing and other reward mechanisms are performed by contracts instead of an arbitrary authority, which is what makes the platform so efficient. Humans will be present too as support agents during dispute resolutions, to monitor and report suspicious transaction or to complete other minor tasks. But primarily there are crypto-economic incentive mechanisms in place to facilitate node operators to drive these processes.
 
-Other than that, Traceto also has the advantage of sovereignty over the data and censorship resistance.
+Other than that, traceto.io also has the advantage of sovereignty over the data and censorship resistance.
 
 **Censorship resistance is I'm afraid quite an abused buzzword in the cryptocurrency space. Does it really matter for today's blockchain businesses?**
 
@@ -96,13 +96,13 @@ Currently the market for KYC services is dominated by several big players. They 
 
 If businesses are denied access to KYC and AML systems, they are exposed to the risk of being non-compliant with the relevant regulations which can have very severe and expensive consequences.
 
-**That makes a good case perhaps for smaller businesses or for blockchain projects that are just starting up. How about blockchain companies that are already using a traditional KYC solution? How difficult and costly would it be to make the transition from traditional KYC methods to Traceto?**
+**That makes a good case perhaps for smaller businesses or for blockchain projects that are just starting up. How about blockchain companies that are already using a traditional KYC solution? How difficult and costly would it be to make the transition from traditional KYC methods to traceto.io?**
 
 This is rather a question of compliance. My experience in the banking sector shows very clearly that the remediation costs incurred by businesses that try to cut their expenses by sidestepping regulatory requirements can be extremely significant. Having the most complete compliance solution in place is simply always the better option. In this regard the blockchain industry is really no different from the banking sector.
 
-This need for the most complete solution is what we are targeting. Traceto offers a KYC/AML utility platform, not just a data storage solution. On the surface level, what we develop is a four-part framework that involves the initial verification of identity and screening for criminal activity combined with continuous due diligence procedures that have to be carried out over time - such as transaction monitoring and verifying whether the monitored address stays in the ownership of the same person over time. Considering the likely future development of the blockchain sector this completeness is an important advantage.
+This need for the most complete solution is what we are targeting. Traceto.io offers a KYC and AML utility platform, not just a data storage solution. On the surface level, what we develop is a four-part framework that involves the initial verification of identity and screening for criminal activity combined with continuous due diligence procedures that have to be carried out over time - such as transaction monitoring and verifying whether the monitored address stays in the ownership of the same person over time. Considering the likely future development of the blockchain sector this completeness is an important advantage.
 
-**Is is expected that as the blockchain industry develops, even more complex KYC will be required?**
+**Is is expected that as the blockchain industry develops, even more complex KYC processes will be required?**
 
 Currently, the KYC standard in the cryptocurrency space is relatively quite low. For ICOs and exchanges the KYC processes usually only consist of matching a selfie to a passport. Some more compliant businesses may purchase an Anti Money Laundering screening solution - Cynopsis provides the Artemis software for AML - but it is not a requirement for all businesses.
 
@@ -118,7 +118,7 @@ In our model, we actually entrust the storage of private keys to Personal Identi
 
 Generally, reusable KYC minimizes the risks the customer needs to take with centralized solutions. These days users verify with their passport scans and selfies on each platform separately, some companies may also outsource KYC to third parties. Each of these companies has full access to the confidential data, which means there is a substantial exposure of the customer to the risk of data breach or abuse from rogue employees. Users really should not need to submit their documents to different exchanges or ICOs over and over again.
 
-Under the Traceto model users only submit their documents to one place, they never lose control over their data and because the platform is decentralized, there is no need to trust any company or their employees. The security aspect is also improved - the centralized nature of existing KYC solutions obviously presents a single point of failure which makes them more vulnerable to hacking.
+Under the traceto.io model users only submit their documents to one place, they never lose control over their data and because the platform is decentralized, there is no need to trust any company or their employees. The security aspect is also improved - the centralized nature of existing KYC solutions obviously presents a single point of failure which makes them more vulnerable to hacking.
 
 **But with your solution, while the platform protects the data of their users, it also can pair the identity of the person with their cryptocurrency address. This means the platform has information about the user's ICO investments as well as general transaction activity. The whitepaper even names this kind of transaction monitoring as the basis to establish the user's credit score. That is a lot of sensitive information - what are your policies for handling user privacy?**
 
@@ -126,12 +126,12 @@ User transaction monitoring and analysis already is a key component of KYC and a
 
 The credit assessment is a feature planned for a more distant phase in our roadmap as we get closer to the nexus between KYC and credit risk in the blockchain industry.
 
-We will of course not share this information without first obtaining explicit permission from the user and the relevant business we work with.
+We will not share this information without first obtaining explicit permission from the user and the relevant business we work with.
 
 
 <a href="https://sg.linkedin.com/in/chionhchyekit"><i class="fa fa-linkedin-square fa-2x"></i> Chionh Chye Kit on LinkedIn</a>
 
-<a href="https://twitter.com/tracetoio"><i class="fa fa-twitter-square fa-2x"></i> Official Twitter account of Traceto</a>
+<a href="https://twitter.com/tracetoio"><i class="fa fa-twitter-square fa-2x"></i> Official Twitter account of traceto.io</a>
 
 <a href="https://medium.com/@Gibraltar.Blockchain.Exchange/nick-cowan-interviews-ceo-of-traceto-io-chionh-chye-kit-8eb3b41695af"><i class="fa fa-medium fa-2x"></i> Nick Cowan's interview with Chye Kit</a>
 
