@@ -97,11 +97,11 @@ What are the risks here? While there are no regulatory dangers - the backing col
 
 What should be noted though is the coin remained reasonably stable during the first five months of 2018, when the price of the collateral (ETH) went from 1400 USD to 400 USD and back upwards. It is not apparent from the daily close values available from CoinMarketCap but when ETH slid off the ATH in mid January 2018 the Dai actually had several brief drops to as low as 0.8$ - [here a screenshot from the blog of Preston Byrne](https://prestonbyrne.files.wordpress.com/2018/01/1exhdqyv.jpg?w=535&h=374).
 
-On the daily chart these incidents don't show at all, though - with stops in place, this could be a great market to write a bot for if that's your jam. The concept of Dai does not rely on this primarily but it does help that Dai is traded on mainstream places like Bitfinex/Ethfinex.
+On the daily chart these incidents don't show at all, though - with stops in place, this could be **a great market to write a bot for** if that's your jam. The concept of Dai does not rely on this primarily but it does help that Dai is traded on mainstream places like Bitfinex/Ethfinex.
 
-Now for the obvious loser:
+I will elaborate a bit more on **holding** the stablecoin further down in Conclusion, first let's look into the obvious loser:
 
-## What happened to NuBits
+### What happened to NuBits
 
 NuBits is one of the oldest stablecoins. It has been around since 2014 and over the four years of its existence, the 1 USD peg [has been broken](https://bitcointalk.org/index.php?topic=1525453.0) [several times](https://discuss.nubits.com/t/nubits-history-what-the-heck-has-happened/5492). At the time of writing NuBits trade at 0.36 USD (May 2018), this time the [peg has been gone since March 19th 2018](https://discuss.nubits.com/t/so-whats-happened-to-the-pegging-since-19th-march/6009).
 
@@ -128,7 +128,7 @@ This is [where the peg ultimately failed again in March 2018](https://www.reddit
 
 This scenario is possible in **every stablecoin that relies on sales of a share token** and has the **owner as the lender of last resort**. Other than NuBits it also makes Bitshares vulnerable, and some of the newly proposed stablecoins don't really seem to implement anything more sophisticated than the reliance on issuance, share auction and trading activity.
 
-## Stablecoin Trends in 2018
+### Stablecoin Trends in 2018
 
 This year the stablecoin trend is moving away from any form of backing to a system that mimics fiat currencies:
 
