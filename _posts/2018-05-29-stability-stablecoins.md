@@ -30,7 +30,7 @@ image:
 - "/features/stablecoins/stablecoins2.png"
 
 image_alt:
-- "Stablecoins are hyped up right now but at this stage, but how many of you 2016 New Generation OGs remember NuBits?"
+- "Stablecoins are hyped up right now, but how many of you 2016 New Generation OGs remember NuBits?"
 
 categories: ["cryptotrading"]
 tags: [ "business-of-crypto", "stablecoin", "stablecoins", "tether", "nubits", "havven", "trueusd", "dai", "makerdao"]
