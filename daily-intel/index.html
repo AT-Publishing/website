@@ -202,7 +202,6 @@ date: 2018-05-24 15:59 -0300
     <meta charset="utf-8">
     <title>AltcoinTrading.NET | Daily Intelligence - Crypto Trading & Bounty Hunters Edition</title>
     <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-  <!--  <script src="../assets/vue-spinner/dist/vue-spinner.js" charset="utf-8"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0/dist/vue-resource.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" charset="utf-8"></script>
 
@@ -322,7 +321,6 @@ date: 2018-05-24 15:59 -0300
             <h4>Trending on Cryptoreddit:</h4>
             <p>Top posts on r/cryptocurrency, r/ethtrader and r/bitcoin.
             <br>------------------------------------</p>
-            <scale-loader :loading="loading" :color="#001f3f"></scale-loader>
             <div v-for="single in reddit">
               <p>
                 <a v-bind:href='single["data"]["url"]' target="_blank">
@@ -365,12 +363,7 @@ date: 2018-05-24 15:59 -0300
     <script type="text/javascript">
     Vue.use(VueResource)
 
-    //var Loader = VueSpinner.ScaleLoader
-
     var dailyintel = new Vue({
-    /*  components: {
-        Loader
-      },*/
       delimiters: ["((", "))"],
       el: '#dailyintel',
       data: {
