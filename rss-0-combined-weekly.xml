@@ -23,42 +23,6 @@ navi:
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
     <item>
-      <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
-      <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
-      <media:content url="https://cdn-images-1.medium.com/max/800/1*HYTEgxhpZ6iItz2JJh76cw.png" medium="image" />
-      <author><![CDATA[ press@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ BusinessOfCrypto, @BOC__Official ]]></dc:creator>
-      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-      <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
-      <content:encoded>
-        {% for post in site.press reversed %}
-        {% assign daysToSec = 1209600 %}
-        {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
-        {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
-        {% if pageTime > endTime %}
-        <![CDATA[
-        <h4>{{ post.title | xml_escape }}</h4>
-        <p>
-          {{ post.description | xml_escape }}<br>
-          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-          - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-        </p>
-        ]]>
-        {% endif %}
-        {% endfor %}
-        {% for item in site.data.medium.payload.posts %}
-        {% if item.virtuals.subtitle contains "Press" %}
-        <![CDATA[
-        <h4>{{item.title}}</h4>
-        <p>{{ item.virtuals.subtitle }}</br>
-        <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
-        </p>
-        ]]>
-         {% endif %}
-        {% endfor %}
-      </content:encoded>
-    </item>
-    <item>
       <title><![CDATA[ Airdrop Re-Hash - Recent #Airdrops via Cryptolounge: ]]></title>
       <description><![CDATA[ You know you love them free coinz. ]]></description>
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
@@ -177,6 +141,42 @@ navi:
         </p>
         ]]>
         {% endif %}
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
+      <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
+      <media:content url="https://cdn-images-1.medium.com/max/800/1*HYTEgxhpZ6iItz2JJh76cw.png" medium="image" />
+      <author><![CDATA[ press@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ BusinessOfCrypto, @BOC__Official ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for post in site.press reversed %}
+        {% assign daysToSec = 1209600 %}
+        {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
+        {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+        {% if pageTime > endTime %}
+        <![CDATA[
+        <h4>{{ post.title | xml_escape }}</h4>
+        <p>
+          {{ post.description | xml_escape }}<br>
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+          - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+        </p>
+        ]]>
+        {% endif %}
+        {% endfor %}
+        {% for item in site.data.medium.payload.posts %}
+        {% if item.virtuals.subtitle contains "Press" %}
+        <![CDATA[
+        <h4>{{item.title}}</h4>
+        <p>{{ item.virtuals.subtitle }}</br>
+        <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
+        </p>
+        ]]>
+         {% endif %}
         {% endfor %}
       </content:encoded>
     </item>
