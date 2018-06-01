@@ -24,12 +24,12 @@ newlyadded: "We've added new crypto airdrops - check out @altcointrading_ or med
 
 <hr>
 
-<h3 class="posh">Upcoming Airdrops in May 2018</h3>
+<h3 class="posh">Upcoming Airdrops in June 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
 
-<h3 class="posh">Recurring Airdrops & Drops for June 2018</h3>
+<h3 class="posh">Recurring Airdrops & Drops for July 2018</h3>
 
 {% include nextmonth-airdrops.html %}
 
