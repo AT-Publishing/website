@@ -38,12 +38,17 @@ related:
 ---
 
 
-**Updates**
+**2018 Updates regarding Monero cold storage**
+
+After the [Ledger CTO said they will implement Monero but within an unclear time frame](https://www.altcointrading.net/ledger-monero), Monero actually included first Ledger wallet support in their [Lithium Luna release](https://getmonero.org/2018/03/29/monero-0.12.0.0-released.html). Trezor started [advertising Monero support for their model Trezor T](https://www.reddit.com/r/Monero/comments/8pika5/monero_support_on_new_trezor_model_t/) in June 2018 before the actual is implemented.
+
+
+**2018 Updates regarding Monero hot wallets**
 
 * For hot wallets, there is a new [iOS app - Cakewallet for Monero](/cakewallet)
 * Coinomi is [nearly done with their Monero integration](https://twitter.com/kimionis/status/954112970338029570) (web, iOS, Android)
-* [Ledger CTO said they will implement Monero, ETA is to be announced](https://www.altcointrading.net/ledger-monero)
 
+*Original 2017 article continues below.*
 
 <hr>
 
@@ -54,7 +59,9 @@ It got to the point that such a feature would shake up the market of hardware wa
 
 That's an obvious opportunity, so what is the problem?
 
-{{ site.mailchimp }} It is a technical one. There is a lot of open sourced code to handle Bitcoin and today's most popular altcoins all use some of Bitcoin's basics. For most altcoins you would always tweak some code that has already been used for BTC - it makes the process a whole lot easier.
+{{ site.mailchimp }}
+
+It is a technical one. There is a lot of open sourced code to handle Bitcoin and today's most popular altcoins all use some of Bitcoin's basics. For most altcoins you would always tweak some code that has already been used for BTC - it makes the process a whole lot easier.
 
 Monero's blockchain is unique which is great for the transaction privacy but not so good for wallet implementation. Monero was built from scratch and none of the BTC codebase can be reused. The whole system has to be developed again, specifically for Monero.
 
