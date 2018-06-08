@@ -13,7 +13,6 @@ navi:
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}</loc>
       <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net"/>
       <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz"/>
     </url>
     {% for page in site.pages %}{% unless page.navi.exclude == true %}{% unless page.categories contains "airdrops" %}
@@ -24,8 +23,6 @@ navi:
         <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
         {% endif %}{% if page.cz %}
         <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}/"/>
-        {% endif %}{% if page.german %}
-        <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}/"/>
         {% endif %}
     </url>
     {% endunless %}{% endunless %}{% endfor %}
@@ -35,11 +32,9 @@ navi:
     <url>
       <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-bitmex-iyqb44/"/>
     </url>
     <url>
       <loc>https://www.altcointrading.net/coupon-coinmama-fny3000/</loc>
       <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
-      <xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/gutschein-coinmama-fny3000/"/>
     </url>
 </urlset>

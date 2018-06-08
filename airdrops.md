@@ -15,12 +15,7 @@ newlyadded: "We've added new crypto airdrops - Follow @altcointrading_ or medium
 
 ---
 
-<section class="sidebar-nl container-center">
-<h5>AltcoinTrading.NET Verified Airdrops</h5>
-<p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
-<p>We tweet drops at <a class="intern" href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and also post them to <a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a>.</p>
-<p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
-</section>
+<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
 
 <hr>
 
@@ -28,6 +23,12 @@ newlyadded: "We've added new crypto airdrops - Follow @altcointrading_ or medium
 
 {% include thismonth-airdrops.html %}
 
+<section class="sidebar-nl container-center">
+<h5>AltcoinTrading.NET Verified Airdrops</h5>
+<p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
+<p>We tweet drops at <a class="intern" href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and also post them to <a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a>.</p>
+<p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
+</section>
 
 <h3 class="posh">Recurring Airdrops & Drops for July 2018</h3>
 

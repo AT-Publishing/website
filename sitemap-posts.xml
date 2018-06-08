@@ -14,7 +14,6 @@ navi:
         <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
         {% if post.german or post.cz %}<xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ post.url }}"/>
-        {% endif %}{% if post.german %}<xhtml:link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ post.german }}/"/>
         {% endif %}{% if post.cz %}<xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ post.cz }}/"/>
         {% endif %}
     </url>
