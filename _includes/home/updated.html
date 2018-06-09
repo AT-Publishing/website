@@ -1,7 +1,6 @@
-{% assign daysToSec = 604800 %}
+{% assign daysToSec = 69904800 %}
 {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
 {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
-
 {% if pageTime > endTime %}
 <span class="note" id="updates-{{ category[0] }}">Updated in {{ category[0] | capitalize }}</span>
 {% include home/columnupdates.html %}
