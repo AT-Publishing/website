@@ -10,7 +10,7 @@ navi:
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>https://www.altcointrading.net/press-releases/</loc>
+      <loc>https://www.altcointrading.net/press/</loc>
     </url>
     {% for page in site.press %}{% unless page.navi.exclude == true %}
     <url>
