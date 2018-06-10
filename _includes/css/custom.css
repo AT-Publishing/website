@@ -79,6 +79,8 @@ h1.tagged-as, h2.tagged-as {background: 0 0;
     background: #f9f9f9;
     padding: 3em 2em 1em;
 }
+.investfeed {position: relative;top: 5px;}
+
 /*mobile*/
 @media (max-width:480px) {
 .logo{width: 25px}
