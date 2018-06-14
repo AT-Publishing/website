@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added a bunch of new crypto airdrops - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "We've added one new crypto airdrops - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
