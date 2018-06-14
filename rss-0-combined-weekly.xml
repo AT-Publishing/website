@@ -41,9 +41,28 @@ navi:
         {% endfor %}
       </content:encoded>
     </item>
+
+    <item>
+      <title><![CDATA[ Revisiting Past Crypto Airdrops: ]]></title>
+      <description><![CDATA[ Do the tokens actually trade or is the project dead? #DeadParrot #Crypto ]]></description>
+      <media:content url="https://i.imgur.com/XI9pR0d.jpg" medium="image" />
+      <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
+      <dc:creator><![CDATA[ The Business Of Crypto ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>https://www.thebusinessofcrypto.com/airdropped/</link>
+      <content:encoded>
+        {% for item in site.data.parrot.items %}
+        <![CDATA[
+         <h4>{{item.title}}</h4>
+         <p><a href="{{item.url}}">[Read it]</a></p>
+         ]]>
+        {% endfor %}
+      </content:encoded>
+    </item>
+
     <item>
       <title><![CDATA[ This Week's Top Posts on Cryptoreddits: ]]></title>
-      <description><![CDATA[ Top from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
+      <description><![CDATA[ Combined top-voted submissions from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
@@ -52,8 +71,8 @@ navi:
       <content:encoded>
         {% for item in site.data.reddit.data.children limit: 15 %}
          <![CDATA[
-         <h4>{{ item.data.title }} - {{ item.data.score }} votes</h4>
-         <p>- From r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
+         <h4>{{ item.data.title }}: {{ item.data.score }} votes</h4>
+         <p>- via r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
          <p><a href="{{ item.data.url}}">[Read it]</a></p>
          ]]>
         {% endfor %}

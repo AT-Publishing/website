@@ -14,7 +14,7 @@ strategy_callout: '<h4>Coming up in Strategy</h4><p>Cryptotwitter is bitching ab
 #security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
 series_callout: '<h4>Coming up in #DEX series</h4><p>General update in case you are too busy shorting the house: What has been new in the DEX space lately?</p>'
 
-teaser: '<h4>Jun 8 | <h4>Just launching</h4><a target="_blank" href="http://thebusinessofcrypto.com"><b>The Business Of Crypto</b></a>. As with AltcoinTrading.NET, contributors are welcome but as with AltcoinTrading.NET it is not-for-profit. -- The only profit here to make are ones own more informed trading/investment decisions, trading does not pair well with writing or as much as thinking shit.<br><br>Last but not least, one question: <a target="_blank" href="https://strawpoll.com/zabyff8p"><b>https://strawpoll.com/zabyff8p</b></a><br><br>---'
+teaser: '<h4>Jun 14 | <h4>Launching theBOC</h4><a target="_blank" href="http://thebusinessofcrypto.com"><b>The Business Of Crypto</b></a>. As with AltcoinTrading.NET, contributors are welcome but as with AltcoinTrading.NET it is not-for-profit. -- The only profit here to make are ones own more informed trading/investment decisions, trading does not pair well with writing or as much as thinking shit.<br><br>If you scan the newsblades we show on our homepage and the airdrops page, you may have noticed there was a note about cryptotrading desks people speculating what could break the crypto downtrend would could be a good positive news blast. The day after, there was the news from our dear friends at SEC issuing the decision that BTC and ETH are not securities but certain ICOs might be. At the time of writing this, the markets seem to like the news. Lets see if this has legs!<br><br>One more thing to what you may find at both AltcoinTrading.NET and theBOC: on both sites we publish press releases. They are sometimes sent to us by PR people, sometimes by the project teams themselves. On top of our usual edits to what they send to us we have now started adding an Editors note in case the project seems to be fake. A press release is as good source of information as any, right? So stay tuned. We are more likely to be publishing press releases through thebusinessofcrypto.com now but you will be getting them in these weekly roundups just the same, no need to do anything. ---'
 
 shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-mex">BitMEX 10% Fee Discount</a>, <a target="_blank" href="http://bit.ly/ethfinex">EthFinex</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-coinmate">CoinMate</a>, <a rel="nofollow" target="_blank" href="https://www.coinmama.com/?ref=fny3000">CoinMama</a>, <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-lbc">Localbitcoins</a></p></section>'
 
@@ -39,6 +39,9 @@ jekyll_get:
     cache: true
   - data: reddit
     json: 'https://data.altcointrading.net/drops/reddit.json'
+    cache: true
+  - data: parrot
+    json: 'https://www.thebusinessofcrypto.com/feeds/json-parrot.json'
     cache: true
 
 
