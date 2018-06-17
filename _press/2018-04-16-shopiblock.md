@@ -34,6 +34,8 @@ about:
  sameas: ["https://www.shopiblock.io/"]
 ---
 
+**Update June 2018: The Shopiblock project was cancelled, [apparently it was an exit scam](https://www.thebusinessofcrypto.com/articles/shopiblock-dead/).**
+
 ## About the platform
 
 Shopiblock is a new blockchain platform for decentralized e-commerce. While the platform aims to create a complete suite for launching an e-commerce business on the Ethereum blockchain, the team is mainly betting on the tokenized future of e-commerce.
@@ -49,7 +51,7 @@ The complete solution for merchants includes:
 * Payment Gateway
 * Shopiblock Merchant Token Exchange
 
-[The Platform Homepage](https://www.shopiblock.io/)
+[The Platform Homepage](#https://www.shopiblock.io/)
 
 Main product of the platform is the complete white-label SaaS solution for e-commerce. The second major selling point is the automated merchant token generation, making it easy for merchants to launch their branded token. That is integrated with the payment gateway and the Auto Coin Conversion.
 
@@ -65,7 +67,7 @@ Shopiblock revenue streams:
 
 The risks related to the system proposed by Shopiblock are the unclear regulatory frameworks in many countries. For businesses, working with merchant tokens could mean additional tax consequences. It is also not yet clear how these semi-closed token systems will be legally handled: a merchant token will be issued in a closed system to be redeemed in a store, but the customer can choose to trade the token for SHB which as a public cryptocurrency can be traded for BTC, ETH or other cryptocurrencies.
 
-[The Whitepaper](https://www.shopiblock.io/pdf/Shopiblock_Whitepaper.pdf)
+[The Whitepaper](#https://www.shopiblock.io/pdf/Shopiblock_Whitepaper.pdf)
 
 ## The people behind Shopiblock
 
