@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added one new crypto airdrop and one dead bounty project that appears to have been a scam to #DeadParrot #Crypto - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "We've added one new crypto bounty and one coin listing on thebusinessofcrypto.com - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
@@ -19,7 +19,7 @@ newlyadded: "We've added one new crypto airdrop and one dead bounty project that
 
 <hr>
 
-<h3 class="posh">Upcoming Airdrops in June 2018</h3>
+<h3 class="posh">Bounties & Airdrops List for June 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
@@ -30,7 +30,7 @@ newlyadded: "We've added one new crypto airdrop and one dead bounty project that
 <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
 </section>
 
-<h3 class="posh">Recurring Airdrops & Drops for July 2018</h3>
+<h3 class="posh">Recurring & Upcoming Drops for July 2018</h3>
 
 {% include nextmonth-airdrops.html %}
 
