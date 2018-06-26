@@ -6,6 +6,10 @@ title: Blockchain Conferences and Events
 description: "Conferences and events in the cryptocurrency space."
 permalink: /events/
 date: 2018-02-27 13:07:00 +0100
+
+published: false
+navi:
+ exclude: yes
 ---
 
 **Working on it**

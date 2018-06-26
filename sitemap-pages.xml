@@ -26,15 +26,5 @@ navi:
         {% endif %}
     </url>
     {% endunless %}{% endunless %}{% endfor %}
-    <url>
-      <loc>https://www.altcointrading.net/coupon-kucoin/</loc>
-    </url>
-    <url>
-      <loc>https://www.altcointrading.net/coupon-bitmex-iYQB44/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-bitmex-iyqb44/"/>
-    </url>
-    <url>
-      <loc>https://www.altcointrading.net/coupon-coinmama-fny3000/</loc>
-      <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/coupon-coinmama-fny3000/"/>
-    </url>
+    
 </urlset>

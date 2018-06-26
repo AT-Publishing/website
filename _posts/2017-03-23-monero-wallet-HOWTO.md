@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 date: 2017-03-23 03:20
 title: "How to setup Monero core wallet (for dummies)"
 description: "Monero CLI wallet is the only reasonable and well tested option we have to store larger amount of XMR although the new beta graphical wallet (GUI) is out too. Finally something user-friendly. "

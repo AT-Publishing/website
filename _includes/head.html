@@ -1,19 +1,27 @@
 <head>
-<link rel="amphtml" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<meta charset="utf-8">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//cdn.ampproject.org" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+<link rel="prerender" href="//www.thebusinessofcrypto.com/airdropped/index.html">
+<link rel="prerender" href="//www.altcointrading.net/airdrops/index.html">
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-{% unless page.title %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net">{% endunless %}
 {% unless page.title %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz">{% endunless %}
 
-{% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
 {% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}">{% endif %}
 
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title | capitalize }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, cryptocurrency exchanges">
+<meta name="keywords" content="altcoin trading, cryptocurrency trading, crypto airdrops">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 

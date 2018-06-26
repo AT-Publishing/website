@@ -3,6 +3,8 @@ layout: col-security
 title: "Media Kit"
 description: "High-resolution versions of AltcoinTrading.NET logos."
 permalink: /media/
+navi:
+ exclude: yes
 ---
 
 **AltcoinTrading.NET header icon only**

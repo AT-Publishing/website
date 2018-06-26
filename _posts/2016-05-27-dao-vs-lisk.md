@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "ETH vs LISK"
 description: "Lisk launched trading on Poloniex just a few days ago and is currently going through the initial fad pump. Will it last though?"
 categories:

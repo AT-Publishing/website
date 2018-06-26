@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "Buy the rumor, sell the news"
 description: "There are serious rumors going on that ETH trading is being added to Coinbase and OKCoin."
 category: "trading"

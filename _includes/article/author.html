@@ -1,0 +1,15 @@
+<section class="altcointradingnet-bio">
+  <p>
+    <strong>About the author</strong>
+  </p>
+  <p>
+    Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
+  </p>
+  <div>
+    {% for item in site.author_details %}
+      {% if page.author_name contains item.name %}
+        {% include bios/template.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

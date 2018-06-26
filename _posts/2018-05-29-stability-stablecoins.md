@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -7,6 +7,8 @@ date: 2018-05-29 14:48:00 -0400
 
 title: "The Stability of Stablecoins"
 description: "Isn't it just NuBits all over again? The utility of stablecoins at the current stage of crypto might be misunderstood."
+
+hook: "Isn't it just NuBits all over again? The utility of stablecoins at the current stage of crypto might be misunderstood."
 
 author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
@@ -32,7 +34,7 @@ image:
 image_alt:
 - "Stablecoins are hyped up right now, but how many of you 2016 New Generation OGs remember NuBits?"
 
-categories: ["cryptotrading"]
+categories: ["trading"]
 tags: [ "business-of-crypto", "stablecoin", "stablecoins", "tether", "nubits", "havven", "trueusd", "dai", "makerdao"]
 chart: []
 

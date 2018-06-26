@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 date: 2017-03-25 15:20
 title: About the proposed Ethereum ETF
 description: The surveillance section of EtherIndex's rule change (which after the

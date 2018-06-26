@@ -12,8 +12,8 @@
 <link rel="prefetch" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One" />
 <link rel="prefetch" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-<link rel="prerender" href="//www.thebusinessofcrypto.com/airdropped/index.html" as="document">
-<link rel="prerender" href="//www.altcointrading.net/airdrops/index.html" as="document">
+<link rel="prerender" href="//www.thebusinessofcrypto.com/airdropped/index.html">
+<link rel="prerender" href="//www.altcointrading.net/airdrops/index.html">
 
 
 {% unless page.canonical %}
@@ -36,7 +36,9 @@
 
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="altcoin trading, cryptocurrency trading, cryptocurrency wallets, altcoin wallet, altcoin exchanges, altcoin trader">
+
+<meta name="keywords" content="{% if page.tags[0] %}{% for tag in page.tags %}{{tag | strip_html | strip_newlines }}, {% endfor %}{% endif %}bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- opengraph -->

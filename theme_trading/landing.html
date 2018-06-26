@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Altcoin Trading Tools and Strategies"
+description: "Tools for cryptocurrency trading, fundamental news analyses, guides to technical analysis."
+permalink: "/category/trading/"
+category: "trading"
+---
+
+  <div class="container">
+    <div class="row">
+
+      <div class="twelve columns tools">
+        {% assign items = (site.posts | sort: date) | reverse %}
+        <div class="clearfix">&nbsp;</div>
+        <h3 class="cat-post clear"><strong>Featured in Crypto Trading Strategic Tools</strong></h3>
+        <section class="row columns twelve">
+        {% for post in items  %}
+         {% if post.categories contains "trading" and post.tags contains 'strategy' %}
+          {% include latestupdates.html %}
+         {% endif %}
+        {% endfor %}
+        </section>
+        <div class="clearfix">&nbsp;</div>
+      </div>
+
+     <div class="twelve columns">
+       <p>{{ site.ledger_728-90_animated }}</p>
+      <h3 class="post"><strong>{{ page.title | upcase }}</strong> - <small>{{ page.description }}</small></h3>
+      <hr>
+      <article class="maincontent">
+       {% assign items = (site.posts | sort: date) | reverse %}
+       <section class="row columns twelve">
+       {% for post in items  %}
+        {% if post.categories contains page.category %}
+         {% include category/updated.html %}
+        {% endif %}
+       {% endfor %}
+       </section>
+
+       <p>&nbsp;</p>
+
+       <section class="clearfix">
+       {{ site.ads.tv_728-90_animated }}
+       </section>
+
+       <h3 class="cat-post clear"><strong>All in this category</strong></h3>
+       {% for post in site.posts %}
+        {% if post.category contains page.title or post.categories contains page.category %}
+         {% include category/all.html %}
+        {% endif %}
+       {% endfor %}
+
+
+
+      </article>
+      <article class="maincontent">
+        {{ site.tv_1200-628 }}
+      </article>
+
+      </div>
+
+    </div>
+  </div>

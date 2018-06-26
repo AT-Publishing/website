@@ -10,4 +10,6 @@ category: exchanges #for related feed
 series: [token-launch-marketing, dex]
 ---
 
-More business of crypto news from all around the web on **[Twitter @BOC__Official](https://twitter.com/BOC__Official)** and in the **[Facebook group #BusinessOfCrypto](https://www.facebook.com/groups/158480538165813/)**.
+<p>
+<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
+</p>

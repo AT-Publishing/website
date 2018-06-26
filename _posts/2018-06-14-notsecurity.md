@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -29,7 +29,7 @@ image:
 image_alt:
 - "Bitcoin has been making gains over the past several hours, rebounding from the 6350 USD mark to a daily high over 6700 USD."
 
-categories: ["news"]
+categories: ["trading"]
 tags: [ "business-of-crypto", "sec", "bitcoin", "cryptotrading"]
 chart: []
 

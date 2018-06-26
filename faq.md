@@ -8,6 +8,8 @@ cz: false
 title: "Cryptocurrency Trading FAQ"
 description: "Altcoin Trading FAQ and basics of basics, like what are altcoins."
 date: 2018-03-03 13:07:00 -0300
+navi:
+ exclude: yes
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "Kraken opens Monero trading"
 description: "Monero trading on Kraken opened on 2nd of January 2017"
 categories:

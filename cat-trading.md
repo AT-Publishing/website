@@ -1,8 +1,10 @@
 ---
+published: false
+
 layout: category
 title: "Altcoin Trading Tools and Strategies"
 description: "Tools for cryptocurrency trading, fundamental news analyses, guides to technical analysis."
-permalink: /category/trading/
+permalink: /nope-category/trading/
 category: "trading"
 ---
 

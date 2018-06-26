@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "All about the DAO hack"
 description: "A summary of what is going on with DAO's and ETH"
 category: "trading"

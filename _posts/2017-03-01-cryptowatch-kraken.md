@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: forestry
 title: "Kraken acquires Cryptowatch, lead dev will work for them"
 description: "Not so long after the last of many shitstorms about Kraken's crappy trading engine there is finally some good news from the exchange."
 categories:

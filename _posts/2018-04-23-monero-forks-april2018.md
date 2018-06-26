@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -31,7 +31,7 @@ image:
 image_alt:
 - "MoneroV fork is approaching quickly and in case you missed it, there were other forks earlier this month."
 
-categories: ["news"]
+categories: ["trading"]
 tags: [ "fundamentals", "monero-forks", "cryptocurrency-investing"]
 chart: []
 

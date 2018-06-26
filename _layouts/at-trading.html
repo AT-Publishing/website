@@ -1,0 +1,122 @@
+---
+layout: default-news
+---
+
+<div class="container" id="altcointrading-trading">
+  <div class="row">
+
+    <div class="row post-content">
+     <div class="seven columns">
+        <h1 class="post post-main"><strong>{{ page.title }}</strong>&nbsp;-&nbsp;#CryptoTrading</h1>
+     </div>
+     <div class="columns five">
+       <div class="clearfix"></div>
+       {% include article/twitters.html %}
+       <div class="clearfix"></div>
+     </div>
+    </div>
+
+      <div class="row">
+        <div class="columns eight">
+          <article class="maincontent">
+
+            <div class="columns twelve strategy-hook">
+              <blockquote cite="{{ page.url | prepend: site.url }}">
+                {% if page.hook %}
+                {{ page.hook }}
+                {% else %}
+                {{ page.description }}
+                {% endif %}
+              </blockquote>
+              {% include article/meta.html %}
+            </div>
+
+            <div class="strategy-content">
+
+            {{ content }}
+
+            <hr>
+            <p><b>Shill Links:</b><br>
+            Coinbase @ <a rel="nofollow" target="_blank" href="http://bit.ly/bumfuck-exchange-for-plebs">bit.ly/bumfuck-exchange-for-plebs</a><br>
+            Coinmate @ <a rel="nofollow" target="_blank" href="http://bit.ly/dont-forget-to-sell-the-bottom">bit.ly/dont-forget-to-sell-the-bottom</a><br>
+            MEX @ <a rel="nofollow" target="_blank" href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
+            LBC @ <a rel="nofollow" target="_blank" href="http://bit.ly/always-in-our-hearts">bit.ly/always-in-our-hearts</a><br>
+            </p>
+            <hr>
+
+            {% include article/strategy-callout.html %}
+
+					 </div><!-- strategy content -->
+          </article>
+          <section>
+
+            {% if page.series %}
+            {% for series in page.series %}
+            <div class="row tagfeed-items">
+              <h2 class="tagged-as">More in #{{ page.tag | upcase }}: Series {{ series | upcase }}</h2>
+              {% for post in site.posts %}
+               {% if post.series contains series %}
+               <div class="columns six">
+                 {% include home/columnupdates.html %}
+               </div>
+               {% endif %}
+              {% endfor %}
+            </div>
+            {% endfor %}
+            {% else %}
+
+            <div class="row tagfeed-items">
+              <h2 class="tagged-as">#DEX Series - The Business Of Decentralized Trading</h2>
+              {% for post in site.posts %}
+               {% if post.series contains "dex" %}
+               <div class="columns six">
+                 {% include home/columnupdates.html %}
+               </div>
+               {% endif %}
+              {% endfor %}
+            </div>
+
+            {% endif %}
+
+            {% if page.category %}
+            <div class="row">
+              <h2 class="tagged-as">Related: {{ page.category | capitalize }}</h2>
+              {% for post in site.posts limit: 5 %}
+               {% if post.categories contains page.category %}
+                {% include category/all.html %}
+               {% endif %}
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            <!-- press -->
+            <div class="atnet-home-pressblock">
+              {% include home/pressblock.html %}
+            </div>
+
+            <div class="bottom strategy-content">
+              {% include article/editor.html %}
+              {% include article/author.html %}
+              {% include article/comments.html %}
+            </div>
+          </section>
+        </div>
+        <div class="four columns nomargintop">
+          <div>
+            {% amp700 noborder {{page.image[0]}} {{page.image_alt[0]}} %}
+            {% include article/related.html %}
+          </div>
+          <br>
+          <div class="clearfix"></div>
+          {% include dogeshare.html %}
+          <div class="clearfix"></div>
+          <div class="smallad">
+             {% include home/smallad.html %}
+          </div>
+          {% include sidebar.html %}
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
