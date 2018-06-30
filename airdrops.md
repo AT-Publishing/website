@@ -1,6 +1,6 @@
 ---
 layout: page
-image: ["/editorial/tagged/altcointrading-crowd.png"]
+image: ["/editorial/tagged/japanese-markets.png"]
 
 permalink: /airdrops/
 cz: "airdropy"
@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added one new crypto airdrop and also one new coin listing on thebusinessofcrypto.com - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "We've added two new crypto airdrops and a new post on thebusinessofcrypto.com - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
@@ -19,7 +19,7 @@ newlyadded: "We've added one new crypto airdrop and also one new coin listing on
 
 <hr>
 
-<h3 class="posh">Bounties & Airdrops List for June 2018</h3>
+<h3 class="posh">Bounties & Airdrops List for July 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
@@ -30,7 +30,7 @@ newlyadded: "We've added one new crypto airdrop and also one new coin listing on
 <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
 </section>
 
-<h3 class="posh">Recurring & Upcoming Drops for July 2018</h3>
+<h3 class="posh">Recurring & Upcoming Drops for August 2018</h3>
 
 {% include nextmonth-airdrops.html %}
 
