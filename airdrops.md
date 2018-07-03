@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added two new crypto airdrops and a new post on thebusinessofcrypto.com - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "We've added one new crypto airdrop and one new #CryptoSecurity alert in case you don't subscribe to those - Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 

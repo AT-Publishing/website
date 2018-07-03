@@ -49,7 +49,7 @@ The [SANS Internet Storm Center published a report on 29th June 2018](https://is
 
 This particular iteration is a heavy script that downloads a malware package from a cloud host. Victims get to download the installer themselves: The attacker posts **a line of code into crypto communities** on Slack and Discord from an account with username and avatar similar to the one of an **admin or developer**.
 
-Since most **crypto projects have a community beta testing chats**, the impostor dev strategy should be reasonably successful. It also costs next to nothing, just like email phishing and social engineering, which means we should expect these attacks are here to stay and will only get more intricate with time.
+Since most **crypto projects have community beta testing chats**, the impostor dev strategy should be reasonably successful even though for an outsider it probably looks quite lame and obvious. It also costs next to nothing, just like email phishing and social engineering, which means we should expect these attacks are here to stay and will only get more intricate with time.
 
 According to [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/research-and-analysis/predictions/2018) this is also the overall prediction for year 2018 in cyber security: phishing has been a huge success, especially using fake sites and malicious PDF files, of course it will grow. It does not need a lot of technical skill to pull this off, targeted attacks can be sold as a service and [literally even a child can afford that from their pocket money](/security/nocturnal-stealer/).
 
