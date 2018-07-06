@@ -55,7 +55,7 @@ related:
  - {"No-ICO projects": "/category/no-ico/"}
 ---
 
-**Update**: On 15 February of 2018 [TensorCharts](https://tensorcharts.com/) expanded the data collection from Bitfinex only to also include Binance, GDAX, BitStamp and BitMEX markets. If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), at this point Tensorcharts are a full alternative to Cryptowatch.
+**Update**: On 15 February of 2018 [TensorCharts](https://tensorcharts.com/) expanded the data collection from Bitfinex only to also include **Binance, GDAX, BitStamp and BitMEX** markets. If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), at this point Tensorcharts are far more than an alternative to Cryptowatch.
 
 _______________
 
@@ -99,10 +99,11 @@ The charts from the standard version are about as good as cryptowatch. They have
 
 #### Learning to use TensorCharts
 
-There will be a post in [Trading Strategy](/strategy/) about how you can read the chart and what information to look for. For the basics, there is a couple of walkthrough videos on YouTube (cca 1 minute each).
+**THE BASICS**
 
-[Series of short video tutorials on YouTube](https://www.youtube.com/watch?v=YZCUMtV8rBU&list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T)
+For the basics, there is a couple of walkthrough videos on YouTube (cca 1 minute each).
 
+[Series of TensorCharts video tutorials on YouTube](https://www.youtube.com/watch?v=YZCUMtV8rBU&list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T)
 
 <amp-youtube
        data-videoid="YZCUMtV8rBU"
@@ -110,11 +111,43 @@ There will be a post in [Trading Strategy](/strategy/) about how you can read th
        width="700" height="360">
 </amp-youtube>
 
+**SCALPING**
+
+Our trading strategy post on scalping features TensorCharts heavily. You can [read it here](/strategy/scalping/) or download it in PDF below.
+
+<section class="sidebar-nl container-center">
+<h4>Scalping Strategy PDF</h4>
+<p>Too long to read now? Save it for offline - download this scalping strategy article as a PDF. No risk of eye cancer from its design either.</p>
+<p><a href="/uploads/pdf/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF</b></a></p>
+</section>
+
 <p>&nbsp;</p>
 
+**CVD**
+
+CVD or Cumulative Volume Delta is an indicator available from the updated version of Tensorcharts. If you learn to read it properly it helps you spot price reversals - hence the note in the tutorial below about the predictive game.
+
+["Counter-Trading with CVD" by Bitcoin Trading Challenge (28 mins)](https://www.youtube.com/watch?v=gj-zxO-ZnSU)
+
+<amp-youtube
+       data-videoid="gj-zxO-ZnSU"
+       layout="responsive"
+       width="700" height="360">
+</amp-youtube>
+
+
+<p>&nbsp;</p>
+
+**FULL TENSORCHARTS MANUAL**
+
+The community-sourced documentation is now available as a website at [docs.tensorcharts.com](https://docs.tensorcharts.com/docs/counters_ratio/).
 
 #### Summary: Powerful tool
 
 If [TensorCharts](https://tensorcharts.com/) had programmable indicators it would be a clear winner over TradingView. The charts alone can give a trader quite a good edge if they are used right - it's perhaps strange to call for it but this really should be a paid tool. For now you can make do with the combination of TradingView and TensorCharts and hope the TensorCharts server won't get too overloaded.
 
 And if you aren't sure how you could make use of this kind of chart, watch out for a more detailed post in [Strategy](/strategy/) later this week.
+
+* Tensorcharts on Twitter: [@tensorcharts](https://twitter.com/tensorcharts)
+* Tensorcharts on [Youtube](https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g)
+* Post about Tensorcharts on [ProductHunt](https://www.producthunt.com/posts/tensorcharts)
