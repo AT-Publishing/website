@@ -6,12 +6,12 @@ permalink: /airdrops/
 cz: "airdropy"
 
 title: "Upcoming Airdrops, Giveaways & Bounties"
-description: "Crypto airdrops for coin holders or for as little as an early signup."
+description: "Crypto airdrops in exchange for social media activity on cryptotwitter or for as little as an early signup."
 date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "We've added one new crypto BOUNTY (worth a lot, hence the caps). There will be a new airdrop update on Wed this week as well, and a #DeadParrot on thebusinessofcrypto.com // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "We've added one new crypto airdrop on AltcoinTrading. On thebusinessofcrypto.com we've added a section with data files for crypto businesses: quick debrief, social media presence, official location, events etc. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
