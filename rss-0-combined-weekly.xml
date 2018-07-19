@@ -69,7 +69,7 @@ navi:
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
       <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
       <content:encoded>
-        {% for item in site.data.reddit.data.children limit: 15 %}
+        {% for item in site.data.reddit.data.children limit: 5 %}
          <![CDATA[
          <h4>{{ item.data.title }}: {{ item.data.score }} votes</h4>
          <p>- via r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
