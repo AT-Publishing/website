@@ -104,7 +104,7 @@ navi:
         {% endfor %}
       </content:encoded>
     </item>
-    <item>
+  <!--<item>
       <title><![CDATA[ Latest articles on {{ site.title | xml_escape }} ]]></title>
       <description><![CDATA[ {% if site.strategy_callout %}{{ site.strategy_callout }}{% elsif site.security_callout%}{{ site.security_callout }}{% elsif site.series_callout%}{{ site.series_callout }}{% else%}For more long reads follow the #Cryptolounge on Medium.com/Cryptolounge{% endif %} ]]></description>
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*5qMcgRmoNVbUKJredX7CRQ.png" medium="image" />
@@ -199,7 +199,7 @@ navi:
         {% endfor %}
       </content:encoded>
     </item>
-
+-->
 
   </channel>
 </rss>
