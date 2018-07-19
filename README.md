@@ -25,88 +25,100 @@ ________________________
 
 
 ```
+<item>
+    <title><![CDATA[ Latest articles on {{ site.title | xml_escape }} ]]></title>
+    <description><![CDATA[ {% if site.strategy_callout %}{{ site.strategy_callout }}{% elsif site.security_callout%}{{ site.security_callout }}{% elsif site.series_callout%}{{ site.series_callout }}{% else%}For more long reads follow the #Cryptolounge on Medium.com/Cryptolounge{% endif %} ]]></description>
+    <media:content url="https://cdn-images-1.medium.com/max/1000/1*5qMcgRmoNVbUKJredX7CRQ.png" medium="image" />
+    <author><![CDATA[ info@altcointrading.net ]]></author>
+    <dc:creator><![CDATA[ JMT, jmt@altcointrading.net ]]></dc:creator>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+    <content:encoded>
+      <![CDATA[ <img src="https://i.imgur.com/uMgLKmt.png"> ]]>
+      {% for post in site.posts limit:3 %}
+      <![CDATA[
+      <h4>{{ post.title | xml_escape }}</h4>
+      <p>
+        {{ post.description | xml_escape }}<br>
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+      </p>
+      ]]>
+      {% endfor %}
+      <![CDATA[ <img src="https://i.imgur.com/q9vaDf2.png"> ]]>
+      {% assign strat = (site.strategy | sort: date) | reverse %}
+      {% for post in strat limit:1 %}
+      <![CDATA[
+      <h4>{{ post.title | xml_escape }}</h4>
+      <p>
+        {{ post.description | xml_escape }}<br>
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+      </p>
+      ]]>
+      {% endfor %}
+      <![CDATA[ <img src="https://i.imgur.com/F1xX7ts.png"> ]]>
+      {% assign sec = (site.security | sort: date) | reverse %}
+      {% for post in sec limit:2 %}
+      <![CDATA[
+      <h4>{{ post.title | xml_escape }}</h4>
+      <p>
+        {{ post.description | xml_escape }}<br>
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+      </p>
+      ]]>
+      {% endfor %}
+      {% assign items = (site.posts | sort: date) | reverse %}
+      {% for post in items limit:2 %}
+      {% if post.note contains 'PSA' %}
+      <![CDATA[
+      <h4>PSA | {{ post.title | xml_escape }}</h4>
+      <p>
+        {{ post.description | xml_escape }}<br>
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+      </p>
+      ]]>
+      {% endif %}
+      {% endfor %}
+    </content:encoded>
+  </item>
+  <item>
+    <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
+    <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
+    <media:content url="https://cdn-images-1.medium.com/max/800/1*HYTEgxhpZ6iItz2JJh76cw.png" medium="image" />
+    <author><![CDATA[ press@altcointrading.net ]]></author>
+    <dc:creator><![CDATA[ BusinessOfCrypto, @BOC__Official ]]></dc:creator>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
+    <content:encoded>
+      {% for post in site.press reversed %}
+      {% assign daysToSec = 1209600 %}
+      {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
+      {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+      {% if pageTime > endTime %}
+      <![CDATA[
+      <h4>{{ post.title | xml_escape }}</h4>
+      <p>
+        {{ post.description | xml_escape }}<br>
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
+        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
+      </p>
+      ]]>
+      {% endif %}
+      {% endfor %}
+      {% for item in site.data.medium.payload.posts %}
+      {% if item.virtuals.subtitle contains "Press" %}
+      <![CDATA[
+      <h4>{{item.title}}</h4>
+      <p>{{ item.virtuals.subtitle }}</br>
+      <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
+      </p>
+      ]]>
+       {% endif %}
+      {% endfor %}
+    </content:encoded>
+  </item>
 
-<!-- Google Tag Manager -->
-<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-TJNG2LQ&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-
-
-<amp-analytics type="googleanalytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "UA-73503011-2"
-  },
-  {% if page.stories %}
-  "trackPageviewWithCustom" : {
-      "on": "visible",
-      "request": "pageviewWithCG1",
-      "vars": {
-        "cg1": "TimelyNews"
-      }
-    },
-  {% else %}
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    },
-  {% endif %}
-    "outboundLinks": {
-        "on": "click",
-        "selector": "a",
-        "request": "event",
-        "vars": {
-          "eventCategory": "outbound",
-          "eventAction": "click",
-          "eventValue": "${outboundLink}"
-        }
-      }
-  }
-}
-</script>
-</amp-analytics>s
-
-```
-
-
-```
-<section>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-  $(document).ready(function($) {
-
-    $.get("https://api.teletext.io/api/v1/geo-ip", function(response) {
-      var country = response["alpha2"];
-      console.log(country);
-      // ZA, IN, KR
-      if ( country == 'US' ) {
-        $("#nous").addClass("hidden");
-      } else {
-        $("#nous").addClass("visible");
-      }
-    });
-
-
-  });
-  </script>
-  <!-- SLOT 3 -->
-  <p>{{ site.affop.system }}</p>
-
-
-</section>
-```
-
-
-////
-
-old ads by FuckSense(TM)
-
-```
-oldads:
-  aads728noamp: '<div class="clearfix"><iframe data-aa="147076" src="https://ad.a-ads.com/147076?size=728x90" scrolling="no" style="width:728px; height:90px; border:0px; padding:0;overflow:hidden" allowtransparency="true" frameborder="0"></iframe></div>'
-  aads728: '<div class="clearfix clearfix adfix"><amp-iframe width="728px" height="90px"
-    layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-    src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
-     placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
-  sidebarnoamp: '<iframe data-aa='147074' src='https://ad.a-ads.com/147074?size=336x280' scrolling='no' style='width:336px; height:280px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>'
 ```
