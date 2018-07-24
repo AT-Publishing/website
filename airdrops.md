@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "One airdrop on AltcoinTrading. One more update to come later. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "Added one airdrop and one warning. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
