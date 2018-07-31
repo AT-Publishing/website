@@ -1,12 +1,12 @@
 ---
 layout: page
-image: ["/editorial/tagged/japanese-markets.png"]
+image: ["/editorial/tagged/atnet-office.png"]
 
 permalink: /airdrops/
 cz: "airdropy"
 
-title: "Upcoming Airdrops, Giveaways & Bounties"
-description: "Crypto airdrops in exchange for social media activity on cryptotwitter or for as little as an early signup."
+title: "Upcoming Crypto Airdrops, Giveaways & Bounties"
+description: "Find token airdrops in exchange for social media activity on cryptotwitter or for an early signup."
 date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
@@ -19,7 +19,7 @@ newlyadded: "New airdrops added, on thebusinessofcrypto.com a new infographic wa
 
 <hr>
 
-<h3 class="posh">Bounties & Airdrops List for July 2018</h3>
+<h3 class="posh">Bounties & Airdrops List for August 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
@@ -30,7 +30,7 @@ newlyadded: "New airdrops added, on thebusinessofcrypto.com a new infographic wa
 <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
 </section>
 
-<h3 class="posh">Recurring & Upcoming Drops for August 2018</h3>
+<h3 class="posh">Recurring & Upcoming Drops for September 2018</h3>
 
 {% include nextmonth-airdrops.html %}
 
