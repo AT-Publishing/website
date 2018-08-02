@@ -27,7 +27,7 @@ author_details:
   - {name: "tradingfanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
   - {name: "CryptoDisrupt", bio: "CryptoDisrupt.com is a crypto news portal and a Youtube channel with regular live panel discussions.", twitter: false, facebook: false, reddit: "https://www.reddit.com/user/AlfieMarsh", quora: false, telegram: false, email: "info@cryptodisrupt.com"}
   - {name: "Cameron", bio: "Cameron is a writer at cityofhype.com, a portal (not only) about all things personal finance. Cameron is a finance analysts and investor in currencies and securities.", twitter: "https://twitter.com/cityofhype", facebook: false, reddit: false, quora: false, telegram: false, email: "info@cityofhype.com"}
-
+  - {name: "0xfunn", bio: "Credibility designer and ethereum maximalist allsporter.com + allsportercoin.io.", twitter": "https://twitter.com/0xfunn", facebook: false, reddit: false, quora: false, telegram: false, email: false}
 
 # this will need to get changed to all blade for a week
 jekyll_get:
