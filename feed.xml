@@ -32,9 +32,9 @@ navi:
         <title><![CDATA[ {{ post.title | xml_escape }} ]]></title>
         <description><![CDATA[ {{ post.description | xml_escape }} ]]></description>
         <content:encoded><![CDATA[ {{ post.content | xml_escape }} ]]></content:encoded>
-        <turbo:content><![CDATA[ {{ post.content | xml_escape }} ]]></turbo:content>
+        <turbo:content><![CDATA[ {{ post.content }} ]]></turbo:content>
 
-        <author><![CDATA[ {{ post.author_name }}@altcointrading.net ]]></author>
+        <author><![CDATA[ {{ post.author_name }} ]]></author>
         <dc:creator><![CDATA[ {{ post.author_name }} ]]></dc:creator>
         {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
 
