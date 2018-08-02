@@ -4,7 +4,16 @@ navi:
  exclude: yes
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+<rss
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  xmlns:yandex="http://news.yandex.ru"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:turbo="http://turbo.yandex.ru">
   <channel>
     <title><![CDATA[  AltcoinTrading.NET - Articles ]]></title>
     <description><![CDATA[  {{ site.description | xml_escape }} ]]></description>
@@ -19,9 +28,12 @@ navi:
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:30 %}
-      <item>
+      <item turbo="true">
         <title><![CDATA[ {{ post.title | xml_escape }} ]]></title>
         <description><![CDATA[ {{ post.description | xml_escape }} ]]></description>
+        <content:encoded><![CDATA[ {{ post.content | xml_escape }} ]]></content:encoded>
+        <turbo:content><![CDATA[ {{ post.content | xml_escape }} ]]></turbo:content>
+
         <author><![CDATA[ {{ post.author_name }}@altcointrading.net ]]></author>
         <dc:creator><![CDATA[ {{ post.author_name }} ]]></dc:creator>
         {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
@@ -31,12 +43,18 @@ navi:
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% if post.comments %}<comments>{{ post.url | prepend: site.baseurl | prepend: site.url }}#comments</comments>
         <slash:comments>0</slash:comments>{% endif %}
+        <language>en</language>
 
         {% for tag in post.tags %}<category><![CDATA[ {{ tag | xml_escape }} ]]></category>
         {% endfor %}
         {% for cat in post.categories %}<category><![CDATA[ {{ cat | xml_escape }} ]]></category>
         {% endfor %}
-        <content:encoded><![CDATA[ {{ post.description | xml_escape }} ]]></content:encoded>
+
+        {% if post.related %}<yandex:related>
+        {% for line in page.related %}{% for item in line %}<link url="{{ item[1] | prepend: site.url }}" img="{{ '/editorial/tagged/altcointrading-crowd.png' | prepend: site.url }}">{{ item[0] }}</link>
+        {% endfor %}{% endfor %}
+        </yandex:related>{% endif %}
+
       </item>
     {% endfor %}
   </channel>
