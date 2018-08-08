@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "One new airdrops added, on thebusinessofcrypto.com some insights from AMA with institutional trader have been published. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "One new airdrop added. On thebusinessofcrypto.com we've added new full data file, this time on Zilliqa. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
