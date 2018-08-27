@@ -21,6 +21,7 @@ shill_links: '<section class="sidebar-nl container-center"><h4>Support this publ
 bio:
   marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
   jmt: 'JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.'
+  diana: 'Diana Trang is the editor of <a href="https://www.thebusinessofcrypto.com">The Business Of Crypto</a>.'
 
 author_details:
   - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
@@ -28,6 +29,7 @@ author_details:
   - {name: "CryptoDisrupt", bio: "CryptoDisrupt.com is a crypto news portal and a Youtube channel with regular live panel discussions.", twitter: false, facebook: false, reddit: "https://www.reddit.com/user/AlfieMarsh", quora: false, telegram: false, email: "info@cryptodisrupt.com"}
   - {name: "Cameron", bio: "Cameron is a writer at cityofhype.com, a portal (not only) about all things personal finance. Cameron is a finance analysts and investor in currencies and securities.", twitter: "https://twitter.com/cityofhype", facebook: false, reddit: false, quora: false, telegram: false, email: "info@cityofhype.com"}
   - {name: "0xfunn", bio: "Credibility designer and ethereum maximalist allsporter.com + allsportercoin.io.", twitter": "https://twitter.com/0xfunn", facebook: false, reddit: false, quora: false, telegram: false, email: false}
+  - {name: "Lisa Henderson", bio: "Lisa contributes all sorts of content to <a target='_blank' href='https://dealmeisters.com'>Deal Meisters</a>, with a special interest in food related topics. A true foodie at heart, in her free time Lisa enjoys cooking, trying new local restaurants, creative writing, and relaxing at the beach.", twitter: false, facebook: false, reddit: false, quora: false, telegram: false, email: "team@dealmeisters.com"}
 
 # this will need to get changed to all blade for a week
 jekyll_get:

@@ -5,6 +5,8 @@
 <p>
   {% if page.editor_name contains "Marc" %}
   {{ site.bio.marc }}
+  {% elsif page.editor_name contains "Diana" %}
+  {{ site.bio.diana }}
   {% else %}
   {{ site.bio.jmt }}
   {% endif %}
