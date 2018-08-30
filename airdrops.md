@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "One new airdrop added. On thebusinessofcrypto.com we've added Data Files for LEXIT and Universal Protocol Platform. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "One new drop added. On thebusinessofcrypto.com we've added Data File for SatoshiLabs. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
