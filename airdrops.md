@@ -6,12 +6,12 @@ permalink: /airdrops/
 cz: "airdropy"
 
 title: "Upcoming Crypto Airdrops, Giveaways & Bounties"
-description: "Find token airdrops in exchange for social media activity on cryptotwitter or for an early signup."
+description: "Crypto token airdrops and bounties in exchange for social media activity on cryptotwitter or for an early signup."
 date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Two airdrops added today, more updates soon. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "Rolled over to September with 2 new airdrops. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
@@ -19,7 +19,7 @@ newlyadded: "Two airdrops added today, more updates soon. // Follow @altcointrad
 
 <hr>
 
-<h3 class="posh">Bounties & Airdrops List for August 2018</h3>
+<h3 class="posh">Bounties & Airdrops List for September 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
@@ -30,7 +30,7 @@ newlyadded: "Two airdrops added today, more updates soon. // Follow @altcointrad
 <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
 </section>
 
-<h3 class="posh">Recurring & Upcoming Drops for September 2018</h3>
+<h3 class="posh">Regular Airdrops - Daily, Weekly, Biweekly</h3>
 
 {% include nextmonth-airdrops.html %}
 
