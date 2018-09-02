@@ -1,12 +1,12 @@
 ---
 layout: at-trading
-published: false
+published: true
 
 guest: false
 sponsored: false
 stories: true
 
-date: 2018-09-02 13:33:00 +0700
+date: 2018-09-04 03:33:00 +0700
 
 title: "DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading"
 description: "According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition."
@@ -46,12 +46,6 @@ related:
 - {"Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry": "/traceto-interview/"}
 - {"Database of Blockchain Technology Companies at The Business Of Crypto": "/blockchain-tech-companies/"}
 
-
-# ranks for:
-# altcoin exchange, best altcoin exchange, altcoin.io
-
-# [Altcoin.io](http://www.altcoin.io?kid=KHPDT)
-
 ---
 
 Altcoin.io is a DEX project powered by Plasma that was first announced earlier in 2018 and just completed their [crowdfunding campaign through WeFunder](https://wefunder.com/altcoinio), raising [$950k USD from over 1100 investors](https://twitter.com/altcoin_io/status/1035745726104526848).
@@ -71,11 +65,11 @@ _____________
 
 **In a recent blog post you announced the decision to [open-source your atomic swap wallet](https://blog.altcoin.io/august-update-mobile-ux-atomic-swaps-and-plasma-dex-v2-94680ff9db30). That is an unusual decision now that most blockchain tech projects are becoming protective of their assets, relying on private deals and so on. What was behind it?**
 
-Community approach is one of the core values of Altcoin.io and there is a reaso for it, so the decision to open-source the atomic swap wallet was mostly strategic.
+Community approach is one of the core values of Altcoin.io and there is a reason for it, so the decision to open-source the atomic swap wallet was mostly strategic.
 
 Clearly the crypto community has amazing power and blockchain industry is full of talented people, but I also think the best path forward for blockchain advancements is through more open collaboration and less closed competition.
 
-This is the case especially when it comes to decentralized trading. After all we're all working on the same mission to create more secure cryptocurrency trading environments.
+This is the case especially when it comes to decentralized trading. After all we are all working on the same mission to create more secure cryptocurrency trading environments.
 
 **Is this a hint at the issue with getting initial liquidity that new cryptocurrency exchanges face?**
 
@@ -104,6 +98,12 @@ To facilitate this we [are developing an SDK for pooled liquidity](https://blog.
 
 
 **Altcoin.io is not the first platform with plans to pool the liquidity, though. How are you going to appeal to other DEXes and dApps to work with you?**
+
+First point is scalability. We first started out working with atomic swaps to address both trustless trading and blockchain interoperability and we had some success with that. But in the end atomic swaps fail to provide the great user experience we aim for - transactions take minutes to confirm and fees can get high.
+
+The crypto trading community wants security but not at all costs, which is why we have completely moved away from atomic swap research and are building a Plasma-based DEX instead.
+
+* ["Why we’ve chosen a Plasma-like sidechain solution for our DEX" at blog.altcoin.io](https://blog.altcoin.io/why-weve-chosen-a-plasma-like-sidechain-solution-for-our-dex-97737ca46b86)
 
 Apart from our focus on scalability, what makes Altcoin.io different is user experience. That is an often neglected aspect in decentralized trading.
 
@@ -136,3 +136,8 @@ We are definitely not avoiding working with stablecoins, if it seemed like that.
 Not exactly in terms of partnership opportunity but we're huge fans of [Tendermint](https://tendermint.com/about) and the [Raiden Network](https://raiden.network/).
 
 I think blockchain scalability is one of the most important issues to be working on right now. Without scalable solutions, mass user adoption will not happen no matter how good the blockchain applications get.
+
+#### More from Altcoin.io
+
+* [Video overview of the new Altcoin.io Plasma DEX](https://youtu.be/-Rk981hywow)
+* [Test the Plasma exchange at https://plasma.altcoin.io/](https://plasma.altcoin.io/)
