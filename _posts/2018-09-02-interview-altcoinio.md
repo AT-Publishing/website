@@ -6,7 +6,7 @@ guest: false
 sponsored: false
 stories: true
 
-date: 2018-09-04 03:33:00 +0700
+date: 2018-09-04 10:33:00 +0700
 
 title: "DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading"
 description: "According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition."
