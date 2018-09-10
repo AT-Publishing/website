@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Added 2 new airdrops. On the thebusinessofcrypto.com/company/wyre we have added a data file for SendWyre, a regulated money business that enables on-boarding from fiat directly into DEX. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "Added 2 airdrops this Monday. On the thebusinessofcrypto.com we have a new article investigating what did the EOS team do this summer. With a sad-funny Q&A from a blockchain conference. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
