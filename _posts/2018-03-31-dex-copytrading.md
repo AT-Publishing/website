@@ -31,7 +31,7 @@ image_alt:
 - "Managed crypto trading is not at its best by a long shot, the space is not as crowded as it might seem at the first sight. Traffic jam image via Unsplash."
 
 categories: ["exchanges"]
-tags: [ "popular", "business-of-crypto", "aurora-dao", "leverj-io", "altcoin-io", "0x", "ddex", "idex", "ron-bernstein", "non-custodial-trading", "airswap"]
+tags: [ "business-of-crypto", "aurora-dao", "leverj-io", "altcoin-io", "0x", "ddex", "idex", "ron-bernstein", "non-custodial-trading", "airswap"]
 chart: []
 
 about:

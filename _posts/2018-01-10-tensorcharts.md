@@ -42,7 +42,7 @@ image_alt:
 categories: ["no-ico", "trading"]
 
 chart: []
-tags: ["footprint-charts", "tensor-charts", "crypto-trading", "whale-watching", "altcoin-trading"]
+tags: ["popular", "footprint-charts", "tensor-charts", "crypto-trading", "whale-watching", "altcoin-trading"]
 
 
 

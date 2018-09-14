@@ -30,7 +30,7 @@ image_alt:
 - "MakerDAO image from Google."
 
 categories: ["altcoins", "altcoins", "exchanges"]
-tags: [ "popular", "dai", "usdt", "tether","cryptocurrencies", "maker-dao", "cryptocurrency-trading"]
+tags: [ "dai", "usdt", "tether","cryptocurrencies", "maker-dao", "cryptocurrency-trading"]
 chart: []
 
 about:

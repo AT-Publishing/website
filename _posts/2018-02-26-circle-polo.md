@@ -29,7 +29,7 @@ image_alt:
 - "The rumors of Polo\'s death have been greatly exaggerated."
 
 categories: ["exchanges", "basics", "news"]
-tags: [ "popular", "poloniex", "circle", "circlepay", "acquisition", "cryptocurrency-exchange"]
+tags: [ "poloniex", "circle", "circlepay", "acquisition", "cryptocurrency-exchange"]
 chart: []
 
 about:

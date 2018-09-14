@@ -34,7 +34,7 @@ image_alt:
 - "Andrew Gazdecki of Altcoin.io on the Community Approach and Future of Atomic Swap DEX Trading"
 
 categories: ["exchanges"]
-tags: [ "interview", "altcoin-io", "andrew-gazdecki", "atomic-swap", "altcoin-exchange", "dex", "trading-platform", "business-of-crypto"]
+tags: [ "popular", "interview", "altcoin-io", "andrew-gazdecki", "atomic-swap", "altcoin-exchange", "dex", "trading-platform", "business-of-crypto"]
 chart: []
 
 series: dex
