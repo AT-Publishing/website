@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Added 1 new easy airdrop. On the thebusinessofcrypto.com we added a full data file for NagriTech. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "Added 2 new easy airdrops. On the thebusinessofcrypto.com we added filter for the (rapidly growing) list of blockchain tech startups. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
