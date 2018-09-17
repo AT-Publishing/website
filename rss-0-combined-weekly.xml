@@ -25,6 +25,7 @@ navi:
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
       <description><![CDATA[ This week's Newsblade top picks from around the cryptointernets. ]]></description>
+      <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
@@ -52,7 +53,7 @@ navi:
     <item>
       <title><![CDATA[ Recently Updated Articles on AltcoinTrading.NET: ]]></title>
       <description><![CDATA[ Articles updated within the last week to day. ]]></description>
-      <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
+      <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
@@ -73,13 +74,15 @@ navi:
     </item>
 
     <item>
+      <title><![CDATA[ Get better privacy with the Brave Browser ]]></title>
+      <media:content url="https://i.imgur.com/V5VLul8.png" medium="image" />
       <content:encoded>
       <![CDATA[
-        <div class="containter-center">
-          <a title="Brave browser and marketplace"  rel="nofollow" href="https://brave.com/alt957" target="_blank">
-            <img src="{{ site.url }}/ads/brave.png" alt="Brave browser and marketplace">
+        <p>
+          <a title="Brave browser and marketplace" href="https://brave.com/alt957">
+            [Download for free]
           </a>
-        </div>
+        </p>
       ]]>
       </content:encoded>
     </item>
@@ -127,7 +130,7 @@ navi:
     <item>
       <title><![CDATA[ Revisiting Past Crypto Airdrops: ]]></title>
       <description><![CDATA[ Do the tokens actually trade or is the project dead? #DeadParrot #Crypto ]]></description>
-      <media:content url="https://i.imgur.com/XI9pR0d.jpg" medium="image" />
+      <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
       <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
