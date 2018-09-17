@@ -23,63 +23,7 @@ navi:
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
     <item>
-      <title><![CDATA[ Airdrop Re-Hash - Recent #Airdrops via Cryptolounge: ]]></title>
-      <description><![CDATA[ You know you love them free coinz. ]]></description>
-      <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
-      <author><![CDATA[ airdrops@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ JMT, jmt@altcointrading.net ]]></dc:creator>
-      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-      <link>{{ "/airdrops/" | prepend: site.baseurl  | prepend: site.url }}</link>
-      <content:encoded>
-        {% for item in site.data.medium.payload.posts %}
-        {% if item.title contains "Airdrops" %}
-        <![CDATA[
-        <h4>{{item.title}}</h4>
-        <p><a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a></p>
-        ]]>
-         {% endif %}
-        {% endfor %}
-      </content:encoded>
-    </item>
-
-    <item>
-      <title><![CDATA[ Revisiting Past Crypto Airdrops: ]]></title>
-      <description><![CDATA[ Do the tokens actually trade or is the project dead? #DeadParrot #Crypto ]]></description>
-      <media:content url="https://i.imgur.com/XI9pR0d.jpg" medium="image" />
-      <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
-      <dc:creator><![CDATA[ The Business Of Crypto ]]></dc:creator>
-      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-      <link>https://www.thebusinessofcrypto.com/airdropped/</link>
-      <content:encoded>
-        {% for item in site.data.parrot.items %}
-        <![CDATA[
-         <h4>{{item.title}}</h4>
-         <p><a href="{{item.url}}">[Read it]</a></p>
-         ]]>
-        {% endfor %}
-      </content:encoded>
-    </item>
-
-    <item>
-      <title><![CDATA[ This Week's Top Posts on Cryptoreddits: ]]></title>
-      <description><![CDATA[ Combined top-voted submissions from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
-      <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
-      <author><![CDATA[ info@altcointrading.net ]]></author>
-      <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
-      <content:encoded>
-        {% for item in site.data.reddit.data.children limit: 5 %}
-         <![CDATA[
-         <h4>{{ item.data.title }}: {{ item.data.score }} votes</h4>
-         <p>- via r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
-         <p><a href="{{ item.data.url}}">[Read it]</a></p>
-         ]]>
-        {% endfor %}
-      </content:encoded>
-    </item>
-    <item>
-      <title><![CDATA[ What We're Reading ]]></title>
+      <title><![CDATA[ What's Been Going On This Week]]></title>
       <description><![CDATA[ This week's Newsblade top picks from around the cryptointernets. ]]></description>
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
@@ -104,5 +48,98 @@ navi:
         {% endfor %}
       </content:encoded>
     </item>
+
+    <item>
+      <title><![CDATA[ Recently Updated Articles on AltcoinTrading.NET: ]]></title>
+      <description><![CDATA[ Articles updated within the last week to day. ]]></description>
+      <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
+      <author><![CDATA[ info@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ KvB ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for category in site.categories %}{% assign pages_list = category[1] %}{% for post in pages_list limit:5 %}
+            {% assign daysToSec = 699048 %}{% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}{% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+            {% if post.title != null %}{% if pageTime > endTime %}
+            <![CDATA[
+            <h4>{{ post.title }}</h4>
+            <p>
+              <strong>Updated at {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC in #{{ category[0] | upcase }}</strong> - {{ post.description }}
+            </p>
+            <p><a href="{{ post.url | prepend: site.url }}">[Read it]</a></p>
+            ]]>
+            {% endif %}{% endif %}{% endfor %}{% assign pages_list = nil %}{% endfor %}
+      </content:encoded>
+    </item>
+
+    <item>
+      <content:encoded>
+      <![CDATA[
+        <div class="containter-center">
+          <a title="Brave browser and marketplace"  rel="nofollow" href="https://brave.com/alt957" target="_blank">
+            <img src="{{ site.url }}/ads/brave.png" alt="Brave browser and marketplace">
+          </a>
+        </div>
+      ]]>
+      </content:encoded>
+    </item>
+
+    <item>
+      <title><![CDATA[ Airdrop Re-Hash - Recent #Airdrops via Cryptolounge: ]]></title>
+      <description><![CDATA[ You know you love them free coinz. ]]></description>
+      <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
+      <author><![CDATA[ airdrops@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ JMT ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/airdrops/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        <ul>
+        {% for item in site.data.medium.payload.posts %}
+        {% if item.title contains "Airdrops" %}
+        <![CDATA[
+        <li><a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">{{item.title}}</a></li>
+        ]]>
+         {% endif %}
+        {% endfor %}
+        </ul>
+      </content:encoded>
+    </item>
+
+
+    <item>
+      <title><![CDATA[ This Week's Top Posts on Cryptoreddits: ]]></title>
+      <description><![CDATA[ Combined top-voted submissions from r/cryptocurrency, r/bitcoin and r/ethtrader ]]></description>
+      <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
+      <author><![CDATA[ info@altcointrading.net ]]></author>
+      <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
+      <content:encoded>
+        {% for item in site.data.reddit.data.children limit: 5 %}
+         <![CDATA[
+         <h4>{{ item.data.title }}: {{ item.data.score }} votes</h4>
+         <p>- via r/{{ item.data.subreddit }} by u/{{ item.data.author }}</p>
+         <p><a href="{{ item.data.url}}">[Read it]</a></p>
+         ]]>
+        {% endfor %}
+      </content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[ Revisiting Past Crypto Airdrops: ]]></title>
+      <description><![CDATA[ Do the tokens actually trade or is the project dead? #DeadParrot #Crypto ]]></description>
+      <media:content url="https://i.imgur.com/XI9pR0d.jpg" medium="image" />
+      <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
+      <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
+      <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+      <link>https://www.thebusinessofcrypto.com/airdropped/</link>
+      <content:encoded>
+        {% for item in site.data.parrot.items %}
+        <![CDATA[
+         <p><a href="{{item.url}}">{{item.title}}</a></p>
+         ]]>
+        {% endfor %}
+      </content:encoded>
+    </item>
+
   </channel>
 </rss>
