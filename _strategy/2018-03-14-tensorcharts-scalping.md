@@ -38,7 +38,7 @@ The year 2017 was the year to buy your crypto in January and hold. Then, maybe, 
 <section class="sidebar-nl container-center">
 <h4>Scalping Strategy PDF</h4>
 <p>Too long to read now? Save it for offline - download this scalping strategy article as a PDF. No risk of eye cancer from its design either.</p>
-<p><a href="/uploads/pdf/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF</b></a></p>
+<p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF from Keybase</b></a></p>
 </section>
 
 <p>&nbsp;</p>
