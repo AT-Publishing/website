@@ -8,10 +8,8 @@ guest: false
 date: 2018-01-10 11:23:00 +0100
 #update: 2018-01-10 11:23:00 +0100
 
-
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
-
 
 comments: false
 
@@ -25,8 +23,8 @@ cz: tensorcharts
 
 tickers: false
 
-title: "TensorCharts - Free charting webapp where you'll get to watch the whales"
-description: "TensorCharts are available free for now - February 2018 update adds Bitstamp, BitMEX, Binance and GDAX to Bitfinex data."
+title: "TensorCharts - Freemium crypto charting web-app with orderbook heatmap (you'll get to watch the whales)"
+description: "TensorCharts are available free in the basic version that is still good for scalpers."
 
 image:
 - "/features/tensorcharts.png"
@@ -42,7 +40,7 @@ image_alt:
 categories: ["no-ico", "trading"]
 
 chart: []
-tags: ["popular", "footprint-charts", "tensor-charts", "crypto-trading", "whale-watching", "altcoin-trading"]
+tags: ["popular", "footprint-charts", "tensor-charts", "tensorcharts", "crypto-trading", "crypto-whales", "altcoin-trading"]
 
 
 
@@ -51,53 +49,65 @@ about:
  sameas: ["https://tensorcharts.com/", "https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g", "https://bitcointalk.org/index.php?topic=2542026.0"]
 
 related:
- - {"New crypto exchanges for 2018": "/exchanges-2018"}
+ - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping/"}
  - {"No-ICO projects": "/category/no-ico/"}
+ - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
+ - {"New crypto exchanges for 2018": "/exchanges-2018"}
 ---
 
-**Update**: On 15 February of 2018 [TensorCharts](https://tensorcharts.com/) expanded the data collection from Bitfinex only to also include **Binance, GDAX, BitStamp and BitMEX** markets. If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), at this point Tensorcharts are far more than an alternative to Cryptowatch.
+The idea of [TensorCharts](https://tensorcharts.com/) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
 
-_______________
+With footprint chart you see the regular chart candle split into blocks on the price axis (such as by 100 USD steps) to see the exact value traded on which price level. Each footprint chart block is colored and has a number inside that says exactly how much money was traded in that block.
 
-The idea of [TensorCharts](https://tensorcharts.com/) is similar as the one behind [Footprint Charts](https://footprintchart.com/) - the charts that will let you "see inside the bars" as their slogan says. It's an advanced software tool particularly good for daytraders and scalpers, you can request a free demo [here](https://marketdelta.com/solutions/footprint-charts/).
+Tensor Charts do something similar but in a web browser. With Tensor Chart you only get part of this information unless you zoom in. The blocks are always colored based on the relative volume traded there, zoom in and you'll get the traded volume as well. It is like a far more precise [volume flow](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/).
 
-Tensor charts do something similar but in a web browser: while with footprint chart you can split the regular chart candle into blocks on the price axis (such as by 100 USD steps) and see the exact value traded there. Each footprint chart block is coloured and has a number inside that says exactly how much money was traded in that block. With tensor chart you only get part of this information: the blocks are coloured based on the relative volume traded there. It is like more precise [volume flow](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/).
+That is not all the additional information you get with [TensorCharts](https://tensorcharts.com/) though.
 
-Additional info you get with [TensorCharts](https://tensorcharts.com/) though is the orderbook visualisation: While the price action created by filled orders is displayed as green and red blocks for filled buys and sells, the limit orders waiting on either side of the market are done in shades of blue, distinguished by order size:
+#### Orderbook Heatmap
+
+Tensor Charts, even in the basic free version, are adding the orderbook visualization: While the price action is created by executed orders and displayed as green and red blocks for filled buys and sells, the limit orders waiting on either side of the market are shown in shades of blue and yellow, distinguished by order size:
 
 {% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
 
+You can customize the the orderbook visualization ("orderbook heatmap") in settings to decide how granular the data should be.
 
-This makes it much easier to spot the walls, spoofers or someone painting support and resistance. To see a spoofer on a candlestick chart you really need to stop staring at the chart, open up the full orderbook and meditate for a while. Then, once the orders get pulled, there is no information left about them in the books. Contrary to that with the visualisation the past orders remain recorder after the candle close.
+The orderbook heatmap function makes it much easier to spot buy and sell walls, spoofers or someone trying to paint support and resistance only to cancel the order just before they would get filled.
 
-It also provides an idea about interminent support and resistance levels - you can clearly see the areas with most money in the orders. Here for instance significant buys on BCH:
+To see a spoofer on a candlestick chart you really need to stop staring at the chart, open up the full orderbook and meditate for a while. Then, once the orders get pulled, there is no information left about them in the books. Contrary to that, Tensor Charts record this event as the past orders remain recorded in the heatmap after the candle close.
+
+Not every waiting limit order will be pulled though, and so the Tensor Charts' heatmap also provides an idea about intermittent support and resistance levels. You can clearly see the areas with most money in open orders at a single glance.
+
+Here for instance significant buys on BCH markets:
 
 {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
 
-Last but not least, the differences between the cryptocurrency markets also become apparent at the first sight.
+Last but not least, the differences between various cryptocurrency markets also become apparent fairly quickly.
 
-This 5m visualisation on the ETHUSD market shows a lot of small orders, some of them coinciding into a resistance level:
+This 5M tensor chart of the ETHUSD market shows a lot of small orders, some of them coinciding into a resistance level:
 
 {% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
 
-On this BTCUSD 5m chart you see the differences in order sizes are more marked, there are a few key levels with huge orders but the rest of the orders filling the space in between is insignificant in comparison:
+On this BTCUSD 5M chart you see the differences in order sizes are more marked, there are a few key levels with huge orders but the rest of the orders filling the space in between is of quite insignificant size in comparison:
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 
+There's lot more that you can do with TensorCharts, I encourage you to explore their [documentation](https://docs.tensorcharts.com/docs/counters_ratio/).
 
-[TensorCharts](https://tensorcharts.com/) are available free for now pulling data from several exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. The platform is built on collateral data from the developer's other project.
+#### TensorCharts FREE Plan
 
-The other project is called [cointerminal.io](https://cointerminal.io/). There is another project named [CoinTerminal which is a news aggregator](https://site.cointerminal.co/) like Bloomberg terminal for cryptocurrencies, it is a paid one and has nothing to do with cointerminal.io.
+[TensorCharts](https://tensorcharts.com/) are available free with basic functions pulling data from the most popular exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. In the free plan you get 5M and 1H timeframes, orderbook heatmap and trades counter.
 
-{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+It is not necessary to create a user account.
 
-[Cointerminal.io](https://cointerminal.io/) is focused on market statistics. You can choose your favourite cryptocurrencies and get price development by 1H, 4H, 1D and 15D and also an indicator overview (MACD, RSI). There are price alerts and also a trading interface where you will be able to connect to cryptocurrency exchanges via API - cointerminal.io will be a paid service and tensor charts should be available in the PRO version.
+If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), Tensorcharts are far better than the currently most popular free charting app Cryptowatch.
 
-The charts from the standard version are about as good as cryptowatch. They have the option to switch between candles and Heikin-Ashi and include set of the most used indicators (MACD with a divergence callout) when you click on "Analysis". A lot of these functionalities are still under development but you can already sign up to see it for yourself - it's all still free but limited. Here are two invite codes: `q7zg46fu`, `ogsqr1b9`.
+#### TensorCharts PRO Plans
 
+Paid plans went live on September 18th 2018, one year to day since the development of the TensorCharts app started.
 
+Plans range from 8 USD - 25 USD per month, paid only in crypto.
 
-#### Learning to use TensorCharts
+### Learn to use Tensor Charts
 
 **THE BASICS**
 
@@ -135,19 +145,32 @@ CVD or Cumulative Volume Delta is an indicator available from the updated versio
        width="700" height="360">
 </amp-youtube>
 
-
 <p>&nbsp;</p>
 
-**FULL TENSORCHARTS MANUAL**
+**FULL TENSORCHARTS DOCUMENTATION**
 
-The community-sourced documentation is now available as a website at [docs.tensorcharts.com](https://docs.tensorcharts.com/docs/counters_ratio/).
+The community-sourced documentation is now available as a website at [docs.tensorcharts.com](https://docs.tensorcharts.com/). It is very brief but it outlines all the important features of Tensor Charts which you then can easily google.
 
-#### Summary: Powerful tool
+### Summary: Powerful Tool
 
-If [TensorCharts](https://tensorcharts.com/) had programmable indicators it would be a clear winner over TradingView. The charts alone can give a trader quite a good edge if they are used right - it's perhaps strange to call for it but this really should be a paid tool. For now you can make do with the combination of TradingView and TensorCharts and hope the TensorCharts server won't get too overloaded.
+TensorCharts have come a long way since we first published a post about them in January 2018. As the development advanced, programmable indicators were added along with experimental indicators such as the [Counters Ratio](https://docs.tensorcharts.com/docs/counters_ratio/) and TensorCharts are now beating both Cryptowatch and TradingView in terms of the amount of information you can extract from them.   
 
-And if you aren't sure how you could make use of this kind of chart, watch out for a more detailed post in [Strategy](/strategy/) later this week.
+We were probably the first blog to call for paid plans, this kind of tool should not be available for free. We're happy the paid plans are here, it could help with the only issue Tensor Charts traders keep complaining about: That during abrupt price action you can only hope the server won't get too overloaded. I'd argue it's still not as bad as when you get this on BitMEX though.
+
+However, even the free version of tensor charts can give a trader quite a good edge if they use it right.
 
 * Tensorcharts on Twitter: [@tensorcharts](https://twitter.com/tensorcharts)
 * Tensorcharts on [Youtube](https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g)
 * Post about Tensorcharts on [ProductHunt](https://www.producthunt.com/posts/tensorcharts)
+
+**Some Background, if you are interested**
+
+The platform was originally built using collateral data from the developer's other project.
+
+The other project is called [cointerminal.io](https://cointerminal.io/). There is another project named [CoinTerminal which is a news aggregator](https://site.cointerminal.co/) like Bloomberg terminal for cryptocurrencies, it is a paid one and has nothing to do with cointerminal.io.
+
+{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+
+[Cointerminal.io](https://cointerminal.io/) is focused on market statistics. You can choose your favourite cryptocurrencies and get price development by 1H, 4H, 1D and 15D and also an indicator overview (MACD, RSI). There are price alerts and also a trading interface where you will be able to connect to cryptocurrency exchanges via API - cointerminal.io will be a paid service and tensor charts should be available in the PRO version.
+
+The charts from the standard version are about as good as cryptowatch. They have the option to switch between candles and Heikin-Ashi and include set of the most used indicators (MACD with a divergence callout) when you click on "Analysis". A lot of these functionalities are still under development but you can already sign up to see it for yourself - it's all still free but limited. Here are two invite codes: `q7zg46fu`, `ogsqr1b9`.
