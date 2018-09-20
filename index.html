@@ -5,13 +5,52 @@ navi:
 ---
 <div class="container">
   <div class="row top">
+        <div class="columns four">
+          <span class="note">Recently Updated</span><br>
+          <ul class="popular">
+          {% for category in site.categories %}
+          {% assign pages_list = category[1] | reverse  %}
+            {% for post in pages_list limit:10 %}
+              {% assign daysToSec = 699048 %}
+              {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
+              {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+
+              {% if post.title != null %}
+              {% if pageTime > endTime %}
+              <li class="popular-item">
+                <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #{{ category[0] | upcase }}</a>
+              </li>
+              {% endif %}
+              {% endif %}
+
+              {% endfor %}
+            {% assign pages_list = nil %}
+          {% endfor %}
+          </ul>
+            <hr class="skinny">
+            {{ site.brave_xs }}
+            <hr class="skinny">
+            {{ site.deribit_xs }}
+            <hr class="skinny">
+        </div>
       {% for post in site.posts offset: 0 limit: 1 %}
-        <div class="columns eight">{% include home/columnupdates.html %}
+        <div class="columns five">{% include home/columnupdates.html %}
           <p>{{ post.description }}</p>
+          <p>
+            Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name | capitalize }}</a> on {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC {% if post.categories %} in <b>#{{ post.categories[0] | upcase }}</b>{% endif %}
+          </p>
+          {% if post.related %}
+          <span class="note">Related to this article</span>
+          <ul class="popular">
+            {% for line in post.related %}{% for item in line %}
+            <li class="popular-item"><a href="{{ item[1] }}">{{ item[0] }}</a></li>
+            {% endfor %}{% endfor %}
+          </ul>
+          {% endif %}
         </div>
       {% endfor %}
       {% for post in site.posts offset: 1 limit: 1 %}
-        <div class="columns four atnet-second">
+        <div class="columns three atnet-second">
           {% include home/columnupdates.html %}
           <div class="smallad">
              {% include home/smallad.html %}
@@ -32,6 +71,11 @@ navi:
       {% include home/popular.html %}
     </section>
 
+    <!--<section>
+      <h2 class="tagged-as clear">Recently Updated Articles</h2>
+      {% include allupdates.html %}
+    </section>-->
+
     <section id="new-posts">
 
       <section class="atnet-home-pressblock">
@@ -41,22 +85,26 @@ navi:
       <section>
         <hr>
         <div>
-          {{ site.ads.tv_728-90_static }}
+          {{ site.tv_728-90_static }}
         </div>
         <hr>
       </section>
+
+      <div id="paginated-tradingblog">
+        <h2 class="tagged-as clear">More Trading Blog Articles</h2>
+      </div>
 
 
       <!-- Pagination links -->
       <div class="pagination">
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="prev"><< Previous</a>
+          <a href="{{ paginator.previous_page_path }}#paginated-tradingblog" class="prev"><< Previous</a>
         {% else %}
           <span class="prev"><< Previous</span>
         {% endif %}
         <span class="page_number ">All Articles - Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
+          <a href="{{ paginator.next_page_path }}#paginated-tradingblog" class="next">Next >></a>
         {% else %}
           <span class="next ">Next >></span>
         {% endif %}
@@ -102,13 +150,13 @@ navi:
     <!-- Pagination links -->
     <div class="pagination">
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="prev"><< Previous</a>
+        <a href="{{ paginator.previous_page_path }}#paginated-tradingblog" class="prev"><< Previous</a>
       {% else %}
         <span class="prev"><< Previous</span>
       {% endif %}
       <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next >></a>
+        <a href="{{ paginator.next_page_path }}#paginated-tradingblog" class="next">Next >></a>
       {% else %}
         <span class="next ">Next >></span>
       {% endif %}

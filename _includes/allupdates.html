@@ -3,7 +3,7 @@
   <div class="columns twelve">
 
   {% for category in site.categories %}
-    {% assign pages_list = category[1] %}
+    {% assign pages_list = category[1] | reverse  %}
       {% for post in pages_list limit:10 %}
 
           {% include home/updated.html %}
