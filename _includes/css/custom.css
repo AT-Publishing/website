@@ -175,3 +175,9 @@ h5.post small,.top2 figure,
     margin-bottom: 30px;
     border-bottom: 5px solid #ffdc00;
 }
+
+.featured {
+  text-transform: uppercase;
+    color: #03203f;
+    padding: 20px 0 0;
+}

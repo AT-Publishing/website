@@ -1,0 +1,12 @@
+{% if page.related %}
+<section>
+<div class="trading quiterelated">
+  <h5>Also read:</h5>
+  <ol>
+    {% for line in page.related %}{% for item in line %}
+    <li><a href="{{ item[1] }}">{{ item[0] }}</a></li>
+    {% endfor %}{% endfor %}
+  </ol>
+</div>
+<section>
+{% endif %}

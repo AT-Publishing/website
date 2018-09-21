@@ -95,23 +95,23 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 
-#### Divergences Cheatsheets
+## Divergences Cheatsheets
 
-* [A comprehensive dev cheatsheet with explanations](https://i.imgur.com/5SnaDpt.png)
+* [Comprehensive divs cheatsheet with explanations](https://i.imgur.com/5SnaDpt.png)
 
 <amp-img itemprop="image" alt="Altcoin Trading - TA Divergences Cheatsheet"
  src="https://i.imgur.com/5SnaDpt.png" layout="responsive"
  data-original-width="1031px" data-original-height="2464px"
 width="750px" height="1792px"></amp-img>
 
-* [A simple divergences cheatsheet from BabyPips](https://www.babypips.com/learn/forex/divergence-cheat-sheet)
+* [Basic divergences cheatsheet from BabyPips](https://www.babypips.com/learn/forex/divergence-cheat-sheet)
 
 <amp-img itemprop="image" alt="Simple Divergences Cheatsheet"
  src="/features/2018/babypips-divergences-cheatsheet.jpg" layout="responsive"
  data-original-width="652px" data-original-height="965px"
 width="652px" height="965px"></amp-img>
 
-#### TA Divergences Intro on Youtube
+#### TA Divergences Explanation from Youtube
 
 Josh Olszewicz did a Youtube series called *Better know an indicator* which included a good video on divergences. Other videos from the same series included the intro to [Ichimoku cloud for crypto traders](/ichimoku-cloud/).
 
@@ -127,10 +127,10 @@ Josh Olszewicz did a Youtube series called *Better know an indicator* which incl
 #### Other Resources
 
 
-”dukascopy.com / Do you know everything about divergences?”
+* ”dukascopy.com / Do you know everything about divergences?”
 
 <a href="https://www.dukascopy.com/fxcomm/fx-article-contest/?Do-You-Know-Everything-About=&action=read&id=890" class="button">Divs on dukascopy.com</a>
 
-”babypips.com / Divergence cheat sheet”
+* ”babypips.com / Divergence cheat sheet”
 
 <a href="http://www.babypips.com/school/high-school/trading-divergences/divergence-cheat-sheet.html" class="button">Cheatsheet on babypips.com</a>

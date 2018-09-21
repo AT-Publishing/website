@@ -39,6 +39,7 @@ tags: ["cryptotrading", "trading-blog"]
 chart: []
 
 series: ScriptSpotlight
+pinned: yes
 #canonical: "https://www.thebusinessofcrypto.com/articles/etheremon-kyber-network/"
 
 related:
@@ -48,7 +49,7 @@ related:
 
 ---
 
-In this series we are picking scripts for technical analysis that recently popped up in the TradingView daily popular feed. If you don't have a TradingView account yet, [make one here](http://bit.ly/atnet-tv).
+If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv).
 
 ### PPO Divergence Alerts (PPOD)
 
