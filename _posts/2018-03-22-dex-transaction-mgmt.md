@@ -6,8 +6,8 @@ guest: false
 
 date: 2018-03-23 12:35:00 -0300
 
-title: "DEX Series, Episode 1: Trade Execution Management"
-description: "On non-custodial trade execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for algo trading."
+title: "DEX Series, Episode 1: Order Execution Management"
+description: "On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading."
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
