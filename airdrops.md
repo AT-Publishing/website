@@ -11,7 +11,7 @@ date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
-newlyadded: "Added 1 new crypto airdrop - drops for absolutely nothing, limited to 2500 participants. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
+newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum bottom pattern. // Follow @altcointrading_ or medium.com/cryptolounge for more and better."
 
 ---
 
