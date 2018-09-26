@@ -8,7 +8,7 @@ navi:
   <channel>
     <title>{{ site.title | xml_escape }} Airdrops</title>
     <description>
-      All Upcoming Airdrops This Month
+      Upcoming Airdrops {{ site.title }}
     </description>
     <image>
       <url>{{ site.url }}{{ site.baseurl }}/img/logo.jpg</url>
@@ -21,7 +21,7 @@ navi:
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
       <item>
-        <title>All airdrops, newly added first:</title>
+        <title>All Airdrops This Month</title>
         <description>
           <![CDATA[
             {% include thismonth-airdrops.html %}
