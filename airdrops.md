@@ -5,7 +5,7 @@ image: ["/editorial/tagged/atnet-office.png"]
 permalink: /airdrops/
 cz: "airdropy"
 
-title: "Upcoming Crypto Airdrops, Giveaways & Bounties"
+title: "Upcoming Crypto Airdrops, Crypto Giveaways & Bounties for token promotion on social media."
 description: "Crypto token airdrops and bounties in exchange for social media activity on cryptotwitter or for an early signup."
 date: 2018-02-23 15:07:00 +0100
 categories: ["airdrops"]
@@ -15,13 +15,16 @@ newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum b
 
 ---
 
-<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
-
+<div>
+  {{ site.tv_728-90_static }}
+</div>
 <hr>
 
 <h3 class="posh">Bounties & Airdrops List for September 2018</h3>
 
 {% include thismonth-airdrops.html %}
+
+<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
 
 <section class="sidebar-nl container-center">
 <h5>AltcoinTrading.NET Verified Airdrops</h5>
