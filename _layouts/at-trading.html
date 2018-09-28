@@ -104,6 +104,11 @@ layout: default-news
         </div>
         <div class="four columns nomargintop">
           <div>
+            {% if page.canonical %}
+            <p>
+              <a href="{{page.canonical}}">Originally published via <b>{{page.author_name}}</b>.</a>
+            </p>
+            {% endif %}
             {% amp700 noborder {{page.image[0]}} {{page.image_alt[0]}} %}
             {% include article/related.html %}
           </div>
