@@ -45,6 +45,8 @@ related:
 
 ---
 
+*Sign up here to try [Etheremon](https://www.etheremon.com/sign-in?code=e234281) and get your first EMONT tokens for free to get started.*
+
 Decentralized games are facing the same challenge as the rest of the dApp industry - declining user base. As [reported by diar.co](http://diar.co/decentralized-apps-facing-half-life-after-peak/), even the most popular decentralized game CryptoKitties suffered a decline of 96% in terms of active users measured by unique active ETH addresses. The reason for poor user retention according to Diar is unintuitive multi-step user experience, a crucial issue that even in the future could make finding new adopters difficult.
 
 An intuitive solution [also highlighted by Andrew Gazdecki of Altcoin.io](https://www.altcointrading.net/interview-andrew-gazdecki/) is sharing of liquidity: Blockchain projects should not silo their apps, they should instead engage in liquidity pooling and support collaboration among different blockchain assets.

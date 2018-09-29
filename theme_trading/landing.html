@@ -53,29 +53,85 @@ related:
     </div>
     <div class="row">
       <div class="twelve columns tools">
+
         <div class="clearfix">&nbsp;</div>
-        <section class="row columns twelve">
-          <ul class="popular">
-          {% for post in site.posts offset:2 limit:5 %}
-          <li class="popular-item">
-            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-              <b>{{ post.title }}</b>
-              {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
-              <br>
-              {% for tag in post.tags %}
-                <span>&nbsp;#{{tag | upcase }}</span>
+        <section class="row">
+
+          <div class="columns nine">
+            <p>{{ site.tv_728-90_static }}</p>
+
+            <ul class="popular">
+              {% for post in site.posts offset:2 limit:5 %}
+              <li class="popular-item">
+              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+                <b>{{ post.title }}</b>
+                {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
+                <br>
+                {% for tag in post.tags %}
+                  <span>&nbsp;#{{tag | upcase }}</span>
+                {% endfor %}
+              </a>
+              </li>
               {% endfor %}
-            </a>
-          </li>
-          {% endfor %}
-          </ul>
+            </ul>
+          </div>
+          <div class="columns three">
+            <p><span class="note">Trading Platforms We Support:</span></p>
+            <ul class="popular">
+              <li class="popular-item">
+                BitMEX:
+                <a rel="nofollow" href="https://www.bitmex.com/register/iYQB44">[Fee Discount]</a>
+                 -
+                <a rel="nofollow" href="/coupon-bitmex-iyqb44/">Review</a>
+              </li>
+              <li class="popular-item">
+                CryptoFacilities:
+                <a rel="nofollow" href="http://bit.ly/cryptofacilities">[Fee Discount]</a>
+                 -
+                <a rel="nofollow" href="/fee-discount-cryptofacilities/">Review</a>
+              </li>
+              <li class="popular-item">
+                Bitfinex/Ethfinex:
+                <a rel="nofollow" href="https://www.ethfinex.com/?refcode=5egV78YtlC">[Fee Discount]</a>
+                 -
+                <a rel="nofollow" href="/coupon-bitfinex-5egv78ytlc/">Review</a>
+              </li>
+            </ul>
+            <p><span class="note">Charting Apps We Support:</span></p>
+            <ul class="popular">
+              <li class="popular-item">
+                <a rel="nofollow" href="http://bit.ly/atnet-tv">TradingView</a>
+              </li>
+              <li class="popular-item">
+                <a rel="nofollow" href="http://bit.ly/tensorcharts">TensorCharts</a>
+              </li>
+
+            </ul>
+          </div>
+
         </section>
         <div class="clearfix">&nbsp;</div>
       </div>
     </div>
     <div class="row">
      <div class="eight columns">
-        <p>{{ site.tv_728-90_static }}</p>
+
+       <section>
+         {% if page.featured_series %}
+         {% for series in page.featured_series %}
+         <div class="row tagfeed-items clearfix">
+           <h2 class="tagged-as">Featured Series: #{{ series | upcase }}</h2>
+           {% for post in site.posts %}
+            {% if post.series contains series %}
+            <div class="columns six">
+              {% include home/columnupdates.html %}
+            </div>
+            {% endif %}
+           {% endfor %}
+         </div>
+         {% endfor %}
+         {% endif %}
+       </section>
 
          <section>
           <h2 class="tagged-as clear">Crypto Trading Strategy #LongReads</h2>
@@ -84,7 +140,7 @@ related:
             <li class="popular-item">
               <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
                 <b>{{ post.title }}</b>
-                {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
+                {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} / 
                 {% if post.description %}{{post.description}}{% endif %}
                 <br>
                 {% for tag in post.tags %}
@@ -114,22 +170,6 @@ related:
            </ul>
          </section>
 
-         <section>
-           {% if page.featured_series %}
-           {% for series in page.featured_series %}
-           <div class="row tagfeed-items clearfix">
-             <h2 class="tagged-as">Featured Series: #{{ series | upcase }}</h2>
-             {% for post in site.posts %}
-              {% if post.series contains series %}
-              <div class="columns six">
-                {% include home/columnupdates.html %}
-              </div>
-              {% endif %}
-             {% endfor %}
-           </div>
-           {% endfor %}
-           {% endif %}
-         </section>
          <section class="atnet-home-bottom space tagfeed-items">
           {% include tags/tag-boc.html %}
          </section>

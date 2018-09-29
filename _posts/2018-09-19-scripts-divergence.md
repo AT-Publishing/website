@@ -39,7 +39,7 @@ tags: ["cryptotrading", "trading-blog"]
 chart: []
 
 series: ScriptSpotlight
-pinned: yes
+pinned: no
 #canonical: "https://www.thebusinessofcrypto.com/articles/etheremon-kyber-network/"
 
 related:
