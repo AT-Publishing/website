@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Cryptocurrencies Trading Blog 2018 | Altcoin Trading Tools and Strategies"
+title: "Bitcoin Trading Sessions Data | Altcoin Trading Tools and Strategies"
 description: "Tools for cryptocurrency trading, fundamental news analyses, guides to technical analysis."
-permalink: "/blog/trading/"
+permalink: "/data/sessions/"
 category: "trading"
-featured_series: ["ScriptSpotlight", "dex"]
+featured_series: ["ScriptSpotlight"]
 related:
 - {"Crypto Scalping with TensorCharts": "/strategy/scalping/"}
 - {"Technical Analysis: Divergences (With a Graphic Cheatsheet)": "/divergences/"}
@@ -13,7 +13,9 @@ related:
 {% assign strategy_items = (site.strategy | sort: date) | reverse %}
 
 <div class="container" id="crypto-trading-blog">
-  
+  <div class="row">
+    {% include sessions-widget.html %}
+  </div>
     <div class="row top twelve columns">
               <div class="columns four">
                 <p>&nbsp;</p>
@@ -53,6 +55,34 @@ related:
               </div>
             {% endfor %}
     </div>
+    <div class="row">
+     <div class="eight columns">
+
+       <section>
+         {% if page.featured_series %}
+         {% for series in page.featured_series %}
+         <div class="row tagfeed-items clearfix">
+           <h2 class="tagged-as">Featured Series: #{{ series | upcase }}</h2>
+           {% for post in site.posts %}
+            {% if post.series contains series %}
+            <div class="columns six">
+              {% include home/columnupdates.html %}
+            </div>
+            {% endif %}
+           {% endfor %}
+         </div>
+         {% endfor %}
+         {% endif %}
+       </section>
+
+      </div><!-- 8 -->
+      <div class="four columns nomargintop">
+        <div>
+          {% include article/alsoread.html %}
+        </div>
+        
+      </div><!-- 4-->
+    </div><!-- row-->
     <div class="row">
       <div class="twelve columns tools">
 
@@ -116,76 +146,6 @@ related:
         <div class="clearfix">&nbsp;</div>
       </div>
     </div>
-    <div class="row">
-     <div class="eight columns">
 
-       <section>
-         {% if page.featured_series %}
-         {% for series in page.featured_series %}
-         <div class="row tagfeed-items clearfix">
-           <h2 class="tagged-as">Featured Series: #{{ series | upcase }}</h2>
-           {% for post in site.posts %}
-            {% if post.series contains series %}
-            <div class="columns six">
-              {% include home/columnupdates.html %}
-            </div>
-            {% endif %}
-           {% endfor %}
-         </div>
-         {% endfor %}
-         {% endif %}
-       </section>
-
-         <section>
-          <h2 class="tagged-as clear">Crypto Trading Strategy #LongReads</h2>
-          <ul class="popular">
-            {% for post in strategy_items %}
-            <li class="popular-item">
-              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-                <b>{{ post.title }}</b>
-                {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} /
-                {% if post.description %}{{post.description}}{% endif %}
-                <br>
-                {% for tag in post.tags %}
-                  <span>&nbsp;#{{ tag | upcase }}</span>
-                {% endfor %}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-         </section>
-
-         <section>
-           <h2 class="tagged-as clear clearfix" id ="paginated-tradingblog">
-             Previously in Trading Blog #{{ page.category | upcase }}
-           </h2>
-             <ul class="popular">
-             {% for post in site.posts offset:7 %}
-             {% if post.categories contains "trading" %}
-             <li class="popular-item">
-               <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-                 <b>{{ post.title }}</b>
-                 {% if post.last_modified_at %} Last updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}
-               </a>
-             </li>
-             {% endif %}
-             {% endfor %}
-             </ul>
-         </section>
-
-         <section class="atnet-home-bottom space tagfeed-items">
-          {% include tags/tag-boc.html %}
-         </section>
-
-      </div><!-- 8 -->
-      <div class="four columns nomargintop">
-        <div>
-          {% include article/alsoread.html %}
-        </div>
-        <br>
-        <div class="clearfix"></div>
-        {% include sidebar.html %}
-      </div><!-- 4-->
-    </div><!-- row-->
 </div><!-- container-->
 <div class="clearfix"></div>
