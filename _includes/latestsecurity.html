@@ -1,4 +1,4 @@
-{% assign items = (site.security | sort: date) | reverse %}
+{% assign items = site.security | sort:date | reverse %}
 {% for post in items limit:1 %}
 <h3>Crypto Security Primers</h3>
 <section class="row homelab">
@@ -37,7 +37,7 @@
 </section>
 {% endfor %}
 
-{% assign items = (site.security | sort: date) | reverse %}
+{% assign items = site.security | sort:date | reverse %}
 {% for post in items offset:1 limit:5 %}
 <section class="row homelab">
   <div class="columns twelve">

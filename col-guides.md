@@ -13,7 +13,7 @@ Join <a target="_blank" href="https://plus.google.com/b/118152650417780550154/co
 
 <p>For general 101 information regarding blockchain, types of blockchains and the role of cryptoasset price scroll down to the next section.</p>
 
-{% assign items = (site.posts | sort: date) | reverse %}
+{% assign items = site.posts | sort:date | reverse %}
 {% for post in items  %}
 {% if post.guide %}
 

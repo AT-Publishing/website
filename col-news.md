@@ -7,7 +7,7 @@ navi:
  exclude: yes
 ---
 
-{% assign items = (site.posts | sort: date) | reverse %}
+{% assign items = site.posts | sort:date | reverse %}
 {% for post in items  %}
 {% if post.stories %}
 

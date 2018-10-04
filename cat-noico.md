@@ -7,7 +7,7 @@ category: "no-ico"
 ---
 
 
-{% assign features = (site.posts | sort: date) | reverse %}
+{% assign features = site.posts | sort:date | reverse %}
 
 <p><strong>FEATURED</strong></p>
 

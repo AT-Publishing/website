@@ -21,6 +21,7 @@
   </section>
 
   <section class="posts-security" id="gtm-sidebar-strategy">
+    <h3>Crypto Trading Strategy:</h3>
    {% include lateststrategy.html %}
   </section>
 
@@ -29,7 +30,7 @@
   <section>
       <h3>Latest PSA's:</h3>
       <ul>
-      {% assign items = (site.posts | sort: date) | reverse %}
+      {% assign items = site.posts | sort:date | reverse %}
       {% for post in items  %}
       {% if post.note contains 'PSA' %}
       <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
@@ -74,7 +75,7 @@
 
     </ul>
   </section>
-  
+
   <section>
     <h3>Everyone's Favorite Cold Storage (BTC+ERC20)</h3>
     {{ site.ledger_300-250_animated }}

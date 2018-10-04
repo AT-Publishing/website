@@ -8,7 +8,7 @@ category: "altcoins"
 
 {{ site.ads.ethfinex728 }}
 
-{% assign allitems = (site.posts | sort: date) | reverse %}
+{% assign allitems = site.posts | sort:date | reverse %}
 
 <h3 class="cat-post clear"><strong>Featured in "no-blockchain cryptocurrencies"</strong></h3>
 

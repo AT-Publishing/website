@@ -8,7 +8,7 @@ permalink: /nope-category/trading/
 category: "trading"
 ---
 
-{% assign items = (site.posts | sort: date) | reverse %}
+{% assign items = site.posts | sort:date | reverse %}
 
 <div class="clearfix">&nbsp;</div>
 

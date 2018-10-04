@@ -1,6 +1,6 @@
 <!-- Press Releases -->
 {% if site.press[0] %}
-{% assign items = (site.press | sort: date) | reverse %}
+{% assign items = (site.press | sort:date) | reverse %}
 <span class="note">Industry Press Releases // <a href="/press/">Press Archive</a></span>
 <div class="row" id="atnet-press">
   {% for post in items limit:3 %}

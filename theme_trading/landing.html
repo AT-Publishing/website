@@ -10,10 +10,10 @@ related:
 - {"Technical Analysis: Divergences (With a Graphic Cheatsheet)": "/divergences/"}
 - {"Database of Blockchain Gaming Startups at The Business Of Crypto": "/blockchain-tech-companies/"}
 ---
-{% assign strategy_items = (site.strategy | sort: date) | reverse %}
+{% assign strategy_items = site.strategy | sort:date | reverse %}
 
 <div class="container" id="crypto-trading-blog">
-  
+
     <div class="row top twelve columns">
               <div class="columns four">
                 <p>&nbsp;</p>
@@ -187,5 +187,3 @@ related:
         {% include sidebar.html %}
       </div><!-- 4-->
     </div><!-- row-->
-</div><!-- container-->
-<div class="clearfix"></div>

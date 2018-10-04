@@ -1,4 +1,4 @@
-{% assign items = (site.fibs | sort: date) | reverse %}
+{% assign items = (site.fibs | sort:date) | reverse %}
 {% for post in items limit:1 %}
 <section class="row homelab">
   <div class="columns twelve">

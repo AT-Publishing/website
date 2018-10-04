@@ -1,6 +1,5 @@
-{% assign items = (site.strategy | sort: date) | reverse %}
+{% assign items = site.strategy | sort:date | reverse %}
 {% for post in items limit:1 %}
-<h3>Trading Strategy Long Reads</h3>
 <section class="row homelab">
   <div class="columns twelve">
     <h5 class="post">
@@ -35,7 +34,7 @@
 </section>
 {% endfor %}
 
-{% assign items = (site.strategy | sort: date) | reverse %}
+{% assign items = site.strategy | sort:date | reverse %}
 {% for post in items offset:1 limit:6 %}
 <section class="row homelab">
   <div class="columns twelve">

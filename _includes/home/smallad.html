@@ -1,8 +1,8 @@
 <span class="note">Latest in Extras</span>
 <ul class="popular">
 
-{% assign strat = (site.strategy | sort: date) | reverse %}
-{% assign sec = (site.security | sort: date) | reverse %}
+{% assign strat = site.strategy | sort:date | reverse %}
+{% assign sec = site.security | sort:date | reverse %}
 
 {% for post in strat limit:1 %}
 <li class="popular-item">

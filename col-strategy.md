@@ -12,7 +12,7 @@ permalink: /strategy/
 </section>
 {% endif %}
 
-{% assign items = (site.strategy | sort: date) | reverse %}
+{% assign items = site.strategy | sort:date | reverse %}
 {% for post in items  %}
 
 <div class="row sec-latest">

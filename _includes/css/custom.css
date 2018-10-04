@@ -50,6 +50,12 @@ h1.tagged-as, h2.tagged-as {background: 0 0;
     text-transform: capitalize;
     font-weight: 800;
 }
+h4.tagged-as {
+  color: #000b17;
+  border-left: 5px solid #000b17;
+  padding: 2rem;
+  text-transform: uppercase;
+}
 .tagfeed-items h5.post {background: transparent;}
 .tagfeed-items .six h5.post {font-size: 16px;}
 .tagfeed-items ul.popular {padding: 0 15px;}

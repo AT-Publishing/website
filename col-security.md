@@ -16,7 +16,7 @@ permalink: /security/
 </section>
 {% endif %}
 
-{% assign items = (site.security | sort: date) | reverse %}
+{% assign items = site.security | sort:date | reverse %}
 {% for post in items  %}
 
 

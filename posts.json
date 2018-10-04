@@ -6,7 +6,7 @@ navi:
 [
   {% for post in site.posts %}{% if isFirst != true %},{% endif %}{% assign isFirst = false %}{
     "title":"{{ post.title | escape }}",
-    "date":"{{ post.date | escape  }}",
+    "date":"{{ post.date  | date_to_rfc822  }}",
     "content":"{{ post.description | escape }}",
     "url":"{{site.url}}{{ post.url | escape }}"
   }{% endfor %}]

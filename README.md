@@ -46,7 +46,7 @@ ________________________
       ]]>
       {% endfor %}
       <![CDATA[ <img src="https://i.imgur.com/q9vaDf2.png"> ]]>
-      {% assign strat = (site.strategy | sort: date) | reverse %}
+      {% assign strat = site.strategy | sort:date | reverse %}
       {% for post in strat limit:1 %}
       <![CDATA[
       <h4>{{ post.title | xml_escape }}</h4>
@@ -58,7 +58,7 @@ ________________________
       ]]>
       {% endfor %}
       <![CDATA[ <img src="https://i.imgur.com/F1xX7ts.png"> ]]>
-      {% assign sec = (site.security | sort: date) | reverse %}
+      {% assign sec = site.security | sort:date | reverse %}
       {% for post in sec limit:2 %}
       <![CDATA[
       <h4>{{ post.title | xml_escape }}</h4>
@@ -69,7 +69,7 @@ ________________________
       </p>
       ]]>
       {% endfor %}
-      {% assign items = (site.posts | sort: date) | reverse %}
+      {% assign items = site.posts | sort:date | reverse %}
       {% for post in items limit:2 %}
       {% if post.note contains 'PSA' %}
       <![CDATA[
