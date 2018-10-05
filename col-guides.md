@@ -5,19 +5,26 @@ description: "Guides for newbie altcoin traders: where to buy, where to trade, l
 permalink: /guides/
 ---
 
-Join <a target="_blank" href="https://plus.google.com/b/118152650417780550154/communities/115259878580948161888">our community on Google+</a> for more basics and trading guides from all around the web.
-
-<hr>
-
 <h4>Crypto Trading Need-To-Know's</h4>
 
 <p>For general 101 information regarding blockchain, types of blockchains and the role of cryptoasset price scroll down to the next section.</p>
 
+CONTENTS
+
+1/ [Crypto Trading Guides: How to get started with crypto trading](#guides)
+
+2/ [How to do a blockchain news research](#blockchain-news-research)
+
+3/ [Blockchain Technology 101](#blockchain-tech-101)
+
+<hr>
+
 {% assign items = site.posts | sort:date | reverse %}
+
+<h4 id="guides">How to start cryptocurrency trading</h4>
+
 {% for post in items  %}
 {% if post.guide %}
-
-
 <div class="row sec-latest">
 
   {% if post.image[0] %}
@@ -77,7 +84,32 @@ Join <a target="_blank" href="https://plus.google.com/b/118152650417780550154/co
 
 <hr>
 
-<h4>Blockchain Technology 101: Blockchains, Blocks and the Role of Price</h4>
+<h4 id="blockchain-news-research">How to do a blockchain news research</h4>
+
+The blockchain industry is booming and in 2018, the number of cryptocurrency news outlets is bigger than ever.
+
+The growing number of independent resources is very well in line with the concept of decentralization. There is absolutely nothing wrong with that.
+
+However, the problem for the user is how to sift through all the alternative sources that come up in search.
+
+**A simple system on how to sift through cryptocurrency news sites:**
+
+1. **Start with mainstream sites.** Big cryptocurrency news outlets release a lot of stuff, most of which is not important or even interesting. Fast news portals need to publish multiple times a day though, in order to stay popular. Their business model relies on big but unfocused traffic: Think people who habitually check out the site without looking for something in particular. This traffic is monetized via display advertising, whether it is sensible for actual revenue generation or not. You can get the best value without annoying popups if you set up [Google Alerts](https://www.google.com/alerts). Having an alert for broad keywords like "bitcoin" will allow you to scan the headlines of the mainstream crypto news outlets as they get published without having to show up on their websites at all.
+2. **When it's interesting, it's on Reddit.** For the juiciest news, they will be posted on Reddit rather sooner than later. Good subreddits with diligent moderators are r/bitcoin, r/cryptocurrency, r/altcoin and r/ethtrader.
+3. **Small Bloggers.** Once you've got the mainstream outlets cleared, it's good to keep informed about what the bloggers and alternative outlets say. Smaller publishers and Medium bloggers are very rarely sponsored at all, which means they will offer a more independent view - at least as long as their portal is not a complete amateur action. Medium blogs especially are known for their high technical level. Diving deep into the blockchain technology is something the mainstream outlets cannot afford to publish, their generic audience is not looking for the bother to understand something technically complex. Therefore don't sleep on smaller publishers!  
+
+While on Medium.com you can [sift through newly published writeups via tags](https://medium.com/tag/bitcoin), to research small bloggers and independent outlets you might need to turn to cryptocurrency news aggregators.
+
+One of the good ones is [CoinSpectator](https://coinspectator.com). It is an extensive aggregator that specializes in sourcing smaller, hand-picked cryptocurrency blogs and blockchain news sites. You can choose whether to view blog articles, news articles or both. Users vote for the linked news in a similar way as on Reddit without the brigading. The best of the best then makes it into the Top feed.
+
+The news on CoinSpectator updates in real time and there is an infobox with cryptocurrency prices, so it is very convenient to have CoinSpectator open on one of your screens while you're trading.
+
+
+<br>
+
+<hr>
+
+<h4 id="blockchain-tech-101">Blockchain Technology 101: Blockchains, Blocks and the Role of Price</h4>
 
 #### Definition of Blockchain
 
