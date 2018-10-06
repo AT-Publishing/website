@@ -45,7 +45,7 @@ about:
  sameas: ["http://www.altcoin.io", "https://medium.com/@coreyj_miller/overview-of-decentralized-crypto-exchanges-3ce97627e771", "https://hackernoon.com/atomic-swap-why-its-a-game-changer-for-exchanges-fb1380f5cb6c"]
 
  related:
- - {"Orderbook heatmap and more: TensorCharts": "/tensorcharts"}
+ - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
  - {"New crypto exchanges for 2018": "/exchanges-2018"}
  - {"No-ICO projects": "/category/no-ico/"}
 

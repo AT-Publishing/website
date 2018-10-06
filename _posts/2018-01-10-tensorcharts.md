@@ -49,10 +49,10 @@ about:
  sameas: ["https://tensorcharts.com/", "https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g", "https://bitcointalk.org/index.php?topic=2542026.0"]
 
 related:
+ - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
  - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping/"}
  - {"No-ICO projects": "/category/no-ico/"}
  - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
- - {"New crypto exchanges for 2018": "/exchanges-2018"}
 ---
 
 The idea of [TensorCharts](https://tensorcharts.com/) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).

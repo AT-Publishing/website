@@ -34,7 +34,21 @@ chart: []
 tags: [ "bitfinex", "bitfinex-referral-link", "cryptocurrency-exchange", "exchange-issues"]
 ---
 
-Update: Bitfinex reopened user signups on January 12, 2018 and added a minimum equity requirement for new accounts.
+During the heights of crypto trading boom in 2017, several exchanges temporarily closed down new sign ups because they could not handle the inflow of new customers. Bitfinex was one of them, as the second big exchange to do so after [Bittrex closed down registration on December 15th, 2017](https://support.bittrex.com/hc/en-us/articles/115003463331-New-Account-Sign-Ups). Several exchanges followed soon, all signup halts were temporary.
+
+This article originally informed readers about Bitfinex closing down their referral program, which Bitfinex representatives did not announce - they simply stopped paying out the revenue share.
+
+Bitfinex since then reopened their platform to new registrations on January 12, 2018. However, new users need to deposit a minimum equity of 10K USD in cryptocurrencies in order to activate the trading functionality.
+
+While Bitfinex did not renew their referral program, they have a new referral program active for EthFinex.
+
+EthFinex is an Ethereum-based sister platform of Bitfinex that recently announced the launch of their [trustless (non-custodial) service](https://www.bitfinex.com/posts/279) on top of the current centrally maintained ETH-based trading platform.
+
+[Read more about EthFinex and Bitfinex here](/coupon-bitfinex-5egv78ytlc/).
+
+<p><a rel="nofollow" href="https://www.ethfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Sign up at EthFinex</a></p>
+
+### Archived Bitfinex announcement regarding the minimum equity requirement
 
 > [...] to allow us to maintain focus on our core customer base, all accounts created after January 1st, 2018, will have a new activation equity requirement.
 
@@ -42,7 +56,7 @@ Update: Bitfinex reopened user signups on January 12, 2018 and added a minimum e
 
 > Existing accounts will not be affected by these changes. This change only affects new accounts.
 
-_____________________
+### Archived discussion of Bitfinex affiliates noticing they are not getting paid
 
 There has been a [discussion on /r/bitfinex](https://www.reddit.com/r/bitfinex/comments/7kzo4c/referral_link_ticket_answered_in_41_min_missing/) about new people not being able to get their referral link to become Bitfinex representatives.
 
@@ -54,10 +68,6 @@ In this case the support is responsive, and here is what they have to say:
 
 > We are currently working on a new program whereby existing users will be able to invite a limited group of new users to sign-up or the Bitfinex platform. Once this has been finalized then we will notify existing users who qualify with details regarding this program.
 At this time , and until such a time as the new program is operational we will not be accepting new users to the platform.
-
--- There hasn't been a formal announcement but it is apparent from the mail that Bitfinex stopped new user registrations. That's a second big exchange after [Bittrex did that on December 15th](https://support.bittrex.com/hc/en-us/articles/115003463331-New-Account-Sign-Ups).
-
-According to [Ethfinex Telegram](https://t.me/joinchat/GgM7eBFC-BdMYaC_3hN4Kg), Bitfinex should reopen registrations on 15th of January 2018.
 
 
 <div>
