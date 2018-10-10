@@ -55,6 +55,8 @@ related:
  - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
 ---
 
+{{ site.tc1 }}
+
 The idea of [TensorCharts](https://tensorcharts.com/) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
 
 With footprint chart you see the regular chart candle split into blocks on the price axis (such as by 100 USD steps) to see the exact value traded on which price level. Each footprint chart block is colored and has a number inside that says exactly how much money was traded in that block.
