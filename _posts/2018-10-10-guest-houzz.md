@@ -34,8 +34,8 @@ chart: []
 
 
 related:
-- {"Blockchain technology 101", "/guides/#blockchain-tech-101"}
-- {"How blockchain disrupts the legal industry", "/how-blockchain-disrupts-legal/"}
+- {"Blockchain technology 101": "/guides/#blockchain-tech-101"}
+- {"How blockchain disrupts the legal industry": "/how-blockchain-disrupts-legal/"}
 - {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
 - {"Zilliqa Is Bootstrapping Open Source Development With Grants": "/press/zilliqa/"}
 
