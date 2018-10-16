@@ -1,103 +1,91 @@
 ---
 layout: marketing
 
-published: false
+published: true
 
-title: "Black Friday Deals for Crypto Traders"
-description: "Black friday 2017 deals for charting and trading portals for bitcoin and altcoin traders."
+title: "Black Friday Deals 2018 for Crypto Traders"
+description: "Black Friday Deals for cryptocurrency traders and hodlers - premium charting apps and hardware wallets on discount."
 permalink: /blackfriday/
-date: 2017-10-26 13:14 +0700
-update: 2017-11-24 12:14 +0700
+date: 2018-10-16 13:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg']
 
 author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
-Black Friday and Cyber Monday 2017 is closing upon us so if you are a crypto trader thinking of going PRO on Tradingview, getting Coinigy subscription or just buy something with bitcoin, you might want to wait until the 24th of November to get the best yearly deals.
+**Black Friday 2018 / Cyber Monday 2018: Friday 23 November and Monday 26 November 2018**
 
-## Live Deals for Black Friday 2017  
+Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader thinking of going PRO on Tradingview, getting Coinigy subscription or just buying something with bitcoin, you might want to wait until the 23rd of November to get the best deal.
 
+## Confirmed Crypto Deals for 2018
 
-#### Ledger Wallet Black Friday 2017 21% OFF is live!
+#### Ledger Nano S Early Bird 20% OFF
 
-<div class="adfix text-center">
-<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">
-<amp-img itemprop="image"
-src="https://www.ledgerwallet.com/images/promo/black-friday-2017/ledger-7-2-8x9-0.gif"
-alt="Ledger Nano S - The multi-currency hardware wallet" data-original-width="728px"
-data-original-height="90px" layout="responsive" width="728px" height="90px">
-</amp-img></a></div>
+{{ site.stars.five }}
 
+This year, Ledger has opened an **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
 
-If you have been waiting to buy your Ledger Nano S, the Black Friday 2017 deal starts on Friday November 24th. You get **21% off on your Ledger Ledger Nano S** if you place your order between Friday 24 November and Monday 27 November 2017.
+<a rel="nofollow" class="button" href="https://www.ledger.com/products/ledger-nano-s?r=e274&path=/products/ledger-nano-s&utm_source=twitter&utm_medium=social&utm_campaign=20off">Get 20% off on Ledger Nano S</a>
 
-Note that Ledger is running the same Black Friday sale from Friday through Cyber Monday with 21% OFF and that the discount applies on all Ledger Nano S orders, but not on other Ledger products!
+{{ site.ads.ledger-thin }}
 
-<p><a rel="nofollow external" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Get your Ledger Nano S</a></p>
+## Anticipated Crypto Deals for 2018
 
-<div class="adfix text-center">
-<a rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">
-<amp-img itemprop="image"
-src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_8-5-0x4-2-0.jpg"
-alt="Ledger Nano S - The multi-currency hardware wallet" data-original-width="850px"
-data-original-height="420px" layout="responsive" width="850px" height="420px">
-</amp-img></a>
-</div>
+#### Ledger Nano S Black Friday 2018 21% OFF
 
-#### Trezor Wallet 3for2 Black Friday 2017 is live!
+{{ site.stars.five }}
 
-Trezor wallets don't get a percent discounts during Black Friday 2017 but there is a discount package of 3 for 2 available.
+Every year on Black Friday, you get **21% off on your Ledger Ledger Nano S** if you place your order between Black Friday and Cyber Monday.
 
-There is no need to apply a discount code - the offer applies on all orders from Black Friday through the weekend and Cyber Monday, and possibly on and on while the supplies last.
+Ledger is typically running the same sale from Friday through Cyber Monday with 21% OFF.
 
-The price for the pack of **3 Trezor wallets is 178 EUR**, taking the cost for device down to **59 EUR**. The price stays the same for all geolocations. There will be delivery costs added on checkout.
+The discount applies on all Ledger Nano S orders, but not on other Ledger products!
+
+<p><a rel="nofollow" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Get your Ledger Nano S</a></p>
 
 
-<a rel="nofollow external" target="_blank" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor Black Friday offer</a>
+#### Trezor Wallet 3for2 Black Friday 2018
 
-You can also preorder the new Trezor model T but there is no Black Friday deal on it. The more advanced Trezor T device with a large display costs currently 149 EUR and will ship in January 2018.
+{{ site.stars.four }}
 
-<a rel="nofollow external" target="_blank" class="button" href="https://preorder.trezor.io/?a=fany@tutanota.com">See Trezor current offers</a>
+Trezor wallets don't get a percent discounts during Black Friday sales but there is a discount package of 3 for 2 available.
 
+The price for the three-pack of classic older model of Trezor is **178 EUR**, taking the cost for device down to **59 EUR**. The price stays the same for all geolocations. There will be delivery costs added on checkout.
 
-#### TradingView Black Friday Deal is live!
+Perhaps this year there will be some juicy discount on the Trezor Model T - last year in November it was too early for that, Trezor T was only available for pre-order then. The regular cost for Trezor T is 149 EUR.
 
+<a rel="nofollow" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor's current offers</a>
 
-<div class="clearfix adfix">
-<a rel="nofollow" target="_blank" href="http://tradingview.go2cloud.org/SH1Je">
-<amp-img itemprop="image" src="/ads/BlackFriday728-90.png"
-alt="Tradingview Black Friday deals 2017 for crypto traders"
-data-original-width="728px"
-data-original-height="90px"
-width="728px" height="90px"
-layout="responsive">
-</amp-img>
-</a>
-</div>
+#### TradingView Black Friday Deal
 
+{{ site.stars.five }}
 
-From 20 November to 27 November TradingView gives between 40% and 60% discount on **yearly plans** only.
+TradingView usually opens a discount offer for a full week. They give between 40% and 60% discount on their **yearly plans**.
+
+Here's last year's deal structure
 
 * PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
 * PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
 * PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
 
-The Black Friday discount applies to yearly subscription only but here's a cost breakdown per month for your information:
+**Cost breakdown per month after Black Friday discount**:
 
 * **PRO** with yearly payment ~ **9 USD/month**
 * **PRO+** with yearly payment ~ **14.95 USD/month**
 * **PREMIUM** with yearly payment ~ **23.98 USD/month**
 
-<a href="http://tradingview.go2cloud.org/SH1Je" class="button" rel="nofollow" target="_blank">See what the plans include</a>
+<a href="http://bit.ly/atnet-tv" class="button" rel="nofollow">See what TradingView plans include</a>
 
+{{ site.tv_1200-628 }}
 
-### Jump to Deal Description
+&nbsp;
+
+## Black Friday Deal Details
 
 **Hardware Wallets**
 
-* [Ledger wallet deals](#ledger) -- currently the crowd's favorite
-* [Trezor wallet deals](#trezor) -- currently second best
+* [Ledger wallet deals](#ledger) -- the crowd's favorite
+* [Trezor wallet deals](#trezor) -- second best
 
 **Charting Tools**
 
@@ -118,11 +106,11 @@ Ledger wallet is currently the most trusted hardware wallet for bitcoin and altc
 
 Ledger Nano S also supports Bitcoin Cash and Bitcoin Gold. Ledger is generally fast and diligent in Bitcoin fork support apps so the Nano S wallet is definitely a good choice if you are a BTC holder and want to be able to split coins safely. (Don't worry if you missed out so far, there will likely be more forks in the future.)
 
-<a rel="nofollow external" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">See crypto supported by Ledger Nano S</a>
+<a rel="nofollow" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">See crypto supported by Ledger Nano S</a>
 
 Ledger Nano S currently retails at a regular price of **up to 69.90 EUR** (price varies based on your location - the US retail price is still 58 EUR excl. tax). On Black Friday customers get **21% discount** on all Nano S orders. In 2017, the same deal is good for the entire weekend and also the Cyber monday.
 
-<a rel="nofollow external" target="_blank" class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
+<a rel="nofollow"  class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
 
 <div id="trezor"></div>
 
@@ -136,7 +124,7 @@ The regular price of Trezor wallet is 99 USD per device but on Black Friday cust
 
 SatoshiLabs, the company behind Trezor, will announce the [2017 deals on their blog](https://blog.trezor.io).
 
-<a rel="nofollow external" target="_blank" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor current offers</a>
+<a rel="nofollow" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor current offers</a>
 
 <div>
   {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
@@ -159,7 +147,7 @@ With the PRO+ plan you can save 4 layouts and access them from 2 devices, you ge
 
 TradingView is the most popular charting and alert tool for cryptocurrency traders to this day. It is reliable, it doesn't take up as much memory as cryptowatch and if you are willing to block 100+ people in the chat, you will find the community stunning. (Just kidding. It's a great charting platform though.)
 
-<a rel="nofollow external" target="_blank" class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
+<a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
 
 **We will pin a [Telegram note in our group](https://t.me/altcointrading_net) once TradingView releases their 2017 offers. You can also [sign up at TradingView for their free account](http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=23&file_id=199) and monitor the announcements they make.**
 
@@ -173,4 +161,4 @@ Coinigy doesn't charge any additional fee for executing trades via the platform.
 
 The subscription plans prices differ based on the length of your subscription but on Black Friday, you can get a lifetime plan for as little as 3 USD a month. That's pretty much for free, and you get great charting engine, the possibility to trade on multiple exchanges from a single interface and notifications about new markets going live.
 
-<a rel="nofollow external" target="_blank" class="button" href="https://www.coinigy.com/pricing/?r=3599c6f9 ">See Coinigy plan pricing</a>
+<a rel="nofollow" class="button" href="https://www.coinigy.com/pricing/?r=3599c6f9 ">See Coinigy plan pricing</a>

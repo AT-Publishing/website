@@ -300,11 +300,11 @@ tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders
 bf1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/blackfriday/">
 <amp-img itemprop="image"
-src="/cta/ledger-blackfriday-2017.png"
-alt="Black Friday deals 2017 for crypto traders"
-data-original-width="819px"
-data-original-height="310px"
-width="730px" height="275px"
+src="/ads/bf_1024x512.jpg"
+alt="Black Friday deals 2018 for crypto traders"
+data-original-width="1024px"
+data-original-height="512px"
+width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
