@@ -16,13 +16,7 @@ newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum b
 ---
 
 <div>
-
-<p>
-<a rel="nofollow" class="button" href="https://www.ledger.com/products/ledger-nano-s?r=e274&path=/products/ledger-nano-s&utm_source=twitter&utm_medium=social&utm_campaign=20off">Get 20% off on Ledger Nano S before 22 Oct 2018</a>
-</p>
-
-{{ site.ads.ledger-thin }}
-
+{{ site.tv_728-90_animated }}
 </div>
 <hr>
 
