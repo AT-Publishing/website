@@ -19,13 +19,17 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 ## Confirmed Crypto Deals for 2018
 
-#### Ledger Nano S Early Bird 20% OFF
+#### Ledger Nano S Early Bird 20% OFF and Limited Editions
 
 {{ site.stars.five }}
 
 This year, Ledger has opened an **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
 
-<a rel="nofollow" class="button" href="https://www.ledger.com/products/ledger-nano-s?r=e274&path=/products/ledger-nano-s&utm_source=twitter&utm_medium=social&utm_campaign=20off">Get 20% off on Ledger Nano S</a>
+This campaign was followed on October 31 with a **limited edition Ledger Wallet**, themed for the 10 year anniversary of the Satoshi white-paper. The White-paper design is still available.
+
+There is no discount on the White-paper Nano S model but you get free express shipping. And, the White-paper designs are actually in stock, which is notoriously a trouble with crypto wallets as popular as Ledger Nano S.
+
+<a rel="nofollow" class="button" href="https://www.ledger.com/satoshi?r=e274">Take a look at the Ledger Nano S White-paper Edition</a>
 
 {{ site.ads.ledger-thin }}
 
