@@ -23,6 +23,8 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 {{ site.ledger_color }}
 
+<p>&nbsp;</p>
+
 **EARLY BIRD Vol.2** - Pre-BlackFriday Ledger Nano S Color Edition with a **bulk discount**.
 
 The most popular cryptocurrency wallet, ledger Nano S, is now available in 6 different colors. The colors will **make it easier to admin** as you'll be able to **tell your hardware wallets apart**.
