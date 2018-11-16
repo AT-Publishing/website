@@ -19,15 +19,35 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 ## Confirmed Crypto Deals for 2018
 
-#### Ledger Nano S Early Bird 20% OFF and Limited Editions
+#### Ledger Nano S Early Bird offers - NEW OFFER Nov 16 - Nov 21!
+
+{{ site.ledger_color }}
+
+**EARLY BIRD Vol.2** - Pre-BlackFriday Ledger Nano S Color Edition with a **bulk discount**.
+
+The most popular cryptocurrency wallet, ledger Nano S, is now available in 6 different colors. The colors will **make it easier to admin** as you'll be able to **tell your hardware wallets apart**.
+
+If that's not interesting, the **promo** that's valid **before November 21st** will be:
+
+```
+20% off on 1 Black Ledger Nano S + 1 Color Edition
+30% off on 1 Black Ledger Nano S + 2 or more Color Edition
+```
+
+Remember that with Nano S, catching them in stock is often an issue. The actual Black Friday 2018 deal **won't get better than 30% off**, if you are still waiting you might as well get your Ledgers now.
+
+<a rel="nofollow" class="button" href="https://www.ledger.com/?r=e274">See the new colors</a>
+
+
+##### Other Ledger Nano Offers: The white-paper edition
 
 {{ site.stars.five }}
 
-This year, Ledger has opened an **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
+This year, Ledger has opened with the first crypto-related **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
 
-This campaign was followed on October 31 with a **limited edition Ledger Wallet**, themed for the 10 year anniversary of the Satoshi white-paper. The White-paper design is still available.
+This campaign was followed on October 31 with a **limited edition Ledger Wallet**, themed for the 10 year anniversary of the Satoshi white-paper.
 
-There is no discount on the White-paper Nano S model but you get free express shipping. And, the White-paper designs are actually in stock, which is notoriously a trouble with crypto wallets as popular as Ledger Nano S.
+The White-paper design is still available. There is no discount on the White-paper Nano S model but you get free express shipping. And, the White-paper designs are actually in stock, which is notoriously a trouble with crypto wallets as popular as Ledger Nano S.
 
 <a rel="nofollow" class="button" href="https://www.ledger.com/satoshi?r=e274">Take a look at the Ledger Nano S White-paper Edition</a>
 
