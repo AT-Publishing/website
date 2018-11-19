@@ -57,13 +57,13 @@ related:
 
 {{ site.tc1 }}
 
-The idea of [TensorCharts](https://tensorcharts.com/) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
+The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
 
 With footprint chart you see the regular chart candle split into blocks on the price axis (such as by 100 USD steps) to see the exact value traded on which price level. Each footprint chart block is colored and has a number inside that says exactly how much money was traded in that block.
 
 Tensor Charts do something similar but in a web browser. With Tensor Chart you only get part of this information unless you zoom in. The blocks are always colored based on the relative volume traded there, zoom in and you'll get the traded volume as well. It is like a far more precise [volume flow](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/).
 
-That is not all the additional information you get with [TensorCharts](https://tensorcharts.com/) though.
+That is not all the additional information you get with TensorCharts though.
 
 #### Orderbook Heatmap
 
@@ -97,7 +97,7 @@ There's lot more that you can do with TensorCharts, I encourage you to explore t
 
 #### TensorCharts FREE Plan
 
-[TensorCharts](https://tensorcharts.com/) are available free with basic functions pulling data from the most popular exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. In the free plan you get 5M and 1H timeframes, orderbook heatmap and trades counter.
+<a rel="nofollow" href="https://tensorcharts.com/?r=14">TensorCharts</a> are available free with basic functions pulling data from the most popular exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. In the free plan you get 5M and 1H timeframes, orderbook heatmap and trades counter.
 
 It is not necessary to create a user account.
 

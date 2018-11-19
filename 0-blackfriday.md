@@ -19,6 +19,22 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 ## Confirmed Crypto Deals for 2018
 
+#### TensorCharts 50% OFF on Premium plans
+
+TensorCharts is an advanced charting platform focusing on crypto exclusively. It features orderbook heatmap, counters ratios, scripting any many more tools that are hard to wrap your head around but actually give you trading edge.
+
+Starting on **Friday 23 November at 00:00 UTC**, Tensorcharts will mark down their Premium plan by **full 50%**.
+
+```
+50% OFF Tensorcharts Premium - 9 USD a month (was 18 USD)
+```
+
+<a rel="nofollow" href="https://tensorcharts.com/?r=14">Start with TensorCharts For Free here</a>
+
+If you want to learn what TensorCharts are all about, read our [intro here](/tensorcharts/) or browse through the list of [TensorCharts tutorials here](/tensorcharts-tutorials/).
+
+The full pricing structure of TensorCharts [here](https://docs.tensorcharts.com/paid-plans-v01/).
+
 #### Ledger Nano S Early Bird offers - NEW OFFER Nov 16 - Nov 21!
 
 {{ site.ledger_color }}
