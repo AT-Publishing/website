@@ -19,6 +19,28 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 ## Confirmed Crypto Deals for 2018
 
+#### TradingView Black Friday Deal - LIVE, 60% off
+
+{{ site.stars.five }}
+
+As usual, TradingView opened a discount offer for a full week (Monday - Sunday). Like every year, they give between 40% and 60% discount on their **yearly plans**.
+
+Here's the Black Friday 2018 Tradingview deal structure:
+
+* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
+* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
+* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
+
+**Cost breakdown per month after Black Friday discount**:
+
+* **PRO** with yearly payment ~ **9 USD/month**
+* **PRO+** with yearly payment ~ **14.95 USD/month**
+* **PREMIUM** with yearly payment ~ **23.98 USD/month**
+
+The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
+
+<a href="http://bit.ly/atnet-tv" class="button" rel="nofollow">See what each TradingView plan includes</a>
+
 #### TensorCharts 50% OFF on Premium plans
 
 TensorCharts is an advanced charting platform focusing on crypto exclusively. It features orderbook heatmap, counters ratios, scripting any many more tools that are hard to wrap your head around but actually give you trading edge.
@@ -27,6 +49,7 @@ Starting on **Friday 23 November at 00:00 UTC**, Tensorcharts will mark down the
 
 ```
 50% OFF Tensorcharts Premium - 9 USD a month (was 18 USD)
+payments in BTC
 ```
 
 <a rel="nofollow" href="https://tensorcharts.com/?r=14">Start with TensorCharts For Free here</a>
@@ -98,29 +121,6 @@ Perhaps this year there will be some juicy discount on the Trezor Model T - last
 
 <a rel="nofollow" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor's current offers</a>
 
-#### TradingView Black Friday Deal
-
-{{ site.stars.five }}
-
-TradingView usually opens a discount offer for a full week. They give between 40% and 60% discount on their **yearly plans**.
-
-Here's last year's deal structure
-
-* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
-* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
-* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
-
-**Cost breakdown per month after Black Friday discount**:
-
-* **PRO** with yearly payment ~ **9 USD/month**
-* **PRO+** with yearly payment ~ **14.95 USD/month**
-* **PREMIUM** with yearly payment ~ **23.98 USD/month**
-
-<a href="http://bit.ly/atnet-tv" class="button" rel="nofollow">See what TradingView plans include</a>
-
-{{ site.tv_1200-628 }}
-
-&nbsp;
 
 ## Black Friday Deal Details
 
@@ -191,7 +191,12 @@ TradingView is the most popular charting and alert tool for cryptocurrency trade
 
 <a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
 
-**We will pin a [Telegram note in our group](https://t.me/altcointrading_net) once TradingView releases their 2017 offers. You can also [sign up at TradingView for their free account](http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=23&file_id=199) and monitor the announcements they make.**
+**You can also [sign up at TradingView for their free account](http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=23&file_id=199) and monitor the announcements they make.**
+
+
+{{ site.tv_1200-628 }}
+
+&nbsp;
 
 <div id="coinigy"></div>
 
