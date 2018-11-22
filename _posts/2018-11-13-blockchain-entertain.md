@@ -95,7 +95,7 @@ In gaming, companies like Bounties Network and Qravity are connecting video game
 
 Despite these exciting possibilities, however, blockchain technology still has its limitations.
 
-<a href="https://www.fxcm.com/insights/what-are-blockchains-limitations">An article focused on blockchain’s limitations by FXCM</a> notes that while it has undoubtedly contributed to greater transparency and protection of intellectual property, it comes with the **caveat of having to address the need for confidentiality**.
+<a href="https://www.fxcm.com/insights/what-are-blockchains-limitations/">An article focused on blockchain’s limitations by FXCM</a> notes that while it has undoubtedly contributed to greater transparency and protection of intellectual property, it comes with the **caveat of having to address the need for confidentiality**.
 
 Companies have to remember that preserving data privacy and commercial transparency doesn’t equate to integrity. At the end of the day, confidentiality terms must be agreed upon.
 
