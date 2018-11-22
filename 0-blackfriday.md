@@ -19,6 +19,16 @@ Black Friday and Cyber Monday 2018 are coming again. If you are a crypto trader 
 
 ## Confirmed Crypto Deals for 2018
 
+#### Coinigy Black Friday Deal 75% OFF - Opens Thu 2PM UTC (Fri 8AM CST)
+
+{{ site.stars.four }}
+
+Coinigy is an advanced cloud-based crypto trading platform. It is designed for trade execution directly from the interface which makes it currently the best tool available for altcoin arbers. Coinigy also collects and sells historical market data for algo backtesting.
+
+Through Black Friday 2018, Coinigy will be offering discounts **up to 75% on annual account subscriptions** beginning at 8am CST on Friday, November 23rd.
+
+<a rel="nofollow" class="button" href="https://www.coinigy.com/?r=4bee056c">Start with Coinigy 30 day free trial</a>
+
 #### TradingView Black Friday Deal - LIVE, 60% off
 
 {{ site.stars.five }}
@@ -41,7 +51,7 @@ The PRO TradingView subscription with BlackFriday deal costs monthly the same ra
 
 <a href="http://bit.ly/atnet-tv" class="button" rel="nofollow">See what each TradingView plan includes</a>
 
-#### TensorCharts 50% OFF on Premium plans
+#### TensorCharts Black Friday Deal 50% OFF - OPEN Fri 00:00 UTC
 
 TensorCharts is an advanced charting platform focusing on crypto exclusively. It features orderbook heatmap, counters ratios, scripting any many more tools that are hard to wrap your head around but actually give you trading edge.
 
@@ -58,7 +68,8 @@ If you want to learn what TensorCharts are all about, read our [intro here](/ten
 
 The full pricing structure of TensorCharts [here](https://docs.tensorcharts.com/paid-plans-v01/).
 
-#### Ledger Nano S Early Bird offers - NEW OFFER Nov 16 - Nov 21!
+
+#### Ledger Nano S Black Friday Deal
 
 {{ site.ledger_color }}
 
@@ -208,4 +219,4 @@ Coinigy doesn't charge any additional fee for executing trades via the platform.
 
 The subscription plans prices differ based on the length of your subscription but on Black Friday, you can get a lifetime plan for as little as 3 USD a month. That's pretty much for free, and you get great charting engine, the possibility to trade on multiple exchanges from a single interface and notifications about new markets going live.
 
-<a rel="nofollow" class="button" href="https://www.coinigy.com/pricing/?r=3599c6f9 ">See Coinigy plan pricing</a>
+<a rel="nofollow" class="button" href="https://www.coinigy.com/?r=4bee056c">See Coinigy plan pricing</a>
