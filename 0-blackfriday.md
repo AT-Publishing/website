@@ -1,7 +1,7 @@
 ---
 layout: marketing
 
-published: true
+published: false
 
 title: "Black Friday Deals 2018 for Crypto Traders"
 description: "Black Friday Deals for cryptocurrency traders and hodlers - premium charting apps and hardware wallets on discount."
