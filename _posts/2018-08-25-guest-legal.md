@@ -5,7 +5,7 @@ guest: true
 
 date: 2018-08-27 15:35:00 +0700
 
-title: "How Blockchain Disrupts The Legal Industry: Introduction"
+title: "How Blockchain Disrupts The Legal Industry: A Primer"
 description: "Smart contracts, digital testaments and even marketplaces to trade whole discontinued startups are here."
 
 author: https://dealmeisters.com
