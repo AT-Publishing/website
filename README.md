@@ -23,102 +23,22 @@ ________________________
 
 /////
 
+### Overview of Smart Contract Platforms
 
-```
-<item>
-    <title><![CDATA[ Latest articles on {{ site.title | xml_escape }} ]]></title>
-    <description><![CDATA[ {% if site.strategy_callout %}{{ site.strategy_callout }}{% elsif site.security_callout%}{{ site.security_callout }}{% elsif site.series_callout%}{{ site.series_callout }}{% else%}For more long reads follow the #Cryptolounge on Medium.com/Cryptolounge{% endif %} ]]></description>
-    <media:content url="https://cdn-images-1.medium.com/max/1000/1*5qMcgRmoNVbUKJredX7CRQ.png" medium="image" />
-    <author><![CDATA[ info@altcointrading.net ]]></author>
-    <dc:creator><![CDATA[ JMT, jmt@altcointrading.net ]]></dc:creator>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <link>{{ "/" | prepend: site.baseurl  | prepend: site.url }}</link>
-    <content:encoded>
-      <![CDATA[ <img src="https://i.imgur.com/uMgLKmt.png"> ]]>
-      {% for post in site.posts limit:3 %}
-      <![CDATA[
-      <h4>{{ post.title | xml_escape }}</h4>
-      <p>
-        {{ post.description | xml_escape }}<br>
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-      </p>
-      ]]>
-      {% endfor %}
-      <![CDATA[ <img src="https://i.imgur.com/q9vaDf2.png"> ]]>
-      {% assign strat = site.strategy | sort:date | reverse %}
-      {% for post in strat limit:1 %}
-      <![CDATA[
-      <h4>{{ post.title | xml_escape }}</h4>
-      <p>
-        {{ post.description | xml_escape }}<br>
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-      </p>
-      ]]>
-      {% endfor %}
-      <![CDATA[ <img src="https://i.imgur.com/F1xX7ts.png"> ]]>
-      {% assign sec = site.security | sort:date | reverse %}
-      {% for post in sec limit:2 %}
-      <![CDATA[
-      <h4>{{ post.title | xml_escape }}</h4>
-      <p>
-        {{ post.description | xml_escape }}<br>
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-      </p>
-      ]]>
-      {% endfor %}
-      {% assign items = site.posts | sort:date | reverse %}
-      {% for post in items limit:2 %}
-      {% if post.note contains 'PSA' %}
-      <![CDATA[
-      <h4>PSA | {{ post.title | xml_escape }}</h4>
-      <p>
-        {{ post.description | xml_escape }}<br>
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-      </p>
-      ]]>
-      {% endif %}
-      {% endfor %}
-    </content:encoded>
-  </item>
-  <item>
-    <title><![CDATA[ Fresh Off The Press - Industry press releases published via {{ site.title | xml_escape }} this week ]]></title>
-    <description><![CDATA[ Follow hashtag #BusinessOfCrypto on Twitter ]]></description>
-    <media:content url="https://cdn-images-1.medium.com/max/800/1*HYTEgxhpZ6iItz2JJh76cw.png" medium="image" />
-    <author><![CDATA[ press@altcointrading.net ]]></author>
-    <dc:creator><![CDATA[ BusinessOfCrypto, @BOC__Official ]]></dc:creator>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <link>{{ "/press-releases/" | prepend: site.baseurl  | prepend: site.url }}</link>
-    <content:encoded>
-      {% for post in site.press reversed %}
-      {% assign daysToSec = 1209600 %}
-      {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
-      {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
-      {% if pageTime > endTime %}
-      <![CDATA[
-      <h4>{{ post.title | xml_escape }}</h4>
-      <p>
-        {{ post.description | xml_escape }}<br>
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">[Read it]</a><br>
-        - From {{ post.date | date_to_rfc822 }} by {{ post.author_name | xml_escape }}
-      </p>
-      ]]>
-      {% endif %}
-      {% endfor %}
-      {% for item in site.data.medium.payload.posts %}
-      {% if item.virtuals.subtitle contains "Press" %}
-      <![CDATA[
-      <h4>{{item.title}}</h4>
-      <p>{{ item.virtuals.subtitle }}</br>
-      <a href="{{item.uniqueSlug | prepend: 'https://medium.com/cryptolounge/' }}">[Read it]</a>
-      </p>
-      ]]>
-       {% endif %}
-      {% endfor %}
-    </content:encoded>
-  </item>
+| Platforms: | Contract language                                                             | Proof Of? | Established | Public Release | Token Creation | Smart Contracts | Transaction Per Second | Block Time | Coin in Circulation | Max Supply |
+|------------|-------------------------------------------------------------------------------|-----------|-------------|----------------|----------------|-----------------|------------------------|------------|---------------------|------------|
+| Aeternity  | "Sophia, Varna, Solidity"                                                     | PoW       | 2017        | 2018.12        | -              | ✓               | TBA                    | -          | 233M                | 273M       |
+| DFINITY    | "Ethereum compatible (aka Solidity, Serpent, etc.)"                           | -         | -           | -              | -              | ✓               | -                      | -          | -                   | -          |
+| Exonum     | Rust. Java bindings TBD                                                       | -         | -           | 2017.07        | -              | ✓               | -                      | -          | -                   | -          |
+| Neblio     | "REST-API, Python,JS, .NET(C# & VB.NET), Objective-C, Java, Node.js, GO, PHP" | PoS       | 2017.01     | 2017.07        | -              | ✓               | -                      | 30 second  | 13.7M               | 14.5M      |
+| Radix      | Scrypto                                                                       | -         | 2018        | -              | -              | ✓               | -                      | -          | -                   | -          |
+| NEO        | "1st batch: dotNet; 2nd: Java,Kotlin; 3rd: C,C++,GO,Py,JS (TBD)"              | PoS       | 2014.06     | 2016.1         | ✓              | ✓               | 10000                  | 15 second  | 65M                 | 100M       |
+| EOS        | C/C++ (compiles to WASM)                                                      | DPoS      | -           | 2017.06        | ✓              | ✓               | 5000                   | 0.5 second | 906M                | 1.006Bn    |
+| Tera       | Javascript                                                                    | PoW       | 2017        | 2018.07        | ✓              | ✓               | 1000                   | 1 second   | 270M                | 1Bn        |
+| Lisk       | Javascript                                                                    | PoS       | -           | -              | -              | ✓               | 400                    | 10 second  | 112M                | 127M       |
+| Qtum       | Solidity                                                                      | PoS       | 2016        | 2017.09        | -              | ✓               | 140                    | 2 minutes  | 89M                 | 101M       |
+| Byteball   | JSON                                                                          | -         | 2016.12     | 2016.12        | -              | ✓               | 20                     | -          | 662K                | 1M         |
+| Ethereum   | Solidity                                                                      | PoW       | 2014.04     | 2015.07        | ✓              | ✓               | 15                     | 14 second  | 100M                | ∞          |
+| Cardano    | Plutus (Haskell inspired)                                                     | PoS       | 2015        | 2017           | -              | ✓               | 10                     | 20 second  | 26Bn                | 31.1Bn     |
 
 ```
