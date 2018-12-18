@@ -312,6 +312,31 @@ layout="responsive">
 ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledgers_1030x80.png" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
 
 
+# xmas
+
+ledger_dec_728-90: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_728x90.jpg" alt="Ledger wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+ledger_dec_300-250: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_300x250.jpg" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+
+xmas1: '<div class="text-center">
+<a class="index-internal" target="_blank" href="/xmas/">
+<amp-img itemprop="image"
+src="/cta/xmas1.jpg"
+alt="Christmas deals 2018 for crypto traders"
+data-original-width="1024px"
+data-original-height="512px"
+width="300px" height="150px"
+layout="responsive">
+</amp-img></a></div><br>'
+
+# keepkey
+
+# generic http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423
+# btc http://keepkey.go2cloud.org/SHG1
+
+kk_bogo_lg: '<div class="containter-center"><a href="http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423&file_id=127" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/bogo.gif" alt="Keepkey bitcoin vault" data-original-width="1024px" data-original-height="512px" layout="responsive"></amp-img></a></div>'
+kk_728-90: '<div class="containter-center"><a href="http://keepkey.go2cloud.org/SHG1" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/kk_vault_728x90.png" alt="Keepkey wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+
+
 fucksense:
   banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
     type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad></div><div class="clearfix"></div>'
