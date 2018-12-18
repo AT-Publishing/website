@@ -57,6 +57,8 @@ There is no discount code or limitation to this offer. If you put two Keepkey wa
 
 **In total you are saving 129 USD with this deal.**
 
+<a rel="nofollow" href="http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423">Get your KeepKey Wallet</a>
+
 KeepKey supports Bitcoin, Ethereum, Litecoin, Dogecoin, Dash, and a bunch of ERC-20 tokens. You can pay with Bitcoin and also Paypal, in case you wanted to burn some fiat instead.
 
 {{ site.kk_728-90 }}
