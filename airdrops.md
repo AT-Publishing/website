@@ -20,7 +20,7 @@ newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum b
 </div>
 <hr>
 
-<h3 class="posh">Bounties & Airdrops List for November 2018</h3>
+<h3 class="posh">Current Bounties & Airdrops List 2018</h3>
 
 {% include thismonth-airdrops.html %}
 
