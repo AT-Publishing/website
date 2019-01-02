@@ -328,6 +328,19 @@ width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+# ledger
+
+ledger2019: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/atnet-ledger">
+<amp-img itemprop="image"
+src="/features/new-ledger.jpg"
+alt="New Ledger wallet for crypto traders"
+data-original-width="1024px"
+data-original-height="512px"
+width="300px" height="150px"
+layout="responsive">
+</amp-img></a></div><br>'
+
 # keepkey
 
 # generic http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423
