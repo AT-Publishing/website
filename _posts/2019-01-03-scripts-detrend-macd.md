@@ -43,13 +43,13 @@ related:
 
 ---
 
-If you don't have a TradingView account yet, [make a free one here](http://bit.ly/atnet-tv).
-
-### Detrended Price Oscillator Strategy by HPotter
-
 The feature of today's Script Spotlight is an older tool that is not groundbreaking or super sophisticated but it will make your chart reading faster.
 
 It is called The Detrended Price Oscillator and it is very similar to a simple moving average.
+
+If you don't have a TradingView account yet, [make a free one here](http://bit.ly/atnet-tv).
+
+### Detrended Price Oscillator Strategy by HPotter
 
 [Full script](https://www.tradingview.com/script/X2rInS57-Detrended-Price-Oscillator-Strategy/)
 
@@ -79,7 +79,6 @@ This is what the Detrended Price Oscillator, or DPO, looks like on a 1D BTCUSD c
 `barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )`
 
 {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
-
 
 #### Does it work?
 
