@@ -310,7 +310,14 @@ layout="responsive">
 
 
 ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledgers_1030x80.png" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
-
+lnx_300-600: '<div class="containter-center">
+<a href="http://bit.ly/ledger-nano-x" target="_blank">
+<amp-img itemprop="image" src="/ads/lnx-tall.jpg"
+alt="Ledger wallet Nano X"
+data-original-width="300px" data-original-height="600px"
+layout="responsive"
+width="300px" height="600px">
+</amp-img></a></div>'
 
 # xmas
 
@@ -335,6 +342,19 @@ ledger2019: '<div class="text-center">
 <amp-img itemprop="image"
 src="/features/new-ledger.jpg"
 alt="New Ledger wallet for crypto traders"
+data-original-width="1024px"
+data-original-height="512px"
+width="300px" height="150px"
+layout="responsive">
+</amp-img></a></div><br>'
+
+# http://bit.ly/hodlerscashback
+
+cashback: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/hodlerscashback">
+<amp-img itemprop="image"
+src="/cta/ledger-wallet-cashback.jpg"
+alt="Ledger wallet cashback"
 data-original-width="1024px"
 data-original-height="512px"
 width="300px" height="150px"

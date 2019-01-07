@@ -6,11 +6,8 @@ navi:
 <div class="container">
   <div class="row top">
         <div class="columns four">
-            {% include updates/recently_box.html %}
             <hr class="skinny">
-            {{ site.brave_xs }}
-            <hr class="skinny">
-            {{ site.deribit_xs }}
+            {{ site.lnx_300-600 }}
             <hr class="skinny">
         </div>
       {% for post in site.posts offset: 0 limit: 1 %}
@@ -27,6 +24,8 @@ navi:
             {% endfor %}{% endfor %}
           </ul>
           {% endif %}
+          {% include updates/recently_box.html %}
+
         </div>
       {% endfor %}
       {% for post in site.posts offset: 1 limit: 1 %}
@@ -35,6 +34,7 @@ navi:
           <div class="smallad">
              {% include home/smallad.html %}
           </div>
+          {{ site.cashback }}
         </div>
       {% endfor %}
   </div>
@@ -65,13 +65,13 @@ navi:
       <section>
         <hr>
         <div>
-          {{ site.ledger_dec_728-90 }}
+          {{ site.tv_728-90_static }}
         </div>
         <hr>
       </section>
 
       <div id="paginated-tradingblog">
-        <h2 class="tagged-as clear">More Trading Blog Articles</h2>
+        <h2 class="tagged-as clear">More Crypto Trading Blog Articles</h2>
       </div>
 
 
