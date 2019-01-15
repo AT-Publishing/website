@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Technical Analysis: Divergences (With a Graphic Cheatsheet)"
 description: "Divergence is a disagreement between price and an oscillating indicator. It is not strong enough an indicator to enter a position but it gives an idea of the state of the market."
 
