@@ -74,6 +74,7 @@ You are welcome to contact us per email with feedback, questions or offers. If y
 * Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
 * Teasers and CTAs: [canva](https://canva.com)
 * Icons: Google AMP default set
+* BitMEX & other exchange images with magnifying glass by [Marco Verch](https://www.flickr.com/photos/30478819@N08/44357666551) - Free to use and modify with attribution. Modified size.
 
 
 #### Privacy Policy **Last updated: May 22, 2018**

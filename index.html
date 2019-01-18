@@ -7,8 +7,10 @@ navi:
   <div class="row top">
         <div class="columns four">
             <hr class="skinny">
-            {{ site.lnx_300-600 }}
+            {{ site.mex_336x280 }}
             <hr class="skinny">
+            {% include updates/recently_box.html %}
+
         </div>
       {% for post in site.posts offset: 0 limit: 1 %}
         <div class="columns five">{% include home/columnupdates.html %}
@@ -24,7 +26,6 @@ navi:
             {% endfor %}{% endfor %}
           </ul>
           {% endif %}
-          {% include updates/recently_box.html %}
 
         </div>
       {% endfor %}

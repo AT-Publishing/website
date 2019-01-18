@@ -319,6 +319,15 @@ layout="responsive"
 width="300px" height="600px">
 </amp-img></a></div>'
 
+mex_336x280: '<div class="containter-center">
+<a href="http://bit.ly/melancholic-100x" target="_blank">
+<amp-img itemprop="image" src="/ads/bitmex-home_336x280.jpg"
+alt="Ledger wallet Nano X"
+data-original-width="336px" data-original-height="280px"
+layout="responsive"
+width="336px" height="280px">
+</amp-img></a></div>'
+
 # xmas
 
 ledger_dec_728-90: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_728x90.jpg" alt="Ledger wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
