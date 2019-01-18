@@ -310,6 +310,10 @@ layout="responsive">
 
 
 ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledgers_1030x80.png" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
+
+
+# tall-ish
+
 lnx_300-600: '<div class="containter-center">
 <a href="http://bit.ly/ledger-nano-x" target="_blank">
 <amp-img itemprop="image" src="/ads/lnx-tall.jpg"
@@ -322,11 +326,19 @@ width="300px" height="600px">
 mex_336x280: '<div class="containter-center">
 <a href="http://bit.ly/melancholic-100x" target="_blank">
 <amp-img itemprop="image" src="/ads/bitmex-home_336x280.jpg"
-alt="Ledger wallet Nano X"
+alt="BitMEX Melancholic 100x"
 data-original-width="336px" data-original-height="280px"
 layout="responsive"
 width="336px" height="280px">
 </amp-img></a></div>'
+
+
+# leaderboards
+
+advcash_728x90: '<div class="text-center"><a rel="nofollow" target="_blank"
+href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8"><amp-img itemprop="image"
+alt="Advcash eWallet and crypto"
+src="/ads/advcash_leader.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
 
 # xmas
 

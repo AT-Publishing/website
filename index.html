@@ -47,12 +47,20 @@ navi:
   <div class="row">
   <div class="eight columns">
 
-    <section id="popular-posts">
-      <!-- SLOT 1  -->
+    <section>
+      <hr>
+      <div>
+        {{ site.advcash_728x90 }}
+      </div>
+      <hr>
+    </section>
+
+
+    <!--<section id="popular-posts">
       {% include home/popular.html %}
     </section>
 
-    <!--<section>
+    <section>
       <h2 class="tagged-as clear">Recently Updated Articles</h2>
       {% include allupdates.html %}
     </section>-->
@@ -63,13 +71,6 @@ navi:
         {% include home/pressblock.html %}
       </section>
 
-      <section>
-        <hr>
-        <div>
-          {{ site.tv_728-90_static }}
-        </div>
-        <hr>
-      </section>
 
       <div id="paginated-tradingblog">
         <h2 class="tagged-as clear">More Crypto Trading Blog Articles</h2>
