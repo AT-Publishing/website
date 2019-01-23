@@ -4,23 +4,20 @@ navi:
  exclude: yes
 ---
 <div class="container">
-  <amp-ad
-    width="100vw"
-    height=320
-    type="adsense"
-    data-ad-client="ca-pub-6979812205705127"
-    data-ad-slot="3899849239"
-    data-auto-format="fluid"
-    data-ad-layout-key="-6h+dy+3u-e2-3o">
-      <div overflow></div>
-  </amp-ad>
+
   <div class="row top">
         <div class="columns four">
             <hr class="skinny">
             {{ site.mex_336x280 }}
             <hr class="skinny">
             {% include updates/recently_box.html %}
-
+            <amp-ad type="adsense"
+              data-ad-client="ca-pub-6979812205705127"
+              data-ad-slot="3899849239"
+              data-auto-format="fluid"
+              data-ad-layout-key="-6h+dy+3u-e2-3o">
+                <div overflow></div>
+            </amp-ad>
         </div>
       {% for post in site.posts offset: 0 limit: 1 %}
         <div class="columns five">{% include home/columnupdates.html %}

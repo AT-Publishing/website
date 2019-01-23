@@ -253,7 +253,7 @@ ads:
   alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px"
   data-original-height="90px" layout="responsive" width="728px" height="90px">
   </amp-img></a></div>'
-  acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
+  acash: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash.png" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="728px" data-original-height="92px" layout="responsive" width="728px" height="92px"></amp-img></a></div>'
   acashgreen: '<div class="containter-center"><a href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/img/vcc/acash_green.jpeg" alt="AdvCash Bitcoin Virtual Credit Card" data-original-width="336px" data-original-height="300px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
   feeds: '<a class="button" target="_blank" href="http://feeds.specificfeeds.com/altcointrading">YES, ALERT ME ON NEWS</a>'
   aads728: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
@@ -335,15 +335,14 @@ width="336px" height="280px">
 
 # leaderboards
 
-advcash_728x90: '<div class="text-center"><a rel="nofollow" target="_blank"
-href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8"><amp-img itemprop="image"
-alt="Advcash eWallet and crypto"
-src="/ads/advcash_leader.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
+advcash_728x90: '<div class="text-center"><a rel="nofollow" target="_blank" href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8"><amp-img itemprop="image" alt="Advcash eWallet and crypto" src="/ads/advcash_leader.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
 
 # xmas
 
 ledger_dec_728-90: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_728x90.jpg" alt="Ledger wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 ledger_dec_300-250: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_300x250.jpg" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+
+### CTAs to deal pages
 
 xmas1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/xmas/">
