@@ -15,7 +15,7 @@ title: "Samourai Wallet has released an update that contributes heaps to Bitcoin
 description: "The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan."
 
 author: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet#about-the-author'
-author_name: KarlVonBahnhof
+author_name: 'Chris at The Business Of Crypto'
 author_twitter: "_Karlvonbahnhof"
 
 editor_name: Diana Trang
