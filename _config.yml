@@ -381,6 +381,11 @@ width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+# chinese new yaear 1025x512
+
+cny2019: '<div class="text-center"><a class="index-internal" target="_blank" href="https://twitter.com/boc__official"><amp-img itemprop="image" src="/cta/chinesenewyear2019.jpg" alt="#chinesenewyear2019" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div><br>'
+
+
 # keepkey
 
 # generic http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423
