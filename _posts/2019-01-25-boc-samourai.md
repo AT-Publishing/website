@@ -9,7 +9,7 @@ stories: true
 genres: Blog
 tickers: true
 
-date: 2019-01-25 11:04:00 +0700
+date: 2019-01-25 01:04:00 +0700
 
 title: "Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"
 description: "The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan."
