@@ -40,6 +40,7 @@ chart: []
 series: "storage"
 
 related:
+- {"[Updated 25 Jan 2019] Guide to storing IOTA - and how to migrate from Light Wallet to Trinity": "/security/iota"}
 - {"Tried and True Tools, Crypto Hodler's Edition (Security & Scam Detection)": "/security/tools"}
 - {"Trading Strategy - On Market Reversals and Psychology": "/strategy/reversals/"}
 - {"Etheremon's first bounty for the Chinese New year 2019": "https://www.thebusinessofcrypto.com/intelligence/etheremons-chinese-new-year-2019-1/"}
