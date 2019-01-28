@@ -22,6 +22,8 @@ newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum b
 
 <h3 class="posh">Current Bounties & Airdrops List 2018</h3>
 
+<p>Newly added airdrops are at the top.</p>
+
 {% include thismonth-airdrops.html %}
 
 <a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>

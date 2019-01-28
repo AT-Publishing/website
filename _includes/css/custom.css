@@ -189,3 +189,39 @@ h5.post small,.top2 figure,
     color: #03203f;
     padding: 20px 0 0;
 }
+
+
+#airdrops-home tr {
+  display: none;
+  border-bottom: 1px solid #001f3f;
+  border-top: 1px solid #001f3f;
+}
+#airdrops-home tr:nth-of-type(2),
+#airdrops-home tr:nth-of-type(3),
+#airdrops-home tr:nth-of-type(4){
+  display: table-row;
+}
+#airdrops-home td {
+  padding: 5px;
+  font-size: 70%;
+  border: none;
+}
+#airdrops-home td:nth-of-type(1),
+#airdrops-home td:nth-of-type(2),
+#airdrops-home td:nth-of-type(4),
+#airdrops-home td:nth-of-type(5),
+#airdrops-home td:nth-of-type(6),
+#airdrops-home td:nth-of-type(7) {
+  display: block;
+  min-width: 130px;
+  max-width: 100%;
+  font-weight: 800;
+  color: #001f3f;
+}
+#airdrops-home td:nth-of-type(1) {
+  text-transform: uppercase;
+    font-size: 90%;
+}
+#airdrops-home td:nth-of-type(3) {
+  max-width: 100%;
+}
