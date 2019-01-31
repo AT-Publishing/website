@@ -48,32 +48,20 @@ navi:
   <div class="row">
   <div class="eight columns">
 
-    <section>
-      <span class="note">Last added to Crypto Airdrops, Bounties & Opportunities</span>
-      <div id="airdrops-home">
-        {% include thismonth-airdrops.html %}
-      </div>
-    </section>
+    {% include home/airdrops.html %}
 
     <section>
       <div>
         {{ site.advcash_728x90 }}
       </div>
     </section>
-
-
     <section id="new-posts">
-
       <section class="atnet-home-pressblock">
         {% include home/pressblock.html %}
       </section>
-
-
       <div id="paginated-tradingblog">
         <h2 class="tagged-as clear">More Crypto Trading Blog Articles</h2>
       </div>
-
-
       <!-- Pagination links -->
       <div class="pagination">
         {% if paginator.previous_page %}
