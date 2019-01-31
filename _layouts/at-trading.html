@@ -26,7 +26,7 @@ layout: default-news
               data-full-width>
                 <div overflow></div>
             </amp-ad>
-            {% include home/airdrops.html %}
+
             <div class="columns twelve strategy-hook">
               <blockquote cite="{{ page.url | prepend: site.url }}">
                 {% if page.hook %}
@@ -51,6 +51,8 @@ layout: default-news
 
             </p>
             <hr>
+
+            {% include home/airdrops.html %}
 
             {% include article/strategy-callout.html %}
 
