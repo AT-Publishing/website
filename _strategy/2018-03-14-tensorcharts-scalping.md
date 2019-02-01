@@ -6,7 +6,7 @@ comments: true
 identifier: tensorchartsmar142018
 
 layout: strategy
-title: "Scalping"
+title: "Scalping Crypto"
 description: "Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts."
 note: 'Strategy'
 
@@ -36,14 +36,14 @@ author_twitter: "@tradingfanbois"
 The year 2017 was the year to buy your crypto in January and hold. Then, maybe, if you felt like it, to [spot a range](/strategy/wyckoff-ranging-markets) and sell the right bounce to rebuy lower and carry on the Mr Bones' wild ride. But all things come to an end. In 2018, the first most obvious thing cryptofolks noticed is that everyone's long-term stacks keep losing their dollar value.
 
 <section class="sidebar-nl container-center">
-<h4>Scalping Strategy PDF</h4>
-<p>Too long to read now? Save it for offline - download this scalping strategy article as a PDF. No risk of eye cancer from its design either.</p>
-<p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF from Keybase</b></a></p>
+<h4>Cryptocurrency trading strategy: Scalping Crypto with Tensorcharts (PDF)</h4>
+<p>Too long to read now? Download this crypto trading strategy as a PDF from Keybase. (No risk of eye cancer from its design either.)</p>
+<p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET Crypto Scalping Guide"><b>Download PDF from Keybase</b></a></p>
 </section>
 
 <p>&nbsp;</p>
 
-## About Scalping
+## About (not just crypto) Scalping
 
 What is scalping?
 
@@ -52,7 +52,7 @@ What is scalping?
 Scalping requires a 5M or shorter timeframe chart with indicators that work well for you there (oscillators such as StochRSI tend to be good), stable exchange or API that will not freeze on you and definitely, definitely a reliable stop loss. In a trading strategy where you collect a lot of small profits from a big number of trades [losers need to be cut quickly with a discipline](https://www.thebalance.com/introduction-to-scalping-1031052) as a single large loss could wipe out what you felt was a hard work, putting you psychologically in a bad place.
 
 
-##### Why scalping matters
+##### Why scalping crypto matters
 
 Judging [from Google Trends](/strat/scalping/googletrends-cryptotrading.png), a lot of new people got into cryptocurrencies as they started hearing about the Bitcoin doubling...tripling...you what, 10k?...and so on. Another crop, smaller still, came at the start of the Bitcoin's bull run in late 2016.
 
@@ -68,7 +68,7 @@ There is still money on the table, why not collect it then?
 
 
 
-## Your scalping tool
+## Your cryptocurrency scalping tool
 
 
 <div>
@@ -78,9 +78,11 @@ There is still money on the table, why not collect it then?
 
 > The anatomy of the candle has a lot more information than the simple information of OHCL. OHCL and colour of the candle only gives you the very superficial average information.
 
-To this day your best tool of choice for any short-term crypto trades are [TensorCharts](https://tensorcharts.com), hands down. The information you get when watching TensorCharts is far more complete than the thinned-down, averaged-out information one can get from the standard candlesticks charts.
+To this day your best tool of choice for any short-term crypto trades are [TensorCharts](http://bit.ly/dont-be-an-amateur), hands down. The information you get when watching TensorCharts is far more complete than the thinned-down, averaged-out information one can get from the standard candlesticks charts.
 
-<p><a target="_blank" rel="noopener" class="button" href="https://tensorcharts.com">Go to TensorCharts</a></p>
+Particularly if you landed here for a **BitMEX scalping strategy**, TensorCharts is your tool of choice because the dev is focusing mainly on traders like you who trade perps and futures.
+
+<p><a target="_blank" rel="noopener" class="button" href="http://bit.ly/dont-be-an-amateur">Go to TensorCharts</a></p>
 
 Here is a brief [intro to the TensorCharts project](/tensorcharts), but if you are looking more into learning what TensorCharts are and what can they do for you, this Argentinian gentleman called Nico made a series of tutorials [on the Learning Nodes YouTube channel](https://www.youtube.com/channel/UCvoU3qw-qRydTI--GGlIz9w). The videos were shot in March 2018 so you will get to learn about the latest version of TensorCharts updated with a bunch of new markets and functionalities.
 
@@ -188,6 +190,6 @@ ________________________
 
 This article features *TensorCharts tutorials* made by Nico of [LearningNodes](http://www.learningnodes.com). Go show him some love on [Facebook](https://www.facebook.com/LearningNodes/) or [Twitter](https://twitter.com/NicoIzco) and [subscribe to his channel on YouTube](https://www.youtube.com/channel/UCvoU3qw-qRydTI--GGlIz9w) for more crypto trading tutorials.
 
-And once again - you can find the [TensorCharts web app right here](https://tensorcharts.com). Not a sponsored post, TensorCharts genuinely rock.
+And once again - you can find the [TensorCharts web app right here](http://bit.ly/dont-be-an-amateur). Not a sponsored post, TensorCharts genuinely rock.
 
 ________________________
