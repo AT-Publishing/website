@@ -1,7 +1,7 @@
 ---
 layout: at-trading
-title: "Technical Analysis: Divergences (With a Graphic Cheatsheet)"
-description: "Divergence is a disagreement between price and an oscillating indicator. It is not strong enough an indicator to enter a position but it gives an idea of the state of the market."
+title: "Technical Analysis: Divergences (With a Divergence Cheat Sheet)"
+description: "Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market."
 
 permalink: divergences/
 german: false
@@ -15,7 +15,7 @@ image:
 - "/features/2018/divs/price-bbands.png"
 
 image_alt:
-- "Divergences between lows or highs on the price action and the MACD can provide valuable signals."
+- "Divergences between lows or highs on the price action and the MACD or RSI can provide valuable signals."
 
 comments: true
 identifier: 'divsfeb18'
@@ -49,7 +49,7 @@ These divergences signify prevailing momentum in the market. Depending on the ty
 
 **Divergences in short**
 
-Divergences are either regular, hidden and exaggerated.
+We distinguish *regular divergence*, *hidden divergence* and *exaggerated divergence*.
 
 *Regular Divergence* is a sign of trend reversal. Price keeps the trend but indicator already shows the reversal.
 
@@ -65,27 +65,27 @@ Divergences are either regular, hidden and exaggerated.
 
 {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
 
-#### Divergences only show there is a level for possible entry
+#### Divergences only show a level where to wait for entry signal
 
 The logic behind divergences is that sometimes the indicators shows hidden tendencies of the market (strength or weakness) that might not be visible from the price action yet.
 
 However, this is not a sharp enough indication to signal the actual entry. It gives the idea about the direction you should be looking for when looking for an entry on that timeframe but you will need to dig deeper and switch to shorter timeframes to find a plausible place for your entry.
 
-#### Examples of divergences with different indicators
+#### Examples of MACD divergence, RSI divergence and %bb divergence
 
-**Price vs MACD, standard settings**
+**Price vs MACD Divergence, standard settings**
 
 This is a regular bullish divergence on an old ETHUSD chart.
 
 {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
 
-**Price vs StochRSI**
+**Price vs StochRSI Divergence**
 
 This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish divergence, the momentum is set to continue the bearish trend.
 
 {% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
 
-**Price vs %b, 21 periods, stdev 3**
+**Price vs %b Divergence, BBands 21 periods - stdev 3**
 
 Divergence with %b is a more precise way to observe whether new extremes of the price action are closer to or farther from the bollinger band's boundaries. There is a more reliable version of the *double bottom* formation on the bbands: price makes a new low but that now is not a new low relatively to the bbands. That is to say, the first low is below the lower bband and the second low is a lower low in absolute terms (the price) but also either on or above the lower bband - [video on bbands explaining that in this article](/technical-analysis/).
 
@@ -95,9 +95,9 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 
-## Divergences Cheatsheets
+## Divergences Cheat Sheets
 
-* [Comprehensive divs cheatsheet with explanations](https://i.imgur.com/5SnaDpt.png)
+* [Comprehensive Divergences Cheat-sheet](https://i.imgur.com/5SnaDpt.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
 
 <amp-img itemprop="image" alt="Altcoin Trading - TA Divergences Cheatsheet"
  src="https://i.imgur.com/5SnaDpt.png" layout="responsive"
@@ -111,7 +111,7 @@ width="750px" height="1792px"></amp-img>
  data-original-width="652px" data-original-height="965px"
 width="652px" height="965px"></amp-img>
 
-#### TA Divergences Explanation from Youtube
+#### Crypto Divergences Explained by Josh Olszewicz
 
 Josh Olszewicz did a Youtube series called *Better know an indicator* which included a good video on divergences. Other videos from the same series included the intro to [Ichimoku cloud for crypto traders](/ichimoku-cloud/).
 
@@ -124,13 +124,13 @@ Josh Olszewicz did a Youtube series called *Better know an indicator* which incl
 <br>
 
 
-#### Other Resources
+#### Resources To Learn More About Price/Oscillator Divergences
 
 
 * ”dukascopy.com / Do you know everything about divergences?”
 
 <a href="https://www.dukascopy.com/fxcomm/fx-article-contest/?Do-You-Know-Everything-About=&action=read&id=890" class="button">Divs on dukascopy.com</a>
 
-* ”babypips.com / Divergence cheat sheet”
+* ”babypips.com / Trading Divergences”
 
-<a href="http://www.babypips.com/school/high-school/trading-divergences/divergence-cheat-sheet.html" class="button">Cheatsheet on babypips.com</a>
+<a href="http://www.babypips.com/school/high-school/trading-divergences" class="button">Trading Divergences</a>
