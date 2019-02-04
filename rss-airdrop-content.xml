@@ -21,7 +21,7 @@ navi:
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
       <item>
-        <title>All Airdrops This Month</title>
+        <title>All LIVE or soon launching Airdrops and Bounties</title>
         <description>
           <![CDATA[
             {% include thismonth-airdrops.html %}
