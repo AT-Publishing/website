@@ -26,7 +26,7 @@
     {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
     {% if pageTime > endTime %}
     <li class="popular-item">
-      <a class="index-internal" href="{{site.baseurl}}{{ node.url }}" title="Updated - {{ node.title }}"><b>{{ node.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #SECURITY</a>
+      <a class="index-internal" href="{{site.baseurl}}{{ node.url }}" title="Updated - {{ node.title }}"><b>{{ node.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #TradingStrategy</a>
     </li>
     {% endif %}
 {% endfor %}
