@@ -34,7 +34,7 @@ This is our list of verified cryptocurrency airdrops, published in two sections:
 
 Occasionally, you'll see here not only token airdrops and bounties but also special events that happen mainly in the dApp gaming world.
 
-During festive seasons, [blockchain game outfits](https://www.etheremon.com?code=59f6613) organize special bounty hunts where users can gain rare in-game assets or collectibles that can be later auctioned on OpenSea or elsewhere.
+During festive seasons, [blockchain game outfits](https://www.etheremon.com?code=59f6613) organize special bounty hunts where users can gain rare in-game assets or collectibles that can be later auctioned on [OpenSea](https://opensea.io/assets/0x5d00d312e171be5342067c09bae883f9bcb2003b/49697?ref=0x59fe457281b54040eeed87a0b23bc41fdd3c9595) or other marketplace for rare digital items.
 
 When we find an interesting newly launching coin that offers a good mining or staking opportunity at that early stage, we might mention it here as well.
 
@@ -49,17 +49,6 @@ We do our best to hand-pick and verify all the information about airdrops and fo
 There is not enough space in the table to expand on the warning, you will get better information from our [Medium page "CryptoLounge"](https://medium.com/cryptolounge) where the [airdrops are republished](https://medium.com/cryptolounge/airdrops/home).
 
 However, we still cannot guarantee anything. You should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
-
-
-> Airdrop Archive
-
-We archive all airdrops published on altcointrading.net, if we ever promoted a scam anyone will be able to call us out.
-
-**Interested in publishing your airdrop?** Head to our [contact page](/contact/).
-
-<a href="/airdrop-archive/" class="button">Archive of Past Airdrops</a>
-
-<div class="clearfix"></div>
 
 
 ## General Crypto Airdrops FAQ
@@ -99,3 +88,13 @@ If it is required to install a specific client to receive airdropped tokens, it 
 
 
 {% include nextmonth-airdrops.html %}
+
+> Airdrop Archive
+
+We archive all airdrops published on altcointrading.net, if we ever promoted a scam anyone will be able to call us out.
+
+**Interested in publishing your airdrop?** Head to our [contact page](/contact/).
+
+<a href="/airdrop-archive/" class="button">Archive of Past Airdrops</a>
+
+<div class="clearfix"></div>
