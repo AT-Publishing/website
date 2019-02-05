@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-airdrops
 image: ["/editorial/tagged/atnet-office.png"]
 
 permalink: /airdrops/
@@ -15,47 +15,54 @@ newlyadded: "Added 1 new easy crypto airdrop and a Strategy post about Fulcrum b
 
 ---
 
-<div>
-{{ site.tv_728-90_animated }}
-</div>
-<hr>
+**Go to:&nbsp;[UPCOMING Airdrops](#upcoming) or [RECURRING Airdrops](#recurring)**
 
-<h3 class="posh">Current Bounties & Airdrops List 2018</h3>
-
-<p>Newly added airdrops are at the top.</p>
+Newly added airdrops are at the top.
 
 {% include thismonth-airdrops.html %}
 
-<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
+## About Crypto Airdrops Published Through AltcoinTrading.NET
 
-<section class="sidebar-nl container-center">
-<h5>AltcoinTrading.NET Verified Airdrops</h5>
-<p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
-<p>We tweet drops at <a class="intern" href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and also post them to <a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a>.</p>
-<p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
-</section>
+> Upcoming Crypto Airdrops in 2019
 
-<h3 class="posh">Regular Airdrops - Daily, Weekly, Biweekly</h3>
+This is our list of verified cryptocurrency airdrops, published in two sections:
 
-{% include nextmonth-airdrops.html %}
+* [Top table - UPCOMING](#upcoming): Airdrops that are live or going live in the days to come. Newly added airdrops come to the top of the table.
+* [Bottom table - RECURRING](#recurring): Regular airdrops and bounties - campaigns that keep repeating weekly or monthly. When the time for the next round comes though, we'll bump the event to the top table as well.
 
+### Crypto Bounties, Special Events, Collectibles and Early Opportunities
 
+Occasionally, you'll see here not only token airdrops and bounties but also special events that happen mainly in the dApp gaming world.
 
-> Crypto airdrops 2018, month by month
+During festive seasons, [blockchain game outfits](https://www.etheremon.com?code=59f6613) organize special bounty hunts where users can gain rare in-game assets or collectibles that can be later auctioned on OpenSea or elsewhere.
 
-This is our section for cryptocurrency airdrops, published in sections month by month with all the data you need to participate. We do our best to hand-pick and verify all the information about airdrops and forks that we get. When something looks slightly fishy, we won't publish it. However, you should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
+When we find an interesting newly launching coin that offers a good mining or staking opportunity at that early stage, we might mention it here as well.
+
+### Are Crypto Airdrops Safe?
+
+We do our best to hand-pick and verify all the information about airdrops and forks that we get.
+
+* When a project looks slightly fishy, we won't publish it.
+* When you need to submit your documents to receive an airdrop, we'll warn about it: It is likely someone is just fishing for ID scans to sell them.
+* Likewise, when you need to install extra software to get the airdrop, we'll warn. The code can carry anything.
+
+There is not enough space in the table to expand on the warning, you will get better information from our [Medium page "CryptoLounge"](https://medium.com/cryptolounge) where the [airdrops are republished](https://medium.com/cryptolounge/airdrops/home).
+
+However, we still cannot guarantee anything. You should still be careful when claiming coins. The information published here comes without any guarantees from us, you are responsible for your own security.
 
 
 > Airdrop Archive
 
-We archive all airdrops published on altcointrading.net, if we ever promoted a scam anyone will be able to call us out. **Interested in publishing your airdrop?** Head to our [contact page](/contact/).
+We archive all airdrops published on altcointrading.net, if we ever promoted a scam anyone will be able to call us out.
+
+**Interested in publishing your airdrop?** Head to our [contact page](/contact/).
 
 <a href="/airdrop-archive/" class="button">Archive of Past Airdrops</a>
 
 <div class="clearfix"></div>
 
 
-## Crypto Airdrops FAQ
+## General Crypto Airdrops FAQ
 
 ### What are cryptocurrency airdrops?
 
@@ -69,14 +76,26 @@ From a user's point of view, in an airdrop every participant who meets the condi
 
 More technically, airdropped tokens often live on the Neo or Ethereum blockchain, therefore the tokens can be stored in a Neo or Ethereum wallet respectively. In a fork, a new blockchain is created that has the same history as the legacy chain up to the time of the fork. That is why forked blockchains need their own wallets.  
 
-### What are token giveaways?
+### What are cryptocurrency token giveaways, contests and bounties?
 
-In a token giveaway only a small number of participants is drawn and receives the free tokens. Contrary to that in an airdrop every participant receives the free tokens.
+In a **token giveaway** only a small number of participants is randomly drawn and receives the free tokens.
 
-### Are there some risks to participating in airdrops?
+* Contrary to that, in an airdrop *every* participant receives the free tokens.
+
+In a **contest**, users submit some form of work (often design work) but the team only rewards the selected best work.
+
+* Contrary to that, in a bounty *every* approved work receives the tokens.
+
+
+
+### What are the risks to participating in cryptocurrency airdrops or bounties?
 
 Airdrops and giveaways are not directly risky as long as the user does not need to install new software to access the tokens. Even so, by [signing up and giving away their email address](/security/email-reuse) users are opening themselves to a range of phishing attacks and attempts to hack their cryptocurrency exchange and web wallet accounts.
 
 Cryptocurrency forks are directly risky because to access the forked coins one needs to import private keys into a third party wallet. Therefore [it is recommended to move the legacy chain coins out to a newly generated legacy wallet](https://electrum.org/bcc2.txt) before importing the private keys to the forked chain's software.
 
 If it is required to install a specific client to receive airdropped tokens, it is safer to do it on a device that does not have the legacy chain's wallet. It is [only somewhat safe-ish to install the new wallet on a virtual machine](/security/virtualbox).
+
+
+
+{% include nextmonth-airdrops.html %}
