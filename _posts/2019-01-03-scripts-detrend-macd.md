@@ -47,7 +47,9 @@ The feature of today's Script Spotlight is an older tool that is not groundbreak
 
 It is called The Detrended Price Oscillator and it is very similar to a simple moving average.
 
-If you don't have a TradingView account yet, [make a free one here](http://bit.ly/atnet-tv).
+If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv).
+
+If you care for high leveraged trading, you're probably looking for [BitMEX](http://bit.ly/melancholic-100x) as well, keep your cool though.
 
 ### Detrended Price Oscillator Strategy by HPotter
 

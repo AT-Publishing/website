@@ -61,6 +61,8 @@ Just in case you are entirely new to the concept of cryptocurrencies, these refe
 * Volatility – some financial traders like price volatility, but some might say that cryptocurrencies are too volatile and represent an almighty challenge when finding suitable entry and exit points.
 * Uncertain market sentiment – although cryptos were on an uptrend in 2017, they have certainly been on [a downtrend](https://www.trustnodes.com/2018/11/29/downtrend-has-faded-out-says-this-weeks-crypto-technical-analysis) in 2018. It’s hard to know where they’ll head next.
 
+*If you care for high leveraged crypto trading, you're probably looking for [BitMEX](http://bit.ly/melancholic-100x) as well, keep your cool though.*
+
 ## The pros and cons of forex trading
 
 Trading fiat currencies has been a lucrative proposition for investors that know the right time to enter and exit the markets. However, there are several pitfalls too which we’ll explore below.

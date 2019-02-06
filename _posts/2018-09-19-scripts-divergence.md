@@ -15,8 +15,8 @@ author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
 
-comments: true
-identifier: 'ethmonsep18'
+comments: false
+identifier: 'ss0918'
 
 genres: Blog
 tickers: false
@@ -40,16 +40,15 @@ chart: []
 
 series: ScriptSpotlight
 pinned: no
-#canonical: "https://www.thebusinessofcrypto.com/articles/etheremon-kyber-network/"
 
 related:
-- {"Crypto Scalping with TensorCharts": "/strategy/scalping/"}
-- {"Technical Analysis: Divergences (With a Graphic Cheatsheet)": "/divergences/"}
-- {"Database of Blockchain Gaming Startups at The Business Of Crypto": "/blockchain-tech-companies/"}
+- {"Scalping Crypto with TensorCharts and BitMEX": "/strategy/scalping/"}
+- {"Ichimoku Cloud Crypto Settings & Learning Resources": "/ichimoku-cloud/"}
+- {"Technical Analysis - Advanced Divergence Cheatsheet": "/divergences/"}
 
 ---
 
-If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv).
+*If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv). If you care for high leveraged trading, you're probably looking for [BitMEX](http://bit.ly/melancholic-100x) as well, keep your cool though.*
 
 ### PPO Divergence Alerts (PPOD)
 
