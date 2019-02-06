@@ -2,7 +2,7 @@
 published: true
 
 layout: strategy
-title: "Wyckoff method and trading ranging markets"
+title: "Wyckoff trading method and ranging markets"
 description: "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
 
 tags:
@@ -39,7 +39,7 @@ author_name: "KarlVonBahnhof"
 
 ---
 
-Wyckoff method in cryptocurrency trading has been made popular among serious traders mainly thanks to John Bollinger who is such a great help to the trading community. In his [twitter feed, he regularly explains how to combine the Wyckoff method with the Bollinger bands](https://twitter.com/bbands/status/920763449742970880), which are his invention.
+Richard Wyckoff's method has been made popular among serious cryptocurrency traders mainly thanks to John Bollinger who is such a great help to the trading community. In his [twitter feed, he regularly explains how to combine the Wyckoff method with the Bollinger bands](https://twitter.com/bbands/status/920763449742970880), which are his invention.
 
 > Wyckoff and BBands in crypto is not an arbitrary Tits&Ass magic combo: cryptocurrencies trade in pairs and show the typical pair behavior. Trading pairs with Bollinger bands give you an edge.
 
@@ -74,9 +74,11 @@ The re-acummulation looks very much like the distribution, from the high-level p
 
 Let's look into the ways you can tell one from another.
 
-#### Differences between Wyckoff distribution and reaccumulation
+#### Wyckoff distribution vs Wyckoff reaccumulation
 
-Richard Wyckoff considered the basic principles of supply and demand and applied them to the markets.
+Telling the difference between Wyckoff distribution and Wyckoff reaccumulation boils down to the basics. While these hard fundamentals do not mean much in fiat-based markets, by the logic of the matter they should apply better in crypto.
+
+Richard Wyckoff considered the basic principles of supply and demand and applied them to the markets when he developed his trading method.
 
 > Excess supply leads to decrease in price, excess demand leads to price increase -- plus, if there is effort, in the markets the result must be proportional to it. The volume and the price change must be in harmony.
 
