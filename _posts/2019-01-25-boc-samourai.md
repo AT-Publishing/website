@@ -2,7 +2,7 @@
 layout: at-trading
 published: true
 guest: false
-pinned: yes
+pinned: no
 canonical: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
 
 stories: true

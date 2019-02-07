@@ -5,7 +5,7 @@ guest: false
 sponsored: false
 stories: true
 series: ScriptSpotlight
-pinned: no
+pinned: yes
 
 date: 2019-01-03 12:14:00 +0700
 
