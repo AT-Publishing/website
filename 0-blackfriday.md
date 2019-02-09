@@ -1,7 +1,7 @@
 ---
 layout: marketing
 
-published: false
+published: true
 
 title: "Black Friday Deals 2018 for Crypto Traders"
 description: "Black Friday Deals for cryptocurrency traders and hodlers - premium charting apps and hardware wallets on discount."
@@ -12,6 +12,8 @@ image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/led
 author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
+
+Black Friday 2018 is over, but you can catch a glimpse of what kind of offers we got to get ready for next year.
 
 **Black Friday 2018 / Cyber Monday 2018: Friday 23 November and Monday 26 November 2018**
 
