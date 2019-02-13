@@ -174,13 +174,13 @@ compress_html:
 ref:
   kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
   binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
-  bitfinex: '<a rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
-  ledger: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a>&nbsp;'
-  trezor: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor">Trezor</a>&nbsp;'
-  tradingview: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a>&nbsp;'
-  bitmex: '<a rel="nofollow" target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
+  bitfinex: '<a target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
+  ledger: '<a target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a>&nbsp;'
+  trezor: '<a target="_blank" href="http://bit.ly/atnet-trezor">Trezor</a>&nbsp;'
+  tradingview: '<a target="_blank" href="http://bit.ly/atnet-tv">TradingView</a>&nbsp;'
+  bitmex: '<a target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
   coinmama: '<a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>&nbsp;'
-  coinbase: '<a rel="nofollow" target="_blank" href="http://bit.ly/bumfuck-exchange-for-plebs">Coinbase</a>&nbsp;'
+  coinbase: '<a target="_blank" href="http://bit.ly/con-base">Coinbase</a>&nbsp;'
 
 # image ads
 ads:
