@@ -177,7 +177,7 @@ ref:
   bitfinex: '<a target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
   ledger: '<a target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a>&nbsp;'
   trezor: '<a target="_blank" href="http://bit.ly/atnet-trezor">Trezor</a>&nbsp;'
-  tradingview: '<a target="_blank" href="http://bit.ly/atnet-tv">TradingView</a>&nbsp;'
+  tradingview: '<a target="_blank" href="http://bit.ly/tradingview-moon">TradingView</a>&nbsp;'
   bitmex: '<a target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
   coinmama: '<a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>&nbsp;'
   coinbase: '<a target="_blank" href="http://bit.ly/plebtier">Coinbase</a>&nbsp;'
@@ -281,7 +281,7 @@ src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img 
 </div>'
 
 # /uploads/tv1.html
-tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/atnet-tv" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_728x90.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-moon" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_728x90.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
@@ -290,7 +290,12 @@ tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height=
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv2.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
    placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
-tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.ly/atnet-tv" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
+tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.ly/tradingview-moon" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
+# TV to the moon
+# atnet-web https://tradingview.go2cloud.org/SH3Sb
+# boc-web https://tradingview.go2cloud.org/SH3Sd
+# social https://tradingview.go2cloud.org/SH3Sf
+
 
 deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
 brave_xs:  '<div class="containter-center"><a title="Brave browser and marketplace"  rel="nofollow" href="https://brave.com/alt957" target="_blank"><amp-img itemprop="image" src="/ads/brave.png" alt="Brave browser and marketplace" data-original-width="730px" data-original-height="260px" layout="responsive" width="730px" height="260px"></amp-img></a></div>'
@@ -385,6 +390,19 @@ layout="responsive">
 
 cny2019: '<div class="text-center"><a class="index-internal" target="_blank" href="https://twitter.com/boc__official"><amp-img itemprop="image" src="/cta/chinesenewyear2019.jpg" alt="#chinesenewyear2019" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div><br>'
 
+
+# TV crypto offer
+
+tvlovescrypto: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/tradingview-moon">
+<amp-img itemprop="image"
+src="/cta/tradingview-discount-crypto.jpg"
+alt="Tradingview Loves Crypto"
+data-original-width="1024px"
+data-original-height="512px"
+width="300px" height="150px"
+layout="responsive">
+</amp-img></a></div><br>'
 
 # keepkey
 
