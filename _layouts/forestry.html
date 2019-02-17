@@ -97,39 +97,7 @@ layout: default-news
           {% endif %}
 
 
-          {% if page.comments %}
-
-          <h4 class="post comment" id="comments">Comments</h4>
-
-          <div id="disqus_thread"></div>
-          <script>
-           disqus_config = function () {
-          this.page.url = "{{page.url | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = "{{page.identifier}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-          };
-          (function() { // DON'T EDIT BELOW THIS LINE
-          var d = document, s = d.createElement('script');
-          s.src = 'https://altcointrading.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-          })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-          <p></p>
-
-          {% else %}
-
-          <p></p>
-
-          <hr>
-
-          <p>Comments are disabled for this article.</p>
-
-          <hr>
-
-          {% endif %}
-
+        
           <hr>
           <div class="">
             <p>Read about our <a href="/about-legal/">content policy</a>.</p>
