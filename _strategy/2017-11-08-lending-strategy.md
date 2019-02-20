@@ -60,9 +60,8 @@ With [BitMEX](https://www.bitmex.com/register/iYQB44) perpetual swap you either 
 
 Exchanges give you daily rate which is probably a little too abstract to work with when you want to roughly consider it next to things like exchange hacks which happen maybe once a year. Let's first convert the daily interest rate to a yearly percentage return with compounding (lending out also previous lending profits) and after the fees.
 
-If you just want to do a one-off check, **bfxdata.com has a compound interest calculator** that gives the correct numbers for Bitfinex. Fees are already included in the calculation (Bitfinex takes 15% from your lending profit, more if you post hidden offers - use the [referral code 5egV78YtlC](https://www.bitfinex.com/?refcode=5egV78YtlC) to get a 10% fee discount there).
+If you just want to do a one-off check, you can use **a compound interest calculator** [like this one](http://www.moneychimp.com/calculator/compound_interest_calculator.htm) that gives the correct numbers for Bitfinex lending. Fees are already included in the calculation (Bitfinex takes 15% from your lending profit, more if you post hidden offers - use the [referral code 5egV78YtlC](https://www.bitfinex.com/?refcode=5egV78YtlC) to get a 10% fee discount there).
 
-[bfxdata.com swap calculator](https://www.bfxdata.com/calculators/swaps.php)
 
 For those who like to keep spreadsheets here’s **the formula for the lending profits with compounded interest:**
 
@@ -107,7 +106,7 @@ So while it is not reasonable to expect you'll be able to get some exact interes
 
 {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
 
-*Both images above come from [https://www.bfxdata.com/swaphistory/btc](https://www.bfxdata.com/swaphistory/btc).*
+*Both images above come from now defunct resource called bfxdata.com.*
 
 Let's take a look at how the yearly profits change after a year when the daily rate changes just a little to illustrate the point.
 

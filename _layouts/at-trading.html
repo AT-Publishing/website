@@ -43,7 +43,7 @@ layout: default-news
             <hr>
             <p>
             <b>Shill Links:</b><br>
-            
+
             BitMEX (10% fee off) @ <a rel="nofollow" target="_blank" href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
             TradingView (~ 50% off in BTC) @ <a rel="nofollow" target="_blank" href="http://bit.ly/tradingview-moon">bit.ly/tradingview-moon</a><br>
 
@@ -57,7 +57,10 @@ layout: default-news
 
             {% include home/airdrops.html %}
 
-            {% include article/strategy-callout.html %}
+            <div class="bottom strategy-content">
+              {% include article/editor.html %}
+              {% include article/author.html %}
+            </div>
 
 					 </div><!-- strategy content -->
           </article>
@@ -91,26 +94,6 @@ layout: default-news
 
             {% endif %}
 
-            {% if page.category %}
-            <div class="row">
-              <h2 class="tagged-as">Related: {{ page.category | capitalize }}</h2>
-              {% for post in site.posts limit: 5 %}
-               {% if post.categories contains page.category %}
-                {% include category/all.html %}
-               {% endif %}
-              {% endfor %}
-            </div>
-            {% endif %}
-
-            <!-- press -->
-            <div class="atnet-home-pressblock">
-              {% include home/pressblock.html %}
-            </div>
-
-            <div class="bottom strategy-content">
-              {% include article/editor.html %}
-              {% include article/author.html %}
-            </div>
           </section>
         </div>
         <div class="four columns nomargintop">
@@ -130,7 +113,7 @@ layout: default-news
           <div class="smallad">
              {% include home/smallad.html %}
           </div>
-          {% include sidebar.html %}
+          {% include sidebar-post.html %}
         </div>
       </div>
   </div>

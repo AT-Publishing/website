@@ -1,0 +1,41 @@
+
+<section>
+  <hr class="skinny">
+  {{ site.tvlovescrypto }}
+  <hr class="skinny">
+  <amp-ad width=336 height=280
+    type="adsense"
+    data-ad-client="ca-pub-6979812205705127"
+    data-ad-slot="7619602394">
+      <div overflow></div>
+  </amp-ad>
+  <hr class="skinny">
+</section>
+
+<div id="sidebar">
+
+  <section>
+    <h3>On Medium.com/CryptoLounge:</h3>
+    <amp-iframe
+            width=350px height=635px
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/drops/index.html">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+    </amp-iframe>
+  </section>
+
+  <section>
+    {% if page.category %}
+    <div class="row">
+      <h2 class="tagged-as">More Blog Posts in Category {{ page.category | capitalize }}</h2>
+      {% for post in site.posts limit: 5 %}
+       {% if post.categories contains page.category %}
+        {% include category/all.html %}
+       {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+
+</div><!-- end sidebar-->

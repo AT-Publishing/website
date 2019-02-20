@@ -40,9 +40,9 @@
             <div overflow></div>
         </amp-ad>
 
-       {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+       {{ content }}
 
-       <a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
+       <p>&nbsp;</p>
 
        <section class="sidebar-nl container-center">
        <h5>AltcoinTrading.NET Verified Airdrops</h5>
@@ -51,18 +51,20 @@
        <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
        </section>
 
+       <p>&nbsp;</p>
+
+       <a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
+
+      <p>&nbsp;</p>
 
       </article>
     </div><!-- main cols -->
     <div class="four columns nomargintop">
-      {% include sidebar.html %}
+      {% include sidebar-drops.html %}
     </div>
     </div>
   </div>
   <div class="clearfix"></div>
-  <section id="bottom" class="atnet-home-bottom space">
-   {% include contacts.html %}
-  </section>
   <footer>
     <div class="footer">
       {% include footer.html %}

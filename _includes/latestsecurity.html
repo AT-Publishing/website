@@ -37,7 +37,7 @@
 </section>
 {% endfor %}
 
-{% assign items = site.security | sort:date | reverse %}
+{% assign items = site.security | sort:last_modified_at | reverse %}
 {% for post in items offset:1 limit:5 %}
 <section class="row homelab">
   <div class="columns twelve">
@@ -47,7 +47,7 @@
           <span class="tag">SECURITY</span>&nbsp;{{ post.title }}
         </a>
       </strong>
-      <small>{{ post.date | date_to_string }}</small>
+      <small>{{ post.last_modified_at | date_to_string }}</small>
     </h6>
   </div>
   <div class="columns twelve">

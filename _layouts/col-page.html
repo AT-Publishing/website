@@ -12,7 +12,7 @@ layout: default
       <h3 class="post"><small>{{ page.description }}</small></h3>
       <hr>
       <article class="maincontent">
-          {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+          {{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
       </article>
     </div>
     <div class="four columns notopmargin">

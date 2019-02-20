@@ -24,7 +24,7 @@ bio:
   diana: 'Diana Trang is the editor of <a href="https://www.thebusinessofcrypto.com">The Business Of Crypto</a>.'
 
 author_details:
-  - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: "https://t.co/karlvonbahnhof", email: "chris@altcointrading.net"}
+  - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: false, email: "chris@altcointrading.net"}
   - {name: "tradingfanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
   - {name: "CryptoDisrupt", bio: "CryptoDisrupt.com is a crypto news portal and a Youtube channel with regular live panel discussions.", twitter: false, facebook: false, reddit: "https://www.reddit.com/user/AlfieMarsh", quora: false, telegram: false, email: "info@cryptodisrupt.com"}
   - {name: "Cameron", bio: "Cameron is a writer at cityofhype.com, a portal (not only) about all things personal finance. Cameron is a finance analysts and investor in currencies and securities.", twitter: "https://twitter.com/cityofhype", facebook: false, reddit: false, quora: false, telegram: false, email: "info@cityofhype.com"}
@@ -302,16 +302,6 @@ brave_xs:  '<div class="containter-center"><a title="Brave browser and marketpla
 
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders exclusively. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
 
-bf1: '<div class="text-center">
-<a class="index-internal" target="_blank" href="/blackfriday/">
-<amp-img itemprop="image"
-src="/ads/bf_1024x512.jpg"
-alt="Black Friday deals 2018 for crypto traders"
-data-original-width="1024px"
-data-original-height="512px"
-width="300px" height="150px"
-layout="responsive">
-</amp-img></a></div><br>'
 
 
 ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledgers_1030x80.png" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
@@ -348,6 +338,18 @@ ledger_dec_728-90: '<div class="containter-center"><a href="https://www.ledger.c
 ledger_dec_300-250: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_300x250.jpg" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
 
 ### CTAs to deal pages
+
+bf1: '<div class="text-center">
+<a class="index-internal" target="_blank" href="/blackfriday/">
+<amp-img itemprop="image"
+src="/ads/crypto-black-friday-2019.jpg"
+alt="Anticipated Black Friday deals 2019 for crypto traders"
+data-original-width="300px"
+data-original-height="200px"
+width="300px" height="200px"
+layout="responsive">
+</amp-img></a></div><br>'
+
 
 xmas1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/xmas/">
