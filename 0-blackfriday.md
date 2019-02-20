@@ -86,7 +86,7 @@ For BlackFriday, Tensorcharts usually mark down their Premium plan by **full 50%
 - payments in BTC
 ```
 
-<b>Start with <a rel="nofollow" href="https://tensorcharts.com/?r=14">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
+<b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
 
 
 #### Coinigy Black Friday: 75% OFF subscription plans

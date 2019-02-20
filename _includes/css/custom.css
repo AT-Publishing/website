@@ -227,6 +227,11 @@ h5.post small,.top2 figure,
 }
 
 
-#strategy-feed .row:nth-of-type(2n) > .thumb-wrap {
+#strategy-feed .row:nth-of-type(2n) > .thumb-wrap,
+#security-feed .row:nth-of-type(2n) > .thumb-wrap  {
     float: right;
+}
+#strategy-feed .columns,
+#security-feed .columns {
+    margin: 1%;
 }
