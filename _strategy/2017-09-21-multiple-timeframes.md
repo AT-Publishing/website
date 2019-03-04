@@ -2,8 +2,8 @@
 published: true
 
 layout: strategy
-title: "Trading multiple timeframes at the same time"
-description: "On why it's constructive to trade multiple time frames at the same time and how to manage the multiple positions."
+title: "Multiple time frame analysis: Trading several timeframes at the same time"
+description: "On why it's constructive to trade multiple time frames at the same time and how to manage the stack of your positions and orders."
 
 #tags: ['popular']
 note: 'Strategy'
@@ -13,7 +13,7 @@ categories:
 
 slug: multiple-time-frame/
 
-image: ["/editorial/socialmedia2.jpg"]
+image: ["/editorial/multiple-timeframe-juggle.png"]
 image_alt: ["Cryptocurrency trading strategy."]
 
 date: 2017-10-29 16:36:00 +0700

@@ -16,7 +16,7 @@ tags: [ "tensorcharts", "orderbook-heatmap", "scalping", "cryptocurrency-trading
 slug: "scalping/"
 cz: false
 
-image: ["/editorial/tagged/altcointrading_net-tensorcharts.png", "/editorial/tagged/tensorcharts-trap.png", "/strat/scalping/tensorcharts-elements.jpg"]
+image: ["/editorial/altcointrading-strategy.jpeg", "/editorial/tagged/tensorcharts-trap.png", "/strat/scalping/tensorcharts-elements.jpg"]
 image_alt: []
 
 date: 2018-03-14 23:31:00 -0300
@@ -33,11 +33,13 @@ author_twitter: "@tradingfanbois"
 
 > Scalping [noun] - trading technique of capitalizing on small price changes. Positions are typically closed as soon as they become profitable, earning a small profit.
 
-The year 2017 was the year to buy your crypto in January and hold. Then, maybe, if you felt like it, to [spot a range](/strategy/wyckoff-ranging-markets) and sell the right bounce to rebuy lower and carry on the Mr Bones' wild ride. But all things come to an end. In 2018, the first most obvious thing cryptofolks noticed is that everyone's long-term stacks keep losing their dollar value.
+The year 2017 was the year to buy your crypto in January and hold. Then, maybe, if you felt like it, to [spot a range](/strategy/wyckoff-ranging-markets) and sell the right bounce to rebuy lower and carry on the Mr Bones' wild ride. Then it came to an end.
+
+All through 2018 and in 2019, the first most obvious thing cryptofolks noticed is that everyone's long-term stacks keep losing their dollar value.
 
 <section class="sidebar-nl container-center">
 <h4>Cryptocurrency trading strategy: Scalping Crypto with Tensorcharts (PDF)</h4>
-<p>Too long to read now? Download this crypto trading strategy as a PDF from Keybase. (No risk of eye cancer from its design either.)</p>
+<p>Too long to read now? Download this crypto trading strategy as a PDF safely from Keybase. (No risk of eye cancer from its design either.)</p>
 <p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET Crypto Scalping Guide"><b>Download PDF from Keybase</b></a></p>
 </section>
 
