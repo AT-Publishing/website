@@ -49,8 +49,6 @@ Ledger Nano S normally retails at a regular price of **up to 69.90 EUR** (price 
 
 ## Keepkey Christmas 2018 deal
 
-{{ site.kk_bogo_lg }}
-
 The Trezor spinoff Keepkey stopped sleeping on end-of-year deals and is offering a good deal for a duo pack of KeepKey bitcoin vaults.
 
 There is no discount code or limitation to this offer. If you put two Keepkey wallets into your cart, the price will update at checkout.
