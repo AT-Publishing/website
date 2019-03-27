@@ -378,15 +378,10 @@ layout="responsive">
 # http://bit.ly/hodlerscashback
 
 cashback: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/hodlerscashback">
-<amp-img itemprop="image"
-src="/cta/ledger-wallet-cashback.jpg"
-alt="Ledger wallet cashback"
-data-original-width="1024px"
-data-original-height="512px"
-width="300px" height="150px"
-layout="responsive">
-</amp-img></a></div><br>'
+<a class="index-internal" target="_blank" href="https://hodlerscashback.com/ledger-wallet/">
+<amp-img itemprop="image" src="/ads/ledger-wallet-cashback.png" alt="Ledger Nano X Cashback"
+data-original-width="330px" data-original-height="330px"
+width="300px" height="300px" layout="responsive"></amp-img></a></div><br>'
 
 # chinese new yaear 1025x512
 
