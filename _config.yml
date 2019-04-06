@@ -16,7 +16,7 @@ series_callout: '<h4>Coming up in #DEX series</h4><p>General update in case you 
 
 teaser: '<h4>Oct 23 | Recent Most Read</h4> - Fidelity Full Data File https://www.thebusinessofcrypto.com/company/fidelity/<br> - Blokchain Gaming Companies Leaderboard https://www.thebusinessofcrypto.com/company/markets/gaming/<br> - Tokenization can boost startups in growing industries like home remodeling https://www.altcointrading.net/tokenization-startup-boost/'
 
-shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/cryptofacilities">CryptoFacilities 10% Fee Discount</a>, <a target="_blank" href="http://bit.ly/ethfinex">EthFinex</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="http://bit.ly/local-meth">LocalEthereum</a>, <a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>, <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-lbc">Localbitcoins</a></p></section>'
+shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/cryptofacilities">CryptoFacilities 10% Fee Discount</a>, <a target="_blank" href="http://bit.ly/ethfinex">EthFinex</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="http://bit.ly/local-meth">LocalEthereum</a>, <a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>, <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-lbc">Localbitcoins</a></p></section>'
 
 bio:
   marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
@@ -175,7 +175,7 @@ ref:
   kucoin: '<a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">KuCoin</a>&nbsp;'
   binance: '<a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">Binance</a>&nbsp;'
   bitfinex: '<a target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a>&nbsp;'
-  ledger: '<a target="_blank" href="http://bit.ly/atnet-ledger">Ledger wallet</a>&nbsp;'
+  ledger: '<a target="_blank" href="http://bit.ly/atnet-nano-s">Ledger Nano S</a>&nbsp;'
   trezor: '<a target="_blank" href="http://bit.ly/atnet-trezor">Trezor</a>&nbsp;'
   tradingview: '<a target="_blank" href="http://bit.ly/tradingview-moon">TradingView</a>&nbsp;'
   bitmex: '<a target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
@@ -217,15 +217,15 @@ ads:
   width="728px" height="90px"></amp-img>
   </a></div><br>'
   ledger: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">
-  <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">
+  <amp-img itemprop="image" alt="Ledger-Wallet Nano S protects your bitcoins"
   src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
   layout="responsive"
   data-original-width="468px" data-original-height="90px"
   width="468px" height="90px"></amp-img>
   </a></div>'
   ledger-thin: '<div class="text-center">
-  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-ledger">
+  <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">
   <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
   src="/img/wallets/ledger-hero.png"
   layout="responsive"
@@ -265,8 +265,8 @@ ads:
     src="https://ad.a-ads.com/147074?size=336x280"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
      placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
-ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
-ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="http://bit.ly/atnet-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="http://bit.ly/atnet-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 
 forkit: '<div class="containter-center"><a href="https://forkit.info" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/features/forkit-info.png" alt="Bitcoin Forks Info" data-original-width="516px" data-original-height="474px" layout="responsive" width="336px" height="300px"></amp-img></a></div>'
 
@@ -365,7 +365,7 @@ layout="responsive">
 # ledger
 
 ledger2019: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/atnet-ledger">
+<a class="index-internal" target="_blank" href="http://bit.ly/atnet-nano-s">
 <amp-img itemprop="image"
 src="/features/new-ledger.jpg"
 alt="New Ledger wallet for crypto traders"

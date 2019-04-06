@@ -6,11 +6,13 @@ title: "Black Friday is Over, Long Live Black Friday: List of Crypto Traders' To
 description: "Black Friday Deals for cryptocurrency traders and hodlers. TradingView, Ledger wallet, Coinigy, TensorCharts and more on discount."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
-image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg']
+image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
 
 author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
+
+## Black Friday Every Day: Only in Crypto
 
 **Black Friday 2018 is done and dusted, hopefully you managed to snatch some value out of it.**
 
@@ -29,7 +31,33 @@ You can also catch a glimpse of what kind of offers we got to get ready for **Bl
 
 ## Special Offers: Get Black Friday Value before Black Friday 2019
 
-#### TradingView Loves Bitcoin: 50% off when paid in BTC
+
+#### Ledger Wallet Backup Bundle (April 2019)
+
+{{ site.stars.five }}
+
+
+<div>
+  {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
+</div>
+
+Following the announcement of **delay in expected shipping of Ledger Nano X orders**, Ledger is making an effort to keep the interest in the product.
+
+In April 2019, Ledger comes with a new offer called **'Backup Bundle'**: You get the pre-order of Nano X along with one Nano S wallet at half price.
+
+**Ledger wallet 'Backup Bundle' contains:**
+
+* 1 Ledger Nano X at regular price
+* 1 Matte Black Ledger Nano S _at 50% off_
+
+*Estimated delivery for orders placed today: end of May*
+
+**By the way:** In addition to the 50% discount on Ledger Nano S in this bundle, you are also eligible for the 3% cashback on your total order value.
+
+<b>Get the new <a href="http://bit.ly/ledger-backup-pack">Backup Bundle at shop.ledger.com</a> straight from here or make an order in the same store <a href="https://hodlerscashback.com/ledger-wallet-bundle/">through the cashback service here</a> (requires sign up with an email).</b>
+
+
+#### TradingView Loves Bitcoin: 50% off when paid in BTC (March 2019)
 
 {{ site.stars.five }}
 
