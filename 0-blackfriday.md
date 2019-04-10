@@ -36,7 +36,6 @@ You can also catch a glimpse of what kind of offers we got to get ready for **Bl
 
 {{ site.stars.five }}
 
-
 <div>
   {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 </div>
