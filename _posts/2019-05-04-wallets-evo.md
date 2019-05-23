@@ -48,7 +48,7 @@ Since the inception of Bitcoin, wallets have always been an integral part of the
 
 People who are only in crypto for the investment might be blind to it, but the following is a simple fact: Should we be interested in such a thing, crypto wallets can be our own personal banks.
 
-Nonetheless, it's 2019. There are banks that store crypto for their clients - providing cryptocurrency custody service for them, and to most of their clients it will seem that the concept of personal storage is somewhat unnecessary. After all, it is like in every line of commerce: Someone charges a fee for making a complex thing simple to handle.
+Nonetheless, it's 2019. There are [banks that store crypto](https://wethecryptos.net/banks-that-accept-bitcoins/) for their clients - providing cryptocurrency custody service for them, and to most of their clients it will seem that the concept of personal storage is somewhat unnecessary. After all, it is like in every line of commerce: Someone charges a fee for making a complex thing simple to handle.
 
 You know what they say though - Not your keys, not your coin. Letting someone else take care of your cryptocurrency introduces the element of trust into crypto, and if this were sensible, we wouldn't have cryptocurrencies at all because everyone would be perfectly happy with fiat.
 
@@ -70,7 +70,7 @@ By now, probably all of these primitive brainwallets have been drained by hacker
 
 #### Crypto wallets by their purpose
 
-There are a couple different kinds of wallets out there:
+There are a couple different [kinds of crypto wallets](https://wethecryptos.net/different-types-of-crypto-wallets/) out there:
 
 **Paper wallet** - For this kind of wallet, your private keys and public addresses are printed on a piece of paper. If you can physically manage the paper, this will be your safest storage option that doesn't even require a lot of technical skill. It is not feasible to use a paper wallet for daily transactions though.
 
