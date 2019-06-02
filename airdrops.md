@@ -7,7 +7,7 @@ cz: "airdropy"
 
 title: "Upcoming Crypto Airdrops, Crypto Giveaways & Bounties for token promotion on social media."
 description: "Crypto token airdrops and bounties in exchange for social media activity on cryptotwitter or for an early signup."
-date: 2018-02-23 15:07:00 +0100
+date: 2019-02-23 15:07:00 +0100
 categories: ["airdrops"]
 images: ["/editorial/tagged/rain.png"]
 
