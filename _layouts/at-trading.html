@@ -27,6 +27,7 @@ layout: default-news
                 </blockquote>
                 {% include article/meta.html %}
               </div>
+
             </article>
             <article class="maincontent altcointrading-blog-content">
               <div class="strategy-content">
@@ -54,6 +55,7 @@ layout: default-news
             </article>
           </section>
           <section class="altcointrading-blog-airdrops">
+            <p>&nbsp;</p>
             {% include home/airdrops.html %}
           </section>
           <section class="altcointrading-blog-series">
@@ -96,7 +98,10 @@ layout: default-news
               {% amp700 noborder {{page.image[0]}} {{page.image_alt[0]}} %}
               {% include article/related.html %}
             </div>
-            <br>
+            <div class="clearfix"></div>
+            <div>
+              {{ site.tv_side_animated }}
+            </div>
             <div class="clearfix"></div>
             {% include dogeshare.html %}
             <div class="clearfix"></div>
