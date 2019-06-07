@@ -14,7 +14,7 @@
 
 <div id="sidebar">
 
-  <section>
+  <!--<section>
     <h3>On Medium.com/CryptoLounge:</h3>
     <amp-iframe
             width=350px height=635px
@@ -23,12 +23,12 @@
             src="https://data.altcointrading.net/drops/index.html">
             <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
     </amp-iframe>
-  </section>
+  </section>-->
 
   <section>
     {% if page.category %}
     <div class="row">
-      <h2 class="tagged-as">More Blog Posts in Category {{ page.category | capitalize }}</h2>
+      <h4 class="tagged-as">More Blog Posts in Category {{ page.category | capitalize }}</h4>
       {% for post in site.posts limit: 5 %}
        {% if post.categories contains page.category %}
         {% include category/all.html %}
