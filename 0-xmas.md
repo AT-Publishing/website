@@ -3,9 +3,9 @@ layout: marketing
 
 published: true
 
-title: "Christmas Deals 2018 for Crypto Traders"
-description: "Christmas Deals on tools and devices for cryptocurrency traders and hodlers. Premium charting apps and hardware wallets in promo for Christmas!"
-permalink: /xmas/
+title: "Crypto Traders - Christmas Sales 2019"
+description: "Christmas Deals on crypto tradng tools and hardware wallets. Tradingview deals and alternative charting tools on sale for Christmas!"
+permalink: /xmas-sales/
 date: 2018-12-17 13:14 +0700
 image: ['/cta/xmas_feature.jpg']
 
@@ -13,7 +13,7 @@ author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
-**Christmas Deals 2018**
+## Christmas Sales 2019: Crypto Traders' Edition
 
 They do say bear markets are the time for development, experimenting and positioning on the market. And so this year for Christmas, apparently thanks to the crypto price slump, everyone is at it with promos and special offers.
 
@@ -21,7 +21,7 @@ Most offers are valid through the whole month of December 2018 so in case you're
 
 ## Confirmed Crypto Deals for Christmas 2018
 
-### Ledger Nano S Christmas 2018 Deal
+### Ledger Nano S Christmas Sale 2019
 
 {{ site.ledger_dec_728-90 }}
 
@@ -47,7 +47,7 @@ Ledger also released several colored versions of their wallets which is helpful 
 
 Ledger Nano S normally retails at a regular price of **up to 69.90 EUR** (price varies based on your location - the US retail price is still 58 EUR excl. tax). On Black Fridays customers get between **21% and 50% discount** on all Nano S orders, the current promo is therefore somewhere in the middle of the discount range you're able to get.
 
-## Keepkey Christmas 2018 deal
+## Keepkey Christmas Sale 2019
 
 The Trezor spinoff Keepkey stopped sleeping on end-of-year deals and is offering a good deal for a duo pack of KeepKey bitcoin vaults.
 
@@ -60,3 +60,9 @@ There is no discount code or limitation to this offer. If you put two Keepkey wa
 KeepKey supports Bitcoin, Ethereum, Litecoin, Dogecoin, Dash, and a bunch of ERC-20 tokens. You can pay with Bitcoin and also Paypal, in case you wanted to burn some fiat instead.
 
 {{ site.kk_728-90 }}
+
+## Speculated Christmas Sale Deals for 2019
+
+### Tradingview Christmas Sale?
+
+### Tensorcharts Christmas Sale? 

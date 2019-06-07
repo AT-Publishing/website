@@ -2,8 +2,8 @@
 layout: marketing
 published: true
 
-title: "Black Friday is Over, Long Live Black Friday: List of Crypto Traders' Tools Deals before Black Friday 2019, and offers that are anticipated to repeat for Black Friday campaigns in 2019"
-description: "Black Friday Deals for cryptocurrency traders and hodlers. TradingView, Ledger wallet, Coinigy, TensorCharts and more on discount."
+title: "Early Black Friday Deals 2019 | Crypto Traders' Early Black Friday Deals 2019 & Anticipated Deals"
+description: "Black Friday Deals for cryptocurrency traders and hodlers. TradingView, Ledger wallet, Coinigy, TensorCharts and more deals early in 2019."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
@@ -14,7 +14,7 @@ author: 'mailto:jmt@altcointrading.net'
 
 ## Black Friday Every Day: Only in Crypto
 
-**Black Friday 2018 is done and dusted, hopefully you managed to snatch some value out of it.**
+Black Friday is Over, Long Live Black Friday. Black Friday 2018 is done and dusted, hopefully you managed to snatch some value out of it.**
 
 **Luckily, some of the most popular tools for crypto traders are not sleeping on timely offers until Black Friday 2019.**
 
@@ -29,10 +29,11 @@ You can also catch a glimpse of what kind of offers we got to get ready for **Bl
 
 <div id="special"></div>
 
-## Special Offers: Get Black Friday Value before Black Friday 2019
+## Early Black Friday Offers 2019
 
+Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo. It is known what traders can expect for Black Friday deals from Tradingview or Ledger wallet, and whether there are any offers that will get you Black Friday value before Black Friday 2019.
 
-#### Ledger Wallet Backup Bundle (April 2019)
+#### Ledger Wallet Backup Bundle (Currently Shipping)
 
 {{ site.stars.five }}
 
@@ -40,31 +41,38 @@ You can also catch a glimpse of what kind of offers we got to get ready for **Bl
   {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
 </div>
 
-Following the announcement of **delay in expected shipping of Ledger Nano X orders**, Ledger is making an effort to keep the interest in the product.
+In April 2019, to keep interest in the delayed new Nano X product, Ledger came with a new offer called the **'Ledger Backup Pack'**: You get one Ledger Nano X along with one Ledger Nano S wallet at half price.
 
-In April 2019, Ledger comes with a new offer called **'Backup Bundle'**: You get the pre-order of Nano X along with one Nano S wallet at half price.
-
-**Ledger wallet 'Backup Bundle' contains:**
+**Ledger Backup Pack contains:**
 
 * 1 Ledger Nano X at regular price
 * 1 Matte Black Ledger Nano S _at 50% off_
 
-*Estimated delivery for orders placed today: end of May*
+*Backup Packs are currently shipping worldwide.*
 
-**By the way:** In addition to the 50% discount on Ledger Nano S in this bundle, you are also eligible for the 3% cashback on your total order value.
+**Ledger Wallet Cashback available:** In addition to the discount offer in the Backup Pack, you are also eligible for the **additional 3% cashback** on your total order value if you make your purchase at the official Ledger store through Hodler's Cashback.
 
-<b>Get the new <a href="http://bit.ly/ledger-backup-pack">Backup Bundle at shop.ledger.com</a> straight from here or make an order in the same store <a href="https://hodlerscashback.com/ledger-wallet-bundle/">through the cashback service here</a> (requires sign up with an email).</b>
+<b>Get the new <a href="http://bit.ly/ledger-backup-pack">Backup Bundle at shop.ledger.com</a> straight from here or make an order in the same store through <a href="https://hodlerscashback.com/ledger-wallet-bundle/">Ledger wallet cashback service at hodlerscashback.com</a>.</b>
 
+The cashback offer requires sign up with an email.
 
-#### TradingView Loves Bitcoin: 50% off when paid in BTC (March 2019)
+#### Ledger Nano X Discount
+
+Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale.
+
+If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack above, your only option is to get the <a href="https://hodlerscashback.com/hi/#shop">3% Ledger Nano X Cashback</a>.
+
+It's not much, but it sure is better than nothing.
+
+#### TradingView Loves Bitcoin: Deal offer for PRO plans paid in BTC
 
 {{ site.stars.five }}
 
-TradingView has opened an extraordinary offer for crypto traders to promote their new payment option - Bitcoin. Previously, you were only able to pay your TradingView PRO from Paypal. In February 2019, a BTC payment option was added.
+TradingView has opened an offer for crypto traders to promote their new payment option - Bitcoin. Previously, you were only able to pay your TradingView PRO with Paypal but since February 2019, a BTC payment option is added.
 
-The discount for the crypto payments is fixed in Bitcoin, and so its USD value varies with the BTCUSD ratio.
+The price for the Tradingview subscription with crypto payments is fixed in Bitcoin, and so its USD value varies with the BTCUSD ratio.
 
-<b>Go to the crypto offer homepage called <a href="http://bit.ly/tradingview-moon" rel="nofollow">To The Moon with TradingView</a> and see how much discount you'll be getting.</b>
+<b>Go to the crypto offer homepage of this <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
 
 <div id="past"></div>
