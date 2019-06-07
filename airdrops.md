@@ -12,10 +12,15 @@ categories: ["airdrops"]
 images: ["/editorial/flying.jpg"]
 ---
 
+<h4 id="upcoming">Live and upcoming airdrops 2019</h4>
 
 {% include thismonth-airdrops.html %}
 
 <div class="clearfix"></div>
+
+<h3 class="posh">Recurring Cryptocurrency Airdrops</h3>
+
+<h4 id="recurring">Daily & Weekly Crypto Airdrops, Bounties, Giveaways and Contests</h4>
 
 {% include airdrops-recurring.html %}
 
