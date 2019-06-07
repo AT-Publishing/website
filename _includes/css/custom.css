@@ -235,3 +235,8 @@ h5.post small,.top2 figure,
 #security-feed .columns {
     margin: 1%;
 }
+
+
+.page-airdrops-main li a {
+  border-bottom: 2px solid rgba(0,31,63,.77);
+}

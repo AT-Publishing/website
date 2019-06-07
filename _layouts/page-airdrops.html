@@ -20,45 +20,46 @@
 {% include header.html %}
   <div class="container">
     <div class="row">
-     <div class="eight columns">
+     <div class="page-airdrops-main eight columns">
       <h3 class="post"><strong>{{ page.title | upcase }}</strong></h3>
       <h4><small>{{ page.description }}</small></h4>
       <hr>
-      <article class="maincontent">
-        <div>
-        {{ site.tv_728-90_animated }}
-        </div>
-        <hr>
-        <h3 class="posh">Latest Crypto Bounties & Airdrops List</h3>
-
-       {{ content }}
-
-       <p>&nbsp;</p>
-
-       <amp-ad width=336 height=280
-         type="adsense"
-         data-ad-client="ca-pub-6979812205705127"
-         data-ad-slot="7619602394">
-           <div overflow></div>
-       </amp-ad>
-
-       <p>&nbsp;</p>
-
-
-       <section class="sidebar-nl container-center">
-       <h5>AltcoinTrading.NET Verified Airdrops</h5>
-       <p>Get them <a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">per email</a> - select *Updates on the Airdrops page*.</p>
-       <p>We tweet drops at <a class="intern" href="https://twitter.com/altcointrading_">altcointrading_</a> at most mornings for US, Europe and India and also post them to <a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge on Medium</a>.</p>
-       <p>If you are new to crypto trading, check <a class="intern" href="/guides/">our guides for newbie traders</a>.</p>
-       </section>
-
-       <p>&nbsp;</p>
-
-       <a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
-
-      <p>&nbsp;</p>
-
-      </article>
+      <section class="airdrops-alert sidebar-nl container-center">
+        <h5>AltcoinTrading.NET Crypto Airdrops Alerts (Weekly)</h5>
+        <p>💌 Airdrop Alert Newsletters go out every <b>Thu 7 AM EST</b> sharp. You can sign up for them <u><a href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">here</a></u> - select ‘Updates on the Airdrops Page’.</p>
+        <p>You can also subscribe to our feed on Medium in the publication <u><a class="intern"  href="https://medium.com/cryptolounge/airdrops/home">CryptoLounge</a></u> that has an airdrops section sourced from AltcoinTrading.NET.</p>
+        <p>We sometimes tweet when the Aidrops list gets updated. Follow <u><a class="intern" href="https://twitter.com/altcointrading_">@altcointrading_</a></u>.</p>
+      </section>
+      <section class="airdrops-anchor-nav">
+        <p>&nbsp;</p>
+        <h4>Airdrop Bounty Contest and Opportunity Lists:</h4>
+        <ul class="popular">
+          <li class="popular-item"><a href="#upcoming">Upcoming Airdrops List</a>: Crypto airdrops that are live or going live in the days to come. Newly added airdrops come to the top of the table.</li>
+          <li class="popular-item"><a href="#recurring">Recurring Crypto Airdrops and Bounties</a>: Regular airdrops and bounties - campaigns that keep repeating weekly or monthly. When the time for the next round comes though, we'll bump the event to the top table as well.</li>
+          <li class="popular-item"><a href="#faq">Airdrops FAQ</a>: How to stay safe when participating in an airdrop or bounty, and what are the differences between airdrops, bounties, forks and contests.</li>
+          <li class="popular-item"><a href="/airdrop-archive/">Archive of Past Crypto Airdrops</a>: All crypto drops that ever were published via AltcoinTrading.NET.</li>
+        </ul>
+      </section>
+      <section class="airdrops-lists">
+        <article class="maincontent">
+          <div>
+            {{ site.tv_728-90_animated }}
+          </div>
+        </article>
+        <article class="maincontent">
+          <h3 class="posh">Latest Crypto Airdrops & Early Opportunities</h3>
+          <p>This is our main <b>Airdrops Bounty List</b>. We sometimes include early mining, masternode or staking opportunities for newly launched crypto tokens, as well as blockchain gaming token giveaways. </p>
+          <p>Especially during festive seasons, blockchain game outfits organize special <b>bounty hunts</b> where users can gain rare in-game assets or collectibles that can be later auctioned for ETH.</p>
+          <p>The list has the freshest items on top, as they get added. </p>
+        </article>
+        <article class="maincontent airdrop-tables">
+          {{ content }}
+          <p>&nbsp;</p>
+        </article>
+      </section>
+      <section class="airdrops-faq" id="faq">
+        {% include airdrops-faq.html %}
+      </section>
     </div><!-- main cols -->
     <div class="four columns nomargintop">
       {% include sidebar-drops.html %}
