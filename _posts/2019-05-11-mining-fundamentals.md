@@ -1,8 +1,8 @@
 ---
-layout: at-trading
-published: true
-guest: false
-pinned: no
+layout:     at-trading
+published:  true
+guest:      false
+pinned:     false
 #canonical: "https://www.thebusinessofcrypto.com/articles/shocking-facts-about-cryptocurrency-heists-infographics"
 
 date: 2019-05-11 07:12:00 +0700

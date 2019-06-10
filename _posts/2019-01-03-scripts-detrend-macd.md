@@ -37,9 +37,11 @@ tags: ["cryptotrading", "trading-blog"]
 chart: []
 
 related:
-- {"Stats from 2018 - Readers like Melancholic 100x and Ledger": "/retail-buyin-15k-wallets-still-run/"}
+- {"Script Spotlight: A/D Levels": "/scriptspotlight-a-d-levels/"}
+- {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
 - {"Crypto Scalping with TensorCharts": "/strategy/scalping/"}
 - {"The Stability of Stablecoins": "/stability-of-stablecoins/"}
+- {"Stats from 2018 - Readers like Melancholic 100x and Ledger": "/retail-buyin-15k-wallets-still-run/"}
 
 ---
 

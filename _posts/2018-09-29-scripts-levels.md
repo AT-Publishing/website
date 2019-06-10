@@ -1,10 +1,10 @@
 ---
-layout: at-trading
-published: true
-
-guest: false
-sponsored: false
-stories: true
+layout:     at-trading
+published:  true
+pinned:     false
+guest:      false
+sponsored:  false
+stories:    true
 
 date: 2018-09-29 14:43:00 +0700
 
@@ -38,13 +38,13 @@ tags: ["cryptotrading", "trading-blog"]
 chart: []
 
 series: ScriptSpotlight
-pinned: yes
 #canonical: "https://www.thebusinessofcrypto.com/articles/etheremon-kyber-network/"
 
 related:
+- {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}
+- {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
 - {"Cryptocurrencies Trading Blog on AltcoinTrading.NET": "/blog/trading/"}
 - {"Fulcrum Bottom: A proper way to identify it": "/strategy/fulcrum-bottom/"}
-- {"List of No-ICO Tools for Crypto Traders and Investors": "/tools/"}
 
 ---
 
