@@ -5,7 +5,7 @@ comments: false
 
 layout: security
 title: "Storing cryptocurrency wallets on virtual machines"
-description: "How to use Virtualbox for your altcoin wallets or not very much trusted wallets storing forked coins."
+description: "Guide on how to use Virtualbox to store your crypto, and how safe it is for new cryptocoin wallets or forks that are not trusted."
 tags:
 - "bitcoin-fork"
 - "virtualbox"
@@ -18,10 +18,9 @@ slug: virtualbox
 image:
 - "/editorial/bagholders.jpg"
 image_alt:
-- "How to use Virtualbox for altcoin wallets. Bagholders image via Pexels."
+- "How to use Virtualbox for crypto wallets. Bagholders image via Pexels."
 
 date: 2017-12-15 12:22:00 +0700
-update: 2017-12-15 16:31:00 +0100
 
 ---
 

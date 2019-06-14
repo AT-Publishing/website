@@ -2,11 +2,13 @@
 layout: at-trading
 published: true
 guest: false
+pinned: no
+note: 'Trading Strategy'
 
-date: 2018-12-05 10:31:00 +0100
+date: 2019-06-14 00:31:00 +0100
 
-title: "Crypto Trading Vs Forex Trading: Which One is Better?"
-description: "Ultimately, it’s about picking the right battles."
+title: "Crypto vs Forex Trading: Which One is Better?"
+description: "Are you better off trading bitcoin or forex? Ultimately, it’s about picking the battles, and the right trading strategy."
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -24,12 +26,12 @@ german: false
 cz: false
 
 image:
-- "/editorial/black-and-white-people-bar-men.jpg"
+- "/editorial/crypto-forex-comparing-differences.jpg"
 image_alt:
-- "Crypto Trading Vs Forex Trading: Which One is Better?"
+- "Crypto vs Forex Trading: Which One is Better?"
 
 categories: ["trading"]
-tags: [ "crypto-trading", "business-of-crypto", "forex-trading"]
+tags: [ "crypto-trading", "business-of-crypto", "forex-trading", "trading-strategy"]
 chart: []
 
 
@@ -41,13 +43,33 @@ related:
 
 ---
 
-This is one of the most common questions asked by newbie financial traders in the present day. 2017 was a breakthrough year for Bitcoin and cryptocurrencies in general. The sudden surge in the price of Bitcoin placed cryptocurrency on the radar of all individuals that like to invest their money in burgeoning, immature markets.
+"Should I move from forex market to crypto?" This has been one of the most common questions asked by forex traders, especially since the boom of cryptocurrencies in late 2017.
 
-If you are wondering whether or not you should stick with [fx trading](https://www.home.saxo/en-gb/products/forex) across hundreds of forex pairs across majors, minors, exotics and metals, or sample the trading of leading cryptocurrencies like Bitcoin and emerging altcoins, we thought we’d outline the pros and cons of both forms of trading to help you make an informed decision on your trading future.
+The year 2017 meant a breakthrough for bitcoin and cryptocurrencies. Along with the wild changes in prices on the market, the business of crypto trading grew accordingly.
 
-## The pros and cons of cryptocurrency trading
+Bitcoin and cryptocurrencies suddenly moved from a niche curiosity that survives thanks to obscure online forums to the radar of everybody who invests or trades on the markets.
 
-Just in case you are entirely new to the concept of cryptocurrencies, these refer to a medium of digital assets that utilize complex algorithms and cryptography to generate and verify transactions involving these assets.
+### The Difference between Forex and Crypto Market
+
+If you were previously [fx trading](https://www.home.saxo/en-gb/products/forex), cryptocurrencies in their early stage probably weren't attractive to you. You were used to the access to hundreds of forex pairs across majors, minors, exotics and metals. There was enough fun.
+
+If you out of curiosity still made the decision to sample the trading of Bitcoin, other leading leading or even emerging altcoins, you must have noticed how different even the most mature among the crypto markets are from forex.
+
+**In the next section we’ll be comparing the differences, pros and cons of forex and crypto trading to help you make an informed decision on your trading future.**
+
+If instead of that you want to delve deeper into the technical analysis tools crypto traders like to use, here is a few options:
+
+* [Ichimoku Cloud](/ichimoku-cloud/): The indicator was adopted from stock market for crypto markets that don't close for the weekends, and so Ichimoku Cloud as an indicator that works with timespans often gets used with crypto-specific settings.
+* [Wyckoff trading](/strategy/wyckoff-ranging-markets): Wyckoff method is used in stock markets rather than in forex trading because they tend to have stronger directional trends with the occasional range, and at least until this point cryptocurrencies have been similar in that. To a technical forex trader, learning about Wyckoff could be quite useful.
+* [Orderbook heatmaps & Co](/strategy/scalping): On the contrary to Wyckoff, scalping in crypto will be in some way similar to the gist of fast-paced forex trading. In crypto though, we have better and more accessible advanced tools for short-term trading strategies.
+
+## Forex vs. Bitcoin and Crypto Trading
+
+Just in case you are entirely new to the concept of cryptocurrencies, these refer to a medium of digital assets that utilize algorithms and cryptography to generate and verify transactions of value.
+
+Some cryptoassets are used primarily as money, some primarily as technical platforms.
+
+Nonetheless, even in 2019 the crypto market is still not evolved and stratified enough to make it reasonable to consider altcoin markets separately from bitcoin markets.
 
 ### Pros of cryptocurrency trading
 
@@ -55,27 +77,39 @@ Just in case you are entirely new to the concept of cryptocurrencies, these refe
 * Cryptos offer effective diversification and hedging opportunities – financial traders concerned about the value of forex pairs or government bonds can buy cryptocurrencies as an effective way to spread risk or hedge your existing trading portfolio.
 * It’s the future of currencies – cryptocurrencies are actually being developed to solve real-world problems for citizens worldwide. It can guard against high inflation, capital controls and extortionate banking fees.
 
-### Cons of cryptocurrency trading
+### Crypto Trading: Pros and Cons
 
-* Lack of historical data – given that cryptocurrencies are very new to trading markets, there is not enough historical data for traders to use as key support and resistance levels.
-* Volatility – some financial traders like price volatility, but some might say that cryptocurrencies are too volatile and represent an almighty challenge when finding suitable entry and exit points.
-* Uncertain market sentiment – although cryptos were on an uptrend in 2017, they have certainly been on [a downtrend](https://www.trustnodes.com/2018/11/29/downtrend-has-faded-out-says-this-weeks-crypto-technical-analysis) in 2018. It’s hard to know where they’ll head next.
+> pros
 
-*If you care for high leveraged crypto trading, you're probably looking for [BitMEX](http://bit.ly/melancholic-100x) as well, keep your cool though.*
+* **The gains.** We might as well face it that the gains some people made on the crypto markets from a tiny starting bank would be extremely unlikely to ever happen in forex. Trading cryptocurrencies has been a lucrative proposition for investors that know the right time to enter and exit the markets. However, remember that there have been just as many losses.
+* **The same level of leverage as in forex, except on markets with far more pronounced moves.** Leveraged trading can cause a lot of damage. On the other hand, the completely free accessibility of leverage up to 100x on platforms like [BitMEX](http://bit.ly/melancholic-100x) that don't even require you to state your name open up a host of possibilities. You can open [straddle positions](https://www.investopedia.com/terms/s/straddle.asp) or set up risk-free collecting of swap funding payments. Remember that you need to have discipline and keep your cool though.
+* **Availability of lending.** Staying with the previous points, the range of the possibilities depends on your location but in general you can decide to lend your crypto or fiat currencies in a more or less unregulated way. The lack of regulation also means lower costs of running business because there is less need for lawyers and insurers, and therefore the trading fees and other costs that eat from your profits are lower than on regulated markets.
 
-## The pros and cons of forex trading
 
-Trading fiat currencies has been a lucrative proposition for investors that know the right time to enter and exit the markets. However, there are several pitfalls too which we’ll explore below.
+> cons
 
-### Pros of forex trading
+* **Lack of historical data.** Cryptocurrency markets are very new, their valuation has been changing explosively in both directions and excluding peer-to-peer, during the first few years crypto trading was isolated to a single trading platform. For anyone trying to backtest a trading algo or just learn about typical market patterns, there is not enough historical data to use as key support and resistance levels.
+* **Cryptocurrencies are more volatile.** Some traders like price volatility - some even trade volatility rather than price direction. But some might say that cryptocurrencies are too volatile and it's an almighty challenge to find suitable entry and exit points.
+* **Strong influence of the unpredictable market sentiment.** Cryptos were on an uptrend in 2017 and then they  swapped to a downtrend in 2018. This rather normal occurrence had many call the end of cryptocurrencies, not to mention the endless news about which country is trying to ban crypto again this week.
 
-* 24-hour accessibility – five days a week, forex traders can enjoy 24-hour access to all forex pairs with real-time pricing, charts and tools available for deployment.
-* Market leverage – depending on the broker, some forex traders can [use leverage](https://www.investopedia.com/articles/forex/07/forex_leverage.asp) to maximize trading profits by up to 100 times their actual trading bank.
-* Unrivaled liquidity – the forex market is undoubtedly the most liquid market in financial trading; it is the easiest market to open and close trades with speed.
 
-### Cons of forex trading
+### Forex Trading: Pros and Cons
 
-* Not ideal for smaller trading banks – in truth, forex trading is largely made up of sizable hedge funds and trading groups. Given the small percentage moves on forex pairs, you need a sizable trading bank to generate respectable returns.
-* Unpredictable volatility – forex markets can be just as volatile as cryptocurrencies; there are moments of extreme volatility at times, particularly surrounding political events.
+> pros
 
-**In truth, there is a place for crypto and forex trading in all our trading arsenals. Ultimately, it’s about picking the right battles and knowing the right time to use them when the risk factors are on your side.**
+* **24-hour accessibility on work days**. Forex traders can enjoy 24-hour access to all forex pairs with real-time pricing, charts and tools during the work week. In many ways it can be good to have a weekend, if only to plan with a clear head what to do on  market open.
+* **Market leverage.** Forex has been known for tight ranges and therefore the widespread [use of leverage](https://www.investopedia.com/articles/forex/07/forex_leverage.asp) to maximize trading profits. Common forex leverages are up to 100x, depending on your broker.
+* **Unrivaled liquidity.** The forex market is undoubtedly the most liquid market in financial trading; it is the easiest market to open and close positions with speed.
+
+> cons
+
+* **Forex is not ideal for smaller trading banks.** In truth, the forex market is largely made up of hedge funds and trading groups. Given the small percentage moves on forex pairs, you need a sizable trading bank to generate respectable returns.
+* **Unpredictable volatility.** Forex markets are called "legacy" which implies something stable, but they can be just as volatile as cryptocurrency markets. Indeed there are moments of extreme volatility in forex, particularly surrounding political events.
+
+**In truth, there is a place for crypto and forex trading in all our trading arsenals.** Do not expect to come from forex markets, apply your usual forex trading strategy in crypto, walk away with millions after a week and retire early.
+
+Crypto markets are different from forex markets, even though cryptos are also currencies.
+
+On the other hand, non-directional strategies that minimize your risk are available far more easily and at less costs on the crypto markets - it is just human nature that this lack of constraints also attracts foolish risking.
+
+**Ultimately, it’s about picking the right battles and knowing the right time to use them when the risk factors are on your side.**

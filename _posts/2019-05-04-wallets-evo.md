@@ -34,6 +34,7 @@ tags: ['jaxx', 'exodus', 'ledger', 'trezor', 'electrum', 'mymonero', 'business-o
 chart: []
 
 related:
+- {"Are you better off trading bitcoin or forex?": "/crypto-trading-vs-forex-trading-review/"}
 - {"All Crypto Security Primers on AltcoinTrading.NET": "/security/"}
 - {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
 - {"Best Altcoin Wallets (2019)": "/altcoin-wallets/"}
