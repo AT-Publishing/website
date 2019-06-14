@@ -71,12 +71,6 @@ Some cryptoassets are used primarily as money, some primarily as technical platf
 
 Nonetheless, even in 2019 the crypto market is still not evolved and stratified enough to make it reasonable to consider altcoin markets separately from bitcoin markets.
 
-### Pros of cryptocurrency trading
-
-* Bitcoin is starting to build its own history – the leading cryptocurrencies like Bitcoin and Ethereum are only now starting to create their own piece of history in the financial markets. Use cases for these crypto coins are increasing by the day, so there will naturally be a surge in demand.
-* Cryptos offer effective diversification and hedging opportunities – financial traders concerned about the value of forex pairs or government bonds can buy cryptocurrencies as an effective way to spread risk or hedge your existing trading portfolio.
-* It’s the future of currencies – cryptocurrencies are actually being developed to solve real-world problems for citizens worldwide. It can guard against high inflation, capital controls and extortionate banking fees.
-
 ### Crypto Trading: Pros and Cons
 
 > pros
@@ -105,6 +99,8 @@ Nonetheless, even in 2019 the crypto market is still not evolved and stratified 
 
 * **Forex is not ideal for smaller trading banks.** In truth, the forex market is largely made up of hedge funds and trading groups. Given the small percentage moves on forex pairs, you need a sizable trading bank to generate respectable returns.
 * **Unpredictable volatility.** Forex markets are called "legacy" which implies something stable, but they can be just as volatile as cryptocurrency markets. Indeed there are moments of extreme volatility in forex, particularly surrounding political events.
+
+## Comparing the Opportunities on Forex and Crypto Markets
 
 **In truth, there is a place for crypto and forex trading in all our trading arsenals.** Do not expect to come from forex markets, apply your usual forex trading strategy in crypto, walk away with millions after a week and retire early.
 
