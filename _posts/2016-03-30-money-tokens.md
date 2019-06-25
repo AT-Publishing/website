@@ -16,9 +16,10 @@ image_alt:
 comments: true
 
 related:
-- {"Alphabay's adoption of ETH in 2017 suggested a shift of ETH to its use for payments": "/zoe-ethereum-alphabay/"}
-- {"Ripple vs Stellar: Comparison": "/ripple-vs-stellar/"}
+- {"Technical Analysis - How to treat divergences in your trading strategy": "/divergences/"}
 - {"The Stability of Stablecoins (Analysis)": "/stability-of-stablecoins/"}
+- {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
+
 ---
 
 The fundamental value of altcoins derives from their usage, as it is with any cryptocurrency. As the blockchain space grows though, frameworks are being developed to categories different types of cryptoassets which makes the assessment of fundamentals clearer. This is not done by crypto-hipsters for fun, a clear framework is needed so that regulatory organs can make decisions on how to regulate which asset.

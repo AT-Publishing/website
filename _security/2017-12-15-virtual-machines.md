@@ -22,6 +22,12 @@ image_alt:
 
 date: 2017-12-15 12:22:00 +0700
 
+
+related:
+ - {"Technical Analysis - How to treat divergences in your trading strategy": "/divergences/"}
+ - {"No-ICO projects": "/category/no-ico/"}
+ - {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
+
 ---
 
 > If you are installing wallets that you do not trust very much (as with Bitcoin forks) you should do that on a separate device. But at the current rate you will soon run out of devices.

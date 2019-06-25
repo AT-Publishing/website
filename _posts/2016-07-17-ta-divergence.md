@@ -36,7 +36,7 @@ about:
 related:
  - {"Technical Analysis - What to use for crypto trading": "/technical-analysis/"}
  - {"No-ICO projects": "/category/no-ico/"}
- - {"Ichimoku cloud - Basics": "/ichimoku-cloud/"}
+ - {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
 ---
 
 #### What are divergences in trading?
