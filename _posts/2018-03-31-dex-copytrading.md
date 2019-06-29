@@ -1,7 +1,7 @@
 ---
 published: true
 
-layout: forestry
+layout: at-trading
 guest: false
 
 date: 2018-03-31 23:58:00 -0300
@@ -21,7 +21,6 @@ genres: Blog
 tickers: false
 
 permalink: dex-copytrading/
-german: false
 cz: false
 
 image:

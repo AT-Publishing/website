@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Best Altcoin Exchanges, Tried and True"
 guide: yes
 

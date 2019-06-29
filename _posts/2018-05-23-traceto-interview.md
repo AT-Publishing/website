@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -20,7 +20,6 @@ genres: Blog
 tickers: false
 
 permalink: traceto-interview/
-german: false
 cz: false
 
 image:
@@ -63,7 +62,7 @@ Chionh Chye Kit is the Founder and CEO of **traceto.io**, a decentralized KYC pl
 * Human verifiers must stake the network utility token (T2T) in order to be able to participate in the verification process, which creates the incentive for them to behave honestly - either they earn T2T or they lose their stake.
 * Companies that provide services for the end users, such as cryptocurrency trading platforms, may request access to KYC information about their customers. The customer has prerogative whether or not to grant his KYC information to the requesting platform.
 
-The main competitors of traceto.io are Civic, uPort and Selfkey. If you care to make an informed opinion, the [traceto.io whitepaper](https://traceto.io/static/wp/traceto_Whitepaper_v1_35_en.pdf) is well constructed, understandable and does cover the differences between traceto.io and its competitors.
+The main competitors of traceto.io are Civic, uPort and Selfkey. If you care to make an informed opinion, the traceto.io whitepaper is well constructed, understandable and does cover the differences between traceto.io and its competitors.
 
 ##### Chionh Chye Kit:
 ## "The regulatory standards in the crypto-world will only become more stringent."
@@ -128,8 +127,6 @@ The credit assessment is a feature planned for a more distant phase in our roadm
 
 We will not share this information without first obtaining explicit permission from the user and the relevant business we work with.
 
-
-<a href="https://sg.linkedin.com/in/chionhchyekit"><i class="fa fa-linkedin-square fa-2x"></i> Chionh Chye Kit on LinkedIn</a>
 
 <a href="https://twitter.com/tracetoio"><i class="fa fa-twitter-square fa-2x"></i> Official Twitter account of traceto.io</a>
 

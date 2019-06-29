@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: false
 guest: false
 
@@ -16,7 +16,6 @@ genres: Blog
 tickers: false
 
 permalink: lightning-network-vs-raiden/
-german: false
 cz: lightning-network-vs-raiden
 
 

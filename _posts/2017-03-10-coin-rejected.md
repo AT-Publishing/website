@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Bitcoin ETF rejected, Ethereum ETF is probably off the table too"
 description: "The proposed BTC ETF was rejected by the SEC because of lack of regulations in crypto exchanges - a reason that holds true for Ethereum too"
 categories:
@@ -11,7 +11,6 @@ image:
 image_alt:
 - "Cryptocurrencies are not going to be part of the mainstream finance for now."
 update: 2017-03-10
-german: false
 published: true
 comments: true
 stories: true

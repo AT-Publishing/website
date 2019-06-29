@@ -21,7 +21,6 @@ tickers: false
 note: 'User Guide'
 
 permalink: crypto-storage-for-traders/
-german: false
 cz: false
 
 image:

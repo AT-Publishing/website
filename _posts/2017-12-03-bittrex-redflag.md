@@ -16,14 +16,13 @@ stories: false
 note: 'Red Flag'
 noteclass: 'bg-red'
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Something rotten: Strange actions from Bittrex"
 description: "Bittrex representatives reached out to the admins of the innoficial r/bittrex subreddit to threaten with legal action."
 
 permalink: red-flag-bittrex/
-german: false
 
 image: ["/editorial/joke.jpg", "/features/redflag/bittrex-dec2017.png"]
 image_alt: ["Bittrex demands the r/bittrex to be shut down. Joke image from Pexels."]

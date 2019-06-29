@@ -23,7 +23,6 @@ genres: Blog
 tickers: false
 
 permalink: interview-andrew-gazdecki/
-german: false
 cz: false
 
 image:

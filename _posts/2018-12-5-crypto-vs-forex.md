@@ -22,7 +22,6 @@ genres: Blog
 tickers: false
 
 permalink: crypto-trading-vs-forex-trading-review/
-german: false
 cz: false
 
 image:

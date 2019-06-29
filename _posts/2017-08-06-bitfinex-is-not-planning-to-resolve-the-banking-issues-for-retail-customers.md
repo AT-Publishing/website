@@ -1,7 +1,6 @@
 ---
-layout: forestry
+layout: at-trading
 permalink: bitfinex-banking/
-german:  "bitfinex-banking"
 
 published: true
 comments: false

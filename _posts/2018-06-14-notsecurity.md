@@ -20,7 +20,6 @@ genres: Blog
 tickers: true
 
 permalink: sec-cryptocurrencies-not-securities-market-rebound/
-german: false
 cz: false
 
 image:

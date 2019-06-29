@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Avoidance Strategy in Altcoin Trading"
 description: "The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies?"
 categories:
@@ -13,7 +13,6 @@ image:
 image_alt:
 - "Altcoin trading strategy: Wyckoffian avoidance?"
 update: 2017-03-09
-german: "wyckoff/"
 published: true
 
 comments: false

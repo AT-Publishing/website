@@ -19,7 +19,6 @@ stories: false
 note: 'User Guide'
 genres: Blog
 
-german: false
 tickers: false
 
 title: "New cryptocurrency exchanges for trading in 2018"

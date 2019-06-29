@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 
 published: true
 
@@ -20,7 +20,6 @@ note: 'Feature'
 genres: Blog
 
 permalink: altcoinio/
-german: false
 cz: altcoinio
 
 tickers: false

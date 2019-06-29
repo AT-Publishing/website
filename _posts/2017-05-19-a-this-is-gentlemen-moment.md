@@ -1,6 +1,5 @@
 ---
-layout: forestry
-german: false
+layout: at-trading
 published: false
 comments: true
 stories: true

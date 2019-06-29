@@ -23,7 +23,6 @@ genres: Blog
 tickers: false
 
 permalink: etheremon-kyber-network/
-german: false
 cz: false
 
 image:

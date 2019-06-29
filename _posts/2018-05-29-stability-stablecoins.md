@@ -22,7 +22,6 @@ genres: Blog
 tickers: false
 
 permalink: stability-of-stablecoins/
-german: false
 cz: false
 
 image:

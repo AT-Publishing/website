@@ -14,14 +14,13 @@ comments: false
 stories: true
 genres: Blog
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Tether Emergency Notice"
 description: "This is your captain speaking: There is absolutely no cause for alarm."
 
 permalink: tether-hack/
-german: false
 
 image: ["/editorial/peanuts2.jpg"]
 image_alt: ["This is your captain speaking: There is absolutely no cause for alarm. Peanuts image via Pexels."]

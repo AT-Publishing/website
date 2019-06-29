@@ -15,14 +15,13 @@ stories: true
 #note: 'User Guide'
 genres: Blog
 
-layout: forestry
+layout: at-trading
 tickers: ['BTGUSD']
 
 title: "Bitcoin Gold: Why is it getting dismissed so fast?"
 description: "Bitcoin Gold is one of the recent bitcoin forks. Ridden with controversy and skepticism - but relevant."
 
 permalink: bitcoin-gold/
-german: false
 
 image: ["/editorial/freelunch1.jpg"]
 image_alt: ["Free Lunch via Pexels"]

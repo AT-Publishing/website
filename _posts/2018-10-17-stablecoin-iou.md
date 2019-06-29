@@ -20,7 +20,6 @@ genres: Blog
 tickers: false
 
 permalink: iou-stablecoins-potential/
-german: false
 cz: false
 
 image:

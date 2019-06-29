@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 
 published: true
 
@@ -18,7 +18,6 @@ note: 'Feature'
 genres: Blog
 
 permalink: tensorcharts/
-german: false
 cz: tensorcharts
 
 tickers: false
@@ -50,7 +49,7 @@ about:
 
 related:
  - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
- - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping/"}
+ - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping"}
  - {"No-ICO projects": "/category/no-ico/"}
  - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
 ---
@@ -164,15 +163,3 @@ However, even the free version of tensor charts can give a trader quite a good e
 * Tensorcharts on Twitter: [@tensorcharts](https://twitter.com/tensorcharts)
 * Tensorcharts on [Youtube](https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g)
 * Post about Tensorcharts on [ProductHunt](https://www.producthunt.com/posts/tensorcharts)
-
-**Some Background, if you are interested**
-
-The platform was originally built using collateral data from the developer's other project.
-
-The other project is called [cointerminal.io](https://cointerminal.io/). There is another project named [CoinTerminal which is a news aggregator](https://site.cointerminal.co/) like Bloomberg terminal for cryptocurrencies, it is a paid one and has nothing to do with cointerminal.io.
-
-{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
-
-[Cointerminal.io](https://cointerminal.io/) is focused on market statistics. You can choose your favourite cryptocurrencies and get price development by 1H, 4H, 1D and 15D and also an indicator overview (MACD, RSI). There are price alerts and also a trading interface where you will be able to connect to cryptocurrency exchanges via API - cointerminal.io will be a paid service and tensor charts should be available in the PRO version.
-
-The charts from the standard version are about as good as cryptowatch. They have the option to switch between candles and Heikin-Ashi and include set of the most used indicators (MACD with a divergence callout) when you click on "Analysis". A lot of these functionalities are still under development but you can already sign up to see it for yourself - it's all still free but limited. Here are two invite codes: `q7zg46fu`, `ogsqr1b9`.

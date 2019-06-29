@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: true
 
@@ -19,7 +19,6 @@ genres: Blog
 tickers: false
 
 permalink: twitter-crypto-ban-info/
-german: false
 cz: false
 
 image:

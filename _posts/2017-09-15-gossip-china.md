@@ -5,8 +5,7 @@ comments: true
 identifier: "chinagossip"
 
 
-layout: forestry
-german: false
+layout: at-trading
 stories: true
 genres: Blog
 tickers: false

@@ -22,7 +22,6 @@ genres: Blog
 tickers: false
 
 permalink: scriptspotlight-a-d-levels/
-german: false
 cz: false
 
 image:

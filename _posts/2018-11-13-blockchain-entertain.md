@@ -21,7 +21,6 @@ genres: Blog
 tickers: false
 
 permalink: blockchain-entertainment-industry/
-german: false
 cz: false
 
 image:

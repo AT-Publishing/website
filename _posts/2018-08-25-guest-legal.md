@@ -20,7 +20,6 @@ genres: Blog
 tickers: false
 
 permalink: how-blockchain-disrupts-legal/
-german: false
 cz: false
 
 image:

@@ -17,14 +17,13 @@ genres: Blog
 note: PSA
 #noteclass: 'bg-red'
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "CEX.IO Not Accepting New Users for the Time Being"
 description: "The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform."
 
 permalink: cex-io-registrations/
-german: false
 
 image: ["/features/cexio-registration.png"]
 image_alt: ["The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform."]

@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -19,7 +19,6 @@ genres: Blog
 tickers: true
 
 permalink: millennials-bitcoin-valuation/
-german: false
 cz: false
 
 image:

@@ -20,7 +20,6 @@ tickers: false
 note: 'Fundamentals'
 
 permalink: fundamentals-mining-hashrate-vs-price/
-german: false
 cz: false
 
 image:

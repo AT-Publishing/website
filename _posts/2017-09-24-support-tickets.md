@@ -1,7 +1,7 @@
 ---
 published: true
 
-layout: forestry
+layout: at-trading
 
 stories: true
 genres: Satire
@@ -9,7 +9,6 @@ genres: Satire
 comments: true
 identifier: 'customersupportzen'
 
-german: false
 tickers: false
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof

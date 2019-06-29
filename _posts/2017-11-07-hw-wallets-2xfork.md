@@ -15,14 +15,13 @@ stories: true
 #note: 'User Guide'
 genres: Blog
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Hardware wallets and Bitcoin SegWit2x Fork: Ledger vs Trezor"
 description: "Both of the top hardware wallet companies have published their stances on the upcoming Bitcoin fork and how they will deal with the missing replay protection."
 
 permalink: segwit2x-ledger-trezor/
-german: "segwit2x-ledger-trezor"
 
 image:
 - "/editorial/keys.jpg"

@@ -20,7 +20,6 @@ genres: Blog
 tickers: false
 
 permalink: tokenization-startup-boost/
-german: false
 cz: false
 
 image:

@@ -24,7 +24,6 @@ comments: true
 identifier: 'localmeth012019'
 
 permalink: localethereum-venezuela-crypto/
-german: false
 cz: false
 
 image:

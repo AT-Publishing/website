@@ -13,8 +13,7 @@ comments: false
 stories: true
 genres: Blog
 
-layout: forestry
-german: false
+layout: at-trading
 tickers: false
 
 title: "Bitfinex released statement regarding 2X-coin distribution."

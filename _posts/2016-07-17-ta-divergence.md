@@ -4,7 +4,6 @@ title: "Technical Analysis: Divergences (With a Divergence Cheat Sheet)"
 description: "Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market."
 
 permalink: divergences/
-german: false
 cz: false
 
 image:

@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Monero Wallets in 2018: Finally Some Progress in Light Wallets"
 description: "Updated with overview of Monero smartphone wallets and a way to run the official GUI without your own full node."
 
@@ -11,7 +11,6 @@ categories: ["wallets", "altcoins"]
 tags: [   "monero", "monero-wallets","cryptocurrencies", "hot-wallets"]
 
 permalink: monero-wallet/
-german: false
 cz: false
 
 image:

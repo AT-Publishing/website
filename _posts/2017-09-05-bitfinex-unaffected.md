@@ -1,12 +1,11 @@
 ---
-layout: forestry
+layout: at-trading
 
 
 comments: true
 identifier: "shitfinexunaffected"
 
 
-german: false
 published: true
 stories: true
 genres: UserGenerated

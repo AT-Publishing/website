@@ -1,0 +1,840 @@
+Configuration file: /Users/jmt/Dropbox/publishing/www.at.net/_config.yml
+            Source: /Users/jmt/Dropbox/publishing/www.at.net
+       Destination: /Users/jmt/Dropbox/publishing/www.at.net/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 71.439 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+Running ["LinkCheck", "ScriptCheck", "ImageCheck"] on ["./_site"] on *.html...
+
+
+Checking 1885 external links...
+Ran on 187 files!
+
+
+- ./_site/2019/06/29/2017-10-06-reftoken.html
+  *  External link https://angel.co/jan-sammut failed: 403 No error
+  *  External link https://cryptoinsider.com/smart-contracts-real-businesses-banks/ failed: 503 No error
+  *  External link https://ethereumfoundation.org/devcon3/ failed: got a time out (response code 0)
+  *  External link https://nitrogensports.eu/r/2534547 failed: 403 No error
+  *  External link https://www.crunchbase.com/organization/reftoken failed: 403 No error
+  *  External link https://www.linkedin.com/in/alexanderanter/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/christianellul/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/desmondmarshall/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/illvillja/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/jansammut/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/johannbarbie/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/lastperson/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/manuelgranadosramirez/ failed: 999 No error
+  *  anchor has no href attribute (line 80)
+     <a target="_blank" href="" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+- ./_site/about-legal/index.html
+  *  internally linking to /fibs/daily, which does not exist (line 682)
+     <a href="/fibs/daily">market news commentary</a>
+- ./_site/airdrop-archive/index.html
+  *  External link http://airdrop.eatchain.tech/?ref=a3349738e7eead18f195d75c7f3ce7a8 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link http://bef.latoken.com/lamoneda-airdrop failed: 503 No error
+  *  External link http://bit.ly/2GZEZTm failed: 301 Peer certificate cannot be authenticated with given CA certificates
+  *  External link http://bit.ly/2RHzKJr failed: 503 No error
+  *  External link http://bit.ly/2Sjn5Sb failed: 404 No error
+  *  External link http://bit.ly/2WqFp9L failed: 301 Couldn't resolve host name
+  *  External link http://bit.ly/2t6xeTd failed: 503 No error
+  *  External link http://btcgpu.org/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link http://dontoshi.com/ failed: got a time out (response code 0)
+  *  External link http://eatchain.tech/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link http://hempcoin.org/THC.pdf failed: 404 No error
+  *  External link http://itis.network/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link http://privcy.io failed: got a time out (response code 301)
+  *  External link http://promo.latoken.com/coban-airdrop failed: 503 No error
+  *  External link http://www.c4f.io?bid=1901242 failed: got a time out (response code 301)
+  *  External link http://www.lendbtc.io?ref=idk222 failed: got a time out (response code 0)
+  *  External link http://www.sohu.world/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link http://www.tokendesk.io/airdrop/ failed: 404 No error
+  *  External link https://aiodex.com/vote/coin/5b6c8eedd6ab6474e6e9e584 failed: 503 No error
+  *  External link https://air.kamentoken.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://airdrop.gladius.io/?ref=9T6HDOK4DMEOKG9G failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://airdropx.com/en/zed-network/?referer=D0JUY6AHSRUV failed: got a time out (response code 0)
+  *  External link https://athero.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://bounty.chiliz.com/7670/5563888 failed: 404 No error
+  *  External link https://bytomgold.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://coinfocus.today/c/IFUM/4055?lang=en failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://coinweb.io/files/coinweb_litepaper.pdf failed: 404 No error
+  *  External link https://cryptodisrupt.com/orbis-airdrop/ failed: 404 No error
+  *  External link https://dashboard.vanig.io/?ref=35ff245e failed: 525 No error
+  *  External link https://devcrypt.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://dividends3d.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://docs.google.com/forms/d/1HPSJ-wo9s-xkEbVj4nJRw1v2ph4wG9HxyGUVHR9RuPI/viewform?edit_requested=true failed: 404 No error
+  *  External link https://docs.google.com/forms/d/e/1FAIpQLSci9sIThyLZmDze0IAqGc6sS8scyQW89nt8PqJ4q02lVKyMqA/viewform failed: 404 No error
+  *  External link https://docs.google.com/forms/d/e/1FAIpQLSeLFHLbYhP82AY_oE6geKtjfePhza_YO1T33D1Itl2ag5bYwQ/viewform?c=0&w=1 failed: 404 No error
+  *  External link https://docs.google.com/forms/d/e/1FAIpQLSepofchOwMutiVjH25NYe_WVN7np0YerP5O1DCl9o1b_kUG1A/viewform failed: 404 No error
+  *  External link https://e-ver.io/ failed: got a time out (response code 0)
+  *  External link https://einax.com/ failed: 503 No error
+  *  External link https://ethereumkey.org/registration.php?r=altcointradingnet failed: got a time out (response code 0)
+  *  External link https://exitoken.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://exitoken.co/Referral/?grsf=nfhdop failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://fluxproject.xyz/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://getvipe.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://getvipe.com/airdrop.pdf failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://github.com/semuxproject/semux/releases failed: 404 No error
+  *  External link https://gnixcoin.org/?mref=gnixcoin failed: 404 No error
+  *  External link https://huapupay.com/airdrop1.html failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://invite.sohu.world/?code=Kolv1409wV failed: got a time out (response code 0)
+  *  External link https://jullar.io/airdrop/8696 failed: got a time out (response code 0)
+  *  External link https://kamentoken.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://medium.com/iryo-network/iryo-airdrop-walkthrough-16dc6d6f946d failed: 404 No error
+  *  External link https://medium.com/orbis-web/introducing-our-token-its-utility-194b1d46beb9 failed: 404 No error
+  *  External link https://munchcoin.airdropmadness.com/?refer=341 failed: 525 No error
+  *  External link https://nutriocoin.co/ failed: got a time out (response code 0)
+  *  External link https://referral.iost.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://referral.rewardstoken.io?kid=PK4RA failed: 404 No error
+  *  External link https://register.nutriocoin.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://synchrotroncoin.org failed: 403 No error
+  *  External link https://t.icoref.link/click?pid=1915&offer_id=10 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://topl.co/onepage failed: 404 No error
+  *  External link https://twitter.com/coin_castile failed: 404 No error
+  *  External link https://vechainclassic.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://www.contractvault.io/airdrop failed: 404 No error
+  *  External link https://www.cryptaldash.com/airdrop?ref=168511 failed: 404 No error
+  *  External link https://www.cryptaldash.com/token?ref=168511 failed: 404 No error
+  *  External link https://www.cryptoloans.top/en failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://www.gnixcoin.org/wp-content/uploads/2018/05/Whitepaper-Gnixcoin.pdf failed: 404 No error
+  *  External link https://www.hubrisone.com/airdrop/ failed: 404 No error
+  *  External link https://www.ibtctoken.com/register.php failed: got a time out (response code 0)
+  *  External link https://www.investfeed.com/trawnetwork failed: 530 No error
+  *  External link https://www.linkedin.com/company/tratok-ltd failed: 999 No error
+  *  External link https://www.lusoco.in/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.mycryptoheroes.net/heroes/2001 failed: 404 No error
+  *  External link https://www.nocta.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.projectsdiamond.com/airdrop failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.satowallet.com/app/ failed: 404 No error
+  *  External link https://www.shopiblock.io/ failed: got a time out (response code 0)
+  *  External link https://www.shopiblock.io/airdrop/0xE23eC55ddF7340e210d1F72525a952a967ddc4AB failed: got a time out (response code 0)
+  *  External link https://www.smartdrops.io/flux?referral=flux_12692_30 failed: 503 No error
+  *  External link https://www.touchsocial.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.tradetex.io/user/signup?id=4509&ref_cod=1178538287 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.will-testament.io/airdrop.php failed: 404 No error
+  *  External link https://www.xdac.co/airdrop/ failed: 404 No error
+  *  External link https://xain.supply/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://xiphos.exchange/vote failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://xpetroleum.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  internally linking to www.localcoinswap.com, which does not exist (line 3007)
+     <a target="_blank" href="www.localcoinswap.com">web</a>
+  *  linking to internal hash # that does not exist (line 2562)
+     <a rel="nofollow,noopener" target="_blank" href="#">TBA</a>
+  *  linking to internal hash # that does not exist (line 2373)
+     <a target="_blank" href="#">web</a>
+- ./_site/airdrops/index.html
+  *  External link https://altcointrading.cz/airdropy failed: 404 No error
+  *  External link https://zncoin.io/community/showthread.php?tid=17 failed: got a time out (response code 0)
+- ./_site/all-news/index.html
+  *  internally linking to news@altcointrading.net, which does not exist (line 1)
+     <a target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 1)
+     <a target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to tradingfanbois, which does not exist (line 1)
+     <a target="_blank" href="tradingfanbois">tradingfanbois</a>
+- ./_site/altcoin-analytics-primer-neo/index.html
+  *  External link https://thisisgentlemen.net/forums-predict-bitcoin-price/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+- ./_site/altcoin-exchanges/index.html
+  *  External link https://cryptotradingtools.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't connect to server
+  *  External link https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC failed: 404 No error
+  *  linking to internal hash # that does not exist (line 934)
+     <a href="#">Up</a>
+  *  linking to internal hash # that does not exist (line 814)
+     <a href="#">Up</a>
+  *  linking to internal hash # that does not exist (line 865)
+     <a href="#">Up</a>
+  *  linking to internal hash # that does not exist (line 911)
+     <a href="#">Up</a>
+  *  linking to internal hash # that does not exist (line 965)
+     <a href="#">Up</a>
+- ./_site/altcoin-wallets/index.html
+  *  internally linking to /trezor-multicoin/, which does not exist (line 820)
+     <a href="/trezor-multicoin/">(Read more about that)</a>
+- ./_site/altcoinio/index.html
+  *  External link http://www.preview.altcoin.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://feedback.altcoinexchange.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://testnet.manu.backend.hamburg/faucet failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't connect to server
+- ./_site/altindex/index.html
+  *  External link https://data.altcointrading.net/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://data.altcointrading.net/how/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+- ./_site/assets/vue-spinner/index.html
+  *  internal script build/bundle.js does not exist (line 77)
+  *  internal script node_modules/vue/dist/vue.js does not exist (line 76)
+- ./_site/bakkt-criticism/index.html
+  *  External link https://www.thebusinessofcrypto.com/custody/ failed: 404 No error
+  *  internally linking to /blockchain-tech-companies/, which does not exist (line 1433)
+     <a href="/blockchain-tech-companies/">Database of Blockchain Gaming Startups at The Business Of Crypto</a>
+- ./_site/bcash-rally-november-2017/index.html
+  *  External link https://www.bitcoinabc.org/november failed: 404 No error
+- ./_site/bitcoin-gold/index.html
+  *  External link http://lightningasic.com/ failed: 502 No error
+  *  External link https://bitbay.com failed: got a time out (response code 0)
+  *  External link https://hitbtc.com failed: 403 No error
+- ./_site/bitfinex-banking/index.html
+  *  External link https://whalepool.io/connect/teamspeak failed: 404 No error
+- ./_site/bitfinex-not-affected-pbox-ico/index.html
+  *  External link https://medium.com/@amersonm/bitfinex-platform-may-get-shutdown-effective-immediately-source-chinas-gov-site-people-s-bank-4680b7158960 failed: 404 No error
+- ./_site/bitgur/index.html
+  *  internally linking to news@altcointrading.net, which does not exist (line 739)
+     <a rel="nofollow" target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 791)
+     <a rel="nofollow,noopener" target="_blank" href="news@altcointrading.net">GenericShill</a>
+- ./_site/bitstamp-ethereum/index.html
+  *  image https://www.bitstamp.net/s/email_images/trading-news@2x.png does not have an alt attribute (line 798)
+- ./_site/blackfriday/index.html
+  *  internally linking to /strategy/scalping/, which does not exist (line 840)
+     <a href="/strategy/scalping/">scalping crypto</a>
+- ./_site/blockchain-entertainment-industry/index.html
+  *  External link https://www.fxcm.com/insights/what-are-blockchains-limitations/ failed: 404 No error
+- ./_site/blockstream-lightning-charge/index.html
+  *  internally linking to news@altcointrading.net, which does not exist (line 776)
+     <a rel="nofollow" target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 818)
+     <a rel="nofollow,noopener" target="_blank" href="news@altcointrading.net">GenericShill</a>
+- ./_site/blog/trading/index.html
+  *  internally linking to /blockchain-tech-companies/, which does not exist (line 1)
+     <a href="/blockchain-tech-companies/">Public Directory of Blockchain Tech Startups</a>
+  *  internally linking to /strategy/reversals/, which does not exist (line 1)
+     <a href="/strategy/reversals/">Trading Strategy - On Market Reversals and Psychology</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 1)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 1)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+- ./_site/byteball/index.html
+  *  External link https://wiki.byteball.org/uploads/slackjore/bind-400.png failed: 404 No error
+- ./_site/cakewallet/index.html
+  *  internally linking to news@altcointrading.net, which does not exist (line 763)
+     <a rel="nofollow" target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 801)
+     <a rel="nofollow,noopener" target="_blank" href="news@altcointrading.net">GenericShill</a>
+- ./_site/china-bans-btc-season-3/index.html
+  *  External link https://t.co/J4LrIWsDHq failed: 404 No error
+  *  External link https://twitter.com/_submono/status/908615183857278978 failed: 404 No error
+  *  External link https://www.okcoin.com/t-496.html failed: 404 No error
+- ./_site/coinloop/index.html
+  *  internally linking to tradingfanbois, which does not exist (line 796)
+     <a rel="nofollow" target="_blank" href="tradingfanbois">tradingfanbois</a>
+  *  internally linking to tradingfanbois, which does not exist (line 858)
+     <a rel="nofollow,noopener" target="_blank" href="tradingfanbois">tradingfanbois</a>
+- ./_site/cryptocurrency-debit-card-non-eu/index.html
+  *  External link http://help.shakepay.co/visa-debit-card/how-refunds-will-work failed: 404 No error
+  *  External link http://www.psi-pay.co.uk/product/physical-payment-card failed: 404 No error
+  *  External link https://mychoicecorporate.com/visa-card-issuance-list/ failed: 404 No error
+  *  External link https://wirexapp.com/will-my-wirex-card-still-work-oct-15/ failed: 404 No error
+  *  External link https://worldcore.eu/Prepaid-debit-card failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.coinizy.com/en/knowledge_base/is-available-country failed: got a time out (response code 0)
+- ./_site/cryptocurrency-strategy-beginners/index.html
+  *  internally linking to /strategy/how-to-vet-icos/, which does not exist (line 1289)
+     <a href="/strategy/how-to-vet-icos/">Strategy - How to vet ICOs</a>
+  *  internally linking to /strategy/lending/, which does not exist (line 1285)
+     <a href="/strategy/lending/">Strategy - On Lending</a>
+- ./_site/cryptosignal/index.html
+  *  External link https://news.altcointrading.net/cryptosignal/ failed: 404 No error
+- ./_site/customer-support-zen/index.html
+  *  External link https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c failed: 404 No error
+- ./_site/dao-hack/index.html
+  *  External link https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg failed: 404 No error
+- ./_site/data/sessions/index.html
+  *  internally linking to /blockchain-tech-companies/, which does not exist (line 1)
+     <a href="/blockchain-tech-companies/">Database of Blockchain Gaming Startups at The Business Of Crypto</a>
+  *  internally linking to /strategy/reversals/, which does not exist (line 1)
+     <a href="/strategy/reversals/">Trading Strategy - On Market Reversals and Psychology</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 1)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 1)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+- ./_site/daytrading/index.html
+  *  External link https://bleutrade.com/sign_up/25600 failed: 404 No error
+  *  External link https://btc-e.com failed: got a time out (response code 0)
+  *  External link https://perfectmoney.is/?ref=7622697 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Server returned nothing (no headers, no data)
+  *  External link https://tether.to failed: 503 No error
+  *  linking to internal hash # that does not exist (line 828)
+     <a href="#">Up</a>
+- ./_site/detrended-price-oscillator/index.html
+  *  internally linking to /strategy/scalping/, which does not exist (line 1402)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+- ./_site/dex-copytrading/index.html
+  *  External link https://auroradao.com/assets/Aurora-Labs-Whitepaper-V0.9.5.pdf failed: 403 No error
+  *  External link https://medium.com/paradex/choosing-paradexs-relayer-model-7190414c2aca failed: 404 No error
+  *  External link https://www.anythingcrypto.com/guides/risks-of-trading-bitcoin-on-etoro failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.augmentpartners.com/team failed: 404 No error
+- ./_site/dex-trading/index.html
+  *  External link https://www.preview.altcoin.io/lite-paper.pdf failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/eos/index.html
+  *  External link https://medium.com/@EOS_HelpGuide/eos-purchased-on-exchanges-what-you-need-to-know-updated-15-dec-2017-4a9b39ab42ee failed: 404 No error
+  *  internally linking to /fibs/daily, which does not exist (line 766)
+     <a class="intern" href="/fibs/daily">/fibs/daily</a>
+- ./_site/etheremon-kyber-network/index.html
+  *  internally linking to /blockchain-tech-companies/, which does not exist (line 1323)
+     <a href="/blockchain-tech-companies/">Database of Blockchain Gaming Startups at The Business Of Crypto</a>
+- ./_site/exchange-tos-comparison/index.html
+  *  External link https://support.binance.com/hc/en-us/articles/115000421672-Terms-of-Use failed: 500 No error
+- ./_site/exchanges-2018/index.html
+  *  External link https://bitflip.li/?ref=16sdsmzkzhec failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://coinmate.io/?referral=UVdneFZXd3hiVTVaV2s5YVlXSnNlazV4Um5ScGR3PT0 failed: 503 No error
+  *  External link https://mercatox.com/?referrer=137469 failed: 503 No error
+- ./_site/finexening/index.html
+  *  External link https://fr.linkedin.com/in/raphaelnicolle/en failed: 999 No error
+  *  External link https://www.linkedin.com/in/giancarlo-devasini-2a564682?trk=pub-pbmap failed: 999 No error
+  *  External link https://www.linkedin.com/in/j-l-van-der-velde-26a24b6 failed: 999 No error
+  *  External link https://www.linkedin.com/in/philip-potter-087495a6 failed: 999 No error
+- ./_site/fundamentals-mining-hashrate-vs-price/index.html
+  *  internally linking to /strategy/reversals/, which does not exist (line 1274)
+     <a href="/strategy/reversals/">Trading Strategy - On Market Reversals and Psychology</a>
+- ./_site/how-blockchain-disrupts-legal/index.html
+  *  internally linking to false, which does not exist (line 989)
+     <a href="false"><i class="fa fa-twitter-square fa-2x"></i></a>
+- ./_site/how-to-buy-altcoins/index.html
+  *  External link https://etherdelta.com/ failed: 503 No error
+  *  External link https://liqui.io/ failed: 503 No error
+  *  internally linking to /kraken-cryptowatch/, which does not exist (line 849)
+     <a class="intern" href="/kraken-cryptowatch/">acquired the charting portal Cryptowat.ch</a>
+- ./_site/ichimoku-cloud/index.html
+  *  internally linking to /strategy/reversals/, which does not exist (line 1418)
+     <a href="/strategy/reversals/">Trading Strategy - On Market Reversals and Psychology</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 805)
+     <a href="/strategy/scalping/">scalping crypto</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 1422)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+  *  internally linking to /strategy/wyckoff-ranging-markets/, which does not exist (line 808)
+     <a href="/strategy/wyckoff-ranging-markets/">Wyckoff analysis</a>
+- ./_site/ico-regulations/index.html
+  *  External link https://icoindex-official.herokuapp.com/ failed: 404 No error
+  *  External link https://www.altcointrading.net/ico-2016/ failed: 404 No error
+  *  External link https://www.crunchbase.com/organization/shapeshift#/entity failed: 403 No error
+  *  External link https://www.facebook.com/ICOindex/ failed: 404 No error
+- ./_site/index.html
+  *  linking to /crypto-storage-for-traders/#comments, but comments does not exist (line 1)
+     <a href="/crypto-storage-for-traders/#comments">Comments</a>
+  *  linking to /crypto-trading-vs-forex-trading-review/#comments, but comments does not exist (line 1)
+     <a href="/crypto-trading-vs-forex-trading-review/#comments">Comments</a>
+  *  linking to /cryptocurrency-heists-infographic/#comments, but comments does not exist (line 1)
+     <a href="/cryptocurrency-heists-infographic/#comments">Comments</a>
+  *  linking to /cryptocurrency-strategy-beginners/#comments, but comments does not exist (line 1)
+     <a href="/cryptocurrency-strategy-beginners/#comments">Comments</a>
+  *  linking to /fundamentals-mining-hashrate-vs-price/#comments, but comments does not exist (line 1)
+     <a href="/fundamentals-mining-hashrate-vs-price/#comments">Comments</a>
+  *  linking to /naming-cryptocurrency/#comments, but comments does not exist (line 1)
+     <a href="/naming-cryptocurrency/#comments">Comments</a>
+  *  linking to /samourai-wallet-bitcoin-anonymity/#comments, but comments does not exist (line 1)
+     <a href="/samourai-wallet-bitcoin-anonymity/#comments">Comments</a>
+- ./_site/interview-andrew-gazdecki/index.html
+  *  External link https://tendermint.com/about failed: 404 No error
+  *  internally linking to /blockchain-tech-companies/, which does not exist (line 1478)
+     <a href="/blockchain-tech-companies/">Database of Blockchain Technology Companies at The Business Of Crypto</a>
+- ./_site/ios-dash-wallet-app/index.html
+  *  External link https://itunes.apple.com/us/app/jaxx-blockchain-wallet/id1084514516?mt=8 failed: 404 No error
+- ./_site/iota-snapshots/index.html
+  *  External link http://slack.iota.org/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/korea-missile-cryptocurrency/index.html
+  *  External link https://data.altcointrading.net/img/gold.png failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://data.altcointrading.net/img/usdjpy.png failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://data.altcointrading.net/img/xmr.png failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  image https://data.altcointrading.net/img/gold.png does not have an alt attribute (line 804)
+  *  image https://data.altcointrading.net/img/usdjpy.png does not have an alt attribute (line 808)
+  *  image https://data.altcointrading.net/img/xmr.png does not have an alt attribute (line 814)
+- ./_site/lending-btc-chain-split/index.html
+  *  External link https://1august.org/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/leverj/index.html
+  *  External link https://angel.co/leverj/jobs/ failed: 403 No error
+- ./_site/litecoin-pump/index.html
+  *  External link https://www.quandl.com/data/BTCE/BTCLTC failed: 404 No error
+  *  internally linking to /coin/eth/, which does not exist (line 889)
+     <a href="/coin/eth/">Ethereum</a>
+  *  internally linking to /coin/xmr/, which does not exist (line 889)
+     <a href="/coin/xmr/">Monero</a>
+- ./_site/localethereum-venezuela-crypto/index.html
+  *  internally linking to /strategy/reversals/, which does not exist (line 1547)
+     <a href="/strategy/reversals/">Trading Strategy: Market Reversals and Psychology</a>
+- ./_site/millennials-bitcoin-valuation/index.html
+  *  External link https://www.sifrdata.com/cryptocurrency-correlation-matrix/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+- ./_site/monero-cold-storage/index.html
+  *  internally linking to news@altcointrading.net, which does not exist (line 741)
+     <a rel="nofollow" target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 852)
+     <a rel="nofollow,noopener" target="_blank" href="news@altcointrading.net">GenericShill</a>
+- ./_site/monero-forks-april-2018/index.html
+  *  External link http://monero-original.org/ failed: got a time out (response code 0)
+  *  External link https://feedback.coinfoundry.org/communities/1/topics/691-plans-to-support-monerov failed: 404 No error
+- ./_site/monero-wallet/index.html
+  *  External link https://twitter.com/kimionis/status/954112970338029570 failed: 404 No error
+  *  internally linking to news@altcointrading.net, which does not exist (line 741)
+     <a rel="nofollow" target="_blank" href="news@altcointrading.net">GenericShill</a>
+  *  internally linking to news@altcointrading.net, which does not exist (line 864)
+     <a rel="nofollow,noopener" target="_blank" href="news@altcointrading.net">GenericShill</a>
+- ./_site/page10/index.html
+  *  linking to /dao-hack/#comments, but comments does not exist (line 1)
+     <a href="/dao-hack/#comments">Comments</a>
+  *  linking to /divergences/#comments, but comments does not exist (line 1)
+     <a href="/divergences/#comments">Comments</a>
+  *  linking to /ethereum-etf-unlikely/#comments, but comments does not exist (line 1)
+     <a href="/ethereum-etf-unlikely/#comments">Comments</a>
+  *  linking to /monero-wallet/#comments, but comments does not exist (line 1)
+     <a href="/monero-wallet/#comments">Comments</a>
+  *  linking to /private-altcoins-dash-monero/#comments, but comments does not exist (line 1)
+     <a href="/private-altcoins-dash-monero/#comments">Comments</a>
+- ./_site/page11/index.html
+  *  linking to /altcoin-wallets/#comments, but comments does not exist (line 1)
+     <a href="/altcoin-wallets/#comments">Comments</a>
+  *  linking to /value/#comments, but comments does not exist (line 1)
+     <a href="/value/#comments">Comments</a>
+- ./_site/page2/index.html
+  *  http://#paginated-tradingblog is an invalid URL (line 1)
+     <a href="//#paginated-tradingblog" class="prev">&lt;&lt; Previous</a>
+  *  http://#paginated-tradingblog is an invalid URL (line 1)
+     <a href="//#paginated-tradingblog" class="prev">&lt;&lt; Previous</a>
+  *  linking to /bakkt-criticism/#comments, but comments does not exist (line 1)
+     <a href="/bakkt-criticism/#comments">Comments</a>
+  *  linking to /blockchain-entertainment-industry/#comments, but comments does not exist (line 1)
+     <a href="/blockchain-entertainment-industry/#comments">Comments</a>
+  *  linking to /iou-stablecoins-potential/#comments, but comments does not exist (line 1)
+     <a href="/iou-stablecoins-potential/#comments">Comments</a>
+  *  linking to /openlistings-houses-for-bitcoin/#comments, but comments does not exist (line 1)
+     <a href="/openlistings-houses-for-bitcoin/#comments">Comments</a>
+  *  linking to /retail-buyin-15k-wallets-still-run/#comments, but comments does not exist (line 1)
+     <a href="/retail-buyin-15k-wallets-still-run/#comments">Comments</a>
+  *  linking to /scriptspotlight-a-d-levels/#comments, but comments does not exist (line 1)
+     <a href="/scriptspotlight-a-d-levels/#comments">Comments</a>
+  *  linking to /smart-contract-platforms/#comments, but comments does not exist (line 1)
+     <a href="/smart-contract-platforms/#comments">Comments</a>
+  *  linking to /tokenization-startup-boost/#comments, but comments does not exist (line 1)
+     <a href="/tokenization-startup-boost/#comments">Comments</a>
+- ./_site/page3/index.html
+  *  linking to /how-blockchain-disrupts-legal/#comments, but comments does not exist (line 1)
+     <a href="/how-blockchain-disrupts-legal/#comments">Comments</a>
+  *  linking to /interview-andrew-gazdecki/#comments, but comments does not exist (line 1)
+     <a href="/interview-andrew-gazdecki/#comments">Comments</a>
+  *  linking to /monero-forks-april-2018/#comments, but comments does not exist (line 1)
+     <a href="/monero-forks-april-2018/#comments">Comments</a>
+  *  linking to /sec-cryptocurrencies-not-securities-market-rebound/#comments, but comments does not exist (line 1)
+     <a href="/sec-cryptocurrencies-not-securities-market-rebound/#comments">Comments</a>
+  *  linking to /stability-of-stablecoins/#comments, but comments does not exist (line 1)
+     <a href="/stability-of-stablecoins/#comments">Comments</a>
+  *  linking to /token-marketing-agencies/#comments, but comments does not exist (line 1)
+     <a href="/token-marketing-agencies/#comments">Comments</a>
+  *  linking to /traceto-interview/#comments, but comments does not exist (line 1)
+     <a href="/traceto-interview/#comments">Comments</a>
+  *  linking to /twitter-crypto-ban-info/#comments, but comments does not exist (line 1)
+     <a href="/twitter-crypto-ban-info/#comments">Comments</a>
+- ./_site/page4/index.html
+  *  linking to /bitgur/#comments, but comments does not exist (line 1)
+     <a href="/bitgur/#comments">Comments</a>
+  *  linking to /cakewallet/#comments, but comments does not exist (line 1)
+     <a href="/cakewallet/#comments">Comments</a>
+  *  linking to /dai-stablecoin/#comments, but comments does not exist (line 1)
+     <a href="/dai-stablecoin/#comments">Comments</a>
+  *  linking to /leverj/#comments, but comments does not exist (line 1)
+     <a href="/leverj/#comments">Comments</a>
+  *  linking to /millennials-bitcoin-valuation/#comments, but comments does not exist (line 1)
+     <a href="/millennials-bitcoin-valuation/#comments">Comments</a>
+  *  linking to /tether-subpoena/#comments, but comments does not exist (line 1)
+     <a href="/tether-subpoena/#comments">Comments</a>
+  *  linking to /tools/#comments, but comments does not exist (line 1)
+     <a href="/tools/#comments">Comments</a>
+  *  linking to /weiss-rating/#comments, but comments does not exist (line 1)
+     <a href="/weiss-rating/#comments">Comments</a>
+- ./_site/page6/index.html
+  *  linking to /cryptocurrency-debit-card-non-eu/#comments, but comments does not exist (line 1)
+     <a href="/cryptocurrency-debit-card-non-eu/#comments">Comments</a>
+- ./_site/page7/index.html
+  *  linking to /altcoin-analytics-primer-neo/#comments, but comments does not exist (line 1)
+     <a href="/altcoin-analytics-primer-neo/#comments">Comments</a>
+  *  linking to /bitfinex-not-affected-pbox-ico/#comments, but comments does not exist (line 1)
+     <a href="/bitfinex-not-affected-pbox-ico/#comments">Comments</a>
+  *  linking to /china-bans-btc-season-3/#comments, but comments does not exist (line 1)
+     <a href="/china-bans-btc-season-3/#comments">Comments</a>
+  *  linking to /moving-ltc-p2sh/#comments, but comments does not exist (line 1)
+     <a href="/moving-ltc-p2sh/#comments">Comments</a>
+- ./_site/page9/index.html
+  *  linking to /cryptosignal/#comments, but comments does not exist (line 1)
+     <a href="/cryptosignal/#comments">Comments</a>
+  *  linking to /diversification-craze/#comments, but comments does not exist (line 1)
+     <a href="/diversification-craze/#comments">Comments</a>
+  *  linking to /ico-regulations/#comments, but comments does not exist (line 1)
+     <a href="/ico-regulations/#comments">Comments</a>
+  *  linking to /litecoin-pump/#comments, but comments does not exist (line 1)
+     <a href="/litecoin-pump/#comments">Comments</a>
+  *  linking to /monero-wallet-dummies/#comments, but comments does not exist (line 1)
+     <a href="/monero-wallet-dummies/#comments">Comments</a>
+  *  linking to /peerplays/#comments, but comments does not exist (line 1)
+     <a href="/peerplays/#comments">Comments</a>
+  *  linking to /time-vs-timing/#comments, but comments does not exist (line 1)
+     <a href="/time-vs-timing/#comments">Comments</a>
+- ./_site/peerplays/index.html
+  *  External link http://www.pbsa.info/partners/ failed: 404 No error
+  *  External link https://ca.linkedin.com/in/jonathanbahai failed: 999 No error
+  *  External link https://nl.linkedin.com/in/dan-maloney failed: 999 No error
+  *  External link https://soundcloud.com/beyond-bitcoin-hangouts/e167-beyond-bitcoin-peerplays-update-blockpay-ceo-talks-privacy-faddats-nanochip-implant failed: 404 No error
+  *  External link https://www.peerplays.com/crowdfund/ failed: 404 No error
+  *  External link https://www.peerplays.com/news/primary_crowdfund/ failed: 404 No error
+- ./_site/press/allsporter/index.html
+  *  External link https://twitter.com/0xfunn failed: 404 No error
+  *  External link https://www.linkedin.com/in/michal-polanowski-63699996/ failed: 999 No error
+  *  mailto:false contains an invalid email address (line 918)
+     <a href="mailto:false"><i class="fa fa-envelope fa-2x"></i></a>
+- ./_site/press/coins4favors/index.html
+  *  External link http://www.coins4favors.com/docs/C4F_Whitepaper.pdf failed: got a time out (response code 0)
+  *  External link https://coins4favors.com/ failed: got a time out (response code 0)
+  *  External link https://www.linkedin.com/in/dennis-hillemann-a72b7b121/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/jensschmidt/ failed: 999 No error
+- ./_site/press/crowdif/index.html
+  *  External link https://www.crowdif.com/docs/CrowdIF_Whitepaper.pdf failed: got a time out (response code 0)
+  *  External link https://www.crowdif.com/home/?ref=jmtatnet failed: got a time out (response code 0)
+- ./_site/press/cryptoloans/index.html
+  *  External link https://www.cryptoloans.top/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://www.cryptoloans.top/docs/Cryptoloans_White_Paper_English_Version.pdf failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+- ./_site/press/open-data-echange-token-sale/index.html
+  *  External link https://twitter.com/ODX_Official failed: 404 No error
+  *  External link https://www.crunchbase.com/organization/odx-pte-ltd failed: 403 No error
+- ./_site/press/orbit-p2p-nolimit-gambling-dapp/index.html
+  *  External link https://play.orbit.bet/?ref=0x59FE457281B54040EEeD87a0B23BC41FdD3C9595 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/press/shopiblock/index.html
+  *  External link https://www.linkedin.com/in/%C3%B6zg%C3%BCr-arslan-518a73158/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/benjamin-weber-8920a6159/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/rahel-baumgartner-586a73158/ failed: 999 No error
+  *  External link https://www.linkedin.com/in/serkan-secgin-a37568a2/ failed: 999 No error
+  *  linking to internal hash #https://www.shopiblock.io/ that does not exist (line 890)
+     <a href="#https://www.shopiblock.io/">The Platform Homepage</a>
+  *  linking to internal hash #https://www.shopiblock.io/pdf/Shopiblock_Whitepaper.pdf that does not exist (line 908)
+     <a href="#https://www.shopiblock.io/pdf/Shopiblock_Whitepaper.pdf">The Whitepaper</a>
+- ./_site/press/zilliqa/index.html
+  *  External link https://www.crunchbase.com/organization/zilliqa failed: 403 No error
+  *  External link https://www.linkedin.com/in/enhuiong/ failed: 999 No error
+- ./_site/private-altcoins-dash-monero/index.html
+  *  External link https://geti2p.net/en/docs/how/intro failed: 500 No error
+  *  internally linking to /trezor-multicoin/, which does not exist (line 790)
+     <a href="/trezor-multicoin/">see this post</a>
+- ./_site/retail-buyin-15k-wallets-still-run/index.html
+  *  External link https://g.co/trends/nbt4D failed: 429 No error
+- ./_site/ripple-vs-stellar/index.html
+  *  External link https://ripple.com/dev-blog/consensus-whitepaper-released/ failed: 404 No error
+  *  internally linking to /fibs/daily, which does not exist (line 895)
+     <a class="intern" href="/fibs/daily">follows fibs nicely</a>
+- ./_site/samourai-wallet-bitcoin-anonymity/index.html
+  *  internally linking to /strategy/reversals/, which does not exist (line 1331)
+     <a href="/strategy/reversals/">Trading Strategy - On Market Reversals and Psychology</a>
+- ./_site/scriptspotlight-a-d-levels/index.html
+  *  internally linking to /strategy/fulcrum-bottom/, which does not exist (line 1420)
+     <a href="/strategy/fulcrum-bottom/">Fulcrum Bottom: A proper way to identify it</a>
+- ./_site/scriptspotlight-auto-divergences/index.html
+  *  internally linking to /strategy/scalping/, which does not exist (line 1413)
+     <a href="/strategy/scalping/">Scalping Crypto with TensorCharts and BitMEX</a>
+- ./_site/security/backups.html
+  *  External link http://acrigs.com/FRAVIA/stego.htm failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/security/cookieminer-2fa-bypass.html
+  *  External link https://news.altcointrading.net/security/cookieminer-2fa-bypass failed: 404 No error
+  *  External link https://www/altcointrading.net/airdrops/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/security/impostors.html
+  *  External link https://news.altcointrading.net/security/impostors failed: 404 No error
+  *  internally linking to /security/nocturnal-stealer/, which does not exist (line 788)
+     <a href="/security/nocturnal-stealer/">literally even a child can afford that from their pocket money</a>
+- ./_site/security/iota.html
+  *  External link http://iota.cool/ failed: 404 No error
+  *  External link https://github.com/iotaledger/iota.lib.js/blob/master/dist/iota.js failed: 404 No error
+  *  External link https://learn.iota.org/tutorial/generating-addresses-learn-the-basics failed: 301 Number of redirects hit maximum amount
+  *  External link https://privsec.blog/song-lyric-passwords/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://tangle.blox.pm/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.altcointrading.net/iota failed: 404 No error
+- ./_site/security/mac-malware-crypto-basic-protection.html
+  *  External link https://coinhive.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://news.altcointrading.net/security/mac-malware-crypto-basic-protection failed: 404 No error
+- ./_site/security/malicious-memes.html
+  *  External link https://news.altcointrading.net/security/malicious-memes failed: 404 No error
+- ./_site/security/malware.html
+  *  External link https://news.altcointrading.net/security/malware failed: 404 No error
+- ./_site/security/nocturnal-stealer.html
+  *  External link https://news.altcointrading.net/security/nocturnal-stealer failed: 404 No error
+- ./_site/security/telegram.html
+  *  External link https://news.altcointrading.net/security/telegram failed: 404 No error
+- ./_site/security/tools.html
+  *  External link https://news.altcointrading.net/security/tools failed: 404 No error
+- ./_site/stability-of-stablecoins/index.html
+  *  External link https://cdn2.hubspot.net/hubfs/3919777/pdf/kowala-protocol-whitepaper-v1.0.pdf?t=1527621680950 failed: 404 No error
+  *  External link https://havven.io/faq failed: 404 No error
+  *  External link https://twitter.com/fragmentsorg failed: 404 No error
+  *  External link https://www.fragments.org/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://www.fragments.org/protocol/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://www.kowala.tech/ failed: got a time out (response code 0)
+- ./_site/strategy/fibs.html
+  *  External link https://altcointrading.cz/fibs/ failed: 404 No error
+- ./_site/strategy/fulcrum-bottom.html
+  *  External link https://news.altcointrading.net/strategy/fulcrum-bottom failed: 404 No error
+- ./_site/strategy/how-to-vet-icos.html
+  *  External link https://moonfunding.com failed: 503 No error
+- ./_site/strategy/reversals.html
+  *  External link https://news.altcointrading.net/strategy/reversals failed: 404 No error
+  *  internally linking to /strategy/fulcrum-bottom/, which does not exist (line 862)
+     <a href="/strategy/fulcrum-bottom/">Fulcrum Bottom</a>
+- ./_site/strategy/timing.html
+  *  External link https://cryptomarketsignal.com/small-cap/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://news.altcointrading.net/strategy/timing failed: 404 No error
+- ./_site/technical-analysis/index.html
+  *  External link https://livecoinwatch/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  internally linking to /fibs/daily, which does not exist (line 822)
+     <a href="/fibs/daily">fibs/daily</a>
+- ./_site/tensorcharts-tutorials/index.html
+  *  internally linking to /strategy/scalping/, which does not exist (line 1383)
+     <a href="/strategy/scalping/">Crypto Scalping with TensorCharts</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 726)
+     <a href="/strategy/scalping/">read it here</a>
+- ./_site/tensorcharts/index.html
+  *  External link https://cointerminal.io/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't connect to server
+  *  External link https://footprintchart.com/ failed: 404 No error
+  *  External link https://marketdelta.com/solutions/footprint-charts/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Peer certificate cannot be authenticated with given CA certificates
+  *  External link https://site.cointerminal.co/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't connect to server
+  *  internally linking to /strategy/scalping/, which does not exist (line 1364)
+     <a href="/strategy/scalping/">Trading Strategy / Scalping with TensorCharts</a>
+  *  internally linking to /strategy/scalping/, which does not exist (line 822)
+     <a href="/strategy/scalping/">read it here</a>
+- ./_site/tether-hack/index.html
+  *  External link https://tether.to/tether-critical-announcement/ failed: 503 No error
+- ./_site/time-vs-timing/index.html
+  *  External link http://cointimes.tech/2017/04/napoleonbitcoin/ failed: 404 No error
+  *  internally linking to /eth-traders-tool/, which does not exist (line 869)
+     <a href="/eth-traders-tool/">other network data</a>
+- ./_site/token-marketing-agencies/index.html
+  *  External link https://medium.com/@ankitthakor14/top-ico-marketing-agencies-e2186d71ec91 failed: 404 No error
+- ./_site/tokenization-startup-boost/index.html
+  *  internally linking to false, which does not exist (line 895)
+     <a href="false"><i class="fa fa-twitter-square fa-2x"></i></a>
+- ./_site/tools/index.html
+  *  External link http://moonmath.win/index.html failed: 302 Couldn't resolve host name
+  *  External link http://whales.cracklord.com/ failed: 502 No error
+  *  External link https://azopstability.com/understanding-the-charts/ failed: got a time out (response code 0)
+  *  External link https://coingenome.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't connect to server
+  *  External link https://cointrading.ninja/correlation failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: SSL connect error
+  *  External link https://hodlerlist.com/ failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+  *  External link https://www.altcointrading.net/kraken-cryptowatch/ failed: 404 No error
+  *  internally linking to /eth-traders-tool/, which does not exist (line 821)
+     <a href="/eth-traders-tool/">Quick intro to the tool here</a>
+- ./_site/traceto-interview/index.html
+  *  External link https://sg.linkedin.com/in/chionhchyekit failed: 999 No error
+  *  External link https://traceto.io/static/wp/traceto_Whitepaper_v1_35_en.pdf failed: 404 No error
+  *  External link https://www.quora.com/profile/JM-T-6 failed: 301 Transferred a partial file
+- ./_site/trezor-hack/index.html
+  *  External link https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEFCON-25-Datko-and-Quartier-Breaking-Bitcoin-Hardware-Wallets.pdf failed: 404 No error
+  *  External link https://satoshibox.com/fwipady7nvbqoqreeso4cf82 failed: response code 0 means something's wrong.
+             It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+             Sometimes, making too many requests at once also breaks things.
+             Either way, the return message (if any) from the server is: Couldn't resolve host name
+- ./_site/twitter-crypto-ban-info/index.html
+  *  External link https://www.reddit.com/user/AlfieMarsh failed: 403 No error
+  *  internally linking to false, which does not exist (line 921)
+     <a href="false"><i class="fa fa-twitter-square fa-2x"></i></a>
+- ./_site/value/index.html
+  *  internally linking to /eth-hard-fork/, which does not exist (line 837)
+     <a href="/eth-hard-fork/">ETH hard fork that produced ETC</a>
+- ./_site/weiss-rating/index.html
+  *  External link http://finance.weissratings.com/crypto/ failed: 404 No error
+- ./_site/zoe-ethereum-alphabay/index.html
+  *  External link http://cdn.ampproject.org failed: 404 No error
+  *  External link https://www.investfeed.com/atnet/overview/ failed: 530 No error
+  *  External link https://www.linkedin.com/company/altcointradingnet/ failed: 999 No error
+  *  External link https://www.reddit.com/r/AlphaBayMarket/comments/60355i/alphabay_will_add_etherum_to_its_payment_options/ failed: 404 No error
+rake aborted!
+HTML-Proofer found 380 failures!

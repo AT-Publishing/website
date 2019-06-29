@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 date: 2017-04-09 11:20
 title: "Litecoin: This time it's different?"
 description: "It's always different until it isn't and it's never different until it is."
@@ -17,7 +17,6 @@ image_alt:
 
 update: 2017-04-14 11:52
 
-german: false
 comments: true
 stories: true
 

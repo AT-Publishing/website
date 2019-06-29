@@ -13,12 +13,11 @@ comments: true
 stories: true
 genres: Blog
 
-layout: forestry
-german: false
+layout: at-trading
 tickers: false
 
 title: 'Sentiment: Altcoin Analytics Primer - NEO'
-description: "Maynard Keynes said in relation to some markets that \'we devote our intelligence to anticipating what average opinion expects the average opinion to be\'."
+description: "Maynard Keynes said in relation to some markets that we devote our intelligence to anticipating what average opinion expects the average opinion to be."
 
 permalink: altcoin-analytics-primer-neo/
 image:

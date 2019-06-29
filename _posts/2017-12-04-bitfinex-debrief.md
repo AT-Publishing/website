@@ -17,14 +17,13 @@ genres: Blog
 #note: 'Red Flag'
 #noteclass: 'bg-red'
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"
 description: "A shortened transcript with the most important info from the session with timestamps to relevant parts of the footage"
 
 permalink: bitfinex-tether-transparency/
-german: false
 
 image: ["/editorial/coffee2.jpg"]
 image_alt: ["Careful, it's a long session of British English. Coffee image from Pexels."]

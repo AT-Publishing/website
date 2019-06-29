@@ -14,14 +14,13 @@ comments: false
 stories: true
 genres: Blog
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Bitfinex added fiat deposits and withdrawals for individual and corporate accounts."
 description: "Yay. Oh yeah, and also EUR trading."
 
 permalink: bitfinex-fiat-routes/
-german: false
 
 image: ["/editorial/berries.jpg"]
 image_alt: ["Bitfinex added fiat deposits and withdrawals for individual and corporate accounts. Berries image via Pexels."]

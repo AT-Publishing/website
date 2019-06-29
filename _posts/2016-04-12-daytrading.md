@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 title: "Buy and sell altcoins in one day"
 description: "Is altcoin daytrading possible?"
 category: "trading"

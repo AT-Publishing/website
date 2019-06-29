@@ -21,7 +21,6 @@ genres: Blog
 tickers: false
 
 permalink: openlistings-houses-for-bitcoin/
-german: false
 cz: false
 
 image:

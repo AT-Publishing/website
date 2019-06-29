@@ -14,8 +14,7 @@ stories: true
 #note: 'User Guide'
 genres: Blog
 
-layout: forestry
-german: false
+layout: at-trading
 tickers: false
 
 title: "Crypto cards for non-EU residents"

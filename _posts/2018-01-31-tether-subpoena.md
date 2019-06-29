@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: true
 guest: false
 
@@ -18,7 +18,6 @@ genres: Blog
 tickers: false
 
 permalink: tether-subpoena/
-german: false
 cz: false
 
 title: "Bloomberg publishes two months old Tether subpoena"

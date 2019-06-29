@@ -1,12 +1,12 @@
 ---
-layout: forestry
+layout: at-trading
 published: false
 guest: false
 
 date: 2018-02-26 15:35:00 +0100
 
 title: "Circle acquired Poloniex Exchange and issues USDC (USD Coin based on CENTRE)"
-description: "Circle is acquiring Poloniex to strenghten Circle\'s position in the blockchain space."
+description: "Circle is acquiring Poloniex to strenghten Circles position in the blockchain space."
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -20,13 +20,12 @@ genres: Blog
 tickers: true
 
 permalink: circle-poloniex/
-german: false
 cz: false
 
 image:
 - "/editorial/allgood.jpg"
 image_alt:
-- "The rumors of Polo\'s death have been greatly exaggerated."
+- "The rumors of Polo's death have been greatly exaggerated."
 
 categories: ["exchanges"]
 tags: [ "poloniex", "circle", "circlepay", "acquisition", "cryptocurrency-exchange"]
@@ -45,7 +44,7 @@ related:
 
 
 
-Goldman backed cryptospace veteran [Circle announced on February 26, 2018 on their blog](https://blog.circle.com/2018/02/26/circle-acquires-poloniex/) they are acquiring another veteran - the Poloniex Exchange.
+Goldman backed cryptospace veteran [Circle announced on February 26, 2018 on their [blog](https://blog.circle.com/2018/02/26/circle-acquires-poloniex/) they are acquiring another veteran - the Poloniex Exchange.
 
 Circle is going forward with this acquisition to complement the services the startup already provides:
 

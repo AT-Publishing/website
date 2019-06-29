@@ -22,7 +22,6 @@ genres: Blog
 tickers: false
 
 permalink: scriptspotlight-auto-divergences/
-german: false
 cz: false
 
 image:

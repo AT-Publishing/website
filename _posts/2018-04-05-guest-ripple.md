@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 published: false
 guest: true
 
@@ -20,7 +20,6 @@ genres: Blog
 tickers: true
 
 permalink: ripple-bullish-fundamentals/
-german: false
 cz: false
 
 image:

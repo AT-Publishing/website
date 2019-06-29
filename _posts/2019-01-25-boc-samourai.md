@@ -25,7 +25,6 @@ comments: true
 identifier: 'samourai012019'
 
 permalink: samourai-wallet-bitcoin-anonymity/
-german: false
 cz: false
 
 image:

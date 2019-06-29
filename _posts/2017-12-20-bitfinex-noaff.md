@@ -17,14 +17,13 @@ genres: Blog
 note: PSA
 #noteclass: 'bg-red'
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Bitfinex stopping user signups and referral program"
 description: "Bitfinex reopened user signups on January 12, 2018 and added a minimum equity requirement for new accounts."
 
 permalink: bitfinex-referrals-stopped/
-german: false
 
 image: ["/editorial/dollars.jpg", "/features/bitfinex-noaff.jpg"]
 image_alt: ["Bitfinex closed user signups, going to be invitation only. Money image via Pexels."]

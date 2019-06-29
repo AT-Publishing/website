@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 date: 2017-03-22 4:20
 title: "Cryptosignal - ETH Hashrate vs Price Correlation"
 description: "A data scientist created a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions - that's a free altcoin trading signal."
@@ -15,7 +15,6 @@ image_alt:
 - "Yeah it's a wonder"
 
 update: 2017-04-14 13:00
-german: false
 comments: true
 stories: true
 

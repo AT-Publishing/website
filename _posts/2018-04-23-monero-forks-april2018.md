@@ -20,7 +20,6 @@ genres: Blog
 tickers: false
 
 permalink: monero-forks-april-2018/
-german: false
 cz: false
 
 image:

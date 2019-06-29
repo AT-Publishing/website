@@ -1,5 +1,5 @@
 ---
-layout: forestry
+layout: at-trading
 date: 2017-03-25 15:20
 title: About the proposed Ethereum ETF
 description: The surveillance section of EtherIndex's rule change (which after the
@@ -14,7 +14,6 @@ image_alt:
 - The surveillance section of the rule change seems to be the key part after the rejection
   of Winklevoss COIN ETF. EtherIndex's suggestion seems more plausible.
 update: '2017-09-07T16:59:16.033Z'
-german: false
 comments: false
 stories: true
 published: true

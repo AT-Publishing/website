@@ -14,8 +14,7 @@ stories: false
 note: 'User Guide'
 genres: Blog
 
-layout: forestry
-german: false
+layout: at-trading
 tickers: false
 
 title: "IOTA Snapshots"

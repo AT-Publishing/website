@@ -17,14 +17,13 @@ genres: Blog
 #note: 'Red Flag'
 #noteclass: 'bg-red'
 
-layout: forestry
+layout: at-trading
 tickers: false
 
 title: "Kraken's long awaited upgrade postponed"
 description: "It is still happening soon&trade; guys!"
 
 permalink: kraken-upgrade/
-german: false
 
 image: ["/editorial/blood.jpg"]
 image_alt: ["In a recent post the Kraken exchange shared with us more details about the upgrade /u/jespow was promising for beginning of December. Blood image via Pexels."]

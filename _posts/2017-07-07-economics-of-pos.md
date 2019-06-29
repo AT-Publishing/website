@@ -9,7 +9,6 @@ description: Proof of stake shows off the extraordinary ability of crypto news p
   to write a 500 word article that says absolutely nothing, and the amazing regard
   of the ETH boss crew to Social Justice.
 genres: Blog
-german: false
 image:
 - "/img/editorial/steak2.jpg"
 - "/img/daddyvitalik/yeswecan.png"
@@ -18,7 +17,7 @@ image:
 image_alt:
 - Even if you want to, you won't be staking before mid-2018, but Vitalik says he is
   not afraid of the switch, and that clearly means something.
-layout: forestry
+layout: at-trading
 permalink: pos/
 published: true
 stories: true
