@@ -240,3 +240,14 @@ h5.post small,.top2 figure,
 .page-airdrops-main li a {
   border-bottom: 2px solid rgba(0,31,63,.77);
 }
+
+ul.list-updated>li {
+  display: none;
+}
+ul.list-updated>li:nth-of-type(1),
+ul.list-updated>li:nth-of-type(2),
+ul.list-updated>li:nth-of-type(3),
+ul.list-updated>li:nth-of-type(4),
+ul.list-updated>li:nth-of-type(5) {
+  display: block;
+}

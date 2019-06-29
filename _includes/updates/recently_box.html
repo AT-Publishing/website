@@ -1,8 +1,8 @@
 <span class="note">Recently Updated</span><br>
-<ul class="popular">
+<ul class="popular list-updated">
 {% for category in site.categories %}
 {% assign pages_list = category[1] | reverse  %}
-  {% for post in pages_list limit:10 %}
+  {% for post in pages_list limit:3 %}
     {% assign daysToSec = 699048 %}
     {% assign pageTime = post.last_modified_at | date: '%s' | times: 1 %}
     {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
