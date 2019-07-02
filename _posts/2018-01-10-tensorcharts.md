@@ -1,12 +1,9 @@
 ---
 layout: at-trading
-
 published: true
-
 guest: false
 
 date: 2018-01-10 11:23:00 +0100
-#update: 2018-01-10 11:23:00 +0100
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -14,7 +11,7 @@ author_name: tradingfanbois
 comments: false
 
 stories: false
-note: 'Feature'
+note: 'Trading Tool'
 genres: Blog
 
 permalink: tensorcharts/
@@ -22,8 +19,8 @@ cz: tensorcharts
 
 tickers: false
 
-title: "TensorCharts - Freemium crypto charting web-app with orderbook heatmap (you'll get to watch the whales)"
-description: "TensorCharts are available free in the basic version that is still good for scalpers."
+title: "TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"
+description: "Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers."
 
 image:
 - "/features/tensorcharts.png"
@@ -39,9 +36,7 @@ image_alt:
 categories: ["no-ico", "trading"]
 
 chart: []
-tags: ["popular", "footprint-charts", "tensor-charts", "tensorcharts", "crypto-trading", "crypto-whales", "altcoin-trading"]
-
-
+tags: ["popular", "footprint-charts", "tensor-charts", "tensorcharts", "crypto-trading", "counters-ratio", "CVD", "bitmex", "scalping", "5-min-strategy-crypto", "heatmap-crypto", "altcoin-trading"]
 
 about:
  name: "tensorcharts"
@@ -50,37 +45,91 @@ about:
 related:
  - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
  - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping"}
- - {"No-ICO projects": "/category/no-ico/"}
  - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
+ - {"No-ICO projects": "/category/no-ico/"}
+ - {"Cryptocurrency Strategy for Beginners: There is strategy even for hodling": "/cryptocurrency-strategy-beginners/"}
+
 ---
+
+**TensorCharts Pricing Info**
+
+For BlackFriday, Tensorcharts usually dicount their Premium plan by **full 50%**.
+
+```
+50% OFF Tensorcharts Premium:
+- 9 USD per month (standard price is 18 USD)
+- payments in BTC
+```
+
+|                        |FREE                          |PREMIUM                       |TEAM                          |ALGO TRADER                   |
+|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|                              |$0                            |$18                           |5x$8                                   total $40|$25                           |
+|                              |For newcomers exploring orderflow, heatmaps and volumetric analysis|For experienced daytraders who don't want to compromise on anything. Low latency, full data and all features available|For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate|Do you need just TC data, low latency and unlimited websocket subscriptions?|
+
+
+<b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
+
+========
+
+## What are Tensorcharts?
 
 {{ site.tc1 }}
 
-The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits. It's an advanced software tool particularly good for daytraders and scalpers. If you trade legacy markets you can request a free demo of Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
+The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits.
 
-With footprint chart you see the regular chart candle split into blocks on the price axis (such as by 100 USD steps) to see the exact value traded on which price level. Each footprint chart block is colored and has a number inside that says exactly how much money was traded in that block.
+It's an advanced charting tool particularly good for daytraders and scalpers on the legacy markets. You can request a free demo of the Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
 
-Tensor Charts do something similar but in a web browser. With Tensor Chart you only get part of this information unless you zoom in. The blocks are always colored based on the relative volume traded there, zoom in and you'll get the traded volume as well. It is like a far more precise [volume flow](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/).
+#### Difference between Tensorcharts vs Footprintcharts
 
-That is not all the additional information you get with TensorCharts though.
+With footprint chart you see the regular candlestick chart candle split into steps on the price axis (such as into steps by 100 USD). This way you get to see the exact amount of money traded on which price level.
 
-#### Orderbook Heatmap
+Each footprint chart block is colored and has a number inside - the number of dollars that was traded in that block.
 
-Tensor Charts, even in the basic free version, are adding the orderbook visualization: While the price action is created by executed orders and displayed as green and red blocks for filled buys and sells, the limit orders waiting on either side of the market are shown in shades of blue and yellow, distinguished by order size:
+Tensor Charts, a web app developed originally for crypto, draw from a similar idea. With Tensor Chart you get different granularity of information, depending on much you zoom in.
+
+That is actually a feature: It prevents the analysis paralysis.
+
+The price blocks at Tensor Charts are always colored at a scale based on the volume traded there, zoom in and you'll get the traded money as well.
+
+Basically, it is similar to a far more precise [volume flow script](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/).
+
+That's not all though. In addition to the traded footprint, TensorCharts also provide a whole host of other advanced crypto trading tools.
+
+#### What is Orderbook Heatmap
+
+Here's what I mean: Even in the basic free tier, TensorCharts provide the famous orderbook heatmap.
+
+What's the orderbook visualization good for? Let me explain:
+
+* The price action, and therefore the market, is made by executed orders.
+* Executed orders are displayed as green and red blocks for filled buys and sells. On a standard chart theese would be green and red candlesticks.
+* The buy support and sell resistance is practically enforced by limit orders waiting on either side of the market. These are shown in shades of blue and yellow, distinguished by their size.
 
 {% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
 
-You can customize the the orderbook visualization ("orderbook heatmap") in settings to decide how granular the data should be.
+You can customize your orderbook heatmap through settings and decide how granular the data should be.
 
-The orderbook heatmap function makes it much easier to spot buy and sell walls, spoofers or someone trying to paint support and resistance only to cancel the order just before they would get filled.
+#### See the spoofers thanks to orderbook heatmap
 
-To see a spoofer on a candlestick chart you really need to stop staring at the chart, open up the full orderbook and meditate for a while. Then, once the orders get pulled, there is no information left about them in the books. Contrary to that, Tensor Charts record this event as the past orders remain recorded in the heatmap after the candle close.
+The orderbook heatmap function makes it easy to discover buy and sell walls. You will also just as easily see if the walls get pulled or if they execute. If you have been crypto trading for a bit, you know that spoofers like to paint support and resistance only to cancel their orders just before they would get filled.
 
-Not every waiting limit order will be pulled though, and so the Tensor Charts' heatmap also provides an idea about intermittent support and resistance levels. You can clearly see the areas with most money in open orders at a single glance.
+To see a spoofer on a candlestick chart you really need to stop staring at the chart, open up the full orderbook and meditate for a while.
+
+Then, once the orders get pulled, there is no information left about them in the books.
+
+Contrary to that, Tensor Charts record this event as the past orders remain recorded in the heatmap after the candle close.
+
+#### Intermittent support and resistance for your 5-min trading strategies
+
+Even when there are no spoofers though, the Tensor Charts' heatmap also provides an idea about intermittent support and resistance levels.
+
+You can clearly see the areas with most money in open orders at a single glance.
 
 Here for instance significant buys on BCH markets:
 
 {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+
+#### Differences in strength between several altcoins
 
 Last but not least, the differences between various cryptocurrency markets also become apparent fairly quickly.
 
@@ -94,7 +143,7 @@ On this BTCUSD 5M chart you see the differences in order sizes are more marked, 
 
 There's lot more that you can do with TensorCharts, I encourage you to explore their [documentation](https://docs.tensorcharts.com/docs/counters_ratio/).
 
-#### TensorCharts FREE Plan
+### What you get in TensorCharts FREE Plan
 
 <a rel="nofollow" href="https://tensorcharts.com/?r=14">TensorCharts</a> are available free with basic functions pulling data from the most popular exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. In the free plan you get 5M and 1H timeframes, orderbook heatmap and trades counter.
 
@@ -102,17 +151,15 @@ It is not necessary to create a user account.
 
 If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), Tensorcharts are far better than the currently most popular free charting app Cryptowatch.
 
-#### TensorCharts PRO Plans
+### TensorCharts PRO Plans
 
 Paid plans went live on September 18th 2018, one year to day since the development of the TensorCharts app started.
 
 Plans range from 8 USD - 25 USD per month, paid only in crypto.
 
-### Learn to use Tensor Charts
+### How to use Tensor Charts
 
-**THE BASICS**
-
-For the basics, there is a couple of walkthrough videos on YouTube (cca 1 minute each).
+We have a **whole section for [TensorCharts Tutorials](/tensorcharts-tutorials/)** but if you don't want to go there just now, below a couple of walkthrough videos on YouTube (cca 1 minute each).
 
 [Series of TensorCharts video tutorials on YouTube](https://www.youtube.com/watch?v=YZCUMtV8rBU&list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T)
 
@@ -122,44 +169,68 @@ For the basics, there is a couple of walkthrough videos on YouTube (cca 1 minute
        width="700" height="360">
 </amp-youtube>
 
-**SCALPING**
 
-Our trading strategy post on scalping features TensorCharts heavily. You can [read it here](/strategy/scalping/) or download it in PDF below.
+## Summary: Powerful Tool
 
-<section class="sidebar-nl container-center">
-<h4>Scalping Strategy PDF</h4>
-<p>Too long to read now? Save it for offline - download this scalping strategy article as a PDF. No risk of eye cancer from its design either.</p>
-<p><a href="/uploads/pdf/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET TensorCharts Scalping Guide"><b>Download PDF</b></a></p>
-</section>
+TensorCharts have come a long way since we first published a post about them in January 2018.
 
-<p>&nbsp;</p>
+As the development advanced, programmable indicators were added along with experimental indicators such as the [Counters Ratio](https://docs.tensorcharts.com/docs/counters_ratio/).
 
-**CVD**
+**TensorCharts are now beating both Cryptowatch and TradingView** in terms of the amount of information (and therefore edge) you can extract from them.   
 
-CVD or Cumulative Volume Delta is an indicator available from the updated version of Tensorcharts. If you learn to read it properly it helps you spot price reversals - hence the note in the tutorial below about the predictive game.
+We were probably the first blog to call for paid plans, this kind of tool should not be available for free.
 
-["Counter-Trading with CVD" by Bitcoin Trading Challenge (28 mins)](https://www.youtube.com/watch?v=gj-zxO-ZnSU)
+We're happy the paid plans are here, it could help with the only issue Tensor Charts traders keep complaining about: That during abrupt price action you can only hope the server won't get too overloaded. I'd argue it's still not as bad as when you get this on BitMEX though.
 
-<amp-youtube
-       data-videoid="gj-zxO-ZnSU"
-       layout="responsive"
-       width="700" height="360">
-</amp-youtube>
+Still, even the free version of Tensor Charts can give you quite a good edge if you use it right.
 
-<p>&nbsp;</p>
-
-**FULL TENSORCHARTS DOCUMENTATION**
-
-The community-sourced documentation is now available as a website at [docs.tensorcharts.com](https://docs.tensorcharts.com/). It is very brief but it outlines all the important features of Tensor Charts which you then can easily google.
-
-### Summary: Powerful Tool
-
-TensorCharts have come a long way since we first published a post about them in January 2018. As the development advanced, programmable indicators were added along with experimental indicators such as the [Counters Ratio](https://docs.tensorcharts.com/docs/counters_ratio/) and TensorCharts are now beating both Cryptowatch and TradingView in terms of the amount of information you can extract from them.   
-
-We were probably the first blog to call for paid plans, this kind of tool should not be available for free. We're happy the paid plans are here, it could help with the only issue Tensor Charts traders keep complaining about: That during abrupt price action you can only hope the server won't get too overloaded. I'd argue it's still not as bad as when you get this on BitMEX though.
-
-However, even the free version of tensor charts can give a trader quite a good edge if they use it right.
+[The TensorCharts app](http://bit.ly/tensor-charts)
 
 * Tensorcharts on Twitter: [@tensorcharts](https://twitter.com/tensorcharts)
 * Tensorcharts on [Youtube](https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g)
 * Post about Tensorcharts on [ProductHunt](https://www.producthunt.com/posts/tensorcharts)
+
+
+### Full TensorCharts Pricing information
+
+
+|                        |FREE                          |PREMIUM                       |TEAM                          |ALGO TRADER                   |
+|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|                              |$0                            |$18                           |5x$8                                   total $40|$25                           |
+|                              |For newcomers exploring orderflow, heatmaps and volumetric analysis|For experienced daytraders who don't want to compromise on anything. Low latency, full data and all features available|For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate|Do you need just TC data, low latency and unlimited websocket subscriptions?|
+|                              |                              |                              |                              |                              |
+|CONNECTIVITY                  |                              |                              |                              |                              |
+|# of devices                  |1                             |1                             |5                             |1                             |
+|# of simultaneous markets     |3                             |20                            |5*10                          |unlimited                     |
+|# of server side alerts       |1                             |50                            |5*25                          |0                             |
+|                              |                              |                              |                              |                              |
+|DATA                          |                              |                              |                              |                              |
+|trades history                |10min                         |3h                            |1h                            |3h                            |
+|large trades history          |X                             |3d                            |24h                           |3d                            |
+|double data history           |X                             |✔                             |✔                             |✔                             |
+|orderbook price range         |10%                           |15%                           |10%                           |15%                           |
+|update rate                   |10s chart, 1s trades          |0.8s chart, 0.1s trades       |0.8s chart, 0.7s trades       |0.8s chart, 0.1s trades       |
+|                              |                              |                              |                              |                              |
+|FEATURES                      |                              |                              |                              |                              |
+|timeframes                    |only 1h, 5min                 |all                           |all                           |all                           |
+|# of trades counters          |1                             |unlimited                     |unlimited                     |1                             |
+|scripts                       |only defaults                 |defaults+custom               |defaults+custom               |only defaults                 |
+|ads                           |yes                           |no ads                        |no ads                        |no ads                        |
+|customer support              |low priority                  |highest priority              |high priority                 |highest priority              |
+|drawings saved in cloud       |✔                             |✔                             |✔                             |✔                             |
+|tick chart                    |X                             |✔                             |✔                             |X                             |
+|early access to new features  |X                             |✔                             |✔                             |X                             |
+|                              |                              |                              |                              |                              |
+|CVD                           |X                             |✔                             |✔                             |X                             |
+|large trades tracker          |X                             |✔                             |✔                             |X                             |
+|scripting module              |X                             |✔                             |✔                             |X                             |
+|trades feed sound             |X                             |✔                             |✔                             |X                             |
+|unlimited trades counters     |X                             |✔                             |✔                             |X                             |
+|volume profile / fixed / delta|X                             |✔                             |✔                             |X                             |
+|vwap                          |X                             |✔                             |✔                             |X                             |
+|real time chart               |X                             |✔                             |✔                             |X                             |
+|bitmex stats                  |X                             |✔                             |✔                             |X                             |
+|heiking ashi + renko          |X                             |✔                             |✔                             |X                             |
+|numerical heatmaps            |X                             |✔                             |✔                             |X                             |
+|data export                   |X                             |X                             |X                             |✔                             |
+|                              |                              |                              |                              |                              |
