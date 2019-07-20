@@ -17,5 +17,13 @@ author_name: tradingfanbois
 author_twitter: '@tradingfanbois'
 ---
 
+#### Terms and requirements for guest posting:
+
+* minimum of **1000 words** length
+* at least **1 internal link** to AltcoinTrading.NET
+* valuable, engaging content related to **crypto trading, technology or relevant security threats**
+* guest post ready and uploaded to docdroid.net
+* you get one followed link per your choice
+* we have full editorial control
 
 {% include contact-guestpost.html %}
