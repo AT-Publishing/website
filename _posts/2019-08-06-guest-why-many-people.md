@@ -19,7 +19,9 @@ date: 2019-08-06 0:26:00 +0700
 title: "Why Are So Many People Trading Cryptocurrency?"
 description: "The crypto trading statistics from Google Trends show a new wave of interest in trading of digital currencies."
 permalink: crypto-trading-growth/
-image: ["/features/cryptocurrency-markets.jpg", "/features/crypto-trading-stats.png"]
+image:
+- "/features/cryptocurrency-markets.jpg"
+- "/features/crypto-trading-stats.png"
 image_alt: ["Crypto Trading Statistics"]
 
 categories: ['basics']
@@ -34,13 +36,15 @@ related:
 ---
 
 
+Cryptocurrencies might be new, but they’ve shown great potential to change our world’s future.
+
+It’s a disruptive technology that promises outstanding returns. The small investments you put into cryptocurrency can grow into life-changing profits over a couple of years. This is the main reason why you should be interested in trading cryptocurrency.
+
+
 {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
 
 *[Google Trends](https://trends.google.com/trends/explore?geo=US&q=crypto%20trading) organic stats for "crypto trading" in US / 2019*
 
-Cryptocurrencies might be new, but they’ve shown great potential to change our world’s future.
-
-It’s a disruptive technology that promises outstanding returns. The small investments you put into cryptocurrency can grow into life-changing profits over a couple of years. This is the main reason why you should be interested in trading cryptocurrency.
 
 The success of trading cryptocurrencies can only be possible if you’ve done your research and developed a good trading strategy. You should also be wise if you find some [great tips on cryptocurrency trading](https://www.learntotrade.com.au/23-tips-on-cryptocurrency-trading) from the internet before you start trading.
 
