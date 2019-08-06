@@ -25,9 +25,6 @@
 <meta name="keywords" content="altcoin trading, cryptocurrency trading, crypto airdrops">
 <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}">
 
-<!-- ads
-<meta name="coinzilla" content="coinzilla-294395a915df444114" />-->
-
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
@@ -35,7 +32,7 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
-<meta property="og:updated_time" content="{% if page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+<meta property="og:updated_time" content="{% if page.last_modified_at %}{{ page.last_modified_at }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
 <meta property="og:image" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{ site.url }}{{ site.baseurl }}/editorial/brand/atnet-boc.png{% endif %}" />
 <meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/brand/atnet-boc.png{% endif %}" />
 <meta property="og:image:width" content="700" />
@@ -56,12 +53,9 @@
  "url":"{{ site.url | xml_escape }}",
  "sameAs":[
     "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
-    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
     "https:\/\/twitter.com\/altcointrading_",
     "https:\/\/medium.com\/cryptolounge",
     "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
-    "https:\/\/reddit.com\/r\/altcointrader",
-    "https:\/\/t.me\/altcointrading_net"
  ],
  "@id":"#organization",
  "name":"AltcoinTrading.NET",
@@ -120,7 +114,7 @@
     "height": 700,
     "width": 360
   },
-  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}",
+  "datePublished": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"
 }
 </script>

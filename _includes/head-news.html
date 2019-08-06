@@ -15,7 +15,6 @@
 <link rel="prerender" href="//www.thebusinessofcrypto.com/airdropped/">
 <link rel="prerender" href="//www.altcointrading.net/airdrops/">
 
-
 {% unless page.canonical %}
   {% if page.stories %}
   <link rel="canonical" href="https://news.altcointrading.net{{ page.url }}">
@@ -26,10 +25,7 @@
 <link rel="canonical" href="{{ page.canonical }}">
 {% endunless %}
 
-
-
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-{% if page.german %}<link rel="alternate" hreflang="de" href="https://de.altcointrading.net/{{ page.german }}">{% endif %}
 {% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}/">{% endif %}
 
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -55,8 +51,9 @@
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
 <meta property="article:author" content="{% if page.author %}{{ page.author }}{% else %}https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/{% endif %}" />
-{% if page.date %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />{% endif %}
-<meta property="article:modified_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
+{% if page.last_modified_at %}
+<meta property="article:published_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
+{% endif %}
 <!-- post tags -->
 {% if page.tags[0] %}{% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}" />{% endfor %}{% endif %}
 <!-- post categories -->
@@ -107,12 +104,9 @@
  "url":"{{ site.url | xml_escape }}",
  "sameAs":[
     "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
-    "https:\/\/www.facebook.com\/groups\/332750657242745\/",
     "https:\/\/twitter.com\/altcointrading_",
     "https:\/\/medium.com\/cryptolounge",
-    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/",
-    "https:\/\/reddit.com\/r\/altcointrader",
-    "https:\/\/t.me\/altcointrading_net"
+    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/"
  ],
  "@id":"#organization",
  "name":"AltcoinTrading.NET",
@@ -142,9 +136,9 @@
       "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | xml_escape }}#organization"
    },
    "headline":"{{ page.title | xml_escape }}",
-   "datePublished": "{{ page.date | date_to_xmlschema }}",
-   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-   "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "datePublished": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.date %}{{ page.date }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.date %}{{ page.date }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+   {% if page.last_modified_at %}"contentReferenceTime": "{{ page.last_modified_at | date_to_xmlschema }}",{% endif %}
    "author":[
       {
          "@type":"Person",
@@ -188,9 +182,10 @@
     "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
   },
   "headline": "{{ page.title }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
-  "contentReferenceTime": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "datePublished": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.date %}{{ page.date }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.date %}{{ page.date }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+
+  {% if page.last_modified_at %}"contentReferenceTime": "{{ page.last_modified_at | date_to_xmlschema }}",{% endif %}
   "author": {
     "@type": "Person",
     "name": "{{ page.author_name }}"
