@@ -1,7 +1,7 @@
 ---
 layout:     at-trading
 published:  true
-guest:      true
+guest:      false
 pinned:     false
 #canonical: ""
 
