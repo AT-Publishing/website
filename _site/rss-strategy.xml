@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+
+    <title>AltcoinTrading.NET Strategy</title>
+    <description>
+      Long reads about technical analysis in cryptocurrency trading and trading strategies.
+    </description>
+
+    <image>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <title>AltcoinTrading.NET</title>
+      <link>https://www.altcointrading.net/strategy/</link>
+    </image>
+
+    <language>en</language>
+
+
+    <link>https://www.altcointrading.net/strategy/</link>
+    <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
+
+    <pubDate>Thu, 22 Aug 2019 12:27:44 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 12:27:44 +0000</lastBuildDate>
+
+    
+      <item>
+
+        <title>Wyckoff trading method and ranging markets</title>
+        <description>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</description>
+
+        <pubDate>Sat, 21 Oct 2017 22:16:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/report2.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/wyckoff-ranging-markets</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets</guid>
+
+        
+        <category>update</category>
+        
+        <category>wyckoff</category>
+        
+        <category>wyckoff-phases</category>
+        
+        <category>wyckoff-accumulation</category>
+        
+        <category>wyckoff-redistribution</category>
+        
+        <category>wyckoff-distribution</category>
+        
+        
+        <category>longread</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Multiple time frame analysis: Trading several timeframes at the same time</title>
+        <description>On why it's constructive to trade multiple time frames at the same time and how to manage the stack of your positions and orders.</description>
+
+        <pubDate>Sun, 29 Oct 2017 09:36:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/multiple-timeframe-juggle.png" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/multiple-time-frame</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/multiple-time-frame</guid>
+
+        
+        
+        <category>tip</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>On Lending</title>
+        <description>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</description>
+
+        <pubDate>Sat, 11 Nov 2017 03:36:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/peanuts.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/cryptocurrency-lending</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/cryptocurrency-lending</guid>
+
+        
+        <category>bitfinex</category>
+        
+        <category>poloniex</category>
+        
+        <category>bitmex</category>
+        
+        
+        <category>lending</category>
+        
+        <category>bitcoin</category>
+        
+        <category>altcoins</category>
+        
+        <category>p2p</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Why are Fib Retracements and Extensions Important</title>
+        <description>Fibs are the black-box tool that everyone uses because everyone uses it. Why they matter in spite of it?</description>
+
+        <pubDate>Sat, 09 Dec 2017 03:36:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/breadbutter2.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/fibs</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fibs</guid>
+
+        
+        <category>fibs</category>
+        
+        <category>crypto-trading</category>
+        
+        <category>technical-analysis</category>
+        
+        <category>fibonacci-retracement</category>
+        
+        
+        <category>trading</category>
+        
+        <category>bitcoin</category>
+        
+        <category>altcoins</category>
+        
+        <category>technical-analysis</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>3 Tips: How to vet ICOs and what to watch once you're in</title>
+        <description>To some crypto traders ICOs are so 2017, to some they are a great concept democratizing finance. There are scams and failures but one way to work with token markets is to take the past failure data and draw valuable information from them.</description>
+
+        <pubDate>Mon, 26 Feb 2018 09:31:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/cityscape.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/how-to-vet-icos</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/how-to-vet-icos</guid>
+
+        
+        <category>tokendata</category>
+        
+        <category>ico</category>
+        
+        <category>ico-analysis</category>
+        
+        <category>cryptocurrency-investing</category>
+        
+        
+        <category>trading</category>
+        
+        <category>icos</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Scalping Crypto</title>
+        <description>Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts.</description>
+
+        <pubDate>Thu, 15 Mar 2018 02:31:00 +0000</pubDate>
+
+        <author>tradingfanbois@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/altcointrading-strategy.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/scalping</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/scalping</guid>
+
+        
+        <category>tensorcharts</category>
+        
+        <category>orderbook-heatmap</category>
+        
+        <category>scalping</category>
+        
+        <category>cryptocurrency-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Timing Tools</title>
+        <description>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</description>
+
+        <pubDate>Sun, 06 May 2018 20:51:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/atnet-reversal.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/timing</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/timing</guid>
+
+        
+        <category>market-timing</category>
+        
+        <category>timing-tools</category>
+        
+        <category>swing-trading</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>cryptocurrency-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Fulcrum Bottom</title>
+        <description>Fulcrum bottom has been talked about a lot lately thanks to mentions in Peter Brandt's reports. Describing it as 'head &amp; shoulders except at the bottom' is not quite cutting it though.</description>
+
+        <pubDate>Tue, 25 Sep 2018 04:51:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/strat/fulcrum/toolbox.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/fulcrum-bottom</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fulcrum-bottom</guid>
+
+        
+        <category>fulcrum-bottom</category>
+        
+        <category>peter-l-brandt</category>
+        
+        <category>fulcrum-point</category>
+        
+        <category>swing-trading</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>crypto-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Thoughts on Reversals and Psychology</title>
+        <description>Bottoming process, just as any other market reversal, is strongly influenced by psychology.</description>
+
+        <pubDate>Fri, 28 Dec 2018 04:51:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/thinice.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/reversals</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/reversals</guid>
+
+        
+        <category>fulcrum-bottom</category>
+        
+        <category>mises</category>
+        
+        <category>reversals</category>
+        
+        <category>swing-trading</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>crypto-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Crypto Investment Strategy: Step By Step Guide</title>
+        <description>Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. </description>
+
+        <pubDate>Fri, 19 Jul 2019 18:11:00 +0000</pubDate>
+
+        <author>AltcoinTrading.NET@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/features/crypto-investment-strategy.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/crypto-investment</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/crypto-investment</guid>
+
+        
+        <category>hodl-strategy</category>
+        
+        <category>crypto-investment-strategy</category>
+        
+        <category>swing-trading</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>crypto-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+
+
+  </channel>
+</rss>

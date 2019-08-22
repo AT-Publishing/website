@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+      <loc>https://www.altcointrading.net</loc>
+      <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
+      <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz"/>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/blackfriday/</loc>
+        <lastmod>2019-06-07T01:42:26+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/xmas-sales/</loc>
+        <lastmod>2019-06-07T01:42:26+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/airdrop-archive/</loc>
+        <lastmod>2019-06-29T09:14:59+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/atnet.json</loc>
+        <lastmod>2018-04-04T02:29:13+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/category/altcoins/</loc>
+        <lastmod>2018-10-04T08:01:41+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/category/exchanges/</loc>
+        <lastmod>2018-02-07T10:02:55+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/category/no-ico/</loc>
+        <lastmod>2018-10-04T08:01:41+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/category/wallets/</loc>
+        <lastmod>2018-02-07T10:02:55+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/guides/</loc>
+        <lastmod>2018-10-05T10:44:53+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/security/</loc>
+        <lastmod>2019-02-20T11:48:52+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/</loc>
+        <lastmod>2019-02-20T07:32:38+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/contact/</loc>
+        <lastmod>2018-04-25T21:26:30+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/guestpost/</loc>
+        <lastmod>2019-07-20T06:25:09+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/data/sessions/</loc>
+        <lastmod>2018-10-04T08:01:41+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/tensorcharts-tutorials/</loc>
+        <lastmod>2018-10-10T10:37:32+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/blog/trading/</loc>
+        <lastmod>2019-03-04T06:35:52+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/sample.json</loc>
+        <lastmod>2018-04-04T02:29:13+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/submit/</loc>
+        <lastmod>2018-02-27T12:53:53+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/tag/businessofcrypto/</loc>
+        <lastmod>2018-06-26T17:45:58+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/tag/dex/</loc>
+        <lastmod>2018-04-04T17:14:24+00:00</lastmod>
+        
+    </url>
+    
+    
+</urlset>

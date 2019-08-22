@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+
+    <title>AltcoinTrading.NET Security Primers</title>
+    <description>All about cryptocurrency wallets and also the devices where you store them. Tutorials on how to homelab your safe cryptocurrency storage.</description>
+
+    <image>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <title>AltcoinTrading.NET</title>
+      <link>https://www.altcointrading.net/security/</link>
+    </image>
+
+    <language>en</language>
+
+
+    <link>https://www.altcointrading.net/security/</link>
+    <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
+
+    <pubDate>Thu, 22 Aug 2019 12:27:44 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 12:27:44 +0000</lastBuildDate>
+
+    
+      <item>
+
+        <title>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</title>
+        <description>All the IOTA storage options you have in 2019, IOTA cold storage homelab and a short guide to migrating IOTA from Light Wallet to Trinity Wallet (and Ledger, if you wish).</description>
+
+        <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/img/coins/iotabg.png" medium="image" />
+
+        <link>https://www.altcointrading.net/security/iota</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/iota</guid>
+        
+
+        <category>iota</category>
+        
+
+        <category>iota-wallet</category>
+        
+
+        <category>iota-security</category>
+        
+        
+        <category>homelab</category>
+        
+        <category>wallets</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Backups for the paranoid</title>
+        <description>Secure backup solutions - digital and non-digital - are a big theme, and this is a big post that will be updated when new ideas emerge.</description>
+
+        <pubDate>Fri, 13 Oct 2017 09:22:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/hacking.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/backups</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/backups</guid>
+        
+
+        <category>homelab</category>
+        
+
+        <category>software</category>
+        
+        
+        <category>homelab</category>
+        
+        <category>software</category>
+        
+        <category>wallets</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Tiered Device Management</title>
+        <description>A quick guide for cryptocurrency investors on how to do tiered devices right. It is not even such an inconvenience to have separate devices for different activities.</description>
+
+        <pubDate>Fri, 20 Oct 2017 06:22:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/socialmedia3.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/device-management</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/device-management</guid>
+        
+
+        <category>homelab</category>
+        
+
+        <category>hardware</category>
+        
+        
+        <category>homelab</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Redeeming forked coins: Sweeping private keys and sweeping addresses</title>
+        <description>What is sweeping, when do which one and a tutorial for safe redeeming of BCH and BTG.</description>
+
+        <pubDate>Thu, 23 Nov 2017 16:22:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/breadbutter3.png" medium="image" />
+
+        <link>https://www.altcointrading.net/security/sweeping</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/sweeping</guid>
+        
+
+        <category>sweeping</category>
+        
+
+        <category>software</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Storing cryptocurrency wallets on virtual machines</title>
+        <description>Guide on how to use Virtualbox to store your crypto, and how safe it is for new cryptocoin wallets or forks that are not trusted.</description>
+
+        <pubDate>Fri, 15 Dec 2017 05:22:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/bagholders.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/virtualbox</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/virtualbox</guid>
+        
+
+        <category>bitcoin-fork</category>
+        
+
+        <category>virtualbox</category>
+        
+
+        <category>altcoin-wallets</category>
+        
+
+        <category>software</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Easy way to avoid email address reuse</title>
+        <description>A quick way to setup your mailbox in such a way that you will not have to reuse your email address again.</description>
+
+        <pubDate>Thu, 22 Feb 2018 14:41:00 +0000</pubDate>
+
+        <author>FNY3000@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/coffee2.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/email-reuse</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/email-reuse</guid>
+        
+
+        <category>portfolio-tracking</category>
+        
+
+        <category>third-party-apps</category>
+        
+
+        <category>email-reuse</category>
+        
+
+        <category>security</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>How to get your crypto stolen</title>
+        <description>And a bonus: If you're an app developer, best way to get paid in crypto.</description>
+
+        <pubDate>Tue, 17 Apr 2018 13:51:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/tagged/sad-cryptokitty.png" medium="image" />
+
+        <link>https://www.altcointrading.net/security/malware</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/malware</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>ghostmining</category>
+        
+
+        <category>cnet</category>
+        
+
+        <category>zdnet</category>
+        
+
+        <category>tecmint</category>
+        
+
+        <category>kaspersky-labs</category>
+        
+
+        <category>csoonline</category>
+        
+
+        <category>securelist</category>
+        
+
+        <category>security</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>The New Dangers of Telegram Messenger - Telegrab &amp; Beyond</title>
+        <description>As Telegram exploits from May 2018 are not really juicy enough for the netsec community, malicious campaigns are passing quietly under the radar.</description>
+
+        <pubDate>Tue, 22 May 2018 16:02:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/telegrab.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/telegram</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/telegram</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>telegram</category>
+        
+
+        <category>telegrab</category>
+        
+
+        <category>talosintelligence</category>
+        
+
+        <category>talos</category>
+        
+
+        <category>kaspersky-labs</category>
+        
+
+        <category>threatpost</category>
+        
+
+        <category>securelist</category>
+        
+
+        <category>zdnet</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Stealer Malware Targeting Cryptocurrency Owners Got Affordable</title>
+        <description>Clever business scheme emerged late in May 2018 that will make a good social engineer a lot of money.</description>
+
+        <pubDate>Mon, 04 Jun 2018 19:02:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/features/2018/nocturnal.png" medium="image" />
+
+        <link>https://www.altcointrading.net/security/nocturnal-stealer</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/nocturnal-stealer</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-trojan</category>
+        
+
+        <category>cryptosecurity</category>
+        
+
+        <category>nocturnal-stealer</category>
+        
+
+        <category>information-stealer</category>
+        
+
+        <category>nocturnal</category>
+        
+
+        <category>threatpost</category>
+        
+
+        <category>proofpoint</category>
+        
+
+        <category>threatpost</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>MacOS Malware Targeting Crypto Community, Spreading Through Admin Impostors</title>
+        <description>The variants of the particular malware will change but phishing and impostors are not going anywhere.</description>
+
+        <pubDate>Tue, 03 Jul 2018 06:02:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/tagged/altcointrading-resources.png" medium="image" />
+
+        <link>https://www.altcointrading.net/security/impostors</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/impostors</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>macos-malware</category>
+        
+
+        <category>discord-impostors</category>
+        
+
+        <category>slack-impostors</category>
+        
+
+        <category>phishing</category>
+        
+
+        <category>threat</category>
+        
+
+        <category>trendmicro</category>
+        
+
+        <category>isc</category>
+        
+
+        <category>sans</category>
+        
+
+        <category>SANS-Internet-Storm-Center</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>The Basics of Securing Your Mac and iPhone Against Malicious Threats</title>
+        <description>The business of cyber crime is extremely good at following the money, you can be sure as a cryptocurrency holder you are a particularly hot article.</description>
+
+        <pubDate>Sat, 17 Nov 2018 10:02:00 +0000</pubDate>
+
+        <author>Bill@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/unsplash2/atnet-office2.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/mac-malware-crypto-basic-protection</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/mac-malware-crypto-basic-protection</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>macos-malware</category>
+        
+
+        <category>phishing</category>
+        
+
+        <category>threat</category>
+        
+
+        <category>cryptojacking</category>
+        
+
+        <category>isc</category>
+        
+
+        <category>sans</category>
+        
+
+        <category>pixelprivacy</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Twitter Memes: New very safely-looking way of infecting your devices</title>
+        <description>A short call to those of you who have a wallet for daily expenses or trading on a computer or phone that is used for 'safe' day-to-day work and browsing.</description>
+
+        <pubDate>Wed, 19 Dec 2018 03:02:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/twitter-memes.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/malicious-memes</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/malicious-memes</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>macos-malware</category>
+        
+
+        <category>phishing</category>
+        
+
+        <category>threat</category>
+        
+
+        <category>cryptojacking</category>
+        
+
+        <category>twitter</category>
+        
+
+        <category>malware-distribution</category>
+        
+
+        <category>crypto-security</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>List of tools for scam detection</title>
+        <description>List of browser tools to up your security and avoid fraudulent websites while online.</description>
+
+        <pubDate>Fri, 11 Jan 2019 05:02:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/tools</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/tools</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>security-tools</category>
+        
+
+        <category>malware-detection</category>
+        
+
+        <category>cryptojacking</category>
+        
+
+        <category>twitter</category>
+        
+
+        <category>minerblock</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets</title>
+        <description>Here's what the malware does and how to protect your crypto.</description>
+
+        <pubDate>Mon, 04 Feb 2019 04:01:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/cookies.jpeg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/cookieminer-2fa-bypass</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/cookieminer-2fa-bypass</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>security-tools</category>
+        
+
+        <category>malware-detection</category>
+        
+
+        <category>cryptojacking</category>
+        
+
+        <category>twitter</category>
+        
+
+        <category>palo-alto-networks</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+
+
+  </channel>
+</rss>

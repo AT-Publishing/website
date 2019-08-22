@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-pages.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-posts.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-strategy.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-security.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-pressreleases.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.altcointrading.net/sitemap-airdrops.xml</loc>
+  </sitemap>
+</sitemapindex>

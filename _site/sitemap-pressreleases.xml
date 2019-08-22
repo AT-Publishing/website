@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+      <loc>https://www.altcointrading.net/press/</loc>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/cryptoloans/</loc>
+        <lastmod>2018-03-19T01:15:28+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/coins4favors/</loc>
+        <lastmod>2018-03-30T08:36:18+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/shopiblock/</loc>
+        <lastmod>2018-06-17T00:07:36+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/tracetoio/</loc>
+        <lastmod>2018-06-08T20:31:57+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/crowdif/</loc>
+        <lastmod>2018-06-08T15:42:10+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/zilliqa/</loc>
+        <lastmod>2018-06-22T05:55:11+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/allsporter/</loc>
+        <lastmod>2018-08-07T11:34:36+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/open-data-echange-token-sale/</loc>
+        <lastmod>2018-09-18T03:54:02+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/ai-blockchain-startup-perlin-japan-globalbrains/</loc>
+        <lastmod>2018-12-07T20:24:42+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/orbit-p2p-nolimit-gambling-dapp/</loc>
+        <lastmod>2018-12-30T14:02:49+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/press/pay-uber-with-crypto/</loc>
+        <lastmod>2019-02-03T09:29:01+00:00</lastmod>
+    </url>
+    
+</urlset>

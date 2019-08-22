@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/wyckoff-ranging-markets</loc>
+        <lastmod>2019-07-22T10:35:08+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/multiple-time-frame</loc>
+        <lastmod>2019-03-04T01:59:43+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/cryptocurrency-lending</loc>
+        <lastmod>2019-02-20T07:32:38+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/fibs</loc>
+        <lastmod>2018-01-08T10:09:47+00:00</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.altcointrading.net/strategy/fibs"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/strategie/fibs/"/>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/how-to-vet-icos</loc>
+        <lastmod>2018-02-26T11:40:20+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/scalping</loc>
+        <lastmod>2019-03-04T01:59:43+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/timing</loc>
+        <lastmod>2019-06-29T09:14:59+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/fulcrum-bottom</loc>
+        <lastmod>2018-09-25T07:42:43+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/reversals</loc>
+        <lastmod>2018-12-28T13:42:51+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/crypto-investment</loc>
+        <lastmod>2019-07-20T06:25:09+00:00</lastmod>
+        
+    </url>
+    
+</urlset>

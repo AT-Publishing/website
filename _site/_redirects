@@ -1,0 +1,19 @@
+# Redirect default Netlify subdomain to primary domain
+https://altcointrading.netlify.com/* https://www.altcointrading.net/:splat 301!
+
+/index.html / 301
+/bitcoin-bots/ /automated-trading/ 301
+/exchanges/ /category/exchanges/ 301
+/sample-post/ / 301
+/trading-strategies/ /category/trading/ 301
+/about/ /about-legal/ 301
+/about-privacy/ /about-legal/ 301
+/ta-divergences/ /divergences/ 301
+/monero-cold-storage-2017/ /monero-cold-storage/ 301
+/cryptoloop /coinloop 301
+/no-ico/ /category/no-ico/ 301
+/eth-traders-tool/ /cryptosignal/ 301
+
+/category/trading/ /blog/trading/ 301
+
+/blockchain-tech-companies/ https://www.thebusinessofcrypto.com/company/ 301

@@ -1,0 +1,2385 @@
+<!DOCTYPE html><html amp lang="en">
+<head>
+<meta charset="utf-8">
+
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//cdn.ampproject.org" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+
+<link rel="preconnect" href="//cdn.ampproject.org">
+
+<link rel="prefetch" href="//fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One" />
+<link rel="prefetch" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<link rel="prerender" href="//www.thebusinessofcrypto.com/airdropped/">
+<link rel="prerender" href="//www.altcointrading.net/airdrops/">
+
+
+  
+  <link rel="canonical" href="https://news.altcointrading.net/dex-trading/">
+  
+
+
+<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/dex-trading/">
+
+
+<title>DEX Series, Episode 1: Order Execution Management</title>
+
+<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<meta name="description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.">
+
+<meta name="keywords" content="business-of-crypto, leverj, leverj-io, altcoin-io, 0x, ddex, dex, decentralized-exchange, non-custodial-trading, crypto-trading, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+
+<meta name="author" content="https://twitter.com/tradingfanbois">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<!-- opengraph -->
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="AltcoinTrading.NET | DEX Series, Episode 1: Order Execution Management" />
+<meta property="og:description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading." />
+<meta property="og:url" content="https://www.altcointrading.net/dex-trading/" />
+<meta property="og:site_name" content="AltcoinTrading.NET" />
+<meta property="og:updated_time" content="2019-06-29T09:14:59+00:00" />
+<meta property="og:image" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
+<meta property="og:image:secure_url" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
+
+<!-- article -->
+<meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
+<meta property="article:author" content="https://twitter.com/tradingfanbois" />
+
+<meta property="article:published_time" content="2019-06-29T09:14:59+00:00" />
+
+<!-- post tags -->
+<meta property="article:tag" content="business-of-crypto" /><meta property="article:tag" content="leverj" /><meta property="article:tag" content="leverj-io" /><meta property="article:tag" content="altcoin-io" /><meta property="article:tag" content="0x" /><meta property="article:tag" content="ddex" /><meta property="article:tag" content="dex" /><meta property="article:tag" content="decentralized-exchange" /><meta property="article:tag" content="non-custodial-trading" /><meta property="article:tag" content="crypto-trading" />
+<!-- post categories -->
+<meta property="article:section" content="Cryptocurrency Exchanges" />
+
+<!-- twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@altcointrading_" />
+<meta name="twitter:title" content="AltcoinTrading.NET | DEX Series, Episode 1: Order Execution Management" />
+<meta name="twitter:description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading." />
+<meta property="twitter:image" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
+<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
+<meta name="twitter:creator" content="@tradingfanbois" />
+
+
+<!--AMP-->
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<!-- amp shares -->
+<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+<!-- amp embeds -->
+
+
+
+
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+<script async custom-element="amp-dailymotion" src="https://cdn.ampproject.org/v0/amp-dailymotion-0.1.js"></script>
+<script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+<!-- ga -->
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+
+<script type="application/ld+json">
+{
+ "@context":"http:\/\/schema.org",
+ "@type":"Organization",
+ "url":"https://www.altcointrading.net",
+ "sameAs":[
+    "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
+    "https:\/\/twitter.com\/altcointrading_",
+    "https:\/\/medium.com\/cryptolounge",
+    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/"
+ ],
+ "@id":"#organization",
+ "name":"AltcoinTrading.NET",
+ "logo":{
+    "@type":"ImageObject",
+    "url":"https://i.imgur.com/YiUXPdY.jpg",
+    "width":350,
+    "height":60
+ },
+ "telephone":"+595 21 620 7326",
+ "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
+    "addressLocality":"Asuncion",
+    "addressCountry":"PY",
+    "postalCode":"3794"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+   "@context":"http:\/\/schema.org",
+   "@type":"Article",
+   "@id":"https://www.altcointrading.net/dex-trading/#article",
+   "mainEntityOfPage":"https://www.altcointrading.net/dex-trading/",
+   "publisher":{
+      "@id":"https://www.altcointrading.net/dex-trading/#organization"
+   },
+   "headline":"DEX Series, Episode 1: Order Execution Management",
+   "datePublished": "2019-06-29T09:14:59+00:00",
+   "dateModified": "2019-06-29T09:14:59+00:00",
+   "contentReferenceTime": "2019-06-29T09:14:59+00:00",
+   "author":[
+      {
+         "@type":"Person",
+         "name":"tradingfanbois"
+      }
+   ],
+   "description":"On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.",
+   "articleBody":"&lt;p&gt;Decentralized crypto exchanges look to be booming in 2018 - only by a very superficial search on Twitter there is &lt;a href=&quot;https://twitter.com/search?f=users&amp;amp;q=decentralized%20exchange&quot;&gt;more than 10 decentralized trading places found&lt;/a&gt;. For now they are mostly built on the Ethereum blockchain but NEO-based platforms and previews of EOS-based ones are starting to pop up too.&lt;/p&gt;
+
+&lt;p&gt;In this article we will be analyzing several newer platforms that are coming in 2018. While the concept of DEX has been around for some time, the trading experience &lt;a href=&quot;https://blog.altcoin.io/decentralized-exchanges-explained-and-why-we-need-them-more-than-ever-4ef9fbb9192d&quot;&gt;has its perks&lt;/a&gt;. Following up on a &lt;a href=&quot;https://youtu.be/-jenA5UumfE&quot;&gt;webinar from 16th March 2018 on by LeverJ&lt;/a&gt; we are going to talk about the novel ways of crypto trading without being overly technical.&lt;/p&gt;
+
+&lt;h2 id=&quot;non-custodial-trading--new-solutions&quot;&gt;Non-Custodial Trading &amp;amp; New Solutions&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;What is a non-custodial exchange?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Non-custodial exchange is a trading platform that does not own the private keys of your cryptocurrency assets. The most popular crypto trading platforms are custodial - Coinbase, Bitfinex, BitMEX, OKEx and others are all custodians of the users’ assets. In order to make a trade on a custodial platform the user needs to deposit assets into a wallet owned and controlled by the platform.&lt;/p&gt;
+
+&lt;p&gt;There are pros and cons to this approach.&lt;/p&gt;
+
+&lt;p&gt;Custodial exchanges are easily manageable. The event of opening a trade is an information in a database, as far as the user doesn’t initiate a withdrawal from the exchange, the actions taken do not depend on the asset’s blockchain throughput or congestions. The trades themselves are not recorded on a blockchain either, just in the exchange’s databases. As long as the backend of the &lt;a href=&quot;/kraken-upgrade/&quot;&gt;trading platform actually works&lt;/a&gt; and the systems are &lt;a href=&quot;https://craft.co/binance/metrics#operations&quot;&gt;upgraded to reflect the traffic changes on the platform&lt;/a&gt;, trading on custodial exchanges can be very comfortable.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;/features/2018/binance-traffic.png&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/features/2018/binance-traffic.png&quot; alt=&quot;DEX Series, Episode 1: Order Execution Management&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Web traffic growth on the Binance exchange in 2017. &lt;a href=&quot;https://craft.co/binance/metrics#operations&quot;&gt;Source&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The disadvantage is the black swan event which in the cryptocurrency space is apparently not something as rare as it should be. With money on the exchange, trader stands to lose his roll when the exchange gets hacked, becomes fraudulent or gets trapped in regulatory affairs. Custodial exchanges want traders to keep money with them though, interest-generating cryptocurrencies or P2P lending are examples of features that incentivize it. Exchange then might engage in arbitrage trading or other operations with customer funds to earn profit, although &lt;a href=&quot;https://qz.com/1059179/huobi-and-okcoin-chinas-two-biggest-bitcoin-btc-exchanges-were-themselves-to-150-million-in-idle-client-funds/&quot;&gt;exchanges keep refuting this argument&lt;/a&gt; and so it remains hypothetical.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-are-non-custodial-exchanges-important&quot;&gt;Why are non-custodial exchanges important?&lt;/h3&gt;
+
+&lt;p&gt;Non-custodial trading is more difficult to manage, scale and (hypothetically) to make asymmetric profit on, it is less vulnerable to both security risks and top-down regulations. As long as the trader retains the ownership of his funds, the only obvious things to regulate there are formalities - for instance a DEX might need to be officially called a trading &lt;em&gt;platform&lt;/em&gt; rather than an &lt;em&gt;exchange&lt;/em&gt; as the latter might suggest a legacy level of regulatory standard.&lt;/p&gt;
+
+&lt;p&gt;While top-down regulation might sound great to someone who is being salty over lost money in an exchange hack, ultimately the result of it is expensive AML/KYC which fails exactly the same type of person who likes to call for top-down protections. The costs of verification procedures and compliance for custodial exchanges are already overwhelming, the result is the smaller retail traders are becoming a burden; they don’t pay off.&lt;/p&gt;
+
+&lt;p&gt;For now the disadvantages of non-custodial trading remain generally centered around usability: Is it better to have on-chain trading and depend on mempool levels? Or is it better to have off-chain book and depend on smart-contracts and matching engine optimization and scalability? How to implement fiat pairs, what &lt;a href=&quot;/dai-stablecoin/&quot;&gt;stablecoin&lt;/a&gt; is the best one for the job?&lt;/p&gt;
+
+&lt;p&gt;Those are rather superficial issues that will hopefully get cleared up with growing pressure of market competition and more attention from the trading community. As long as the trading works reasonably, a DEX is a clear winner for the trader: The trading account is only determined by an address and a private key where trader sends cryptoassets, there is no identity verification, no geographical limitations, no legal requirements.&lt;/p&gt;
+
+&lt;h2 id=&quot;dex-trading-schema&quot;&gt;DEX trading schema&lt;/h2&gt;
+
+&lt;p&gt;Very generally, the process of executing a trade on a DEX consists of four steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Money sent to an address fully controlled by the trader where trade can be initiated from.&lt;/li&gt;
+  &lt;li&gt;Order submission: On-chain or into a contract for off-chain management.&lt;/li&gt;
+  &lt;li&gt;Order is live, waiting to be picked up: P2P, Relayers or centralized matching engine.&lt;/li&gt;
+  &lt;li&gt;Trade is settled, fees and funds are released and transfered to their owners.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;border&quot;&gt;
+&lt;amp-img itemprop=&quot;image&quot; src=&quot;/features/2018/dex-schema.png&quot; alt=&quot;DEX trading schema&quot; title=&quot;AltcoinTrading.NET - DEX trading schema&quot; layout=&quot;responsive&quot; width=&quot;690px&quot; height=&quot;715px&quot;&gt;
+&lt;/amp-img&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;on-chain-vs-off-chain-dex-trading&quot;&gt;On-chain vs Off-chain DEX Trading&lt;/h3&gt;
+
+&lt;p&gt;The two main ways of managing decentralized trading is either fully on-chain or with an off-chain order book where the trade orders are managed via smart contracts.&lt;/p&gt;
+
+&lt;h4 id=&quot;on-chain-atomic-swaps--state-channels&quot;&gt;On-Chain: Atomic Swaps &amp;amp; State Channels&lt;/h4&gt;
+
+&lt;p&gt;Currently the most hyped solution to decentralized trading on the blockchain is the way of atomic swaps. From a technical standpoint, all trader’s cryptoassets are stored on the blockchain. Only the trader has the private key, only the trader owns the assets. As soon as this solution is working reliably this will be a great way to spot trade with no counterparty risks.&lt;/p&gt;
+
+&lt;p&gt;Atomic swaps have been around for a little while and as an experiment only. From &lt;a href=&quot;https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818&quot;&gt;the altcoin.io blog&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;On 19th September 2017, Decred completed the first on-chain atomic swap between Decred and Litecoin.&lt;/li&gt;
+  &lt;li&gt;On October 7th 2017, Altcoin.io completed the first Ethereum to Bitcoin atomic swap.&lt;/li&gt;
+  &lt;li&gt;On 16th November 2017, Lightning Labs confirmed the world’s first off-chain atomic swap over the lightning network. Important milestone, swaps over Lightning network will be faster and cheaper.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the future atomic swap exchange Altcoin.io the use hashed-time-locked-contracts (HTLCs) is going to be implemented for the execution of the swap trading - that way neither party can take the offered funds without first offering their own. Essentially, user’s funds are in his own wallet at all times but there is a smart contract to submit trade orders to the blockchain.&lt;/p&gt;
+
+&lt;p&gt;Altcoin.io proposes an atomic swap matching engine with orders on the blockchain.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the future, using our Atomic Swap order matching engine, you will be able to trade in two ways. Either by setting your own token price, or by using a fair market value as calculated using other markets’ relative price. This lets you list niche coins that can’t be traded on other exchanges.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One day this could be a great way to spot-trade between BTC and ETH or ETH-based tokens. However, at the current state of both the blockchains this would not be feasible. A critical feature for the success of atomic swap trading are &lt;em&gt;payment channels&lt;/em&gt; and &lt;em&gt;state channels&lt;/em&gt;, ways for different blockchains to interact one with another that are being built upon the Bitcoin’s Lightning network.&lt;/p&gt;
+
+&lt;p&gt;That means, state channels and payment channels both depend on the Lightning network development for Bitcoin blockchain and on the Raiden network for Ethereum, which is the material point here: The problem is &lt;em&gt;when&lt;/em&gt; will the atomic swap trading be production-ready. &lt;a href=&quot;/altcoinio/&quot;&gt;Altcoin.io&lt;/a&gt; initially set their release date to Q1 2018 which was clearly overly optimistic. In fact, &lt;a href=&quot;http://archive.is/nR5u3&quot;&gt;Elizabeth Stark liked a recent critics of how hyped the swaps became&lt;/a&gt;. The liked tweet said that everyone who says atomic swaps will be ready in the matter of months does not know what they are talking about.&lt;/p&gt;
+
+&lt;p&gt;In short, trading via atomic swaps is an interesting solution that will have its place but it depends on too many independent developments - mainly the &lt;a href=&quot;https://swapready.net/&quot;&gt;atomic swap readiness of other cryptocurrencies&lt;/a&gt; and the production reliability of the off-chain scaling solutions.&lt;/p&gt;
+
+&lt;p&gt;For now, it is time to look elsewhere.&lt;/p&gt;
+
+&lt;h4 id=&quot;hybrid-approaches-off-chain-matching&quot;&gt;Hybrid Approaches: Off-Chain Matching&lt;/h4&gt;
+
+&lt;p&gt;The off-chain order book that handles orders submitted directly from a wallet owned by the trader is a popular approach known from EtherDelta. With these classic older decentralized exchanges there is no solution implemented as matching engine; automatic smart contracts have been proposed for that but the solution turned out to be impractical - &lt;a href=&quot;https://www.0xproject.com/pdfs/0x_white_paper.pdf&quot;&gt;severely dependent on an artificial constraint&lt;/a&gt; called &lt;em&gt;price-adjustment model&lt;/em&gt; which can easily create large fluctuations in the market.&lt;/p&gt;
+
+&lt;p&gt;Another hybrid solution is the 0x protocol. It uses off-chain matching but done in a decentralized way by Relayers, independent actors who gain money from matching successful trades. This approach addresses some of the issues of decentralized trading but still keeps a lot of the inconveniences, more on this in a bit.&lt;/p&gt;
+
+&lt;p&gt;The only ways to date that proposed concrete and reasonable solutions aiming to make non-custodial trading powerful, fast and packed with advanced features have been introducing some degree of centralization with the emphasis on keeping the control of the assets to the trader and optimizing the functionalities critical for trading in a centralized manner. One such solution is implemented as &lt;a href=&quot;https://idex.market&quot;&gt;IDEX&lt;/a&gt;, a spot ERC20 exchange created on behalf of Aurora Labs. Another is the derivative exchange &lt;a href=&quot;/leverj/&quot;&gt;LeverJ&lt;/a&gt; which uses the off-chain matching type of model with some interesting technical innovations.&lt;/p&gt;
+
+&lt;p&gt;There is a lot of great work being done but keep in mind it’s not the end of history:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The fundamental limitation of it is the need to trust a smart contract and the token limitations - an Ethereum DEX can only trade Ethereum tokens.&lt;/li&gt;
+  &lt;li&gt;The on-the-fly limitations lie in the connection of the trade submissions, matching and order book updates - there can always be communication lags that create opportunities for exploits and mistakes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is EtherDelta trading so slow&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The slow trade execution on EtherDelta is caused by its &lt;a href=&quot;https://www.reddit.com/r/EtherDelta/comments/6t4w55/does_etherdelta_has_a_matching_algorithm_or_the/&quot;&gt;lack of automated matching routine&lt;/a&gt;. Trades from the order book don’t get matched by an engine, each order needs to be picked up be someone in order to complete, as explained &lt;a href=&quot;https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/&quot;&gt;here in a guide on how to trade on EtherDelta&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While that keeps EtherDelta a more decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The 0x solution of the liquidity problem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;0x is a protocol on top of which decentralized ETH exchanges can be built. The 0x protocol offers a solution for the order book management by introducing Relayers, off-chain actors whose job is to match orders from the two sides of the order book and who receive the trading fee. The concept of Relayers is explained in the &lt;a href=&quot;https://www.0xproject.com/pdfs/0x_white_paper.pdf&quot;&gt;0x whitepaper, page 7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Order book in 0x itself is off-chain too, only the transaction is settled on-chain which makes the trading less costly, liquidity is also more promising as anyone can become a Relayer. The 0x setup does not require to trust the Relayers as they are only transmitting signals about possible trade partners, the traders need to complete the trade themselves.&lt;/p&gt;
+
+&lt;p&gt;Relayers earn the trading fees for their work but are exposed to the risk of one side pulling their order in the last moment. At the protocol level 0x does not have any mechanism against the abuse by submitting a mass of bogus orders to pull them later though which could potentially diminish the incentives of working as a Relayer.&lt;/p&gt;
+
+&lt;p&gt;The way cancelled transactions are dealt with in 0x is less costly than on EtherDelta - 0x batches the cancel procedure which lowers the cost somewhat. However, the cancel order still needs to be recorded on the blockchain otherwise the old trade is at risk of being executed at some point in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The way of centralized matching - IDEX and LeverJ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The only feasible solution that would enable smooth trading experience on par with custodial exchange houses is the idea of &lt;strong&gt;buffering the trading activity&lt;/strong&gt; so that only the &lt;strong&gt;finalized executed trades&lt;/strong&gt; get recorded on the blockchain.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://idex.market&quot;&gt;IDEX&lt;/a&gt; addresses the issues of EtherDelta and 0x by centralizing the non-critical components of the trading process. To optimize this experience, IDEX maintains ownership of broadcasting user authorized transactions to the Ethereum network:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;users unlock their account by uploading a JSON keystore file to sign orders with their private keys&lt;/li&gt;
+  &lt;li&gt;orders are processed and either cancelled or matched by a smart contract&lt;/li&gt;
+  &lt;li&gt;filled trades are added to a queue to be broadcast into the Ethereum network&lt;/li&gt;
+  &lt;li&gt;users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfilled cancelled orders on IDEX are purged and invalidated as needed, they are not recorded on the blockchain and therefore do not cost anything.&lt;/p&gt;
+
+&lt;p&gt;Grossly discounting the technology needed to make non-custodial leveraged trading possible, &lt;a href=&quot;https://leverj.io&quot;&gt;LeverJ&lt;/a&gt; offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;users link their wallets via a zero-knowledge API (more on that further down)&lt;/li&gt;
+  &lt;li&gt;orders are processed and either cancelled or matched by a centralized engine&lt;/li&gt;
+  &lt;li&gt;filled trades that passed the period of checks for abuse are added to a queue to be broadcast into the Ethereum network&lt;/li&gt;
+  &lt;li&gt;users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;LeverJ has one added security element - orders are matched off-chain and periodically synced to the blockchain but before they are there is a routine to check for abuse. If there is a sign of abuse the trade is not sent to the blockchain and the release of funds for withdrawal is blocked for investigation.&lt;/p&gt;
+
+&lt;p&gt;Similarly as on IDEX, on LeverJ unfilled cancelled orders are not stored to be synced to the blockchain and therefore do not cost anything.&lt;/p&gt;
+
+&lt;p&gt;This is how the general DEX trade execution path changes after the introduction of some degree of centralized management:&lt;/p&gt;
+
+&lt;figure class=&quot;border&quot;&gt;
+&lt;amp-img itemprop=&quot;image&quot; src=&quot;/features/2018/dex-buffering.png&quot; alt=&quot;DEX trading schema&quot; title=&quot;AltcoinTrading.NET - DEX trading schema&quot; layout=&quot;responsive&quot; width=&quot;749px&quot; height=&quot;749px&quot;&gt;
+&lt;/amp-img&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These half-centralized solutions seem to offer a good compromise: Because the user needs to authorize the trading activities with his private key, the platform still does not get the custody of the user’s assets. But thanks to the centralized back-office the matching engine can be optimized for speed. Trading also does not depend on blockchain congestion or attacks because the blockchain sync can be postponed as needed without it affecting the trading.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-experience&quot;&gt;User Experience&lt;/h3&gt;
+
+&lt;p&gt;A common thing on decentralized trading platform is to trade with crypto tokens directly from the user’s wallet. It is most often MetaMask but there is typically the option to have MyEtherWaller or Ledger wallet too. For instance here is a &lt;a href=&quot;https://medium.com/ddex/ledger-support-setting-up-your-ledger-nano-s-on-ddex-427e7b3c9e4e&quot;&gt;guide from DDEX&lt;/a&gt; that shows how a plugged-in Ledger wallet gets automatically detected through the browser app by the DEX interface. You can trade right from your hardware wallet, or from MetaMask.&lt;/p&gt;
+
+&lt;p&gt;With MetaMask this is easy enough for ShapeShift-style exchange, I’m sure it is a bit of a burden to reach through the pizza boxes for your Ledger device to sign a transaction each time though. For more developed trading markets where there is demand for scalping or arbitrage, either solution is an obvious limitation.&lt;/p&gt;
+
+&lt;p&gt;The only decentralized outfit to this day that aims for this kind of product is LeverJ and they are developing a solution based on zero-knowledge API keys. This is currently not a vaporware, a working demo exists.&lt;/p&gt;
+
+&lt;h4 id=&quot;zero-knowledge-api-keys&quot;&gt;Zero-knowledge API keys&lt;/h4&gt;
+
+&lt;p&gt;Simplified explanation of the workflow:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;MetaMask user signs up at LeverJ. This generates a dialog where the user signs a message with his trading ETH address. This step is key to the way zero-knowledge API keys work - they are API keys containing a trail back to the particular ETH wallet.&lt;/li&gt;
+  &lt;li&gt;The signature is verified by LeverJ server. The original wallet address is extracted from the signature and a user account with the respective address is created.&lt;/li&gt;
+  &lt;li&gt;API key and secret is generated for the user in his browser, user approves it and sends the key into an ETH contract on the blockchain. The contract serves as a registry of user API keys while the API secret is never sent anywhere, it remains stored in the user’s browser local storage. The purpose of the API key is to authorize trades on behalf of the user, which is why it needs to be signed by the user’s ETH address. The API does not have permission to access the user’s funds, only to execute trades inside the platform.&lt;/li&gt;
+  &lt;li&gt;User can trade directly from his ETH wallet, actions are signed by the API secret in his browser storage. This way of signing trades via an API also makes automated bot trading possible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The risk here is mainly human error and bad OPSEC on behalf of the user. The order submission and matching is centralized on LeverJ with a centralized way to check for fraud or abuse. This centralized abuse check should soften the impact of security problems.&lt;/p&gt;
+
+&lt;p&gt;Full webinar about the concept is embedded as a YouTube video at the bottom of the page but if you care to skip ahead to only see the meat of the webinar, here are the most important timestamps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=2m11s&quot;&gt;intro to the problem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=8m30s&quot;&gt;walkthrough with the UX mockups&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=31m30s&quot;&gt;demo with a dev UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;security-aspects-and-impact-of-a-breach&quot;&gt;Security Aspects and Impact of a Breach&lt;/h3&gt;
+
+&lt;p&gt;Both the fully on-chain and partially off-chain trading accounts on decentralized exchanges are vulnerable to phishing attacks and impostors, as was seen for instance in the EtherDelta hack: Malicious actor hijacked the exchange’s DNS and &lt;a href=&quot;https://blog.drhack.net/etherdelta-hacked-millions-stolen/&quot;&gt;created impostor website with a fake contract address&lt;/a&gt; where traders deposited their funds to never see them again.&lt;/p&gt;
+
+&lt;p&gt;This kind of attack (user by user, “skimming”) is always possible, even with trading based on atomic swaps as traders always need to initiate the trade by moving the asset they want to trade, even if it is to a wallet they control themselves.&lt;/p&gt;
+
+&lt;p&gt;A hack of a DEX should have a much softer impact on the ecosystem though because a heist of a hot wallet or cold storage with a big chunk of the total user funds on the exchange is not possible. A heist of effectively a large amount of money is possible but hard to pull off.&lt;/p&gt;
+
+&lt;p&gt;A good DEX whitepaper should include a section that goes into detail of possible attack scenarios, as seen in the &lt;a href=&quot;https://leverj.io/whitepaper.pdf&quot;&gt;LeverJ whitepaper&lt;/a&gt; starting at page 5, “Attack Vectors”. The paper explains a heist on the LeverJ protocol has two tedious parts susceptible to detection - the stolen assets first get gathered by skimming a large number of users and then they need to be released from the smart contract. For additional security the LeverJ exchange will delay every contract release so that there is enough time for the fraud detection.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;If you find this post useful, share it!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;container-center&quot;&gt;
+&lt;span class=&quot;doge-share&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;share-cta&quot;&gt;PLZ SHARE THIS POST&lt;/span&gt;
+&lt;ul class=&quot;social share&quot;&gt;
+  &lt;li&gt;
+    &lt;amp-social-share type=&quot;facebook&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;amp-social-share type=&quot;twitter&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;amp-social-share type=&quot;linkedin&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;amp-social-share type=&quot;whatsapp&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;amp-social-share type=&quot;gplus&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
+  &lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;[beginner] &lt;strong&gt;Crypto Exchanges: Custodial vs. Non-Custodial vs. Decentralized&lt;/strong&gt; / &lt;a href=&quot;https://medium.com/@jacobrobertwoods/crypto-exchanges-custodial-vs-non-custodial-vs-decentralized-3d1d04cf205&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[beginner] &lt;strong&gt;The Evolution of Atomic Swaps&lt;/strong&gt; / &lt;a href=&quot;https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[beginner] &lt;strong&gt;Altcoin.io Preview Whitepaper&lt;/strong&gt; / &lt;a href=&quot;https://www.preview.altcoin.io/lite-paper.pdf&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[intermediate] &lt;strong&gt;IDEX: A Real-Time and High-Throughput Ethereum Smart Contract Exchange&lt;/strong&gt; / &lt;a href=&quot;https://idex.market/static/IDEX-Whitepaper-V0.7.5.pdf&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[intermediate] &lt;strong&gt;An Overview of Stablecoins&lt;/strong&gt; / &lt;a href=&quot;https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[advanced] &lt;strong&gt;Zero-knowledge API Keys&lt;/strong&gt; / &lt;a href=&quot;https://blog.leverj.io/zero-knowledge-api-keys-43280cc93647&quot;&gt;Article&lt;/a&gt; / &lt;a href=&quot;https://youtu.be/-jenA5UumfE&quot;&gt;Webinar&lt;/a&gt;&lt;/p&gt;
+
+&lt;amp-youtube data-videoid=&quot;-jenA5UumfE&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;
+&lt;/amp-youtube&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+",
+   "isPartOf":{
+      "@id":"https://www.altcointrading.net/dex-trading/#webpage"
+   },
+   "image":[
+     "https://www.altcointrading.net/editorial/tagged/exchanges.png",
+     "https://www.altcointrading.net/features/2018/binance-traffic.png"
+     
+   ],
+   
+   "about": {
+     "@type": "Thing",
+     "name": "",
+     "sameAs": [
+       ""
+       ]
+   },
+   
+   "mentions":[
+      {
+         "@type":"Person",
+         "name":"tradingfanbois",
+         "sameAs":"https://twitter.com/tradingfanbois"
+      }
+   ]
+}
+</script>
+
+
+<!-- AMP allowed resources -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Fira+Sans+Condensed:400,700|Alegreya:400i|Passion+One' rel='stylesheet'>
+
+
+<!-- custom resources -->
+<style amp-custom>
+  /*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+  /* Skeleton V2.0.4 | Copyright 2014, Dave Gamache | www.getskeleton.com | Free to use under the MIT license. | http://www.opensource.org/licenses/mit-license.php | 12/29/2014 */
+.container{position:relative;width:100%;max-width:960px;margin:0 auto;padding:0 20px;box-sizing:border-box}.column,.columns{width:100%;float:left;box-sizing:border-box}@media(min-width:400px){.container{width:85%;padding:0}}@media(min-width:550px){.container{width:80%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}.five.columns{width:39.3333333333%}.six.columns{width:48%}.seven.columns{width:56.6666666667%}.eight.columns{width:65.3333333333%}.nine.columns{width:74.0%}.ten.columns{width:82.6666666667%}.eleven.columns{width:91.3333333333%}.twelve.columns{width:100%;margin-left:0}.one-third.column{width:30.6666666667%}.two-thirds.column{width:65.3333333333%}.one-half.column{width:48%}.offset-by-one.column,.offset-by-one.columns{margin-left:8.66666666667%}.offset-by-two.column,.offset-by-two.columns{margin-left:17.3333333333%}.offset-by-three.column,.offset-by-three.columns{margin-left:26%}.offset-by-four.column,.offset-by-four.columns{margin-left:34.6666666667%}.offset-by-five.column,.offset-by-five.columns{margin-left:43.3333333333%}.offset-by-six.column,.offset-by-six.columns{margin-left:52%}.offset-by-seven.column,.offset-by-seven.columns{margin-left:60.6666666667%}.offset-by-eight.column,.offset-by-eight.columns{margin-left:69.3333333333%}.offset-by-nine.column,.offset-by-nine.columns{margin-left:78.0%}.offset-by-ten.column,.offset-by-ten.columns{margin-left:86.6666666667%}.offset-by-eleven.column,.offset-by-eleven.columns{margin-left:95.3333333333%}.offset-by-one-third.column,.offset-by-one-third.columns{margin-left:34.6666666667%}.offset-by-two-thirds.column,.offset-by-two-thirds.columns{margin-left:69.3333333333%}.offset-by-one-half.column,.offset-by-one-half.columns{margin-left:52%}}html{font-size:62.5%}body{font-size:1.5em;line-height:1.6;font-weight:400;font-family:"Raleway","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;color:#222}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:2rem;font-weight:300}h1{font-size:4.0rem;line-height:1.2;letter-spacing:-.1rem}h2{font-size:3.6rem;line-height:1.25;letter-spacing:-.1rem}h3{font-size:3.0rem;line-height:1.3;letter-spacing:-.1rem}h4{font-size:2.4rem;line-height:1.35;letter-spacing:-.08rem}h5{font-size:1.8rem;line-height:1.5;letter-spacing:-.05rem}h6{font-size:1.5rem;line-height:1.6;letter-spacing:0}@media(min-width:550px){h1{font-size:5.0rem}h2{font-size:4.2rem}h3{font-size:3.6rem}h4{font-size:3.0rem}h5{font-size:2.4rem}h6{font-size:1.5rem}}p{margin-top:0}a{color:#1eaedb}a:hover{color:#0fa0ce}.button,button,input[type="submit"],input[type="reset"],input[type="button"]{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:11px;font-weight:600;line-height:38px;letter-spacing:.1rem;text-transform:uppercase;text-decoration:none;white-space:nowrap;background-color:transparent;border-radius:4px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}.button:hover,button:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="button"]:hover,.button:focus,button:focus,input[type="submit"]:focus,input[type="reset"]:focus,input[type="button"]:focus{color:#333;border-color:#888;outline:0}.button.button-primary,button.button-primary,input[type="submit"].button-primary,input[type="reset"].button-primary,input[type="button"].button-primary{color:#FFF;background-color:#33c3f0;border-color:#33c3f0}.button.button-primary:hover,button.button-primary:hover,input[type="submit"].button-primary:hover,input[type="reset"].button-primary:hover,input[type="button"].button-primary:hover,.button.button-primary:focus,button.button-primary:focus,input[type="submit"].button-primary:focus,input[type="reset"].button-primary:focus,input[type="button"].button-primary:focus{color:#FFF;background-color:#1eaedb;border-color:#1eaedb}input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea,select{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}input[type="email"],input[type="number"],input[type="search"],input[type="text"],input[type="tel"],input[type="url"],input[type="password"],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none}textarea{min-height:65px;padding-top:6px;padding-bottom:6px}input[type="email"]:focus,input[type="number"]:focus,input[type="search"]:focus,input[type="text"]:focus,input[type="tel"]:focus,input[type="url"]:focus,input[type="password"]:focus,textarea:focus,select:focus{border:1px solid #33c3f0;outline:0}label,legend{display:block;margin-bottom:.5rem;font-weight:600}fieldset{padding:0;border-width:0}input[type="checkbox"],input[type="radio"]{display:inline}label>.label-body{display:inline-block;margin-left:.5rem;font-weight:normal}ul{list-style:circle inside}ol{list-style:decimal inside}ol,ul{padding-left:0;margin-top:0}ul ul,ul ol,ol ol,ol ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}li{margin-bottom:1rem}code{padding:.2rem .5rem;margin:0 .2rem;font-size:90%;white-space:nowrap;background:#f1f1f1;border:1px solid #e1e1e1;border-radius:4px}pre>code{display:block;padding:1rem 1.5rem;white-space:pre}th,td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}th:first-child,td:first-child{padding-left:0}th:last-child,td:last-child{padding-right:0}button,.button{margin-bottom:1rem}input,textarea,select,fieldset{margin-bottom:1.5rem}pre,blockquote,dl,figure,table,p,ul,ol,form{margin-bottom:2.5rem}.u-full-width{width:100%;box-sizing:border-box}.u-max-full-width{max-width:100%;box-sizing:border-box}.u-pull-right{float:right}.u-pull-left{float:left}hr{margin-top:3rem;margin-bottom:3.5rem;border-width:0;border-top:1px solid #e1e1e1}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}
+
+  .google-news-tag,.relative{position:relative}.tooltip-label,h3.home-bottom,h4.post,h5.post{text-transform:capitalize}@media (max-width:667px){.mobile-only{display:block}.desktop-only{display:none}}@media (min-width:667px){.mobile-only{display:none}.desktop-only{display:block}}.pagination{color:#001f3f;font-family:"Fira Sans Condensed";font-size:16px;display:block;left:0;font-weight:800;margin-bottom:10px;background:#fff;clear:both}.pagination>.prev{padding:0 20px;float:left;border-left:5px solid #ffdc00;width:39%}.pagination>.next{padding:0 20px;float:right;border-right:5px solid #ffdc00}h3.home-bottom{margin:40px 0 10px;font-size:21px;color:#000b17;font-family:"Droid Sans",sans-serif;font-weight:800;letter-spacing:-1px}h1.post-main{background:0 0;color:#000b17;border-left:5px solid #000b17;padding:3rem;font-size:4rem}.maincontent h5.category-post{border-right:5px solid #7A838D;border-left:none}.google-news-tag{display:block;background:#ffdc00;padding:4px 15px;color:#fff;font-size:100%;font-weight:600;top:0;width:auto;float:left}.maincontent ul{list-style:square;padding-left:17px}.maincontent ul li a{color:#6a6e73;border-bottom:2px solid rgba(122,131,141,.64)}.popular-security>span{background:#fddc33;display:inline-block;padding:1px 5px;font-size:80%;position:relative;top:-2px;color:#fff}input,select,textarea{width:100%}section em{font-family:Alegreya,serif;font-style:italic;font-size:115%;color:#000b17}#sidebar table.airdrops,blockquote{font-family:'Courier New',monospace}ul.airdrops{list-style:disc;margin-left:22px}ul.airdrops a{text-decoration:underline}#sidebar table.airdrops{display:block;width:100%}#sidebar table.airdrops td,#sidebar table.airdrops th,#sidebar table.airdrops tr{display:block;width:100%;padding:0 5px;border:none}.maincontent p a,table.airdrops a{border-bottom:2px solid #7A838D}#sidebar table.airdrops tr:nth-of-type(1){background:#7a838d;padding:10px 5px;color:#fff}#sidebar table.airdrops tr:nth-of-type(2n){background:#f9f9f9}#sidebar table.airdrops tr>td:nth-of-type(1){color:#001f3f;font-weight:800}#sidebar .strategy-overlay{position:absolute;max-width:100%;padding:15px;background:rgba(0,0,0,.14);bottom:9px;height:190px;color:#fff;font-weight:400}#sidebar .strategy-overlay p{margin:10px 0}.maincontent table.airdrops{table-layout:fixed;width:100%;white-space:pre-wrap}blockquote{font-style:normal;font-size:inherit;color:#001f3f;border-left:5px solid #fddc33;padding-left:2rem;margin-left:0;line-height:1.1}.homelab,.homelab *{text-align:left;margin-bottom:4px;line-height:1.1}.alignleft,.alignleft>p{text-align:left}ul.social{list-style:none;font-size:37px;margin-bottom:-3px}ul.social li{display:inline-block;margin-right: 2px;}.mailchimpfix{width:auto;float:left;margin-right:30px;margin-bottom:0;clear:both;display:block}#side2 ul li a,#sidebar ul.sq li a,.stripe .hl a,a,nav.main a{text-decoration:none}.adfix,.clearfix{clear:both}body{font-family:'Droid Sans',sans-serif;color:#413F4F}h1,h2,h3,h4,h5,h6{font-family:'Fira Sans Condensed',serif}hr.home{border-top:1px solid #001f3f}.textlogo{display:block;float:none;padding-top:6px}.maincontent h3{margin-top:0;background:rgba(122,131,141,.64);color:#fff;padding:5px 10px 3px;margin-left:-10px;font-size:2.3rem}.maincontent img a{border-bottom:0 solid #7A838D}.nomargintop{margin-top:0}ul{list-style:circle}ul>li>a.coin{background:#7a838d;color:#fff;padding:5px 10px}.warning{position:relative;left:-10px;background:#FF4136;color:#fff;padding:1em 2em;margin:1em 0 2em;width:auto}.logo{width:75px;float:none;margin:0 auto}#altindexbox{text-align:right;margin-top:10px}#togglemenu{clear:both;display:block;margin:-30px 0 -10px;float:left;width:100%}span#note,span.note{color:#001f3f;font-family:"Fira Sans Condensed";font-size:16px;display:block;left:0;font-weight:800;border-left:5px solid #ffdc00;margin-bottom:10px;background:#fff;clear:both}.tooltip-label,h4.post{background:#f9f9f9;color:#7A838D;border-left:5px solid #7A838D}h4.post-main{background:transparent;font-size: 3rem;color:#000b17;border-left:5px solid #000b17}.tooltip-label{font-size:1em;padding:.4em;cursor:pointer;display:inline-block;margin-bottom:1em;margin-top:10px;font-weight:400}nav.main a:hover,ul.navi li{font-weight:800}.tooltip-input{display:none;visibility:hidden}.tooltip-content{margin-bottom:1.5em}.tooltip-input:not(checked)~.tooltip-content{display:none}.tooltip-input:checked~.tooltip-content{display:block}h4.post{margin-top:0;margin-bottom:0;padding:5px 10px 3px}a.last{color:#fff;background:#FF4136;padding:5px}.exa{background:#001f3f;color:#fff;padding:10px}a,nav.main a,nav.main a:hover{color:#001f3f}a:hover{color:rgba(0,31,63,.77)}img.post{max-width:100%}span#note,span.note{padding:3px 10px;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}ul.navi li,ul.navi li:first-of-type{padding-left:0}nav.main{line-height:2.4;font-size:1.8rem;font-family:"Droid Sans",sans-serif}ul.navi{display:inline}ul.navi li{list-style-type:none;display:inline-block;font-size:1.5rem;margin-right:10px;margin-bottom:.3rem}nav ul ul{display:none;margin-left:0;position:absolute;top:70px;background:rgba(255,255,255,.7);border:1px solid #000;padding:1px 10px;z-index:10}.adfix,figure.thumb,nav ul ul li{display:block;position:relative}nav ul li:hover>ul{display:block}nav ul ul li{float:none;padding:0}nav ul ul li a{font-size:1.3rem}#side2 ul li,#sidebar ul.sq li{list-style-type:square;font-size:1.3rem}.sidebar-nl li,ul.divided li{list-style-type:none}ul.divided li div{text-align:center}section.atnet-home-bottom ul li{list-style-type: none}#bottom h3, #bottom h3 a, #sidebar h3,#sidebar h3 a{font-size:2rem;color:#001f3f;background:0 0;padding:5px 0;font-weight:400;border-bottom:5px solid #001f3f}#sidebar iframe,#sidebar img{width:99%;border:0}#side2 h3,#side2 h3 a{font-size:1.8rem;color:#fff;background:#111;padding:5px 15px}.container{max-width:1200px}.stripe{margin:0 auto;padding:20px 0 0;color:#7A838D;background:#fff;width:100%}.stripe .hl a{font-family:'Fira Sans Condensed',serif;float:left;margin-bottom:0;font-size:4rem;line-height:1.3;letter-spacing:-.1rem;color:#001f3f;font-weight:800}.stripe p{color:#aaa;margin-bottom:0}figure.border,figure.post{max-width:100%;margin:0 0 30px}.stripe small{float:left;display:block;width:100%}figure.border{border:0px dotted #7A838D}figure.thumb{width:auto;height:auto;clear:both;max-width:100%;padding:0;margin:0;text-align:right}.footer,.text-center{text-align:center}.adfix,h3.popular{width:100%;float:left}.notopmargin{margin-top:0}.shifted-left{margin-left:0}.footer{line-height:2;background:#fee248;display:block}.contacticon .center{font-size:30px;text-align:center;display:block}#socicons a,.contacticon a{border-bottom:none}figure.chart{margin:1.5em 0}figure.noborder{max-width:100%;margin:0 0 30px;border:0 dotted #7A838D}.adfix{margin-bottom:1.5em}@media (min-width:550px){h4{font-size:2.3rem}}@media (min-width:750px){#togglemenu{display:none}}@media (max-width:750px){#desktopmenu{display:none}.swapper{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-moz-box-orient:vertical;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;-webkit-align-items:flex-start;align-items:flex-start}#new-posts{-webkit-box-ordinal-group:1;-moz-box-ordinal-group:1;-ms-flex-order:1;-webkit-order:1;order:1}#popular-posts{-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;-ms-flex-order:2;-webkit-order:2;order:2}}@media (max-width:500px){figure,figure.thumb,img{max-width:100%}figure.thumb{margin:0}ul.navi{display:block}.stripe small,ul.navi li{padding-left:0}.stripe .hl a,.stripe small{width:100%;text-align:center}ul.navi li{min-width:100%;text-align:center}.tooltip-label-menu{font-size:1em;background:#000b17;padding:.4em;cursor:pointer;display:block;margin-bottom:2em;color:#fff;margin-top:0;font-weight:400}}.row.home-latest,.row.home-top-new{margin-bottom:20px}h3.popular{margin-right:15px}.row.home-top-new>article>.row{position:relative}.row.home-top-new>article>.row>.overlay{position:absolute;max-width:100%;padding:15px;background:rgba(0,0,0,.64);bottom:0;top:0;color:#fff;font-weight:400}.row.home-top-new>article>.row>.overlay>a{color:#fff;text-decoration:none}.post-content .guest>a,.securitycontent article ul>li>a{text-decoration:underline}.row.home-top-new>article>.row>.overlay>a:hover{color:#f9f9f9}.overlay>a>em{color:#fff}h5.post{padding:4px 10px;background:#f9f9f9;color:#7A838D;border-left:5px solid #7A838D;font-size:21px}.row.home-latest{border-top:2px solid #7a838d;border-bottom:1px solid #e6e4e4}.row.home-latest .columns{margin-left:0}.row.home-latest .seven.columns{width:60.666667%}.home-latest-excerpt{margin:-5px 15px 15px}.yellow{color:#ffdc00}.tag{display:inherit;background:#ffdc00;padding:1px 7px;color:#fff;font-size:80%;font-weight:200;position:relative;top:-2px}.post-content .guest,.post-content .guest>a{color:rgba(122,131,141,.81)}.custom-note{background:#CDDC39}.custom-note.bg-red{background:#FF4136}.sec-latest,.security-bg{position:relative;z-index:1;max-width:100%}.security-olay{position:absolute;z-index:99;max-width:100%;width:100%;height:100%;background:rgba(0,0,0,.5)}.security-olay h2{padding:15px;color:#fff;text-transform:uppercase}.security-olay h2 a{color:#CDDC39}.security-olay .home-latest-excerpt{color:#fff;font-size:23px;line-height:1.3;font-weight:800}#altcointrading-security .google-news-tag,#altcointrading-strategy .google-news-tag{background:#ffdc00;color:#fff;font-size:100%;font-weight:600;top:0;width:auto;position:relative;display:block;float:left}#altcointrading-security .google-news-tag{padding:4px 15px}#altcointrading-security .maincontent ul{list-style:square;padding-left:35px}#altcointrading-strategy .google-news-tag{padding:4px 15px}#altcointrading-strategy .maincontent ul{list-style:square;padding-left:17px}#altcointrading-strategy ul.social,#altcointrading-strategy ul.social a{list-style:none;font-size:15px;margin-bottom:-3px;color:#413F4F;padding-top:0}#altcointrading-strategy ul.social li{margin-right:5px}#altcointrading-strategy li.cta{font-size:15px;font-family:"Courier New",courier,monospace;font-weight:400}#altcointrading-strategy h1.post-main{margin-bottom:0}.nogutter{margin:0 0 20px;padding:0;position:relative}.nogutter.four.columns{width:33.333%}.nogutter.three.columns{width:25%}.nogutter *{color:#fff}.post-bg-outer{height:400px}.post-bg-inner{height:400px;background:rgba(0,0,0,.3);-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}.post-bg-inner:hover{background:rgba(0,0,0,.1)}.update-overlay{position:absolute;padding:5px}.update-overlay *{color:#fff;line-height:1.1}.updated-title{display:block;float:left;font-size:22px}a.updated-title:hover{color:#f9f9f9}.updated-excerpt{display:block;float:left;line-height:1.3;font-size:13px;font-family:'Courier New',Courier,monospace;padding:5px 13px}a.updated-excerpt:hover{color:#fff}.updated-tag{padding:15px;display:inline-block;margin-bottom:-10px}@media(min-width:480px){.stripe .hl a,.textlogo,ul.navi{text-align:center}.logo{width:75px;float:none;margin:0 auto}.textlogo{display:block;float:none;margin:6px auto}.stripe{margin:0 auto;padding:20px 0 0;color:#7A838D;background:#fff;border-bottom:none}.stripe .hl a{font-family:'Fira Sans Condensed',serif;float:none;font-size:4rem;line-height:1.3;letter-spacing:-.1rem;color:#001f3f;font-weight:800;margin:0 auto}nav.main{line-height:3.4;font-size:.8rem;font-family:"Fira Sans Condensed",sans-serif}ul.navi{display:block;margin:0 auto 16px;border-bottom:2px solid #7A838D;text-transform:capitalize}#altindexbox{position:relative;right:0}#popular-posts h3{font-size:2rem;margin-bottom:0}#popular-posts p{margin-bottom:.8rem}figure.textflow{display:block;width:200px;float:left;margin-right:20px}}@media (max-width:480px){.maincontent h3,.tooltip-label,section em{text-transform:uppercase}body{color:#010a16;font-size:18px}td,th{padding:5px;text-align:left;border-bottom:1px solid #e1e1e1;display:block}td:first-child,th:first-child{padding-left:5px}tr:nth-last-of-type(2n+1){background:#f9f9f9}table:not(.airdrops) th{background:#ffdc00;color:#fff}.row.home-top-new>article>.row>.overlay{bottom:0;font-size:14px}.row.home-latest .seven.columns{width:100%}#popular-posts{max-width:100%;display:none}.row.home-top-new{margin-bottom:0}.row.home-latest{margin-bottom:25px;border-top:none;border-bottom:1px solid #7a838d;padding-bottom:25px}.tag{padding:3px 25px}h5.post{padding:4px 15px;background:0 0;font-size:25px}.home-latest-excerpt{margin:-15px 0 5px;font-size:16px;color:#021f40;font-weight:600}section em{font-family:inherit;font-style:normal;font-size:inherit;color:#7a838d;letter-spacing:-1px;font-weight:600}h4.post-main{background:0 0;font-size:40px}.maincontent h3{background:0 0;color:#010a16;font-size:3.3rem;font-weight:800}.tooltip-label{background:0 0;color:#7A838D;border-left:none}}.doge-like,ul.social-center{text-align:center}.strategy-content blockquote{font-family:'Passion+One';font-style:initial;font-size:32px;color:#001f3f;border-left:none;padding:3rem;margin-left:0;line-height:1.3;text-align:center;font-weight:800}.strategy-content h1,.strategy-content h2,.strategy-content h3,.strategy-content h4,.strategy-content h5,.strategy-content h6{text-transform:uppercase;font-weight:600;color:#021f40}.strategy-content h1{font-size:4rem}.strategy-content h2{font-size:3.5rem}.strategy-content h3{font-size:3rem;background:#fff;padding:25px 30px;border-left:5px solid #021f40;text-transform:capitalize;margin-left:1px}.strategy-content h4{font-size:2.5rem}.strategy-content h5{font-size:2rem}@media (max-width:480px){.security-bg{height:420px;background:#929292}.security-olay h2 a{font-size:2rem}.security-olay .home-latest-excerpt{font-size:2rem;padding:15px}#sidebar .strategy-overlay{font-weight:400;line-height:1;font-size:14px;height:auto}#sidebar .strategy-overlay p{margin:10px 0}}.doge-like,.doge-share{width:64px;height:77px;position:relative}.securitycontent img,img{max-width:100%}.hidden{display:none}.space{padding:50px 0}.doge-share{background:url(/img/doge-share.png);background-size:cover;display:block;float:left;margin-right:25px;margin-top:5px}.share-cta{font-size:2.3rem}ul.share li a{text-decoration:none;border-bottom:none}h3.cat-post{background:0 0;color:#403f4e;text-transform:uppercase;font-size:3.6rem}.doge-like{background:url(/img/doge-share.png);background-size:cover;display:block;float:none;margin:0 auto}
+#amp-altcointrading-newsletter{top:0;bottom:auto;position:relative;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);transition:top .3s cubic-bezier(.17,.04,.03,.94)}#amp-altcointrading-newsletter.amp-hidden{top:-250px}#amp-altcointrading-newsletter.amp-active{transition:all .5s ease}.sidebar-nl,amp-user-notification>div{background:#ffdc00;color:#001f3f;display:block;padding:20px;font-family:"Courier New";font-size:12px;line-height:1}amp-user-notification>div{padding:0}amp-user-notification>div>div:first-of-type{padding:6px 0 0 70px}amp-user-notification>div>div:last-of-type{padding:2px 0 0}.sidebar-nl li{line-height:1;margin-bottom:0}.sidebar-nl .optin,amp-user-notification>div .optin{font-weight:800;background:#fff;padding:5px 9px;line-height:1.5}amp-user-notification>div button{border:none}.maincontent table.airdrops th:nth-of-type(3){width:300px}.maincontent h3.posh{margin-top:0;background:0 0;color:#01101f;padding:5px 10px 3px;margin-left:-10px;font-size:3.3rem;text-transform:uppercase;border-bottom:5px solid #fddc33}.alt-langs>a,.alt-langs>a.alt-de{background-color:#001f3f}.alt-langs>a{color:#fff;padding:3px 19px;display:inline-block;margin-right:-12px}.alt-langs>a.alt-cs{background-color:#CDDC39}#atnet-press>div.columns{background:#f9f9f9;padding:15px;margin-bottom:20px}ul.social-center li a{color:#68707b}a.line{border-bottom:2px solid #7A838D}.amp-social-share-facebook,.amp-social-share-gplus,.amp-social-share-linkedin,.amp-social-share-twitter,.amp-social-share-whatsapp,amp-social-share[type=facebookmessenger]{background-color:#696d72;border-radius:50%;margin-right:-5px}amp-social-share[type=facebookmessenger]{background-image:url(/img/facebook-messenger.png);filter:grayscale();background-size:contain}@media (max-width:480px){.row.home-top-new>article>.row>.overlay{background:rgba(0,0,0,.34)}#performancebox,.home-news-reddit,span.page_number{display:none}.pagination>.next,.pagination>.prev{margin:10px 0}}#updates .six{margin-left:0}.maincontent h2,.maincontent h3,.maincontent h4{background: transparent;text-transform:uppercase;font-weight:600;color:#021f40}
+#amp-privacy {bottom: 0;width: auto;padding: 20px 20px 0;background: #f9f9f9;}
+.atnet-second figure {max-height: 140px;overflow: hidden;}
+.atnet-second h5.post>strong>a {font-size:21px;}
+hr.skinny {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-width: 0;
+  border-top: 1px solid #e1e1e1;
+}
+.btn {
+  display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #03203f;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 1px;
+    border: 2px solid #03203f;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.smallad {
+  margin-top: 25px;border-top: 5px solid #fddc33;
+}
+.top .columns {}
+.top h5.post {padding: 4px 0px;background: transparent;color: #7A838D;border-left: none;font-size: 24px;}
+.top2 h5.post {font-size:18px}
+
+ul.popular {list-style: none;}
+li.popular-item{list-style-position: inside;list-style-image: url(/img/list.jpg);}
+li.popular-item li{list-style-type: none;padding-left: 30px;}
+
+.newsblade{background: #f9f9f9;}
+#newsnews > h2#news {font-size: 4rem;padding: 15px;font-weight: 800;text-align: center;font-family: serif;margin-bottom: -10px;}
+
+h1.tagged-as, h2.tagged-as {background: 0 0;
+    color: #000b17;
+    border-left: 5px solid #000b17;
+    padding: 3rem;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+h4.tagged-as {
+  color: #000b17;
+  border-left: 5px solid #000b17;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+.tagfeed-items h5.post {background: transparent;}
+.tagfeed-items .six h5.post {font-size: 16px;}
+.tagfeed-items ul.popular {padding: 0 15px;}
+@media(min-width:667px){
+  .tagfeed-items .six{margin: 0;
+    width: 50%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    min-height: 301px;}
+  ul.navi {
+    display: block;
+    margin: 0 auto 0px;
+    border-bottom: 5px solid #03203f;
+    text-transform: capitalize;
+  }
+  .top h5.post {margin-bottom: 0}
+  .atnet-last-2 {border-top: 5px solid #03203f;}
+
+  h5.post strong > small {
+    font-size: 63%;
+    font-weight: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: -3px;
+  }
+}
+.altcointradingnet-bio {
+    background: #f9f9f9;
+    padding: 3em 2em 1em;
+}
+.investfeed {position: relative;top: 5px;}
+
+/*mobile*/
+@media (max-width:480px) {
+.logo{width: 25px}
+.stripe .hl a{font-size: 2rem}
+span.note,.stripe small,#altindexbox,
+h5.post small,.top2 figure,
+#atnet-press figure,
+.top .four figure {display: none}
+.top2 h5.post, .top .four h5.post {
+    font-size: 18px;
+    border-top: 2px solid #03203f;
+    margin: 0;
+    padding: 10px;
+}
+#atnet-press>div.columns{font-size: 14px}
+.tagfeed-items .six figure{
+    width: 66%;
+    margin: 40px auto;
+  }
+.tagfeed-items .six h5.post {
+    border: none;
+    text-align: center;
+ }
+ .tagfeed-items .six .row{
+   background-color: #ffffff;
+   background-image: -webkit-linear-gradient(0deg, #fddc33 50%, #ffffff 50%);
+ }
+ .smallad {margin:0}
+}
+
+/* New Layouts */
+
+
+.quiterelated {
+  padding: 28px;
+    background: #8f00e0;
+    color: #130e12;
+    text-align: center;
+}
+
+
+
+.quiterelated   ol {
+     list-style: none;
+     padding: 15px;
+   }
+.quiterelated   li {
+     counter-increment: item;
+     margin-bottom: 5px;
+     font-style: oblique;
+   }
+.quiterelated   li:before {
+     margin-right: 10px;
+    content: counter(item);
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+   }
+.quiterelated   a {
+     color: #000b17;
+     font-family: "Droid Sans",sans-serif;
+     font-weight: 800;
+     font-style: normal;
+   }
+.quiterelated   li > span {
+      font-style: normal;
+      font-family: "Droid Sans",sans-serif;
+      font-size: small;
+      color: #68707bcf;
+      position: relative;
+      top: -1px;
+   }
+
+.strategy-hook blockquote {
+  font-family: 'Passion+One';
+    font-style: initial;
+    font-size: 2.8rem;
+    color: #001f3f;
+    border-left: none;
+    padding: 0;
+    margin-left: 0;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: 800;
+}
+
+.strategy-hook .note {
+    margin-bottom: 30px;
+    border-bottom: 5px solid #ffdc00;
+}
+
+.featured {
+  text-transform: uppercase;
+    color: #03203f;
+    padding: 20px 0 0;
+}
+
+
+#airdrops-home tr {
+  display: none;
+  border-bottom: 1px solid #001f3f;
+  border-top: 1px solid #001f3f;
+}
+#airdrops-home tr:nth-of-type(2),
+#airdrops-home tr:nth-of-type(3),
+#airdrops-home tr:nth-of-type(4){
+  display: table-row;
+}
+#airdrops-home td {
+  padding: 5px;
+  font-size: 70%;
+  border: none;
+}
+#airdrops-home td:nth-of-type(1),
+#airdrops-home td:nth-of-type(2),
+#airdrops-home td:nth-of-type(4),
+#airdrops-home td:nth-of-type(5),
+#airdrops-home td:nth-of-type(6),
+#airdrops-home td:nth-of-type(7) {
+  display: block;
+  min-width: 130px;
+  max-width: 100%;
+  font-weight: 800;
+  color: #001f3f;
+}
+#airdrops-home td:nth-of-type(1) {
+  text-transform: uppercase;
+    font-size: 90%;
+}
+#airdrops-home td:nth-of-type(3) {
+  max-width: 100%;
+}
+
+
+#strategy-feed .row:nth-of-type(2n) > .thumb-wrap,
+#security-feed .row:nth-of-type(2n) > .thumb-wrap  {
+    float: right;
+}
+#strategy-feed .columns,
+#security-feed .columns {
+    margin: 1%;
+}
+
+
+.page-airdrops-main li a {
+  border-bottom: 2px solid rgba(0,31,63,.77);
+}
+
+ul.list-updated>li {
+  display: none;
+}
+ul.list-updated>li:nth-of-type(1),
+ul.list-updated>li:nth-of-type(2),
+ul.list-updated>li:nth-of-type(3),
+ul.list-updated>li:nth-of-type(4),
+ul.list-updated>li:nth-of-type(5) {
+  display: block;
+}
+
+  /* desktop */
+.tooltip-label-menu {
+  display: none;
+}
+amp-user-notification>div>div {
+  padding: 20px 20px 0;
+}
+.no-optin {
+    font-weight: 800;
+    background: transparent;
+    padding: 5px 9px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: 1px solid #001f3f;
+    display: inline-block;
+
+}
+/* mobile */
+@media (max-width: 660px){
+  .desktop-only {
+    display: none;
+  }
+  .tooltip-label-menu {
+    font-size: 2em;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-bottom: 2em;
+    color: #000b17;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  amp-sidebar {
+    max-width: 50vw;
+    background-color: #010b18;
+    color: white;
+  }
+  .close-sidebar {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  amp-sidebar a, amp-sidebar a:hover {
+    color: #6e8ba9d1
+  }
+  /* strategy */
+  figure.border, figure.post {
+    max-width: 100%;
+    margin: 0 0 30px;
+    float: left;
+    width: 100%;
+  }
+  /* NL popup */
+  .no-optin {
+    margin-bottom: 10px;
+  }
+  #amp-altcointrading-newsletter .two {
+    display: none;
+  }
+  amp-user-notification>div p {
+    background: #ffdc00;
+    color: #001f3f;
+    display: block;
+    padding: 20px;
+    font-family: "Courier New";
+    font-size: 12px;
+    line-height: 1;
+  }
+  amp-user-notification>div .optin {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+  amp-user-notification>div>div:first-of-type {
+    padding: 10px;
+  }
+
+
+}
+
+@media (max-width: 500px){
+  .tooltip-label-menu {
+    font-size: 2em;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    margin-bottom: 2em;
+    color: #000b17;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  amp-sidebar {
+    max-width: 50vw;
+    background-color: #010b18;
+    color: white;
+  }
+  .close-sidebar {
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  amp-sidebar a, amp-sidebar a:hover {
+    color: #6e8ba9d1
+  }
+}
+
+</style>
+
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6979812205705127",
+          enable_page_level_ads: true
+     });
+</script>-->
+</head>
+
+<body>
+  <amp-analytics type="googleanalytics" data-permit-notification-id="amp-privacy">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-73503011-2"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      }
+    }
+  }
+  </script>
+  </amp-analytics>
+  <amp-user-notification
+      layout="nodisplay"
+      id="amp-altcointrading-newsletter"
+      data-persist-dismissal="true">
+      <div class="row">
+        <div class="columns ten">
+          <strong>Weekly E-mails:&nbsp;</strong>
+          Crypto Trading Strategy 5 Weeks of Onboarding Reads. Latest Airdrops (Thu 7 AM EST). Or all of it.
+            <br><br>
+            <a on="tap:amp-altcointrading-newsletter.dismiss" class="no-optin">Dismiss</a>
+            &nbsp;
+            <a target="_blank" href="http://bit.ly/atnet-nl" class="optin">Pick Your Preference</a>
+
+        </div>
+        <div class="columns two">
+          <a target="_blank" href="http://bit.ly/atnet-nl">
+          <amp-img itemprop="image" alt="Altcoin Trading Newsletter"
+          src="/cta/atnet_qr.png"
+          layout="fixed"
+          data-original-width="528px" data-original-height="528px"
+          width="50px" height="50px"></amp-img>
+          </a>
+        </div>
+      </div>
+  </amp-user-notification>
+
+  <amp-user-notification
+    layout=nodisplay
+    id="amp-privacy"
+    data-persist-dismissal="true">
+    <small>This site uses cookies (<a href="/about-legal/">More</a>).</small>
+   <button on="tap:amp-privacy.dismiss">Fine</button>
+  </amp-user-notification>
+
+<div class="container header-wrap">
+  <div class="row">
+
+    <div class="twelve columns stripe">
+
+      <div class="four columns pull-left" id="performancebox">
+<p>&nbsp;</p>
+<!--
+      <amp-iframe
+          width=320 height=235px
+          layout="responsive"
+          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+          src="https://data.altcointrading.net/compare/header.html">
+          <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+        </amp-iframe>-->
+      </div>
+
+      <div class="four columns">
+        <div class="logo">
+          <amp-img itemprop="image" alt="AltcoinTrading.NET"
+          src="https://www.altcointrading.net/img/logo.jpg"
+          layout="responsive"
+          data-original-width="75px" data-original-height="90px"
+          width="75px" height="90px"></amp-img>
+        </div>
+        <div class="textlogo">
+          <div class="hl">
+            <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="tooltip-label-menu"><i class="fa fa-bars fa-2" aria-hidden="true"></i></div>
+            <a href="/">AltcoinTrading.NET</a></div>
+          <small>
+            <em>
+              Trading strategies, crypto security primers, airdrops & service industry forming around crypto. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+            </em>
+          </small>
+        </div>
+        <div class="atnet-social">
+
+          <ul class="social share social-center">
+            <li>
+              <a title="@altcointrading_ on Twitter" href="https://www.twitter.com/altcointrading_" target="_blank">
+                <i class="fa fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a id="gtm-fblike" title="Altcoin Trading World Network on LinkedIn" href="https://www.linkedin.com/company/altcointradingnet/" target="_blank">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
+            </li>
+            <li>
+              <a id="gtm-mediumlike" title="Altcoin Trading Newsletter" href="https://us15.list-manage.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+
+      <div class="four columns pull-right" id="altindexbox">
+         <!--<amp-iframe
+            width=300 height=90
+            layout="fixed"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/embed/index.html">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+          </amp-iframe>
+          -->
+      </div>
+    </div>
+
+  </div><!-- end row -->
+
+  <!-- ====DESKTOP===== MENU START -->
+  <nav class="main" id="desktopmenu">
+    <div class="twelve columns desktop-only">
+      <ul class="navi">
+        
+<li><a title="AltcoinTrading.NET Security" href="/security/">Crypto Security & Primers</a></li>
+
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Trading Strategy Long-Reads</a></li>
+
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/"><span class="yellow">Crypto-Trading Blog</span></a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Intros & Guides</a></li>
+
+
+<li><a>&middot;</a></li>
+<li><a title="AltcoinTrading.NET #BusinessOfCrypto" href="/tag/businessofcrypto/">#BusinessOfCrypto</a></li>
+<li><a title="AltcoinTrading.NET The Business Of Crypto" href="http://bit.ly/the-BOC">Crypto Business Intel</a></li>
+
+
+<li><a>&middot;</a></li>
+<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/"><span class="yellow">Airdrops</span></a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- nav END -->
+
+</div><!-- end header wrap -->
+
+<amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+<div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+<ul class="navi mobile-only">
+  
+<li><a title="AltcoinTrading.NET Security" href="/security/">Crypto Security & Primers</a></li>
+
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Trading Strategy Long-Reads</a></li>
+
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/"><span class="yellow">Crypto-Trading Blog</span></a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Intros & Guides</a></li>
+
+
+<li><a>&middot;</a></li>
+<li><a title="AltcoinTrading.NET #BusinessOfCrypto" href="/tag/businessofcrypto/">#BusinessOfCrypto</a></li>
+<li><a title="AltcoinTrading.NET The Business Of Crypto" href="http://bit.ly/the-BOC">Crypto Business Intel</a></li>
+
+
+<li><a>&middot;</a></li>
+<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/"><span class="yellow">Airdrops</span></a></li>
+
+</ul>
+</amp-sidebar>
+
+<div class="container" id="altcointrading-trading">
+  <div class="row">
+
+    <section class="altcointrading-blog-header">
+      <div class="row">
+       <div class="seven columns">
+          <h1 class="post post-main"><strong>DEX Series, Episode 1: Order Execution Management</strong>&nbsp;-&nbsp;#CryptoTrading</h1>
+       </div>
+       <div class="five columns">
+         <div class="sidebar-nl container-center">
+   <b>Crypto Trading Strategy</b> - 5 Weeks of Onboarding Reads:
+   <a target="_blank" href="http://eepurl.com/cOgd6P"><u>Subscribe</u></a> and select "All Posts" or "Strategy & Security" as your preference.
+ </div>
+
+       </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="columns eight">
+
+        <section class="altcointrading-blog-body">
+            <article class="maincontent altcointrading-blog-head">
+              <div class="columns twelve strategy-hook">
+                <blockquote cite="https://www.altcointrading.net/dex-trading/">
+                  On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.
+                </blockquote>
+                <div class="google-news-tag">Blog</div>&nbsp;
+<span class="note">
+  <time datetime="2019-06-29T09:14:59+00:00">Last Update 29 Jun 2019 at 09:14 UTC</time>.&nbsp;
+  Published <time datetime="2018-03-23T15:35:00+00:00">23 Mar 2018 at 15:35 UTC</time>
+  <span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="https://twitter.com/tradingfanbois">tradingfanbois</a></span>
+  
+</span>
+
+              </div>
+
+            </article>
+            <article class="maincontent altcointrading-blog-content">
+              <div class="strategy-content">
+                <p>Decentralized crypto exchanges look to be booming in 2018 - only by a very superficial search on Twitter there is <a href="https://twitter.com/search?f=users&amp;q=decentralized%20exchange">more than 10 decentralized trading places found</a>. For now they are mostly built on the Ethereum blockchain but NEO-based platforms and previews of EOS-based ones are starting to pop up too.</p>
+
+<p>In this article we will be analyzing several newer platforms that are coming in 2018. While the concept of DEX has been around for some time, the trading experience <a href="https://blog.altcoin.io/decentralized-exchanges-explained-and-why-we-need-them-more-than-ever-4ef9fbb9192d">has its perks</a>. Following up on a <a href="https://youtu.be/-jenA5UumfE">webinar from 16th March 2018 on by LeverJ</a> we are going to talk about the novel ways of crypto trading without being overly technical.</p>
+
+<h2 id="non-custodial-trading--new-solutions">Non-Custodial Trading &amp; New Solutions</h2>
+
+<p><strong>What is a non-custodial exchange?</strong></p>
+
+<p>Non-custodial exchange is a trading platform that does not own the private keys of your cryptocurrency assets. The most popular crypto trading platforms are custodial - Coinbase, Bitfinex, BitMEX, OKEx and others are all custodians of the users’ assets. In order to make a trade on a custodial platform the user needs to deposit assets into a wallet owned and controlled by the platform.</p>
+
+<p>There are pros and cons to this approach.</p>
+
+<p>Custodial exchanges are easily manageable. The event of opening a trade is an information in a database, as far as the user doesn’t initiate a withdrawal from the exchange, the actions taken do not depend on the asset’s blockchain throughput or congestions. The trades themselves are not recorded on a blockchain either, just in the exchange’s databases. As long as the backend of the <a href="/kraken-upgrade/">trading platform actually works</a> and the systems are <a href="https://craft.co/binance/metrics#operations">upgraded to reflect the traffic changes on the platform</a>, trading on custodial exchanges can be very comfortable.</p>
+
+<hr />
+
+<p><a target="_blank" href="/features/2018/binance-traffic.png" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management"><figure class="border"><amp-img itemprop="image" src="/features/2018/binance-traffic.png" alt="DEX Series, Episode 1: Order Execution Management" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Web traffic growth on the Binance exchange in 2017. <a href="https://craft.co/binance/metrics#operations">Source</a></em></p>
+
+<hr />
+
+<p>The disadvantage is the black swan event which in the cryptocurrency space is apparently not something as rare as it should be. With money on the exchange, trader stands to lose his roll when the exchange gets hacked, becomes fraudulent or gets trapped in regulatory affairs. Custodial exchanges want traders to keep money with them though, interest-generating cryptocurrencies or P2P lending are examples of features that incentivize it. Exchange then might engage in arbitrage trading or other operations with customer funds to earn profit, although <a href="https://qz.com/1059179/huobi-and-okcoin-chinas-two-biggest-bitcoin-btc-exchanges-were-themselves-to-150-million-in-idle-client-funds/">exchanges keep refuting this argument</a> and so it remains hypothetical.</p>
+
+<h3 id="why-are-non-custodial-exchanges-important">Why are non-custodial exchanges important?</h3>
+
+<p>Non-custodial trading is more difficult to manage, scale and (hypothetically) to make asymmetric profit on, it is less vulnerable to both security risks and top-down regulations. As long as the trader retains the ownership of his funds, the only obvious things to regulate there are formalities - for instance a DEX might need to be officially called a trading <em>platform</em> rather than an <em>exchange</em> as the latter might suggest a legacy level of regulatory standard.</p>
+
+<p>While top-down regulation might sound great to someone who is being salty over lost money in an exchange hack, ultimately the result of it is expensive AML/KYC which fails exactly the same type of person who likes to call for top-down protections. The costs of verification procedures and compliance for custodial exchanges are already overwhelming, the result is the smaller retail traders are becoming a burden; they don’t pay off.</p>
+
+<p>For now the disadvantages of non-custodial trading remain generally centered around usability: Is it better to have on-chain trading and depend on mempool levels? Or is it better to have off-chain book and depend on smart-contracts and matching engine optimization and scalability? How to implement fiat pairs, what <a href="/dai-stablecoin/">stablecoin</a> is the best one for the job?</p>
+
+<p>Those are rather superficial issues that will hopefully get cleared up with growing pressure of market competition and more attention from the trading community. As long as the trading works reasonably, a DEX is a clear winner for the trader: The trading account is only determined by an address and a private key where trader sends cryptoassets, there is no identity verification, no geographical limitations, no legal requirements.</p>
+
+<h2 id="dex-trading-schema">DEX trading schema</h2>
+
+<p>Very generally, the process of executing a trade on a DEX consists of four steps:</p>
+
+<ol>
+  <li>Money sent to an address fully controlled by the trader where trade can be initiated from.</li>
+  <li>Order submission: On-chain or into a contract for off-chain management.</li>
+  <li>Order is live, waiting to be picked up: P2P, Relayers or centralized matching engine.</li>
+  <li>Trade is settled, fees and funds are released and transfered to their owners.</li>
+</ol>
+
+<figure class="border">
+<amp-img itemprop="image" src="/features/2018/dex-schema.png" alt="DEX trading schema" title="AltcoinTrading.NET - DEX trading schema" layout="responsive" width="690px" height="715px">
+</amp-img>
+</figure>
+
+<h3 id="on-chain-vs-off-chain-dex-trading">On-chain vs Off-chain DEX Trading</h3>
+
+<p>The two main ways of managing decentralized trading is either fully on-chain or with an off-chain order book where the trade orders are managed via smart contracts.</p>
+
+<h4 id="on-chain-atomic-swaps--state-channels">On-Chain: Atomic Swaps &amp; State Channels</h4>
+
+<p>Currently the most hyped solution to decentralized trading on the blockchain is the way of atomic swaps. From a technical standpoint, all trader’s cryptoassets are stored on the blockchain. Only the trader has the private key, only the trader owns the assets. As soon as this solution is working reliably this will be a great way to spot trade with no counterparty risks.</p>
+
+<p>Atomic swaps have been around for a little while and as an experiment only. From <a href="https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818">the altcoin.io blog</a>:</p>
+<ul>
+  <li>On 19th September 2017, Decred completed the first on-chain atomic swap between Decred and Litecoin.</li>
+  <li>On October 7th 2017, Altcoin.io completed the first Ethereum to Bitcoin atomic swap.</li>
+  <li>On 16th November 2017, Lightning Labs confirmed the world’s first off-chain atomic swap over the lightning network. Important milestone, swaps over Lightning network will be faster and cheaper.</li>
+</ul>
+
+<p>On the future atomic swap exchange Altcoin.io the use hashed-time-locked-contracts (HTLCs) is going to be implemented for the execution of the swap trading - that way neither party can take the offered funds without first offering their own. Essentially, user’s funds are in his own wallet at all times but there is a smart contract to submit trade orders to the blockchain.</p>
+
+<p>Altcoin.io proposes an atomic swap matching engine with orders on the blockchain.</p>
+
+<blockquote>
+  <p>In the future, using our Atomic Swap order matching engine, you will be able to trade in two ways. Either by setting your own token price, or by using a fair market value as calculated using other markets’ relative price. This lets you list niche coins that can’t be traded on other exchanges.</p>
+</blockquote>
+
+<p>One day this could be a great way to spot-trade between BTC and ETH or ETH-based tokens. However, at the current state of both the blockchains this would not be feasible. A critical feature for the success of atomic swap trading are <em>payment channels</em> and <em>state channels</em>, ways for different blockchains to interact one with another that are being built upon the Bitcoin’s Lightning network.</p>
+
+<p>That means, state channels and payment channels both depend on the Lightning network development for Bitcoin blockchain and on the Raiden network for Ethereum, which is the material point here: The problem is <em>when</em> will the atomic swap trading be production-ready. <a href="/altcoinio/">Altcoin.io</a> initially set their release date to Q1 2018 which was clearly overly optimistic. In fact, <a href="http://archive.is/nR5u3">Elizabeth Stark liked a recent critics of how hyped the swaps became</a>. The liked tweet said that everyone who says atomic swaps will be ready in the matter of months does not know what they are talking about.</p>
+
+<p>In short, trading via atomic swaps is an interesting solution that will have its place but it depends on too many independent developments - mainly the <a href="https://swapready.net/">atomic swap readiness of other cryptocurrencies</a> and the production reliability of the off-chain scaling solutions.</p>
+
+<p>For now, it is time to look elsewhere.</p>
+
+<h4 id="hybrid-approaches-off-chain-matching">Hybrid Approaches: Off-Chain Matching</h4>
+
+<p>The off-chain order book that handles orders submitted directly from a wallet owned by the trader is a popular approach known from EtherDelta. With these classic older decentralized exchanges there is no solution implemented as matching engine; automatic smart contracts have been proposed for that but the solution turned out to be impractical - <a href="https://www.0xproject.com/pdfs/0x_white_paper.pdf">severely dependent on an artificial constraint</a> called <em>price-adjustment model</em> which can easily create large fluctuations in the market.</p>
+
+<p>Another hybrid solution is the 0x protocol. It uses off-chain matching but done in a decentralized way by Relayers, independent actors who gain money from matching successful trades. This approach addresses some of the issues of decentralized trading but still keeps a lot of the inconveniences, more on this in a bit.</p>
+
+<p>The only ways to date that proposed concrete and reasonable solutions aiming to make non-custodial trading powerful, fast and packed with advanced features have been introducing some degree of centralization with the emphasis on keeping the control of the assets to the trader and optimizing the functionalities critical for trading in a centralized manner. One such solution is implemented as <a href="https://idex.market">IDEX</a>, a spot ERC20 exchange created on behalf of Aurora Labs. Another is the derivative exchange <a href="/leverj/">LeverJ</a> which uses the off-chain matching type of model with some interesting technical innovations.</p>
+
+<p>There is a lot of great work being done but keep in mind it’s not the end of history:</p>
+
+<ul>
+  <li>The fundamental limitation of it is the need to trust a smart contract and the token limitations - an Ethereum DEX can only trade Ethereum tokens.</li>
+  <li>The on-the-fly limitations lie in the connection of the trade submissions, matching and order book updates - there can always be communication lags that create opportunities for exploits and mistakes.</li>
+</ul>
+
+<p><strong>Why is EtherDelta trading so slow</strong></p>
+
+<p>The slow trade execution on EtherDelta is caused by its <a href="https://www.reddit.com/r/EtherDelta/comments/6t4w55/does_etherdelta_has_a_matching_algorithm_or_the/">lack of automated matching routine</a>. Trades from the order book don’t get matched by an engine, each order needs to be picked up be someone in order to complete, as explained <a href="https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/">here in a guide on how to trade on EtherDelta</a>.</p>
+
+<p>While that keeps EtherDelta a more decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.</p>
+
+<p><strong>The 0x solution of the liquidity problem</strong></p>
+
+<p>0x is a protocol on top of which decentralized ETH exchanges can be built. The 0x protocol offers a solution for the order book management by introducing Relayers, off-chain actors whose job is to match orders from the two sides of the order book and who receive the trading fee. The concept of Relayers is explained in the <a href="https://www.0xproject.com/pdfs/0x_white_paper.pdf">0x whitepaper, page 7</a></p>
+
+<p>Order book in 0x itself is off-chain too, only the transaction is settled on-chain which makes the trading less costly, liquidity is also more promising as anyone can become a Relayer. The 0x setup does not require to trust the Relayers as they are only transmitting signals about possible trade partners, the traders need to complete the trade themselves.</p>
+
+<p>Relayers earn the trading fees for their work but are exposed to the risk of one side pulling their order in the last moment. At the protocol level 0x does not have any mechanism against the abuse by submitting a mass of bogus orders to pull them later though which could potentially diminish the incentives of working as a Relayer.</p>
+
+<p>The way cancelled transactions are dealt with in 0x is less costly than on EtherDelta - 0x batches the cancel procedure which lowers the cost somewhat. However, the cancel order still needs to be recorded on the blockchain otherwise the old trade is at risk of being executed at some point in the future.</p>
+
+<p><strong>The way of centralized matching - IDEX and LeverJ</strong></p>
+
+<p>The only feasible solution that would enable smooth trading experience on par with custodial exchange houses is the idea of <strong>buffering the trading activity</strong> so that only the <strong>finalized executed trades</strong> get recorded on the blockchain.</p>
+
+<p><a href="https://idex.market">IDEX</a> addresses the issues of EtherDelta and 0x by centralizing the non-critical components of the trading process. To optimize this experience, IDEX maintains ownership of broadcasting user authorized transactions to the Ethereum network:</p>
+
+<ul>
+  <li>users unlock their account by uploading a JSON keystore file to sign orders with their private keys</li>
+  <li>orders are processed and either cancelled or matched by a smart contract</li>
+  <li>filled trades are added to a queue to be broadcast into the Ethereum network</li>
+  <li>users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then</li>
+</ul>
+
+<p>Unfilled cancelled orders on IDEX are purged and invalidated as needed, they are not recorded on the blockchain and therefore do not cost anything.</p>
+
+<p>Grossly discounting the technology needed to make non-custodial leveraged trading possible, <a href="https://leverj.io">LeverJ</a> offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.</p>
+
+<ul>
+  <li>users link their wallets via a zero-knowledge API (more on that further down)</li>
+  <li>orders are processed and either cancelled or matched by a centralized engine</li>
+  <li>filled trades that passed the period of checks for abuse are added to a queue to be broadcast into the Ethereum network</li>
+  <li>users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then</li>
+</ul>
+
+<p>LeverJ has one added security element - orders are matched off-chain and periodically synced to the blockchain but before they are there is a routine to check for abuse. If there is a sign of abuse the trade is not sent to the blockchain and the release of funds for withdrawal is blocked for investigation.</p>
+
+<p>Similarly as on IDEX, on LeverJ unfilled cancelled orders are not stored to be synced to the blockchain and therefore do not cost anything.</p>
+
+<p>This is how the general DEX trade execution path changes after the introduction of some degree of centralized management:</p>
+
+<figure class="border">
+<amp-img itemprop="image" src="/features/2018/dex-buffering.png" alt="DEX trading schema" title="AltcoinTrading.NET - DEX trading schema" layout="responsive" width="749px" height="749px">
+</amp-img>
+</figure>
+
+<p>These half-centralized solutions seem to offer a good compromise: Because the user needs to authorize the trading activities with his private key, the platform still does not get the custody of the user’s assets. But thanks to the centralized back-office the matching engine can be optimized for speed. Trading also does not depend on blockchain congestion or attacks because the blockchain sync can be postponed as needed without it affecting the trading.</p>
+
+<h3 id="user-experience">User Experience</h3>
+
+<p>A common thing on decentralized trading platform is to trade with crypto tokens directly from the user’s wallet. It is most often MetaMask but there is typically the option to have MyEtherWaller or Ledger wallet too. For instance here is a <a href="https://medium.com/ddex/ledger-support-setting-up-your-ledger-nano-s-on-ddex-427e7b3c9e4e">guide from DDEX</a> that shows how a plugged-in Ledger wallet gets automatically detected through the browser app by the DEX interface. You can trade right from your hardware wallet, or from MetaMask.</p>
+
+<p>With MetaMask this is easy enough for ShapeShift-style exchange, I’m sure it is a bit of a burden to reach through the pizza boxes for your Ledger device to sign a transaction each time though. For more developed trading markets where there is demand for scalping or arbitrage, either solution is an obvious limitation.</p>
+
+<p>The only decentralized outfit to this day that aims for this kind of product is LeverJ and they are developing a solution based on zero-knowledge API keys. This is currently not a vaporware, a working demo exists.</p>
+
+<h4 id="zero-knowledge-api-keys">Zero-knowledge API keys</h4>
+
+<p>Simplified explanation of the workflow:</p>
+
+<ol>
+  <li>MetaMask user signs up at LeverJ. This generates a dialog where the user signs a message with his trading ETH address. This step is key to the way zero-knowledge API keys work - they are API keys containing a trail back to the particular ETH wallet.</li>
+  <li>The signature is verified by LeverJ server. The original wallet address is extracted from the signature and a user account with the respective address is created.</li>
+  <li>API key and secret is generated for the user in his browser, user approves it and sends the key into an ETH contract on the blockchain. The contract serves as a registry of user API keys while the API secret is never sent anywhere, it remains stored in the user’s browser local storage. The purpose of the API key is to authorize trades on behalf of the user, which is why it needs to be signed by the user’s ETH address. The API does not have permission to access the user’s funds, only to execute trades inside the platform.</li>
+  <li>User can trade directly from his ETH wallet, actions are signed by the API secret in his browser storage. This way of signing trades via an API also makes automated bot trading possible.</li>
+</ol>
+
+<p>The risk here is mainly human error and bad OPSEC on behalf of the user. The order submission and matching is centralized on LeverJ with a centralized way to check for fraud or abuse. This centralized abuse check should soften the impact of security problems.</p>
+
+<p>Full webinar about the concept is embedded as a YouTube video at the bottom of the page but if you care to skip ahead to only see the meat of the webinar, here are the most important timestamps:</p>
+
+<ul>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=2m11s">intro to the problem</a></li>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=8m30s">walkthrough with the UX mockups</a></li>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=31m30s">demo with a dev UX</a></li>
+</ul>
+
+<h3 id="security-aspects-and-impact-of-a-breach">Security Aspects and Impact of a Breach</h3>
+
+<p>Both the fully on-chain and partially off-chain trading accounts on decentralized exchanges are vulnerable to phishing attacks and impostors, as was seen for instance in the EtherDelta hack: Malicious actor hijacked the exchange’s DNS and <a href="https://blog.drhack.net/etherdelta-hacked-millions-stolen/">created impostor website with a fake contract address</a> where traders deposited their funds to never see them again.</p>
+
+<p>This kind of attack (user by user, “skimming”) is always possible, even with trading based on atomic swaps as traders always need to initiate the trade by moving the asset they want to trade, even if it is to a wallet they control themselves.</p>
+
+<p>A hack of a DEX should have a much softer impact on the ecosystem though because a heist of a hot wallet or cold storage with a big chunk of the total user funds on the exchange is not possible. A heist of effectively a large amount of money is possible but hard to pull off.</p>
+
+<p>A good DEX whitepaper should include a section that goes into detail of possible attack scenarios, as seen in the <a href="https://leverj.io/whitepaper.pdf">LeverJ whitepaper</a> starting at page 5, “Attack Vectors”. The paper explains a heist on the LeverJ protocol has two tedious parts susceptible to detection - the stolen assets first get gathered by skimming a large number of users and then they need to be released from the smart contract. For additional security the LeverJ exchange will delay every contract release so that there is enough time for the fraud detection.</p>
+
+<hr />
+
+<p><strong>If you find this post useful, share it!</strong></p>
+
+<div class="container-center">
+<span class="doge-share"></span>
+<span class="share-cta">PLZ SHARE THIS POST</span>
+<ul class="social share">
+  <li>
+    <amp-social-share type="facebook" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="twitter" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="linkedin" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="whatsapp" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="gplus" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+
+</ul>
+
+</div>
+
+<hr />
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>[beginner] <strong>Crypto Exchanges: Custodial vs. Non-Custodial vs. Decentralized</strong> / <a href="https://medium.com/@jacobrobertwoods/crypto-exchanges-custodial-vs-non-custodial-vs-decentralized-3d1d04cf205">Article</a></p>
+
+<p>[beginner] <strong>The Evolution of Atomic Swaps</strong> / <a href="https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818">Article</a></p>
+
+<p>[beginner] <strong>Altcoin.io Preview Whitepaper</strong> / <a href="https://www.preview.altcoin.io/lite-paper.pdf">Article</a></p>
+
+<p>[intermediate] <strong>IDEX: A Real-Time and High-Throughput Ethereum Smart Contract Exchange</strong> / <a href="https://idex.market/static/IDEX-Whitepaper-V0.7.5.pdf">Article</a></p>
+
+<p>[intermediate] <strong>An Overview of Stablecoins</strong> / <a href="https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/">Article</a></p>
+
+<p>[advanced] <strong>Zero-knowledge API Keys</strong> / <a href="https://blog.leverj.io/zero-knowledge-api-keys-43280cc93647">Article</a> / <a href="https://youtu.be/-jenA5UumfE">Webinar</a></p>
+
+<amp-youtube data-videoid="-jenA5UumfE" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<p><br /></p>
+
+  					  </div><!-- strategy content -->
+
+            </article>
+            <article class="maincontent altcointrading-blog-links">
+              <hr>
+                <p>
+                  <b>Shill Links:</b><br>
+                  Binance (newly added margin trading) @ <a rel="nofollow" target="_blank" href="http://bit.ly/china-margin">bit.ly/china-margin</a>
+                  BitMEX (10% fee off) @ <a rel="nofollow" target="_blank" href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
+                  TradingView (~ 50% off in BTC) @ <a rel="nofollow" target="_blank" href="http://bit.ly/tradingview-moon">bit.ly/tradingview-moon</a><br>
+                  TensorCharts @ <a rel="nofollow" target="_blank"  href="http://bit.ly/tensor-charts">bit.ly/tensor-charts</a><br>
+                  Conbase (no offer but you still click this lol) @ <a rel="nofollow" target="_blank" href="http://bit.ly/plebtier">bit.ly/plebtier</a><br>
+                  EthFinex (NEC token rebates for MM) @ <a rel="nofollow" target="_blank" href="http://bit.ly/ethfinex">bit.ly/ethfinex</a><br>
+                </p>
+              <hr>
+            </article>
+            <article class="altcointrading-blog-meta">
+              <div class="bottom strategy-content">
+                
+
+                <section class="altcointradingnet-bio">
+  <p>
+    <strong>About the author</strong>
+  </p>
+  <p>
+    Written by <a rel="nofollow,noopener" target="_blank" href="https://twitter.com/tradingfanbois">tradingfanbois</a>
+  </p>
+  <div>
+    
+      
+    
+      
+        <p>JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.</p>
+<p id="author-social">
+  <a href="https://twitter.com/tradingfanbois"><i class="fa fa-twitter-square fa-2x"></i></a>
+  <a href="https://www.quora.com/profile/JM-T-6"><i class="fa fa-quora fa-2x"></i></a>
+  
+  
+  
+  <a href="mailto:jmt@altcointrading.net"><i class="fa fa-envelope fa-2x"></i></a>
+</p>
+
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</section>
+
+              </div>
+            </article>
+          </section>
+          <section class="altcointrading-blog-airdrops">
+            <p>&nbsp;</p>
+            <section>
+  <span class="note">Last added to Crypto Airdrops, Bounties & Opportunities</span>
+  <div id="airdrops-home">
+    
+<table class="airdrops">
+  <tr>
+    <th>Name</th>
+    <th>Date</th>
+    <th>How to access</th>
+    <th>Official URL</th>
+    <th>Additional Info</th>
+  </tr>
+
+  <tr>
+    <td>Vaultoro Token Launch Promo</td>
+    <td>Until September 4, 2019</td>
+    <td>
+      The crypto-gold exchange Vaultoro has been around for years, getting attention in the 2015 bear market and tagging along through the subsequent bull run. They are now launching their own exchange token which you can get for free if you don't have an account yet. Every new sign up with basic ID verification gets 200 VAULT tokens.
+    </td>
+    <td><a target="_blank" href="http://bit.ly/2Msxbgs">homepage</a></td>
+    <td><a target="_blank" href="http://bit.ly/2Msxbgs">make acct</a></td>
+  </tr>
+    <tr>
+      <td>FanEspo Big Competition (ERC20)</td>
+      <td>All the time</td>
+      <td>
+        Fanespo is launching a new promotion contest worth $500 in FAN tokens. Details will pop up on you when you sign up on site. Overall, the eSports platform FanEspo is giving away the total of $1.6 million of tokens in contests. You need to have a FanEspo account.
+      </td>
+      <td><a target="_blank" href="http://bit.ly/2Gv2ZvJ">details</a></td>
+      <td><a target="_blank" href="http://bit.ly/2Gv2ZvJ">make acct</a></td>
+    </tr>
+    <tr>
+      <td>BlockWage Airdrops + Bounties</td>
+      <td>Recurring</td>
+      <td>
+        Platform for freelancers marketplace. Airdrops randomly announced via Discord, there's also the possibility of Masternodes.
+      </td>
+      <td><a target="_blank" href="http://bit.ly/2U7IaLB">join</a></td>
+      <td><a target="_blank" href="https://blockwage.net">web</a></td>
+    </tr>
+
+</table>
+
+  </div>
+</section>
+
+          </section>
+          <section class="altcointrading-blog-series">
+            
+            
+            <div class="row tagfeed-items">
+              <h2 class="tagged-as">More in #: Series DEX</h2>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+               <div class="columns six">
+                 <div class="row cat-updates">
+
+<div class="twelve columns">
+  <a  class="index-internal" href="/interview-andrew-gazdecki/" title="DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Altcoin Trading Blog"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <strong>
+        <span class="tag">Blog</span>&nbsp;
+        
+        <small>#exchanges</small>&nbsp;
+        <small>&nbsp;29 Jun 2019, 09:14 UTC</small>
+        
+        <br>
+        <a  class="index-internal"  href="/interview-andrew-gazdecki/" title="DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading">DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading</a>
+      </strong>
+    </h5>
+  </div>
+</div>
+
+               </div>
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+               <div class="columns six">
+                 <div class="row cat-updates">
+
+<div class="twelve columns">
+  <a  class="index-internal" href="/dex-copytrading/" title="DEX Series, Episode 2: Copy trading">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/editorial/tagged/atnet-jam.png" alt="Altcoin Trading Blog"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <strong>
+        <span class="tag">Blog</span>&nbsp;
+        
+        <small>#exchanges</small>&nbsp;
+        <small>&nbsp;29 Jun 2019, 09:14 UTC</small>
+        
+        <br>
+        <a  class="index-internal"  href="/dex-copytrading/" title="DEX Series, Episode 2: Copy trading">DEX Series, Episode 2: Copy trading</a>
+      </strong>
+    </h5>
+  </div>
+</div>
+
+               </div>
+               
+              
+               
+               <div class="columns six">
+                 <div class="row cat-updates">
+
+<div class="twelve columns">
+  <a  class="index-internal" href="/dex-trading/" title="DEX Series, Episode 1: Order Execution Management">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Altcoin Trading Blog"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <strong>
+        <span class="tag">Blog</span>&nbsp;
+        
+        <small>#exchanges</small>&nbsp;
+        <small>&nbsp;29 Jun 2019, 09:14 UTC</small>
+        
+        <br>
+        <a  class="index-internal"  href="/dex-trading/" title="DEX Series, Episode 1: Order Execution Management">DEX Series, Episode 1: Order Execution Management</a>
+      </strong>
+    </h5>
+  </div>
+</div>
+
+               </div>
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+            </div>
+            
+            
+          </section>
+
+        </div><!-- 8 -->
+        <div class="four columns nomargintop">
+          <aside>
+
+            <div>
+              
+              <a target="_blank" href="" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management"><figure class="border"><amp-img itemprop="image" src="" alt="DEX Series, Episode 1: Order Execution Management" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management" layout="responsive" width="700px" height="360px" ></amp-img></figure></a>
+              
+<section>
+<div class="trading quiterelated">
+  <h5>Related Posts from AltcoinTrading.NET</h5>
+  <ol>
+    
+    <li><a href="/tensorcharts/">Orderbook heatmap trading</a></li>
+    
+    <li><a href="/leverj/">LeverJ: Non-custodial trading with leverage</a></li>
+    
+    <li><a href="/altcoinio/">Altcoin.io, new DEX on atomic swaps</a></li>
+    
+  </ol>
+</div>
+<section>
+
+
+            </div>
+            <div class="clearfix"></div>
+            <div>
+              <div class="clearfix adfix"><amp-iframe width="300px" height="600px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv3.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <span class="doge-share"></span>
+<span class="share-cta">PLZ SHARE THIS POST</span>
+<ul class="social share">
+  <li>
+    <amp-social-share type="facebook" width="40" height="40"
+    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="twitter" width="40" height="40"
+    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="linkedin" width="40" height="40"
+    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="whatsapp" width="40" height="40"
+    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="gplus" width="40" height="40"
+    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+  </li>
+
+</ul>
+
+            <div class="clearfix"></div>
+            <div class="smallad">
+               <span class="note">Latest in Extras</span>
+<ul class="popular">
+
+
+
+
+
+<li class="popular-item">
+  <a class="index-internal" href="/strategy/crypto-investment" title="Crypto Investment Strategy: Step By Step Guide">#CryptoTrading | <b>Crypto Investment Strategy: Step By Step Guide</b> on 20 Jul 2019</a>
+</li>
+
+
+<li class="popular-item">
+  <a class="index-internal" href="/security/cookieminer-2fa-bypass" title="Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets">#CryptoSecurity | <b>Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets</b> on 04 Feb 2019</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<li class="popular-item">
+  <a class="index-internal" href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a><a class="index-internal" href="/crypto-trading-vs-forex-trading-review/" title="Crypto vs Forex Trading: How do they compare?"> | <b>Crypto vs Forex Trading: How do they compare?</b> on 22 Aug 2019</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+            </div>
+            
+<section>
+  <hr class="skinny">
+  <div class="text-center"> <a class="index-internal" target="_blank" href="https://hodlerscashback.com/ledger-wallet/"> <amp-img itemprop="image" src="/ads/ledger-wallet-cashback.png" alt="Ledger Nano X Cashback" data-original-width="330px" data-original-height="330px" width="300px" height="300px" layout="responsive"></amp-img></a></div><br>
+  <hr class="skinny">
+  <amp-ad width=336 height=280
+    type="adsense"
+    data-ad-client="ca-pub-6979812205705127"
+    data-ad-slot="7619602394">
+      <div overflow></div>
+  </amp-ad>
+  <hr class="skinny">
+</section>
+
+<div id="sidebar">
+
+  <!--<section>
+    <h3>On Medium.com/CryptoLounge:</h3>
+    <amp-iframe
+            width=350px height=635px
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+            src="https://data.altcointrading.net/drops/index.html">
+            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
+    </amp-iframe>
+  </section>-->
+
+  <section>
+    
+  </section>
+
+</div><!-- end sidebar-->
+
+<p>&nbsp;</p>
+
+          </aside>
+        </div><!-- 4 -->
+      </div><!-- row-->
+  </div><!-- row -->
+</div><!-- container -->
+
+</div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+
+<div class="row space">
+  <div class="twelve columns container-center">
+    <p class="doge-like"></p>
+<br>
+<span class="share-cta">PLZ LIKE US ON TEH NETWORKS</span>
+<ul class="social share">
+
+  <li>
+    <a title="@altcointrading_ on Twitter" href="https://www.twitter.com/altcointrading_" target="_blank">
+      <i class="fa fa-twitter-square"></i>
+    </a>
+  </li>
+
+  <li>
+    <a id="gtm-fblike" title="Altcoin Trading World Network on LinkedIn" href="https://www.linkedin.com/company/altcointradingnet/" target="_blank">
+      <i class="fa fa-linkedin-square"></i>
+    </a>
+  </li>
+
+  <li>
+    <a id="gtm-mediumlike" title="Cryptolounge" href="https://medium.com/cryptolounge" target="_blank">
+      <i class="fa fa-medium"></i>
+    </a>
+  </li>
+
+  <li>
+    <a id="gtm-redditlike" title="Like DEX Series, Episode 1: Order Execution Management on Reddit" href="https://www.reddit.com/r/altcointrader" target="_blank">
+      <i class="fa fa-reddit-square"></i>
+    </a>
+  </li>
+</ul>
+
+  </div>
+</div>
+<div class="row space">
+  <div class="twelve columns">
+    <a class="footer-internal" title="Altcoin Trading CZ" href="https://altcointrading.cz/">AltcoinTrading.CZ</a> ||
+    <a class="footer-internal" title="Privacy Policy Altcointrading.net" href="/about-legal/">About & Legal</a>, 
+    <a class="footer-internal" title="Altcoin Trading FAQ" href="/faq/">Trading FAQs</a>,
+    <a class="footer-internal" title="Trading disclaimer" href="/disclaimer/">Risk Disclaimer</a> ||
+    <br>
+    <b>Support this publication by clicking shill links from these reviews:</b><br>
+    <a  class="footer-internal" title="AltcoinTrading.NET tensorcharts" href="/tensorcharts-tutorials/"><b>TensorCharts Tutorials</b> Collection</a>,
+    <a class="footer-internal" title="AltcoinTrading.NET bitmex" href="/coupon-bitmex-iyqb44/">About BitMEX</a>,
+    <a class="footer-internal" title="AltcoinTrading.NET coinmama" href="/coupon-coinmama-fny3000/">About CoinMama</a>,
+    <a class="footer-internal" title="AltcoinTrading.NET ethfinex" href="/coupon-bitfinex-5egv78ytlc/">About EthFinex & Bitfinex</a>
+    <br>
+    <br>
+    <b>Or use our shill links directly:</b><br>
+    Coinbase @ <a rel="nofollow" target="_blank" href="http://bit.ly/plebtier">bit.ly/plebtier</a> (formerly bumfuck-exchange-for-plebs)<br>
+    BitMEX @ <a rel="nofollow" target="_blank" href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
+    LocalEthereum @ <a rel="nofollow" target="_blank" href="http://bit.ly/local-meth">bit.ly/local-meth</a><br>
+    LocalBitcoins @ <a rel="nofollow" target="_blank" href="http://bit.ly/always-in-our-hearts">bit.ly/always-in-our-hearts</a><br>
+    TensorCharts @ <a rel="nofollow" target="_blank"  href="http://bit.ly/dont-be-an-amateur">bit.ly/dont-be-an-amateur</a><br>
+
+    <br>
+    <h2>1 DOGE = 1 DOGE</h2>
+    <br>
+    &copy; 2016-2019  <a target="_blank" href="https://www.theoryforce.com">Developed by TheoryForce</a> | <a class="footer-internal" title="AltcoinTrading.NET Contact" href="/contact/">Contact Us</a>
+  </div>
+</div>
+
+</div>
+
+  </div>
+</footer>
+</body>
+</html>
