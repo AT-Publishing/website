@@ -99,6 +99,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.0.2)
   hash-joiner
   html-proofer
   jekyll
