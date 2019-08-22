@@ -5,9 +5,9 @@ guest: false
 pinned: no
 note: 'Trading Strategy'
 
-date: 2019-06-14 00:31:00 +0100
+date: 2019-08-21 10:31:00 +0100
 
-title: "Crypto vs Forex Trading: Which One is Better?"
+title: "Crypto vs Forex Trading: How do they compare?"
 description: "Are you better off trading bitcoin or forex? Ultimately, it’s about picking the battles, and the right trading strategy."
 
 author: https://twitter.com/tradingfanbois

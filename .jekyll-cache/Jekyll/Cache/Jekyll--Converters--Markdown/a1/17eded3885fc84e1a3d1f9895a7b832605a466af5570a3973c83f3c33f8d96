@@ -1,0 +1,70 @@
+I"�<h4 id="gossip-update-on-29-november-2017-staying-in-the-loop">Gossip Update on 29 November 2017: Staying in the loop</h4>
+
+<amp-twitter width="375" height="472" layout="responsive" data-tweetid="935326980026830848">
+</amp-twitter>
+
+<p>Roger Ver has been internet-famous just a tad more than usually in the recent days after everyone saw <a href="https://twitter.com/JimBTC/status/935326980026830848">his emotional interview with JimBTC</a> where Ver boasted about his superior business achievements.</p>
+
+<p>The value of BCH has been taking a hit during that time and Ver consequently apologized for losing his cool.</p>
+
+<p>BitcoinErrorLog then shared how Ver called BTC a crippled coin.</p>
+
+<amp-twitter width="375" height="472" layout="responsive" data-tweetid="935786314204680192">
+</amp-twitter>
+
+<p>From Reddit:</p>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7gae0g/daily_discussion_wednesday_november_29_2017/dqhyjkf">
+</amp-reddit>
+
+<hr />
+
+<p>At the time of publishing the Bcash price sits around 1300 USD (0.2 BTC) having dropped from Bitfinex ATH of 2799 USD (0.54 BTC).</p>
+
+<h4 id="bitcoin-cash-forks-on-monday-november-13-2017">Bitcoin Cash forks on Monday, November 13 2017</h4>
+
+<p>The November fork <a href="https://www.bitcoinabc.org/november">(official announcement here)</a> will not create a new coin out of BCH, it is an upgrade aimed at fixing unstable mining and inflation issues. The problem lies in Emergency Difficulty Adjustment <a href="https://medium.com/@Mengerian/bringing-stability-to-bitcoin-cash-difficulty-adjustments-eae8def0efa4">(nice writeup from medium.com/@Mengerian)</a>. The original Bitcoin Cash “EDA” allowed Bitcoin Cash to survive as a minority chain but eventually started producing wild fluctuations of hashrate. The fork will implement an updated Difficulty Adjustment Algorithm.</p>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7cckz1/friendly_reminder_bch_has_a_50_increase_inflation/dpoz5xo/?ref=share&amp;ref_source=embed">
+</amp-reddit>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7cckz1/friendly_reminder_bch_has_a_50_increase_inflation/dpp8fum/">
+</amp-reddit>
+
+<h4 id="roger-ver-sending-25k-btc-to-bitfinex">Roger Ver sending 25k BTC to Bitfinex</h4>
+
+<p><a href="https://blockchair.com/bitcoin/address/16cou7Ht6WjTzuFyDBnht9hmvXytg6XdVT">Roger Ver sent a 25k bitcoins</a> from his known address to an address that moved them to a well known <a href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a> address. People started speculating if he wanted to propel the Bcash rally further up or rather dump BTC. With 25k bitcoins, he could cause a flash crash of thousands of dollars on the BTCUSD market, he could also use the money as collateral for margin trading or he could build walls in the books to pull them later – or a combination of all of that. That, or perhaps nothing at all – it may have been a stunt to scare traders.</p>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7cd9yl/daily_discussion_sunday_november_12_2017/dpp9sb4/">
+</amp-reddit>
+
+<p>Reposted from <a href="https://www.reddit.com/r/Bitcoin/comments/7cefom/roger_ver_just_sent_25k_btc_to_bitfinex/">reddit.com/r/Bitcoin/comments/7cefom/roger_ver_just…</a>, original tweet:</p>
+
+<amp-twitter width="375" height="472" layout="responsive" data-tweetid="929626408753627136">
+</amp-twitter>
+
+<h4 id="most-volume-during-the-bch-pump-came-from-korean-bithumb-a-zero-fee-exchange">Most volume during the BCH pump came from Korean Bithumb, a zero-fee exchange</h4>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7bz7gp/what_is_fueling_the_current_bitcoin_cash_rally/dpnx221/">
+</amp-reddit>
+
+<h4 id="the-bcash-rally-started-blasting-off-after-the-segwit2x-fork-was-called-off">The Bcash rally started blasting off after the SegWit2x fork was called off</h4>
+
+<p>Bcash had some accumulation and creek-jumping before but traders relate it to the SegWit2x cancelation anyway.</p>
+
+<amp-reddit layout="responsive" width="700" height="300" data-embedtype="comment" data-embedparent="true" data-embedlive="true" data-src="https://www.reddit.com/r/BitcoinMarkets/comments/7bz7gp/what_is_fueling_the_current_bitcoin_cash_rally/dplz7zc/">
+</amp-reddit>
+
+<p><br /></p>
+
+<h3 id="reminder-on-how-to-split-the-bcash-from-bitcoin">Reminder on how to split the bcash from bitcoin</h3>
+
+<p>If you haven’t split your bitcoins to get BTC and BCH yet, you can still do it either in your Ledger or Trezor splitting interfaces or by copy-pasting your seed from any wallet into Electron, the Bcash wallet.</p>
+
+<ul>
+  <li><a href="https://electroncash.org/">Download Electron</a> from official site (electroncash.org) only!</li>
+  <li>Before giving away the seed move your BTC to another, newly generated wallet and wait for the transaction to confirm!</li>
+</ul>
+
+<p><a href="https://electrum.org/bcc2.txt">Follow this splitting process written by Electrum creators</a>.</p>
+:ET

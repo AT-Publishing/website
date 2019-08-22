@@ -1,0 +1,40 @@
+I"�<p>On December 3rd, ChrisJ who works for Bitfinex talked on Whalepool TS about <a class="intern" href="/bitfinex-banking">Bfx transparency</a> issues, the <a class="intern" href="/tether-hack">recent Tether hack</a> and more.</p>
+
+<p>The Tether hack will need to be reported to law enforcement which was the reason why <a href="https://twitter.com/AMuse1512/status/941730603535425536">ChrisJ removed the warrant canaries from his Twitter account</a> - an event that <a href="https://www.reddit.com/r/BitcoinMarkets/comments/7k5asc/bitfinex_employee_removes_warrant_canaries_from/">left people wondering</a> whether Bitfinex is under subpoena.</p>
+
+<p>The 51 minutes of footage from Whalepool is available on <a href="https://youtu.be/Z8k5ne-iFP0">Youtube</a> – by the way, it’s still alright at 1.5x speed.</p>
+
+<p>Below a substantially shortened transcript of the most important info from the first part of the session with timestamps to relevant parts of the footage. Links of timestamps open in new tab.</p>
+
+<hr />
+
+<amp-youtube data-videoid="Z8k5ne-iFP0" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<hr />
+
+<p><strong>Tether Hack</strong></p>
+
+<p>On the 19th November about 30.9 million USDT sent from Tether single-sig hot wallet.</p>
+
+<ul>
+  <li>What happened to the USD that were backing the stolen USDT? Nothing - The USDT were created before the backing money arrived, the Tethers were sitting in the treasury wallet waiting to be allocated. <a href="https://youtu.be/Z8k5ne-iFP0?t=1m0s">00:59</a></li>
+  <li>Details of the hack, <a href="https://youtu.be/Z8k5ne-iFP0?t=2m13s">02:13</a>: The money didn’t belong to a customer, there are no customer damages – the tokens were unassigned and have been frozen <a href="https://youtu.be/Z8k5ne-iFP0?t=38m05s">38:05</a></li>
+  <li>The hacker probably used a malicious binary, <a href="https://youtu.be/Z8k5ne-iFP0?t=2m23s">02:23</a></li>
+  <li>The address of the Tether treasury wallet, <a href="https://youtu.be/Z8k5ne-iFP0?t=9m59s">09:59</a> look for it in the text chat.</li>
+  <li>Why wasn’t the treasury wallet multisig? <a href="https://youtu.be/Z8k5ne-iFP0?t=10m49s">10:49</a> It was a newly created wallet that wasn’t used as treasury before (or after) the hack. Normally, Tether storage is multisig but this particular address was single-sig. It is not known why it was single-sig.</li>
+  <li>The server was isolated from Bitfinex servers, <a href="https://youtu.be/Z8k5ne-iFP0?t=13m35s">13:35</a>, and set up by different dev team than the team that works on it now.</li>
+  <li>The server separation is also why the hacker couldn’t steal other cryptocurrencies. As a rule, different currencies live on different servers so that they can be updated easily and they don’t get poisoned from one another if there’s malicious code, <a href="https://youtu.be/Z8k5ne-iFP0?t=45m50s">45:50</a>.</li>
+</ul>
+
+<p><strong>Tether FUD</strong></p>
+
+<ul>
+  <li>Flibbr suggest a live stream with someone from Bitfinex to show the money is in the bank accounts. <a href="https://youtu.be/Z8k5ne-iFP0?t=15m35s">15:35</a> (Probably not possible - banks do not want that spotlight, people are bound by NDAs.)</li>
+  <li>Most of the Tether FUD is anecdotal, screenshots etc, not really evidence or proof … <a href="https://youtu.be/Z8k5ne-iFP0?t=22m15s">22:15</a> … plapps suggests Bitfinex deals with it better in terms of PR because the crowds go too far with their conspiracies. ChrisJ calls for more ideas on how to clear this situation (how to prove the Tethers are backed by USD and do it in a way that is not damaging to Finex nor its customers) – but says he cannot keep up with the tons of twitter messages (<a href="https://twitter.com/mrchrisellis">@MrChrisEllis</a>) he’s getting. If you have an idea, Disqus comments here below are open.</li>
+  <li><a href="https://youtu.be/Z8k5ne-iFP0?t=35m05s">35:05</a> Details of the Tether creation and USD backing - often, the entity that pays for the USDT creation is Bitfinex because of financing of a customer transaction via USDT. (Your USD balance on Bitfinex is not automatically USDT.)</li>
+  <li>Since the stolen Tethers were frozen, there can be a wild unfounded speculation that the hack was either a test or a stunt to make Tether look bad, <a href="https://youtu.be/Z8k5ne-iFP0?t=38m33s">38:33</a>.</li>
+  <li><a href="https://youtu.be/Z8k5ne-iFP0?t=39m13s">39:13</a> There are security updates for Tether underway.</li>
+  <li>ChrisJ calls for allowing the benefit of the doubt. <a href="https://youtu.be/Z8k5ne-iFP0?t=44m18s">44:18</a></li>
+</ul>
+:ET

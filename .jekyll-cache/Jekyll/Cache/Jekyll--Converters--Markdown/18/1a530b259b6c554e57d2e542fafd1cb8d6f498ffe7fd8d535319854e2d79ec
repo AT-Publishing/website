@@ -1,0 +1,8 @@
+I"<p>On January 16th, first implementation of Lightning Network went on the mainnet. LN is the Bitcoin’s off-chain scaling solution, analogous project with Ethereum’s Raiden.</p>
+
+<p>This particular implementation is called c-lightning and was developed by Blockstream. The particular solution developed on top of it is <a href="https://github.com/ElementsProject/lightning-charge">Lighthing Charge</a> which aims to provide a way to make affordable micropayments on the bitcoin blockchain. Lightning Charge comes with a way to integrate bitcoin micropayments into WooCommerce, a popular e-commerce solution. Users can already test that out on the <a href="https://store.blockstream.com/">Blockstream store</a> online. The store accepts real mainnet coins, not testnet ones.</p>
+
+<p>There are prominent warning on the e-shop homepage saying this is a test run and users may lose funds. And sadly, according to Twitter discussions that emerged during the past two days <a href="https://twitter.com/TraceMayer/status/953430172019101696">Lightning Charge is buggy</a> indeed, at least for now.</p>
+
+<p>The equivalent on the Ethereum blockchain, <a href="https://raiden.network/micro.html">microraiden</a>, has been on the mainnet since November 30th 2017 and is running a bounty program.</p>
+:ET

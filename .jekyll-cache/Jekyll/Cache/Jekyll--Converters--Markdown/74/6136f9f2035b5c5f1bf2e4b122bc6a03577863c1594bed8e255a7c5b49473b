@@ -1,0 +1,104 @@
+I"#%<p>Hello and welcome to the <em>China bans Bitcoin</em> show season 3. Except this time it was about all crypto.</p>
+
+<p>This is meant to be a summary of what was going on and what’s the unofficial, bad, and most likely false gossip that’s been going around. It will come handy during season 4 and later.</p>
+
+<h3 id="how-it-started">How it started</h3>
+
+<p><strong>PBOC banned ICOs</strong> in a <a href="http://archive.is/g8ePj">statement in Chinese only</a>. Some were stating that some 90% of ICOs in China were fraudulent, which is easy to believe. Some ICOs started returning collected funding. Right on the 4th of September rumors started showing up that <a href="http://uk.businessinsider.com/initial-coin-offering-china-bitcoin-ethereum-peoples-bank-of-china-law-all-crypto-illegal-etoro-2017-9?r=US&amp;IR=T">all crypto is now illegal in China with consequences the likes of which we’ve never seen</a>. These rumors have been countered by @cnLedger on <a href="https://twitter.com/cnLedger/status/904638606857330688">Twitter who said none of this ban is mentioned in the PBOC document</a>.</p>
+
+<h4 id="suddenly-its-all-crypto">Suddenly it’s all crypto</h4>
+
+<p>Several days later cryptocurrency exchanges started announcing they will shut down - namely BTCC and Yunbi (see statement <a href="#casualties">below</a>). When the BTCC news hit people first started considering it might be happening for real.</p>
+
+<p>At that point people waited for statements from Okcoin.cn and Huobi, the two biggest players. Evetually, they announced to stop crypto-CNY trading in October. (see statement <a href="#casualties">below</a>)</p>
+
+<h4 id="what-about-otc">What about OTC?</h4>
+
+<p>Quite some panic in the markets was started when the news about <a href="http://www.scmp.com/business/china-business/article/2110889/bitkan-suspends-over-counter-bitcoin-trading-services">Bitkan closing</a> got out.</p>
+
+<p>Before this event nobody non-chinese knew what Bitkan was, but the word got out it’s a big OTC exchange app in China. People were afraid this might be a sign the Chinese government was going to try to shut down all means to trade crypto, even OTC, which would have huge implications for the mining. A lot of mining happens in China and a lot of miners take profits using OTC desks.</p>
+
+<p><strong>Keep calm and buy the dip</strong></p>
+
+<p><a href="https://www.reddit.com/r/BitcoinMarkets/comments/6zgxqw/megathread_china_bans_bitcoin_exchanges_round_8/dn19rfv/">In addition to OTC, miners used to use exchanges to trade and hedge too</a>, that seems to be the thing of the past for now, but trying to shut down OTC would be a bigger problem. It wouldn’t be the end of the world though, it would just take a while either to find an alternative way or to sell the ASIC miners abroad where there’s an army of older ASICs waiting eagerly to be dusted off on the next difficulty drop.</p>
+
+<p>Some people speculated this was just <a href="https://www.reddit.com/r/Bitcoin/comments/6zmveb/chinas_bitkan_shutting_down_otc_trades_in/">damage control on the part of Bitkan, trying to avoid future liabilities</a>.</p>
+
+<p>There was a photo of a document stating all OTC and p2p exchange was to become illegal too, but the document was probably fake.</p>
+
+<h3 id="the-gossip-unsourced-and-unproven-food-for-thought">The gossip (unsourced and unproven food for thought)</h3>
+
+<p>The rumors have it there is some kind of power struggle between Beijing and Shanghai in China. <a href="https://twitter.com/_submono/status/908615183857278978">Some speculate</a> that as cryptocurrencies have been used to get money out of the country for reinvestment into foreign real estate markets it could be a competition to the Chinese markets.</p>
+
+<p>Another speculation claims the exchanges are shutting down at the moment because they are <a href="https://news.bitcoin.com/chinese-bitcoin-exchanges-may-face-stricter-regulation-and-licensure/">forced to get a license</a> and AML/KYC upgrade so that the government could monitor cryptocurrency movements. If this is true, there might be a similar situation as with <a href="https://www.altcointrading.net/bitfinex-banking">Bitfinex where fiat/crypto routes are not available to the retail customer and will not ever be</a> because the KYC checks are too expensive to run for every small fish.</p>
+
+<p>Either way, the prognoses <a href="http://www.zerohedge.com/news/2017-09-14/bitcoin-crashes-chinese-trading-second-largest-exchange-halt-all-trading">remain realistic</a>:</p>
+
+<blockquote>
+  <p>“People in China will be more careful about marketing these events, and a lot of that marketing activity will come to Hong Kong in the form of conferences and communities,” said Weese.
+It remains to be seen if Chinese bitcoin fans will simply switch to other OTC/bilateral forms of trading, or simply take their trading to neighboring Japan and South Korea which remain eager advocates of trading in the crypto space.</p>
+</blockquote>
+
+<p>On Sep 19th, <a href="http://www.trustnodes.com/2017/09/19/china-bans-bitcoin-executives-leaving-country-miners-preparing-worst">trustnodes</a> published an article citing rumors that China is trying to stop the cryptocurrency mining industry. Apparently, people are preparing for the worst, relocating mining operations to other countries if they can. It seems that some executives are not allowed to leave the country.</p>
+
+<div id="casualties"></div>
+
+<h3 id="total-casualties">Total Casualties</h3>
+
+<p><strong>Bitkan OTC</strong></p>
+
+<blockquote>
+  <p>Dear Bitkan users,
+In response to PBoC and six other entities’s announcement about token sales, the Bitkan team has decided to stop over-the-counter trading at midnight Sept 14, 2017. The mobile app and the website will no longer allow OTC trading for BTC and BCC.
+Bitkan wallet will continue to function. Inbound and outbound digital assets will not be affected.
+Thanks for your support and understanding. Please contact customer service if you have any questions.
+The Bitkan team Sept 12, 2017</p>
+</blockquote>
+
+<p><strong>Yunbi shutting down 20 Sep 2017</strong></p>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Yunbi will close trading services on Sept 20th<a href="https://t.co/seir5XVI8d">https://t.co/seir5XVI8d</a></p>&mdash; cnLedger (@cnLedger) <a href="https://twitter.com/cnLedger/status/908633922044534786">15 September 2017</a></blockquote>
+
+<p><strong>BTCC is shutting down</strong></p>
+
+<p>BTCC announced that in “spirit” of the PBOC document they will go the path of protecting people from investment risks and close the shop.</p>
+
+<p><a href="https://m.weibo.cn/status/4151955570459465">Announcement on Weibo</a></p>
+
+<blockquote>
+  <p>Bitcoin China will be held September 30 to stop all trading operations</p>
+</blockquote>
+
+<blockquote>
+  <p>respected Bitcoin users in China:</p>
+</blockquote>
+
+<blockquote>
+  <p>according to September 4, Kusakabe, “the central People’s Bank of China Network Information Office of Information Industry and the Ministry of Industry and Commerce Administration of China Banking Regulatory Commission Securities Regulatory Commission CIRC on behalf prevention Coins issued financing risk notice “the spirit of the document, adhering to the prevention of investment risks, the maximum protection of the interests of the user’s principle, the bit coin Chinese team carefully discussed, is to make the following decision:</p>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>Bit currency China digital asset trading platform today to stop New user registration;</li>
+    <li>September 30, 2017 digital asset trading platform will stop all trading business. Beitou China’s pool (pool) and other business will not be affected, continue to normal operation. We apologize for the inconvenience. If you have questions, please contact Customer Support @btcchina .com. Bit Coin China September 14, 2017</li>
+  </ol>
+</blockquote>
+
+<p><strong>ViaBTC shutting down 30th Sep 2017</strong></p>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Announcement on closing ViaBTC exchange platform<br />For more: <a href="https://t.co/J4LrIWsDHq">https://t.co/J4LrIWsDHq</a> <a href="https://t.co/4WOB7NawCr">pic.twitter.com/4WOB7NawCr</a></p>&mdash; ViaBTC (@ViaBTC) <a href="https://twitter.com/ViaBTC/status/908576610059776000">15 September 2017</a></blockquote>
+
+<p><strong>OKcoin, Huobi</strong></p>
+
+<p><a href="https://twitter.com/cnLedger/status/908687698738556928">OkCoin and Huobi are closing on 31st October</a>. They got longer period because they have a lot of users and didn’t list any ICO tokens. The tweet links to the two respective statements which are both almost identical.</p>
+
+<p>It’s safe to trade on OKEX. They only <a href="https://www.okcoin.com/t-496.html">issued a statement</a> they are removing CNY-denominated pairs from their index because of the mispricing. There is now a huge arb between CNY and USD denominated crypto that cannot be easily traded because <a href="https://twitter.com/cnLedger/status/908693526757568512">CNY deposits and withdrawals are suspended</a>.</p>
+
+<p><strong>Bitfinex</strong></p>
+
+<p>It’s also safe to trade on Bitfinex as they are incorporated in British Virgin Islands, <a href="https://www.altcointrading.net/bitfinex-not-affected-pbox-ico">read the previous post</a>.</p>
+
+<h3 id="what-to-make-of-this">What to make of this?</h3>
+
+<p>Nothing. It’ll happen again. That’s all.</p>
+:ET

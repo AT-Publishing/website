@@ -1,0 +1,146 @@
+I"{.<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Always loyal to my first trading principle:<br /><br />- Draw a lot of lines so it will look like you know what you are doing. <a href="https://t.co/na9WaByn28">pic.twitter.com/na9WaByn28</a></p>&mdash; Crypto Rand (@crypto_rand) <a href="https://twitter.com/crypto_rand/status/959190245643255809?ref_src=twsrc%5Etfw">1 February 2018</a></blockquote>
+
+<p>When this post was originally published in may 2016, there were still some doubts whether it was a good idea to give a lot of credit to technical analysis in cryptocurrency trading. The markets were shallow, advanced trading and charting was not readily available, altcoins were pump’n’dumped all the time. Over time the crypto markets matured. The news still have the ability to instill panic at times - as they do with legacy markets as well.</p>
+
+<p>The reason lies in the way technical analysis works. TA is about looking for <strong>patterns on the charts</strong> where the price is historically most likely to do certain thing. If there is a news event, it can always shake things up, no matter how mature and stable the market usually might be. The problem with cryptocurrencies of back in the day was the <strong>crypto markets</strong> were small enough for people with, say, five digits of USD to move the markets and literally buy their way. Such a thing is still possible, moreover there is <strong>no legal danger</strong> in it in cryptocurrencies coming from that (which should remain that way), only in 2018 “whales” need much more money to prop the price where they want it to be. That is a fact and because of it, <strong>technical analysis can always fail</strong>.</p>
+
+<p>Either way, during 2017 new crypto trading products emerged such as futures on BitMEX for various alternative cryptocurrencies, and new spot altcoin exchanges are constantly coming and pretty much instantly struggling with the massive influx of new users. There is now no doubt technical analysis is as valid as it can be, even if it is a limited validity and in some cases only a self-fulfilling prophecy.</p>
+
+<blockquote>
+  <p>TA is a protocol for traders to implicitly coordinate their activities, using price history as the communications medium. <a href="https://www.reddit.com/r/BitcoinMarkets/comments/7vnm87/psa_technical_analysis_is_a_madeup_term_to_hide/dttvtdg/">u/dasignint on Reddit</a></p>
+</blockquote>
+
+<p><strong>So what’s the best technical indicator for altcoin trading?</strong></p>
+
+<p>You should first be asking how well <strong>technical analysis</strong> will apply for your altcoin at all.</p>
+
+<ul>
+  <li>
+    <p>If you are trading a new cryptocurrency on a strictly altcoin exchange, maybe Kucoin or Binance, chances are the market is not stabilized yet. Small cap coins are treated like penny stocks and pumped in PnD groups. In an environment like that all bets are off.</p>
+  </li>
+  <li>
+    <p>If you are trading a “big coin” - BTC, ETH, LTC belong there for sure - your technical analysis should work reasonably. Your TA will work better if you will use what most other traders are looking at.</p>
+  </li>
+</ul>
+
+<p><strong>Most popular technical indicators in cryptocurrency trading</strong></p>
+
+<ul>
+  <li><a href="http://forextraininggroup.com/how-to-trade-support-and-resistance-in-the-forex-market/">Support and resistance</a> - the magical lines on the charts, here as a deep dive written for the forex markets but applying just the same for cryptocurrency trading</li>
+  <li>Volume flow - a script for TradingView available <a href="https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/">from here</a></li>
+  <li>Bollinger Bands - follow <a href="https://twitter.com/bbands">John Bollinger on Twitter</a></li>
+  <li>Ichimoku cloud - an article with a ton of videos and resources <a href="/ichimoku-cloud">here</a></li>
+  <li>Moving averages - a classic is 50-200 crossover, more <a href="http://thereformedbroker.com/2012/03/22/golden-crosses-the-bible/">here</a></li>
+  <li><a href="https://www.investopedia.com/stock-analysis/cotd/022614/bullish-and-bearish-macd-crossovers-lnkd-wyn-amt-twc.aspx">MACD</a> - a classic on Reddit is a so-called <em>squishy</em>, bearish cross on 3D MACD</li>
+  <li>Divergences - only used to establish a level where you should be looking for an entry, not precise enough to be a signal to enter. <a href="https://www.babypips.com/learn/forex/divergence-cheat-sheet">Cheatsheet from babypips</a></li>
+  <li><a href="/strategy/fibs">Fibonacci</a> - used to determine the most likely levels for price reverals, especially when it is not possible to draw support and resistance lines based on history because the price is making all-time-highs.</li>
+</ul>
+
+<h4 id="daily-volume">Daily volume</h4>
+
+<p>To see how reasonable TA might be for the coin of your choice, check the volume for your market. You can see volume and other stats for last 24 hours on <a href="http://coinmarketcap.com/">coinmarketcap.com</a>, <a href="https://bitgur.com">bitgur</a> and similar tools. Ideally you could also look for signs of pump&amp;dump. There are always traders who can capitalize on that but you should know what you are signing up to - a lot of risk.</p>
+
+<p>For new cryptocurrencies, sentiment around the market can be very decisive too.</p>
+
+<p>From 2016:</p>
+
+<blockquote>
+  <p>Take for instance Lisk and The DAO. Both these things were launching at first on Poloniex at close dates. In both cases there was ICO (initial coin offering) where people could buy the token with a discount.</p>
+</blockquote>
+
+<blockquote>
+  <p>Very similar situation but different sentiment. There was a lot of talking about DAOs in general (that they are pretty much nonsense). There was no such talk about LISK.</p>
+</blockquote>
+
+<blockquote>
+  <p>Even though the long term value is questionable in both cases, people launched the trading with the sentiment “new playground for traders, upupupupup free money” in the case of Lisk and with the sentiment “where can I short it?” in the case of The DAO tokens.</p>
+</blockquote>
+
+<p>For new altcoins, the initial price discovery is influenced a lot by <a href="/altcoin-analytics-primer-neo">sentiment on social networks</a>, which in turn can be influenced by marketing and could in fact be quite far from reasonable.</p>
+
+<h4 id="what-to-look-for">What to look for?</h4>
+
+<p><strong>1/ News</strong></p>
+
+<p>Telegram, Twitter, Reddit, 4chan, Kakao. Mainstream media are too slow to pick it up at this point.</p>
+
+<p>Some traders like a good gamble and will trade on a news event. There is a classic setup for news that are long anticipated - <em>buy the rumor, sell the news</em>.</p>
+
+<p>Some traders like to <a href="/ichimoku-cloud/">trade the more predictably trending markets</a> and will avoid trading markets that have important news coming up.</p>
+
+<p><strong>2/ Price</strong></p>
+
+<p>First thing: Decide whether the market is trending or ranging. For trending markets, indicators like <a href="/ichimoku-cloud/">Ichimoku cloud</a> are excellent. For ranging markets a lot of traders like to read up on the <a href="/strategy/wyckoff-ranging-markets">Wyckoff method</a>. Bollinger bands, support/resistance or <a href="/strategy/fibs">Fibonacci</a> can be used on both.</p>
+
+<p>And lastly, set up price alarms. For altcoins it’s easy to do on mobile with a free app TabTrader. On desktop you can go for cryptowat.ch. The lags are not as bad as they used to be.</p>
+
+<p><strong>3/ Volume</strong></p>
+
+<p>Sometimes, when the volume of the altcoin is good enough, you will see increase in buying volume before the price moves up or increased selling volume before the price drops. There are volume based indicators that follow just that.</p>
+
+<ul>
+  <li>
+    <p>Bitcoinwisdom has <a href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:chaikin_money_flow_cmf">CMF - Chaikin money flow</a> which is probably your best option.</p>
+  </li>
+  <li>
+    <p>Cryptowatch has <a href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:on_balance_volume_obv">OBV - on balance volume</a>. To spot emerging trend on Cryptowatch you can also use <a href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:aroon">Aroon</a> even though it’s a momentum indicator.</p>
+  </li>
+</ul>
+
+<h4 id="resources-to-learn-technical-analysis">Resources to learn technical analysis</h4>
+
+<p>The fastest way: Find the most skilled craftsman, follow his/her Twitter account and apply what you’ve learned.</p>
+
+<ul>
+  <li><strong>John Bollinger</strong></li>
+</ul>
+
+<p>The creator of Bollinger bands is on twitter and sometimes posting crypto-related ideas.</p>
+
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Thanks to all the Bitcoin folk who acknowledged my work! BTCUSD is a great vehicle for Bollinger Band analysis. Look at other pairs too.</p>&mdash; John Bollinger (@bbands) <a href="https://twitter.com/bbands/status/736226984322203648">27. Mai 2016</a></blockquote>
+
+<p>There is a number of webinars on Youtube where John Bollinger explains bbands, here is one hosted by MetaStock where John covers the basic definitions but provides a lot of intermediate-level information as well. As always with him, the information is very hands on and actionable, you don’t need a PhD to follow.</p>
+
+<amp-youtube data-videoid="cq3gkwin1y4" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<p><br /></p>
+
+<p>But as the author says himself - try it out yourself and see what fits you, there are many paths up the mountain.</p>
+
+<p><a href="https://www.bollingerbands.com/reading-list" class="button">Bollinger’s Website: Reading List</a></p>
+
+<ul>
+  <li><strong>Peter Brandt</strong></li>
+</ul>
+
+<p>There was a meme going around comparing Peter Brandt with John Bollinger as Peter was initially trolling crypto (and cryptomaniacs) quite a bit, he’ll still sound like an old git at times but do stay for the TA. He has different approach to markets from John Bollinger and it proves valuable to follow both.</p>
+
+<p>And by the way: Neither of them are right every time they call.</p>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">A Tweet and blog post from Dec 2017. Please -- this list does not make me a &quot;hater&quot; <a href="https://t.co/fDHUuB09QI">https://t.co/fDHUuB09QI</a></p>&mdash; Peter Brandt (@PeterLBrandt) <a href="https://twitter.com/PeterLBrandt/status/959839446022602752?ref_src=twsrc%5Etfw">3 February 2018</a></blockquote>
+
+<ul>
+  <li><strong>BabyPips</strong></li>
+</ul>
+
+<p>If you are good at learning from textbook as in you would in school or a course then babypips is the best way for you. It has all the basics and more advanced stuff about technical analysis, mainly for forex but usable for crypto trading very well. All the materials are written well and read easily, it is not boring in the least.</p>
+
+<p><a href="https://www.babypips.com/learn/forex" class="button">BabyPips</a></p>
+
+<ul>
+  <li><strong>Chart Patterns</strong></li>
+</ul>
+
+<p>Simple website not loaded with tons of graphics and ad trash. Just text and a couple of images showcasing chart patterns. Take a look at triangles and pennants if you want to look smart in crypto-trading chats.</p>
+
+<p><a href="http://www.chartpatterns.com/" class="button">Chart Patterns</a></p>
+
+<ul>
+  <li><strong>Swing Trading Stocks</strong></li>
+</ul>
+
+<p>Here it’s not so much about the nitty gritty of technical analysis and more about strategies and methods how to day trade. If you are looking to swing trading altcoins, or even any altcoin trading in shorter timespans, not holding long term - this one will be good for you.</p>
+
+<p><a href="http://www.swing-trade-stocks.com/" class="button">Swing Trading Stocks</a></p>
+:ET

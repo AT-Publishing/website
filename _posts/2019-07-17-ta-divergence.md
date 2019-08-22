@@ -5,6 +5,8 @@ description: "Divergence is a disagreement between price and an oscillating indi
 
 permalink: divergences/
 cz: false
+guest:      false
+pinned:     false
 
 image:
 - "/img/ta/bitfinex-divergences.png"

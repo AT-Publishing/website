@@ -1,0 +1,53 @@
+I"�!<p>One thing we are probably not going to stop seeing anytime soon in the crypto space is phishing: random people finding out your email address belongs to someone who owns cryptocurrencies and might have some on an exchange, localbitcoins or at blockchain.info. While a 2FA is on those places is a plausible protection, there is a fairly easy way to avoid reusing email addresses completely.</p>
+
+<p>To do that you will need to buy your own domain name but there is no need to configure your own email server or develop any kind of custom mail server solution. And you shouldn’t, unless you have a team of people who know how to do that properly. If you are just bootstrapping something yourself, chances are you will not get the same level of security as you can get with something that has been built as a business.</p>
+
+<h4 id="the-idea">The Idea</h4>
+
+<p>The main objective of doing this is to be able to <strong>invent an email address as you go</strong> and have it deliver emails into your single normal mailbox without the need to set up anything extra each time (catch-all function). The mailbox is something that is itself properly secured, and it also has the option to send an email out of the receiving addresses (email aliases).</p>
+
+<p>As the secure email client of choice I will recommend Tutanota. You will not be able to create this setup with their free account, but <a href="https://tutanota.com/pricing">the premium version costs only 12 EUR per year</a>. With the default paid plan you get 5 different email addresses to use but they also have special extension packages to allow for more of them, currently up to 100. Tutanota has a web interface and smartphone apps, offers 2FA with Google Auth or Authy and stores <a href="https://tutanota.uservoice.com/knowledgebase/articles/470785">all emails encrypted</a>. You will not be able to make use of the encrypted communication other than when communicating with someone who is also with Tutanota (otherwise you would need to send them a link to open the email from the Tutanota server which is mostly not feasible) but it is still a step better than conventional email clients.</p>
+
+<p>Protonmail is all in all a similar service to Tutanota and also <a href="https://protonmail.com/support/knowledge-base/custom-domain-support/">offers custom domain support</a> as a premium option, only the catch-all function is <a href="https://protonmail.com/support/knowledge-base/catch-all/">far more expensive than with Tutanota</a>.</p>
+
+<p>With <a href="https://protonmail.com/support/knowledge-base/paying-with-bitcoin/">Protonmail you can pay in Bitcoin</a>, Tutanota <a href="https://tutanota.uservoice.com/forums/237921-general/suggestions/9180716-accept-bitcoin-for-premium-upgrade">still does not have crypto payments ready</a> at the moment.</p>
+
+<p>If for some reason you do not want to use a paid service you will be able to achieve this kind of solution for free with Yandex mailbox. Google has custom domains as a paid option, starting at <a href="https://gsuite.google.com/pricing.html?tab_activeEl=tabset-companies">5 USD a month</a>.</p>
+
+<h4 id="the-setup">The Setup</h4>
+
+<p><a target="_blank" href="/sec/lambomail.jpg" title="AltcoinTrading.NET - Easy way to avoid email address reuse"><figure class="border"><amp-img itemprop="image" src="/sec/lambomail.jpg" alt="Easy way to avoid email address reuse" title="AltcoinTrading.NET - Easy way to avoid email address reuse" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ol>
+  <li>Pick a domain name for your email - <code class="highlighter-rouge">winningbig.com</code> or <code class="highlighter-rouge">wenmoonsir.com</code>, sadly <code class="highlighter-rouge">lambomail.com</code> is already taken. As <a href="http://disq.us/p/1qtwc4p">Cernej Kocour</a> points out in the comments below, the domain should ideally be brand new as in never used before. If it was used for spam in the past, emails from there will get blocked and sent to spam too often. You can find out about previous owners of a domain in its <a href="http://www.hosterstats.com/historicaldns.php?domain=bitcoin.com">Whois History</a>.</li>
+  <li>The registrars that are easiest to use will be either Dynadot or Namecheap - Dynadot lets you pay in Paypal, Namecheap supports crypto payments.</li>
+  <li>Get your premium email account with Tutanota or Protonmail, if you don’t have one already.</li>
+  <li>Head to your domain’s DNS section add the DNS entries to direct emails for handles at this domain to your mailbox - for Tutanota it will be <code class="highlighter-rouge">MX mail.tutanota.de</code> and <code class="highlighter-rouge">TXT v=spf1 include:spf.tutanota.de -all</code> as seen <a href="https://tutanota.uservoice.com/knowledgebase/articles/666088-how-can-i-use-a-custom-domain-with-tutanota">here in their knowledge base</a>. Protonmail’s how to is <em><a href="https://protonmail.com/support/knowledge-base/dns-records/">here for the basics</a></em> and <em><a href="https://protonmail.com/support/knowledge-base/anti-spoofing/">here for the anti-spoofing settings</a></em>.</li>
+  <li>Check your domain’s DNS settings for emails at <a href="http://mxtoolbox.com">http://mxtoolbox.com</a> couple of times until you see your entries there. The change is not instant.</li>
+  <li>Once the DNS change is confirmed, link the domain name to your email account. In Tutanota you will find it at <em>Settings &gt; Extensions &gt; Custom domain</em> in the old clients or at <em>Settings &gt; Global settings &gt; Custom email domains</em> in the new interface. The first field is for the domain name you are linking - say, <code class="highlighter-rouge">lambomail.com</code> - the second field is for your catch-all address. For that, use the default email address that you signed up with - say, <code class="highlighter-rouge">porquenolosdos@tutanota.com</code>.</li>
+  <li>If you did your DNS right you should be able to confirm it and be all set to receive any emails for your custom domain name. It won’t let you finish the linking until the DNS changes are done and confirmed.</li>
+  <li>If you want to set up the address for sending out, in Tutanota you can now head over to <em>Settings &gt; User Management &gt; Email aliases</em>. Add any specific address you need such as <code class="highlighter-rouge">b1tf1n3xuser@lambomail.com</code> and activate it. Tutanota will start giving you the option to send out emails from there. You can always discard the address or replace it with another, and then bring it back only for when you need to send an email out of there. As long as you have the catch-all address you will receive emails to any address under your domain name, no matter if has an alias or not.</li>
+</ol>
+
+<h4 id="make-use-of-it">Make Use Of It</h4>
+
+<p>If you have everything set up, next time you are registering on some third party place that is prone to getting hacked (think forums, newly emerged crypto portfolio dashboards and such) use any of the email addresses from your pool.</p>
+
+<p>A good setup might be for instance to use mails like <code class="highlighter-rouge">coinloop@lambomail.com</code>, <code class="highlighter-rouge">helloiota@lambomail.com</code> or <code class="highlighter-rouge">cryptoflash@lambomail.com</code> - this way you will know where a leak comes from if you start receiving suspicious emails to that address. For exchanges I would recommend <a href="https://1password.com/">a password manager</a> and using something less obvious so that even the signup email cannot be guessed - something like <code class="highlighter-rouge">ok3xw1nn1ngh4rd9000@lambomail.com</code>.</p>
+
+<p>Once again, you do not need to create a mail alias for each of these email, with the catch-all function every mail coming to <strong>any handle under that custom domain</strong> will be delivered to your mailbox all the same.</p>
+
+<p>The only time you need to configure the alias is when you need to send an email out of that particular address. Some exchanges will require that when you communicate with their customer service.</p>
+
+<hr />
+
+<p>This is a guest post by FNY3000.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Reward the author:
+BTC - 13LsqvRxr1VDu6QqdQJf9h51nWwjVWgBDS
+LTC - LLTLshZFK8QFxVx8KYZibo7p2fa6yGYfJP
+ETH - 0x416f7A2a03Fc9385F99c119b7f85fdC1bad5efF2
+</code></pre></div></div>
+
+<p>If you want to get your own guest post with donation addresses, we have <a target="_blank" href="https://jmt3.typeform.com/to/KDUzuV">this typeform</a> for that.</p>
+:ET

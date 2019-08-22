@@ -1,0 +1,28 @@
+I"�	<p>Orbit.bet, the first fully peer-to-peer wagering dApp game, went live with its initial release.</p>
+
+<p>Orbit is built on the Ethereum blockchain. All interactions with the dApp are handled by a <a href="https://etherscan.io/address/0xb9130fb7df51971eecdd1f6b600012de1a839c4c?utm_source=StateOfTheDApps">smart contract on this address</a>.</p>
+
+<h4 id="no-house">No House</h4>
+
+<p>As a fully peer-to-peer wagering system, Orbit has no house. There is not even a set team, the dApp was built as a community project and contributions are still welcome via Discord.</p>
+
+<h4 id="the-decentralized-wagering">The Decentralized Wagering</h4>
+
+<p>The wagering itself is in this initial release similar to bitcoin dice sites in its simplicity: Orbit players can start a ring, specifying the minimum buy-in stake and the number of players to join before the ring is considered complete. The submitted stakes add up to the ring’s jackpot. Once the required number of stakes is present, the ring is “ready to spin” which is technically just a random number generator.</p>
+
+<p>The dApp is very easy to use and requires little technical knowledge. No account setup required, buy-in option becomes available automatically once an active Metamask browser extension is detected.</p>
+
+<h4 id="no-limits">No Limits</h4>
+
+<p>The most defining change against traditional gambling apps is that with Orbit, wagers (and withdrawals) have no limits. The jackpot depends solely on how much ETH players send into the ring’s smart contract. Consequently, there can occasionally occur quite crazy amounts.</p>
+
+<p>In the first week after the Orbit dApp’s release, <a href="https://www.stateofthedapps.com/dapps/orbit">players transacted over 380 ETH in the Orbit dApp</a>.</p>
+
+<p><strong>For more, visit <a href="https://play.orbit.bet/?ref=0x59FE457281B54040EEeD87a0B23BC41FdD3C9595">play.orbit.bet</a>.</strong></p>
+
+<p><em>An introduction to the Orbit dApp is available on the <a href="https://medium.com/orbit-hq/introducing-orbit-no-limits-peer-to-peer-gambling-287a75271645">Orbit blog</a></em></p>
+
+<p><em>If you have questions about Orbit Bet or want to contribute to the development, <a href="https://discordapp.com/invite/Jzfk8Wa">join the Orbit community on Discord</a>.</em></p>
+
+<p>More on dApps, decentralized gaming and blockchain tech businesses on <a href="https://www.thebusinessofcrypto.com/company/">The Business Of Crypto</a>.</p>
+:ET

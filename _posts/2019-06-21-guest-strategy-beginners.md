@@ -2,7 +2,7 @@
 layout:     at-trading
 published:  true
 guest:      true
-pinned:     false
+pinned:     true
 #canonical: ""
 
 stories: false

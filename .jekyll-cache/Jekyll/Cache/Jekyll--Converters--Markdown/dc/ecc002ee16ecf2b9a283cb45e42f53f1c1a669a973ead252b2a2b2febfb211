@@ -1,0 +1,99 @@
+I"�<p><a target="_blank" href="/img/emotions/coffee.jpg" title="AltcoinTrading.NET - Privacy-centric altcoins: Monero vs DASH"><figure class="border"><amp-img itemprop="image" src="/img/emotions/coffee.jpg" alt="Privacy-centric altcoins: Monero vs DASH" title="AltcoinTrading.NET - Privacy-centric altcoins: Monero vs DASH" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Image: It goes way beyond the libertarian dream about paying for coffee.</em></p>
+
+<hr />
+
+<div class="clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder=""></amp-img></amp-iframe></div>
+<div class="clearfix"></div>
+
+<p>Monero and Dash are both privacy-focused cryptocurrencies that are heavily speculated on in 2017 despite having been around for quite some time already.</p>
+
+<p>If you are looking for a long-term investment you should know a wee bit more than <em>private - uh, good?</em> because there are actually quite some differences between Monero and Dash while both aim towards being the untraceable future currency - the digital cash.</p>
+
+<h3 id="dash-dash">Dash (DASH)</h3>
+
+<p>Dash is a <strong>Bitcoin fork</strong> with a <strong>network improvement</strong> that takes care of the privacy.</p>
+
+<p>Dash uses 2-tier network system which keeps the transactions private and kind of untraceable. It’s only kind of though. Some information about transactions is still available, transactions are only mixed together and confirmed faster that they would be on the Bitcoin blockchain.</p>
+
+<p>The Dash transactions confirm faster than Bitcoin transactions since this work is not done by miners but by the Masternodes. Confirmations are almost instant, payments are cheaper and often have no fees at all.</p>
+
+<p>The main drawback however:</p>
+
+<blockquote>
+  <p>The <a href="https://explorer.dash.org/chain/Dash">Dash blockchain is still public</a> and the list of transaction can be browsed by anyone but Dash has an inherent mixing protocol.</p>
+</blockquote>
+
+<p>Good thing about the mixing in Dash is that there is no third party involved (as there would be with mixing services common for Bitcoin) therefore the setup is trustless.</p>
+
+<p><strong>Where to buy and hold Dash</strong></p>
+
+<p>Dash has quite clever marketing, currently being supported by Amanda B. Johnson the former presenter of The Daily Decrypt.</p>
+
+<p>You can buy and trade Dash on majority of altcoins exchanges are you can get it <a href="https://www.dash.org/direct-purchase/">anonymously for cash too</a>.</p>
+
+<p>Storage looks also very good.</p>
+
+<ul>
+  <li>Desktop: <a href="https://www.dash.org/downloads/">See officialy endorsed downloads</a>
+    <ul>
+      <li>Dash Core (full), Dash Lite (electrum/lite wallet)</li>
+    </ul>
+  </li>
+  <li>Multicoin wallets: Jaxx, Coinomi</li>
+  <li>Mobile wallets:
+    <ul>
+      <li>Android: Dash Wallet, Coinomi, Jaxx</li>
+      <li>iOS: Dash wallet</li>
+    </ul>
+  </li>
+  <li>Cold storage: Is available! Via Trezor! (<a href="/trezor-multicoin/">see this post</a>)</li>
+</ul>
+
+<div class="clearfix"> <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor"> <amp-img itemprop="image" src="/img/wallets/trezor.jpg" alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"> </amp-img></a></div>
+
+<p><strong>Adoption</strong></p>
+
+<p>This is a major drawback: Dash should be the virtual cash, untraceable and anonymous, but is not commonly used as a means of payment. There is one payments system <a href="https://cointelegraph.com/news/dash-accepted-here-blockpay-pos-system-integrates-with-dash">BlockPay that integrated Dash in Aug 2016</a>, overall only about 60 merchants worldwide accept Dash payments.</p>
+
+<h3 id="monero-xmr">Monero (XMR)</h3>
+
+<p>Monero has probably the most dedicated developer team of all altcoins. Anyone can make a proposal about features they want to see. If the feature gets adequate funding via user contributions in the Monero forum, it will be worked on.</p>
+
+<p>Monero stresses the value of absolutely private transactions because of the fungibility of a currency: once there is a quick way to distinguish between a “clean” coin and a coin that was in the dark net, and oncepeople start commonly do this, the value of those two coins will be different. Nobody will want to buy the risky DNM coin for full price.</p>
+
+<blockquote>
+  <p>From an economic point of view, a currency needs to be fungible. Fungibility is a property of money that makes all units “equal.” Without fungibility, money flows can be tracked and tainted, making it very difficult to use the digital tokens as money.</p>
+</blockquote>
+
+<p>Monero transactions are entirely private - it is a CryptoNote currency, not a Bitcoin variation. On the Monero blockchain a casual observer cannot find out the origin, amount nor destination  of the transaction.</p>
+
+<p>So this is one step further than Dash which “only” uses mixing but transaction flow is still available. The Monero blockchain on the other hand is truly private to the extent that it could be a layer for private settlements.</p>
+
+<p>Other than this, there is one additional layer of privacy on the Monero blockchain - the network layer. Monero has an i2p router incorporated in it. I2P is an anonymous overlay network - a network within a network. In case you have never heard of it, here’s a <a href="https://geti2p.net/en/docs/how/intro">gentle intro</a>.</p>
+
+<p><strong>User controls what is shown</strong></p>
+
+<p>Although the transactions on Monero blockchain are private for an outside observer, the person who has access to the Monero wallet can provide the chain of transactions to anyone - for instance for an audit.</p>
+
+<p><strong>Mining Monero</strong></p>
+
+<p>Monero is based on PoW, Proof of Work. The Monero devs say that PoS, Proof of stake which is now pushed as a “better” thing, penalizes less active participants and makes them “second class citizens” while Bitcoin’s Proof-of-work led to ASIC based mining pool centralization.</p>
+
+<p>The mining process in Monero is a Proof-of-work algorithm optimalized so that it is ideally performed by millions of small x86 CPUs - that means, common personal computers - so it shouldn’t lead to the rat race of ASICs.
+There is permanent block reward - 0.3 XMR per block forever.</p>
+
+<p><strong>Adoption</strong></p>
+
+<p>Monero is accepted a bit more widely than Dash it seems: <a href="https://getmonero.org/getting-started/merchants">https://getmonero.org/getting-started/merchants</a>
+There is currently one functional payment processor available for merchants to use if they want to integrate monero - “Monero Merchants”.</p>
+
+<p>By the end of Summer 2016 the famous dark net market AlphaBay implemented Monero payments alongside Bitcoin. This led to a major price action on the Monero markets as this truly was a huge step. Darknet markets don’t jump at every new thing because of the security risk related to upgrades on an illegal website. Accepting an altcoin is a big jump, and they picked Monero over Dash because the stealth of Monero is better.</p>
+
+<p><strong>Buying and holding Monero</strong></p>
+
+<p>There is a number of exchanges and OTC markets for Monero, recently you can get Monero also on <a class="external" rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a> and Kraken - see <a href="/how-to-buy-altcoins/">How to buy altcoins</a></p>
+
+<p>The hodling business is a bit tough to crack still. <a href="/monero-wallet/">Read about Monero wallets here</a></p>
+:ET
