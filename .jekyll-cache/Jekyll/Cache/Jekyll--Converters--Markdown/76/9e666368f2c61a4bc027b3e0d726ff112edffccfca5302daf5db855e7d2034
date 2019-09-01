@@ -1,0 +1,186 @@
+I"�3<p><strong>Ichimoku Kinko Hyo</strong> is an indicator that looks complex to traders with 5 seconds attention spans.</p>
+
+<p>Once you know what it does, it makes your crypto trading decisions way faster though.</p>
+
+<p>Mastering Ichimoku Cloud trading really brings you one step closer to the <strong>actually realistic goal of crypto trading</strong>:</p>
+
+<p>Making <strong>high-probability decisions</strong> without spending your <strong>whole day watching your TradingView charts</strong>.</p>
+
+<h3 id="ichimoku-cloud-definition">Ichimoku Cloud Definition</h3>
+
+<blockquote>
+  <p>Ichimoku Kinko Hyo translates as “one look equilibrium chart”. It was designed specifically to enable quicker and easier decision making when it comes to the strength of a market.</p>
+</blockquote>
+
+<p>Ichimoku cloud is one of the default indicators available on places like <a href="https://cryptowat.ch/">cryptowat.ch</a> or <a href="http://bit.ly/atnet-tv">TradingView</a>.</p>
+
+<h3 id="ichimoku-cloud-lines-explained">Ichimoku Cloud Lines Explained</h3>
+
+<p><em>The Senkou</em> and <em>The Kumo</em></p>
+
+<p>“Senkou span” is the name for the borders of the filled cloud, or “Kumo cloud”. The span is filled with green color in case the market is bullish. It will turn red in bearish markets, when the two spans swap.</p>
+
+<p>Senkou lines are major support/resistance areas - they attract the price. Traders set their entries, exits and stops around them - usually leveraging additional information from other indicators.</p>
+
+<p><em>The TK lines</em> and <em>The TK Cross</em></p>
+
+<p>The “TK lines”, or Tenken and Kinjun, are the balance lines - <a href="http://www.babypips.com/school/elementary/moving-averages/moving-average-crossover-trading.html">fast and slow moving averages</a>.</p>
+
+<p>They are moving averages, so traders will look for their cross when they are looking for a trend reversal. Because of their names, this cross is called “TK cross”.</p>
+
+<p>Nonetheless, TK lines are also important when there is no cross in sight. If the price sticks around them, it signals that the asset is neither overhyped nor underpriced. If the price action travels very far from the TK lines, it signifies the price is way out of balance and a pullback is likely, but it is by itself not a trigger to open a position for the pullback.</p>
+
+<p>In more balanced markets the price stays around these lines and traders watch how it is bouncing off them or crossing them when they are looking for a good entry.</p>
+
+<p><em>The Chinkou</em></p>
+
+<p>The “Chinkou” span is a lagging indicator, use it to confirm a trend strength. Chinkou line above the candles means the market is strong. If the Chinkou crossed below candles, it’s a bearish turn:</p>
+
+<p><a target="_blank" href="http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>When there is a strong action and the lagging line crosses the candles it is a sign the trend is weakening and becoming undecided. Reversal is likely, but again, this by itself is not yet a trigger to short:</p>
+
+<p><a target="_blank" href="http://localhost:4000/features/2018/ichimoku/lagging-san.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/ichimoku/lagging-san.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="how-to-read-ichimoku-cloud">How to read Ichimoku Cloud</h3>
+
+<p><strong>BASICS: Ichimoku cloud Bullish signals</strong></p>
+
+<p>For a strong bullish signal, everything must occur above the Kumo cloud: The price action must remain <strong>above</strong> the Kumo cloud. The Chinkou line must stay <strong>above</strong> the kumo and Tenken should be crossing Kinjun also <strong>above</strong> the Kumo. Tenken should be crossing upside - if this cross occurs inside of the Kumo that’s still weakly bullish.</p>
+
+<p><strong>BASICS: Ichimoku cloud Bearish signals</strong></p>
+
+<p>If you are looking for strong bearish signal, with Ichimoku cloud you can pretty much reverse all that has been said to bullish signals - price action occurs <strong>below</strong> Kumo, as well as Tenken and Kinjun crossing and the lagging line Chinkou. Basically the more happens below the stronger the bears are.</p>
+
+<p><strong>BASICS: None of this?</strong></p>
+
+<p>If none of this is happening then it most likely means that at your timeframe the market is <em>undecided, sideways, waiting for direction</em>.</p>
+
+<h3 id="market-structures-suitable-for-ichimoku-cloud">Market Structures suitable for Ichimoku Cloud</h3>
+
+<p>Ichimoku is mostly useful in <strong>trending markets</strong>.</p>
+
+<p>You won’t get much information from Ichimoku Cloud in ranging markets. In market ranges, the cloud will be swapping between red and green very often, yielding very little actionable information. The same happens on short timeframes - and there are much better indicators and strategies if you want to be <a href="/strategy/scalping/">scalping crypto</a>.</p>
+
+<ul>
+  <li>To trade market ranges, it is more sensible to use the <a href="/strategy/wyckoff-ranging-markets/">Wyckoff analysis</a> or any oscillating indicators, possibly also with regard to <a href="/divergences/">divergences</a>.</li>
+</ul>
+
+<h3 id="ichimoku-cloud-strategies-with-other-ta-indicators">Ichimoku Cloud strategies with other TA indicators</h3>
+
+<p>There is a number of trading strategies that involve Ichimoku. Involve - that’s right. Even in trending cryptocurrency markets, Ichimoku Cloud is rarely used alone. Typically, traders will use it combined with other indicators.</p>
+
+<p>Typically, these indicators will provide some way of identifying your support-resistance levels based on volume. It makes sense to use a volume-based indicator with Ichimoku because the cloud is only rendered from price action cycles and disregards volume completely.</p>
+
+<p><strong>Popular Crypto Trading Indicators to use with Ichimoku</strong></p>
+
+<ul>
+  <li>Volume, either in the standard way or as <a href="https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/">volume colored candles</a> available from TradingView</li>
+  <li>StochRSI or other momentum oscillators</li>
+  <li><a href="/strategy/fibs">Fibs</a> as an alternative way to find your most probable reversal areas</li>
+  <li><a href="/technical-analysis/">Bollinger Bands</a> as a way to provide some range-like bounds even if the market is trending rather than ranging</li>
+</ul>
+
+<p><strong>Here is a good presentation of how to use Ichimoku cloud with fractals and high-volume support and resistance levels <a href="https://www.youtube.com/watch?v=NvCKMg8ilMI">by ChaosTrader on YouTube</a>.</strong></p>
+
+<p>Additional Ichimoku strategies are linked at the <a href="#resources">bottom of the article</a>.</p>
+
+<div id="settings"></div>
+
+<h3 id="ichimoku-cloud-crypto-settings">Ichimoku Cloud Crypto Settings</h3>
+
+<p>Last but not least, the controversial bit:</p>
+
+<p><strong>Should you use alternative settings for Ichimoku Cloud on cryptocurrency markets?</strong></p>
+
+<ul>
+  <li>Ichimoku cloud uses past action of the market to predict most probable price direction in the near future.</li>
+  <li>The cloud is <strong>rendered from simplified past moving averages</strong> calculated from past highs and lows.</li>
+  <li>Because Ichimoku cloud takes the past action to predict the most likely future ranges and breaking points, traders want to <strong>reflect the past market action as precisely as possible</strong>.</li>
+</ul>
+
+<p><a target="_blank" href="http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Ichimoku works with timely moving averages, so on the crypto markets it follows reason to set meaningful timespans considering the fact that crypto trades 24/7/365.</p>
+
+<p>The traditional Ichimoku cloud settings (9, 26, 52, 26):</p>
+
+<ul>
+  <li>9 represents a week and a half of trading</li>
+  <li>26 equals the number of trading days in a typical month (30 minus four Sundays)</li>
+  <li>52 equals two months of trading days</li>
+</ul>
+
+<p>The idea of special Ichimoku cloud settings for cryptocurrencies is that the market is open 24/7 (20, 30, 120, 60):</p>
+
+<ul>
+  <li>7+3.5 = 10 (because of low volume on Sunday), or double for longer term trend capture</li>
+  <li>30 days in a month</li>
+  <li>2 trading months in crypto = 60 days</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Conversion line period</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Base line period</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Lagging span 2 periods</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>Displacement</td>
+      <td>60</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Some traders reject this alternative Ichimoku cloud crypto settings.</strong></p>
+
+<p>Their reasoning is that the period lengths are meant to capture a time period, it doesn’t matter whether it falls into a week or not and changing the defaults is wrong. That is different from <a href="http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:ichimoku_cloud">what StockCharts article about Ichimoku says</a> and it seems a bit ignorant to disregard movements influenced by the day of the week.</p>
+
+<p>It is true that if big enough traders start to use the default settings, it will become valuable to use what they are using.</p>
+
+<p>Unless you are prone to analysis-paralysis, it will not hurt to check both settings. <strong>Always backtest your indicator settings to see if it is sensible according to recent market behavior.</strong></p>
+
+<div id="resources"></div>
+
+<h4 id="ichimoku-cloud-traders-what-to-read-and-whom-to-follow">Ichimoku Cloud Traders: What to read and whom to follow</h4>
+
+<p><strong>CarpeNoctom (crypto, basics)</strong></p>
+
+<p>Basic Video Intro into Ichimoku Cloud:</p>
+
+<amp-youtube data-videoid="J3t2Tsn_Imk" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<p><br /></p>
+
+<p><strong>ChaosTrader63 (legacy, advanced)</strong></p>
+
+<p>The legacy trader ChaosTrader63 has a <a href="https://www.youtube.com/user/ChaosTrader63">YouTube channel</a> and <a href="https://twitter.com/ChaosTrader63">Twitter</a> dedicated mainly to Ichimoku cloud. He mainly provides price commentary with new videos about once a week, and his trades are focused more on the long term. You will see him use the 1D chart a lot, explaining how he makes his decision. ChaosTrader63 uses the default Ichimoku settings - 9, 26, 52, 26 and is a proponent of this settings rather than of the “crypto” settings.</p>
+
+<p><a target="_blank" href="http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>ChaosTrader63 is originally a forex trader so his analysis has more precision in it than what you typically get in the cryptocurrency space. He combines Ichimoku cloud with <a href="https://www.youtube.com/watch?v=NvCKMg8ilMI">fractals</a> and high-volume support and resistance levels (a simplified version of <a href="/strategy/wyckoff-ranging-markets">trading ranges</a>).</p>
+
+<p>Below his webinar on <a href="https://www.youtube.com/watch?v=p-eeW4SzWCA">Ichimoku High Probability Trading</a> where he explains how one can decide on an entry. If you have mastered the basics and are looking to learn some more in the way of craftsmanship, I highly recommend him.</p>
+
+<p>In the video below his decision process consists of first looking at the cloud setup and waiting for a price/oscillator divergence which only establishes the direction of the potential position and a level for the entry. When that’s done one ought to look for a price signal (bounce, rejection, indecision) and finally entering the trade when a trigger appears (violation of the signal - so for instance a high volume move after a period of indecision).</p>
+
+<amp-youtube data-videoid="p-eeW4SzWCA" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<p><br /></p>
+:ET

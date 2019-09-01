@@ -1,0 +1,188 @@
+I"�5<p>A lot has been written about margin funding — ranging from “hey free moneyh” to country-specific tax problems.</p>
+
+<p>Some crypto traders like to lend their coins when they aren’t trading them (and also when they want to make themselves stop trading), some (a minority, I’m afraid) prefer to withdraw their coins to a wallet where they own the private keys unless the lending rates go to really mental heights.</p>
+
+<p>How is this important for your cryptocurrency trading strategy? Too many cryptocurrency traders don’t really think they need a strategy for lending because in lending they <em>cannot get rekt, so what</em>. However, by being careless like this they might actually be causing themselves harm even when we are not considering the possibility of their exchange getting hacked at all. Keep reading if this sounds like a new and surprising information to you.</p>
+
+<h2 id="estimating-the-risk-of-lending-on-an-crypto-exchange">Estimating the risk of lending on an crypto exchange</h2>
+
+<p>How do you go about having a strategy for lending you crypto at all then? Well, in the simplest way you should decide what is the <strong>lowest acceptable rate</strong> that you are willing to accept to lend your coins.</p>
+
+<p>The first thing one considers is that the exchange might get hacked, bankrupt, exit scam or otherwise just go belly up. This is the thing that everyone keeps talking about, it “never” happens until it happens and then it’s just talking again for a year.</p>
+
+<p><strong>There are far likelier things to consider though:</strong></p>
+
+<p>There can be a bug on the exchange that is specific to your account – you know that happens and the <a href="https://www.altcointrading.net/customer-support-zen">customer support won’t answer for weeks</a>.</p>
+
+<p>Then there is the opportunity cost. If your OK-rate is 0.05% daily and you lend your money for 2 days, you won’t be able to monetize a rate jump to 0.20% a day if the highs last less than 2 days (which they typically do). So there is the cost of opportunity even if you have a separate stash for lending so that you don’t consider locked up loaned out money a loss when a cryptocurrency you could be trading moves abruptly.</p>
+
+<p>There can also be a fork with the exchange issuing a statement they <a href="https://www.reddit.com/r/BitcoinMarkets/comments/6qn130/poloniex_is_handling_it_all_wrong_and_backwords/">won’t grant the new chain to lenders</a> when you have your coins locked up already, or <a href="https://www.bitfinex.com/posts/214/review">changing the conditions after the fact like Bitfinex did with the Bitcoin Cash fork</a>.</p>
+
+<blockquote>
+  <p>It is not reasonable to go into exact figures when you don’t have the data to back up a sensible calculation.</p>
+</blockquote>
+
+<p>But the problem is we simply don’t know how likely which event is, and that is not even considering all the things we are not aware of that influence the markets too. There is a lot of FUD around Bitfinex and Tethers, Poloniex has caused a lot of pain to <a href="https://www.reddit.com/r/Bitcoin/comments/5ow8gw/warning_do_not_lend_on_poloniex/">margin lenders</a> and <a href="https://www.reddit.com/r/BitcoinMarkets/comments/6qrxoq/poloniex_bitcoin_loans_not_ending/">borrowers</a> alike, but none of this is a reason to be complacent. The history we have as a cryptocurrency community is short, the time over which margin lending has been available has been even shorter. Cryptocurrency markets are for the time being still isolated from legacy markets, so there is no correlation with those either.</p>
+
+<p>Not only we don’t know what’s likely to happen, I doubt there is enough data to make even a poor <a href="https://www.quora.com/What-is-the-bitcoin-price-prediction-for-2019">model of a future outlook</a>. There is simply too much of unknown unknowns to go into exact numbers.</p>
+
+<p><strong>The one thing you can do is to set the bar high enough. Have a padding that would justify the risk of damage and optimize the percentage of your stash that you are lending at a certain interest rate level.</strong></p>
+
+<h4 id="calculating-yearly-return-from-daily-interest-rates">Calculating yearly return from daily interest rates</h4>
+
+<p>Currently you can lend money without trading on <a href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a> and <a href="https://poloniex.com">Poloniex</a>. Both these exchanges are inherently shady, neither requires verification.</p>
+
+<p>With <a href="https://www.bitmex.com/register/iYQB44">BitMEX</a> perpetual swap you either pay interest or earn one but you must have an open position. It is possible to have a position solely for the purpose of earning interest but it is more advanced trading wizardry.</p>
+
+<p>Exchanges give you daily rate which is probably a little too abstract to work with when you want to roughly consider it next to things like exchange hacks which happen maybe once a year. Let’s first convert the daily interest rate to a yearly percentage return with compounding (lending out also previous lending profits) and after the fees.</p>
+
+<p>If you just want to do a one-off check, you can use <strong>a compound interest calculator</strong> <a href="http://www.moneychimp.com/calculator/compound_interest_calculator.htm">like this one</a> that gives the correct numbers for Bitfinex lending. Fees are already included in the calculation (Bitfinex takes 15% from your lending profit, more if you post hidden offers - use the <a href="https://www.bitfinex.com/?refcode=5egV78YtlC">referral code 5egV78YtlC</a> to get a 10% fee discount there).</p>
+
+<p>For those who like to keep spreadsheets here’s <strong>the formula for the lending profits with compounded interest:</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A = P x (1 + r)^n
+
+A	... end amount
+P	... principal (starting amount)
+r	... decimal rate per single period (1 day in this case)
+n	... number of periods (365 in this case)
+</code></pre></div></div>
+
+<p>So for illustration the decimal rate for a typical Bitfinex USD rate of 0.05% daily will be <code class="highlighter-rouge">1.0005</code>.</p>
+
+<p>Your profit adjusted for Bitfinex 15% lending fee:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>B = (A - P) x (1 - fee)
+
+B ... cash profit after fees
+fee ... 0.15
+
+</code></pre></div></div>
+
+<p>In percents, that would be</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C = 100 x B / P
+
+C ... yearly percent return on principal
+
+</code></pre></div></div>
+
+<p><strong>Working with daily rates</strong></p>
+
+<p>While the rates fluctuate wildly they are not completely random. Traders get accustomed to certain levels which makes it easy for the levels to form some kind of support, as you would say in a TA speak. In 2016 people were going nuts when Bitfinex was lending USD for 0.15% a day but it is a regular occurrence these days, especially during either FOMO when everyone wants in or during a dump when everyone wants to hold on to their underwater position. Simply put, extremely high rates were <strong>not a very rare occurrence in 2017</strong>.</p>
+
+<p><a target="_blank" href="http://localhost:4000/strat/rates1.png" title="AltcoinTrading.NET - On Lending"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/strat/rates1.png" alt="On Lending" title="AltcoinTrading.NET - On Lending" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>So while it is not reasonable to expect you’ll be able to get some exact interest rate every day but it is not completely off to count on the typical rate to change over a year. Even better, it is not off to only fish for juicy rates.</p>
+
+<p><a target="_blank" href="http://localhost:4000/strat/rates2.png" title="AltcoinTrading.NET - On Lending"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/strat/rates2.png" alt="On Lending" title="AltcoinTrading.NET - On Lending" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Both images above come from now defunct resource called bfxdata.com.</em></p>
+
+<p>Let’s take a look at how the yearly profits change after a year when the daily rate changes just a little to illustrate the point.</p>
+
+<p>I’ll start with the USD daily rate of 0.01% which seems to be the mental boundary with all coins for many lenders, mostly without any reasons to back it up other than <em>it’s a nice number</em>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>P</th>
+      <th>$20,000</th>
+      <th>$20,000</th>
+      <th>$20,000</th>
+      <th>$20,000</th>
+      <th>$20,000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>r</td>
+      <td>1.0001</td>
+      <td>1.00015</td>
+      <td>1.0003</td>
+      <td>1.001</td>
+      <td>1.002</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>$20,743</td>
+      <td>$21,125</td>
+      <td>$22,314</td>
+      <td>$28,805</td>
+      <td>$41,471</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>$632</td>
+      <td>$957</td>
+      <td>$1,967</td>
+      <td>$7,484</td>
+      <td>$18,251</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>3%</td>
+      <td>5%</td>
+      <td><strong>10%</strong></td>
+      <td><strong>37%</strong></td>
+      <td><strong>91%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A ... end amount before fees
+B ... cash profit after fees
+C ... percent return after fees
+
+principal $20,000
+n = 365 days
+daily rates: 0.01%, 0.015%, 0.03%, 0.1%, 0.2%
+</code></pre></div></div>
+
+<p>You see that the popular threshold of 0.01% daily gives only 3% return per year with compounding. <strong>Six hundred dollars earned on 20k at constant risk for 365 days</strong>.</p>
+
+<p>It’s not something you can get from a bank these days, true enough, but if you really feel it’s enough to justify you giving away your cryptocurrencies to an institution that you have no reason to really trust to, there is something wrong with you.</p>
+
+<p><strong>Lending size management</strong></p>
+
+<p>Now, remember, the mistake here is to send in more money when the rates are down so that you can fill your monthly profit target.</p>
+
+<p>If the rates are down there is simply <strong>not the opportunity for lending</strong> at the moment. It is perhaps more convenient to borrow, actually. Or maybe to stay out of the market.</p>
+
+<p>With lending, you should <strong>scale your position the same way you do when you’re trading</strong>: adding to your winners (that is, when the rates are rising) and cutting your losers (in this case, when the rates are getting too low).</p>
+
+<p>If you really want to be careless about your money, please, get off Polo and Finex. Do go to Nitrogen Sports, do gamble away and really do have at least some fun while you’re at it. Don’t be a sucker lending for next to nothing.</p>
+
+<h2 id="the-better-than-nothing-fallacy">The “better than nothing” fallacy</h2>
+
+<p>This is something that has been cropping out on Reddit lately, particularly on subreddits related to altcoins that out of all the bigger exchanges are traded pretty much only on Bitfinex.</p>
+
+<p>As you know, by 9th November 2017 Bitfinex was closing the shop for people located in the USA. Now the panic arose: <a href="https://www.reddit.com/r/Iota/comments/7bxo00/bitfinex_booting_us_customers_where_to_move_my/">Where do I send my altcoin?! I don’t want to install the wallet it’s too complicated?!</a></p>
+
+<blockquote>
+  <p>Better than nothing is not really better than nothing in lending on Poloniex or Bitfinex.</p>
+</blockquote>
+
+<p><a href="https://www.altcointrading.net/security/iota/">IOTA</a> is a fine example as the Bitfinex lending rates have been consistently really <strong>effectively zero</strong> yet the lending book is always full. Who is lending there then? Does the exchange provide some of it? Could it be multi-account traders who lend to themselves only to have access to margin trading interface with cost basis (which Finex does not disallow)?</p>
+
+<p>How big a chunk of the lending book are people who <strong>want to store their altcoin on an exchange</strong> and think like, <em>well, it’s better than nothing</em>?</p>
+
+<p>What people are doing here is missing the forest for the trees.</p>
+
+<h2 id="what-are-you-actually-doing-when-you-are-lending-cryptocurrency-for-peanuts">What are you actually doing when you are lending cryptocurrency for peanuts</h2>
+
+<p>Sometimes you provide your cryptocurrency at a very low rate and it might sit in the book for a minute. Some other people interested in lending will see it and withdraw their coin instead. Some – many – will engage their “oh well suck it up” mentality though and front-run you with a cheaper offer, only to get front-run by the next sucker.</p>
+
+<p>Eventually, somebody in the right mind will be happy to take all the cheap coins though. And to use them. For shorting. Shorting the coin the suckers are long-term holders of but keep it on an exchange in lending.</p>
+
+<p><strong>By lending your crypto for peanuts you are making monster whale shorts possible because you are making them effectively free.</strong></p>
+
+<p>If you really don’t want to withdraw a coin from an exchange – which is a mistake but you already know that – lay it over to your margin wallet to use as collateral but really, don’t lend it for next to nothing.</p>
+
+<hr />
+
+<p>Thanks to <a href="https://reddit.com/u/middle0fnowhere">u/middle0fnowhere</a> for many ideas.</p>
+
+<hr />
+
+:ET

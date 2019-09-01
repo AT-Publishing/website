@@ -1,0 +1,184 @@
+I"�;<blockquote>
+  <p>And right off the obligatory annoying reminder – You must be reading this all the time, but still: Never keep untraded coins on <a href="/altcoin-exchanges/">an altcoin exchange</a> and <a href="/bitifinex-eats-your-eth">never send coins from one exchange to another</a>. You don’t know what method the exchange uses to send and it is not always clear whether the target exchange supports transactions done in that way.</p>
+</blockquote>
+
+<p>And as the second thing, quick bottom line for those who don’t want to read:</p>
+
+<h4 id="your-best-bet">Your best bet</h4>
+
+<p><strong>Everyone’s Favorite</strong>: The Ledger Hardware Wallet for bitcoin and altcoins, specifically, the <strong><a class="external" rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Ledger Nano S</a></strong>. It is not expensive (but come on, you must have earned the fortune of your lifetime in 2017 already) and the code is fully opensource. <strong><a class="external" rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Buy directly from ledgerwallet.com</a></strong>.</p>
+
+<ul>
+  <li><em>Supported cryptocurrencies</em>: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and <strong>all ERC20 compliant Ethereum tokens</strong> available with myetherwallet.com.</li>
+</ul>
+
+<p>Ledger Nano S is your best cold storage for ERC20 tokens.</p>
+
+<p><strong>The best desktop+mobile wallet</strong>: For the longest time, this was the place to feature JAXX.io: not too safe but very easily usable. However, the app went downhill over time and it’s time for a change.</p>
+
+<ul>
+  <li>If you only need <strong>BTC, ETH and XLM</strong> for quick storage under one roof, a more usable smartphone app is currently the <strong>blockchain.com</strong> wallet (formerly blockchain.info). The smartphone app can be unlocked with PIN or fingerprint and there is also a web interface that you can access from a laptop.</li>
+</ul>
+
+<p>However, the blockchain.com wallet is often target of <strong>imposter attacks</strong> on the app stores though, always double check you are downloading the app from company called <em>Blockchain Luxembourg SARL</em>.</p>
+
+<ul>
+  <li>If you prefer a standalone app for phones and desktop, go with <a href="https://www.exodus.io/">Exodus.io</a>. They have been adding easy support of popular ERC20 tokens as well as selected stablecoins. If Exodus and Jaxx used to be competitors, Exodus won.</li>
+</ul>
+
+<p><strong>Now for the detailed stuff.</strong></p>
+
+<h3 id="hardware-altcoin-wallets">Hardware Altcoin Wallets</h3>
+
+<p>If you want to hold an altcoin that you think should grow in the future, you should get either wallet as a software or a hardware wallet.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/ledger-altcoins.jpg" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/ledger-altcoins.jpg" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="ledger-wallet-for-altcoins">Ledger Wallet for Altcoins</h4>
+
+<p><a class="external" rel="nofollow" target="_blank" href="https://www.ledgerwallet.com/r/e274">Ledger Wallet</a> used to claim they would not support any altcoins but they added support for several of them in 2017. A Ledger Nano can act as a BTC wallet, an Ethereum wallet, it also stores DASH, ZCASH, Stratis and other altcoins via their companion apps.</p>
+
+<p>There is newly available <a href="https://www.ledgerwallet.com/apps/ripple">Ripple app for Ledger wallets Nano S and Blue</a>.</p>
+
+<p><strong>There are several HW products that Ledger offers:</strong></p>
+
+<p>1/ Ledger Nano and HW.1 support Bitcoin only.</p>
+
+<p>2/ Ledger Nano S support:</p>
+
+<p>Natively: <strong>Bitcoin, Ethereum, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.</strong></p>
+
+<p>Via 3rd party private key management: <strong>All Ethereum tokens of the ERC20 standard</strong>. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with <a href="https://www.myetherwallet.com/">MyEtherWallet</a>.</p>
+
+<p><strong>On Reddit:</strong></p>
+
+<ul>
+  <li>Subreddit - <a href="https://www.reddit.com/r/ledgerwallet">r/ledgerwallet/</a></li>
+  <li>People - <a href="https://www.reddit.com/u/btchip/">u/btchip</a></li>
+</ul>
+
+<h4 id="trezor-wallet-for-altcoins">Trezor wallet for Altcoins</h4>
+
+<p><a class="external" rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a> utilizes similar system as Ledger Wallet. There is a set of native apps, you are able to manage several cryptocurrency wallets from a web app after unlocking your access with your PIN.</p>
+
+<p>The classic TREZOR supports:</p>
+
+<p>Natively: <strong>BTC, ETH, DASH, LTC and ZCASH</strong> as of January 2017. <a href="/trezor-multicoin/">(Read more about that)</a>.</p>
+
+<p>Via 3rd party private key management: There is also the option to work with <strong>any ERC20 token</strong> via MyEtherWallet.</p>
+
+<p>In February 2018 there was a line of updates at <a class="external" rel="nofollow" target="_blank" href="https://shop.trezor.io?a=fany@tutanota.com">Trezor</a></p>
+<ul>
+  <li><a href="https://blog.trezor.io/announcing-redesign-refresh-user-interface-trezor-wallet-f31220d8917e">new more intuitive user interface</a></li>
+  <li><a href="https://blog.trezor.io/introducing-new-trezor-bridge-v2-2b7ea5478d65">new TREZOR bridge released</a> as the Chrome App will be obsolete soon</li>
+  <li><a href="https://blog.trezor.io/first-trezor-model-t-dispatched-warehouse-shipping-preorder-86615b55ffd3">and finally, the new TREZOR T was released</a>, the new model with a touch screen and an open-sourced code</li>
+</ul>
+
+<p><strong>On Reddit:</strong></p>
+
+<ul>
+  <li>Subreddit - <a href="https://www.reddit.com/r/trezor">r/TREZOR</a></li>
+  <li>People - <a href="https://www.reddit.com/u/slush0">u/slush0</a>, <a href="https://www.reddit.com/u/stickac">u/stickac</a></li>
+</ul>
+
+<div class="clearfix"> <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor"> <amp-img itemprop="image" src="/img/wallets/trezor.jpg" alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"> </amp-img></a></div>
+
+<p> </p>
+
+<h3 id="electrum-forks">Electrum Forks</h3>
+
+<p>There is one thing that only particularly paranoid people consider although it is indeed no fantasy:</p>
+
+<ul>
+  <li>99% of hardware wallet users never actually read the codebase of their hardware wallet and are not planning to with every upgrade.</li>
+  <li>100% of hardware wallet users haven’t taken the device apart to see what’s in it and if it’s really safe.</li>
+</ul>
+
+<p>Nobody ever will. That’s what people buy hardware wallets: for convenience.</p>
+
+<p>But when everyone starts using hardware wallets, everyone’s coins are in a blackbox - in the same blackbox - the same software, the same hardware, that means possibly also the same vulnerabilities.</p>
+
+<p>This is a fact, and it makes a case for an Electrum wallet (open source and time proven) on a USB stick, used from a computer that runs on Tails or another Linux and is not used for common day to day web browsing and the rest of it.</p>
+
+<h4 id="electrum-for-litecoin">Electrum for Litecoin</h4>
+
+<p>Get it <a class="external" rel="nofollow" target="_blank" href="https://electrum-ltc.org/">here</a> (official website). It is a regular Electrum wallet, still with the privacy flaw of being able to tell which pool of addresses belong to a single wallet.</p>
+
+<h4 id="electrum-for-dash">Electrum for Dash</h4>
+
+<p>Another Electrum flavor is Dash wallet. You can get it from <a class="external" rel="nofollow" target="_blank" href="https://www.dash.org/downloads">Dash homepage</a>.</p>
+
+<h3 id="the-strange-case-of-xmr-wallet">The strange case of XMR wallet</h3>
+
+<p><a href="https://www.altcointrading.net/monero-cold-storage-2017/">There is a whole article on this sad, sad thing</a>! For here just one thing:</p>
+
+<h4 id="mymonero-web-wallet">MyMonero Web Wallet</h4>
+
+<p><strong><a href="https://mymonero.com/#/">mymonero.com</a></strong></p>
+
+<p>This is something that is actually endorsed on the getmonero.com website.</p>
+
+<p>MyMonero is website that will get you a Monero address, sign up pretty much takes one click. You click the one and only button on the landing page and in thenext step it is already showing you your private login key:</p>
+
+<blockquote>
+  <p><em>Below this you will find your thirteen word “Private Login Key”. Keeping this secure and private is very important, as it is the only way that you will be able to login to your MyMonero account. As we don’t store your private login key on the server there is no way to recover it if it is lost!</em></p>
+</blockquote>
+
+<p>The next step is already your web wallet:</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/mymonero.png" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/mymonero.png" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Pretty impressive, the drawback is you have to enter your private key at every login. It wouldn’t top a Monero light client, if it existed.</p>
+
+<h3 id="desktop-multi-coin-wallets">Desktop Multi-Coin Wallets</h3>
+
+<h4 id="jaxx-jaxxio">Jaxx (Jaxx.io)</h4>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/jaxx.png" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/jaxx.png" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>The best and most popular multicoin wallet these days is <a href="https://jaxx.io/support.html">Jaxx</a>. It is available as browser extension, desktop app and mobile app - although the choice of supported coins differs.</p>
+
+<p>User-friendliness level is the top of top - you launch the software and wallets are automatically generated for you. To get the private keys you need to run backup. In all versions, the only owner of the private keys is you.</p>
+
+<p>After the recent update to Jaxx 1.2 you get <a href="https://shapeshift.io/">Shapeshift</a> onboard as well.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/jaxx12.jpg" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/jaxx12.jpg" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><strong>Supported coins:</strong> BTC, ETH, ETC, DASH, LTC, REP, RSK, ZEC</p>
+
+<p>In the future, Jaxx aims to be <a href="https://bitcoinmagazine.com/articles/jaxx-aims-to-be-blockchain-agnostic-with-more-new-coin-integrations-1473282178/">blockchain-agnostic</a> though.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/jaxx1.png" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/jaxx1.png" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>This is the first launch screen of Jaxx. The very next step will take you directly to your wallets.</em></p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/jaxx2.png" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/jaxx2.png" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>If you want to withdraw into your wallet you can simply copy the address it wil give you:</em></p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/jaxx_eth.jpg" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/jaxx_eth.jpg" alt="Best Altcoin Wallets (2019)" title="AltcoinTrading.NET - Best Altcoin Wallets (2019)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Don’t forget to backup the seed of your Jaxx wallet (under settings on the right hand side) should your computer crash.</p>
+
+<p>If you are looking for an Ethereum wallet Jaxx is probably your best option in 2017 in terms of convenience vs security. Hardware wallets are still far more safe than whatever lives on your unsafe laptop that you use for both altcoin trading and downloading stuff illegally from dodgy websites.</p>
+
+<p>Here is one more option though - Exodus. That’s a desktop wallet that had Shapeshift integration before Jaxx, and currently has a very clear and upfront roadmap as you can see below.</p>
+
+<h4 id="exodus-exodusio">Exodus (Exodus.io)</h4>
+
+<p>However, if you also want to exchange one altcoin for another without sending your coins to Poloniex you could like <a class="external" rel="nofollow" target="_blank" href="https://www.exodus.io/">Exodus</a> better than Jaxx.</p>
+
+<p>Exodus is a desktop multiwallet that integrates Shapeshift in it so you can do basic spot trading right from the desktop client.</p>
+
+<p>For the time being Exodus only supports BTC, LTC, DASH, ETH and DOGE though. <a href="http://woobull.com/exodus-wallet-roadmap-a-list-of-upcoming-asset-support/">Head over here for the full roadmap, regularly updated</a></p>
+
+<p><a target="_blank" rel="nofollow,noopener" href="http://woobull.com/exodus-wallet-roadmap-a-list-of-upcoming-asset-support/" class="button">woobull.com</a></p>
+
+<h3 id="web-based-multi-altcoin-wallets">Web Based Multi-Altcoin Wallets</h3>
+
+<p>For altcoin trading you will be best off with a multi-currency wallet. If you want quick solution for <a class="external" rel="nofollow" target="_blank" href="https://www.cryptonator.com/about">Cryptonator</a>. It can hold litecoins, dash, bitcoin and other coins. You will also be able to generate addresses as you go.</p>
+
+<p><strong>Know the risks though:</strong> On Cryptonator the private keys are stored by a third party. You should not use Cryptonator as a safe long-term storage.</p>
+
+<p>Given the risks of third-parties your coins are already better off at <a class="external" rel="nofollow" target="_blank" href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex lending</a> where you at least get paid interest for storing your coins unsafely. Bitfinex allows USD, BTC, ETH, ETC, ZEC, LTC, XMR and DASH as a collateral for margin trading which means you can lend all those mentioned coins.</p>
+:ET

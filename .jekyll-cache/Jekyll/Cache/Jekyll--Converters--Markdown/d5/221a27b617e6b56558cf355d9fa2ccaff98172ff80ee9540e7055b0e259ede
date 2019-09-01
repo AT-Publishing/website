@@ -1,0 +1,73 @@
+I"L$<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-cli-1.jpg" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-cli-1.jpg" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Image: Monero CLI wallet is the only reasonable and well tested option to store larger amount of XMR. A graphical wallet (GUI) is out too and working though. It’s probably safe but it is beta and it’s always safer to wait some time with new releases to get them tested.</em></p>
+
+<hr />
+
+<div class="clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder=""></amp-img></amp-iframe></div>
+<div class="clearfix"></div>
+
+<p>If you hold a sizable amount of Monero and <a href="https://mymonero.com">mymonero.com</a> is not an option for security reasons (which it shouldn’t if you have a large stash) you’ll have to get the Monero’s core client.</p>
+
+<p>That means downloading the full blockchain and creating a seed for your XMR wallet.</p>
+
+<p>The setup is not difficult, especially now that there is a GUI option for those who are not comfortable with command line clients. However, you should consider the size of the Monero blockchain: it is around 10 GB now so you’ll use a lot of data. And even though it’s not really a big issue for most people these days, the blockchain also grows so make sure you have enough space on your hard drive. <a href="https://forum.getmonero.org/20/general-discussion/315/blockchain-size-forecast">This thread</a> on Monero forums says 57 GB blockchain by 2020 is a reasonable estimate so with some commonly retailed 1 TB external HDD you should be well beyond OK even for a very long term storage.</p>
+
+<p>If you want to store a lot of XMR you should go for the CLI wallet. A <a href="http://monero.stackexchange.com/questions/3237/is-the-gui-safe-for-storing-thousands-of-monero">Stack Overflow thread here</a> explains this code of good practice: The GUI wallet works with the same deamon as the CLI wallet, it is just a wrapper. The GUI shouldn’t be less secure than the CLI - but you just don’t know. The CLI client has been used since Monero’s inception, it is thoroughly tested by real users. The GUI wallet is new. Leave it some time.</p>
+
+<h4 id="monero-cli-wallet">Monero CLI Wallet</h4>
+
+<p>You can download Monero Core for your OS <a href="https://getmonero.org/downloads/">here</a>.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-cli-1.jpg" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-cli-1.jpg" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>If you’re a real human the only two scripts you’ll use are <code class="highlighter-rouge">monerod</code> and <code class="highlighter-rouge">monero-wallet-cli</code>. In a console app (like iTerm on Mac) simply navigate into the extracted file you downloaded from the link above and run <code class="highlighter-rouge">./monerod</code>.</p>
+
+<p>MoneroD means Monero deamon, it will start downloading the blockchain. This will take a few hours. You should see random gibberish of this kind until the blockchain is fully synced:</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-cli-2.png" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-cli-2.png" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>When it’s done it’ll tell you SYNCHRONIZED OK. At this point you can generate the monero CLI wallet, run <code class="highlighter-rouge">./monero-wallet-cli</code>.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-cli-3.jpg" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-cli-3.jpg" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>The client will ask for a name of the wallet and a password. It will generate your address and seed for you so copy the address and write the seed on paper. You should have the monero deamon running.</p>
+
+<p>Now, right now and until you <code class="highlighter-rouge">exit</code> this process you are in the CLI wallet interface. You only need to know the following:</p>
+
+<ul>
+  <li>To check your balance, type <code class="highlighter-rouge">refresh</code>.</li>
+  <li>To send Monero, type <code class="highlighter-rouge">transfer [address] [amount]</code>.</li>
+  <li>To leave the CLI wallet, type <code class="highlighter-rouge">save</code>, wait for response and then type <code class="highlighter-rouge">exit</code>.</li>
+</ul>
+
+<div class="clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder=""></amp-img></amp-iframe></div>
+<div class="clearfix"></div>
+
+<h4 id="monero-gui-wallet">Monero GUI Wallet</h4>
+
+<p>You can download the beta release of Monero GUI wallet <a href="https://getmonero.org/2016/12/22/monero-core-gui-beta-released.html">here</a>.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-gui-1.png" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-gui-1.png" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-gui-2.png" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-gui-2.png" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Image: Allowing an app from outside of the App Store in system preferences is as much challenge as you’ll be facing with the XMR GUI wallet</em></p>
+
+<p>The GUI is much easier to work with, especially if you have worked with BTC wallets like Electrum before. You simply download your distribution from the link above, extract the file and if you’re on Mac, move the app into Applications. Once you launch the GUI it guides you through the wallet creation and starts synchronizing the blockchain automatically.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-gui-3.png" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-gui-3.png" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>If you’re just creating a new wallet go with the default localhost:18081 and write down your seed and password on paper. Your wallet files will be in home/Monero/wallets.</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/xmr/monero-gui-4.png" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/xmr/monero-gui-4.png" alt="How to setup Monero core wallet (for dummies)" title="AltcoinTrading.NET - How to setup Monero core wallet (for dummies)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>With a wallet at the ready you get into this view which is the actual GUI client. The wallet will start downloading the blockchain by itself. All you do from here is wait, and wait, and wait.</p>
+
+<h4 id="further-reading">Further reading</h4>
+
+<ul>
+  <li><a href="http://weuse.cash/monero/">Learn more about Monero cryptocurrency</a> - how it works</li>
+  <li><a href="https://www.monero.how/">Monero tutorials</a> - how to create paper wallet for Monero cold storage and other useful things.</li>
+</ul>
+:ET

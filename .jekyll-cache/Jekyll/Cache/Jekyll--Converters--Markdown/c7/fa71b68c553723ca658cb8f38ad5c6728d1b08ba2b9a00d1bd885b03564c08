@@ -1,0 +1,70 @@
+I"3<p><a target="_blank" href="http://localhost:4000/img/emotions/u-wot2.jpg" title="AltcoinTrading.NET - Cryptosignal - ETH Hashrate vs Price Correlation"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/emotions/u-wot2.jpg" alt="Cryptosignal - ETH Hashrate vs Price Correlation" title="AltcoinTrading.NET - Cryptosignal - ETH Hashrate vs Price Correlation" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Image: Yeah it’s a wonder</em></p>
+
+<hr />
+
+<div class="clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" data-aa="147076" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://ad.a-ads.com/147076?size=728x90"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder=""></amp-img></amp-iframe></div>
+<div class="clearfix"></div>
+
+<h4 id="cryptosignal">Cryptosign.al</h4>
+
+<p><a href="https://cryptosign.al">https://cryptosign.al</a> is a free tool that lets you correlate the dollar price of ETH with hash rate, difficulty or daily number of transactions.</p>
+
+<p>The tool was published via r/bitcoinmarkets only a few hours ago. <a href="https://www.reddit.com/r/BitcoinMarkets/comments/60php5/introducing_cryptosignal_directly_analyze_bitcoin/">Here’s what</a> the author himself has to say:</p>
+
+<blockquote>
+  <p>Hey BitcoinMarkets,
+Cryptosign.al is a tool for finding patterns in the prices / data of the top cryptocurrencies (right now just BTC and ETH). It gives you the ability to directly overlay charts, use common technical indicators, and visualize statistics including linear and polynomial regression, and correlation. Right now, the data is updated daily but I’m looking to make the periods smaller in the near future.
+I’m a data scientist by trade and have been working on this site casually for the last 6 months, it’s been a ton of fun and I hope you guys find it useful. Some upcoming features I was thinking of: hourly (or finer) periods and live updates, more data sources (signals) to analyze, more advanced modeling features.
+I would really enjoy hearing some feedback and any ideas you guys have (eg, the next feature you want to see the most).
+Also worth mentioning that I’ve been a long time member on these and other crypto subreddits but I’m separating my work/play accounts. Thanks for all your contributions and I hope this website reciprocates that at least a little bit.
+Edit: Some people may be receiving a startup page for Nginx. I’ll look into it, but PM if it’s still an issue in a day or two, thanks :)</p>
+</blockquote>
+
+<h4 id="is-eth-overpriced-now-at-40-usd">Is ETH overpriced now at 40 USD?</h4>
+
+<p>So far Cryptosignal is only available for BTCUSD and ETHUSD but if it gets popular it might change in the future. Specifically, people already suggested to add Google Trends volume (to track adoption and general interest) and of course more altcoins.</p>
+
+<p>It is amazing to see it clearly how considering the hashrate ETH was undervalued for some time. The price matched the hashrate in the recent ETH surge:</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/eth/cryptosignal.jpg" title="AltcoinTrading.NET - Cryptosignal - ETH Hashrate vs Price Correlation"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/eth/cryptosignal.jpg" alt="Cryptosignal - ETH Hashrate vs Price Correlation" title="AltcoinTrading.NET - Cryptosignal - ETH Hashrate vs Price Correlation" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>On the contrary, BTC looks undervalued at the moment.</p>
+
+<p>Nonetheless, the correlation between hash rate and price has been a controversial topic. The majority opinion seems to be that hash rate follows price, not the other way round.</p>
+
+<p>Consider <a href="https://www.reddit.com/r/Bitcoin/comments/577awf/hashrate_vs_price/">this thread from October 2016</a>. OP suggests that (on the bitcoin market) the hash rate could act as a ceiling for potential price growth:</p>
+
+<blockquote>
+  <p>BTC supply can be divided between existing bitcoins [where the supply (just for simplification) is very unelastic, because of hodling etc.] and freshly minted bitcoins [where the supply is very elastic, because miners are selling everything they mine for current price (again for simplification)].</p>
+</blockquote>
+
+<blockquote>
+  <p>So with those assumptions, where the price is defined by near zero profit of miners, the price should be rising max at the pace of hashrate surge. But the trick is the max. It would happen only in a world without technological innovation. If miners get more effective tools, then the price will surge less than hashrate.</p>
+</blockquote>
+
+<blockquote>
+  <p>So if those thoughts are correct, I think much more hashrate has to be added to allow btc price to grow. For example from halving we see only 25% rise of hashrate, but much of it if not all is swallowed by the technological advance.</p>
+</blockquote>
+
+<blockquote>
+  <p>So does bitcoin need surge in demand that will cause temporary high price that will be very attractive for miners and that will then cause the high hashrate and new equilibrium will come?</p>
+</blockquote>
+
+<blockquote>
+  <p>In short: should the hashrate follow the price or vice versa? Maybe there was some article about that, I would be happy to read it.</p>
+</blockquote>
+
+<p>To a comment that says hash rate and price are not correlated like this, OP responds with an explanation that the correlation for BTCUSD was bad when BTC was in it’s infancy but as the market matures the correlation improves.</p>
+
+<blockquote>
+  <p>They were not related in the past, because it was a wild west. The approx 2 years 1/2013-1/2015 were anomal in many ways (price overshooted). But during the last year the correlation is near perfect for example. Now the situation must consolidate for next few halvings. After them, who knows how the price will be determined. Maybe another factor steps in by then - the fees.</p>
+</blockquote>
+
+<p><a href="http://bitcoin.stackexchange.com/questions/3171/relation-between-network-hash-rate-bitcoin-value">This Stack Overflow thread</a> back from 2012 claims the hash rate to be rather a lagging indicator but on the individual level, if hash rate grows it means that more people decided to mine the coin. If they decided so for profit it indicates they expect the coin they mine will increase in value over time.</p>
+
+<p>That would go well together with the idea that in some cases if price lags behind growing hash rate it could mean bullish sentiment.</p>
+
+<p><a href="https://cryptosign.al">Go to Cryptosignal</a></p>
+:ET

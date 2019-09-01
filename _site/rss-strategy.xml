@@ -8,19 +8,19 @@
     </description>
 
     <image>
-      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <url>http://localhost:4000/img/logo.jpg</url>
       <title>AltcoinTrading.NET</title>
-      <link>https://www.altcointrading.net/strategy/</link>
+      <link>http://localhost:4000/strategy/</link>
     </image>
 
     <language>en</language>
 
 
-    <link>https://www.altcointrading.net/strategy/</link>
-    <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/strategy/</link>
+    <atom:link href="http://localhost:4000/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Thu, 22 Aug 2019 12:27:44 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Aug 2019 12:27:44 +0000</lastBuildDate>
+    <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Sep 2019 18:49:16 +0000</lastBuildDate>
 
     
       <item>
@@ -33,10 +33,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/report2.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/report2.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/wyckoff-ranging-markets</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets</guid>
+        <link>http://localhost:4000/strategy/wyckoff-ranging-markets</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/wyckoff-ranging-markets</guid>
 
         
         <category>update</category>
@@ -67,10 +67,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/multiple-timeframe-juggle.png" medium="image" />
+        <media:content url="http://localhost:4000/editorial/multiple-timeframe-juggle.png" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/multiple-time-frame</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/multiple-time-frame</guid>
+        <link>http://localhost:4000/strategy/multiple-time-frame</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/multiple-time-frame</guid>
 
         
         
@@ -89,10 +89,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/peanuts.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/peanuts.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/cryptocurrency-lending</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/cryptocurrency-lending</guid>
+        <link>http://localhost:4000/strategy/cryptocurrency-lending</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/cryptocurrency-lending</guid>
 
         
         <category>bitfinex</category>
@@ -123,10 +123,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/breadbutter2.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/breadbutter2.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/fibs</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fibs</guid>
+        <link>http://localhost:4000/strategy/fibs</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/fibs</guid>
 
         
         <category>fibs</category>
@@ -159,10 +159,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/cityscape.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/cityscape.jpeg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/how-to-vet-icos</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/how-to-vet-icos</guid>
+        <link>http://localhost:4000/strategy/how-to-vet-icos</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/how-to-vet-icos</guid>
 
         
         <category>tokendata</category>
@@ -191,10 +191,10 @@
         <author>tradingfanbois@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/altcointrading-strategy.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/altcointrading-strategy.jpeg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/scalping</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/scalping</guid>
+        <link>http://localhost:4000/strategy/scalping</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/scalping</guid>
 
         
         <category>tensorcharts</category>
@@ -221,10 +221,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/atnet-reversal.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/atnet-reversal.jpeg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/timing</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/timing</guid>
+        <link>http://localhost:4000/strategy/timing</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/timing</guid>
 
         
         <category>market-timing</category>
@@ -253,10 +253,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/strat/fulcrum/toolbox.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/strat/fulcrum/toolbox.jpeg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/fulcrum-bottom</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fulcrum-bottom</guid>
+        <link>http://localhost:4000/strategy/fulcrum-bottom</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/fulcrum-bottom</guid>
 
         
         <category>fulcrum-bottom</category>
@@ -287,10 +287,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/thinice.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/thinice.jpeg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/reversals</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/reversals</guid>
+        <link>http://localhost:4000/strategy/reversals</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/reversals</guid>
 
         
         <category>fulcrum-bottom</category>
@@ -321,10 +321,10 @@
         <author>AltcoinTrading.NET@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/features/crypto-investment-strategy.jpg" medium="image" />
+        <media:content url="http://localhost:4000/features/crypto-investment-strategy.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/crypto-investment</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/crypto-investment</guid>
+        <link>http://localhost:4000/strategy/crypto-investment</link>
+        <guid isPermaLink="true">http://localhost:4000/strategy/crypto-investment</guid>
 
         
         <category>hodl-strategy</category>

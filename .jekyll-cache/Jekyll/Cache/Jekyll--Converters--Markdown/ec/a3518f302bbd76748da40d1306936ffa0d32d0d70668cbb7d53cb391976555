@@ -1,0 +1,237 @@
+I"�a<p>Decentralized crypto exchanges look to be booming in 2018 - only by a very superficial search on Twitter there is <a href="https://twitter.com/search?f=users&amp;q=decentralized%20exchange">more than 10 decentralized trading places found</a>. For now they are mostly built on the Ethereum blockchain but NEO-based platforms and previews of EOS-based ones are starting to pop up too.</p>
+
+<p>In this article we will be analyzing several newer platforms that are coming in 2018. While the concept of DEX has been around for some time, the trading experience <a href="https://blog.altcoin.io/decentralized-exchanges-explained-and-why-we-need-them-more-than-ever-4ef9fbb9192d">has its perks</a>. Following up on a <a href="https://youtu.be/-jenA5UumfE">webinar from 16th March 2018 on by LeverJ</a> we are going to talk about the novel ways of crypto trading without being overly technical.</p>
+
+<h2 id="non-custodial-trading--new-solutions">Non-Custodial Trading &amp; New Solutions</h2>
+
+<p><strong>What is a non-custodial exchange?</strong></p>
+
+<p>Non-custodial exchange is a trading platform that does not own the private keys of your cryptocurrency assets. The most popular crypto trading platforms are custodial - Coinbase, Bitfinex, BitMEX, OKEx and others are all custodians of the users’ assets. In order to make a trade on a custodial platform the user needs to deposit assets into a wallet owned and controlled by the platform.</p>
+
+<p>There are pros and cons to this approach.</p>
+
+<p>Custodial exchanges are easily manageable. The event of opening a trade is an information in a database, as far as the user doesn’t initiate a withdrawal from the exchange, the actions taken do not depend on the asset’s blockchain throughput or congestions. The trades themselves are not recorded on a blockchain either, just in the exchange’s databases. As long as the backend of the <a href="/kraken-upgrade/">trading platform actually works</a> and the systems are <a href="https://craft.co/binance/metrics#operations">upgraded to reflect the traffic changes on the platform</a>, trading on custodial exchanges can be very comfortable.</p>
+
+<hr />
+
+<p><a target="_blank" href="http://localhost:4000/features/2018/binance-traffic.png" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/binance-traffic.png" alt="DEX Series, Episode 1: Order Execution Management" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Web traffic growth on the Binance exchange in 2017. <a href="https://craft.co/binance/metrics#operations">Source</a></em></p>
+
+<hr />
+
+<p>The disadvantage is the black swan event which in the cryptocurrency space is apparently not something as rare as it should be. With money on the exchange, trader stands to lose his roll when the exchange gets hacked, becomes fraudulent or gets trapped in regulatory affairs. Custodial exchanges want traders to keep money with them though, interest-generating cryptocurrencies or P2P lending are examples of features that incentivize it. Exchange then might engage in arbitrage trading or other operations with customer funds to earn profit, although <a href="https://qz.com/1059179/huobi-and-okcoin-chinas-two-biggest-bitcoin-btc-exchanges-were-themselves-to-150-million-in-idle-client-funds/">exchanges keep refuting this argument</a> and so it remains hypothetical.</p>
+
+<h3 id="why-are-non-custodial-exchanges-important">Why are non-custodial exchanges important?</h3>
+
+<p>Non-custodial trading is more difficult to manage, scale and (hypothetically) to make asymmetric profit on, it is less vulnerable to both security risks and top-down regulations. As long as the trader retains the ownership of his funds, the only obvious things to regulate there are formalities - for instance a DEX might need to be officially called a trading <em>platform</em> rather than an <em>exchange</em> as the latter might suggest a legacy level of regulatory standard.</p>
+
+<p>While top-down regulation might sound great to someone who is being salty over lost money in an exchange hack, ultimately the result of it is expensive AML/KYC which fails exactly the same type of person who likes to call for top-down protections. The costs of verification procedures and compliance for custodial exchanges are already overwhelming, the result is the smaller retail traders are becoming a burden; they don’t pay off.</p>
+
+<p>For now the disadvantages of non-custodial trading remain generally centered around usability: Is it better to have on-chain trading and depend on mempool levels? Or is it better to have off-chain book and depend on smart-contracts and matching engine optimization and scalability? How to implement fiat pairs, what <a href="/dai-stablecoin/">stablecoin</a> is the best one for the job?</p>
+
+<p>Those are rather superficial issues that will hopefully get cleared up with growing pressure of market competition and more attention from the trading community. As long as the trading works reasonably, a DEX is a clear winner for the trader: The trading account is only determined by an address and a private key where trader sends cryptoassets, there is no identity verification, no geographical limitations, no legal requirements.</p>
+
+<h2 id="dex-trading-schema">DEX trading schema</h2>
+
+<p>Very generally, the process of executing a trade on a DEX consists of four steps:</p>
+
+<ol>
+  <li>Money sent to an address fully controlled by the trader where trade can be initiated from.</li>
+  <li>Order submission: On-chain or into a contract for off-chain management.</li>
+  <li>Order is live, waiting to be picked up: P2P, Relayers or centralized matching engine.</li>
+  <li>Trade is settled, fees and funds are released and transfered to their owners.</li>
+</ol>
+
+<figure class="border">
+<amp-img itemprop="image" src="/features/2018/dex-schema.png" alt="DEX trading schema" title="AltcoinTrading.NET - DEX trading schema" layout="responsive" width="690px" height="715px">
+</amp-img>
+</figure>
+
+<h3 id="on-chain-vs-off-chain-dex-trading">On-chain vs Off-chain DEX Trading</h3>
+
+<p>The two main ways of managing decentralized trading is either fully on-chain or with an off-chain order book where the trade orders are managed via smart contracts.</p>
+
+<h4 id="on-chain-atomic-swaps--state-channels">On-Chain: Atomic Swaps &amp; State Channels</h4>
+
+<p>Currently the most hyped solution to decentralized trading on the blockchain is the way of atomic swaps. From a technical standpoint, all trader’s cryptoassets are stored on the blockchain. Only the trader has the private key, only the trader owns the assets. As soon as this solution is working reliably this will be a great way to spot trade with no counterparty risks.</p>
+
+<p>Atomic swaps have been around for a little while and as an experiment only. From <a href="https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818">the altcoin.io blog</a>:</p>
+<ul>
+  <li>On 19th September 2017, Decred completed the first on-chain atomic swap between Decred and Litecoin.</li>
+  <li>On October 7th 2017, Altcoin.io completed the first Ethereum to Bitcoin atomic swap.</li>
+  <li>On 16th November 2017, Lightning Labs confirmed the world’s first off-chain atomic swap over the lightning network. Important milestone, swaps over Lightning network will be faster and cheaper.</li>
+</ul>
+
+<p>On the future atomic swap exchange Altcoin.io the use hashed-time-locked-contracts (HTLCs) is going to be implemented for the execution of the swap trading - that way neither party can take the offered funds without first offering their own. Essentially, user’s funds are in his own wallet at all times but there is a smart contract to submit trade orders to the blockchain.</p>
+
+<p>Altcoin.io proposes an atomic swap matching engine with orders on the blockchain.</p>
+
+<blockquote>
+  <p>In the future, using our Atomic Swap order matching engine, you will be able to trade in two ways. Either by setting your own token price, or by using a fair market value as calculated using other markets’ relative price. This lets you list niche coins that can’t be traded on other exchanges.</p>
+</blockquote>
+
+<p>One day this could be a great way to spot-trade between BTC and ETH or ETH-based tokens. However, at the current state of both the blockchains this would not be feasible. A critical feature for the success of atomic swap trading are <em>payment channels</em> and <em>state channels</em>, ways for different blockchains to interact one with another that are being built upon the Bitcoin’s Lightning network.</p>
+
+<p>That means, state channels and payment channels both depend on the Lightning network development for Bitcoin blockchain and on the Raiden network for Ethereum, which is the material point here: The problem is <em>when</em> will the atomic swap trading be production-ready. <a href="/altcoinio/">Altcoin.io</a> initially set their release date to Q1 2018 which was clearly overly optimistic. In fact, <a href="http://archive.is/nR5u3">Elizabeth Stark liked a recent critics of how hyped the swaps became</a>. The liked tweet said that everyone who says atomic swaps will be ready in the matter of months does not know what they are talking about.</p>
+
+<p>In short, trading via atomic swaps is an interesting solution that will have its place but it depends on too many independent developments - mainly the <a href="https://swapready.net/">atomic swap readiness of other cryptocurrencies</a> and the production reliability of the off-chain scaling solutions.</p>
+
+<p>For now, it is time to look elsewhere.</p>
+
+<h4 id="hybrid-approaches-off-chain-matching">Hybrid Approaches: Off-Chain Matching</h4>
+
+<p>The off-chain order book that handles orders submitted directly from a wallet owned by the trader is a popular approach known from EtherDelta. With these classic older decentralized exchanges there is no solution implemented as matching engine; automatic smart contracts have been proposed for that but the solution turned out to be impractical - <a href="https://www.0xproject.com/pdfs/0x_white_paper.pdf">severely dependent on an artificial constraint</a> called <em>price-adjustment model</em> which can easily create large fluctuations in the market.</p>
+
+<p>Another hybrid solution is the 0x protocol. It uses off-chain matching but done in a decentralized way by Relayers, independent actors who gain money from matching successful trades. This approach addresses some of the issues of decentralized trading but still keeps a lot of the inconveniences, more on this in a bit.</p>
+
+<p>The only ways to date that proposed concrete and reasonable solutions aiming to make non-custodial trading powerful, fast and packed with advanced features have been introducing some degree of centralization with the emphasis on keeping the control of the assets to the trader and optimizing the functionalities critical for trading in a centralized manner. One such solution is implemented as <a href="https://idex.market">IDEX</a>, a spot ERC20 exchange created on behalf of Aurora Labs. Another is the derivative exchange <a href="/leverj/">LeverJ</a> which uses the off-chain matching type of model with some interesting technical innovations.</p>
+
+<p>There is a lot of great work being done but keep in mind it’s not the end of history:</p>
+
+<ul>
+  <li>The fundamental limitation of it is the need to trust a smart contract and the token limitations - an Ethereum DEX can only trade Ethereum tokens.</li>
+  <li>The on-the-fly limitations lie in the connection of the trade submissions, matching and order book updates - there can always be communication lags that create opportunities for exploits and mistakes.</li>
+</ul>
+
+<p><strong>Why is EtherDelta trading so slow</strong></p>
+
+<p>The slow trade execution on EtherDelta is caused by its <a href="https://www.reddit.com/r/EtherDelta/comments/6t4w55/does_etherdelta_has_a_matching_algorithm_or_the/">lack of automated matching routine</a>. Trades from the order book don’t get matched by an engine, each order needs to be picked up be someone in order to complete, as explained <a href="https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/">here in a guide on how to trade on EtherDelta</a>.</p>
+
+<p>While that keeps EtherDelta a more decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.</p>
+
+<p><strong>The 0x solution of the liquidity problem</strong></p>
+
+<p>0x is a protocol on top of which decentralized ETH exchanges can be built. The 0x protocol offers a solution for the order book management by introducing Relayers, off-chain actors whose job is to match orders from the two sides of the order book and who receive the trading fee. The concept of Relayers is explained in the <a href="https://www.0xproject.com/pdfs/0x_white_paper.pdf">0x whitepaper, page 7</a></p>
+
+<p>Order book in 0x itself is off-chain too, only the transaction is settled on-chain which makes the trading less costly, liquidity is also more promising as anyone can become a Relayer. The 0x setup does not require to trust the Relayers as they are only transmitting signals about possible trade partners, the traders need to complete the trade themselves.</p>
+
+<p>Relayers earn the trading fees for their work but are exposed to the risk of one side pulling their order in the last moment. At the protocol level 0x does not have any mechanism against the abuse by submitting a mass of bogus orders to pull them later though which could potentially diminish the incentives of working as a Relayer.</p>
+
+<p>The way cancelled transactions are dealt with in 0x is less costly than on EtherDelta - 0x batches the cancel procedure which lowers the cost somewhat. However, the cancel order still needs to be recorded on the blockchain otherwise the old trade is at risk of being executed at some point in the future.</p>
+
+<p><strong>The way of centralized matching - IDEX and LeverJ</strong></p>
+
+<p>The only feasible solution that would enable smooth trading experience on par with custodial exchange houses is the idea of <strong>buffering the trading activity</strong> so that only the <strong>finalized executed trades</strong> get recorded on the blockchain.</p>
+
+<p><a href="https://idex.market">IDEX</a> addresses the issues of EtherDelta and 0x by centralizing the non-critical components of the trading process. To optimize this experience, IDEX maintains ownership of broadcasting user authorized transactions to the Ethereum network:</p>
+
+<ul>
+  <li>users unlock their account by uploading a JSON keystore file to sign orders with their private keys</li>
+  <li>orders are processed and either cancelled or matched by a smart contract</li>
+  <li>filled trades are added to a queue to be broadcast into the Ethereum network</li>
+  <li>users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then</li>
+</ul>
+
+<p>Unfilled cancelled orders on IDEX are purged and invalidated as needed, they are not recorded on the blockchain and therefore do not cost anything.</p>
+
+<p>Grossly discounting the technology needed to make non-custodial leveraged trading possible, <a href="https://leverj.io">LeverJ</a> offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.</p>
+
+<ul>
+  <li>users link their wallets via a zero-knowledge API (more on that further down)</li>
+  <li>orders are processed and either cancelled or matched by a centralized engine</li>
+  <li>filled trades that passed the period of checks for abuse are added to a queue to be broadcast into the Ethereum network</li>
+  <li>users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then</li>
+</ul>
+
+<p>LeverJ has one added security element - orders are matched off-chain and periodically synced to the blockchain but before they are there is a routine to check for abuse. If there is a sign of abuse the trade is not sent to the blockchain and the release of funds for withdrawal is blocked for investigation.</p>
+
+<p>Similarly as on IDEX, on LeverJ unfilled cancelled orders are not stored to be synced to the blockchain and therefore do not cost anything.</p>
+
+<p>This is how the general DEX trade execution path changes after the introduction of some degree of centralized management:</p>
+
+<figure class="border">
+<amp-img itemprop="image" src="/features/2018/dex-buffering.png" alt="DEX trading schema" title="AltcoinTrading.NET - DEX trading schema" layout="responsive" width="749px" height="749px">
+</amp-img>
+</figure>
+
+<p>These half-centralized solutions seem to offer a good compromise: Because the user needs to authorize the trading activities with his private key, the platform still does not get the custody of the user’s assets. But thanks to the centralized back-office the matching engine can be optimized for speed. Trading also does not depend on blockchain congestion or attacks because the blockchain sync can be postponed as needed without it affecting the trading.</p>
+
+<h3 id="user-experience">User Experience</h3>
+
+<p>A common thing on decentralized trading platform is to trade with crypto tokens directly from the user’s wallet. It is most often MetaMask but there is typically the option to have MyEtherWaller or Ledger wallet too. For instance here is a <a href="https://medium.com/ddex/ledger-support-setting-up-your-ledger-nano-s-on-ddex-427e7b3c9e4e">guide from DDEX</a> that shows how a plugged-in Ledger wallet gets automatically detected through the browser app by the DEX interface. You can trade right from your hardware wallet, or from MetaMask.</p>
+
+<p>With MetaMask this is easy enough for ShapeShift-style exchange, I’m sure it is a bit of a burden to reach through the pizza boxes for your Ledger device to sign a transaction each time though. For more developed trading markets where there is demand for scalping or arbitrage, either solution is an obvious limitation.</p>
+
+<p>The only decentralized outfit to this day that aims for this kind of product is LeverJ and they are developing a solution based on zero-knowledge API keys. This is currently not a vaporware, a working demo exists.</p>
+
+<h4 id="zero-knowledge-api-keys">Zero-knowledge API keys</h4>
+
+<p>Simplified explanation of the workflow:</p>
+
+<ol>
+  <li>MetaMask user signs up at LeverJ. This generates a dialog where the user signs a message with his trading ETH address. This step is key to the way zero-knowledge API keys work - they are API keys containing a trail back to the particular ETH wallet.</li>
+  <li>The signature is verified by LeverJ server. The original wallet address is extracted from the signature and a user account with the respective address is created.</li>
+  <li>API key and secret is generated for the user in his browser, user approves it and sends the key into an ETH contract on the blockchain. The contract serves as a registry of user API keys while the API secret is never sent anywhere, it remains stored in the user’s browser local storage. The purpose of the API key is to authorize trades on behalf of the user, which is why it needs to be signed by the user’s ETH address. The API does not have permission to access the user’s funds, only to execute trades inside the platform.</li>
+  <li>User can trade directly from his ETH wallet, actions are signed by the API secret in his browser storage. This way of signing trades via an API also makes automated bot trading possible.</li>
+</ol>
+
+<p>The risk here is mainly human error and bad OPSEC on behalf of the user. The order submission and matching is centralized on LeverJ with a centralized way to check for fraud or abuse. This centralized abuse check should soften the impact of security problems.</p>
+
+<p>Full webinar about the concept is embedded as a YouTube video at the bottom of the page but if you care to skip ahead to only see the meat of the webinar, here are the most important timestamps:</p>
+
+<ul>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=2m11s">intro to the problem</a></li>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=8m30s">walkthrough with the UX mockups</a></li>
+  <li><a href="https://youtu.be/-jenA5UumfE?t=31m30s">demo with a dev UX</a></li>
+</ul>
+
+<h3 id="security-aspects-and-impact-of-a-breach">Security Aspects and Impact of a Breach</h3>
+
+<p>Both the fully on-chain and partially off-chain trading accounts on decentralized exchanges are vulnerable to phishing attacks and impostors, as was seen for instance in the EtherDelta hack: Malicious actor hijacked the exchange’s DNS and <a href="https://blog.drhack.net/etherdelta-hacked-millions-stolen/">created impostor website with a fake contract address</a> where traders deposited their funds to never see them again.</p>
+
+<p>This kind of attack (user by user, “skimming”) is always possible, even with trading based on atomic swaps as traders always need to initiate the trade by moving the asset they want to trade, even if it is to a wallet they control themselves.</p>
+
+<p>A hack of a DEX should have a much softer impact on the ecosystem though because a heist of a hot wallet or cold storage with a big chunk of the total user funds on the exchange is not possible. A heist of effectively a large amount of money is possible but hard to pull off.</p>
+
+<p>A good DEX whitepaper should include a section that goes into detail of possible attack scenarios, as seen in the <a href="https://leverj.io/whitepaper.pdf">LeverJ whitepaper</a> starting at page 5, “Attack Vectors”. The paper explains a heist on the LeverJ protocol has two tedious parts susceptible to detection - the stolen assets first get gathered by skimming a large number of users and then they need to be released from the smart contract. For additional security the LeverJ exchange will delay every contract release so that there is enough time for the fraud detection.</p>
+
+<hr />
+
+<p><strong>If you find this post useful, share it!</strong></p>
+
+<div class="container-center">
+<span class="doge-share"></span>
+<span class="share-cta">PLZ SHARE THIS POST</span>
+<ul class="social share">
+  <li>
+    <amp-social-share type="facebook" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at http://localhost:4000"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="twitter" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="linkedin" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at http://localhost:4000"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="whatsapp" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at http://localhost:4000"></amp-social-share>
+  </li>
+  <li>
+    <amp-social-share type="gplus" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at http://localhost:4000"></amp-social-share>
+  </li>
+
+</ul>
+
+</div>
+
+<hr />
+
+<h2 id="further-reading">Further Reading</h2>
+
+<p>[beginner] <strong>Crypto Exchanges: Custodial vs. Non-Custodial vs. Decentralized</strong> / <a href="https://medium.com/@jacobrobertwoods/crypto-exchanges-custodial-vs-non-custodial-vs-decentralized-3d1d04cf205">Article</a></p>
+
+<p>[beginner] <strong>The Evolution of Atomic Swaps</strong> / <a href="https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818">Article</a></p>
+
+<p>[beginner] <strong>Altcoin.io Preview Whitepaper</strong> / <a href="https://www.preview.altcoin.io/lite-paper.pdf">Article</a></p>
+
+<p>[intermediate] <strong>IDEX: A Real-Time and High-Throughput Ethereum Smart Contract Exchange</strong> / <a href="https://idex.market/static/IDEX-Whitepaper-V0.7.5.pdf">Article</a></p>
+
+<p>[intermediate] <strong>An Overview of Stablecoins</strong> / <a href="https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/">Article</a></p>
+
+<p>[advanced] <strong>Zero-knowledge API Keys</strong> / <a href="https://blog.leverj.io/zero-knowledge-api-keys-43280cc93647">Article</a> / <a href="https://youtu.be/-jenA5UumfE">Webinar</a></p>
+
+<amp-youtube data-videoid="-jenA5UumfE" layout="responsive" width="700" height="360">
+</amp-youtube>
+
+<p><br /></p>
+:ET

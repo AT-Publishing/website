@@ -1,0 +1,89 @@
+I"�%<p><strong>Current situation with Monero wallet solutions:</strong></p>
+
+<ul>
+  <li>For hot wallets, there is a new <a href="/cakewallet">iOS app - Cakewallet for Monero</a> still unverified by community.</li>
+  <li>Freewallet for Monero is probably a scam.</li>
+  <li>Coinomi is <a href="https://twitter.com/kimionis/status/954112970338029570">nearly done with their Monero integration</a> (web, iOS, Android).</li>
+  <li><a href="https://www.altcointrading.net/ledger-monero">Ledger CTO said they will implement Monero, ETA is to be announced</a>.</li>
+</ul>
+
+<div class="text-center" id="gtm-binance-banner"> <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293"> <amp-img itemprop="image" alt="Binance-cryptocurrency exchange" src="/ads/binance-exchange-728x90.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img> </a></div>
+<p><br /></p>
+
+<p>Monero is undoubtedly one of the altcoins that cannot be called shitcoin: <a href="https://www.monero.how/how-does-monero-privacy-work">private and untraceable, trustless setup</a>, developers are responsive and not assholes who are just in for the quick buck, market cap has been growing insanely since 2016. Yet if you wanted to hold Monero for a long time the only hassle-free way was the dodgy setup of money on the exchange. Since the Bitfinex hack in August 2016 people kept casually guessing which crypto platform will get attacked next.</p>
+
+<p>Fortunately, blockchain developers started waking up to Monero storage solutions even though it is a more complex task than wallet solutions for Bitcoin-derived cryptocurrencies.</p>
+
+<h4 id="monero-mobile-wallets">Monero Mobile Wallets</h4>
+
+<p>In 2018 we got the first <a href="/cakewallet"><strong>iOS app for Monero</strong> - the Cakewallet</a> which is a third-party code that has not been tested and verified by Monero developers. It passed the Apple App Store approval and is often recommended in the community but the truth is even if the developer opensources the code, <a href="https://www.reddit.com/r/Monero/comments/7usbhx/psa_no_way_to_verify_github_code_is_app/">it cannot be verified that it is indeed the code of the App Store Cakewallet</a>. Cakewallet therefore cannot be recommended to store large amounts of XMR.</p>
+
+<p><strong>Android wallet for Monero</strong> has been available on the Play Store since mid 2017. The app is called <a href="https://monerujo.io/">Monerujo</a>, it is a light client where the user holds his own private keys. The <a href="https://play.google.com/store/apps/details?id=com.m2049r.xmrwallet&amp;hl=en">Play store Monerujo page</a> shows very positive feedback, code was published on <a href="https://github.com/m2049r/xmrwallet">Github</a>. The concerns are similar as with Cakewallet, it is not safe store large amounts of XMR on there.</p>
+
+<p><strong>Freewallet should be avoided</strong>, the app holds users’ private keys and there have been <a href="https://www.reddit.com/r/CryptoCurrency/comments/6gtrmd/freewalletorg_scam_millions_stolen/">multiple scam accusations</a>.</p>
+
+<p><strong>The recommended setup with mobile Monero wallets:</strong></p>
+
+<ul>
+  <li>Use a smartphone app to carry small amount of cash that you might need for transactions</li>
+  <li>Use the official full Monero client or a cold storage solution to store the bigger part of the stash</li>
+</ul>
+
+<p><a href="https://www.reddit.com/r/Monero/comments/7usbhx/psa_no_way_to_verify_github_code_is_app/dtnmxef/">Fluffypony said there are plans for official Android and iOS apps</a>, apparently those will be variants of the full GUI client that will connect to a remote node, so the users will not have to go through the trouble of syncing their own nodes.</p>
+
+<p>For now Fluffypony owns and maintains the web interface MyMonero.com where the only user problems were either results of forgotten keys or of phishing. <a href="https://www.reddit.com/r/Monero/wiki/avoid">No other TLD alternatives of MyMonero are legitimate other than dot com</a>.</p>
+
+<h4 id="lightweight-client-like-electrum-for-monero">Lightweight client like Electrum for Monero?</h4>
+
+<p>Electrum, the famous light crypto wallet, does not support Monero. Not even in its many forked incarnations for alternative cryptocurrencies - <a href="/altcoin-wallets/">see here</a>. Monero runs on an entirely different blockchain that does not have much in common with BTC, Electrum is a no-go.</p>
+
+<ul>
+  <li><a href="https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/">Will there ever be lightweight wallet for Monero?</a></li>
+</ul>
+
+<p>The only alternative for Monero is connecting to a node run by someone else, you only run an interface that connects to that node remotely. There was a software called <a href="https://github.com/jwinterm/LightWallet2/releases">LightWallet, no longer maintained since 2016</a>, but it is also exactly the way the official Monero GUIs work with remote nodes.</p>
+
+<blockquote>
+  <p>You can use lightWallet which uses a remote node. This is perfectly safe from the perspective that you keep your own private keys and therefore the remote node can not steal your coins, but compromises your privacy in various ways. So does Electrum and other Bitcoin thin clients for that matter (even more than Bitcoin itself).
+If you are okay with CLI, simplewallet can also be used with a remote node.
+There is no alternative to running your own full node that gives you maximum privacy and security, but there are alternatives. Again this applies to Bitcoin as well. <a href="https://www.reddit.com/r/Monero/comments/4ghl0z/will_there_ever_be_a_lightweight_wallet_like/d2hnur8/">via r/monero</a></p>
+</blockquote>
+
+<p><strong>Monero GUI with Remote Node</strong></p>
+
+<p>The official download section on <a href="https://getmonero.org/downloads/">getmonero.com</a> now has a multitude of clients for Windows, Mac, and flavors of Linux. It is the same GUI client that is used to run a full Monero node, the only difference is you need to <a href="https://moneroworld.com/#nodes">find a remote node</a> to connect to and then <a href="https://getmonero.org/resources/user-guides/remote_node_gui.html">use custom settings in the Monero wallet GUI</a>.</p>
+
+<p>The official GUI connected to a remote node is the best compromise between security and usability.</p>
+
+<h4 id="full-node">Full Node</h4>
+
+<p><strong><a href="https://getmonero.org/downloads/">getmonero.com</a></strong></p>
+
+<p>Of course if you have the hardware and data to run a Monero full node, create a wallet with the GUI or CLI tool on your machine and go through with the local blockchain synchronization. In terms of security, running own Monero node is the best option.</p>
+
+<h4 id="mymonero---monero-web-wallet">MyMonero - Monero Web Wallet</h4>
+
+<p><strong><a href="https://mymonero.com/#/">mymonero.com</a></strong></p>
+
+<p>MyMonero is something that is actually owned and maintained by Fluffypony, Monero’s creator. MyMonero is website that will get you a Monero address, sign up pretty much takes one click. You click the one and only button on the landing page and in thenext step it is already showing you your private login key:</p>
+
+<blockquote>
+  <p><em>Below this you will find your thirteen word “Private Login Key”. Keeping this secure and private is very important, as it is the only way that you will be able to login to your MyMonero account. As we don’t store your private login key on the server there is no way to recover it if it is lost!</em></p>
+</blockquote>
+
+<p>The next step is already your Monero wallet, it doesn’t even want your email address:</p>
+
+<p><a target="_blank" href="http://localhost:4000/img/wallets/mymonero.png" title="AltcoinTrading.NET - Monero Wallets in 2018: Finally Some Progress in Light Wallets"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/wallets/mymonero.png" alt="Monero Wallets in 2018: Finally Some Progress in Light Wallets" title="AltcoinTrading.NET - Monero Wallets in 2018: Finally Some Progress in Light Wallets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Pretty impressive in terms of usability but security-wise running a GUI connected to a remote node is still the lesser of two evils.</p>
+
+<h3 id="jaxx-monero-support">Jaxx Monero Support</h3>
+
+<p>The multi-altcoin wallet Jaxx announced they got <a href="https://bitcoinmagazine.com/articles/monero-coming-jaxx-wallets-including-ios-with-apple-s-blessing-1476224917/">Apple’s blessing</a> to include Monero in their iOS app available from Apple store. <a href="https://cointelegraph.com/news/jaxx-cancels-monero-integration-cites-difficulties-working-with-community">Jaxx later cancelled the implementation plans</a>. It is probably not a great loss given the <a href="/jaxx-vulnerability">security issues with Jaxx</a>.</p>
+
+<h3 id="hardware-wallets">Hardware wallets</h3>
+
+<div class="clearfix"> <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-trezor"> <amp-img itemprop="image" src="/img/wallets/trezor.jpg" alt="Trezor-Altcoins - Hardware wallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"> </amp-img></a></div>
+
+<p>There have been years of plans and announcements about hardware wallets intergations of Monero, but the main problem remains: Monero keeps evolving, the code gets obsolete very fast and also, the XMR blockchain is unique so the implementations cannot be reused for other coins. <a href="/monero-cold-storage/">Read about Monero hardware wallets in this article</a>.</p>
+:ET

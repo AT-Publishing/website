@@ -71,6 +71,30 @@ Liquid::Template.register_tag('tvchart', Jekyll::TVChartTag)
 
 
 
+module Jekyll
+ class Amp701Tag < Liquid::Tag
+   def initialize(tag_name, markup, tokens)
+     super
+     @src = '?'
+     if markup =~ /(\S.*\s+)?(page.image\[\d\])?/
+       @src = $1
+     end
+   end
+   def render(context)
+     @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
+     #@src= "PICIO KUNDA"
+     @site_url = Liquid::Template.parse("{{ site.url }}").render(context)
+     @title_as_alt = Liquid::Template.parse("{{ page.title }}").render(context)
+     amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
+     amp += "src=\"#{@site_url}#{@src}\" alt=\"#{@title_as_alt}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\" layout=\"responsive\" width=\"700px\" height=\"360px\" >"
+     amp += "</amp-img></figure></a>"
+   end
+ end
+end
+Liquid::Template.register_tag('amp701', Jekyll::Amp701Tag)
+
+
+
 
 module Jekyll
   class Amp700Tag < Liquid::Tag
@@ -78,7 +102,7 @@ module Jekyll
     def initialize(tag_name, markup, tokens)
       super
       @class = 'border'
-      @src = ''
+      @src = 'Altcoin Trading Blog'
       @alt = 'Altcoin Trading'
       @caption = nil #not required
 
@@ -97,8 +121,8 @@ module Jekyll
       @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
       @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
       @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
-      @site_url = Liquid::Template.parse("{{ site.image_url }}").render(context)
 
+      @site_url = Liquid::Template.parse("{{ site.url }}").render(context)
       @title_as_alt = Liquid::Template.parse("{{ page.title }}").render(context)
 
 

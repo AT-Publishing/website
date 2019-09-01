@@ -97,7 +97,12 @@ layout: default-news
                 <a href="{{page.canonical}}">Originally published by <b>{{page.author_name}}</b>. Reposted with permission</a>
               </p>
               {% endif %}
-              {% amp700 noborder {{page.image[0]}} {{page.image_alt[0]}} %}
+              <figure class="noborder main-post-image">
+                <amp-img itemprop="image" src="{{ page.image[0] }}" alt="Altcoin Trading Blog"
+                layout="responsive" data-original-width="720px" data-original-height="360px"
+                width="720px" height="360px">
+                </amp-img>
+              </figure>
               {% include article/related.html %}
             </div>
             <div class="clearfix"></div>
