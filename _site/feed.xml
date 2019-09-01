@@ -12,15 +12,15 @@
   <channel>
     <title><![CDATA[  AltcoinTrading.NET - Articles ]]></title>
     <description><![CDATA[  Independent cryptocurrency news analyses &amp; opinions, technical trading strategies, the best tools for crypto trading or hodling and basic security guides. Follow us on Twitter @altcointrading_ ]]></description>
-    <link>http://localhost:4000/</link>
+    <link>https://www.altcointrading.net/</link>
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title><![CDATA[  AltcoinTrading.NET ]]></title>
-      <link>http://localhost:4000/</link>
+      <link>https://www.altcointrading.net/</link>
     </image>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-    <lastBuildDate>Sun, 01 Sep 2019 18:49:16 +0000</lastBuildDate>
+    <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Sep 2019 19:03:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -62,7 +62,7 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
 
@@ -70,13 +70,13 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;On the 1W DPO gives an &lt;strong&gt;easy single-glance information about the market&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Even better, it is worth noting that the information you get from the color changes is &lt;strong&gt;equivalent to the cross of the Bollinger Band middle line&lt;/strong&gt; on Bollinger Bands of the same length.&lt;/p&gt;
 
 &lt;p&gt;Here on a 1W chart for the lengths of &lt;strong&gt;28&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For very long-term crypto charts this is actually more convenient that the bbands, if you are only looking for the position of the price relative to the mean.&lt;/p&gt;
 
@@ -130,7 +130,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p><code class="highlighter-rouge">barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )</code></p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h4 id="does-it-work">Does it work?</h4>
 
@@ -138,13 +138,13 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>On the 1W DPO gives an <strong>easy single-glance information about the market</strong>:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Even better, it is worth noting that the information you get from the color changes is <strong>equivalent to the cross of the Bollinger Band middle line</strong> on Bollinger Bands of the same length.</p>
 
 <p>Here on a 1W chart for the lengths of <strong>28</strong>:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>For very long-term crypto charts this is actually more convenient that the bbands, if you are only looking for the position of the price relative to the mean.</p>
 
@@ -165,12 +165,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
 
         <pubDate>Sun, 01 Sep 2019 01:14:00 +0000</pubDate>
-        <link>http://localhost:4000/detrended-price-oscillator/</link>
-        <guid isPermaLink="true">http://localhost:4000/detrended-price-oscillator/</guid>
-        <comments>http://localhost:4000/detrended-price-oscillator/#comments</comments>
+        <link>https://www.altcointrading.net/detrended-price-oscillator/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/detrended-price-oscillator/</guid>
+        <comments>https://www.altcointrading.net/detrended-price-oscillator/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -358,12 +358,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/crypto-forex-comparing-differences.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/crypto-forex-comparing-differences.jpg" medium="image" />
 
         <pubDate>Wed, 21 Aug 2019 09:31:00 +0000</pubDate>
-        <link>http://localhost:4000/crypto-trading-vs-forex-trading-review/</link>
-        <guid isPermaLink="true">http://localhost:4000/crypto-trading-vs-forex-trading-review/</guid>
-        <comments>http://localhost:4000/crypto-trading-vs-forex-trading-review/#comments</comments>
+        <link>https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/</guid>
+        <comments>https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -388,7 +388,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;It’s a disruptive technology that promises outstanding returns. The small investments you put into cryptocurrency can grow into life-changing profits over a couple of years. This is the main reason why you should be interested in trading cryptocurrency.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/crypto-trading-stats.png&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/crypto-trading-stats.png&quot; alt=&quot;Why Are So Many People Trading Cryptocurrency?&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/crypto-trading-stats.png&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/crypto-trading-stats.png&quot; alt=&quot;Why Are So Many People Trading Cryptocurrency?&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://trends.google.com/trends/explore?geo=US&amp;amp;q=crypto%20trading&quot;&gt;Google Trends&lt;/a&gt; organic stats for “crypto trading” in US / 2019&lt;/em&gt;&lt;/p&gt;
 
@@ -456,7 +456,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>It’s a disruptive technology that promises outstanding returns. The small investments you put into cryptocurrency can grow into life-changing profits over a couple of years. This is the main reason why you should be interested in trading cryptocurrency.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/crypto-trading-stats.png" title="AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/crypto-trading-stats.png" alt="Why Are So Many People Trading Cryptocurrency?" title="AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/crypto-trading-stats.png" title="AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/crypto-trading-stats.png" alt="Why Are So Many People Trading Cryptocurrency?" title="AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em><a href="https://trends.google.com/trends/explore?geo=US&amp;q=crypto%20trading">Google Trends</a> organic stats for “crypto trading” in US / 2019</em></p>
 
@@ -523,12 +523,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ AltcoinTradingNET ]]></author>
         <dc:creator><![CDATA[ AltcoinTradingNET ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/cryptocurrency-markets.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/cryptocurrency-markets.jpg" medium="image" />
 
         <pubDate>Mon, 05 Aug 2019 17:26:00 +0000</pubDate>
-        <link>http://localhost:4000/crypto-trading-growth/</link>
-        <guid isPermaLink="true">http://localhost:4000/crypto-trading-growth/</guid>
-        <comments>http://localhost:4000/crypto-trading-growth/#comments</comments>
+        <link>https://www.altcointrading.net/crypto-trading-growth/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/crypto-trading-growth/</guid>
+        <comments>https://www.altcointrading.net/crypto-trading-growth/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -579,7 +579,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;&lt;em&gt;Exaggerated Divergence&lt;/em&gt; is only different in that price makes double top or double bottom rather than new high or new low.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/img/ta/divergences1.jpg&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/img/ta/divergences1.jpg&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/img/ta/divergences1.jpg&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/ta/divergences1.jpg&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;divergences-only-show-a-level-where-to-wait-for-entry-signal&quot;&gt;Divergences only show a level where to wait for entry signal&lt;/h4&gt;
 
@@ -593,13 +593,13 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;This is a regular bullish divergence on an old ETHUSD chart.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/img/ta/bitfinex-divergences.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/img/ta/bitfinex-divergences.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/img/ta/bitfinex-divergences.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/ta/bitfinex-divergences.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Price vs StochRSI Divergence&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish divergence, the momentum is set to continue the bearish trend.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2018/divs/price-stochrsi.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2018/divs/price-stochrsi.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/divs/price-stochrsi.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/divs/price-stochrsi.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Price vs %b Divergence, BBands 21 periods - stdev 3&lt;/strong&gt;&lt;/p&gt;
 
@@ -609,7 +609,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls aren’t winning yet.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2018/divs/price-bbands.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2018/divs/price-bbands.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/divs/price-bbands.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/divs/price-bbands.png&quot; alt=&quot;Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; title=&quot;AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;divergences-cheat-sheets&quot;&gt;Divergences Cheat Sheets&lt;/h2&gt;
 
@@ -676,7 +676,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p><em>Exaggerated Divergence</em> is only different in that price makes double top or double bottom rather than new high or new low.</p>
 
-<p><a target="_blank" href="http://localhost:4000/img/ta/divergences1.jpg" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/ta/divergences1.jpg" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/ta/divergences1.jpg" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/ta/divergences1.jpg" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h4 id="divergences-only-show-a-level-where-to-wait-for-entry-signal">Divergences only show a level where to wait for entry signal</h4>
 
@@ -690,13 +690,13 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>This is a regular bullish divergence on an old ETHUSD chart.</p>
 
-<p><a target="_blank" href="http://localhost:4000/img/ta/bitfinex-divergences.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/ta/bitfinex-divergences.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/ta/bitfinex-divergences.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/ta/bitfinex-divergences.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>Price vs StochRSI Divergence</strong></p>
 
 <p>This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish divergence, the momentum is set to continue the bearish trend.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2018/divs/price-stochrsi.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/divs/price-stochrsi.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/divs/price-stochrsi.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/divs/price-stochrsi.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>Price vs %b Divergence, BBands 21 periods - stdev 3</strong></p>
 
@@ -706,7 +706,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls aren’t winning yet.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2018/divs/price-bbands.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/divs/price-bbands.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/divs/price-bbands.png" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/divs/price-bbands.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" title="AltcoinTrading.NET - Technical Analysis: Divergences (With a Divergence Cheat Sheet)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h2 id="divergences-cheat-sheets">Divergences Cheat Sheets</h2>
 
@@ -748,12 +748,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/img/ta/bitfinex-divergences.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/img/ta/bitfinex-divergences.png" medium="image" />
 
         <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/divergences/</link>
-        <guid isPermaLink="true">http://localhost:4000/divergences/</guid>
-        <comments>http://localhost:4000/divergences/#comments</comments>
+        <link>https://www.altcointrading.net/divergences/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/divergences/</guid>
+        <comments>https://www.altcointrading.net/divergences/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -889,12 +889,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ cryptocoinzone ]]></author>
         <dc:creator><![CDATA[ cryptocoinzone ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/details1.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/details1.jpg" medium="image" />
 
         <pubDate>Thu, 20 Jun 2019 19:02:00 +0000</pubDate>
-        <link>http://localhost:4000/cryptocurrency-strategy-beginners/</link>
-        <guid isPermaLink="true">http://localhost:4000/cryptocurrency-strategy-beginners/</guid>
-        <comments>http://localhost:4000/cryptocurrency-strategy-beginners/#comments</comments>
+        <link>https://www.altcointrading.net/cryptocurrency-strategy-beginners/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/cryptocurrency-strategy-beginners/</guid>
+        <comments>https://www.altcointrading.net/cryptocurrency-strategy-beginners/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -957,11 +957,11 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;The “Chinkou” span is a lagging indicator, use it to confirm a trend strength. Chinkou line above the candles means the market is strong. If the Chinkou crossed below candles, it’s a bearish turn:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When there is a strong action and the lagging line crosses the candles it is a sign the trend is weakening and becoming undecided. Reversal is likely, but again, this by itself is not yet a trigger to short:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2018/ichimoku/lagging-san.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2018/ichimoku/lagging-san.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;how-to-read-ichimoku-cloud&quot;&gt;How to read Ichimoku Cloud&lt;/h3&gt;
 
@@ -1020,7 +1020,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
   &lt;li&gt;Because Ichimoku cloud takes the past action to predict the most likely future ranges and breaking points, traders want to &lt;strong&gt;reflect the past market action as precisely as possible&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Ichimoku works with timely moving averages, so on the crypto markets it follows reason to set meaningful timespans considering the fact that crypto trades 24/7/365.&lt;/p&gt;
 
@@ -1092,7 +1092,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;p&gt;The legacy trader ChaosTrader63 has a &lt;a href=&quot;https://www.youtube.com/user/ChaosTrader63&quot;&gt;YouTube channel&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/ChaosTrader63&quot;&gt;Twitter&lt;/a&gt; dedicated mainly to Ichimoku cloud. He mainly provides price commentary with new videos about once a week, and his trades are focused more on the long term. You will see him use the 1D chart a lot, explaining how he makes his decision. ChaosTrader63 uses the default Ichimoku settings - 9, 26, 52, 26 and is a proponent of this settings rather than of the “crypto” settings.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg&quot; alt=&quot;Ichimoku Cloud for Crypto Trading&quot; title=&quot;AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;ChaosTrader63 is originally a forex trader so his analysis has more precision in it than what you typically get in the cryptocurrency space. He combines Ichimoku cloud with &lt;a href=&quot;https://www.youtube.com/watch?v=NvCKMg8ilMI&quot;&gt;fractals&lt;/a&gt; and high-volume support and resistance levels (a simplified version of &lt;a href=&quot;/strategy/wyckoff-ranging-markets&quot;&gt;trading ranges&lt;/a&gt;).&lt;/p&gt;
 
@@ -1143,11 +1143,11 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>The “Chinkou” span is a lagging indicator, use it to confirm a trend strength. Chinkou line above the candles means the market is strong. If the Chinkou crossed below candles, it’s a bearish turn:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/ichimoku/lagging-ltcusd.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>When there is a strong action and the lagging line crosses the candles it is a sign the trend is weakening and becoming undecided. Reversal is likely, but again, this by itself is not yet a trigger to short:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2018/ichimoku/lagging-san.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/ichimoku/lagging-san.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h3 id="how-to-read-ichimoku-cloud">How to read Ichimoku Cloud</h3>
 
@@ -1206,7 +1206,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
   <li>Because Ichimoku cloud takes the past action to predict the most likely future ranges and breaking points, traders want to <strong>reflect the past market action as precisely as possible</strong>.</li>
 </ul>
 
-<p><a target="_blank" href="http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/trading/bitfinex_ichimoku_leg.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Ichimoku works with timely moving averages, so on the crypto markets it follows reason to set meaningful timespans considering the fact that crypto trades 24/7/365.</p>
 
@@ -1278,7 +1278,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p>The legacy trader ChaosTrader63 has a <a href="https://www.youtube.com/user/ChaosTrader63">YouTube channel</a> and <a href="https://twitter.com/ChaosTrader63">Twitter</a> dedicated mainly to Ichimoku cloud. He mainly provides price commentary with new videos about once a week, and his trades are focused more on the long term. You will see him use the 1D chart a lot, explaining how he makes his decision. ChaosTrader63 uses the default Ichimoku settings - 9, 26, 52, 26 and is a proponent of this settings rather than of the “crypto” settings.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2018/chaostrader-ichimoku-settings.jpg" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>ChaosTrader63 is originally a forex trader so his analysis has more precision in it than what you typically get in the cryptocurrency space. He combines Ichimoku cloud with <a href="https://www.youtube.com/watch?v=NvCKMg8ilMI">fractals</a> and high-volume support and resistance levels (a simplified version of <a href="/strategy/wyckoff-ranging-markets">trading ranges</a>).</p>
 
@@ -1294,11 +1294,11 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/2018/ichimoku/lagging-etp.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/2018/ichimoku/lagging-etp.png" medium="image" />
 
         <pubDate>Wed, 05 Jun 2019 10:14:00 +0000</pubDate>
-        <link>http://localhost:4000/ichimoku-cloud/</link>
-        <guid isPermaLink="true">http://localhost:4000/ichimoku-cloud/</guid>
+        <link>https://www.altcointrading.net/ichimoku-cloud/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/ichimoku-cloud/</guid>
         
         <language>en</language>
 
@@ -1417,12 +1417,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/toolbox.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/toolbox.jpeg" medium="image" />
 
         <pubDate>Sat, 11 May 2019 00:12:00 +0000</pubDate>
-        <link>http://localhost:4000/fundamentals-mining-hashrate-vs-price/</link>
-        <guid isPermaLink="true">http://localhost:4000/fundamentals-mining-hashrate-vs-price/</guid>
-        <comments>http://localhost:4000/fundamentals-mining-hashrate-vs-price/#comments</comments>
+        <link>https://www.altcointrading.net/fundamentals-mining-hashrate-vs-price/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/fundamentals-mining-hashrate-vs-price/</guid>
+        <comments>https://www.altcointrading.net/fundamentals-mining-hashrate-vs-price/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -1630,12 +1630,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ WeTheCryptos & AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ WeTheCryptos & AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/altcointrading-strategy.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/altcointrading-strategy.jpeg" medium="image" />
 
         <pubDate>Sat, 04 May 2019 10:22:00 +0000</pubDate>
-        <link>http://localhost:4000/crypto-storage-for-traders/</link>
-        <guid isPermaLink="true">http://localhost:4000/crypto-storage-for-traders/</guid>
-        <comments>http://localhost:4000/crypto-storage-for-traders/#comments</comments>
+        <link>https://www.altcointrading.net/crypto-storage-for-traders/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/crypto-storage-for-traders/</guid>
+        <comments>https://www.altcointrading.net/crypto-storage-for-traders/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -1698,12 +1698,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ Business Of Crypto ]]></author>
         <dc:creator><![CDATA[ Business Of Crypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/tagged/sadness.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/tagged/sadness.png" medium="image" />
 
         <pubDate>Tue, 26 Mar 2019 06:31:00 +0000</pubDate>
-        <link>http://localhost:4000/cryptocurrency-heists-infographic/</link>
-        <guid isPermaLink="true">http://localhost:4000/cryptocurrency-heists-infographic/</guid>
-        <comments>http://localhost:4000/cryptocurrency-heists-infographic/#comments</comments>
+        <link>https://www.altcointrading.net/cryptocurrency-heists-infographic/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/cryptocurrency-heists-infographic/</guid>
+        <comments>https://www.altcointrading.net/cryptocurrency-heists-infographic/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -1901,12 +1901,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ Grant Polachek / SquadHelp ]]></author>
         <dc:creator><![CDATA[ Grant Polachek / SquadHelp ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/naming-crypto.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/naming-crypto.png" medium="image" />
 
         <pubDate>Sun, 17 Feb 2019 10:31:00 +0000</pubDate>
-        <link>http://localhost:4000/naming-cryptocurrency/</link>
-        <guid isPermaLink="true">http://localhost:4000/naming-cryptocurrency/</guid>
-        <comments>http://localhost:4000/naming-cryptocurrency/#comments</comments>
+        <link>https://www.altcointrading.net/naming-cryptocurrency/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/naming-cryptocurrency/</guid>
+        <comments>https://www.altcointrading.net/naming-cryptocurrency/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2027,12 +2027,12 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
         <author><![CDATA[ Chris at The Business Of Crypto ]]></author>
         <dc:creator><![CDATA[ Chris at The Business Of Crypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/security.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/security.jpg" medium="image" />
 
         <pubDate>Thu, 24 Jan 2019 18:04:00 +0000</pubDate>
-        <link>http://localhost:4000/samourai-wallet-bitcoin-anonymity/</link>
-        <guid isPermaLink="true">http://localhost:4000/samourai-wallet-bitcoin-anonymity/</guid>
-        <comments>http://localhost:4000/samourai-wallet-bitcoin-anonymity/#comments</comments>
+        <link>https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</guid>
+        <comments>https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2071,7 +2071,7 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/localethereum-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/localethereum-office.jpg&quot; alt=&quot;Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/localethereum-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/localethereum-office.jpg&quot; alt=&quot;Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (&lt;a href=&quot;https://blog.localethereum.com/reflecting-on-2018-and-building-a-colossal-2019/&quot;&gt;LocalEthereum Blog&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
@@ -2210,7 +2210,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <hr />
 
-<p><a target="_blank" href="http://localhost:4000/features/localethereum-office.jpg" title="AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/localethereum-office.jpg" alt="Michael Foster of LocalEthereum: Venezuela could be start of something bigger" title="AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/localethereum-office.jpg" title="AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/localethereum-office.jpg" alt="Michael Foster of LocalEthereum: Venezuela could be start of something bigger" title="AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (<a href="https://blog.localethereum.com/reflecting-on-2018-and-building-a-colossal-2019/">LocalEthereum Blog</a>)</em></p>
 
@@ -2336,12 +2336,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/p2p-marketplace.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/p2p-marketplace.jpeg" medium="image" />
 
         <pubDate>Tue, 08 Jan 2019 14:54:00 +0000</pubDate>
-        <link>http://localhost:4000/localethereum-venezuela-crypto/</link>
-        <guid isPermaLink="true">http://localhost:4000/localethereum-venezuela-crypto/</guid>
-        <comments>http://localhost:4000/localethereum-venezuela-crypto/#comments</comments>
+        <link>https://www.altcointrading.net/localethereum-venezuela-crypto/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/localethereum-venezuela-crypto/</guid>
+        <comments>https://www.altcointrading.net/localethereum-venezuela-crypto/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2501,12 +2501,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/tradingstation.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/tradingstation.jpg" medium="image" />
 
         <pubDate>Mon, 31 Dec 2018 13:31:00 +0000</pubDate>
-        <link>http://localhost:4000/retail-buyin-15k-wallets-still-run/</link>
-        <guid isPermaLink="true">http://localhost:4000/retail-buyin-15k-wallets-still-run/</guid>
-        <comments>http://localhost:4000/retail-buyin-15k-wallets-still-run/#comments</comments>
+        <link>https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/</guid>
+        <comments>https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2633,12 +2633,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash1/schizocode.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/schizocode.jpg" medium="image" />
 
         <pubDate>Tue, 27 Nov 2018 23:41:00 +0000</pubDate>
-        <link>http://localhost:4000/smart-contract-platforms/</link>
-        <guid isPermaLink="true">http://localhost:4000/smart-contract-platforms/</guid>
-        <comments>http://localhost:4000/smart-contract-platforms/#comments</comments>
+        <link>https://www.altcointrading.net/smart-contract-platforms/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/smart-contract-platforms/</guid>
+        <comments>https://www.altcointrading.net/smart-contract-platforms/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2786,12 +2786,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/wm/blockchain-entertainment.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/wm/blockchain-entertainment.png" medium="image" />
 
         <pubDate>Tue, 13 Nov 2018 15:44:00 +0000</pubDate>
-        <link>http://localhost:4000/blockchain-entertainment-industry/</link>
-        <guid isPermaLink="true">http://localhost:4000/blockchain-entertainment-industry/</guid>
-        <comments>http://localhost:4000/blockchain-entertainment-industry/#comments</comments>
+        <link>https://www.altcointrading.net/blockchain-entertainment-industry/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/blockchain-entertainment-industry/</guid>
+        <comments>https://www.altcointrading.net/blockchain-entertainment-industry/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2847,19 +2847,19 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;These particular properties have been sold already but feel free to browse around. You will be surprised, it’s not only super posh frat boys who is being targeted.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/1.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/1.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/1.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/1.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;6023 W Beachwood Ln. Los Angeles, CA 90038&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;“This Hollywood Hills new construction is smart home ready &amp;amp; highly walkable. Listing price is $1,190,000. If you buy it with Open Listings, you’ll get $11,900 back.” &lt;a href=&quot;https://www.openlistings.com/p/6023-w-beachwood-ln-los-angeles-ca-90038&quot;&gt;View&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1338 Orchard Ave. Wenatchee, WA 98801&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;“This charming &amp;amp; Wenatchee home could make a great investment for the right Bitcoin buyer with its big corner lot and full apartment above the garage. Listing price is $399,900.” &lt;a href=&quot;https://www.openlistings.com/p/1338-orchard-ave-wenatchee-wa-98801&quot;&gt;View&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/3.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/3.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/3.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/3.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1301 Duhig Rd Napa, CA 94559&lt;/strong&gt;&lt;/p&gt;
 
@@ -2896,19 +2896,19 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p>These particular properties have been sold already but feel free to browse around. You will be surprised, it’s not only super posh frat boys who is being targeted.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/1.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/1.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/1.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/1.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>6023 W Beachwood Ln. Los Angeles, CA 90038</strong></p>
 
 <p>“This Hollywood Hills new construction is smart home ready &amp; highly walkable. Listing price is $1,190,000. If you buy it with Open Listings, you’ll get $11,900 back.” <a href="https://www.openlistings.com/p/6023-w-beachwood-ln-los-angeles-ca-90038">View</a></p>
 
-<p><a target="_blank" href="http://localhost:4000/features/2.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/2.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>1338 Orchard Ave. Wenatchee, WA 98801</strong></p>
 
 <p>“This charming &amp; Wenatchee home could make a great investment for the right Bitcoin buyer with its big corner lot and full apartment above the garage. Listing price is $399,900.” <a href="https://www.openlistings.com/p/1338-orchard-ave-wenatchee-wa-98801">View</a></p>
 
-<p><a target="_blank" href="http://localhost:4000/features/3.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/3.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/3.png" title="AltcoinTrading.NET - Want to buy a house with bitcoin?"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/3.png" alt="Want to buy a house with bitcoin?" title="AltcoinTrading.NET - Want to buy a house with bitcoin?" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>1301 Duhig Rd Napa, CA 94559</strong></p>
 
@@ -2917,12 +2917,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/openlistings.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/openlistings.jpeg" medium="image" />
 
         <pubDate>Mon, 12 Nov 2018 07:24:00 +0000</pubDate>
-        <link>http://localhost:4000/openlistings-houses-for-bitcoin/</link>
-        <guid isPermaLink="true">http://localhost:4000/openlistings-houses-for-bitcoin/</guid>
-        <comments>http://localhost:4000/openlistings-houses-for-bitcoin/#comments</comments>
+        <link>https://www.altcointrading.net/openlistings-houses-for-bitcoin/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/openlistings-houses-for-bitcoin/</guid>
+        <comments>https://www.altcointrading.net/openlistings-houses-for-bitcoin/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3006,12 +3006,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/stablecoin-wars.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/stablecoin-wars.jpeg" medium="image" />
 
         <pubDate>Wed, 17 Oct 2018 11:12:00 +0000</pubDate>
-        <link>http://localhost:4000/iou-stablecoins-potential/</link>
-        <guid isPermaLink="true">http://localhost:4000/iou-stablecoins-potential/</guid>
-        <comments>http://localhost:4000/iou-stablecoins-potential/#comments</comments>
+        <link>https://www.altcointrading.net/iou-stablecoins-potential/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/iou-stablecoins-potential/</guid>
+        <comments>https://www.altcointrading.net/iou-stablecoins-potential/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3113,12 +3113,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ Ambreen ]]></author>
         <dc:creator><![CDATA[ Ambreen ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/home-decor-startups.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/home-decor-startups.jpeg" medium="image" />
 
         <pubDate>Wed, 10 Oct 2018 04:34:00 +0000</pubDate>
-        <link>http://localhost:4000/tokenization-startup-boost/</link>
-        <guid isPermaLink="true">http://localhost:4000/tokenization-startup-boost/</guid>
-        <comments>http://localhost:4000/tokenization-startup-boost/#comments</comments>
+        <link>https://www.altcointrading.net/tokenization-startup-boost/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/tokenization-startup-boost/</guid>
+        <comments>https://www.altcointrading.net/tokenization-startup-boost/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3149,7 +3149,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;h3 id=&quot;ad-levels-by-parcorn-on-tradingview&quot;&gt;A/D Levels by ParCorn on TradingView&lt;/h3&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl1.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The A/D here stands for accumulation and distribution, but this particular indicator does not analyze trend at all.&lt;/p&gt;
 
@@ -3187,7 +3187,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;Here is the A/D Levels script on Bitfinex BTCUSD 5M as retrieved on Sep 29.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-5m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-5m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I found that it printed ridiculous amounts of supports and resistances over ranges.&lt;/p&gt;
 
@@ -3197,7 +3197,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;&lt;strong&gt;Higher Timeframes&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-30m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-30m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For the 30M timeframe and made the criteria for acceptable wick ratio even higher.&lt;/p&gt;
 
@@ -3209,7 +3209,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;It does not print support on volatile days’ wicks because it compares with the true range. You can also see where support turns resistance:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-1d.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
@@ -3225,7 +3225,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <h3 id="ad-levels-by-parcorn-on-tradingview">A/D Levels by ParCorn on TradingView</h3>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/adl/adl1.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/adl/adl1.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>The A/D here stands for accumulation and distribution, but this particular indicator does not analyze trend at all.</p>
 
@@ -3263,7 +3263,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p>Here is the A/D Levels script on Bitfinex BTCUSD 5M as retrieved on Sep 29.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/adl/adl-5m.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/adl/adl-5m.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>I found that it printed ridiculous amounts of supports and resistances over ranges.</p>
 
@@ -3273,7 +3273,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p><strong>Higher Timeframes</strong></p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/adl/adl-30m.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/adl/adl-30m.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>For the 30M timeframe and made the criteria for acceptable wick ratio even higher.</p>
 
@@ -3285,7 +3285,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p>It does not print support on volatile days’ wicks because it compares with the true range. You can also see where support turns resistance:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/adl/adl-1d.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/adl/adl-1d.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png" title="AltcoinTrading.NET - Script Spotlight: A/D Levels"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png" alt="Script Spotlight: A/D Levels" title="AltcoinTrading.NET - Script Spotlight: A/D Levels" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h3 id="summary">Summary</h3>
 
@@ -3300,12 +3300,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/scriptspotlight/adl/adl1.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png" medium="image" />
 
         <pubDate>Sat, 29 Sep 2018 07:43:00 +0000</pubDate>
-        <link>http://localhost:4000/scriptspotlight-a-d-levels/</link>
-        <guid isPermaLink="true">http://localhost:4000/scriptspotlight-a-d-levels/</guid>
-        <comments>http://localhost:4000/scriptspotlight-a-d-levels/#comments</comments>
+        <link>https://www.altcointrading.net/scriptspotlight-a-d-levels/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-a-d-levels/</guid>
+        <comments>https://www.altcointrading.net/scriptspotlight-a-d-levels/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3501,12 +3501,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash1/unitedstates.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/unitedstates.jpg" medium="image" />
 
         <pubDate>Fri, 28 Sep 2018 06:13:00 +0000</pubDate>
-        <link>http://localhost:4000/bakkt-criticism/</link>
-        <guid isPermaLink="true">http://localhost:4000/bakkt-criticism/</guid>
-        <comments>http://localhost:4000/bakkt-criticism/#comments</comments>
+        <link>https://www.altcointrading.net/bakkt-criticism/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/bakkt-criticism/</guid>
+        <comments>https://www.altcointrading.net/bakkt-criticism/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3552,7 +3552,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: &lt;strong&gt;(55,12,26,9,2)&lt;/strong&gt;.&lt;/p&gt;
 
@@ -3560,13 +3560,13 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.&lt;/p&gt;
 
 &lt;p&gt;If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.&lt;/p&gt;
 
@@ -3592,7 +3592,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/SvPOv1cc/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.&lt;/p&gt;
 
@@ -3625,7 +3625,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <h4 id="does-it-work">Does it work?</h4>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: <strong>(55,12,26,9,2)</strong>.</p>
 
@@ -3633,13 +3633,13 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p>We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.</p>
 
 <p>If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.</p>
 
@@ -3665,7 +3665,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p><a href="https://www.tradingview.com/script/SvPOv1cc/">Full script</a></p>
 
-<p><a target="_blank" href="http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png" alt="Script Spotlight: Automatic Divergences" title="AltcoinTrading.NET - Script Spotlight: Automatic Divergences" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.</p>
 
@@ -3676,11 +3676,11 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
 
         <pubDate>Wed, 19 Sep 2018 06:13:00 +0000</pubDate>
-        <link>http://localhost:4000/scriptspotlight-auto-divergences/</link>
-        <guid isPermaLink="true">http://localhost:4000/scriptspotlight-auto-divergences/</guid>
+        <link>https://www.altcointrading.net/scriptspotlight-auto-divergences/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-auto-divergences/</guid>
         
         <language>en</language>
 
@@ -3762,12 +3762,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/urban/uturn.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/urban/uturn.jpg" medium="image" />
 
         <pubDate>Tue, 18 Sep 2018 11:33:00 +0000</pubDate>
-        <link>http://localhost:4000/etheremon-kyber-network/</link>
-        <guid isPermaLink="true">http://localhost:4000/etheremon-kyber-network/</guid>
-        <comments>http://localhost:4000/etheremon-kyber-network/#comments</comments>
+        <link>https://www.altcointrading.net/etheremon-kyber-network/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/etheremon-kyber-network/</guid>
+        <comments>https://www.altcointrading.net/etheremon-kyber-network/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3801,7 +3801,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;The atomic swap wallet at &lt;code class=&quot;highlighter-rouge&quot;&gt;https://swap.altcoin.io&lt;/code&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/altcoin-io/atomic-swap-wallet.gif&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/altcoin-io/atomic-swap-wallet.gif&quot; alt=&quot;DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif&quot; alt=&quot;DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -3900,7 +3900,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 <p>The atomic swap wallet at <code class="highlighter-rouge">https://swap.altcoin.io</code>:</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/altcoin-io/atomic-swap-wallet.gif" title="AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/altcoin-io/atomic-swap-wallet.gif" alt="DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading" title="AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif" title="AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif" alt="DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading" title="AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <hr />
 
@@ -3992,12 +3992,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/altcoin-io/altcoin-io_interface.gif" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/altcoin-io/altcoin-io_interface.gif" medium="image" />
 
         <pubDate>Tue, 04 Sep 2018 03:33:00 +0000</pubDate>
-        <link>http://localhost:4000/interview-andrew-gazdecki/</link>
-        <guid isPermaLink="true">http://localhost:4000/interview-andrew-gazdecki/</guid>
-        <comments>http://localhost:4000/interview-andrew-gazdecki/#comments</comments>
+        <link>https://www.altcointrading.net/interview-andrew-gazdecki/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/interview-andrew-gazdecki/</guid>
+        <comments>https://www.altcointrading.net/interview-andrew-gazdecki/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4194,12 +4194,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ Lisa Henderson ]]></author>
         <dc:creator><![CDATA[ Lisa Henderson ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/legal-disruption.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/legal-disruption.jpeg" medium="image" />
 
         <pubDate>Mon, 27 Aug 2018 08:35:00 +0000</pubDate>
-        <link>http://localhost:4000/how-blockchain-disrupts-legal/</link>
-        <guid isPermaLink="true">http://localhost:4000/how-blockchain-disrupts-legal/</guid>
-        <comments>http://localhost:4000/how-blockchain-disrupts-legal/#comments</comments>
+        <link>https://www.altcointrading.net/how-blockchain-disrupts-legal/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/how-blockchain-disrupts-legal/</guid>
+        <comments>https://www.altcointrading.net/how-blockchain-disrupts-legal/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4302,12 +4302,12 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash2/atnet-newspaper.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash2/atnet-newspaper.jpg" medium="image" />
 
         <pubDate>Thu, 14 Jun 2018 20:28:00 +0000</pubDate>
-        <link>http://localhost:4000/sec-cryptocurrencies-not-securities-market-rebound/</link>
-        <guid isPermaLink="true">http://localhost:4000/sec-cryptocurrencies-not-securities-market-rebound/</guid>
-        <comments>http://localhost:4000/sec-cryptocurrencies-not-securities-market-rebound/#comments</comments>
+        <link>https://www.altcointrading.net/sec-cryptocurrencies-not-securities-market-rebound/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/sec-cryptocurrencies-not-securities-market-rebound/</guid>
+        <comments>https://www.altcointrading.net/sec-cryptocurrencies-not-securities-market-rebound/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4331,7 +4331,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
         <content:encoded><![CDATA[ &lt;p&gt;Let’s start with quick look at some data - &lt;a href=&quot;https://www.docdroid.net/LbFhNvP/stablecoinsc1.pdf&quot;&gt;PDF via docdroid here&lt;/a&gt;, plus the &lt;a href=&quot;https://www.docdroid.net/RD9TNMz/stablecoins-comparison.txt&quot;&gt;CSV source&lt;/a&gt; if you care.&lt;/p&gt;
 
 &lt;div&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/stablecoins/stablecoins1.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/stablecoins/stablecoins1.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
+  &lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/stablecoins/stablecoins1.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/stablecoins/stablecoins1.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;how-stable-are-the-commonly-used-stablecoins&quot;&gt;How stable are the commonly used stablecoins?&lt;/h2&gt;
@@ -4341,7 +4341,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 &lt;p&gt;The results show clearly that the fully backed IOUs are still the most stable pegged tokens:&lt;/p&gt;
 
 &lt;div&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/stablecoins/stats.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/stablecoins/stats.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
+  &lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/stablecoins/stats.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/stablecoins/stats.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;ious-tether-and-trueusd-are-the-most-stable&quot;&gt;IOU’s Tether and TrueUSD are the most stable&lt;/h3&gt;
@@ -4366,7 +4366,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 &lt;p&gt;It is not quite what cryptocurrencies were designed for, which matters &lt;strong&gt;not for ideological reasons but for the material point&lt;/strong&gt; - if it happens that one day a FUD will actually prove to be the truth it might get ugly. For now though the numbers speak clearly.&lt;/p&gt;
 
 &lt;div&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/stablecoins/stablecoins2.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/stablecoins/stablecoins2.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
+  &lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/stablecoins/stablecoins2.png&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/stablecoins/stablecoins2.png&quot; alt=&quot;The Stability of Stablecoins&quot; title=&quot;AltcoinTrading.NET - The Stability of Stablecoins&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&quot;dai-has-the-third-place&quot;&gt;Dai has the third place&lt;/h3&gt;
@@ -4497,7 +4497,7 @@ analysis paper will be posted to our website in the coming days”.&lt;/li&gt;
         <turbo:content><![CDATA[ <p>Let’s start with quick look at some data - <a href="https://www.docdroid.net/LbFhNvP/stablecoinsc1.pdf">PDF via docdroid here</a>, plus the <a href="https://www.docdroid.net/RD9TNMz/stablecoins-comparison.txt">CSV source</a> if you care.</p>
 
 <div>
-  <a target="_blank" href="http://localhost:4000/features/stablecoins/stablecoins1.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/stablecoins/stablecoins1.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+  <a target="_blank" href="https://www.altcointrading.net/features/stablecoins/stablecoins1.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/stablecoins/stablecoins1.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 </div>
 
 <h2 id="how-stable-are-the-commonly-used-stablecoins">How stable are the commonly used stablecoins?</h2>
@@ -4507,7 +4507,7 @@ analysis paper will be posted to our website in the coming days”.&lt;/li&gt;
 <p>The results show clearly that the fully backed IOUs are still the most stable pegged tokens:</p>
 
 <div>
-  <a target="_blank" href="http://localhost:4000/features/stablecoins/stats.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/stablecoins/stats.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+  <a target="_blank" href="https://www.altcointrading.net/features/stablecoins/stats.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/stablecoins/stats.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 </div>
 
 <h3 id="ious-tether-and-trueusd-are-the-most-stable">IOU’s Tether and TrueUSD are the most stable</h3>
@@ -4532,7 +4532,7 @@ analysis paper will be posted to our website in the coming days”.&lt;/li&gt;
 <p>It is not quite what cryptocurrencies were designed for, which matters <strong>not for ideological reasons but for the material point</strong> - if it happens that one day a FUD will actually prove to be the truth it might get ugly. For now though the numbers speak clearly.</p>
 
 <div>
-  <a target="_blank" href="http://localhost:4000/features/stablecoins/stablecoins2.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/stablecoins/stablecoins2.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+  <a target="_blank" href="https://www.altcointrading.net/features/stablecoins/stablecoins2.png" title="AltcoinTrading.NET - The Stability of Stablecoins"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/stablecoins/stablecoins2.png" alt="The Stability of Stablecoins" title="AltcoinTrading.NET - The Stability of Stablecoins" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 </div>
 
 <h3 id="dai-has-the-third-place">Dai has the third place</h3>
@@ -4663,12 +4663,12 @@ analysis paper will be posted to our website in the coming days”.</li>
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/stablecoins/stability-of-stablecoins.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/stablecoins/stability-of-stablecoins.jpg" medium="image" />
 
         <pubDate>Tue, 29 May 2018 18:48:00 +0000</pubDate>
-        <link>http://localhost:4000/stability-of-stablecoins/</link>
-        <guid isPermaLink="true">http://localhost:4000/stability-of-stablecoins/</guid>
-        <comments>http://localhost:4000/stability-of-stablecoins/#comments</comments>
+        <link>https://www.altcointrading.net/stability-of-stablecoins/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/stability-of-stablecoins/</guid>
+        <comments>https://www.altcointrading.net/stability-of-stablecoins/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4882,12 +4882,12 @@ analysis paper will be posted to our website in the coming days”.</li>
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="http://localhost:4000/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" medium="image" />
 
         <pubDate>Wed, 23 May 2018 15:15:00 +0000</pubDate>
-        <link>http://localhost:4000/traceto-interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/traceto-interview/</guid>
-        <comments>http://localhost:4000/traceto-interview/#comments</comments>
+        <link>https://www.altcointrading.net/traceto-interview/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/traceto-interview/</guid>
+        <comments>https://www.altcointrading.net/traceto-interview/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4954,7 +4954,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 &lt;p&gt;HitBTC has BTC and USDT markets for XMO, although it has been running pretty much straight into the ground.&lt;/p&gt;
 
 &lt;div&gt;
-   &lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/xmo.png&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/xmo.png&quot; alt=&quot;Monero Forks Recap in April 2018&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
+   &lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/xmo.png&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/xmo.png&quot; alt=&quot;Monero Forks Recap in April 2018&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
  &lt;/div&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -4972,7 +4972,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 &lt;p&gt;Homepage at &lt;a href=&quot;http://monero-classic.org/&quot;&gt;monero-classic.org&lt;/a&gt; includes only a letter from PZ, the developer of XMC. According to the letter, PZ considers it a nonsense to change Monero’s PoW algorithm twice a year to ensure ASIC resistance. PZ argues ASICs are a normal market phenomenon, that all high-value cryptocurrencies see the development of specialized hardware and that in fact this emergence of secondary business shouldn’t be discouraged. There is expressed the belief in an environment diversity in the crypto space, as after all the collisions of various ideas were what made the blockchain industry so rich.&lt;/p&gt;
 
 &lt;div&gt;
-  &lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/xmc.png&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/xmc.png&quot; alt=&quot;Monero Forks Recap in April 2018&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
+  &lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/xmc.png&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/xmc.png&quot; alt=&quot;Monero Forks Recap in April 2018&quot; title=&quot;AltcoinTrading.NET - Monero Forks Recap in April 2018&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;p&gt;XMC has a BTC pair on the Gate.io exchange, Lomostar and several other places. According to &lt;a href=&quot;https://twitter.com/xmccurrency&quot;&gt;the Twitter @xmccurrency&lt;/a&gt; the coin was getting listed on various exchanges massively just recently over the days around 20 April 2018.&lt;/p&gt;
@@ -5022,7 +5022,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 <p>HitBTC has BTC and USDT markets for XMO, although it has been running pretty much straight into the ground.</p>
 
 <div>
-   <a target="_blank" href="http://localhost:4000/features/xmo.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/xmo.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+   <a target="_blank" href="https://www.altcointrading.net/features/xmo.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/xmo.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
  </div>
 
 <p></p>
@@ -5040,7 +5040,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 <p>Homepage at <a href="http://monero-classic.org/">monero-classic.org</a> includes only a letter from PZ, the developer of XMC. According to the letter, PZ considers it a nonsense to change Monero’s PoW algorithm twice a year to ensure ASIC resistance. PZ argues ASICs are a normal market phenomenon, that all high-value cryptocurrencies see the development of specialized hardware and that in fact this emergence of secondary business shouldn’t be discouraged. There is expressed the belief in an environment diversity in the crypto space, as after all the collisions of various ideas were what made the blockchain industry so rich.</p>
 
 <div>
-  <a target="_blank" href="http://localhost:4000/features/xmc.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/xmc.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+  <a target="_blank" href="https://www.altcointrading.net/features/xmc.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/xmc.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 </div>
 
 <p>XMC has a BTC pair on the Gate.io exchange, Lomostar and several other places. According to <a href="https://twitter.com/xmccurrency">the Twitter @xmccurrency</a> the coin was getting listed on various exchanges massively just recently over the days around 20 April 2018.</p>
@@ -5052,12 +5052,12 @@ analysis paper will be posted to our website in the coming days”.</li>
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/urban/fork1.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/urban/fork1.jpg" medium="image" />
 
         <pubDate>Mon, 23 Apr 2018 15:15:00 +0000</pubDate>
-        <link>http://localhost:4000/monero-forks-april-2018/</link>
-        <guid isPermaLink="true">http://localhost:4000/monero-forks-april-2018/</guid>
-        <comments>http://localhost:4000/monero-forks-april-2018/#comments</comments>
+        <link>https://www.altcointrading.net/monero-forks-april-2018/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/monero-forks-april-2018/</guid>
+        <comments>https://www.altcointrading.net/monero-forks-april-2018/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5087,7 +5087,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 &lt;p&gt;If you try to google phrases like &lt;code class=&quot;highlighter-rouge&quot;&gt;token launch marketing&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;ico marketing agency&lt;/code&gt;, you will get a lot of Adwords links at the top of the search result feed. Apparently, there is a lively market for service providers who are willing to work in the token economy.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/token-marketing/ico-marketing-google.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/token-marketing/ico-marketing-google.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/token-marketing/ico-marketing-google.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/token-marketing/ico-marketing-google.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: ICO marketing has been booming along with cryptocurrencies as a whole.&lt;/em&gt;&lt;/p&gt;
 
@@ -5105,13 +5105,13 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 &lt;p&gt;That brings us to the answer to where the token economy is most likely headed right now: One segment of Google Adwords that is projected to become even more competitive than it already is is the one that promotes token marketing services.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/token-marketing/tokens.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/token-marketing/tokens.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/token-marketing/tokens.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/token-marketing/tokens.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: One segment of keywords that is just now becoming highly competitive is the one that promotes marketing houses willing to promote token products.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Upon closer inspection, while one comes across names like &lt;a href=&quot;http://promotecrypto.com&quot;&gt;PromoteCrypto&lt;/a&gt;, great many of these marketing agencies are not native to crypto.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/token-marketing/olshansky.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/token-marketing/olshansky.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/token-marketing/olshansky.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/token-marketing/olshansky.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: Screenshot of olshansky.org, a consultancy that started offering the ICO angle.&lt;/em&gt;&lt;/p&gt;
 
@@ -5119,7 +5119,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 &lt;p&gt;Other generic service providers have recently rebranded too - web development agencies, social media and SEO clerks, PR professionals.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/token-marketing/searched.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/token-marketing/searched.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/token-marketing/searched.jpg&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/token-marketing/searched.jpg&quot; alt=&quot;Token Marketing #2: Agencies are more than happy about the bans&quot; title=&quot;AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Image: Screenshot of searched.io, a British full-stack digital agency that is now heavy on blockchain.&lt;/em&gt;&lt;/p&gt;
 
@@ -5145,7 +5145,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 <p>If you try to google phrases like <code class="highlighter-rouge">token launch marketing</code> or <code class="highlighter-rouge">ico marketing agency</code>, you will get a lot of Adwords links at the top of the search result feed. Apparently, there is a lively market for service providers who are willing to work in the token economy.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/token-marketing/ico-marketing-google.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/token-marketing/ico-marketing-google.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/token-marketing/ico-marketing-google.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/token-marketing/ico-marketing-google.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: ICO marketing has been booming along with cryptocurrencies as a whole.</em></p>
 
@@ -5163,13 +5163,13 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 <p>That brings us to the answer to where the token economy is most likely headed right now: One segment of Google Adwords that is projected to become even more competitive than it already is is the one that promotes token marketing services.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/token-marketing/tokens.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/token-marketing/tokens.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/token-marketing/tokens.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/token-marketing/tokens.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: One segment of keywords that is just now becoming highly competitive is the one that promotes marketing houses willing to promote token products.</em></p>
 
 <p>Upon closer inspection, while one comes across names like <a href="http://promotecrypto.com">PromoteCrypto</a>, great many of these marketing agencies are not native to crypto.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/token-marketing/olshansky.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/token-marketing/olshansky.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/token-marketing/olshansky.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/token-marketing/olshansky.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: Screenshot of olshansky.org, a consultancy that started offering the ICO angle.</em></p>
 
@@ -5177,7 +5177,7 @@ analysis paper will be posted to our website in the coming days”.</li>
 
 <p>Other generic service providers have recently rebranded too - web development agencies, social media and SEO clerks, PR professionals.</p>
 
-<p><a target="_blank" href="http://localhost:4000/features/token-marketing/searched.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/token-marketing/searched.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/token-marketing/searched.jpg" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/token-marketing/searched.jpg" alt="Token Marketing #2: Agencies are more than happy about the bans" title="AltcoinTrading.NET - Token Marketing #2: Agencies are more than happy about the bans" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: Screenshot of searched.io, a British full-stack digital agency that is now heavy on blockchain.</em></p>
 
@@ -5196,12 +5196,12 @@ analysis paper will be posted to our website in the coming days”.</li>
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/tagged/goodbye.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/tagged/goodbye.png" medium="image" />
 
         <pubDate>Tue, 10 Apr 2018 10:15:00 +0000</pubDate>
-        <link>http://localhost:4000/token-marketing-agencies/</link>
-        <guid isPermaLink="true">http://localhost:4000/token-marketing-agencies/</guid>
-        <comments>http://localhost:4000/token-marketing-agencies/#comments</comments>
+        <link>https://www.altcointrading.net/token-marketing-agencies/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/token-marketing-agencies/</guid>
+        <comments>https://www.altcointrading.net/token-marketing-agencies/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5333,12 +5333,12 @@ analysis paper will be posted to our website in the coming days”.</li>
 
         <author><![CDATA[ CryptoDisrupt ]]></author>
         <dc:creator><![CDATA[ CryptoDisrupt ]]></dc:creator>
-        <media:content url="http://localhost:4000/editorial/unsplash2/atnet-twitter.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash2/atnet-twitter.jpg" medium="image" />
 
         <pubDate>Sun, 08 Apr 2018 01:35:00 +0000</pubDate>
-        <link>http://localhost:4000/twitter-crypto-ban-info/</link>
-        <guid isPermaLink="true">http://localhost:4000/twitter-crypto-ban-info/</guid>
-        <comments>http://localhost:4000/twitter-crypto-ban-info/#comments</comments>
+        <link>https://www.altcointrading.net/twitter-crypto-ban-info/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/twitter-crypto-ban-info/</guid>
+        <comments>https://www.altcointrading.net/twitter-crypto-ban-info/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 

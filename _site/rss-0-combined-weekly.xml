@@ -7,15 +7,15 @@
       <![CDATA[  <h4>Oct 23 | Recent Most Read</h4> - Fidelity Full Data File https://www.thebusinessofcrypto.com/company/fidelity/<br> - Blokchain Gaming Companies Leaderboard https://www.thebusinessofcrypto.com/company/markets/gaming/<br> - Tokenization can boost startups in growing industries like home remodeling https://www.altcointrading.net/tokenization-startup-boost/ ]]>
     </description>
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title><![CDATA[ AltcoinTrading.NET ]]></title>
-      <link>http://localhost:4000</link>
+      <link>https://www.altcointrading.net</link>
     </image>
     <language>en</language>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-    <lastBuildDate>Sun, 01 Sep 2019 18:49:16 +0000</lastBuildDate>
+    <link>https://www.altcointrading.net</link>
+    <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Sep 2019 19:03:43 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,8 +23,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
         <![CDATA[
@@ -72,8 +72,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
             
@@ -101,9 +101,9 @@
             <![CDATA[
             <h4>Script Spotlight: Detrended Price Oscillator (DPO)</h4>
             <p>
-              <strong>Updated at 01 Sep 2019, 18:15 UTC in #TRADING</strong> - The Detrended Price Oscillator strategy tool from TradingView is similar to a moving average, but easier to read.
+              <strong>Updated at 01 Sep 2019, 18:53 UTC in #TRADING</strong> - The Detrended Price Oscillator strategy tool from TradingView is similar to a moving average, but easier to read.
             </p>
-            <p><a href="http://localhost:4000/detrended-price-oscillator/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/detrended-price-oscillator/">[Read it]</a></p>
             ]]>
             
             
@@ -135,6 +135,14 @@
             
             
             
+            
+            <![CDATA[
+            <h4>List of No-ICO Tools for Crypto Traders and Investors</h4>
+            <p>
+              <strong>Updated at 01 Sep 2019, 18:53 UTC in #NO-ICO</strong> - Curated list of tools for crypto traders. If you want to add a tool, comment below the article and also post your crypto address if you want people to send in donations.
+            </p>
+            <p><a href="https://www.altcointrading.net/tools/">[Read it]</a></p>
+            ]]>
             
             
             
@@ -183,8 +191,8 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-      <link>http://localhost:4000/airdrops/</link>
+      <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+      <link>https://www.altcointrading.net/airdrops/</link>
       <content:encoded>
         <ul>
         
@@ -199,8 +207,8 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
       </content:encoded>
@@ -211,7 +219,7 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Sun, 01 Sep 2019 18:49:16 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2019 19:03:43 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
         
