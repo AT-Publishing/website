@@ -2,12 +2,21 @@
 layout: at-trading
 
 note: 'Trading Strategy'
-tags: ['trading']
+categories: ["trading"]
+tags: ["cryptotrading", "trading-blog"]
+series: Hodl
+
+pinned: no
+date: 2019-09-12 01:10:00 +0100
+
+author: https://reddit.com/u/karlvonbahnhof
+author_name: KarlVonBahnhof
+author_twitter: "_Karlvonbahnhof"
+
 
 title: "Fundamental Value of Cryptoassets"
 description: "How to assess the fundamental value of alternative cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes."
-categories:
-- "basics"
+
 permalink: value/
 image:
 - "/editorial/urban/order.jpeg"

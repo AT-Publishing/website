@@ -4,6 +4,7 @@ published:  true
 guest:      true
 pinned:     true
 #canonical: ""
+series: Hodl
 
 stories: false
 genres: Blog

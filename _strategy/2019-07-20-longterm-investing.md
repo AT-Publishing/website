@@ -6,6 +6,7 @@ published: true
 comments: true
 identifier: lt072019
 layout: strategy
+series: Hodl
 
 title: "Crypto Investment Strategy: Step By Step Guide"
 description: "Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. "

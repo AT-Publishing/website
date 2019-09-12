@@ -19,9 +19,342 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Sep 2019 11:52:42 +0000</pubDate>
-    <lastBuildDate>Thu, 12 Sep 2019 11:52:42 +0000</lastBuildDate>
+    <pubDate>Thu, 12 Sep 2019 12:07:24 +0000</pubDate>
+    <lastBuildDate>Thu, 12 Sep 2019 12:07:24 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item turbo="true">
+        <title><![CDATA[ Fundamental Value of Cryptoassets ]]></title>
+        <description><![CDATA[ How to assess the fundamental value of alternative cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes. ]]></description>
+        <content:encoded><![CDATA[ &lt;p&gt;The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.&lt;/p&gt;
+
+&lt;p&gt;As the blockchain space grows though, frameworks have been developed to categorize types of cryptoassets. Even though a clear enough framework is still not in place and so the regulatory issues are probably going to stick around for a bit longer, using the classification that is already available can still help you decide whether you actually want to enter that market or not.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-altcoins&quot;&gt;Types of altcoins&lt;/h3&gt;
+
+&lt;p&gt;In 2016, when the first alt season started, the community liked to focus on differences in technology.&lt;/p&gt;
+
+&lt;p&gt;Namely, which technology is the most novel, disruptive or revolutionary.  Ethereum came about like this, prior to ETH there was no asset to act as a fuel for decentralized apps.&lt;/p&gt;
+
+&lt;p&gt;By 2018, we had hundreds of (somewhat) active cryptocurrency projects, each sporting an interesting technology tweak, but none having much practical use - perhaps with the exception of &lt;a href=&quot;https://www.thebusinessofcrypto.com/company/markets/gaming/&quot;&gt;decentralized gaming&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The relative success of dApp games indicated the focus shift from the tech onto how is the tech used.&lt;/p&gt;
+
+&lt;p&gt;This is where we still are today: The underlying technology is secondary; it may be the best known way to implement the function of the cryptocurrency but the function is decided first.&lt;/p&gt;
+
+&lt;h2 id=&quot;crypto-money&quot;&gt;Crypto-Money&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Cryptocurrencies as means of payment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some altcoins were developed as means of payment, in the same sense as Bitcoin was developed as means of payment.&lt;/p&gt;
+
+&lt;p&gt;A cryptocurrency developed as crypto-money addresses certain weaknesses of the conventional payment system.&lt;/p&gt;
+
+&lt;p&gt;One such issue is the inability to exchange money freely, even if it’s to an entity located in a far-away country that maybe doesn’t like your country’s president or religion.&lt;/p&gt;
+
+&lt;p&gt;This problem can also occur internally within a single country, in an attempt of total control over how individuals spend: &lt;a href=&quot;https://www.reddit.com/r/Bitcoin/comments/9cirfq/wait_now_argentina_is_in_a_full_on_currency/e5bdfut&quot;&gt;Here is a comment from 2018, where an upper middle class person in Argentina received an accusation in tax fraud because the revenue office does not believe she does not have a hired house cleaner&lt;/a&gt;. In the context of Argentina, the idea was probably to keep people from getting rid of the national currency which was on the brink of collapse at that time.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin can address most of the payment-related issues in the fiat world.&lt;/p&gt;
+
+&lt;p&gt;Alternative cryptocurrencies developed for payments typically attempt, in turn, to solve one of the “weaknesses” of Bitcoin:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implementing full privacy to advance the pseudonymous nature of Bitcoin (XMR)&lt;/li&gt;
+  &lt;li&gt;Focusing on scaling and transaction throughput (BCH, EOS, XRP)&lt;/li&gt;
+  &lt;li&gt;Lowering the energy consumptions of mining (PoS coins)&lt;/li&gt;
+  &lt;li&gt;Making transactions faster and cheap or even free (LTC, IOT)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Realistically, pseudonymous transactions and the transaction fee are only a problem for a subset of your normal everyday financial transactions.&lt;/p&gt;
+
+&lt;p&gt;Clearly XMR and full-privacy cryptocurrencies are a niche case. It is also not unreasonable to expect that BTC will be used for larger transactions, such as &lt;a href=&quot;/openlistings-houses-for-bitcoin/&quot;&gt;buying a house with Bitcoin&lt;/a&gt;, while tiny transactions would run on an alternative blockchain, such as ones between IoT devices.&lt;/p&gt;
+
+&lt;p&gt;The value of payment-focused cryptocurrencies derives from the strength of the network - traders follow metrics like network activity, number of ATMs, the size of the OTC market, payment implementations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Interesting Crypto-Money altcoins:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Monero&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Monero is scalable and mined in a decentralized fashion because XMR mining is done via GPU which limits the usage of ASICs (application-specific circuits).&lt;/p&gt;
+
+&lt;p&gt;Monero payments are unlinkable, untraceable, fully anonymous and mineable on any device with a little bit of redundant computational power. That makes XMR the &lt;a href=&quot;https://www.thebusinessofcrypto.com/articles/cryptojacking-economic-warfare/&quot;&gt;preferred cryptocurrency for cryptojacking&lt;/a&gt;, the easiest way to monetize illicit access into someone else’s device or sever.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DASH&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dash is short for digital cash. The pivotal properties of DASH are anonymous blockchain and masternode system. The privacy system is less bulletproof than the one of Monero but the implementation of payment gateways is more widespread because implementing DASH requires less work than implementing Monero.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Litecoin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;LTC used to be the second most popular altcoin before cryptocurrencies like ETH and XRP emerged. It was created to handle massive transaction volumes but so far, it was mostly used as a guinea pig for Bitcoin blockchain innovations due to the similarity of the two. Along with DOGE, it has been since its inception used by traders to move money between exchanges for less fees.&lt;/p&gt;
+
+&lt;h2 id=&quot;crypto-fuel&quot;&gt;Crypto-Fuel&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Cryptocurrencies as dApp tokens&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Some altcoins were developed as communication tokens: Whoever wants to engage with a decentralized app (dApp) needs to use an appropriate token to do that.&lt;/p&gt;
+
+&lt;p&gt;While that is still the case, on the part of the user it does not need to involve holding dozens of separate tokens since we have &lt;a href=&quot;/etheremon-kyber-network/&quot;&gt;projects like Kyber Network that can do atomic token swaps&lt;/a&gt; between different tokenized assets.&lt;/p&gt;
+
+&lt;p&gt;Crypto tokens are still publicly traded and used for speculation.&lt;/p&gt;
+
+&lt;p&gt;Vitalik Buterin, the creator of Ethereum, never endorsed ETH as a storage value. Why are these tokens speculated so much then? The Internet will point you to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Blue_Ocean_Strategy#Concept&quot;&gt;Blue ocean Strategy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When ETH first emerged, traders argued that crypto-fuel tokens were downplaying the monetary value of the coin on purpose: To show that it is &lt;em&gt;not just&lt;/em&gt; another “better money”. Tokens are a new category, one that first came to existence with blockchain, and demand for this type of asset was quickly created.&lt;/p&gt;
+
+&lt;p&gt;The value of crypto-fuel tokens is expected to surge with the demand, but ideally with an actual (non-speculative) demand. The non-speculative demand is still awaited to arrive one day in the future though.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Interesting Crypto-Fuel altcoins:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ether, ERC-20 fungible tokens&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ethereum is the original blockchain for the execution of complicated smart contracts. (Simple smart contracts like an escrow can run on the Bitcoin blockchain as well.)&lt;/p&gt;
+
+&lt;p&gt;At first, ETH was deemed the scalable cryptocurrency with fast and cheap transactions. This view was quickly shattered when gaming dApps became popular and started flooding the blockchain with data. Then came the ICO bubble, likewise showing how easy it is to make Ethereum transactions slow and expensive.&lt;/p&gt;
+
+&lt;p&gt;We have since got a new generation of app-platform cryptocurrencies that focus on scalability (EOS, ZIL) and we also got the sidechain implementation which allows for existence of decentralized cryptoasset exchanges and blockchain games that do not spam the network and are free to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A quick note about investing into tokens&lt;/em&gt;: Large amount of people hold Ethereum or tokens for investment. There in infinite amount of Ether to be mined but the inflation is kept low. Some argue that after the switch to PoS the monetary value of ETH could stabilize and make a good store of value.&lt;/p&gt;
+
+&lt;h2 id=&quot;crypto-vouchers&quot;&gt;Crypto-Vouchers&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Cryptoassets that can be exchanged for another predefined asset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stablecoins belong to this category: They are assets living on blockchain that have a value redeemable in another asset, like IOUs.&lt;/p&gt;
+
+&lt;p&gt;There can be IOUs for other assets than money, though. A cryptocurrency can also be a tokenized access to service or an ecommerce gift card.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security Tokens&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The concept of utility vs security token is still new.&lt;/p&gt;
+
+&lt;p&gt;It is a regulatory term used for tokens that represent an investment in entrepreneurial efforts of someone else, much like investing in stocks. This type of tokens is becoming regulated because they resemble stocks, an already regulated asset.&lt;/p&gt;
+
+&lt;p&gt;In the concept of a “decentralized organization”, anyone can become a “shareholder” by buying a token. The work of the organization is then focused on revenue generation in whatever the company decides to call their profit unit.&lt;/p&gt;
+
+&lt;p&gt;The monetary value of the token changes based on the organization’s revenues.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BitShares, DAO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;BitShares was the first platform coming up with the concept of decentralized organization.&lt;/p&gt;
+
+&lt;p&gt;The idea later became infamous with the fall of DAO, which &lt;a href=&quot;/dao-hack/&quot;&gt;was hacked&lt;/a&gt; but the consequences of the hack were mitigated by the ETH hard fork that produced ETC.&lt;/p&gt;
+
+&lt;h2 id=&quot;shitcoins&quot;&gt;Shitcoins&lt;/h2&gt;
+
+&lt;p&gt;The last category of alternative cryptocurrencies are shitcoins.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that some people will want to call perhaps EOS or Tezos a shitcoin, but they do not fall into this category.&lt;/p&gt;
+
+&lt;p&gt;Legitimate shitcoins are not a product of a cryptoasset project that somehow failed or disappointed, shitcoins are the cryptoassets that never had any value proposition in the first place.&lt;/p&gt;
+
+&lt;p&gt;We do see less of them now in the blockchain space. It is a now forgotten part of history but in 2016, the golden era of Poloniex, we did have coins that were seriously only created as an ego-blast of someone who could afford to pay the programmer. Max Keiser had his own coin, MaxCoin.&lt;/p&gt;
+
+&lt;p&gt;If you checked a shitcoin’s website, you would see random strings of meaningless buzzwords, such as&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Vcash was engineered to be innovative and forward-thinking. It prevents eavesdropping and censorship, promotes decentralized, energy efficient and instant network transactions. (- Taken from now defunct vanillacoin.net)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The value of shitcoins was always purely speculative. They might pump and you might be coming early enough to cash in but that’s it.&lt;/p&gt;
+
+&lt;p&gt;The 2017 edition of the shitcoin mania was the end of the ICO bubble - fake token sales with barely a landing page, fake LinkedIn profiles with fake names of fake team members, no plans to ever develop anything.&lt;/p&gt;
+
+&lt;p&gt;The actual people behind the scams would collect the crowdfunding and vanish, and like with every bubble there were some brave traders who earned good money flipping tokens of proven scams on the greater fool.&lt;/p&gt;
+
+&lt;p&gt;Starting from 2018 we see less of this activity - not because of regulation, but because of how crowded the gravy train of token offerings has gotten.&lt;/p&gt;
+
+&lt;p&gt;It is increasingly difficult to stand out just like it is increasingly difficult to pump and dump maturing cryptocurrencies.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency Assessment Framework: Function over Form. Ledger, [S.l.], v. 3, july 2018. ISSN 2379-5980. Available at: &lt;a href=&quot;http://ledgerjournal.org/ojs/index.php/ledger/article/view/121&quot;&gt;http://ledgerjournal.org/ojs/index.php/ledger/article/view/121&lt;/a&gt;. Date accessed: 22 sep. 2018. doi:&lt;a href=&quot;https://doi.org/10.5195/ledger.2018.121&quot;&gt;https://doi.org/10.5195/ledger.2018.121&lt;/a&gt;.&lt;/p&gt;
+ ]]></content:encoded>
+        <turbo:content><![CDATA[ <p>The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.</p>
+
+<p>As the blockchain space grows though, frameworks have been developed to categorize types of cryptoassets. Even though a clear enough framework is still not in place and so the regulatory issues are probably going to stick around for a bit longer, using the classification that is already available can still help you decide whether you actually want to enter that market or not.</p>
+
+<h3 id="types-of-altcoins">Types of altcoins</h3>
+
+<p>In 2016, when the first alt season started, the community liked to focus on differences in technology.</p>
+
+<p>Namely, which technology is the most novel, disruptive or revolutionary.  Ethereum came about like this, prior to ETH there was no asset to act as a fuel for decentralized apps.</p>
+
+<p>By 2018, we had hundreds of (somewhat) active cryptocurrency projects, each sporting an interesting technology tweak, but none having much practical use - perhaps with the exception of <a href="https://www.thebusinessofcrypto.com/company/markets/gaming/">decentralized gaming</a>.</p>
+
+<p>The relative success of dApp games indicated the focus shift from the tech onto how is the tech used.</p>
+
+<p>This is where we still are today: The underlying technology is secondary; it may be the best known way to implement the function of the cryptocurrency but the function is decided first.</p>
+
+<h2 id="crypto-money">Crypto-Money</h2>
+
+<p><strong>Cryptocurrencies as means of payment</strong></p>
+
+<p>Some altcoins were developed as means of payment, in the same sense as Bitcoin was developed as means of payment.</p>
+
+<p>A cryptocurrency developed as crypto-money addresses certain weaknesses of the conventional payment system.</p>
+
+<p>One such issue is the inability to exchange money freely, even if it’s to an entity located in a far-away country that maybe doesn’t like your country’s president or religion.</p>
+
+<p>This problem can also occur internally within a single country, in an attempt of total control over how individuals spend: <a href="https://www.reddit.com/r/Bitcoin/comments/9cirfq/wait_now_argentina_is_in_a_full_on_currency/e5bdfut">Here is a comment from 2018, where an upper middle class person in Argentina received an accusation in tax fraud because the revenue office does not believe she does not have a hired house cleaner</a>. In the context of Argentina, the idea was probably to keep people from getting rid of the national currency which was on the brink of collapse at that time.</p>
+
+<p>Bitcoin can address most of the payment-related issues in the fiat world.</p>
+
+<p>Alternative cryptocurrencies developed for payments typically attempt, in turn, to solve one of the “weaknesses” of Bitcoin:</p>
+
+<ul>
+  <li>Implementing full privacy to advance the pseudonymous nature of Bitcoin (XMR)</li>
+  <li>Focusing on scaling and transaction throughput (BCH, EOS, XRP)</li>
+  <li>Lowering the energy consumptions of mining (PoS coins)</li>
+  <li>Making transactions faster and cheap or even free (LTC, IOT)</li>
+</ul>
+
+<p>Realistically, pseudonymous transactions and the transaction fee are only a problem for a subset of your normal everyday financial transactions.</p>
+
+<p>Clearly XMR and full-privacy cryptocurrencies are a niche case. It is also not unreasonable to expect that BTC will be used for larger transactions, such as <a href="/openlistings-houses-for-bitcoin/">buying a house with Bitcoin</a>, while tiny transactions would run on an alternative blockchain, such as ones between IoT devices.</p>
+
+<p>The value of payment-focused cryptocurrencies derives from the strength of the network - traders follow metrics like network activity, number of ATMs, the size of the OTC market, payment implementations.</p>
+
+<p><strong>Interesting Crypto-Money altcoins:</strong></p>
+
+<ul>
+  <li>Monero</li>
+</ul>
+
+<p>Monero is scalable and mined in a decentralized fashion because XMR mining is done via GPU which limits the usage of ASICs (application-specific circuits).</p>
+
+<p>Monero payments are unlinkable, untraceable, fully anonymous and mineable on any device with a little bit of redundant computational power. That makes XMR the <a href="https://www.thebusinessofcrypto.com/articles/cryptojacking-economic-warfare/">preferred cryptocurrency for cryptojacking</a>, the easiest way to monetize illicit access into someone else’s device or sever.</p>
+
+<ul>
+  <li>DASH</li>
+</ul>
+
+<p>Dash is short for digital cash. The pivotal properties of DASH are anonymous blockchain and masternode system. The privacy system is less bulletproof than the one of Monero but the implementation of payment gateways is more widespread because implementing DASH requires less work than implementing Monero.</p>
+
+<ul>
+  <li>Litecoin</li>
+</ul>
+
+<p>LTC used to be the second most popular altcoin before cryptocurrencies like ETH and XRP emerged. It was created to handle massive transaction volumes but so far, it was mostly used as a guinea pig for Bitcoin blockchain innovations due to the similarity of the two. Along with DOGE, it has been since its inception used by traders to move money between exchanges for less fees.</p>
+
+<h2 id="crypto-fuel">Crypto-Fuel</h2>
+
+<p><strong>Cryptocurrencies as dApp tokens</strong></p>
+
+<p>Some altcoins were developed as communication tokens: Whoever wants to engage with a decentralized app (dApp) needs to use an appropriate token to do that.</p>
+
+<p>While that is still the case, on the part of the user it does not need to involve holding dozens of separate tokens since we have <a href="/etheremon-kyber-network/">projects like Kyber Network that can do atomic token swaps</a> between different tokenized assets.</p>
+
+<p>Crypto tokens are still publicly traded and used for speculation.</p>
+
+<p>Vitalik Buterin, the creator of Ethereum, never endorsed ETH as a storage value. Why are these tokens speculated so much then? The Internet will point you to the <a href="https://en.wikipedia.org/wiki/Blue_Ocean_Strategy#Concept">Blue ocean Strategy</a>.</p>
+
+<p>When ETH first emerged, traders argued that crypto-fuel tokens were downplaying the monetary value of the coin on purpose: To show that it is <em>not just</em> another “better money”. Tokens are a new category, one that first came to existence with blockchain, and demand for this type of asset was quickly created.</p>
+
+<p>The value of crypto-fuel tokens is expected to surge with the demand, but ideally with an actual (non-speculative) demand. The non-speculative demand is still awaited to arrive one day in the future though.</p>
+
+<p><strong>Interesting Crypto-Fuel altcoins:</strong></p>
+
+<ul>
+  <li>Ether, ERC-20 fungible tokens</li>
+</ul>
+
+<p>Ethereum is the original blockchain for the execution of complicated smart contracts. (Simple smart contracts like an escrow can run on the Bitcoin blockchain as well.)</p>
+
+<p>At first, ETH was deemed the scalable cryptocurrency with fast and cheap transactions. This view was quickly shattered when gaming dApps became popular and started flooding the blockchain with data. Then came the ICO bubble, likewise showing how easy it is to make Ethereum transactions slow and expensive.</p>
+
+<p>We have since got a new generation of app-platform cryptocurrencies that focus on scalability (EOS, ZIL) and we also got the sidechain implementation which allows for existence of decentralized cryptoasset exchanges and blockchain games that do not spam the network and are free to use.</p>
+
+<p><em>A quick note about investing into tokens</em>: Large amount of people hold Ethereum or tokens for investment. There in infinite amount of Ether to be mined but the inflation is kept low. Some argue that after the switch to PoS the monetary value of ETH could stabilize and make a good store of value.</p>
+
+<h2 id="crypto-vouchers">Crypto-Vouchers</h2>
+
+<p><strong>Cryptoassets that can be exchanged for another predefined asset</strong></p>
+
+<p>Stablecoins belong to this category: They are assets living on blockchain that have a value redeemable in another asset, like IOUs.</p>
+
+<p>There can be IOUs for other assets than money, though. A cryptocurrency can also be a tokenized access to service or an ecommerce gift card.</p>
+
+<p><strong>Security Tokens</strong></p>
+
+<p>The concept of utility vs security token is still new.</p>
+
+<p>It is a regulatory term used for tokens that represent an investment in entrepreneurial efforts of someone else, much like investing in stocks. This type of tokens is becoming regulated because they resemble stocks, an already regulated asset.</p>
+
+<p>In the concept of a “decentralized organization”, anyone can become a “shareholder” by buying a token. The work of the organization is then focused on revenue generation in whatever the company decides to call their profit unit.</p>
+
+<p>The monetary value of the token changes based on the organization’s revenues.</p>
+
+<ul>
+  <li>BitShares, DAO</li>
+</ul>
+
+<p>BitShares was the first platform coming up with the concept of decentralized organization.</p>
+
+<p>The idea later became infamous with the fall of DAO, which <a href="/dao-hack/">was hacked</a> but the consequences of the hack were mitigated by the ETH hard fork that produced ETC.</p>
+
+<h2 id="shitcoins">Shitcoins</h2>
+
+<p>The last category of alternative cryptocurrencies are shitcoins.</p>
+
+<p>It should be noted that some people will want to call perhaps EOS or Tezos a shitcoin, but they do not fall into this category.</p>
+
+<p>Legitimate shitcoins are not a product of a cryptoasset project that somehow failed or disappointed, shitcoins are the cryptoassets that never had any value proposition in the first place.</p>
+
+<p>We do see less of them now in the blockchain space. It is a now forgotten part of history but in 2016, the golden era of Poloniex, we did have coins that were seriously only created as an ego-blast of someone who could afford to pay the programmer. Max Keiser had his own coin, MaxCoin.</p>
+
+<p>If you checked a shitcoin’s website, you would see random strings of meaningless buzzwords, such as</p>
+
+<blockquote>
+  <p>Vcash was engineered to be innovative and forward-thinking. It prevents eavesdropping and censorship, promotes decentralized, energy efficient and instant network transactions. (- Taken from now defunct vanillacoin.net)</p>
+</blockquote>
+
+<p>The value of shitcoins was always purely speculative. They might pump and you might be coming early enough to cash in but that’s it.</p>
+
+<p>The 2017 edition of the shitcoin mania was the end of the ICO bubble - fake token sales with barely a landing page, fake LinkedIn profiles with fake names of fake team members, no plans to ever develop anything.</p>
+
+<p>The actual people behind the scams would collect the crowdfunding and vanish, and like with every bubble there were some brave traders who earned good money flipping tokens of proven scams on the greater fool.</p>
+
+<p>Starting from 2018 we see less of this activity - not because of regulation, but because of how crowded the gravy train of token offerings has gotten.</p>
+
+<p>It is increasingly difficult to stand out just like it is increasingly difficult to pump and dump maturing cryptocurrencies.</p>
+
+<h3 id="references">References</h3>
+
+<p>BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency Assessment Framework: Function over Form. Ledger, [S.l.], v. 3, july 2018. ISSN 2379-5980. Available at: <a href="http://ledgerjournal.org/ojs/index.php/ledger/article/view/121">http://ledgerjournal.org/ojs/index.php/ledger/article/view/121</a>. Date accessed: 22 sep. 2018. doi:<a href="https://doi.org/10.5195/ledger.2018.121">https://doi.org/10.5195/ledger.2018.121</a>.</p>
+ ]]></turbo:content>
+
+        <author><![CDATA[ KarlVonBahnhof ]]></author>
+        <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
+        <media:content url="https://www.altcointrading.net/editorial/urban/order.jpeg" medium="image" />
+
+        <pubDate>Thu, 12 Sep 2019 00:10:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/value/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/value/</guid>
+        <comments>https://www.altcointrading.net/value/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ cryptotrading ]]></category>
+        <category><![CDATA[ trading-blog ]]></category>
+        
+        <category><![CDATA[ trading ]]></category>
+        
+
+        <yandex:related>
+        
+        </yandex:related>
+
+      </item>
     
       <item turbo="true">
         <title><![CDATA[ Script Spotlight: Detrended Price Oscillator (DPO) ]]></title>
@@ -5211,144 +5544,6 @@ analysis paper will be posted to our website in the coming days”.</li>
         <category><![CDATA[ cryptocurrency-investing ]]></category>
         
         <category><![CDATA[ news ]]></category>
-        
-
-        <yandex:related>
-        
-        </yandex:related>
-
-      </item>
-    
-      <item turbo="true">
-        <title><![CDATA[ Token Marketing #1: Twitter's Crypto Ban ]]></title>
-        <description><![CDATA[ An intro to the seemingly anti-crypto shitstorm that hit all social media at the start of April 2018. ]]></description>
-        <content:encoded><![CDATA[ &lt;blockquote&gt;
-  &lt;p&gt;This is a guest article by the lovely folks of &lt;a target=&quot;_blank&quot; rel=&quot;nofollow&quot; href=&quot;http://cryptodisrupt.com&quot;&gt;CryptoDisrupt&lt;/a&gt;, the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe &lt;a href=&quot;https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg&quot;&gt;right here&lt;/a&gt;. Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Second post in series #TokenLaunchMarketing from Tuesday 10 April 2018 here: &lt;a href=&quot;/token-marketing-agencies/&quot;&gt;Token Marketing #2: Agencies are more than happy about the bans&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Twitter’s ban on crypto-related ads came into effect on Tuesday April the 3rd and saw the social blogging platform follow Google and Facebook’s lead in prohibiting most crypto-related media.&lt;/p&gt;
-
-&lt;p&gt;While it’s unsurprising to see Twitter follow the example of other internet giants, it is somewhat unusual to see Twitter roll out such a comprehensive ban. Twitter CEO Jack Dorsey seemed optimistic about crypto when &lt;a href=&quot;https://cointelegraph.com/news/twitter-takes-aim-at-dodgy-icos-but-throws-a-blanket-ban-on-all-crypto-advertising&quot;&gt;he said he believed it would one day be the backing currency&lt;/a&gt; of the internet and the world. Something has apparently changed since then.&lt;/p&gt;
-
-&lt;h4 id=&quot;reasons-for-the-social-media-ban&quot;&gt;Reasons for the social media ban&lt;/h4&gt;
-
-&lt;p&gt;What reasons could there be for the crypto ads ban?&lt;/p&gt;
-
-&lt;p&gt;  Twitter, Facebook, and Google have all given the same justification - the protection of customers from scammers. The real intent seems to be the protection of their reputations though.&lt;/p&gt;
-
-&lt;p&gt;It is reasonable since particularly for Facebook and Twitter are the top social media platforms and want to lead the industry’s standards. Social media have very vocal users, a platform’s reputation could be walloped if ads listed on their platforms delivered users into the hands of criminals.  &lt;/p&gt;
-
-&lt;p&gt;But this only explains a generic ban on all advertisements for ICOs. Why is Twitter still &lt;a href=&quot;https://twitter.com/nathanielpopper/status/978365437099458560&quot;&gt;more than happy to allow ads for public companies&lt;/a&gt; then?&lt;/p&gt;
-
-&lt;p&gt;Twitter itself has been a publicly traded company since its IPO in 2013.   To understand the motivation behind the widespread shunning of crypto media we need to look beyond the world of ICOs.&lt;/p&gt;
-
-&lt;p&gt;  &lt;strong&gt;Lack of regulation  &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The G20 summit last month failed to reach a consensus on how to regulate crypto and curb some of the problems that plague the crypto space. Though some nations and companies have tried to tackle these issues alone they have achieved varying degrees of success. That brings a lot of uncertainty into the industry.&lt;/p&gt;
-
-&lt;p&gt;In the wake of these developments we have seen a consensus of sorts from internet giants as they opt to steer clear.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;  Hacks&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;  These bans extend to ads for crypto exchanges and wallets so perhaps recent high-profile hacks played a role in the harshness of the response. In the wake of the Coincheck hack in which over $500m was stolen from a hot wallet, &lt;a href=&quot;https://news.bitcoin.com/132-customers-file-class-action-lawsuit-against-coincheck/&quot;&gt;more than a hundred customers filed class action lawsuit&lt;/a&gt; against the exchange.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Self-interest  &lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Giants like Twitter, Google and Facebook won’t be ignoring the potential of the blockchain technology. To think otherwise is naïve.&lt;/p&gt;
-
-&lt;p&gt;Mark Zuckerberg has &lt;a href=&quot;https://futurism.com/mark-zuckerberg-officially-considering-cryptocurrency-facebook/&quot;&gt;admitted that he is studying it&lt;/a&gt; and there are rumors that Google may be looking into issuing their own cryptocurrency.&lt;/p&gt;
-
-&lt;p&gt;Judging from this, one emerging possibility is that all these social media giants are to some extent motivated by the need to keep ahead of any possible competition. &lt;/p&gt;
-
-&lt;h4 id=&quot;ad-bans-arent-necessarily-bad&quot;&gt;Ad bans aren’t necessarily bad  &lt;/h4&gt;
-
-&lt;p&gt;Genuine ICO offerings suffer from the bans against crypto ads as it closes an avenue through which they can garner interest in their products/services.&lt;/p&gt;
-
-&lt;p&gt;However, it is unclear how and to what extent it affects them.   Cryptocurrencies have a way of selling themselves as various token communities spread hype on a variety of platforms.&lt;/p&gt;
-
-&lt;p&gt;Some companies &lt;a href=&quot;/category/no-ico/&quot;&gt;don’t even have ICOs&lt;/a&gt;, relying instead on the quality of their product to generate interest and others offer their tokens for free as part of a community Airdrop.&lt;/p&gt;
-
-&lt;p&gt;  Banning crypto ads does make it difficult for the laziest of scammers to gain traction. It may be allowing the best or most widely supported coins to thrive, and future developments in the technology could give Twitter and its peers a reason to soften their outlook.&lt;/p&gt;
-
-&lt;p&gt;That is a thing of the future though. For now it remains unclear what the social media ad bans will mean for the space but time will surely tell.&lt;/p&gt;
- ]]></content:encoded>
-        <turbo:content><![CDATA[ <blockquote>
-  <p>This is a guest article by the lovely folks of <a target="_blank" rel="nofollow" href="http://cryptodisrupt.com">CryptoDisrupt</a>, the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe <a href="https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg">right here</a>. Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.</p>
-</blockquote>
-
-<blockquote>
-  <p><strong>Second post in series #TokenLaunchMarketing from Tuesday 10 April 2018 here: <a href="/token-marketing-agencies/">Token Marketing #2: Agencies are more than happy about the bans</a></strong></p>
-</blockquote>
-
-<p>Twitter’s ban on crypto-related ads came into effect on Tuesday April the 3rd and saw the social blogging platform follow Google and Facebook’s lead in prohibiting most crypto-related media.</p>
-
-<p>While it’s unsurprising to see Twitter follow the example of other internet giants, it is somewhat unusual to see Twitter roll out such a comprehensive ban. Twitter CEO Jack Dorsey seemed optimistic about crypto when <a href="https://cointelegraph.com/news/twitter-takes-aim-at-dodgy-icos-but-throws-a-blanket-ban-on-all-crypto-advertising">he said he believed it would one day be the backing currency</a> of the internet and the world. Something has apparently changed since then.</p>
-
-<h4 id="reasons-for-the-social-media-ban">Reasons for the social media ban</h4>
-
-<p>What reasons could there be for the crypto ads ban?</p>
-
-<p>  Twitter, Facebook, and Google have all given the same justification - the protection of customers from scammers. The real intent seems to be the protection of their reputations though.</p>
-
-<p>It is reasonable since particularly for Facebook and Twitter are the top social media platforms and want to lead the industry’s standards. Social media have very vocal users, a platform’s reputation could be walloped if ads listed on their platforms delivered users into the hands of criminals.  </p>
-
-<p>But this only explains a generic ban on all advertisements for ICOs. Why is Twitter still <a href="https://twitter.com/nathanielpopper/status/978365437099458560">more than happy to allow ads for public companies</a> then?</p>
-
-<p>Twitter itself has been a publicly traded company since its IPO in 2013.   To understand the motivation behind the widespread shunning of crypto media we need to look beyond the world of ICOs.</p>
-
-<p>  <strong>Lack of regulation  </strong></p>
-
-<p>The G20 summit last month failed to reach a consensus on how to regulate crypto and curb some of the problems that plague the crypto space. Though some nations and companies have tried to tackle these issues alone they have achieved varying degrees of success. That brings a lot of uncertainty into the industry.</p>
-
-<p>In the wake of these developments we have seen a consensus of sorts from internet giants as they opt to steer clear.</p>
-
-<p><strong>  Hacks</strong></p>
-
-<p>  These bans extend to ads for crypto exchanges and wallets so perhaps recent high-profile hacks played a role in the harshness of the response. In the wake of the Coincheck hack in which over $500m was stolen from a hot wallet, <a href="https://news.bitcoin.com/132-customers-file-class-action-lawsuit-against-coincheck/">more than a hundred customers filed class action lawsuit</a> against the exchange.</p>
-
-<p><strong>Self-interest  </strong></p>
-
-<p>Giants like Twitter, Google and Facebook won’t be ignoring the potential of the blockchain technology. To think otherwise is naïve.</p>
-
-<p>Mark Zuckerberg has <a href="https://futurism.com/mark-zuckerberg-officially-considering-cryptocurrency-facebook/">admitted that he is studying it</a> and there are rumors that Google may be looking into issuing their own cryptocurrency.</p>
-
-<p>Judging from this, one emerging possibility is that all these social media giants are to some extent motivated by the need to keep ahead of any possible competition. </p>
-
-<h4 id="ad-bans-arent-necessarily-bad">Ad bans aren’t necessarily bad  </h4>
-
-<p>Genuine ICO offerings suffer from the bans against crypto ads as it closes an avenue through which they can garner interest in their products/services.</p>
-
-<p>However, it is unclear how and to what extent it affects them.   Cryptocurrencies have a way of selling themselves as various token communities spread hype on a variety of platforms.</p>
-
-<p>Some companies <a href="/category/no-ico/">don’t even have ICOs</a>, relying instead on the quality of their product to generate interest and others offer their tokens for free as part of a community Airdrop.</p>
-
-<p>  Banning crypto ads does make it difficult for the laziest of scammers to gain traction. It may be allowing the best or most widely supported coins to thrive, and future developments in the technology could give Twitter and its peers a reason to soften their outlook.</p>
-
-<p>That is a thing of the future though. For now it remains unclear what the social media ad bans will mean for the space but time will surely tell.</p>
- ]]></turbo:content>
-
-        <author><![CDATA[ CryptoDisrupt ]]></author>
-        <dc:creator><![CDATA[ CryptoDisrupt ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/unsplash2/atnet-twitter.jpg" medium="image" />
-
-        <pubDate>Sun, 08 Apr 2018 01:35:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/twitter-crypto-ban-info/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/twitter-crypto-ban-info/</guid>
-        <comments>https://www.altcointrading.net/twitter-crypto-ban-info/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ twitter ]]></category>
-        <category><![CDATA[ twitter-crypto-ban ]]></category>
-        <category><![CDATA[ cryptodisrupt ]]></category>
-        <category><![CDATA[ token-launch-marketing ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        
-        <category><![CDATA[ trading ]]></category>
         
 
         <yandex:related>
