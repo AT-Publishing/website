@@ -1,4 +1,4 @@
-title: "AltcoinTrading.NET" 
+title: "AltcoinTrading.NET"
 subtitle: "Trading strategies, crypto security primers, airdrops & service industry forming around crypto. Value is where the crowd isn't."
 description: "Independent cryptocurrency news analyses & opinions, technical trading strategies, the best tools for crypto trading or hodling and basic security guides. Follow us on Twitter @altcointrading_"
 baseurl: ""
@@ -410,6 +410,16 @@ layout="responsive">
 kk_bogo_lg: '<div class="containter-center"><a href="http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=5423&file_id=127" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/bogo.gif" alt="Keepkey bitcoin vault" data-original-width="1024px" data-original-height="512px" layout="responsive"></amp-img></a></div>'
 kk_728-90: '<div class="containter-center"><a href="http://keepkey.go2cloud.org/SHG1" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/kk_vault_728x90.png" alt="Keepkey wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 
+vtoro: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38">
+<amp-img itemprop="image"
+src="/cta/2019_banner_240x400.png"
+alt="Vaultoro Crypto Gold Exchange"
+data-original-width="240px"
+data-original-height="400px"
+width="240px" height="400px"
+layout="responsive">
+</amp-img></a></div><br>'
 
 fucksense:
   banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"

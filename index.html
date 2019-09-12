@@ -7,11 +7,12 @@ navi:
 
   <div class="row top">
         <div class="columns four">
-            <hr class="skinny">
             {{ site.mex_336x280 }}
-            <hr class="skinny">
+            <br>
             {% include updates/recently_box.html %}
-
+            <div class="smallad">
+               {% include home/smallad.html %}
+            </div>
         </div>
       {% for post in site.posts offset: 0 limit: 1 %}
         <div class="columns five">{% include home/columnupdates.html %}
@@ -31,13 +32,11 @@ navi:
         </div>
       {% endfor %}
       {% for post in site.posts offset: 1 limit: 1 %}
-        <div class="columns three atnet-second">
-          {% include home/columnupdates.html %}
-          <div class="smallad">
-             {% include home/smallad.html %}
-          </div>
-          {{ site.tvlovescrypto }}
-        </div>
+      <div class="columns three atnet-second">
+        {% include home/columnupdates.html %}
+        <br>
+        {{ site.tvlovescrypto }}
+      </div>
       {% endfor %}
   </div>
   <div class="row top top2">
@@ -56,9 +55,9 @@ navi:
       </div>
     </section>
     <section id="new-posts">
-      <section class="atnet-home-pressblock">
+      <!--<section class="atnet-home-pressblock">
         {% include home/pressblock.html %}
-      </section>
+      </section>-->
       <div id="paginated-tradingblog">
         <h2 class="tagged-as clear">More Crypto Trading Blog Articles</h2>
       </div>
@@ -131,11 +130,11 @@ navi:
     </section>
 
     <section class="atnet-home-bottom space">
-      {% include tags/tag-boc.html %}
+      {% include tags/series.html %}
     </section>
 
     <section class="atnet-home-bottom space">
-      {% include tags/series-dex.html %}
+      {% include tags/tag-boc.html %}
     </section>
 
     <section>

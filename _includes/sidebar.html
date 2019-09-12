@@ -1,7 +1,6 @@
 
 <section>
-  <hr class="skinny">
-  {{ site.tvlovescrypto }}
+  {{ site.vtoro }}
   <hr class="skinny">
   <amp-ad width=336 height=280
     type="adsense"
@@ -12,21 +11,23 @@
   <hr class="skinny">
 </section>
 
+<!--
 <section class="newsblade" id="newsnews">
     <h2 id="news">Newsblade</h2>
     <amp-iframe width=320 height=500px layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://atnet-feeds.netlify.com/newsblade"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
     </amp-iframe>
 </section>
-
+-->
 
 <div id="sidebar">
-  <section class="posts-security" id="gtm-sidebar-security">
-   {% include latestsecurity.html %}
-  </section>
   <section class="posts-security" id="gtm-sidebar-strategy">
     <h3>Crypto Trading Strategy:</h3>
    {% include lateststrategy.html %}
   </section>
+  <section class="posts-security" id="gtm-sidebar-security">
+   {% include latestsecurity.html %}
+  </section>
+
 
 
   <section>
