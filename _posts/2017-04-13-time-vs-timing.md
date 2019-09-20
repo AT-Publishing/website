@@ -13,26 +13,15 @@ image:
 image_alt:
 - "In the long run, time in the market beats timing the market."
 
-update: 2017-04-13 17:24
-
-comments: true
 stories: true
 
 tags: []
 
-genres: "Blog"
+genres: "Strategy"
 
 published: true
 
 ---
-
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
-
-_Image: {{page.image_alt[0]}}_
-
-________________________
-
-{{ site.ads.aads728 }}
 
 Let's take a quick look at the difference between trading and investing.
 
@@ -63,8 +52,6 @@ So, how should you look at an asset if you want to hold?
 3/ [Exchange volume per day](http://coinmarketcap.com/) and (anti)correlation with bitcoin to see how much of the use is just speculation.
 
 Of course all cryptocurrency is still very young though.
-
-{{ site.ads.aads728 }}
 
 
 ### An unlikely altcoin fundamental

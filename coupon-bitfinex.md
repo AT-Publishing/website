@@ -1,7 +1,7 @@
 ---
 published: true
 layout: page
-title: Ethfinex Referral coupn 5egV78YtlC 10% Fee Discount Coupon on Bitfinex
+title: DeversiFi Referral coupn 5egV78YtlC 10% Fee Discount Coupon on Bitfinex
 permalink: /coupon-bitfinex-5egv78ytlc/
 tags:
 - hidden
@@ -12,23 +12,21 @@ image:
 image_alt:
 - "Ethfinex and Bitfinex coupon referral code 5egV78YtlC"
 
-date: 2018-01-31 07:07:00 +0100
+date: 2019-09-19 07:07:00 +0100
 
 ---
 
-{{ site.ads.ethfinex728 }}
+#### About Ethfinex/DeversiFi
 
-#### About Ethfinex
+**Ethfinex.com is discontinued since 12 October 2019 and decentralized trading moves on to DeversiFi. Users who have balance on EthFinex will be able to access it through Bitfinex after the Ethfinex app goes offline.**
 
-Ethfinex is a decentralized cryptocurrency exchange that runs on the Ethereum blockchain. It is owned and maintained by the same company as the Bitfinex exchange, and your equity and other account information can be shared between those two if you choose so.
+DeversiFi is a decentralized cryptocurrency exchange that runs on that enables trading of tokens and any other cryptocurrency (even BTC) in it's 'wrapped' form. The platform is owned and maintained by the same company as the Bitfinex exchange, but it is [non-custodial](/dex-trading/).
 
-Ethfinex does not have a fee schedule, unlike Bitfinex, but traders can earn Nectar tokens (ERC20) for market-making. In other words, Ethfinex distributes a rebate for limit orders in the form of the Nectar token. The token can be traded for ETH, other crypto or fiat.
+On DeversiFi, you don't sign up and you trade directly from your [hardware or software cryptocurrency wallet](/altcoin-wallets/).
 
-Users get to vote which new ETH tokens they want to get listed on the exchange. The EthFinex community is also building knowledge base, blog about decentralized exchanges and an informative weekly newsletter.
+The interface is a little more modern than the interface of Bitfinex now, embedded charts with indicators for technical analysis are also provided by TradingView.
 
-The interface of Ethfinex is pretty much the same as the interface of Bitfinex, embedded charts are also provided by TradingView just like on Bitfinex.
-
-<a rel="nofollow" href="https://www.ethfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">EthFinex Decentralized Exchange</a> &nbsp; <a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" class="button" target="_blank">TradingView Charting Platform</a>
+<a rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">EthFinex Decentralized Exchange</a> &nbsp; <a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" class="button" target="_blank">TradingView Charting Platform</a>
 
 #### About Bitfinex
 
