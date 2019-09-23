@@ -16,8 +16,8 @@ image_alt:
 - This video was first posted on facebook after Gary's latest meetup
 image:
 - "/img/emotions/gary.png"
-categories:
-- news
+
+categories: ["reports"]
 
 
 about:

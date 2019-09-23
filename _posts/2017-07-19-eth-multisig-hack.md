@@ -18,7 +18,8 @@ image_alt:
 image:
 - "/uploads/2017/05/31/pexels-photo-247873.jpeg"
 chart: []
-categories: ['altcoins']
+categories: ["reports"]
+
 tags: ['eth-multisig-hack', 'security']
 identifier:
 - ethhack452525

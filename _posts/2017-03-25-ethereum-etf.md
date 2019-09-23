@@ -5,8 +5,9 @@ title: About the proposed Ethereum ETF
 description: The surveillance section of EtherIndex's rule change (which after the
   Winklevoss' BTC ETF seems to be the key part) proposes a strategy which might be
   more plausible.
-categories:
-- altcoins
+
+categories: ["reports"]
+
 permalink: ethereum-etf/
 image:
 - "/img/emotions/document.jpg"

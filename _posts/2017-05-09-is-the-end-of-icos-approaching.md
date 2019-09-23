@@ -17,8 +17,9 @@ image:
 - "/uploads/2017/05/09/facebook-ico-group.jpg"
 image_alt:
 - Screenshot from a closed Facebook ICO group (link at the bottom of the article)
-categories:
-- news
+
+categories: ["reports"]
+
 tags: []
 ---
 A lot has changed since [the last post on ICOs](https://www.altcointrading.net/ico-2016/) in summer 2016.

@@ -1,0 +1,122 @@
+---
+layout: default
+title: "History of cryptocurrency | Crypto Reports of Incidents 2016-2019"
+description: "Reports of key events forming the history of the cryptocurrency space; archived as published on AltcoinTrading.NET since 2016."
+permalink: "/reports/"
+category: "trading"
+featured_series: ["Hodl"]
+---
+{% assign security_items = site.security | sort:date | reverse %}
+
+<div class="container" id="crypto-trading-blog">
+
+  <div class="row top twelve columns">
+    <!--1-->
+     {% for post in site.posts offset: 0 limit: 1 %}
+       <div class="columns five">
+         <h4 class="featured">New in the Crypto Trading Blog</h4>
+         {% include home/columnupdates.html %}
+         <p>{{ post.description }}</p>
+         <p>
+           By <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name | capitalize }}</a> on {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC {% if post.categories %} in <b>#{{ post.categories[0] | upcase }}</b>{% endif %}
+         </p>
+         {% if post.related %}
+         <span class="note">Related to this article</span>
+         <ul class="popular">
+           {% for line in post.related %}{% for item in line %}
+           <li class="popular-item"><a href="{{ item[1] }}">{{ item[0] }}</a></li>
+           {% endfor %}{% endfor %}
+         </ul>
+         {% endif %}
+       </div>
+     {% endfor %}
+     <!-- 2-->
+     {% for post in site.posts offset: 1 limit: 1 %}
+       <div class="columns three atnet-second">
+         {% include home/columnupdates.html %}
+         <div class="smallad">
+            {% include home/smallad.html %}
+         </div>
+       </div>
+     {% endfor %}
+     <!--3-->
+     <div class="columns four">
+       <p>&nbsp;</p>
+         {% include updates/recently_box.html %}
+         <hr class="skinny">
+         {{ site.bf1 }}
+     </div>
+   </div>
+<!-- top -->
+
+    <div class="row">
+     <div class="eight columns">
+       <section>
+         <h2 class="tagged-as clear clearfix" id ="paginated-tradingblog">
+           History of cryptocurrency: Crypto Reports
+         </h2>
+           <ul class="popular">
+           {% for post in site.posts offset:7 %}
+           {% if post.categories contains "reports" %}
+           <li class="popular-item">
+             <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+               [Reported {{ post.date | date: "%d %b '%y" }}]&nbsp;<b>{{ post.title }}</b>
+              </a>
+              <br>
+               {{ post.description }}<br>
+               {% if post.last_modified_at %} - Last update: {{ post.last_modified_at | date: "%d %b '%y, %R" }}{% endif %}
+              <br>
+           </li>
+           {% endif %}
+           {% endfor %}
+           </ul>
+       </section>
+       <section>
+         {% if page.featured_series %}
+         {% for series in page.featured_series %}
+         <div class="row tagfeed-items clearfix">
+           <h2 class="tagged-as">Featured Series: #{{ series | upcase }}</h2>
+           {% for post in site.posts %}
+            {% if post.series contains series %}
+            <div class="columns six">
+              {% include home/columnupdates.html %}
+            </div>
+            {% endif %}
+           {% endfor %}
+         </div>
+         {% endfor %}
+         {% endif %}
+       </section>
+
+       <section>
+          <h2 class="tagged-as clear">Crypto Security & PSA</h2>
+          <ul class="popular">
+            {% for post in security_items %}
+            <li class="popular-item">
+              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+                <b>{{ post.title }}</b>
+                {% if post.last_modified_at %} Last update on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} /
+                {% if post.description %}{{post.description}}{% endif %}
+                <br>
+                {% for tag in post.tags %}
+                  <span>&nbsp;#{{ tag | upcase }}</span>
+                {% endfor %}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+        <section class="atnet-home-bottom space tagfeed-items">
+          {% include tags/tag-boc.html %}
+        </section>
+      </div><!-- 8 -->
+      <div class="four columns nomargintop">
+        <div>
+          {% include article/alsoread.html %}
+        </div>
+        <br>
+        <div class="clearfix"></div>
+        {% include sidebar.html %}
+      </div><!-- 4-->
+    </div><!-- row-->
+</div>

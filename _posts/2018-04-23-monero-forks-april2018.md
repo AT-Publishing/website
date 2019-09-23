@@ -30,7 +30,7 @@ image:
 image_alt:
 - "MoneroV fork is approaching quickly and in case you missed it, there were other forks earlier this month."
 
-categories: ["trading"]
+categories: ["reports"]
 tags: [ "fundamentals", "monero-forks", "cryptocurrency-investing"]
 chart: []
 

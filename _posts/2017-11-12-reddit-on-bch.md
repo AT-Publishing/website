@@ -29,7 +29,8 @@ permalink: bcash-rally-november-2017/
 image: ["/editorial/freelunch2.jpg"]
 image_alt: ["Best of Reddit regarding the Bcash November 2017 runup. Free Lunch image via Pexels."]
 
-categories: ["altcoins"]
+categories: ["reports"]
+
 chart: []
 tags: [ "bch", "bcash", "bitcoin", "bitcoin-cash", "roger-ver", "jihan-wu"]
 ---

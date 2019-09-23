@@ -14,8 +14,9 @@ image:
 permalink: "/all-green"
 description: A rare moment of all crypto in the green that must be noted, plus some
   more substantial posts from Reddit.
-categories:
-- trading
+
+categories: ["reports"]
+
 image_alt:
 - All crypto green @cryptowatch
 update: 2017-05-19 00:00

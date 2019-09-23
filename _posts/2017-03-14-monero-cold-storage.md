@@ -1,10 +1,11 @@
 ---
 layout: at-trading
 date: 2017-03-15 01:20
-title: "Monero Cold Storage: Current Situation"
+title: "Monero Cold Storage: 2017 Situation"
 description: "After years of promises about Monero hardware wallet implementations in 2018 we are finally getting ... Ledger wallet in beta. Let's not get out hopes up."
 
-categories: ["wallets", "altcoins"]
+categories: ["reports"]
+
 tags: ["monero", "cold-storage", "hardware-wallets", "monero-ledger", "monero-trezor"]
 
 permalink: monero-cold-storage/

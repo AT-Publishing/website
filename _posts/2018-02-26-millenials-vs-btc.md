@@ -26,7 +26,8 @@ image:
 image_alt:
 - "Millennials are such a big segment of the market that now with them entering their best earning years Thomas Lee is bullish even on the housing market. Rain image via pexels."
 
-categories: ["trading", "basics", "news"]
+categories: ["reports"]
+
 tags: [ "fundstrat", "thomas-lee", "fundamentals", "market-analysis", "cryptocurrency-investing"]
 chart: []
 

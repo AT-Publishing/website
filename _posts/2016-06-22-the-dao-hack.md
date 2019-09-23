@@ -2,7 +2,7 @@
 layout: at-trading
 title: "All about the DAO hack"
 description: "A summary of what is going on with DAO's and ETH"
-category: "trading"
+categories: ["reports"]
 permalink: dao-hack/
 image:
 - "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg"

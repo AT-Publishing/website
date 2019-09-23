@@ -25,7 +25,8 @@ permalink: tether-hack/
 image: ["/editorial/peanuts2.jpg"]
 image_alt: ["This is your captain speaking: There is absolutely no cause for alarm. Peanuts image via Pexels."]
 
-categories: ["exchanges"]
+categories: ["reports"]
+
 chart: []
 tags: [ "bitfinex", "tether", "USDT", "ifinex", "hack", "omni"]
 

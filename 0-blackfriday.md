@@ -2,8 +2,8 @@
 layout: marketing
 published: true
 
-title: "Early Black Friday Deals 2019 | Crypto Traders' Early Black Friday Deals 2019 & Anticipated Deals"
-description: "Black Friday Deals for cryptocurrency traders and hodlers. TradingView, Ledger wallet, Coinigy, TensorCharts and more deals early in 2019."
+title: "Black Friday Deals 2019 | Crypto Black Friday Deals 2019 & Anticipated Deals"
+description: "Black Friday Deals for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']

@@ -27,7 +27,8 @@ image:
 image_alt:
 - "This particular implementation is called c-lightning, was developed by Blockstream."
 
-categories: ["basics", "news"]
+categories: ["reports"]
+
 tags: ["blockstream", "lightning-network", "bitcoin-scaling", "micropayments", "ln"]
 chart: []
 

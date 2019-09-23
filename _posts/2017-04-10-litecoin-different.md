@@ -3,8 +3,8 @@ layout: at-trading
 date: 2017-04-09 11:20
 title: "Litecoin: This time it's different?"
 description: "It's always different until it isn't and it's never different until it is."
-categories:
-- "altcoins"
+categories: ["reports"]
+
 
 permalink: litecoin-pump/
 image:

@@ -16,9 +16,9 @@ image:
 - "/uploads/2017/05/20/eth-mainstream.png"
 image_alt:
 - Taken from SGTreport https://www.youtube.com/watch?v=EIFpeBEUa9s
-categories:
-- trading
-- altcoins
+
+categories: ["reports"]
+
 tags: []
 ---
 {{ site.mailchimp }} Most of the people who have invested in cryptocurrencies in the past years were not professional investors. And a big chunk of those who went into altcoin trading might not have been rich before they hodl'd Ethereum since it was $9 -- or something like that.

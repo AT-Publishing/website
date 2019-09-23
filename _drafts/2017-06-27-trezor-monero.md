@@ -1,13 +1,13 @@
 ---
 layout: at-trading
-published: true
+published: false
 comments: false
 stories: true
 genres: News
 tickers: ''
 author: https://reddit.com/u/KarlVonBahnhof
 author_name: KarlVonBahnhof
-title: Trezor might be getting Monero, too
+title: Trezor attempts of getting Monero, too
 date: 2017-06-27 00:09
 update: 2017-06-28 00:29
 description: It looks like Slush & Co. don't want to miss out after the Ledger people
@@ -18,9 +18,9 @@ image:
 - "/uploads/2017/06/28/slush-monero.jpg"
 image_alt:
 - According to a steemit article, there would be a bounty.
-categories:
 
-- altcoins
+categories: ["reports"]
+
 tags: ['update', 'monero', 'trezor', 'hardware wallet']
 identifier:
 - trezormonero

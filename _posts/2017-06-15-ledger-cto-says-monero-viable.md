@@ -16,10 +16,9 @@ image:
 - "/uploads/2017/06/15/ledger-monero.png"
 image_alt:
 - Screen of the thread on r/ledgerwallet
-categories:
 
-- wallets
-- altcoins
+categories: ["reports"]
+
 update: '2017-06-15T10:45:15.570Z'
 tags: []
 ---
