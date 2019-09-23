@@ -10,45 +10,6 @@ featured_series: ["Hodl"]
 
 <div class="container" id="crypto-trading-blog">
 
-  <div class="row top twelve columns">
-    <!--1-->
-     {% for post in site.posts offset: 0 limit: 1 %}
-       <div class="columns five">
-         <h4 class="featured">New in the Crypto Trading Blog</h4>
-         {% include home/columnupdates.html %}
-         <p>{{ post.description }}</p>
-         <p>
-           By <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name | capitalize }}</a> on {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC {% if post.categories %} in <b>#{{ post.categories[0] | upcase }}</b>{% endif %}
-         </p>
-         {% if post.related %}
-         <span class="note">Related to this article</span>
-         <ul class="popular">
-           {% for line in post.related %}{% for item in line %}
-           <li class="popular-item"><a href="{{ item[1] }}">{{ item[0] }}</a></li>
-           {% endfor %}{% endfor %}
-         </ul>
-         {% endif %}
-       </div>
-     {% endfor %}
-     <!-- 2-->
-     {% for post in site.posts offset: 1 limit: 1 %}
-       <div class="columns three atnet-second">
-         {% include home/columnupdates.html %}
-         <div class="smallad">
-            {% include home/smallad.html %}
-         </div>
-       </div>
-     {% endfor %}
-     <!--3-->
-     <div class="columns four">
-       <p>&nbsp;</p>
-         {% include updates/recently_box.html %}
-         <hr class="skinny">
-         {{ site.bf1 }}
-     </div>
-   </div>
-<!-- top -->
-
     <div class="row">
      <div class="eight columns">
        <section>
@@ -119,4 +80,39 @@ featured_series: ["Hodl"]
         {% include sidebar.html %}
       </div><!-- 4-->
     </div><!-- row-->
+    <div class="row top twelve columns">
+       {% for post in site.posts offset: 0 limit: 1 %}
+         <div class="columns five">
+           <h4 class="featured">New in the Crypto Trading Blog</h4>
+           {% include home/columnupdates.html %}
+           <p>{{ post.description }}</p>
+           <p>
+             By <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name | capitalize }}</a> on {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC {% if post.categories %} in <b>#{{ post.categories[0] | upcase }}</b>{% endif %}
+           </p>
+           {% if post.related %}
+           <span class="note">Related to this article</span>
+           <ul class="popular">
+             {% for line in post.related %}{% for item in line %}
+             <li class="popular-item"><a href="{{ item[1] }}">{{ item[0] }}</a></li>
+             {% endfor %}{% endfor %}
+           </ul>
+           {% endif %}
+         </div>
+       {% endfor %}
+       {% for post in site.posts offset: 1 limit: 1 %}
+         <div class="columns three atnet-second">
+           {% include home/columnupdates.html %}
+           <div class="smallad">
+              {% include home/smallad.html %}
+           </div>
+         </div>
+       {% endfor %}
+       <div class="columns four">
+         <p>&nbsp;</p>
+           {% include updates/recently_box.html %}
+           <hr class="skinny">
+           {{ site.bf1 }}
+       </div>
+     </div>
+  <!-- top -->
 </div>
