@@ -3,16 +3,14 @@ layout: at-trading
 published: true
 guest: true
 pinned: false
-#canonical: "https://www.thebusinessofcrypto.com/articles/shocking-facts-about-cryptocurrency-heists-infographics"
 
-date: 2019-05-04 17:22:00 +0700
+date: 2019-09-24 05:22:00 -0300
 
-title: "Crypto Wallet Types by Use Case"
+title: "Crypto Wallets by Use Case"
 description: "Arguably the core of 'be your own bank' principle - How did crypto wallets evolve and what are the features you're looking for, as a trader?"
 
-author: https://wethecryptos.net/
-author_name: 'WeTheCryptos & AltcoinTrading.NET'
-author_twitter: '@wethecryptos'
+author_name: 'AltcoinTrading.NET'
+author_twitter: '@dianapy88'
 editor_name: Diana Trang
 
 stories: false
@@ -33,10 +31,10 @@ tags: ['jaxx', 'exodus', 'ledger', 'trezor', 'electrum', 'mymonero', 'business-o
 chart: []
 
 related:
-- {"Are you better off trading bitcoin or forex?": "/crypto-trading-vs-forex-trading-review/"}
 - {"All Crypto Security Primers on AltcoinTrading.NET": "/security/"}
-- {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
 - {"Best Altcoin Wallets (2019)": "/altcoin-wallets/"}
+- {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
+- {"Are you better off trading bitcoin or forex?": "/crypto-trading-vs-forex-trading-review/"}
 
 ---
 
@@ -48,7 +46,7 @@ Since the inception of Bitcoin, wallets have always been an integral part of the
 
 People who are only in crypto for the investment might be blind to it, but the following is a simple fact: Should we be interested in such a thing, crypto wallets can be our own personal banks.
 
-Nonetheless, it's 2019. There are [banks that store crypto](https://wethecryptos.net/banks-that-accept-bitcoins/) for their clients - providing cryptocurrency custody service for them, and to most of their clients it will seem that the concept of personal storage is somewhat unnecessary. After all, it is like in every line of commerce: Someone charges a fee for making a complex thing simple to handle.
+Nonetheless, it's 2019. There are banks that store crypto for their clients - providing cryptocurrency custody service for them, and to most of their clients it will seem that the concept of personal storage is somewhat unnecessary. After all, it is like in every line of commerce: Someone charges a fee for making a complex thing simple to handle.
 
 You know what they say though - Not your keys, not your coin. Letting someone else take care of your cryptocurrency introduces the element of trust into crypto, and if this were sensible, we wouldn't have cryptocurrencies at all because everyone would be perfectly happy with fiat.
 
@@ -70,7 +68,7 @@ By now, probably all of these primitive brainwallets have been drained by hacker
 
 #### Crypto wallets by their purpose
 
-There are a couple different [kinds of crypto wallets](https://wethecryptos.net/different-types-of-crypto-wallets/) out there:
+There are a couple different [kinds of crypto wallets](/altcoin-wallets/) out there:
 
 **Paper wallet** - For this kind of wallet, your private keys and public addresses are printed on a piece of paper. If you can physically manage the paper, this will be your safest storage option that doesn't even require a lot of technical skill. It is not feasible to use a paper wallet for daily transactions though.
 
@@ -115,7 +113,7 @@ Trezor is probably the most user-friendly hardware wallet around, even though in
 
 One of the oldest and most highly regarded desktop wallets, Electrum is available for download on Windows, Mac OS X, Linux, and Android. It has the ability to work with some physical wallets and offers a great deal of flexibility.
 
-Electrum is a lightweight Bitcoin wallet where the lightweight means you don't need to download the whole blockchain - Electrum has its own network of trusted nodes. That is a convenience but also a limitation, as the [Electrum node network has been under a severe DDoS attack since April 2019](https://twitter.com/altcointrading_/status/1123080686288740352).
+Electrum is a lightweight Bitcoin wallet where the lightweight means you don't need to download the whole blockchain - Electrum has its own network of trusted nodes. That is a convenience but also a limitation, as the [Electrum node network was under a severe DDoS attack through April 2019](https://twitter.com/altcointrading_/status/1123080686288740352).
 
 **Blockchain.com**
 
@@ -123,5 +121,4 @@ Formerly Blockchain.info, this is one of the more secure crypto wallet services 
 
 #### Where now?
 
-* Find more on particular wallets in your [older article on altcoin wallets](/altcoin-wallets/).
-* If you're looking to buy a hardware wallet, there are discount offers throughout the year. We keep the good ones listed [here](/blackfriday/).
+* If you're looking to buy a commercial hardware wallet, there are discount offers throughout the year. We keep the good ones listed [here](/blackfriday/).
