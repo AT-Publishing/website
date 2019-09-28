@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 24 Sep 2019 10:02:52 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Sep 2019 10:02:52 +0000</lastBuildDate>
+    <pubDate>Sat, 28 Sep 2019 17:42:45 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Sep 2019 17:42:45 +0000</lastBuildDate>
 
     
       <item>
@@ -336,6 +336,36 @@
         <category>trading-strategy</category>
         
         <category>crypto-trading</category>
+        
+        
+        <category>trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>The Case for DCA</title>
+        <description>Actually crunching the numbers for you.</description>
+
+        <pubDate>Sat, 28 Sep 2019 00:41:00 +0000</pubDate>
+
+        <author>AltcoinTrading.NET@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/strat/dca.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/dollar-cost-averaging</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/dollar-cost-averaging</guid>
+
+        
+        <category>hodl-strategy</category>
+        
+        <category>crypto-investment-strategy</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>dollar-cost-averaging</category>
         
         
         <category>trading</category>

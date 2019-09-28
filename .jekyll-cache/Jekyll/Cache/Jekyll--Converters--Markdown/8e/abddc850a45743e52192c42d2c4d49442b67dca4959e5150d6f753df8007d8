@@ -1,5 +1,38 @@
-I"±4<section id="strategy-feed">
+I"#9<section id="strategy-feed">
 
+
+<div class="row"><!-- fucking row -->
+
+  <div class="six columns thumb-wrap">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="/strat/dca.jpg" alt="The Case for DCA - Crypto Trading Strategy" layout="responsive" data-original-width="720px" data-original-height="360px" width="353px" height="190px">
+        </amp-img>
+      </figure>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="The Case for DCA" href="/strategy/dollar-cost-averaging">
+          <span class="tag custom-note">TRADING&nbsp;STRATEGY</span>&nbsp;The Case for DCA
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>Actually crunching the numbers for you.</b>
+    </p>
+    <p>
+      Dollar Cost Averaging Definition
+
+
+  Dollar cost averaging, or DCA for short, means investing certain set amount of money into an asset on a regula...
+    </p>
+    <p>
+      <a title="The Case for DCA" href="/strategy/dollar-cost-averaging">
+        Read The Case for DCA in full &gt;&gt;
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
 
 <div class="row"><!-- fucking row -->
 
