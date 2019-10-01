@@ -3,7 +3,7 @@ layout: marketing
 published: true
 
 title: "Black Friday Deals 2019 | Crypto Black Friday Deals 2019 & Anticipated Deals"
-description: "Black Friday Deals for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
+description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
 image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
@@ -12,7 +12,7 @@ author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
-## Black Friday 2019 - Crypto Deals
+## Crypto Black Friday 2019
 
 **Some tools for crypto traders are offering early deals before Black Friday 2019.**
 
@@ -81,7 +81,7 @@ The cashback offer requires sign up with an email.
 
 ## Crypto Deals from past Black Fridays
 
-#### TradingView Black Friday: 40-60% OFF the PRO plans
+#### TradingView Black Friday Sale: 40-60% OFF the PRO plans
 
 {{ site.stars.five }}
 
@@ -103,7 +103,7 @@ The PRO TradingView subscription with BlackFriday deal costs monthly the same ra
 
 <b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
 
-#### TensorCharts Black Friday: 50% OFF the Premium plan
+#### TensorCharts Black Friday Sale: 50% OFF the Premium plan
 
 TensorCharts is an advanced charting platform focusing on both crypto and newly also legacy trading, so that you never get bored.
 
@@ -126,7 +126,7 @@ For BlackFriday, Tensorcharts usually mark down their Premium plan by **full 50%
 <b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
 
 
-#### Coinigy Black Friday: 75% OFF subscription plans
+#### Coinigy Black Friday Sale: 75% OFF subscription plans
 
 {{ site.stars.four }}
 
@@ -140,7 +140,7 @@ Through Black Friday 2018, Coinigy offered discounts **up to 75% on annual accou
 
 <b>Start with <a rel="nofollow" href="https://www.coinigy.com/?r=4bee056c">Coinigy 30 day free trial</a> and if you like the free tier, upgrade the next Black Friday.</b>
 
-#### Ledger Nano S Black Friday: up to 50% OFF hardware wallets
+#### Ledger Nano S Black Friday Sale: up to 50% OFF hardware wallets
 
 {{ site.stars.five }}
 
@@ -207,7 +207,6 @@ It is expected that due to the increasing competition and also the wider product
 
 <div id="tradingview"></div>
 
-
 ### TradingView Pro Black Friday Deal
 
 TradingView has yearly Black Friday offer for a limited time where they go down with the subscription price considerably. Depending on your PRO plan, you end up with up to 50% discount.
@@ -262,15 +261,3 @@ Ledger Nano S currently retails at a regular price of **up to 69.90 EUR** (price
 <a rel="nofollow"  class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
 
 <div id="trezor"></div>
-
-### Buy Trezor wallet on Black Friday
-
-Trezor is currently the second most popular hardware wallet for BTC and alternative cryptocurrencies. They lost a bunch of bitcoiner clients due to their unclear messages regarding the BTC forks support. There was also recently a [vulnerability found in Trezor wallets that was patched before it was exploited](https://www.altcointrading.net/trezor-hack). [Learn more about Trezor vs Ledger here](https://www.altcointrading.net/altcoin-wallets/).
-
-Trezor supports Bitcoin, Litecoin, Zcash, Dash, Ethereum and ERC20 via MyEtherWallet.
-
-The regular price of Trezor wallet is 99 USD per device but on Black Friday customers get 20 USD off. Trezors ship via DHL signed parcels and come sealed -- if your seal is damaged, you will get a new device or refund.
-
-SatoshiLabs, the company behind Trezor, will announce the [2017 deals on their blog](https://blog.trezor.io).
-
-<a rel="nofollow" class="button" href="https://shop.trezor.io/?a=fany@tutanota.com">See Trezor current offers</a>
