@@ -42,8 +42,6 @@ The price for the Tradingview subscription with crypto payments is fixed in Bitc
 
 <b>Go to the crypto offer homepage of this <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
-
-
 #### Ledger Nano X Discount
 
 Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale.
@@ -51,6 +49,10 @@ Ledger Nano X is a new product, and as you know, newly launched tech toys normal
 If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack above, your only option is to get the <a href="https://hodlerscashback.com/hi/#shop">3% Ledger Nano X Cashback</a>.
 
 It's not much, but it sure is better than nothing.
+
+If you already have a Ledger Nano X but want another one because you hold more altcoins that fits into the wallet's memory, get the new ["To the Moon" edition of Ledger Nano X](http://bit.ly/2oa15vh) - this way you will be able to tell the wallets apart.
+
+If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.
 
 
 #### Ledger Wallet Backup Bundle
