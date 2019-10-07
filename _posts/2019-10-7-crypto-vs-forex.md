@@ -5,7 +5,7 @@ guest: false
 pinned: no
 note: 'Trading Strategy'
 
-date: 2019-08-21 10:31:00 +0100
+date: 2019-10-07 00:31:00 +0100
 
 title: "Crypto vs Forex Trading: How do they compare?"
 description: "Are you better off trading bitcoin or forex? Ultimately, it’s about picking the battles, and the right trading strategy."
@@ -46,7 +46,9 @@ related:
 
 The year 2017 meant a breakthrough for bitcoin and cryptocurrencies. Along with the wild changes in prices on the market, the business of crypto trading grew accordingly.
 
-Bitcoin and cryptocurrencies suddenly moved from a niche curiosity that survives thanks to obscure online forums to the radar of everybody who invests or trades on the markets.
+The years 2018 and 2019 saw the opposite move: Crypto traders bored with ranging market going nowhere started venturing into forex, oil and other legacy markets.
+
+One thing remains though: Bitcoin and cryptocurrencies moved from a niche curiosity propped by obscure online forums to the radar of everybody who invests or trades on the markets.
 
 ### The Difference between Forex and Crypto Market
 
