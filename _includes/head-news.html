@@ -153,8 +153,7 @@
    "image":[
      {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
      {% endfor %}
-   ],
-   {% if page.about %}
+   ]{% if page.about %},
    "about": {
      "@type": "Thing",
      "name": "{{ page.about.name }}",
