@@ -4,6 +4,7 @@ navi:
  exclude: yes
 ---
 <div class="container">
+  {% assign toparticles = site.posts | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
 
   <div class="row top">
         <div class="columns four">
