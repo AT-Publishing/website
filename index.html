@@ -3,6 +3,9 @@ layout: default
 navi:
  exclude: yes
 ---
+{% assign toparticles = site.posts | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
+
+
 <div class="container">
 
   <div class="row top">
@@ -14,7 +17,7 @@ navi:
                {% include home/smallad.html %}
             </div>
         </div>
-      {% for post in site.posts offset: 0 limit: 1 %}
+      {% for post in toparticles offset: 0 limit: 1 %}
         <div class="columns five">{% include home/columnupdates.html %}
           <p>{{ post.description }}</p>
           <p>
@@ -31,18 +34,21 @@ navi:
 
         </div>
       {% endfor %}
-      {% for post in site.posts offset: 1 limit: 1 %}
+
       <div class="columns three atnet-second">
+        {% for post in toparticles offset: 1 limit: 1 %}
         {% include home/columnupdates.html %}
-        <br>
-        {{ site.tvlovescrypto }}
+        {% endfor %}
+        <span class="note">Latest in Strategy:</span><br>
+        {% for post in site.strategy offset: 0 limit: 1 %}
+        {% include home/columnupdates.html %}
+        {% endfor %}
         <br>
         {{ site.bf1 }}
       </div>
-      {% endfor %}
   </div>
   <div class="row top top2">
-      {% for post in site.posts offset: 2 limit: 3 %}
+      {% for post in toparticles offset: 2 limit: 3 %}
         <div class="columns four atnet-last-2">{% include home/columnupdates.html %}</div>
       {% endfor %}
   </div>
@@ -61,7 +67,7 @@ navi:
         {% include home/pressblock.html %}
       </section>-->
       <div id="paginated-tradingblog">
-        <h2 class="tagged-as clear">More Crypto Trading Blog Articles</h2>
+        <h2 class="tagged-as clear">All Articles from AltcoinTrading.NET</h2>
       </div>
       <!-- Pagination links -->
       <div class="pagination">
@@ -79,7 +85,7 @@ navi:
       </div>
 
 
-      {% for post in paginator.posts offset:2  %}
+      {% for post in paginator.posts  %}
 
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">

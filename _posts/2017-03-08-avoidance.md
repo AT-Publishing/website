@@ -1,115 +1,131 @@
 ---
-layout: at-trading
-title: "Avoidance Strategy in Altcoin Trading"
-description: "The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies?"
-categories:
-- "trading"
+title: "Wyckoff Avoidance Strategy in Cryptocurrency Trading"
+description: "Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?"
+note: "Trading Strategy"
+pinned: yes
+date: 2019-10-09 05:02:00 -0300
+
+categories: [trading]
+tags: ["wyckoff-method", "swing-trading", "trading-strategy"]
+
 permalink: wyckoff-avoidance/
 image:
-- "/img/emotions/standby.JPG"
+- "/features/wyckoff-avoidance-crypto.png"
 - "/img/trading/cmc-snapshot.jpg"
 - "/img/trading/btc-rsidiv.png"
 - "/img/trading/bbands1.jpg"
 image_alt:
-- "Altcoin trading strategy: Wyckoffian avoidance?"
-update: 2017-03-09
-published: true
-
-comments: false
-note: 'Trading Strategy'
-tags: []
-
+- "Wyckoff Method avoidance in crypto trading strategy"
+layout: at-trading
 
 about:
- name: "wyckoff avoidance"
- sameas: ["stockcharts.com/articles/wyckoff/2017/02/avoidance-strategy.html", "www.wyckoffanalytics.com/wyckoff-power-charting-blog/"]
+ name: "wyckoff method"
+ sameas: ["https://www.altcointrading.net/strategy/wyckoff-ranging-markets"]
 
+series: Wyckoff
+
+author: https://reddit.com/u/karlvonbahnhof
+author_name: KarlVonBahnhof
+author_twitter: "_Karlvonbahnhof"
+
+
+related:
+- {"Strategy - Wyckoff Method long-read": "/strategy/wyckoff/"}
+- {"Fundamental Value of Cryptoassets": "/value/"}
+- {"On PoW Mining as a Fundamental": "/fundamentals-mining-hashrate-vs-price/"}
+- {"Strategy - How to vet ICOs": "/strategy/how-to-vet-icos/"}
 
 ---
 
-{{ site.tv_728-90_animated }}
-
 Wyckoff method is getting popular in the cryptocurrency space mainly because John Bollinger the author of bbands keeps recommending it on twitter.
 
-While it can be called a "legacy" thing no doubt it is useful for crypto as well:
+While it is a method that has been used heavily on legacy stock markets through a good part of the 20th century, there is no doubt it is useful for crypto as well. The versatility of the Wyckoff method lies in it being so fundamental that it is applicable in most market conditions, as far as they can be analyzed technically.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://twitter.com/kenzboard">@kenzboard</a> <a href="https://twitter.com/MrJozza">@MrJozza</a> Yeah, Wyckoff is as near to a universal key to understanding trading as we have.</p>&mdash; John Bollinger (@bbands) <a href="https://twitter.com/bbands/status/835170564431962112">24 February 2017</a></blockquote>
 
 
-#### The value trading
-
-The Wyckoff style is to trade only the best stocks in the leading sectors. Can you use this motto when trading cryptocurrencies? It is an emerging asset class but figuring out which cryptocurrency has actual **value** will make your decisions a lot clearer:
-
-* You want to buy/hold a *valuable* asset through shorter timespans when the *price* is not reflecting the value (yet).
-* You want to take profits and abandon an asset that is appreciating in the short term because of things like tiny market hence manipulation, or media hype.
-
-#### Altcoin Trading Strategy: How strong a coin is
-
-> The Wyckoffian mission is to trade and invest in the best stocks in the leading Industry Groups. We have been studying examples of leadership characteristics using **Wyckoff Analysis** in combination with **Relative Strength**. [...] Always seeking the strongest stocks in the strongest groups. It is also a worthwhile exercise to study groups that are stalling and falling from favor. [StockCharts](http://stockcharts.com/articles/wyckoff/2017/02/avoidance-strategy.html)
-
-The key point is that a leader of a group dies not remain a leader indefinitely. At some point the leader leaves the limelight, becomes a laggard and may stay a laggard for some time. That's what the Wyckoff avoidance strategy is about - spotting the transition from leader to laggard and avoiding longing that market rather than getting to think in forever terms.  
-
-This transition is a substantial change, technically you should be looking for it on longer timeframes (daily, 3D or weekly charts).
+{{ site.tv_728-90_animated }}
 
 
+#### Wyckoff avoidance is the value trading
 
-#### Select assets that are in harmony with the market
+In simple terms, the Wyckoff avoidance method means to trade only the best assets in the leading market sectors.
+
+Crypto is an emerging asset class, but there are already ways of determining which cryptocurrency has [fundamental value](/value/). Focusing on the opportunities in those markets makes your decisions process much clearer:
+
+* You want to buy/hold a fundamentally valuable asset when its price is not reflecting its value yet.
+* You want to take profits and abandon an asset that is appreciating in the short term because of things like tiny market inefficiency or news hype.
+
+## Altcoin Trading Strategy: How strong a coin is
+
+From [StockCharts](http://stockcharts.com/articles/wyckoff/2017/02/avoidance-strategy.html), talking about trading legacy stocks with Wyckoff avoidance method:
+
+> The Wyckoffian mission is to trade and invest in the best stocks in the leading Industry Groups. We have been studying examples of leadership characteristics using **Wyckoff Analysis** in combination with **relative strength** [of industry assets as compared with one another]. Always be seeking the **strongest stocks in the strongest groups** [but also] study the asset groups that are stalling and falling from favor.
+
+The key point is that a leader of an asset group does not stay the leader forever.
+
+At some point the leader leaves the limelight, becomes a laggard and may stay a laggard for some time. That's where the Wyckoff avoidance strategy brings a lot of use even for your [Hodl stash and long term trades that need periodic re-evaluation](/strategy/crypto-investment). If you spot the transition of a leader to a laggard you are still left with heaps of time to gradually exit the market and decide on your next move.  
+
+#### Finding the market weakness
+
+You can use any of your favorite technical analysis tools that are good for spotting the weakness of a market - divergences would be a very early sign (and possibly a misleading one) but combined with a three-push formation and lower highs when seen relative to the Bollinger bands would be more reliable.
+
+The general technical gist is that this transition is a substantial one, you should be looking for it on longer timeframes (daily, 3D or weekly charts). The market structure will be similar in all assets in the group you are looking at, but the weakening leader would display the crumbling more strongly.
+
+## Select assets that are in harmony with the market
+
+Another important point in Wyckoff avoidance is to select assets that move in harmony with the market. The bigger picture and relations between different assets of the same class is often overlooked, but it is incredibly useful also for [market timing](/strategy/timing).
+
+In terms of Wyckoff avoidance, the rule boils down simply to the following:
 
 > In a **bull (uptrend) market**, select [assets] that are **stronger than the market itself**. In a bear market choose those that are weaker than the market itself.
 
-If you figure out consistently strong cryptocurrencies and their counterparts you have your best candidates for mid-term longs and shorts:
+Assuming we are in a broad crypto bull market, if you can find cryptocurrencies that are performing consistently strong and if you can also find their counterparts, you have your best candidates for your long and short positions:
 
-* Strong altcoins rally quite easily but after the rally retraces some of the gains remain.
-* Weak altcoins are traded but don't rally consistently. If they do, the retrace kills all the gains.
+* Strong cryptoassets rally quite easily. After the rally comes a retrace, but some of the gains remain.
+* Weak cryptoassets don't rally consistently. If they do, the retrace kills all the gains.
 
-{{ site.mailchimp }} In legacy markets one can compare stocks against a composite index. In a bull market well below a known resistance line, if a stock gains more than the index, it's typically a good bet to open a long, avoding all the rest of the assets in the group. If the resistance approaches it's time to close that long and find which stock was performing poorly in the rally. That is going to be to one most likely to drop significantly, you can short it and avoid trading the strong performers.
+On legacy markets, it is easy to compare an asset against a composite index: In a bull market, if an asset trades still well below a known resistance line and gains more than the index, it's typically the strong performer.
 
-In cryptocurrencies we don't have an index that would track the performance of top 100 or 500 altcoins. You will have to put in a little bit more work.
+The play there is to buy this particular asset, avoiding all the rest of the assets in its group.
 
-A handy tool that will help you do that is [coinmarketcap.com](http://coinmarketcap.com/).
+The technically suggested time to sell comes when the price approaches a resistance area. Then you can look which stock was performing poorly in the rally: It's is going to be the one that should drop the most in the coming retrace and therefore it is technically the best candidate for a short.
 
-You can track the historical weekly performance of cryptocurrencies at [http://coinmarketcap.com/historical/](http://coinmarketcap.com/historical/) - this page has snapshots dating back to 2013.
-
-Daily data is available at [the homepage](http://coinmarketcap.com/#BTC) or from their API. If you are trading altcoins against BTC, that is pairs like ETHBTC, you should switch to BTC pricing. This way you'll see which altcoins perform the best and the worst against bitcoin.
-
-{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
-
-
-Going through the weekly data from 2016 you can filter each table by traded volume.
-
-* You'll see that small altcoins show up every week with immense gains but after some weeks you don't hear about them again.
-* On the other hand, for instance litecoin is consistently being traded but the price doesn't change much - perhaps people use it to move funds across exchanges instead of using fiat but next to no people believe it is worth to hold LTC.
-* Ethereum and Dash have volumes in the upper part of the spectrum but they actually see a rally or two once in a while with gains that don't completely disappear after the retrace.
+We now also have composite indexes in cryptocurrency markets, but the information you can get from them is still fairly questionable. Remember, the crypto markets are still very new. [More on crypto indexes in our Strategy article about market timing.](/strategy/timing#using-the-crypto-indexes)
 
 #### Going back to individual coins
 
-To spot the beginning of short term changes in the market, topping patterns and reversals you will have to go back to individual cryptocurrencies. The chart below is a bitcoin chart but the same TA is valid with all commonly traded coins with good holder base these days.
+To find the inceptions of changes in the market, you will have to go back to individual cryptocurrencies and look for topping patterns and reversals.
 
-What people use the most to spot these changes is Parabolic SAR, RSI and MACD. You can use {% aff Cryptowatch https://cryptowat.ch %} for the basics or {% aff TradingView http://tradingview.go2cloud.org/SHW9 %} which provides interface where you can tune the indicator parameters and do some very basic backtesting. To name one, the default Parabolic SAR will be too sensitive, giving you flips that will be a false positive so you should pick your timeframe and tune the PSAR settings so that it flips really mostly only before a reversal historically happened on that timeframe.
+If you are a trading beginner, you can use free charting tools like {% aff Cryptowatch https://cryptowat.ch %} or {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}, get a BTCUSD chart with Parabolic SAR, RSI and MACD indicators and go backwards to learn how past trend reversals looked. Then you can compare it with what ETHUSD was doing in that time, and then perhaps XRPUSD and smaller altcoins.
 
-The hourly bitcoin chart below shows a SAR set to `0.025, 0.02, 0.03` on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}. If you click on the picture to zoom it you'll see it flipping, and if you look at the RSI at the bottom you'll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.
+The hourly bitcoin chart below shows Parabolic SAR set to `0.025, 0.02, 0.03` on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}. If you click on the picture to zoom it you'll see it flipping, and if you look at the RSI at the bottom you'll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.
 
 {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
 
-Of course in both bitcoin and altcoins you cannot discount "conspiracy theories" about whales manipulating the markets - given the (little) money one needs to do that it's entirely possible. Even the legacy guys found it out themselves, I encourage you to read the following excerpt from FT where an investor whines about getting rekt on OkCoin because of a bearwhale, it's hilarious.
+#### When technical analysis fails
 
+From a 2017 [Financial Times article](https://ftalphaville.ft.com/2017/03/08/2185731/when-otc-markets-backfire-bitcoin-edition/) [(archived link without paywall)](http://archive.is/aQ7Om), most likely about the OKEx futures exchange:
 
-> this is from ft, somehow archive.is works around their log in wall: http://archive.is/aQ7Om
+*Daniel Masters, the founder of one of the world’s first bitcoin funds – Jersey-based Global Advisors Bitcoin Investment Program (GABI) – is calling for position limits on bitcoin exchanges, after falling prey to a heinous case of cash-to-futures basis manipulation in February, when bitcoin soared to new record high.
 
-> Daniel Masters, the founder of one of the world’s first bitcoin funds – Jersey-based Global Advisors Bitcoin Investment Program (GABI) – is calling for position limits on bitcoin exchanges, after falling prey to a heinous case of cash-to-futures basis manipulation in February, when bitcoin soared to new record high.
+Our position was liquidated at $767 and, needless to say, by the time we were back in the market the price was shooting back above $900. This was of course an extremely unfortunate state of affairs in which to find ourselves and a hard lesson learned. Accordingly, we lost around 10% of performance against our benchmark, the USD price of bitcoin.
 
-> *Our position was liquidated at $767 and, needless to say, by the time we were back in the market the price was shooting back above $900. This was of course an extremely unfortunate state of affairs in which to find ourselves and a hard lesson learned. Accordingly, we lost around 10% of performance against our benchmark, the USD price of bitcoin. The matters set out above highlighted another issue with bitcoin trading, which up until this point we had not considered. After the price drop, one player emerged as totally dominant in the open interest of the futures contract. It seemed pretty clear to us as a result that this event was not just a normal version of a large liquidation, with which we are familiar, but was a premeditated attack. When the dust settled, one unidentified player was short well over half the open interest. We would therefore class this episode as clear market manipulation, and in fact it was not just momentary: for many days thereafter the basis was so weak that it seemed that the one attack was being followed up by periodic smaller attacks. As such we approached the exchange. They confirmed to us that there were no position limits whatsoever and that people were free to do whatever they wanted in their “happy trading environment” (yes, they used those actual words). We made it very clear that such activity, whether in a regulated environment or not, might amount to criminality in Hong Kong and would certainly do so in many other jurisdictions. Following a number of discussions, the exchange encouraged the ‘rogue’ player to withdraw and things have now normalized.*
+The matters set out above highlighted another issue with bitcoin trading, which up until this point we had not considered. After the price drop, one player emerged as totally dominant in the open interest of the futures contract.
 
-> "happy trading environment" from hong kong...that's okcasino amirite [via r/bitcoinmarkets](https://www.reddit.com/r/BitcoinMarkets/comments/5y5qzz/daily_discussion_wednesday_march_08_2017/deo070z/)
+It seemed pretty clear to us as a result that this event was not just a normal version of a large liquidation, with which we are familiar, but was a premeditated attack. When the dust settled, one unidentified player was short well over half the open interest.
+
+We would therefore class this episode as clear market manipulation, and in fact it was not just momentary: for many days thereafter the basis was so weak that it seemed that the one attack was being followed up by periodic smaller attacks.
+
+As such we approached the exchange. They confirmed to us that there were no position limits whatsoever and that people were free to do whatever they wanted in their “happy trading environment” (yes, they used those actual words). We made it very clear that such activity, whether in a regulated environment or not, might amount to criminality in Hong Kong and would certainly do so in many other jurisdictions.
+
+Following a number of discussions, the exchange encouraged the ‘rogue’ player to withdraw and things have now normalized.*
+
+So as a last note: Don't be naive. Of course it's happening.
 
 ________________________
 
-In the next days I'll be looking over altcoins historical performance so stay tuned for next posts.
+#### Resources
 
-________________________
-
-
-**Reading**
-
-* [http://technical.traders.com/tradersonline/display.asp?art=167](http://technical.traders.com/tradersonline/display.asp?art=167)
-* [https://stockcharts.com/articles/wyckoff/](https://stockcharts.com/articles/wyckoff/)
+* [Wyckoff: Determining Relative Strength And Weakness on technical.traders.com](http://technical.traders.com/tradersonline/display.asp?art=167)
+* [Charting for Wyckoff method on stockcharts.com](https://stockcharts.com/articles/wyckoff/)

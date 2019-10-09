@@ -1,8 +1,8 @@
 ---
 layout:     at-trading
-published:  true
-guest:      true
-pinned:     true
+published:  yes
+guest:      yes
+pinned:     no
 #canonical: ""
 series: Hodl
 
