@@ -1,6 +1,11 @@
 ---
-layout: compress
 ---
+{% assign toparticles = site.posts | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
+{% assign modified = site.posts | sort: last_modified_at | reverse %}
+{% assign strat = site.strategy %}
+{% assign sec = site.security %}
+{% assign posts = site.posts | sort: date | reverse %}
+
 <!DOCTYPE html>
 <html amp lang="en">
 {% include head.html %}

@@ -1,5 +1,6 @@
 ---
 published: true
+series: Wyckoff
 
 layout: strategy
 title: "Wyckoff trading method and ranging markets"

@@ -4,6 +4,7 @@ published:  true
 guest:      false
 pinned:     false
 #canonical: "https://www.thebusinessofcrypto.com/articles/shocking-facts-about-cryptocurrency-heists-infographics"
+series: Fundamentals
 
 date: 2019-05-11 07:12:00 +0700
 
@@ -36,6 +37,11 @@ related:
 - {"Tried and True Tools, Crypto Hodler's Edition (Security & Scam Detection)": "/security/tools"}
 - {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
 - {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
+
+
+mentions:
+ name: "stablecoins"
+ sameas: "https://www.altcointrading.net/iou-stablecoins-potential/"
 
 ---
 

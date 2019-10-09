@@ -5,6 +5,11 @@ guest:      false
 pinned:     false
 #canonical: ""
 
+
+mentions:
+ name: "cryptocurrency trading strategy"
+ sameas: "https://www.altcointrading.net/cryptocurrency-strategy-beginners/"
+
 stories: false
 genres: Blog
 tickers: false

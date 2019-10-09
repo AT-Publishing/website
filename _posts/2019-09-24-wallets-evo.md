@@ -4,6 +4,12 @@ published: true
 guest: true
 pinned: false
 
+
+mentions:
+ name: "crypto storage device management"
+ sameas: "https://www.altcointrading.net/security/device-management"
+
+
 date: 2019-09-24 05:22:00 -0300
 
 title: "Crypto Wallets by Use Case"

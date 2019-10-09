@@ -22,7 +22,7 @@ layout: default-news
         <section class="altcointrading-blog-body">
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
-                
+
                 {{ site.cbet_l }}
 
                 <blockquote cite="{{ page.url | prepend: site.url }}">
@@ -65,20 +65,23 @@ layout: default-news
             {% if page.series %}
             {% for series in page.series %}
             <div class="row tagfeed-items">
-              <h2 class="tagged-as">More in #{{ page.tag | upcase }}: Series {{ series | upcase }}</h2>
-              {% for post in site.posts %}
-               {% if post.series contains series %}
+              <h2 class="tagged-as">Also in series {{ series | upcase }}</h2>
+              {% for post in posts %}{% if post.series contains series %}
                <div class="columns six">
                  {% include home/columnupdates.html %}
                </div>
-               {% endif %}
-              {% endfor %}
+              {% endif %}{% endfor %}
+              {% for post in strat %}{% if post.series contains series %}
+              <div class="columns six">
+                {% include home/columnupdates.html %}
+              </div>
+              {% endif %}{% endfor %}
             </div>
             {% endfor %}
             {% else %}
             <div class="row tagfeed-items">
               <h2 class="tagged-as">#DEX Series - The Business Of Decentralized Trading</h2>
-              {% for post in site.posts %}
+              {% for post in posts %}
                {% if post.series contains "dex" %}
                <div class="columns six">
                  {% include home/columnupdates.html %}

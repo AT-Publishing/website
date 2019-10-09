@@ -3,16 +3,13 @@ layout: default
 navi:
  exclude: yes
 ---
-{% assign toparticles = site.posts | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
-
-
 <div class="container">
 
   <div class="row top">
         <div class="columns four">
             {{ site.mex_336x280 }}
             <br>
-            {% include updates/recently_box.html %}
+            {% include updates/recently_modified.html %}
             <div class="smallad">
                {% include home/smallad.html %}
             </div>
@@ -39,12 +36,14 @@ navi:
         {% for post in toparticles offset: 1 limit: 1 %}
         {% include home/columnupdates.html %}
         {% endfor %}
-        <span class="note">Latest in Strategy:</span><br>
-        {% for post in site.strategy offset: 0 limit: 1 %}
-        {% include home/columnupdates.html %}
-        {% endfor %}
-        <br>
-        {{ site.bf1 }}
+        <div class="smallad">
+          <span class="note">Latest in Strategy:</span><br>
+          {% for post in strat offset: 0 limit: 1 %}
+          {% include home/columnupdates.html %}
+          {% endfor %}
+          <br>
+          {{ site.bf1 }}
+        </div>
       </div>
   </div>
   <div class="row top top2">

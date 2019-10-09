@@ -6,6 +6,12 @@ guest:      false
 sponsored:  false
 stories:    true
 
+
+mentions:
+ name: "technical analysis"
+ sameas: "https://www.altcointrading.net/technical-analysis/"
+
+
 date: 2018-09-29 14:43:00 +0700
 
 title: "Script Spotlight: A/D Levels"

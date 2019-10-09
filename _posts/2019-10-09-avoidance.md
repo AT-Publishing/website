@@ -22,6 +22,10 @@ about:
  name: "wyckoff method"
  sameas: ["https://www.altcointrading.net/strategy/wyckoff-ranging-markets"]
 
+mentions:
+ name: "market timing"
+ sameas: "https://www.altcointrading.net/strategy/timing"
+
 series: Wyckoff
 
 author: https://reddit.com/u/karlvonbahnhof
@@ -107,7 +111,7 @@ The hourly bitcoin chart below shows Parabolic SAR set to `0.025, 0.02, 0.03` on
 
 From a 2017 [Financial Times article](https://ftalphaville.ft.com/2017/03/08/2185731/when-otc-markets-backfire-bitcoin-edition/) [(archived link without paywall)](http://archive.is/aQ7Om), most likely about the OKEx futures exchange:
 
-*Daniel Masters, the founder of one of the world’s first bitcoin funds – Jersey-based Global Advisors Bitcoin Investment Program (GABI) – is calling for position limits on bitcoin exchanges, after falling prey to a heinous case of cash-to-futures basis manipulation in February, when bitcoin soared to new record high.
+"Daniel Masters, the founder of one of the world’s first bitcoin funds – Jersey-based Global Advisors Bitcoin Investment Program (GABI) – is calling for position limits on bitcoin exchanges, after falling prey to a heinous case of cash-to-futures basis manipulation in February, when bitcoin soared to new record high.
 
 Our position was liquidated at $767 and, needless to say, by the time we were back in the market the price was shooting back above $900. This was of course an extremely unfortunate state of affairs in which to find ourselves and a hard lesson learned. Accordingly, we lost around 10% of performance against our benchmark, the USD price of bitcoin.
 
@@ -119,9 +123,9 @@ We would therefore class this episode as clear market manipulation, and in fact 
 
 As such we approached the exchange. They confirmed to us that there were no position limits whatsoever and that people were free to do whatever they wanted in their “happy trading environment” (yes, they used those actual words). We made it very clear that such activity, whether in a regulated environment or not, might amount to criminality in Hong Kong and would certainly do so in many other jurisdictions.
 
-Following a number of discussions, the exchange encouraged the ‘rogue’ player to withdraw and things have now normalized.*
+Following a number of discussions, the exchange encouraged the ‘rogue’ player to withdraw and things have now normalized."
 
-So as a last note: Don't be naive. Of course it's happening.
+**So, as a last note: Don't be naive. Of course it's happening.**
 
 ________________________
 

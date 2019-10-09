@@ -161,15 +161,14 @@
      "sameAs": [
        {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
        {% endfor %}]
-   },
-   {% endif %}
+   }{% endif %}{% if page.mentions %},
    "mentions":[
       {
-         "@type":"Person",
-         "name":"{{ page.author_name }}",
-         "sameAs":"{{ page.author | xml_escape }}"
+         "@type":"Thing",
+         "name":"{{ page.mentions.name }}",
+         "sameAs":"{{ page.mentions.sameas }}"
       }
-   ]
+   ]{% endif %}
 }
 </script>
 {% else %}
@@ -190,13 +189,6 @@
     "@type": "Person",
     "name": "{{ page.author_name }}"
   },
-  "mentions":[
-     {
-        "@type":"Person",
-        "name":"{{ page.author_name }}",
-        "sameAs":"{{ page.author | xml_escape }}"
-     }
-  ],
   "image":[
     {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
     {% endfor %}
@@ -209,6 +201,15 @@
       {% for item in page.about.sameas %}"{{ item }}"{% if forloop.last == false %},{% endif %}
       {% endfor %}]
   },
+  {% endif %}
+  {% if page.mentions %}
+  "mentions":[
+     {
+        "@type":"Thing",
+        "name":"{{ page.mentions.name }}",
+        "sameAs":"{{ page.mentions.sameas }}"
+     }
+  ],
   {% endif %}
    "publisher": {
     "@type": "Organization",

@@ -43,6 +43,12 @@ related:
 - {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}
 - {"Interview with the CEO of Traceto.io, self-sovereign KYC provider": "/traceto-interview/"}
 
+
+about:
+ name: "LocalEthereum"
+ sameas: ["https://localethereum.com", "https://dappradar.com/app/148/localethereum"]
+
+
 ---
 
 Just in case you didn't figure it out, LocalEthereum is a **peer-to-peer marketplace for Ethereum**.

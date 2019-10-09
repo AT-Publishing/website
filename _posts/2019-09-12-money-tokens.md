@@ -4,7 +4,7 @@ layout: at-trading
 note: 'Trading Strategy'
 categories: ["trading"]
 tags: ["cryptotrading", "trading-blog"]
-series: Hodl
+series: Fundamentals
 
 pinned: no
 date: 2019-09-12 01:10:00 +0100

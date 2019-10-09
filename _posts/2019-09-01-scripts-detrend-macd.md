@@ -7,6 +7,11 @@ stories: true
 series: ScriptSpotlight
 pinned: no
 
+mentions:
+ name: "technical analysis"
+ sameas: "https://www.altcointrading.net/technical-analysis/"
+
+
 date: 2019-09-01 02:14:00 +0100
 
 title: "Script Spotlight: Detrended Price Oscillator (DPO)"

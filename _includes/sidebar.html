@@ -11,14 +11,6 @@
   <hr class="skinny">
 </section>
 
-<!--
-<section class="newsblade" id="newsnews">
-    <h2 id="news">Newsblade</h2>
-    <amp-iframe width=320 height=500px layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://atnet-feeds.netlify.com/newsblade"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-    </amp-iframe>
-</section>
--->
-
 <div id="sidebar">
   <section class="posts-security" id="gtm-sidebar-strategy">
     <h3>Crypto Trading Strategy:</h3>
@@ -34,8 +26,7 @@
       <h3>Latest PSA's:</h3>
       <ul>
 
-      {% assign items = site.security | sort:date | reverse %}
-        {% for post in items  %}
+        {% for post in sec  %}
         {% if post.note contains 'PSA' %}
         <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
           <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
@@ -44,8 +35,7 @@
         {% endif %}
         {% endfor %}
 
-      {% assign items = site.posts | sort:date | reverse %}
-        {% for post in items  %}
+        {% for post in posts  %}
         {% if post.note contains 'PSA' %}
         <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
           <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
@@ -72,24 +62,6 @@
 
       </ul>
   </section>
-
-  <!-- <section>
-    <ul class="divided">
-      <li>
-      <h3>Altcoin Performance:</h3>
-        <div>
-          <amp-iframe
-            width=320 height=235px
-            layout="responsive"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            src="https://data.altcointrading.net/compare/">
-            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-          </amp-iframe>
-        </div>
-      </li>
-
-    </ul>
-  </section>-->
 
 
   <section>

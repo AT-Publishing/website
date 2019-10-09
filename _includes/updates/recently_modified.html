@@ -1,0 +1,18 @@
+<span class="note">Recently Updated</span><br>
+<ul class="popular">
+{% for post in modified limit:3 %}
+ <li class="popular-item">
+  <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="Updated -  {{ post.title }}"><b>{{ post.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+ </li>
+{% endfor %}
+{% for node in strat %}
+    {% assign daysToSec = 699048 %}
+    {% assign pageTime = node.last_modified_at | date: '%s' | times: 1 %}
+    {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
+    {% if pageTime > endTime %}
+    <li class="popular-item">
+      <a class="index-internal" href="{{site.baseurl}}{{ node.url }}" title="Updated - {{ node.title }}"><b>{{ node.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #TradingStrategy</a>
+    </li>
+    {% endif %}
+{% endfor %}
+</ul>

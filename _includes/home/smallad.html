@@ -14,8 +14,6 @@
   <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoSecurity | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
 </li>
 {% endfor %}
-
-
 {% for tag in site.tags %}
 {% if tag contains "business-of-crypto" %}
     {% assign pages_list = tag[1] %}
@@ -26,5 +24,4 @@
 {% endfor %}
 {% endif %}
 {% endfor %}
-
 </ul>
