@@ -1,7 +1,7 @@
 <div class="row tagfeed-items">
   <h2 class="tagged-as clear">Series: Long-Term Strategy #Hodl</h2>
   <div class="row">
-    {% for post in posts %}{% if post.series contains "Hodl" %}
+    {% for post in site.posts %}{% if post.series contains "Hodl" %}
     <div class="columns four">
       {% include home/columnupdates.html %}
     </div>
