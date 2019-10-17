@@ -42,7 +42,9 @@ The price for the Tradingview subscription with crypto payments is fixed in Bitc
 
 <b>Go to the crypto offer homepage of this <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
-#### Ledger Nano X Discount
+#### Ledger Nano X "To the Moon" Discount
+
+Ledger is selling their wallets with a special "To the moon" branding to celebrate their anniversary.
 
 Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale.
 

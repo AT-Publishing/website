@@ -42,11 +42,9 @@ layout: default-news
               <hr>
                 <p>
                   <b>Shill Links:</b><br>
-                  BitMEX (10% fee off) @ <a rel="nofollow" target="_blank" href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
+                  BitMEX (10% fee off) @ <a rel="nofollow" target="_blank"  href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
                   TradingView (~ 50% off in BTC) @ <a rel="nofollow" target="_blank" href="http://bit.ly/tradingview-moon">bit.ly/tradingview-moon</a><br>
                   TensorCharts @ <a rel="nofollow" target="_blank"  href="http://bit.ly/tensor-charts">bit.ly/tensor-charts</a><br>
-                  Binance (newly added margin trading) @ <a rel="nofollow" target="_blank" href="http://bit.ly/china-margin">bit.ly/china-margin</a>
-
                 </p>
               <hr>
             </article>
@@ -60,36 +58,6 @@ layout: default-news
           <section class="altcointrading-blog-airdrops">
             <p>&nbsp;</p>
             {% include home/airdrops.html %}
-          </section>
-          <section class="altcointrading-blog-series">
-            {% if page.series %}
-            {% for series in page.series %}
-            <div class="row tagfeed-items">
-              <h2 class="tagged-as">Also in series {{ series | upcase }}</h2>
-              {% for post in site.posts %}{% if post.series contains series %}
-               <div class="columns six">
-                 {% include home/columnupdates.html %}
-               </div>
-              {% endif %}{% endfor %}
-              {% for post in strat %}{% if post.series contains series %}
-              <div class="columns six">
-                {% include home/columnupdates.html %}
-              </div>
-              {% endif %}{% endfor %}
-            </div>
-            {% endfor %}
-            {% else %}
-            <div class="row tagfeed-items">
-              <h2 class="tagged-as">#DEX Series - The Business Of Decentralized Trading</h2>
-              {% for post in posts %}
-               {% if post.series contains "dex" %}
-               <div class="columns six">
-                 {% include home/columnupdates.html %}
-               </div>
-               {% endif %}
-              {% endfor %}
-            </div>
-            {% endif %}
           </section>
 
         </div><!-- 8 -->

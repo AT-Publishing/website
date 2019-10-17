@@ -59,13 +59,10 @@ collections:
     permalink: /:collection/:slug/
   security:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:slug/
   strategy:
     output: true
-    permalink: /:collection/:slug
-  fibs:
-    output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:slug/
 
 stars:
   one: '<span class="star-rating">★☆☆☆☆</span>'
@@ -141,24 +138,9 @@ defaults:
      tickers: false
      author: "https://reddit.com/u/KarlVonBahnhof"
      author_name: "KarlVonBahnhof"
- -
-   scope:
-     path: "fibs" # all
-     type: "fibs"
-   values:
-     layout: "fibs"
-     german: false
-     published: true
-     comments: false
-     stories: false
-     tickers: false
-     author: "https://reddit.com/u/KarlVonBahnhof"
-     author_name: "KarlVonBahnhof"
-     author_twitter: "@_KarlVonBahnhof"
 
 author: "AltcoinTrading"
 markdown: kramdown
-
 
 compress_html:
   clippings: [div, p, ul, td, h1, h2]
