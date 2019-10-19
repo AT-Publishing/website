@@ -16,37 +16,13 @@
     <h3>Crypto Trading Strategy:</h3>
    {% include lateststrategy.html %}
   </section>
+  {% include mail_cta.html %}
   <section class="posts-security" id="gtm-sidebar-security">
    {% include latestsecurity.html %}
   </section>
-
-
-
-  <section>
-      <h3>Latest PSA's:</h3>
-      <ul>
-
-        {% for post in sec  %}
-        {% if post.note contains 'PSA' %}
-        <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
-          <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
-        </a>
-        <br>
-        {% endif %}
-        {% endfor %}
-
-        {% for post in posts  %}
-        {% if post.note contains 'PSA' %}
-        <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
-          <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
-        </a>
-        <br>
-        {% endif %}
-        {% endfor %}
-
-      </ul>
+  <section class="posts-security" id="gtm-sidebar-psa">
+    {% include latestpsa.html %}
   </section>
-
   <section>
      <h3>Support this publication by using our shill links</h3>
       <ul class="airdrops">
@@ -63,27 +39,6 @@
       </ul>
   </section>
 
-
-  <section>
-    <div class="row sidebar-nl">
-      <div class="columns twelve">
-        <p>
-          <strong>Subscribe here to get 5 weeks of onboarding content from the <u>Crypto Trading Strategy</u> section.</strong>
-          All available preferences:
-        </p>
-        <p>
-          <ul>
-            <li>/ Trading blog updates</li>
-            <li>/ Strategy and Security (With Onboarding)</li>
-            <li>/ Airdrop updates ONLY (Thu 7AM EST)</li>
-          </ul>
-        </p>
-        <p>
-          <a class="optin" target="_blank" href="http://bit.ly/atnet-nl">Get Started</a>
-        </p>
-      </div>
-    </div>
-  </section>
 
 </div><!-- end sidebar-->
 

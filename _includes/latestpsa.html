@@ -1,0 +1,19 @@
+<h3>Latest PSA's:</h3>
+<ul>
+  {% for post in sec  %}
+  {% if post.note contains 'PSA' %}
+  <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+    <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
+  </a>
+  <br>
+  {% endif %}
+  {% endfor %}
+  {% for post in posts  %}
+  {% if post.note contains 'PSA' %}
+  <a class="sidebar-internal" title="{{ post.title }}" href="{{site.url}}{{site.baseurl}}{{ post.url }}">
+    <span class="tag custom-note">{{ post.note }}</span> <b>{{post.title}}</b> - Last update {{ post.last_modified_at | date: "%d %b %Y" }}
+  </a>
+  <br>
+  {% endif %}
+  {% endfor %}
+</ul>
