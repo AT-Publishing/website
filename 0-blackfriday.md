@@ -14,7 +14,9 @@ author: 'mailto:jmt@altcointrading.net'
 
 ## Crypto Black Friday 2019
 
-**Some tools for crypto traders are offering early deals before Black Friday 2019.**
+Black Friday 2019 falls on Friday, November 29 2019.
+
+**However, some tools for crypto traders are offering early deals before Black Friday 2019 actually comes up.**
 
 You can also catch a glimpse of what kind of offers we got to get ready for **Black Friday 2019**: Successful campaigns are most likely to repeat  in November 2019.
 
@@ -56,42 +58,19 @@ If you already have a Ledger Nano X but want another one because you hold more a
 
 If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.
 
-
-#### Ledger Wallet Backup Bundle
-
-{{ site.stars.five }}
-
-<div>
-  {% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
-</div>
-
-In April 2019, to keep interest in the delayed new Nano X product, Ledger came with a new offer called the **'Ledger Backup Pack'**: You get one Ledger Nano X along with one Ledger Nano S wallet at half price.
-
-**Ledger Backup Pack contains:**
-
-* 1 Ledger Nano X at regular price
-* 1 Matte Black Ledger Nano S _at 50% off_
-
-*Backup Packs are currently shipping worldwide.*
-
-**Ledger Wallet Cashback available:** In addition to the discount offer in the Backup Pack, you are also eligible for the **additional 3% cashback** on your total order value if you make your purchase at the official Ledger store through Hodler's Cashback.
-
-<b>Get the new <a href="http://bit.ly/ledger-backup-pack">Backup Bundle at shop.ledger.com</a> straight from here or make an order in the same store through <a href="https://hodlerscashback.com/ledger-wallet-bundle/">Ledger wallet cashback service at hodlerscashback.com</a>.</b>
-
-The cashback offer requires sign up with an email.
-
-
 <div id="past"></div>
 
-## Crypto Deals from past Black Fridays
+## Regular Black Fridays Crypto Deals
 
 #### TradingView Black Friday Sale: 40-60% OFF the PRO plans
 
 {{ site.stars.five }}
 
+<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</b>
+
 Per usual, TradingView opens a special discount offer for the full Black Friday week (Monday - Sunday). Every year so far they give between 40% and 60% discount on their **yearly plans**.
 
-Here's the typical Black Friday Tradingview deal structure:
+Here's the typical Black Friday Tradingview deal structure that more or less repeats every year:
 
 * PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
 * PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
@@ -106,6 +85,16 @@ Here's the typical Black Friday Tradingview deal structure:
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
 
 <b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
+
+##### Tradingview or TensorCharts?
+
+Unless you are a scalper or an advanced trader interested in super granular data, TradingView will be a better fit for you. It's more intuitive, the learning curve is not so high and the TA tools library is great especially for swing traders and other longer-term speculators.
+
+<a href="https://bitfinex.com/?refcode=5egV78YtlC" rel="nofollow">Bitfinex</a> uses TradingView charts on their exchange, so if you trade there, the consistency is another plus.
+
+<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
+
+
 
 #### TensorCharts Black Friday Sale: 50% OFF the Premium plan
 
