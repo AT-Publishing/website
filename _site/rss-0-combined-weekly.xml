@@ -14,8 +14,8 @@
     <language>en</language>
     <link>https://www.altcointrading.net</link>
     <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Nov 2019 12:17:06 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Nov 2019 12:19:38 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,9 +23,44 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
+      <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
+        
+        <![CDATA[
+         <h4>More of practical discussion in anonymizing Bitcoin transactions via coinjoin and similar (Bitcoin-Dev mailing list in January 2019)</h4>
+         <p><a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-January/016625.html">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>ICE Updated their Bakkt specs page</h4>
+         <p><a href="https://www.theice.com/products/69281872/Bakkt-Bitcoin-USD-Daily-Future">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Asian dApp games are rife with Chinese New Year deals</h4>
+         <p><a href="https://www.thebusinessofcrypto.com/intelligence/etheremons-chinese-new-year-2019-1">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Tradeblock compares centralized vs non-custodial exchanges in terms of traded volume, fees and regulations</h4>
+         <p><a href="https://tradeblock.com/blog/an-analysis-of-decentralized-digital-currency-exchanges">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Amazon Partners On New Ethereum Marketplace For Enterprises / via @forbes</h4>
+         <p><a href="https://www.forbes.com/sites/sarahhansen/2018/11/08/consensys-kaleido-launches-full-stack-marketplace-platform-for-enterprise-blockchains/#73bd54912ad8">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Blockstream proposes a centralized solution to BTC fragmented liquidity - sidechain where tx are validated by big trading houses lie Bitfinex, OKCoin or Rock Trading / via @forbes</h4>
+         <p><a href="https://www.forbes.com/sites/francescoppola/2018/10/11/blockstreams-new-solution-to-bitcoins-liquidity-problem-looks-oddly-familiar/#7e176f721e51">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Tooling for crypto traders - Reddit Sentiment Analysis with link to full code so that you can literally $DYOR. By @rados_io</h4>
+         <p><a href="https://buff.ly/2k61wRT">[Read it]</a></p>
+         ]]>
         
         
       </content:encoded>
@@ -37,7 +72,7 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
+      <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
@@ -152,7 +187,7 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
+      <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
       <link>https://www.altcointrading.net/airdrops/</link>
       <content:encoded>
         <ul>
@@ -168,7 +203,7 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
+      <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
@@ -180,9 +215,41 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Wed, 06 Nov 2019 12:17:06 +0000</pubDate>
+      <pubDate>Wed, 06 Nov 2019 12:19:38 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/galilel/">Galilel Exchange Listing from 26 Mar</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/avinoc/">Avinoc Exchange Listing from 24 Aug</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/daneel/">Daneel Exchange Listing from 09 Aug</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/traw-cryptohub-listing/">TRAW Network Ongoing Airdrop Exchange Listing from 09 Aug</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/vikky-exchange-listing-airdropped/">Vikky Latoken Hotbit Exchange Listing from 18 Jul</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/itis-network-token-listed-airdropped/">Itis Network token listed but project is dead [Airdropped] Dead Parrot from 25 Aug</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/shopiblock-dead/">Shopiblock $SHB project killed for legal issues, didn&#39;t return invested ETH [Airdropped] Dead Parrot from 25 Aug</a></p>
+         ]]>
+        
+        <![CDATA[
+         <p><a href="https://www.thebusinessofcrypto.com/articles/coins4favors-doa/">FavorCoins (Coins4Favors) DOA [Airdropped] Dead Parrot from 30 Jun</a></p>
+         ]]>
         
       </content:encoded>
     </item>
