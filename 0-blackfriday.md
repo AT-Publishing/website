@@ -22,35 +22,50 @@ You can also catch a glimpse of what kind of offers we got to get ready for **Bl
 
 **Jump to:**
 
-* [Special Offers - Black Friday Value before Black Friday](#special)
-* [Past BlackFriday Deals](#past)
-* [Anticipated BlackFriday 2019 Deals](#anticipated)
+* [Special Offers - Black Friday before Black Friday](#special)
+* [Past Black Friday Sales 2018](#past)
+* [Anticipated Black Friday Deals 2019](#anticipated)
 
 
 <div id="special"></div>
 
 ## Early Black Friday Offers 2019
 
-Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo. It is known what traders can expect for Black Friday deals from Tradingview or Ledger wallet, and whether there are any offers that will get you Black Friday value before Black Friday 2019.
+Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo.
 
+It is known what traders can anticipate for Black Friday deals from TradingView or Ledger wallet, and whether there are any offers that will get you Black Friday value before Black Friday 2019.
 
-#### TradingView Pay in Bitcoin
+In 2019, just as every year, the most demanded crypto trading services and products come up with interesting bundle and discount offers in the weeks leading up to Black Friday 2019, just to get the attention of the crypto crowd.
+
+#### TradingView PRO Pre-BlackFriday: Pay in Bitcoin
 
 {{ site.stars.five }}
 
-TradingView has opened an offer for crypto traders to promote their new payment option - Bitcoin. Previously, you were only able to pay your TradingView PRO with Paypal but since February 2019, a BTC payment option is added.
+TradingView has an offer for crypto traders to promote their new payment option - Bitcoin. Previously, you were only able to pay your TradingView PRO with Paypal but since February 2019, a BTC payment option is added.
 
-The price for the Tradingview subscription with crypto payments is fixed in Bitcoin, and so its USD value varies with the BTCUSD ratio.
+The price for the **unlimited TradingView** subscription with bitcoin payments is **fixed at 0.09 BTC per year**, and so the USD price for your TradingView PRO varies with the changes in BTCUSD price.
 
-<b>Go to the crypto offer homepage of this <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
+<b>Go to the TradingView crypto offer <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
-#### Ledger Nano X "To the Moon" Discount
+#### Cashback Black Friday: Any Ledger wallet Product
+
+{{ site.stars.five }}
+
+If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a> after making an account, you will get cashback on your total bill, no matter which products you will buy.
+
+On Hodler's Cashback, you get cashback on both Ledger Nano S and Ledger Nano X, also on all bundled offers and you will even **get cashback for your already discounted  Black Friday orders**.  
+
+<a href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
+
+#### Ledger Nano X Pre-BlackFriday: "To the Moon" Discount
+
+{{ site.stars.four }}
 
 Ledger is selling their wallets with a special "To the moon" branding to celebrate their anniversary.
 
-Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale.
+Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale. Ledger is currently only offering a discount package called the [Backup Pack that bundles Ledger Nano S and Ledger Nano X](https://hodlerscashback.com/ledger-wallet-bundle/).
 
-If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack above, your only option is to get the <a href="https://hodlerscashback.com/hi/#shop">3% Ledger Nano X Cashback</a>.
+If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack, your only option is to get the <a href="https://hodlerscashback.com/ledger-wallet/">3% Ledger Nano X Cashback</a>.
 
 It's not much, but it sure is better than nothing.
 
@@ -60,7 +75,7 @@ If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/
 
 <div id="past"></div>
 
-## Regular Black Fridays Crypto Deals
+## Crypto Black Fridays Deals 2018 - To Repeat in 2019
 
 #### TradingView Black Friday Sale: 40-60% OFF the PRO plans
 
@@ -68,7 +83,7 @@ If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/
 
 <b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</b>
 
-Per usual, TradingView opens a special discount offer for the full Black Friday week (Monday - Sunday). Every year so far they give between 40% and 60% discount on their **yearly plans**.
+As usually, in 2018 TradingView opened a special discount offer for the full Black Friday week (Monday - Sunday). Every year so far they give between 40% and 60% discount on their **yearly plans**.
 
 Here's the typical Black Friday Tradingview deal structure that more or less repeats every year:
 
@@ -85,16 +100,6 @@ Here's the typical Black Friday Tradingview deal structure that more or less rep
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
 
 <b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
-
-##### Tradingview or TensorCharts?
-
-Unless you are a scalper or an advanced trader interested in super granular data, TradingView will be a better fit for you. It's more intuitive, the learning curve is not so high and the TA tools library is great especially for swing traders and other longer-term speculators.
-
-<a href="https://bitfinex.com/?refcode=5egV78YtlC" rel="nofollow">Bitfinex</a> uses TradingView charts on their exchange, so if you trade there, the consistency is another plus.
-
-<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
-
-
 
 #### TensorCharts Black Friday Sale: 50% OFF the Premium plan
 
@@ -160,7 +165,7 @@ The early bird offers were finished off with a flat 50% discount on Ledger Nano 
 
 ## Anticipated Crypto Deals for BlackFriday 2019
 
-#### Ledger Nano S Black Friday 2019: Anticipated 50% OFF
+#### Ledger Nano S Black Friday 2019: Anticipated 50% Off
 
 {{ site.stars.five }}
 
@@ -176,9 +181,41 @@ It is expected that due to the increasing competition and also the wider product
 <a rel="nofollow" class="button" href="http://bit.ly/ledger-nano-x">The Buzz: Ledger Nano X</a>
 </p>
 
+#### Ledger Nano X Black Friday 2019: Anticipated Bundle Offer Discount
 
-## Crypto Black Friday Top Products: The Details You Need To Know
+The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
 
+Ledger Nano X is a new product. As such, Ledger is not likely to discount it a lot.
+
+What is likely though is some form of bundled offer. In the past years we have seen a lot of success on Ledger wallet bundles that combine several designs and kinds of Ledger wallets, yielding a good price per device.
+
+<em>If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.</em>
+
+
+#### TradingView Black Friday 2019: Anticipated 60% Off on Yearly Plans
+
+Every year, TradingView opens their Black Friday discount for the full Black Friday week (Monday - Sunday). They typically give between 40% and 60% discount on their **yearly plans**. Year on year, the Black Friday offers have been getting a tad better as the competition keeps popping up for TradingView.
+
+**Costs of TradingView paid plans per month with anticipated Black Friday discount**:
+
+* **TradingView PRO** with yearly payment ~ **9 USD/month** (108 USD/year)
+* **TradingView PRO+** with yearly payment ~ **14.95 USD/month** (179.4 USD/year)
+* **TradingView PREMIUM** with yearly payment ~ **23.98 USD/month** (287.8 USD/year)
+
+Payments are done via PayPal or via bitcoin.
+
+<em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
+
+#### Coinigy Black Friday 2019: Anticipated 75% Off on Yearly Plans
+
+Coinigy is a crypto charting and trading interface that also sells historical OHLP data.
+
+So far, they have never made a discount on the data services, but it is anticipated Black Friday 2019 will see them discounting their access to charting substantially.
+
+<b>Start with <a rel="nofollow" href="https://www.coinigy.com/?r=4bee056c">Coinigy 30 day free trial</a> and if you like the free tier, upgrade on Black Friday.</b>
+
+
+## Crypto Black Friday Top Products: What You Need To Know
 
 **Charting Tools**
 
@@ -200,11 +237,16 @@ It is expected that due to the increasing competition and also the wider product
 
 <div id="tradingview"></div>
 
-### TradingView Pro Black Friday Deal
 
-TradingView has yearly Black Friday offer for a limited time where they go down with the subscription price considerably. Depending on your PRO plan, you end up with up to 50% discount.
+### TradingView or TensorCharts?
 
-#### Why go PRO on TradingView
+Unless you are a scalper or an advanced trader interested in super granular data, TradingView will be a better fit for you. It's more intuitive, the learning curve is not so high and the TA tools library is great especially for swing traders and other longer-term speculators.
+
+<a href="https://bitfinex.com/?refcode=5egV78YtlC" rel="nofollow">Bitfinex</a> uses TradingView charts on their exchange, so if you trade there, the consistency is another plus.
+
+<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
+
+#### Why go PRO on TradingView: TradingView PRO vs PRO+
 
 You can keep using TradingView FREE forever but you can only save a one single chart. That means you can only watch one market at a time, nothing like BTCUSD nect to ETHUSD. Additionally, you have no access to intraday spread (looking into arbitrage opportunities between different fiat denominations on shorter timeframes than 1D) and the number of indicators or scripts per chart is limited to 3. That is perhaps bbands, ichimoku cloud and MACD and you cannot even volume color your candles.
 
@@ -225,7 +267,9 @@ TradingView is the most popular charting and alert tool for cryptocurrency trade
 
 ### Coinigy Black Friday Deal
 
-Coinigy is great for true altcoin traders who want to be the market makers in new markets, who want to leverage arb opportunities and need to stay up to date about opening markets. It is not only a charting engine but also an API interface you can use to access your exchange account without using the crypto exchange web interface, which is usually terrible with the exception of [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) and [BitMEX](https://www.bitmex.com/register/iYQB44).
+Coinigy is great for true altcoin traders who want to be the market makers in new markets, who want to leverage arb opportunities and need to stay up to date about opening markets.
+
+It is not only a charting engine but also an API interface you can use to access your exchange account without using the crypto exchange web interface, which is usually terrible with the exception of [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC) and [BitMEX](https://www.bitmex.com/register/iYQB44).
 
 Coinigy doesn't charge any additional fee for executing trades via the platform.
 
@@ -237,7 +281,7 @@ The subscription plans prices differ based on the length of your subscription bu
   {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
 </div>
 
-## Hardware wallets
+## Crypto Hardware wallets Black Friday
 
 <div id="ledger"></div>
 
@@ -245,12 +289,18 @@ The subscription plans prices differ based on the length of your subscription bu
 
 Ledger wallet is currently the most trusted hardware wallet for bitcoin and altcoins. The code is fully open source and the Ledger Nano S supports a mass of altcoins, including all ERC20 compliant tokens. Other than Bitcoin, Litecoin, Dash, Zcash, Ethereum and forks, Ledger also supports cryptocurrencies like Ripple and Stratis via Ledger's Companion Apps.
 
+
+#### **Ledger Nano S Black Friday**
+
 Ledger Nano S also supports Bitcoin Cash and Bitcoin Gold. Ledger is generally fast and diligent in Bitcoin fork support apps so the Nano S wallet is definitely a good choice if you are a BTC holder and want to be able to split coins safely. (Don't worry if you missed out so far, there will likely be more forks in the future.)
 
 <a rel="nofollow" href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">See crypto supported by Ledger Nano S</a>
 
 Ledger Nano S currently retails at a regular price of **up to 69.90 EUR** (price varies based on your location - the US retail price is still 58 EUR excl. tax). On Black Friday customers get **21% discount** on all Nano S orders. In 2017, the same deal is good for the entire weekend and also the Cyber monday.
 
-<a rel="nofollow"  class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
+#### **Ledger Nano X Black Friday**
 
-<div id="trezor"></div>
+The Ledger Nano X is a Bluetooth® enabled hardware device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+
+
+<a rel="nofollow"  class="button" href="https://www.ledgerwallet.com/r/e274?path=/products">See all current offers of Ledger wallets</a>
