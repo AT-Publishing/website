@@ -39,10 +39,9 @@ navi:
         <div class="smallad">
           <br>
           {{ site.bf1 }}
-          <br>
-          <span class="note">Latest in Strategy:</span><br>
-          {% for post in strat offset: 0 limit: 1 %}
-          {% include home/columnupdates.html %}
+          <span class="note">Latest in Crypto Strategy:</span><br>
+          {% for post in strat offset: 0 limit: 2 %}
+          {% include home/slimupdates.html %}
           {% endfor %}
         </div>
       </div>
