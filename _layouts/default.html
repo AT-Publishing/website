@@ -32,8 +32,38 @@
     id="amp-privacy"
     data-persist-dismissal="true">
     This site uses cookies.
-    <a href="/about-legal/">More</a>
-   <button on="tap:amp-privacy.dismiss">No problem</button>
+    <a href="/about-legal/">[More]</a>
+    <a on="tap:amp-privacy.dismiss">[No problem]</a>
+</amp-user-notification>
+
+<amp-user-notification
+  layout=nodisplay
+  id="amp-user-optin-strategy"
+  data-persist-dismissal="true"
+  >
+  <div class="altcointrading-strategy-optin">
+    <div class="row sidebar-nl">
+      <div class="columns twelve">
+        <p>
+          <strong>Opt in for 5 weeks of onboarding content from the <u>Crypto Trading Strategy</u> section.</strong>
+          <br>
+          All preferences:
+        </p>
+        <p>
+          <ul>
+            <li>/ Strategy and Security <b>(With Onboarding)</b></li>
+            <li>/ Current Airdrops Feed - Thu 7AM EST</li>
+            <li>/ Trading blog updates (No Onboarding)</li>
+          </ul>
+        </p>
+        <p>
+          <a class="optin" target="_blank" href="http://bit.ly/atnet-nl">Get Started</a>
+          &nbsp;
+          <button on="tap:amp-user-optin-strategy.dismiss">Go Away</button>
+        </p>
+      </div>
+    </div>
+  </div>
 </amp-user-notification>
 
 {% include header.html %}

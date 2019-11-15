@@ -1,16 +1,19 @@
 <span class="note">Popular in Extras</span>
 <ul class="popular">
 
-{% assign strat = site.strategy | sort:date | reverse | sample:2 %}
-{% assign sec = site.security | sort:date | reverse | sample:2 %}
+  {% assign strat = site.strategy | sort:date | reverse %}
+  {% assign sec = site.security | sort:date | reverse %}
 
-{% for post in sec %}
+{% assign strat_sample = site.strategy | sample:2 %}
+{% assign sec_sample = site.security | sample:2 %}
+
+{% for post in sec_sample %}
 <li class="popular-item">
   <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoSecurity | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
 </li>
 {% endfor %}
 
-{% for post in strat %}
+{% for post in strat_sample %}
 <li class="popular-item">
   <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoTrading | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
 </li>
