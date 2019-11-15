@@ -6,19 +6,19 @@ title: "Black Friday Deals 2019 | Crypto Black Friday Deals 2019 & Anticipated D
 description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
-image: ['/cta/blackfriday_1200x628.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
-
+image: [ '/cta/blackfriday-crypto-2019.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
+# '/cta/blackfriday_1200x628.jpg'
 author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
 ## Crypto Black Friday 2019
 
-Black Friday 2019 falls on Friday, November 29 2019.
+Black Friday 2019 falls on Friday, **November 29 2019**.
 
-**However, some tools for crypto traders are offering early deals before Black Friday 2019 actually comes up.**
+However, some tools for crypto traders are offering **early deals before Black Friday 2019** actually comes up.
 
-You can also catch a glimpse of what kind of offers we got to get ready for **Black Friday 2019**: Successful campaigns are most likely to repeat  in November 2019.
+In this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
 
 **Jump to:**
 

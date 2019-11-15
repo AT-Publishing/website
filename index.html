@@ -37,12 +37,13 @@ navi:
         {% include home/columnupdates.html %}
         {% endfor %}
         <div class="smallad">
+          <br>
+          {{ site.bf1 }}
+          <br>
           <span class="note">Latest in Strategy:</span><br>
           {% for post in strat offset: 0 limit: 1 %}
           {% include home/columnupdates.html %}
           {% endfor %}
-          <br>
-          {{ site.bf1 }}
         </div>
       </div>
   </div>

@@ -276,11 +276,11 @@ ledger_dec_300-250: '<div class="containter-center"><a  id="gtm-ledger-300-250" 
 bf1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/blackfriday/">
 <amp-img itemprop="image"
-src="/ads/crypto-black-friday-2019.png"
-alt="Crypto Black Friday deals 2019"
-data-original-width="863px"
-data-original-height="854px"
-width="300px" height="300px"
+src="/cta/blackfriday-crypto-2019_300x213.jpeg"
+alt="Crypto Black Friday offers 2019 - tradingview, ledger wallet, tensorcharts, conigy"
+data-original-width="300px"
+data-original-height="213px"
+width="300px" height="213px"
 layout="responsive">
 </amp-img></a></div><br>'
 
