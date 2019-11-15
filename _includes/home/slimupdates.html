@@ -1,6 +1,6 @@
 <div class="row cat-updates">
   <div class="twelve columns">
-    <h5 class="category-post post">
+    <h6 class="category-post post">
       <strong>
         {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
         {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
@@ -11,6 +11,6 @@
         <br>
         <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       </strong>
-    </h5>
+    </h6>
   </div>
 </div>
