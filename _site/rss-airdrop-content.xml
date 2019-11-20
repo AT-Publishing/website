@@ -13,8 +13,8 @@
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-content.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Nov 2019 10:52:50 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2019 10:52:50 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2019 11:19:19 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2019 11:19:19 +0000</lastBuildDate>
       <item>
         <title>All LIVE or soon launching Airdrops and Bounties</title>
         <description>
@@ -28,7 +28,17 @@
     <th>Official URL</th>
     <th>Additional Info</th>
   </tr>
-
+  <tr>
+    <td>New non-custodial anonymous peer-to-peer Bitcoin trading</td>
+    <td>Opened 19 Nov 2019</td>
+    <td>
+      If you miss the heyday of LocalBitcoins where anyone could buy BTC locally for cash (which has been banned since this summer) and anonymously (now site-wide KYC is required, plus allegedly LocalBitcoins have been working with three-letter agencies), since 19th November you have the chance to go back in time and buy your corn without ID again - at least for some time. You know that good things like this don't last ...
+       The former ETH marketplace LocalEthereum rebranded to LocalCryptos and offers local and anonymous BTC trading with fully automated escrow that is built natively on BTC blockchain - because bitcoin's smart contract scripting capabilities are good enough for simple stuff like escrows. You can even import your vendor reputation from LocalBitcoins.
+       The reputation import is done via adding a unique code to your LBC profile page, not by linking anything directly, but still in case you like your privacy it's probably only a good idea id you never ID'd on LocalBitcoins.
+    </td>
+    <td><a target="_blank" href="http://bit.ly/localcryptos">details</a></td>
+    <td><a target="_blank" href="http://bit.ly/localcryptos">make acct</a></td>
+  </tr>
   <tr>
     <td>Cloudbet Turbo Thursday Reload Bonus</td>
     <td>Every Thursday between 05:00-23:59 UTC</td>
@@ -132,7 +142,7 @@
 
           ]]>
         </description>
-        <pubDate>Wed, 20 Nov 2019 10:52:50 +0000</pubDate>
+        <pubDate>Wed, 20 Nov 2019 11:19:19 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
