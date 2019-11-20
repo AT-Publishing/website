@@ -13,9 +13,6 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-{% unless page.title %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz">{% endunless %}
-{% if page.cz %}<link rel="alternate" hreflang="cs" href="https://altcointrading.cz/{{ page.cz }}">{% endif %}
-
 <title>
   {% if page.title %}{{ page.title | capitalize }} {% if page.last_modified_at %} ({{ page.last_modified_at | date: "%d %b %Y" }}) {% endif %} | {{ site.title }}{% else %}{{ site.title }}{% endif %}
 </title>
