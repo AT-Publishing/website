@@ -309,6 +309,17 @@ width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+ledger-bf2019: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/atnet-nano-s">
+<amp-img itemprop="image"
+src="/cta/img_blog_blackfriday.jpg"
+alt="Black Friday Ledger Nano X wallet for crypto traders"
+data-original-width="1800px"
+data-original-height="400px"
+width="740px" height="165px"
+layout="responsive">
+</amp-img></a></div><br>'
+
 # http://bit.ly/hodlerscashback
 
 cashback: '<div class="text-center">

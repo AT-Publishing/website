@@ -37,6 +37,29 @@ It is known what traders can anticipate for Black Friday deals from TradingView 
 
 In 2019, just as every year, the most demanded crypto trading services and products come up with interesting bundle and discount offers in the weeks leading up to Black Friday 2019, just to get the attention of the crypto crowd.
 
+
+#### Ledger Nano X Pre-BlackFriday: "To the Moon" Discount
+
+{{ site.stars.four }}
+
+**Ledger confirmed that the Black Friday offers for 2019 start on November 25 with early offers leading up to the actual Black Friday November 29 and ending the week of offers on the Cyber Monday which is December 2nd.**
+
+{{ site.ledger-bf2019 }}
+
+Before this start of the Black Friday week, Ledger is *for the last few days* offering the **Nano X** wallets with a special "To the moon" engraving.
+
+**Remember**: The engraving is not just for vanity. It's also good to tell your devices apart, if you have multiple. These will not be restocked, so it's a rare chance to get one like this.
+
+Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale. Ledger is currently only offering a discount package called the [Backup Pack that bundles Ledger Nano S and Ledger Nano X](https://hodlerscashback.com/ledger-wallet-bundle/).
+
+If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack, your only option is to get the <a href="https://hodlerscashback.com/ledger-wallet/">3% Ledger Nano X Cashback</a>.
+
+It's not much, but it sure is better than nothing.
+
+If you already have a Ledger Nano X but want another one because you hold more altcoins that fits into the wallet's memory, get the new ["To the Moon" edition of Ledger Nano X](http://bit.ly/2oa15vh) - this way you will be able to tell the wallets apart.
+
+If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.
+
 #### TradingView PRO Pre-BlackFriday: Pay in Bitcoin
 
 {{ site.stars.five }}
@@ -56,22 +79,6 @@ If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/
 On Hodler's Cashback, you get cashback on both Ledger Nano S and Ledger Nano X, also on all bundled offers and you will even **get cashback for your already discounted  Black Friday orders**.  
 
 <a href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
-
-#### Ledger Nano X Pre-BlackFriday: "To the Moon" Discount
-
-{{ site.stars.four }}
-
-Ledger is selling their wallets with a special "To the moon" branding to celebrate their anniversary.
-
-Ledger Nano X is a new product, and as you know, newly launched tech toys normally do not get on sale. Ledger is currently only offering a discount package called the [Backup Pack that bundles Ledger Nano S and Ledger Nano X](https://hodlerscashback.com/ledger-wallet-bundle/).
-
-If you want to save on the new Ledger Nano X wallet but don't care for the Backup Pack, your only option is to get the <a href="https://hodlerscashback.com/ledger-wallet/">3% Ledger Nano X Cashback</a>.
-
-It's not much, but it sure is better than nothing.
-
-If you already have a Ledger Nano X but want another one because you hold more altcoins that fits into the wallet's memory, get the new ["To the Moon" edition of Ledger Nano X](http://bit.ly/2oa15vh) - this way you will be able to tell the wallets apart.
-
-If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.
 
 <div id="past"></div>
 
@@ -166,6 +173,8 @@ The early bird offers were finished off with a flat 50% discount on Ledger Nano 
 ## Anticipated Crypto Deals for BlackFriday 2019
 
 #### Ledger Nano S Black Friday 2019: Anticipated 50% Off
+
+**Ledger confirmed that the Black Friday offers for 2019 start on November 25 with early offers leading up to the actual Black Friday November 29 and ending the week of offers on the Cyber Monday which is December 2nd.**
 
 {{ site.stars.five }}
 
