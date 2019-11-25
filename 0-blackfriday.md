@@ -16,9 +16,17 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
 
-**We will update this page at >>>> 2PM UTC TODAY <<<< with more details once Ledger opens their early Black Friday deals!**
+## LIVE OFFER No 1 - Ledger Wallets 30% OFF site-wide
 
-In this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
+{{ site.ledger-bf2019 }}
+
+Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
+
+**If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
+
+{{ site.ledger-bf2019 }}
+
+In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
 
 **Jump to:**
 
@@ -176,11 +184,20 @@ Through Black Friday 2018, Coinigy offered discounts **up to 75% on annual accou
 
 #### Ledger Nano X Black Friday 2019: Anticipated Site-Wide Discount
 
+---
+
+{{ site.ledger-bf2019 }}
+
+Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
+
+**If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
+
+---
+
 **Originally, we were anticipating a bundled offer for the Ledger Nano X, but Ledger confirmed in a message to their affiliates that there will be site-wide discounts through Black Friday week 2019.**
 
 They didn't share any details but if site-wide is really site-wide, you should be able to get Ledger Nano X with a good amount of money off even if you just want to get a single wallet.
 
-**We will update this page at >>>> 2PM UTC TODAY <<<< with more details once Ledger opens their early Black Friday deals!**
 
 ##### About Ledger Nano X
 
