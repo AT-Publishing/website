@@ -14,9 +14,9 @@ author: 'mailto:jmt@altcointrading.net'
 
 ## Crypto Black Friday 2019
 
-Black Friday 2019 falls on Friday, **November 29 2019**.
+Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
 
-However, some tools for crypto traders are offering **early deals before Black Friday 2019** actually comes up.
+**We will update this page at >>>> 2PM UTC TODAY <<<< with more details once Ledger opens their early Black Friday deals!**
 
 In this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
 
@@ -84,6 +84,31 @@ On Hodler's Cashback, you get cashback on both Ledger Nano S and Ledger Nano X, 
 
 ## Crypto Black Fridays Deals 2018 - To Repeat in 2019
 
+
+#### Ledger Nano S Black Friday Sale: up to 50% OFF hardware wallets
+
+{{ site.stars.five }}
+
+In 2018, Ledger Wallet opened with the first crypto-related **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
+
+This campaign was followed on October 31 with a **limited edition Ledger Wallet**, themed for the 10 year anniversary of the Satoshi white-paper.
+
+Through November 2018, Ledger was running a pre-BlackFriday promo for bulk orders on their **special color edition**.
+
+The point of making the most popular cryptocurrency wallet available in 6 different colors was to **make it easier to admin**. With Nano S you can hardly ever use enough wallet apps in a single device, so it has value to be actually able to **tell your hardware wallets apart**.
+
+The bulk offer was quite standard for Ledger:
+
+```
+20% off on 1 Black Ledger Nano S + 1 Color Edition
+30% off on 1 Black Ledger Nano S + 2 or more Color Edition
+```
+
+The early bird offers were finished off with a flat 50% discount on Ledger Nano S.
+
+<b>Remember that with Ledger Nano S, catching them in stock is often an issue. <a rel="nofollow" href="https://www.ledger.com/?r=e274">Take a look at current Ledger Wallet offers</a>.</b>
+
+
 #### TradingView Black Friday Sale: 40-60% OFF the PRO plans
 
 {{ site.stars.five }}
@@ -145,32 +170,30 @@ Through Black Friday 2018, Coinigy offered discounts **up to 75% on annual accou
 
 <b>Start with <a rel="nofollow" href="https://www.coinigy.com/?r=4bee056c">Coinigy 30 day free trial</a> and if you like the free tier, upgrade the next Black Friday.</b>
 
-#### Ledger Nano S Black Friday Sale: up to 50% OFF hardware wallets
-
-{{ site.stars.five }}
-
-In 2018, Ledger Wallet opened with the first crypto-related **early bird deal**, 20% off on *Ledger Nano S* ordered between October 17 - October 22.
-
-This campaign was followed on October 31 with a **limited edition Ledger Wallet**, themed for the 10 year anniversary of the Satoshi white-paper.
-
-Through November 2018, Ledger was running a pre-BlackFriday promo for bulk orders on their **special color edition**.
-
-The point of making the most popular cryptocurrency wallet available in 6 different colors was to **make it easier to admin**. With Nano S you can hardly ever use enough wallet apps in a single device, so it has value to be actually able to **tell your hardware wallets apart**.
-
-The bulk offer was quite standard for Ledger:
-
-```
-20% off on 1 Black Ledger Nano S + 1 Color Edition
-30% off on 1 Black Ledger Nano S + 2 or more Color Edition
-```
-
-The early bird offers were finished off with a flat 50% discount on Ledger Nano S.
-
-<b>Remember that with Ledger Nano S, catching them in stock is often an issue. <a rel="nofollow" href="https://www.ledger.com/?r=e274">Take a look at current Ledger Wallet offers</a>.</b>
-
 <div id="anticipated"></div>
 
 ## Anticipated Crypto Deals for BlackFriday 2019
+
+#### Ledger Nano X Black Friday 2019: Anticipated Site-Wide Discount
+
+**Originally, we were anticipating a bundled offer for the Ledger Nano X, but Ledger confirmed in a message to their affiliates that there will be site-wide discounts through Black Friday week 2019.**
+
+They didn't share any details but if site-wide is really site-wide, you should be able to get Ledger Nano X with a good amount of money off even if you just want to get a single wallet.
+
+**We will update this page at >>>> 2PM UTC TODAY <<<< with more details once Ledger opens their early Black Friday deals!**
+
+##### About Ledger Nano X
+
+The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+
+Keep in mind that Ledger Nano X is a new product. As such, Ledger is not likely to discount it a lot. When you see any markdown offer, you shouldn't really hesitate!
+
+[More about Ledger Nano X](http://bit.ly/ledger-nano-x)
+
+<!-- https://shop.ledger.com/pages/black-Friday?r=e274 -->
+
+<em>If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.</em>
+
 
 #### Ledger Nano S Black Friday 2019: Anticipated 50% Off
 
@@ -189,17 +212,6 @@ It is expected that due to the increasing competition and also the wider product
 &nbsp;
 <a rel="nofollow" class="button" href="http://bit.ly/ledger-nano-x">The Buzz: Ledger Nano X</a>
 </p>
-
-#### Ledger Nano X Black Friday 2019: Anticipated Bundle Offer Discount
-
-The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
-
-Ledger Nano X is a new product. As such, Ledger is not likely to discount it a lot.
-
-What is likely though is some form of bundled offer. In the past years we have seen a lot of success on Ledger wallet bundles that combine several designs and kinds of Ledger wallets, yielding a good price per device.
-
-<em>If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.</em>
-
 
 #### TradingView Black Friday 2019: Anticipated 60% Off on Yearly Plans
 
