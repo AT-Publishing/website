@@ -2,7 +2,7 @@
 layout: marketing
 published: true
 
-title: "Black Friday Deals 2019 | Crypto Black Friday Deals 2019 & Anticipated Deals"
+title: "Black Friday Deals 2019 | LIVE OFFERS | Crypto Black Friday Deals 2019 & Anticipated Deals"
 description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
@@ -16,7 +16,40 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
 
+## LIVE OFFER No 2 - TradingView 40-60% OFF on yearly plans
+
+[offer valid: 25 Nov - 29 Nov]
+
+<a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
+
+{{ site.tv_728-90_animated }}
+
+Exactly just as anticipated, the TradingView Black Friday offer is the yearly plan discount in the range of 40-60% when paid yearly.
+
+**Here's the TradingView Black Friday 2019 deal structure for you:**
+
+* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
+* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
+* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
+
+**Cost breakdown for your monthly price after Black Friday discount**:
+
+* **PRO** with yearly payment ~ **9 USD/month**
+* **PRO+** with yearly payment ~ **14.95 USD/month**
+* **PREMIUM** with yearly payment ~ **23.98 USD/month**
+
+The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
+
+<b>Still not sure?</b> Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a>. You have until <b>Friday 29th</b> to upgrade if you want the Black Friday discount.
+
+<a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
+
+{{ site.tv_728-90_animated }}
+
+
 ## LIVE OFFER No 1 - Ledger Wallets 30% OFF site-wide
+
+[offer valid: 25 Nov - 2 Dec]
 
 {{ site.ledger-bf2019 }}
 
