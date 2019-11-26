@@ -20,38 +20,44 @@ Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolli
 
 [offer valid: 25 Nov - 29 Nov]
 
-<a rel="nofollow"  class="button" href="http://bit.ly/tradingview-at-bf2019">See the TradingView PRO plans pricing</a>
+<a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
 
 {{ site.tv_1200-628 }}
 
 Exactly just as anticipated, the TradingView Black Friday offer is the yearly plan discount in the range of 40-60% when paid yearly.
 
-**Here's the TradingView Black Friday 2019 deal structure for you:**
+**Cost breakdown of the TradingView Black Friday 2019 offer for you:**
 
-* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year
-* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year
-* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year
-
-**Cost breakdown for your monthly price after Black Friday discount**:
-
-* **PRO** with yearly payment ~ **9 USD/month**
-* **PRO+** with yearly payment ~ **14.95 USD/month**
-* **PREMIUM** with yearly payment ~ **23.98 USD/month**
+* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year ~ **9 USD/month**
+  - 2 charts per tab, 5 saved layouts, 5 indicators per layout
+  - **[GO TO OFFER](http://bit.ly/tv-gopro-bf19)**
+* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year ~ **14.95 USD/month**
+  - 2 charts per tab, 10 saved layouts, 10 indicators per layout
+  - **[GO TO OFFER](http://bit.ly/tv-bg2019)**
+* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year ~ **23.98 USD/month**
+  - 2 charts per tab, unlimited saved layouts, 25 indicators per layout
+  - **[GO TO OFFER](http://bit.ly/tv-gopro-bf19)**
 
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
 
 <b>Still not sure?</b> Start with <a href="http://bit.ly/tradingview-at-bf2019" rel="nofollow">TradingView FREE plan</a>. You have until <b>Friday 29th</b> to upgrade if you want the Black Friday discount.
 
-<a rel="nofollow"  class="button" href="http://bit.ly/tradingview-at-bf2019">See the TradingView PRO plans pricing</a>
+<a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
   
 
-## LIVE OFFER No 1 - Ledger Wallets 30% OFF site-wide
+## LIVE OFFER No 1 - Ledger Black Friday 30% OFF site-wide
 
 [offer valid: 25 Nov - 2 Dec]
 
 {{ site.ledger-bf2019 }}
 
 Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
+
+All individual products and all available bundles are marked down 30% through the whole week until Cyber Monday. If you already know which Ledger wallet you want to get this Black Friday, here are the direct product links for ya:
+
+* [Ledger Nano X Black Friday sale](http://bit.ly/nano-x-bf2019)
+* [Ledger Nano S Black Friday](http://bit.ly/nano-s-bf2019)
+* [Ledger Backup pack](http://bit.ly/bpbf-2019)
 
 **If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
 

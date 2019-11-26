@@ -235,6 +235,12 @@ tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.
 # boc-web https://tradingview.go2cloud.org/SH3Sd
 # social https://tradingview.go2cloud.org/SH3Sf
 
+tv_bf19_728-90_static: '<div class="containter-center"><a href="http://bit.ly/tv-bg2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tvbf19-leaderb.png" alt="Tradingview Black Friday Offer" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+
+
+tv_bf19_300-250_static: '<div class="containter-center"><a rel="nofollow" title="TradingView black Friday Discount" href="http://bit.ly/tv-bg2019" target="_blank">
+<amp-img itemprop="image" src="/ads/tvbf19300x250.png" alt="TradingView black Friday Discount" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
+
 
 deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
@@ -374,6 +380,8 @@ bfx: '<a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="https://bit
 
 bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="https://bitfinex.com/?refcode=5egV78YtlC" target="_blank">
 <amp-img itemprop="image" src="/ads/bitfinex_app.png" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
+
+
 
 fucksense:
   banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
