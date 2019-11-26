@@ -20,9 +20,9 @@ Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolli
 
 [offer valid: 25 Nov - 29 Nov]
 
-<a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
+<a rel="nofollow"  class="button" href="http://bit.ly/tradingview-at-bf2019">See the TradingView PRO plans pricing</a>
 
-{{ site.tv_728-90_animated }}
+{{ site.tv_1200-628 }}
 
 Exactly just as anticipated, the TradingView Black Friday offer is the yearly plan discount in the range of 40-60% when paid yearly.
 
@@ -40,12 +40,10 @@ Exactly just as anticipated, the TradingView Black Friday offer is the yearly pl
 
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
 
-<b>Still not sure?</b> Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a>. You have until <b>Friday 29th</b> to upgrade if you want the Black Friday discount.
+<b>Still not sure?</b> Start with <a href="http://bit.ly/tradingview-at-bf2019" rel="nofollow">TradingView FREE plan</a>. You have until <b>Friday 29th</b> to upgrade if you want the Black Friday discount.
 
-<a rel="nofollow"  class="button" href="http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=3">See the TradingView PRO plans pricing</a>
-
-{{ site.tv_728-90_animated }}
-
+<a rel="nofollow"  class="button" href="http://bit.ly/tradingview-at-bf2019">See the TradingView PRO plans pricing</a>
+  
 
 ## LIVE OFFER No 1 - Ledger Wallets 30% OFF site-wide
 
