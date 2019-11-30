@@ -16,7 +16,38 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
 
-## LIVE OFFER No 2 - TradingView 40-60% OFF on yearly plans
+## LIVE until Monday - Ledger Black Friday 30% OFF site-wide
+
+[offer valid: 25 Nov - 2 Dec]
+
+{{ site.ledger-bf2019 }}
+
+Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
+
+All individual products and all available bundles are marked down 30% through the whole week until Cyber Monday. If you already know which Ledger wallet you want to get this Black Friday, here are the direct product links for ya:
+
+* [Ledger Nano X Black Friday sale](http://bit.ly/nano-x-bf2019)
+* [Ledger Nano S Black Friday](http://bit.ly/nano-s-bf2019)
+* [Ledger Backup pack](http://bit.ly/bpbf-2019)
+
+**If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
+
+{{ site.ledger-bf2019 }}
+
+In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
+
+**Jump to:**
+
+* [Special Offers - Black Friday before Black Friday](#special)
+* [Past Black Friday Sales 2018](#past)
+* [Anticipated Black Friday Deals 2019](#anticipated)
+
+
+
+
+## Expired Black Friday Offers
+
+### [YOU MISSED] TradingView Black Friday - 40-60% OFF on yearly plans
 
 [offer valid: 25 Nov - 29 Nov]
 
@@ -45,31 +76,7 @@ The PRO TradingView subscription with BlackFriday deal costs monthly the same ra
 <a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
   
 
-## LIVE OFFER No 1 - Ledger Black Friday 30% OFF site-wide
 
-[offer valid: 25 Nov - 2 Dec]
-
-{{ site.ledger-bf2019 }}
-
-Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
-
-All individual products and all available bundles are marked down 30% through the whole week until Cyber Monday. If you already know which Ledger wallet you want to get this Black Friday, here are the direct product links for ya:
-
-* [Ledger Nano X Black Friday sale](http://bit.ly/nano-x-bf2019)
-* [Ledger Nano S Black Friday](http://bit.ly/nano-s-bf2019)
-* [Ledger Backup pack](http://bit.ly/bpbf-2019)
-
-**If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
-
-{{ site.ledger-bf2019 }}
-
-In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
-
-**Jump to:**
-
-* [Special Offers - Black Friday before Black Friday](#special)
-* [Past Black Friday Sales 2018](#past)
-* [Anticipated Black Friday Deals 2019](#anticipated)
 
 
 <div id="special"></div>
@@ -124,6 +131,7 @@ If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/
 On Hodler's Cashback, you get cashback on both Ledger Nano S and Ledger Nano X, also on all bundled offers and you will even **get cashback for your already discounted  Black Friday orders**.  
 
 <a href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
+
 
 <div id="past"></div>
 
