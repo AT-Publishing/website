@@ -16,6 +16,27 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
 
+## LIVE until Monday - AirVPN Black Friday up to 74% OFF
+
+AirVPN is the well known VPN provider that accepts Bitcoin payments (directly, without any intermediaries) and is very much focused on user privacy in all aspects. The website doesn't even track cookies or marketing data.
+
+For the Black Friday 2019, they offer up to 74% discount on all plans, but the amount varies based on what plan you choose.
+
+It is the longer plan the larger discount with AirVPN, and a three year plan with the Black Friday offer costs **instead of 99 EUR only 64.35 EUR**. That puts your **monthly VPN costs to 1.79 EUR**, which in many countries is a less than a supermarket coffee.
+
+* Yearly Plan: <s>49 EUR</s> ~ 31.85 EUR
+  - [GO TO OFFER](http://bit.ly/air-bf2019)
+* Two-year Plan: <s>79 EUR</s> ~ 51.35 EUR
+  - [GO TO OFFER](http://bit.ly/air-bf2019)
+* Three-year Plan: <s>99 EUR</s> ~ 64.35 EUR (1 year free compared to yearly pricing)
+  - [GO TO OFFER](http://bit.ly/air-bf2019)
+
+AirVPN have their own native client for all desktop and mobile platforms, but you can also generate the ovpn files and use them with any standard OpenVPN app. [There's a community forum](http://bit.ly/air-bf2019) in case it is the first time you're setting this up.
+
+In case you don't want to waste your crypto on this, they also accept PayPal and bank cards, by the way.
+
+**[Go to AirVPN Black Friday / Cyber Monday Offers](http://bit.ly/air-bf2019)**
+
 ## LIVE until Monday - Ledger Black Friday 30% OFF site-wide
 
 [offer valid: 25 Nov - 2 Dec]
