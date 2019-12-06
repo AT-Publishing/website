@@ -2,7 +2,7 @@
 title: "Wyckoff Avoidance Strategy in Cryptocurrency Trading"
 description: "Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?"
 note: "Trading Strategy"
-pinned: yes
+pinned: no
 date: 2019-10-09 05:02:00 -0300
 
 categories: [trading]

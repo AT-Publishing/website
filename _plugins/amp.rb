@@ -82,7 +82,6 @@ module Jekyll
    end
    def render(context)
      @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
-     #@src= "PICIO KUNDA"
      @site_url = Liquid::Template.parse("{{ site.url }}").render(context)
      @title_as_alt = Liquid::Template.parse("{{ page.title }}").render(context)
      amp = "<a target=\"_blank\" href=\"#{@site_url}#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "

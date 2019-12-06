@@ -7,7 +7,7 @@ permalink: daytrading/
 image:
 - "/editorial/woman-daytrading.jpg"
 image_alt:
-- "Daytrading on Cryptocurrency Markets"
+- "Daytrading on Cryptocurrency Markets" 
 
 note: "Trading Strategy"
 pinned: no
