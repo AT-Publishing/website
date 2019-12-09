@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Dec 2019 10:16:26 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Dec 2019 10:16:26 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Dec 2019 02:25:09 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Dec 2019 02:25:09 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -2941,8 +2941,6 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 &lt;hr /&gt;
 
-&lt;div class=&quot;text-center&quot;&gt;&lt;a class=&quot;index-internal&quot; target=&quot;_blank&quot; href=&quot;https://twitter.com/boc__official&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;/cta/chinesenewyear2019.jpg&quot; alt=&quot;#chinesenewyear2019&quot; data-original-width=&quot;1024px&quot; data-original-height=&quot;512px&quot; width=&quot;300px&quot; height=&quot;150px&quot; layout=&quot;responsive&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
  ]]></content:encoded>
         <turbo:content><![CDATA[ <p>On January 21st, Samourai Wallet released an update that makes an important step towards the fungibility of Bitcoin as a payment vehicle.</p>
 
@@ -2990,8 +2988,6 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <hr />
 
-<div class="text-center"><a class="index-internal" target="_blank" href="https://twitter.com/boc__official"><amp-img itemprop="image" src="/cta/chinesenewyear2019.jpg" alt="#chinesenewyear2019" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div>
-<p><br /></p>
  ]]></turbo:content>
 
         <author><![CDATA[ Chris at The Business Of Crypto ]]></author>

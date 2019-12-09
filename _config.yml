@@ -235,12 +235,6 @@ tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.
 # boc-web https://tradingview.go2cloud.org/SH3Sd
 # social https://tradingview.go2cloud.org/SH3Sf
 
-tv_bf19_728-90_static: '<div class="containter-center"><a href="http://bit.ly/tv-bg2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tvbf19-leaderb.png" alt="Tradingview Black Friday Offer" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
-
-
-tv_bf19_300-250_static: '<div class="containter-center"><a rel="nofollow" title="TradingView black Friday Discount" href="http://bit.ly/tv-bg2019" target="_blank">
-<amp-img itemprop="image" src="/ads/tvbf19300x250.png" alt="TradingView black Friday Discount" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
-
 
 deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
@@ -272,11 +266,6 @@ width="336px" height="280px">
 
 advcash_728x90: '<div class="text-center"><a rel="nofollow" target="_blank" href="http://wallet.advcash.com/referral/3d50b494-473e-45e5-8434-5ad9d8658cc8"><amp-img itemprop="image" alt="Advcash eWallet and crypto" src="/ads/advcash_leader.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
 
-# xmas
-
-ledger_dec_728-90: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_728x90.jpg" alt="Ledger wallet Nano S Promo" data-original-width="1378px" data-original-height="170px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
-ledger_dec_300-250: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledger_dec_300x250.jpg" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
-
 ### CTAs to deal pages
 
 bf1: '<div class="text-center">
@@ -287,18 +276,6 @@ alt="Crypto Black Friday offers 2019 - tradingview, ledger wallet, tensorcharts,
 data-original-width="300px"
 data-original-height="213px"
 width="300px" height="213px"
-layout="responsive">
-</amp-img></a></div><br>'
-
-
-xmas1: '<div class="text-center">
-<a class="index-internal" target="_blank" href="/xmas/">
-<amp-img itemprop="image"
-src="/cta/xmas1.jpg"
-alt="Christmas deals 2018 for crypto traders"
-data-original-width="1024px"
-data-original-height="512px"
-width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
@@ -315,16 +292,6 @@ width="300px" height="150px"
 layout="responsive">
 </amp-img></a></div><br>'
 
-ledger-bf2019: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/atnet-ledger-bf2019">
-<amp-img itemprop="image"
-src="/cta/img_blog_blackfriday.jpg"
-alt="Black Friday Ledger Nano X wallet for crypto traders"
-data-original-width="1800px"
-data-original-height="400px"
-width="740px" height="165px"
-layout="responsive">
-</amp-img></a></div><br>'
 
 # http://bit.ly/hodlerscashback
 
@@ -333,10 +300,6 @@ cashback: '<div class="text-center">
 <amp-img itemprop="image" src="/ads/ledger-wallet-cashback.png" alt="Ledger Nano X Cashback"
 data-original-width="330px" data-original-height="330px"
 width="300px" height="300px" layout="responsive"></amp-img></a></div><br>'
-
-# chinese new yaear 1025x512
-
-cny2019: '<div class="text-center"><a class="index-internal" target="_blank" href="https://twitter.com/boc__official"><amp-img itemprop="image" src="/cta/chinesenewyear2019.jpg" alt="#chinesenewyear2019" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div><br>'
 
 
 # TV crypto offer

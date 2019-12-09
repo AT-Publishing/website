@@ -1,25 +1,23 @@
 ---
 layout: at-trading
+pinned: yes
+genres: "Strategy"
+published: true
+
 date: 2017-04-13 12:24
 title: "Opinion: Time in the market vs timing the market"
 description: "They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure."
-categories:
-- "trading"
-- "altcoins"
+
+categories: [trading]
+tags: ["crypto-trading", "technical-trading", "technical-analysis", "daytrading", "trading-strategy"]
+guide: true
+
 permalink: time-vs-timing/
 image:
 - "/img/editorial/likeaboss.jpg"
 - "/img/editorial/fuck.jpg"
 image_alt:
 - "In the long run, time in the market beats timing the market."
-
-stories: true
-
-tags: []
-
-genres: "Strategy"
-
-published: true
 
 ---
 
@@ -71,4 +69,4 @@ I am sure there are people who believe [certain coins](https://www.reddit.com/r/
 You shouldn't blame people for holding on to assets with slower development and moronic leads. After all [the longer the assets are surviving this misfortune the more valuable they are for the long run](https://en.wikipedia.org/wiki/Lindy_effect).
 
 
-{{ site.ads.aads728 }}
+{{ site.mex_336x280 }}
