@@ -16,6 +16,20 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Christmas Offers 2019**.
 
+## LIVE - BillFodl 40% OFF Christmas Sale
+
+{{ site.stars.five }}
+
+Billfodl is next to Cryptosteel one of the leaders in true cold storage for crypto - producer of the super resistant metal private key storage for the paranoid.
+
+Billfodl is made 100% of the highest quality 316 stainless steel that has super high melting point (to withstand house fires), is very resistant to corrosion (even in salt water) and also completely shock-proof (to withstand explosions). Very good for your cold storage coins that never move.
+
+They also have bundle packs in case you are ultra paranoid and want to split your main money seed in two to store it in two different locations.
+
+The Billfodl wallets are now offered at **40% OFF (site-wide)**. They ship from the US but only show prices before tax on their e-shop, if you're elsewhere you might need to add the duties to your bill.
+
+<a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl Sale</a>
+
 ## LIVE - Ledger Christmas Pack
 
 {{ site.stars.five }}
