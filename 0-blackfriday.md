@@ -24,15 +24,17 @@ Ledger wallet is coming up with the **Ledger Christmas Pack** in 2019.
 
 The Christmas deal is super simple: Buy a Ledger Nano X and get a **Ledger Nano S for free**.  
 
+{{ site.ledger_mobilebanner }}
+
 The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
 
 The best way to make use of the Ledger Christmas deal is to use the new Ledger Nano X as your cold-ish storage and to use the Nano S for the crypto you move the most often: Nano S can pretty much operate with a single crypto on it only, due to the small memory. But if you trade mostly with, say, Bitcoin as your base currency, you can set up this single Ledger Nano S as your trading wallet.
 
 It's also useful to have a separate wallet for the darknetmarkets. But we haven't really said that...
 
-**[Go to Ledger Christmas Pack](http://bit.ly/at-ledg-xmmas19)**
+<a rel="nofollow"  class="button" href="http://bit.ly/at-ledg-xmmas19">Go to Ledger Christmas Pack</a>
 
-{{ site.ledger_color }}
+&nbsp;
 
 #### Ledger Wallet Cashback
 
@@ -42,8 +44,9 @@ If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/
 
 You still get cashback on any promotional packages or discounted goods, as long as you buy from the official Ledger shop.
 
-**[Go To Hodler's Cashback](https://hodlerscashback.com/)**
+<a rel="nofollow"  class="button" href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
 
+&nbsp;
 
 
 **Jump to:**

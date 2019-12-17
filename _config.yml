@@ -304,6 +304,11 @@ layout="responsive">
 </amp-img></a></div><br>'
 
 
+ledger_mobilebanner: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/at-ledg-xmmas19">
+<amp-img itemprop="image" src="https://www.ledgerwallet.com/images/promo/banners/ledger_banner_2-5-0x1-0-0.jpg" alt="Ledger Nano X - The secure hardware wallet"
+data-original-width="250px" data-original-height="100px"  width="250px" height="100px"
+layout="responsive></amp-img></a></div><br>'
+
 # http://bit.ly/hodlerscashback
 
 cashback: '<div class="text-center">
