@@ -2,8 +2,8 @@
 layout: marketing
 published: true
 
-title: "Black Friday Deals 2019 | LIVE OFFERS | Crypto Black Friday Deals 2019 & Anticipated Deals"
-description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more blackfriday deals for 2019."
+title: "Eternal Black Friday | Crypto Black Friday Deals AFTER Black Friday 2019"
+description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."
 permalink: /blackfriday/
 date: 2019-02-20 03:14 +0700
 image: [ '/cta/blackfriday-crypto-2019.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
@@ -12,11 +12,54 @@ author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
-## Crypto Black Friday 2019
+## Black Friday is over, long live Black Friday
 
-Black Friday 2019 falls on Friday **November 29 2019**, but some deals are rolling out **TODAY on November 25** to stay up for the whole week.
+Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Christmas Offers 2019**.
 
-## LIVE until Monday - AirVPN Black Friday up to 74% OFF
+## LIVE - Ledger Christmas Pack
+
+{{ site.stars.five }}
+
+Ledger wallet is coming up with the **Ledger Christmas Pack** in 2019.
+
+The Christmas deal is super simple: Buy a Ledger Nano X and get a **Ledger Nano S for free**.  
+
+The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+
+The best way to make use of the Ledger Christmas deal is to use the new Ledger Nano X as your cold-ish storage and to use the Nano S for the crypto you move the most often: Nano S can pretty much operate with a single crypto on it only, due to the small memory. But if you trade mostly with, say, Bitcoin as your base currency, you can set up this single Ledger Nano S as your trading wallet.
+
+It's also useful to have a separate wallet for the darknetmarkets. But we haven't really said that...
+
+**[Go to Ledger Christmas Pack](http://bit.ly/at-ledg-xmmas19)**
+
+{{ site.ledger_color }}
+
+#### Ledger Wallet Cashback
+
+{{ site.stars.five }}
+
+If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a> after making an account, you will get cashback **on your total bill**, no matter which products you will buy.
+
+You still get cashback on any promotional packages or discounted goods, as long as you buy from the official Ledger shop.
+
+**[Go To Hodler's Cashback](https://hodlerscashback.com/)**
+
+
+
+**Jump to:**
+
+* [Special Offers - Black Friday before Black Friday](#special)
+* [Past Black Friday Sales 2019](#past2019)
+* [Past Black Friday Sales 2018](#past2018)
+* [Anticipated Black Friday Deals 2020](#anticipated)
+
+
+
+<div id="past2019"></div>
+
+## Past Black Friday Offers - What we got in 2019
+
+## AirVPN Black Friday up to 74% OFF
 
 AirVPN is the well known VPN provider that accepts Bitcoin payments (directly, without any intermediaries) and is very much focused on user privacy in all aspects. The website doesn't even track cookies or marketing data.
 
@@ -37,9 +80,7 @@ In case you don't want to waste your crypto on this, they also accept PayPal and
 
 **[Go to AirVPN Black Friday / Cyber Monday Offers](http://bit.ly/air-bf2019)**
 
-## LIVE until Monday - Ledger Black Friday 30% OFF site-wide
-
-[offer valid: 25 Nov - 2 Dec]
+## Ledger Black Friday 30% OFF site-wide
 
 {{ site.ledger-bf2019 }}
 
@@ -57,20 +98,7 @@ All individual products and all available bundles are marked down 30% through th
 
 In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
 
-**Jump to:**
-
-* [Special Offers - Black Friday before Black Friday](#special)
-* [Past Black Friday Sales 2018](#past)
-* [Anticipated Black Friday Deals 2019](#anticipated)
-
-
-
-
-## Expired Black Friday Offers
-
-### [YOU MISSED] TradingView Black Friday - 40-60% OFF on yearly plans
-
-[offer valid: 25 Nov - 29 Nov]
+### TradingView Black Friday - 40-60% OFF on yearly plans
 
 <a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
 
@@ -96,8 +124,6 @@ The PRO TradingView subscription with BlackFriday deal costs monthly the same ra
 
 <a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
   
-
-
 
 
 <div id="special"></div>
@@ -143,20 +169,9 @@ The price for the **unlimited TradingView** subscription with bitcoin payments i
 
 <b>Go to the TradingView crypto offer <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
-#### Cashback Black Friday: Any Ledger wallet Product
+<div id="past2018"></div>
 
-{{ site.stars.five }}
-
-If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a> after making an account, you will get cashback on your total bill, no matter which products you will buy.
-
-On Hodler's Cashback, you get cashback on both Ledger Nano S and Ledger Nano X, also on all bundled offers and you will even **get cashback for your already discounted  Black Friday orders**.  
-
-<a href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
-
-
-<div id="past"></div>
-
-## Crypto Black Fridays Deals 2018 - To Repeat in 2019
+## Crypto Black Fridays Deals 2018
 
 
 #### Ledger Nano S Black Friday Sale: up to 50% OFF hardware wallets
