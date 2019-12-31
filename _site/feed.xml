@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Dec 2019 07:44:34 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Dec 2019 07:44:34 +0000</lastBuildDate>
+    <pubDate>Tue, 31 Dec 2019 08:39:43 +0000</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2019 08:39:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -3328,7 +3328,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
     
       <item turbo="true">
         <title><![CDATA[ Stats from 2018 - Readers like Melancholic 100x and Ledger ]]></title>
-        <description><![CDATA[ Plus a look at search and traffic stats for hardware wallets and what it probably means. ]]></description>
+        <description><![CDATA[ Look at one tiny piece of the economy of crypto for payments. Plus a look at search and traffic stats for hardware wallets and what it probably means. ]]></description>
         <content:encoded><![CDATA[ &lt;p&gt;It is the last day of 2018 when I’m writing this post, so let me wish all the best to you and to crypto in the year 2019.&lt;/p&gt;
 
 &lt;p&gt;And because it’s the end of year I thought I might look at the stats of this blog for once (we’re very diligent and professional around here).&lt;/p&gt;
@@ -3469,14 +3469,15 @@ On a P2P platform, users need to manually choose a person to trade with. That co
         <media:content url="https://www.altcointrading.net/editorial/tradingstation.jpg" medium="image" />
 
         <pubDate>Mon, 31 Dec 2018 13:31:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/</guid>
-        <comments>https://www.altcointrading.net/retail-buyin-15k-wallets-still-run/#comments</comments>
+        <link>https://www.altcointrading.net/stats-2018/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/stats-2018/</guid>
+        <comments>https://www.altcointrading.net/stats-2018/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
         <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ data-analysis ]]></category>
+        <category><![CDATA[ crypto-economy ]]></category>
+        <category><![CDATA[ crypto-for-payments ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
         
         <category><![CDATA[ reports ]]></category>

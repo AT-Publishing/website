@@ -8,7 +8,7 @@ layout: default-news
    <div class="eight columns post-content">
 
      <div class="shifted-left">
-       {{ site.fucksense.banner }} 
+       {{ site.ledger_728-90_animated }}
      </div>
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
 
@@ -25,7 +25,12 @@ layout: default-news
         <br>
         <article class="maincontent">
           <div>
-            {% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+            <figure class="noborder main-post-image">
+              <amp-img itemprop="image" src="{{ page.image[0] }}" alt="{{ page.title }} - Altcoin Trading Blog"
+              layout="responsive" data-original-width="720px" data-original-height="360px"
+              width="720px" height="360px">
+              </amp-img>
+            </figure>
           </div>
           <p>
               <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
@@ -42,14 +47,17 @@ layout: default-news
           </div>
           <hr>
 
-          <div class="">
-            {% include dogeshare.html %}
-          </div>
+
 
         </article>
     </div>
     <div class="four columns nomargintop">
+      {{ site.vtoro }}
+      <div class="share">
+        {% include dogeshare.html %}
+      </div>
       {% include sidebar-post.html %}
+      {{ site.lnx_300-600 }}
       <p>&nbsp;</p>
     </div>
   </div>

@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Fri, 27 Dec 2019 07:44:34 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Dec 2019 07:44:34 +0000</lastBuildDate>
+    <pubDate>Tue, 31 Dec 2019 08:39:43 +0000</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2019 08:39:43 +0000</lastBuildDate>
 
     
       <item>
@@ -562,6 +562,41 @@
         
 
         <category>palo-alto-networks</category>
+        
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Security Threats for Crypto Traders and Hodlers to Expect in 2020</title>
+        <description>What kind of threats can we as crypto traders and hodlers expect in 2020 and what are the ways to protect our holdings?</description>
+
+        <pubDate>Tue, 31 Dec 2019 03:21:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.net/editorial/unsplash3/security-2020.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/threats-cryptotraders-2020/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/threats-cryptotraders-2020/</guid>
+        
+
+        <category>crypto-malware</category>
+        
+
+        <category>crypto-security</category>
+        
+
+        <category>security-tools</category>
+        
+
+        <category>malware-detection</category>
+        
+
+        <category>cryptojacking</category>
         
         
         <category>software</category>
