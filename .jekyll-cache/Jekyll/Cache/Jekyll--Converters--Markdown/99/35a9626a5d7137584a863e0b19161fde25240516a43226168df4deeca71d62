@@ -1,0 +1,68 @@
+I"
+<blockquote>
+  <p>Fulcrum bottom has been talked about a lot lately in bitcoin trading communities thanks to Peter Brandt mentioning this concept in his reports.</p>
+</blockquote>
+
+<p><strong>Describing Fulcrum bottom as <a href="https://www.reddit.com/r/BitcoinMarkets/comments/9iew7e/daily_discussion_monday_september_24_2018/e6j8irp/">head &amp; shoulders except at the bottom</a> is not quite cutting it though.</strong></p>
+
+<h2 id="what-is-fulcrum">What Is Fulcrum</h2>
+
+<p>First off, here’s a helpful schema in case English is not your first language and fulcrum to you sounded like some guy’s name:</p>
+
+<figure class="clear"><amp-img itemprop="image" src="/strat/fulcrum/fulcrum.jpg" alt="Fulcrum Bottom" layout="responsive" width="720px" height="509px"></amp-img></figure>
+<p><br /></p>
+
+<p>Fulcrum is the supporting part of a lever.</p>
+
+<p>The meaning of it when it comes to chart patterns signifies the mechanistic effect that builds up a good level for potential abrupt breakout.</p>
+
+<p>The structure of the pattern is also somewhat similar to the shape of a simple lever: Fulcrum bottom occurs in a <strong>flat consolidation area</strong> after a prolonged downtrend with <strong>a strong rally in the middle</strong>. This rally fails and is followed by <strong>one or more weaker rallies before the final breakout</strong> of the range, which makes for the comparison with a head and shoulders formation.</p>
+
+<p>Calling it head and shoulders is therefore too simplistic. Fulcrum is far more complex and it is necessary to pay attention to details.</p>
+
+<h2 id="fulcrum-bottom-definition">Fulcrum bottom definition</h2>
+
+<p>What is Fulcrum bottom and how to identify it on the chart:</p>
+
+<ol>
+  <li>Fulcrum bottom is a well-defined “congestion area” (consolidation range) after a downtrend.</li>
+  <li>The range is formed by repeated tests of the range boundaries, flat sideways activity near the bottom end at the beginning and the end of the pattern.</li>
+  <li>There are several intermittent rallies that keep failing without breaking the support, one stronger but short-lived rally in the middle of the range that can easily be mistaken for the beginning of an uptrend.</li>
+  <li>The Fulcrum bottom pattern is completed after a breakout over the top of the range.</li>
+</ol>
+
+<p>Adapted from <a href="https://books.google.de/books?id=6ONZDQAAQBAJ&amp;lpg=PP43&amp;vq=fulcrum&amp;hl=en&amp;pg=PP43#v=snippet&amp;q=fulcrum&amp;f=false">“The Acquired Skill of Trading” by William Ballough</a>.</p>
+
+<h2 id="how-to-trade-fulcrum-bottom">How to trade Fulcrum bottom</h2>
+
+<p>According to Ballough there is no harm in treating Fulcrum bottom like a triangle and trading it like a triangle pattern, but you should be more diligent about reversal confirmations.</p>
+
+<p>It is a long tight range with a lot of sideways and many promising rallies that fail abruptly, if you jump on trades quickly you will be burned often.</p>
+
+<p>On top of that, being a bottom range the volume is lower due to market psychology which makes it easier to stop-hunt.</p>
+
+<p><strong>Ballough gives three helpful hints:</strong></p>
+
+<ul>
+  <li>Check if underlying trend is turning positive (MACD, OBV, BBtrend)</li>
+  <li>Look for bullish divergences on higher timeframes (RSI, MACD)</li>
+  <li>Study the slope of moving averages (he uses 50 MA, Bollinger bands would also be helpful with this)</li>
+</ul>
+
+<p>The last point is particularly important in the final stages of the Fulcrum bottom when there will be several smaller failing rallies. Ballough shows the change of the slope of a slow MA can give a hint whether a particular small rally has the potential to be the start of the larger move or whether there is not yet enough strength built up.</p>
+
+<p>You could also use Bollinger bands - the middle band is a moving average and you will get the additional information about higher lows in relation to the lower band which would be bullish.</p>
+
+<p>According to Ballough’s description, in the final rally that will be the start of the markup we should see a bullish divergence, a break through OBV resistance and a slow MA turning slope from slightly negative to slightly positive.</p>
+
+<p>Take a look at the example chart in Figure 3.10 in <a href="https://books.google.de/books?id=6ONZDQAAQBAJ&amp;lpg=PP43&amp;vq=fulcrum&amp;hl=en&amp;pg=PP43#v=snippet&amp;q=fulcrum&amp;f=false">“The Acquired Skill of Trading” by William Ballough</a> and compare it with BTCUSD 1D retrieved on 25 Sep 2018:</p>
+
+<figure class="clear"><amp-img itemprop="image" src="/strat/fulcrum/fulcrum-btcusd.png" alt="Fulcrum Bottom" layout="responsive" width="1350px" height="750px"></amp-img></figure>
+<p><br /></p>
+
+<p>If this will turn out to be Fulcrum bottom, note that the divergences are there but OBV is not lifting off, nor is the market ranging above the resistance line from 10k USD.</p>
+
+<p>Opinions are welcome in the comments below.</p>
+
+<p><strong>The chart above was created with TradingView. If you don’t have a TradingView account yet, <a href="http://bit.ly/atnet-tv">make one here for free</a>.</strong></p>
+:ET

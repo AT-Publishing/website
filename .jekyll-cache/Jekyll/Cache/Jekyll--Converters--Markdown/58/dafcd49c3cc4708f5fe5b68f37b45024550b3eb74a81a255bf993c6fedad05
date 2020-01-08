@@ -1,0 +1,127 @@
+I"y.<blockquote>
+  <p>If you are installing wallets that you do not trust very much (as with Bitcoin forks) you should do that on a separate device. But at the current rate you will soon run out of devices.</p>
+</blockquote>
+
+<p>If you are looking to get safeish device, different from the one you use daily, to store a crypto wallet but you don’t want to carry seventeen Android phones on you maybe you could make use of virtual machines.</p>
+
+<p>They are like a separate device inside of your computer, they work on Mac, Windows and Linux laptops and it is not difficult to handle them. Great thing is you can have an Android machine in your laptop which was originally used by web developers for testing but as for crypto trading is concerned, it is a good way to have a wallet on a Linux-based machine without having to get used to working with a Linux laptop.</p>
+
+<h4 id="is-this-secure">Is this secure?</h4>
+
+<p><a href="https://security.stackexchange.com/questions/3056/how-secure-are-virtual-machines-really-false-sense-of-security">It is not true that you cannot get from your computer into your virtual computer and the other way around</a>. The virtual machine is sharing resources with the physical machine so there can be a virus targeted to exploit that.</p>
+
+<p>The advantage here is that it’s not very likely as VMs are not a popular solution, especially not for cryptocurrecies where particularly the new lambo crop of altcoin traders isn’t geeky at all. You get further plus points if you do this on <a class="internal" href="/security/device-management">a Linux machine that is not being used in a risky manner itself</a>, and it is quite a good balance of convenience and reasonable mistrust for a Linux  machine that has Electrum with bitcoins on it that you are looking to split after a fork.</p>
+
+<p>Storing cryptocurrencies on a virtual machine is nowhere near cold storage though.</p>
+
+<h2 id="what-cryptocurrecies-is-this-solution-suitable-for">What cryptocurrecies is this solution suitable for?</h2>
+
+<p>Quite some, actually. Androids are hugely popular pretty much everywhere other than the US so a lot of coins have an Android wallet. Ideally the wallet is available from the Google Play Store but you should be able to install it from source too. You can also use this device (or a Linux device set up as virtual machine) to access web interfaces like mymonerowallet or myetherwallet without having the history of it on your laptop.</p>
+
+<p><strong>Available Android hot wallets and multicoin wallets from the Play Store:</strong></p>
+
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&amp;hl=en">Jaxx</a> - huge amount of altcoins, <a href="https://decentral.zendesk.com/hc/en-us/articles/218373867-Which-tokens-does-Jaxx-support-">list here</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet&amp;hl=en">Coinomi</a> - huge amount of smaller altcoins, <a href="https://coinomi.com/#supported-coins">list here</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=ltcc.org.freewallet.app">Freewallet</a> - for BTC &amp; forks, LTC, ETH &amp; forks, STEEM, ZCASH, XMR, EOS, BANCOR, TETHER, ERC20 Tokens, XRP</li>
+</ul>
+
+<p><strong>Single coin wallets from the Play store:</strong></p>
+
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=org.electrum.electrum">Electrum for Bitcoin</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.electroncash.electroncash&amp;hl=en">BCH ElectronCash</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.stratis.live">Stratis</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.iota.wallet">IOTA mobile wallet in beta</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.rehanced.lunary">ETH Lunary wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet">Dash wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=neo.app">NEO app</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Byteball client</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.qtum.wallet">QTUM wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.loafwallet">LTC Loafwallet</a></li>
+</ul>
+
+<p>In this post I’ll go with Android virtual machine on an <a href="https://elementary.io/">Elementary OS</a> Linux computer but there are next to no differences for computers with other OS. The result will be a “tablet” inside of your laptop, so as a little heads up - it gets controlled by touch which doesn’t work very well with mouse (you need to click and hold).</p>
+
+<h2 id="setting-up-android-machine-in-virtualbox">Setting up Android machine in Virtualbox</h2>
+
+<p>What you’ll need is the software for the virtualization - download <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox from here</a> - and an <a href="http://www.android-x86.org/download">Android ISO</a>. It’s quite a lot of data to download, the Android image will have about 800 MB.</p>
+
+<p>First things first, install VirtualBox.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/1androidiso.jpeg" layout="responsive" data-original-width="753px" data-original-height="823px" width="753px" height="823px"></amp-img>
+
+<p>Go to http://www.android-x86.org/download and get the ISO file of the latest Android. I am going with the 64 bit 7.1 here.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/2virtualbox.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Now create the virtual machine on which you will use the Android: Open VirtualBox and click “New”.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/3.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Name the machine (doesn’t matter), say it is a Linux - Other Linux x86.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/4.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>For the rest of the setup you can go with defaults - you will have VDI disk image with some amount of disk space and RAM allocated.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/5.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>That created a machine that is ready to have the Android installed on it. Start it up clicking on “Start”.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/6.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>You will be asked to select a startup disk - this is where you select the Android ISO you downloaded.</p>
+
+<p>Here comes the installation.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/7.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Create a new partition - select “New”, press enter.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/8.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Press enter while on bootable and navigate to “Write”, enter. Confirm by typing in “yes”, enter.</p>
+
+<p>When it’s done you’ll have an sda1 partition, go to “Quit”, enter.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/8i.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>The installer will take you to dialog to format the partition - select sda1, enter.</p>
+
+<p>Select ext4 and format the disk.</p>
+
+<p>Choose YES from now on - you really want to format, you want GRUB and you want that whatever directory writeable.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/9.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>When it finishes you are done, the Android device will launch on next start of the machine.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/10unmount.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Before you reboot the machine to launch your Android you need to unmount the ISO because otherwise the machine will keep attempting to reinstall Android. In Virtualbox menu go to Devices &gt; Optical Drives and unselect the ISO.</p>
+
+<p>Restarting the device will take you to the Android setup, the same thing you’d do on a phone.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/11.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Set up the device as a new device with Google account. You need a Google account because you need access to the Play Store but sometimes there is a problem if you try and setup a new account. You can still try though.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/12.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/13.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>The last step is to launch the Play Store and looking up app the wallet you want.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/15play.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/15.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>When you have the app you setup a new wallet like you normally would and backup your seed on a piece of paper because that’s the easiest fool-proof way.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="/sec/virtualbox-setup/16voila.jpeg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>And that is it. If something happens to your laptop or to the VirtualBox you will have access to your coins if you backed up your seed on that paper, like said before. If you want to save yourself the hassle of going through this neckbeard hell again you can backup the entire machine as well so that you’ll be able to import it into another VirtualBox installation with just a couple of clicks.</p>
+
+<p>The cryptocurrency wallets will synchronize when you launch them so there’s no need to do the backup regularly. You really just need to do it once after your wallet(s) have been set up. <a href="https://www.howtogeek.com/howto/36870/how-to-backup-and-move-virtualbox-machines/">Here is a tutorial for the backup if you’re up for it</a> - it is not an easy piece of cake though, being you I’d be pretty happy with the pencil and paper solution.</p>
+:ET

@@ -1,0 +1,32 @@
+I"�	<p>Palo Alto Networks’ Unit 42 reported a new malware that targets Mac users.</p>
+
+<p>The malware was developed from code used for older campaigns and so it also goes for the obvious steady revenue generation through illicit mining.</p>
+
+<p>Cryptojacking has solidified into good practice in the business of commercial malware, and so this particular one also taps into your laptop’s power to mining Monero. It also adds Koto, a lesser-known Japanese cryptocoin, that supports GPU mining.</p>
+
+<h4 id="what-it-does">What it does</h4>
+
+<p>Crypto mining is not dangerous, the real danger of this malware (dubbed CookieMiner) lies in its other areas of focus:</p>
+
+<ul>
+  <li>CookieMiner will steal browser cookies, particularly looking for data related to mainstream cryptocurrency exchanges and crypto web wallets.</li>
+  <li>It also steals saved passwords from Chrome browser.</li>
+  <li>If you have iTunes backups for your iPhone, it will also get your text messages.</li>
+</ul>
+
+<p>This combination of credentials will probably allow the CookieMiner authors <strong>to get around multi-factor authentication</strong> on crypto exchanges and web wallets.</p>
+
+<p>The malware comes with a script that gives the attacker remote control over your Mac and potentially can remain hidden for a good amount of time, patiently waiting until all necessary credentials are collected to exploit your exchange and wallet accounts.</p>
+
+<p>The attacker could also leverage their remote access to later install a keylogger, while profiting from the crypto mining in the meantime.</p>
+
+<h4 id="how-to-protect-your-crypto">How to protect your crypto</h4>
+
+<p><a href="https://unit42.paloaltonetworks.com/mac-malware-steals-cryptocurrency-exchanges-cookies/">The report</a> doesn’t mention in what kind of campaign this malware spreads.</p>
+
+<p>There have been several major phishing mail blasts lately, some even very legitimate looking job offers with malicious documents in attachments.</p>
+
+<p>The advice here is to be vigilant about what you click on in your e-mails. Similar level of attention should go to downloading new wallets and apps, perhaps for your <a href="https://www/altcointrading.net/airdrops/">airdrops</a>.</p>
+
+<p><strong>It is always safer to have a <a href="https://www.altcointrading.net/security/device-management">triered device system for crypto, including a burner device</a> that you use as a dumpster for every activity that is potentially dangerous.</strong></p>
+:ET

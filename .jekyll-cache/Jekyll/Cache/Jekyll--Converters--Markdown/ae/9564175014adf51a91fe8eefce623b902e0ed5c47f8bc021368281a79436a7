@@ -1,0 +1,207 @@
+I")F<p>Bitcoin Gold is one of the recent bitcoin forks. Their official website moved from btcgpu.org to bitcoingold.org and the dev team is so secret that it allows for the wildest conspiracy fantasies.</p>
+
+<p>The BTG blockchain has replay protection, which means that it is safe to proceed with transactions there - you won’t accidentally spend your BTC by doing that. Splitting tools are largely at works by now, and BTG is traded in several markets.</p>
+
+<p>What you mostly hear is to sell everything. But let’s look into the splitting first, and also into what BTG actually is.</p>
+
+<h4 id="splitting">SPLITTING</h4>
+
+<p>The splitting process is similar to the splitting after BCH (bcash) fork.</p>
+
+<p>If you had your BTC in Electrum, you can make use of the sweeping functionality. You sweep your key and import it into a wallet that supports Bitcoin Gold. Alternatively you can also type in the key. You are sharing your private key with a third party though, so as with importing your key into Electron to get bcash, you will need to move your coins out of the wallet that was granted BTG first, and wait for confirmations.</p>
+
+<p>The most popular wallets where you can import your keys are Coinomi and Freewallet.</p>
+
+<p><a href="https://coinomi.com">Coinomi</a> is closed source, which is not ideal, but it is available as an <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet&amp;hl=en">Android app</a>. Android wallets have a tad better privacy than Windows-based wallets or web browser wallets because Android is based on Unix. It gets another step better if you have a dedicated Android phone for cryptocurrency stuff. And last but not least, with a phone app you can simply scan the code Electrum gives you when you sweep.</p>
+
+<p><a href="https://cointelegraph.com/news/first-dedicated-bitcoin-gold-wallet-announced">Freewallet is just another wallet provider that announced BTG support lately</a>. The difference here is that Freewallet provides a dedicated wallet for BTG whereas Coinomi is a multi-cryptocurrency wallet, similar to Jaxx or Exodus. <a href="https://freewallet.org/currency/btg">FreeWallet</a> is just as good an option as Coinomi: Will do the job, nothing to worry if you move BTC from the pre-fork wallet first and if you want to sell your BTG right now anyway, you’ll just send them to an exchange either way.</p>
+
+<p>You can sell BTG on <a href="https://bittrex.com">Bittrex</a>, <a href="https://www.bitfinex.com/?refcode=5egV78YtlC">Bitfinex</a> or <a href="https://binance.com">Binance</a>, out of the more popular exchanges. <a href="https://hitbtc.com">HitBTC</a>, <a href="https://bitbay.com">BitBay</a> and <a href="https://cex.io">CEX.IO</a> were among the first exchanges associated with Bitcoin Gold and support the trading of it as well, indeed.</p>
+
+<p><strong>The most important essentials to know:</strong></p>
+
+<ul>
+  <li>Transfer BTC to another wallet if you are splitting with a third party.</li>
+  <li>By transacting on a BTG chain you don’t threaten the BTC because there is RP but you are revealing your TX history because they share this history.</li>
+  <li>You are also revealing your previous BTC address, possibly where you’re getting income from if you do and the address label is known.</li>
+</ul>
+
+<h4 id="storage">STORAGE</h4>
+
+<p><strong>Trezor</strong></p>
+
+<p><a href="https://shop.trezor.io?a=fany@tutanota.com">Trezor wallet</a> implemented a BTG wallet in their beta wallet interface today. If you had BTC on a Trezor device before the BTG fork, you can claim them <a href="https://blog.trezor.io/claim-bitcoin-gold-bgold-btg-f66969e7f2c0">as described in their blog</a>. You get BTG for both SegWit and legacy wallet – no matter where your BTC were.</p>
+
+<p>If you claim with Trezor, you aren’t moving BTC away from it because you are using a tool they developed natively - you aren’t sharing your keys with a third party.</p>
+
+<p>You can choose where to send the BTG - it could, again, be a Coinomi wallet. (Coinomi is a multicoin wallet. Don’t mess it up: Bitcoin Gold addresses start with either A or G as the first symbol.) With Trezor beta interface you are getting a full-fetched BTG wallet too, though.</p>
+
+<p><strong>Ledger</strong></p>
+
+<p><a href="https://www.ledgerwallet.com/r/e274?path=/products/ledger-nano-s">Ledger Wallet</a> provides a splitting tool similar to Trezor’s, the process analogous. With Bitcoin Gold the splitting is not automated – <a href="https://ledger.zendesk.com/hc/en-us/articles/115005456969-How-to-use-Bitcoin-Gold-with-Ledger">here’s their own tutorial</a>.</p>
+
+<p>Ledger wallet people warned couple of days ago the network might not be stable yet though, and they aren’t taking any responsibility if something happens to your BTG or BTC.</p>
+
+<p><strong>bitcoingold.org</strong></p>
+
+<blockquote>
+  <p>“We will publish guides for retrieving BTG from the most popular wallets, including Bitcoin Core, Electrum, Mycelium, hardware wallets, paper wallets, and more.”</p>
+</blockquote>
+
+<h4 id="idea-behind-bitcoin-gold">IDEA BEHIND BITCOIN GOLD</h4>
+
+<p>Via <a href="https://arstechnica.com/tech-policy/2017/11/bitcoin-gold-the-latest-bitcoin-fork-explained/">Arstechnica</a>:</p>
+
+<blockquote>
+  <p>While Bitcoin Cash was designed to resolve Bitcoin’s capacity crunch with larger blocks, Bitcoin Gold aims to tackle another of Bitcoin’s perceived flaws: the increasing centralization of the mining industry that verifies and secures Bitcoin transactions.</p>
+</blockquote>
+
+<p>Arstechnica continues to explain how the introduction of application-specific integrated circuits (ASICs) lead to mining centralization. However, they state:</p>
+
+<blockquote>
+  <p>In practice, this means that a node’s influence over the network is <strong>proportional</strong> to the amount of computing power it has.</p>
+</blockquote>
+
+<p>– which is not entirely the truth. The big miners get in fact disproportionate advantage because of unfair mining exploits that allow them to manipulate the pool of smaller miners.</p>
+
+<p>BTG implements a modified Proof-of-work called <a href="https://www.cryptolux.org/images/b/b9/Equihash.pdf">Equihash</a>: Zcash already uses it. The main advantage of Equihash over BTC’s SHA256 is that it doesn’t get more convenient with better hardware because of a crucial step in the Equihash mining process that is memory-intensive rather than computationally intensive.</p>
+
+<p>More memory will make Equihash mining faster but it makes no sense to optimize the hardware: it just needs a lot of generic memory. There is no application-specific hardware optimization in Equihash, just more or less memory. That means normal PC with a lot of memory still has a chance.</p>
+
+<p>GPU mining is not a bad thing then, so…</p>
+
+<h4 id="why-btg-looks-so-sketchy-then">WHY BTG LOOKS SO SKETCHY THEN?</h4>
+
+<p>One reason is that it’s a fork, which seems to be frowned upon in the Bitcoin community – Satoshi vision and all.</p>
+
+<p>Another thing is it is called <strong>Bitcoin</strong> Gold. So many people have forked the Bitcoin code before, but they typically created something they openly called an altcoin. According to the community, if BTG is simply an altcoin with an airdrop, it shouldn’t be called <strong>Bitcoin</strong> <em>something</em>.</p>
+
+<p>AltcoinTrading.net listed BTG in the <a href="https://altcointrading.net/airdrops">airdrops</a> section. FreeWallet’s co-founder Alvin Hagg said something to that effect, in a statement regarding the launch of the FreeWallet BTG client:</p>
+<blockquote>
+  <p>This is the second Bitcoin chain split we’ve supported. FreeWallet succeeded in providing uninterrupted operations during both of these events. There is a great opportunity when a new network is launched, as <strong>users are subject to a free airdrop</strong>. FreeWallet’s mission is to make sure users can access this money and remain happy.</p>
+</blockquote>
+
+<p>JP Buntinx of <a href="https://themerkle.com/freewallet-implements-bitcoin-gold-support/">themerkle commented</a>:</p>
+
+<blockquote>
+  <p>It would have been better to see more companies focus on SegWit and Bitcoin Cash rather than Bitcoin Gold. However, airdrops shouldn’t be ignored by any means, as people deserve access to their funds first and foremost.</p>
+</blockquote>
+
+<p>Why is Bitcoin Gold being dismissed in the cryptocurrency media this easily? Are bitcoiners getting complacent regarding network developments?</p>
+
+<h5 id="bitcoin-gold-red-flags">Bitcoin Gold Red Flags</h5>
+
+<p>From <a href="https://coinsutra.com/bitcoin-gold/">CoinSutra</a>:</p>
+
+<blockquote>
+  <p>Also, haywire information sources on the Bitcointalk forum raise massive red flags about their future and their intentions. I was really surprised to learn that they might have an ICO for these pre-mined blocks, but again, there is little clarity about it on their official website.</p>
+</blockquote>
+
+<p>The red flags the author talks about are the BTG premine: Bitcoin Gold technically forked on 25th of October 2017 but the launch of the currency happened about two weeks later, allowing the creators to privately mine about 100.000 BTG first.</p>
+
+<p>Bitcoiners don’t like to see it. In the altcoin community, this is not perceived so terribly. Premine is an alternative to ICO – and one that cannot get you busted by big boy finance folks – in that the creators gain money for future development. The negative side effect for traders is that the empire can pretty much manipulate the market, as long as it is small and immature. That is true but not the end of the world. If the coin is not an outright scam, the creators don’t want to kill it by dumping everything at once, and since they aren’t dumping, they are holding and therefore don’t want to anything stupid that would damage their money.</p>
+
+<p>I personally don’t see anything particularly shady here. Claiming that having mined 100k coins leaves <a href="https://arstechnica.com/tech-policy/2017/11/bitcoin-gold-the-latest-bitcoin-fork-explained/">“less for the people”</a> is laughable.</p>
+
+<p>The second major issue was that the code was not public before the launch.
+The BTG codebase is developed by an anonymous person of unknown reputation and was not open sourced for review before the actual fork on October 25. The team eventually released the code during the launch and it was OK, had full replay protection and all. You can review the code and its contributors yourself at <a href="https://github.com/BTCGPU/BTCGPU">https://github.com/BTCGPU/BTCGPU</a>.</p>
+
+<p>It still was the reason why Coinbase said (<a href="https://support.coinbase.com/customer/portal/articles/2892196-bitcoin-gold-faq">and still says</a>) they aren’t supporting BTG, that they only might grant it someday in the future when they think it’s all safe and good.</p>
+
+<p>…At the first sight it just really looked like a bullshit fork and an attempt to split the community. It could be, only maybe, that people are missing something.</p>
+
+<h5 id="what-the-btg-team-says">What the BTG team says</h5>
+
+<p>The team says they cannot be competitors to BTC in the same way as Bcash and B2x because these two forks are using SHA256 which runs on ASICs, so there is the direct fight over the mining power. BTG uses Equihash and is meant to run on GPU.</p>
+
+<p>The BTG team says they want to showcase BTC doesn’t have to function on ASIC mining. That the status quo is not the only possible way, that there can be a stable blockchain that does it differently, and shares Bitcoin’s history, and doesn’t employ half-assed temporary solutions like throwing bigger blocks on the network congestion problem.</p>
+
+<p>And that Bitcoin core could consider adopting something similar to Equihash one day.</p>
+
+<h4 id="so-who-is-behind-btg">SO WHO IS BEHIND BTG?</h4>
+
+<blockquote>
+  <p>The Bitcoin Gold project is being driven by some developers, miners, and their head Jack Liao, the CEO of the  Hong Kong-based mining equipment manufacturing company, <a href="http://lightningasic.com/">LightningAsic</a>.</p>
+</blockquote>
+
+<p>Bitcoin Gold’s lead developer is someone who calles themselves <code class="highlighter-rouge">h4x3rotab</code> and claim: <em>“Bitcoin Gold is also a real blockchain to pilot Bitcoin upgrades.”</em></p>
+
+<p>– That is not threatening Bitcoin, mind you. That is what Litecoin is currently known for: a sandbox, a real-value testnet.</p>
+
+<p>Why the heck is <a href="http://lightningasic.com/">someone who has a business around ASIC miners</a> involved in BTG, though?</p>
+
+<p><strong>Jack Liao</strong> is a businessman from Hong Kong, educated in China.</p>
+
+<p><a href="http://news.8btc.com/jack-liao-the-person-behind-bitcoin-gold-aims-to-compete-with-bitcoin-cash">Some takeouts from his interview for 8btc.com</a>:</p>
+
+<blockquote>
+  <p>Honestly, I think the BCH team is very short-sighted and BCH will die several months later as a result of losing hashrate in the fight with Bitcoin. As for BTG, we will upgrade our code and technical features to better service the community and distinguish ourselves from Bitcoin and other coins.</p>
+</blockquote>
+
+<blockquote>
+  <p>I don’t think BCH has the first mover advantage. There are plenty of exchanges, mining pools and miners are willing to support us.</p>
+</blockquote>
+
+<blockquote>
+  <p>It’s meaningless that Bitmain squanders money to support BCH. I don’t think Bitmain is big enough to maintain a forked coin with such a large market capitalization. They set the EDA mechanism in hopes of miners would stick to the BCH chain, but only to find that more problems are caused. The community will gradually lose heart in it.</p>
+</blockquote>
+
+<blockquote>
+  <p>The roadmap of BTG is feasible and good for the community. As time goes on, we will be able to gain more attention.</p>
+</blockquote>
+
+<blockquote>
+  <p>The whole cryptocurrency community is filled with greed and selfishness. Mining pools charge 4%-5% of transaction fees and they don’t have a problem with that. What’s wrong with us having a premine of 200,000 BTG to raise money for the development? To those who have a problem with the premine of BTG: mine or fuck off.</p>
+</blockquote>
+
+<h4 id="who-supported-them-and-why">WHO SUPPORTED THEM (And why?)</h4>
+
+<ul>
+  <li>From the start, places associated with mining and larger holdings, perhaps through Liao’s contacts:
+    <ul>
+      <li>BitBay</li>
+      <li>CEX.IO</li>
+    </ul>
+  </li>
+  <li>One of the first markets was Bitfinex.
+    <ul>
+      <li>They granted BTG but the exchange’s name wasn’t related with the fork from the start. Still, it’s a place with OTC market and wannabe-wholesale-fuck-retail kind of marketplace.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Maybe it is something like business hedge. Also, maybe mining-related businesses are too getting fed up with the current ASIC situation. Maybe ASIC-centralization has reached a dead point. It’s all just a guess though.</p>
+
+<h4 id="why-it-could-be-useful">WHY IT COULD BE USEFUL</h4>
+
+<p>BTG has replay protection so the absolute worst case scenario is … that it is an airdropped altcoin. The best case however would really be a showcase for possible BTC development directions, even though Jack Liao says BTG is going to differentiate itself from BTC.</p>
+
+<ul>
+  <li>Without the ASIC crew it wouldn’t have been possible to block the SegWit upgrade.</li>
+  <li>Community consensus would matter more again.</li>
+  <li>People could mine again, nodes wouldn’t be geographically centralized, people wouldn’t need to go like “okay i’ll bite” and actually spend money as if on charity to support the network.</li>
+</ul>
+
+<p>In case you are interested in BTG mining, here’s what they have to say on their website:</p>
+
+<ol>
+  <li>You can solo mine BTG using the full node client or you can mine with a pool. Some public mining pools that have worked with us are listed on our home page. We invite you to join our Slack #mining channel for technical help and advice about mining BTG.</li>
+  <li>The Bitcoin Gold full node client with signed prebuilt binaries will be available for download at btcgpu.org and the source code can be found at https://github.com/BTCGPU/BTCGPU. These are the only two sites affiliated with the Bitcoin Gold development team.</li>
+</ol>
+
+<h4 id="what-could-have-been-done-differently">WHAT COULD HAVE BEEN DONE DIFFERENTLY?</h4>
+
+<p>Nothing about it being a bitcoin fork that is called Bitcoin <em>something</em>.</p>
+
+<p>If there was meant to be an appeal to Bitcoin development, an altcoin wouldn’t really do the trick because people are used to having new altcoins cropping up left, right and center.</p>
+
+<p>If there isn’t meant to be an appeal and someone uses the name Bitcoin to attract attention, it still isn’t damaging Bitcoin – the only thing it does in that case is making it more difficult for future Bitcoin <em>somethings</em> to attract attention.</p>
+
+<p>So: It is a marketing stunt, nothing wrong with that. It introduces an aspect of competition. It threatens the conceited stagnation in the Bitcoin environment. Bitcoin is not getting bigger or smaller from a marketing stunt alone. In itself, it is not a bad thing for anybody.</p>
+
+<p>There is also no bad blood in saying that maybe one day Bitcoin’s fork will become the new default chain. It doesn’t seem likely that it could be BTG, nor does the team claim it is what they are going for, but it is an utter nonsense to dismiss a fork just because it is a fork.</p>
+
+<p>That leaves us with one thing: The team could have been more open with the code from the start. It is dodgy when the developer is anonymous (which socially still means the developer has no reputation) and the code is closed source at the same time.</p>
+
+<p><strong>So, bitcoiners, why do you want to dump? Because it is a fork?</strong></p>
+:ET

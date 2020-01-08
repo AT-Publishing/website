@@ -6,115 +6,115 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>http://localhost:4000</loc>
+      <loc>https://www.altcointrading.net</loc>
       <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
       <xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz"/>
     </url>
     
     <url>
-        <loc>http://localhost:4000/blackfriday/</loc>
+        <loc>https://www.altcointrading.net/blackfriday/</loc>
         <lastmod>2019-12-17T09:11:00+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/xmas-sales/</loc>
+        <loc>https://www.altcointrading.net/xmas-sales/</loc>
         <lastmod>2019-06-07T01:42:26+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/airdrop-archive/</loc>
+        <loc>https://www.altcointrading.net/airdrop-archive/</loc>
         <lastmod>2019-06-29T09:14:59+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/atnet.json</loc>
+        <loc>https://www.altcointrading.net/atnet.json</loc>
         <lastmod>2018-04-04T02:29:13+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/category/no-ico/</loc>
+        <loc>https://www.altcointrading.net/category/no-ico/</loc>
         <lastmod>2018-10-04T08:01:41+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/category/wallets/</loc>
+        <loc>https://www.altcointrading.net/category/wallets/</loc>
         <lastmod>2018-02-07T10:02:55+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/guides/</loc>
+        <loc>https://www.altcointrading.net/guides/</loc>
         <lastmod>2018-10-05T10:44:53+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/security/</loc>
+        <loc>https://www.altcointrading.net/security/</loc>
         <lastmod>2019-02-20T11:48:52+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/strategy/</loc>
+        <loc>https://www.altcointrading.net/strategy/</loc>
         <lastmod>2019-02-20T07:32:38+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/contact/</loc>
+        <loc>https://www.altcointrading.net/contact/</loc>
         <lastmod>2018-04-25T21:26:30+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/guestpost/</loc>
+        <loc>https://www.altcointrading.net/guestpost/</loc>
         <lastmod>2019-07-20T06:25:09+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/tensorcharts-tutorials/</loc>
+        <loc>https://www.altcointrading.net/tensorcharts-tutorials/</loc>
         <lastmod>2018-10-10T10:37:32+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/data/sessions/</loc>
+        <loc>https://www.altcointrading.net/data/sessions/</loc>
         <lastmod>2018-10-04T08:01:41+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/blog/trading/</loc>
+        <loc>https://www.altcointrading.net/blog/trading/</loc>
         <lastmod>2019-10-19T08:42:22+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/reports/</loc>
+        <loc>https://www.altcointrading.net/reports/</loc>
         <lastmod>2019-09-23T14:45:40+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/submit/</loc>
+        <loc>https://www.altcointrading.net/submit/</loc>
         <lastmod>2018-02-27T12:53:53+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/tag/businessofcrypto/</loc>
+        <loc>https://www.altcointrading.net/tag/businessofcrypto/</loc>
         <lastmod>2018-06-26T17:45:58+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>http://localhost:4000/tag/dex/</loc>
+        <loc>https://www.altcointrading.net/tag/dex/</loc>
         <lastmod>2018-04-04T17:14:24+00:00</lastmod>
         
     </url>

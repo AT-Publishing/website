@@ -1,0 +1,153 @@
+I"�-<p>The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.</p>
+
+<p>As the blockchain space grows though, frameworks have been developed to categorize types of cryptoassets. Even though a clear enough framework is still not in place and so the regulatory issues are probably going to stick around for a bit longer, using the classification that is already available can still help you decide whether you actually want to enter that market or not.</p>
+
+<h3 id="types-of-altcoins">Types of altcoins</h3>
+
+<p>In 2016, when the first alt season started, the community liked to focus on differences in technology.</p>
+
+<p>Namely, which technology is the most novel, disruptive or revolutionary.  Ethereum came about like this, prior to ETH there was no asset to act as a fuel for decentralized apps.</p>
+
+<p>By 2018, we had hundreds of (somewhat) active cryptocurrency projects, each sporting an interesting technology tweak, but none having much practical use - perhaps with the exception of <a href="https://www.thebusinessofcrypto.com/company/markets/gaming/">decentralized gaming</a>.</p>
+
+<p>The relative success of dApp games indicated the focus shift from the tech onto how is the tech used.</p>
+
+<p>This is where we still are today: The underlying technology is secondary; it may be the best known way to implement the function of the cryptocurrency but the function is decided first.</p>
+
+<h2 id="crypto-money">Crypto-Money</h2>
+
+<p><strong>Cryptocurrencies as means of payment</strong></p>
+
+<p>Some altcoins were developed as means of payment, in the same sense as Bitcoin was developed as means of payment.</p>
+
+<p>A cryptocurrency developed as crypto-money addresses certain weaknesses of the conventional payment system.</p>
+
+<p>One such issue is the inability to exchange money freely, even if it’s to an entity located in a far-away country that maybe doesn’t like your country’s president or religion.</p>
+
+<p>This problem can also occur internally within a single country, in an attempt of total control over how individuals spend: <a href="https://www.reddit.com/r/Bitcoin/comments/9cirfq/wait_now_argentina_is_in_a_full_on_currency/e5bdfut">Here is a comment from 2018, where an upper middle class person in Argentina received an accusation in tax fraud because the revenue office does not believe she does not have a hired house cleaner</a>. In the context of Argentina, the idea was probably to keep people from getting rid of the national currency which was on the brink of collapse at that time.</p>
+
+<p>Bitcoin can address most of the payment-related issues in the fiat world.</p>
+
+<p>Alternative cryptocurrencies developed for payments typically attempt, in turn, to solve one of the “weaknesses” of Bitcoin:</p>
+
+<ul>
+  <li>Implementing full privacy to advance the pseudonymous nature of Bitcoin (XMR)</li>
+  <li>Focusing on scaling and transaction throughput (BCH, EOS, XRP)</li>
+  <li>Lowering the energy consumptions of mining (PoS coins)</li>
+  <li>Making transactions faster and cheap or even free (LTC, IOT)</li>
+</ul>
+
+<p>Realistically, pseudonymous transactions and the transaction fee are only a problem for a subset of your normal everyday financial transactions.</p>
+
+<p>Clearly XMR and full-privacy cryptocurrencies are a niche case. It is also not unreasonable to expect that BTC will be used for larger transactions, such as <a href="/openlistings-houses-for-bitcoin/">buying a house with Bitcoin</a>, while tiny transactions would run on an alternative blockchain, such as ones between IoT devices.</p>
+
+<p>The value of payment-focused cryptocurrencies derives from the strength of the network - traders follow metrics like network activity, number of ATMs, the size of the OTC market, payment implementations.</p>
+
+<p><strong>Interesting Crypto-Money altcoins:</strong></p>
+
+<ul>
+  <li>Monero</li>
+</ul>
+
+<p>Monero is scalable and mined in a decentralized fashion because XMR mining is done via GPU which limits the usage of ASICs (application-specific circuits).</p>
+
+<p>Monero payments are unlinkable, untraceable, fully anonymous and mineable on any device with a little bit of redundant computational power. That makes XMR the <a href="https://www.thebusinessofcrypto.com/articles/cryptojacking-economic-warfare/">preferred cryptocurrency for cryptojacking</a>, the easiest way to monetize illicit access into someone else’s device or sever.</p>
+
+<ul>
+  <li>DASH</li>
+</ul>
+
+<p>Dash is short for digital cash. The pivotal properties of DASH are anonymous blockchain and masternode system. The privacy system is less bulletproof than the one of Monero but the implementation of payment gateways is more widespread because implementing DASH requires less work than implementing Monero.</p>
+
+<ul>
+  <li>Litecoin</li>
+</ul>
+
+<p>LTC used to be the second most popular altcoin before cryptocurrencies like ETH and XRP emerged. It was created to handle massive transaction volumes but so far, it was mostly used as a guinea pig for Bitcoin blockchain innovations due to the similarity of the two. Along with DOGE, it has been since its inception used by traders to move money between exchanges for less fees.</p>
+
+<h2 id="crypto-fuel">Crypto-Fuel</h2>
+
+<p><strong>Cryptocurrencies as dApp tokens</strong></p>
+
+<p>Some altcoins were developed as communication tokens: Whoever wants to engage with a decentralized app (dApp) needs to use an appropriate token to do that.</p>
+
+<p>While that is still the case, on the part of the user it does not need to involve holding dozens of separate tokens since we have <a href="/etheremon-kyber-network/">projects like Kyber Network that can do atomic token swaps</a> between different tokenized assets.</p>
+
+<p>Crypto tokens are still publicly traded and used for speculation.</p>
+
+<p>Vitalik Buterin, the creator of Ethereum, never endorsed ETH as a storage value. Why are these tokens speculated so much then? The Internet will point you to the <a href="https://en.wikipedia.org/wiki/Blue_Ocean_Strategy#Concept">Blue ocean Strategy</a>.</p>
+
+<p>When ETH first emerged, traders argued that crypto-fuel tokens were downplaying the monetary value of the coin on purpose: To show that it is <em>not just</em> another “better money”. Tokens are a new category, one that first came to existence with blockchain, and demand for this type of asset was quickly created.</p>
+
+<p>The value of crypto-fuel tokens is expected to surge with the demand, but ideally with an actual (non-speculative) demand. The non-speculative demand is still awaited to arrive one day in the future though.</p>
+
+<p><strong>Interesting Crypto-Fuel altcoins:</strong></p>
+
+<ul>
+  <li>Ether, ERC-20 fungible tokens</li>
+</ul>
+
+<p>Ethereum is the original blockchain for the execution of complicated smart contracts. (Simple smart contracts like an escrow can run on the Bitcoin blockchain as well.)</p>
+
+<p>At first, ETH was deemed the scalable cryptocurrency with fast and cheap transactions. This view was quickly shattered when gaming dApps became popular and started flooding the blockchain with data. Then came the ICO bubble, likewise showing how easy it is to make Ethereum transactions slow and expensive.</p>
+
+<p>We have since got a new generation of app-platform cryptocurrencies that focus on scalability (EOS, ZIL) and we also got the sidechain implementation which allows for existence of decentralized cryptoasset exchanges and blockchain games that do not spam the network and are free to use.</p>
+
+<p><em>A quick note about investing into tokens</em>: Large amount of people hold Ethereum or tokens for investment. There in infinite amount of Ether to be mined but the inflation is kept low. Some argue that after the switch to PoS the monetary value of ETH could stabilize and make a good store of value.</p>
+
+<h2 id="crypto-vouchers">Crypto-Vouchers</h2>
+
+<p><strong>Cryptoassets that can be exchanged for another predefined asset</strong></p>
+
+<p>Stablecoins belong to this category: They are assets living on blockchain that have a value redeemable in another asset, like IOUs.</p>
+
+<p>There can be IOUs for other assets than money, though. A cryptocurrency can also be a tokenized access to service or an ecommerce gift card.</p>
+
+<p><strong>Security Tokens</strong></p>
+
+<p>The concept of utility vs security token is still new.</p>
+
+<p>It is a regulatory term used for tokens that represent an investment in entrepreneurial efforts of someone else, much like investing in stocks. This type of tokens is becoming regulated because they resemble stocks, an already regulated asset.</p>
+
+<p>In the concept of a “decentralized organization”, anyone can become a “shareholder” by buying a token. The work of the organization is then focused on revenue generation in whatever the company decides to call their profit unit.</p>
+
+<p>The monetary value of the token changes based on the organization’s revenues.</p>
+
+<ul>
+  <li>BitShares, DAO</li>
+</ul>
+
+<p>BitShares was the first platform coming up with the concept of decentralized organization.</p>
+
+<p>The idea later became infamous with the fall of DAO, which <a href="/dao-hack/">was hacked</a> but the consequences of the hack were mitigated by the ETH hard fork that produced ETC.</p>
+
+<h2 id="shitcoins">Shitcoins</h2>
+
+<p>The last category of alternative cryptocurrencies are shitcoins.</p>
+
+<p>It should be noted that some people will want to call perhaps EOS or Tezos a shitcoin, but they do not fall into this category.</p>
+
+<p>Legitimate shitcoins are not a product of a cryptoasset project that somehow failed or disappointed, shitcoins are the cryptoassets that never had any value proposition in the first place.</p>
+
+<p>We do see less of them now in the blockchain space. It is a now forgotten part of history but in 2016, the golden era of Poloniex, we did have coins that were seriously only created as an ego-blast of someone who could afford to pay the programmer. Max Keiser had his own coin, MaxCoin.</p>
+
+<p>If you checked a shitcoin’s website, you would see random strings of meaningless buzzwords, such as</p>
+
+<blockquote>
+  <p>Vcash was engineered to be innovative and forward-thinking. It prevents eavesdropping and censorship, promotes decentralized, energy efficient and instant network transactions. (- Taken from now defunct vanillacoin.net)</p>
+</blockquote>
+
+<p>The value of shitcoins was always purely speculative. They might pump and you might be coming early enough to cash in but that’s it.</p>
+
+<p>The 2017 edition of the shitcoin mania was the end of the ICO bubble - fake token sales with barely a landing page, fake LinkedIn profiles with fake names of fake team members, no plans to ever develop anything.</p>
+
+<p>The actual people behind the scams would collect the crowdfunding and vanish, and like with every bubble there were some brave traders who earned good money flipping tokens of proven scams on the greater fool.</p>
+
+<p>Starting from 2018 we see less of this activity - not because of regulation, but because of how crowded the gravy train of token offerings has gotten.</p>
+
+<p>It is increasingly difficult to stand out just like it is increasingly difficult to pump and dump maturing cryptocurrencies.</p>
+
+<h3 id="references">References</h3>
+
+<p>BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency Assessment Framework: Function over Form. Ledger, [S.l.], v. 3, july 2018. ISSN 2379-5980. Available at: <a href="http://ledgerjournal.org/ojs/index.php/ledger/article/view/121">http://ledgerjournal.org/ojs/index.php/ledger/article/view/121</a>. Date accessed: 22 sep. 2018. doi:<a href="https://doi.org/10.5195/ledger.2018.121">https://doi.org/10.5195/ledger.2018.121</a>.</p>
+:ET

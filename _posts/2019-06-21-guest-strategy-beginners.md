@@ -11,9 +11,9 @@ stories: false
 genres: Blog
 tickers: false
 note: 'Strategy'
-author: https://cryptocoinzone.com
-author_name: cryptocoinzone
-author_twitter: "cryptocoinzone"
+author: https://medium.com/cryptolounge
+author_name: cryptolounge
+author_twitter: "cryptolounge"
 editor_name: Diana Trang
 
 date: 2019-06-21 02:02:00 +0700

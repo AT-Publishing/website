@@ -6,19 +6,19 @@
     <description>All about cryptocurrency wallets and also the devices where you store them. Tutorials on how to homelab your safe cryptocurrency storage.</description>
 
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title>AltcoinTrading.NET</title>
-      <link>http://localhost:4000/security/</link>
+      <link>https://www.altcointrading.net/security/</link>
     </image>
 
     <language>en</language>
 
 
-    <link>http://localhost:4000/security/</link>
-    <atom:link href="http://localhost:4000/rss-security.xml" rel="self" type="application/rss+xml"/>
+    <link>https://www.altcointrading.net/security/</link>
+    <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2020 08:42:27 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 08:47:02 +0000</lastBuildDate>
 
     
       <item>
@@ -31,10 +31,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/img/coins/iotabg.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/img/coins/iotabg.png" medium="image" />
 
-        <link>http://localhost:4000/security/iota/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/iota/</guid>
+        <link>https://www.altcointrading.net/security/iota/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/iota/</guid>
         
 
         <category>iota</category>
@@ -62,10 +62,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/hacking.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/hacking.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/backups/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/backups/</guid>
+        <link>https://www.altcointrading.net/security/backups/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/backups/</guid>
         
 
         <category>homelab</category>
@@ -92,10 +92,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/socialmedia3.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/socialmedia3.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/device-management/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/device-management/</guid>
+        <link>https://www.altcointrading.net/security/device-management/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/device-management/</guid>
         
 
         <category>homelab</category>
@@ -118,10 +118,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/breadbutter3.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/breadbutter3.png" medium="image" />
 
-        <link>http://localhost:4000/security/sweeping/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/sweeping/</guid>
+        <link>https://www.altcointrading.net/security/sweeping/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/sweeping/</guid>
         
 
         <category>sweeping</category>
@@ -144,10 +144,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/bagholders.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/bagholders.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/virtualbox/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/virtualbox/</guid>
+        <link>https://www.altcointrading.net/security/virtualbox/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/virtualbox/</guid>
         
 
         <category>bitcoin-fork</category>
@@ -176,10 +176,10 @@
         <author>FNY3000@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/coffee2.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/coffee2.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/email-reuse/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/email-reuse/</guid>
+        <link>https://www.altcointrading.net/security/email-reuse/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/email-reuse/</guid>
         
 
         <category>portfolio-tracking</category>
@@ -208,10 +208,10 @@
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/tagged/sad-cryptokitty.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/tagged/sad-cryptokitty.png" medium="image" />
 
-        <link>http://localhost:4000/security/malware/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/malware/</guid>
+        <link>https://www.altcointrading.net/security/malware/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/malware/</guid>
         
 
         <category>crypto-malware</category>
@@ -255,10 +255,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/telegrab.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/telegrab.jpeg" medium="image" />
 
-        <link>http://localhost:4000/security/telegram/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/telegram/</guid>
+        <link>https://www.altcointrading.net/security/telegram/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/telegram/</guid>
         
 
         <category>crypto-malware</category>
@@ -302,10 +302,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/features/2018/nocturnal.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/features/2018/nocturnal.png" medium="image" />
 
-        <link>http://localhost:4000/security/nocturnal-stealer/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/nocturnal-stealer/</guid>
+        <link>https://www.altcointrading.net/security/nocturnal-stealer/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/nocturnal-stealer/</guid>
         
 
         <category>crypto-malware</category>
@@ -349,10 +349,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/tagged/altcointrading-resources.png" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/tagged/altcointrading-resources.png" medium="image" />
 
-        <link>http://localhost:4000/security/impostors/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/impostors/</guid>
+        <link>https://www.altcointrading.net/security/impostors/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/impostors/</guid>
         
 
         <category>crypto-malware</category>
@@ -402,10 +402,10 @@
         <author>Bill@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/unsplash2/atnet-office2.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash2/atnet-office2.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/mac-malware-crypto-basic-protection/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/mac-malware-crypto-basic-protection/</guid>
+        <link>https://www.altcointrading.net/security/mac-malware-crypto-basic-protection/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/mac-malware-crypto-basic-protection/</guid>
         
 
         <category>crypto-malware</category>
@@ -449,10 +449,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/twitter-memes.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/twitter-memes.jpeg" medium="image" />
 
-        <link>http://localhost:4000/security/malicious-memes/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/malicious-memes/</guid>
+        <link>https://www.altcointrading.net/security/malicious-memes/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/malicious-memes/</guid>
         
 
         <category>crypto-malware</category>
@@ -496,10 +496,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/sec/tools/security-tools-browsers.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" medium="image" />
 
-        <link>http://localhost:4000/security/tools/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/tools/</guid>
+        <link>https://www.altcointrading.net/security/tools/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/tools/</guid>
         
 
         <category>crypto-malware</category>
@@ -537,10 +537,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/cookies.jpeg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/cookies.jpeg" medium="image" />
 
-        <link>http://localhost:4000/security/cookieminer-2fa-bypass/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/cookieminer-2fa-bypass/</guid>
+        <link>https://www.altcointrading.net/security/cookieminer-2fa-bypass/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/cookieminer-2fa-bypass/</guid>
         
 
         <category>crypto-malware</category>
@@ -578,10 +578,10 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="http://localhost:4000/editorial/unsplash3/security-2020.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.net/editorial/unsplash3/security-2020.jpg" medium="image" />
 
-        <link>http://localhost:4000/security/threats-cryptotraders-2020/</link>
-        <guid isPermaLink="true">http://localhost:4000/security/threats-cryptotraders-2020/</guid>
+        <link>https://www.altcointrading.net/security/threats-cryptotraders-2020/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/threats-cryptotraders-2020/</guid>
         
 
         <category>crypto-malware</category>

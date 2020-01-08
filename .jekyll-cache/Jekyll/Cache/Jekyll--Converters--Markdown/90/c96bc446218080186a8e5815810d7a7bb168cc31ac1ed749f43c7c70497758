@@ -1,0 +1,82 @@
+I"o<blockquote>
+  <p>Couple days ago u/atc2017 of <a rel="nofollow" href="http://www.altcoinanalytics.com/">altcoinanalytics.com</a> showed up on subreddits for crypto traders with analyses of social media activity vs price of a cryptocurrency. I asked him for a post here because even if some of you might say social media is full of shills and BS, it does not matter for your short-term trades if it was campaign as long as it gains a following and makes a price action happen. Here’s a post with a little bit of background and explanation but if you are only interested in the numbers, go ahead and subscribe at the page linked above. This particular example is about NEO (former AntShares) because that’s what’s been making money to a lot of people over the past months - <a href="https://hackernoon.com/is-neo-the-one-67799886b78f">more about NEO here</a>. He publishes reports on all sorts of altcoins and also about correlations, which is a really popular thing among coin traders. Comments for this post are open.</p>
+</blockquote>
+
+<p><a target="_blank" class="button" href="/uploads/pdf/20170928_altcoinreport_NEO.pdf"><i class="fa fa-2x fa-file-pdf-o"></i> Download report on NEO</a></p>
+
+<h3 id="why-it-matters">Why it matters</h3>
+
+<p>Maynard Keynes said in relation to some markets that <strong>‘we devote our intelligence to anticipating what average opinion expects the average opinion to be’</strong>. He was saying that a significant part of the traders in some markets chase the current “sure thing”, the thing that is “confirmed”. According to this observation, big chunk of traders go into trades that are conventionally believed to be a good idea. The fundamental reality doesn’t intrude all that much as long as it’s uncertain enough - hence market expectations rule for long enough to trade on them.</p>
+
+<p>A lot of the price actions in altcoin markets are driven by sentiment and popularity on social media. <a href="https://thisisgentlemen.net/forums-predict-bitcoin-price/">Looking at older data on the BTCUSD market, social media tended to have predictive power.</a> Among traders this is a known thing and that’s why it’s not fool-proof: It’s easy to pay for a Twitter campaign, Reddit shills or a bunch of people who type specific search terms into Google. Therefore sentiment analysis can never be the only thing to use to make a decision. It can still be helpful to know there’s something up in case the social media activity gets a following (even if it’s a paid activity!).</p>
+
+<h4 id="twitter-analysis">Twitter analysis</h4>
+
+<p>The following graph gives insight into this popularity by measuring the average number of Tweets on a chosen cryptocurrency and the tweets’ sentiment. The sentiment is shown as the percentage of tweets that is either extremely positive or extremely negative.</p>
+
+<p><a target="_blank" href="https://www.altcointrading.net/img/neo/neo-twitter.jpg" title="AltcoinTrading.NET - Sentiment: Altcoin Analytics Primer - NEO"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/neo/neo-twitter.jpg" alt="Sentiment: Altcoin Analytics Primer - NEO" title="AltcoinTrading.NET - Sentiment: Altcoin Analytics Primer - NEO" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><strong>What are you looking at:</strong></p>
+
+<ul>
+  <li>Dark blue bar - Extremely negative</li>
+  <li>Brown bar - Extremely positive</li>
+  <li>
+    <p>Yellow bar - Neutral</p>
+  </li>
+  <li>
+    <p>Sum of bars - Total tweets for a specific date</p>
+  </li>
+  <li>
+    <p>Grey line - Benchmark: tweets on BTC and ETH, scaled to the market cap of the chosen coin.</p>
+  </li>
+  <li>
+    <p>Dark line - Price of coin to explore the correlation with the Twitter activity, axis on right hand side (in this case NEO)</p>
+  </li>
+  <li>
+    <p>Twitter mentions hourly (past 5 days): This shows the average hourly Tweets on a coin for the past 5 days of several similar coins. This puts in perspective the number of Tweets (is it above or below similar coins)</p>
+  </li>
+  <li>Sentiment: This gives an indication of average sentiment of Tweets. The Twitter sentiment ranges from +1 (positive) to -1 (negative). It is plotted against the benchmark (average sentiment of BTC and ETH) and against the price of the cryptocurrency.</li>
+</ul>
+
+<p><a target="_blank" href="https://www.altcointrading.net/img/neo/neo-sentiment.jpg" title="AltcoinTrading.NET - Sentiment: Altcoin Analytics Primer - NEO"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/neo/neo-sentiment.jpg" alt="Sentiment: Altcoin Analytics Primer - NEO" title="AltcoinTrading.NET - Sentiment: Altcoin Analytics Primer - NEO" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="other-than-twitter-risk-metrics">Other than Twitter: Risk Metrics</h4>
+
+<p>This gives a global overview of Risk Metrics with respect to the specific coin. The main points of interest here are the altcoin’s volatility and correlation with Bitcoin.</p>
+
+<p><strong>Data describing the altcoin</strong></p>
+
+<ul>
+  <li>Mkt cap - Market capitalization in US dollars</li>
+  <li>Standard devation - Standard deviation as proxy for risk including decay</li>
+  <li>Downside deviation - <a href="http://www.investopedia.com/terms/d/downside-deviation.asp">Standard deviation with sub-zero percent returns only</a></li>
+  <li>BTC correlation - Correlation with BTCUSD</li>
+  <li>Max price - All-time-high</li>
+</ul>
+
+<p><strong>Regression with BTC</strong></p>
+
+<ul>
+  <li>BTC regr
+Regression with BTC as explanatory variable. This measures how many of the coins
+return can be explained by Bitcoin movement.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>o   B0: Constant
+o   S0: Standard deviation of constant
+o   B1: Beta --&gt; If Bitcoin goes up with 1, altcoin goes up with B1
+o   S1: Standard error of B1. This can be used to test significance
+o   R2: What percentage of the altcoin return are explained by Bitcoin's price action
+</code></pre></div></div>
+
+<h3 id="about-the-data-processing">About the data processing</h3>
+
+<p>The reports retrieves historical price series to calculate Risk Metrics. For the Twitter analysis <strong>tweets with a hashtag</strong> on the specific coin are downloaded in bulk with a Python script using the <a href="http://www.tweepy.org/">Tweepy</a> library. The textual analysis is done with the help of the <a href="https://pypi.python.org/pypi/textblob">TextBlob library</a>, which is used to analyze the sentiment of each individual tweet. The code is not opensourced at the moment.</p>
+
+<hr />
+
+<p><em>Edited by u/KarlVonBahnhof.</em></p>
+
+<hr />
+:ET

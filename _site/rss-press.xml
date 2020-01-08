@@ -6,28 +6,28 @@
       <![CDATA[  Press releases syndicated content on AltcoinTrading.NET. ]]>
     </description>
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title><![CDATA[ AltcoinTrading.NET ]]></title>
-      <link>http://localhost:4000/strategy/</link>
+      <link>https://www.altcointrading.net/strategy/</link>
     </image>
     <language>en</language>
-    <link>http://localhost:4000/press-releases/</link>
-    <atom:link href="http://localhost:4000/rss-press.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2020 08:42:27 +0000</lastBuildDate>
+    <link>https://www.altcointrading.net/press-releases/</link>
+    <atom:link href="https://www.altcointrading.net/rss-press.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 08:47:02 +0000</lastBuildDate>
 
     
     <item>
       <title><![CDATA[ Cryptoloans ICO Announcement and Bounty Update ]]></title>
       <description><![CDATA[ Cryptoloans ICO Announcement and Bounty Update ]]></description>
-      <media:content url="http://localhost:4000/features/2018/cryptoloans.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/cryptoloans.png" medium="image" />
 
       <author><![CDATA[ News.AltcoinTrading.NET@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ News.AltcoinTrading.NET ]]></dc:creator>
 
       <pubDate>Sun, 18 Mar 2018 20:35:00 +0000</pubDate>
-      <link>http://localhost:4000/press/cryptoloans/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/cryptoloans/</guid>
+      <link>https://www.altcointrading.net/press/cryptoloans/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/cryptoloans/</guid>
       
       <category><![CDATA[ cryptoloans-top ]]></category>
       <category><![CDATA[ lending ]]></category>
@@ -45,14 +45,14 @@
     <item>
       <title><![CDATA[ Coins4Favors ICO and Bounty Announcement ]]></title>
       <description><![CDATA[ Introduction of Coins4Favors, announcing their ICO and bounty programs. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/coins4favors.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/coins4favors.png" medium="image" />
 
       <author><![CDATA[ News.AltcoinTrading.NET@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ News.AltcoinTrading.NET ]]></dc:creator>
 
       <pubDate>Fri, 30 Mar 2018 04:35:00 +0000</pubDate>
-      <link>http://localhost:4000/press/coins4favors/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/coins4favors/</guid>
+      <link>https://www.altcointrading.net/press/coins4favors/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/coins4favors/</guid>
       
       <category><![CDATA[ Coins4Favors ]]></category>
       <category><![CDATA[ gig-economy ]]></category>
@@ -70,14 +70,14 @@
     <item>
       <title><![CDATA[ Shopiblock - Streamlining the token e-commerce development ]]></title>
       <description><![CDATA[ The SaaS on the blockchain, to streamline development of e-commerce on the blockchain. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/shopiblock.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/shopiblock.png" medium="image" />
 
       <author><![CDATA[ News.AltcoinTrading.NET@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ News.AltcoinTrading.NET ]]></dc:creator>
 
       <pubDate>Mon, 16 Apr 2018 12:07:00 +0000</pubDate>
-      <link>http://localhost:4000/press/shopiblock/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/shopiblock/</guid>
+      <link>https://www.altcointrading.net/press/shopiblock/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/shopiblock/</guid>
       
       <category><![CDATA[ shopiblock ]]></category>
       <category><![CDATA[ saas ]]></category>
@@ -99,14 +99,14 @@
     <item>
       <title><![CDATA[ The KYC and compliance platform traceto.io adds John Ng to its advisory board ]]></title>
       <description><![CDATA[ Traceto.io announces the prominent blockchain investor to join as strategic advisor. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/traceto.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/traceto.png" medium="image" />
 
       <author><![CDATA[ Darren Toh (blockpr.io)@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Darren Toh (blockpr.io) ]]></dc:creator>
 
       <pubDate>Tue, 15 May 2018 04:05:00 +0000</pubDate>
-      <link>http://localhost:4000/press/tracetoio/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/tracetoio/</guid>
+      <link>https://www.altcointrading.net/press/tracetoio/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/tracetoio/</guid>
       
       <category><![CDATA[ traceto.io ]]></category>
       <category><![CDATA[ traceto-io ]]></category>
@@ -136,14 +136,14 @@
     <item>
       <title><![CDATA[ CrowdIF Token Sale Announcement ]]></title>
       <description><![CDATA[ CrowdIF is launching a trading platform and a utility token that is starting a token sale in June 2018. There is a bounty active since May 2018. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/crowdif.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/crowdif.png" medium="image" />
 
       <author><![CDATA[ CrowdIF@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ CrowdIF ]]></dc:creator>
 
       <pubDate>Thu, 07 Jun 2018 18:05:00 +0000</pubDate>
-      <link>http://localhost:4000/press/crowdif/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/crowdif/</guid>
+      <link>https://www.altcointrading.net/press/crowdif/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/crowdif/</guid>
       
       <category><![CDATA[ crowdif ]]></category>
       <category><![CDATA[ token-sale ]]></category>
@@ -158,14 +158,14 @@
     <item>
       <title><![CDATA[ Blockchain Grants: Bootstrapping Open Source Development ]]></title>
       <description><![CDATA[ Zilliqa on their own smart contract language and the details of the grant projects for blockchain technology developers. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/zilliqa-thebusinessofcrypto.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/zilliqa-thebusinessofcrypto.png" medium="image" />
 
       <author><![CDATA[ KarlVonBahnhof@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
 
       <pubDate>Fri, 22 Jun 2018 04:05:00 +0000</pubDate>
-      <link>http://localhost:4000/press/zilliqa/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/zilliqa/</guid>
+      <link>https://www.altcointrading.net/press/zilliqa/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/zilliqa/</guid>
       
       <category><![CDATA[ zilliqa ]]></category>
       <category><![CDATA[ blockchain-grants ]]></category>
@@ -181,14 +181,14 @@
     <item>
       <title><![CDATA[ AllSporter Platform Intro: Tokenized App for Sports Sharing Economy ]]></title>
       <description><![CDATA[ Polish sharing economy project for sports gear and training fully operational with PayPal payments is going blockchain. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/allsporter-intro.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/allsporter-intro.png" medium="image" />
 
       <author><![CDATA[ 0xfunn@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ 0xfunn ]]></dc:creator>
 
       <pubDate>Wed, 01 Aug 2018 13:25:00 +0000</pubDate>
-      <link>http://localhost:4000/press/allsporter/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/allsporter/</guid>
+      <link>https://www.altcointrading.net/press/allsporter/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/allsporter/</guid>
       
       <category><![CDATA[ allsporter ]]></category>
       <category><![CDATA[ allsportercoin ]]></category>
@@ -205,14 +205,14 @@
     <item>
       <title><![CDATA[ Open Data Exchange Raised Over 60 MM USD in Private Placement ]]></title>
       <description><![CDATA[ Open Data Exchange, the data marketplace based on blockchain technology, gained traction on their mission to provide free internet to emerging markets thanks to its private token sale. ]]></description>
-      <media:content url="http://localhost:4000/features/2018/opendataexchange.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/2018/opendataexchange.png" medium="image" />
 
       <author><![CDATA[ MC@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ MC ]]></dc:creator>
 
       <pubDate>Tue, 18 Sep 2018 01:25:00 +0000</pubDate>
-      <link>http://localhost:4000/press/open-data-echange-token-sale/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/open-data-echange-token-sale/</guid>
+      <link>https://www.altcointrading.net/press/open-data-echange-token-sale/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/open-data-echange-token-sale/</guid>
       
       <category><![CDATA[ odx ]]></category>
       <category><![CDATA[ open-data-exchange ]]></category>
@@ -233,14 +233,14 @@
     <item>
       <title><![CDATA[ The AI/Blockchain startup Perlin gets (not only) funding boost from a Japanese innovator ]]></title>
       <description><![CDATA[ The investors in blockchain technology do not seem to be put off by the bear market. ]]></description>
-      <media:content url="http://localhost:4000/editorial/urban/fork2.jpg" medium="image" />
+      <media:content url="https://www.altcointrading.net/editorial/urban/fork2.jpg" medium="image" />
 
       <author><![CDATA[ BusinessOfCrypto@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
 
       <pubDate>Fri, 07 Dec 2018 19:25:00 +0000</pubDate>
-      <link>http://localhost:4000/press/ai-blockchain-startup-perlin-japan-globalbrains/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/ai-blockchain-startup-perlin-japan-globalbrains/</guid>
+      <link>https://www.altcointrading.net/press/ai-blockchain-startup-perlin-japan-globalbrains/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/ai-blockchain-startup-perlin-japan-globalbrains/</guid>
       
       <category><![CDATA[ perlin ]]></category>
       <category><![CDATA[ globalbrains ]]></category>
@@ -256,14 +256,14 @@
     <item>
       <title><![CDATA[ Orbit.bet - New peer-to-peer gambling dApp ]]></title>
       <description><![CDATA[ New community-built gambling dApp with no house and no limits. ]]></description>
-      <media:content url="http://localhost:4000/features/orbit-bet.png" medium="image" />
+      <media:content url="https://www.altcointrading.net/features/orbit-bet.png" medium="image" />
 
       <author><![CDATA[ BusinessOfCrypto@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
 
       <pubDate>Sun, 30 Dec 2018 13:05:00 +0000</pubDate>
-      <link>http://localhost:4000/press/orbit-p2p-nolimit-gambling-dapp/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/orbit-p2p-nolimit-gambling-dapp/</guid>
+      <link>https://www.altcointrading.net/press/orbit-p2p-nolimit-gambling-dapp/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/orbit-p2p-nolimit-gambling-dapp/</guid>
       
       <category><![CDATA[ orbit ]]></category>
       <category><![CDATA[ orbit-bet ]]></category>
@@ -280,14 +280,14 @@
     <item>
       <title><![CDATA[ You can now pay your Uber ride with crypto ]]></title>
       <description><![CDATA[ One fintech app has finally integrated a function to fund your Uber balance with crypto. ]]></description>
-      <media:content url="http://localhost:4000/editorial/unsplash1/citylights.jpg" medium="image" />
+      <media:content url="https://www.altcointrading.net/editorial/unsplash1/citylights.jpg" medium="image" />
 
       <author><![CDATA[ BusinessOfCrypto@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
 
       <pubDate>Sun, 03 Feb 2019 09:05:00 +0000</pubDate>
-      <link>http://localhost:4000/press/pay-uber-with-crypto/</link>
-      <guid isPermaLink="true">http://localhost:4000/press/pay-uber-with-crypto/</guid>
+      <link>https://www.altcointrading.net/press/pay-uber-with-crypto/</link>
+      <guid isPermaLink="true">https://www.altcointrading.net/press/pay-uber-with-crypto/</guid>
       
       <category><![CDATA[ uber ]]></category>
       <category><![CDATA[ vendit ]]></category>

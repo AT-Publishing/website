@@ -7,15 +7,15 @@
       <![CDATA[  <h4>Oct 23 | Recent Most Read</h4> - Fidelity Full Data File https://www.thebusinessofcrypto.com/company/fidelity/<br> - Blokchain Gaming Companies Leaderboard https://www.thebusinessofcrypto.com/company/markets/gaming/<br> - Tokenization can boost startups in growing industries like home remodeling https://www.altcointrading.net/tokenization-startup-boost/ ]]>
     </description>
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title><![CDATA[ AltcoinTrading.NET ]]></title>
-      <link>http://localhost:4000</link>
+      <link>https://www.altcointrading.net</link>
     </image>
     <language>en</language>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2020 08:42:27 +0000</lastBuildDate>
+    <link>https://www.altcointrading.net</link>
+    <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 08:47:02 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,8 +23,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
         <![CDATA[
@@ -72,19 +72,59 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
             
             
+            <![CDATA[
+            <h4>Crypto Wallets by Use Case</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #BASICS</strong> - Arguably the core of 'be your own bank' principle - How did crypto wallets evolve and what are the features you're looking for, as a trader?
+            </p>
+            <p><a href="https://www.altcointrading.net/crypto-storage-for-traders/">[Read it]</a></p>
+            ]]>
             
             
             
+            <![CDATA[
+            <h4>Why Are So Many People Trading Cryptocurrency?</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #BASICS</strong> - The crypto trading statistics from Google Trends show a new wave of interest in trading of digital currencies.
+            </p>
+            <p><a href="https://www.altcointrading.net/crypto-trading-growth/">[Read it]</a></p>
+            ]]>
             
             
             
+            <![CDATA[
+            <h4>Cryptocurrency Strategy for Beginners</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #BASICS</strong> - Lo and behold, there is a strategy even to hodling.
+            </p>
+            <p><a href="https://www.altcointrading.net/cryptocurrency-strategy-beginners/">[Read it]</a></p>
+            ]]>
             
+            
+            
+            <![CDATA[
+            <h4>The True Crypto Fundamentals: Crypto Mining and Transactions</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #BASICS</strong> - Crypto mining is the true fundamental limit of all PoW cryptocurrencies. Transactions, a somewhat softer fundamental, can also provide some guidance. Learn the basics of the nature of these crypto fundamentals.
+            </p>
+            <p><a href="https://www.altcointrading.net/fundamentals-mining-hashrate-vs-price/">[Read it]</a></p>
+            ]]>
+            
+            
+            
+            <![CDATA[
+            <h4>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #BASICS</strong> - The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan.
+            </p>
+            <p><a href="https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/">[Read it]</a></p>
+            ]]>
             
             
             
@@ -105,7 +145,7 @@
             <p>
               <strong>Updated at 31 Dec 2019, 08:41 UTC in #REPORTS</strong> - Look at one tiny piece of the economy of crypto for payments. Plus a look at search and traffic stats for hardware wallets and what it probably means.
             </p>
-            <p><a href="http://localhost:4000/stats-2018/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/stats-2018/">[Read it]</a></p>
             ]]>
             
             
@@ -139,18 +179,50 @@
             <![CDATA[
             <h4>Technical Analysis in Cryptocurrency Trading</h4>
             <p>
-              <strong>Updated at 31 Dec 2019, 09:06 UTC in #TRADING</strong> - Technical indicators work. Sometimes. Should you use technical analysis for crypto?
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #TRADING</strong> - Technical indicators work. Sometimes. Should you use technical analysis for crypto?
             </p>
-            <p><a href="http://localhost:4000/technical-analysis/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/technical-analysis/">[Read it]</a></p>
             ]]>
             
             
             
+            <![CDATA[
+            <h4>Daytrading on Crypto Markets: Good Idea?</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #TRADING</strong> - Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?
+            </p>
+            <p><a href="https://www.altcointrading.net/daytrading/">[Read it]</a></p>
+            ]]>
             
             
             
+            <![CDATA[
+            <h4>Wyckoff Avoidance Strategy in Cryptocurrency Trading</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #TRADING</strong> - Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?
+            </p>
+            <p><a href="https://www.altcointrading.net/wyckoff-avoidance/">[Read it]</a></p>
+            ]]>
             
             
+            
+            <![CDATA[
+            <h4>Crypto vs Forex Trading: How do they compare?</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #TRADING</strong> - Are you better off trading bitcoin or forex? Ultimately, it’s about picking the battles, and the right trading strategy.
+            </p>
+            <p><a href="https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/">[Read it]</a></p>
+            ]]>
+            
+            
+            
+            <![CDATA[
+            <h4>Fundamental Value of Cryptoassets</h4>
+            <p>
+              <strong>Updated at 08 Jan 2020, 08:46 UTC in #TRADING</strong> - How to assess the fundamental value of alternative cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes.
+            </p>
+            <p><a href="https://www.altcointrading.net/value/">[Read it]</a></p>
+            ]]>
             
             
             
@@ -195,8 +267,8 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-      <link>http://localhost:4000/airdrops/</link>
+      <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+      <link>https://www.altcointrading.net/airdrops/</link>
       <content:encoded>
         <ul>
         
@@ -211,8 +283,8 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
       </content:encoded>
@@ -223,7 +295,7 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+      <pubDate>Wed, 08 Jan 2020 08:47:02 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
         

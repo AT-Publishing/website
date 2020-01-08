@@ -1,0 +1,52 @@
+I"�<p>Ethereum might be the gold standard of smart contracts, it is widely known though that in terms of transaction throughput this particular blockchain is severely lacking.</p>
+
+<p>That does not make it a mistake that most utility tokens are based on the Ethereum blockchain. For most cases, a throughput of 5-15 transactions per second is enough. At worst, it can result in a few seconds of inconvenience for the transacting parties.</p>
+
+<p>Nonetheless, as blockchain technology became a tool widely explored by large established institutions, a market for <strong>high-throughput distributed ledgers</strong> was created.</p>
+
+<p>In this article we are comparing three of them - NEO, EOS and Tera.</p>
+
+<h4 id="neo">NEO</h4>
+
+<p>NEO came to prominence in 2017, but it is in fact a 2014 project called Antshares that was rebranded. NEO is China’s first original open source public blockchain project. Its focus is to become the full stack for smart economy, supporting smart contracts and digital identity.</p>
+
+<p>As for the smart contracts, the improvement from what Ethereum does was mainly for convenience - NEO supports contracts written in most high-level programming languages, there is no need to learn a new skill in order to start developing.</p>
+
+<p>A major difference is the maximum transaction throughput: NEO can make up to 10k transactions per second thanks to its algorithm optimizations. On top of that, NEO has a host of hard-coded features like a cross chain protocol for communication with other blockchains or a file sharing service based on the IPFS.</p>
+
+<p>That all sounds very attractive. However, even now, NEO still operates in the mode of “decentralization someday”: Bitcoin and Ethereum have over 30k globally distributed network nodes between them, the amount of official NEO nodes is <strong>literally only a handful</strong>.</p>
+
+<p>So far, NEO has failed to get any significant worldwide adoption aside from price speculation. Moreover, the way NEO handles digital identities could lead in censorship in the future.</p>
+
+<p>While for institutions like Weiss Ratings this is not of much importance as <a href="https://weisscryptocurrencyratings.com/news/neo-the-new-big-controversy-443">the chief metric seems to be future potential</a>, it is very much a critical concern for someone who is deciding where to pour a lot of good money <strong>to build an actual business</strong>.</p>
+
+<h4 id="eos">EOS</h4>
+
+<p>EOS. We all know EOS. The block.one project that raised billions of ICO dollars, after which the representatives <a href="https://www.thebusinessofcrypto.com/articles/eos-development-news-summer-2018/">publicly claimed they have not decided how they will use the money yet</a>. That, most importantly, they did not actually ask for that much, it’s just that people gave them all this money. And that’s not even mentioning the <strong>disaster surrounding the launch</strong> of the EOS blockchain that was released buggy, and the controversy around the <strong>tiny amount of nodes</strong> that support the EOS ledger.</p>
+
+<p>The irony is, now that the controversy cooled down, EOS could actually achieve great things, provided the choices made by responsible people will be smart. After all, the money is there.</p>
+
+<p>On the other hand, overfunding is a thing: It brings about lack of focus in the core team which in turn weakens the community somewhat. The halo of all the money <strong>attracts speculators</strong>, but the lackluster management and communication <strong>puts off the more hands-on types of engagement</strong>.</p>
+
+<p>That said, EOS does enjoy some dApp developer activity. For now though, it seems <strong>its 5k transactions per second throughput will be mostly used for gambling</strong>, as that’s  <a href="https://cryptodaily.co.uk/2018/11/eos-dapps-being-taken-over-by-china">the industry that makes up the majority of EOS dApps</a>.</p>
+
+<p>Most recently, there was another scandal regarding the attitude of EOS to decentralization: It is just <strong>not even a concern</strong> for EOS. <a href="https://cointelegraph.com/news/eos-proves-yet-again-that-decentralization-is-not-its-priority">They reportedly reverse confirmed transactions and freeze accounts</a>. If with NEO censorship is a looming future threat, with EOS it’s a confirmed fact.</p>
+
+<h4 id="tera">Tera</h4>
+
+<p>Tera is the youngest distributed ledger of the trio. This PoW cryptocurrency first started mining in July 2018, smart contract functionality was implemented in October. The roadmap features plans that would normally make up for a standalone crypto project, such as decentralized messaging system or a decentralized exchange.</p>
+
+<p>The Tera blockchain <strong>promises 1 second block time, 8 seconds for transaction confirmation and zero fees</strong>. It has maximum throughput of 1000 transactions per second without the compromise on decentralization we see at EOS.</p>
+
+<p>Tera supposedly achieves increased efficiency thanks to the <a href="https://bitcointalk.org/index.php?topic=4573801.0">Terahash algorithm with optimized RAM hashing</a>, but at the time of publishing there is <strong>not yet a whitepaper</strong> available to dig more deeply into this.</p>
+
+<h6 id="the-importance-of-community-in-distributed-ledgers-for-business">The importance of community in distributed ledgers for business</h6>
+
+<p>Tera is being developed in Moscow and while the project is extremely young, there is a considerably <strong>engaged community</strong> around this blockchain. The Tera tokens, while completely unknown to the outsider, even have a lively p2p trading on the social channels. The 1 second block times did cause some stir when announced through bitcointalk and attracted a good amount of miners.</p>
+
+<p>In a distributed system meant for business use, this type of active community engagement is very important. After all, that is the edge in using a public distributed ledger: One of the advantages you get is you don’t pay for the infrastructure, you have <strong>a worldwide community of people who run it instead of you</strong> generating their own profit, and the larger this community is the <strong>more resilient</strong> the infrastructure becomes.</p>
+
+<p>No matter how you look at it, it is questionable whether compromising on the decentralization really is a viable option.</p>
+
+<p><strong>It is of course too early to tell what will become of the Tera blockchain, but it is extremely positive that new competition keeps coming up in this space.</strong></p>
+:ET

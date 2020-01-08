@@ -1,0 +1,68 @@
+I"�<p>Gone are the times when Monero was immune to the forking trend. Upon their latest upgrade on 6 April 2018 that booted ASIC mining there have been so many forks that monero.org (not getmonero.org) set up a <a href="https://monero.org/forks/">special page on their website listing all of the fork events and spin-off cryptocurrencies</a>.</p>
+
+<p>This article is putting the names together with the forks’ latest development updates and also checking back on the “original Monero” projects that cropped up early in April 2018, starting off with the one fork that is happening fairly soon.</p>
+
+<h2 id="monerov">MoneroV</h2>
+
+<p>When Monero was first supposed to get forked to MoneroV in March 2018, the project was slammed left, right and center for being a <a href="https://feedback.coinfoundry.org/communities/1/topics/691-plans-to-support-monerov">vicious attack</a> - many of the articles from places like bitcoinsforum.net or digitalcurrencygrid.com have been taken down by now though. The main issue was the XMV fork <a href="https://np.reddit.com/r/Monero/comments/7x297t/careful_with_monero_forks_with_airdrops/du537ij/">was invading the privacy of XMR users</a> - even those who would choose not to claim or support XMR.</p>
+
+<p>However, in the meantime XMR went through an update that fixes the problem - it can now be forked without any (known) privacy leak concerns for XMR users.</p>
+
+<p>The MoneroV team made significant advances as well since its first appearance in March, which shifted the public opinion. From <a href="https://monerov.org/fork-date-approaching-updates/">MoneroV.org</a>:</p>
+
+<ul>
+  <li>Implemented a new difficulty adjustment algorithm that will mitigate attacks and difficulty manipulations.</li>
+  <li>Incorporated a new ASIC-resistant mining algo - this is an original anti-ASIC system different from what XMR implemented but it makes XMV the only ASIC-resistant fork on the list.</li>
+  <li>Tested XMV mining pools (more on the pools <a href="https://monerov.org/faq/">here</a>).</li>
+  <li>Added two-way replay protection.</li>
+  <li>Secured listing on several crypto exchanges.</li>
+</ul>
+
+<p>XMV will trade on HitBTC and the exchange will also credit XMV to its users.</p>
+
+<p><strong>XMV fork: All you need to know</strong></p>
+
+<p>The MoneroV fork is happening at XMR block 1564965, cca 30 April 2018. The exact date will be specified on Twitter @monero_v as the block height of snapshot approaches. If you hold XMR in a wallet you fully control or on HitBTC you will receive XMV in the ratio of 10 XMV for each XMR you hold.</p>
+
+<p>Official XMV wallets will be released via Github, lightweight and GUI wallet releas is planned for June 2018. You will need to use your private keys to claim which means you should move your XMR out of your wallet after the snapshot before you claim XMV.</p>
+
+<h2 id="past-monero-forks---april-2018">Past Monero Forks - April 2018</h2>
+
+<p>The following spin-offs were created on 6 April 2018 (block 1546500). The collective forking happened on the day of the <a href="https://monero.org/monero-v7-fork-postponed-to-april-6th/">XMR hard fork (with no coin generated)</a> that implemented a new ASIC-resistant mining algo. The forks created new chains that unlike XMR are ASIC-friendly and all can therefore claim to be the “true” XMR.</p>
+
+<h4 id="monero-original--xmo">Monero Original / XMO</h4>
+
+<p>XMO is the first of the “original” XMR projects. It is hosted on <a href="https://github.com/XmanXU/monero">Github</a> and the dev behind XMO is anonymous, pushing the idea of anonymous crypto that doesn’t have a face pinned to it.</p>
+
+<p>However, since its inception there hasn’t been a lot of public activity around XMO. The homepage <a href="http://monero-original.org/">monero-original.org</a> only has an unclear statement about the benefits of XMO and urges you to buy the coin at HitBit. There is no information about social media outlets, just Github and the dev’s email address.</p>
+
+<p>HitBTC has BTC and USDT markets for XMO, although it has been running pretty much straight into the ground.</p>
+
+<div>
+   <a target="_blank" href="https://www.altcointrading.net/features/xmo.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/xmo.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+ </div>
+
+<p></p>
+
+<h4 id="monero-0--zmr">Monero 0 / ZMR</h4>
+
+<p>Monero 0 has similar promise as XMO - carrying on with the legacy version of XMR that is friendly to ASICs. It also forked at block 1546500. The developer is anonymous as well, their idea was <a href="https://www.reddit.com/r/Monero/comments/88g3c3/introducing_monero0_the_original_monero/">reportedly</a> that forking XMR to add ASIC-resistance is not a viable strategy.</p>
+
+<p>However, except some initial press there is nothing to be found to the ZMR project at the moment. Its homepage is still live at <a href="https://monero0.org/">monero0.org</a> but as of the time of publishing their Twitter has been <a href="https://twitter.com/monerozero">silent since April 8</a>.</p>
+
+<h4 id="monero-classic--xmc">Monero Classic / XMC</h4>
+
+<p>Monero Classic is the last of the forks that emerged as a disagreement with the XMR upgrade that introduced ASIC resistance.</p>
+
+<p>Homepage at <a href="http://monero-classic.org/">monero-classic.org</a> includes only a letter from PZ, the developer of XMC. According to the letter, PZ considers it a nonsense to change Monero’s PoW algorithm twice a year to ensure ASIC resistance. PZ argues ASICs are a normal market phenomenon, that all high-value cryptocurrencies see the development of specialized hardware and that in fact this emergence of secondary business shouldn’t be discouraged. There is expressed the belief in an environment diversity in the crypto space, as after all the collisions of various ideas were what made the blockchain industry so rich.</p>
+
+<div>
+  <a target="_blank" href="https://www.altcointrading.net/features/xmc.png" title="AltcoinTrading.NET - Monero Forks Recap in April 2018"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/xmc.png" alt="Monero Forks Recap in April 2018" title="AltcoinTrading.NET - Monero Forks Recap in April 2018" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
+</div>
+
+<p>XMC has a BTC pair on the Gate.io exchange, Lomostar and several other places. According to <a href="https://twitter.com/xmccurrency">the Twitter @xmccurrency</a> the coin was getting listed on various exchanges massively just recently over the days around 20 April 2018.</p>
+
+<p>So far on the BTC markets all you can see is the initial P&amp;D but the development on XMC seems to look the most promising of the three ASIC-friendly Monero forks.</p>
+
+<p>Considering all of the forks, MoneroV has the most active community and most responsive development.</p>
+:ET
