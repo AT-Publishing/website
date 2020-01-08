@@ -1,13 +1,16 @@
 ---
 layout: at-trading
 title: "Daytrading on Crypto Markets: Good Idea?"
+
+promoting: analysis
+
 description: "Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?"
 category: "trading"
 permalink: daytrading/
 image:
 - "/editorial/woman-daytrading.jpg"
 image_alt:
-- "Daytrading on Cryptocurrency Markets" 
+- "Daytrading on Cryptocurrency Markets"
 
 note: "Trading Strategy"
 pinned: no

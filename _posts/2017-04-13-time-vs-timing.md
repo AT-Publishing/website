@@ -1,8 +1,11 @@
 ---
 layout: at-trading
-pinned: yes
+pinned: no
 genres: "Strategy"
 published: true
+
+promoting: analysis
+
 
 date: 2017-04-13 12:24
 title: "Opinion: Time in the market vs timing the market"

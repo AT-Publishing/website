@@ -7,15 +7,15 @@
       <![CDATA[  <h4>Oct 23 | Recent Most Read</h4> - Fidelity Full Data File https://www.thebusinessofcrypto.com/company/fidelity/<br> - Blokchain Gaming Companies Leaderboard https://www.thebusinessofcrypto.com/company/markets/gaming/<br> - Tokenization can boost startups in growing industries like home remodeling https://www.altcointrading.net/tokenization-startup-boost/ ]]>
     </description>
     <image>
-      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <url>http://localhost:4000/img/logo.jpg</url>
       <title><![CDATA[ AltcoinTrading.NET ]]></title>
-      <link>https://www.altcointrading.net</link>
+      <link>http://localhost:4000</link>
     </image>
     <language>en</language>
-    <link>https://www.altcointrading.net</link>
-    <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Jan 2020 01:33:33 +0000</lastBuildDate>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 08:42:27 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,8 +23,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
-      <link>https://www.altcointrading.net/</link>
+      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+      <link>http://localhost:4000/</link>
       <content:encoded>
         
         <![CDATA[
@@ -72,8 +72,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
-      <link>https://www.altcointrading.net/</link>
+      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+      <link>http://localhost:4000/</link>
       <content:encoded>
         
             
@@ -105,7 +105,7 @@
             <p>
               <strong>Updated at 31 Dec 2019, 08:41 UTC in #REPORTS</strong> - Look at one tiny piece of the economy of crypto for payments. Plus a look at search and traffic stats for hardware wallets and what it probably means.
             </p>
-            <p><a href="https://www.altcointrading.net/stats-2018/">[Read it]</a></p>
+            <p><a href="http://localhost:4000/stats-2018/">[Read it]</a></p>
             ]]>
             
             
@@ -141,7 +141,7 @@
             <p>
               <strong>Updated at 31 Dec 2019, 09:06 UTC in #TRADING</strong> - Technical indicators work. Sometimes. Should you use technical analysis for crypto?
             </p>
-            <p><a href="https://www.altcointrading.net/technical-analysis/">[Read it]</a></p>
+            <p><a href="http://localhost:4000/technical-analysis/">[Read it]</a></p>
             ]]>
             
             
@@ -195,8 +195,8 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
-      <link>https://www.altcointrading.net/airdrops/</link>
+      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+      <link>http://localhost:4000/airdrops/</link>
       <content:encoded>
         <ul>
         
@@ -211,8 +211,8 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
-      <link>https://www.altcointrading.net/</link>
+      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
+      <link>http://localhost:4000/</link>
       <content:encoded>
         
       </content:encoded>
@@ -223,7 +223,7 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Mon, 06 Jan 2020 01:33:33 +0000</pubDate>
+      <pubDate>Wed, 08 Jan 2020 08:42:27 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
         

@@ -5,6 +5,8 @@ guest: false
 pinned: no
 note: 'Trading Strategy'
 
+promoting: entertainment
+
 date: 2019-10-07 00:31:00 +0100
 
 title: "Crypto vs Forex Trading: How do they compare?"

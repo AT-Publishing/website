@@ -9,6 +9,9 @@ stories: true
 genres: Blog
 tickers: true
 
+promoting: security
+
+
 date: 2019-01-25 01:04:00 +0700
 
 title: "Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"

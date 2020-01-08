@@ -23,7 +23,7 @@ layout: default-news
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                {{ site.tv_728-90_animated }}
+                {% include promoting-horizontal.html %}
 
                 <blockquote cite="{{ page.url | prepend: site.url }}">
                   {% if page.hook %}{{ page.hook }}{% else %}{{ page.description }}{% endif %}

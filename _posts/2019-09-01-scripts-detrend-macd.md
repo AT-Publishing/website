@@ -5,7 +5,9 @@ guest: false
 sponsored: false
 stories: true
 series: ScriptSpotlight
-pinned: no
+pinned: yes
+
+promoting: trading
 
 mentions:
  name: "technical analysis"

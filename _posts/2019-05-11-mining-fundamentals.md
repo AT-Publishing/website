@@ -6,6 +6,9 @@ pinned:     false
 #canonical: "https://www.thebusinessofcrypto.com/articles/shocking-facts-about-cryptocurrency-heists-infographics"
 series: Fundamentals
 
+promoting: analysis
+
+
 date: 2019-05-11 07:12:00 +0700
 
 title: "The True Crypto Fundamentals: Crypto Mining and Transactions"

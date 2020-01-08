@@ -5,6 +5,7 @@ guest:      yes
 pinned:     no
 #canonical: ""
 series: Hodl
+promoting: trading
 
 stories: false
 genres: Blog

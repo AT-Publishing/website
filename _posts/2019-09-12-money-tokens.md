@@ -6,6 +6,8 @@ categories: ["trading"]
 tags: ["cryptotrading", "trading-blog"]
 series: Fundamentals
 
+promoting: analysis
+
 pinned: no
 date: 2019-09-12 01:10:00 +0100
 

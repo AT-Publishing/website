@@ -5,6 +5,7 @@ guest:      false
 pinned:     false
 #canonical: ""
 
+promoting: trading
 
 mentions:
  name: "cryptocurrency trading strategy"

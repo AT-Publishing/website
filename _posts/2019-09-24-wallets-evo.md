@@ -4,6 +4,7 @@ published: true
 guest: true
 pinned: false
 
+promoting: security
 
 mentions:
  name: "crypto storage device management"

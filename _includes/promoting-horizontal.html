@@ -1,0 +1,13 @@
+{% assign handle = page.promoting %}
+{% case handle %}
+  {% when "trading" %}
+    {{ site.tv_1200-628 }}
+  {% when "analysis" %}
+    {{ site.tv_728-90_animated }}
+  {% when "entertainment" %}
+    {{ site.cbet_l }}
+  {% when "security" %}
+    {{ site.ledger_728-90_animated }}
+  {% else %}
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
+{% endcase %}

@@ -1,7 +1,7 @@
 ---
-stories: true
+stories: true 
 genres: Blog
-published: true 
+published: true
 date: 2020-01-03 02:31:00 +0700
 
 layout: strategy
