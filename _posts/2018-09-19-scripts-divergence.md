@@ -6,6 +6,9 @@ guest: false
 sponsored: false
 stories: true
 
+promoting: entertainment
+
+
 date: 2018-09-19 13:13:00 +0700
 
 title: "Script Spotlight: Automatic Divergences"

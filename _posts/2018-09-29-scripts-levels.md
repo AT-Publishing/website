@@ -11,6 +11,7 @@ mentions:
  name: "technical analysis"
  sameas: "https://www.altcointrading.net/technical-analysis/"
 
+promoting: entertainment
 
 date: 2018-09-29 14:43:00 +0700
 

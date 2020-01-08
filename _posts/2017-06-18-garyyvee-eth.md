@@ -18,6 +18,7 @@ image:
 - "/img/emotions/gary.png"
 
 categories: ["reports"]
+promoting: entertainment
 
 
 about:

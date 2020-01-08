@@ -2,6 +2,7 @@
 layout: at-trading
 published: true
 guest: false
+promoting: entertainment
 
 date: 2018-10-17 18:12:00 +0700
 
