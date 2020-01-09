@@ -38,4 +38,4 @@ Currently the most traded products are BTC futures, ETH futures and BTC perpetua
 
 **BitMEX doesn't serve US customers**. However there is no verification other than a claim from the user on sign up. The exchange is accessible from a VPN or from the Tor network.
 
-<a rel="nofollow" href="https://www.bitmex.com/register/iYQB44" class="button" target="_blank">Get 10% fee discount on BitMEX</a>
+<a rel="nofollow" href="http://bit.ly/2Muo11z" class="button" target="_blank">Get 10% fee discount on BitMEX</a>
