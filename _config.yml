@@ -49,11 +49,14 @@ jekyll_get:
 
 
 collections:
-  - press
+  - strategy
   - security
-  - fibs
+  - howto
 
 collections:
+  howto:
+    output: true
+    permalink: /:collection/:slug/
   press:
     output: true
     permalink: /:collection/:slug/
@@ -123,6 +126,17 @@ defaults:
      comments: false
      stories: false
      tickers: false
+     author: "mailto:info@altcointrading.net"
+     author_name: "AltcoinTrading"
+ -
+   scope:
+     path: "howto"
+     type: "howto"
+   values:
+     layout: "at-trading"
+     published: true
+     stories: false
+     genres: "Blog" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
      author: "mailto:info@altcointrading.net"
      author_name: "AltcoinTrading"
  -
