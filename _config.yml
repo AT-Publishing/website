@@ -304,6 +304,17 @@ width="300px" height="213px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+bf3: '<div class="text-center">
+<a class="index-internal" target="_blank" href="/blackfriday/">
+<amp-img itemprop="image"
+src="/cta/blackfriday-crypto-valentine.png"
+alt="Crypto Valentines day - Eternal Black Friday"
+data-original-width="1312px"
+data-original-height="926px"
+width="300px" height="211px"
+layout="responsive">
+</amp-img></a></div><br>'
+
 # comma
 
 3commas_tall: '<div class="text-center">
@@ -314,6 +325,18 @@ alt="3commas DCA bot and trading automation"
 data-original-width="400px"
 data-original-height="798px"
 width="400px" height="798px"
+layout="responsive">
+</amp-img></a></div><br>'
+
+
+3commas_long: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/34Zampi">
+<amp-img itemprop="image"
+src="/cta/3commas-long.jpg"
+alt="3commas DCA bot and trading automation"
+data-original-width="798px"
+data-original-height="200px"
+width="798px" height="200px"
 layout="responsive">
 </amp-img></a></div><br>'
 
@@ -332,6 +355,8 @@ layout="responsive">
 
 
 ledger_mobilebanner: '<br><div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/lnx-2020"><amp-img itemprop="image" src="https://www.ledgerwallet.com/images/promo/banners/ledger_banner_2-5-0x1-0-0.jpg" alt="Ledger Nano X - The secure hardware wallet" data-original-width="250px" data-original-height="100px" width="250px" height="100px" layout="fixed"></amp-img></a></div><br>'
+
+
 
 
 
@@ -374,6 +399,39 @@ bfx: '<a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.
 bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/catch-me-if-ya-can" target="_blank">
 <amp-img itemprop="image" src="/ads/bitfinex_app.png" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
 
+
+# valentine
+
+ledger_val_leader: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
+<amp-img itemprop="image"
+src="/cta/ledger_val-728x90.png"
+alt="Ledger wallet bundle for crypto traders"
+data-original-width="728px"
+data-original-height="90px"
+width="728px" height="90px"
+layout="responsive">
+</amp-img></a></div><br>'
+ledger_val_banner: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
+<amp-img itemprop="image"
+src="/cta/ledger_val-300x250.png"
+alt="Ledger wallet bundle for crypto traders"
+data-original-width="300px"
+data-original-height="250px"
+width="300px" height="250px"
+layout="responsive">
+</amp-img></a></div><br>'
+ledger_val_tall: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
+<amp-img itemprop="image"
+src="/cta/ledger_val-120x600.png"
+alt="Ledger wallet bundle for crypto traders"
+data-original-width="120px"
+data-original-height="600px"
+width="120px" height="600px"
+layout="responsive">
+</amp-img></a></div><br>'
 
 
 fucksense:

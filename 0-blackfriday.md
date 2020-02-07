@@ -16,7 +16,29 @@ author: 'mailto:jmt@altcointrading.net'
 
 Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Christmas Offers 2019**.
 
-## BillFodl 40% OFF Christmas Sale
+## Ledger Valentine's Pack - February 2020 Dealz for "Ledger&You"
+
+{{ site.stars.five }}
+
+The guys from Ledger never miss any even *vaguely shopping-related* opportunity to offer their wallets in bundles. In February 2020 they are opening a **Ledger Valentine's Pack** deal.
+
+It's the same bundle deal as they always do: Buy a **Ledger Nano X** and get a **Ledger Nano S for free**.  
+
+{{ site.ledger_val_leader }}
+
+The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+
+The best way to make use of the Ledger Valentine's Day deal is to use the new Ledger Nano X as your cold-ish storage and to use the Nano S for the crypto you move the most often: Nano S can pretty much operate with a single crypto on it only, due to the small memory. But if you trade mostly with, say, Bitcoin as your base currency, you can set up this single Ledger Nano S as your trading wallet.
+
+It's also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
+
+<a rel="nofollow"  class="button" href="http://bit.ly/at-ledger-val2020">Go to Ledger Valentine's Pack</a>
+
+&nbsp;
+
+
+
+## BillFodl
 
 {{ site.stars.five }}
 
@@ -26,41 +48,9 @@ Billfodl is made 100% of the highest quality 316 stainless steel that has super 
 
 They also have bundle packs in case you are ultra paranoid and want to split your main money seed in two to store it in two different locations.
 
-The Billfodl wallets are now offered at **40% OFF (site-wide)**. They ship from the US but only show prices before tax on their e-shop, if you're elsewhere you might need to add the duties to your bill.
+Billfodl wallets ship from the US but only show prices before tax on their e-shop, if you're elsewhere you might need to add the duties to your bill.
 
 <a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl Sale</a>
-
-## Ledger Christmas Pack
-
-{{ site.stars.five }}
-
-Ledger wallet is coming up with the **Ledger Christmas Pack** in 2019.
-
-The Christmas deal is super simple: Buy a Ledger Nano X and get a **Ledger Nano S for free**.  
-
-{{ site.ledger_mobilebanner }}
-
-The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
-
-The best way to make use of the Ledger Christmas deal is to use the new Ledger Nano X as your cold-ish storage and to use the Nano S for the crypto you move the most often: Nano S can pretty much operate with a single crypto on it only, due to the small memory. But if you trade mostly with, say, Bitcoin as your base currency, you can set up this single Ledger Nano S as your trading wallet.
-
-It's also useful to have a separate wallet for the darknetmarkets. But we haven't really said that...
-
-<a rel="nofollow"  class="button" href="http://bit.ly/at-ledg-xmmas19">Go to Ledger Christmas Pack</a>
-
-&nbsp;
-
-#### Ledger Wallet Cashback
-
-{{ site.stars.five }}
-
-If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a> after making an account, you will get cashback **on your total bill**, no matter which products you will buy.
-
-You still get cashback on any promotional packages or discounted goods, as long as you buy from the official Ledger shop.
-
-<a rel="nofollow"  class="button" href="https://hodlerscashback.com/">Go To Hodler's Cashback</a>
-
-&nbsp;
 
 
 **Jump to:**
