@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 08 Feb 2020 06:03:55 +0000</pubDate>
-    <lastBuildDate>Sat, 08 Feb 2020 06:03:55 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2020 05:40:36 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2020 05:40:36 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -553,7 +553,8 @@
         <pubDate>Wed, 04 Dec 2019 04:32:00 +0000</pubDate>
         <link>https://www.altcointrading.net/technical-analysis/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/technical-analysis/</guid>
-        
+        <comments>https://www.altcointrading.net/technical-analysis/#comments</comments>
+        <slash:comments>0</slash:comments>
         <language>en</language>
 
         <category><![CDATA[ crypto-trading ]]></category>

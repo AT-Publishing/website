@@ -1,8 +1,17 @@
 ---
+published:  true
+pinned:     true
+guest:      false
+sponsored:  false
+stories:    false
+guide:      true
+
+promoting: analysis
+#series: ScriptSpotlight
+
 layout: at-trading
 title: "Daytrading on Crypto Markets: Good Idea?"
 
-promoting: analysis
 
 description: "Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?"
 category: "trading"
@@ -13,7 +22,6 @@ image_alt:
 - "Daytrading on Cryptocurrency Markets"
 
 note: "Trading Strategy"
-pinned: no
 date: 2019-11-05 03:32:00 -0300
 
 categories: [trading]
@@ -27,12 +35,9 @@ mentions:
  name: "technical analysis"
  sameas: "https://www.altcointrading.net/technical-analysis/"
 
-#series: Wyckoff
-
 author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
-
 
 related:
  - {"DCA: The Crypto Strategy for Dollar-Cost-Averaging": "/strategy/dca/"}

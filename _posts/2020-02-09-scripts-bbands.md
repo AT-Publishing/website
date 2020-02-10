@@ -5,7 +5,9 @@ pinned:     false
 guest:      false
 sponsored:  false
 stories:    false
+guide:      false
 
+series: ScriptSpotlight
 
 mentions:
  name: "technical analysis"
@@ -23,10 +25,8 @@ author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
 
 genres: Blog
-tickers: false
 
 permalink: scriptspotlight-bollinger-band-width-indicator/
-cz: false
 
 image:
 - "/features/bbw/scriptspotlight-bbands.png"
@@ -38,8 +38,6 @@ image_alt:
 categories: ["trading"]
 tags: ["cryptotrading", "trading-blog", "bbands", "bollinger-bands"]
 chart: []
-
-series: ScriptSpotlight
 
 related:
 - {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}

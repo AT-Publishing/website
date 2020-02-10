@@ -180,14 +180,6 @@ ref:
 
 # image ads
 ads:
-  kucoin728: '<div class="text-center" id="gtm-kucoin728-banner">
-  <a rel="nofollow" target="_blank" href="https://www.kucoin.com/#/?r=7wJhh7">
-  <amp-img itemprop="image" alt="KuCoin-cryptocurrency exchange"
-  src="/ads/kucoin_728x90.png"
-  layout="responsive"
-  data-original-width="728px" data-original-height="90px"
-  width="728px" height="90px"></amp-img>
-  </a></div><br>'
   binance728: '<div class="text-center" id="gtm-binance-banner">
   <a rel="nofollow" target="_blank" href="https://www.binance.com/?ref=15980293">
   <amp-img itemprop="image" alt="Binance-cryptocurrency exchange"

@@ -1,18 +1,19 @@
 ---
-layout: at-trading
-published: true
-guest: false
-sponsored: false
-stories: true
-series: ScriptSpotlight
-pinned: yes
+published:  true
+guest:      false
+sponsored:  false
+stories:    true
+pinned:     false
+guide:      false
 
+series: ScriptSpotlight
 promoting: trading
+
+layout: at-trading
 
 mentions:
  name: "technical analysis"
  sameas: "https://www.altcointrading.net/technical-analysis/"
-
 
 date: 2019-09-01 02:14:00 +0100
 
@@ -22,14 +23,9 @@ description: "The Detrended Price Oscillator strategy tool from TradingView is s
 author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
-
-comments: true
-identifier: 'ssdetrend0119'
 genres: Blog
-tickers: true
 
 permalink: detrended-price-oscillator/
-cz: false
 
 image:
 - "/editorial/unsplash1/filesystem.jpg"
@@ -41,7 +37,6 @@ image_alt:
 
 categories: ["trading"]
 tags: ["cryptotrading", "trading-blog"]
-chart: []
 
 related:
 - {"Script Spotlight: A/D Levels": "/scriptspotlight-a-d-levels/"}

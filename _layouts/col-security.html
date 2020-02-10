@@ -7,16 +7,22 @@ layout: default
 
      <div class="twelve columns">
 
-       <p>{{ site.ledger_728-90_animated }}</p>
+       <p>{{ site.3commas_long }}</p>
 
        <h3 class="post">
         <strong>{{ page.title | upcase }}</strong>
-         -
-         <small>{{ page.description }}</small>
        </h3>
+       <h4>
+         <small>{{ page.description }}</small>
+       </h4>
       <hr>
-      <article class="maincontent">
-       {{ content | replace: '<a href="http', '<a target="_blank" href="http' }}
+
+      <article class="maincontent col col-security">
+        <div class="intro">
+           {{ content }}
+        </div>
+        <br>
+       {% include lps/security-feed.html %}
       </article>
 
 

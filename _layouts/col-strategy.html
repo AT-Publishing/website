@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+  <div class="container">
+    <div class="row">
+
+     <div class="twelve columns">
+
+       <p>{{ site.3commas_long }}</p>
+
+       <h3 class="post">
+        <strong>{{ page.title | upcase }}</strong>
+       </h3>
+       <h4>
+         <small>{{ page.description }}</small>
+       </h4>
+      <hr>
+
+      <article class="maincontent col col-strategy">
+       <div class="intro">
+         {{ content }}
+       </div>
+       <br>
+       {% include lps/strategy-feed.html %}
+      </article>
+
+
+      </div>
+
+    </div>
+  </div>

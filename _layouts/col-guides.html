@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="three columns">
+      <p>{{ site.ledger_mobilebanner }}</p>
+    </div>
+    <div class="nine columns">
+     <h3 class="post">
+      <strong>{{ page.title | upcase }}</strong>
+     </h3>
+     <h4>
+       <small>{{ page.description }}</small>
+     </h4>
+     <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="columns twelve">
+      <article class="maincontent col-guides">
+        <div class="postslist">
+          {% include lps/guides-feed.html %}
+        </div>
+        <div class="intro">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
