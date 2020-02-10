@@ -1,10 +1,10 @@
-{% assign howto_posts = site.howto | sort:date | reverse | limit:1 %}
+{% assign howto_posts = site.howto | sort:date | reverse %}
 {% assign howto_sample = site.howto | sample:2 %}
 
 
 <span class="note">Most Read in How-To:</span>
 <ul>
-  {% for post in howto_posts %}
+  {% for post in howto_posts limit:1 %}
   <li class="popular-item">
     <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#101 | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
   </li>
@@ -19,9 +19,9 @@
   {% assign sec = site.security | sort:date | reverse %}
 
   {% assign strat_sample = site.strategy | sample:2 %}
-  {% assign sec_sample = site.security | sample:1 %}
+  {% assign sec_sample = site.security | sample:2 %}
 
-{% for post in sec_sample %}
+{% for post in sec limit:1 %}
 <li class="popular-item">
   <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoSecurity | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
 </li>
@@ -32,15 +32,3 @@
   <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoTrading | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
 </li>
 {% endfor %}
-
-{% for tag in site.tags %}
-{% if tag contains "business-of-crypto" %}
-    {% assign pages_list = tag[1] %}
-{% for post in pages_list limit:1 %}
-<li class="popular-item">
-  <a class="index-internal" href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a><a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}"> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-</li>
-{% endfor %}
-{% endif %}
-{% endfor %}
-</ul>

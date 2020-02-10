@@ -13,7 +13,7 @@ mentions:
  name: "technical analysis"
  sameas: "https://www.altcointrading.net/technical-analysis/"
 
-promoting: security
+promoting: exchanges
 
 date: 2020-02-08 10:03:00 +0700
 
