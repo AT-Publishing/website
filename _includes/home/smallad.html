@@ -1,4 +1,4 @@
-{% assign howto_posts = site.howto | sort:date | reverse " limit:1%}
+{% assign howto_posts = site.howto | sort:date | reverse | limit:1 %}
 {% assign howto_sample = site.howto | sample:2 %}
 
 
@@ -19,7 +19,7 @@
   {% assign sec = site.security | sort:date | reverse %}
 
   {% assign strat_sample = site.strategy | sample:2 %}
-  {% assign sec_sample = site.security | sample:2 %}
+  {% assign sec_sample = site.security | sample:1 %}
 
 {% for post in sec_sample %}
 <li class="popular-item">
