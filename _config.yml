@@ -386,12 +386,10 @@ cbet_l: '<div class="clearfix adfix"><amp-iframe width="728px" height="120px" la
 # 300x250 # https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html
 cbet_b: '<div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
-bfx: '<a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/catch-me-if-ya-can" class="button" target="_blank"></a>'
-
-bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/catch-me-if-ya-can" target="_blank">
+bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank">
 <amp-img itemprop="image" src="/ads/bitfinex_app.png" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
 
-bfx_long: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/catch-me-if-ya-can" target="_blank">
+bfx_long: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank">
 <amp-img itemprop="image" src="/ads/bitfinex_long.png" alt="Bitfinex Platform Exchange Fee Discount"
 data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px">
 </amp-img></a></div>'
@@ -430,6 +428,10 @@ width="120px" height="600px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+# http://bit.ly/localcryptos
+
+localcryptos_square: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="/ads/localcryptos_400.png" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>'
+localcryptos_banner: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="/ads/localcryptos_banner.png" alt="LocalCryptos p2p trading btc eth" data-original-width="3072px" data-original-height="1920px" width="700px" height="446px" layout="responsive"></amp-img></a></div><br>'
 
 fucksense:
   banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"

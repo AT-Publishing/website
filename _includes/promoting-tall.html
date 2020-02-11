@@ -24,6 +24,11 @@
     <hr class="skinny">
     {{ site.deribit_xs }}
     <hr class="skinny">
+  {% when "exchanges" %}
+    {{ site.localcryptos_square }}
+    <hr class="skinny">
+    {{ site.bfx_336x280 }}
+    <hr class="skinny">
 
   {% when "security" %}
     {{ site.3commas_tall }}
@@ -34,6 +39,7 @@
     <hr class="skinny">
     {{ site.bf2 }}
     <hr class="skinny">
+
   {% else %}
     {{ site.ledger_val_tall }}
     <hr class="skinny">

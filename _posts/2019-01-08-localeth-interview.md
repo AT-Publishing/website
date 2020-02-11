@@ -3,7 +3,7 @@ layout: at-trading
 published: true
 guest: false
 pinned: no
-promoting: trading
+promoting: exchanges
 
 stories: true
 genres: Blog

@@ -6,8 +6,8 @@ stories:    true
 pinned:     false
 guide:      false
 
-series: ScriptSpotlight
-promoting: trading
+series:     ScriptSpotlight
+promoting:  exchanges
 
 layout: at-trading
 
