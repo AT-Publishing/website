@@ -38,15 +38,16 @@ navi:
         {% endfor %}
         <div class="smallad">
           <br>
-          {{ site.bf3 }}
-          <span class="note">Latest in Crypto OPSEC Extras:</span>
-          {% for post in sec offset: 0 limit: 1 %}
-          {% include home/slimupdates.html %}
-          {% endfor %}
+          {{ site.localcryptos_square }}
           <span class="note">Latest in Crypto Strategy Extras:</span>
           {% for post in strat offset: 0 limit: 2 %}
           {% include home/slimupdates.html %}
           {% endfor %}
+          <span class="note">Latest in Crypto OPSEC Extras:</span>
+          {% for post in sec offset: 0 limit: 1 %}
+          {% include home/slimupdates.html %}
+          {% endfor %}
+
           <br>
         </div>
       </div>

@@ -3,11 +3,10 @@
 {% assign handle = page.promoting %}
 {% case handle %}
   {% when "trading" %}
-    {{ site.ledger_val_banner }}
-    <hr class="skinny">
+
     {{ site.bfx_336x280 }}
     <hr class="skinny">
-    {{ site.bf2 }}
+    {{ site.localcryptos_square }}
     <hr class="skinny">
 
   {% when "analysis" %}
@@ -24,6 +23,12 @@
     <hr class="skinny">
     {{ site.deribit_xs }}
     <hr class="skinny">
+    <amp-ad width=336 height=280
+      type="adsense"
+      data-ad-client="ca-pub-6979812205705127"
+      data-ad-slot="7619602394">
+        <div overflow></div>
+    </amp-ad>
   {% when "exchanges" %}
     {{ site.localcryptos_square }}
     <hr class="skinny">
@@ -33,17 +38,17 @@
   {% when "security" %}
     {{ site.3commas_tall }}
     <hr class="skinny">
-    {{ site.ledger_val_tall }}
-    <hr class="skinny">
     {{ site.vtoro}}
     <hr class="skinny">
     {{ site.bf2 }}
     <hr class="skinny">
 
   {% else %}
-    {{ site.ledger_val_tall }}
+    {{ site.localcryptos_square }}
     <hr class="skinny">
     {{ site.mex_336x280 }}
+    <hr class="skinny">
+    {{ site.bf2 }}
     <hr class="skinny">
     <amp-ad width=336 height=280
       type="adsense"
