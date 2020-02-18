@@ -31,13 +31,14 @@ navi:
       <item turbo="true">
         <title><![CDATA[ {{ post.title | xml_escape }} ]]></title>
         <description><![CDATA[ {{ post.description | xml_escape }} ]]></description>
-        <content:encoded><![CDATA[ {{ post.content | xml_escape }} ]]></content:encoded>
-        <turbo:content><![CDATA[ {{ post.content }} ]]></turbo:content>
+
+        <content:encoded><![CDATA[ {{ post.content | markdownify | strip_html | xml_escape }} ]]></content:encoded>
+
+        <turbo:content><![CDATA[ {{ post.content | xml_escape }} ]]></turbo:content>
 
         <author><![CDATA[ {{ post.author_name }} ]]></author>
         <dc:creator><![CDATA[ {{ post.author_name }} ]]></dc:creator>
         {% if post.image[0] %}<media:content url="{{ post.image[0] | prepend: site.baseurl | prepend: site.url }}" medium="image" />{% endif %}
-
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
