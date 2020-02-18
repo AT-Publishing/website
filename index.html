@@ -8,9 +8,11 @@ navi:
 
   <div class="row top">
         <div class="columns four">
-            {{ site.bfx_336x280 }}
+            <div id="at-promo-main-home">
+              {{ site.bfx_336x280 }}
+            </div>
             <br>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-home-top">
                {% include home/smallad.html %}
             </div>
         </div>
@@ -60,11 +62,15 @@ navi:
   <div class="row">
   <div class="eight columns">
 
-    {{ site.tv_728-90_animated }}
+    <div id="at-promo-smallad-home-mid">
+      {{ site.tv_728-90_animated }}
+    </div>
 
     <br>
 
-    {% include home/airdrops.html %}
+    <div id="at-home-drops">
+      {% include home/airdrops.html %}
+    </div>
 
     <section id="new-posts">
 

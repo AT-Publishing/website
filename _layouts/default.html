@@ -21,7 +21,55 @@
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    }{% unless page.title %},
+    // these are all for home
+    "click on smallad-home": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--home-top",
+         "eventAction": "click-smallad"
+       }
+    },
+    "click on main-home": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--home-top",
+         "eventAction": "click-main"
+       }
+    },
+    "click home mid ad": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--home-mid",
+         "eventAction": "click-long"
+       }
+    },
+    "click home side ad": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--home-side",
+         "eventAction": "click-tall"
+       }
+    },
+    "click home side links": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--home-side",
+         "eventAction": "click-shilllinks"
+       }
     }
+
+    {% endunless %}
   }
 }
 </script>

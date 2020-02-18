@@ -647,8 +647,7 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-
-      "click on banner-horizontal trigger": {
+    "click on banner-horizontal trigger": {
         "on": "click",
         "selector": "#at-promo-horizontal",
         "request": "event",
@@ -656,8 +655,8 @@ amp-user-notification>div>div {
           "eventCategory": "nonadsense--samourai-wallet-bitcoin-anonymity",
           "eventAction": "click-horizontal"
           }
-        },
-      "click on banner-vertical trigger": {
+   },
+   "click on banner-vertical trigger": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -665,7 +664,26 @@ amp-user-notification>div>div {
             "eventCategory": "nonadsense--samourai-wallet-bitcoin-anonymity",
             "eventAction": "click-vertical"
           }
+    },
+    "click on banner-tv-tall trigger": {
+            "on": "click",
+            "selector": "#at-promo-tv-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--samourai-wallet-bitcoin-anonymity",
+              "eventAction": "click-tv-tall"
+            }
+     },
+     "click on smallad-post trigger": {
+              "on": "click",
+              "selector": "#at-promo-smallad-post",
+              "request": "event",
+              "vars": {
+                "eventCategory": "nonadsense--samourai-wallet-bitcoin-anonymity",
+                "eventAction": "click-post-smallad"
         }
+     }
+
 
     }
   }
@@ -1183,7 +1201,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
+            <div class="smallad" id="at-promo-smallad-post">
                
 
 
@@ -1215,11 +1233,11 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/fibs/" title="Why are Fib Retracements and Extensions Important">#CryptoTrading | <b>Why are Fib Retracements and Extensions Important</b> on 08 Jan 2018</a>
+  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/how-to-vet-icos/" title="3 Tips: How to vet ICOs and what to watch once you're in">#CryptoTrading | <b>3 Tips: How to vet ICOs and what to watch once you're in</b> on 26 Feb 2018</a>
+  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 28 Dec 2018</a>
 </li>
 
 
@@ -1260,7 +1278,7 @@ amp-user-notification>div>div {
 <p>&nbsp;</p>
 
             <div class="clearfix"></div>
-            <div>
+            <div id="at-promo-tv-tall">
               <div class="clearfix adfix"><amp-iframe width="300px" height="600px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv3.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>

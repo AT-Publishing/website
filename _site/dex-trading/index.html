@@ -847,8 +847,7 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-
-      "click on banner-horizontal trigger": {
+    "click on banner-horizontal trigger": {
         "on": "click",
         "selector": "#at-promo-horizontal",
         "request": "event",
@@ -856,8 +855,8 @@ amp-user-notification>div>div {
           "eventCategory": "nonadsense--dex-trading",
           "eventAction": "click-horizontal"
           }
-        },
-      "click on banner-vertical trigger": {
+   },
+   "click on banner-vertical trigger": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -865,7 +864,26 @@ amp-user-notification>div>div {
             "eventCategory": "nonadsense--dex-trading",
             "eventAction": "click-vertical"
           }
+    },
+    "click on banner-tv-tall trigger": {
+            "on": "click",
+            "selector": "#at-promo-tv-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--dex-trading",
+              "eventAction": "click-tv-tall"
+            }
+     },
+     "click on smallad-post trigger": {
+              "on": "click",
+              "selector": "#at-promo-smallad-post",
+              "request": "event",
+              "vars": {
+                "eventCategory": "nonadsense--dex-trading",
+                "eventAction": "click-post-smallad"
         }
+     }
+
 
     }
   }
@@ -1567,7 +1585,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
+            <div class="smallad" id="at-promo-smallad-post">
                
 
 
@@ -1599,11 +1617,11 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
+  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
+  <a class="index-internal" href="/strategy/timing/" title="Timing Tools">#CryptoTrading | <b>Timing Tools</b> on 20 Nov 2019</a>
 </li>
 
 
@@ -1652,7 +1670,7 @@ amp-user-notification>div>div {
 <p>&nbsp;</p>
 
             <div class="clearfix"></div>
-            <div>
+            <div id="at-promo-tv-tall">
               <div class="clearfix adfix"><amp-iframe width="300px" height="600px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv3.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>

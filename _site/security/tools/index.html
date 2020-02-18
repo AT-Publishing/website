@@ -655,8 +655,7 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-
-      "click on banner-horizontal trigger": {
+    "click on banner-horizontal trigger": {
         "on": "click",
         "selector": "#at-promo-horizontal",
         "request": "event",
@@ -664,8 +663,8 @@ amp-user-notification>div>div {
           "eventCategory": "nonadsense--",
           "eventAction": "click-horizontal"
           }
-        },
-      "click on banner-vertical trigger": {
+   },
+   "click on banner-vertical trigger": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -673,7 +672,26 @@ amp-user-notification>div>div {
             "eventCategory": "nonadsense--",
             "eventAction": "click-vertical"
           }
+    },
+    "click on banner-tv-tall trigger": {
+            "on": "click",
+            "selector": "#at-promo-tv-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--",
+              "eventAction": "click-tv-tall"
+            }
+     },
+     "click on smallad-post trigger": {
+              "on": "click",
+              "selector": "#at-promo-smallad-post",
+              "request": "event",
+              "vars": {
+                "eventCategory": "nonadsense--",
+                "eventAction": "click-post-smallad"
         }
+     }
+
 
     }
   }
