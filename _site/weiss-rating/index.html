@@ -685,7 +685,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--weiss-rating",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--weiss-rating",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -876,11 +896,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/weiss-rating/">
                   Updated with some commentary on the whole event.
@@ -1208,7 +1230,7 @@ XLM 10.5
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1240,16 +1262,18 @@ XLM 10.5
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 28 Dec 2018</a>
+  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/timing/" title="Timing Tools">#CryptoTrading | <b>Timing Tools</b> on 20 Nov 2019</a>
+  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1271,6 +1295,7 @@ XLM 10.5
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

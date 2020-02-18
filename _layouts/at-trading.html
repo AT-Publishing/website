@@ -23,7 +23,9 @@ layout: default-news
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                {% include promoting-horizontal.html %}
+                <div id="at-promo-horizontal">
+                  {% include promoting-horizontal.html %}
+                </div>
 
                 <blockquote cite="{{ page.url | prepend: site.url }}">
                   {% if page.hook %}{{ page.hook }}{% else %}{{ page.description }}{% endif %}
@@ -79,7 +81,7 @@ layout: default-news
               </figure>
               {% include article/related.html %}
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                {% include home/smallad.html %}
             </div>
             {% include sidebar-post.html %}

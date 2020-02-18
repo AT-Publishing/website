@@ -724,7 +724,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--ripple-vs-stellar",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--ripple-vs-stellar",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -915,11 +935,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/ripple-vs-stellar/">
                   Ripple's end of 2017 epic bull run is closely followed by Stellar price action. How do Ripple vs Stellar compare?
@@ -1284,7 +1306,7 @@ Using the set options operation, every account selects another account as its in
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1316,16 +1338,18 @@ Using the set options operation, every account selects another account as its in
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/scalping/" title="Scalping Crypto">#CryptoTrading | <b>Scalping Crypto</b> on 04 Mar 2019</a>
+  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">#CryptoTrading | <b>The Case for DCA</b> on 28 Sep 2019</a>
+  <a class="index-internal" href="/strategy/scalping/" title="Scalping Crypto">#CryptoTrading | <b>Scalping Crypto</b> on 04 Mar 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1347,6 +1371,7 @@ Using the set options operation, every account selects another account as its in
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

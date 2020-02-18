@@ -579,7 +579,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--cryptocurrencies-launched-2017",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--cryptocurrencies-launched-2017",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -770,11 +790,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/cryptocurrencies-launched-2017/">
                   The list is very consistent with the fleeting mentality of the cryptocurrency markets.
@@ -1038,7 +1060,7 @@ amp-user-notification>div>div {
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1070,16 +1092,18 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
+  <a class="index-internal" href="/strategy/timing/" title="Timing Tools">#CryptoTrading | <b>Timing Tools</b> on 20 Nov 2019</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/multiple-time-frame/" title="Multiple time frame analysis: Trading several timeframes at the same time">#CryptoTrading | <b>Multiple time frame analysis: Trading several timeframes at the same time</b> on 04 Mar 2019</a>
+  <a class="index-internal" href="/strategy/crypto-investment/" title="Crypto Investment Strategy: Step By Step Guide">#CryptoTrading | <b>Crypto Investment Strategy: Step By Step Guide</b> on 12 Sep 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1101,6 +1125,7 @@ amp-user-notification>div>div {
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

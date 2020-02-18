@@ -670,7 +670,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--token-marketing-agencies",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--token-marketing-agencies",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -861,11 +881,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/token-marketing-agencies/">
                   It only looks like big digital business turned anti-crypto. 
@@ -1190,7 +1212,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1222,16 +1244,18 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
+  <a class="index-internal" href="/strategy/how-to-vet-icos/" title="3 Tips: How to vet ICOs and what to watch once you're in">#CryptoTrading | <b>3 Tips: How to vet ICOs and what to watch once you're in</b> on 26 Feb 2018</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/how-to-vet-icos/" title="3 Tips: How to vet ICOs and what to watch once you're in">#CryptoTrading | <b>3 Tips: How to vet ICOs and what to watch once you're in</b> on 26 Feb 2018</a>
+  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 28 Dec 2018</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1253,6 +1277,7 @@ amp-user-notification>div>div {
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

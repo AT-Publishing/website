@@ -629,7 +629,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--etheremon-kyber-network",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--etheremon-kyber-network",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -820,11 +840,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/etheremon-kyber-network/">
                   In the business of entertainment, it is risky to let the player's interest wane in wait for transaction confirmation.
@@ -1125,7 +1147,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1161,12 +1183,14 @@ amp-user-notification>div>div {
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/timing/" title="Timing Tools">#CryptoTrading | <b>Timing Tools</b> on 20 Nov 2019</a>
+  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1188,6 +1212,7 @@ amp-user-notification>div>div {
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

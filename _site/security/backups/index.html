@@ -583,7 +583,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -1066,7 +1086,9 @@ No errors detected in compressed data of tony-joe-white.jpg.
 </ul>
 
       </div>
-      <section>
+      
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1088,6 +1110,7 @@ No errors detected in compressed data of tony-joe-white.jpg.
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

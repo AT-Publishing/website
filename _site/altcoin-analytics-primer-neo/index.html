@@ -685,7 +685,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--altcoin-analytics-primer-neo",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--altcoin-analytics-primer-neo",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -876,11 +896,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/altcoin-analytics-primer-neo/">
                   Maynard Keynes said in relation to some markets that we devote our intelligence to anticipating what average opinion expects the average opinion to be.
@@ -1203,7 +1225,7 @@ o   R2: What percentage of the altcoin return are explained by Bitcoin's price a
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1235,16 +1257,18 @@ o   R2: What percentage of the altcoin return are explained by Bitcoin's price a
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
+  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 28 Dec 2018</a>
+  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 09 Oct 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1266,6 +1290,7 @@ o   R2: What percentage of the altcoin return are explained by Bitcoin's price a
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

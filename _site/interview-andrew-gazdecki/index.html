@@ -702,7 +702,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--interview-andrew-gazdecki",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--interview-andrew-gazdecki",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -893,11 +913,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/interview-andrew-gazdecki/">
                   According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition.
@@ -1278,7 +1300,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1310,16 +1332,18 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/how-to-vet-icos/" title="3 Tips: How to vet ICOs and what to watch once you're in">#CryptoTrading | <b>3 Tips: How to vet ICOs and what to watch once you're in</b> on 26 Feb 2018</a>
+  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/fibs/" title="Why are Fib Retracements and Extensions Important">#CryptoTrading | <b>Why are Fib Retracements and Extensions Important</b> on 08 Jan 2018</a>
+  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 28 Dec 2018</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1341,6 +1365,7 @@ amp-user-notification>div>div {
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

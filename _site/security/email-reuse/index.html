@@ -580,7 +580,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -877,7 +897,9 @@ ETH - 0x416f7A2a03Fc9385F99c119b7f85fdC1bad5efF2
 </ul>
 
       </div>
-      <section>
+      
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -899,6 +921,7 @@ ETH - 0x416f7A2a03Fc9385F99c119b7f85fdC1bad5efF2
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

@@ -588,7 +588,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--crypto-trading-growth",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--crypto-trading-growth",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -779,11 +799,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <div class="containter-center"><a rel="nofollow" href="http://bit.ly/tradingview-at-bf2019" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>
   
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/crypto-trading-growth/">
                   The crypto trading statistics from Google Trends show a new wave of interest in trading of digital currencies.
@@ -1120,7 +1142,7 @@ amp-user-notification>div>div {
 
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1152,16 +1174,18 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/how-to-vet-icos/" title="3 Tips: How to vet ICOs and what to watch once you're in">#CryptoTrading | <b>3 Tips: How to vet ICOs and what to watch once you're in</b> on 26 Feb 2018</a>
+  <a class="index-internal" href="/strategy/scalping/" title="Scalping Crypto">#CryptoTrading | <b>Scalping Crypto</b> on 04 Mar 2019</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/fibs/" title="Why are Fib Retracements and Extensions Important">#CryptoTrading | <b>Why are Fib Retracements and Extensions Important</b> on 08 Jan 2018</a>
+  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1174,6 +1198,7 @@ amp-user-notification>div>div {
   
 </section>
 
+</div>
 
 <div id="sidebar">
 

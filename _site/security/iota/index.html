@@ -581,7 +581,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -966,7 +986,9 @@ npm run build
 </ul>
 
       </div>
-      <section>
+      
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -988,6 +1010,7 @@ npm run build
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

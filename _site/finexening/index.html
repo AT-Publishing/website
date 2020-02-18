@@ -716,7 +716,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--finexening",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--finexening",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -907,11 +927,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/finexening/">
                   Bitfinex was hacked in August 2016. Read the basic info about the hack and the best of Reddit's response on the Bitfinex hack from back then.
@@ -1278,7 +1300,7 @@ amp-user-notification>div>div {
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1310,16 +1332,18 @@ amp-user-notification>div>div {
 
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
+  <a class="index-internal" href="/strategy/multiple-time-frame/" title="Multiple time frame analysis: Trading several timeframes at the same time">#CryptoTrading | <b>Multiple time frame analysis: Trading several timeframes at the same time</b> on 04 Mar 2019</a>
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/multiple-time-frame/" title="Multiple time frame analysis: Trading several timeframes at the same time">#CryptoTrading | <b>Multiple time frame analysis: Trading several timeframes at the same time</b> on 04 Mar 2019</a>
+  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 20 Feb 2019</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1341,6 +1365,7 @@ amp-user-notification>div>div {
 
 </section>
 
+</div>
 
 <div id="sidebar">
 

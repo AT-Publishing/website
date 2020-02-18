@@ -703,7 +703,27 @@ amp-user-notification>div>div {
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
-      }
+      },
+
+      "click on banner-horizontal trigger": {
+        "on": "click",
+        "selector": "#at-promo-horizontal",
+        "request": "event",
+        "vars": {
+          "eventCategory": "nonadsense--ico-regulations",
+          "eventAction": "click-horizontal"
+          }
+        },
+      "click on banner-vertical trigger": {
+          "on": "click",
+          "selector": "#at-promo-vertical",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--ico-regulations",
+            "eventAction": "click-vertical"
+          }
+        }
+
     }
   }
   </script>
@@ -894,11 +914,13 @@ amp-user-notification>div>div {
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                
+                <div id="at-promo-horizontal">
+                  
 
     <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
 
 
+                </div>
 
                 <blockquote cite="https://www.altcointrading.net/ico-regulations/">
                   The very first ICO-ish thing was fined heavily. Will new regulations pop the ICO bubble? 
@@ -1252,7 +1274,7 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
               
 
             </div>
-            <div class="smallad">
+            <div class="smallad" id="at-promo-smallad-post"><!-- todo-->
                
 
 
@@ -1288,12 +1310,14 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
 </li>
 
 <li class="popular-item">
-  <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">#CryptoTrading | <b>The Case for DCA</b> on 28 Sep 2019</a>
+  <a class="index-internal" href="/strategy/fulcrum-bottom/" title="Fulcrum Bottom">#CryptoTrading | <b>Fulcrum Bottom</b> on 25 Sep 2018</a>
 </li>
 
 
             </div>
-            <section>
+            
+<div id="at-promo-vertical">
+  <section>
 <hr class="skinny">
 
 
@@ -1315,6 +1339,7 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
 
 </section>
 
+</div>
 
 <div id="sidebar">
 
