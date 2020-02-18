@@ -1,0 +1,108 @@
+I"�*<p>This post on cryptocurrency technical analysis specifics was originally published in 2016.</p>
+
+<p>Back then, it was a common debate in the <a href="http://bit.ly/tradingview-moon">TradingView chat</a> whether technical analysis in crypto can actually work at all.</p>
+
+<h2 id="does-technical-analysis-work-in-crypto">Does Technical Analysis Work in Crypto?</h2>
+
+<p>It was the time when the multi-year bull market in Bitcoin and most other cryptos was in its infancy, the markets were acting wild and every futures contract settlement day was filled with what Reddit dubbed the “Bart formation”: A steep rise in a single candle that doesn’t really catch on and is subsequently dumped in another single candle, or alternatively the opposite sequence known as the “inverse Bart”.</p>
+
+<p><a target="_blank" href="https://www.altcointrading.net/features/bart-formation-crypto.png" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/bart-formation-crypto.png" alt="Technical Analysis in Cryptocurrency Trading" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>This used to be the daily bread of the BTCUSD market back in the day when it was a niche play, and it still can look this wild on small-cap altcoin markets.</p>
+
+<p>In contrast to that, traders using some technical analysis tools and methods (along with healthy skepticism and well-trained judgement) have been more successful than not on the crypto markets.</p>
+
+<p>The reason lies in the way technical analysis works in general.</p>
+
+<h3 id="so-how-does-technical-analysis-work-at-all">So, how does technical analysis work at all?</h3>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Always loyal to my first trading principle:<br /><br />- Draw a lot of lines so it will look like you know what you are doing. <a href="https://t.co/na9WaByn28">pic.twitter.com/na9WaByn28</a></p>&mdash; via <a href="https://twitter.com/crypto_rand/status/959190245643255809?ref_src=twsrc%5Etfw">Crypto Rand (@crypto_rand)</a></blockquote>
+
+<p>The problematic part lies in the way technical analysis works, not only in crypto but on any kind of market in general.</p>
+
+<p>Technical trading in its core is about looking for <strong>chart patterns</strong>. Chart patterns are sequences of price action that are <strong>vaguely repetitive</strong>, which means that if you notice a pattern in the making, you have <em>slightly</em> better odds when speculating on what the price will do next.</p>
+
+<h5 id="technical-trading-as-relying-on-the-machine">Technical Trading as Relying on the Machine</h5>
+
+<p>One aspect of technical trading relies on what could be called the mechanical capabilities of the markets.</p>
+
+<p>It is reasonable to assume some resistance to change in prices, when you are looking at the chart of something that is a currency or a company stock - really <em>very much most often</em> the value of any real thing will not change 100% overnight.</p>
+
+<p>The technical analysis play for this principle can be translated into an indicator like bbands, which in very simple terms is a median price wrapped in its standard deviations. If the price action wanders out of the standard deviations boundary, it will most often be just about the time it starts wandering back inside - unless something <em>nonstandard</em> is happening. Looking at overbought and oversold areas at RSIs and similar oscillators is the same idea.</p>
+
+<h5 id="technical-trading-as-relying-on-history">Technical Trading as Relying on History</h5>
+
+<p>Another aspect are historical levels that form <strong>support/resistance</strong> areas.</p>
+
+<p>The idea behind this focus of technical analysis is not guessing that the price is likely to do the same thing at the price level that is being revisited, the roots of support and resistance are in the basic <strong>supply/demand</strong> logic.</p>
+
+<p>If there is a price level that has been clearly perceived as “too expensive” since the history shows that used to be a lot of selling at one or more points in the past, then the demand will most likely weaken around that level again in the future, and that for so long until something outside of technical analysis changes.</p>
+
+<p>In some cryptocurrencies like Bitcoin you could start talking about the halving here: If the supply of the asset decreases and at the same time the demand for it doesn’t decrease, at some point this will lead to rise in prices. On the charts, this will render as breaking up through a resistance zone.</p>
+
+<p><strong>The breaking up through resistance or breaking down through support can also be fully and completely a result of speculation, though.</strong> It is important to keep in mind that the price action on the charts is really just a result of the many forces acting on the market, not the gospel that defines the truth. Assets can be undervalued, assets can be overvalued.</p>
+
+<p>And then there’s the one last thing to this: Support and resistance is such a popular technical analysis principle that it already takes us to the last aspect:</p>
+
+<blockquote>
+  <p>TA is a protocol for traders to implicitly coordinate their activities, using price history as the communications medium. <a href="https://www.reddit.com/r/BitcoinMarkets/comments/7vnm87/psa_technical_analysis_is_a_madeup_term_to_hide/dttvtdg/">u/dasignint on Reddit</a></p>
+</blockquote>
+
+<h5 id="technical-trading-as-relying-on-technical-trading">Technical Trading as Relying on… Technical Trading</h5>
+
+<p>Especially with the rare and joyful events, like when a market is making new highs and so there is no history to account for, it’s time to shine for tools like <a href="/strategy/fibs">Fibonacci, known most often as “fibs”</a>. Fibs use obscure formulas which probably border on abuse of mathematics to project price levels where the future reversals are likely to occur.</p>
+
+<p>How is that useful?</p>
+
+<p>Short-term traders, and there are always many, like to flow with the market in both directions. This means that they do not want to risk missing a retracement, even if a short one.</p>
+
+<p>This particular type of a trader would normally look at support and resistance levels to mark for themselves the price levels where the action is likely to reverse. When they do not have resistance levels available, because the market is trending above the all-time-highs, they will use fibs.</p>
+
+<p>As long as there is no new information shaking up the market, the reversal will <em>often</em> actually happen around the fib level, because this is the easiest and most accessible tool for people to determine a price level where they will set their take-profit orders to scale out of their positions and minimize their risk.</p>
+
+<p>The profit-taking will slow down the trend and that in turn will catch the attention even of those traders who might not even know what “fibs” are.</p>
+
+<p>Consequently, <em>very often</em> the fib will happen as a kind of self-fulfilling prophecy.</p>
+
+<h3 id="when-technical-analysis-doesnt-work">When Technical Analysis Doesn’t Work</h3>
+
+<p>If there is an unexpected important event happening, it will always shake up the markets, no matter how mature and stable they are: China bans Bitcoin? Of course. How about China banning the US Dollar, though? Of course there would be a shake-up too!</p>
+
+<p>With some cryptocurrencies, the important event can be something far more prosaic, though.</p>
+
+<p>Back in the day when BTC was popular enough to have semi-pro trading platforms but at the same time was still really a niche thing, the daily play was to leverage the fact that the market was small enough for people with maybe five digits USD to move it and literally buy their way.</p>
+
+<p>Such a thing is still possible, there is also mostly no legal danger in doing so, because cryptocurrencies are unregulated markets.</p>
+
+<p>The only thing that changed here is the amount of money and skill to paint the market the way you want it.</p>
+
+<p><strong>That is a fact and because of this technical analysis can always fail</strong>.</p>
+
+<h3 id="resources-bitcoin-technical-analysis">Resources: Bitcoin Technical Analysis</h3>
+
+<p>If you want to learn about technical analysis and other smart plays for lerge-cap cryptocurrencies, go through these posts:</p>
+
+<ul>
+  <li><a href="/strategy/timing/">Market Timing</a> using the combined data of “industry” leaders and aggregate data from indexes.</li>
+  <li>Complex patterns like <a href="/strategy/fulcrum-bottom/">Fulcrum Bottom</a>.</li>
+  <li>The crowd psychology around <a href="/strategy/reversals/">market reversals</a>.</li>
+  <li>Complex ranging plays like when following <a href="/strategy/wyckoff-ranging-markets/">Wyckoff</a>.</li>
+</ul>
+
+<h3 id="most-popular-cryptocurrency-trading-indicators">Most Popular Cryptocurrency Trading Indicators</h3>
+
+<p>As a resource for your technical analysis, here is a list of the best cryptocurrency trading indicators
+that generally work for smaller-cap cryptocurrencies too, while you can still use them for Bitcoin as well.</p>
+
+<ul>
+  <li><a href="/strategy/fibs/">Fibonacci</a> - as explained above, used to determine the most likely levels for price reversals, especially when it is not possible to draw support and resistance lines based on history because the price is making all-time-highs.</li>
+  <li>For trending crypto markets, <a href="/ichimoku-cloud/">Ichimoku cloud</a> is invaluable - this is an article with a ton of videos and resources</li>
+  <li><a href="/divergences/">Divergences</a> - only used to establish a level where you should be looking for an entry, not precise enough to be a signal to enter.</li>
+  <li>Volume flow - a free script for TradingView available <a href="https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/">from here</a>.</li>
+  <li><a href="/strategy/scalping/">Scalping</a> can be done on any kind of market, but it really needs a special kind of personality.</li>
+  <li><a href="http://forextraininggroup.com/how-to-trade-support-and-resistance-in-the-forex-market/">Support and resistance</a> - the magical lines on the charts, here as a deep dive written for the forex markets but applying just the same for cryptocurrency trading.</li>
+  <li>Bollinger Bands - follow <a href="https://twitter.com/bbands">John Bollinger on Twitter</a>.</li>
+  <li>Moving averages - a classic is 50-200 crossover, more <a href="http://thereformedbroker.com/2012/03/22/golden-crosses-the-bible/">here</a>.</li>
+  <li><a href="https://www.investopedia.com/stock-analysis/cotd/022614/bullish-and-bearish-macd-crossovers-lnkd-wyn-amt-twc.aspx">MACD</a> - a classic on Reddit is a so-called <em>squishy</em>, bearish cross on 3D MACD.</li>
+</ul>
+:ET
