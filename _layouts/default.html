@@ -22,8 +22,7 @@
       "on": "visible",
       "request": "pageview"
     }{% unless page.title %},
-    // these are all for home
-    "click on smallad-home": {
+    "clickSmalladHome": {
       "on": "click",
       "selector": "#at-promo-smallad-home-top",
       "request": "event",
@@ -32,7 +31,7 @@
          "eventAction": "click-smallad"
        }
     },
-    "click on main-home": {
+    "clickMainHome": {
       "on": "click",
       "selector": "#at-promo-main-home",
       "request": "event",
@@ -41,7 +40,7 @@
          "eventAction": "click-main"
        }
     },
-    "click home mid ad": {
+    "clickHomeMidAd": {
       "on": "click",
       "selector": "#at-promo-smallad-home-mid",
       "request": "event",
@@ -50,7 +49,7 @@
          "eventAction": "click-long"
        }
     },
-    "click home side ad": {
+    "clickHomeSideAd": {
       "on": "click",
       "selector": "#at-promo-nonpost-sidebar-tall",
       "request": "event",
@@ -59,7 +58,7 @@
          "eventAction": "click-tall"
        }
     },
-    "click home side links": {
+    "clickHomeSideLinks": {
       "on": "click",
       "selector": "#at-promo-nonpost-sidebar-shilllinks",
       "request": "event",
@@ -68,7 +67,6 @@
          "eventAction": "click-shilllinks"
        }
     }
-
     {% endunless %}
   }
 }
