@@ -1,41 +1,41 @@
 ---
-layout: at-trading
-published: true
-guest: false
+published:  true
+guest:      false
+pinned:     false
+guide:      false
+sponsored:  false
+
+cloud:      true
+
+promoting:  analysis
+layout:     at-trading
 
 date: 2018-01-10 11:23:00 +0100
 
-author: https://twitter.com/tradingfanbois
-author_name: tradingfanbois
-
-comments: false
-
-stories: false
 note: 'Trading Tool'
 genres: Blog
 
 permalink: tensorcharts/
-cz: tensorcharts
-
-tickers: false
 
 title: "TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"
 description: "Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers."
 
+author: https://twitter.com/tradingfanbois
+author_name: tradingfanbois
+
 image:
-- "/features/tensorcharts.png"
-- "/features/cointerminal.png"
-- "/features/tensor/tensor4.png"
-- "/features/tensor/tensor9.png"
-- "/features/tensor/tensor7.png"
-- "/features/tensor/tensor5.png"
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614662/atnet/blog_tensorcharts/cointerminal_y3vih5.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor4_hv5i4o.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor7_kczr8l.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor5_il51aq.png
 
 image_alt:
 - "Ever heard of footprint charts? Tensorcharts are a similar idea, you will surprised how much information you can get from a single glance at the chart."
 
 categories: ["no-ico", "trading"]
 
-chart: []
 tags: ["popular", "footprint-charts", "tensor-charts", "tensorcharts", "crypto-trading", "counters-ratio", "CVD", "bitmex", "scalping", "5-min-strategy-crypto", "heatmap-crypto", "altcoin-trading"]
 
 about:
@@ -50,26 +50,6 @@ related:
  - {"Cryptocurrency Strategy for Beginners: There is strategy even for hodling": "/cryptocurrency-strategy-beginners/"}
 
 ---
-
-**TensorCharts Pricing Info**
-
-For BlackFriday, Tensorcharts usually dicount their Premium plan by **full 50%**.
-
-```
-50% OFF Tensorcharts Premium:
-- 9 USD per month (standard price is 18 USD)
-- payments in BTC
-```
-
-|                        |FREE                          |PREMIUM                       |TEAM                          |ALGO TRADER                   |
-|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-|                              |$0                            |$18                           |5x$8                                   total $40|$25                           |
-|                              |For newcomers exploring orderflow, heatmaps and volumetric analysis|For experienced daytraders who don't want to compromise on anything. Low latency, full data and all features available|For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate|Do you need just TC data, low latency and unlimited websocket subscriptions?|
-
-
-<b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
-
-========
 
 ## What are Tensorcharts?
 
@@ -105,7 +85,7 @@ What's the orderbook visualization good for? Let me explain:
 * Executed orders are displayed as green and red blocks for filled buys and sells. On a standard chart theese would be green and red candlesticks.
 * The buy support and sell resistance is practically enforced by limit orders waiting on either side of the market. These are shown in shades of blue and yellow, distinguished by their size.
 
-{% amp700 border {{page.image[5]}} {{page.image_alt[0]}} %}
+{% amp700cloudborder {{page.image[5]}} {{page.image_alt[0]}} %}
 
 You can customize your orderbook heatmap through settings and decide how granular the data should be.
 
@@ -127,7 +107,7 @@ You can clearly see the areas with most money in open orders at a single glance.
 
 Here for instance significant buys on BCH markets:
 
-{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+{% amp700cloudborder {{page.image[2]}} {{page.image_alt[0]}} %}
 
 #### Differences in strength between several altcoins
 
@@ -135,11 +115,11 @@ Last but not least, the differences between various cryptocurrency markets also 
 
 This 5M tensor chart of the ETHUSD market shows a lot of small orders, some of them coinciding into a resistance level:
 
-{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+{% amp700cloudborder {{page.image[3]}} {{page.image_alt[0]}} %}
 
 On this BTCUSD 5M chart you see the differences in order sizes are more marked, there are a few key levels with huge orders but the rest of the orders filling the space in between is of quite insignificant size in comparison:
 
-{% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
+{% amp700cloudborder {{page.image[4]}} {{page.image_alt[0]}} %}
 
 There's lot more that you can do with TensorCharts, I encourage you to explore their [documentation](https://docs.tensorcharts.com/docs/counters_ratio/).
 
@@ -234,3 +214,29 @@ Still, even the free version of Tensor Charts can give you quite a good edge if 
 |numerical heatmaps            |X                             |✔                             |✔                             |X                             |
 |data export                   |X                             |X                             |X                             |✔                             |
 |                              |                              |                              |                              |                              |
+
+
+
+## TensorCharts Pricing Info
+
+The cost of TensorCharts subscription is comparable with TradingView. It really only comes down to which platform you prefer for your trading.
+
+For BlackFriday, TensorCharts usually dicount their Premium plan by **full 50%**.
+
+[More about typical crypto charting Black Friday offers](/blackfriday/#tradingview-black-friday---40-60-off-on-yearly-plans)
+
+```
+50% OFF Tensorcharts Premium:
+- 9 USD per month (standard price is 18 USD)
+- payments in BTC
+```
+
+|                        |FREE                          |PREMIUM                       |TEAM                          |ALGO TRADER                   |
+|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|                              |$0                            |$18                           |5x$8                                   total $40|$25                           |
+|                              |For newcomers exploring orderflow, heatmaps and volumetric analysis|For experienced daytraders who don't want to compromise on anything. Low latency, full data and all features available|For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate|Do you need just TC data, low latency and unlimited websocket subscriptions?|
+
+
+<b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b>
+
+========
