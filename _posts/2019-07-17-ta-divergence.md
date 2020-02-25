@@ -68,7 +68,7 @@ We distinguish *regular divergence*, *hidden divergence* and *exaggerated diverg
 
 *Exaggerated Divergence* is only different in that price makes double top or double bottom rather than new high or new low.
 
-{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[1]}} {{page.image_alt[0]}} %}
 
 #### Divergences only show a level where to wait for entry signal
 
@@ -82,13 +82,13 @@ However, this is not a sharp enough indication to signal the actual entry. It gi
 
 This is a regular bullish divergence on an old ETHUSD chart.
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[0]}} {{page.image_alt[0]}} %}
 
 **Price vs StochRSI Divergence**
 
 This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish divergence, the momentum is set to continue the bearish trend.
 
-{% amp700 border {{page.image[3]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[3]}} {{page.image_alt[0]}} %}
 
 **Price vs %b Divergence, BBands 21 periods - stdev 3**
 
@@ -98,7 +98,7 @@ TradingView provides the %b indicator which measures how far is the price from t
 
 This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls aren't winning yet.
 
-{% amp700 border {{page.image[4]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[4]}} {{page.image_alt[0]}} %}
 
 ## Divergences Cheat Sheets
 
