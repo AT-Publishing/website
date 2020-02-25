@@ -4,7 +4,7 @@
 
 <span class="note">Most Read in How-To:</span>
 <ul>
-  {% for post in howto_posts limit:1 %}
+  {% for post in howto_posts limit:2 %}
   <li class="popular-item">
     <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#101 | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
   </li>

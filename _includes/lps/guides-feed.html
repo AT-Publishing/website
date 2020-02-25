@@ -1,15 +1,11 @@
 
-{% assign items = site.posts | sort:date | reverse %}
-
-<h4 id="guides">Guides to get you started with cryptocurrency trading:</h4>
-
 <section id="strategy-feed">
 {% assign items = site.posts | sort:date | reverse %}
 
 {% for post in items %}
 {% if post.guide %}
 
-<div class="row"><!-- fucking row -->
+<div class="row columns twn offset-by-one"><!-- fucking row -->
 
   <div class="six columns thumb-wrap">
       <figure class="thumb">
@@ -23,13 +19,13 @@
       </figure>
   </div><!-- fucking six -->
   <div class="columns six"><!-- fucking six 2 -->
-    <h4>
+    <h5>
       <strong>
         <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
           <span class="tag custom-note">GUIDE</span>&nbsp;{{ post.title }}
         </a>
       </strong>
-    </h4>
+    </h5>
     <p>
       <b>{{ post.description }}</b>
     </p>

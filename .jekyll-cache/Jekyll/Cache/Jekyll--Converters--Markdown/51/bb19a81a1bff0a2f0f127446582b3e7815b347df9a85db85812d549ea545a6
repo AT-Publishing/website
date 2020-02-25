@@ -1,45 +1,4 @@
-I"�B<p><strong>TensorCharts Pricing Info</strong></p>
-
-<p>For BlackFriday, Tensorcharts usually dicount their Premium plan by <strong>full 50%</strong>.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>50% OFF Tensorcharts Premium:
-- 9 USD per month (standard price is 18 USD)
-- payments in BTC
-</code></pre></div></div>
-
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th>FREE</th>
-      <th>PREMIUM</th>
-      <th>TEAM</th>
-      <th>ALGO TRADER</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td>$0</td>
-      <td>$18</td>
-      <td>5x$8                                   total $40</td>
-      <td>$25</td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td>For newcomers exploring orderflow, heatmaps and volumetric analysis</td>
-      <td>For experienced daytraders who don’t want to compromise on anything. Low latency, full data and all features available</td>
-      <td>For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate</td>
-      <td>Do you need just TC data, low latency and unlimited websocket subscriptions?</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b></p>
-
-<p>========</p>
-
-<h2 id="what-are-tensorcharts">What are Tensorcharts?</h2>
+I"�A<h2 id="what-are-tensorcharts">What are Tensorcharts?</h2>
 
 <p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p>
 <p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>
@@ -76,7 +35,7 @@
   <li>The buy support and sell resistance is practically enforced by limit orders waiting on either side of the market. These are shown in shades of blue and yellow, distinguished by their size.</li>
 </ul>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/tensor/tensor5.png" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/tensor/tensor5.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor5_il51aq.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor5_il51aq.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>You can customize your orderbook heatmap through settings and decide how granular the data should be.</p>
 
@@ -98,7 +57,7 @@
 
 <p>Here for instance significant buys on BCH markets:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/tensor/tensor4.png" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/tensor/tensor4.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor4_hv5i4o.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor4_hv5i4o.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h4 id="differences-in-strength-between-several-altcoins">Differences in strength between several altcoins</h4>
 
@@ -106,11 +65,11 @@
 
 <p>This 5M tensor chart of the ETHUSD market shows a lot of small orders, some of them coinciding into a resistance level:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/tensor/tensor9.png" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/tensor/tensor9.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>On this BTCUSD 5M chart you see the differences in order sizes are more marked, there are a few key levels with huge orders but the rest of the orders filling the space in between is of quite insignificant size in comparison:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/tensor/tensor7.png" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/tensor/tensor7.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" title="AltcoinTrading.NET - TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor7_kczr8l.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor7_kczr8l.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>There’s lot more that you can do with TensorCharts, I encourage you to explore their <a href="https://docs.tensorcharts.com/docs/counters_ratio/">documentation</a>.</p>
 
@@ -440,4 +399,49 @@
     </tr>
   </tbody>
 </table>
+
+<h2 id="tensorcharts-pricing-info">TensorCharts Pricing Info</h2>
+
+<p>The cost of TensorCharts subscription is comparable with TradingView. It really only comes down to which platform you prefer for your trading.</p>
+
+<p>For BlackFriday, TensorCharts usually dicount their Premium plan by <strong>full 50%</strong>.</p>
+
+<p><a href="/blackfriday/#tradingview-black-friday---40-60-off-on-yearly-plans">More about typical crypto charting Black Friday offers</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>50% OFF Tensorcharts Premium:
+- 9 USD per month (standard price is 18 USD)
+- payments in BTC
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>FREE</th>
+      <th>PREMIUM</th>
+      <th>TEAM</th>
+      <th>ALGO TRADER</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>$0</td>
+      <td>$18</td>
+      <td>5x$8                                   total $40</td>
+      <td>$25</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>For newcomers exploring orderflow, heatmaps and volumetric analysis</td>
+      <td>For experienced daytraders who don’t want to compromise on anything. Low latency, full data and all features available</td>
+      <td>For a team of 5 members, great value/price ratio. Full feature set, quality data and good update rate</td>
+      <td>Do you need just TC data, low latency and unlimited websocket subscriptions?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b>Start with <a rel="nofollow" href="http://bit.ly/tensor-charts">TensorCharts For Free</a> and if you like it, upgrade the next Black Friday.</b></p>
+
+<p>========</p>
 :ET

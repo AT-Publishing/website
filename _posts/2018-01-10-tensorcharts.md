@@ -85,7 +85,7 @@ What's the orderbook visualization good for? Let me explain:
 * Executed orders are displayed as green and red blocks for filled buys and sells. On a standard chart theese would be green and red candlesticks.
 * The buy support and sell resistance is practically enforced by limit orders waiting on either side of the market. These are shown in shades of blue and yellow, distinguished by their size.
 
-{% amp700cloudborder {{page.image[5]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[5]}} {{page.image_alt[0]}} %}
 
 You can customize your orderbook heatmap through settings and decide how granular the data should be.
 
@@ -107,7 +107,7 @@ You can clearly see the areas with most money in open orders at a single glance.
 
 Here for instance significant buys on BCH markets:
 
-{% amp700cloudborder {{page.image[2]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[2]}} {{page.image_alt[0]}} %}
 
 #### Differences in strength between several altcoins
 
@@ -115,11 +115,11 @@ Last but not least, the differences between various cryptocurrency markets also 
 
 This 5M tensor chart of the ETHUSD market shows a lot of small orders, some of them coinciding into a resistance level:
 
-{% amp700cloudborder {{page.image[3]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[3]}} {{page.image_alt[0]}} %}
 
 On this BTCUSD 5M chart you see the differences in order sizes are more marked, there are a few key levels with huge orders but the rest of the orders filling the space in between is of quite insignificant size in comparison:
 
-{% amp700cloudborder {{page.image[4]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[4]}} {{page.image_alt[0]}} %}
 
 There's lot more that you can do with TensorCharts, I encourage you to explore their [documentation](https://docs.tensorcharts.com/docs/counters_ratio/).
 

@@ -14,16 +14,34 @@ layout: default
      <h4>
        <small>{{ page.description }}</small>
      </h4>
-     <hr>
     </div>
   </div>
+
+  <hr>
+
   <div class="row">
     <div class="columns twelve">
       <article class="maincontent col-guides">
-        <div class="postslist">
+
+        <div class="row">
+          {% assign howto_posts = site.howto | sort:date | reverse %}
+
+          <span class="note">Posted in How-To's and 101s:</span>
+          <ul>
+            {% for post in howto_posts limit:2 %}
+            <li class="popular-item">
+              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#101 | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        <div class="row postslist">
+          <span class="note">Posted in Crypto Trading Blog & tagged as Guide:</span>
+
           {% include lps/guides-feed.html %}
         </div>
-        <div class="intro">
+        <div class="row intro">
           {{ content }}
         </div>
       </article>

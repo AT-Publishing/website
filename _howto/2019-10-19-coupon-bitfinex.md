@@ -1,25 +1,42 @@
 ---
-published: true
-layout: page
+guide:      true
+pinned:     false
+cloud:      false
+promoting:  analysis
+layout:     at-trading
+
 title: "Bitfinex Referral Code 5egV78YtlC - 10% Fee Discount on Bitfinex or DeversiFi"
 permalink: /coupon-bitfinex-5egv78ytlc/
-tags:
-- hidden
-navi:
- exclude: yes
+
+categories: [exchanges]
+tags: ["bitfinex", "bvi", "crypto-exchange", "crypto-market", "bfx"]
+
+
 image:
-- "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
+- https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg
 image_alt:
-- "Ethfinex and Bitfinex coupon referral code 5egV78YtlC"
+- "Bitfinex coupon referral code 5egV78YtlC"
 
 date: 2019-10-19 00:07:00 +0100
+
+
+author: https://altcointrading.net
+author_name: AltcoinTradingNET
+author_twitter: "altcointrading_"
+
+related:
+- {"Products of 2019: What did crypto traders spend on?": "/stats-2019/"}
+- {"Crypto storage device management": "/security/device-management"}
+- {"Blog: Why Are So Many People Trading Cryptocurrency?": "/crypto-trading-growth/"}
 
 ---
 
 
-**There is an 10% fee discount for new Bitfinex users who sign up with a referral code.**
+**There is an 10% fee discount for new Bitfinex users who sign up with a referral code.** No minimum deposit limit anymore and no verification necessary unless you need to move fiat in and out.
 
 `bitfinex.com 5egV78YtlC`
+
+{% amp700 none {{page.image[0]}} %}
 
 
 #### About Bitfinex (the custodial crypto exchange)

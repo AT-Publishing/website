@@ -1,26 +1,35 @@
 ---
-layout: page
+guide:      true
+pinned:     false
+cloud:      true
+promoting:  entertainment
+layout:     at-trading
+
 title: BitMEX Referral Code iYQB44 - 10% Fee Discount Promo Coupon BitMEX
 permalink: /coupon-bitmex-iyqb44/
-tags: [hidden]
-navi:
- exclude: yes
+
+
+categories: [exchanges]
+tags: ["bitmex", "seychelles", "crypto-exchange", "crypto-market", "offshore"]
+
+
 image:
-- "/img/bitfinex/bitmex-coupon-iYQB44.jpg"
+- https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/v1582621902/atnet/var_exchanges/bitmex-coupon-iYQB44_copa1b.jpg
 image_alt:
 - "BitMEX coupon referral code iYQB44"
+
+author: https://altcointrading.net
+author_name: AltcoinTradingNET
+author_twitter: "altcointrading_"
+
 date: 2018-01-31 07:07:00 +0100
 
 ---
 
 
-{% amp700 border {{page.image[0]}} {{page.image_alt[0]}} %}
-
-_Image: {{page.image_alt[0]}}_
-
-________________________
-
 **BitMEX users who sign up at BitMEX with referral code iYQB44 get 10% fee discount for 6 months.** No KYC necessary, VPN access breaches the TOS but is not blocked.
+
+{% amp700 none {{page.image[0]}} %}
 
 #### Just here for the BitMEX promo code?
 
