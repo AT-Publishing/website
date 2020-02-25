@@ -1,4 +1,4 @@
-I"4<p><strong>Ichimoku Kinko Hyo</strong> is an indicator that looks complex to traders with 5 seconds attention spans.</p>
+I"G6<p><strong>Ichimoku Kinko Hyo</strong> is an indicator that looks complex to traders with 5 seconds attention spans.</p>
 
 <p>Once you know what it does, it makes your crypto trading decisions way faster though.</p>
 
@@ -36,11 +36,11 @@
 
 <p>The “Chinkou” span is a lagging indicator, use it to confirm a trend strength. Chinkou line above the candles means the market is strong. If the Chinkou crossed below candles, it’s a bearish turn:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/ichimoku/lagging-ltcusd.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-ltcusd_svllq1.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-ltcusd_svllq1.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>When there is a strong action and the lagging line crosses the candles it is a sign the trend is weakening and becoming undecided. Reversal is likely, but again, this by itself is not yet a trigger to short:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/ichimoku/lagging-san.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/lagging-san_zwphbp.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/lagging-san_zwphbp.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h3 id="how-to-read-ichimoku-cloud">How to read Ichimoku Cloud</h3>
 
@@ -99,7 +99,7 @@
   <li>Because Ichimoku cloud takes the past action to predict the most likely future ranges and breaking points, traders want to <strong>reflect the past market action as precisely as possible</strong>.</li>
 </ul>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/trading/bitfinex_ichimoku_leg.png" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Ichimoku works with timely moving averages, so on the crypto markets it follows reason to set meaningful timespans considering the fact that crypto trades 24/7/365.</p>
 
@@ -156,24 +156,26 @@
 
 <div id="resources"></div>
 
-<h4 id="ichimoku-cloud-traders-what-to-read-and-whom-to-follow">Ichimoku Cloud Traders: What to read and whom to follow</h4>
+<h3 id="ichimoku-cloud-traders-and-tutorials">Ichimoku Cloud Traders and Tutorials</h3>
 
-<p><strong>CarpeNoctom (crypto, basics)</strong></p>
+<p>Below is a collection of the best that’s out there to read and watch when you’re looking to develop a Ichimoku cloud trading system for your cryptocurrency speculations.</p>
 
-<p>Basic Video Intro into Ichimoku Cloud:</p>
+<h4 id="carpenoctom-crypto-basic-ichimoku-trading-strategies">CarpeNoctom (crypto, basic Ichimoku trading strategies)</h4>
+
+<p>CarpeNoctom made a basic video intro into Ichimoku Cloud that explains everything about the indicator pretty well. If you are new in trading, you should definitely watch it before you move onto the more fun but also more advanced stuff further down below.</p>
 
 <amp-youtube data-videoid="J3t2Tsn_Imk" layout="responsive" width="700" height="360">
 </amp-youtube>
 
 <p><br /></p>
 
-<p><strong>ChaosTrader63 (legacy, advanced)</strong></p>
+<h4 id="chaostrader63-mostly-legacy-but-advanced-ichimoku-trading-strategies">ChaosTrader63 (Mostly legacy, but advanced Ichimoku trading strategies)</h4>
 
 <p>The legacy trader ChaosTrader63 has a <a href="https://www.youtube.com/user/ChaosTrader63">YouTube channel</a> and <a href="https://twitter.com/ChaosTrader63">Twitter</a> dedicated mainly to Ichimoku cloud. He mainly provides price commentary with new videos about once a week, and his trades are focused more on the long term. You will see him use the 1D chart a lot, explaining how he makes his decision. ChaosTrader63 uses the default Ichimoku settings - 9, 26, 52, 26 and is a proponent of this settings rather than of the “crypto” settings.</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/chaostrader-ichimoku-settings.jpg" alt="Ichimoku Cloud for Crypto Trading" title="AltcoinTrading.NET - Ichimoku Cloud for Crypto Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/chaostrader-ichimoku-settings_eeyvim.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/chaostrader-ichimoku-settings_eeyvim.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>ChaosTrader63 is originally a forex trader so his analysis has more precision in it than what you typically get in the cryptocurrency space. He combines Ichimoku cloud with <a href="https://www.youtube.com/watch?v=NvCKMg8ilMI">fractals</a> and high-volume support and resistance levels (a simplified version of <a href="/strategy/wyckoff-ranging-markets">trading ranges</a>).</p>
+<p>ChaosTrader63 is originally a forex trader so his analysis has more precision in it than what you typically get in the cryptocurrency space. He combines Ichimoku cloud with <a href="https://www.youtube.com/watch?v=NvCKMg8ilMI">fractal trading</a> and high-volume support and resistance levels (a simplified version of <a href="/strategy/wyckoff-ranging-markets">trading ranges</a> method which can be traced back to Wyckoff).</p>
 
 <p>Below his webinar on <a href="https://www.youtube.com/watch?v=p-eeW4SzWCA">Ichimoku High Probability Trading</a> where he explains how one can decide on an entry. If you have mastered the basics and are looking to learn some more in the way of craftsmanship, I highly recommend him.</p>
 

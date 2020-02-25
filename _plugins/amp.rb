@@ -1,4 +1,40 @@
 module Jekyll
+  class Amp700CloudTag < Liquid::Tag
+    def initialize(tag_name, markup, tokens)
+      super
+      @class = 'atnet-cloud'
+      @src = 'Altcoin Trading Blog'
+      @alt = 'Altcoin Trading'
+      @caption = nil #not required
+      if markup =~ /(\S.*\s+)?(page.image\[\d\])(\s+page.image_alt\[\d\])?(\s+page.image_caption\[\d\])?/
+        @class = $1
+        @src = $2
+        @alt = $3
+        @caption = $4
+      end
+    end
+    def render(context)
+      # making sure that liquid tags referencing the front matter are parsed as liquid tags
+      @class = Liquid::Template.parse("{{ #{@class} }}").render(context)
+      @src = Liquid::Template.parse("{{ #{@src} }}").render(context)
+      @alt = Liquid::Template.parse("{{ #{@alt} }}").render(context)
+      @caption = Liquid::Template.parse("{{ #{@caption} | markdownify }}").render(context)
+      if @class
+        amp = "<a target=\"_blank\" href=\"#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
+      else
+        amp = "<a target=\"_blank\" href=\"#{@src}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\"><figure class=\"border\"><amp-img itemprop=\"image\" "
+      end
+      amp += "src=\"#{@src}\" alt=\"#{@title_as_alt}\" title=\"AltcoinTrading.NET - #{@title_as_alt}\" layout=\"responsive\" width=\"700px\" height=\"360px\" >"
+      amp += "</amp-img></figure></a>"
+    end
+  end
+end
+Liquid::Template.register_tag('amp700cloud', Jekyll::Amp700CloudTag)
+
+
+
+
+module Jekyll
   class ThumbTag < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)

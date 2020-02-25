@@ -1,29 +1,33 @@
 ---
-layout: at-trading
+published:  true
+guest:      false
+pinned:     false
+guide:      false
+sponsored:  false
+
+cloud:      true
+
+promoting:  exchanges
+layout:     at-trading
+
 title: "Technical Analysis: Divergences (With a Divergence Cheat Sheet)"
 description: "Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market."
 
 permalink: divergences/
-cz: false
-guest:      false
-pinned:     false
+
 
 image:
-- "/img/ta/bitfinex-divergences.png"
-- "/img/ta/divergences1.jpg"
-- "/img/ta/hiddendivergences.png"
-- "/features/2018/divs/price-stochrsi.png"
-- "/features/2018/divs/price-bbands.png"
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/divergences1_lcfavg.jpg
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/hiddendivergences_ptaof1.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.png
+- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.png
 
-image_alt:
-- "Divergences between lows or highs on the price action and the MACD or RSI can provide valuable signals."
+image_alt: "Divergences between lows or highs on the price action and the MACD or RSI can provide valuable signals."
 
-comments: true
-identifier: 'divsfeb18'
 
 stories: false
 note: 'Trading Strategy'
-
 categories: ['trading']
 tags: ['strategy', 'indicators']
 
@@ -98,17 +102,17 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 ## Divergences Cheat Sheets
 
-* [Comprehensive Divergences Cheat-sheet](https://i.imgur.com/5SnaDpt.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
+* [Comprehensive Divergences Cheat-sheet](https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
 
 <amp-img itemprop="image" alt="Altcoin Trading - TA Divergences Cheatsheet"
- src="https://i.imgur.com/5SnaDpt.png" layout="responsive"
+ src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png" layout="responsive"
  data-original-width="1031px" data-original-height="2464px"
 width="750px" height="1792px"></amp-img>
 
-* [Basic divergences cheatsheet from BabyPips](https://www.babypips.com/learn/forex/divergence-cheat-sheet)
+* [Basic divergences cheatsheet from BabyPips](https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg)
 
 <amp-img itemprop="image" alt="Simple Divergences Cheatsheet"
- src="/features/2018/babypips-divergences-cheatsheet.jpg" layout="responsive"
+ src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg" layout="responsive"
  data-original-width="652px" data-original-height="965px"
 width="652px" height="965px"></amp-img>
 
