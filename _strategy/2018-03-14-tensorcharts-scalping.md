@@ -17,7 +17,6 @@ slug: "scalping/"
 cz: false
 
 image: ["https://res.cloudinary.com/atnetcloud/image/upload/v1584520187/atnet/strategy/altcointrading-strategy_jf6rbn.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520217/atnet/strategy/tensorcharts-trap_jzj0wm.png", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520246/atnet/strategy/tensorcharts-elements_h8ooji.jpg"]
-image_alt: []
 
 date: 2018-03-14 23:31:00 -0300
 
@@ -74,7 +73,7 @@ There is still money on the table, why not collect it then?
 
 
 <div>
-  {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+  {% amp700cloud border "{{page.image[2]}}" %}
 </div>
 
 
@@ -125,7 +124,7 @@ Combine this information and have the momentarily support and resistance levels.
 Keep in mind though that on the short timeframes the support and resistance levels are formed mostly by actual limit orders in the market, and some short term history and patterns. That makes them very fluid, so do not marry a direction. If someone pulls a large buy order that you were going to front run, it is time for you to pull yours too:
 
 <div>
-  {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+  {% amp700cloud border "{{page.image[1]}}" %}
 </div>
 
 
