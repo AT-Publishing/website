@@ -14,25 +14,27 @@ author: 'mailto:jmt@altcointrading.net'
 
 ## Black Friday is over, long live Black Friday
 
-Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Christmas Offers 2019**.
+Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Mid-Season Discounts** That are exacerbated by the **COVID-19 outbreak** that has everyone stay at home and online shop.
 
-## Ledger Valentine's Pack - February 2020 Dealz for "Ledger&You"
+## Ledger Wallet Discount Codes - March 2020 Ledger OFF 20-25%
 
 {{ site.stars.five }}
 
-The guys from Ledger never miss any even *vaguely shopping-related* opportunity to offer their wallets in bundles. In February 2020 they are opening a **Ledger Valentine's Pack** deal.
+Ledger wallet opened up a **discount code generator page** in second half of March 2020 where you will get 20-25% off for your total bill.
 
-It's the same bundle deal as they always do: Buy a **Ledger Nano X** and get a **Ledger Nano S for free**.  
+{{ site.ledger_codes_leader }}
 
-{{ site.ledger_val_leader }}
+The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
-The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+* You can buy Ledger Nano X to use as your cold-ish storage. The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
+* Ledger Nano S is cheaper but can pretty much operate with a single crypto on it only, due to the small memory. That makes it ideal for a single-purpose wallet.
+* So, if you trade mostly with, say, Bitcoin as your base currency, Ledger Nano S is the most time-, cost- and security-efficient wallet to serve as your trading wallet.
 
-The best way to make use of the Ledger Valentine's Day deal is to use the new Ledger Nano X as your cold-ish storage and to use the Nano S for the crypto you move the most often: Nano S can pretty much operate with a single crypto on it only, due to the small memory. But if you trade mostly with, say, Bitcoin as your base currency, you can set up this single Ledger Nano S as your trading wallet.
+**The 20-25% discount code deal is also available for the Ledger backup pack: One Nano X + Nano S at half price.**
 
 It's also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
 
-<a rel="nofollow"  class="button" href="http://bit.ly/at-ledger-val2020">Go to Ledger Valentine's Pack</a>
+<a rel="nofollow"  class="button" href="http://bit.ly/at-ledger-codes2020">Go to Ledger Discount Codes</a>
 
 &nbsp;
 

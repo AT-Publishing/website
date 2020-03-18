@@ -191,7 +191,7 @@ ads:
   ledger: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">
   <amp-img itemprop="image" alt="Ledger-Wallet Nano S protects your bitcoins"
-  src="https://www.ledgerwallet.com/images/promo/ledger-468x90-01.jpg"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501060/atnet/_banner/ledger-468x90-01_n4vpjw.jpg"
   layout="responsive"
   data-original-width="468px" data-original-height="90px"
   width="468px" height="90px"></amp-img>
@@ -199,7 +199,7 @@ ads:
   ledger-thin: '<div class="text-center">
   <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">
   <amp-img itemprop="image" alt="Ledger-Wallet protects your bitcoins"
-  src="/img/wallets/ledger-hero.png"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1584500971/atnet/_banner/ledger-hero_qhpu89.jpg"
   layout="responsive"
   data-original-width="710px" data-original-height="60px"
   width="710px" height="60px"></amp-img>
@@ -225,7 +225,7 @@ src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img 
 </div>'
 
 # /uploads/tv1.html
-tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-moon" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_728x90.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-moon" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
@@ -235,23 +235,23 @@ tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height=
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
   src="https://amp2disqus.netlify.com/altcointrading/tv2.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
    placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
-tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.ly/tradingview-at-bf2019" target="_blank"><amp-img itemprop="image" src="/ads/tv/tv_1200_628.png" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
+tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.ly/tradingview-at-bf2019" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501142/atnet/_banner/tv_1200_628_a4o4s6.jpg" alt="Tradingview never trade alone" data-original-width="1200px" data-original-height="628px" layout="responsive" width="1200px" height="628px"></amp-img></a></div>'
 # TV to the moon
 # atnet-web https://tradingview.go2cloud.org/SH3Sb
 # boc-web https://tradingview.go2cloud.org/SH3Sd
 # social https://tradingview.go2cloud.org/SH3Sf
 
 
-deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="/ads/deribit-bitcoin-futures-options.png" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
+deribit_xs:  '<div class="containter-center"><a title="Deribit - the next level stuff"  rel="nofollow" href="http://bit.ly/deribit" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501191/atnet/_banner/deribit-bitcoin-futures-options_ngm32z.jpg" alt="Deribit - the next level stuff" data-original-width="837px" data-original-height="140px" layout="responsive" width="837px" height="140px"></amp-img></a></div>'
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
-ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/cta/ledgers_1030x80.png" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
+ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501231/atnet/_banner/ledgers_1030x80_kzbznl.jpg" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
 
 
 # tall-ish
 
 lnx_300-600: '<div class="containter-center">
 <a href="hhttp://bit.ly/lnx-2020" target="_blank">
-<amp-img itemprop="image" src="/ads/lnx-tall.jpg"
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501307/atnet/_banner/lnx-tall_vgl0pk.jpg"
 alt="Ledger wallet Nano X"
 data-original-width="300px" data-original-height="600px"
 layout="responsive"
@@ -260,7 +260,7 @@ width="300px" height="600px">
 
 mex_336x280: '<div class="containter-center">
 <a href="http://bit.ly/2Muo11z" target="_blank">
-<amp-img itemprop="image" src="/ads/bitmex-home_336x280.jpg"
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg"
 alt="BitMEX Melancholic 100x"
 data-original-width="336px" data-original-height="280px"
 layout="responsive"
@@ -307,12 +307,23 @@ width="300px" height="211px"
 layout="responsive">
 </amp-img></a></div><br>'
 
+bf4: '<div class="text-center">
+<a class="index-internal" target="_blank" href="/blackfriday/">
+<amp-img itemprop="image"
+src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1584502136/atnet/_banner/crypto-discount-codes-coronavirus.jpg"
+alt="Crypto Discount Codes - Eternal Black Friday"
+data-original-width="400px"
+data-original-height="284px"
+width="300px" height="213px"
+layout="responsive">
+</amp-img></a></div><br>'
+
 # comma
 
 3commas_tall: '<div class="text-center">
 <a class="index-internal" target="_blank" href="http://bit.ly/34Zampi">
 <amp-img itemprop="image"
-src="/ads/3commas_tall.jpg"
+src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501406/atnet/_banner/3commas_tall_vlbtgu.jpg"
 alt="3commas DCA bot and trading automation"
 data-original-width="400px"
 data-original-height="798px"
@@ -324,7 +335,7 @@ layout="responsive">
 3commas_long: '<div class="text-center">
 <a class="index-internal" target="_blank" href="http://bit.ly/34Zampi">
 <amp-img itemprop="image"
-src="/cta/3commas-long.jpg"
+src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501443/atnet/_banner/3commas-long_coktvs.jpg"
 alt="3commas DCA bot and trading automation"
 data-original-width="798px"
 data-original-height="200px"
@@ -346,7 +357,7 @@ layout="responsive">
 </amp-img></a></div><br>'
 
 
-ledger_mobilebanner: '<br><div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/lnx-2020"><amp-img itemprop="image" src="https://www.ledgerwallet.com/images/promo/banners/ledger_banner_2-5-0x1-0-0.jpg" alt="Ledger Nano X - The secure hardware wallet" data-original-width="250px" data-original-height="100px" width="250px" height="100px" layout="fixed"></amp-img></a></div><br>'
+ledger_mobilebanner: '<br><div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/lnx-2020"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501483/atnet/_banner/ledger_banner_2-5-0x1-0-0_x766qw.jpg" alt="Ledger Nano X - The secure hardware wallet" data-original-width="250px" data-original-height="100px" width="250px" height="100px" layout="fixed"></amp-img></a></div><br>'
 
 
 
@@ -387,51 +398,31 @@ cbet_l: '<div class="clearfix adfix"><amp-iframe width="728px" height="120px" la
 cbet_b: '<div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 
 bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank">
-<amp-img itemprop="image" src="/ads/bitfinex_app.png" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501533/atnet/_banner/bitfinex_app_owrfca.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
 
 bfx_long: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank">
-<amp-img itemprop="image" src="/ads/bitfinex_long.png" alt="Bitfinex Platform Exchange Fee Discount"
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501574/atnet/_banner/bitfinex_long_ztjmjl.jpg" alt="Bitfinex Platform Exchange Fee Discount"
 data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px">
 </amp-img></a></div>'
 
 
 # valentine
 
-ledger_val_leader: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
+ledger_codes_leader: '<div class="text-center">
+<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-codes2020">
 <amp-img itemprop="image"
-src="/cta/ledger_val-728x90.png"
-alt="Ledger wallet bundle for crypto traders"
-data-original-width="728px"
-data-original-height="90px"
-width="728px" height="90px"
-layout="responsive">
-</amp-img></a></div><br>'
-ledger_val_banner: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
-<amp-img itemprop="image"
-src="/cta/ledger_val-300x250.png"
-alt="Ledger wallet bundle for crypto traders"
-data-original-width="300px"
-data-original-height="250px"
-width="300px" height="250px"
-layout="responsive">
-</amp-img></a></div><br>'
-ledger_val_tall: '<div class="text-center">
-<a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-val2020">
-<amp-img itemprop="image"
-src="/cta/ledger_val-120x600.png"
-alt="Ledger wallet bundle for crypto traders"
-data-original-width="120px"
-data-original-height="600px"
-width="120px" height="600px"
+src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_800/v1584501783/atnet/_banner/ledger-wallet-discount-codes-header.jpg"
+alt="Ledger wallet discount code bundle for crypto traders"
+data-original-width="800px"
+data-original-height="376px"
+width="800px" height="376px"
 layout="responsive">
 </amp-img></a></div><br>'
 
 # http://bit.ly/localcryptos
 
-localcryptos_square: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="/ads/localcryptos_400.png" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>'
-localcryptos_banner: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="/ads/localcryptos_banner.png" alt="LocalCryptos p2p trading btc eth" data-original-width="3072px" data-original-height="1920px" width="700px" height="446px" layout="responsive"></amp-img></a></div><br>'
+localcryptos_square: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501622/atnet/_banner/localcryptos_400_xtp85l.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>'
+localcryptos_banner: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501676/atnet/_banner/localcryptos_banner_i0tzak.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="3072px" data-original-height="1920px" width="700px" height="446px" layout="responsive"></amp-img></a></div><br>'
 
 fucksense:
   banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
