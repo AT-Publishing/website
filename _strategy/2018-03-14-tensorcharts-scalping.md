@@ -16,14 +16,14 @@ tags: [ "tensorcharts", "orderbook-heatmap", "scalping", "cryptocurrency-trading
 slug: "scalping/"
 cz: false
 
-image: ["/editorial/altcointrading-strategy.jpeg", "/editorial/tagged/tensorcharts-trap.png", "/strat/scalping/tensorcharts-elements.jpg"]
+image: ["https://res.cloudinary.com/atnetcloud/image/upload/v1584520187/atnet/strategy/altcointrading-strategy_jf6rbn.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520217/atnet/strategy/tensorcharts-trap_jzj0wm.png", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520246/atnet/strategy/tensorcharts-elements_h8ooji.jpg"]
 image_alt: []
 
 date: 2018-03-14 23:31:00 -0300
 
 about:
  name: "scalping trading"
- sameas: ["https://www.investopedia.com/articles/trading/05/scalping.asp","https://en.wikipedia.org/wiki/Scalping_(trading)","https://admiralmarkets.com/education/articles/forex-strategy/what-is-scalping-in-forex-trading-and-how-to-scalp-forex"]
+ sameas: ["https://en.wikipedia.org/wiki/Scalping_(trading)"]
 
 author: "https://twitter.com/tradingfanbois"
 author_name: "tradingfanbois"
@@ -40,7 +40,7 @@ All through 2018 and in 2019, the first most obvious thing cryptofolks noticed i
 <section class="sidebar-nl container-center">
 <h4>Cryptocurrency trading strategy: Scalping Crypto with Tensorcharts (PDF)</h4>
 <p>Too long to read now? Download this crypto trading strategy as a PDF safely from Keybase. (No risk of eye cancer from its design either.)</p>
-<p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" target="_blank" title="AltcoinTrading.NET Crypto Scalping Guide"><b>Download PDF from Keybase</b></a></p>
+<p><a href="https://keybase.pub/altcointrading/altcointrading-net_tensorcharts_scalping.pdf" title="AltcoinTrading.NET Crypto Scalping Guide"><b>Download PDF from Keybase</b></a></p>
 </section>
 
 <p>&nbsp;</p>
@@ -84,7 +84,7 @@ To this day your best tool of choice for any short-term crypto trades are [Tenso
 
 Particularly if you landed here for a **BitMEX scalping strategy**, TensorCharts is your tool of choice because the dev is focusing mainly on traders like you who trade perps and futures.
 
-<p><a target="_blank" rel="noopener" class="button" href="http://bit.ly/dont-be-an-amateur">Go to TensorCharts</a></p>
+<p><a rel="noopener" class="button" href="http://bit.ly/dont-be-an-amateur">Go to TensorCharts</a></p>
 
 Here is a brief [intro to the TensorCharts project](/tensorcharts), but if you are looking more into learning what TensorCharts are and what can they do for you, this Argentinian gentleman called Nico made a series of tutorials [on the Learning Nodes YouTube channel](https://www.youtube.com/channel/UCvoU3qw-qRydTI--GGlIz9w). The videos were shot in March 2018 so you will get to learn about the latest version of TensorCharts updated with a bunch of new markets and functionalities.
 
