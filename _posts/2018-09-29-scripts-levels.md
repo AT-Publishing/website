@@ -40,7 +40,7 @@ image_alt:
 - "Script Spotlight on AltcoinTrading.NET"
 
 categories: ["trading"]
-tags: ["cryptotrading", "trading-blog"]
+tags: ["scriptspotlight", "cryptotrading", "trading-blog"]
 chart: []
 
 series: ScriptSpotlight

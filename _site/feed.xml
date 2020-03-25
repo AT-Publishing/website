@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Mar 2020 09:01:31 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2020 09:01:31 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 10:21:49 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 10:21:49 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -157,6 +157,7 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ scriptspotlight ]]></category>
         <category><![CDATA[ cryptotrading ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
         <category><![CDATA[ bbands ]]></category>
@@ -1869,6 +1870,7 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ scriptspotlight ]]></category>
         <category><![CDATA[ cryptotrading ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
         
@@ -2437,7 +2439,9 @@ Ichimoku Cloud Definition
   Ichimoku Kinko Hyo translates as “one look equilibrium chart”. It was designed specifically to enable quicker and easier decision making when it comes to the strength of a market.
 
 
-Ichimoku cloud is one of the default indicators available on places like cryptowat.ch or TradingView.
+Ichimoku cloud is one of the default indicators available on TradingView even with the free plan.
+
+If you want to learn about the more advanced TradingView scripts available on free plan, we are reviewing them here: Tradingview Script Spotlight
 
 Ichimoku Cloud Lines Explained
 
@@ -2626,7 +2630,9 @@ In the video below his decision process consists of first looking at the cloud s
   &lt;p&gt;Ichimoku Kinko Hyo translates as “one look equilibrium chart”. It was designed specifically to enable quicker and easier decision making when it comes to the strength of a market.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Ichimoku cloud is one of the default indicators available on places like &lt;a href=&quot;https://cryptowat.ch/&quot;&gt;cryptowat.ch&lt;/a&gt; or &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ichimoku cloud is one of the default indicators available on &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt; even with the free plan.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you want to learn about the more advanced TradingView scripts available on free plan, we are reviewing them here: &lt;a href=&quot;/tag/tradingview-script-review/&quot;&gt;Tradingview Script Spotlight&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ichimoku-cloud-lines-explained&quot;&gt;Ichimoku Cloud Lines Explained&lt;/h3&gt;
 
@@ -2674,7 +2680,7 @@ In the video below his decision process consists of first looking at the cloud s
 
 &lt;p&gt;Ichimoku is mostly useful in &lt;strong&gt;trending markets&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;You won’t get much information from Ichimoku Cloud in ranging markets. In market ranges, the cloud will be swapping between red and green very often, yielding very little actionable information. The same happens on short timeframes - and there are much better indicators and strategies if you want to be &lt;a href=&quot;/strategy/scalping/&quot;&gt;scalping crypto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You won’t get much information from Ichimoku Cloud in ranging markets. In market ranges, the cloud will be swapping between red and green very often, yielding very little actionable information. The same happens on short timeframes - and &lt;strong&gt;there are much better indicators and strategies if you want to be &lt;a href=&quot;/strategy/scalping/&quot;&gt;scalping crypto&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To trade market ranges, it is more sensible to use the &lt;a href=&quot;/strategy/wyckoff-ranging-markets/&quot;&gt;Wyckoff analysis&lt;/a&gt; or any oscillating indicators, possibly also with regard to &lt;a href=&quot;/divergences/&quot;&gt;divergences&lt;/a&gt;.&lt;/li&gt;
@@ -4474,6 +4480,7 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ scriptspotlight ]]></category>
         <category><![CDATA[ cryptotrading ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
         

@@ -36,7 +36,7 @@ image_alt:
 - "Script Spotlight - TradingView script review on AltcoinTrading.net"
 
 categories: ["trading"]
-tags: ["cryptotrading", "trading-blog"]
+tags: ["scriptspotlight", "cryptotrading", "trading-blog"]
 
 related:
 - {"Script Spotlight: A/D Levels": "/scriptspotlight-a-d-levels/"}
