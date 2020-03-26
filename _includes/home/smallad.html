@@ -1,10 +1,18 @@
 {% assign howto_posts = site.howto | sort:date | reverse %}
 {% assign howto_sample = site.howto | sample:2 %}
 
+<span class="note">TradingView Script Spotlight:</span>
+<ul>
+  <li class="popular-item">
+    <a href="/tag/tradingview-script-review/">All Script Spotlights</a>
+  </li>
+</ul>
+
+<br>
 
 <span class="note">Most Read in How-To:</span>
 <ul>
-  {% for post in howto_posts limit:2 %}
+  {% for post in howto_posts limit:1 %}
   <li class="popular-item">
     <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#101 | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
   </li>

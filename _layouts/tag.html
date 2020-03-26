@@ -1,113 +1,53 @@
-<!DOCTYPE html>
-<html amp lang="en">
-{% include head.html %}
-<body>
-<amp-analytics type="googleanalytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "{{ site.ga }}"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    }
-  }
-}
-</script>
-</amp-analytics>
-{% include header.html %}
+---
+layout: default-news
+---
+{% for tag in site.tags %}{% if tag contains page.tag %}
+    {% assign pages_list = tag[1] %}
+{% endif %}{% endfor %}
 <div class="container">
-  <div class="row top">
-
-    <h1 class="tagged-as clear">tagged as #{{ page.tag }}</h1>
-
-    <div class="">
-      {{ content }}
-    </div>
-
-    {% for tag in site.tags %}
-    {% if tag contains page.tag %}
-
-        {% assign pages_list = tag[1] %}
-
-      {% for post in pages_list limit:1 %}
-      <div class="columns twelve">
-        <div class="row cat-updates">
-        {% if post.image[0] %}
-        <div class="twelve columns">
-          <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-            <figure class="thumb">
-              <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
-              layout="responsive"
-              data-original-width="720px" data-original-height="360px"
-              width="150px" height="80px">
-              </amp-img>
-            </figure>
-          </a>
-        </div>
-        {% endif %}
-          <div class="twelve columns">
-            <h5 class="category-post post">
-              <strong>
-                {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
-                {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
-                {% endif %}
-                <small>&nbsp;UPDATE {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC</small>
-                {% if post.guest %}&nbsp;&middot;&nbsp;<small class="guest">Guest post by {{ post.author_name }}</small>{% endif %}
-
-                <a class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-
-              </strong>
-              <p>{{ post.description }}</p>
-            </h5>
-          </div>
-        </div>
-      </div>
-    {% endfor %}{% endif %}{% endfor %}
-  </div>
   <div class="row">
-    <div class="columns eight tagfeed-items">
-      <hr>
-      {% if site.strategy_callout %}
-      <section class="sidebar-nl container-center">
-      {{ site.strategy_callout }}
-      <p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "Trading strategy & security"</a>.</p>
-      </section>
-      {% elsif site.series_callout %}
-      {{ site.series_callout }}
-      <p>To get an email alert <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">opt-in and choose "All New Posts"</a>.</p>
-      {% else %}
-      <div>
-        {{ site.tv_728-90_animated }}
+      <div class="columns four">
+        {% include sidebar.html %}
       </div>
-      {% endif %}
-      <hr>
-
-      {% if page.tag contains "business-of-crypto" %}
-      <section class="atnet-home-pressblock">
-        {% include home/pressblock.html %}
-      </section>
-      {% endif %}
-
-      <div class="row">
-        {% for tag in site.tags %}
-        {% if tag contains page.tag %}
-
-            {% assign pages_list = tag[1] %}
-            <span class="note" id="updates-{{ tag[0] }}">All in #{{ tag[0] | capitalize }}</span>
-
-            {% for post in pages_list limit:2 %}
-            <div class="columns twelve">
-              {% if post.title != null %}
-              {% if group == null or group == post.group %}
-              {% include home/columnupdates.html %}
-              {% endif %}
-              {% endif %}
+      <div class="columns eight tagfeed-items">
+        <h2 class="tagged-as clear">All at {{ site.title }} under #{{ page.tag }}</h2>
+        {% if page.content %}
+        <section class="tag-intro">
+          {{ content }}
+        </section>
+        {% endif %}
+        {% for post in pages_list limit:1 offset:0 %}
+            <div class="row cat-updates">
+            {% if post.image[0] %}
+            <div class="twelve columns">
+              <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
             </div>
-            {% endfor %}
-            {% for post in pages_list offset: 2 limit:6 %}
+            {% endif %}
+              <div class="twelve columns">
+                <h5 class="category-post post">
+                  <strong>
+                    {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;{% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;{% endif %}
+                    <small>&nbsp;last update {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC</small>
+                    <a class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </strong>
+                  <p>{{ post.description }}</p>
+                </h5>
+              </div>
+            </div>
+        {% endfor %}
+    <p>
+      <span class="note" id="feed--{{ page.tag }}">All in #{{ page.tag | capitalize }}</span>
+    </p>
+    <div class="row">
+      {% for post in pages_list limit:2 offset:1 %}
             <div class="columns six">
               {% if post.title != null %}
               {% if group == null or group == post.group %}
@@ -115,28 +55,32 @@
               {% endif %}
               {% endif %}
             </div>
-            {% endfor %}
-            {% for post in pages_list offset: 8 limit:20 %}
-            <div class="columns twelve">
+      {% endfor %}
+      {% for post in pages_list limit:2 offset:3 %}
+            <div class="columns six">
               {% if post.title != null %}
               {% if group == null or group == post.group %}
-              {% include category/all.html %}
+              {% include home/columnupdates.html %}
               {% endif %}
               {% endif %}
             </div>
-            {% endfor %}
-
-            {% assign pages_list = nil %}
-            {% assign group = nil %}
-
-        {% endif %}
         {% endfor %}
+        {% for post in pages_list limit:2 offset:5 %}
+              <div class="columns six">
+                {% if post.title != null %}
+                {% if group == null or group == post.group %}
+                {% include home/columnupdates.html %}
+                {% endif %}
+                {% endif %}
+              </div>
+          {% endfor %}
+        {% assign pages_list = nil %}
       </div>
 
       {% if page.series %}
       {% for series in page.series %}
       <div class="row tagfeed-items">
-        <h2 class="tagged-as">More in #{{ page.tag | upcase }}: Series {{ series | upcase }}</h2>
+        <h2 class="tagged-as">Read more: Series {{ series | upcase }}</h2>
         {% for post in site.posts %}
          {% if post.series contains series %}
          <div class="columns six">
@@ -150,7 +94,7 @@
 
       {% if page.category %}
       <div class="row">
-        <h2 class="tagged-as">Related: {{ page.category | capitalize }}</h2>
+        <h2 class="tagged-as">Related in {{ page.category | capitalize }}</h2>
         {% for post in site.posts limit: 5 %}
          {% if post.categories contains page.category %}
           {% include category/all.html %}
@@ -161,23 +105,9 @@
 
     </div><!--8-->
 
-    <div class="columns four">
-      {% include sidebar.html %}
-    </div>
+
 
   </div>
 </div>
 
 <div class="clearfix"></div>
-
-<section id="bottom" class="atnet-home-bottom space">
- {% include contacts.html %}
-</section>
-
-<footer>
-  <div class="footer">
-    {% include footer.html %}
-  </div>
-</footer>
-</body>
-</html>
