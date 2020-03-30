@@ -39,30 +39,46 @@ related:
 {% amp700 none {{page.image[0]}} %}
 
 
-#### About Bitfinex (the custodial crypto exchange)
+#### About Bitfinex (the custodial & futures crypto exchange)
 
-Bitfinex is a BVI-based exchange infamous for being hacked in August 2016. Despite the hack it still has a wide user base thanks to its superior trading interface.
+Bitfinex is a BVI-based exchange infamous for being hacked in August 2016. Despite the hack it managed to retain a wide user base thanks to its powerful trading interface and great mobile app.
 
 * Bitfinex offers a wide range of markets denominated in USD, EUR, JPY from the fiat choices and BTC, ETH, EOS and many more for the crypto pairs.
 * Tether withdrawals are available but the markets on Bitfinex trade against USD, not Tether.
 * Margin markets are funded via a public P2P lending system. Identity verification is not needed for lending.
 * Bitfinex opened derivatives platform in September 2019.
 
-The user interface on Bitfinex has embedded charts with wide range of indicators for technical analysis. Charts are provided by TradingView.
+The user interface on Bitfinex has embedded charts with wide range of indicators for technical analysis. Charts are provided by [TradingView PRO](https://bit.ly/3dGlz3O).
 
 The Bitfinex exchange is available worldwide. There is limitation on margin trade for Americans - however the exchange is still operational from American IP address. New users on US IP just have to state they are not American residents.
 
-No identity verification is needed other than for fiat withdrawal.
+**No identity verification is needed other than for fiat withdrawal. There might be restrictions for Bitfinex futures based on your location.**
 
-<a rel="nofollow" href="https://bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Bitfinex Exchange</a> &nbsp; <a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" class="button" target="_blank">TradingView Charting</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Exchange</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView Charting</a>
 
-#### About DeversiFi (the non-custodial DEX)
+#### About DeversiFi (the non-custodial DEX maintained by Bitfinex)
 
 **Ethfinex.com is discontinued since 12 October 2019 and decentralized trading moves on to DeversiFi. Users who have balance on EthFinex will be able to access it through Bitfinex after the Ethfinex app goes offline.**
 
-DeversiFi is a decentralized cryptocurrency exchange that runs on that enables trading of tokens and any other cryptocurrency (even BTC) in it's 'wrapped' form. The platform is owned and maintained by the same company as the Bitfinex exchange, but it is [non-custodial](/dex-trading/).
+DeversiFi is a decentralized cryptocurrency exchange that runs on that enables trading of tokens and any other cryptocurrency (even BTC) in it's 'wrapped' form.
 
-On DeversiFi, you don't sign up and you trade directly from your [hardware or software cryptocurrency wallet](/altcoin-wallets/).
+The platform is owned and maintained by the same company as the Bitfinex exchange, but offers [non-custodial crypto trading](/dex-trading/).
 
+On DeversiFi, you trade crypto directly from your [hardware or software cryptocurrency wallet](/altcoin-wallets/) without signup.
 
-<a rel="nofollow" href="https://bitfinex.com/?refcode=5egV78YtlC" class="button" target="_blank">Bitfinex 10% fee discount</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
+
+### About Personalities related to Bitfinex
+
+* **Jean Louis van der Velde** - The CEO who is not publicly known much.
+* **Phil G. Potter**, also known as PGP - The one member of staff that became the face of Bitfinex for years, communicated with traders on teamspeak etc.
+* **Giancarlo Devasini** - CFO at Bitfinex and Tether.
+* **Stuart Hoegner** - Resident lawyer at Bitfinex.
+
+* **Zane Tackett** - Former head of community. Worked for OkCoin before Bitfinex and as the head of OTC at B2C2 after Bitfinex.
+* **Chris Ellis** - Activist, former head of community after Zane Tackett, also known from his appearances in Keiser Report.
+
+* **Bitfinex'd**, on Reddit known as Voogru - A controversial and probably hired figure spreading fear regarding the legal stability of Bitfinex/iFinex since 2016.
+* **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.
+
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
