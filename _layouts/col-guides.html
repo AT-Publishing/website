@@ -26,9 +26,9 @@ layout: default
         <div class="row">
           {% assign howto_posts = site.howto | sort:date | reverse %}
 
-          <span class="note">Posted in How-To's and 101s:</span>
+          <span class="note">From AltcoinTrading How-To and 101 Sections:</span>
           <ul>
-            {% for post in howto_posts limit:2 %}
+            {% for post in howto_posts %}
             <li class="popular-item">
               <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#101 | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
             </li>

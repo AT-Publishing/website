@@ -25,9 +25,9 @@ author_name: AltcoinTradingNET
 author_twitter: "altcointrading_"
 
 related:
-- {"Products of 2019: What did crypto traders spend on?": "/stats-2019/"}
-- {"Crypto storage device management": "/security/device-management"}
-- {"Blog: Why Are So Many People Trading Cryptocurrency?": "/crypto-trading-growth/"}
+- {"Black Friday Every Day - Ledger wallet runs on discount multiple times a year!": "/blackfriday/"}
+- {"Where to buy altcoins & other basic how-to's": "/guides/"}
+- {"How to buy crypto in a bitcoin ATM": "/howto/use-bitcoin-atm/"}
 
 ---
 
