@@ -1,0 +1,91 @@
+---
+layout: default-news
+---
+
+<div class="container" id="altcointrading-trading">
+  <div class="row">
+
+    <section class="altcointrading-blog-header">
+      <div class="row">
+       <div class="seven columns">
+          <h1 class="post post-main"><strong>{{ page.title }}</strong>&nbsp;[Crypto Trading Glossary]</h1>
+       </div>
+       <div class="five columns">
+         {% include article/twitters.html %}
+       </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="columns eight">
+
+        <section class="altcointrading-blog-body">
+            <article class="maincontent altcointrading-blog-head">
+              <div class="columns twelve strategy-hook">
+
+                <div id="at-promo-horizontal">
+                  {% include promoting-horizontal.html %}
+                </div>
+
+                <blockquote cite="{{ page.url | prepend: site.url }}">
+                  {% if page.hook %}{{ page.hook }}{% else %}{{ page.description }}{% endif %}
+                </blockquote>
+                {% include article/meta.html %}
+              </div>
+
+            </article>
+            <article class="maincontent altcointrading-blog-content">
+
+              <div class="strategy-content">
+                {{ content }}
+                {% if page.indepth %}
+                  <br>
+                  <p>
+                    <a href="{{page.indepth}}" class="button">In depth about <u>{{page.title }}</u></a>
+                  </p>
+                {% endif %}
+  					  </div><!-- strategy content -->
+
+            </article>
+            <article class="maincontent altcointrading-blog-links">
+              <hr>
+                <p>
+                  <b>Shill Links:</b><br>
+                  LocalCryptos (anonymous p2p BTC or ETH) @ <a rel="nofollow" target="_blank" href="http://bit.ly/localcryptos">bit.ly/localcryptos</a><br>
+                  BitMEX (10% fee off) @ <a rel="nofollow" target="_blank"  href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
+                  TensorCharts @ <a rel="nofollow" target="_blank"  href="http://bit.ly/tensor-charts">bit.ly/tensor-charts</a><br>
+                </p>
+              <hr>
+            </article>
+          </section>
+          <section class="altcointrading-blog-airdrops">
+            <p>&nbsp;</p>
+            {% include home/airdrops.html %}
+          </section>
+
+        </div><!-- 8 -->
+        <div class="four columns nomargintop">
+          <aside>
+            <div>
+              <figure class="noborder main-post-image">
+                <amp-img itemprop="image" src="{{ page.image[0] }}" alt="Altcoin Trading Blog"
+                layout="responsive" data-original-width="720px" data-original-height="360px"
+                width="720px" height="360px">
+                </amp-img>
+              </figure>
+              {% include article/related.html %}
+            </div>
+            <div class="clearfix"></div>
+            {% include sidebar-post.html %}
+            <div class="clearfix"></div>
+          </aside>
+        </div><!-- 4 -->
+      </div><!-- row-->
+      <div class="row">
+        {{ site.tv_1200-628 }}
+      </div>
+  </div><!-- row -->
+</div><!-- container -->
+
+</div>
+</div>

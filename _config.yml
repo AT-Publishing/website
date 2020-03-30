@@ -52,11 +52,15 @@ collections:
   - strategy
   - security
   - howto
+  - glossary
 
 collections:
   howto:
     output: true
     permalink: /:collection/:slug/
+  glossary:
+    output: true
+    permalink: /:collection/:title/
   press:
     output: true
     permalink: /:collection/:slug/
@@ -139,6 +143,17 @@ defaults:
      genres: "Blog" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
      author: "mailto:info@altcointrading.net"
      author_name: "AltcoinTrading"
+ -
+   scope:
+     path:            glossary
+     type:            glossary
+   values:
+     layout:          at-glossary
+     published:       true
+     stories:         false
+     author:          https://medium.com/cryptolounge
+     author_name:     Altcoin Trading Glossary
+     author_twitter:  altcointrading_
  -
    scope:
      path: "strategy" # all
