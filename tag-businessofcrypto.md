@@ -11,5 +11,5 @@ series: [token-launch-marketing, dex]
 ---
 
 <p>
-<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/airdropped/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
+<a class="thebusinessofcrypto" href="https://www.thebusinessofcrypto.com/"><amp-img itemprop="image" src="/features/2018/thebusinessofcrypto.jpg" alt="The Business Of Crypto Dead Airdrops" layout="responsive" data-original-width="750px" data-original-height="157px" width="750px" height="157px"></amp-img></a>
 </p>
