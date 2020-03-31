@@ -29,7 +29,7 @@ image_alt: "Divergences between lows or highs on the price action and the MACD o
 stories: false
 note: 'Trading Strategy'
 categories: ['trading']
-tags: ['strategy', 'indicators']
+tags: ['crypto-technical-indicators' ,'strategy', 'divergence-trading']
 
 author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois

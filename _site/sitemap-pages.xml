@@ -84,14 +84,14 @@
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/blog/trading/</loc>
-        <lastmod>2019-10-19T08:42:22+00:00</lastmod>
+        <loc>https://www.altcointrading.net/data/sessions/</loc>
+        <lastmod>2018-10-04T08:01:41+00:00</lastmod>
         
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/data/sessions/</loc>
-        <lastmod>2018-10-04T08:01:41+00:00</lastmod>
+        <loc>https://www.altcointrading.net/blog/trading/</loc>
+        <lastmod>2019-10-19T08:42:22+00:00</lastmod>
         
     </url>
     
@@ -109,13 +109,19 @@
     
     <url>
         <loc>https://www.altcointrading.net/tag/businessofcrypto/</loc>
-        <lastmod>2018-06-26T17:45:58+00:00</lastmod>
+        <lastmod>2020-03-31T08:54:01+00:00</lastmod>
         
     </url>
     
     <url>
         <loc>https://www.altcointrading.net/tag/dex/</loc>
         <lastmod>2018-04-04T17:14:24+00:00</lastmod>
+        
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/tag/crypto-technical-indicators/</loc>
+        <lastmod>2020-03-31T09:11:34+00:00</lastmod>
         
     </url>
     

@@ -32,7 +32,7 @@ image_alt:
 - ""
 
 categories: ['basics']
-tags: ["crypto-trading", 'crypto-fundamentals', 'crypto-mining', 'hashrate', 'hashprice', 'business-of-crypto']
+tags: ['crypto-technical-indicators' ,"crypto-trading", 'crypto-fundamentals', 'crypto-mining', 'hashrate', 'hashprice', 'business-of-crypto']
 chart: []
 
 related:

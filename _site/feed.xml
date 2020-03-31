@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Mar 2020 08:51:43 +0000</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2020 08:51:43 +0000</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2020 09:13:20 +0000</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2020 09:13:20 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -563,6 +563,7 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ technical-trading ]]></category>
         <category><![CDATA[ technical-analysis ]]></category>
@@ -958,6 +959,7 @@ Resources
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ wyckoff-method ]]></category>
         <category><![CDATA[ swing-trading ]]></category>
         <category><![CDATA[ trading-strategy ]]></category>
@@ -2261,8 +2263,9 @@ Trading Divergences
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ strategy ]]></category>
-        <category><![CDATA[ indicators ]]></category>
+        <category><![CDATA[ divergence-trading ]]></category>
         
         <category><![CDATA[ trading ]]></category>
         
@@ -2816,6 +2819,7 @@ In the video below his decision process consists of first looking at the cloud s
         
         <language>en</language>
 
+        <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ strategy ]]></category>
         <category><![CDATA[ ichimoku-cloud ]]></category>
         <category><![CDATA[ crypto-trading ]]></category>
@@ -2941,6 +2945,7 @@ Crypto Mining - The Numbers
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ crypto-fundamentals ]]></category>
         <category><![CDATA[ crypto-mining ]]></category>
