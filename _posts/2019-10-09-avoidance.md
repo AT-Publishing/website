@@ -8,7 +8,7 @@ date: 2019-10-09 05:02:00 -0300
 promoting: analysis
 
 categories: [trading]
-tags: ['crypto-technical-indicators' ,"wyckoff-method", "swing-trading", "trading-strategy"]
+tags: ['wyckoff-trading', 'crypto-technical-indicators' ,"wyckoff-method", "swing-trading", "trading-strategy"]
 
 permalink: wyckoff-avoidance/
 image:

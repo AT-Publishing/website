@@ -25,7 +25,7 @@ note: "Trading Strategy"
 date: 2019-11-05 03:32:00 -0300
 
 categories: [trading]
-tags: ["crypto-trading", "trading-method", "daytrading", "trading-strategy"]
+tags: ["wyckoff-trading",  "crypto-trading", "trading-method", "daytrading", "trading-strategy"]
 
 about:
  name: "daytrading"

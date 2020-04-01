@@ -7,7 +7,7 @@ title: "Wyckoff trading method and ranging markets"
 description: "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
 
 tags:
-- "update"
+- "wyckoff-trading"
 - "wyckoff"
 - "wyckoff-phases"
 - "wyckoff-accumulation"

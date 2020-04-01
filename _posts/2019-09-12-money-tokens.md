@@ -3,7 +3,7 @@ layout: at-trading
 
 note: 'Trading Strategy'
 categories: ["trading"]
-tags: ["cryptotrading", "trading-blog"]
+tags: ["wyckoff-trading","cryptotrading", "trading-blog"]
 series: Fundamentals
 
 promoting: analysis

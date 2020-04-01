@@ -4,6 +4,9 @@ layout: default-news
 {% for tag in site.tags %}{% if tag contains page.tag %}
     {% assign pages_list = tag[1] %}
 {% endif %}{% endfor %}
+{% if page.strategy %}
+  {% assign strat_list = site.strategy | where:"tags",page.tag | sort: last_modified_at | reverse %}
+{% endif %}
 <div class="container">
   <div class="row">
       <div class="columns four">
@@ -16,6 +19,43 @@ layout: default-news
           {{ content }}
         </section>
         {% endif %}
+
+
+        {% if page.strategy %}
+        <p>
+          <span class="note" id="feed--{{ page.tag }}">#{{ page.tag | capitalize }} in EXTRAS / Trading Strategy</span>
+        </p>
+        {% for post in strat_list%}
+        <div class="row cat-updates">
+
+          <div class="six columns">
+            <h5 class="category-post post">
+              <strong>
+                <a class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+              </strong>
+              <p>{{ post.description }}</p>
+            </h5>
+          </div>
+          <div class="six columns">
+            <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+              <figure class="thumb">
+                <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+                layout="responsive"
+                data-original-width="720px" data-original-height="360px"
+                width="150px" height="80px">
+                </amp-img>
+              </figure>
+            </a>
+          </div>
+
+        </div>
+        {% endfor%}
+        {% endif %}
+
+        <p>
+          <span class="note" id="feed--{{ page.tag }}">All about #{{ page.tag | capitalize }} in the trading blog & script reviews</span>
+        </p>
+
         {% for post in pages_list limit:1 offset:0 %}
             <div class="row cat-updates">
             {% if post.image[0] %}
@@ -43,9 +83,7 @@ layout: default-news
               </div>
             </div>
         {% endfor %}
-    <p>
-      <span class="note" id="feed--{{ page.tag }}">All in #{{ page.tag | capitalize }}</span>
-    </p>
+
     <div class="row">
       {% for post in pages_list limit:2 offset:1 %}
             <div class="columns six">

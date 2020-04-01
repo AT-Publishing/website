@@ -25,7 +25,7 @@ image: ["/editorial/details1.jpg"]
 image_alt: ["Cryptocurrency Strategy for Beginners"]
 
 categories: ['basics']
-tags: ["crypto-trading", "crypto-strategy", "crypto-beginners", 'hodling', 'crypto-lending', 'masternodes', 'staking', 'business-of-crypto']
+tags: ["wyckoff-trading","crypto-trading", "crypto-strategy", "crypto-beginners", 'hodling', 'crypto-lending', 'masternodes', 'staking', 'business-of-crypto']
 
 related:
 - {"Strategy - On Lending": "/strategy/lending/"}

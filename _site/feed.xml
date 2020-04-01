@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 31 Mar 2020 09:13:20 +0000</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2020 09:13:20 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Apr 2020 09:28:54 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Apr 2020 09:28:54 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -157,6 +157,7 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ wyckoff-trading ]]></category>
         <category><![CDATA[ scriptspotlight ]]></category>
         <category><![CDATA[ cryptotrading ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
@@ -725,6 +726,7 @@ If you still want to give daytrading a shot, you should pay attention to the cho
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ wyckoff-trading ]]></category>
         <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ trading-method ]]></category>
         <category><![CDATA[ daytrading ]]></category>
@@ -959,6 +961,7 @@ Resources
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ wyckoff-trading ]]></category>
         <category><![CDATA[ crypto-technical-indicators ]]></category>
         <category><![CDATA[ wyckoff-method ]]></category>
         <category><![CDATA[ swing-trading ]]></category>
@@ -1708,6 +1711,7 @@ BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency As
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ wyckoff-trading ]]></category>
         <category><![CDATA[ cryptotrading ]]></category>
         <category><![CDATA[ trading-blog ]]></category>
         
@@ -2406,6 +2410,7 @@ If you have mining rigs and cooling stuff left over from when small scale Bitcoi
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ wyckoff-trading ]]></category>
         <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ crypto-strategy ]]></category>
         <category><![CDATA[ crypto-beginners ]]></category>

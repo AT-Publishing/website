@@ -36,7 +36,7 @@ image_alt:
 - "Script Spotlight on AltcoinTrading.NET"
 
 categories: ["trading"]
-tags: ["scriptspotlight", "cryptotrading", "trading-blog", "bbands", "bollinger-bands"]
+tags: ["wyckoff-trading", "scriptspotlight", "cryptotrading", "trading-blog", "bbands", "bollinger-bands"]
 chart: []
 
 related:
