@@ -8,6 +8,11 @@ layout: default-news
   {% assign strat_list = site.strategy | where:"tags",page.tag | sort: last_modified_at | reverse %}
 {% endif %}
 <div class="container">
+  <br>
+  {% if page.tag contains "scriptspotlight" %}
+        {% include article/cta.html %}
+  {% endif %}
+  <br>
   <div class="row">
       <div class="columns four">
         {% include sidebar.html %}
