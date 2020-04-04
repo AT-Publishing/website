@@ -4,22 +4,40 @@ layout: default
 
   <div class="container">
     <div class="row">
+      <div class="three columns">
+        <span class="note">Crypto Strategy Related</span>
+        <ul>
+          <li class="popular-item">
+            <a href="/tag/tradingview-script-review/">TradingView Script Reviews</a>
+          </li>
+          <li class="popular-item">
+            <a href="/tag/crypto-technical-indicators/">Learn crypto technical analysis</a>
+          </li>
+          <li class="popular-item">
+            <a href="/tag/wyckoff-trading/">Wyckoff trading method</a>
+          </li>
+        </ul>
 
+      </div>
+      <div class="nine columns">
+        <p>{{ site.tv_728-90_animated }}</p>
+      </div>
+    </div>
+    <div class="row">
      <div class="twelve columns">
-
-       <p>{{ site.3commas_long }}</p>
-
        <h3 class="post">
         <strong>{{ page.title | upcase }}</strong>
        </h3>
-       <h4>
-         <small>{{ page.description }}</small>
-       </h4>
+       <div class="strategy-content">
+         <div class="blockquote">
+           {{ page.description }}
+         </div>
+       </div>
       <hr>
 
       <article class="maincontent col col-strategy">
        <div class="intro">
-         {{ content }}
+           {{ content }}
        </div>
        <br>
        {% include lps/strategy-feed.html %}

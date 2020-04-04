@@ -5,6 +5,10 @@ baseurl: ""
 url: "https://www.altcointrading.net"
 timezone: "Etc/GMT"
 
+exclude: [node_modules, README.md]
+keep_files: [cta, editorial, features, img, img-howto, sec, strat, uploads]
+
+
 plugins: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 
@@ -240,10 +244,9 @@ src="https://amp2disqus.netlify.com/altcointrading/signup-banner.html"><amp-img 
 </div>'
 
 # /uploads/tv1.html
-tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-moon" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
+tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-at-bf2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
 tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
-  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-  src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
+  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
    placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 tv_300-600_animated: '<div class="clearfix adfix"><amp-iframe width="300px" height="600px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv3.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height="275px"
