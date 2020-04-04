@@ -38,30 +38,9 @@ layout: default-news
               <div class="strategy-content">
                 {{ content }}
   					  </div><!-- strategy content -->
+            </article>
+          </section>
 
-            </article>
-            <article class="maincontent altcointrading-blog-links">
-              <hr>
-                <p>
-                  <b>Shill Links:</b><br>
-                  LocalCryptos (anonymous p2p BTC or ETH) @ <a rel="nofollow" target="_blank" href="http://bit.ly/localcryptos">bit.ly/localcryptos</a><br>
-                  BitMEX (10% fee off) @ <a rel="nofollow" target="_blank"  href="http://bit.ly/melancholic-100x">bit.ly/melancholic-100x</a><br>
-                  TradingView (~ 50% off in BTC) @ <a rel="nofollow" target="_blank" href="http://bit.ly/tradingview-moon">bit.ly/tradingview-moon</a><br>
-                  TensorCharts @ <a rel="nofollow" target="_blank"  href="http://bit.ly/tensor-charts">bit.ly/tensor-charts</a><br>
-                </p>
-              <hr>
-            </article>
-            <article class="altcointrading-blog-meta">
-              <div class="bottom strategy-content">
-                {% include article/editor.html %}
-                {% include article/author.html %}
-              </div>
-            </article>
-          </section>
-          <section class="altcointrading-blog-airdrops">
-            <p>&nbsp;</p>
-            {% include home/airdrops.html %}
-          </section>
 
         </div><!-- 8 -->
         <div class="four columns nomargintop">
@@ -92,13 +71,27 @@ layout: default-news
             <div class="clearfix"></div>
             {% include dogeshare.html %}
             <div class="clearfix"></div>
+            <article class="altcointrading-blog-meta">
+              <div class="bottom strategy-content">
+                {% include article/author.html %}
+              </div>
+            </article>
           </aside>
         </div><!-- 4 -->
       </div><!-- row-->
 
-{% if page.series contains "ScriptSpotlight" %}
-      {% include article/cta.html %}
-{% endif %}
+  <div class="row">
+    {% if page.series contains "ScriptSpotlight" %}
+          {% include article/cta.html %}
+    {% endif %}
+
+    <section class="altcointrading-blog-airdrops">
+      <p>&nbsp;</p>
+      {% include home/airdrops.html %}
+    </section>
+
+
+  </div>
 
 </div>
 
