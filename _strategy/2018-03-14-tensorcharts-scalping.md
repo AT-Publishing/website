@@ -1,6 +1,7 @@
 ---
 # scalping strategy pdf
-published: true
+orderby: c
+note: 'Bitcoin Scalping'
 
 comments: true
 identifier: tensorchartsmar142018
@@ -8,7 +9,6 @@ identifier: tensorchartsmar142018
 layout: strategy
 title: "Scalping Crypto"
 description: "Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts."
-note: 'Strategy'
 
 categories: ["trading"]
 tags: [ "tensorcharts", "orderbook-heatmap", "scalping", "cryptocurrency-trading"]

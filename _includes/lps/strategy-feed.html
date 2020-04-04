@@ -1,8 +1,9 @@
 <section id="strategy-feed">
-{% assign items = site.strategy | sort:last_modified_at | reverse %}
-{% for post in items %}
-<div class="row"><!-- fucking row -->
+{% assign strat = site.strategy | sort:last_modified_at | reverse %}
+{% for post in strat %}
 
+
+<div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
     <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
       <figure class="thumb">
@@ -18,7 +19,7 @@
     <h4>
       <strong>
         <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="tag custom-note">TRADING&nbsp;STRATEGY</span>&nbsp;{{ post.title }}
+          <span class="tag custom-note lvl-{{post.orderby}}">{{ post.note | upcase }}</span>&nbsp;{{ post.title }}
         </a>
       </strong>
     </h4>
@@ -29,7 +30,7 @@
       {{ post.content | markdownify | strip_html | truncate:150 }}
     </p>
     <p>
-      <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+      <a class="btn" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
         Read {{ post.title }} in full >>
       </a>
     </p>

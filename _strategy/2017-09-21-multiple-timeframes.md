@@ -1,12 +1,13 @@
 ---
-published: true
+
+orderby: c
+note: 'Trading Strategy'
 
 layout: strategy
 title: "Multiple time frame analysis: Trading several timeframes at the same time"
 description: "On why it's constructive to trade multiple time frames at the same time and how to manage the stack of your positions and orders."
 
 #tags: ['popular']
-note: 'Strategy'
 
 categories:
 - "tip"

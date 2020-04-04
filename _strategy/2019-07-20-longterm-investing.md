@@ -1,6 +1,7 @@
 ---
-stories: true
+orderby: ab
 genres: Blog
+note: 'Beginner Strategy'
 
 published: true
 comments: true
@@ -10,7 +11,6 @@ series: Hodl
 
 title: "Crypto Investment Strategy: Step By Step Guide"
 description: "Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. "
-note: 'Strategy'
 
 categories: ["trading"]
 tags: [ "hodl-strategy", "crypto-investment-strategy", "swing-trading", "trading-strategy", "crypto-trading"]

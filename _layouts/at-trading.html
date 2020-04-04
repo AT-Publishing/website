@@ -95,6 +95,13 @@ layout: default-news
           </aside>
         </div><!-- 4 -->
       </div><!-- row-->
+
+{% if page.series contains "ScriptSpotlight" %}
+      {% include article/cta.html %}
+{% endif %}
+
+</div>
+
   </div><!-- row -->
 </div><!-- container -->
 

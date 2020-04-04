@@ -1,11 +1,11 @@
 ---
+orderby: a
 published: true
+note: 'Real Data'
 
 layout: strategy
 title: "On Lending"
 description: "How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts."
-
-note: 'Strategy'
 
 categories: ['lending', 'bitcoin', 'altcoins', 'p2p']
 tags: ['bitfinex', 'poloniex', 'bitmex']

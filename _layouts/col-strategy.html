@@ -23,28 +23,56 @@ layout: default
         <p>{{ site.tv_728-90_animated }}</p>
       </div>
     </div>
+
+    {% include article/cta.html %}
+
+
     <div class="row">
      <div class="twelve columns">
        <h3 class="post">
         <strong>{{ page.title | upcase }}</strong>
        </h3>
        <div class="strategy-content">
+
          <div class="blockquote">
            {{ page.description }}
          </div>
        </div>
       <hr>
 
-      <article class="maincontent col col-strategy">
-       <div class="intro">
-           {{ content }}
-       </div>
-       <br>
-       {% include lps/strategy-feed.html %}
-      </article>
+      <section class="maincontent col col-strategy">
+
+        <div class="row">
+          <div class="six columns">
+            <div class="intro">
+                {{ content }}
+            </div>
+          </div>
+          <div class="six columns" id="strategies-labeled">
+            {% assign ordered = site.strategy | sort:"orderby" %}
+            {% for post in ordered %}
+              <p>
+                <span class="tag lvl-{{post.orderby}}">{{post.note}}</span> <a href="{{page.url}}">{{ post.title}}</a>
+              </p>
+            {% endfor %}
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <p><span class="note">All Trading Strategy Articles</span></p>
+            {% include lps/strategy-feed.html %}
+          </div>
+
+        </div>
+
+
+      </section>
 
 
       </div>
 
     </div>
+
+
   </div>

@@ -1,6 +1,8 @@
 ---
 published: true
 series: Wyckoff
+note: 'Strategic Tools'
+orderby: c
 
 layout: strategy
 title: "Wyckoff trading method and ranging markets"
