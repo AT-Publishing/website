@@ -40,10 +40,9 @@ tags: ["wyckoff-trading", "scriptspotlight", "cryptotrading", "trading-blog", "b
 chart: []
 
 related:
-- {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}
-- {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
-- {"Cryptocurrencies Trading Blog on AltcoinTrading.NET": "/blog/trading/"}
-- {"How to use Technical Analysis in Cryptocurrency Trading": "/technical-analysis/"}
+- {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
+- {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
+- {"Technical Analysis in Cryptocurrency Trading: Does it actually work?": "/technical-analysis/"}
 
 ---
 

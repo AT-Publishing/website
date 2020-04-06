@@ -41,6 +41,8 @@ author_name: "KarlVonBahnhof"
 
 ---
 
+*If you want more Wyckoff, take a look at the ["Wyckoff Trading"](/tag/wyckoff-trading/) tag in the blog.*
+
 ## What is Wyckoff Method?
 
 * The Wyckoff Method is a strategic trading approach based on the supply and demand dynamic that forms the base of market cycles.

@@ -39,11 +39,9 @@ categories: ["trading"]
 tags: ["scriptspotlight", "cryptotrading", "trading-blog"]
 
 related:
-- {"Script Spotlight: A/D Levels": "/scriptspotlight-a-d-levels/"}
-- {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
-- {"Crypto Scalping with TensorCharts": "/strategy/scalping/"}
-- {"The Stability of Stablecoins": "/stability-of-stablecoins/"}
-- {"Stats from 2018 - Readers like Melancholic 100x and Ledger": "/retail-buyin-15k-wallets-still-run/"}
+- {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
+- {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
+- {"What did crypto traders buy in 2018: Melancholic 100x and Ledger": "/retail-buyin-15k-wallets-still-run/"}
 
 ---
 

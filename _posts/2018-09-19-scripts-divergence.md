@@ -44,11 +44,10 @@ series: ScriptSpotlight
 pinned: no
 
 related:
-- {"Script Spotlight: A/D Levels": "/scriptspotlight-a-d-levels/"}
-- {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}
-- {"Scalping Crypto with TensorCharts and BitMEX": "/strategy/scalping/"}
+- {"Technical Analysis: How to Trade Divergence (With Cheatsheet)": "/divergences/"}
+- {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
+- {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
 - {"Ichimoku Cloud Crypto Settings & Learning Resources": "/ichimoku-cloud/"}
-- {"Technical Analysis - Advanced Divergence Cheatsheet": "/divergences/"}
 
 ---
 

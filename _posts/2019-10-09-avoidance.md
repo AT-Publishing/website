@@ -36,10 +36,10 @@ author_twitter: "_Karlvonbahnhof"
 
 
 related:
-- {"Strategy - Wyckoff Method long-read": "/strategy/wyckoff/"}
+- {"Collection of all blogs and strategies that use Wyckoff trading method": "/tag/wyckoff-trading/"}
+- {"Trading Strategy: Wyckoff Method for Ranging Markets": "/strategy/wyckoff/"}
 - {"Fundamental Value of Cryptoassets": "/value/"}
-- {"On PoW Mining as a Fundamental": "/fundamentals-mining-hashrate-vs-price/"}
-- {"Strategy - How to vet ICOs": "/strategy/how-to-vet-icos/"}
+- {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
 
 ---
 
