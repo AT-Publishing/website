@@ -1,0 +1,167 @@
+I"�6<p>Does it make sense to install your desktop crypto wallets on a virtual machine?</p>
+
+<p>Only in some cases.</p>
+
+<h2 id="dont-do-it-virtual-machine-bitcoin-wallet-for-security">Don’t Do It: Virtual Machine Bitcoin Wallet for Security</h2>
+
+<p>If you were looking for a way to set up a <a href="/altcoin-wallets/">cold wallet</a> for your bitcoin stash without having to invest in a hardware wallet or a <a href="/device-management/">spare device for tiered crypto storage management</a>, here’s the bad news for you.</p>
+
+<p>Putting your bitcoin wallet into a virtual machine <strong>does not protect it</strong> from malicious software that gets into the computer that hosts it.</p>
+
+<p>It is <a href="https://security.stackexchange.com/questions/3056/how-secure-are-virtual-machines-really-false-sense-of-security">possible for a program on a computer to access contents of a virtual machine</a> and it is also possible for a program on a virtual machine to access its host computer.</p>
+
+<p>The virtual machine and its host computer are sharing the same resources, this link can be targeted and exploited.</p>
+
+<p>The only advantage left for you to rely on here is the fact that very few people would resort to virtual machines for their crypto storage.</p>
+
+<p>However, this is not a good reason. To a malware developer, adding a VM-targeting method to their script is a matter of some lines of code that are written once and don’t cost extra to deploy on any number of victim machines.</p>
+
+<p><strong>In short: Don’t do this.</strong> Storing cryptocurrencies on a virtual machine is nowhere near cold storage.</p>
+
+<p>Get a Ledger hardware wallet, they run discount offers comparable with Black Friday several times each year.</p>
+
+<p><a href="/blackfriday/" class="btn">Go to Eternal Black Friday &gt;</a></p>
+
+<h2 id="go-ahead-virtual-machine-crypto-wallet-due-to-lack-of-devices">Go Ahead: Virtual Machine Crypto Wallet Due to Lack of Devices</h2>
+
+<p>If you are installing crypto wallets that you do not trust too much (such as with Bitcoin forks or <a href="/airdrops/">crypto airdrops</a>), technically you should do that on a separate device each time around.</p>
+
+<p>But at the current rate you would probably need to carry around seventeen thousand Android phones.</p>
+
+<h4 id="airdrops--forks">Airdrops &amp; Forks</h4>
+
+<p>At the same time, most airdrop and fork campaigns are not malicious, and it’s also not usually life changing amount of money. In this case, it is reasonable to use an Android in a virtual machine to store your altcoin wallets.</p>
+
+<h4 id="android-app-download-to-collect-bounty">Android app download to collect bounty</h4>
+
+<p>Another good use-case are bounty campaigns. Many ERC-20 tokenized apps will pay out bounties in TRX, BTC or ETH when you download their Android app. Typically, this is a launch promo and it’s done to boost their numbers.</p>
+
+<p>Virtual machine is a great way to do it because you will fulfill the condition but you won’t clutter your phone with garbage apps you will never use again (let’s face it).</p>
+
+<p><strong>You can have a virtual Android device on Mac, Windows and Linux laptops.</strong></p>
+
+<h2 id="tutorial-get-a-virtual-machine-crypto-wallet">Tutorial: Get a Virtual Machine Crypto Wallet</h2>
+
+<p>In this post I’ll go with Android virtual machine on an <a href="https://elementary.io/">Elementary OS</a> (Linux).</p>
+
+<p>There are only small differences for Mac and Windows.</p>
+
+<p>The result will be a tablet screen inside of your laptop. It is controlled by touch which translates well into touchpad. If you use mouse, you need to click and hold.</p>
+
+<h4 id="first-things-first-install-virtualbox">First things first, install VirtualBox.</h4>
+
+<p>What you’ll need is the software for the virtualization.</p>
+
+<p>Download <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox from here</a> - and an <a href="http://www.android-x86.org/download">Android ISO</a>. FYI, the Android ISO has about 800 MB.</p>
+
+<p><em>(Full-size version of the image opens on click)</em></p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/1androidiso_ctht1f.jpg" layout="responsive" data-original-width="753px" data-original-height="823px" width="753px" height="823px"></amp-img>
+
+<p><strong>Step 1</strong> Go to <code class="highlighter-rouge">http://www.android-x86.org/download</code> and get the ISO file of the latest Android. I am going with the 64 bit 7.1 here.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/2virtualbox_jtcljx.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 2</strong> Now create the virtual machine on which you will use the Android: Open VirtualBox and click “New”.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/3_zvj1na.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 3</strong> Name the machine (doesn’t matter), say it is a Linux - <code class="highlighter-rouge">Other Linux x86</code>.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/4_h18rjg.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 4</strong> For the rest of the setup you can go with defaults. You will have VDI disk image with some amount of disk space and RAM allocated.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/5_jodpln.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<h4 id="setting-up-android-phone-in-virtualbox">Setting up Android phone in Virtualbox</h4>
+
+<p><strong>Step 1</strong> You have created a virtual machine that is ready to have the Android installed on it. Now start it up by clicking on “Start”.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/6_ckab8e.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 2</strong> You will be asked to select a startup disk. Select the Android ISO you downloaded. This will take you to the installation.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239226/atnet/cybersecurity/7_salf6a.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 3</strong> Create a new partition - select “New”, press enter.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239226/atnet/cybersecurity/8_uktyag.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 4</strong> Press enter while on bootable and navigate to “Write”, enter. Confirm by typing in “yes”, enter.</p>
+
+<p>When it’s done you’ll have an sda1 partition, go to “Quit”, enter.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239226/atnet/cybersecurity/8i_gcmvpq.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 5</strong> The installer will take you to dialog to format the partition - select sda1, enter.</p>
+
+<p>Select ext4 and format the disk.</p>
+
+<p>Choose <code class="highlighter-rouge">YES</code> from now on - you DO really want to format, you DO want GRUB and you DO want that whatever directory writeable.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/9_e1wtsp.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 6</strong> You are <strong>almost</strong> done.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239226/atnet/cybersecurity/10unmount_f9boxf.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>Before you reboot the machine to launch your fake Android phone, <strong>unmount the ISO</strong>. If you don’t, the machine will keep attempting to reinstall Android.</p>
+
+<p>So, go to Virtualbox menu and open <code class="highlighter-rouge">Devices &gt; Optical Drives</code> to <strong>unselect the ISO</strong>.</p>
+
+<h4 id="create-a-virtual-machine-crypto-wallet">Create a Virtual Machine Crypto Wallet</h4>
+
+<p><strong>Step 1</strong> Restart the virtual machine device. This will take you to the Android setup. It’s exactly the same thing as you do when you buy a new phone.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239226/atnet/cybersecurity/11_qi8jfh.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 2</strong> Set up the device as a new device with Google account. – You need a Google account to get access to the Play Store where the crypto wallet apps are.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/12_bewdoc.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/13_nzbcpk.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p><strong>Step 3</strong> The last step is to launch the Play Store. Go ahead and look up the crypto wallet you want to use.</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/15play_wfalts.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/15_k3ao5i.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>From here it’s all like on a regular phone: Create a new wallet, backup your seed on a piece of paper, start using it…</p>
+
+<amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239228/atnet/cybersecurity/16voila_iwm6m4.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
+
+<p>And that is it.</p>
+
+<h2 id="what-cryptocurrecies-is-this-solution-suitable-for">What cryptocurrecies is this solution suitable for?</h2>
+
+<p>Any cryptocurrency that has an Android wallet on the official Google Play store.</p>
+
+<p>Androids are hugely popular pretty much everywhere other than the US, so most cryptos offer an Android wallet.</p>
+
+<p>Just don’t install anything sketchy. Remember, malware can escape from the virtual machine into your host machine too.</p>
+
+<p><strong>Available Android hot wallets and multicoin wallets from the Play Store:</strong></p>
+
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=com.kryptokit.jaxx&amp;hl=en">Jaxx for Android</a> - huge amount of altcoins, <a href="https://decentral.zendesk.com/hc/en-us/articles/218373867-Which-tokens-does-Jaxx-support-">list here</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet&amp;hl=en">Coinomi for Android</a> - huge amount of altcoins, <a href="https://coinomi.com/#supported-coins">list here</a></li>
+</ul>
+
+<p><strong>Single coin wallets from the Play Store:</strong></p>
+
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=org.electrum.electrum">Android Electrum for Bitcoin</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.electroncash.electroncash&amp;hl=en">Android BCH ElectronCash</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.stratis.live">Android Stratis</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.iota.wallet">Android IOTA mobile wallet in beta</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.rehanced.lunary">Android ETH Lunary wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=hashengineering.darkcoin.wallet">Android Dash wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=neo.app">Android NEO app</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android Byteball client</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=org.qtum.wallet">Android QTUM wallet</a></li>
+  <li><a href="https://play.google.com/store/apps/details?id=com.loafwallet">Android LTC Loafwallet</a></li>
+  <li>…</li>
+</ul>
+:ET

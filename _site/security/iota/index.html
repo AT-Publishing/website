@@ -33,7 +33,7 @@
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
 <meta name="description" content="All the IOTA storage options you have in 2019, IOTA cold storage homelab and a short guide to migrating IOTA from Light Wallet to Trinity Wallet (and Ledger, if you wish).">
 
-<meta name="keywords" content="iota, iota-wallet, iota-security, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+<meta name="keywords" content="iota, iota-trinity, altcoin-wallet, hot-wallet, crypto-storage, wallet-security, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
 
 <meta name="author" content="AltcoinTrading">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -55,9 +55,9 @@
 <meta property="article:published_time" content="2019-02-01T13:08:30+00:00" />
 
 <!-- post tags -->
-<meta property="article:tag" content="iota" /><meta property="article:tag" content="iota-wallet" /><meta property="article:tag" content="iota-security" />
+<meta property="article:tag" content="iota" /><meta property="article:tag" content="iota-trinity" /><meta property="article:tag" content="altcoin-wallet" /><meta property="article:tag" content="hot-wallet" /><meta property="article:tag" content="crypto-storage" /><meta property="article:tag" content="wallet-security" />
 <!-- post categories -->
-<meta property="article:section" content="Cryptocurrencies" /><meta property="article:section" content="Cryptocurrency Wallets" />
+<meta property="article:section" content="Cryptocurrencies" /><meta property="article:section" content="Cryptocurrencies" />
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
@@ -839,223 +839,29 @@ amp-user-notification>div>div {
 
 <div class="container" id="altcointrading-security">
   <div class="row">
+   <div class="four columns nomargintop">
+      <section>
+<hr class="skinny">
+
+
+    <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/localcryptos"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501622/atnet/_banner/localcryptos_400_xtp85l.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>
+    <hr class="skinny">
+    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+    <hr class="skinny">
+    <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1584502136/atnet/_banner/crypto-discount-codes-coronavirus.jpg" alt="Crypto Discount Codes - Eternal Black Friday" data-original-width="400px" data-original-height="284px" width="300px" height="213px" layout="responsive"> </amp-img></a></div><br>
+    <hr class="skinny">
+    <amp-ad width=336 height=280
+      type="adsense"
+      data-ad-client="ca-pub-6979812205705127"
+      data-ad-slot="7619602394">
+        <div overflow></div>
+    </amp-ad>
+    <hr class="skinny">
+    <div class="text-center"> <a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"> <amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"> </amp-img></a></div><br>
+    <hr class="skinny">
+
+</section>
 
-   <div class="eight columns post-content">
-
-     <div class="shifted-left">
-       <div class="containter-center"><a id="gtm-ledger-728-90" href="http://bit.ly/atnet-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>
-     </div>
-       
-
-
-       <span id="note">
-         <time datetime="2019-02-01T13:08:30+00:00">Last Update 01 Feb 2019 at 13:08 UTC</time>.&nbsp;
-         Published <time datetime="2017-09-20T00:00:00+00:00">20 Sep 2017 at 00:00 UTC</time>
-       </span>
-       <h4 class="post post-main">
-          <strong>
-            How to secure your IOTA wallet and migrate from Light Wallet to Trinity  
-          </strong>
-        </h4>
-        <br>
-        <article class="maincontent">
-          <div>
-            <figure class="noborder main-post-image">
-              <amp-img itemprop="image" src="/img/coins/iotabg.png" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity - Altcoin Trading Blog"
-              layout="responsive" data-original-width="720px" data-original-height="360px"
-              width="720px" height="360px">
-              </amp-img>
-            </figure>
-          </div>
-          <p>
-              <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
-          </p>
-          <hr>
-          <div class="securitycontent">
-            <h4 id="what-is-iota-and-directed-acyclic-graph">What is IOTA and directed acyclic graph</h4>
-
-<p>IOTA is a transactional and data transfer layer aiming at the Internet of Things. It uses a distributed ledger called <a rel="noopener" target="_blank" href="https://www.altcointrading.net/iota">Tangle</a> which scales better than Blockchain - the more it is used the more efficient it gets.</p>
-
-<p>The tangle ledger is based on <strong>distributed technology</strong> called DAG (directed acyclic graph). Each transaction forms its own “block” and is essentially verified by itself. In order to put your transaction through you have to verify two other randomly chosen older transactions in the network. This is done with help of a very simple version of proof-of-work but the effort the POW algo needs to execute is so small that the transaction cost is essentially zero.</p>
-
-<p>Thanks to this, through IOTA people can transfer money without any fees. This means that even tiny nanopayments can be made with IOTA - ideal for automated transactions in the IoT.</p>
-
-<p>In 2019, IOTA trading has spread widely from the initial two markets on Bitfinex and CoinSpot.</p>
-
-<h3 id="how-to-store-iota-light-wallet-and-trinity">How to store IOTA: Light Wallet and Trinity</h3>
-
-<h4 id="iota-light-wallet">IOTA Light Wallet</h4>
-
-<p>The official and until recently the most used IOTA wallet was simply a GUI for your seed, where the seed is not even generated for you - you need to do it yourself.</p>
-
-<p>That was the <strong>IOTA Light Wallet</strong>, still available from the official <a rel="noopener" target="_blank" href="https://github.com/iotaledger/wallet/releases">iotaledger github</a> for Windows, Mac and Linux - but not updated in about a year.</p>
-
-<p>If you ever used the IOTA Light Wallet you will know about its perks - “Can’t connect to remote node”, “Can’t sync”, the notorious zero balance issue and more.</p>
-
-<h4 id="iota-trinity-wallet--ledger-nano-s">IOTA Trinity Wallet &amp; Ledger Nano S</h4>
-
-<p>The IOTA team has recently released a new wallet called Trinity that is in public beta at the time of writing. You can import your old seeds into it and protect them with a password which is more user-friendly. I encourage you to move some of your IOTA there (obviously, there can still be bugs).</p>
-
-<p>The Trinity wallet is also the software you will need to hold IOTA on your <a rel="noopener" target="_blank" href="http://bit.ly/atnet-ledger">Ledger Nano S</a>, which is newly an option too.</p>
-
-<h5 id="how-to-migrate-from-iota-light-wallet-to-iota-trinity">How to migrate from IOTA Light Wallet to IOTA Trinity</h5>
-
-<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity1.jpg" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity1.jpg" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
-
-<ol>
-  <li><strong>Download and install</strong> the Trinity wallet from the releases page on IOTA’s github: <a rel="noopener" target="_blank" href="https://github.com/iotaledger/trinity-wallet/releases">github.com/iotaledger…</a></li>
-  <li><strong>Create a new default wallet</strong>: The Trinity wallet is a multi-seed vault protected by a master password. You cannot “recover” your Light Wallet address by directly importing old seed like you would do when changing Bitcoin wallets. You’ll first need to create a default wallet in the Trinity vault, set a master password and then you can start importing additional seeds into the vault.</li>
-  <li><strong>Click the add ‘Add new account’ in the left sidebar of Trinity</strong>: This will lead you to the interface where you can insert your seed.</li>
-  <li><strong>Submit your old seeds</strong>: Copy-pasting is disabled for security reasons. You get the option to drag and drop a text file that contains your seed but for me that did not work, Trinity kept claiming the file’s corrupt. If this happens to you just open the text file and re-type the seed into the dialog. It will work.</li>
-  <li><strong>Check your balance</strong>: After this you should be able to see your correct balance right away.</li>
-</ol>
-
-<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity2.png" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity2.png" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
-
-<h3 id="how-to-generate-iota-seed">How to Generate IOTA seed</h3>
-
-<p>IOTA seed is a string of 81 characters consisting <strong>only of uppercase latin letters and 9’s</strong> (there has to be at least one ‘9’ in the seed).</p>
-
-<p>The seed string can be absolutely anything, as long as it’s 81 characters of uppercase latin letters and 9s. There are websites that generate the seed for you but in this way you are depending on their good will of not snooping on you, so this way of seed generation shouldn’t be encouraged.</p>
-
-<p>Also, <a rel="noopener" target="_blank" href="https://privsec.blog/song-lyric-passwords/">don’t be tempted to use a line from your favorite song</a>:</p>
-
-<blockquote>
-  <p>I wanted to create a short program to show that this type of password is also insecure. Using Python with a few simple libraries, I created this script that generates a password list based on a given artist. Discovering someone’s favorite band is pretty easy… that sort of thing is plastered all over social media, and it’s usually something people will provide when asked by anyone. (via <a rel="noopener" target="_blank" href="https://privsec.blog/song-lyric-passwords/">privsec.blog, includes the python code</a>)</p>
-</blockquote>
-
-<p>On Linux and Mac, hands down the best option is to open up the terminal and generate a random string like this:</p>
-
-<p><code class="highlighter-rouge">cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1</code></p>
-
-<p><strong>If you want to store your seed on paper, simply write it down now and you are done here.</strong></p>
-
-<p><strong>If you want to store your IOTA seed on a computer you need to encrypt it.</strong> The best way is to encrypt the seed right after its generation, without having had the plaintext seed on your laptop at all:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 \
- | head -n 1 | openssl enc -aes-256-cbc -salt -out paranoia.enc
-</code></pre></div></div>
-
-<p>The command above will ask you for password - choose something strong. You can verify the file is encrypted by trying <code class="highlighter-rouge">cat paranoia.enc</code>. If you want a different cipher check what’s available with <code class="highlighter-rouge">openssl list-cipher-algorithms</code>. <a rel="noopener" target="_blank" href="https://crypto.stackexchange.com/questions/46559/what-are-the-chances-that-aes-256-encryption-is-cracked">Allegedly the 256bit AES is still what the US government uses to encrypt information at the Top Secret level</a>. Salt (<code class="highlighter-rouge">-salt</code>) adds strength to the encryption and makes it harder to do a dictionary attack.</p>
-
-<p>Decrypting the file on Mac goes like this:</p>
-
-<p><code class="highlighter-rouge">openssl enc -d -aes-256-cbc -in paranoia.enc | pbcopy</code></p>
-
-<p>The first part before the pipe is the decrypting, <code class="highlighter-rouge">pbcopy</code> is a command that will dump the seed into your clipboard so that the seed won’t get printed out into your terminal’s display. You should have <code class="highlighter-rouge">pbcopy</code> by default on Mac. When you open your IOTA wallet and press <code class="highlighter-rouge">Cmd+V</code> it will be the first time you are ever seeing your IOTA seed.</p>
-
-<p>This way the seed will be decrypted without creating a file on the disk for it - it will only be in the memory for a short while. It is far from bulletproof but it is better than <a rel="noopener" target="_blank" href="https://discussions.apple.com/thread/7675060?start=0&amp;tstart=0">generating a plaintext file with the seed on your hard drive and then trying to securely remove it</a>.</p>
-
-<p><em>The above is also a better way rather than writing the string into a file and then encrypt it which brings up the problem with secure removal of files:</em></p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1 &gt;&gt; testfilename
-openssl enc -aes-256-cbc -salt -in testfilename -out file.enc
-</code></pre></div></div>
-
-<p><strong>Copying into clipboard on a Linux laptop:</strong></p>
-
-<p>On Linux (with display) you will need the <code class="highlighter-rouge">xclip</code> package. To get to the clipboard available from <code class="highlighter-rouge">CTRL+V</code> do this:</p>
-
-<p><code class="highlighter-rouge">openssl enc -d -aes-256-cbc -in paranoia.enc | xclip -sel clip</code></p>
-
-<h3 id="iota-offline-wallet-true-cold-storage">IOTA offline wallet (true cold storage)</h3>
-
-<p>As mentioned before, IOTA is now supported by <a rel="noopener" target="_blank" href="http://bit.ly/atnet-ledger">Ledger Nano S</a> devices. The community sometimes calls Ledger the ‘cold storage’ - nonetheless, hardware wallets are a black box, you don’t know what’s in the hardware or whether there are vulnerabilities in the code. If you are a somewhat confident command line user, I encourage you to take more charge of your crypto holdings.</p>
-
-<p>The previous section about generating the IOTA seed can be upgraded into a cold storage solution if it’s done on an air-gapped laptop or a Raspberry Pi: a clean, secure device that is not connected to the internet and when it has ever been, it was to download packages from official repos and sync blockchains - not to watch hentai from dodgy servers with malware in ads.</p>
-
-<p><strong>IOTA GUI wallet: Generating receiving address online</strong></p>
-
-<p>You do need an internet connection to install the IOTA wallet (the GUI) and to login and see your receiving address but the seed generation via command line doesn’t need internet at all. If you have a separate device for coins and go offline for the generation, then open your wallet and copy your address in the Receive tab and <strong>move that address only</strong> to your computer for normal daily use, and only connect to the internet on your storage computer to check balances when withdrawing, that’s reasonably safe.</p>
-
-<p><strong>Even colder version - IOTA Paper Wallet: Generating IOTA receiving address offline</strong></p>
-
-<p>There is also this offline tool for IOTA paper wallet generation <a rel="noopener" target="_blank" href="https://github.com/arancauchi/IOTA-Paper-Wallet">by /u/mothermole1 on Github</a>. You’ll need an online computer that can run nodejs apps to download the zip from Github. After unzipping generate the offline app - for Linux and Mac:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd IOTA-Paper-Wallet
-rm out/*
-npm install
-npm run build
-</code></pre></div></div>
-
-<p>Now for the work on your offline device:</p>
-
-<ul>
-  <li>Safely transfer the generated <code class="highlighter-rouge">offline-build.zip</code> from the <code class="highlighter-rouge">out</code> directory into your offline machine that has a display and a web browser.</li>
-  <li>With the offline app generation there was also a sha256 checksum generated into <code class="highlighter-rouge">checksum.md</code> into the root of your repo on your online computer. On your offline machine you should check the integrity of the transferred zip file now. On Linux, <code class="highlighter-rouge">sha256sum offline-build.zip</code>. If you are posh enough to have an offline Mac it goes <code class="highlighter-rouge">shasum -a 256 offline-build.zip</code>.</li>
-  <li>Unzip the offline build and enter the directory.</li>
-  <li>Open index.html in a web browser.</li>
-  <li>If you haven’t already, generate your encrypted seed and decrypt it into your clipboard now - as described above.</li>
-  <li>Paste your seed into the input field in the web app and click “Generate” to collect your receiving address or print your paper wallet.</li>
-</ul>
-
-<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity1.jpg" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity1.jpg" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
-
-<p><em>Image: IOTA paper wallet - Your seed is in the left &amp; upper parts, your receiving address in the right &amp; bottom parts.</em></p>
-
-<hr />
-
-<p>The receiving address is public and it’s the only information that has to leave your offline device. You can use it to check your balance from an online machine via <a rel="noopener" target="_blank" href="http://iota.cool/">an address explorer</a>. This way your storage device doesn’t need to connect to the internet until you want to send a transaction.</p>
-
-<p><em>More technically:</em> This is a third-party app that uses the <a rel="noopener" target="_blank" href="https://github.com/iotaledger/iota.lib.js/">IOTA JavaScript library</a>’s <code class="highlighter-rouge">getNewAddress</code> method to generate the receiving address from a seed on an offline device. <a rel="noopener" target="_blank" href="https://github.com/arancauchi/IOTA-Paper-Wallet/blob/7d6c86e6ab8e9382b92e77f8e2b861a5122fdf02/js/iota.js">Here</a> is the lib in the paper wallet app, <a rel="noopener" target="_blank" href="https://github.com/iotaledger/iota.lib.js/blob/master/dist/iota.js">here</a> on IOTA’s Github - so that you can do a <code class="highlighter-rouge">quickdiff.com</code>. If you are paranoid about using an app the code of which you won’t read, there is a simplified tutorial version that doesn’t require node on <a rel="noopener" target="_blank" href="https://github.com/domschiener/iota-address-generator">https://github.com/domschiener/iota-address-generator</a>, which is linked from <a rel="noopener" target="_blank" href="https://learn.iota.org/tutorial/generating-addresses-learn-the-basics">the official basic tutorial on learn.iota.org</a>.</p>
-
-<h3 id="where-to-learn-more-on-how-to-store-iota">Where to learn more on how to store IOTA</h3>
-
-<ul>
-  <li>IOTA has a good and very active subreddit <a rel="noopener" target="_blank" href="https://www.reddit.com/r/Iota/">r/iota</a>. The developers are on Reddit and hold AMAs regularly. Technical questions are welcome.</li>
-  <li>For traders, <a rel="noopener" target="_blank" href="https://www.reddit.com/r/IOTAmarkets/">IOTAmarkets</a> is also very lively.</li>
-  <li>The IOTA official blog lives at <a rel="noopener" target="_blank" href="https://medium.com/iotatangle">https://medium.com/iotatangle</a>.</li>
-  <li><a rel="noopener" target="_blank" href="http://iota.cool/">iota.cool is the IOTA address explorer</a>.</li>
-  <li>There is a neat <a rel="noopener" target="_blank" href="https://tangle.blox.pm">tangle visualizer at https://tangle.blox.pm</a></li>
-</ul>
-
-<hr />
-
-<p><em>Thanks /u/2t6vFAdRMsRl and /u/MrStormLars for contributing good ideas.</em></p>
-
-          </div>
-          <hr>
-          <div class="">
-            <strong>
-              The information in this article comes as it is without any guarantees. You are responsible for your own security.
-            </strong>
-          </div>
-          <hr>
-
-
-
-        </article>
-    </div>
-    <div class="four columns nomargintop">
-      <div class="text-center"> <a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"> <amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"> </amp-img></a></div><br>
-      <div class="share">
-        <span class="doge-share"></span>
-<span class="share-cta">PLZ SHARE THIS POST</span>
-<ul class="social share">
-  <li>
-    <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read How to secure your IOTA wallet and migrate from Light Wallet to Trinity  at https://www.altcointrading.net"></amp-social-share>
-  </li>
-  <li>
-    <amp-social-share type="twitter" width="40" height="40"
-    data-param-text="Just read How to secure your IOTA wallet and migrate from Light Wallet to Trinity by @altcointrading_ at altcointrading.net"></amp-social-share>
-  </li>
-  <li>
-    <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read How to secure your IOTA wallet and migrate from Light Wallet to Trinity  at https://www.altcointrading.net"></amp-social-share>
-  </li>
-  <li>
-    <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read How to secure your IOTA wallet and migrate from Light Wallet to Trinity  at https://www.altcointrading.net"></amp-social-share>
-  </li>
-  <li>
-    <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read How to secure your IOTA wallet and migrate from Light Wallet to Trinity  at https://www.altcointrading.net"></amp-social-share>
-  </li>
-
-</ul>
-
-      </div>
       
 <div id="at-promo-vertical">
   <section>
@@ -1099,9 +905,195 @@ npm run build
 
 <p>&nbsp;</p>
 
-      <div class="containter-center"> <a href="hhttp://bit.ly/lnx-2020" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501307/atnet/_banner/lnx-tall_vgl0pk.jpg" alt="Ledger wallet Nano X" data-original-width="300px" data-original-height="600px" layout="responsive" width="300px" height="600px"> </amp-img></a></div>
       <p>&nbsp;</p>
-    </div>
+   </div>
+   <div class="eight columns post-content">
+       
+
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-6979812205705127"></amp-auto-ads>
+
+
+       
+       <span id="note">
+        <time datetime="2019-02-01T13:08:30+00:00">Updated 01 Feb 2019 at 13:08&nbsp;UTC&nbsp;</time>
+        <time hidden datetime="2017-09-20T00:00:00+00:00">Published 20 Sep 2017 at 00:00 UTC</time>
+       </span>
+       <h2 class="post post-main">
+          <strong>
+            How to secure your IOTA wallet and migrate from Light Wallet to Trinity
+          </strong>
+        </h2>
+        <br>
+        <article class="maincontent">
+          <div>
+            <figure class="noborder main-post-image">
+              <amp-img itemprop="image" src="/img/coins/iotabg.png" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity - Crypto Security" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px"></amp-img>
+            </figure>
+          </div>
+          <p>
+            <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
+          </p>
+          <hr>
+          <div class="securitycontent">
+            <h3 id="quick-intro-to-iota-and-tangle">Quick Intro to IOTA and Tangle</h3>
+
+<p>IOTA is a transactional and data transfer layer aiming at the Internet of Things.</p>
+
+<p>It uses a <strong>distributed ledger</strong> called <a href="/iota">Tangle</a> which scales better than blockchain. The more Tangle gets used the more efficient it becomes.</p>
+
+<p>The Tangle ledger is based on <strong>distributed technology</strong> called <strong>DAG (directed acyclic graph)</strong>. Each transaction forms its own “block” and is essentially verified by itself.</p>
+
+<p>To put your transaction through, your device has to verify two other randomly chosen older transactions in the network. This is done with a simplified version of proof-of-work. Thanks to this solution for network confirmations, transaction cost is essentially zero. (It also opens the ledger to new kinds of attacks though.)</p>
+
+<p>That in turn makes IOTA ideal for automated transactions in the IoT.</p>
+
+<p>In 2019, IOTA trading has spread widely from the initial two markets on Bitfinex and CoinSpot.</p>
+
+<h3 id="how-to-store-iota-light-wallet-and-trinity">How to store IOTA: Light Wallet and Trinity</h3>
+
+<h4 id="iota-light-wallet">IOTA Light Wallet</h4>
+
+<p>The official and until recently the most used IOTA wallet was simply a GUI for your seed, where the seed is not even generated for you - you need to do it yourself.</p>
+
+<p>That was the <strong>IOTA Light Wallet</strong>, still available from the official <a href="https://github.com/iotaledger/wallet/releases">iotaledger github</a> for Windows, Mac and Linux - but not updated in about a year.</p>
+
+<p>If you ever used the IOTA Light Wallet you will know about its perks - “Can’t connect to remote node”, “Can’t sync”, the notorious zero balance issue and more.</p>
+
+<h4 id="iota-trinity-wallet--ledger-nano-s">IOTA Trinity Wallet &amp; Ledger Nano S</h4>
+
+<p>The IOTA team has recently released a new wallet called Trinity that is in public beta at the time of writing. You can import your old seeds into it and protect them with a password which is more user-friendly. I encourage you to move some of your IOTA there (obviously, there can still be bugs).</p>
+
+<p>The Trinity wallet is also the software you will need to hold IOTA on your <a href="http://bit.ly/atnet-ledger">Ledger Nano S</a>, which is newly an option too.</p>
+
+<h5 id="how-to-migrate-from-iota-light-wallet-to-iota-trinity">How to migrate from IOTA Light Wallet to IOTA Trinity</h5>
+
+<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity1.jpg" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity1.jpg" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ol>
+  <li><strong>Download and install</strong> the Trinity wallet from the releases page on IOTA’s github: <a href="https://github.com/iotaledger/trinity-wallet/releases">github.com/iotaledger…</a></li>
+  <li><strong>Create a new default wallet</strong>: The Trinity wallet is a multi-seed vault protected by a master password. You cannot “recover” your Light Wallet address by directly importing old seed like you would do when changing Bitcoin wallets. You’ll first need to create a default wallet in the Trinity vault, set a master password and then you can start importing additional seeds into the vault.</li>
+  <li><strong>Click the add ‘Add new account’ in the left sidebar of Trinity</strong>: This will lead you to the interface where you can insert your seed.</li>
+  <li><strong>Submit your old seeds</strong>: Copy-pasting is disabled for security reasons. You get the option to drag and drop a text file that contains your seed but for me that did not work, Trinity kept claiming the file’s corrupt. If this happens to you just open the text file and re-type the seed into the dialog. It will work.</li>
+  <li><strong>Check your balance</strong>: After this you should be able to see your correct balance right away.</li>
+</ol>
+
+<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity2.png" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity2.png" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="how-to-generate-iota-seed">How to Generate IOTA seed</h3>
+
+<p>IOTA seed is a string of 81 characters consisting <strong>only of uppercase latin letters and 9’s</strong> (there has to be at least one ‘9’ in the seed).</p>
+
+<p>The seed string can be absolutely anything, as long as it’s 81 characters of uppercase latin letters and 9s. There are websites that generate the seed for you but in this way you are depending on their good will of not snooping on you, so this way of seed generation shouldn’t be encouraged.</p>
+
+<p>Also, <a href="https://privsec.blog/song-lyric-passwords/">don’t be tempted to use a line from your favorite song</a>:</p>
+
+<blockquote>
+  <p>I wanted to create a short program to show that this type of password is also insecure. Using Python with a few simple libraries, I created this script that generates a password list based on a given artist. Discovering someone’s favorite band is pretty easy… that sort of thing is plastered all over social media, and it’s usually something people will provide when asked by anyone. (via <a href="https://privsec.blog/song-lyric-passwords/">privsec.blog, includes the python code</a>)</p>
+</blockquote>
+
+<p>On Linux and Mac, hands down the best option is to open up the terminal and generate a random string like this:</p>
+
+<p><code class="highlighter-rouge">cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1</code></p>
+
+<p><strong>If you want to store your seed on paper, simply write it down now and you are done here.</strong></p>
+
+<p><strong>If you want to store your IOTA seed on a computer you need to encrypt it.</strong> The best way is to encrypt the seed right after its generation, without having had the plaintext seed on your laptop at all:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 \
+ | head -n 1 | openssl enc -aes-256-cbc -salt -out paranoia.enc
+</code></pre></div></div>
+
+<p>The command above will ask you for password - choose something strong. You can verify the file is encrypted by trying <code class="highlighter-rouge">cat paranoia.enc</code>. If you want a different cipher check what’s available with <code class="highlighter-rouge">openssl list-cipher-algorithms</code>. <a href="https://crypto.stackexchange.com/questions/46559/what-are-the-chances-that-aes-256-encryption-is-cracked">Allegedly the 256bit AES is still what the US government uses to encrypt information at the Top Secret level</a>. Salt (<code class="highlighter-rouge">-salt</code>) adds strength to the encryption and makes it harder to do a dictionary attack.</p>
+
+<p>Decrypting the file on Mac goes like this:</p>
+
+<p><code class="highlighter-rouge">openssl enc -d -aes-256-cbc -in paranoia.enc | pbcopy</code></p>
+
+<p>The first part before the pipe is the decrypting, <code class="highlighter-rouge">pbcopy</code> is a command that will dump the seed into your clipboard so that the seed won’t get printed out into your terminal’s display. You should have <code class="highlighter-rouge">pbcopy</code> by default on Mac. When you open your IOTA wallet and press <code class="highlighter-rouge">Cmd+V</code> it will be the first time you are ever seeing your IOTA seed.</p>
+
+<p>This way the seed will be decrypted without creating a file on the disk for it - it will only be in the memory for a short while. It is far from bulletproof but it is better than <a href="https://discussions.apple.com/thread/7675060?start=0&amp;tstart=0">generating a plaintext file with the seed on your hard drive and then trying to securely remove it</a>.</p>
+
+<p><em>The above is also a better way rather than writing the string into a file and then encrypt it which brings up the problem with secure removal of files:</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1 &gt;&gt; testfilename
+openssl enc -aes-256-cbc -salt -in testfilename -out file.enc
+</code></pre></div></div>
+
+<p><strong>Copying into clipboard on a Linux laptop:</strong></p>
+
+<p>On Linux (with display) you will need the <code class="highlighter-rouge">xclip</code> package. To get to the clipboard available from <code class="highlighter-rouge">CTRL+V</code> do this:</p>
+
+<p><code class="highlighter-rouge">openssl enc -d -aes-256-cbc -in paranoia.enc | xclip -sel clip</code></p>
+
+<h3 id="iota-offline-wallet-true-cold-storage">IOTA offline wallet (true cold storage)</h3>
+
+<p>As mentioned before, IOTA is now supported by <a href="http://bit.ly/atnet-ledger">Ledger Nano S</a> devices. The community sometimes calls Ledger the ‘cold storage’ - nonetheless, hardware wallets are a black box, you don’t know what’s in the hardware or whether there are vulnerabilities in the code. If you are a somewhat confident command line user, I encourage you to take more charge of your crypto holdings.</p>
+
+<p>The previous section about generating the IOTA seed can be upgraded into a cold storage solution if it’s done on an air-gapped laptop or a Raspberry Pi: a clean, secure device that is not connected to the internet and when it has ever been, it was to download packages from official repos and sync blockchains - not to watch hentai from dodgy servers with malware in ads.</p>
+
+<p><strong>IOTA GUI wallet: Generating receiving address online</strong></p>
+
+<p>You do need an internet connection to install the IOTA wallet (the GUI) and to login and see your receiving address but the seed generation via command line doesn’t need internet at all. If you have a separate device for coins and go offline for the generation, then open your wallet and copy your address in the Receive tab and <strong>move that address only</strong> to your computer for normal daily use, and only connect to the internet on your storage computer to check balances when withdrawing, that’s reasonably safe.</p>
+
+<p><strong>Even colder version - IOTA Paper Wallet: Generating IOTA receiving address offline</strong></p>
+
+<p>There is also this offline tool for IOTA paper wallet generation <a href="https://github.com/arancauchi/IOTA-Paper-Wallet">by /u/mothermole1 on Github</a>. You’ll need an online computer that can run nodejs apps to download the zip from Github. After unzipping generate the offline app - for Linux and Mac:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd IOTA-Paper-Wallet
+rm out/*
+npm install
+npm run build
+</code></pre></div></div>
+
+<p>Now for the work on your offline device:</p>
+
+<ul>
+  <li>Safely transfer the generated <code class="highlighter-rouge">offline-build.zip</code> from the <code class="highlighter-rouge">out</code> directory into your offline machine that has a display and a web browser.</li>
+  <li>With the offline app generation there was also a sha256 checksum generated into <code class="highlighter-rouge">checksum.md</code> into the root of your repo on your online computer. On your offline machine you should check the integrity of the transferred zip file now. On Linux, <code class="highlighter-rouge">sha256sum offline-build.zip</code>. If you are posh enough to have an offline Mac it goes <code class="highlighter-rouge">shasum -a 256 offline-build.zip</code>.</li>
+  <li>Unzip the offline build and enter the directory.</li>
+  <li>Open index.html in a web browser.</li>
+  <li>If you haven’t already, generate your encrypted seed and decrypt it into your clipboard now - as described above.</li>
+  <li>Paste your seed into the input field in the web app and click “Generate” to collect your receiving address or print your paper wallet.</li>
+</ul>
+
+<p><a target="_blank" href="https://www.altcointrading.net/features/iota/trinity1.jpg" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/iota/trinity1.jpg" alt="How to secure your IOTA wallet and migrate from Light Wallet to Trinity" title="AltcoinTrading.NET - How to secure your IOTA wallet and migrate from Light Wallet to Trinity" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><em>Image: IOTA paper wallet - Your seed is in the left &amp; upper parts, your receiving address in the right &amp; bottom parts.</em></p>
+
+<hr />
+
+<p>The receiving address is public and it’s the only information that has to leave your offline device. You can use it to check your balance from an online machine via <a href="http://iota.cool/">an address explorer</a>. This way your storage device doesn’t need to connect to the internet until you want to send a transaction.</p>
+
+<p><em>More technically:</em> This is a third-party app that uses the <a href="https://github.com/iotaledger/iota.lib.js/">IOTA JavaScript library</a>’s <code class="highlighter-rouge">getNewAddress</code> method to generate the receiving address from a seed on an offline device. <a href="https://github.com/arancauchi/IOTA-Paper-Wallet/blob/7d6c86e6ab8e9382b92e77f8e2b861a5122fdf02/js/iota.js">Here</a> is the lib in the paper wallet app, <a href="https://github.com/iotaledger/iota.lib.js/blob/master/dist/iota.js">here</a> on IOTA’s Github - so that you can do a <code class="highlighter-rouge">quickdiff.com</code>. If you are paranoid about using an app the code of which you won’t read, there is a simplified tutorial version that doesn’t require node on <a href="https://github.com/domschiener/iota-address-generator">https://github.com/domschiener/iota-address-generator</a>, which is linked from <a href="https://learn.iota.org/tutorial/generating-addresses-learn-the-basics">the official basic tutorial on learn.iota.org</a>.</p>
+
+<h3 id="where-to-learn-more-on-how-to-store-iota">Where to learn more on how to store IOTA</h3>
+
+<ul>
+  <li>IOTA has a good and very active subreddit <a href="https://www.reddit.com/r/Iota/">r/iota</a>. The developers are on Reddit and hold AMAs regularly. Technical questions are welcome.</li>
+  <li>For traders, <a href="https://www.reddit.com/r/IOTAmarkets/">IOTAmarkets</a> is also very lively.</li>
+  <li>The IOTA official blog lives at <a href="https://medium.com/iotatangle">https://medium.com/iotatangle</a>.</li>
+  <li><a href="http://iota.cool/">iota.cool is the IOTA address explorer</a>.</li>
+  <li>There is a neat <a href="https://tangle.blox.pm">tangle visualizer at https://tangle.blox.pm</a></li>
+</ul>
+
+<hr />
+
+<p><em>Thanks /u/2t6vFAdRMsRl and /u/MrStormLars for contributing good ideas.</em></p>
+
+          </div>
+          <hr>
+          <div class="">
+            <strong>
+              The information in this article comes as it is without any guarantees. Your keys, your crypto, your responsibility.
+            </strong>
+          </div>
+          <hr>
+
+
+
+        </article>
+    </div><!--8-->
+
   </div>
 </div>
 

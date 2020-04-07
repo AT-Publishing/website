@@ -1,31 +1,11 @@
 ---
-stories: true
-genres: Blog
-published: true
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-comments: true
-identifier: toolssecurity19
-
-guest: false
-
-layout: security
-title: "List of tools for scam detection"
-description: "List of browser tools to up your security and avoid fraudulent websites while online."
-tags:
-- "crypto-malware"
-- "crypto-security"
-- "security-tools"
-- "malware-detection"
-- "cryptojacking"
-- "twitter"
-- "minerblock"
-categories:
-- "software"
-slug: tools
+layout:       security
+title:        "List of tools for scam detection"
+description:  "List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto."
+tags:           [crypto-malware, cryptojacking, cyber-security]
+categories:     [primer]
+promoting:      entertainment
+slug:           tools
 
 image:
 - "/sec/tools/security-tools-browsers.jpeg"

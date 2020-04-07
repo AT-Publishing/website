@@ -4,45 +4,41 @@ layout: default-news
 
 <div class="container" id="altcointrading-security">
   <div class="row">
-
+   <div class="four columns nomargintop">
+      {% include promoting-tall.html %}
+      {% include sidebar-post.html %}
+      <p>&nbsp;</p>
+   </div>
    <div class="eight columns post-content">
-
-     <div class="shifted-left">
-       {{ site.ledger_728-90_animated }}
-     </div>
+       {% include promoting-horizontal.html %}
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
-
-
        <span id="note">
-         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
-         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
+        {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Updated {{ page.last_modified_at | date: "%d %b %Y at %R" }}&nbsp;UTC&nbsp;</time>{% endif %}
+        <time hidden datetime="{{ page.date | date_to_xmlschema }}">Published {{ page.date | date: "%d %b %Y at %R" }} UTC</time>
        </span>
-       <h4 class="post post-main">
+       <h2 class="post post-main">
           <strong>
-            {{ page.title }}  {% if page.guest %}<small class="guest"> - Guest post by {{ page.author_name }}</small>{% endif %}
+            {{ page.title }}
           </strong>
-        </h4>
+        </h2>
         <br>
         <article class="maincontent">
           <div>
             <figure class="noborder main-post-image">
-              <amp-img itemprop="image" src="{{ page.image[0] }}" alt="{{ page.title }} - Altcoin Trading Blog"
-              layout="responsive" data-original-width="720px" data-original-height="360px"
-              width="720px" height="360px">
-              </amp-img>
+              <amp-img itemprop="image" src="{{ page.image[0] }}" alt="{{ page.title }} - Crypto Security" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px"></amp-img>
             </figure>
           </div>
           <p>
-              <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
+            <a target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
           </p>
           <hr>
           <div class="securitycontent">
-            {{ content | replace: '<a href="http', '<a rel="noopener" target="_blank" href="http' }}
+            {{ content }}
           </div>
           <hr>
           <div class="">
             <strong>
-              The information in this article comes as it is without any guarantees. You are responsible for your own security.
+              The information in this article comes as it is without any guarantees. Your keys, your crypto, your responsibility.
             </strong>
           </div>
           <hr>
@@ -50,15 +46,7 @@ layout: default-news
 
 
         </article>
-    </div>
-    <div class="four columns nomargintop">
-      {{ site.vtoro }}
-      <div class="share">
-        {% include dogeshare.html %}
-      </div>
-      {% include sidebar-post.html %}
-      {{ site.lnx_300-600 }}
-      <p>&nbsp;</p>
-    </div>
+    </div><!--8-->
+
   </div>
 </div>

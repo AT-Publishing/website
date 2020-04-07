@@ -1,4 +1,4 @@
-I"à!<p>One thing we are probably not going to stop seeing anytime soon in the crypto space is phishing: random people finding out your email address belongs to someone who owns cryptocurrencies and might have some on an exchange, localbitcoins or at blockchain.info. While a 2FA is on those places is a plausible protection, there is a fairly easy way to avoid reusing email addresses completely.</p>
+I""<p>One thing we are probably not going to stop seeing anytime soon in the crypto space is phishing: random people finding out your email address belongs to someone who owns cryptocurrencies and might have some on an exchange, localbitcoins or at blockchain.info. While a 2FA is on those places is a plausible protection, there is a fairly easy way to avoid reusing email addresses completely.</p>
 
 <p>To do that you will need to buy your own domain name but there is no need to configure your own email server or develop any kind of custom mail server solution. And you shouldnâ€™t, unless you have a team of people who know how to do that properly. If you are just bootstrapping something yourself, chances are you will not get the same level of security as you can get with something that has been built as a business.</p>
 
@@ -16,7 +16,7 @@
 
 <h4 id="the-setup">The Setup</h4>
 
-<p><a target="_blank" href="https://www.altcointrading.net/sec/lambomail.jpg" title="AltcoinTrading.NET - Easy way to avoid email address reuse"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/sec/lambomail.jpg" alt="Easy way to avoid email address reuse" title="AltcoinTrading.NET - Easy way to avoid email address reuse" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/sec/lambomail.jpg" title="AltcoinTrading.NET - How to avoid email address reuse with a single inbox"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/sec/lambomail.jpg" alt="How to avoid email address reuse with a single inbox" title="AltcoinTrading.NET - How to avoid email address reuse with a single inbox" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <ol>
   <li>Pick a domain name for your email - <code class="highlighter-rouge">winningbig.com</code> or <code class="highlighter-rouge">wenmoonsir.com</code>, sadly <code class="highlighter-rouge">lambomail.com</code> is already taken. As <a href="http://disq.us/p/1qtwc4p">Cernej Kocour</a> points out in the comments below, the domain should ideally be brand new as in never used before. If it was used for spam in the past, emails from there will get blocked and sent to spam too often. You can find out about previous owners of a domain in its <a href="http://www.hosterstats.com/historicaldns.php?domain=bitcoin.com">Whois History</a>.</li>

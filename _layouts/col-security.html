@@ -4,29 +4,30 @@ layout: default
 
   <div class="container">
     <div class="row">
-
-     <div class="twelve columns">
-
-       <p>{{ site.3commas_long }}</p>
-
-       <h3 class="post">
-        <strong>{{ page.title | upcase }}</strong>
-       </h3>
-       <h4>
-         <small>{{ page.description }}</small>
-       </h4>
-      <hr>
-
-      <article class="maincontent col col-security">
-        <div class="intro">
-           {{ content }}
-        </div>
-        <br>
-       {% include lps/security-feed.html %}
-      </article>
-
-
+      <div class="three columns">
+        <span class="note">Crypto Security in Practice:</span>
+        <ul class="popular">
+          <li class="popular-item">
+            <a href="/bitfinex-app/"><b>#HowTo</b> Quick hack to configure the Bitfinex App for secure trading</a>
+          </li>
+        </ul>
       </div>
-
+      <div class="nine columns">
+        {{ site.bfx_long }}
+      </div>
+    </div>
+    <div class="row">
+     <div class="twelve columns">
+       <h2 class="post"><strong>{{ page.title | capitalize }}</strong></h2>
+        <article class="maincontent col col-security">
+          <div class="intro">
+             {{ page.description }}
+             &nbsp;
+             {{ content }}
+          </div>
+          <br>
+         {% include lps/security-feed.html %}
+        </article>
+      </div>
     </div>
   </div>

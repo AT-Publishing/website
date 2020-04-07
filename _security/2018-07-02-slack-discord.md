@@ -1,35 +1,14 @@
 ---
-stories: true
-genres: Blog
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
+author:         https://reddit.com/u/karlvonbahnhof
+author_name:    KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
-
-published: true
-comments: true
-identifier: discordjul18
-
-guest: false
-
-layout: security
-title: "MacOS Malware Targeting Crypto Community, Spreading Through Admin Impostors"
-description: "The variants of the particular malware will change but phishing and impostors are not going anywhere."
-tags:
-- "crypto-malware"
-- "crypto-security"
-- "macos-malware"
-- "discord-impostors"
-- "slack-impostors"
-- "phishing"
-- "threat"
-- "trendmicro"
-- "isc"
-- "sans"
-- "SANS-Internet-Storm-Center"
-categories:
-- "software"
-slug: impostors
+layout:         security
+title:          "MacOS Malware Targeting Crypto Community, Spreading Through Admin Impostors"
+description:    "The variants of the particular malware will change but phishing and impostors are not going anywhere."
+tags:           [crypto-malware, ghostmining, cyber-security]
+categories:     [in-the-news]
+promoting:      entertainment
+slug:           impostors
 
 image:
 - "/editorial/tagged/altcointrading-resources.png"
@@ -41,8 +20,6 @@ date: 2018-07-03 03:02:00 -0300
 about:
  name: "Crypto community MacOS malware"
  sameas: ["https://isc.sans.edu/diary/23816"]
-
-#@sans_isc SANS Internet Storm Center @remco_verhoef
 ---
 
 The [SANS Internet Storm Center published a report on 29th June 2018](https://isc.sans.edu/diary/23816) analyzing a new malware that targets the cryptocurrency community. This time the malware targets MacOS, at this stage it is not very sophisticated but as affordable and easy to use as it is, a lot of people will surely try and improve on it.

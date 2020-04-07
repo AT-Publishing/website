@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 07 Apr 2020 03:55:33 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2020 03:55:33 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2020 07:26:54 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2020 07:26:54 +0000</lastBuildDate>
 
     
       <item>
@@ -40,15 +40,24 @@
         <category>iota</category>
         
 
-        <category>iota-wallet</category>
+        <category>iota-trinity</category>
         
 
-        <category>iota-security</category>
+        <category>altcoin-wallet</category>
+        
+
+        <category>hot-wallet</category>
+        
+
+        <category>crypto-storage</category>
+        
+
+        <category>wallet-security</category>
         
         
         <category>homelab</category>
         
-        <category>wallets</category>
+        <category>tutorial</category>
         
       </item>
     
@@ -68,17 +77,21 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/backups/</guid>
         
 
-        <category>homelab</category>
+        <category>wallet-backup</category>
         
 
-        <category>software</category>
+        <category>crypto-security</category>
+        
+
+        <category>altcoin-wallets</category>
+        
+
+        <category>bitcoin-wallets</category>
         
         
         <category>homelab</category>
         
-        <category>software</category>
-        
-        <category>wallets</category>
+        <category>primer</category>
         
       </item>
     
@@ -98,13 +111,15 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/device-management/</guid>
         
 
-        <category>homelab</category>
+        <category>crypto-storage-management</category>
         
 
-        <category>hardware</category>
+        <category>crypto-opsec</category>
         
         
-        <category>homelab</category>
+        <category>primer</category>
+        
+        <category>management</category>
         
       </item>
     
@@ -136,39 +151,44 @@
     
       <item>
 
-        <title>Storing cryptocurrency wallets on virtual machines</title>
-        <description>Guide on how to use Virtualbox to store your crypto, and how safe it is for new cryptocoin wallets or forks that are not trusted.</description>
+        <title>Virtual Machine Crypto Wallets: Should You Bother?</title>
+        <description>When does it make sense to put a crypto wallet on a virtual machine? Includes a full walkthrough tutorial on how to set up a cryptocurrency wallet in Virtualbox.</description>
 
         <pubDate>Fri, 15 Dec 2017 05:22:00 +0000</pubDate>
 
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/bagholders.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1586242335/atnet/cybersecurity/black-laptop-beside-audio-mixer-set-919734_ae2uzl.jpg" medium="image" />
 
         <link>https://www.altcointrading.net/security/virtualbox/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/security/virtualbox/</guid>
         
 
-        <category>bitcoin-fork</category>
+        <category>crypto-wallets</category>
         
 
-        <category>virtualbox</category>
+        <category>virtual-machine</category>
         
 
-        <category>altcoin-wallets</category>
+        <category>cold-storage</category>
         
 
-        <category>software</category>
+        <category>wallet-security</category>
+        
+
+        <category>crypto-security</category>
         
         
-        <category>software</category>
+        <category>homelab</category>
+        
+        <category>tutorial</category>
         
       </item>
     
       <item>
 
-        <title>Easy way to avoid email address reuse</title>
+        <title>How to avoid email address reuse with a single inbox</title>
         <description>A quick way to setup your mailbox in such a way that you will not have to reuse your email address again.</description>
 
         <pubDate>Thu, 22 Feb 2018 14:41:00 +0000</pubDate>
@@ -182,25 +202,27 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/email-reuse/</guid>
         
 
-        <category>portfolio-tracking</category>
+        <category>tutanota</category>
         
 
-        <category>third-party-apps</category>
+        <category>email-aliases</category>
         
 
-        <category>email-reuse</category>
+        <category>crypto-security</category>
         
 
-        <category>security</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>tutorial</category>
+        
+        <category>management</category>
         
       </item>
     
       <item>
 
-        <title>How to get your crypto stolen</title>
+        <title>2018 AKA The Year When Crypto-focused Malware Became The New Standard</title>
         <description>And a bonus: If you're an app developer, best way to get paid in crypto.</description>
 
         <pubDate>Tue, 17 Apr 2018 13:51:00 +0000</pubDate>
@@ -238,10 +260,10 @@
         <category>securelist</category>
         
 
-        <category>security</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
@@ -299,7 +321,7 @@
 
         <pubDate>Mon, 04 Jun 2018 19:02:00 +0000</pubDate>
 
-        <author>KarlVonBahnhof@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
         <media:content url="https://www.altcointrading.net/features/2018/nocturnal.png" medium="image" />
@@ -311,31 +333,13 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-trojan</category>
+        <category>cryptojacking</category>
         
 
-        <category>cryptosecurity</category>
-        
-
-        <category>nocturnal-stealer</category>
-        
-
-        <category>information-stealer</category>
-        
-
-        <category>nocturnal</category>
-        
-
-        <category>threatpost</category>
-        
-
-        <category>proofpoint</category>
-        
-
-        <category>threatpost</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
@@ -358,37 +362,13 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
+        <category>ghostmining</category>
         
 
-        <category>macos-malware</category>
-        
-
-        <category>discord-impostors</category>
-        
-
-        <category>slack-impostors</category>
-        
-
-        <category>phishing</category>
-        
-
-        <category>threat</category>
-        
-
-        <category>trendmicro</category>
-        
-
-        <category>isc</category>
-        
-
-        <category>sans</category>
-        
-
-        <category>SANS-Internet-Storm-Center</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
@@ -411,31 +391,13 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>macos-malware</category>
-        
-
-        <category>phishing</category>
-        
-
-        <category>threat</category>
-        
-
         <category>cryptojacking</category>
         
 
-        <category>isc</category>
-        
-
-        <category>sans</category>
-        
-
-        <category>pixelprivacy</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>primer</category>
         
       </item>
     
@@ -446,7 +408,7 @@
 
         <pubDate>Wed, 19 Dec 2018 03:02:00 +0000</pubDate>
 
-        <author>KarlVonBahnhof@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
         <media:content url="https://www.altcointrading.net/editorial/twitter-memes.jpeg" medium="image" />
@@ -458,42 +420,24 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>macos-malware</category>
-        
-
-        <category>phishing</category>
-        
-
-        <category>cryptostealers</category>
-        
-
         <category>cryptojacking</category>
         
 
-        <category>twitter</category>
-        
-
-        <category>malware-distribution</category>
-        
-
-        <category>crypto-security</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
       <item>
 
         <title>List of tools for scam detection</title>
-        <description>List of browser tools to up your security and avoid fraudulent websites while online.</description>
+        <description>List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto.</description>
 
         <pubDate>Fri, 11 Jan 2019 05:02:00 +0000</pubDate>
 
-        <author>KarlVonBahnhof@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
         <media:content url="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" medium="image" />
@@ -505,25 +449,13 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>security-tools</category>
-        
-
-        <category>malware-detection</category>
-        
-
         <category>cryptojacking</category>
         
 
-        <category>twitter</category>
-        
-
-        <category>minerblock</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>primer</category>
         
       </item>
     
@@ -534,7 +466,7 @@
 
         <pubDate>Mon, 04 Feb 2019 04:01:00 +0000</pubDate>
 
-        <author>KarlVonBahnhof@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
         <media:content url="https://www.altcointrading.net/editorial/cookies.jpeg" medium="image" />
@@ -546,36 +478,24 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>security-tools</category>
-        
-
-        <category>malware-detection</category>
-        
-
         <category>cryptojacking</category>
         
 
-        <category>twitter</category>
-        
-
-        <category>palo-alto-networks</category>
+        <category>cyber-security</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
       <item>
 
-        <title>Security Threats for Crypto Traders and Hodlers to Expect in 2020</title>
+        <title>Security Threats for Crypto Traders in 2020</title>
         <description>What kind of threats can we as crypto traders and hodlers expect in 2020 and what are the ways to protect our holdings?</description>
 
         <pubDate>Tue, 31 Dec 2019 03:21:00 +0000</pubDate>
 
-        <author>KarlVonBahnhof@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
         <media:content url="https://www.altcointrading.net/editorial/unsplash3/security-2020.jpg" medium="image" />
@@ -587,19 +507,13 @@
         <category>crypto-malware</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>security-tools</category>
-        
-
-        <category>malware-detection</category>
-        
-
         <category>cryptojacking</category>
         
+
+        <category>cyber-security</category>
         
-        <category>software</category>
+        
+        <category>in-the-news</category>
         
       </item>
     

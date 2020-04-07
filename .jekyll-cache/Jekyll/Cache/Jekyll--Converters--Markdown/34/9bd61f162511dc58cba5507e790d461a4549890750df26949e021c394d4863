@@ -1,10 +1,14 @@
-I"�<<h4 id="what-is-iota-and-directed-acyclic-graph">What is IOTA and directed acyclic graph</h4>
+I"�<<h3 id="quick-intro-to-iota-and-tangle">Quick Intro to IOTA and Tangle</h3>
 
-<p>IOTA is a transactional and data transfer layer aiming at the Internet of Things. It uses a distributed ledger called <a href="https://www.altcointrading.net/iota">Tangle</a> which scales better than Blockchain - the more it is used the more efficient it gets.</p>
+<p>IOTA is a transactional and data transfer layer aiming at the Internet of Things.</p>
 
-<p>The tangle ledger is based on <strong>distributed technology</strong> called DAG (directed acyclic graph). Each transaction forms its own “block” and is essentially verified by itself. In order to put your transaction through you have to verify two other randomly chosen older transactions in the network. This is done with help of a very simple version of proof-of-work but the effort the POW algo needs to execute is so small that the transaction cost is essentially zero.</p>
+<p>It uses a <strong>distributed ledger</strong> called <a href="/iota">Tangle</a> which scales better than blockchain. The more Tangle gets used the more efficient it becomes.</p>
 
-<p>Thanks to this, through IOTA people can transfer money without any fees. This means that even tiny nanopayments can be made with IOTA - ideal for automated transactions in the IoT.</p>
+<p>The Tangle ledger is based on <strong>distributed technology</strong> called <strong>DAG (directed acyclic graph)</strong>. Each transaction forms its own “block” and is essentially verified by itself.</p>
+
+<p>To put your transaction through, your device has to verify two other randomly chosen older transactions in the network. This is done with a simplified version of proof-of-work. Thanks to this solution for network confirmations, transaction cost is essentially zero. (It also opens the ledger to new kinds of attacks though.)</p>
+
+<p>That in turn makes IOTA ideal for automated transactions in the IoT.</p>
 
 <p>In 2019, IOTA trading has spread widely from the initial two markets on Bitfinex and CoinSpot.</p>
 
