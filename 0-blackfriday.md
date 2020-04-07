@@ -12,9 +12,19 @@ author_name: 'GenericShill'
 author: 'mailto:jmt@altcointrading.net'
 ---
 
+**Jump to:**
+
+* [TradingView Black Friday Price Breakdown](#tradingview-black-friday-price)
+* [Special Offers - Black Friday before Black Friday](#special)
+* [Past Black Friday Sales 2019](#past2019)
+* [Past Black Friday Sales 2018](#past2018)
+* [Anticipated Black Friday Deals 2020](#anticipated)
+
+_______
+
 ## Black Friday is over, long live Black Friday
 
-Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Mid-Season Discounts** That are exacerbated by the **COVID-19 outbreak** that has everyone stay at home and online shop.
+Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Mid-Season Sales** that are supported by the **COVID-19 outbreak** which has everyone stay at home and online shop.
 
 ## Ledger Wallet Discount Codes - March 2020 Ledger OFF 20-25%
 
@@ -38,6 +48,42 @@ It's also useful to have a separate wallet for the darknetmarkets. Speaking pure
 
 &nbsp;
 
+<div id="past2019"></div>
+
+## Past Black Friday Offers - What we got in 2019
+
+<div id="tradingview-black-friday-price"></div>
+
+### TradingView Black Friday Price - 40-60% OFF on yearly plans
+
+{{ site.tv_1200-628 }}
+
+TradingView Black Friday offer is pretty regular year after year, and 2019 was no exception.
+The yearly TradingView plans get a Black Friday discount in the range of 40-60% when paid yearly.
+
+**TradingView Black Friday Price 2019 Cost Breakdown:**
+
+* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year ~ **9 USD/month**
+  - 2 charts per tab, 5 saved layouts, 5 indicators per layout
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year ~ **14.95 USD/month**
+  - 2 charts per tab, 10 saved layouts, 10 indicators per layout
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year ~ **23.98 USD/month**
+  - 2 charts per tab, unlimited saved layouts, 25 indicators per layout
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+
+The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts.
+
+Conditions to get the TradingView Black Friday price discount:
+
+* Paid in a single instalment for the whole year's worth.
+* Payments are always available via Paypal, most debit cards and some credit cards.
+* Bitcoin payments are available for some of the plans.
+
+You can always <a>start with <a href="http://bit.ly/tv-btcusd-2020" rel="nofollow">TradingView FREE plan</a></b> and if you keep using it, the user interface <b>will nag you with the Black Friday offers</b> once they open this year.
+  
+
 
 
 ## BillFodl
@@ -53,20 +99,6 @@ They also have bundle packs in case you are ultra paranoid and want to split you
 Billfodl wallets ship from the US but only show prices before tax on their e-shop, if you're elsewhere you might need to add the duties to your bill.
 
 <a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl Sale</a>
-
-
-**Jump to:**
-
-* [Special Offers - Black Friday before Black Friday](#special)
-* [Past Black Friday Sales 2019](#past2019)
-* [Past Black Friday Sales 2018](#past2018)
-* [Anticipated Black Friday Deals 2020](#anticipated)
-
-
-
-<div id="past2019"></div>
-
-## Past Black Friday Offers - What we got in 2019
 
 ## AirVPN Black Friday up to 74% OFF
 
@@ -106,33 +138,6 @@ All individual products and all available bundles are marked down 30% through th
 {{ site.ledger-bf2019 }}
 
 In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during **Black Friday 2018** and the previous years. Successful campaigns are most likely to repeat (or rhyme) in November 2019.
-
-### TradingView Black Friday - 40-60% OFF on yearly plans
-
-<a rel="nofollow"  class="button" href="http://bit.ly/tv-bg2019">See the TradingView PRO plans pricing</a>
-
-{{ site.tv_1200-628 }}
-
-Exactly just as anticipated, the TradingView Black Friday offer is the yearly plan discount in the range of 40-60% when paid yearly.
-
-**Cost breakdown of the TradingView Black Friday 2019 offer for you:**
-
-* PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year ~ **9 USD/month**
-  - 2 charts per tab, 5 saved layouts, 5 indicators per layout
-  - **[GO TO OFFER](http://bit.ly/tv-btcusd-2020)**
-* PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year ~ **14.95 USD/month**
-  - 2 charts per tab, 10 saved layouts, 10 indicators per layout
-  - **[GO TO OFFER](http://bit.ly/tv-btcusd-2020)**
-* PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year ~ **23.98 USD/month**
-  - 2 charts per tab, unlimited saved layouts, 25 indicators per layout
-  - **[GO TO OFFER](http://bit.ly/tv-btcusd-2020)**
-
-The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
-
-<b>Still not sure?</b> Start with <a href="http://bit.ly/tv-btcusd-2020" rel="nofollow">TradingView FREE plan</a>. You have until <b>Friday 29th</b> to upgrade if you want the Black Friday discount.
-
-<a rel="nofollow"  class="button" href="http://bit.ly/tv-btcusd-2020">See the TradingView PRO plans pricing</a>
-  
 
 
 <div id="special"></div>
