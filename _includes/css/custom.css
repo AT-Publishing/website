@@ -230,6 +230,7 @@ h5.post small,.top2 figure,
 .soften {
   opacity: 50%;
 }
+.col-security .tag {display: inline-block;}
 
 
 #article-ad-cta {

@@ -2,7 +2,7 @@
 layout:       security
 title:        "Virtual Machine Crypto Wallets: Should You Bother?"
 description:  "When does it make sense to put a crypto wallet on a virtual machine? Includes a full walkthrough tutorial on how to set up a cryptocurrency wallet in Virtualbox."
-tags:           [crypto-wallets, virtual-machine, cold-storage, wallet-security, crypto-security]
+tags:           [crypto-wallets, virtual-machine, cold-storage, wallet-security, crypto-security, android-wallets]
 categories:     [homelab, tutorial]
 promoting:      entertainment
 slug:           virtualbox

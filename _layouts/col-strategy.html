@@ -52,7 +52,7 @@ layout: default
             {% assign ordered = site.strategy | sort:"orderby" %}
             {% for post in ordered %}
               <p>
-                <span class="tag lvl-{{post.orderby}}">{{post.note}}</span> <a href="{{page.url}}">{{ post.title}}</a>
+                <span class="tag lvl-{{post.orderby}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
               </p>
             {% endfor %}
 

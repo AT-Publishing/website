@@ -1,41 +1,82 @@
+{% assign items = site.security | sort:"last_modified_at" | reverse %}
+
+<section id="security-news">
+  <div class="intro">
+    <h4>From the News <b>#CyberSecurity</b></h4>
+    <p>Here you can find the bare necessities. The bits from cyber security news a cryptocurrency trader on investor should really be aware of:
+      The most common malware targeting crypto traders, the most dangerous Nigerian prince emails. the PSA's.</p>
+      <p>&nbsp;</p>
+  </div>
+  {% for post in items %}
+  {% if post.categories contains 'in-the-news' %}
+  <p>
+    <span class="tag lvl-a">IN THE NEWS</span> <a href="{{post.url}}">{{ post.title}}</a>
+  </p>
+  {% endif %}
+  {% endfor %}
+</section>
+
+<section id="security-primers">
+  <div class="intro">
+    <h4>Crypto Security Primers <b>#GoodOpsec</b></h4>
+    <p>Here you will learn about how to approach security issues that come with different types of wallets. For a practical solution, we are linking resources from elsewhere.</p>
+    <p>&nbsp;</p>
+
+  </div>
+  {% for post in items %}
+  {% if post.categories contains 'primer' %}
+  <p>
+    <span class="tag lvl-b">PRIMER</span> <a href="{{post.url}}">{{ post.title}}</a>
+  </p>
+  {% endif %}
+  {% endfor %}
+</section>
+
+<section id="security-tutorials">
+  <div class="intro">
+    <h4>Tutorials <b>#CryptoSecurity</b></h4>
+    <p>All how-to and guides where you learn how to do easy stuff which will still improve your security.</p>
+    <p>&nbsp;</p>
+
+  </div>
+  {% for post in items %}
+  {% if post.categories contains 'tutorial' %}
+  <p>
+    <span class="tag lvl-ab">TUTORIAL</span> <a href="{{post.url}}">{{ post.title}}</a>
+  </p>
+  {% endif %}
+  {% endfor %}
+</section>
+
+<section id="security-homelab">
+  <div class="intro">
+    <h4>Crypto Security Homelab <b>#YourKeysYourCoin</b></h4>
+    <p>
+      This is where the tech-heavy stuff happens. The phoney bitcoin politician who doesn't even own bitcoin, AKA Andreas Antonopoulos, would disapprove and send you to buy a black box product like Ledger.
+    </p>
+    <p>&nbsp;</p>
+
+  </div>
+  {% for post in items %}
+  {% if post.categories contains 'homelab' %}
+  <p>
+    <span class="tag lvl-c">STAY AWAY SAVE LIVES</span> <a href="{{post.url}}">{{ post.title}}</a>
+  </p>
+  {% endif %}
+  {% endfor %}
+</section>
+
+&nbsp;
+
+{{ site.tv_728-90_animated }}
+
+&nbsp;
+
+
+<h2>All Crypto Security and OPSEC Posts</h2>
+
 <section id="strategy-feed">
-{% assign items = site.security | sort:last_modified_at | reverse %}
-
-{% for post in items limit:1 %} 
-<div class="row"><!-- fucking row -->
-
-  <div class="eight columns thumb-wrap">
-      <figure class="thumb">
-        <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }} - Crypto Storage and Security News"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-        </a>
-      </figure>
-  </div><!-- fucking six -->
-  <div class="columns four"><!-- fucking six 2 -->
-    <h3>
-      <strong>
-        <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="tag custom-note">SECURITY&nbsp;PRIMERS</span>&nbsp;{{ post.title }}
-        </a>
-      </strong>
-    </h3>
-    <p>
-      <b>{{ post.description }}</b> - On {{ post.last_modified_at | date: "%d %b %Y" }}
-    </p>
-    <p>
-      <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-        Read {{ post.title }} in full >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-{% endfor %}
-
-{% for post in items offset:1 %}
+{% for post in items %}
 <div class="row"><!-- fucking row -->
 
   <div class="six columns thumb-wrap">
@@ -53,7 +94,7 @@
     <h4>
       <strong>
         <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="tag custom-note">SECURITY&nbsp;PRIMERS</span>&nbsp;{{ post.title }}
+          <span class="tag custom-note">{{ post.categories[0] | upcase }}</span>&nbsp;{{ post.title }}
         </a>
       </strong>
     </h4>
@@ -64,8 +105,8 @@
       {{ post.content | markdownify | strip_html | truncate:200 }}
     </p>
     <p>
-      <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-        Read {{ post.title }} in full >>
+      <a class="btn" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+        Read post in full >>
       </a>
     </p>
   </div><!-- fucking six2 -->

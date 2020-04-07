@@ -13,7 +13,7 @@ layout: default-news
        {% include promoting-horizontal.html %}
        {% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{% endif %}
        <span id="note">
-        {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Updated {{ page.last_modified_at | date: "%d %b %Y at %R" }}&nbsp;UTC&nbsp;</time>{% endif %}
+        {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">&middot; Update {{ page.last_modified_at | date: "%d %b %Y" }}&nbsp;</time>{% endif %}
         <time hidden datetime="{{ page.date | date_to_xmlschema }}">Published {{ page.date | date: "%d %b %Y at %R" }} UTC</time>
        </span>
        <h2 class="post post-main">
