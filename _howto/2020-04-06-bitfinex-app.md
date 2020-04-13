@@ -105,11 +105,11 @@ As you save the API key configuration, Bitfinex will show you a QR code which yo
 
 {% amp700cloud page.image[0] %}
 
-Get the Bitfinex app and install it.
+The real **Bitfinex App Store** identity (developer ID) is `Bitfinex`.
 
-The Bitfinex phone app is available from the Google Play or iTunes with the **developer ID 'Bitfinex'**.
+Get the Bitfinex app from Google Play or iTunes and install it. If you use Android, the page for the genuine Bitfinex app on Google Play should look similar to what you see on the screenshot below.
 
-Do not download cryptocurrency trading apps from unknown sources.
+Never download cryptocurrency trading apps from unknown sources.
 
 {% amp700cloud page.image[2] %}
 
