@@ -41,12 +41,15 @@ related:
 
 #### About Bitfinex (the custodial & futures crypto exchange)
 
-Bitfinex is a BVI-based exchange infamous for being hacked in August 2016. Despite the hack it managed to retain a wide user base thanks to its powerful trading interface and great mobile app.
+Bitfinex is a crypto trading platform based in British Virgin Islands as iFinex.
+
+The exchange is infamous for being hacked in August 2016. Despite the hack it managed to retain a wide user base thanks to its powerful trading interface for desktop and also its great [Bitfinex mobile app](/bitfinex-app/).
 
 * Bitfinex offers a wide range of markets denominated in USD, EUR, JPY from the fiat choices and BTC, ETH, EOS and many more for the crypto pairs.
 * Tether withdrawals are available but the markets on Bitfinex trade against USD, not Tether.
 * Margin markets are funded via a public P2P lending system. Identity verification is not needed for lending.
 * Bitfinex opened derivatives platform in September 2019.
+
 
 The user interface on Bitfinex has embedded charts with wide range of indicators for technical analysis. Charts are provided by [TradingView PRO](https://bit.ly/3dGlz3O).
 
@@ -82,3 +85,11 @@ On DeversiFi, you trade crypto directly from your [hardware or software cryptocu
 * **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
+
+#### Also see:
+
+<ul class="popular">
+  <li class="popular-item">
+    <a href="/bitfinex-app/">Quick hack to secure your Bitfinex App</a>
+  </li>
+</ul>
