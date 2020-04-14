@@ -52,6 +52,9 @@ On January 21st, Samourai Wallet released an update that makes an important step
 
 When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.
 
+{{ site.cmama_buy_long }}
+
+
 By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.
 
 One of the disadvantages though is the fact that Bitcoin's blockchain is public. In many corners of the cryptocurrency community, this is even the main reason for Monero's existence.

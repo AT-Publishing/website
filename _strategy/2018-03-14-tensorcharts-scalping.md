@@ -1,27 +1,22 @@
 ---
 # scalping strategy pdf
-orderby: c
-note: 'Bitcoin Scalping'
+orderby:      c
+note:         Bitcoin Scalping
+promoting:    entertainment
 
-comments: true
-identifier: tensorchartsmar142018
+layout:       strategy
+title:        "Scalping Crypto"
+description:  "Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts."
 
-layout: strategy
-title: "Scalping Crypto"
-description: "Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts."
-
-categories: ["trading"]
-tags: [ "tensorcharts", "orderbook-heatmap", "scalping", "cryptocurrency-trading"]
-
-slug: "scalping/"
-cz: false
+categories:   ["trading"]
+tags:         [ "tensorcharts", "orderbook-heatmap", "scalping", "cryptocurrency-trading"]
+slug:         "scalping/"
+date: 2018-03-14 23:31:00 -0300
 
 image: ["https://res.cloudinary.com/atnetcloud/image/upload/v1584520187/atnet/strategy/altcointrading-strategy_jf6rbn.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520217/atnet/strategy/tensorcharts-trap_jzj0wm.png", "https://res.cloudinary.com/atnetcloud/image/upload/v1584520246/atnet/strategy/tensorcharts-elements_h8ooji.jpg"]
 
-date: 2018-03-14 23:31:00 -0300
-
 about:
- name: "scalping trading"
+ name: "scalping"
  sameas: ["https://en.wikipedia.org/wiki/Scalping_(trading)"]
 
 author: "https://twitter.com/tradingfanbois"

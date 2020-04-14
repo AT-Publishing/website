@@ -49,6 +49,8 @@ What would we do without crypto wallets? They keep our coins safe and untouchabl
 
 Since the inception of Bitcoin, wallets have always been an integral part of the cryptocurrency ecosystem.
 
+{{ site.cmama_buy_long }}
+
 #### How else would you be your own bank?
 
 People who are only in crypto for the investment might be blind to it, but the following is a simple fact: Should we be interested in such a thing, crypto wallets can be our own personal banks.

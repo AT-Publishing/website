@@ -1,7 +1,8 @@
 ---
-layout: at-trading
-title: "Best Altcoin Exchanges, Tried and True"
-guide: yes
+layout:     at-trading
+title:      "Best Altcoin Exchanges, Tried and True"
+guide:      yes
+promoting:  payments-services
 
 description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam? Updated for 2017/2018"
 categories:
@@ -38,8 +39,6 @@ about:
  sameas: ["https://en.wikipedia.org/wiki/Cryptocurrency_exchange", "https://cryptocoincharts.info/markets/info"]
 
 ---
-
-{{ site.tv_728-90_static }}
 
 So you want to join the madness and start with altcoin trading?
 
@@ -88,9 +87,6 @@ Don't leave your money on exchanges, especially when you're not verified.
 
 
 ### Best Altcoin Trading Liquidity
-
-
-{{ site.ads.aads728 }}
 
 
 #### Poloniex AKA Polo

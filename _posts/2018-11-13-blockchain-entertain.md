@@ -3,6 +3,8 @@ layout: at-trading
 published: true
 guest: false
 
+promoting: entertainment
+
 date: 2018-11-13 22:44:00 +0700
 
 title: "How Blockchain Disrupts the Entertainment Industry"
