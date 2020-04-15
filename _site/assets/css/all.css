@@ -219,10 +219,10 @@ h5.post small,.top2 figure,
   border-bottom: 1px dotted #1d1d2c;
     color: #1d1d2c;
 }
-.lvl-a {
+.lvl-a, .lvl-technical {
   background: #438945; /* green*/
 }
-.lvl-ab {
+.lvl-ab, .lvl-jargon {
   background: #3cbcc3; /* cyan */
 }
 .lvl-b {

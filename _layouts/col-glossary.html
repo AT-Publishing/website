@@ -49,23 +49,16 @@ layout: default
             </div>
           </div>
           <div class="six columns" id="strategies-labeled">
-            {% assign ordered = site.strategy | sort:"orderby" %}
+            {% assign ordered = site.glossary | sort:"note" %}
             {% for post in ordered %}
               <p>
-                <span class="tag lvl-{{post.orderby}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+                <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+                &middot; {{post.hook}}
               </p>
             {% endfor %}
 
           </div>
         </div>
-        <div class="row">
-          <div class="twelve columns">
-            <p><span class="note">All Trading Strategy Articles</span></p>
-            {% include lps/strategy-feed.html %}
-          </div>
-
-        </div>
-
 
       </section>
 
