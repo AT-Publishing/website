@@ -10,8 +10,8 @@ hook:       Divergence is a 'level' indicator and can be the sign of reversal or
 
 categories: [trading]
 tags:       ["divergences", "divergence-trading", "technical-analysis", "crypto-exchange", "crypto-market"]
-
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.jpg"]
+note:       technical
+image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg"]
 
 indepth:    /divergences/
 

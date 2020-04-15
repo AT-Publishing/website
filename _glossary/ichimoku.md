@@ -10,8 +10,8 @@ hook:
 
 categories: [trading]
 tags:       ["ichimoku", "ichimoku-cloud", "technical-analysis", "crypto-exchange", "crypto-market"]
-
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.jpg"]
+note:       technical
+image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.jpg"]
 
 indepth:    /ichimoku-cloud/
 
@@ -25,3 +25,5 @@ related:
  - {"Ichimoku cloud crypto settings & rationale behind it": "/ichimoku-cloud/"}
 
 ---
+
+Ichimoku cloud is a technical indicator suitable best for longer timeframes. It is developed to give a "single glance" picture about the state of the market - whether it is weak or strong or possibly approaching reversal.

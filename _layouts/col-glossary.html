@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+  <div class="container">
+    <div class="row">
+      <div class="three columns">
+        <span class="note">Also for Crypto Traders:</span>
+        <ul>
+          <li class="popular-item">
+            <a href="/tag/tradingview-script-review/">TradingView Script Reviews</a>
+          </li>
+          <li class="popular-item">
+            <a href="/tag/crypto-technical-indicators/">Learn crypto technical analysis</a>
+          </li>
+          <li class="popular-item">
+            <a href="/tag/wyckoff-trading/">Wyckoff trading method</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="nine columns">
+        <p>{{ site.tv_728-90_animated }}</p>
+      </div>
+    </div>
+
+    {% include article/cta.html %}
+
+
+    <div class="row">
+     <div class="twelve columns">
+       <h3 class="post">
+        <strong>{{ page.title | upcase }}</strong>
+       </h3>
+       <div class="strategy-content">
+
+         <div class="blockquote">
+           {{ page.description }}
+         </div>
+       </div>
+      <hr>
+
+      <section class="maincontent col col-strategy">
+
+        <div class="row">
+          <div class="six columns">
+            <div class="intro">
+                {{ content }}
+            </div>
+          </div>
+          <div class="six columns" id="strategies-labeled">
+            {% assign ordered = site.strategy | sort:"orderby" %}
+            {% for post in ordered %}
+              <p>
+                <span class="tag lvl-{{post.orderby}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+              </p>
+            {% endfor %}
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <p><span class="note">All Trading Strategy Articles</span></p>
+            {% include lps/strategy-feed.html %}
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
