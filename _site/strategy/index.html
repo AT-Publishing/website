@@ -469,6 +469,8 @@ ul.list-updated>li:nth-of-type(5) {
   font-size: 1.9rem;
 }
 @media (max-width: 660px) {
+  #altcointrading-security .nomargintop.four {display: none}
+  h1.post-main {font-size: 3em}
   #amp-user-optin-strategy {
     padding-top: 21%;
     top: 0;
@@ -500,6 +502,18 @@ ul.list-updated>li:nth-of-type(5) {
     cursor: pointer;
     box-sizing: border-box;
   }
+}
+
+
+/******/
+
+.adfix small {font-size: 8px;color:#dedcdc}
+
+.only-mobile {display: none}
+.only-desktop {display: block;}
+@media (max-width: 660px) {
+  .only-mobile {display: block;}
+  .only-desktop {display: none}
 }
 
   /* desktop */
@@ -823,7 +837,7 @@ amp-user-notification>div>div {
 
       </div>
       <div class="nine columns">
-        <p><div class="clearfix adfix"><amp-iframe width="728px" height="90px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div></p>
+        <p><div class="clearfix adfix"><div class="only-desktop"><amp-iframe width="728px" height="90px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="only-mobile"><small> --- [ article continues after ad ] --- </small><br><amp-iframe width="350px" height="270px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tvw-350x220.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div></div><div class="clearfix"></div></p>
       </div>
     </div>
 

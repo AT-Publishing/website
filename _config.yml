@@ -303,9 +303,6 @@ width="300px" height="600px">
 
 #### tradingview ####
 tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-at-bf2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
-tv_728-90_animated: '<div class="clearfix adfix"><amp-iframe width="728px" height="90px"
-  layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg"
-   placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 tv_300-600_animated: '<div class="clearfix adfix"><amp-iframe width="300px" height="600px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tv3.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>'
 tv_side_animated: '<div class="clearfix adfix"><amp-iframe width="350px" height="275px"
   layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
@@ -316,8 +313,12 @@ tv_1200-628: '<div class="containter-center"><a rel="nofollow" href="http://bit.
 # atnet-web https://tradingview.go2cloud.org/SH3Sb
 # boc-web https://tradingview.go2cloud.org/SH3Sd
 # social https://tradingview.go2cloud.org/SH3Sf
+tv_728-90_animated: '<div class="clearfix adfix"><div class="only-desktop"><amp-iframe width="728px" height="90px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+  src="https://amp2disqus.netlify.com/altcointrading/tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="only-mobile"><small> --- [ article continues after ad ] --- </small><br><amp-iframe width="350px" height="270px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tvw-350x220.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div></div><div class="clearfix"></div>'
 
 tvlovescrypto: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/39Uy3Th"><amp-img itemprop="image" src="/cta/tradingview-discount-crypto.jpg" alt="Tradingview Loves Crypto" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div><br>'
+
+tvfx_320-200: '<div class="clearfix adfix"><small> --- [ article continues after ad ] --- </small><br><amp-iframe width="350px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tvfx-320x200.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div>'
 
 #### tensorcharts ####
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
@@ -375,12 +376,12 @@ cbet_b: '<div class="clearfix adfix"><amp-iframe width="300px" height="250px" la
 
 #pistol 376 https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_728/v1586841415/atnet/_banner/ageofrust1.jpg
 
-ageofrust_vid_700x360: '<small> --- article continues after advertisement --- </small><br><a href="https://bit.ly/2K2axIn">
+ageofrust_vid_700x360: '<div class="clearfix adfix"><small> --- article continues after advertisement --- </small><br><a href="https://bit.ly/2K2axIn">
 <amp-video width="700" height="360" src="https://res.cloudinary.com/atnetcloud/video/upload/c_scale,w_700/v1586841417/atnet/_banner/ageofrust_vid2.mp4"
 poster="https://res.cloudinary.com/atnetcloud/video/upload/c_scale,w_700/v1586841417/atnet/_banner/ageofrust_vid2.jpg" layout="responsive" controls autoplay>
 <div fallback><p>Your browser does not support HTML5 video.</p></div><source type="video/mp4" src="https://res.cloudinary.com/atnetcloud/video/upload/c_scale,w_700/v1586841417/atnet/_banner/ageofrust_vid2.mp4"><source type="video/webm" src="https://res.cloudinary.com/atnetcloud/video/upload/c_scale,w_700/v1586841417/atnet/_banner/ageofrust_vid2.webm"></amp-video></a>'
 ageofrust_970x250: '<div class="text-center"><a class="index-internal" target="_blank" href="https://bit.ly/2K2axIn"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Play%20Now,w_0.5,y_0.18/v1586841415/atnet/_banner/ageofrust2.jpg"
-alt="Age of Rust crypto game assets" data-original-width="970px" data-original-height="250px" width="970px" height="250px" layout="responsive"></amp-img></a></div><br>'
+alt="Age of Rust crypto game assets" data-original-width="970px" data-original-height="250px" width="970px" height="250px" layout="responsive"></amp-img></a></div></div>'
 
 ageofrust_400: '<div class="text-center"><a class="index-internal" target="_blank" href="https://bit.ly/2K2axIn"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/w_400,ar_1:1,c_fill,g_auto,e_art:hokusai/l_text:Arial_54_bold:Play%20now/v1586841415/atnet/_banner/ageofrust2.jpg"
 alt="Age of Rust crypto game assets" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>'
