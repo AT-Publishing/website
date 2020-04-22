@@ -5,7 +5,7 @@ cloud:      false
 promoting:  analysis
 layout:     at-trading
 
-title: "Bitfinex Referral Code 5egV78YtlC - 10% Fee Discount on Bitfinex or DeversiFi"
+title: "Bitfinex Referral Code 5egV78YtlC 6% Fee off (2020 Update)"
 permalink: /coupon-bitfinex-5egv78ytlc/
 
 categories: [exchanges]
@@ -15,7 +15,7 @@ tags: ["bitfinex", "bvi", "crypto-exchange", "crypto-market", "bfx"]
 image:
 - https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg
 image_alt:
-- "Bitfinex coupon referral code 5egV78YtlC"
+- "Bitfinex referral code 5egV78YtlC"
 
 date: 2019-10-19 00:07:00 +0100
 
@@ -32,11 +32,25 @@ related:
 ---
 
 
-**There is an 10% fee discount for new Bitfinex users who sign up with a referral code.** No minimum deposit limit anymore and no verification necessary unless you need to move fiat in and out.
+**There is an 6% fee discount for new users who sign up with Bitfinex referral code.** Bitfinex requires no minimum deposit in 2020. No KYC is necessary unless you need to move fiat in and out.
 
-`bitfinex.com 5egV78YtlC`
+`bitfinex.com 5egV78YtlC <- Bitfinex Referral Code`
+
+Your Bitfinex fee discount starts at 6% and reduces every second in a linear fashion. Every thirty days your fee discount is reduced by 0.5%.
+
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Sign Up with Code</a>
+
 
 {% amp700 none {{page.image[0]}} %}
+
+
+#### Resources to maximize your Bitfinex trading
+
+<ul class="popular">
+  <li class="popular-item">
+    <a href="/bitfinex-app/">How to easily secure the Bitfinex App</a>
+  </li>
+</ul>
 
 
 #### About Bitfinex (the custodial & futures crypto exchange)
@@ -71,7 +85,7 @@ On DeversiFi, you trade crypto directly from your [hardware or software cryptocu
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
 
-### About Personalities related to Bitfinex
+#### Personalities related to Bitfinex
 
 * **Jean Louis van der Velde** - The CEO who is not publicly known much.
 * **Phil G. Potter**, also known as PGP - The one member of staff that became the face of Bitfinex for years, communicated with traders on teamspeak etc.
@@ -85,11 +99,3 @@ On DeversiFi, you trade crypto directly from your [hardware or software cryptocu
 * **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
-
-#### Also see:
-
-<ul class="popular">
-  <li class="popular-item">
-    <a href="/bitfinex-app/">Quick hack to secure your Bitfinex App</a>
-  </li>
-</ul>
