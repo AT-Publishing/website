@@ -1,4 +1,5 @@
 module Jekyll
+
   class Amp700CloudTag < Liquid::Tag
     def initialize(tag_name, markup, tokens)
       super
