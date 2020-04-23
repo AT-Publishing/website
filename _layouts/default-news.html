@@ -25,7 +25,9 @@
         "request": "event",
         "vars": {
           "eventCategory": "nonadsense--{{ page.permalink | remove: '/' }}",
-          "eventAction": "click-horizontal"
+          "eventAction": "click-horizontal",
+          "eventLabel": "id--at-promo-horizontal"
+
           }
    },
    "clickBannerVertical": {
@@ -34,7 +36,9 @@
           "request": "event",
           "vars": {
             "eventCategory": "nonadsense--{{ page.permalink | remove: '/' }}",
-            "eventAction": "click-vertical"
+            "eventAction": "click-vertical",
+            "eventLabel": "id--at-promo-vertical"
+
           }
     },
     "clickBannerTVTall": {
@@ -43,7 +47,8 @@
             "request": "event",
             "vars": {
               "eventCategory": "nonadsense--{{ page.permalink | remove: '/' }}",
-              "eventAction": "click-tv-tall"
+              "eventAction": "click-tv-tall",
+              "eventLabel": "id--at-promo-tv-tall"
             }
      },
      "click on smallad-post trigger": {
@@ -52,7 +57,8 @@
               "request": "event",
               "vars": {
                 "eventCategory": "nonadsense--{{ page.permalink | remove: '/' }}",
-                "eventAction": "click-post-smallad"
+                "eventAction": "click-post-smallad",
+                "eventLabel": "id--at-promo-smallad-post"
         }
      }
     }
