@@ -47,7 +47,7 @@ Bitcoin payments can still make your life easier, though.
 
 Cryptocurrency have been off-stream since their inception. It is still difficult for many to grasp the use of bitcoin as a means of payment, not just for speculation. But since you are here, that is likely not your problem.
 
-Also, a lot of [crypto software](https://crypto-profit.io/) doesn't feel safe, and indeed there have been hacks. In this article we'll point you to tools and resources to learn how to pay with bitcoin safely.
+Also, a lot of crypto software doesn't feel safe, and indeed there have been hacks. In this article we'll point you to tools and resources to learn how to pay with bitcoin safely.
 
 ### Bitcoin for digital purchase
 
