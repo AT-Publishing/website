@@ -25,7 +25,7 @@
         "request": "event",
         "vars": {
           "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
-          "eventAction": "click-horizontal",
+          "eventAction": "click-horizontal--promoting-{{ page.promoting }}",
           "eventLabel": "id--at-promo-horizontal"
 
           }
@@ -36,7 +36,7 @@
           "request": "event",
           "vars": {
             "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
-            "eventAction": "click-vertical",
+            "eventAction": "click-vertical--promoting-{{ page.promoting }}",
             "eventLabel": "id--at-promo-vertical"
 
           }
@@ -47,7 +47,7 @@
             "request": "event",
             "vars": {
               "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
-              "eventAction": "click-tv-tall",
+              "eventAction": "click-tv-tall--promoting-{{ page.promoting }}",
               "eventLabel": "id--at-promo-tv-tall"
             }
      },
@@ -57,7 +57,7 @@
               "request": "event",
               "vars": {
                 "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
-                "eventAction": "click-post-smallad",
+                "eventAction": "click-post-smallad--promoting-{{ page.promoting }}",
                 "eventLabel": "id--at-promo-smallad-post"
         }
      }
