@@ -1,0 +1,65 @@
+I"C<p>Tensorcharts is a freemium charting app. Heavily tilted towards crypto traders, but also featuring legacy finance for the times when crypto isn’t moving much.</p>
+
+<p>The basic version of TensorCharts is free to use. Regular pricing is comparable to TradingView.</p>
+
+<p>We have summarized more info about Tensorcharts in a blog post. In this How-To we focus on getting you started with TensorCharts with a list of tutorials.</p>
+
+<p><a href="https://bit.ly/2VAd6YG" class="btn">Sign up at TensorCharts</a> <a href="/tensorcharts/" class="btn">More about TensorCharts</a></p>
+
+<h3 id="rtfm-the-official-tensorcharts-documentation">RTFM: The Official TensorCharts Documentation</h3>
+
+<p>The community-sourced <a href="https://bit.ly/2VAd6YG">Tensorcharts</a> documentation is available at <a href="https://docs.tensorcharts.com">docs.tensorcharts.com</a>. It is comprehensive at places and spotty at others. If you are just starting with TensorCharts, do keep a bookmark but don’t start learning here.</p>
+
+<p>Youtube tutorials on Tensorcharts will serve you much better.</p>
+
+<h3 id="tensorcharts-basics-how-to-read-tensorcharts">Tensorcharts Basics: How to read TensorCharts?</h3>
+
+<p>For the absolute basics, there are walkthrough videos made directly by the developer. They have about 1 minute each. You’ll see in them an old version of TensorCharts, but it doesn’t matter since they are super basic: The principle of order flow visualization candles didn’t really change.</p>
+
+<p><a href="https://www.youtube.com/watch?v=YZCUMtV8rBU&amp;list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T">Playlist of introductory TensorCharts video tutorials on YouTube</a></p>
+
+<article class="">
+           <amp-youtube data-videoid="YZCUMtV8rBU" layout="responsive" width="700" height="360">
+           </amp-youtube>
+</article>
+
+<h3 id="scalping-with-tensorcharts-how-to-use-tensorcharts-for-scalping">Scalping with TensorCharts: How to use TensorCharts for scalping?</h3>
+
+<p>Scalping is the main target use for a tool like TensorCharts.</p>
+
+<p>Our trading strategy post on scalping features TensorCharts heavily.</p>
+
+<p><a href="/strategy/scalping/" class="btn">Read the Scalping Strategy post</a></p>
+
+<h3 id="technical-indicators-exclusive-to-tensorcharts">Technical Indicators Exclusive to TensorCharts</h3>
+
+<p> </p>
+
+<h4 id="order-flow--graded-candles">Order Flow / Graded Candles</h4>
+
+<p>Order Flow candles are similar to normal OHLC candles (open, high, low, close for a given time interval). Additionally though, they are split into blocks on the vertical axis - that is, into blocks per price difference.</p>
+
+<p>The idea is that as a scalper looking for this granular information about what is happening at the very short time frame, with an OHLC candle you would probably switch from 5M chart to 1M chart. But these ultra short time frames give a lot of false signals when it comes to support/resistance or most indicators.</p>
+
+<p>If you know how to real an order flow candle, you don’t need to change timeframes because some of the granular data is already available from the longer timeframe chart.</p>
+
+<article class="">
+  <amp-youtube data-videoid="d125WyqFO24" layout="responsive" width="700" height="360">
+  </amp-youtube>
+</article>
+
+<p> </p>
+
+<h4 id="cvd--cumulative-volume-delta">CVD / Cumulative Volume Delta</h4>
+
+<p>The cummulative volume delta is an indicator that tracks changes in traded volumes through time intervals.</p>
+
+<p>If you learn to read the CVD, you will be able to use it to spot price reversals. That’s why the tutorial below talks about the “predictive game”.</p>
+
+<p><a href="https://www.youtube.com/watch?v=gj-zxO-ZnSU">‘Counter-Trading with CVD’ by Bitcoin Trading Challenge (28 mins)</a></p>
+
+<article class="">
+           <amp-youtube data-videoid="gj-zxO-ZnSU" layout="responsive" width="700" height="360">
+           </amp-youtube>
+</article>
+:ET
