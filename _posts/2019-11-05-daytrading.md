@@ -1,6 +1,6 @@
 ---
 published:  true
-pinned:     true
+pinned:     false
 guest:      false
 sponsored:  false
 stories:    false

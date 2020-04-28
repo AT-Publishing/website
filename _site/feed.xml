@@ -19,9 +19,455 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Apr 2020 07:08:10 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Apr 2020 07:08:10 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2020 07:40:48 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2020 07:40:48 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item turbo="true">
+        <title><![CDATA[ Altcoin Wallets: Tried and True, 2020 Version ]]></title>
+        <description><![CDATA[ Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets. ]]></description>
+
+        <content:encoded><![CDATA[ Lets start this article about altcoin wallets right off with the obligatory reminder.
+
+
+  For hodlers: It is not a good idea to keep untraded cryptocurrency on an exchange.
+
+
+Exchanges hold larger amounts of crypto than personal wallets and therefore are more targeted by cyber criminals.
+
+
+  Read about the Tether hack in 2017
+  Or about the DAO hack in 2016
+  Or about the Bitfinex hack in 2016
+
+
+
+  For traders: It is also not a good idea to send coins from one exchange to another.
+
+
+Exchange transaction systems are a blackbox, especially with high-tech altcoins like Ethereum that support sending triggered by a smart contract.
+
+An altcoin wallet will receive such transaction, but an exchange which has built in security mechanisms to avoid network spam might not. You can go spend months dealing with customer support to retrieve your funds, sure. But I guess you have better things to do.
+
+And now, quick TLDR for those who don’t want to get paralyzed by too many options:
+
+Your best bet in terms of altcoin storage
+
+Everyone’s Favorite Altcoin Wallet: The Ledger Nano X
+
+Ledger Nano X is particularly good for altcoin traders because it has larger memory capacity. That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.
+
+Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptos are supported unless they are really brand new.
+
+
+  Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and all ERC20 compliant Ethereum tokens.
+
+
+Since 2019, all Ledger wallets come with a secure app suite called Ledger Live.
+
+The Nano X is often offered in discount bundles and recently Ledger also started experimenting with discount codes. We keep all such offers throughout the year on our Black Friday page.
+
+
+Get Ledger Nano X
+&amp;nbsp;
+Check Year-Long BlackFriday Offers
+
+
+Your most easy-to-use altcoin wallet
+
+If you only need to store BTC, ETH and XLM, the best smartphone app for you in 2020 the blockchain.com wallet (formerly blockchain.info).
+
+
+  The smartphone app can be unlocked with PIN or fingerprint, if your device supports that.
+  Blockchain.com still provides the web interface, too. It has multiple levels of second and third factor authentication and options to only whitelist access from certain locations.
+
+
+Be careful though: The blockchain.com wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company Blockchain Luxembourg SARL.
+
+If you need more altcoins or if you prefer a standalone app for phones and desktop with no website interface, go with Exodus.io.
+
+
+  Exodus has been adding easy support of popular ERC20 tokens as well as selected stablecoins.
+  If Exodus and Jaxx used to be competitors, Exodus won.
+
+
+Now for the detailed stuff.
+
+ --- article continues after advertisement --- 
+
+
+
+Hardware Wallets for Altcoins Storage
+
+If you are planning to hold an altcoin for more than one year, you should really get a hardware wallet. You will still need to keep it updated, but in your case you are still getting the best security even from basic setups.
+
+The reason is that your chances of messing up something or getting hacked are minimal if you have the private key on any dedicated device simply thanks to the fact that you don’t use the device on a daily basis.
+
+The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone, or Electrum on a dedicated laptop.
+
+
+
+Ledger Wallet for Altcoins
+
+It seems unbelievable now but back in 2016 Ledger Wallet used to claim they would not support any altcoins. They started adding altcoin support to Nano S with the first altcoin bubble in 2017.
+
+
+  Nano S is not the best option though, because it has a limited memory capacity and can only hold one or two different crypto wallets.
+  A single Ledger Nano X is way better in this aspect.
+  You might still prefer Nano S if you want to split your holdings into multiple devices. There are bundles available.
+
+
+Native Support: Bitcoin, Ethereum, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.
+
+Via 3rd party private key management: All Ethereum tokens of the ERC20 standard. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with MyEtherWallet.
+
+On Reddit:
+
+
+  Subreddit - r/ledgerwallet/
+  People - u/btchip
+
+
+
+Get Ledger Nano X
+&amp;nbsp;
+Current Bundle Offers
+
+
+Trezor wallet for Altcoins
+
+Trezor utilizes similar system as Ledger Wallet. There is a set of native apps, you are able to manage several cryptocurrency wallets from a web app after unlocking your access with your PIN.
+
+Trezor is not as popular as ledger because it’s more expensive and less user-friendly.
+
+
+  TREZOR supports natively: BTC, ETH, DASH, LTC and ZCASH.
+  Via 3rd party private key management: Any ERC20 token via MyEtherWallet.
+
+
+On Reddit:
+
+
+  Subreddit - r/TREZOR
+  People - u/slush0, u/stickac
+
+
+ 
+
+Electrum Forks
+
+While Electrum for Bitcoin (https://electrum.org/) is a safe option, you should be careful with Electrum for altcoins. The altcoin versions of Electrum were not developed by the same author as the original Electrum.
+
+They are just forks - the Electrum code is open-sourced.
+
+Some of them can be malicious or forked from an old version of Electrum that has a vulnerability:
+
+
+
+You should only use an Electrum fork if you are able to check its codebase and confirm the code is not malicious.
+
+These two Electrum forks have been quite popular:
+
+  Electrum for Litecoin - https://electrum-ltc.org/
+  Electrum for Dash - https://www.dash.org/downloads
+
+
+Best Monero Wallet
+
+
+
+MyMonero Lightweight Wallet
+
+MyMonero
+
+MyMonero has been long endorsed on the Monero’s official website (getmonero.com).
+
+It has been around for years, originally only available as a web wallet. In 2020 you get the monero web wallet and a desktop/smartphone app.
+
+The wallet is super simple. No sign up, just a private key generation. The key is not stored on the server, you are the only person who has it.
+
+Best Multi-Coin Wallets
+
+Exodus Multicoin Wallet
+
+
+
+https://www.exodus.io/
+
+Exodus was the first multicoin wallet to integrate an altcoin exchange right inside the app.
+
+It’s currently your best option for a multicoin wallet: The amount of supported coins is the largest, the support is great, you get a status page in case your app gets sluggish and the app also integrates with TREZOR hardware wallets.
+
+Exodus wallet is super user-friendly and great for the beginners:
+
+  You launch the wallet as any other app, no user sign up.
+  As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.
+  Wallets are automatically generated for you. No seed handling etc.
+  To see your private keys (seed), you need to run backup. The Exodus backup option is only unlocked after you make a deposit though, as for an empty wallet you don’t need a backup.
+  At the same time, the only owner of your private keys is you.
+
+
+Supported coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
+
+Jaxx Multicoin Wallet
+
+
+
+https://www.jaxx.io/
+
+Still one of the most popular multicoin wallets these days is Jaxx. It is available as browser extension, desktop app and mobile app - although the choice of supported coins differs.
+
+Jaxx wallet is super user-friendly and great for the beginners:
+
+  You launch the wallet as any other app, no user sign up.
+  Wallets are automatically generated for you. No seed handling etc.
+  To see your private keys (seed), you need to run backup. You will find this option under settings on the right hand side.
+  At the same time, the only owner of your private keys is you.
+
+
+Since Jaxx 1.2 you get Shapeshift integrated within the wallet.
+
+Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
+
+Web Based Multi-Altcoin Wallets
+
+Most web-based wallets, the private keys are stored by a third party. You should not consider these as a safe altcoin storage.
+
+Opt for blockchain.com or one of the multicoin wallets above for a good ratio of convenience and security.
+ ]]></content:encoded>
+
+        <turbo:content><![CDATA[ &lt;p&gt;Lets start this article about altcoin wallets right off with the obligatory reminder.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For hodlers: &lt;strong&gt;It is not a good idea to keep untraded cryptocurrency on an exchange.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Exchanges hold larger amounts of crypto than personal wallets and therefore are more targeted by cyber criminals.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read about the &lt;a href=&quot;https://www.altcointrading.net/bitfinex-tether-transparency/&quot;&gt;Tether hack in 2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Or about the &lt;a href=&quot;https://www.altcointrading.net/dao-hack/&quot;&gt;DAO hack in 2016&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Or about the &lt;a href=&quot;https://www.altcointrading.net/finexening/&quot;&gt;Bitfinex hack in 2016&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For traders: &lt;strong&gt;It is also not a good idea to send coins from one exchange to another.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Exchange transaction systems are a blackbox, especially with high-tech altcoins like Ethereum that support sending triggered by a smart contract.&lt;/p&gt;
+
+&lt;p&gt;An altcoin wallet will receive such transaction, but an &lt;a href=&quot;https://www.altcointrading.net/bitifinex-eats-your-eth/&quot;&gt;exchange which has built in security mechanisms to avoid network spam might not&lt;/a&gt;. You can go spend months dealing with customer support to retrieve your funds, sure. But I guess you have better things to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And now, quick TLDR for those who don’t want to get paralyzed by too many options:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;your-best-bet-in-terms-of-altcoin-storage&quot;&gt;Your best bet in terms of altcoin storage&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Everyone’s Favorite Altcoin Wallet&lt;/strong&gt;: &lt;a href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;The Ledger Nano X&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ledger Nano X is particularly good for altcoin traders because it has larger memory capacity. That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.&lt;/p&gt;
+
+&lt;p&gt;Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptos are supported unless they are really brand new.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and &lt;strong&gt;all ERC20 compliant Ethereum tokens&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since 2019, all Ledger wallets come with a secure app suite called Ledger Live.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Nano X is often offered in discount bundles and recently Ledger also started experimenting with discount codes. We keep all such offers throughout the year on our Black Friday page.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Get Ledger Nano X&lt;/a&gt;
+&amp;nbsp;
+&lt;a class=&quot;btn&quot; href=&quot;/blackfriday/&quot;&gt;Check Year-Long BlackFriday Offers&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;your-most-easy-to-use-altcoin-wallet&quot;&gt;Your most easy-to-use altcoin wallet&lt;/h3&gt;
+
+&lt;p&gt;If you only need to store &lt;strong&gt;BTC, ETH and XLM&lt;/strong&gt;, the best smartphone app for you in 2020 the &lt;strong&gt;blockchain.com&lt;/strong&gt; wallet (formerly blockchain.info).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The smartphone app can be unlocked with PIN or fingerprint, if your device supports that.&lt;/li&gt;
+  &lt;li&gt;Blockchain.com still provides the web interface, too. It has multiple levels of second and third factor authentication and options to only whitelist access from certain locations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Be careful though: The &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchain.com&lt;/code&gt; wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company &lt;strong&gt;Blockchain Luxembourg SARL&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you need more altcoins&lt;/strong&gt; or if you prefer a standalone app for phones and desktop with no website interface, go with &lt;a href=&quot;https://www.exodus.io/&quot;&gt;Exodus.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Exodus has been adding easy support of popular ERC20 tokens as well as selected stablecoins.&lt;/li&gt;
+  &lt;li&gt;If Exodus and Jaxx used to be competitors, Exodus won.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Now for the detailed stuff.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;containter-center&quot;&gt;&lt;div class=&quot;clearfix adfix&quot;&gt;&lt;small&gt; --- article continues after advertisement --- &lt;/small&gt;&lt;br /&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware-wallets-for-altcoins-storage&quot;&gt;Hardware Wallets for Altcoins Storage&lt;/h3&gt;
+
+&lt;p&gt;If you are planning to hold an altcoin for more than one year, you should really get a hardware wallet. You will still need to keep it updated, but in your case you are still getting the best security even from basic setups.&lt;/p&gt;
+
+&lt;p&gt;The reason is that your chances of messing up something or getting hacked are minimal if you have the private key on any dedicated device simply thanks to the fact that you don’t use the device on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone, or Electrum on a dedicated laptop.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;ledger-wallet-for-altcoins&quot;&gt;Ledger Wallet for Altcoins&lt;/h4&gt;
+
+&lt;p&gt;It seems unbelievable now but back in 2016 Ledger Wallet used to claim they would not support any altcoins. They started adding altcoin support to Nano S with the first altcoin bubble in 2017.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nano S is not the best option though, because it has a limited memory capacity and can only hold one or two different crypto wallets.&lt;/li&gt;
+  &lt;li&gt;A single &lt;a href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Ledger Nano X&lt;/a&gt; is way better in this aspect.&lt;/li&gt;
+  &lt;li&gt;You might still prefer Nano S if you want to split your holdings into multiple devices. There are &lt;a href=&quot;https://bit.ly/bundles_at_altcoinwallets&quot;&gt;bundles available&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Native Support: &lt;strong&gt;Bitcoin, Ethereum, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Via 3rd party private key management: &lt;strong&gt;All Ethereum tokens of the ERC20 standard&lt;/strong&gt;. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with &lt;a href=&quot;https://www.myetherwallet.com/&quot;&gt;MyEtherWallet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On Reddit:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subreddit - &lt;a href=&quot;https://www.reddit.com/r/ledgerwallet&quot;&gt;r/ledgerwallet/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;People - &lt;a href=&quot;https://www.reddit.com/u/btchip/&quot;&gt;u/btchip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Get Ledger Nano X&lt;/a&gt;
+&amp;nbsp;
+&lt;a class=&quot;btn&quot; href=&quot;https://bit.ly/bundles_at_altcoinwallets&quot;&gt;Current Bundle Offers&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;trezor-wallet-for-altcoins&quot;&gt;Trezor wallet for Altcoins&lt;/h4&gt;
+
+&lt;p&gt;Trezor utilizes similar system as Ledger Wallet. There is a set of native apps, you are able to manage several cryptocurrency wallets from a web app after unlocking your access with your PIN.&lt;/p&gt;
+
+&lt;p&gt;Trezor is not as popular as ledger because it’s more expensive and less user-friendly.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TREZOR supports natively: &lt;strong&gt;BTC, ETH, DASH, LTC and ZCASH&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Via 3rd party private key management: &lt;strong&gt;Any ERC20 token&lt;/strong&gt; via MyEtherWallet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;On Reddit:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subreddit - &lt;a href=&quot;https://www.reddit.com/r/trezor&quot;&gt;r/TREZOR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;People - &lt;a href=&quot;https://www.reddit.com/u/slush0&quot;&gt;u/slush0&lt;/a&gt;, &lt;a href=&quot;https://www.reddit.com/u/stickac&quot;&gt;u/stickac&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;electrum-forks&quot;&gt;Electrum Forks&lt;/h3&gt;
+
+&lt;p&gt;While Electrum for Bitcoin (&lt;a href=&quot;https://electrum.org/#home&quot;&gt;https://electrum.org/&lt;/a&gt;) is a safe option, you should be careful with Electrum for altcoins. The altcoin versions of Electrum were not developed by the same author as the original Electrum.&lt;/p&gt;
+
+&lt;p&gt;They are just forks - the Electrum code is open-sourced.&lt;/p&gt;
+
+&lt;p&gt;Some of them &lt;em&gt;can&lt;/em&gt; be malicious or forked from an old version of Electrum that has a vulnerability:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,g_north,h_360,w_700/v1588053117/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.37.36_cqbzj7.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,g_north,h_360,w_700/v1588053117/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.37.36_cqbzj7.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You should only use an Electrum fork if you are able to check its codebase and confirm the code is not malicious.&lt;/p&gt;
+
+&lt;p&gt;These two Electrum forks have been quite popular:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Electrum for Litecoin - &lt;a href=&quot;https://electrum-ltc.org/&quot;&gt;https://electrum-ltc.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Electrum for Dash - &lt;a href=&quot;https://www.dash.org/downloads&quot;&gt;https://www.dash.org/downloads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;best-monero-wallet&quot;&gt;Best Monero Wallet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;mymonero-lightweight-wallet&quot;&gt;MyMonero Lightweight Wallet&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mymonero.com/#/&quot;&gt;MyMonero&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;MyMonero has been long endorsed on the Monero’s official website (getmonero.com).&lt;/p&gt;
+
+&lt;p&gt;It has been around for years, originally only available as a web wallet. In 2020 you get the &lt;a href=&quot;https://wallet.mymonero.com/&quot;&gt;monero web wallet&lt;/a&gt; and a &lt;a href=&quot;https://mymonero.com/&quot;&gt;desktop/smartphone app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The wallet is super simple. No sign up, just a private key generation. The key is not stored on the server, you are the only person who has it.&lt;/p&gt;
+
+&lt;h3 id=&quot;best-multi-coin-wallets&quot;&gt;Best Multi-Coin Wallets&lt;/h3&gt;
+
+&lt;h4 id=&quot;exodus-multicoin-wallet&quot;&gt;Exodus Multicoin Wallet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.exodus.io/&quot;&gt;https://www.exodus.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Exodus was the first multicoin wallet to integrate an altcoin exchange right inside the app.&lt;/p&gt;
+
+&lt;p&gt;It’s currently your best option for a multicoin wallet: The amount of supported coins is the largest, the support is great, you get a status page in case your app gets sluggish and the app also integrates with TREZOR hardware wallets.&lt;/p&gt;
+
+&lt;p&gt;Exodus wallet is super user-friendly and great for the beginners:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You launch the wallet as any other app, no user sign up.&lt;/li&gt;
+  &lt;li&gt;As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.&lt;/li&gt;
+  &lt;li&gt;Wallets are automatically generated for you. No seed handling etc.&lt;/li&gt;
+  &lt;li&gt;To see your private keys (seed), you need to run backup. The &lt;a href=&quot;https://support.exodus.io/article/41-how-do-i-backup-my-exodus-wallet&quot;&gt;Exodus backup option&lt;/a&gt; is only unlocked after you make a deposit though, as for an empty wallet you don’t need a backup.&lt;/li&gt;
+  &lt;li&gt;At the same time, the only owner of your private keys is you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;jaxx-multicoin-wallet&quot;&gt;Jaxx Multicoin Wallet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jaxx.io/&quot;&gt;https://www.jaxx.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Still one of the most popular multicoin wallets these days is &lt;a href=&quot;https://jaxx.io/support.html&quot;&gt;Jaxx&lt;/a&gt;. It is available as browser extension, desktop app and mobile app - although the choice of supported coins differs.&lt;/p&gt;
+
+&lt;p&gt;Jaxx wallet is super user-friendly and great for the beginners:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You launch the wallet as any other app, no user sign up.&lt;/li&gt;
+  &lt;li&gt;Wallets are automatically generated for you. No seed handling etc.&lt;/li&gt;
+  &lt;li&gt;To see your private keys (seed), you need to run backup. You will find this option under settings on the right hand side.&lt;/li&gt;
+  &lt;li&gt;At the same time, the only owner of your private keys is you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since Jaxx 1.2 you get &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; integrated within the wallet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;web-based-multi-altcoin-wallets&quot;&gt;Web Based Multi-Altcoin Wallets&lt;/h3&gt;
+
+&lt;p&gt;Most web-based wallets, the private keys are stored by a third party. You should not consider these as a safe altcoin storage.&lt;/p&gt;
+
+&lt;p&gt;Opt for blockchain.com or one of the multicoin wallets above for a good ratio of convenience and security.&lt;/p&gt;
+ ]]></turbo:content>
+
+        <author><![CDATA[ @tradingfanbois ]]></author>
+        <dc:creator><![CDATA[ @tradingfanbois ]]></dc:creator>
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" medium="image" />
+        <pubDate>Tue, 28 Apr 2020 03:32:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/altcoin-wallets/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/altcoin-wallets/</guid>
+        <comments>https://www.altcointrading.net/altcoin-wallets/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ jaxx ]]></category>
+        <category><![CDATA[ exodus ]]></category>
+        <category><![CDATA[ ledger-wallet ]]></category>
+        <category><![CDATA[ trezor ]]></category>
+        <category><![CDATA[ electrum ]]></category>
+        <category><![CDATA[ mymonero ]]></category>
+        
+        <category><![CDATA[ basics ]]></category>
+        
+
+        
+
+      </item>
     
       <item turbo="true">
         <title><![CDATA[ Will Your Bitcoin Investment Suffer from Coronavirus? ]]></title>
@@ -1512,7 +1958,7 @@ Ultimately, it’s about picking the right battles and knowing the right time to
 
 Since the inception of Bitcoin, wallets have always been an integral part of the cryptocurrency ecosystem.
 
-
+ --- article continues after advertisement --- 
 
 How else would you be your own bank?
 
@@ -1605,7 +2051,7 @@ Where now?
 
 &lt;p&gt;Since the inception of Bitcoin, wallets have always been an integral part of the cryptocurrency ecosystem.&lt;/p&gt;
 
-&lt;div class=&quot;containter-center&quot;&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;containter-center&quot;&gt;&lt;div class=&quot;clearfix adfix&quot;&gt;&lt;small&gt; --- article continues after advertisement --- &lt;/small&gt;&lt;br /&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;how-else-would-you-be-your-own-bank&quot;&gt;How else would you be your own bank?&lt;/h4&gt;
 
@@ -3576,7 +4022,7 @@ Even if you feel like all the best names are already taken, don’t worry, the p
 
 When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.
 
-
+ --- article continues after advertisement --- 
 
 By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.
 
@@ -3626,7 +4072,7 @@ As for smartphones, the app is currently only available for Android. If you are 
 
 &lt;p&gt;When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.&lt;/p&gt;
 
-&lt;div class=&quot;containter-center&quot;&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;containter-center&quot;&gt;&lt;div class=&quot;clearfix adfix&quot;&gt;&lt;small&gt; --- article continues after advertisement --- &lt;/small&gt;&lt;br /&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.&lt;/p&gt;
 
@@ -5301,239 +5747,6 @@ In the business of entertainment, it is risky to let the player’s interest wan
         <category><![CDATA[ business-of-crypto ]]></category>
         
         <category><![CDATA[ altcoins ]]></category>
-        
-
-        <yandex:related>
-        
-        </yandex:related>
-
-      </item>
-    
-      <item turbo="true">
-        <title><![CDATA[ DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading ]]></title>
-        <description><![CDATA[ According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition. ]]></description>
-
-        <content:encoded><![CDATA[ Altcoin.io is a DEX project powered by Plasma that was first announced earlier in 2018 and just completed their crowdfunding campaign through WeFunder, raising $950k USD from over 1100 investors.
-
-Although the altcoin exchange is not operational yet, the platform has been open to sign-ups since its testnet launch. If you have not already, make your account at Altcoin.io to test the atomic swap wallet and the user interface.
-
-The CEO and founder of Altcoin.io is Andrew Gazdecki kindly took the time to answer our questions about what’s new at Altcoin.io and the approach that makes this DEX project distinct from other cryptoasset trading platforms out there.
-
-
-
-The atomic swap wallet at https://swap.altcoin.io:
-
-
-
-
-
-In a recent blog post you announced the decision to open-source your atomic swap wallet. That is an unusual decision now that most blockchain tech projects are becoming protective of their assets, relying on private deals and so on. What was behind it?
-
-Community approach is one of the core values of Altcoin.io and there is a reason for it, so the decision to open-source the atomic swap wallet was mostly strategic.
-
-Clearly the crypto community has amazing power and blockchain industry is full of talented people, but I also think the best path forward for blockchain advancements is through more open collaboration and less closed competition.
-
-This is the case especially when it comes to decentralized trading. After all we are all working on the same mission to create more secure cryptocurrency trading environments.
-
-Is this a hint at the issue with getting initial liquidity that new cryptocurrency exchanges face?
-
-That is one of the implications of closed competition. I believe the liquidity problem is partly self-inflicted because new trading platforms silo technology and customers to protect market share.
-
-Quite generally in the cryptotrading industry, it is our combined talent and effort that is the key to unlocking a market that will be decentralized also in the practical sense of the word - truly liquid, not just “located on a DEX”. If we work together we can leverage each other’s strengths to overcome the toughest challenges as a community, creating a better market for everyone.
-
-To facilitate this we are developing an SDK for pooled liquidity among multiple decentralized exchanges and dApps because sharing the liquidity is simply one of the easiest ways to solve this problem.
-
-
-
-  Introducing the Altcoin.io Team
-
-  The CEO and founder is Andrew Gazdecki who was also the founder of Bizness Apps, the number #91 on Inc. Magazine’s list of the 500 fastest-growing companies in 2015. Andrew lives in San Diego and travels back and forth between California and Bosnia where the Altcoin.io engineering team is based.
-
-  Sule, or Sulejman Sarajlija, is the Altcoin.io CTO and lead developer. He specializes in back-end development and blockchain technologies. He leads Djenad, Anto, and Azra, who are the engineering team.
-
-  Fabian Vogelsteller is one of the six technical advisors to Altcoin.io. Fabian’s worked on many open-source projects in the blockchain space, including Ethereum’s Mist browser and the Ethereum Wallet. He also proposed the ERC20 standard, ushering in a new era of token trading, and brings a wealth of technical expertise and insight to the team.
-
-  Other than Fabian, the advisory board has crypto trading personalities such as Josh Olszewicz, Nick &quot;Pizpie&quot; Cote or Nate &quot;Coinrun&quot; Freire.
-
-
-
-&amp;nbsp;
-
-Altcoin.io is not the first platform with plans to pool the liquidity, though. How are you going to appeal to other DEXes and dApps to work with you?
-
-First point is scalability. We first started out working with atomic swaps to address both trustless trading and blockchain interoperability and we had some success with that. But in the end atomic swaps fail to provide the great user experience we aim for - transactions take minutes to confirm and fees can get high.
-
-The crypto trading community wants security but not at all costs, which is why we have completely moved away from atomic swap research and are building a Plasma-based DEX instead.
-
-
-  “Why we’ve chosen a Plasma-like sidechain solution for our DEX” at blog.altcoin.io
-
-
-Apart from our focus on scalability, what makes Altcoin.io different is user experience. That is an often neglected aspect in decentralized trading.
-
-Currently all decentralized exchanges suffer from unintuitive, slow, multi-step user experiences which leads to low user adoption and low daily trading volume. Especially newer traders are not going to trade on your platform if the learning curve is steep and the process of submitting an order complicated.
-
-It is already starting to show - as Diar.co reported recently, all dApps have been losing their user base at a rapid rate. I believe user experience plays a role in that.
-
-
-  “Decentralized Apps Facing Half-Life After Peak” at diar.co
-
-
-The goal of Altcoin.io is to be the first DEX that can truly compete with centralized exchanges and we know exactly what it takes as four of our six technical advisors are active cryptocurrency traders.
-
-So we are very aware that in order to compete we need intuitive, user-friendly platform not only in terms of trading interface. Even the SDK we are launching is a complete out-of-the box solution. You can launch your own DEX without being a developer.
-
-An onboarding path from fiat to crypto is surely part of the package to compete with centralized platforms. In August 2018, Altcoin.io partnered with SendWyre while DEXes are typically choosing to directly implement a stablecoin. Why SendWyre?
-
-The main point here is to reduce friction for both new and experienced users.
-
-Crypto trading old-timers may be comfortable with scenarios like buying a cryptocurrency directly, storing it anonymously and hedging its value in some way to capture the market movements, but people who are new to cryptocurrency trading are interested in different kind of products.
-
-SendWyre is a regulated service that provides a fiat to crypto on-boarding path. They verify that you are who you say you are, mint an ERC-721 non-fungible token for you and after this one-time process you are free to start trading with compliant liquidity on a DEX.
-
-
-  “Community Driven On-Chain Compliance” at blog.sendwyre.com
-
-
-MakerDAO who is the creator of Dai stablecoin has partnered with SendWyre as well which means we will be working with both.
-
-We are definitely not avoiding working with stablecoins, if it seemed like that. Partnering with SendWyre was just the most efficient way to open up our exchange to those who may be entering cryptocurrency for the very first time, which is huge.
-
-In terms of potential collaboration with Altcoin.io, what other blockchain technology projects are you watching?
-
-Not exactly in terms of partnership opportunity but we’re huge fans of Tendermint and the Raiden Network.
-
-I think blockchain scalability is one of the most important issues to be working on right now. Without scalable solutions, mass user adoption will not happen no matter how good the blockchain applications get.
-
-More from Altcoin.io
-
-
-  Video overview of the new Altcoin.io Plasma DEX
-  Test the Plasma exchange at https://plasma.altcoin.io/
-
- ]]></content:encoded>
-
-        <turbo:content><![CDATA[ &lt;p&gt;Altcoin.io is a DEX project powered by Plasma that was first announced earlier in 2018 and just completed their &lt;a href=&quot;https://wefunder.com/altcoinio&quot;&gt;crowdfunding campaign through WeFunder&lt;/a&gt;, raising &lt;a href=&quot;https://twitter.com/altcoin_io/status/1035745726104526848&quot;&gt;$950k USD from over 1100 investors&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Although the altcoin exchange is not operational yet, the platform has been open to sign-ups since its testnet launch. If you have not already, make your account at &lt;a href=&quot;http://www.altcoin.io?kid=KHPDT&quot;&gt;Altcoin.io&lt;/a&gt; to test the atomic swap wallet and the user interface.&lt;/p&gt;
-
-&lt;p&gt;The CEO and founder of Altcoin.io is Andrew Gazdecki kindly took the time to answer our questions about what’s new at Altcoin.io and the approach that makes this DEX project distinct from other cryptoasset trading platforms out there.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The atomic swap wallet at &lt;code class=&quot;highlighter-rouge&quot;&gt;https://swap.altcoin.io&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/altcoin-io/atomic-swap-wallet.gif&quot; alt=&quot;DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;In a recent blog post you announced the decision to &lt;a href=&quot;https://blog.altcoin.io/august-update-mobile-ux-atomic-swaps-and-plasma-dex-v2-94680ff9db30&quot;&gt;open-source your atomic swap wallet&lt;/a&gt;. That is an unusual decision now that most blockchain tech projects are becoming protective of their assets, relying on private deals and so on. What was behind it?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Community approach is one of the core values of Altcoin.io and there is a reason for it, so the decision to open-source the atomic swap wallet was mostly strategic.&lt;/p&gt;
-
-&lt;p&gt;Clearly the crypto community has amazing power and blockchain industry is full of talented people, but I also think the best path forward for blockchain advancements is through more open collaboration and less closed competition.&lt;/p&gt;
-
-&lt;p&gt;This is the case especially when it comes to decentralized trading. After all we are all working on the same mission to create more secure cryptocurrency trading environments.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Is this a hint at the issue with getting initial liquidity that new cryptocurrency exchanges face?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;That is one of the implications of closed competition. I believe the liquidity problem is partly self-inflicted because new trading platforms silo technology and customers to protect market share.&lt;/p&gt;
-
-&lt;p&gt;Quite generally in the cryptotrading industry, it is our combined talent and effort that is the key to unlocking a market that will be decentralized also in the practical sense of the word - truly liquid, not just “located on a DEX”. If we work together we can leverage each other’s strengths to overcome the toughest challenges as a community, creating a better market for everyone.&lt;/p&gt;
-
-&lt;p&gt;To facilitate this we &lt;a href=&quot;https://blog.altcoin.io/test-the-future-of-crypto-trading-with-our-latest-plasma-dex-c2580449af43&quot;&gt;are developing an SDK for pooled liquidity&lt;/a&gt; among multiple decentralized exchanges and dApps because sharing the liquidity is simply one of the easiest ways to solve this problem.&lt;/p&gt;
-
-&lt;section class=&quot;altcointradingnet-bio&quot;&gt;
-
-  &lt;h4&gt;Introducing the Altcoin.io Team&lt;/h4&gt;
-
-  &lt;p&gt;The CEO and founder is &lt;b&gt;Andrew Gazdecki&lt;/b&gt; who was also the founder of Bizness Apps, the number #91 on Inc. Magazine’s list of the 500 fastest-growing companies in 2015. Andrew lives in San Diego and travels back and forth between California and Bosnia where the Altcoin.io engineering team is based.&lt;/p&gt;
-
-  &lt;p&gt;Sule, or &lt;b&gt;Sulejman Sarajlija&lt;/b&gt;, is the Altcoin.io CTO and lead developer. He specializes in back-end development and blockchain technologies. He leads &lt;b&gt;Djenad, Anto, and Azra&lt;/b&gt;, who are the engineering team.&lt;/p&gt;
-
-  &lt;p&gt;&lt;b&gt;Fabian Vogelsteller&lt;/b&gt; is one of the six technical advisors to Altcoin.io. Fabian’s worked on many open-source projects in the blockchain space, including Ethereum’s Mist browser and the Ethereum Wallet. He also proposed the ERC20 standard, ushering in a new era of token trading, and brings a wealth of technical expertise and insight to the team.&lt;/p&gt;
-
-  &lt;p&gt;Other than Fabian, the advisory board has crypto trading personalities such as &lt;b&gt;Josh Olszewicz, Nick &quot;Pizpie&quot; Cote or Nate &quot;Coinrun&quot; Freire&lt;/b&gt;.&lt;/p&gt;
-
-&lt;/section&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Altcoin.io is not the first platform with plans to pool the liquidity, though. How are you going to appeal to other DEXes and dApps to work with you?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;First point is scalability. We first started out working with atomic swaps to address both trustless trading and blockchain interoperability and we had some success with that. But in the end atomic swaps fail to provide the great user experience we aim for - transactions take minutes to confirm and fees can get high.&lt;/p&gt;
-
-&lt;p&gt;The crypto trading community wants security but not at all costs, which is why we have completely moved away from atomic swap research and are building a Plasma-based DEX instead.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.altcoin.io/why-weve-chosen-a-plasma-like-sidechain-solution-for-our-dex-97737ca46b86&quot;&gt;“Why we’ve chosen a Plasma-like sidechain solution for our DEX” at blog.altcoin.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Apart from our focus on scalability, what makes Altcoin.io different is user experience. That is an often neglected aspect in decentralized trading.&lt;/p&gt;
-
-&lt;p&gt;Currently all decentralized exchanges suffer from unintuitive, slow, multi-step user experiences which leads to low user adoption and low daily trading volume. Especially newer traders are not going to trade on your platform if the learning curve is steep and the process of submitting an order complicated.&lt;/p&gt;
-
-&lt;p&gt;It is already starting to show - as Diar.co reported recently, all dApps have been losing their user base at a rapid rate. I believe user experience plays a role in that.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://diar.co/decentralized-apps-facing-half-life-after-peak/&quot;&gt;“Decentralized Apps Facing Half-Life After Peak” at diar.co&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The goal of Altcoin.io is to be the first DEX that can truly compete with centralized exchanges and we know exactly what it takes as four of our six technical advisors are active cryptocurrency traders.&lt;/p&gt;
-
-&lt;p&gt;So we are very aware that in order to compete we need intuitive, user-friendly platform not only in terms of trading interface. Even the SDK we are launching is a complete out-of-the box solution. You can launch your own DEX without being a developer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;An onboarding path from fiat to crypto is surely part of the package to compete with centralized platforms. In August 2018, Altcoin.io partnered with SendWyre while DEXes are typically choosing to directly implement a stablecoin. Why SendWyre?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The main point here is to reduce friction for both new and experienced users.&lt;/p&gt;
-
-&lt;p&gt;Crypto trading old-timers may be comfortable with scenarios like buying a cryptocurrency directly, storing it anonymously and hedging its value in some way to capture the market movements, but people who are new to cryptocurrency trading are interested in different kind of products.&lt;/p&gt;
-
-&lt;p&gt;SendWyre is a regulated service that provides a fiat to crypto on-boarding path. They verify that you are who you say you are, mint an ERC-721 non-fungible token for you and after this one-time process you are free to start trading with compliant liquidity on a DEX.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.sendwyre.com/community-driven-on-chain-compliance-d334e0f5962b&quot;&gt;“Community Driven On-Chain Compliance” at blog.sendwyre.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;MakerDAO who is the creator of Dai stablecoin has &lt;a href=&quot;https://www.prnewswire.com/news-releases/makerdao-and-wyre-give-businesses-immediate-access-to-dai-stablecoin-in-over-thirty-countries-including-usa-300696400.html&quot;&gt;partnered with SendWyre as well&lt;/a&gt; which means we will be working with both.&lt;/p&gt;
-
-&lt;p&gt;We are definitely not avoiding working with stablecoins, if it seemed like that. Partnering with SendWyre was just the most efficient way to open up our exchange to those who may be entering cryptocurrency for the very first time, which is huge.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;In terms of potential collaboration with Altcoin.io, what other blockchain technology projects are you watching?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Not exactly in terms of partnership opportunity but we’re huge fans of &lt;a href=&quot;https://tendermint.com/about&quot;&gt;Tendermint&lt;/a&gt; and the &lt;a href=&quot;https://raiden.network/&quot;&gt;Raiden Network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I think blockchain scalability is one of the most important issues to be working on right now. Without scalable solutions, mass user adoption will not happen no matter how good the blockchain applications get.&lt;/p&gt;
-
-&lt;h4 id=&quot;more-from-altcoinio&quot;&gt;More from Altcoin.io&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-Rk981hywow&quot;&gt;Video overview of the new Altcoin.io Plasma DEX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://plasma.altcoin.io/&quot;&gt;Test the Plasma exchange at https://plasma.altcoin.io/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
- ]]></turbo:content>
-
-        <author><![CDATA[ tradingfanbois ]]></author>
-        <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/altcoin-io/altcoin-io_interface.gif" medium="image" />
-        <pubDate>Tue, 04 Sep 2018 03:33:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/interview-andrew-gazdecki/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/interview-andrew-gazdecki/</guid>
-        <comments>https://www.altcointrading.net/interview-andrew-gazdecki/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ popular ]]></category>
-        <category><![CDATA[ interview ]]></category>
-        <category><![CDATA[ altcoin-io ]]></category>
-        <category><![CDATA[ andrew-gazdecki ]]></category>
-        <category><![CDATA[ atomic-swap ]]></category>
-        <category><![CDATA[ altcoin-exchange ]]></category>
-        <category><![CDATA[ dex ]]></category>
-        <category><![CDATA[ trading-platform ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        
-        <category><![CDATA[ exchanges ]]></category>
         
 
         <yandex:related>

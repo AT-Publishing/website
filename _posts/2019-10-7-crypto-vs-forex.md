@@ -1,9 +1,9 @@
 ---
-layout: at-trading
-published: true
-guest: false
-pinned: no
-note: 'Trading Strategy'
+layout:      at-trading
+published:  true
+guest:      false
+pinned:      true
+note:       'Trading Strategy'
 
 promoting: entertainment
 
