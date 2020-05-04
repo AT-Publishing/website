@@ -1,205 +1,92 @@
 ---
 layout:     at-trading
-title:      "Best Altcoin Exchanges, Tried and True"
+title:      "Altcoin Exchanges: Where to buy altcoins in 2020?"
 guide:      yes
 promoting:  payments-services
+note:       Guide
 
-description: "Where to trade altcoins? Which exchanges are liquid, which have issues and which look like exit scam? Updated for 2017/2018"
-categories:
-- exchanges
-- basics
-permalink: altcoin-exchanges/
-image:
-- "/img/bitfinex/bitfinex-coupon-5egV78YtlC.jpg"
-- "/img/exchanges/okcoin-na.jpg"
-- "/img/exchanges/bittrex.jpg"
-- "/img/exchanges/bitx.jpg"
-- "/img/exchanges/btce.jpg"
-- "/img/exchanges/anxpro.jpg"
-- "/img/exchanges/poloniex.jpg"
-- "https://bestbitcoinexchange.co/images/trading/bitcoin-trading-theory.jpg"
-image_alt:
-- "Bitfinex for altcoin trading"
-- "OKCoin for altcoin trading - list of forbidden countries"
-- "Bittrex altcoin trading"
-- "Bit-X, for altcoin trading only LTC markets"
-- "BTC-E selection of altcoin markets"
-- "AnxPro altcoin trading platform"
-- "Poloniex altcoin trading - exclusively crypto exchange"
-
-update: 2017-10-18 14:35 +0700
-tags: ['update']
-note: 'User Guide'
-
-comments: false
-
+description:  "Where to buy crypto and where to trade it? Which exchanges are liquid, which have issues and which look like exit scam? Updated 2020."
+categories:   [basics]
+permalink:    altcoin-exchanges/
+image:        ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588582376/atnet/blog_trading/levi-saunders-B7VaD0QlyZY-unsplash_ahzade.jpg"]
+image_alt:    ["Altcoin Exchanges: Where to buy altcoins?"]
 
 about:
  name: "cryptocurrency exchange"
  sameas: ["https://en.wikipedia.org/wiki/Cryptocurrency_exchange", "https://cryptocoincharts.info/markets/info"]
+mentions:
+ name: "altcoin wallet"
+ sameas: ["https://www.altcointrading.net/altcoin-wallets/"]
+
+date:         2020-05-04 12:38:00 +0700
+author:       https://twitter.com/tradingfanbois
+author_name:  "@tradingfanbois"
+
+related:
+- {"Independent Reserve: How To Best Leverage What They Are Great At": "/coupon-independent-reserve/"}
+- {"Altcoin wallets: Crypto storage apps in 2020": "/altcoin-wallets/"}
+- {"Strategy - Dollar Cost Averaging": "/strategy/dollar-cost-averaging/"}
+- {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
 
 ---
 
-So you want to join the madness and start with altcoin trading?
+Whether you want to join the madness of altcoin trading or you just want to buy and hold, this is a 2020 overview of the reliable platforms to buy all the good crypto that is not Bitcoin.
 
-Let's first look at what is important - what you should be looking for - and what you can leave behind.
+### Trading Altcoins: Best exchanges for speculation
 
-**Your priorities:**
+Let's first look at what is important.
 
-* Find a liquid exchange - especially when looking for the best altcoin *trading* platform. Chinese exchanges are perfect for that, simply because of the number of Chinese. However they notoriously don't do altcoins too much.
+What should you be looking for in an exchange for altcoin speculation?
 
-* Keep checking [Coinmarketcap 24h volume](http://coinmarketcap.com/currencies/volume/24-hour/). Different cryptocurrencies have different liquidity, go with the flow.
+#### Your priorities
 
-* Keep in mind that smaller market means wilder changes, less predictability and high risk of bad losses.
+> **Liquidity**
 
-**Less important:**
+This is most important for [day-trading](/daytrading/), [scalping](/strategy/scalping/) or other short term kinds of speculation. You want to submit your order and have it filled with not much issues.
 
-* AML/KYC for altcoin trading is still an overkill in many places. Go with that.
+Chinese exchanges are great for that, they are always busy enough due to the higher popularity of speculation and also, quite honestly, due to the fake volume generating bots.
 
-* Screw inhouse charts. Use [Bitcoinwisdom.com](http://bitcoinwisdom.com), [Cryptowat.ch](http://cryptowat.ch) or [Cryptocoincharts.info](http://www.cryptocoincharts.info). Cryptowatch is best for altcoin trading and also actively maintained. It leaves quite some footprint in browsers though.
+However, many trading platforms in Asia notoriously don't do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects. You might be more lucky on places like YoBit.
 
-### Bitfinex
+**Most liquid altcoin exchanges:**
 
-To keep it short, your best bet for spot liquidity is these days generally [Bitfinex](#bitfinex) or [Bittrex](#bittrex).
+* [Binance](http://bit.ly/china-margin) - wide selection of alts, deep liquidity
+* [OKEx](http://bit.ly/okex-affilatnet-2020) - smaller selection of big alts but easy access to derivatives
+* [Yobit](https://bit.ly/at-yobit-2020) - busy and liquid den of wild speculation, big and small alts
+* [Bitfinex](http://bit.ly/at-bfx-banner2020) - unique selection of alts but not always super liquid
+* [BitMEX](http://bit.ly/atnet-mex) - only a few alts, but accessible alt derivatives
 
-* Bitfinex has the main coins you might want to trade but there will be no fiat banking routes for you unless you want to transfer 5-6 figures USD (if you do, you should contact their support). You should also know there has been [a controversy regarding Tether issuance](https://medium.com/@bitfinexed/are-fraudulent-tethers-being-used-for-margin-lending-on-bitfinex-5de9dd80f330) and [audit has been promised](http://archive.is/6T7Ha).
-* Bittrex has many pairs and poor liquidity on some which can be exploited if you are a good short term trader. They are currently a more reliable altcoin exchange than Poloniex, but their customer support is overloaded too.
+Not recommended - Poloniex, [HitBTC](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/) and smaller places that are just as sketchy.
 
-You can also trade altcoins on Kraken and there is ETH available on GDAX but **it's been long a popular fixture** that these two exchanges **will crash during every important price action**. You have been warned. Bitstamp also has some altcoins -- XRP and newly also ETH and LTC -- you need to be fully verified to trade there.
+> **Stability**
 
+The platform stability is likewise important for active trading. A trading platform needs to have downtime for maintenance but this should be scheduled.
 
-### Altcoin traders from the US  
+A crypto exchange shouldn't really crash under heavy traffic - ever. Trading platforms earn crazy money on fees, they can afford server maintenance just fine.
 
-You probably know about the witch hunt. US traders have it always more difficult.
+**Most stable crypto exchanges:**
 
-You have the following options:
+* [Binance](http://bit.ly/china-margin) - occasional downtime communicated via Twitter
+* [OKEx](http://bit.ly/okex-affilatnet-2020) - hardly any downtime
+* [Yobit](https://bit.ly/at-yobit-2020) - occasional downtime
+* [Bitfinex](http://bit.ly/at-bfx-banner2020) - was hacked in 2016 but generally stable
+* [BitMEX](http://bit.ly/atnet-mex) - servers unreachable very often, not recommended
 
-* Verify on exchanges that are regulated within the US -- [Gemini](https://gemini.com), [GDAX](https://gdax.com) -- if they will take you. They don't accept all banks, all states and sometimes they just refuse for undisclosed reasons. These two are where you'll have your deposits in the fastest.
-* Verify on [Bitstamp](https://bitstamp.net) -- EU-based but accepts US users. You will need to wire money to Slovenia.
+> **Availability on TradingView**
 
-I'm not mentioning [Kraken](https://trade.kraken.com) as it's too unreliable for trading but it is indeed an option. [Bitfinex stops servicing verified US residents in November 2017](https://www.reddit.com/r/BitcoinMarkets/comments/76slkb/did_everyone_get_the_us_person_notice_from/?utm_content=comments&utm_medium=hot&utm_source=reddit&utm_name=BitcoinMarkets).
+If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on [TradingView](http://bit.ly/atnet-tv). All the bigger trading platforms are there - Binance, Bitfinex, BitMEX.
 
-Once you onramp, even if via p2p or whatever, your problem is kind-of solved. You can and trade unverified on [Bitmex](https://www.bitmex.com/register/iYQB44) (with VPN), [Bitfinex](https://www.bitfinex.com/?refcode=5egV78YtlC), [Bittrex](https://bittrex.com) or elsewhere.
 
-Don't leave your money on exchanges, especially when you're not verified.
+#### Less important parameters
 
-[Up](#)
+* Fiat markets. For altcoin speculation you don't need USD or other fiat markets at all. The ratios in which alts are traded is often BTC or ETH. To track a fiat value, in 2020 we use DAI or another stablecoin.
 
+* AML/KYC for pure altcoin trading is still an overkill in many places. Go with that.
 
-### Best Altcoin Trading Liquidity
+* In-house charts. Use [TradingView FREE](http://bit.ly/atnet-tv) or [Cryptowat.ch](http://cryptowat.ch).
 
 
-#### Poloniex AKA Polo
-
-##### (most altcoins, even the lesser known and new ones)
-
-{% amp700 border {{page.image[6]}} {{page.image_alt[6]}} %}
-
-Definitely the best choice is you are looking to trade small altcoins. Polo is the epicenter of all altcoin trading - if there is a pump starting it is starting on Polo.
-
-{% aff Poloniex https://poloniex.com/ %} has a lot of traders on ETH, DASH, DOGE, Monero and other markets. When there is a new token coming up it's always listed on Poloniex.
-
-Exchange trading and margin (leveraged) trading is available, although the selection of leveraged pairs is limited. New altcoins are generally only available for spot (exchange) trading.
-
-**Poloniex lending**
-
-Funds for margin are provided by other users - you can lend out your bitcoins and altcoins to earn interest too. If you want to do so it's best that you use a [lending bot](https://cryptotradingtools.com/) that will pick out the best lending rates. The rates fluctuate based on the price actions - if altcoins are generally surging, BTC loans will be in high demand to long the altcoins. If altcoins are looking bearish, it will be best to lend out the most traded or least offered losers.
-
-**Poloniex policies**
-
-[Poloniex is based in US but has restriction for some US altcoin traders](https://poloniex.com/terms/).
-
-Poloniex verification levels:
-
-    * Verification is not absolutely necessary.
-    * You need to state your (any) name and country to get $2000 daily withdrawal limit.
-    * Getting verified takes months. Corporate verifications are no longer possible.
-    * The verification limits on Poloniex are in USD although {% aff Poloniex https://poloniex.com/ %} only operates in cryptocurrencies - so, if your favourite altcoin surges you might not be able to withdraw all of your profits at once.  
-
-**Poloniex Charts**
-
-{% aff Poloniex https://poloniex.com/ %} has an awful web app. All altcoins on Poloniex are listed on {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %} though - and those are real professional charts and chat where you sometimes even learn, not just alts pumping. You can also find most coins on {% aff Cryptowatch https://cryptowat.ch %}.
-
-**Poloniex Fees**
-
-  * Trade: 0.15%/0.25% maker-taker. Trading on Poloniex is expensive compared to Bitfinex.
-  * Deposit: All crypto **free**.
-  * Withdrawal: All crypto **free**.
-
-**Mobile trading**
-
-Via third party app called TabTrader. **There is a "Poloniex app" for Android but it is fraudulent.**
-
-[Up](#)
-
-
-
-### Bitcoin exchanges going altcoin
-
-What used to be known as Bitcoin exchanges in the past is now becoming a serious trading bussiness encompassing the whole new asset class. Couple years ago you couldn't trade or lend altcoins on Bitfinex, these days it's your second best option right after Poloniex.
-
-#### Bitfinex
-
-{% amp700 {{border}} {{page.image[0]}} {{page.image_alt[0]}} %}
-
-{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} is based in [British Virgin Islands](https://www.altcointrading.net/bitfinex-not-affected-pbox-ico), owned by JL van der Velde - CEO of iFinex Inc.
-
-On {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} crypto deposits and withdrawals go without verification. You need some confirmations to use BTC or altcoin deposit, they don't do instant deposits - that might be a drawback if you're doing altcoin arbitrage.  
-
-**Bitfinex Liquidity**
-
-{% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} has a good liquidity on all altcoin markets. Alt/fiat markets on {% aff Bitfinex https://www.bitfinex.com/?refcode=5egV78YtlC %} are  slightly less liquid than Alt/BTC. There are new markets for coins like IOTA or OMG and new coins keep getting listed but the trading picks up very quickly on these new markets.
-
-**Bitfinex Policies**
-
-[There is no fiat-crypto banking for retail nor is there going to be](https://www.altcointrading.net/bitfinex-banking).
-
-**Bitfinex Charts**
-
-Use [Cryptowatch](https://cryptowat.ch/bitfinex/ethbtc) or {% aff Tradingview http://tradingview.go2cloud.org/SHW9 %}.
-
-**Bitfinex {% aff Fees https://www.bitfinex.com/pages/fees/?refcode=5egV78YtlC %}**
-
-  * Trade: maker/taker **.09%/.18%** if you sign up with {% aff this referral link https://www.bitfinex.com/?refcode=5egV78YtlC %}
-  * Deposit: BTC & altcoins **free**
-  * Withdrawal: BTC & altcoins **free**
-
-**Mobile trading on Bitfinex**
-
-Native app ("Bitfinex", issued by iFinex), TabTrader, zTrader
-
-
-#### Chinese Exchanges
-
-##### (mostly BTC/LTC only)
-
-{% amp700 border {{page.image[1]}} {{page.image_alt[1]}} %}
-
-Chinese exchanges are shutting down CNY pairs for now, it is unclear if they will get licensed and reopen. The only place that remains is [OkCoin International](https://okcoin.com) (USD denominated BTC, LTC, ETH markets).
-
-[Up](#)
-
-
-#### Bittrex
-
-{% amp700 border {{page.image[2]}} {{page.image_alt[2]}} %}
-
-{% aff Bittrex https://bittrex.com/ %} is exclusively altcoin exchange. Newish, but people trade [dash and ether there](http://www.cryptocoincharts.info/markets/show/bittrex).
-
-* Policies: Again - [Based in US and has US restrictions](https://bittrex.com/Home/Terms). **DO NOT keep untraded coins in**: Funds left on the account not moved for an unspecified period of time will be treated as unclaimed property.
-
-* Charts: Use [cryptocoincharts](http://www.cryptocoincharts.info/markets/show/bittrex)
-
-* {% aff Fees https://bittrex.com/Fees#trading %}
-  * Trade: 0.25% Flat
-
-* Mobile trading: TabTrader
-
-
-[Up](#)
-
-### Derivatives
-
+### Trading Altcoin Derivatives
 
 #### BitMEX
 
@@ -209,22 +96,71 @@ Currently the most traded products are BTC futures, ZEC futures and BTC permanen
 
 US customers are not allowed to sign up to the platform per T&C but Tor/VPN access is not blocked.
 
-<a rel="nofollow" href="https://www.bitmex.com/register/iYQB44" class="button" target="_blank">Get 10% fee discount</a>
-
-#### OKEX
-
-BTC and LTC futures only. Probably too close to China for calm sleep these days.
+<a rel="nofollow" href="http://bit.ly/atnet-mex" class="btn" >Get 10% fee discount</a>
 
 
-[okex.com](https://okex.com)
+### Buying Altcoins
+
+To buy altcoins for long-term holding, with no plans to actively trading them, you have two options - buying altcoins for fiat or for other crypto.
+
+#### Buy altcoins for Bitcoin, Ethereum or other big crypto
+
+If you want to invest in smaller altcoins, your last step before the purchase will always be the purchase of a bigger crypto, as there are no fiat markets for new niche cryptocurrencies.
+
+If you already own a big crypto, you can exchange it for smaller altcoins on any of the liquid spot exchanges good for trading.
+
+* [Binance](http://bit.ly/china-margin) - wide selection of altcoin markets denominated in BTC, ETH, exchange coin or stablecoins
+* [Yobit](https://bit.ly/at-yobit-2020) - wide selection of altcoin markets denominated in BTC, ETH
+* [Bitfinex](http://bit.ly/at-bfx-banner2020) - some selection of alts denominated in BTC, ETH, USDT
+
+Buying altcoins for crypto is also the preferred way if you want to make your purchase anonymous.
+
+* [LocalCryptos](http://bit.ly/localcryptos) lets you buy your initial ETH and BTC completely anonymously.
+* Do NOT use LocalBitcoins in 2020, they collaborate.
+
+Otherwise, if you don't mind being verified, you can buy your initial coins on any of the big-name exchanges. You will pretty much always find a BTC, LTC and ETH market denominated in USD or other fiat.
+
+* [Bitstamp](https://bitstamp.net)
+* [Gemini](https://gemini.com)
+* [GDAX](https://gdax.com)
+* [Kraken](https://trade.kraken.com)
+* [Independent Reserve](http://bit.ly/at-indyres)
+
+[Bitfinex](http://bit.ly/at-bfx-banner2020) has fiat routes as well, but it's a bit of a cat and mouse game.
+
+#### Buy altcoins directly for fiat
+
+You can only buy the bigger cryptocurrencies directly for fiat. It is easy for BTC, ETH, LTC, XMR.
+
+Selection of smaller cryptos differs exchange by exchange, depending on the platform's business partnerships.
+
+**Centralized platforms (will require AML/KYC to let you purchase)**
+
+Big cryptos only:
+* [Bitstamp](https://bitstamp.net) (EU)
+* [Gemini](https://gemini.com) (US)
+* [GDAX](https://gdax.com) (US)
+* [Independent Reserve](http://bit.ly/at-indyres) (AU) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT
+
+Small cryptos thanks to partnerships:
+* [Kraken](https://trade.kraken.com)
+* [Bitfinex](http://bit.ly/at-bfx-banner2020)
+
+**Decentralized platforms**
+
+* [LocalCryptos](http://bit.ly/localcryptos) lets you buy your initial ETH and BTC completely anonymously.
+* Do NOT use LocalBitcoins in 2020, they collaborate.
+
+### Altcoin traders from the US  
+
+You probably know about the witch hunt. US traders have it more difficult.
+
+You have the following options:
+
+* Verify on exchanges that are regulated within the US -- [Gemini](https://gemini.com), [GDAX](https://gdax.com) -- if they will take you. They don't accept all banks, all states and sometimes they just refuse for undisclosed reasons. These two are where you'll have your deposits in the fastest.
+* Verify on [Bitstamp](https://bitstamp.net) -- EU-based but accepts US users. You will need to wire money to Slovenia, which might raise questions from your bank.
+* [Kraken](https://trade.kraken.com) used to be too unreliable for trading but has since gotten their platform together and now is an option. **The Kraken exchange is still not to be found among the recommended platforms for speculation though, because the reliability of their stop-loss execution is still worse than that of a weather forecast.**
+* [Bitfinex stopped servicing verified US residents in November 2017](https://www.reddit.com/r/BitcoinMarkets/comments/76slkb/did_everyone_get_the_us_person_notice_from/). **Practically, this only applies to verified accounts**, and KYC is not mandatory for crypto-only trading on the platform. If you access Bitfinex from a location in the United States, you will just be asked to claim that US is not your primary country of residence. Once you've done that, the interface will let you through.
 
 
-
-### Who has problems
-
-* YoBit.net - [Users have issues withdrawing, fake new coins listed etc - AVOID](http://siliconangle.com/blog/2016/02/28/problems-with-withdrawals-support-reported-at-bitcoin-altcoin-exchange-yobit/)
-
-* HitBTC - [As for altcoins withdrawals seem fine, not in fiat though.](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/)
-
-
-[Up](#)
+Once you onramp, even if via p2p or whatever, your problem is kind-of solved. You can and trade unverified on [Bitmex](http://bit.ly/atnet-mex) (with VPN), [Bitfinex](http://bit.ly/at-bfx-banner2020), [Bittrex](https://bittrex.com) or elsewhere.
