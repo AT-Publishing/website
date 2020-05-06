@@ -12,6 +12,11 @@ image:          ["https://res.cloudinary.com/atnetcloud/image/upload/v1586242335
 image_alt:
 - "How to use Virtualbox for crypto wallets. Bagholders image via Pexels."
 
+related:
+ - {"Altcoin Wallets in 2020 - Tried and true": "/altcoin-wallets/"}
+ - {"IOTA wallets and cold storage strategies": "/security/iota"}
+ - {"Sweeping wallet addresses: Redeeming forked coins": "/security/sweeping"}
+ - {"Crypto Wallets on Virtual Machines: Should You Bother?": "/security/virtualbox"}
 ---
 
 Does it make sense to install your desktop crypto wallets on a virtual machine?
