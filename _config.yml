@@ -241,11 +241,11 @@ layout="responsive">
 bf4: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/blackfriday/">
 <amp-img itemprop="image"
-src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1584502136/atnet/_banner/crypto-discount-codes-coronavirus.jpg"
+src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,f_auto,w_400/v1589248403/atnet/_banner/halving-banner_vvkx8g.png"
 alt="Crypto Discount Codes - Eternal Black Friday"
 data-original-width="400px"
-data-original-height="284px"
-width="300px" height="213px"
+data-original-height="400px"
+width="400px" height="400px"
 layout="responsive">
 </amp-img></a></div><br>'
 
