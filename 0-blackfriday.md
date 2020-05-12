@@ -24,15 +24,18 @@ _______
 
 ## Black Friday is over, long live Black Friday
 
-Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Mid-Season Sales** that are supported by the **COVID-19 outbreak** which has everyone stay at home and online shop.
+Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Bitcoin Halving Promos** in May 2020.
 
-## Ledger Wallet Discount Codes - March 2020 Ledger OFF 20-25%
+## Ledger Discount Code May 2020: Nano S **50% OFF**
 
 {{ site.stars.five }}
 
-Ledger wallet opened up a **discount code generator page** in second half of March 2020 where you will get 20-25% off for your total bill.
+Ledger wallet opened up a **discount code** offer for the occasion of Bitcoin halving. You get 50% OFF on Ledger Nano S with discount code `WEARETHEBULLRUN`.
 
-{{ site.ledger_codes_leader }}
+<p>
+<a href="https://bit.ly/at-ledger-halving2020" class="btn">Get your Nano S 50% Discount</a>
+</p>
+
 
 The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
@@ -40,13 +43,16 @@ The best way to make use of the Ledger discount code deal is to have as big a to
 * Ledger Nano S is cheaper but can pretty much operate with a single crypto on it only, due to the small memory. That makes it ideal for a single-purpose wallet.
 * So, if you trade mostly with, say, Bitcoin as your base currency, Ledger Nano S is the most time-, cost- and security-efficient wallet to serve as your trading wallet.
 
-**The 20-25% discount code deal is also available for the Ledger backup pack: One Nano X + Nano S at half price.**
-
 It's also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
 
 <a rel="nofollow"  class="button" href="http://bit.ly/at-ledger-codes2020">Go to Ledger Discount Codes</a>
 
 &nbsp;
+
+_______
+
+&nbsp;
+
 
 <div id="past2019"></div>
 
