@@ -38,9 +38,11 @@ layout: default-news
             <div class="strategy-content">
             {{ content }}
 
-            <section class="altcointradingnet-bio">
-              Posted in:&nbsp;{% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{%else %}<span class="google-news-tag">{{ page.note }}</span>&nbsp;{% endif %}
-            </section>
+              <div class="row">
+                <p>Posted in:&nbsp;{% if page.stories %}<div class="google-news-tag">{{ page.genres }}</div>&nbsp;{%else %}<span class="google-news-tag">{{ page.note }}</span>&nbsp;{% endif %}</p>
+              </div>
+              
+              &nbsp;
 
             <section class="altcointradingnet-bio">
               <p>
