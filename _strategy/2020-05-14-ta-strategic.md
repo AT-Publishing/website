@@ -21,7 +21,7 @@ categories:     [ trading ]
 tags:           [ crypto-technical-indicators, technical-analysis, strategic-mindset, rational-analysis]
 
 related:
-- {"Ichimoku cloud for crypto - Does it make sense to tweak the settings?": "/ichimoku-cloud/"}
+- {"Technical analysis in crypto: Can it work?": "/technical-analysis/"}
 - {"Timing tools: Market timing is not a dubious concept": "/strategy/timing/"}
 - {"Market Reversals and Psychology": "/strategy/reversals/"}
 
