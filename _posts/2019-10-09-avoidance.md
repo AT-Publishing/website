@@ -36,9 +36,9 @@ author_twitter: "_Karlvonbahnhof"
 
 
 related:
+- {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}
 - {"Collection of all blogs and strategies that use Wyckoff trading method": "/tag/wyckoff-trading/"}
 - {"Trading Strategy: Wyckoff Method for Ranging Markets": "/strategy/wyckoff/"}
-- {"Fundamental Value of Cryptoassets": "/value/"}
 - {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
 
 ---

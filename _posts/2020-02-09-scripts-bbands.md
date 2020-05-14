@@ -40,6 +40,7 @@ tags: ["wyckoff-trading", "scriptspotlight", "cryptotrading", "trading-blog", "b
 chart: []
 
 related:
+- {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}
 - {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
 - {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
 - {"Technical Analysis in Cryptocurrency Trading: Does it actually work?": "/technical-analysis/"}

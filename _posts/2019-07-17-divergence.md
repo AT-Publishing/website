@@ -39,7 +39,7 @@ about:
  sameas: ["https://www.investopedia.com/terms/d/divergence.asp"]
 
 related:
- - {"Technical Analysis - What to use for crypto trading": "/technical-analysis/"}
+ - {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}
  - {"No-ICO projects": "/category/no-ico/"}
  - {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
 ---
