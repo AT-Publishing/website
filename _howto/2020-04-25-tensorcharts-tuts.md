@@ -13,6 +13,8 @@ permalink:      /tensorcharts-tutorials/
 categories:     [tools]
 date:           2020-04-25 01:22:00 +0700
 
+image:
+- "https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.jpg"
 
 about:
  name: "tensorcharts"
