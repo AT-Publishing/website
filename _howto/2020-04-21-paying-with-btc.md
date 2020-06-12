@@ -5,7 +5,7 @@ cloud:      true
 promoting:  payments-services
 
 layout: at-trading
-title: "Tips: How to safely use bitcoin for payments"
+title: "How to safely use bitcoin for payments"
 description: "It's not enough to understood the value and the importance of bitcoins and cryptocurrencies. To start using bitcoin for payment it's also necessary to know how to securely manage its storage."
 note: "Bitcoin as Money"
 date: 2020-04-21 10:22:00 +0700
