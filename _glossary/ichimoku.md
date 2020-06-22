@@ -26,4 +26,24 @@ related:
 
 ---
 
-Ichimoku cloud is a technical indicator suitable best for longer timeframes. It is developed to give a "single glance" picture about the state of the market - whether it is weak or strong or possibly approaching reversal.
+#### Ichimoku Cloud 101
+
+Ichimoku cloud is a technical indicator suitable **best for longer timeframes**.
+
+It is developed to give a "single glance" idea about the structure of the market, which is also loosely the meaning of the Japanese term Ichimoku.
+
+This single-glance market information is typically whether the market is weak, strong or possibly approaching reversal.
+
+#### Ichimoku Trading Strategies
+
+Traders typically set their entries and exits around the borders of the filled-out part of Ichimoku (The Kumo), most often with the help of other indicators.
+
+* [More on this](/ichimoku-cloud/)
+
+As mentioned, Ichimoku works best on longer timeframes. The reason is that on shorter timeframes the Kumo cloud "flips" too often and the information you get from it is close to random. Still, some traders like to use Ichimoku for scalping. We believe there are better tools for that, but then whatever works for you...
+
+* [More on how to scalp crypto](/strategy/scalping/)
+
+#### Where to get Ichimoku
+
+Ichimoku cloud is one of the default indicators available on [TradingView](http://bit.ly/atnet-tv), even with the free plan. You can find it in the public indicator library.

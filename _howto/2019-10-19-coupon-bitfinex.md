@@ -71,7 +71,7 @@ The Bitfinex exchange is available worldwide. There is limitation on margin trad
 
 **No identity verification is needed other than for fiat withdrawal. There might be restrictions for Bitfinex futures based on your location.**
 
-<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Exchange</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView Charting</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView Referral</a>
 
 #### About DeversiFi (the non-custodial DEX maintained by Bitfinex)
 
