@@ -26,16 +26,23 @@ _______
 
 Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Bitcoin Halving Promos** in May 2020.
 
-## Ledger Discount Code May 2020: Nano S **50% OFF**
+## Ledger Discount Code July 2020: Nano X **20% OFF**
 
 {{ site.stars.five }}
 
-Ledger wallet opened up a **discount code** offer for the occasion of Bitcoin halving. You get 50% OFF on Ledger Nano S with discount code `WEARETHEBULLRUN`.
+Ledger wallet opened up a **discount code** offer called "Coin League" valid until **July 16th 2020**.
+
+You get a list of 79 discount codes to choose from:
+
+* Each code is giving you 20% off Ledger Nano X (the discount doesn't add up)
+* Each code also represents a vote for your favorite coin. Example: `Coinleague-EOS` (/s).
+* By using a selected code to buy Ledger Nano X, you vote for your favorite coin.
 
 <p>
-<a href="https://bit.ly/at-ledger-halving2020" class="btn">Get your Nano S 50% Discount</a>
+<a href="https://bit.ly/2AqVG9p" class="btn">Get your Nano X 20% Discount</a>
 </p>
 
+### It's useful to have multiple hardware wallets!
 
 The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
@@ -45,7 +52,6 @@ The best way to make use of the Ledger discount code deal is to have as big a to
 
 It's also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
 
-<a rel="nofollow"  class="button" href="http://bit.ly/at-ledger-codes2020">Go to Ledger Discount Codes</a>
 
 &nbsp;
 
