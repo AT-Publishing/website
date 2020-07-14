@@ -78,8 +78,8 @@ defaults:
       stories: false
       genres: "Opinion" # Blog, OpEd, Opinion, PressRelease, Satire, and UserGenerated
       tickers: false
-      author: "https://reddit.com/u/KarlVonBahnhof"
-      author_name: "KarlVonBahnhof"
+      author: "#"
+      author_name: "AltcoinTrading.NET"
  -
     scope:
       path: ""

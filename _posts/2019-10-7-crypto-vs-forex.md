@@ -2,7 +2,7 @@
 layout:      at-trading
 published:  true
 guest:      false
-pinned:      true
+pinned:      no
 note:       'Trading Strategy'
 
 promoting: entertainment
