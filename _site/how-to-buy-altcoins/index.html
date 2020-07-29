@@ -487,6 +487,31 @@ span.note {
     background: #fff;
     clear: both
 }
+span.note-subtle {
+  border-left: 5px solid #607d8b
+}
+span.note-lvl-a {
+  border-left: 5px solid #438945;
+}
+.box-lvl-a {
+  display: block;
+    padding: 20px;
+    border: 5px solid #428944;
+}
+
+li.subtle-item {
+  list-style-position: inside;
+  list-style-image:none;
+  list-style-type: square;
+}
+ul.list-lvl-a {
+  list-style: none;
+}
+.list-lvl-a a {
+  text-decoration: underline;
+}
+
+
 
 .tooltip-label,
 h4.post {
@@ -954,11 +979,21 @@ h5.post {
 }
 
 .custom-note {
-    background: #CDDC39
+    background: #CDDC39;
+    display: inline-block;
 }
 
 .custom-note.bg-red {
     background: #FF4136
+}
+
+.home-glossary .custom-note {
+    background: #3cbcc3;
+    display: inline-block;
+}
+.home-glossary > .columns {
+    padding: 15px 0 40px;
+    border-top: 5px solid #3cbcc3;
 }
 
 .sec-latest,
@@ -1623,6 +1658,7 @@ hr.skinny {
     border-left: none;
     font-size: 24px;
 }
+.top h6.post {padding: 4px 0px; margin: 0}
 
 .top2 h5.post {
     font-size: 18px
@@ -1706,9 +1742,11 @@ h4.tagged-as {
     .atnet-last-2 {
         border-top: 5px solid #03203f;
     }
-    h5.post strong > small {
+
+    h5.post strong > small,
+      h6.post small {
         font-size: 63%;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         position: relative;
         top: -3px;
@@ -2620,17 +2658,13 @@ amp-user-notification>div>div {
             <div class="smallad" id="at-promo-smallad-post">
                
 
-
 <span class="note">TradingView FREE Script Reviews:</span>
 <ul>
   <li class="popular-item">
     <a href="/tag/tradingview-script-review/" title="best free tradingview scripts">TradingView Script Spotlight</a>
   </li>
 </ul>
-
-<br>
-
-<span class="note">Most Read in How-To:</span>
+<span class="note">Latest in How-To & Guides:</span>
 <ul>
   
   <li class="popular-item">
@@ -2638,32 +2672,18 @@ amp-user-notification>div>div {
   </li>
   
 </ul>
-
-<br>
-
-<span class="note">Popular in Extras</span>
+<span class="note">Explore Related Tags:</span>
 <ul class="popular">
-  
-  
-
-  
-  
-
-
-<li class="popular-item">
-  <a class="index-internal" href="/security/threats-cryptotraders-2020/" title="Security Threats for Crypto Traders in 2020">#CryptoSecurity | <b>Security Threats for Crypto Traders in 2020</b> on 07 Apr 2020</a>
-</li>
-
-
-
-<li class="popular-item">
-  <a class="index-internal" href="/strategy/cryptocurrency-lending/" title="On Lending">#CryptoTrading | <b>On Lending</b> on 04 Apr 2020</a>
-</li>
-
-<li class="popular-item">
-  <a class="index-internal" href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">#CryptoTrading | <b>Thoughts on Reversals and Psychology</b> on 04 Apr 2020</a>
-</li>
-
+  <li class="popular-item">
+    <a href="/tag/wyckoff-trading/">Tagged: Wyckoff Trading</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/tradingview-script-review/">Tagged: TradingView Scripts</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/crypto-technical-indicators/">Tagged: Technical Indicators</a>
+  </li>
+</ul>
 
             </div>
             

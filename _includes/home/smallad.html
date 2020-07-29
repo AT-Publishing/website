@@ -1,5 +1,4 @@
 {% assign howto_posts = site.howto | sort:date | reverse %}
-{% assign howto_sample = site.howto | sample:2 %}
 
 <span class="note">TradingView FREE Script Reviews:</span>
 <ul>
@@ -7,10 +6,7 @@
     <a href="/tag/tradingview-script-review/" title="best free tradingview scripts">TradingView Script Spotlight</a>
   </li>
 </ul>
-
-<br>
-
-<span class="note">Most Read in How-To:</span>
+<span class="note">Latest in How-To & Guides:</span>
 <ul>
   {% for post in howto_posts limit:1 %}
   <li class="popular-item">
@@ -18,25 +14,15 @@
   </li>
   {% endfor %}
 </ul>
-
-<br>
-
-<span class="note">Popular in Extras</span>
+<span class="note">Explore Related Tags:</span>
 <ul class="popular">
-  {% assign strat = site.strategy | sort:date | reverse %}
-  {% assign sec = site.security | sort:date | reverse %}
-
-  {% assign strat_sample = site.strategy | sample:2 %}
-  {% assign sec_sample = site.security | sample:2 %}
-
-{% for post in sec limit:1 %}
-<li class="popular-item">
-  <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoSecurity | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-</li>
-{% endfor %}
-
-{% for post in strat_sample %}
-<li class="popular-item">
-  <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#CryptoTrading | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-</li>
-{% endfor %}
+  <li class="popular-item">
+    <a href="/tag/wyckoff-trading/">Tagged: Wyckoff Trading</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/tradingview-script-review/">Tagged: TradingView Scripts</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/crypto-technical-indicators/">Tagged: Technical Indicators</a>
+  </li>
+</ul>

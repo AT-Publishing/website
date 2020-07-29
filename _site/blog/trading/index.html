@@ -478,6 +478,31 @@ span.note {
     background: #fff;
     clear: both
 }
+span.note-subtle {
+  border-left: 5px solid #607d8b
+}
+span.note-lvl-a {
+  border-left: 5px solid #438945;
+}
+.box-lvl-a {
+  display: block;
+    padding: 20px;
+    border: 5px solid #428944;
+}
+
+li.subtle-item {
+  list-style-position: inside;
+  list-style-image:none;
+  list-style-type: square;
+}
+ul.list-lvl-a {
+  list-style: none;
+}
+.list-lvl-a a {
+  text-decoration: underline;
+}
+
+
 
 .tooltip-label,
 h4.post {
@@ -945,11 +970,21 @@ h5.post {
 }
 
 .custom-note {
-    background: #CDDC39
+    background: #CDDC39;
+    display: inline-block;
 }
 
 .custom-note.bg-red {
     background: #FF4136
+}
+
+.home-glossary .custom-note {
+    background: #3cbcc3;
+    display: inline-block;
+}
+.home-glossary > .columns {
+    padding: 15px 0 40px;
+    border-top: 5px solid #3cbcc3;
 }
 
 .sec-latest,
@@ -1614,6 +1649,7 @@ hr.skinny {
     border-left: none;
     font-size: 24px;
 }
+.top h6.post {padding: 4px 0px; margin: 0}
 
 .top2 h5.post {
     font-size: 18px
@@ -1697,9 +1733,11 @@ h4.tagged-as {
     .atnet-last-2 {
         border-top: 5px solid #03203f;
     }
-    h5.post strong > small {
+
+    h5.post strong > small,
+      h6.post small {
         font-size: 63%;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         position: relative;
         top: -3px;
@@ -2438,11 +2476,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Trading Strategy</span>&nbsp;
+        <span class="tag custom-note lvl-a">Trading Strategy</span>&nbsp;
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;14 Jul '20, 03:57&nbsp;UTC</small>
-        
+        <small>&nbsp;14 Jul '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/wyckoff-avoidance/" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a>
       </strong>
@@ -2487,11 +2524,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Opinion</span>&nbsp;
+        <span class="tag custom-note lvl-a">Opinion</span>&nbsp;
         
         <small>#reports</small>&nbsp;
-        <small>&nbsp;17 Jun '20, 01:41&nbsp;UTC</small>
-        
+        <small>&nbsp;17 Jun '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a>
       </strong>
@@ -2518,11 +2554,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Guide</span>&nbsp;
+        <span class="tag custom-note lvl-a">Guide</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;04 May '20, 09:02&nbsp;UTC</small>
-        
+        <small>&nbsp;04 May '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/altcoin-exchanges/" title="Altcoin Exchanges: Where to buy altcoins in 2020?">Altcoin Exchanges: Where to buy altcoins in 2020?</a>
       </strong>
@@ -2902,98 +2937,15 @@ amp-user-notification>div>div {
         <br>
         <div class="clearfix"></div>
         
-<section>
-  <div id="at-promo-nonpost-sidebar-tall">
-    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
-    <hr class="skinny">
-    <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
-  </div>
-  <hr class="skinny">
-  
-</section>
-
 <div id="sidebar">
-  <section class="posts-security" id="at-nonpost-sidebar-security">
-   
-
-
-
+  <section>
+    <div id="at-promo-nonpost-sidebar-tall">
+      <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+      <hr class="skinny">
+      <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
+    </div>
+    <hr class="skinny">
   </section>
-  <section class="posts-security" id="at-nonpost-sidebar-strategy">
-    <h3>Crypto Trading Strategy:</h3>
-   
-<section class="row homelab">
-  <div class="columns twelve">
-    <h5 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Wyckoff trading method and ranging markets" href="/strategy/wyckoff-ranging-markets/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;Wyckoff trading method and ranging markets
-        </a>
-      </strong>
-    </h5>
-  </div>
-  <a class="sidebar-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">
-   <div class="columns twelve relative">
-    
-    <div class="twelve columns">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/report2.jpg" alt="Altcoin Cold Storage Security"
-          layout="responsive"
-          data-original-width="720px" data-original-height="360px"
-          width="353px" height="190px">
-          </amp-img>
-        </figure>
-    </div>
-    
-    <div class="twelve columns alignleft strategy-overlay">
-    A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.
-    <p>
-      Last update 06 Apr 2020 at 08:29 UTC
-    </p>
-    </div>
-   </div>
-  </a>
-</section>
-
-
-
-<section class="row homelab">
-  <div class="columns twelve">
-    <h6 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Multiple time frame analysis: Trading several timeframes at the same time" href="/strategy/multiple-time-frame/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;Multiple time frame analysis: Trading several timeframes at the same time
-        </a>
-      </strong>
-    </h6>
-  </div>
-  <div class="columns twelve">
-    <div class="twelve columns alignleft">
-      <small>On why it's constructive to trade multiple time frames at the same time and how to manage the stack of your positions and orders.</small> - <small>04 Apr 2020</small>
-    </div>
-  </div>
-</section>
-
-<section class="row homelab">
-  <div class="columns twelve">
-    <h6 class="post">
-      <strong>
-        <a class="sidebar-internal" title="On Lending" href="/strategy/cryptocurrency-lending/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;On Lending
-        </a>
-      </strong>
-    </h6>
-  </div>
-  <div class="columns twelve">
-    <div class="twelve columns alignleft">
-      <small>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</small> - <small>04 Apr 2020</small>
-    </div>
-  </div>
-</section>
-
-
-  </section>
-
   <section class="posts-security" id="at-nonpost-sidebar-psa">
     
 
@@ -3209,6 +3161,7 @@ amp-user-notification>div>div {
 </ul>
 
   </section>
+
   <section id="at-promo-nonpost-sidebar-shilllinks">
      <h3>Support this publication by using our shill links</h3>
       <ul class="airdrops">
@@ -3225,12 +3178,12 @@ amp-user-notification>div>div {
       </ul>
   </section>
 
+  <section>
+    <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
+
+  </section>
 
 </div><!-- end sidebar-->
-
-<p>&nbsp;</p>
-
-<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
 
       </div><!-- 4-->
      <div class="eight columns">
@@ -3324,8 +3277,7 @@ amp-user-notification>div>div {
       <strong>
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;14 May '20, 08:46&nbsp;UTC</small>
-        
+        <small>&nbsp;14 May '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/scriptspotlight-bollinger-band-width-indicator/" title="Script Spotlight: Bollinger Band Width">Script Spotlight: Bollinger Band Width</a>
       </strong>
@@ -3369,11 +3321,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;06 Apr '20, 08:29&nbsp;UTC</small>
-        
+        <small>&nbsp;06 Apr '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/detrended-price-oscillator/" title="Script Spotlight: Detrended Price Oscillator (DPO)">Script Spotlight: Detrended Price Oscillator (DPO)</a>
       </strong>
@@ -3431,11 +3381,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;25 Mar '20, 10:24&nbsp;UTC</small>
-        
+        <small>&nbsp;25 Mar '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/scriptspotlight-a-d-levels/" title="Script Spotlight: A/D Levels">Script Spotlight: A/D Levels</a>
       </strong>
@@ -3467,11 +3415,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;06 Apr '20, 08:29&nbsp;UTC</small>
-        
+        <small>&nbsp;06 Apr '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/scriptspotlight-auto-divergences/" title="Script Spotlight: Automatic Divergences">Script Spotlight: Automatic Divergences</a>
       </strong>

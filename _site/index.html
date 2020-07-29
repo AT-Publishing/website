@@ -467,6 +467,31 @@ span.note {
     background: #fff;
     clear: both
 }
+span.note-subtle {
+  border-left: 5px solid #607d8b
+}
+span.note-lvl-a {
+  border-left: 5px solid #438945;
+}
+.box-lvl-a {
+  display: block;
+    padding: 20px;
+    border: 5px solid #428944;
+}
+
+li.subtle-item {
+  list-style-position: inside;
+  list-style-image:none;
+  list-style-type: square;
+}
+ul.list-lvl-a {
+  list-style: none;
+}
+.list-lvl-a a {
+  text-decoration: underline;
+}
+
+
 
 .tooltip-label,
 h4.post {
@@ -934,11 +959,21 @@ h5.post {
 }
 
 .custom-note {
-    background: #CDDC39
+    background: #CDDC39;
+    display: inline-block;
 }
 
 .custom-note.bg-red {
     background: #FF4136
+}
+
+.home-glossary .custom-note {
+    background: #3cbcc3;
+    display: inline-block;
+}
+.home-glossary > .columns {
+    padding: 15px 0 40px;
+    border-top: 5px solid #3cbcc3;
 }
 
 .sec-latest,
@@ -1603,6 +1638,7 @@ hr.skinny {
     border-left: none;
     font-size: 24px;
 }
+.top h6.post {padding: 4px 0px; margin: 0}
 
 .top2 h5.post {
     font-size: 18px
@@ -1686,9 +1722,11 @@ h4.tagged-as {
     .atnet-last-2 {
         border-top: 5px solid #03203f;
     }
-    h5.post strong > small {
+
+    h5.post strong > small,
+      h6.post small {
         font-size: 63%;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         position: relative;
         top: -3px;
@@ -2400,67 +2438,161 @@ amp-user-notification>div>div {
 </ul>
 </amp-sidebar>
 
+
+
+
+
+
+
 <div class="container">
-   <!-- sort: 'last_modified_at' -->
 
   <div class="row top">
-        <div class="columns four">
-            <div id="at-promo-main-home">
-              <div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501533/atnet/_banner/bitfinex_app_owrfca.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>
-            </div>
-            <br>
-            <div class="smallad" id="at-promo-smallad-home-top">
-               
+     <!-- 4 strategy posts here -->
+     <div class="columns eight">
+       <div class="row">
+         
+             <div class="columns six"><div class="row cat-updates">
 
+<div class="twelve columns">
+  <a class="index-internal" href="/strategy/technical/" title="Crypto Trading Strategy -  Technical Analysis in Crypto: How to use TA strategically">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_720/v1589430968/atnet/strategy/technical-analysis-strategic-hero.jpg" alt="Crypto Trading Strategy - Technical Analysis in Crypto: How to use TA strategically"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
 
-<span class="note">TradingView FREE Script Reviews:</span>
-<ul>
-  <li class="popular-item">
-    <a href="/tag/tradingview-script-review/" title="best free tradingview scripts">TradingView Script Spotlight</a>
-  </li>
-</ul>
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <span class="tag custom-note ">Mindset</span>&nbsp;
+      <small>#strategy</small>
+      <small>&nbsp;14 May '20</small>
+      <br>
+      <strong>
+        <a  class="index-internal"  href="/strategy/technical/" title="Technical Analysis in Crypto: How to use TA strategically">Technical Analysis in Crypto: How to use TA strategically</a>
+      </strong>
+    </h5>
+  </div>
+</div>
 
-<br>
+               <p>With links to the selection of best tools and scripts</p>
+             </div>
+         
+             <div class="columns six"><div class="row cat-updates">
 
-<span class="note">Most Read in How-To:</span>
-<ul>
-  
-  <li class="popular-item">
-    <a class="index-internal" href="/howto/buy-ethereum/" title="Beginner’s guide to buying Ethereum (ETH)">#101 | <b>Beginner’s guide to buying Ethereum (ETH)</b> on 15 Jun 2020</a>
-  </li>
-  
-</ul>
+<div class="twelve columns">
+  <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="Crypto Trading Strategy -  The Case for DCA">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/strat/dca.jpg" alt="Crypto Trading Strategy - The Case for DCA"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
 
-<br>
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <span class="tag custom-note ">Real Data</span>&nbsp;
+      <small>#strategy</small>
+      <small>&nbsp;04 Apr '20</small>
+      <br>
+      <strong>
+        <a  class="index-internal"  href="/strategy/dollar-cost-averaging/" title="The Case for DCA">The Case for DCA</a>
+      </strong>
+    </h5>
+  </div>
+</div>
 
-<span class="note">Popular in Extras</span>
-<ul class="popular">
-  
-  
+               <p>Actually crunching the numbers for you.</p>
+             </div>
+         
+       </div>
+       <div class="row">
+         
+             <div class="columns six"><div class="row cat-updates">
 
-  
-  
+<div class="twelve columns">
+  <a class="index-internal" href="/strategy/crypto-investment/" title="Crypto Trading Strategy -  Crypto Investment Strategy: Step By Step Guide">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/features/crypto-investment-strategy.jpg" alt="Crypto Trading Strategy - Crypto Investment Strategy: Step By Step Guide"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
 
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <span class="tag custom-note ">Beginner Strategy</span>&nbsp;
+      <small>#strategy</small>
+      <small>&nbsp;04 Apr '20</small>
+      <br>
+      <strong>
+        <a  class="index-internal"  href="/strategy/crypto-investment/" title="Crypto Investment Strategy: Step By Step Guide">Crypto Investment Strategy: Step By Step Guide</a>
+      </strong>
+    </h5>
+  </div>
+</div>
 
-<li class="popular-item">
-  <a class="index-internal" href="/security/threats-cryptotraders-2020/" title="Security Threats for Crypto Traders in 2020">#CryptoSecurity | <b>Security Threats for Crypto Traders in 2020</b> on 07 Apr 2020</a>
-</li>
+               <p>Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. </p>
+             </div>
+         
+             <div class="columns six"><div class="row cat-updates">
 
+<div class="twelve columns">
+  <a class="index-internal" href="/strategy/reversals/" title="Crypto Trading Strategy -  Thoughts on Reversals and Psychology">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/editorial/thinice.jpeg" alt="Crypto Trading Strategy - Thoughts on Reversals and Psychology"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
 
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <span class="tag custom-note ">Market Psychology</span>&nbsp;
+      <small>#strategy</small>
+      <small>&nbsp;04 Apr '20</small>
+      <br>
+      <strong>
+        <a  class="index-internal"  href="/strategy/reversals/" title="Thoughts on Reversals and Psychology">Thoughts on Reversals and Psychology</a>
+      </strong>
+    </h5>
+  </div>
+</div>
 
-<li class="popular-item">
-  <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method and ranging markets">#CryptoTrading | <b>Wyckoff trading method and ranging markets</b> on 06 Apr 2020</a>
-</li>
-
-<li class="popular-item">
-  <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">#CryptoTrading | <b>The Case for DCA</b> on 04 Apr 2020</a>
-</li>
-
-
-            </div>
+               <p>Bottoming process, just as any other market reversal, is strongly influenced by psychology.</p>
+             </div>
+         
+       </div>
+       <div class="row">
+         <div class="columns six offset-by-four">
+           <a href="/strategy/" class="btn">Crypto Trading Strategy</a>
+         </div>
+         <br>
+         <br>
+         <br>
+       </div>
+     </div>
+     <!-- 1 promo, 1 latest post -->
+     <div class="columns four">
+        <div id="at-promo-main-home">
+          <div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501533/atnet/_banner/bitfinex_app_owrfca.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>
         </div>
-      
-        <div class="columns five"><div class="row cat-updates">
+        <br>
+        <div class="at-home-latestblog box-lvl-a">
+          
+             <div class="row cat-updates">
 
 <div class="twelve columns">
   <a  class="index-internal" href="/3-dangerous-mistakes-crypto-beginners/" title="3 Most Dangerous Cryptocurrency Beginner Mistakes">
@@ -2477,11 +2609,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Trading Blog</span>&nbsp;
+        <span class="tag custom-note lvl-a">Trading Blog</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;14 Jul '20, 03:59&nbsp;UTC</small>
-        
+        <small>&nbsp;14 Jul '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/3-dangerous-mistakes-crypto-beginners/" title="3 Most Dangerous Cryptocurrency Beginner Mistakes">3 Most Dangerous Cryptocurrency Beginner Mistakes</a>
       </strong>
@@ -2489,234 +2620,96 @@ amp-user-notification>div>div {
   </div>
 </div>
 
-          <p>As the interest in crypto picked up a bit in 2020, so are the number of crypto newbies repeating the same old mistakes as the 2016 lot. Let's take a look at the three most dangerous of them.</p>
-          <p>
-            Written by <a rel="nofollow,noopener" target="_blank" href="https://reddit.com/u/KarlVonBahnhof">Karlvonbahnhof</a> on 14 Jul 2020, 03:59 UTC  in <b>#BASICS</b>
-          </p>
+
+            
+            Also Read: <br>
+            <ul class="list-lvl-a">
+              
+              <li>[+] <a href="/strategy/cryptocurrency-lending/">Trading Strategy for Lending - Or how much you should want for leaving your money on an exchange</a></li>
+              
+              <li>[+] <a href="/security/">Crypto OPSEC primers</a></li>
+              
+              <li>[+] <a href="/crypto-storage-for-traders/">Crypto Wallets by Use Case</a></li>
+              
+            </ul>
+            
+
           
-          <span class="note">Related to this article</span>
-          <ul class="popular">
-            
-            <li class="popular-item"><a href="/strategy/cryptocurrency-lending/">Trading Strategy for Lending - Or how much you should want for leaving your money on an exchange</a></li>
-            
-            <li class="popular-item"><a href="/security/">Crypto OPSEC primers</a></li>
-            
-            <li class="popular-item"><a href="/crypto-storage-for-traders/">Crypto Wallets by Use Case</a></li>
-            
-          </ul>
-          
-          <span class="note">Explore Related Tags:</span>
-          <ul class="popular">
-            <li class="popular-item">
-              <a href="/tag/wyckoff-trading/">Tagged: Wyckoff Trading</a>
-            </li>
-            <li class="popular-item">
-              <a href="/tag/tradingview-script-review/">Tagged: TradingView Scripts</a>
-            </li>
-            <li class="popular-item">
-              <a href="/tag/crypto-technical-indicators/">Tagged: Technical Indicators</a>
-            </li>
-          </ul>
         </div>
-      
-
-      <div class="columns three atnet-second">
-        
-        <div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Opinion</span>&nbsp;
-        
-        <small>#reports</small>&nbsp;
-        <small>&nbsp;17 Jun '20, 01:41&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-
-        
-        <div class="smallad">
-          <br>
-          <span class="note">Latest in Crypto Strategy Extras:</span>
-          
-          <div class="row cat-updates">
-  <div class="twelve columns">
-    <h6 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Mindset</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;14 May '20, 08:44&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/strategy/technical/" title="Technical Analysis in Crypto: How to use TA strategically">Technical Analysis in Crypto: How to use TA strategically</a>
-      </strong>
-    </h6>
-  </div>
-</div>
-
-          
-          <div class="row cat-updates">
-  <div class="twelve columns">
-    <h6 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Real Data</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;04 Apr '20, 08:24&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/strategy/dollar-cost-averaging/" title="The Case for DCA">The Case for DCA</a>
-      </strong>
-    </h6>
-  </div>
-</div>
-
-          
-          <span class="note">Latest in Crypto OPSEC Extras:</span>
-          
-          <div class="row cat-updates">
-  <div class="twelve columns">
-    <h6 class="category-post post">
-      <strong>
-        
-        <small>#in-the-news</small>&nbsp;
-        <small>&nbsp;07 Apr '20, 07:29&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/security/threats-cryptotraders-2020/" title="Security Threats for Crypto Traders in 2020">Security Threats for Crypto Traders in 2020</a>
-      </strong>
-    </h6>
-  </div>
-</div>
-
-          
-
-          <br>
-        </div>
-      </div>
-  </div>
-  <div class="row top top2">
-      
-        <div class="columns four atnet-last-2"><div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/altcoin-exchanges/" title="Altcoin Exchanges: Where to buy altcoins in 2020?">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588582376/atnet/blog_trading/levi-saunders-B7VaD0QlyZY-unsplash_ahzade.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Guide</span>&nbsp;
-        
-        <small>#basics</small>&nbsp;
-        <small>&nbsp;04 May '20, 09:02&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/altcoin-exchanges/" title="Altcoin Exchanges: Where to buy altcoins in 2020?">Altcoin Exchanges: Where to buy altcoins in 2020?</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-</div>
-      
-        <div class="columns four atnet-last-2"><div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Version">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Guide</span>&nbsp;
-        
-        <small>#basics</small>&nbsp;
-        <small>&nbsp;06 May '20, 08:55&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Version">Altcoin Wallets: Tried and True, 2020 Version</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-</div>
-      
-        <div class="columns four atnet-last-2"><div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Trading</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;24 Apr '20, 07:05&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?">Will Your Bitcoin Investment Suffer from Coronavirus?</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-</div>
-      
-  </div>
-  <div class="row">
-  <div class="eight columns">
-
-    <div id="at-promo-smallad-home-mid">
-      <div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-at-bf2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>
     </div>
 
-    <br>
+  </div><!-- / row-->
+  <div class="row">
+      <h2 class="tagged-as clear">Most Read in Glossary</h2>
+  </div>
+  <div class="row home-glossary">
+    
+      <div class="columns three">
+        <span class="tag custom-note ">technical</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
+    Sideways Market
+  </a>
+</strong>
 
-    <div id="at-home-drops">
-      <section>
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">jargon</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
+    Bart Formation
+  </a>
+</strong>
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">jargon</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/bgd/" title="BGD">
+    BGD
+  </a>
+</strong>
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">technical</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/ichimoku/" title="Ichimoku Cloud">
+    Ichimoku Cloud
+  </a>
+</strong>
+
+      </div>
+    
+  </div>
+  <div class="row">
+    <div class="columns six offset-by-four">
+      <a href="/glossary/" class="btn">Crypto Trading Glossary</a>
+    </div>
+    <br>
+    <br>
+  </div>
+
+  <div class="row">
+    <br>
+    <br>
+    <div id="at-promo-smallad-home-mid" class="columns eight offset-by-two">
+      <div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/tradingview-at-bf2019" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>
+    </div>
+    <br>
+  </div>
+
+  <div class="row">
+
+   <div class="eight columns">
+
+    <section id="home-airdrops">
+      <br>
+      <div id="at-home-drops" class="smallad">
+        <section>
   <span class="note">Last added to Crypto Airdrops, Bounties & Opportunities</span>
   <div id="airdrops-home">
     
@@ -2823,36 +2816,79 @@ amp-user-notification>div>div {
   </div>
 </section>
 
-    </div>
+      </div>
+    </section>
+
+    <section id="home-howto">
+      <br>
+      <div class="row">
+
+          <span class="note note-subtle">Most Read in How-To:</span>
+          <ul>
+            
+            <li class="subtle-item">
+              <a class="index-internal" href="/coupon-bitmex-iyqb44/" title="BitMEX Referral Code iYQB44 - 10% Fee Discount Promo Coupon BitMEX">#HowTo | <b>BitMEX Referral Code iYQB44 - 10% Fee Discount Promo Coupon BitMEX</b> on 25 Feb 2020</a>
+            </li>
+            
+            <li class="subtle-item">
+              <a class="index-internal" href="/howto/news-analysis/" title="How to find key information researching blockchain news outlets">#HowTo | <b>How to find key information researching blockchain news outlets</b> on 25 Apr 2020</a>
+            </li>
+            
+            <li class="subtle-item">
+              <a class="index-internal" href="/tensorcharts-tutorials/" title="TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies">#HowTo | <b>TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies</b> on 20 May 2020</a>
+            </li>
+            
+          </ul>
+
+      </div>
+    </section>
+    <section id="home-security">
+      <br>
+      <span class="note note-subtle">Crypto OPSEC and security:</span>
+      <ul class="popular">
+        
+          <li class="subtle-item">
+            <a class="index-internal" href="/security/iota/" title="How to secure your IOTA wallet and migrate from Light Wallet to Trinity">#OPSEC | <b>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</b> on 06 May 2020</a>
+          </li>
+        
+          <li class="subtle-item">
+            <a class="index-internal" href="/security/backups/" title="Backups for the paranoid">#OPSEC | <b>Backups for the paranoid</b> on 06 May 2020</a>
+          </li>
+        
+          <li class="subtle-item">
+            <a class="index-internal" href="/security/device-management/" title="Tiered Device Management">#OPSEC | <b>Tiered Device Management</b> on 06 May 2020</a>
+          </li>
+        
+          <li class="subtle-item">
+            <a class="index-internal" href="/security/sweeping/" title="Redeeming forked coins: Sweeping private keys and sweeping addresses">#OPSEC | <b>Redeeming forked coins: Sweeping private keys and sweeping addresses</b> on 06 May 2020</a>
+          </li>
+        
+      </ul>
+    </section>
 
     <section id="new-posts">
-
       <div id="paginated-tradingblog">
-        <h2 class="tagged-as clear">All Articles from AltcoinTrading.NET</h2>
+        <h2 class="tagged-as clear">All from AltcoinTrading.NET Blog</h2>
       </div>
-      <!-- Pagination links -->
+
       <div class="pagination">
         
-          <span class="prev"><< Previous</span>
+          <span><< Previous</span>
         
-        <span class="page_number ">All Articles - Page: 1 of 10</span>
+        <span class="page_number "> (Page1 of 10) </span>
         
-          <a href="/page2#paginated-tradingblog" class="next">Next >></a>
+          <a href="/page2#paginated-tradingblog">Next >></a>
         
       </div>
 
-
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Trading Blog</span>&nbsp;
                 
-                <small>13 Jul 2020, 17:09 UTC</small>
-                <small>&nbsp;<a href="/3-dangerous-mistakes-crypto-beginners/#comments">Comments</a></small>
-                
+                <small>13 Jul 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/3-dangerous-mistakes-crypto-beginners/" title="3 Most Dangerous Cryptocurrency Beginner Mistakes">3 Most Dangerous Cryptocurrency Beginner Mistakes</a>
               </strong>
@@ -2876,16 +2912,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Opinion</span>&nbsp;
                 
-                <small>16 Jun 2020, 02:02 UTC</small>
-                <small>&nbsp;<a href="/women-in-bitcoin/#comments">Comments</a></small>
-                
+                <small>16 Jun 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a>
               </strong>
@@ -2909,16 +2942,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Guide</span>&nbsp;
                 
-                <small>04 May 2020, 05:38 UTC</small>
-                <small>&nbsp;<a href="/altcoin-exchanges/#comments">Comments</a></small>
-                
+                <small>04 May 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/altcoin-exchanges/" title="Altcoin Exchanges: Where to buy altcoins in 2020?">Altcoin Exchanges: Where to buy altcoins in 2020?</a>
               </strong>
@@ -2942,16 +2972,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Guide</span>&nbsp;
                 
-                <small>28 Apr 2020, 03:32 UTC</small>
-                <small>&nbsp;<a href="/altcoin-wallets/#comments">Comments</a></small>
-                
+                <small>28 Apr 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Version">Altcoin Wallets: Tried and True, 2020 Version</a>
               </strong>
@@ -2975,16 +3002,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Trading</span>&nbsp;
                 
-                <small>22 Apr 2020, 01:02 UTC</small>
-                <small>&nbsp;<a href="/bitcoin-coronavirus-crisis/#comments">Comments</a></small>
-                
+                <small>22 Apr 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?">Will Your Bitcoin Investment Suffer from Coronavirus?</a>
               </strong>
@@ -3008,15 +3032,12 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 
-                <small>08 Feb 2020, 03:03 UTC</small>
-                <small>&nbsp;<a href="/scriptspotlight-bollinger-band-width-indicator/#comments">Comments</a></small>
-                
+                <small>08 Feb 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/scriptspotlight-bollinger-band-width-indicator/" title="Script Spotlight: Bollinger Band Width">Script Spotlight: Bollinger Band Width</a>
               </strong>
@@ -3040,16 +3061,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Blog</span>&nbsp;
                 
-                <small>09 Jan 2020, 01:02 UTC</small>
-                <small>&nbsp;<a href="/stats-2019/#comments">Comments</a></small>
-                
+                <small>09 Jan 2020 </small>
                 <br>
                 <a  class="index-internal"  href="/stats-2019/" title="Products of 2019: What did crypto traders spend on?">Products of 2019: What did crypto traders spend on?</a>
               </strong>
@@ -3073,16 +3091,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Trading Blog</span>&nbsp;
                 
-                <small>04 Dec 2019, 04:32 UTC</small>
-                <small>&nbsp;<a href="/technical-analysis/#comments">Comments</a></small>
-                
+                <small>04 Dec 2019 </small>
                 <br>
                 <a  class="index-internal"  href="/technical-analysis/" title="Technical Analysis in Cryptocurrency Trading">Technical Analysis in Cryptocurrency Trading</a>
               </strong>
@@ -3106,16 +3121,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Trading Strategy</span>&nbsp;
                 
-                <small>05 Nov 2019, 06:32 UTC</small>
-                <small>&nbsp;<a href="/daytrading/#comments">Comments</a></small>
-                
+                <small>05 Nov 2019 </small>
                 <br>
                 <a  class="index-internal"  href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?">Daytrading on Crypto Markets: Good Idea?</a>
               </strong>
@@ -3139,16 +3151,13 @@ amp-user-notification>div>div {
           
         </div>
       
-
         <div class="row home-latest"  id="gtm-latest">
           <div class="seven columns">
             <h5 class="post">
               <strong>
                 <span class="tag custom-note ">Trading Strategy</span>&nbsp;
                 
-                <small>09 Oct 2019, 08:02 UTC</small>
-                <small>&nbsp;<a href="/wyckoff-avoidance/#comments">Comments</a></small>
-                
+                <small>09 Oct 2019 </small>
                 <br>
                 <a  class="index-internal"  href="/wyckoff-avoidance/" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a>
               </strong>
@@ -3172,902 +3181,60 @@ amp-user-notification>div>div {
           
         </div>
       
-
-    <!-- Pagination links -->
-    <div class="pagination">
-      
-        <span class="prev"><< Previous</span>
-      
-      <span class="page_number ">Page: 1 of 10</span>
-      
-        <a href="/page2/#paginated-tradingblog" class="next">Next >></a>
-      
-    </div>
     </section>
 
-    <section class="atnet-home-bottom space">
-      <div class="row tagfeed-items">
-  <h2 class="tagged-as clear">Series: Long-Term Strategy #Hodl</h2>
-  <div class="row">
-    
-    <div class="columns four">
-      <div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="/editorial/details1.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Strategy</span>&nbsp;
-        
-        <small>#basics</small>&nbsp;
-        <small>&nbsp;01 Apr '20, 09:31&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by cryptolounge</small>
-        <br>
-        <a  class="index-internal"  href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners">Cryptocurrency Strategy for Beginners</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-
-    </div>
-    
-    
-    <div class="columns four">
-      <div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="/strat/dca.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Real Data</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;04 Apr '20, 08:24&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/strategy/dollar-cost-averaging/" title="The Case for DCA">The Case for DCA</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-
-    </div>
-    
-    <div class="columns four">
-      <div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/strategy/crypto-investment/" title="Crypto Investment Strategy: Step By Step Guide">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="/features/crypto-investment-strategy.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Beginner Strategy</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;04 Apr '20, 08:24&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/strategy/crypto-investment/" title="Crypto Investment Strategy: Step By Step Guide">Crypto Investment Strategy: Step By Step Guide</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-
-    </div>
-    
-  </div><!--row-->
-</div>
-
-    </section>
-
-    <section class="atnet-home-bottom space">
-      <div class="row tagfeed-items">
-<h2 class="tagged-as clear">Tagged as <a href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a></h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-<div class="columns six">
-  <div class="row cat-updates">
-
-<div class="twelve columns">
-  <a  class="index-internal" href="/crypto-trading-vs-forex-trading-review/" title="Crypto vs Forex Trading: How do they compare?">
-    <figure class="thumb">
-      <amp-img itemprop="image" src="/editorial/crypto-forex-comparing-differences.jpg" alt="Altcoin Trading Blog"
-      layout="responsive"
-      data-original-width="720px" data-original-height="360px"
-      width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-</div>
-
-  <div class="twelve columns">
-    <h5 class="category-post post">
-      <strong>
-        <span class="tag custom-note ">Trading Strategy</span>&nbsp;
-        
-        <small>#trading</small>&nbsp;
-        <small>&nbsp;14 Jul '20, 03:57&nbsp;UTC</small>
-        
-        <br>
-        <a  class="index-internal"  href="/crypto-trading-vs-forex-trading-review/" title="Crypto vs Forex Trading: How do they compare?">Crypto vs Forex Trading: How do they compare?</a>
-      </strong>
-    </h5>
-  </div>
-</div>
-
-</div>
-
-<div class="columns six">
-  <ul class="popular">
-  
-      <li class="popular-item">
-        <a class="index-internal" href="/crypto-storage-for-traders/" title="Crypto Wallets by Use Case">Crypto Wallets by Use Case, updated 14 Apr 2020</a>
-      </li>
-  
-      <li class="popular-item">
-        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?">Why Are So Many People Trading Cryptocurrency?, updated 08 Jan 2020</a>
-      </li>
-  
-      <li class="popular-item">
-        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners">Cryptocurrency Strategy for Beginners, updated 01 Apr 2020</a>
-      </li>
-  
-      <li class="popular-item">
-        <a class="index-internal" href="/fundamentals-mining-hashrate-vs-price/" title="The True Crypto Fundamentals: Crypto Mining and Transactions">The True Crypto Fundamentals: Crypto Mining and Transactions, updated 31 Mar 2020</a>
-      </li>
-  
-  </ul>
-  <p class="container-center"><a class="btn" href="/tag/businessofcrypto/">All in #BusinessOfCrypto</a></p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-    </section>
 
 
     <div class="clearfix"></div>
-
-
   </div><!--8-->
+   <div class="four columns notopmargin">
+      <br>
+      <div class="smallad" id="at-promo-smallad-home-top">
+         
 
-    <div class="four columns notopmargin">
-      
-<section>
-  <div id="at-promo-nonpost-sidebar-tall">
-    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
-    <hr class="skinny">
-    <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
-  </div>
-  <hr class="skinny">
+<span class="note">TradingView FREE Script Reviews:</span>
+<ul>
+  <li class="popular-item">
+    <a href="/tag/tradingview-script-review/" title="best free tradingview scripts">TradingView Script Spotlight</a>
+  </li>
+</ul>
+<span class="note">Latest in How-To & Guides:</span>
+<ul>
   
-</section>
+  <li class="popular-item">
+    <a class="index-internal" href="/howto/buy-ethereum/" title="Beginner’s guide to buying Ethereum (ETH)">#101 | <b>Beginner’s guide to buying Ethereum (ETH)</b> on 15 Jun 2020</a>
+  </li>
+  
+</ul>
+<span class="note">Explore Related Tags:</span>
+<ul class="popular">
+  <li class="popular-item">
+    <a href="/tag/wyckoff-trading/">Tagged: Wyckoff Trading</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/tradingview-script-review/">Tagged: TradingView Scripts</a>
+  </li>
+  <li class="popular-item">
+    <a href="/tag/crypto-technical-indicators/">Tagged: Technical Indicators</a>
+  </li>
+</ul>
 
+      </div>
+      
 <div id="sidebar">
-  <section class="posts-security" id="at-nonpost-sidebar-security">
-   
-<h3>Crypto Security Primers</h3>
-<section class="row homelab">
-  <div class="columns twelve">
-    <h5 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Security Threats for Crypto Traders in 2020" href="/security/threats-cryptotraders-2020/">
-          <span class="tag">SECURITY</span>&nbsp;Security Threats for Crypto Traders in 2020
-        </a>
-      </strong>
-    </h5>
-    <p>
-      <strong>
-      31 Dec 2019 (Update 07 Apr 2020 at 07:29)
-      </strong>
-    </p>
-  </div>
-  <div class="columns twelve">
-    
-    <div class="six columns">
-      <a href="/security/threats-cryptotraders-2020/" title="Security Threats for Crypto Traders in 2020">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash3/security-2020.jpg" alt="Altcoin Cold Storage Security"
-          layout="responsive"
-          data-original-width="720px" data-original-height="360px"
-          width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
+  <section>
+    <div id="at-promo-nonpost-sidebar-tall">
+      <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+      <hr class="skinny">
+      <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
     </div>
-    
-    <div class="six columns alignleft">
-    What kind of threats can we as crypto traders and hodlers expect in 2020 and what are the ways to protect our holdings?
-    </div>
-  </div>
-</section>
-
-
-
-<section class="row homelab">
-  <div class="columns twelve">
-    <h6 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets" href="/security/cookieminer-2fa-bypass/">
-          <span class="tag">SECURITY</span>&nbsp;Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets
-        </a>
-      </strong>
-      <small>07 Apr 2020</small>
-    </h6>
-  </div>
-  <div class="columns twelve">
-    
-    <div class="four columns">
-      <a class="sidebar-internal" title="Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets" href="/security/cookieminer-2fa-bypass/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/cookies.jpeg" alt="Altcoin Cold Storage Security"
-          layout="responsive"
-          data-original-width="720px" data-original-height="360px"
-          width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-    </div>
-    
-    <div class="eight columns alignleft">
-    Here's what the malware does and how to protect your crypto.
-    </div>
-  </div>
-</section>
-
-
+    <hr class="skinny">
   </section>
-  <section class="posts-security" id="at-nonpost-sidebar-strategy">
-    <h3>Crypto Trading Strategy:</h3>
-   
-<section class="row homelab">
-  <div class="columns twelve">
-    <h5 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Technical Analysis in Crypto: How to use TA strategically" href="/strategy/technical/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;Technical Analysis in Crypto: How to use TA strategically
-        </a>
-      </strong>
-    </h5>
-  </div>
-  <a class="sidebar-internal" href="/strategy/technical/" title="Technical Analysis in Crypto: How to use TA strategically">
-   <div class="columns twelve relative">
-    
-    <div class="twelve columns">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_720/v1589430968/atnet/strategy/technical-analysis-strategic-hero.jpg" alt="Altcoin Cold Storage Security"
-          layout="responsive"
-          data-original-width="720px" data-original-height="360px"
-          width="353px" height="190px">
-          </amp-img>
-        </figure>
-    </div>
-    
-    <div class="twelve columns alignleft strategy-overlay">
-    With links to the selection of best tools and scripts
-    <p>
-      Last update 14 May 2020 at 08:44 UTC
-    </p>
-    </div>
-   </div>
-  </a>
-</section>
-
-
-
-<section class="row homelab">
-  <div class="columns twelve">
-    <h6 class="post">
-      <strong>
-        <a class="sidebar-internal" title="The Case for DCA" href="/strategy/dollar-cost-averaging/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;The Case for DCA
-        </a>
-      </strong>
-    </h6>
-  </div>
-  <div class="columns twelve">
-    <div class="twelve columns alignleft">
-      <small>Actually crunching the numbers for you.</small> - <small>04 Apr 2020</small>
-    </div>
-  </div>
-</section>
-
-<section class="row homelab">
-  <div class="columns twelve">
-    <h6 class="post">
-      <strong>
-        <a class="sidebar-internal" title="Crypto Investment Strategy: Step By Step Guide" href="/strategy/crypto-investment/">
-          <span class="tag custom-note">STRATEGY</span>&nbsp;Crypto Investment Strategy: Step By Step Guide
-        </a>
-      </strong>
-    </h6>
-  </div>
-  <div class="columns twelve">
-    <div class="twelve columns alignleft">
-      <small>Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. </small> - <small>04 Apr 2020</small>
-    </div>
-  </div>
-</section>
-
-
-  </section>
-
   <section class="posts-security" id="at-nonpost-sidebar-psa">
     
 
 <h3>Latest PSA's:</h3>
 <ul>
-  
-  
-  
-  
-  <a class="sidebar-internal" title="Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets" href="https://www.altcointrading.net/security/cookieminer-2fa-bypass/">
-    <span class="tag custom-note">PSA</span> <b>Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets</b> - Last update 07 Apr 2020
-  </a>
-  <br>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
@@ -4278,6 +3445,7 @@ amp-user-notification>div>div {
 </ul>
 
   </section>
+
   <section id="at-promo-nonpost-sidebar-shilllinks">
      <h3>Support this publication by using our shill links</h3>
       <ul class="airdrops">
@@ -4294,826 +3462,591 @@ amp-user-notification>div>div {
       </ul>
   </section>
 
+  <section>
+    <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
+
+  </section>
 
 </div><!-- end sidebar-->
 
-<p>&nbsp;</p>
-
-<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
-
-    </div>
+   </div>
 
   </div><!-- row -->
-    <div class="clearfix"></div>
+  <div class="clearfix"></div>
+
+    <section class="atnet-home-bottom space">
+     <div class="row tagfeed-items">
+<h2 class="tagged-as clear">Tagged as <a href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<div class="columns six">
+  <div class="row cat-updates">
+
+<div class="twelve columns">
+  <a  class="index-internal" href="/crypto-trading-vs-forex-trading-review/" title="Crypto vs Forex Trading: How do they compare?">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="/editorial/crypto-forex-comparing-differences.jpg" alt="Altcoin Trading Blog"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      <strong>
+        <span class="tag custom-note lvl-a">Trading Strategy</span>&nbsp;
+        
+        <small>#trading</small>&nbsp;
+        <small>&nbsp;14 Jul '20&nbsp;</small>
+        <br>
+        <a  class="index-internal"  href="/crypto-trading-vs-forex-trading-review/" title="Crypto vs Forex Trading: How do they compare?">Crypto vs Forex Trading: How do they compare?</a>
+      </strong>
+    </h5>
+  </div>
+</div>
+
+</div>
+
+<div class="columns six">
+  <ul class="popular">
+  
+      <li class="popular-item">
+        <a class="index-internal" href="/crypto-storage-for-traders/" title="Crypto Wallets by Use Case">Crypto Wallets by Use Case, updated 14 Apr 2020</a>
+      </li>
+  
+      <li class="popular-item">
+        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?">Why Are So Many People Trading Cryptocurrency?, updated 08 Jan 2020</a>
+      </li>
+  
+      <li class="popular-item">
+        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners">Cryptocurrency Strategy for Beginners, updated 01 Apr 2020</a>
+      </li>
+  
+      <li class="popular-item">
+        <a class="index-internal" href="/fundamentals-mining-hashrate-vs-price/" title="The True Crypto Fundamentals: Crypto Mining and Transactions">The True Crypto Fundamentals: Crypto Mining and Transactions, updated 31 Mar 2020</a>
+      </li>
+  
+  </ul>
+  <p class="container-center">&nbsp;&nbsp;<a class="btn" href="/tag/businessofcrypto/">All in #BusinessOfCrypto</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    </section>
 
       </div>
     </div>
   </div>
 </div>
 <!-- container -->
-
-<div class="container">
-  <section id="updates" class="atnet-home-bottom space">
-    <h2 class="tagged-as clear">Recently Updated Articles</h2>
-   
-<div class="row">
-  <div class="columns twelve">
-
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-    
-      
-
-          
-
-
-
-
-
-
-
-
-      
-    
-  
-
-  </div>
-</div>
-
-  </section>
-</div>
 
 
 <div class="clearfix"></div>

@@ -1,51 +1,33 @@
 ---
 layout: default-news
 ---
-
-
-
 <div class="container">
   <div class="row">
-
-     <div class="twelve columns post-content">
-       <h1 class="post post-main">
-          <strong>
-            {{ page.title }}
-          </strong>
-        </h1>
-        <br>
-        <div>
-          <!-- hero image -->
-          <amp-img itemprop="image"
-          src="{{page.image[0]}}"
-          alt="{{page.image_alt[0]}}" data-original-width="1747px"
-          data-original-height="1240px" layout="responsive" width="1152px" height="696px">
-          </amp-img>
-          <br>
-        </div>
+    <div class="columns eight">
+      <h1 class="post post-main">
+         <strong>
+           {{ page.title }}
+         </strong>
+       </h1>
+    </div>
+    <div class="columns four">
+      <!-- hero image -->
+      <amp-img itemprop="image"
+      src="{{page.image[0]}}"
+      alt="{{page.image_alt[0]}}" data-original-width="700px"
+      data-original-height="497px" layout="responsive" width="700px" height="497px">
+      </amp-img>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    {% include article/cta.html %}
+  </div>
+  <div class="row">
+    <article class="maincontent">
+      <div class="strategy-content">
+       {{ content }}
       </div>
-      <div class="row">
-        <div class="columns twelve">
-          <article class="maincontent">
-            <p>
-              <a title="{{ site.title }} Subscribe" target="_blank" href="http://altcointrading.us15.list-manage1.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
-            </p>
-            <hr>
-            <div class="strategy-content">
-              <amp-ad width="100vw" height="320"
-                 type="adsense"
-                 data-ad-client="ca-pub-6979812205705127"
-                 data-ad-slot="2350642039"
-                 data-auto-format="rspv"
-                 data-full-width="">
-              <div overflow=""></div>
-            </amp-ad>
-              {{ content }}
-            </div>
-
-          </article>
-        </div>
-
-      </div>
+    </article>
   </div>
 </div>

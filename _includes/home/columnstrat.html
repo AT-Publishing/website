@@ -1,0 +1,26 @@
+<div class="row cat-updates">
+{% if post.image[0] %}
+<div class="twelve columns">
+  <a class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="Crypto Trading Strategy -  {{ post.title }}">
+    <figure class="thumb">
+      <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Crypto Trading Strategy - {{ post.title }}"
+      layout="responsive"
+      data-original-width="720px" data-original-height="360px"
+      width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+</div>
+{% endif %}
+  <div class="twelve columns">
+    <h5 class="category-post post">
+      {% if post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;{% endif %}
+      <small>#strategy</small>
+      <small>&nbsp;{{ post.last_modified_at | date: "%d %b '%y" }}</small>
+      <br>
+      <strong>
+        <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </strong>
+    </h5>
+  </div>
+</div>

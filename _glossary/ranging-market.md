@@ -5,8 +5,8 @@ promoting:  analysis
 layout:     at-glossary
 date:       2020-06-22 14:07:00 +0700
 slug:       sideways/
-title:      Ranging Market (Sideways Market)
-hook:       "101 on ranging markets, links to strategies for trading the ranging market."
+title:      Sideways Market
+hook:       "What is a sideways market, also known as ranging market, and how to trade it."
 
 categories: [trading]
 tags:       ["ranging-market", "wyckoff-trading", "wyckoff-ranges", "crypto-market"]
@@ -28,11 +28,13 @@ related:
 
 #### What is a ranging market
 
-Ranging market is a market that is lacking a trend of direction. It is not bullish (not consistently marking up) and not bearish (not consistently marking down).
+Ranging market is a market that is **lacking a trend of direction**.
+
+It is not bullish (not consistently marking up) and not bearish (not consistently marking down).
 
 #### Alternative names for ranging market
 
-Ranging market is sometimes called a sideways market.
+Ranging market is also called the **sideways market**.
 
 #### How to trade a ranging market
 

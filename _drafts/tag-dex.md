@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: tag
 title: "#DEX - Decentralized Exchanges"
 description: "All articles about decentralized trading, exchange reviews, deep dives."

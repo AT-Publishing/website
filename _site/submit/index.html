@@ -465,6 +465,31 @@ span.note {
     background: #fff;
     clear: both
 }
+span.note-subtle {
+  border-left: 5px solid #607d8b
+}
+span.note-lvl-a {
+  border-left: 5px solid #438945;
+}
+.box-lvl-a {
+  display: block;
+    padding: 20px;
+    border: 5px solid #428944;
+}
+
+li.subtle-item {
+  list-style-position: inside;
+  list-style-image:none;
+  list-style-type: square;
+}
+ul.list-lvl-a {
+  list-style: none;
+}
+.list-lvl-a a {
+  text-decoration: underline;
+}
+
+
 
 .tooltip-label,
 h4.post {
@@ -932,11 +957,21 @@ h5.post {
 }
 
 .custom-note {
-    background: #CDDC39
+    background: #CDDC39;
+    display: inline-block;
 }
 
 .custom-note.bg-red {
     background: #FF4136
+}
+
+.home-glossary .custom-note {
+    background: #3cbcc3;
+    display: inline-block;
+}
+.home-glossary > .columns {
+    padding: 15px 0 40px;
+    border-top: 5px solid #3cbcc3;
 }
 
 .sec-latest,
@@ -1601,6 +1636,7 @@ hr.skinny {
     border-left: none;
     font-size: 24px;
 }
+.top h6.post {padding: 4px 0px; margin: 0}
 
 .top2 h5.post {
     font-size: 18px
@@ -1684,9 +1720,11 @@ h4.tagged-as {
     .atnet-last-2 {
         border-top: 5px solid #03203f;
     }
-    h5.post strong > small {
+
+    h5.post strong > small,
+      h6.post small {
         font-size: 63%;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         position: relative;
         top: -3px;
@@ -2334,31 +2372,15 @@ amp-user-notification>div>div {
     </div><!-- main cols -->
     <div class="four columns nomargintop">
       
-<section>
-  <div id="at-promo-nonpost-sidebar-tall">
-    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
-    <hr class="skinny">
-    <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
-  </div>
-  <hr class="skinny">
-  
-</section>
-
 <div id="sidebar">
-  <section class="posts-security" id="at-nonpost-sidebar-security">
-   
-
-
-
+  <section>
+    <div id="at-promo-nonpost-sidebar-tall">
+      <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+      <hr class="skinny">
+      <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
+    </div>
+    <hr class="skinny">
   </section>
-  <section class="posts-security" id="at-nonpost-sidebar-strategy">
-    <h3>Crypto Trading Strategy:</h3>
-   
-
-
-
-  </section>
-
   <section class="posts-security" id="at-nonpost-sidebar-psa">
     
 
@@ -2574,6 +2596,7 @@ amp-user-notification>div>div {
 </ul>
 
   </section>
+
   <section id="at-promo-nonpost-sidebar-shilllinks">
      <h3>Support this publication by using our shill links</h3>
       <ul class="airdrops">
@@ -2590,12 +2613,12 @@ amp-user-notification>div>div {
       </ul>
   </section>
 
+  <section>
+    <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
+
+  </section>
 
 </div><!-- end sidebar-->
-
-<p>&nbsp;</p>
-
-<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
 
     </div>
     </div>

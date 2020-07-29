@@ -1,16 +1,22 @@
 ---
-layout: marketing
-published: true
+layout:       marketing
+published:    true
 
-title: "Eternal Black Friday | Crypto Black Friday Deals AFTER Black Friday 2019"
-description: "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."
-permalink: /blackfriday/
-date: 2019-02-20 03:14 +0700
-image: [ '/cta/blackfriday-crypto-2019.jpg', '/editorial/data.jpg', '/img/ledger/ledger1.jpg', '/editorial/network.jpg', '/cta/ledger-backup-pack-2.png']
-# '/cta/blackfriday_1200x628.jpg'
-author_name: 'GenericShill'
-author: 'mailto:jmt@altcointrading.net'
+title:        "Eternal Black Friday | Crypto Black Friday Deals BEFORE Black Friday 2020"
+description:  "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."
+
+permalink:    /blackfriday/
+
+date:         2019-02-20 03:14 +0700
+image:        [ 'https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/v1596005593/atnet/_banner/eternal-black-friday-crypto_cswzd4.jpg' ]
+author_name:  'GenericShill'
+author:       'mailto:jmt@altcointrading.net'
 ---
+
+## Black Friday is over, long live Black Friday
+
+The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **random promo's** during the Summer of 2020.
+
 
 **Jump to:**
 
@@ -19,12 +25,6 @@ author: 'mailto:jmt@altcointrading.net'
 * [Past Black Friday Sales 2019](#past2019)
 * [Past Black Friday Sales 2018](#past2018)
 * [Anticipated Black Friday Deals 2020](#anticipated)
-
-_______
-
-## Black Friday is over, long live Black Friday
-
-Black Friday 2019 fell on Friday **November 29 2019**, but some products are now in **Bitcoin Halving Promos** in May 2020.
 
 ## Ledger Discount Code July 2020: Nano X **20% OFF**
 
@@ -369,13 +369,7 @@ So far, they have never made a discount on the data services, but it is anticipa
 
 **Hardware Wallets**
 
-* [Ledger wallet deals](#ledger) -- the crowd's favorite
-* [Trezor wallet deals](#trezor) -- second best
-
-
-<div>
-  {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
-</div>
+* [Ledger wallet deals](#ledger) -- everyone's favorite, hands down
 
 
 ## Cryptocurrency Charting & TA Tools
@@ -422,9 +416,6 @@ The subscription plans prices differ based on the length of your subscription bu
 
 <a rel="nofollow" class="button" href="https://www.coinigy.com/?r=4bee056c">See Coinigy plan pricing</a>
 
-<div>
-  {% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
-</div>
 
 ## Crypto Hardware wallets Black Friday
 

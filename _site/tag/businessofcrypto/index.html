@@ -478,6 +478,31 @@ span.note {
     background: #fff;
     clear: both
 }
+span.note-subtle {
+  border-left: 5px solid #607d8b
+}
+span.note-lvl-a {
+  border-left: 5px solid #438945;
+}
+.box-lvl-a {
+  display: block;
+    padding: 20px;
+    border: 5px solid #428944;
+}
+
+li.subtle-item {
+  list-style-position: inside;
+  list-style-image:none;
+  list-style-type: square;
+}
+ul.list-lvl-a {
+  list-style: none;
+}
+.list-lvl-a a {
+  text-decoration: underline;
+}
+
+
 
 .tooltip-label,
 h4.post {
@@ -945,11 +970,21 @@ h5.post {
 }
 
 .custom-note {
-    background: #CDDC39
+    background: #CDDC39;
+    display: inline-block;
 }
 
 .custom-note.bg-red {
     background: #FF4136
+}
+
+.home-glossary .custom-note {
+    background: #3cbcc3;
+    display: inline-block;
+}
+.home-glossary > .columns {
+    padding: 15px 0 40px;
+    border-top: 5px solid #3cbcc3;
 }
 
 .sec-latest,
@@ -1614,6 +1649,7 @@ hr.skinny {
     border-left: none;
     font-size: 24px;
 }
+.top h6.post {padding: 4px 0px; margin: 0}
 
 .top2 h5.post {
     font-size: 18px
@@ -1697,9 +1733,11 @@ h4.tagged-as {
     .atnet-last-2 {
         border-top: 5px solid #03203f;
     }
-    h5.post strong > small {
+
+    h5.post strong > small,
+      h6.post small {
         font-size: 63%;
-        font-weight: normal;
+        font-weight: bold;
         text-transform: uppercase;
         position: relative;
         top: -3px;
@@ -2400,31 +2438,15 @@ amp-user-notification>div>div {
   <div class="row">
       <div class="columns four">
         
-<section>
-  <div id="at-promo-nonpost-sidebar-tall">
-    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
-    <hr class="skinny">
-    <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
-  </div>
-  <hr class="skinny">
-  
-</section>
-
 <div id="sidebar">
-  <section class="posts-security" id="at-nonpost-sidebar-security">
-   
-
-
-
+  <section>
+    <div id="at-promo-nonpost-sidebar-tall">
+      <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+      <hr class="skinny">
+      <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
+    </div>
+    <hr class="skinny">
   </section>
-  <section class="posts-security" id="at-nonpost-sidebar-strategy">
-    <h3>Crypto Trading Strategy:</h3>
-   
-
-
-
-  </section>
-
   <section class="posts-security" id="at-nonpost-sidebar-psa">
     
 
@@ -2640,6 +2662,7 @@ amp-user-notification>div>div {
 </ul>
 
   </section>
+
   <section id="at-promo-nonpost-sidebar-shilllinks">
      <h3>Support this publication by using our shill links</h3>
       <ul class="airdrops">
@@ -2656,12 +2679,12 @@ amp-user-notification>div>div {
       </ul>
   </section>
 
+  <section>
+    <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
+
+  </section>
 
 </div><!-- end sidebar-->
-
-<p>&nbsp;</p>
-
-<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
 
       </div>
       <div class="columns eight tagfeed-items">
@@ -2732,11 +2755,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">User Guide</span>&nbsp;
+        <span class="tag custom-note lvl-a">User Guide</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;14 Apr '20, 06:40&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by AltcoinTrading.NET</small>
+        <small>&nbsp;14 Apr '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/crypto-storage-for-traders/" title="Crypto Wallets by Use Case">Crypto Wallets by Use Case</a>
       </strong>
@@ -2768,11 +2790,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Editorial</span>&nbsp;
+        <span class="tag custom-note lvl-a">Editorial</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;08 Jan '20, 08:46&nbsp;UTC</small>
-        
+        <small>&nbsp;08 Jan '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?">Why Are So Many People Trading Cryptocurrency?</a>
       </strong>
@@ -2805,11 +2826,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Strategy</span>&nbsp;
+        <span class="tag custom-note lvl-a">Strategy</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;01 Apr '20, 09:31&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by cryptolounge</small>
+        <small>&nbsp;01 Apr '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners">Cryptocurrency Strategy for Beginners</a>
       </strong>
@@ -2841,11 +2861,10 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag custom-note ">Fundamentals</span>&nbsp;
+        <span class="tag custom-note lvl-a">Fundamentals</span>&nbsp;
         
         <small>#basics</small>&nbsp;
-        <small>&nbsp;31 Mar '20, 09:15&nbsp;UTC</small>
-        
+        <small>&nbsp;31 Mar '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/fundamentals-mining-hashrate-vs-price/" title="The True Crypto Fundamentals: Crypto Mining and Transactions">The True Crypto Fundamentals: Crypto Mining and Transactions</a>
       </strong>
@@ -2880,8 +2899,7 @@ amp-user-notification>div>div {
       <strong>
         
         <small>#reports</small>&nbsp;
-        <small>&nbsp;23 Sep '19, 14:34&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by Business Of Crypto</small>
+        <small>&nbsp;23 Sep '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]">Shocking Facts About Cryptocurrency Heists [Infographics]</a>
       </strong>
@@ -2915,8 +2933,7 @@ amp-user-notification>div>div {
       <strong>
         
         <small>#coins</small>&nbsp;
-        <small>&nbsp;11 Feb '20, 04:08&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by Grant Polachek / SquadHelp</small>
+        <small>&nbsp;11 Feb '20&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/naming-cryptocurrency/" title="Cryptocurrency Branding 101: Naming a Cryptocurrency">Cryptocurrency Branding 101: Naming a Cryptocurrency</a>
       </strong>
@@ -3031,11 +3048,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#news</small>&nbsp;
-        <small>&nbsp;29 Jun '19, 09:14&nbsp;UTC</small>
-        
+        <small>&nbsp;29 Jun '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/token-marketing-agencies/" title="Token Marketing #2: Agencies are more than happy about the bans">Token Marketing #2: Agencies are more than happy about the bans</a>
       </strong>
@@ -3065,11 +3080,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#trading</small>&nbsp;
-        <small>&nbsp;29 Jun '19, 09:14&nbsp;UTC</small>
-        &nbsp;<small class="guest">Guest post by CryptoDisrupt</small>
+        <small>&nbsp;29 Jun '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/twitter-crypto-ban-info/" title="Token Marketing #1: Twitter's Crypto Ban">Token Marketing #1: Twitter's Crypto Ban</a>
       </strong>
@@ -3278,11 +3291,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#exchanges</small>&nbsp;
-        <small>&nbsp;29 Jun '19, 09:14&nbsp;UTC</small>
-        
+        <small>&nbsp;29 Jun '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/interview-andrew-gazdecki/" title="DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading">DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading</a>
       </strong>
@@ -3326,11 +3337,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#exchanges</small>&nbsp;
-        <small>&nbsp;29 Jun '19, 09:14&nbsp;UTC</small>
-        
+        <small>&nbsp;29 Jun '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/dex-copytrading/" title="DEX Series, Episode 2: Copy trading">DEX Series, Episode 2: Copy trading</a>
       </strong>
@@ -3360,11 +3369,9 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        <span class="tag">Blog</span>&nbsp;
         
         <small>#exchanges</small>&nbsp;
-        <small>&nbsp;29 Jun '19, 09:14&nbsp;UTC</small>
-        
+        <small>&nbsp;29 Jun '19&nbsp;</small>
         <br>
         <a  class="index-internal"  href="/dex-trading/" title="DEX Series, Episode 1: Order Execution Management">DEX Series, Episode 1: Order Execution Management</a>
       </strong>
