@@ -35,3 +35,28 @@ Sometimes referred to as "traB". Alernative name would be "poop and scoop".
 #### Alternative names for Bart formation
 
 Pump and Dump.
+
+### Trading the Bart Pattern
+
+Quite typically, crypto markets will show bart patterns before a run-up.
+
+It could be at the end of a channel or triangle formation that has been in the making for a few weeks.
+
+Ends of triangular formations are in particular a good place to spot bart formations, because the volume there is getting lower - a lot of traders go to the sidelines, waiting for a decisive move.
+
+The same is also true at the end of a bear market or when the market was [ranging](/glossary/sideways/) for so long that everyone is bored and nobody wants to trade.
+
+Does that make the Bart formation a good place to long?
+
+**Only if your risk tolerance is high.**
+
+Remember that Bart is a *failed* attempt at starting a run-up. There was some follow through, but not enough yet. The market needs to build up a little longer, and in the meantime a fundamental event can happen that changes everything ... In other words, there is no way to time the market from the presence of Bart patterns alone.
+
+However, it does show some early confidence on the market.
+
+So, those are the options:
+
+* It is a super bad time to speculate with futures or any other time-limited contracts. With plain leverage though, the story is different. You could use contracts like the Bitmex **perpetual swap** to try and catch longing the next Bart. Shorting it is more risky if the overall structure of the market looks like slowly setting up for a run-up.
+* If there is a Bart on the hourly charts but you are normally looking at the D and W charts and your opinion there is bullish, you could buy **spot** for the mid- to long-term.
+
+**[Sign up at BitMEX with fee discount](http://bit.ly/2Muo11z)** | **[Sign up at Bitfinex with fee discount](http://bit.ly/at-bfx-banner2020)**
