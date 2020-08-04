@@ -4,3 +4,14 @@
     {{ post.title }}
   </a>
 </strong>
+<br><br>
+{% if post.image[0] %}
+  <a class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="{{ post.image[0] }}" alt="{{ post.title }}"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+{% endif %}

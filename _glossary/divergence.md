@@ -5,8 +5,8 @@ promoting:  analysis
 layout:     at-glossary
 date:       2020-03-30 01:07:00 +0700
 slug:       divergence/
-title:      Divergence - Regular, Hidden, Exaggerated
-hook:       Divergence is a 'level' indicator and can be the sign of reversal or continuation.
+title:      Divergence
+hook:       Covers regular, hidden and exaggerated divergence with links to more info on how to trade them.
 
 categories: [trading]
 tags:       ["divergences", "divergence-trading", "technical-analysis", "crypto-exchange", "crypto-market"]
@@ -26,6 +26,11 @@ related:
 
 ---
 
+**Divergences** are a "level" indicator, they are too vague to justify opening of a position.
+
+Still, they are an important aspect of technical analysis and can give you edge because of how easily they get missed or misinterpreted.
+
+### Types of Divergences
 
 We distinguish *regular divergence*, *hidden divergence* and *exaggerated divergence*.
 
@@ -41,4 +46,4 @@ We distinguish *regular divergence*, *hidden divergence* and *exaggerated diverg
 
 *Exaggerated Divergence* is only different in that price makes double top or double bottom rather than new high or new low.
 
-Divergence itself is not a strong enough signal to trigger a trading decision about entry or exit.
+Once again: Divergence itself is not a strong enough signal to trigger a trading decision about entry or exit. [More on trading divergences here](/divergences/)

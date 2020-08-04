@@ -1,0 +1,183 @@
+---
+published: false
+
+guide:        true
+pinned:       false
+cloud:        true
+promoting:    payments-services
+note:         "p2p"
+
+layout:       at-trading
+title:        "How to generate P2SH addresses in Bitcoin Electrum wallet"
+description:  "Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase."
+
+slug:           generate-bitcoin-p2sh-address/
+categories:     [basics]
+date:           2020-08-04 00:22:00 +0700
+
+image:
+-
+
+about:
+ name: "how to buy ethereum"
+mentions:
+ name: "cryptocurrency exchange"
+ sameas: ["https://www.altcointrading.net/altcoin-exchanges/"]
+
+author: https://altcointrading.net
+author_name: AltcoinTradingNET
+author_twitter: "altcointrading_"
+
+#featured_series: [ScriptSpotlight]
+
+related:
+- {"Altcoin Exchanges: Where to buy altcoins in 2020?": "/altcoin-exchanges/"}
+- {"How to safely use bitcoin for payments": "/howto/pay-with-bitcoin/"}
+- {"How To Use A Bitcoin ATM": "/howto/use-bitcoin-atm/"}
+---
+
+
+# Beginner’s guide to buying Ethereum (ETH)
+
+The second biggest cryptocurrency in the world is [Ethereum](http://ethereum.org/), or actually Ether ([ETH](https://coinmarketcap.com/currencies/ethereum/)). Ethereum is the blockchain that have significantly changed the way blockchain works and its potential.
+
+**Bitcoin gave us store of value and means of payment independent on the government.**
+
+**With Ethereum we have seen blockchain technology grow smarter and evolve to fit into the new advancements of technologies that we live with.**
+
+With smart contracts and a platform to build out new decentralised products and services Ethereum serves as hub in an ever-growing ecosystem.
+
+With that in mind there is a ever-growing interest in Ethereum and its cryptocurrency Ether. Here in this guide I wanted to provide you with clear how-to-guide for buying Ethereum for the first time.
+
+It is perfect for any beginners that have little to no past experience buying cryptocurrencies or investing at all.
+
+There are platforms around the world that allow people to invest in certificates that follows the price of an asset, Ethereum and Bitcoin and others are available there. And that’s an option for beginners to start off with. But I am in this guide talking about actually buying the cryptocurrency ETH, and then storing it in a safe cryptocurrency wallet.
+
+The overall steps that I recommend that you go through to buy and store ETH successfully are:
+
+1. Find a reliable wallet
+2. Next find an exchange or site to buy ETH from
+3. Send your ETHs to the wallet you previously created
+
+That’s it! It isn’t more complicated than that. And I will walk you through each step to make it even easier.
+
+Let's start with the first step, finding a good wallet for ETH.
+
+{% amp700cloud page.image[1] %}
+
+
+### Part 1 - Finding a good ETH Wallet
+
+You could at some cryptocurrency exchanges store your ETHs at the exchange. And I do understand that could be seen as easier, but I recommend that you don’t. Instead get your ETH wallet.
+
+This way you control your own funds, and you also avoid the risk of hacks and thefts that often happen to exchanges.
+
+There are free web, desktop and mobile wallets for ETH. And then you have hardware devices. These you pay for, but they are the most secure types of wallets. I own a couple myself and I store a majority of my holdings there.
+
+I do recommend you looking into buying one, there are [Ledger](https://bit.ly/at-ledger-halving2020), [Trezor](https://trezor.io/) and [Keepkey](https://shapeshift.com/keepkey) devices.
+
+**Some free and easy to start with ETH wallets are:**
+
+1. [MyEtherWallet](https://www.myetherwallet.com/)
+2. [MyCrypto](https://mycrypto.com/)
+3. [Atomic wallet](https://atomicwallet.io/ethereum-wallet)
+
+You can find more ETH wallets in [this guide](https://gocryptowise.com/blog/best-ethereum-wallets/).
+
+To get a wallet with any of the options just go to the site and create a new wallet. After that you need to write down your private keys, passphrase or seeds (secret codes) to your wallet. This is very important that you do this.
+
+Don’t forget!
+
+{% amp700cloud page.image[2] %}
+
+
+### Part 2 - Buy ETH at an exchange/broker site
+
+Now that you have your own wallet you can move onto the next step. To buy ETH!
+
+Here I will list a few beginner-friendly options for you. It doesn’t really matter too much which one you want to go for. I wanted to add a few different options for usefulness.
+
+To buy ETH you either have to buy it with:
+
+
+1. Fiat money (USD, EUR, GBP, etc) - you then buy with your credit or debit card, or via a bank transfer or another payment method such as PayPal
+2. You trade some other cryptocurrency like BTC for ETH - but I will in this guide focus on buying with fiat money as I am assuming you don’t own any BTC or another cryptocurrency
+
+So to to buy ETH with your fiat money you need to find a site where this is possible. Based on my own experience I can recommend you three different options.
+
+
+1. Coinbase
+2. Kraken
+
+These all have fiat-gateways, that’s often how it’s called in crypto-lingo. It means you can buy cryptocurrencies with fiat money.
+
+
+#### Here’s how to buy ETH at Coinbase
+
+{% amp700cloud page.image[3] %}
+
+##### Step 1 - Register an account
+
+First thing is to head over to Coinbase and create your own account.
+
+
+##### Step 2 - Add card or bank account
+
+Next thing is to add your card or bank account in your settings page.
+
+
+##### Step 3 - Make payment
+
+If you want to buy with your card then you can buy ETH immediately. If with a bank transfer then you have to wait until the transfer have been completed and then buy ETH at Coinbase. The latter can take up to 1-4 days. But it’s much cheaper.
+
+
+#### Here’s how to buy ETH at Kraken
+
+{% amp700cloud page.image[4] %}
+
+
+#### Step 1 - Register an account
+
+First thing is to head over to Kraken and create your own account.
+
+
+##### Step 2 - Add bank account
+
+Next thing is to add your bank account. You will need to complete KYC checks (identity verification).
+
+Step 3 - Make the bank transfer
+
+When that’s done you can now make the bank transfer (USD or EUR).
+
+
+##### Step 4 - Buy ETH
+
+Now with the transfer complete you can buy ETH with either USD or EUR from your deposited funds
+
+That’s how you buy ETH at Coinbase and Kraken.
+
+
+### Part 3 - Send ETH to you wallet
+
+The last part of this guide which I recommend, but is not a must is to send your ETHs to your wallet that you created in the first part.
+
+To do this you have to go back to the wallet you created, find your ETH address
+
+
+{% amp700cloud page.image[5] %}
+
+
+All Ether and Ethereum-based token addresses starts with 0x. And then it is a long alphanumerical mix of letters and numbers.
+
+Copy that address.
+
+Then go to Kraken or Coinbase, withdraw your ETHs and paste the address in. Make the transfer and then wait for it to go through. It can take from 30 minutes to 2 hours.
+
+
+### Final words
+
+That is the end of this guide to buying ETH. I wanted to keep it short but with clear step by step information. I think if you follow this guide then buying ETH will be easy for most people. Even with little computer or investment experience.
+
+**Don’t forget to keep a safe backup of your wallet keys!**
+
+{{ site.tv_1200-628 }}
