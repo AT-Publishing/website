@@ -5,7 +5,7 @@ layout: default
 {% assign blogitems = site.posts | sort: date | reverse %}
 {% assign stratitems = site.strategy | sort: date | reverse %}
 {% assign glositems = site.glossary | sample: 4 %}
-{% assign howtoitems = site.howto | sample:3 %}
+{% assign howtoitems = site.howto | sort: date | reverse %}
 
 
 <div class="container">
@@ -77,6 +77,18 @@ layout: default
     <br>
     <br>
   </div>
+
+  <div class="row">
+      <h2 class="tagged-as clear">Latest in "How-To" Guides</h2>
+  </div>
+  <div class="row home-glossary">
+    {% for post in howtoitems offset: 0 limit: 4 %}
+      <div class="columns three">
+        {% include home/lineupdates.html %}
+      </div>
+    {% endfor %}
+  </div>
+
 
   <div class="row">
     <br>

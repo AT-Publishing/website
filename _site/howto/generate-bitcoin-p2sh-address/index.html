@@ -22,51 +22,51 @@
 
 
   
-  <link rel="canonical" href="https://news.altcointrading.net/eth-multisig-hack/">
+  <link rel="canonical" href="https://www.altcointrading.net/howto/generate-bitcoin-p2sh-address/">
   
 
 
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/eth-multisig-hack/">
+<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/howto/generate-bitcoin-p2sh-address/">
 
-<title>ETH multisig hack</title>
+<title>How to generate P2SH addresses in Bitcoin Electrum wallet</title>
 
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
-<meta name="description" content="Some ETH multisig wallets created with parity are being drained right now.">
+<meta name="description" content="Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase.">
 
-<meta name="keywords" content="eth-multisig-hack, security, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+<meta name="keywords" content="bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
 
-<meta name="author" content="https://reddit.com/u/KarlVonBahnhof">
+<meta name="author" content="https://altcointrading.net">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="AltcoinTrading.NET | ETH multisig hack" />
-<meta property="og:description" content="Some ETH multisig wallets created with parity are being drained right now." />
-<meta property="og:url" content="https://www.altcointrading.net/eth-multisig-hack/" />
+<meta property="og:title" content="AltcoinTrading.NET | How to generate P2SH addresses in Bitcoin Electrum wallet" />
+<meta property="og:description" content="Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase." />
+<meta property="og:url" content="https://www.altcointrading.net/howto/generate-bitcoin-p2sh-address/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
-<meta property="og:updated_time" content="2019-09-23T14:34:51+00:00" />
-<meta property="og:image" content="https://www.altcointrading.net/uploads/2017/05/31/pexels-photo-247873.jpeg" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/uploads/2017/05/31/pexels-photo-247873.jpeg" />
+<meta property="og:updated_time" content="2020-08-04T08:06:23+00:00" />
+<meta property="og:image" content="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" />
+<meta property="og:image:secure_url" content="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
-<meta property="article:author" content="https://reddit.com/u/KarlVonBahnhof" />
+<meta property="article:author" content="https://altcointrading.net" />
 
-<meta property="article:published_time" content="2017-07-19T16:47:00+00:00" />
+<meta property="article:published_time" content="2020-08-03T17:22:00+00:00" />
 
 <!-- post tags -->
-<meta property="article:tag" content="eth-multisig-hack" /><meta property="article:tag" content="security" />
+
 <!-- post categories -->
-<meta property="article:section" content="Cryptocurrencies" />
+<meta property="article:section" content="Cryptocurrency Trading 101" />
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@altcointrading_" />
-<meta name="twitter:title" content="AltcoinTrading.NET | ETH multisig hack" />
-<meta name="twitter:description" content="Some ETH multisig wallets created with parity are being drained right now." />
-<meta property="twitter:image" content="https://www.altcointrading.net/uploads/2017/05/31/pexels-photo-247873.jpeg" />
-<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/uploads/2017/05/31/pexels-photo-247873.jpeg" />
-<meta name="twitter:creator" content="https://reddit.com/u/KarlVonBahnhof" />
+<meta name="twitter:title" content="AltcoinTrading.NET | How to generate P2SH addresses in Bitcoin Electrum wallet" />
+<meta name="twitter:description" content="Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here’s how to generate yours from your seedphrase." />
+<meta property="twitter:image" content="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" />
+<meta property="twitter:image:secure_url" content="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" />
+<meta name="twitter:creator" content="altcointrading_" />
 
 
 <!--AMP-->
@@ -93,90 +93,56 @@
 
 <script type="application/ld+json">
 {
- "@context":"http:\/\/schema.org",
- "@type":"Organization",
- "url":"https://www.altcointrading.net",
- "sameAs":[
-    "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
-    "https:\/\/twitter.com\/altcointrading_",
-    "https:\/\/medium.com\/cryptolounge",
-    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/"
- ],
- "@id":"#organization",
- "name":"AltcoinTrading.NET",
- "logo":{
-    "@type":"ImageObject",
-    "url":"https://i.imgur.com/YiUXPdY.jpg",
-    "width":350,
-    "height":60
- },
- "telephone":"+595 21 620 7326",
- "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
-    "addressLocality":"Asuncion",
-    "addressCountry":"PY",
-    "postalCode":"3794"
- }
-}
-</script>
-<script type="application/ld+json">
-{
-   "@context":"http:\/\/schema.org",
-   "@type":"Article",
-   "@id":"https://www.altcointrading.net/eth-multisig-hack/#article",
-   "mainEntityOfPage":"https://www.altcointrading.net/eth-multisig-hack/",
-   "publisher":{
-      "@id":"https://www.altcointrading.net/eth-multisig-hack/#organization"
-   },
-   "headline":"ETH multisig hack",
-   "datePublished": "2017-07-19T16:47:00+00:00",
-   "dateModified": "2019-09-23T14:34:51+00:00",
-   "contentReferenceTime": "2019-09-23T14:34:51+00:00",
-   "author":[
-      {
-         "@type":"Person",
-         "name":"KarlVonBahnhof"
-      }
-   ],
-   "description":"Some ETH multisig wallets created with parity are being drained right now.",
-   "articleBody":"&lt;p&gt;&lt;strong&gt;Updates&lt;/strong&gt;&lt;/p&gt;
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"https://www.altcointrading.net/howto/generate-bitcoin-p2sh-address/"
+  },
+  "headline": "How to generate P2SH addresses in Bitcoin Electrum wallet",
+  "datePublished": "2020-08-03T17:22:00+00:00",
+  "dateModified": "2020-08-04T08:06:23+00:00",
 
-&lt;p&gt;The bug in Parity 1.5+ has been fixed - &lt;a href=&quot;https://github.com/paritytech/parity/commit/e06a1e8dd9cfd8bf5d87d24b11aee0e8f6ff9aeb&quot;&gt;see it on github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://press.swarm.city/parity-multisig-wallet-exploit-hits-swarm-city-funds-statement-by-the-swarm-city-core-team-d1f3929b4e4e&quot;&gt;Some of the funds were secured by ways of the same hack by a group of white hackers.&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Swarm: A swift response from a whitehat hacker group used the same exploit to drain many other project’s parity multisig wallets, in order to protect them from theft. This group was able to save over 377,000 ETH. Unfortunately the 44,055 ETH that was in Swarm City’s wallet is gone.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Black hat hacker wallet address with stolen ether: https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;White hat wallet address with preserved ether: https://etherscan.io/address/0x1dba1131000664b884a1ba238464159892252d3a&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Original article&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is a reason for the selloff, if you are looking for one: &lt;a href=&quot;https://pbs.twimg.com/media/DFHvB86W0AEOnX0.jpg&quot;&gt;Parity 1.5+ security alert&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Some multisig wallets with contracts for ICOs created with certain versions of Parity are vulnerable and getting drained.&lt;/p&gt;
-
-&lt;p&gt;So far all ICO money for Edgeless Casino, aeternity and swarm.city is gone. It is 153k ETH which was worth about $32M when the heist started. At the moment it is around $30M. &lt;a href=&quot;https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32#internaltx&quot;&gt;This is where the coins were sent to&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The bug has not been fixed yet so the draining might be going to continue for a while longer, unless money is moved out of vulnerable wallets in time.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The vulnerability is a serious one, allegedly one only needs the public key and certain kind of metadata and that is enough to regenerate the wallet.&lt;/em&gt;&lt;/p&gt;
-",
-   "isPartOf":{
-      "@id":"https://www.altcointrading.net/eth-multisig-hack/#webpage"
-   },
-   "image":[
-     "https://www.altcointrading.net/uploads/2017/05/31/pexels-photo-247873.jpeg"
-     
-   ]
+  "contentReferenceTime": "2020-08-04T08:06:23+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "AltcoinTradingNET"
+  },
+  "image":[
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg",
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530693/atnet/_how-to/generate-p2sh-btc-1_kkrima.png",
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.png",
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530694/atnet/_how-to/generate-p2sh-btc-3_gsxbuw.png"
+    
+  ],
+  
+  "about": {
+    "@type": "Thing",
+    "name": "bitcoin p2sh",
+    "sameAs": [
+      ]
+  },
+  
+  
+  "mentions":[
+     {
+        "@type":"Thing",
+        "name":"cryptocurrency wallet",
+        "sameAs":"https://www.altcointrading.net/altcoin-wallets/"
+     }
+  ],
+  
+   "publisher": {
+    "@type": "Organization",
+    "name": "AltcoinTrading.NET",
+    "logo": {
+      "@type": "ImageObject",
+      "url":"https://i.imgur.com/YiUXPdY.jpg",
+      "width":350,
+      "height":60
+    }
+  },
+  "description": "Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase."
 }
 </script>
 
@@ -2289,8 +2255,8 @@ amp-user-notification>div>div {
         "selector": "#at-promo-horizontal",
         "request": "event",
         "vars": {
-          "eventCategory": "nonadsense--eth-multisig-hack",
-          "eventAction": "click-horizontal--promoting-",
+          "eventCategory": "nonadsense--howtogenerate-bitcoin-p2sh-address",
+          "eventAction": "click-horizontal--promoting-payments-services",
           "eventLabel": "id--at-promo-horizontal"
 
           }
@@ -2300,8 +2266,8 @@ amp-user-notification>div>div {
           "selector": "#at-promo-vertical",
           "request": "event",
           "vars": {
-            "eventCategory": "nonadsense--eth-multisig-hack",
-            "eventAction": "click-vertical--promoting-",
+            "eventCategory": "nonadsense--howtogenerate-bitcoin-p2sh-address",
+            "eventAction": "click-vertical--promoting-payments-services",
             "eventLabel": "id--at-promo-vertical"
 
           }
@@ -2311,8 +2277,8 @@ amp-user-notification>div>div {
             "selector": "#at-promo-tv-tall",
             "request": "event",
             "vars": {
-              "eventCategory": "nonadsense--eth-multisig-hack",
-              "eventAction": "click-tv-tall--promoting-",
+              "eventCategory": "nonadsense--howtogenerate-bitcoin-p2sh-address",
+              "eventAction": "click-tv-tall--promoting-payments-services",
               "eventLabel": "id--at-promo-tv-tall"
             }
      },
@@ -2321,8 +2287,8 @@ amp-user-notification>div>div {
               "selector": "#at-promo-smallad-post",
               "request": "event",
               "vars": {
-                "eventCategory": "nonadsense--eth-multisig-hack",
-                "eventAction": "click-post-smallad--promoting-",
+                "eventCategory": "nonadsense--howtogenerate-bitcoin-p2sh-address",
+                "eventAction": "click-post-smallad--promoting-payments-services",
                 "eventLabel": "id--at-promo-smallad-post"
         }
      }
@@ -2488,7 +2454,7 @@ amp-user-notification>div>div {
     <section class="altcointrading-blog-header">
       <div class="row">
        <div class="seven columns">
-          <h1 class="post post-main"><strong>ETH multisig hack</strong> - #CryptoTrading</h1>
+          <h1 class="post post-main"><strong>How to generate P2SH addresses in Bitcoin Electrum wallet</strong> - #CryptoTrading</h1>
        </div>
        <div class="five columns">
          <div class="sidebar-nl container-center">
@@ -2510,18 +2476,19 @@ amp-user-notification>div>div {
                 <div id="at-promo-horizontal">
                   
 
-
+    <div class="text-center"><a class="index-internal" rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501676/atnet/_banner/localcryptos_banner_i0tzak.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="3072px" data-original-height="1920px" width="700px" height="446px" layout="responsive"></amp-img></a></div><br> 
+  
 
                 </div>
 
-                <blockquote cite="https://www.altcointrading.net/eth-multisig-hack/">
-                  Some ETH multisig wallets created with parity are being drained right now.
+                <blockquote cite="https://www.altcointrading.net/howto/generate-bitcoin-p2sh-address/">
+                  Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase.
                 </blockquote>
-                <div class="google-news-tag">News</div>&nbsp;
+                <span class="google-news-tag">p2p/dex bitcoin</span>&nbsp;
 <span class="note">
-  <time datetime="2019-09-23T14:34:51+00:00">Last Update 23 Sep 2019 at 14:34 UTC</time>&nbsp;
-  <span>&nbsp;&middot;&nbsp;[reports]</span>
-  <span class="guest">&nbsp;&middot;&nbsp;Author: <a rel="nofollow" target="_blank" href="https://reddit.com/u/KarlVonBahnhof">KarlVonBahnhof</a></span>
+  <time datetime="2020-08-04T08:06:23+00:00">Last Update 04 Aug 2020 at 08:06 UTC</time>&nbsp;
+  <span>&nbsp;&middot;&nbsp;[basics]</span>
+  <span class="guest">&nbsp;&middot;&nbsp;Author: <a rel="nofollow" target="_blank" href="https://altcointrading.net">AltcoinTradingNET</a></span>
   
 </span>
 
@@ -2530,35 +2497,59 @@ amp-user-notification>div>div {
             </article>
             <article class="maincontent altcointrading-blog-content">
               <div class="strategy-content">
-                <p><strong>Updates</strong></p>
+                <p><strong>This is a tutorial to help you generate P2SH bitcoin addresses to withdraw bitcoin from non-custodial apps like <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a>.</strong></p>
 
-<p>The bug in Parity 1.5+ has been fixed - <a href="https://github.com/paritytech/parity/commit/e06a1e8dd9cfd8bf5d87d24b11aee0e8f6ff9aeb">see it on github</a>.</p>
+<p>If you are a P2P or DEX crypto trader, you probably know that to receive BTC from a decentralized app, you need to use a SegWit bitcoin address.</p>
 
-<p><a href="https://press.swarm.city/parity-multisig-wallet-exploit-hits-swarm-city-funds-statement-by-the-swarm-city-core-team-d1f3929b4e4e">Some of the funds were secured by ways of the same hack by a group of white hackers.</a></p>
+<h3 id="segwit-addresses-are-not-all-the-same">Segwit addresses are not all the same</h3>
 
-<blockquote>
-  <p>Swarm: A swift response from a whitehat hacker group used the same exploit to drain many other project’s parity multisig wallets, in order to protect them from theft. This group was able to save over 377,000 ETH. Unfortunately the 44,055 ETH that was in Swarm City’s wallet is gone.</p>
-</blockquote>
+<p>You can easily get a SegWit bitcoin wallet on your phone with the <a href="https://exodus.io">Exodus</a> app, on your laptop with <a href="https.electrum.org">Electrum</a> if you are old-school or on any device with <a href="http://bit.ly/at-ledger-codes2020">Ledger wallet</a>.</p>
 
-<blockquote>
-  <p>Black hat hacker wallet address with stolen ether: https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32</p>
-</blockquote>
+<p>However, in 2020, any regularly updated bitcoin wallet app will prefer bech32 addresses. Bech32 addresses start with <code class="highlighter-rouge">bc1</code>.</p>
 
-<blockquote>
-  <p>White hat wallet address with preserved ether: https://etherscan.io/address/0x1dba1131000664b884a1ba238464159892252d3a</p>
-</blockquote>
+<p>The problem is that some non-custodial exchanges will only let you withdraw into a bitcoin address that starts with <code class="highlighter-rouge">3</code>. Bitcoin SegWit addresses starting with <code class="highlighter-rouge">3</code> are called P2SH addresses (pay-to-script-hash).</p>
 
-<p><strong>Original article</strong></p>
+<h3 id="electrum-lets-you-generate-p2sh-address-set-from-bitcoin-seed">Electrum lets you generate P2SH address set from bitcoin seed</h3>
 
-<p>There is a reason for the selloff, if you are looking for one: <a href="https://pbs.twimg.com/media/DFHvB86W0AEOnX0.jpg">Parity 1.5+ security alert</a>.</p>
+<p>Good news is you can generate a set of P2SH bitcoin addresses from your seedphrase in Electrum wallet. It is easy to do, but you need to know how to do it - the Electrum wallet provides no walkthrough for it.</p>
 
-<p>Some multisig wallets with contracts for ICOs created with certain versions of Parity are vulnerable and getting drained.</p>
+<p>If you worry about messing up your wallet, generate a new seedphrase first. It will work just the same.</p>
 
-<p>So far all ICO money for Edgeless Casino, aeternity and swarm.city is gone. It is 153k ETH which was worth about $32M when the heist started. At the moment it is around $30M. <a href="https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32#internaltx">This is where the coins were sent to</a>.</p>
+<h3 id="step-by-step-generate-p2sh-addresses-in-bitcoin-electrum">Step-by-step: Generate P2SH addresses in Bitcoin Electrum</h3>
 
-<p>The bug has not been fixed yet so the draining might be going to continue for a while longer, unless money is moved out of vulnerable wallets in time.</p>
+<p>This method works on a laptop with any operating system. The steps are always the same.</p>
 
-<p><em>The vulnerability is a serious one, allegedly one only needs the public key and certain kind of metadata and that is enough to regenerate the wallet.</em></p>
+<p>Before you start typing your seed anywhere, check with <code class="highlighter-rouge">https://electrum.org/#download</code> that you have the latest version of the wallet.</p>
+
+<h4 id="step-1-get-your-seedphrase-or-generate-a-new-one">Step 1: Get your seedphrase, or generate a new one.</h4>
+
+<p>If you don’t want to work with the seedphrase of a wallet you are currently using, that’s fine. Just start creating a new wallet up to the step where you get the seedphrase.</p>
+
+<p>Write the seed down and close the Electrum dialog where you were creating the new wallet.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530693/atnet/_how-to/generate-p2sh-btc-1_kkrima.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530693/atnet/_how-to/generate-p2sh-btc-1_kkrima.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="step-2-start-a-wallet-restoration-process">Step 2: Start a wallet restoration process.</h4>
+
+<p>Open the Electrum wallet and in the File menu, select “New/Restore”.</p>
+
+<p>Select you want “Standard wallet” and in the next step that you “Already have a seed”.</p>
+
+<h4 id="step-3-type-down-your-seedphrase-and-go-to-the-advanced-options">Step 3: Type down your seedphrase and go to the advanced options.</h4>
+
+<p>Below the box into which you have to type in your seedphrase, you should see a button for extra “Options”. Click that, select bip39 and ignore the warning that will be generated for you then.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="step-4-select-derivation-path-p2sh-segwit">Step 4: Select derivation path “p2sh-segwit”.</h4>
+
+<p>The derivation path of “p2sh-segwit” should be one of the options after typing in the seed. You can double check the derivation string below the options. It should contain the number 49 because your selection is based on BIP49. Don’t change anything in there.</p>
+
+<h4 id="step-5-create-the-wallet">Step 5: Create the wallet.</h4>
+
+<p>Your wallet should now be ready to use. Check your addresses to see that they all start with a <code class="highlighter-rouge">3</code>.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530694/atnet/_how-to/generate-p2sh-btc-3_gsxbuw.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530694/atnet/_how-to/generate-p2sh-btc-3_gsxbuw.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
   					  </div><!-- strategy content -->
             </article>
@@ -2572,12 +2563,27 @@ amp-user-notification>div>div {
             <div>
               
               <figure class="noborder main-post-image">
-                <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Altcoin Trading Blog"
+                <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Altcoin Trading Blog"
                 layout="responsive" data-original-width="720px" data-original-height="360px"
                 width="720px" height="360px">
                 </amp-img>
               </figure>
               
+<section>
+<div class="trading quiterelated">
+  <h5>Related Posts from AltcoinTrading.NET</h5>
+  <ol>
+    
+    <li><a href="/altcoin-wallets/">Altcoin Wallets: Where to store altcoins in 2020?</a></li>
+    
+    <li><a href="/howto/use-bitcoin-atm/">How To Use A Bitcoin ATM</a></li>
+    
+    <li><a href="/howto/pay-with-bitcoin/">How to safely use bitcoin for payments</a></li>
+    
+  </ol>
+</div>
+<section>
+
 
             </div>
             <div class="smallad" id="at-promo-smallad-post">
@@ -2617,15 +2623,13 @@ amp-user-notification>div>div {
 <hr class="skinny">
 
 
-    <div class="text-center"><a class="index-internal" rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501622/atnet/_banner/localcryptos_400_xtp85l.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>
     <hr class="skinny">
-    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
+    <div class="containter-center"><a rel="nofollow" title="Coinmama sell crypto for SEPA or SWIFT" href="https://bit.ly/at-cmama2020-sell" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_350,w_400/v1586843999/atnet/_banner/coinmama_sell1.jpg" alt="Coinmama sell crypto for SEPA or SWIFT" data-original-width="400px" data-original-height="350px" layout="responsive" width="400px" height="350px"></amp-img></a></div>
     <hr class="skinny">
-
-
     <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
     <hr class="skinny">
 
+  
 </section>
 
 </div>
@@ -2653,21 +2657,10 @@ amp-user-notification>div>div {
     <strong>About the author</strong>
   </p>
   <p>
-    Written by <a rel="nofollow,noopener" target="_blank" href="https://reddit.com/u/KarlVonBahnhof">KarlVonBahnhof</a>
+    Written by <a rel="nofollow,noopener" target="_blank" href="https://altcointrading.net">AltcoinTradingNET</a>
   </p>
   <div>
     
-      
-        <p>KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.</p>
-<p id="author-social">
-  <a href="https://twitter.com/_karlvonbahnhof"><i class="fa fa-twitter-square fa-2x"></i></a>
-  
-  <a href="https://www.facebook.com/chris.appell.90"><i class="fa fa-facebook-square fa-2x"></i></a>
-  <a href="https://www.reddit.com/u/karlvonbahnhof"><i class="fa fa-reddit-square fa-2x"></i></a>
-  
-  <a href="mailto:chris@altcointrading.net"><i class="fa fa-envelope fa-2x"></i></a>
-</p>
-
       
     
       
@@ -2693,23 +2686,23 @@ amp-user-notification>div>div {
 <ul class="social share">
   <li>
     <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read ETH multisig hack by KarlVonBahnhof at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read How to generate P2SH addresses in Bitcoin Electrum wallet by AltcoinTradingNET at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="twitter" width="40" height="40"
-    data-param-text="Just read ETH multisig hack by @altcointrading_ at altcointrading.net"></amp-social-share>
+    data-param-text="Just read How to generate P2SH addresses in Bitcoin Electrum wallet by altcointrading_ at altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read ETH multisig hack by KarlVonBahnhof at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read How to generate P2SH addresses in Bitcoin Electrum wallet by AltcoinTradingNET at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read ETH multisig hack by KarlVonBahnhof at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read How to generate P2SH addresses in Bitcoin Electrum wallet by AltcoinTradingNET at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read ETH multisig hack by KarlVonBahnhof at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read How to generate P2SH addresses in Bitcoin Electrum wallet by AltcoinTradingNET at https://www.altcointrading.net"></amp-social-share>
   </li>
 
 </ul>
@@ -2877,7 +2870,7 @@ amp-user-notification>div>div {
   </li>
 
   <li>
-    <a id="gtm-redditlike" title="Like ETH multisig hack on Reddit" href="https://www.reddit.com/r/altcointrader" target="_blank">
+    <a id="gtm-redditlike" title="Like How to generate P2SH addresses in Bitcoin Electrum wallet on Reddit" href="https://www.reddit.com/r/altcointrader" target="_blank">
       <i class="fa fa-reddit-square"></i>
     </a>
   </li>

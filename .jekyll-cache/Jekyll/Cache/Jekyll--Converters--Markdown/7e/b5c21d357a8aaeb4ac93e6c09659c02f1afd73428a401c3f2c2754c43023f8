@@ -1,0 +1,54 @@
+I"]<p><strong>This is a tutorial to help you generate P2SH bitcoin addresses to withdraw bitcoin from non-custodial apps like <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a>.</strong></p>
+
+<p>If you are a P2P or DEX crypto trader, you probably know that to receive BTC from a decentralized app, you need to use a SegWit bitcoin address.</p>
+
+<h3 id="segwit-addresses-are-not-all-the-same">Segwit addresses are not all the same</h3>
+
+<p>You can easily get a SegWit bitcoin wallet on your phone with the <a href="https://exodus.io">Exodus</a> app, on your laptop with <a href="https.electrum.org">Electrum</a> if you are old-school or on any device with <a href="http://bit.ly/at-ledger-codes2020">Ledger wallet</a>.</p>
+
+<p>However, in 2020, any regularly updated bitcoin wallet app will prefer bech32 addresses. Bech32 addresses start with <code class="highlighter-rouge">bc1</code>.</p>
+
+<p>The problem is that some non-custodial exchanges will only let you withdraw into a bitcoin address that starts with <code class="highlighter-rouge">3</code>. Bitcoin SegWit addresses starting with <code class="highlighter-rouge">3</code> are called P2SH addresses (pay-to-script-hash).</p>
+
+<h3 id="electrum-lets-you-generate-p2sh-address-set-from-bitcoin-seed">Electrum lets you generate P2SH address set from bitcoin seed</h3>
+
+<p>Good news is you can generate a set of P2SH bitcoin addresses from your seedphrase in Electrum wallet. It is easy to do, but you need to know how to do it - the Electrum wallet provides no walkthrough for it.</p>
+
+<p>If you worry about messing up your wallet, generate a new seedphrase first. It will work just the same.</p>
+
+<h3 id="step-by-step-generate-p2sh-addresses-in-bitcoin-electrum">Step-by-step: Generate P2SH addresses in Bitcoin Electrum</h3>
+
+<p>This method works on a laptop with any operating system. The steps are always the same.</p>
+
+<p>Before you start typing your seed anywhere, check with <code class="highlighter-rouge">https://electrum.org/#download</code> that you have the latest version of the wallet.</p>
+
+<h4 id="step-1-get-your-seedphrase-or-generate-a-new-one">Step 1: Get your seedphrase, or generate a new one.</h4>
+
+<p>If you don’t want to work with the seedphrase of a wallet you are currently using, that’s fine. Just start creating a new wallet up to the step where you get the seedphrase.</p>
+
+<p>Write the seed down and close the Electrum dialog where you were creating the new wallet.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530693/atnet/_how-to/generate-p2sh-btc-1_kkrima.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530693/atnet/_how-to/generate-p2sh-btc-1_kkrima.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="step-2-start-a-wallet-restoration-process">Step 2: Start a wallet restoration process.</h4>
+
+<p>Open the Electrum wallet and in the File menu, select “New/Restore”.</p>
+
+<p>Select you want “Standard wallet” and in the next step that you “Already have a seed”.</p>
+
+<h4 id="step-3-type-down-your-seedphrase-and-go-to-the-advanced-options">Step 3: Type down your seedphrase and go to the advanced options.</h4>
+
+<p>Below the box into which you have to type in your seedphrase, you should see a button for extra “Options”. Click that, select bip39 and ignore the warning that will be generated for you then.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="step-4-select-derivation-path-p2sh-segwit">Step 4: Select derivation path “p2sh-segwit”.</h4>
+
+<p>The derivation path of “p2sh-segwit” should be one of the options after typing in the seed. You can double check the derivation string below the options. It should contain the number 49 because your selection is based on BIP49. Don’t change anything in there.</p>
+
+<h4 id="step-5-create-the-wallet">Step 5: Create the wallet.</h4>
+
+<p>Your wallet should now be ready to use. Check your addresses to see that they all start with a <code class="highlighter-rouge">3</code>.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530694/atnet/_how-to/generate-p2sh-btc-3_gsxbuw.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596530694/atnet/_how-to/generate-p2sh-btc-3_gsxbuw.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+:ET
