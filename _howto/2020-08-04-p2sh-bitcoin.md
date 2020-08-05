@@ -10,7 +10,7 @@ title:        "How to generate P2SH addresses in Bitcoin Electrum wallet"
 description:  "Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase."
 
 slug:           generate-bitcoin-p2sh-address/
-categories:     [basics]
+categories:     [technical]
 date:           2020-08-04 00:22:00 +0700
 
 image:
@@ -34,7 +34,7 @@ author_twitter: "altcointrading_"
 related:
 - {"Altcoin Wallets: Where to store altcoins in 2020?": "/altcoin-wallets/"}
 - {"How To Use A Bitcoin ATM": "/howto/use-bitcoin-atm/"}
-- {"How to safely use bitcoin for payments": "/howto/pay-with-bitcoin/"}
+- {"How to safely move Litecoins between SegWit (P2SH) and legacy addresses": "/moving-ltc-p2sh/"}
 
 ---
 

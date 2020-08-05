@@ -337,6 +337,10 @@ width="336px" height="280px">
 </amp-img></a></div>'
 
 
+# Users who have signed up with a valid affiliate link will receive a 10% fee discount for 6 months.
+
+
+
 #### bitfinex ####
 
 
@@ -391,7 +395,9 @@ alt="Age of Rust crypto game assets" data-original-width="400px" data-original-h
 
 localcryptos_square: '<div class="text-center"><a class="index-internal" rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501622/atnet/_banner/localcryptos_400_xtp85l.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="400px" data-original-height="400px" width="400px" height="400px" layout="responsive"></amp-img></a></div><br>'
 localcryptos_banner: '<div class="text-center"><a class="index-internal" rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501676/atnet/_banner/localcryptos_banner_i0tzak.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="3072px" data-original-height="1920px" width="700px" height="446px" layout="responsive"></amp-img></a></div><br>'
-
+localcryptos_banner_512: '<div class="text-center"><a class="index-internal" rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596605388/atnet/_banner/localcryptos-purple-512x320_lpynga.jpg" alt="LocalCryptos p2p trading btc eth" data-original-width="512px" data-original-height="320px" width="512px" height="320px" layout="responsive"></amp-img></a></div><br>'
+localcryptos_leader_purple: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" alt="Localcryptos non-custodial p2p market" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596605388/atnet/_banner/localcryptos-purple-728x90_dx2w2w.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
+localcryptos_leader_dark: '<div class="text-center"><a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" alt="Localcryptos non-custodial p2p market" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596605386/atnet/_banner/localcryptos-dark-728x90_s4yqz9.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div><br>'
 
 # seasonal
 
