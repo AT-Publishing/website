@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2020 06:49:03 +0000</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2020 06:49:03 +0000</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2020 08:48:13 +0000</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2020 08:48:13 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -772,29 +772,140 @@ Get Ledger Nano X
 Check Year-Long BlackFriday Offers
 
 
-Your most easy-to-use altcoin wallet
-
-If you only need to store BTC, ETH and XLM, the best smartphone app for you in 2020 the blockchain.com wallet (formerly blockchain.info).
+Your most easy-to-use Crypto Wallets: Mobile Wallet Apps
 
 
-  The smartphone app can be unlocked with PIN or fingerprint, if your device supports that.
-  Blockchain.com still provides the web interface, too. It has multiple levels of second and third factor authentication and options to only whitelist access from certain locations.
+  Multi-coin wallet apps
+
+
+
+  Exodus
+  Jaxx
+  Blockchain.com
+
+
+Exodus Multicoin Wallet
+
+
+
+
+  https://www.exodus.io/
+
+
+Multicoin wallet for deskop and smartphone with integrated an swap exchange inside the app.
+
+Exodus is currently your best option for a multicoin wallet:
+
+
+  The amount of supported coins  is the largest (110 cryptocurrencies in 2020).
+  Exodus supports Monero.
+  For Bitcoin, you automatically get a pair of legacy (1-address) and segwit addresses (bc-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.
+  The customer support is great and you get a status page to check in case your app gets sluggish.
+  There is a swap exchange inside the app.
+  Exodus also integrates with hardware wallets (Ledger, Trezor).
+
+
+
+
+The Exodus wallet app is super user-friendly. It won’t let you do anything too technical, but it is great for beginners.
+
+
+  You launch the wallet as any other app, no user sign up. You can start from a seedphrase but you don’t have to.
+  As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.
+  Wallets are generated for you without giving you their seed phrase yet.
+  To backup your seedphrase, you first need to receive some coin into any wallet at all. The Exodus backup option is only unlocked after you make a deposit. This way you will only have seed phrases written down that actually have money on them.
+  The only owner of your private keys is you.
+  Do not forget backing up your seed phrase!
+
+
+Among the advanced options that you can choose in Exodus wallet is enabling the generation of new BTC addresses after each receiving transaction and setting up passcode or fingerprint lock.
+
+Exodus Supported Coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
+
+Jaxx Multicoin Wallet
+
+
+
+
+  https://www.jaxx.io/
+
+
+Still one of the most popular multicoin wallets these days is Jaxx. It is available as browser extension, desktop app and mobile app.
+
+Jaxx wallet is very user-friendly and good for the beginners:
+
+  You launch the wallet as any other app, no user sign up.
+  Wallets are automatically generated for you. No seed handling etc.
+  To see your private keys (seed phrase), you need to run backup. Backup options is available even if you do not have any crypto in your wallet yet. You will find the Backup option under Settings on the right hand side.
+  The only owner of your private keys is you.
+  Do not forget backing up your seed phrase!
+
+
+Since Jaxx 1.2 you get Shapeshift exchange integrated within the wallet.
+
+Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
+
+Blockchain.com Wallet for BTC, ETH and XLM
+
+If you only need to store BTC, ETH and XLM,  smartphone app for you in 2020 the blockchain.com wallet (formerly blockchain.info).
+
+
+  The smartphone app can be unlocked with PIN or fingerprint.
+  You automatically get the Blockchain.com web wallet access. It is a web wallet, which is less secure, but it has several levels of MFA (multi-factor authentication) and a whitelist option.
+  The Blockchain.com wallet offers ID verification option for your account. Verified users get access to airdrops, fiat-to-crypto exchange and ETH staking wallet.
 
 
 Be careful though: The blockchain.com wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company Blockchain Luxembourg SARL.
 
-If you need more altcoins or if you prefer a standalone app for phones and desktop with no website interface, go with Exodus.io.
+
+  Single-coin Wallet Apps
 
 
-  Exodus has been adding easy support of popular ERC20 tokens as well as selected stablecoins.
-  If Exodus and Jaxx used to be competitors, Exodus won.
+Some less mainstream cryptocurrencies are still not supported by the populat multi-coin wallets like Jaxx or Exodus. Some of them do have their own wallet apps for smartphones now, though.
 
 
-Now for the detailed stuff.
+  MyMonero
+  IOTA Trinity
 
- --- article continues after advertisement --- 
+
+MyMonero Lightweight Wallet
 
 
+
+mymonero.com
+
+MyMonero has been long endorsed on the Monero’s official website (getmonero.com).
+
+MyMonero was originally only available as a web wallet. In 2020 you get the monero web wallet and a desktop/smartphone app.
+
+The MyMonero wallet is super simple.
+
+  To use it, you don’t have to sign up. Just access the app or website and start the mnemonic phrase generation.
+  The mnemonic phrase is your private key.
+  Your private key is not stored anywhere on the server, you are its sole owner. The danger is, you need to type in your seed into the web interface to access your wallet. This is not safe at all. If you google around, you will find reports from many people about their Monero vanishing from their account.
+
+
+If you are put off my the need to type in the mnemonic with MyMonero, use Exodus wallet instead. It supports Monero.
+
+IOTA Trinity Wallet App
+
+
+
+
+  https://trinity.iota.org/
+
+
+Trinity is a relatively new release, and the first IOTA wallet that works without weird high-tech settings hacks. Trinity is the official wallet for IOTA and it is a desktop and smartphone app.
+
+Using Trinity is easy and great for beginners (not that you’d have much choice though) but you can still enable advanced, more technical mode.
+
+
+  The app starts with the option to either use a private key or to generate a new one.
+  If you are generating a new key, Trinity will force you to write it down and then TYPE IT BACK instead of copypasting it. This is good for security (but a pain in the a$$ because IOTA seeds are not mnemonic).
+  The sync of the transactions is a bit sluggish but in general there is less of the problem with vanishing histories that we knew from previous IOTA wallets.
+
+
+More in-depth and technical writeup on how to secure your IOTA wallet in our OPSEC section.
 
 Hardware Wallets for Altcoins Storage
 
@@ -871,63 +982,6 @@ These two Electrum forks have been quite popular:
   Electrum for Dash - https://www.dash.org/downloads
 
 
-Best Monero Wallet
-
-
-
-MyMonero Lightweight Wallet
-
-MyMonero
-
-MyMonero has been long endorsed on the Monero’s official website (getmonero.com).
-
-It has been around for years, originally only available as a web wallet. In 2020 you get the monero web wallet and a desktop/smartphone app.
-
-The wallet is super simple. No sign up, just a private key generation. The key is not stored on the server, you are the only person who has it.
-
-Best Multi-Coin Wallets
-
-Exodus Multicoin Wallet
-
-
-
-https://www.exodus.io/
-
-Exodus was the first multicoin wallet to integrate an altcoin exchange right inside the app.
-
-It’s currently your best option for a multicoin wallet: The amount of supported coins is the largest, the support is great, you get a status page in case your app gets sluggish and the app also integrates with TREZOR hardware wallets.
-
-Exodus wallet is super user-friendly and great for the beginners:
-
-  You launch the wallet as any other app, no user sign up.
-  As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.
-  Wallets are automatically generated for you. No seed handling etc.
-  To see your private keys (seed), you need to run backup. The Exodus backup option is only unlocked after you make a deposit though, as for an empty wallet you don’t need a backup.
-  At the same time, the only owner of your private keys is you.
-
-
-Supported coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
-
-Jaxx Multicoin Wallet
-
-
-
-https://www.jaxx.io/
-
-Still one of the most popular multicoin wallets these days is Jaxx. It is available as browser extension, desktop app and mobile app - although the choice of supported coins differs.
-
-Jaxx wallet is super user-friendly and great for the beginners:
-
-  You launch the wallet as any other app, no user sign up.
-  Wallets are automatically generated for you. No seed handling etc.
-  To see your private keys (seed), you need to run backup. You will find this option under settings on the right hand side.
-  At the same time, the only owner of your private keys is you.
-
-
-Since Jaxx 1.2 you get Shapeshift integrated within the wallet.
-
-Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
-
 Web Based Multi-Altcoin Wallets
 
 Most web-based wallets, the private keys are stored by a third party. You should not consider these as a safe altcoin storage.
@@ -981,29 +1035,140 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;a class=&quot;btn&quot; href=&quot;/blackfriday/&quot;&gt;Check Year-Long BlackFriday Offers&lt;/a&gt;
 &lt;/p&gt;
 
-&lt;h3 id=&quot;your-most-easy-to-use-altcoin-wallet&quot;&gt;Your most easy-to-use altcoin wallet&lt;/h3&gt;
+&lt;h3 id=&quot;your-most-easy-to-use-crypto-wallets-mobile-wallet-apps&quot;&gt;Your most easy-to-use Crypto Wallets: Mobile Wallet Apps&lt;/h3&gt;
 
-&lt;p&gt;If you only need to store &lt;strong&gt;BTC, ETH and XLM&lt;/strong&gt;, the best smartphone app for you in 2020 the &lt;strong&gt;blockchain.com&lt;/strong&gt; wallet (formerly blockchain.info).&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Multi-coin wallet apps&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The smartphone app can be unlocked with PIN or fingerprint, if your device supports that.&lt;/li&gt;
-  &lt;li&gt;Blockchain.com still provides the web interface, too. It has multiple levels of second and third factor authentication and options to only whitelist access from certain locations.&lt;/li&gt;
+  &lt;li&gt;Exodus&lt;/li&gt;
+  &lt;li&gt;Jaxx&lt;/li&gt;
+  &lt;li&gt;Blockchain.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;exodus-multicoin-wallet&quot;&gt;Exodus Multicoin Wallet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.exodus.io/&quot;&gt;https://www.exodus.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Multicoin wallet for deskop and smartphone with integrated an swap exchange inside the app.&lt;/p&gt;
+
+&lt;p&gt;Exodus is currently your best option for a multicoin wallet:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The amount of supported coins  is the largest (110 cryptocurrencies in 2020).&lt;/li&gt;
+  &lt;li&gt;Exodus supports Monero.&lt;/li&gt;
+  &lt;li&gt;For Bitcoin, you automatically get a pair of legacy (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;-address) and segwit addresses (&lt;code class=&quot;highlighter-rouge&quot;&gt;bc&lt;/code&gt;-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.&lt;/li&gt;
+  &lt;li&gt;The customer support is great and you get a status page to check in case your app gets sluggish.&lt;/li&gt;
+  &lt;li&gt;There is a swap exchange inside the app.&lt;/li&gt;
+  &lt;li&gt;Exodus also integrates with hardware wallets (Ledger, Trezor).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596614896/atnet/altcoin-wallets/exodus-android-app_en491r.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596614896/atnet/altcoin-wallets/exodus-android-app_en491r.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Exodus wallet app is super user-friendly. It won’t let you do anything too technical, but it is great for beginners.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You launch the wallet as any other app, no user sign up. You can start from a seedphrase but you don’t have to.&lt;/li&gt;
+  &lt;li&gt;As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.&lt;/li&gt;
+  &lt;li&gt;Wallets are &lt;strong&gt;generated for you without giving you their seed phrase&lt;/strong&gt; yet.&lt;/li&gt;
+  &lt;li&gt;To backup your seedphrase, you first need to receive some coin into any wallet at all. The &lt;a href=&quot;https://support.exodus.io/article/41-how-do-i-backup-my-exodus-wallet&quot;&gt;Exodus backup option&lt;/a&gt; is only unlocked after you make a deposit. This way you will only have seed phrases written down that actually have money on them.&lt;/li&gt;
+  &lt;li&gt;The only owner of your private keys is you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Do not forget backing up your seed phrase!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Among the advanced options that you can choose in Exodus wallet is enabling the generation of new BTC addresses after each receiving transaction and setting up passcode or fingerprint lock.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exodus Supported Coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;jaxx-multicoin-wallet&quot;&gt;Jaxx Multicoin Wallet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jaxx.io/&quot;&gt;https://www.jaxx.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Still one of the most popular multicoin wallets these days is &lt;a href=&quot;https://jaxx.io/support.html&quot;&gt;Jaxx&lt;/a&gt;. It is available as browser extension, desktop app and mobile app.&lt;/p&gt;
+
+&lt;p&gt;Jaxx wallet is very user-friendly and good for the beginners:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You launch the wallet as any other app, no user sign up.&lt;/li&gt;
+  &lt;li&gt;Wallets are automatically generated for you. No seed handling etc.&lt;/li&gt;
+  &lt;li&gt;To see your private keys (seed phrase), you need to run backup. &lt;strong&gt;Backup options is available even if you do not have any crypto in your wallet yet.&lt;/strong&gt; You will find the Backup option under &lt;em&gt;Settings&lt;/em&gt; on the right hand side.&lt;/li&gt;
+  &lt;li&gt;The only owner of your private keys is you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Do not forget backing up your seed phrase!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since Jaxx 1.2 you get &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; exchange integrated within the wallet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;blockchaincom-wallet-for-btc-eth-and-xlm&quot;&gt;Blockchain.com Wallet for BTC, ETH and XLM&lt;/h4&gt;
+
+&lt;p&gt;If you only need to store &lt;strong&gt;BTC, ETH and XLM&lt;/strong&gt;,  smartphone app for you in 2020 the &lt;strong&gt;blockchain.com&lt;/strong&gt; wallet (formerly blockchain.info).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The smartphone app can be unlocked with PIN or fingerprint.&lt;/li&gt;
+  &lt;li&gt;You automatically get the Blockchain.com web wallet access. It is a web wallet, which is less secure, but it has several levels of MFA (multi-factor authentication) and a whitelist option.&lt;/li&gt;
+  &lt;li&gt;The Blockchain.com wallet offers ID verification option for your account. Verified users get access to &lt;strong&gt;airdrops&lt;/strong&gt;, &lt;strong&gt;fiat-to-crypto&lt;/strong&gt; exchange and &lt;strong&gt;ETH staking&lt;/strong&gt; wallet.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Be careful though: The &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchain.com&lt;/code&gt; wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company &lt;strong&gt;Blockchain Luxembourg SARL&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;If you need more altcoins&lt;/strong&gt; or if you prefer a standalone app for phones and desktop with no website interface, go with &lt;a href=&quot;https://www.exodus.io/&quot;&gt;Exodus.io&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Single-coin Wallet Apps&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some less mainstream cryptocurrencies are still not supported by the populat multi-coin wallets like Jaxx or Exodus. Some of them do have their own wallet apps for smartphones now, though.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Exodus has been adding easy support of popular ERC20 tokens as well as selected stablecoins.&lt;/li&gt;
-  &lt;li&gt;If Exodus and Jaxx used to be competitors, Exodus won.&lt;/li&gt;
+  &lt;li&gt;MyMonero&lt;/li&gt;
+  &lt;li&gt;IOTA Trinity&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Now for the detailed stuff.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mymonero-lightweight-wallet&quot;&gt;MyMonero Lightweight Wallet&lt;/h4&gt;
 
-&lt;div class=&quot;containter-center&quot;&gt;&lt;div class=&quot;clearfix adfix&quot;&gt;&lt;small&gt; --- article continues after advertisement --- &lt;/small&gt;&lt;br /&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mymonero.com/#/&quot;&gt;mymonero.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;MyMonero has been long endorsed on the Monero’s official website (getmonero.com).&lt;/p&gt;
+
+&lt;p&gt;MyMonero was originally only available as a web wallet. In 2020 you get the &lt;a href=&quot;https://wallet.mymonero.com/&quot;&gt;monero web wallet&lt;/a&gt; and a &lt;a href=&quot;https://mymonero.com/&quot;&gt;desktop/smartphone app&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The MyMonero wallet is super simple.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To use it, you don’t have to sign up. Just access the app or website and start the mnemonic phrase generation.&lt;/li&gt;
+  &lt;li&gt;The mnemonic phrase is your private key.&lt;/li&gt;
+  &lt;li&gt;Your private key is not stored anywhere on the server, you are its sole owner. &lt;strong&gt;The danger is, you need to type in your seed into the web interface&lt;/strong&gt; to access your wallet. This is not safe at all. If you google around, you will find reports from many people about their Monero vanishing from their account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are put off my the need to type in the mnemonic with MyMonero, use Exodus wallet instead. It supports Monero.&lt;/p&gt;
+
+&lt;h3 id=&quot;iota-trinity-wallet-app&quot;&gt;IOTA Trinity Wallet App&lt;/h3&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596616733/atnet/altcoin-wallets/iota-trinity_showcase_whz3v7.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596616733/atnet/altcoin-wallets/iota-trinity_showcase_whz3v7.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trinity.iota.org/&quot;&gt;https://trinity.iota.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Trinity is a relatively new release, and the first IOTA wallet that works without weird high-tech settings hacks. Trinity is the official wallet for IOTA and it is a desktop and smartphone app.&lt;/p&gt;
+
+&lt;p&gt;Using Trinity is easy and great for beginners (not that you’d have much choice though) but you can still enable advanced, more technical mode.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The app starts with the option to either use a private key or to generate a new one.&lt;/li&gt;
+  &lt;li&gt;If you are generating a new key, Trinity will force you to write it down and then TYPE IT BACK instead of copypasting it. This is good for security (but a pain in the a$$ because IOTA seeds are not mnemonic).&lt;/li&gt;
+  &lt;li&gt;The sync of the transactions is a bit sluggish but in general there is less of the problem with vanishing histories that we knew from previous IOTA wallets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More in-depth and technical writeup on how to &lt;a href=&quot;/security/iota/&quot;&gt;secure your IOTA wallet in our OPSEC section&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;hardware-wallets-for-altcoins-storage&quot;&gt;Hardware Wallets for Altcoins Storage&lt;/h3&gt;
 
@@ -1079,63 +1244,6 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
   &lt;li&gt;Electrum for Litecoin - &lt;a href=&quot;https://electrum-ltc.org/&quot;&gt;https://electrum-ltc.org/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Electrum for Dash - &lt;a href=&quot;https://www.dash.org/downloads&quot;&gt;https://www.dash.org/downloads&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&quot;best-monero-wallet&quot;&gt;Best Monero Wallet&lt;/h3&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;mymonero-lightweight-wallet&quot;&gt;MyMonero Lightweight Wallet&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://mymonero.com/#/&quot;&gt;MyMonero&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;MyMonero has been long endorsed on the Monero’s official website (getmonero.com).&lt;/p&gt;
-
-&lt;p&gt;It has been around for years, originally only available as a web wallet. In 2020 you get the &lt;a href=&quot;https://wallet.mymonero.com/&quot;&gt;monero web wallet&lt;/a&gt; and a &lt;a href=&quot;https://mymonero.com/&quot;&gt;desktop/smartphone app&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The wallet is super simple. No sign up, just a private key generation. The key is not stored on the server, you are the only person who has it.&lt;/p&gt;
-
-&lt;h3 id=&quot;best-multi-coin-wallets&quot;&gt;Best Multi-Coin Wallets&lt;/h3&gt;
-
-&lt;h4 id=&quot;exodus-multicoin-wallet&quot;&gt;Exodus Multicoin Wallet&lt;/h4&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.exodus.io/&quot;&gt;https://www.exodus.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Exodus was the first multicoin wallet to integrate an altcoin exchange right inside the app.&lt;/p&gt;
-
-&lt;p&gt;It’s currently your best option for a multicoin wallet: The amount of supported coins is the largest, the support is great, you get a status page in case your app gets sluggish and the app also integrates with TREZOR hardware wallets.&lt;/p&gt;
-
-&lt;p&gt;Exodus wallet is super user-friendly and great for the beginners:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You launch the wallet as any other app, no user sign up.&lt;/li&gt;
-  &lt;li&gt;As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.&lt;/li&gt;
-  &lt;li&gt;Wallets are automatically generated for you. No seed handling etc.&lt;/li&gt;
-  &lt;li&gt;To see your private keys (seed), you need to run backup. The &lt;a href=&quot;https://support.exodus.io/article/41-how-do-i-backup-my-exodus-wallet&quot;&gt;Exodus backup option&lt;/a&gt; is only unlocked after you make a deposit though, as for an empty wallet you don’t need a backup.&lt;/li&gt;
-  &lt;li&gt;At the same time, the only owner of your private keys is you.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;jaxx-multicoin-wallet&quot;&gt;Jaxx Multicoin Wallet&lt;/h4&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.jaxx.io/&quot;&gt;https://www.jaxx.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Still one of the most popular multicoin wallets these days is &lt;a href=&quot;https://jaxx.io/support.html&quot;&gt;Jaxx&lt;/a&gt;. It is available as browser extension, desktop app and mobile app - although the choice of supported coins differs.&lt;/p&gt;
-
-&lt;p&gt;Jaxx wallet is super user-friendly and great for the beginners:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You launch the wallet as any other app, no user sign up.&lt;/li&gt;
-  &lt;li&gt;Wallets are automatically generated for you. No seed handling etc.&lt;/li&gt;
-  &lt;li&gt;To see your private keys (seed), you need to run backup. You will find this option under settings on the right hand side.&lt;/li&gt;
-  &lt;li&gt;At the same time, the only owner of your private keys is you.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Since Jaxx 1.2 you get &lt;a href=&quot;https://shapeshift.io/&quot;&gt;Shapeshift&lt;/a&gt; integrated within the wallet.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;web-based-multi-altcoin-wallets&quot;&gt;Web Based Multi-Altcoin Wallets&lt;/h3&gt;
 
