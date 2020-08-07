@@ -1,44 +1,28 @@
 ---
 layout: at-trading
-published: true
-guest: true
 
 date: 2018-08-27 15:35:00 +0700
 
 title: "How Blockchain Disrupts The Legal Industry: A Primer"
 description: "Smart contracts, digital testaments and even marketplaces to trade whole discontinued startups are here."
 
-author: https://dealmeisters.com
-author_name: Lisa Henderson
-editor_name: Diana Trang
-
-comments: true
-identifier: 'legalaug18'
 
 stories: true
 genres: Blog
 tickers: false
 
 permalink: how-blockchain-disrupts-legal/
-cz: false
 
 image:
 - "/editorial/legal-disruption.jpeg"
 image_alt:
 - "Smart contracts replacing the lawyer involvement in creation of binding legal agreements, reducing the back office costs."
 
-categories: ["basics"]
-tags: [ "lexit", "traceto.io", "civic", "legal-disruption", "smart-contracts", "digital-testament", "business-of-crypto", "fintech", "digital-testament"]
-chart: []
-
-#about:
-# name: ""
-# sameas: [""]
+categories: ["reports"]
+tags: [ regulations ]
 
 related:
 - {"Traceto.io CEO on the nexus between KYC and credit risk in the blockchain industry": "/traceto-interview/"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
-- {"Zilliqa Is Bootstrapping Open Source Development With Grants": "/press/zilliqa/"}
 
 ---
 

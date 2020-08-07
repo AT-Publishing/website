@@ -28,9 +28,9 @@ image:
 image_alt:
 - "Bitcoin has been making gains over the past several hours, rebounding from the 6350 USD mark to a daily high over 6700 USD."
 
-categories: ["reports"]
+categories: [ reports ]
 
-tags: [ "business-of-crypto", "sec", "bitcoin", "cryptotrading"]
+tags: [ regulations ]
 chart: []
 
 about:

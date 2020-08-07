@@ -28,9 +28,8 @@ permalink: kraken-upgrade/
 image: ["/editorial/blood.jpg"]
 image_alt: ["In a recent post the Kraken exchange shared with us more details about the upgrade /u/jespow was promising for beginning of December. Blood image via Pexels."]
 
-categories: ["exchanges"]
-chart: []
-tags: [ "kraken", "jesse-powell", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+categories: [ reports ]
+tags:  [ adoption ]
 ---
 
 Kraken's main man [Jesse Powell explained on Reddit in November 2017](https://www.reddit.com/r/BitcoinMarkets/comments/7eboh7/suggestion_remove_kraken_from_the_header_ticker/dq4w4m7/?context=2) he is aware of the problems with trading on Kraken - orders are not getting through, interface keeps crashing, good luck with limit orders or stop losses, and so on. That's why Kraken has had job advertisements on Lever for a couple of months now, looking mainly for React JS developers to help with the upcoming engine upgrade planned for beginning of December.

@@ -2,8 +2,9 @@
 layout: at-trading
 title: "All about the DAO hack"
 description: "A summary of what is going on with DAO's and ETH"
-categories: ["reports"]
-permalink: dao-hack/
+categories:    [ reports ]
+tags:          [ crypto-heists ]
+permalink:    dao-hack/
 image:
 - "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg"
 - "/img/screenshots/dao1.PNG"
@@ -12,12 +13,8 @@ image:
 - "/img/screenshots/dao-reg.PNG"
 image_alt:
 - "DAOs have a critical vulnerability that can probably be removed only by a hard fork."
-update: 2016-06-23
 
 
-about:
- name: "the dao"
- sameas: ["https://en.wikipedia.org/wiki/The_DAO_(organization)", "https://www.coindesk.com/understanding-dao-hack-journalists/"]
 
 ---
 

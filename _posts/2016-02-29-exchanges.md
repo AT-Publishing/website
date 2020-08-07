@@ -1,32 +1,23 @@
 ---
-layout:     at-trading
-title:      "Altcoin Exchanges: Where to buy altcoins in 2020?"
-guide:      yes
-promoting:  payments-services
-note:       Guide
+layout:       at-trading
+title:        "Altcoin Exchanges: Where to buy altcoins in 2020?"
+guide:        yes
+promoting:    payments-services
+note:         Guide
+categories:   [ trading-platforms ]
+tags:         [ recommended-exchange, custodial-trading ]
 
 description:  "Where to buy crypto and where to trade it? Which exchanges are liquid, which have issues and which look like exit scam? Updated 2020."
-categories:   [basics]
 permalink:    altcoin-exchanges/
 image:        ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588582376/atnet/blog_trading/levi-saunders-B7VaD0QlyZY-unsplash_ahzade.jpg"]
 image_alt:    ["Altcoin Exchanges: Where to buy altcoins?"]
-
-about:
- name: "cryptocurrency exchange"
- sameas: ["https://en.wikipedia.org/wiki/Cryptocurrency_exchange", "https://cryptocoincharts.info/markets/info"]
-mentions:
- name: "altcoin wallet"
- sameas: ["https://www.altcointrading.net/altcoin-wallets/"]
-
 date:         2020-05-04 12:38:00 +0700
 author:       https://twitter.com/tradingfanbois
 author_name:  "@tradingfanbois"
 
 related:
 - {"Independent Reserve: How To Best Leverage What They Are Great At": "/coupon-independent-reserve/"}
-- {"Altcoin wallets: Crypto storage apps in 2020": "/altcoin-wallets/"}
 - {"Strategy - Dollar Cost Averaging": "/strategy/dollar-cost-averaging/"}
-- {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
 
 ---
 

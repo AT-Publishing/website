@@ -1,29 +1,21 @@
 ---
-layout: at-trading
-published: true
+layout:       at-trading
 
-guest: false
-sponsored: false
-stories: true
+categories:   [ reports]
+tags:         [ noncustodial-trading, interview]
 
-date: 2018-09-04 10:33:00 +0700
+date:         2018-09-04 10:33:00 +0700
 
-title: "DEX Series, Episode 3: Andrew Gazdecki of Altcoin.io on the Community Approach and Future of DEX Trading"
-description: "According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition."
+title:        "Andrew Gazdecki on The Future of DEX Trading"
+description:  "According to Andrew, the best path forward for blockchain advancements is through more open collaboration and less closed competition."
 
-author: https://twitter.com/tradingfanbois
-author_name: tradingfanbois
-author_twitter: '@tradingfanbois'
-editor_name: Diana Trang
+author:           https://twitter.com/tradingfanbois
+author_name:      tradingfanbois
+author_twitter:   '@tradingfanbois'
+editor_name:      Diana Trang
 
-comments: true
-identifier: 'altcoiniosep18'
-
-genres: Blog
-tickers: false
-
-permalink: interview-andrew-gazdecki/
-cz: false
+note:         Interview
+permalink:    interview-andrew-gazdecki/
 
 image:
 - "/features/altcoin-io/altcoin-io_interface.gif"
@@ -32,24 +24,24 @@ image:
 image_alt:
 - "Andrew Gazdecki of Altcoin.io on the Community Approach and Future of Atomic Swap DEX Trading"
 
-categories: ["exchanges"]
-tags: [ "popular", "interview", "altcoin-io", "andrew-gazdecki", "atomic-swap", "altcoin-exchange", "dex", "trading-platform", "business-of-crypto"]
-chart: []
-
-series: dex
 
 related:
-- {"Altcoin.io, new DEX on atomic swaps": "/altcoinio/"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
 - {"LeverJ: Non-custodial trading with leverage": "/leverj/"}
 - {"Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry": "/traceto-interview/"}
-- {"Database of Blockchain Technology Companies at The Business Of Crypto": "/blockchain-tech-companies/"}
 
 ---
 
-Altcoin.io is a DEX project powered by Plasma that was first announced earlier in 2018 and just completed their [crowdfunding campaign through WeFunder](https://wefunder.com/altcoinio), raising [$950k USD from over 1100 investors](https://twitter.com/altcoin_io/status/1035745726104526848).
+Below you will find the original article with Andrew Gazdecki, then-CEO of Altcoin.IO exchange from 2018. The information about Altcoin.io here is now obsolete:
 
-Although the altcoin exchange is not operational yet, the platform has been open to sign-ups since its testnet launch. If you have not already, make your account at [Altcoin.io](http://www.altcoin.io?kid=KHPDT) to test the atomic swap wallet and the user interface.
+[Altcoin.IO was acquired by BnkToTheFuture in 2019](https://www.newswire.com/news/altcoin-io-acquired-by-bnktothefuture-to-launch-non-custodial-20923789).
+
+If you are looking for a reliable <b>non-custodial platform for spot trading</b>, both crypto-fiat pairs as well as crypto-crypto via swaps, <b>your 2020 platform to do that is called <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a></b>.
+
+*Original article follows.*
+
+{{ site.localcryptos_leader_purple }}
+
+Altcoin.io is a DEX project powered by Plasma that was first announced earlier in 2018 and just completed their [crowdfunding campaign through WeFunder](https://wefunder.com/altcoinio), raising $950k USD from over 1100 investors.
 
 The CEO and founder of Altcoin.io is Andrew Gazdecki kindly took the time to answer our questions about what's new at Altcoin.io and the approach that makes this DEX project distinct from other cryptoasset trading platforms out there.
 
@@ -62,7 +54,7 @@ The atomic swap wallet at `https://swap.altcoin.io`:
 _____________
 
 
-**In a recent blog post you announced the decision to [open-source your atomic swap wallet](https://blog.altcoin.io/august-update-mobile-ux-atomic-swaps-and-plasma-dex-v2-94680ff9db30). That is an unusual decision now that most blockchain tech projects are becoming protective of their assets, relying on private deals and so on. What was behind it?**
+**In a recent blog post you announced the decision to open-source your atomic swap wallet. That is an unusual decision now that most blockchain tech projects are becoming protective of their assets, relying on private deals and so on. What was behind it?**
 
 Community approach is one of the core values of Altcoin.io and there is a reason for it, so the decision to open-source the atomic swap wallet was mostly strategic.
 
@@ -102,15 +94,12 @@ First point is scalability. We first started out working with atomic swaps to ad
 
 The crypto trading community wants security but not at all costs, which is why we have completely moved away from atomic swap research and are building a Plasma-based DEX instead.
 
-* ["Why we’ve chosen a Plasma-like sidechain solution for our DEX" at blog.altcoin.io](https://blog.altcoin.io/why-weve-chosen-a-plasma-like-sidechain-solution-for-our-dex-97737ca46b86)
 
 Apart from our focus on scalability, what makes Altcoin.io different is user experience. That is an often neglected aspect in decentralized trading.
 
 Currently all decentralized exchanges suffer from unintuitive, slow, multi-step user experiences which leads to low user adoption and low daily trading volume. Especially newer traders are not going to trade on your platform if the learning curve is steep and the process of submitting an order complicated.
 
 It is already starting to show - as Diar.co reported recently, all dApps have been losing their user base at a rapid rate. I believe user experience plays a role in that.
-
-* ["Decentralized Apps Facing Half-Life After Peak" at diar.co](http://diar.co/decentralized-apps-facing-half-life-after-peak/)
 
 The goal of Altcoin.io is to be the first DEX that can truly compete with centralized exchanges and we know exactly what it takes as four of our six technical advisors are active cryptocurrency traders.
 
@@ -124,8 +113,6 @@ Crypto trading old-timers may be comfortable with scenarios like buying a crypto
 
 SendWyre is a regulated service that provides a fiat to crypto on-boarding path. They verify that you are who you say you are, mint an ERC-721 non-fungible token for you and after this one-time process you are free to start trading with compliant liquidity on a DEX.
 
-* ["Community Driven On-Chain Compliance" at blog.sendwyre.com](https://blog.sendwyre.com/community-driven-on-chain-compliance-d334e0f5962b)
-
 MakerDAO who is the creator of Dai stablecoin has [partnered with SendWyre as well](https://www.prnewswire.com/news-releases/makerdao-and-wyre-give-businesses-immediate-access-to-dai-stablecoin-in-over-thirty-countries-including-usa-300696400.html) which means we will be working with both.
 
 We are definitely not avoiding working with stablecoins, if it seemed like that. Partnering with SendWyre was just the most efficient way to open up our exchange to those who may be entering cryptocurrency for the very first time, which is huge.
@@ -135,8 +122,3 @@ We are definitely not avoiding working with stablecoins, if it seemed like that.
 Not exactly in terms of partnership opportunity but we're huge fans of [Tendermint](https://tendermint.com/about) and the [Raiden Network](https://raiden.network/).
 
 I think blockchain scalability is one of the most important issues to be working on right now. Without scalable solutions, mass user adoption will not happen no matter how good the blockchain applications get.
-
-#### More from Altcoin.io
-
-* [Video overview of the new Altcoin.io Plasma DEX](https://youtu.be/-Rk981hywow)
-* [Test the Plasma exchange at https://plasma.altcoin.io/](https://plasma.altcoin.io/)

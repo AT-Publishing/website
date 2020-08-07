@@ -1,14 +1,11 @@
 ---
 layout: at-trading
-published: true
-guest: false
 pinned: no
 canonical: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
 
-stories: true
+categories: [ cryptocurrency-wallets ]
+tags:       [ bitcoin-wallet, crypto-opsec ]
 genres: Blog
-tickers: true
-
 promoting: security
 
 
@@ -23,23 +20,13 @@ author_twitter: "_Karlvonbahnhof"
 
 editor_name: Diana Trang
 
-
-comments: true
-identifier: 'samourai012019'
-
 permalink: samourai-wallet-bitcoin-anonymity/
-cz: false
 
 image:
 - "/editorial/security.jpg"
 image_alt:
 - "Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"
 
-categories: ["basics"]
-tags: [ "crypto-trading", "bitcoin-wallet", "p2p-trading", "crypto-storage", "samourai-wallet", "businessofcrypto"]
-chart: []
-
-series: "storage"
 
 related:
 - {"[Updated 25 Jan 2019] Guide to storing IOTA - and how to migrate from Light Wallet to Trinity": "/security/iota"}

@@ -18,18 +18,9 @@ date: 2018-09-29 14:43:00 +0700
 title: "Script Spotlight: A/D Levels"
 description: "In this series we are picking and reviewing TradingView scripts for technical analysis that recently popped up in the daily popular feed."
 
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-comments: true
-identifier: 'ss2-18'
-
 genres: Blog
-tickers: false
 
 permalink: scriptspotlight-a-d-levels/
-cz: false
 
 image:
 - "/features/scriptspotlight/adl/adl1.png"
@@ -39,12 +30,9 @@ image:
 image_alt:
 - "Script Spotlight on AltcoinTrading.NET"
 
-categories: ["trading"]
-tags: ["scriptspotlight", "cryptotrading", "trading-blog"]
-chart: []
-
+categories: [ crypto-technical-analysis ]
+tags:       [ tradingview-scripts, crypto-charting ]
 series: ScriptSpotlight
-#canonical: "https://www.thebusinessofcrypto.com/articles/etheremon-kyber-network/"
 
 related:
 - {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}

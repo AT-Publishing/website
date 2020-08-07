@@ -1,18 +1,17 @@
 ---
-title: "Wyckoff Avoidance Strategy in Cryptocurrency Trading"
-description: "Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?"
-note: "Trading Strategy"
-pinned: yes
-date: 2019-10-09 05:02:00 -0300
+title:        "Wyckoff Avoidance Strategy in Cryptocurrency Trading"
+description:  "Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?"
+note:         "Trading Strategy"
+pinned:       no
+date:         2019-10-09 05:02:00 -0300
+promoting:    analysis
 
-promoting: analysis
+categories: [ crypto-value-judgement ]
+tags:       [ crypto-trading-strategy, wyckoff-trading-crypto, crypto-charting ]
 
-categories: [trading]
-tags: ['wyckoff-trading', 'crypto-technical-indicators' ,"wyckoff-method", "swing-trading", "trading-strategy"]
-
-permalink: wyckoff-avoidance/
+permalink:   wyckoff-avoidance/
 image:
-- "/features/wyckoff-avoidance-crypto.png"
+- "https://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg"
 - "/img/trading/cmc-snapshot.jpg"
 - "/img/trading/btc-rsidiv.png"
 - "/img/trading/bbands1.jpg"
@@ -27,13 +26,6 @@ about:
 mentions:
  name: "market timing"
  sameas: "https://www.altcointrading.net/strategy/timing"
-
-series: Wyckoff
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
 
 related:
 - {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}

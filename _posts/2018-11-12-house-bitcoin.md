@@ -13,12 +13,7 @@ author_name: BusinessOfCrypto
 author_twitter: '@BOC__Official'
 editor_name: Diana Trang
 
-comments: true
-identifier: 'housesnov18'
-
-stories: false
 genres: Blog
-tickers: false
 
 permalink: openlistings-houses-for-bitcoin/
 cz: false
@@ -31,15 +26,9 @@ image:
 image_alt:
 - ""
 
-categories: ["basics"]
-tags: [ "bitcoin", "business-of-crypto", "fintech", "housing"]
-chart: []
+categories: [ reports ]
+tags: [ adoption ]
 
-
-related:
-- {"In the business of entertainment, it is risky to let the player's interest wane": "/etheremon-kyber-network/"}
-- {"Blockchain technology 101": "/guides/#blockchain-tech-101"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
 
 ---
 

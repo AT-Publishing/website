@@ -1,21 +1,19 @@
 ---
-layout: at-trading
-pinned: no
-genres: "Strategy"
-published: true
+layout:     at-trading
+pinned:     no
+note:       Trading Strategy
+promoting:  analysis
 
-promoting: analysis
+categories:    [ crypto-trading-method ]
+tags:          [ crypto-trading-strategy, crypto-fundamentals ]
 
 
-date: 2017-04-13 12:24
-title: "Opinion: Time in the market vs timing the market"
-description: "They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure."
+date:         2017-04-13 12:24
+title:        "Time in the Market vs Timing the Market"
+description:  "They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure."
+guide:         true
 
-categories: [trading]
-tags: ["crypto-trading", "technical-trading", "technical-analysis", "daytrading", "trading-strategy"]
-guide: true
-
-permalink: time-vs-timing/
+permalink:      time-vs-timing/
 image:
 - "/img/editorial/likeaboss.jpg"
 - "/img/editorial/fuck.jpg"

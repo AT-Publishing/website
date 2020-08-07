@@ -1,51 +1,22 @@
 ---
-layout: at-trading
-published: true
-guest: true
+layout:       at-trading
+date:         2018-04-07 22:35:00 -0300
 
-date: 2018-04-07 22:35:00 -0300
+title:        "Twitter's 2018 Crypto Ban"
+description:  "An intro to the seemingly anti-crypto shitstorm that hit all social media at the start of April 2018."
+genres:       Blog
 
-title: "Token Marketing #1: Twitter's Crypto Ban"
-description: "An intro to the seemingly anti-crypto shitstorm that hit all social media at the start of April 2018."
-
-author: https://cryptodisrupt.com
-author_name: CryptoDisrupt
-
-comments: true
-identifier: 'twitterapr18'
-
-stories: true
-genres: Blog
-tickers: false
-
-permalink: twitter-crypto-ban-info/
-cz: false
+permalink:    twitter-crypto-ban-info/
 
 image:
 - "/editorial/unsplash2/atnet-twitter.jpg"
 image_alt:
 - "Ad bans aren’t necessarily bad  . Twitter image by Unsplash."
 
-categories: ["trading"]
-tags: [ "twitter", "twitter-crypto-ban", "cryptodisrupt", "token-launch-marketing", "business-of-crypto"]
-chart: []
-
-about:
- name: "twitter crypto ban"
- sameas: ["https://techcrunch.com/2018/03/26/twitter-moves-to-ban-crypto-ads/", "https://www.theverge.com/2018/3/26/17164426/crypto-twitter-ban-bitcoin-cryptocurrency-ads"]
-
-related:
-- {"Collection of No-ICO projects for traders": "/category/no-ico/"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
-- {"Series: Inside of Decentralized Trading Platforms": "/dex-copytrading/"}
-
-series: "token-launch-marketing"
+categories: [ reports ]
+tags:       [ adoption ]
 
 ---
-
-> This is a guest article by the lovely folks of <a target="_blank" rel="nofollow" href="http://cryptodisrupt.com">CryptoDisrupt</a>, the crypto news portal and a Youtube channel with regular live panel discussions, make sure you subscribe [right here](https://www.youtube.com/channel/UCTTuXTrGQHtGqxtJIOfjAwg). Here is their take on the Twitter crypto ads ban last week. Meanwhile, we discovered interesting things when researching the topic and will make it a series.
-
-> **Second post in series #TokenLaunchMarketing from Tuesday 10 April 2018 here: [Token Marketing #2: Agencies are more than happy about the bans](/token-marketing-agencies/)**
 
 Twitter’s ban on crypto-related ads came into effect on Tuesday April the 3rd and saw the social blogging platform follow Google and Facebook’s lead in prohibiting most crypto-related media.
 
@@ -61,7 +32,7 @@ It is reasonable since particularly for Facebook and Twitter are the top social 
 
 But this only explains a generic ban on all advertisements for ICOs. Why is Twitter still [more than happy to allow ads for public companies](https://twitter.com/nathanielpopper/status/978365437099458560) then?
 
-Twitter itself has been a publicly traded company since its IPO in 2013.   To understand the motivation behind the widespread shunning of crypto media we need to look beyond the world of ICOs.
+Twitter itself has been a publicly traded company since its IPO in 2013.  To understand the motivation behind the widespread shunning of crypto media we need to look beyond the world of ICOs.
 
   **Lack of regulation  **
 
@@ -85,7 +56,7 @@ Judging from this, one emerging possibility is that all these social media giant
 
 Genuine ICO offerings suffer from the bans against crypto ads as it closes an avenue through which they can garner interest in their products/services.
 
-However, it is unclear how and to what extent it affects them.   Cryptocurrencies have a way of selling themselves as various token communities spread hype on a variety of platforms.
+However, it is unclear how and to what extent it affects them.  Cryptocurrencies have a way of selling themselves as various token communities spread hype on a variety of platforms.
 
 Some companies [don’t even have ICOs](/category/no-ico/), relying instead on the quality of their product to generate interest and others offer their tokens for free as part of a community Airdrop.
 

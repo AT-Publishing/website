@@ -17,7 +17,8 @@ image_alt:
 image:
 - "/img/emotions/gary.png"
 
-categories: ["reports"]
+categories: [ reports ]
+tags:       [ adoption ]
 promoting: entertainment
 
 

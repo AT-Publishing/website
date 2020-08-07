@@ -30,8 +30,8 @@ image:
 image_alt:
 - "blockchain-entertainment-industry"
 
-categories: ["basics"]
-tags: [ "blockchain-technology", "business-of-crypto", "fintech", "entertainment-industry", "tokenization", "legal-disruption", "smart-contracts", "tokenomics"]
+categories: [ reports ]
+tags: [ tokens ]
 chart: []
 
 

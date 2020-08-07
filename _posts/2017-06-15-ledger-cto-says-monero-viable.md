@@ -17,10 +17,8 @@ image:
 image_alt:
 - Screen of the thread on r/ledgerwallet
 
-categories: ["reports"]
-
-update: '2017-06-15T10:45:15.570Z'
-tags: []
+categories: [ reports ]
+tags: [ adoption ]
 ---
 
 

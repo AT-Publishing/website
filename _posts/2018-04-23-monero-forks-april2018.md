@@ -30,20 +30,9 @@ image:
 image_alt:
 - "MoneroV fork is approaching quickly and in case you missed it, there were other forks earlier this month."
 
-categories: ["reports"]
-tags: [ "fundamentals", "monero-forks", "cryptocurrency-investing"]
-chart: []
+categories: [ reports ]
+tags: [ chain-split, monero ]
 
-about:
- name: "monero forks"
- sameas: ["https://monero.org/forks/"]
-
-related:
-- {"TensorCharts - Orderbook heatmaps and more": "/tensorcharts"}
-- {"Series: Inside of Decentralized Trading Platforms": "/dex-copytrading/"}
-- {"Terms of Service - Comparison of popular crypto exchanges": "/exchange-tos-comparison/"}
-
-#series: "token-launch-marketing"
 ---
 
 Gone are the times when Monero was immune to the forking trend. Upon their latest upgrade on 6 April 2018 that booted ASIC mining there have been so many forks that monero.org (not getmonero.org) set up a [special page on their website listing all of the fork events and spin-off cryptocurrencies](https://monero.org/forks/).

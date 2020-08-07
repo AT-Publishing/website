@@ -1,28 +1,16 @@
 ---
-layout: at-trading
-published: true
-
-guest: false
-sponsored: false
-stories: true
-
-promoting: entertainment
-
-
-date: 2018-09-19 13:13:00 +0700
+layout:       at-trading
+categories:   [ crypto-technical-analysis ]
+tags:         [ tradingview-scripts, crypto-charting ]
+series:       ScriptSpotlight
+pinned:       no
+promoting:    entertainment
+date:         2018-09-19 13:13:00 +0700
 
 title: "Script Spotlight: Automatic Divergences"
 description: "In this series we are picking scripts for technical analysis that recently popped up in the TradingView daily popular feed."
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-comments: false
-identifier: 'ss0918'
-
-genres: Blog
-tickers: false
+genres:       Technical Analysis
+tickers:      false
 
 permalink: scriptspotlight-auto-divergences/
 cz: false
@@ -33,15 +21,6 @@ image:
 - "/features/scriptspotlight/divergences/ppod-4h.png"
 - "/features/scriptspotlight/divergences/ppod-1w.png"
 - "/features/scriptspotlight/divergences/adaptive-rsi.png"
-image_alt:
-- "Script Spotlight: Divergence pointers"
-
-categories: ["trading"]
-tags: ["cryptotrading", "trading-blog"]
-chart: []
-
-series: ScriptSpotlight
-pinned: no
 
 related:
 - {"Technical Analysis: How to Trade Divergence (With Cheatsheet)": "/divergences/"}

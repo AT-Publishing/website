@@ -18,11 +18,10 @@ image:
 image_alt:
 - Screenshot from a closed Facebook ICO group (link at the bottom of the article)
 
-categories: ["reports"]
-
-tags: []
+categories: [ reports ]
+tags: [ crypto-market-predictions ]
 ---
-A lot has changed since [the last post on ICOs](https://www.altcointrading.net/ico-2016/) in summer 2016.
+A lot changed for initial coin offerings during the summer 2016.
 
 ### Lawmakers have noticed
 

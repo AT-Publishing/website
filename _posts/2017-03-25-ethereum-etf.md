@@ -8,7 +8,9 @@ description: The surveillance section of EtherIndex's rule change (which after t
 
 categories: ["reports"]
 
-permalink: ethereum-etf/
+categories:    [ reports ]
+tags:          [ adoptions ]
+
 image:
 - "/img/emotions/document.jpg"
 image_alt:

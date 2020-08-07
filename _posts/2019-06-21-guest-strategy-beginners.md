@@ -24,14 +24,12 @@ permalink: cryptocurrency-strategy-beginners/
 image: ["/editorial/details1.jpg"]
 image_alt: ["Cryptocurrency Strategy for Beginners"]
 
-categories: ['basics']
-tags: ["wyckoff-trading","crypto-trading", "crypto-strategy", "crypto-beginners", 'hodling', 'crypto-lending', 'masternodes', 'staking', 'business-of-crypto']
+categories: [ crypto-technical-analysis ]
+tags:       [ crypto-trading-strategy, crypto-fundamentals, ]
 
 related:
 - {"Strategy - On Lending": "/strategy/lending/"}
-- {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
-- {"Strategy - How to vet ICOs": "/strategy/how-to-vet-icos/"}
-- {"On PoW Mining as a Fundamental": "/fundamentals-mining-hashrate-vs-price/"}
+- {"Crypto 101 and Guides": "/guides/"}
 
 ---
 

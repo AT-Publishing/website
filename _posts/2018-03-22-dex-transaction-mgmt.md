@@ -1,27 +1,18 @@
 ---
-published: true
+layout:      at-trading
+categories: [ trading-platforms ]
+tags:       [ noncustodial-trading ]
+date:       2018-03-23 12:35:00 -0300
 
-layout: at-trading
-guest: false
+title:        "Evolution of Non-Custodial Trading: Order Execution Management"
+description:  "On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading."
 
-date: 2018-03-23 12:35:00 -0300
+author:           https://twitter.com/tradingfanbois
+author_name:      tradingfanbois
+author_twitter:   "@tradingfanbois"
 
-title: "DEX Series, Episode 1: Order Execution Management"
-description: "On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading."
-
-author: https://twitter.com/tradingfanbois
-author_name: tradingfanbois
-author_twitter: "@tradingfanbois"
-
-comments: true
-identifier: 'dex1march18'
-
-stories: true
-genres: Blog
-tickers: false
-
-permalink: dex-trading/
-cz: false
+genres:           Blog
+permalink:        dex-trading/
 
 image:
 - "/editorial/tagged/exchanges.png"
@@ -29,19 +20,9 @@ image:
 image_alt:
 - "On non-custodial trade execution - what has been done, what is proposed and how zero-knowldge API keys can make decentralized exchanges user-friendly. Roadmap image from Pexels."
 
-categories: ["exchanges"]
-tags: ["business-of-crypto", "leverj", "leverj-io", "altcoin-io", "0x", "ddex", "dex", "decentralized-exchange", "non-custodial-trading", "crypto-trading"]
-series: dex
-chart: []
-
-about:
- name: ""
- sameas: [""]
-
 related:
 - {"Orderbook heatmap trading": "/tensorcharts/"}
 - {"LeverJ: Non-custodial trading with leverage": "/leverj/"}
-- {"Altcoin.io, new DEX on atomic swaps": "/altcoinio/"}
 
 ---
 

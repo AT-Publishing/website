@@ -30,8 +30,8 @@ image:
 image_alt:
 - "In the business of entertainment, it is risky to let the player's interest wane in wait for transaction confirmation."
 
-categories: ["altcoins"]
-tags: ["gaming", "etheremon", "andrew-gazdecki", "atomic-swap", "kyber-network", "blockchain-game",  "business-of-crypto"]
+categories: [ reports ]
+tags: [ adoption ]
 chart: []
 
 #series: dex

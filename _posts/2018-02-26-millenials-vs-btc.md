@@ -11,32 +11,21 @@ description: "Millennials are such a big segment that they should be able to mov
 author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
 
-comments: true
-identifier: 'millenialsfeb18'
 
-stories: true
-genres: Blog
-tickers: true
-
-permalink: millennials-bitcoin-valuation/
-cz: false
+genres:       Blog
+permalink:    millennials-bitcoin-valuation/
 
 image:
 - "/editorial/tagged/rain.png"
 image_alt:
 - "Millennials are such a big segment of the market that now with them entering their best earning years Thomas Lee is bullish even on the housing market. Rain image via pexels."
 
-categories: ["reports"]
+categories: [ reports ]
+tags:       [ crypto-market-predictions, crypto-market-analysis ]
 
-tags: [ "fundstrat", "thomas-lee", "fundamentals", "market-analysis", "cryptocurrency-investing"]
-chart: []
-
-about:
- name: "thomas lee cryptocurrencies"
- sameas: ["https://www.cnbc.com/2018/01/18/fundstrats-tom-lee-is-even-more-bullish-after-crash.html"]
 ---
 
-[Thomas Lee of Fundstrat](https://twitter.com/fundstrat) had an interesting presentation at Upfront Summit 2018 that was published via [Upfront Ventures' Youtube channel](https://www.youtube.com/channel/UCNUaek2QR5g9VwdhtgvnQ5w) couple of days ago. If you are not familiar with the name, he was lead equity researcher for JP Morgan before founding Fundstrat.
+Thomas Lee of [Fundstrat](https://twitter.com/fundstrat) had an interesting presentation at Upfront Summit 2018 that was published via [Upfront Ventures' Youtube channel](https://www.youtube.com/channel/UCNUaek2QR5g9VwdhtgvnQ5w) couple of days ago. If you are not familiar with the name, he was lead equity researcher for JP Morgan before founding Fundstrat.
 
 In his Upfront Summit presentation he takes a market approach to valuing Bitcoin and other cryptocurrencies. Cryptocurrencies are presented as an asset that is mostly dismissed by legacy people but very much admired by the generation of millennials. Since millennials as a group are so clearly focused on cryptocurrencies and since there is so many of them, they should be able to move the markets just as previous generations did with stock markets, gold markets or with housing - at least the bigger of them.  
 

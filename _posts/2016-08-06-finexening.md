@@ -2,8 +2,8 @@
 layout: at-trading
 title: "The Finexening - Bitfinex hack"
 description: "Bitfinex was hacked in August 2016. Read the basic info about the hack and the best of Reddit's response on the Bitfinex hack from back then."
-categories: ["reports"]
-
+categories:    [ reports ]
+tags:          [ crypto-heists ]
 permalink: finexening/
 image:
 - "/img/bitfinex/gox.png"

@@ -1,9 +1,7 @@
 ---
-author: https://reddit.com/u/KarlVonBahnhof
-author_name: KarlVonBahnhof
-categories:
-- altcoins
-comments: false
+categories: [ crypto-value-judgement ]
+tags:       [ crypto-fundamentals ]
+
 date: 2017-07-07 01:00
 description: Proof of stake shows off the extraordinary ability of crypto news portals
   to write a 500 word article that says absolutely nothing, and the amazing regard
@@ -17,17 +15,11 @@ image:
 image_alt:
 - Even if you want to, you won't be staking before mid-2018, but Vitalik says he is
   not afraid of the switch, and that clearly means something.
+
 layout: at-trading
 permalink: pos/
-published: true
-stories: true
-tags: ['pos', 'proof of stake']
-tickers: true
 title: Economics of Proof of Stake
-update: 2017-07-13 01:00
-chart: []
-identifier:
-- pieceofshit
+
 ---
 ### The gist of PoS
 

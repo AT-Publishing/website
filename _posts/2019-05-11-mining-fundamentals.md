@@ -31,9 +31,8 @@ image:
 image_alt:
 - ""
 
-categories: ['basics']
-tags: ['crypto-technical-indicators' ,"crypto-trading", 'crypto-fundamentals', 'crypto-mining', 'hashrate', 'hashprice', 'business-of-crypto']
-chart: []
+categories: [ crypto-value-judgement ]
+tags:       [ crypto-fundamentals ]
 
 related:
 - {"Trading Strategy - On Market Reversals and Psychology": "/strategy/reversals/"}

@@ -27,16 +27,11 @@ image:
 image_alt:
 - "Houzz launched its new cryptocurrency for home remodeling - Is this a good initiative for startups like Renovaten?"
 
-categories: ["basics"]
-tags: [ "houzz", "renovaten", "next-step-living", "renoviso", "tokenization", "legal-disruption", "smart-contracts", "tokenomics", "business-of-crypto", "fintech"]
-chart: []
-
+categories: [ reports ]
+tags:       [ tokens ]
 
 related:
-- {"Blockchain technology 101": "/guides/#blockchain-tech-101"}
 - {"How blockchain disrupts the legal industry": "/how-blockchain-disrupts-legal/"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
-- {"Zilliqa Is Bootstrapping Open Source Development With Grants": "/press/zilliqa/"}
 
 ---
 

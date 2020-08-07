@@ -31,8 +31,7 @@ image_alt:
 
 categories: ["reports"]
 
-tags: ["weiss-rating", "cryptocurrencies", "bitcoin", "cryptocurrency-trading", "mainstream-finance"]
-chart: []
+tags: [ crypto-market-predictions ]
 
 about:
  name: "weiss rating"

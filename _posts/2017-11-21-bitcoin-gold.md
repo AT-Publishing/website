@@ -26,9 +26,8 @@ permalink: bitcoin-gold/
 image: ["/editorial/freelunch1.jpg"]
 image_alt: ["Free Lunch via Pexels"]
 
-categories: ["altcoins"]
-chart: []
-tags: [ "btg", "bitcoin-gold", "bitcoin", "mining", "equihash", "pow"]
+categories: [ reports ]
+tags: [  adoption ]
 
 
 about:

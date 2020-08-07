@@ -22,25 +22,25 @@
 
 
   
-  <link rel="canonical" href="https://news.altcointrading.net/dex-trading/">
+  <link rel="canonical" href="https://www.altcointrading.net/dex-trading/">
   
 
 
 <link rel="alternate" hreflang="en" href="https://www.altcointrading.net/dex-trading/">
 
-<title>DEX Series, Episode 1: Order Execution Management</title>
+<title>Evolution of Non-Custodial Trading: Order Execution Management</title>
 
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
 <meta name="description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.">
 
-<meta name="keywords" content="business-of-crypto, leverj, leverj-io, altcoin-io, 0x, ddex, dex, decentralized-exchange, non-custodial-trading, crypto-trading, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+<meta name="keywords" content="noncustodial-trading, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
 
 <meta name="author" content="https://twitter.com/tradingfanbois">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <!-- opengraph -->
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="AltcoinTrading.NET | DEX Series, Episode 1: Order Execution Management" />
+<meta property="og:title" content="AltcoinTrading.NET | Evolution of Non-Custodial Trading: Order Execution Management" />
 <meta property="og:description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading." />
 <meta property="og:url" content="https://www.altcointrading.net/dex-trading/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
@@ -55,14 +55,14 @@
 <meta property="article:published_time" content="2018-03-23T15:35:00+00:00" />
 
 <!-- post tags -->
-<meta property="article:tag" content="business-of-crypto" /><meta property="article:tag" content="leverj" /><meta property="article:tag" content="leverj-io" /><meta property="article:tag" content="altcoin-io" /><meta property="article:tag" content="0x" /><meta property="article:tag" content="ddex" /><meta property="article:tag" content="dex" /><meta property="article:tag" content="decentralized-exchange" /><meta property="article:tag" content="non-custodial-trading" /><meta property="article:tag" content="crypto-trading" />
+<meta property="article:tag" content="noncustodial-trading" />
 <!-- post categories -->
-<meta property="article:section" content="Cryptocurrency Exchanges" />
+<meta property="article:section" content="Cryptocurrency Trading" />
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@altcointrading_" />
-<meta name="twitter:title" content="AltcoinTrading.NET | DEX Series, Episode 1: Order Execution Management" />
+<meta name="twitter:title" content="AltcoinTrading.NET | Evolution of Non-Custodial Trading: Order Execution Management" />
 <meta name="twitter:description" content="On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading." />
 <meta property="twitter:image" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
 <meta property="twitter:image:secure_url" content="https://www.altcointrading.net/editorial/tagged/exchanges.png" />
@@ -93,305 +93,39 @@
 
 <script type="application/ld+json">
 {
- "@context":"http:\/\/schema.org",
- "@type":"Organization",
- "url":"https://www.altcointrading.net",
- "sameAs":[
-    "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
-    "https:\/\/twitter.com\/altcointrading_",
-    "https:\/\/medium.com\/cryptolounge",
-    "https:\/\/www.facebook.com\/Altcoin-Trading-World-Network-201445543927265/"
- ],
- "@id":"#organization",
- "name":"AltcoinTrading.NET",
- "logo":{
-    "@type":"ImageObject",
-    "url":"https://i.imgur.com/YiUXPdY.jpg",
-    "width":350,
-    "height":60
- },
- "telephone":"+595 21 620 7326",
- "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"Edificio Citicenter 4th Floor, Av. Francisco Solano Lopez 3794",
-    "addressLocality":"Asuncion",
-    "addressCountry":"PY",
-    "postalCode":"3794"
- }
-}
-</script>
-<script type="application/ld+json">
-{
-   "@context":"http:\/\/schema.org",
-   "@type":"Article",
-   "@id":"https://www.altcointrading.net/dex-trading/#article",
-   "mainEntityOfPage":"https://www.altcointrading.net/dex-trading/",
-   "publisher":{
-      "@id":"https://www.altcointrading.net/dex-trading/#organization"
-   },
-   "headline":"DEX Series, Episode 1: Order Execution Management",
-   "datePublished": "2018-03-23T15:35:00+00:00",
-   "dateModified": "2019-06-29T09:14:59+00:00",
-   "contentReferenceTime": "2019-06-29T09:14:59+00:00",
-   "author":[
-      {
-         "@type":"Person",
-         "name":"tradingfanbois"
-      }
-   ],
-   "description":"On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.",
-   "articleBody":"&lt;p&gt;Decentralized crypto exchanges look to be booming in 2018 - only by a very superficial search on Twitter there is &lt;a href=&quot;https://twitter.com/search?f=users&amp;amp;q=decentralized%20exchange&quot;&gt;more than 10 decentralized trading places found&lt;/a&gt;. For now they are mostly built on the Ethereum blockchain but NEO-based platforms and previews of EOS-based ones are starting to pop up too.&lt;/p&gt;
-
-&lt;p&gt;In this article we will be analyzing several newer platforms that are coming in 2018. While the concept of DEX has been around for some time, the trading experience &lt;a href=&quot;https://blog.altcoin.io/decentralized-exchanges-explained-and-why-we-need-them-more-than-ever-4ef9fbb9192d&quot;&gt;has its perks&lt;/a&gt;. Following up on a &lt;a href=&quot;https://youtu.be/-jenA5UumfE&quot;&gt;webinar from 16th March 2018 on by LeverJ&lt;/a&gt; we are going to talk about the novel ways of crypto trading without being overly technical.&lt;/p&gt;
-
-&lt;h2 id=&quot;non-custodial-trading--new-solutions&quot;&gt;Non-Custodial Trading &amp;amp; New Solutions&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a non-custodial exchange?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Non-custodial exchange is a trading platform that does not own the private keys of your cryptocurrency assets. The most popular crypto trading platforms are custodial - Coinbase, Bitfinex, BitMEX, OKEx and others are all custodians of the users’ assets. In order to make a trade on a custodial platform the user needs to deposit assets into a wallet owned and controlled by the platform.&lt;/p&gt;
-
-&lt;p&gt;There are pros and cons to this approach.&lt;/p&gt;
-
-&lt;p&gt;Custodial exchanges are easily manageable. The event of opening a trade is an information in a database, as far as the user doesn’t initiate a withdrawal from the exchange, the actions taken do not depend on the asset’s blockchain throughput or congestions. The trades themselves are not recorded on a blockchain either, just in the exchange’s databases. As long as the backend of the &lt;a href=&quot;/kraken-upgrade/&quot;&gt;trading platform actually works&lt;/a&gt; and the systems are &lt;a href=&quot;https://craft.co/binance/metrics#operations&quot;&gt;upgraded to reflect the traffic changes on the platform&lt;/a&gt;, trading on custodial exchanges can be very comfortable.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2018/binance-traffic.png&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2018/binance-traffic.png&quot; alt=&quot;DEX Series, Episode 1: Order Execution Management&quot; title=&quot;AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Web traffic growth on the Binance exchange in 2017. &lt;a href=&quot;https://craft.co/binance/metrics#operations&quot;&gt;Source&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The disadvantage is the black swan event which in the cryptocurrency space is apparently not something as rare as it should be. With money on the exchange, trader stands to lose his roll when the exchange gets hacked, becomes fraudulent or gets trapped in regulatory affairs. Custodial exchanges want traders to keep money with them though, interest-generating cryptocurrencies or P2P lending are examples of features that incentivize it. Exchange then might engage in arbitrage trading or other operations with customer funds to earn profit, although &lt;a href=&quot;https://qz.com/1059179/huobi-and-okcoin-chinas-two-biggest-bitcoin-btc-exchanges-were-themselves-to-150-million-in-idle-client-funds/&quot;&gt;exchanges keep refuting this argument&lt;/a&gt; and so it remains hypothetical.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-are-non-custodial-exchanges-important&quot;&gt;Why are non-custodial exchanges important?&lt;/h3&gt;
-
-&lt;p&gt;Non-custodial trading is more difficult to manage, scale and (hypothetically) to make asymmetric profit on, it is less vulnerable to both security risks and top-down regulations. As long as the trader retains the ownership of his funds, the only obvious things to regulate there are formalities - for instance a DEX might need to be officially called a trading &lt;em&gt;platform&lt;/em&gt; rather than an &lt;em&gt;exchange&lt;/em&gt; as the latter might suggest a legacy level of regulatory standard.&lt;/p&gt;
-
-&lt;p&gt;While top-down regulation might sound great to someone who is being salty over lost money in an exchange hack, ultimately the result of it is expensive AML/KYC which fails exactly the same type of person who likes to call for top-down protections. The costs of verification procedures and compliance for custodial exchanges are already overwhelming, the result is the smaller retail traders are becoming a burden; they don’t pay off.&lt;/p&gt;
-
-&lt;p&gt;For now the disadvantages of non-custodial trading remain generally centered around usability: Is it better to have on-chain trading and depend on mempool levels? Or is it better to have off-chain book and depend on smart-contracts and matching engine optimization and scalability? How to implement fiat pairs, what &lt;a href=&quot;/dai-stablecoin/&quot;&gt;stablecoin&lt;/a&gt; is the best one for the job?&lt;/p&gt;
-
-&lt;p&gt;Those are rather superficial issues that will hopefully get cleared up with growing pressure of market competition and more attention from the trading community. As long as the trading works reasonably, a DEX is a clear winner for the trader: The trading account is only determined by an address and a private key where trader sends cryptoassets, there is no identity verification, no geographical limitations, no legal requirements.&lt;/p&gt;
-
-&lt;h2 id=&quot;dex-trading-schema&quot;&gt;DEX trading schema&lt;/h2&gt;
-
-&lt;p&gt;Very generally, the process of executing a trade on a DEX consists of four steps:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Money sent to an address fully controlled by the trader where trade can be initiated from.&lt;/li&gt;
-  &lt;li&gt;Order submission: On-chain or into a contract for off-chain management.&lt;/li&gt;
-  &lt;li&gt;Order is live, waiting to be picked up: P2P, Relayers or centralized matching engine.&lt;/li&gt;
-  &lt;li&gt;Trade is settled, fees and funds are released and transfered to their owners.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;border&quot;&gt;
-&lt;amp-img itemprop=&quot;image&quot; src=&quot;/features/2018/dex-schema.png&quot; alt=&quot;DEX trading schema&quot; title=&quot;AltcoinTrading.NET - DEX trading schema&quot; layout=&quot;responsive&quot; width=&quot;690px&quot; height=&quot;715px&quot;&gt;
-&lt;/amp-img&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;on-chain-vs-off-chain-dex-trading&quot;&gt;On-chain vs Off-chain DEX Trading&lt;/h3&gt;
-
-&lt;p&gt;The two main ways of managing decentralized trading is either fully on-chain or with an off-chain order book where the trade orders are managed via smart contracts.&lt;/p&gt;
-
-&lt;h4 id=&quot;on-chain-atomic-swaps--state-channels&quot;&gt;On-Chain: Atomic Swaps &amp;amp; State Channels&lt;/h4&gt;
-
-&lt;p&gt;Currently the most hyped solution to decentralized trading on the blockchain is the way of atomic swaps. From a technical standpoint, all trader’s cryptoassets are stored on the blockchain. Only the trader has the private key, only the trader owns the assets. As soon as this solution is working reliably this will be a great way to spot trade with no counterparty risks.&lt;/p&gt;
-
-&lt;p&gt;Atomic swaps have been around for a little while and as an experiment only. From &lt;a href=&quot;https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818&quot;&gt;the altcoin.io blog&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;On 19th September 2017, Decred completed the first on-chain atomic swap between Decred and Litecoin.&lt;/li&gt;
-  &lt;li&gt;On October 7th 2017, Altcoin.io completed the first Ethereum to Bitcoin atomic swap.&lt;/li&gt;
-  &lt;li&gt;On 16th November 2017, Lightning Labs confirmed the world’s first off-chain atomic swap over the lightning network. Important milestone, swaps over Lightning network will be faster and cheaper.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On the future atomic swap exchange Altcoin.io the use hashed-time-locked-contracts (HTLCs) is going to be implemented for the execution of the swap trading - that way neither party can take the offered funds without first offering their own. Essentially, user’s funds are in his own wallet at all times but there is a smart contract to submit trade orders to the blockchain.&lt;/p&gt;
-
-&lt;p&gt;Altcoin.io proposes an atomic swap matching engine with orders on the blockchain.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In the future, using our Atomic Swap order matching engine, you will be able to trade in two ways. Either by setting your own token price, or by using a fair market value as calculated using other markets’ relative price. This lets you list niche coins that can’t be traded on other exchanges.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;One day this could be a great way to spot-trade between BTC and ETH or ETH-based tokens. However, at the current state of both the blockchains this would not be feasible. A critical feature for the success of atomic swap trading are &lt;em&gt;payment channels&lt;/em&gt; and &lt;em&gt;state channels&lt;/em&gt;, ways for different blockchains to interact one with another that are being built upon the Bitcoin’s Lightning network.&lt;/p&gt;
-
-&lt;p&gt;That means, state channels and payment channels both depend on the Lightning network development for Bitcoin blockchain and on the Raiden network for Ethereum, which is the material point here: The problem is &lt;em&gt;when&lt;/em&gt; will the atomic swap trading be production-ready. &lt;a href=&quot;/altcoinio/&quot;&gt;Altcoin.io&lt;/a&gt; initially set their release date to Q1 2018 which was clearly overly optimistic. In fact, &lt;a href=&quot;http://archive.is/nR5u3&quot;&gt;Elizabeth Stark liked a recent critics of how hyped the swaps became&lt;/a&gt;. The liked tweet said that everyone who says atomic swaps will be ready in the matter of months does not know what they are talking about.&lt;/p&gt;
-
-&lt;p&gt;In short, trading via atomic swaps is an interesting solution that will have its place but it depends on too many independent developments - mainly the &lt;a href=&quot;https://swapready.net/&quot;&gt;atomic swap readiness of other cryptocurrencies&lt;/a&gt; and the production reliability of the off-chain scaling solutions.&lt;/p&gt;
-
-&lt;p&gt;For now, it is time to look elsewhere.&lt;/p&gt;
-
-&lt;h4 id=&quot;hybrid-approaches-off-chain-matching&quot;&gt;Hybrid Approaches: Off-Chain Matching&lt;/h4&gt;
-
-&lt;p&gt;The off-chain order book that handles orders submitted directly from a wallet owned by the trader is a popular approach known from EtherDelta. With these classic older decentralized exchanges there is no solution implemented as matching engine; automatic smart contracts have been proposed for that but the solution turned out to be impractical - &lt;a href=&quot;https://www.0xproject.com/pdfs/0x_white_paper.pdf&quot;&gt;severely dependent on an artificial constraint&lt;/a&gt; called &lt;em&gt;price-adjustment model&lt;/em&gt; which can easily create large fluctuations in the market.&lt;/p&gt;
-
-&lt;p&gt;Another hybrid solution is the 0x protocol. It uses off-chain matching but done in a decentralized way by Relayers, independent actors who gain money from matching successful trades. This approach addresses some of the issues of decentralized trading but still keeps a lot of the inconveniences, more on this in a bit.&lt;/p&gt;
-
-&lt;p&gt;The only ways to date that proposed concrete and reasonable solutions aiming to make non-custodial trading powerful, fast and packed with advanced features have been introducing some degree of centralization with the emphasis on keeping the control of the assets to the trader and optimizing the functionalities critical for trading in a centralized manner. One such solution is implemented as &lt;a href=&quot;https://idex.market&quot;&gt;IDEX&lt;/a&gt;, a spot ERC20 exchange created on behalf of Aurora Labs. Another is the derivative exchange &lt;a href=&quot;/leverj/&quot;&gt;LeverJ&lt;/a&gt; which uses the off-chain matching type of model with some interesting technical innovations.&lt;/p&gt;
-
-&lt;p&gt;There is a lot of great work being done but keep in mind it’s not the end of history:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The fundamental limitation of it is the need to trust a smart contract and the token limitations - an Ethereum DEX can only trade Ethereum tokens.&lt;/li&gt;
-  &lt;li&gt;The on-the-fly limitations lie in the connection of the trade submissions, matching and order book updates - there can always be communication lags that create opportunities for exploits and mistakes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Why is EtherDelta trading so slow&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The slow trade execution on EtherDelta is caused by its &lt;a href=&quot;https://www.reddit.com/r/EtherDelta/comments/6t4w55/does_etherdelta_has_a_matching_algorithm_or_the/&quot;&gt;lack of automated matching routine&lt;/a&gt;. Trades from the order book don’t get matched by an engine, each order needs to be picked up be someone in order to complete, as explained &lt;a href=&quot;https://www.reddit.com/r/EtherDelta/comments/6hrtj9/how_to_trade_execute_a_trade_place_an_order/&quot;&gt;here in a guide on how to trade on EtherDelta&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;While that keeps EtherDelta a more decentralized ERC20 exchange it also causes the lags, pricing gaps and high costs of trading: ETH blockchain will charge the trader for that no matter whether the order will actually get filled and an order cancellation on a DEX is one more order to be recorded on the blockchain. Common practices such as adjusting or moving orders therefore become very expensive.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The 0x solution of the liquidity problem&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;0x is a protocol on top of which decentralized ETH exchanges can be built. The 0x protocol offers a solution for the order book management by introducing Relayers, off-chain actors whose job is to match orders from the two sides of the order book and who receive the trading fee. The concept of Relayers is explained in the &lt;a href=&quot;https://www.0xproject.com/pdfs/0x_white_paper.pdf&quot;&gt;0x whitepaper, page 7&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Order book in 0x itself is off-chain too, only the transaction is settled on-chain which makes the trading less costly, liquidity is also more promising as anyone can become a Relayer. The 0x setup does not require to trust the Relayers as they are only transmitting signals about possible trade partners, the traders need to complete the trade themselves.&lt;/p&gt;
-
-&lt;p&gt;Relayers earn the trading fees for their work but are exposed to the risk of one side pulling their order in the last moment. At the protocol level 0x does not have any mechanism against the abuse by submitting a mass of bogus orders to pull them later though which could potentially diminish the incentives of working as a Relayer.&lt;/p&gt;
-
-&lt;p&gt;The way cancelled transactions are dealt with in 0x is less costly than on EtherDelta - 0x batches the cancel procedure which lowers the cost somewhat. However, the cancel order still needs to be recorded on the blockchain otherwise the old trade is at risk of being executed at some point in the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The way of centralized matching - IDEX and LeverJ&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The only feasible solution that would enable smooth trading experience on par with custodial exchange houses is the idea of &lt;strong&gt;buffering the trading activity&lt;/strong&gt; so that only the &lt;strong&gt;finalized executed trades&lt;/strong&gt; get recorded on the blockchain.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://idex.market&quot;&gt;IDEX&lt;/a&gt; addresses the issues of EtherDelta and 0x by centralizing the non-critical components of the trading process. To optimize this experience, IDEX maintains ownership of broadcasting user authorized transactions to the Ethereum network:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;users unlock their account by uploading a JSON keystore file to sign orders with their private keys&lt;/li&gt;
-  &lt;li&gt;orders are processed and either cancelled or matched by a smart contract&lt;/li&gt;
-  &lt;li&gt;filled trades are added to a queue to be broadcast into the Ethereum network&lt;/li&gt;
-  &lt;li&gt;users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unfilled cancelled orders on IDEX are purged and invalidated as needed, they are not recorded on the blockchain and therefore do not cost anything.&lt;/p&gt;
-
-&lt;p&gt;Grossly discounting the technology needed to make non-custodial leveraged trading possible, &lt;a href=&quot;https://leverj.io&quot;&gt;LeverJ&lt;/a&gt; offers a similar solution to the matching problem - off-chain order book with an off-chain centralized automated matching routine.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;users link their wallets via a zero-knowledge API (more on that further down)&lt;/li&gt;
-  &lt;li&gt;orders are processed and either cancelled or matched by a centralized engine&lt;/li&gt;
-  &lt;li&gt;filled trades that passed the period of checks for abuse are added to a queue to be broadcast into the Ethereum network&lt;/li&gt;
-  &lt;li&gt;users can keep trading their balances before the settled trade mines, only withdrawal is impossible before then&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;LeverJ has one added security element - orders are matched off-chain and periodically synced to the blockchain but before they are there is a routine to check for abuse. If there is a sign of abuse the trade is not sent to the blockchain and the release of funds for withdrawal is blocked for investigation.&lt;/p&gt;
-
-&lt;p&gt;Similarly as on IDEX, on LeverJ unfilled cancelled orders are not stored to be synced to the blockchain and therefore do not cost anything.&lt;/p&gt;
-
-&lt;p&gt;This is how the general DEX trade execution path changes after the introduction of some degree of centralized management:&lt;/p&gt;
-
-&lt;figure class=&quot;border&quot;&gt;
-&lt;amp-img itemprop=&quot;image&quot; src=&quot;/features/2018/dex-buffering.png&quot; alt=&quot;DEX trading schema&quot; title=&quot;AltcoinTrading.NET - DEX trading schema&quot; layout=&quot;responsive&quot; width=&quot;749px&quot; height=&quot;749px&quot;&gt;
-&lt;/amp-img&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These half-centralized solutions seem to offer a good compromise: Because the user needs to authorize the trading activities with his private key, the platform still does not get the custody of the user’s assets. But thanks to the centralized back-office the matching engine can be optimized for speed. Trading also does not depend on blockchain congestion or attacks because the blockchain sync can be postponed as needed without it affecting the trading.&lt;/p&gt;
-
-&lt;h3 id=&quot;user-experience&quot;&gt;User Experience&lt;/h3&gt;
-
-&lt;p&gt;A common thing on decentralized trading platform is to trade with crypto tokens directly from the user’s wallet. It is most often MetaMask but there is typically the option to have MyEtherWaller or Ledger wallet too. For instance here is a &lt;a href=&quot;https://medium.com/ddex/ledger-support-setting-up-your-ledger-nano-s-on-ddex-427e7b3c9e4e&quot;&gt;guide from DDEX&lt;/a&gt; that shows how a plugged-in Ledger wallet gets automatically detected through the browser app by the DEX interface. You can trade right from your hardware wallet, or from MetaMask.&lt;/p&gt;
-
-&lt;p&gt;With MetaMask this is easy enough for ShapeShift-style exchange, I’m sure it is a bit of a burden to reach through the pizza boxes for your Ledger device to sign a transaction each time though. For more developed trading markets where there is demand for scalping or arbitrage, either solution is an obvious limitation.&lt;/p&gt;
-
-&lt;p&gt;The only decentralized outfit to this day that aims for this kind of product is LeverJ and they are developing a solution based on zero-knowledge API keys. This is currently not a vaporware, a working demo exists.&lt;/p&gt;
-
-&lt;h4 id=&quot;zero-knowledge-api-keys&quot;&gt;Zero-knowledge API keys&lt;/h4&gt;
-
-&lt;p&gt;Simplified explanation of the workflow:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;MetaMask user signs up at LeverJ. This generates a dialog where the user signs a message with his trading ETH address. This step is key to the way zero-knowledge API keys work - they are API keys containing a trail back to the particular ETH wallet.&lt;/li&gt;
-  &lt;li&gt;The signature is verified by LeverJ server. The original wallet address is extracted from the signature and a user account with the respective address is created.&lt;/li&gt;
-  &lt;li&gt;API key and secret is generated for the user in his browser, user approves it and sends the key into an ETH contract on the blockchain. The contract serves as a registry of user API keys while the API secret is never sent anywhere, it remains stored in the user’s browser local storage. The purpose of the API key is to authorize trades on behalf of the user, which is why it needs to be signed by the user’s ETH address. The API does not have permission to access the user’s funds, only to execute trades inside the platform.&lt;/li&gt;
-  &lt;li&gt;User can trade directly from his ETH wallet, actions are signed by the API secret in his browser storage. This way of signing trades via an API also makes automated bot trading possible.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The risk here is mainly human error and bad OPSEC on behalf of the user. The order submission and matching is centralized on LeverJ with a centralized way to check for fraud or abuse. This centralized abuse check should soften the impact of security problems.&lt;/p&gt;
-
-&lt;p&gt;Full webinar about the concept is embedded as a YouTube video at the bottom of the page but if you care to skip ahead to only see the meat of the webinar, here are the most important timestamps:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=2m11s&quot;&gt;intro to the problem&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=8m30s&quot;&gt;walkthrough with the UX mockups&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/-jenA5UumfE?t=31m30s&quot;&gt;demo with a dev UX&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;security-aspects-and-impact-of-a-breach&quot;&gt;Security Aspects and Impact of a Breach&lt;/h3&gt;
-
-&lt;p&gt;Both the fully on-chain and partially off-chain trading accounts on decentralized exchanges are vulnerable to phishing attacks and impostors, as was seen for instance in the EtherDelta hack: Malicious actor hijacked the exchange’s DNS and &lt;a href=&quot;https://blog.drhack.net/etherdelta-hacked-millions-stolen/&quot;&gt;created impostor website with a fake contract address&lt;/a&gt; where traders deposited their funds to never see them again.&lt;/p&gt;
-
-&lt;p&gt;This kind of attack (user by user, “skimming”) is always possible, even with trading based on atomic swaps as traders always need to initiate the trade by moving the asset they want to trade, even if it is to a wallet they control themselves.&lt;/p&gt;
-
-&lt;p&gt;A hack of a DEX should have a much softer impact on the ecosystem though because a heist of a hot wallet or cold storage with a big chunk of the total user funds on the exchange is not possible. A heist of effectively a large amount of money is possible but hard to pull off.&lt;/p&gt;
-
-&lt;p&gt;A good DEX whitepaper should include a section that goes into detail of possible attack scenarios, as seen in the &lt;a href=&quot;https://leverj.io/whitepaper.pdf&quot;&gt;LeverJ whitepaper&lt;/a&gt; starting at page 5, “Attack Vectors”. The paper explains a heist on the LeverJ protocol has two tedious parts susceptible to detection - the stolen assets first get gathered by skimming a large number of users and then they need to be released from the smart contract. For additional security the LeverJ exchange will delay every contract release so that there is enough time for the fraud detection.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;If you find this post useful, share it!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;container-center&quot;&gt;
-&lt;span class=&quot;doge-share&quot;&gt;&lt;/span&gt;
-&lt;span class=&quot;share-cta&quot;&gt;PLZ SHARE THIS POST&lt;/span&gt;
-&lt;ul class=&quot;social share&quot;&gt;
-  &lt;li&gt;
-    &lt;amp-social-share type=&quot;facebook&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;amp-social-share type=&quot;twitter&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;amp-social-share type=&quot;linkedin&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;amp-social-share type=&quot;whatsapp&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;amp-social-share type=&quot;gplus&quot; width=&quot;40&quot; height=&quot;40&quot; data-param-text=&quot;Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net&quot;&gt;&lt;/amp-social-share&gt;
-  &lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
-
-&lt;p&gt;[beginner] &lt;strong&gt;Crypto Exchanges: Custodial vs. Non-Custodial vs. Decentralized&lt;/strong&gt; / &lt;a href=&quot;https://medium.com/@jacobrobertwoods/crypto-exchanges-custodial-vs-non-custodial-vs-decentralized-3d1d04cf205&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[beginner] &lt;strong&gt;The Evolution of Atomic Swaps&lt;/strong&gt; / &lt;a href=&quot;https://blog.altcoin.io/the-evolution-of-atomic-swaps-e33ad3af8818&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[beginner] &lt;strong&gt;Altcoin.io Preview Whitepaper&lt;/strong&gt; / &lt;a href=&quot;https://www.preview.altcoin.io/lite-paper.pdf&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[intermediate] &lt;strong&gt;IDEX: A Real-Time and High-Throughput Ethereum Smart Contract Exchange&lt;/strong&gt; / &lt;a href=&quot;https://idex.market/static/IDEX-Whitepaper-V0.7.5.pdf&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[intermediate] &lt;strong&gt;An Overview of Stablecoins&lt;/strong&gt; / &lt;a href=&quot;https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/&quot;&gt;Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[advanced] &lt;strong&gt;Zero-knowledge API Keys&lt;/strong&gt; / &lt;a href=&quot;https://blog.leverj.io/zero-knowledge-api-keys-43280cc93647&quot;&gt;Article&lt;/a&gt; / &lt;a href=&quot;https://youtu.be/-jenA5UumfE&quot;&gt;Webinar&lt;/a&gt;&lt;/p&gt;
-
-&lt;amp-youtube data-videoid=&quot;-jenA5UumfE&quot; layout=&quot;responsive&quot; width=&quot;700&quot; height=&quot;360&quot;&gt;
-&lt;/amp-youtube&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-",
-   "isPartOf":{
-      "@id":"https://www.altcointrading.net/dex-trading/#webpage"
-   },
-   "image":[
-     "https://www.altcointrading.net/editorial/tagged/exchanges.png",
-     "https://www.altcointrading.net/features/2018/binance-traffic.png"
-     
-   ],
-   "about": {
-     "@type": "Thing",
-     "name": "",
-     "sameAs": [
-       ""
-       ]
-   }
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"https://www.altcointrading.net/dex-trading/"
+  },
+  "headline": "Evolution of Non-Custodial Trading: Order Execution Management",
+  "datePublished": "2018-03-23T15:35:00+00:00",
+  "dateModified": "2019-06-29T09:14:59+00:00",
+
+  "contentReferenceTime": "2019-06-29T09:14:59+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "tradingfanbois"
+  },
+  "image":[
+    "https://www.altcointrading.net/editorial/tagged/exchanges.png",
+    "https://www.altcointrading.net/features/2018/binance-traffic.png"
+    
+  ],
+  
+  
+   "publisher": {
+    "@type": "Organization",
+    "name": "AltcoinTrading.NET",
+    "logo": {
+      "@type": "ImageObject",
+      "url":"https://i.imgur.com/YiUXPdY.jpg",
+      "width":350,
+      "height":60
+    }
+  },
+  "description": "On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading."
 }
 </script>
 
@@ -2585,14 +2319,7 @@ amp-user-notification>div>div {
 
       <div class="four columns pull-left" id="performancebox">
 <p>&nbsp;</p>
-<!--
-      <amp-iframe
-          width=320 height=235px
-          layout="responsive"
-          sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-          src="https://data.altcointrading.net/compare/header.html">
-          <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-        </amp-iframe>-->
+
       </div>
 
       <div class="four columns">
@@ -2639,14 +2366,7 @@ amp-user-notification>div>div {
 
 
       <div class="four columns pull-right" id="altindexbox">
-         <!--<amp-iframe
-            width=300 height=90
-            layout="fixed"
-            sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-            src="https://data.altcointrading.net/embed/index.html">
-            <amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img>
-          </amp-iframe>
-          -->
+         
       </div>
     </div>
 
@@ -2657,18 +2377,16 @@ amp-user-notification>div>div {
     <div class="twelve columns desktop-only">
       <ul class="navi">
         
-<li><a title="AltcoinTrading.NET Security" href="/security/">OPSEC & Crypto Security</a></li>
 <li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Trading Strategy</a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides & How-To's</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
+<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
 <li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Trading Blog</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Intros & 101</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/"><span class="yellow">History of Crypto</span></a></li>
-<li><a>&middot;</a></li>
-<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/"><span class="yellow">Airdrops</span></a></li>
-<li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
+<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
+<li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/"><span class="yellow">Eternal Black Friday</span></a></li>
 
       </ul>
     </div>
@@ -2681,18 +2399,16 @@ amp-user-notification>div>div {
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
 <ul class="navi mobile-only">
   
-<li><a title="AltcoinTrading.NET Security" href="/security/">OPSEC & Crypto Security</a></li>
 <li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Trading Strategy</a></li>
+<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides & How-To's</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
+<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
 <li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Trading Blog</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Intros & 101</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/"><span class="yellow">History of Crypto</span></a></li>
-<li><a>&middot;</a></li>
-<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/"><span class="yellow">Airdrops</span></a></li>
-<li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
+<li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
+<li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/"><span class="yellow">Eternal Black Friday</span></a></li>
 
 </ul>
 </amp-sidebar>
@@ -2703,7 +2419,7 @@ amp-user-notification>div>div {
     <section class="altcointrading-blog-header">
       <div class="row">
        <div class="seven columns">
-          <h1 class="post post-main"><strong>DEX Series, Episode 1: Order Execution Management</strong> - #CryptoTrading</h1>
+          <h1 class="post post-main"><strong>Evolution of Non-Custodial Trading: Order Execution Management</strong> - #CryptoTrading</h1>
        </div>
        <div class="five columns">
          <div class="sidebar-nl container-center">
@@ -2732,10 +2448,10 @@ amp-user-notification>div>div {
                 <blockquote cite="https://www.altcointrading.net/dex-trading/">
                   On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.
                 </blockquote>
-                <div class="google-news-tag">Blog</div>&nbsp;
+                <span class="google-news-tag"></span>&nbsp;
 <span class="note">
   <time datetime="2019-06-29T09:14:59+00:00">Last Update 29 Jun 2019 at 09:14 UTC</time>&nbsp;
-  <span>&nbsp;&middot;&nbsp;[exchanges]</span>
+  <span>&nbsp;&middot;&nbsp;[trading-platforms]</span>
   <span class="guest">&nbsp;&middot;&nbsp;Author: <a rel="nofollow" target="_blank" href="https://twitter.com/tradingfanbois">tradingfanbois</a></span>
   
 </span>
@@ -2761,7 +2477,7 @@ amp-user-notification>div>div {
 
 <hr />
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/2018/binance-traffic.png" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/binance-traffic.png" alt="DEX Series, Episode 1: Order Execution Management" title="AltcoinTrading.NET - DEX Series, Episode 1: Order Execution Management" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/features/2018/binance-traffic.png" title="AltcoinTrading.NET - Evolution of Non-Custodial Trading: Order Execution Management"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/2018/binance-traffic.png" alt="Evolution of Non-Custodial Trading: Order Execution Management" title="AltcoinTrading.NET - Evolution of Non-Custodial Trading: Order Execution Management" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Web traffic growth on the Binance exchange in 2017. <a href="https://craft.co/binance/metrics#operations">Source</a></em></p>
 
@@ -2942,19 +2658,19 @@ amp-user-notification>div>div {
 <span class="share-cta">PLZ SHARE THIS POST</span>
 <ul class="social share">
   <li>
-    <amp-social-share type="facebook" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    <amp-social-share type="facebook" width="40" height="40" data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
-    <amp-social-share type="twitter" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
+    <amp-social-share type="twitter" width="40" height="40" data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
   </li>
   <li>
-    <amp-social-share type="linkedin" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    <amp-social-share type="linkedin" width="40" height="40" data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
-    <amp-social-share type="whatsapp" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    <amp-social-share type="whatsapp" width="40" height="40" data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
-    <amp-social-share type="gplus" width="40" height="40" data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    <amp-social-share type="gplus" width="40" height="40" data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
 
 </ul>
@@ -2999,22 +2715,30 @@ amp-user-notification>div>div {
                 width="720px" height="360px">
                 </amp-img>
               </figure>
-              
-<section>
+              <section>
 <div class="trading quiterelated">
   <h5>Related Posts from AltcoinTrading.NET</h5>
   <ol>
     
-    <li><a href="/tensorcharts/">Orderbook heatmap trading</a></li>
+      
+      <li><a href="/tensorcharts/">Orderbook heatmap trading</a></li>
+      
+      <li><a href="/leverj/">LeverJ: Non-custodial trading with leverage</a></li>
+      
     
-    <li><a href="/leverj/">LeverJ: Non-custodial trading with leverage</a></li>
     
-    <li><a href="/altcoinio/">Altcoin.io, new DEX on atomic swaps</a></li>
+        
+      
+      <li><a href="/dex-trading/">#NONCUSTODIAL-TRADING: Evolution of Non-Custodial Trading: Order Execution Management</a></li>
+      
+      <li><a href="/leverj/">#NONCUSTODIAL-TRADING: LeverJ Review: Non-custodial derivative trading</a></li>
+      
+        
+      
     
   </ol>
 </div>
 <section>
-
 
             </div>
             <div class="smallad" id="at-promo-smallad-post">
@@ -3130,23 +2854,23 @@ amp-user-notification>div>div {
 <ul class="social share">
   <li>
     <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="twitter" width="40" height="40"
-    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
+    data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by @tradingfanbois at altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read DEX Series, Episode 1: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Evolution of Non-Custodial Trading: Order Execution Management by tradingfanbois at https://www.altcointrading.net"></amp-social-share>
   </li>
 
 </ul>
@@ -3314,7 +3038,7 @@ amp-user-notification>div>div {
   </li>
 
   <li>
-    <a id="gtm-redditlike" title="Like DEX Series, Episode 1: Order Execution Management on Reddit" href="https://www.reddit.com/r/altcointrader" target="_blank">
+    <a id="gtm-redditlike" title="Like Evolution of Non-Custodial Trading: Order Execution Management on Reddit" href="https://www.reddit.com/r/altcointrader" target="_blank">
       <i class="fa fa-reddit-square"></i>
     </a>
   </li>

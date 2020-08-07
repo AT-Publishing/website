@@ -28,15 +28,9 @@ image:
 image_alt:
 - "Why is everyone in such a rush to create a regulated IOU stablecoin?"
 
-categories: ["basics"]
-tags: [ "tether", "bitfinex", "stablecoins", "circle", "centre", "legal-disruption", "smart-contracts", "business-of-crypto", "usdt", "usdc"]
-chart: []
+categories: [ reports ]
+tags: [ stablecoins ]
 
-
-related:
-- {"Stability of Stablecoins: Comparison": "/stability-of-stablecoins/"}
-- {"Blockchain technology 101": "/guides/#blockchain-tech-101"}
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
 
 ---
 

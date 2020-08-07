@@ -24,8 +24,8 @@ image_alt:
 note: "Trading Strategy"
 date: 2019-11-05 03:32:00 -0300
 
-categories: [trading]
-tags: ["wyckoff-trading",  "crypto-trading", "trading-method", "daytrading", "trading-strategy"]
+categories: [ crypto-trading-method ]
+tags: [ crypto-trading-strategy ]
 
 about:
  name: "daytrading"
@@ -40,9 +40,7 @@ author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
 
 related:
- - {"DCA: The Crypto Strategy for Dollar-Cost-Averaging": "/strategy/dca/"}
  - {"Fundamental Value of Cryptoassets": "/value/"}
- - {"The Wyckoff Method Long-Read": "/strategy/wyckoff/"}
 
 ---
 

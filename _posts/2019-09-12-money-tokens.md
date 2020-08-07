@@ -1,27 +1,16 @@
 ---
-layout: at-trading
-
-note: 'Trading Strategy'
-categories: ["trading"]
-tags: ["wyckoff-trading","cryptotrading", "trading-blog"]
-series: Fundamentals
-
-promoting: analysis
-
-pinned: no
-date: 2019-09-12 01:10:00 +0100
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-
-title: "Fundamental Value of Cryptoassets"
-description: "How to assess the fundamental value of alternative cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes."
-
-permalink: value/
+layout:       at-trading
+pinned:       yes
+note:         'Strategic Thinking'
+categories:   [ crypto-value-judgement ]
+tags:         [ crypto-fundamentals, crypto-trading-strategy ]
+promoting:    analysis
+date:         2019-09-12 01:10:00 +0100
+title:        "How to Compare the Fundamental Value of Cryptoassets"
+description:  "Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes."
+permalink:    value/
 image:
-- "/editorial/urban/order.jpeg"
+- "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg"
 image_alt:
 - "About Altcoin value: an altcoin-vs-altcoin chart via ShapeShift"
 

@@ -34,13 +34,8 @@ image:
 image_alt:
 - "Ever heard of footprint charts? Tensorcharts are a similar idea, you will surprised how much information you can get from a single glance at the chart."
 
-categories: ["no-ico", "trading"]
-
-tags: ["popular", "footprint-charts", "tensor-charts", "tensorcharts", "crypto-trading", "counters-ratio", "CVD", "bitmex", "scalping", "5-min-strategy-crypto", "heatmap-crypto", "altcoin-trading"]
-
-about:
- name: "tensorcharts"
- sameas: ["https://tensorcharts.com/", "https://www.youtube.com/channel/UCEEdXfhYRJQxlo8-w7qDZ1g", "https://bitcointalk.org/index.php?topic=2542026.0"]
+categories: [ crypto-technical-analysis ]
+tags: [ crypto-charting, crypto-trading-strategy, custodial-trading ]
 
 related:
  - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}

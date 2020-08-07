@@ -32,7 +32,6 @@ author_name: GenericShill
 
 related:
  - {"Cakewallet - First ever iOS wallet for Monero": "/cakewallet"}
- - {"Monero Cold Storage Drama (Update 2018)": "/monero-cold-storage/"}
 ---
 
 **Current situation with Monero wallet solutions:**

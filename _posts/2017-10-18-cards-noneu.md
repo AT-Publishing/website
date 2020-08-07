@@ -26,11 +26,8 @@ image:
 
 image_alt:
 - "For non-EU residents, the latest regulation storm seems to be a sh1tshorm. Storm image via Pexels."
-categories:
-- basics
-chart: []
-tags: [ "business-of-crypto", "bitcoin debit cards", "debit cards", "cryptopay", "bitwala", "wirex", "shakepay", "xapo", "wavecrest"]
-identifier: 'cards10182017'
+categories: [ reports ]
+tags: [  regulations ]
 ---
 
 As you probably know, most cryptocurrency debit card providers stopped by 15th October 2017 servicing customers who reside outside of the [European Territories](https://mychoicecorporate.com/visa-card-issuance-list/). These are basically the European Economic Area and a few additional places. People who live outside of these areas get either refunded, or their accounts simply get suspended -- that includes EU citizens who don't permanently reside in the EU.

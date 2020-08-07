@@ -1,10 +1,9 @@
 ---
 layout: at-trading
-published: true
-guest: true
-pinned: false
-
 promoting: security
+
+categories: [ cryptocurrency-wallets ]
+tags: [ crypto-opsec ]
 
 mentions:
  name: "crypto storage device management"
@@ -32,10 +31,6 @@ image:
 - "/editorial/altcointrading-strategy.jpeg"
 image_alt:
 - ""
-
-categories: ['basics']
-tags: ['jaxx', 'exodus', 'ledger', 'trezor', 'electrum', 'mymonero', 'business-of-crypto']
-chart: []
 
 related:
 - {"All Crypto Security Primers on AltcoinTrading.NET": "/security/"}

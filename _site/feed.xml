@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Aug 2020 08:48:13 +0000</pubDate>
-    <lastBuildDate>Wed, 05 Aug 2020 08:48:13 +0000</lastBuildDate>
+    <pubDate>Fri, 07 Aug 2020 08:50:43 +0000</pubDate>
+    <lastBuildDate>Fri, 07 Aug 2020 08:50:43 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -199,12 +199,10 @@ I hope that this article it might encourage you to learn more about cryptocurren
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ investing-in-bitcoin ]]></category>
-        <category><![CDATA[ crypto-beginners ]]></category>
-        <category><![CDATA[ crypto-mistakes ]]></category>
-        <category><![CDATA[ crypto-opsec ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ crypto-value-judgement ]]></category>
         
 
         <yandex:related>
@@ -361,9 +359,8 @@ Also, a whole another point of view comes up in the light of the current economi
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ women-in-bitcoin ]]></category>
-        <category><![CDATA[ crypto-tmarkets ]]></category>
         <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-market-predictions ]]></category>
         
         <category><![CDATA[ reports ]]></category>
         
@@ -712,8 +709,10 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
         <slash:comments>0</slash:comments>
         <language>en</language>
 
+        <category><![CDATA[ recommended-exchange ]]></category>
+        <category><![CDATA[ custodial-trading ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ trading-platforms ]]></category>
         
 
         <yandex:related>
@@ -723,7 +722,7 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Altcoin Wallets: Tried and True, 2020 Version ]]></title>
+        <title><![CDATA[ Altcoin Wallets: Tried and True, 2020 Updated ]]></title>
         <description><![CDATA[ Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets. ]]></description>
 
         <content:encoded><![CDATA[ Lets start this article about altcoin wallets right off with the obligatory reminder.
@@ -1262,14 +1261,12 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ jaxx ]]></category>
-        <category><![CDATA[ exodus ]]></category>
-        <category><![CDATA[ ledger-wallet ]]></category>
-        <category><![CDATA[ trezor ]]></category>
-        <category><![CDATA[ electrum ]]></category>
-        <category><![CDATA[ mymonero ]]></category>
+        <category><![CDATA[ multicoin-wallet ]]></category>
+        <category><![CDATA[ bitcoin-wallet ]]></category>
+        <category><![CDATA[ crypto-opsec ]]></category>
+        <category><![CDATA[ altcoin-wallet ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ cryptocurrency-wallets ]]></category>
         
 
         <yandex:related>
@@ -1400,11 +1397,10 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ corona-bitcoin ]]></category>
-        <category><![CDATA[ crypto-trading-strategy ]]></category>
         <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-market-predictions ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
         <yandex:related>
@@ -1547,25 +1543,20 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ wyckoff-trading ]]></category>
-        <category><![CDATA[ scriptspotlight ]]></category>
-        <category><![CDATA[ cryptotrading ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
-        <category><![CDATA[ bbands ]]></category>
-        <category><![CDATA[ bollinger-bands ]]></category>
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
-        <yandex:related>
         
-        </yandex:related>
 
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Products of 2019: What did crypto traders spend on? ]]></title>
-        <description><![CDATA[ Hookers and blow? Could be. It weren't bags of shitcoins though, that's certain. -- Sharing some insight from tracked links on this blog, just like last year. ]]></description>
+        <title><![CDATA[ Products of 2019: What did crypto traders most spend on? ]]></title>
+        <description><![CDATA[ Hookers and blow? Could be. It weren't bags of shitcoins though, that's for sure. -- Sharing some insight from tracked links on this blog, just like last year. ]]></description>
 
         <content:encoded><![CDATA[ 
   Products of 2019
@@ -1573,7 +1564,7 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
 
 Trading
 
-The biggest change from the 2018 stats post is probably the cool-off of BitMEX affiliate earnings.
+The biggest change from the 2018 meta post is probably the cool-off of BitMEX affiliate earnings.
 
 This comes quite as a surprise: The overall volume traded on BitMEX pretty much follows the price of Bitcoin. There were no crazy bubbles in either of the past two years, but the platform did make a decent traded volume in the summer of 2019. Could it be that gamblers with 300 USD worth of stash perhaps get convinced they are winning at life with every 5% uptick? Either way - the readers of this blog apparently did not follow.
 
@@ -1638,7 +1629,7 @@ Let’s see what 2020 brings!
 
 &lt;h3 id=&quot;trading&quot;&gt;Trading&lt;/h3&gt;
 
-&lt;p&gt;The biggest change from the &lt;a href=&quot;/stats-2018/&quot;&gt;2018 stats post&lt;/a&gt; is probably the cool-off of &lt;a href=&quot;http://bit.ly/2Muo11z&quot;&gt;BitMEX&lt;/a&gt; affiliate earnings.&lt;/p&gt;
+&lt;p&gt;The biggest change from the &lt;a href=&quot;/stats-2018/&quot;&gt;2018 meta post&lt;/a&gt; is probably the cool-off of &lt;a href=&quot;http://bit.ly/2Muo11z&quot;&gt;BitMEX&lt;/a&gt; affiliate earnings.&lt;/p&gt;
 
 &lt;p&gt;This comes quite as a surprise: The overall volume traded on BitMEX pretty much follows the price of Bitcoin. There were no crazy bubbles in either of the past two years, but the platform did make a decent traded volume in the summer of 2019. Could it be that gamblers with 300 USD worth of stash perhaps get convinced they are winning at life with every 5% uptick? Either way - the readers of this blog apparently did not follow.&lt;/p&gt;
 
@@ -1646,7 +1637,7 @@ Let’s see what 2020 brings!
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/2Muo11z&quot;&gt;Sign up at BitMEX with 10% fee discount&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders spend on?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; alt=&quot;Products of 2019: What did crypto traders spend on?&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders spend on?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; alt=&quot;Products of 2019: What did crypto traders most spend on?&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;https://coinpaprika.com/exchanges/bitmex/&lt;/small&gt;&lt;/p&gt;
 
@@ -1707,13 +1698,10 @@ Let’s see what 2020 brings!
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ tradingview ]]></category>
-        <category><![CDATA[ crypto-black-friday ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ ledger-wallet ]]></category>
-        <category><![CDATA[ cloudbet ]]></category>
+        <category><![CDATA[ spend-your-crypto ]]></category>
         
         <category><![CDATA[ reports ]]></category>
+        <category><![CDATA[ meta ]]></category>
         
 
         <yandex:related>
@@ -1954,14 +1942,10 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-technical-indicators ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ technical-trading ]]></category>
-        <category><![CDATA[ technical-analysis ]]></category>
-        <category><![CDATA[ daytrading ]]></category>
-        <category><![CDATA[ trading-strategy ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -2116,12 +2100,9 @@ If you still want to give daytrading a shot, you should pay attention to the cho
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ wyckoff-trading ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ trading-method ]]></category>
-        <category><![CDATA[ daytrading ]]></category>
-        <category><![CDATA[ trading-strategy ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
+        <category><![CDATA[ crypto-trading-method ]]></category>
         <category><![CDATA[ trading ]]></category>
         
 
@@ -2341,9 +2322,9 @@ Resources
 &lt;/ul&gt;
  ]]></turbo:content>
 
-        <author><![CDATA[ KarlVonBahnhof ]]></author>
-        <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/wyckoff-avoidance-crypto.png" medium="image" />
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg" medium="image" />
         <pubDate>Wed, 09 Oct 2019 08:02:00 +0000</pubDate>
         <link>https://www.altcointrading.net/wyckoff-avoidance/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/wyckoff-avoidance/</guid>
@@ -2351,13 +2332,11 @@ Resources
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ wyckoff-trading ]]></category>
-        <category><![CDATA[ crypto-technical-indicators ]]></category>
-        <category><![CDATA[ wyckoff-method ]]></category>
-        <category><![CDATA[ swing-trading ]]></category>
-        <category><![CDATA[ trading-strategy ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ wyckoff-trading-crypto ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-value-judgement ]]></category>
         
 
         <yandex:related>
@@ -2552,12 +2531,9 @@ Ultimately, it’s about picking the right battles and knowing the right time to
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ forex-trading ]]></category>
-        <category><![CDATA[ trading-strategy ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-value-judgement ]]></category>
         
 
         <yandex:related>
@@ -2766,15 +2742,9 @@ Where now?
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ jaxx ]]></category>
-        <category><![CDATA[ exodus ]]></category>
-        <category><![CDATA[ ledger ]]></category>
-        <category><![CDATA[ trezor ]]></category>
-        <category><![CDATA[ electrum ]]></category>
-        <category><![CDATA[ mymonero ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
+        <category><![CDATA[ crypto-opsec ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ cryptocurrency-wallets ]]></category>
         
 
         <yandex:related>
@@ -2784,8 +2754,8 @@ Where now?
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Fundamental Value of Cryptoassets ]]></title>
-        <description><![CDATA[ How to assess the fundamental value of alternative cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes. ]]></description>
+        <title><![CDATA[ How to Compare the Fundamental Value of Cryptoassets ]]></title>
+        <description><![CDATA[ Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes. ]]></description>
 
         <content:encoded><![CDATA[ The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.
 
@@ -3095,9 +3065,9 @@ BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency As
 &lt;p&gt;BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency Assessment Framework: Function over Form. Ledger, [S.l.], v. 3, july 2018. ISSN 2379-5980. Available at: &lt;a href=&quot;http://ledgerjournal.org/ojs/index.php/ledger/article/view/121&quot;&gt;http://ledgerjournal.org/ojs/index.php/ledger/article/view/121&lt;/a&gt;. Date accessed: 22 sep. 2018. doi:&lt;a href=&quot;https://doi.org/10.5195/ledger.2018.121&quot;&gt;https://doi.org/10.5195/ledger.2018.121&lt;/a&gt;.&lt;/p&gt;
  ]]></turbo:content>
 
-        <author><![CDATA[ KarlVonBahnhof ]]></author>
-        <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/urban/order.jpeg" medium="image" />
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" medium="image" />
         <pubDate>Thu, 12 Sep 2019 00:10:00 +0000</pubDate>
         <link>https://www.altcointrading.net/value/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/value/</guid>
@@ -3105,11 +3075,10 @@ BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency As
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ wyckoff-trading ]]></category>
-        <category><![CDATA[ cryptotrading ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-value-judgement ]]></category>
         
 
         <yandex:related>
@@ -3270,11 +3239,10 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ scriptspotlight ]]></category>
-        <category><![CDATA[ cryptotrading ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -3435,14 +3403,9 @@ Most people who are trading cryptocurrency are in it for the money. If done prop
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ crypto-strategy ]]></category>
-        <category><![CDATA[ crypto-beginners ]]></category>
-        <category><![CDATA[ hodling ]]></category>
-        <category><![CDATA[ crypto-lending ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
+        <category><![CDATA[ crypto-market-predictions ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
         <yandex:related>
@@ -3661,11 +3624,11 @@ Trading Divergences
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-technical-indicators ]]></category>
-        <category><![CDATA[ strategy ]]></category>
-        <category><![CDATA[ divergence-trading ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
+        <category><![CDATA[ trading-divergences ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -3804,17 +3767,10 @@ If you have mining rigs and cooling stuff left over from when small scale Bitcoi
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ wyckoff-trading ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ crypto-strategy ]]></category>
-        <category><![CDATA[ crypto-beginners ]]></category>
-        <category><![CDATA[ hodling ]]></category>
-        <category><![CDATA[ crypto-lending ]]></category>
-        <category><![CDATA[ masternodes ]]></category>
-        <category><![CDATA[ staking ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -4215,19 +4171,15 @@ In the video below his decision process consists of first looking at the cloud s
         <pubDate>Wed, 05 Jun 2019 10:14:00 +0000</pubDate>
         <link>https://www.altcointrading.net/ichimoku-cloud/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/ichimoku-cloud/</guid>
-        
+        <comments>https://www.altcointrading.net/ichimoku-cloud/#comments</comments>
+        <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-technical-indicators ]]></category>
-        <category><![CDATA[ strategy ]]></category>
-        <category><![CDATA[ ichimoku-cloud ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ josh-olszewicz ]]></category>
-        <category><![CDATA[ tradingview ]]></category>
-        <category><![CDATA[ ichimoku-cloud-crypto ]]></category>
-        <category><![CDATA[ technical-analysis ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -4344,15 +4296,9 @@ Crypto Mining - The Numbers
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-technical-indicators ]]></category>
-        <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ crypto-fundamentals ]]></category>
-        <category><![CDATA[ crypto-mining ]]></category>
-        <category><![CDATA[ hashrate ]]></category>
-        <category><![CDATA[ hashprice ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ crypto-value-judgement ]]></category>
         
 
         <yandex:related>
@@ -4413,215 +4359,9 @@ It is safe to say that the malware industry has fully integrated the use of cryp
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ tokens ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ cryptojacking ]]></category>
-        <category><![CDATA[ ico-scam ]]></category>
+        <category><![CDATA[ crypto-opsec ]]></category>
         
         <category><![CDATA[ reports ]]></category>
-        
-
-        <yandex:related>
-        
-        </yandex:related>
-
-      </item>
-    
-      <item turbo="true">
-        <title><![CDATA[ Cryptocurrency Branding 101: Naming a Cryptocurrency ]]></title>
-        <description><![CDATA[ The Perfect Name For Your Cryptocurrency Is Out There. Here’s How To Find It ]]></description>
-
-        <content:encoded><![CDATA[ This article, mainly targeting the entrepreneurs among you, is a guest post by Grant Polachek of Squadhelp. Grant is the Director of Marketing at Inc 500 company Squadhelp.com, the worlds #1 naming platform, with nearly 20,000 customers from the smallest startups across the globe to the largest corporations including Nestle, Philips, Hilton, Pepsi, and AutoNation. Get inspired by exploring these winning company name ideas.
-
-Naming your business has become a vital part of launching your cryptocurrency.
-
-The name will be the first thing that your potential user base will notice.
-
-As you know, the cryptocurrency market can be so competitive in 2019. Your name needs to set you apart from the competition, draw people in and effectively sum up your brand.
-
-The Challenge: Outline your brand
-
-Even though naming can be a challenge for many crypto entrepreneurs, it should not have to feel like you’re stepping off an edge of a cliff with a blindfold over your eyes.
-
-If you can follow the following three steps, you can organize your name ideas and get the most out of your cryptocurrency name.
-
-Step One: Mission and Vision
-
-Jot down a couple of current cryptocurrency names that you know are successful.
-
-Simple, but it will really help you when it comes to brainstorming the ideas for your own brand name.
-
-It is important to separate the process clearly: First, create a list of a few of your favorite existing brand names, only then begin to analyze them. You can get some inspiration from the directory of blockchain tech businesses on The Business Of Crypto.
-
-Go through your list of catchy crypto business names to give yourself a head start on the naming process. You should be taking notes about what you specifically enjoy about each of the business name and why it is effective for the company.
-
-Once you dissect all of your top existing business names, you will be able to reveal the direction that you want your naming process to take.
-
-
-  Make sure you take notes on what exactly it is that you like about the names you are noting.
-  Also write down if you want to capture a similar vibe to any of the names on your list.
-
-
-Look ahead.
-
-When coming up with a successful crypto brand name, you need to keep your eyes on the prize: Focus on where your business will go in the future.
-
-Consider where you see your brand at in the next five years and even in the next 10 years. Will you be in a different place than where your brand is today?
-
-If you want to create an innovative company that might grow into different areas in the future, you should be mindful when picking a name so you don’t pigeonhole yourself into a name with too narrow a scope.
-
-Try to be concise when you summarize your mission and vision in a couple of short project statements like these examples:
-
-
-  We need a name that captures our hip, special approach to tokenization.
-  We need a name that establishes us as a youthful, energetic dApp game brand.
-  We need a name that hints at our environmentally conscious business practices.
-
-
-Why not get started by writing out a few project statements for your own startup based on your own values and beliefs.
-
-Step Two: Get Creative
-
-Gather some prospective names.
-
-Brainstorm crypto business name ideas and write down a few potential examples based on every type of name that’s on the list you made in the first step.
-
-This can be a really helpful step in the process to give you a good idea of what you’re looking for.
-
-At this stage, go for the bulk: The more names you come up with, the better. This is how the idea of what name you want can start to crystallize.
-
-Narrow your list.
-
-Now that you have created a list of name candidates with a variety of ideas, you can start crossing off the names that don’t fit the vibe of your startup.
-
-Keep crossing off names until you have only a few left and let it sit for a bit.
-
-Discussing the short list with your team, an advisor and anyone else with a fresh insight will help you decide on the one brand name to go for.
-
-Step Three: Check your Boxes
-
-Before you set on a brand name for good, assess your risk with trademark validation.
-
-Trademark validation for your cryptocurrency name is a useful way to ensure that your name is secure.
-
-Running a trademark risk will give you the peace of mind that the name isn’t already in use by another project. If your name is too similar to another cryptocurrency, you may actually be in trouble in terms of trademark law - and the space is indeed getting crowded.
-
-Make sure that you are proactive about protecting your name. If you evaluate your trademark risk before you lock in the name, you will be able to prevent any potential complicated legal issues.
-
-Conclusion
-
-Coming up with a strong brand name can feel like a daunting task for many entrepreneurs, not only in the blockchain business.
-
-So much of your company’s success rests upon the name that you choose.
-
-Your brand’s name should be the sum of your cryptocurrency’s identity, and it should serve as a point of connection between you and your audience.
-
-Even if you feel like all the best names are already taken, don’t worry, the perfect name for your cryptocurrency is out there waiting for you to find it.
- ]]></content:encoded>
-
-        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;This article, mainly targeting the entrepreneurs among you, is a guest post by Grant Polachek of Squadhelp. Grant is the Director of Marketing at Inc 500 company Squadhelp.com, the worlds #1 naming platform, with nearly 20,000 customers from the smallest startups across the globe to the largest corporations including Nestle, Philips, Hilton, Pepsi, and AutoNation. Get inspired by exploring these winning company name ideas.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.squadhelp.com/blog/how-to-come-up-with-business-name/&quot;&gt;Naming your business&lt;/a&gt; has become a vital part of launching your cryptocurrency.&lt;/p&gt;
-
-&lt;p&gt;The name will be the first thing that your potential user base will notice.&lt;/p&gt;
-
-&lt;p&gt;As you know, the cryptocurrency market can be so competitive in 2019. Your name needs to set you apart from the competition, draw people in and effectively sum up your brand.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-challenge-outline-your-brand&quot;&gt;The Challenge: Outline your brand&lt;/h3&gt;
-
-&lt;p&gt;Even though naming can be a challenge for many crypto entrepreneurs, it should not have to feel like you’re stepping off an edge of a cliff with a blindfold over your eyes.&lt;/p&gt;
-
-&lt;p&gt;If you can follow the following &lt;strong&gt;three steps&lt;/strong&gt;, you can organize your name ideas and get the most out of your cryptocurrency name.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-one-mission-and-vision&quot;&gt;Step One: Mission and Vision&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Jot down a couple of current cryptocurrency names that you know are successful.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple, but it will really help you when it comes to brainstorming the ideas for your own brand name.&lt;/p&gt;
-
-&lt;p&gt;It is important to separate the process clearly: First, create a list of a few of your favorite existing brand names, only then begin to analyze them. You can get some inspiration from the &lt;a href=&quot;https://www.thebusinessofcrypto.com/company/&quot;&gt;directory of blockchain tech businesses&lt;/a&gt; on The Business Of Crypto.&lt;/p&gt;
-
-&lt;p&gt;Go through your list of catchy crypto business names to give yourself a head start on the naming process. You should be taking notes about what you specifically enjoy about each of the business name and why it is effective for the company.&lt;/p&gt;
-
-&lt;p&gt;Once you dissect all of your top existing business names, you will be able to reveal the direction that you want your naming process to take.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Make sure you take notes on what exactly it is that you like about the names you are noting.&lt;/li&gt;
-  &lt;li&gt;Also write down if you want to capture a similar vibe to any of the names on your list.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Look ahead.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;When coming up with a successful crypto brand name, you need to keep your eyes on the prize: &lt;strong&gt;Focus on where your business will go in the future.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Consider where you see your brand at in the next five years and even in the next 10 years. Will you be in a different place than where your brand is today?&lt;/p&gt;
-
-&lt;p&gt;If you want to create an innovative company that might grow into different areas in the future, you should be mindful when picking a name so you don’t pigeonhole yourself into a name with too narrow a scope.&lt;/p&gt;
-
-&lt;p&gt;Try to be concise when you summarize your mission and vision in a couple of short project statements like these examples:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We need a name that captures our hip, special approach to tokenization.&lt;/li&gt;
-  &lt;li&gt;We need a name that establishes us as a youthful, energetic dApp game brand.&lt;/li&gt;
-  &lt;li&gt;We need a name that hints at our environmentally conscious business practices.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Why not get started by writing out a few project statements for your own startup based on your own values and beliefs.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-two-get-creative&quot;&gt;Step Two: Get Creative&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Gather some prospective names.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Brainstorm crypto business name ideas and write down a few potential examples based on every type of name that’s on the list you made in the first step.&lt;/p&gt;
-
-&lt;p&gt;This can be a really helpful step in the process to give you a good idea of what you’re looking for.&lt;/p&gt;
-
-&lt;p&gt;At this stage, go for the bulk: The more names you come up with, the better. This is how the idea of what name you want can start to crystallize.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Narrow your list.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that you have created a list of name candidates with a variety of ideas, you can start crossing off the names that &lt;strong&gt;don’t fit the vibe&lt;/strong&gt; of your startup.&lt;/p&gt;
-
-&lt;p&gt;Keep crossing off names until you have only a few left and let it sit for a bit.&lt;/p&gt;
-
-&lt;p&gt;Discussing the short list with your team, an advisor and anyone else with a fresh insight will help you decide on the one brand name to go for.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-three-check-your-boxes&quot;&gt;Step Three: Check your Boxes&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Before you set on a brand name for good, assess your risk with trademark validation.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.entrepreneur.com/article/276455&quot;&gt;Trademark validation&lt;/a&gt; for your cryptocurrency name is a useful way to ensure that your name is secure.&lt;/p&gt;
-
-&lt;p&gt;Running a trademark risk will give you the peace of mind that the name isn’t already in use by another project. If your name is too similar to another cryptocurrency, you may actually be in trouble in terms of trademark law - and the space is indeed getting crowded.&lt;/p&gt;
-
-&lt;p&gt;Make sure that you are proactive about protecting your name. If you evaluate your trademark risk before you lock in the name, you will be able to prevent any potential complicated legal issues.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Coming up with a strong brand name can feel like a daunting task for many entrepreneurs, not only in the blockchain business.&lt;/p&gt;
-
-&lt;p&gt;So much of your company’s success rests upon the name that you choose.&lt;/p&gt;
-
-&lt;p&gt;Your brand’s name should be the sum of your cryptocurrency’s identity, and it should serve as a &lt;strong&gt;point of connection&lt;/strong&gt; between you and your audience.&lt;/p&gt;
-
-&lt;p&gt;Even if you feel like all the best names are already taken, don’t worry, the perfect name for your cryptocurrency is out there waiting for you to find it.&lt;/p&gt;
- ]]></turbo:content>
-
-        <author><![CDATA[ Grant Polachek / SquadHelp ]]></author>
-        <dc:creator><![CDATA[ Grant Polachek / SquadHelp ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/naming-crypto.png" medium="image" />
-        <pubDate>Sun, 17 Feb 2019 10:31:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/naming-cryptocurrency/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/naming-cryptocurrency/</guid>
-        <comments>https://www.altcointrading.net/naming-cryptocurrency/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ tokens ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ branding ]]></category>
-        
-        <category><![CDATA[ coins ]]></category>
         
 
         <yandex:related>
@@ -4744,14 +4484,10 @@ As for smartphones, the app is currently only available for Android. If you are 
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading ]]></category>
         <category><![CDATA[ bitcoin-wallet ]]></category>
-        <category><![CDATA[ p2p-trading ]]></category>
-        <category><![CDATA[ crypto-storage ]]></category>
-        <category><![CDATA[ samourai-wallet ]]></category>
-        <category><![CDATA[ businessofcrypto ]]></category>
+        <category><![CDATA[ crypto-opsec ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ cryptocurrency-wallets ]]></category>
         
 
         <yandex:related>
@@ -4761,32 +4497,38 @@ As for smartphones, the app is currently only available for Android. If you are 
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Michael Foster of LocalEthereum: Venezuela could be start of something bigger ]]></title>
+        <title><![CDATA[ Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement ]]></title>
         <description><![CDATA[ Chat about the business of P2P trading, challenges of crypto OTC and how a poor country can matter for the future of crypto. ]]></description>
 
-        <content:encoded><![CDATA[ Just in case you didn’t figure it out, LocalEthereum is a peer-to-peer marketplace for Ethereum.
+        <content:encoded><![CDATA[ Note: Interview was edited after LocalCryptos rebranded into LocalCryptos.
 
-Unlike LocalBitcoins and most other OTC markets LocalEthereum is a dApp running on smart contract escrow and built-in encryption of all communication between the peers who are about to make a trade.
 
-Also still unlike most popular cryptocurrency trading platforms, LocalEthereum is fully non-custodial. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.
 
-They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalEthereum plans to implement self-sovereign KYC as a way for traders to verify each other’s identity without trusting LocalEthereum with any personal information.
 
-LocalEthereum did all that with no ICO, no VC money and not even what would most people call a team: Just two co-founders coding and responding to customer support tickets.
+Just in case you didn’t figure it out, LocalCryptos is a peer-to-peer marketplace for Ethereum.
+
+Unlike LocalBitcoins and most other OTC markets LocalCryptos is a dApp running on smart contract escrow and built-in encryption of all communication between the peers who are about to make a trade.
+
+Also still unlike most popular cryptocurrency trading platforms, LocalCryptos is fully non-custodial. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.
+
+They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalCryptos plans to implement self-sovereign KYC as a way for traders to verify each other’s identity without trusting LocalCryptos with any personal information.
+
+LocalCryptos did all that with no ICO, no VC money and not even what would most people call a team: Just two co-founders coding and responding to customer support tickets.
 
 We sat down with Michael Foster, one of the dApp’s co-founders, to chat about Ethereum P2P trading in the past year, challenges of the business and his opinions on blockchain and state.
 
-If you don’t have an account on LocalEthereum, make one here.
 
 
 
 
 
-“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (LocalEthereum Blog)
+
+
+“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (LocalCryptos Blog)
 
 
 
-According to the stats from dAppRadar, daily active users on LocalEthereum have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.
+According to the stats from dAppRadar, daily active users on LocalCryptos have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.
 
 It looks very optimistic for a year of bear market, was it the result of a targeted marketing strategy?
 
@@ -4812,13 +4554,13 @@ I think this proactive approach encouraged word of mouth a lot.
 
 People often underestimate how much a small team can achieve, even without overwhelming funding. But still, you launched in October 2017 right into the peak of the cryptocurrency bubble. How did you handle the first months after launch?
 
-There was a lot that couldn’t be predicted. The market was a roller coaster as usual, and LocalEthereum’s volume generally follows the overall market.
+There was a lot that couldn’t be predicted. The market was a roller coaster as usual, and LocalCryptos’s volume generally follows the overall market.
 
 In the early months of 2018, we had a huge influx of signups from a mainstream audience. Our platform had only just launched then, and we weren’t ready for the overwhelming demand.
 
 We spent hours each day brainstorming ways to simplify the user interface, and to rephrase our user guides so that laymen would understand them.
 
-At the time, LocalEthereum was only two people.
+At the time, LocalCryptos was only two people.
 
 Customer support itself became just too much to handle. At the height of the 2018 boom, I would routinely wake up to one-hundred-plus new support tickets.
 
@@ -4838,7 +4580,7 @@ Many people argue the notorious interest in cryptocurrencies in Venezuela doesn�
 
 I don’t think the interest in crypto from Venezuela doesn’t matter. I think it could be the start of something bigger.
 
-Seeing the growing number of LocalEthereum users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.
+Seeing the growing number of LocalCryptos users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.
 
 Freedom is necessary for societies to progress - that’s a fact that many leaders sadly don’t understand, particularly in countries like Venezuela, Argentina, Iran and Cuba.
 
@@ -4848,7 +4590,7 @@ That’s not an exaggeration, in my opinion the flip is totally possible.
 
 I’m excited about cryptocurrency lifting oppressed people out of depressed economies. If I can help by providing tools people use to prosper without the state, even better.
 
-On LocalEthereum we’ve done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I’ve been learning Spanish as well, but I’m not very good.
+On LocalCryptos we’ve done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I’ve been learning Spanish as well, but I’m not very good.
 
 If the flip to blockchain-based economy were to happen, peer-to-peer marketplaces would probably play an important role in it - this type of activity can initiate changes in the bottom-up direction.
 
@@ -4856,7 +4598,7 @@ Quite in general, what do you think are the biggest bottlenecks for people who a
 
 The biggest obstacle to P2P trading is getting your head around the whole process, especially if you’re coming from exchange trading.
 
-One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalEthereum is a non-custodial marketplace.
+One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalCryptos is a non-custodial marketplace.
 
 Second thing is trading without order books. Trading exchanges have bids and asks lined up in centralized order books and matched automatically with a matching algorithm.
 On a P2P platform, users need to manually choose a person to trade with. That concept is very new and strange to some people.
@@ -4893,7 +4635,7 @@ As a trader, you can minimize the impact of this by limiting the trade size for 
 
 In general, if you are a P2P trader, these risks should be reflected in your pricing rather than regulated by the platform.
 
-One last question: What is in store for LocalEthereum in 2019?
+One last question: What is in store for LocalCryptos in 2019?
 
 One thing you can expect in 2019 is changes to the user-interface, and even the homepage will have a makeover.
 
@@ -4901,32 +4643,38 @@ We want to make P2P trading simple for everyone, whether you are learning about 
 
 We have some more announcements coming in the first months of 2019. Unfortunately I can’t announce some things yet; it’s too early and I don’t want to spoil a good surprise.
 
-Take a look around at localethereum.com.
+More on LocalCryptos.com.
  ]]></content:encoded>
 
-        <turbo:content><![CDATA[ &lt;p&gt;Just in case you didn’t figure it out, LocalEthereum is a &lt;strong&gt;peer-to-peer marketplace for Ethereum&lt;/strong&gt;.&lt;/p&gt;
+        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;Note: Interview was edited after LocalCryptos rebranded into LocalCryptos.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Unlike LocalBitcoins and most other OTC markets LocalEthereum is a &lt;strong&gt;dApp running on smart contract escrow and built-in encryption&lt;/strong&gt; of all communication between the peers who are about to make a trade.&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;&lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://localcryptos.com/r/bocmask&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Localcryptos non-custodial p2p market&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1596605386/atnet/_banner/localcryptos-dark-728x90_s4yqz9.jpg&quot; layout=&quot;responsive&quot; data-original-width=&quot;728px&quot; data-original-height=&quot;90px&quot; width=&quot;728px&quot; height=&quot;90px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Also still unlike most popular cryptocurrency trading platforms, LocalEthereum is &lt;strong&gt;fully non-custodial&lt;/strong&gt;. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.&lt;/p&gt;
+&lt;p&gt;Just in case you didn’t figure it out, LocalCryptos is a &lt;strong&gt;peer-to-peer marketplace for Ethereum&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalEthereum plans to implement &lt;strong&gt;self-sovereign KYC&lt;/strong&gt; as a way for traders to verify each other’s identity without trusting LocalEthereum with any personal information.&lt;/p&gt;
+&lt;p&gt;Unlike LocalBitcoins and most other OTC markets LocalCryptos is a &lt;strong&gt;dApp running on smart contract escrow and built-in encryption&lt;/strong&gt; of all communication between the peers who are about to make a trade.&lt;/p&gt;
 
-&lt;p&gt;LocalEthereum did all that with &lt;strong&gt;no ICO&lt;/strong&gt;, &lt;strong&gt;no VC money&lt;/strong&gt; and not even what would most people call a team: Just &lt;strong&gt;two co-founders&lt;/strong&gt; coding and responding to customer support tickets.&lt;/p&gt;
+&lt;p&gt;Also still unlike most popular cryptocurrency trading platforms, LocalCryptos is &lt;strong&gt;fully non-custodial&lt;/strong&gt;. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.&lt;/p&gt;
+
+&lt;p&gt;They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalCryptos plans to implement &lt;strong&gt;self-sovereign KYC&lt;/strong&gt; as a way for traders to verify each other’s identity without trusting LocalCryptos with any personal information.&lt;/p&gt;
+
+&lt;p&gt;LocalCryptos did all that with &lt;strong&gt;no ICO&lt;/strong&gt;, &lt;strong&gt;no VC money&lt;/strong&gt; and not even what would most people call a team: Just &lt;strong&gt;two co-founders&lt;/strong&gt; coding and responding to customer support tickets.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;We sat down with Michael Foster, one of the dApp’s co-founders, to chat about Ethereum P2P trading in the past year, challenges of the business and his opinions on blockchain and state.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you don’t have an account on LocalEthereum, make one &lt;a href=&quot;http://bit.ly/local-meth&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;text-center&quot;&gt;&lt;a class=&quot;index-internal&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://localcryptos.com/r/bocmask&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1584501676/atnet/_banner/localcryptos_banner_i0tzak.jpg&quot; alt=&quot;LocalCryptos p2p trading btc eth&quot; data-original-width=&quot;3072px&quot; data-original-height=&quot;1920px&quot; width=&quot;700px&quot; height=&quot;446px&quot; layout=&quot;responsive&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/localethereum-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/localethereum-office.jpg&quot; alt=&quot;Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalEthereum: Venezuela could be start of something bigger&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/LocalCryptos-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/LocalCryptos-office.jpg&quot; alt=&quot;Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (&lt;a href=&quot;https://blog.localethereum.com/reflecting-on-2018-and-building-a-colossal-2019/&quot;&gt;LocalEthereum Blog&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (&lt;a href=&quot;https://blog.LocalCryptos.com/reflecting-on-2018-and-building-a-colossal-2019/&quot;&gt;LocalCryptos Blog&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;According to the &lt;a href=&quot;https://dappradar.com/app/148/localethereum&quot;&gt;stats from dAppRadar&lt;/a&gt;, daily active users on LocalEthereum have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;According to the stats from dAppRadar, daily active users on LocalCryptos have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;It looks very optimistic for a year of bear market, was it the result of a targeted marketing strategy?&lt;/strong&gt;&lt;/p&gt;
 
@@ -4952,13 +4700,13 @@ Take a look around at localethereum.com.
 
 &lt;p&gt;&lt;strong&gt;People often underestimate how much a small team can achieve, even without overwhelming funding. But still, you launched in October 2017 right into the peak of the cryptocurrency bubble. How did you handle the first months after launch?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;There was a lot that couldn’t be predicted. The market was a roller coaster as usual, and LocalEthereum’s volume generally follows the overall market.&lt;/p&gt;
+&lt;p&gt;There was a lot that couldn’t be predicted. The market was a roller coaster as usual, and LocalCryptos’s volume generally follows the overall market.&lt;/p&gt;
 
 &lt;p&gt;In the early months of 2018, we had a huge influx of signups from a mainstream audience. Our platform had only just launched then, and we weren’t ready for the overwhelming demand.&lt;/p&gt;
 
 &lt;p&gt;We spent hours each day brainstorming ways to simplify the user interface, and to rephrase our user guides so that laymen would understand them.&lt;/p&gt;
 
-&lt;p&gt;At the time, LocalEthereum was only two people.&lt;/p&gt;
+&lt;p&gt;At the time, LocalCryptos was only two people.&lt;/p&gt;
 
 &lt;p&gt;Customer support itself became just too much to handle. At the height of the 2018 boom, I would routinely wake up to one-hundred-plus new support tickets.&lt;/p&gt;
 
@@ -4978,7 +4726,7 @@ Take a look around at localethereum.com.
 
 &lt;p&gt;I don’t think the interest in crypto from Venezuela doesn’t matter. I think it could be the start of something bigger.&lt;/p&gt;
 
-&lt;p&gt;Seeing the growing number of LocalEthereum users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.&lt;/p&gt;
+&lt;p&gt;Seeing the growing number of LocalCryptos users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.&lt;/p&gt;
 
 &lt;p&gt;Freedom is necessary for societies to progress - that’s a fact that many leaders sadly don’t understand, particularly in countries like Venezuela, Argentina, Iran and Cuba.&lt;/p&gt;
 
@@ -4988,7 +4736,7 @@ Take a look around at localethereum.com.
 
 &lt;p&gt;I’m excited about cryptocurrency lifting oppressed people out of depressed economies. If I can help by providing tools people use to prosper without the state, even better.&lt;/p&gt;
 
-&lt;p&gt;On LocalEthereum we’ve done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I’ve been learning Spanish as well, but I’m not very good.&lt;/p&gt;
+&lt;p&gt;On LocalCryptos we’ve done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I’ve been learning Spanish as well, but I’m not very good.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;If the flip to blockchain-based economy were to happen, peer-to-peer marketplaces would probably play an important role in it - this type of activity can initiate changes in the bottom-up direction.&lt;/strong&gt;&lt;/p&gt;
 
@@ -4996,7 +4744,7 @@ Take a look around at localethereum.com.
 
 &lt;p&gt;The biggest obstacle to P2P trading is getting your head around the whole process, especially if you’re coming from exchange trading.&lt;/p&gt;
 
-&lt;p&gt;One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalEthereum is a non-custodial marketplace.&lt;/p&gt;
+&lt;p&gt;One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalCryptos is a non-custodial marketplace.&lt;/p&gt;
 
 &lt;p&gt;Second thing is trading without order books. Trading exchanges have bids and asks lined up in centralized order books and matched automatically with a matching algorithm.
 On a P2P platform, users need to manually choose a person to trade with. That concept is very new and strange to some people.&lt;/p&gt;
@@ -5033,7 +4781,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;In general, if you are a P2P trader, these risks should be reflected in your pricing rather than regulated by the platform.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;One last question: What is in store for LocalEthereum in 2019?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One last question: What is in store for LocalCryptos in 2019?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;One thing you can expect in 2019 is changes to the user-interface, and even the homepage will have a makeover.&lt;/p&gt;
 
@@ -5041,27 +4789,22 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
 &lt;p&gt;We have some more announcements coming in the first months of 2019. Unfortunately I can’t announce some things yet; it’s too early and I don’t want to spoil a good surprise.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Take a look around at &lt;a href=&quot;http://bit.ly/local-meth&quot;&gt;localethereum.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;More on &lt;a rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://localcryptos.com/r/bocmask&quot;&gt;LocalCryptos.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
  ]]></turbo:content>
 
-        <author><![CDATA[ tradingfanbois ]]></author>
-        <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
         <media:content url="https://www.altcointrading.net/editorial/p2p-marketplace.jpeg" medium="image" />
         <pubDate>Tue, 08 Jan 2019 14:54:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/localethereum-venezuela-crypto/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/localethereum-venezuela-crypto/</guid>
-        <comments>https://www.altcointrading.net/localethereum-venezuela-crypto/#comments</comments>
+        <link>https://www.altcointrading.net/localcryptos-interview/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/localcryptos-interview/</guid>
+        <comments>https://www.altcointrading.net/localcryptos-interview/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ otc-trading ]]></category>
-        <category><![CDATA[ p2p-trading ]]></category>
-        <category><![CDATA[ crypto-otc ]]></category>
-        <category><![CDATA[ localethereum ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ noncustodial-trading ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ trading-platforms ]]></category>
         
 
         <yandex:related>
@@ -5220,17 +4963,13 @@ Doesn’t look like very dead to me, folks.
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading ]]></category>
-        <category><![CDATA[ crypto-economy ]]></category>
-        <category><![CDATA[ crypto-for-payments ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ spend-your-crypto ]]></category>
         
         <category><![CDATA[ reports ]]></category>
+        <category><![CDATA[ meta ]]></category>
         
 
-        <yandex:related>
         
-        </yandex:related>
 
       </item>
     
@@ -5370,16 +5109,9 @@ But as history has proven, at the end of the day innovation is inevitable in bus
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ blockchain-technology ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ fintech ]]></category>
-        <category><![CDATA[ entertainment-industry ]]></category>
-        <category><![CDATA[ tokenization ]]></category>
-        <category><![CDATA[ legal-disruption ]]></category>
-        <category><![CDATA[ smart-contracts ]]></category>
-        <category><![CDATA[ tokenomics ]]></category>
+        <category><![CDATA[ tokens ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
         <yandex:related>
@@ -5502,17 +5234,12 @@ These particular properties have been sold already but feel free to browse aroun
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ bitcoin ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ fintech ]]></category>
-        <category><![CDATA[ housing ]]></category>
+        <category><![CDATA[ adoption ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
-        <yandex:related>
         
-        </yandex:related>
 
       </item>
     
@@ -5592,23 +5319,12 @@ It cannot be said convincingly whether Tether is solvent or not but given the cu
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ tether ]]></category>
-        <category><![CDATA[ bitfinex ]]></category>
         <category><![CDATA[ stablecoins ]]></category>
-        <category><![CDATA[ circle ]]></category>
-        <category><![CDATA[ centre ]]></category>
-        <category><![CDATA[ legal-disruption ]]></category>
-        <category><![CDATA[ smart-contracts ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ usdt ]]></category>
-        <category><![CDATA[ usdc ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
-        <yandex:related>
         
-        </yandex:related>
 
       </item>
     
@@ -5700,18 +5416,9 @@ So, what do you think about this innovative method in the home improvement indus
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ houzz ]]></category>
-        <category><![CDATA[ renovaten ]]></category>
-        <category><![CDATA[ next-step-living ]]></category>
-        <category><![CDATA[ renoviso ]]></category>
-        <category><![CDATA[ tokenization ]]></category>
-        <category><![CDATA[ legal-disruption ]]></category>
-        <category><![CDATA[ smart-contracts ]]></category>
-        <category><![CDATA[ tokenomics ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ fintech ]]></category>
+        <category><![CDATA[ tokens ]]></category>
         
-        <category><![CDATA[ basics ]]></category>
+        <category><![CDATA[ reports ]]></category>
         
 
         <yandex:related>
@@ -5878,8 +5585,8 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 &lt;p&gt;Nonetheless, I am surprised the indicator actually provides quite a good information once you play with it for a few minutes.&lt;/p&gt;
  ]]></turbo:content>
 
-        <author><![CDATA[ KarlVonBahnhof ]]></author>
-        <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
         <media:content url="https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png" medium="image" />
         <pubDate>Sat, 29 Sep 2018 07:43:00 +0000</pubDate>
         <link>https://www.altcointrading.net/scriptspotlight-a-d-levels/</link>
@@ -5888,11 +5595,10 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ scriptspotlight ]]></category>
-        <category><![CDATA[ cryptotrading ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>
@@ -6091,12 +5797,182 @@ If the Bakkt hype is to be taken seriously though, no flight to decentralization
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ bakkt ]]></category>
-        <category><![CDATA[ business-of-crypto ]]></category>
-        <category><![CDATA[ cryptotrading ]]></category>
-        <category><![CDATA[ trading-blog ]]></category>
+        <category><![CDATA[ adoption ]]></category>
+        <category><![CDATA[ regulations ]]></category>
         
-        <category><![CDATA[ trading ]]></category>
+        <category><![CDATA[ reports ]]></category>
+        
+
+        
+
+      </item>
+    
+      <item turbo="true">
+        <title><![CDATA[ Script Spotlight: Automatic Divergences ]]></title>
+        <description><![CDATA[ In this series we are picking scripts for technical analysis that recently popped up in the TradingView daily popular feed. ]]></description>
+
+        <content:encoded><![CDATA[ If you don’t have a TradingView account yet, make one here for free. If you care for high leveraged trading, you’re probably looking for BitMEX as well, keep your cool though.
+
+PPO Divergence Alerts (PPOD)
+
+Full script
+
+PPOD is a script that plots labels under or above candles where a divergence on PPO occurred.
+
+PPO or Price Oscillator is a technical indicator very similar to MACD. It is calculated the same way as MACD but it presents the final value as a percentage.
+
+
+  
+    MACD takes the difference in values between those two Moving Averages and an EMA of those Moving Averages, then plots that difference between the two lines as a histogram.
+  
+  
+    PPO does the same but it then calculates a percentage. This makes value comparisons simpler over longer durations of time.
+  
+
+
+The PPOD script is this PPO Divergence script only re-styled so that it will plot labels instead of a line indicator below the chart. It can be rewritten for use with other oscillators.
+
+Parameters: (lookback period to look for divergences, PPO fast line, PPO slow line, PPO signal line, PPO smoothing)
+
+Does it work?
+
+
+
+This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: (55,12,26,9,2).
+
+Here the strongest signals are the red and pink labels that signify a bearish and bullish divergence on that timeframe. The red and green arrows show where the PPO was overbought and oversold - it is an oscillator which means you can use similar patterns as you would with MACD or RSI.
+
+We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.
+
+
+
+On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.
+
+If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:
+
+
+
+In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.
+
+Now specifically to shorter timeframes - If the volatility is high, there will always be divergences. They show the price is overshooting, nothing else. The only actionable information to take from that is “maybe I should become a market maker”, I think. It means nothing for trades that are meant to last longer than a couple of minutes.
+
+Divergences are not useless for scalpers and daytraders though. One good strategy is to start the day looking at 4H to see what will most likely be the dominant direction of the session. Some days it is better to primarily focus on quick longs, some days on quick shorts.
+
+In the most basic way you could simply plot an MA to see whether the price is above or below it. Divergences can be used in a similar way for confirmation.
+
+Removing the Lines Is NOT An Advantage
+
+There is one problem I have with line indicators reduced to simple alerts though: You do not get to see whether your indicator settings are not complete rubbish.
+
+Say, you are a scalper and want to use PPO Divergence alerts on 5M chart. You will load the chart, find that the default settings don’t fit and you will start tweaking them.
+
+Maybe you will find that settings with very low smoothing and big difference between the fast and slow lines work best, and you decide to go with that. The alert script keeps printing the alerts just the same but you don’t know there is more noise than signal unless you plot the actual underlying line indicator with your settings.
+
+Plotting a single symbol works much better with events that do not have development. You can do it nicely with “rektlines”: Find singular events that will trigger most of the bots - something like an MA cross, an Ichimoku TK cross, MACD cross. Calculate 10% and 5% level against the position of the bot and you have a level where the bot positions on 10x and 20x leverage will get liquidated.
+
+In this kind of case plotting a single symbol is completely fine but I would not use PPO Divergence alerts only without also using the line indicator.
+
+Better Alternative: The Adaptive RSI Divergences
+
+Full script
+
+
+
+I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.
+
+You can use the PPOD but I prefer this Adaptive Divergences script which plots the actual div lines.
+
+Also, this particular script is an implementation of John Ehlers’ Adaptive RSI. The length value is not specified by user, it adopts according to the price development. The script looks for price cycles and bases the length values on them which gives less false signals. Do try this one.
+ ]]></content:encoded>
+
+        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;make one here for free&lt;/a&gt;. If you care for high leveraged trading, you’re probably looking for &lt;a href=&quot;http://bit.ly/melancholic-100x&quot;&gt;BitMEX&lt;/a&gt; as well, keep your cool though.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ppo-divergence-alerts-ppod&quot;&gt;PPO Divergence Alerts (PPOD)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/CFMteznK-PPO-Divergence-Alerts-2-0/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PPOD is a script that plots labels under or above candles where a divergence on PPO occurred.&lt;/p&gt;
+
+&lt;p&gt;PPO or Price Oscillator is a technical indicator very similar to MACD. It is calculated the same way as MACD but it presents the final value as a percentage.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;MACD takes the difference in values between those two Moving Averages and an EMA of those Moving Averages, then plots that difference between the two lines as a histogram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PPO does the same but it then calculates a percentage. This makes value comparisons simpler over longer durations of time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The PPOD script is &lt;a href=&quot;https://www.tradingview.com/script/p3oqCa56-Pekipek-s-PPO-Divergence-BETA/&quot;&gt;this PPO Divergence script&lt;/a&gt; only re-styled so that it will plot labels instead of a line indicator below the chart. It can be rewritten for use with other oscillators.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: (lookback period to look for divergences, PPO fast line, PPO slow line, PPO signal line, PPO smoothing)&lt;/p&gt;
+
+&lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: &lt;strong&gt;(55,12,26,9,2)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here the strongest signals are the red and pink labels that signify a bearish and bullish divergence on that timeframe. The red and green arrows show where the PPO was overbought and oversold - it is an oscillator which means you can use similar patterns as you would with MACD or RSI.&lt;/p&gt;
+
+&lt;p&gt;We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.&lt;/p&gt;
+
+&lt;p&gt;If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.&lt;/p&gt;
+
+&lt;p&gt;Now specifically to shorter timeframes - If the volatility is high, there will always be divergences. They show the price is overshooting, nothing else. The only actionable information to take from that is “maybe I should become a market maker”, I think. It means nothing for trades that are meant to last longer than a couple of minutes.&lt;/p&gt;
+
+&lt;p&gt;Divergences are not useless for scalpers and daytraders though. One good strategy is to start the day looking at 4H to see what will most likely be the dominant direction of the session. Some days it is better to primarily focus on quick longs, some days on quick shorts.&lt;/p&gt;
+
+&lt;p&gt;In the most basic way you could simply plot an MA to see whether the price is above or below it. Divergences can be used in a similar way for confirmation.&lt;/p&gt;
+
+&lt;h4 id=&quot;removing-the-lines-is-not-an-advantage&quot;&gt;Removing the Lines Is NOT An Advantage&lt;/h4&gt;
+
+&lt;p&gt;There is one problem I have with line indicators reduced to simple alerts though: You do not get to see whether your indicator settings are not complete rubbish.&lt;/p&gt;
+
+&lt;p&gt;Say, you are a scalper and want to use PPO Divergence alerts on 5M chart. You will load the chart, find that the default settings don’t fit and you will start tweaking them.&lt;/p&gt;
+
+&lt;p&gt;Maybe you will find that settings with very low smoothing and big difference between the fast and slow lines work best, and you decide to go with that. The alert script keeps printing the alerts just the same but you don’t know there is more noise than signal unless you plot the actual underlying line indicator with your settings.&lt;/p&gt;
+
+&lt;p&gt;Plotting a single symbol works much better with events that do not have development. You can do it nicely with “rektlines”: Find singular events that will trigger most of the bots - something like an MA cross, an Ichimoku TK cross, MACD cross. Calculate 10% and 5% level against the position of the bot and you have a level where the bot positions on 10x and 20x leverage will get liquidated.&lt;/p&gt;
+
+&lt;p&gt;In this kind of case plotting a single symbol is completely fine but I would not use PPO Divergence alerts only without also using the line indicator.&lt;/p&gt;
+
+&lt;h3 id=&quot;better-alternative-the-adaptive-rsi-divergences&quot;&gt;Better Alternative: The Adaptive RSI Divergences&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/SvPOv1cc/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.&lt;/p&gt;
+
+&lt;p&gt;You can use the PPOD but I prefer this Adaptive Divergences script which plots the actual div lines.&lt;/p&gt;
+
+&lt;p&gt;Also, this particular script is an implementation of John Ehlers’ Adaptive RSI. The length value is not specified by user, it adopts according to the price development. The script looks for price cycles and bases the length values on them which gives less false signals. Do try this one.&lt;/p&gt;
+ ]]></turbo:content>
+
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <pubDate>Wed, 19 Sep 2018 06:13:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/scriptspotlight-auto-divergences/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-auto-divergences/</guid>
+        <comments>https://www.altcointrading.net/scriptspotlight-auto-divergences/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
+        
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
         
 
         <yandex:related>

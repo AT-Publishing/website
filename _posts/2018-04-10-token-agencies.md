@@ -1,26 +1,11 @@
 ---
-layout: at-trading
-published: true
-guest: false
+layout:       at-trading
+date:         2018-04-10 06:15:00 -0400
 
-date: 2018-04-10 06:15:00 -0400
-
-title: "Token Marketing #2: Agencies are more than happy about the bans"
-description: "It only looks like big digital business turned anti-crypto. "
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-comments: true
-identifier: 'tokens2april18'
-
-stories: true
-genres: Blog
-tickers: false
-
-permalink: token-marketing-agencies/
-cz: false
+title:        "How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"
+description:  "Goodbye crypto bootstrappers, it's strictly big business only now."
+genre:         Blog
+permalink:    token-marketing-agencies/
 
 image:
 - "/editorial/tagged/goodbye.png"
@@ -32,22 +17,12 @@ image:
 image_alt:
 - "Goodbye crypto bootstrappers, it's strictly big business only now. "
 
-categories: ["news"]
-tags: [ "business-of-crypto", "fundamentals", "market-analysis", "cryptocurrency-investing"]
-chart: []
+categories: [ reports ]
+tags:       [ adoption ]
 
-about:
- name: "token marketing"
- sameas: ["https://chiefmartec.com/2017/11/crypto-marketing-marketers-create-crypto-token-value/"]
-
-related:
-- {"Tagged as #BusinessOfCrypto": "/tag/businessofcrypto/"}
-- {"Series: Inside of Decentralized Trading Platforms": "/dex-copytrading/"}
-- {"Terms of Service - Comparison of popular crypto exchanges": "/exchange-tos-comparison/"}
-
-series: "token-launch-marketing"
 ---
 
+It only *looked* like big digital business turned against crypto in 2018.
 
 #### Tokenized Crypto-Economy
 

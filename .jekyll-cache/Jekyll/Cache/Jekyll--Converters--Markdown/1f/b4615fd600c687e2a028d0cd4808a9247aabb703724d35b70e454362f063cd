@@ -1,0 +1,49 @@
+I"�<p><a href="https://leverj.io/">LeverJ</a> is a leveraged cryptocurrency derivatives trading platform.</p>
+
+<p>The project is developed by people who were behind <a href="https://www.coinpit.io/">Coinpit</a>, a fully trustless crypto futures exchange.</p>
+
+<p>LeverJ does not fit into the <a href="/category/no-ico/">no-ICO projects collection</a> as it completed an ICO in November 2017 and a short public awareness airdrop at the break of November and December 2017. The total amount of <a href="https://blog.leverj.io/the-numbers-are-in-768668f00979">$LEV tokens sold publicly and privately was almost 156MM LEV</a>.</p>
+
+<p>The way tokens are incorporated into the LeverJ ERC20 DApp mechanism are the LEV token being a share in the LeverJ network, reflecting its monetary value, and if staked it produces FEE tokens that are used to pay for trades at LeverJ.</p>
+
+<p>The LEV token trades on OKEx since <a href="https://blog.leverj.io/lev-token-listed-for-trading-on-worldclass-crypto-exchange-okex-20e1b695edf5">late January 2018</a> and the value of the token sale at the time of publishing is over 16MM USD. However, the tokens were sold in the ratio of 1 ETH to 3000 LEV meaning that at the current fiat rates of ETH and LEV the ICO investors are being at a loss.</p>
+
+<p>The LeverJ team holds a percentage of the tokens, big part of which will be used to provide liquidity and support the platform operations.</p>
+
+<p>Some of the people behind the LeverJ project are known old-timers from crypto voice chats and Slack groups - the CEO Bharath Rao, the community manager Alex Ward, the advisor Swapman. It is always good to see new products created directly by people from the community.</p>
+
+<p>Now for the product. What is LeverJ aiming for?</p>
+
+<h4 id="hybrid-of-centralized-and-decentralized-exchange">Hybrid of centralized and decentralized exchange</h4>
+
+<p>Decentralized exchanges are not a new thing, there are several of them (EtherDelta for one). But as the team behind <a href="/altcoinio">altcoin.io already pointed out</a>, decentralized exchanges work but only in a slow and tedious way. Pulling off a more complex trading strategy is difficult when the platform doesn’t really work when you need it to work.</p>
+
+<p>While <a href="/altcoinio">altcoin.io is working on a spot solution</a> utilizing the atomic swaps, some degree of centralized control would make the operation more efficient as well. As a matter of fact, both altcoin.io and LeverJ decentralize the trading itself but around the app there is a team of people (market makers? economists? certainly engineers, designers and support staff).</p>
+
+<p>This kind of solution is very plausible even in the light of the recent <a href="https://www.sec.gov/news/public-statement/enforcement-tm-statement-potentially-unlawful-online-platforms-trading">crypto trading regulatory news</a> as the key point for both spot and leveraged trading is the storage of customer funds - cryptocurrency trading platforms must be <strong>non-custodial</strong>.</p>
+
+<p>LeverJ implements this for derivative trading on the Ethereum blockchain with smart contract that settles on-chain between the participants of each trade. The orderbook and matching engine are centralized and off-chain. This way the order processing speed <strong>will not depend on momentarily blockchain congestions</strong>. The only thing that will depend on that is the withdrawal of the funds from the order contract. That, again, can be done only by the owner of the cryptocurrency. The exchange does not have access to customer funds.</p>
+
+<p><a href="https://leverj.io/" class="button">LeverJ Home</a> 
+<a href="https://leverj.io/#cp-tl" class="button">The Roadmap</a> 
+<a href="https://leverj.io/whitepaper.pdf" class="button">Read the Whitepaper</a> </p>
+
+<h4 id="addressing-attacks">Addressing attacks</h4>
+
+<p>Unlike with traditional exchanges such as Bitfinex and BitMEX, in the non-custodial model a simple heist is not possible because there is no hot wallet or cold storage to drain. From the whitepaper:</p>
+
+<blockquote>
+  <p>For heists to be possible, the possibility for one person to control all coins in custody must be possible. Segregated accounts that only enable the depositor to withdraw only their own balance eliminate this possibility, since the attacker would now need the keys of most users of the platform.</p>
+</blockquote>
+
+<p>The only possibility of a heist is user-by-user: there could be a malicious user on the exchange and depending on the exact solution of interacting with the exchange, there could also be poor OPSEC on the part of a regular user. Several variants of the user-by-user attacks (skimming) are explored in the <a href="https://leverj.io/whitepaper.pdf">whitepaper</a>.</p>
+
+<h4 id="recent-news-on-leverj">Recent news on LeverJ.</h4>
+
+<ul>
+  <li>In March 2018 LeverJ announced <a href="https://blog.leverj.io/announcing-market-making-partnership-with-smart-contract-japan-9b26b21a3866">partnership with market maker Smart Contract Japan</a></li>
+  <li>LeverJ is <a href="https://angel.co/leverj/jobs/">hiring on angel list</a></li>
+</ul>
+
+<p>Our <a href="https://news.altcointrading.net/regulations-decentralized-exchanges/">News section features LeverJ in the light of recent regulatory news</a> from the SEC and Japan.</p>
+:ET

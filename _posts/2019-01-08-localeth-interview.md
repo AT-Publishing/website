@@ -1,81 +1,57 @@
 ---
-layout: at-trading
-published: true
-guest: false
-pinned: no
-promoting: exchanges
+layout:       at-trading
+promoting:    exchanges
+genres:       Blog
 
-stories: true
-genres: Blog
-tickers: false
+date:         2019-01-08 21:54:00 +0700
 
-date: 2019-01-08 21:54:00 +0700
-
-title: "Michael Foster of LocalEthereum: Venezuela could be start of something bigger"
-description: "Chat about the business of P2P trading, challenges of crypto OTC and how a poor country can matter for the future of crypto."
-
-author: https://twitter.com/tradingfanbois
-author_name: tradingfanbois
-author_twitter: '@tradingfanbois'
-
-editor_name: Diana Trang
-
-
-comments: true
-identifier: 'localmeth012019'
-
-permalink: localethereum-venezuela-crypto/
-cz: false
-
+title:        "Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement"
+description:  "Chat about the business of P2P trading, challenges of crypto OTC and how a poor country can matter for the future of crypto."
+editor_name:  Diana Trang
+permalink: localcryptos-interview/
 image:
 - "/editorial/p2p-marketplace.jpeg"
-- "/features/localethereum-office.jpg"
+- "/features/LocalCryptos-office.jpg"
 image_alt:
 - ""
 
-categories: ["trading"]
-tags: [ "crypto-trading", "otc-trading", "p2p-trading", "crypto-otc", "localethereum", "trading-blog"]
-chart: []
+categories: [ trading-platforms ]
+tags: [ noncustodial-trading ]
 
 
 related:
 - {"Trading Strategy: Market Reversals and Psychology": "/strategy/reversals/"}
-- {"Follow the money: Who's banking on IOU stablecoins?": "/iou-stablecoins-potential/"}
 - {"Script Spotlight: Detrended Price Oscillator (DPO)": "/detrended-price-oscillator/"}
-- {"Interview with the CEO of Traceto.io, self-sovereign KYC provider": "/traceto-interview/"}
-
-
-about:
- name: "LocalEthereum"
- sameas: ["https://localethereum.com", "https://dappradar.com/app/148/localethereum"]
-
 
 ---
 
-Just in case you didn't figure it out, LocalEthereum is a **peer-to-peer marketplace for Ethereum**.
+*Note: Interview was edited after LocalCryptos rebranded into LocalCryptos.*
 
-Unlike LocalBitcoins and most other OTC markets LocalEthereum is a **dApp running on smart contract escrow and built-in encryption** of all communication between the peers who are about to make a trade.
+{{ site.localcryptos_leader_dark }}
 
-Also still unlike most popular cryptocurrency trading platforms, LocalEthereum is **fully non-custodial**. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.
+Just in case you didn't figure it out, LocalCryptos is a **peer-to-peer marketplace for Ethereum**.
 
-They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalEthereum plans to implement **self-sovereign KYC** as a way for traders to verify each other's identity without trusting LocalEthereum with any personal information.
+Unlike LocalBitcoins and most other OTC markets LocalCryptos is a **dApp running on smart contract escrow and built-in encryption** of all communication between the peers who are about to make a trade.
 
-LocalEthereum did all that with **no ICO**, **no VC money** and not even what would most people call a team: Just **two co-founders** coding and responding to customer support tickets.
+Also still unlike most popular cryptocurrency trading platforms, LocalCryptos is **fully non-custodial**. You get your own private key upon sign-up, there is no hot wallet to get hacked and no personal communication to leak. Proof of keys, proof of cash.
+
+They are the technically most superior retail OTC platform we currently have in crypto but they are definitely not slumbering: For 2019 LocalCryptos plans to implement **self-sovereign KYC** as a way for traders to verify each other's identity without trusting LocalCryptos with any personal information.
+
+LocalCryptos did all that with **no ICO**, **no VC money** and not even what would most people call a team: Just **two co-founders** coding and responding to customer support tickets.
 
 **We sat down with Michael Foster, one of the dApp's co-founders, to chat about Ethereum P2P trading in the past year, challenges of the business and his opinions on blockchain and state.**
 
-*If you don't have an account on LocalEthereum, make one [here](http://bit.ly/local-meth).*
-
+{{ site.localcryptos_banner }}
 
 ****
 
 {% amp700 noborder {{page.image[1]}} {{page.image_alt[0]}} %}
 
-*"The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful." ([LocalEthereum Blog](https://blog.localethereum.com/reflecting-on-2018-and-building-a-colossal-2019/))*
+*"The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful." ([LocalCryptos Blog](https://blog.LocalCryptos.com/reflecting-on-2018-and-building-a-colossal-2019/))*
 
 ****
 
-**According to the [stats from dAppRadar](https://dappradar.com/app/148/localethereum), daily active users on LocalEthereum have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.**
+**According to the stats from dAppRadar, daily active users on LocalCryptos have been falling through 2018 but the daily traded volumes have been steadily increasing. That means the trade has been growing, even though the number of participants has decreased.**
 
 **It looks very optimistic for a year of bear market, was it the result of a targeted marketing strategy?**
 
@@ -101,13 +77,13 @@ I think this proactive approach encouraged word of mouth a lot.
 
 **People often underestimate how much a small team can achieve, even without overwhelming funding. But still, you launched in October 2017 right into the peak of the cryptocurrency bubble. How did you handle the first months after launch?**
 
-There was a lot that couldn't be predicted. The market was a roller coaster as usual, and LocalEthereum's volume generally follows the overall market.
+There was a lot that couldn't be predicted. The market was a roller coaster as usual, and LocalCryptos's volume generally follows the overall market.
 
 In the early months of 2018, we had a huge influx of signups from a mainstream audience. Our platform had only just launched then, and we weren't ready for the overwhelming demand.
 
 We spent hours each day brainstorming ways to simplify the user interface, and to rephrase our user guides so that laymen would understand them.
 
-At the time, LocalEthereum was only two people.
+At the time, LocalCryptos was only two people.
 
 Customer support itself became just too much to handle. At the height of the 2018 boom, I would routinely wake up to one-hundred-plus new support tickets.
 
@@ -127,7 +103,7 @@ If you asked me in 2017, I wouldn't have guessed that Venezuela would be our num
 
 I don’t think the interest in crypto from Venezuela doesn’t matter. I think it could be the start of something bigger.
 
-Seeing the growing number of LocalEthereum users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.
+Seeing the growing number of LocalCryptos users from there brought me back to why I found interest in Bitcoin in 2010: Cryptocurrency has the potential to rapidly accelerate economic freedom.
 
 Freedom is necessary for societies to progress - that's a fact that many leaders sadly don't understand, particularly in countries like Venezuela, Argentina, Iran and Cuba.
 
@@ -137,7 +113,7 @@ That’s not an exaggeration, in my opinion the flip is totally possible.
 
 I'm excited about cryptocurrency lifting oppressed people out of depressed economies. If I can help by providing tools people use to prosper without the state, even better.
 
-On LocalEthereum we've done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I've been learning Spanish as well, but I'm not very good.
+On LocalCryptos we've done a lot to accommodate the demand from Latin America. The website is now available in Spanish, we opened a new Spanish telegram group, and we hired community staff in Venezuela. I've been learning Spanish as well, but I'm not very good.
 
 **If the flip to blockchain-based economy were to happen, peer-to-peer marketplaces would probably play an important role in it - this type of activity can initiate changes in the bottom-up direction.**
 
@@ -145,7 +121,7 @@ On LocalEthereum we've done a lot to accommodate the demand from Latin America. 
 
 The biggest obstacle to P2P trading is getting your head around the whole process, especially if you're coming from exchange trading.
 
-One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalEthereum is a non-custodial marketplace.
+One thing is your personal security and responsibility for your cryptocurrency holdings. Centralized exchanges hold your crypto for you at all times, but LocalCryptos is a non-custodial marketplace.
 
 Second thing is trading without order books. Trading exchanges have bids and asks lined up in centralized order books and matched automatically with a matching algorithm.
 On a P2P platform, users need to manually choose a person to trade with. That concept is very new and strange to some people.
@@ -182,7 +158,7 @@ As a trader, you can minimize the impact of this by limiting the trade size for 
 
 In general, if you are a P2P trader, these risks should be reflected in your pricing rather than regulated by the platform.
 
-**One last question: What is in store for LocalEthereum in 2019?**
+**One last question: What is in store for LocalCryptos in 2019?**
 
 One thing you can expect in 2019 is changes to the user-interface, and even the homepage will have a makeover.
 
@@ -190,4 +166,4 @@ We want to make P2P trading simple for everyone, whether you are learning about 
 
 We have some more announcements coming in the first months of 2019. Unfortunately I can't announce some things yet; it's too early and I don't want to spoil a good surprise.
 
-*Take a look around at [localethereum.com](http://bit.ly/local-meth).*
+<em>More on <a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask">LocalCryptos.com</a>.</em>

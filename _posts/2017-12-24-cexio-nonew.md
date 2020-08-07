@@ -28,9 +28,8 @@ permalink: cex-io-registrations/
 image: ["/features/cexio-registration.png"]
 image_alt: ["The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform."]
 
-categories: ["exchanges"]
-chart: []
-tags: [ "cex-io", "cex-io-signup", "cryptocurrency-exchange", "exchange-issues"]
+categories: [ reports ]
+tags:  [ adoption ]
 ---
 
 The crypto exchange CEX.IO is following suit and doing what <a class="intern" href="/bitfinex-referrals-stopped">Bitfinex is attempting to do</a>: temporarily staying away from taking new users in as their exchange engine and support staff is overloaded.

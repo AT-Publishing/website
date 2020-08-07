@@ -7,7 +7,9 @@ sponsored:  false
 stories:    false
 guide:      false
 
-series: ScriptSpotlight
+series:       ScriptSpotlight
+categories:   [ crypto-technical-analysis ]
+tags:         [ tradingview-scripts, crypto-trading-strategy, crypto-charting ]
 
 mentions:
  name: "technical analysis"
@@ -35,15 +37,6 @@ image:
 image_alt:
 - "Script Spotlight on AltcoinTrading.NET"
 
-categories: ["trading"]
-tags: ["wyckoff-trading", "scriptspotlight", "cryptotrading", "trading-blog", "bbands", "bollinger-bands"]
-chart: []
-
-related:
-- {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}
-- {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
-- {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
-- {"Technical Analysis in Cryptocurrency Trading: Does it actually work?": "/technical-analysis/"}
 
 ---
 

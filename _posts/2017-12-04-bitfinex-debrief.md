@@ -27,11 +27,8 @@ permalink: bitfinex-tether-transparency/
 
 image: ["/editorial/coffee2.jpg"]
 image_alt: ["Careful, it's a long session of British English. Coffee image from Pexels."]
-
-categories: ["reports"]
-
-chart: []
-tags: [  "Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+categories: [ reports ]
+tags:  [ crypto-heists ]
 
 about:
  name: "bitfinex"

@@ -28,8 +28,8 @@ image:
 image_alt:
 - "MakerDAO image from Google."
 
-categories: ["altcoins", "altcoins", "exchanges"]
-tags: [ "dai", "usdt", "tether","cryptocurrencies", "maker-dao", "cryptocurrency-trading"]
+categories: [ reports ]
+tags: [ stablecoins ]
 chart: []
 
 about:

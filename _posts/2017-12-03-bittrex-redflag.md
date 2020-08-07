@@ -27,9 +27,8 @@ permalink: red-flag-bittrex/
 image: ["/editorial/joke.jpg", "/features/redflag/bittrex-dec2017.png"]
 image_alt: ["Bittrex demands the r/bittrex to be shut down. Joke image from Pexels."]
 
-categories: ["exchanges"]
-chart: []
-tags: ["Chrisj", "whalepool", "bittrex", "trading", "altcoins", "cryptocurrency", "trading", "crypto-exchange"]
+categories: [ reports ]
+tags:  [ regulations ]
 ---
 
 On Friday Dec 1 2017, Bittrex representative [u/jyap](https://reddit.com/u/jyap) reached out to the admins of the `r/bittrex` subreddit and demanded it to be closed down and set to private. The subreddit is an inofficial one, maintained by people who are not affiliated with Bittrex. The subreddit exists as a place for Bittrex customers who have to deal with the exchange's unresponsive customer support.

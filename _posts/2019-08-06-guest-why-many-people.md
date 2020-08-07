@@ -30,14 +30,12 @@ image:
 - "/features/crypto-trading-stats.png"
 image_alt: ["Crypto Trading Statistics"]
 
-categories: ['basics']
-tags: ["crypto-trading", "crypto-strategy", "crypto-beginners", 'hodling', 'crypto-lending', 'business-of-crypto']
+categories: [ reports ]
+tags: [ crypto-market-predictions ]
 
 related:
 - {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}
-- {"Strategy - On Lending": "/strategy/lending/"}
 - {"Strategy - Market Reversals and Human Psychology": "/strategy/reversals/"}
-- {"On PoW Mining as a Fundamental": "/fundamentals-mining-hashrate-vs-price/"}
 
 ---
 

@@ -1,12 +1,10 @@
 ---
 layout: at-trading
-published: true
-guest: false
 
 date: 2018-05-29 14:48:00 -0400
 
-title: "The Stability of Stablecoins"
-description: "Isn't it just NuBits all over again? The utility of stablecoins at the current stage of crypto might be misunderstood."
+title: "The Stability of Stablecoins: NuBits all over again? "
+description: "The utility of stablecoins on the cryptocurrency market might be misunderstood."
 
 hook: "Isn't it just NuBits all over again? The utility of stablecoins at the current stage of crypto might be misunderstood."
 
@@ -14,8 +12,6 @@ author: https://reddit.com/u/karlvonbahnhof
 author_name: KarlVonBahnhof
 author_twitter: "_Karlvonbahnhof"
 
-comments: true
-identifier: 'stablecoinsmay18'
 
 stories: true
 genres: Blog
@@ -33,13 +29,8 @@ image:
 image_alt:
 - "Stablecoins are hyped up right now, but how many of you 2016 New Generation OGs remember NuBits?"
 
-categories: ["trading"]
-tags: ["popular", "business-of-crypto", "stablecoin", "stablecoins", "tether", "nubits", "havven", "trueusd", "dai", "makerdao"]
-chart: []
-
-about:
- name: "stablecoins"
- sameas: ["https://hackernoon.com/the-instability-of-stablecoins-69e2c8e1729e", "https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/"]
+categories: [ reports ]
+tags: [ stablecoins ]
 
 related:
 - {"Dai - Stablecoin alternative to Tether": "/dai-stablecoin/"}

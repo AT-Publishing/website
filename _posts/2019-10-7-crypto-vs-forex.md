@@ -31,9 +31,8 @@ image:
 image_alt:
 - "Crypto vs Forex Trading: Which One is Better?"
 
-categories: ["trading"]
-tags: [ "crypto-trading", "business-of-crypto", "forex-trading", "trading-strategy"]
-chart: []
+categories: [ crypto-value-judgement ]
+tags: [ crypto-fundamentals ]
 
 
 related:

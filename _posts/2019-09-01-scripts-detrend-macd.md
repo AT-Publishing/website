@@ -35,13 +35,12 @@ image:
 image_alt:
 - "Script Spotlight - TradingView script review on AltcoinTrading.net"
 
-categories: ["trading"]
-tags: ["scriptspotlight", "cryptotrading", "trading-blog"]
+categories: [ crypto-technical-analysis ]
+tags:       [ tradingview-scripts, crypto-trading-strategy ]
 
 related:
 - {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
 - {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}
-- {"What did crypto traders buy in 2018: Melancholic 100x and Ledger": "/retail-buyin-15k-wallets-still-run/"}
 
 ---
 
