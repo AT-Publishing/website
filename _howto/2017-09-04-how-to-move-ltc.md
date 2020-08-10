@@ -15,7 +15,7 @@ image:
 image_alt:
 - How to move litecoins between exchanges
 categories:   [technical]
-tags:         ["litecoin segwit", "segwit", "ltc", "p2sh"]
+tags:         [ p2sh-wallet, altcoin-wallet ]
 
 date:         2017-09-01 00:18:00 +0200
 update:       2020-08-05 00:09:00 +0200

@@ -8,8 +8,8 @@ layout:     at-trading
 title: "Bitfinex Referral Code 5egV78YtlC 6% Fee off (2020 Update)"
 permalink: /coupon-bitfinex-5egv78ytlc/
 
-categories: [exchanges]
-tags: ["bitfinex", "bvi", "crypto-exchange", "crypto-market", "bfx"]
+categories: [ trading-platforms ]
+tags:       [ recommended-exchange, custodial-trading ]
 
 
 image:

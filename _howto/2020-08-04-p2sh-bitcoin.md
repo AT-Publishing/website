@@ -11,6 +11,7 @@ description:  "Some dApps and non-custodial exchanges will only let you withdraw
 
 slug:           generate-bitcoin-p2sh-address/
 categories:     [technical]
+tags:           [ p2sh-wallet , bitcoin-wallet ]
 date:           2020-08-04 00:22:00 +0700
 
 image:

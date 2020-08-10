@@ -1,4 +1,4 @@
-I"e_<p><em>If you want more Wyckoff, take a look at the <a href="/tag/wyckoff-trading/">“Wyckoff Trading”</a> tag in the blog.</em></p>
+I"�b<p><em>If you want more Wyckoff, take a look at the <a href="/tag/wyckoff-trading/">“Wyckoff Trading”</a> tag in the blog.</em></p>
 
 <h2 id="what-is-wyckoff-method">What is Wyckoff Method?</h2>
 
@@ -9,11 +9,11 @@
   <li>Richard Wyckoff originally developed the trading method for the stock market several decades ago but today’s cryptocurrency traders are finding it very useful once again - mainly on the markets of larger cryptos such as BTC or ETH.</li>
 </ul>
 
-<h3 id="wyckoff-method-and-crypto">Wyckoff Method and Crypto</h3>
+<h2 id="wyckoff-method-in-crypto">Wyckoff Method in Crypto</h2>
 
 <p>Richard D. Wyckoff’s trading method was popularized in the crypto trading circles mainly thanks to John Bollinger who has been using it a lot for his chart analyses on crypto twitter. He usually combines <a href="https://twitter.com/bbands/status/920763449742970880">Wyckoff method with Bollinger bands</a>, his own invention.</p>
 
-<h4 id="wyckoff--bollinger-bands-great-for-ranging-markets">Wyckoff + Bollinger Bands: Great for Ranging Markets</h4>
+<h3 id="wyckoff--bollinger-bands-great-for-ranging-crypto-markets">Wyckoff + Bollinger Bands: Great for Ranging Crypto Markets</h3>
 
 <p>The combination of Wyckoff method and Bollinger bands has a reason:</p>
 
@@ -29,31 +29,47 @@
   <p>John Bollinger: “Bollinger Bands work fantastic on Bitcoin. And they work fantastic on all forex. There’s a reason for that. Currency trading is pairs trading - you’re long one and short the other, essentially. The idea is to earn a return at reduced volatility over time. So, forex is pairs trading and pairs have a statistical property, they’re stationary or they exhibit in the statistical parlance, stationarity. And it just turns out that Bollinger Bands work just a little bit better with series that exhibit stationarity. So, there is sort of a built-in edge to using Bollinger Bands on anything that’s a pair.” (From <a href="http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/">Meb Faber’s podcast, Episode 37, 2017/02/01</a>)</p>
 </blockquote>
 
-<h2 id="recognizing-the-nature-of-the-range">Recognizing the nature of the range</h2>
+<h2 id="market-ranges">Market Ranges</h2>
 
-<h4 id="what-are-the-wyckoff-phases">What Are The Wyckoff Phases</h4>
+<h4 id="key-wyckoff-phases">Key Wyckoff Phases</h4>
 
 <p>One of the most notable things the very old Wyckoff method left us are the so called <em>phases</em>.</p>
 
-<p>Some phases are characterised by increased volatility and rapid price changes, but the <strong>key market phases</strong> that Wyckoff analyses are in fact <strong>ranges</strong>.</p>
+<p>In general, some market phases are characterised by increased volatility or rapid price changes.</p>
 
-<p>Market ranges are where traders are scaling in to slowly build up a position, so that once the volatile phase starts, they are already riding on a profit.</p>
+<p>In Wyckoff method, the <strong>key market phases</strong> originally analysed by Wyckoff are in fact <strong>ranges</strong>:</p>
 
-<p>As a result, there is less pressure to FOMO on them and in fact less risk as well: With a position in profit, the trader can simply check the markets once a day and move his stop loss.</p>
+<ul>
+  <li>Ranges are market phases where volatility is low and price is confined within a certain level.</li>
+</ul>
+
+<p>Market ranges are where experienced traders start scaling in and slowly building up a position in the <strong>anticipated direction</strong>. This way, once the ranging phase is over and the volatile phase starts, they are already riding on a profit.</p>
+
+<p>As a result, there is less pressure to FOMO on them and in fact less risk as well: Being in a trending market with a position already in profit, the trader can simply check the markets once a day and move his stop loss.</p>
 
 <p><strong>What is a Market Range</strong></p>
 
-<p>Ranges are market structures when the market is not trending. It is bouncing roughly between the same two support and resistance levels to decide the next move and start the next markup or markdown.</p>
+<ul>
+  <li>Ranges are market structures where the market is <strong>not trending</strong>.</li>
+  <li>Ranging market is bouncing (roughly!) between the same two support and resistance levels</li>
+  <li>Volume is typically declining with time.</li>
+</ul>
 
-<h4 id="wyckoff-market-cycles--crypto">Wyckoff Market Cycles &amp; Crypto</h4>
+<p>More on ranging (sideways) markets in our glossary:</p>
 
-<p>Cryptocurrencies had an amazing multi-year bull market. That means right now the two most common Wyckoff phases in cryptocurrency markets are the <strong>reacummulation phase</strong> and the start of the <strong>distribution phase</strong>.</p>
+<p><a href="/glossary/sideways/" class="btn">Glossary: "Sideways"</a></p>
+
+<h4 id="wyckoff-market-cycles-in-crypto">Wyckoff Market Cycles in Crypto</h4>
+
+<p>Cryptocurrencies had an amazing multi-year bull market that ended early on in 2018.</p>
+
+<p>That means right now the two most seen and most remembered Wyckoff phases in cryptocurrency markets are the <strong>(re)acummulation phase</strong> and the <strong>distribution phase</strong>.</p>
 
 <ul>
   <li>Accumulation phase is the bottom of a bear market.</li>
-  <li>Reaccumulation phase is the breather pause in a bull run</li>
+  <li>Reaccumulation phase is the breather pause in a bull run.</li>
   <li>
-    <p>Distribution range is the trend reversal at the end of a bull run.</p>
+    <p>Distribution range is the period of trend reversal at the end of a bull run.</p>
   </li>
   <li>
     <p><a href="http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#distributionwyckoff_phases">Here is a thorough distribution phase description from stockcharts.com</a>.</p>
@@ -61,21 +77,23 @@
   <li><a href="http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#accumilationwyckoff_phases">Here is the acummulation phase from the same source</a></li>
 </ul>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/wyckoff.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/wyckoff.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046799/atnet/strategy/wyckoff_mntely.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046799/atnet/strategy/wyckoff_mntely.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<h4 id="similarities-between-wyckoff-reaccumulation-vs-distribution">Similarities between Wyckoff Reaccumulation vs Distribution</h4>
+<h4 id="is-it-wyckoff-reaccumulation-or-wyckoff-distribution">Is it Wyckoff Reaccumulation or Wyckoff Distribution?</h4>
 
 <p>The notorious problem is the reaccumulation phase looking very much like the distribution phase.</p>
 
-<p>From the high-level point of view, there is only one difference - the market continues to rise after reaccumulation rather than proceeding to markdown, which it does in distribution. That’s not very helpful when analyzing the market, is it?</p>
+<p>From the high-level point of view, there is only one difference - the market continues to rise after reaccumulation rather than proceeding to markdown, which it does in distribution.</p>
+
+<p>That’s not very helpful when analyzing the market, is it?</p>
 
 <p>You will need to go deeper to see how the distribution and re-accumulation differ.</p>
 
 <p>Let’s look into the ways you can tell one from another.</p>
 
-<h4 id="how-to-tell-apart-wyckoff-distribution-vs-wyckoff-reaccumulation">How to tell apart Wyckoff distribution vs Wyckoff reaccumulation</h4>
+<h5 id="supply-and-demand-in-wyckoff-distribution-vs-wyckoff-reaccumulation">Supply and Demand in Wyckoff distribution vs Wyckoff reaccumulation</h5>
 
-<p>Telling the difference between Wyckoff distribution and Wyckoff reaccumulation boils down to the basics.</p>
+<p>Telling the difference between Wyckoff distribution and Wyckoff reaccumulation boils down to the basics of supply and demand.</p>
 
 <p>While hard fundamentals might not matter that much on legacy markets, they still do apply better in the free-ish, not overly regulated crypto.</p>
 
@@ -87,20 +105,20 @@
 
 <p>This supply vs demand logic is particularly useful at the ends of ranges.</p>
 
-<p><strong>Analyze The market patterns: “Trying to jump the creek” vs “Walking on thin ice”</strong></p>
+<h5 id="analyze-the-market-patterns-trying-to-jump-the-creek-vs-walking-on-thin-ice">Analyze The market patterns: “Trying to jump the creek” vs “Walking on thin ice”</h5>
 
 <p>This is a thing that will suit best to the more macro-oriented traders.</p>
 
 <p>In the final stages of a range, when the price bounced back and forth in a range a few times, the market can do two things:</p>
 
 <ul>
-  <li>It can keep <em>pressing down</em> to support levels, getting bought up short term but not in a way that would gain following and become long-lived.</li>
-  <li>Or the market keeps <em>rallying in bursts</em>, pushing up towards resistance, getting rejected back down but clearly only for the stort term gains targeted by scalpers and bots who short the resistance. The dumps do not gain serious following.</li>
+  <li>It can keep <strong>pressing down</strong> to support levels, getting bought up short term but not in a way that would gain following and become long-lived.</li>
+  <li>Or the market keeps <strong>rallying in bursts</strong>, pushing up towards resistance, getting rejected back down but clearly only for the stort term gains targeted by scalpers and bots who short the resistance. The dumps do not gain serious following.</li>
 </ul>
 
 <p>In a way, traders are making the market like this.</p>
 
-<p><strong>Use BBands: Tops have the typical 3-push pattern, bottoms the typical W pattern</strong></p>
+<h5 id="use-bbands-tops-have-the-typical-3-push-pattern-bottoms-the-typical-w-pattern">Use BBands: Tops have the typical 3-push pattern, bottoms the typical W pattern</h5>
 
 <p>In ranging markets, Bollinger bands provide <strong>balance boundaries</strong>.</p>
 
@@ -131,9 +149,9 @@
   <li>If the bottom 2 has lower price than bottom 1 but is farther up from the lower bband than bottom 1, it’s a strongly convincing bottom. The edge lies in the fact that it’s a higher low <em>relatively to the bbands</em>, a bullish structure that a lot of traders will miss.</li>
 </ul>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/w_higherlow.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/w_higherlow.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046918/atnet/strategy/w_higherlow_zoztzx.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046918/atnet/strategy/w_higherlow_zoztzx.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p><strong>Wyckoff with Volume and Volume-based Indicators</strong></p>
+<h5 id="combine-wyckoff-with-volume-indicators">Combine Wyckoff with Volume Indicators</h5>
 
 <p>A simple and effective approach to see if a range is distribution or reaccumulation is simply to look at volumes.</p>
 
@@ -164,7 +182,7 @@
   <li>Make your <a href="http://bit.ly/atnet-tv">free TradingView account here</a></li>
 </ul>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/volflow.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/volflow.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046976/atnet/strategy/volflow_g9skkx.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046976/atnet/strategy/volflow_g9skkx.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <h2 id="case-in-point-btcusd-market-in-2017">Case in Point: BTCUSD market in 2017</h2>
 
@@ -172,11 +190,11 @@
 
 <p><strong>A/ Weekly BTCUSD chart with the infamous 2-year bear market:</strong> there was an accumulation structure at the bottom.</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/w_accum1.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/w_accum1.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046836/atnet/strategy/w_accum1_mtt41m.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046836/atnet/strategy/w_accum1_mtt41m.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><strong>B/ Daily BTCUSD chart of recent BTCUSD action that ended up corrective continuation.</strong></p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/w_reaccum1.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/w_reaccum1.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046862/atnet/strategy/w_reaccum1_jynuwt.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046862/atnet/strategy/w_reaccum1_jynuwt.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>The structure A/ formed obviously after a long downtrend. The fundamentals were shaken by MtGox bankruptcy, the prevailing opinion was that bitcoin was going to bleed out into death and that the whole cryptocurrency experiment failed.</p>
 
@@ -199,11 +217,11 @@
 
 <p>Let’s take the daily range in BTCUSD from above - that’s a 1D chart with the original range:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/w_reaccum1.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/w_reaccum1.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046862/atnet/strategy/w_reaccum1_jynuwt.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046862/atnet/strategy/w_reaccum1_jynuwt.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Now let’s switch to 4H:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/inner_4h.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/inner_4h.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046947/atnet/strategy/inner_4h_zlad4m.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046947/atnet/strategy/inner_4h_zlad4m.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Here you can easily spot the first inner reaccumulation range:</p>
 
@@ -232,38 +250,64 @@
 
 <p>Assessing the shorter timeframe movements of the range should help you get the idea about the health of the trend and the next direction of the market.</p>
 
-<h3 id="wrapping-up-wyckoff-range-basics-technical-tools--fundamental-analysis">Wrapping Up Wyckoff Range Basics: Technical Tools &amp; Fundamental Analysis</h3>
+<h2 id="wrapping-up-wyckoff-range-basics">Wrapping Up Wyckoff Range Basics</h2>
 
-<p>Of course, simpler and more basic TA will also be helpful:</p>
+<blockquote>
+  <p>Technical Tools &amp; Fundamental Analysis</p>
+</blockquote>
+
+<p>Simple, basic TA can be very helpful:</p>
 
 <ul>
-  <li>Do the rises form nice bull flags?</li>
+  <li>Do the partial run-ups form healthy-looking bull flags?</li>
   <li>Does the range have M/W patterns?</li>
-  <li>Do the candles at the bottoms of the retracements have long wicks, indicating strong BTFD?</li>
+  <li>Do the candles at the bottoms of the retracements have long wicks, indicating strong dip-buying?</li>
 </ul>
 
 <p>Also look for rare formations provided they are reliable – like widening formations that resemble bull flag which is rare but it indicates good bullish momentum:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wyckoff/w_widening.png" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wyckoff/w_widening.png" alt="Wyckoff trading method and ranging markets" title="AltcoinTrading.NET - Wyckoff trading method and ranging markets" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1597046889/atnet/strategy/w_widening_otucep.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1597046889/atnet/strategy/w_widening_otucep.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>Last but not least, <strong>fundamental analysis</strong> cannot be discounted.</p>
+<blockquote>
+  <p>Fundamental value of the asset</p>
+</blockquote>
 
-<p>It is true that fundamental reasons are directly important mainly for bigger cryptocurrencies.</p>
+<p>It would not be Wyckoff if there wasn’t some fundamental pickiness about what to actually trade. Indeed, <strong>fundamental analysis</strong> cannot be completely discounted here.</p>
 
-<p>The <a href="/strategy/crypto-investment/">valuation of most altcoins</a> is based mostly on future expectation rather than present utility.</p>
+<p>In crypto, fundamentals can seem problematic though:</p>
+<ul>
+  <li>The <a href="/value/">valuation of most altcoins</a> is based on future expectation rather than any kind of present utility.</li>
+  <li>Altcoiners however will say the same about bitcoin, argumenting that not many people use it for actual payments.</li>
+</ul>
 
-<p>Still though, cryptocurrencies are somewhat correlated with each other – the money flows easily from one crypto market to another.</p>
+<p>The real fundamental data for big cryptocurrencies exist though.</p>
 
-<p>Seekingalpha once commented the real fundamental data for crypto are metrics like the <strong>Bitcoin network activity, transaction counts, number of ATMs, p2p data, darknet markets usage</strong>.</p>
+<p>Look at the following metrics:</p>
 
-<h2 id="how-to-trade-a-ranging-market">How to trade a ranging market</h2>
+<ul>
+  <li>Bitcoin network activity</li>
+  <li>Daily transaction counts</li>
+  <li>Total number of ATMs</li>
+  <li>P2P exchange data</li>
+  <li>Darknet markets usage</li>
+</ul>
+
+<p>At the end of the distribution phase, it is fair to be caustiously leaning bullish on the base of strong fundamentals.</p>
+
+<p>At the end of a bull run, it is to be expected that the (fundamentally) strongest asset will start it’s decline as the last one.</p>
+
+<blockquote>
+  <p>How to trade a ranging market in general?</p>
+</blockquote>
 
 <ul>
   <li><strong>Short-Term:</strong> Look for bounds of the inner ranges and formations and scalp them.</li>
   <li><strong>Long-Term:</strong> Prepare to take substantial position at important points. Determine the “doom” bottom and set buys or the “upthrust” and set sells.</li>
 </ul>
 
-<h4 id="tools-for-setting-targets">Tools for setting targets</h4>
+<blockquote>
+  <p>How to set price targets when trading ranges?</p>
+</blockquote>
 
 <ul>
   <li>Short Term: Formation targets</li>
@@ -289,7 +333,9 @@
 
 <p>It’s anyone’s guess if the Fibonacci retracement stuff fundamentally makes sense but in 2017 most traders still use fibs to determine their targets, especially in a bull run that keeps reaching new ATHs where there is no previous data to draw resistance lines from. Some people do use simple pivots, but it seems that Fibs are still the most prevalent – which, if nothing else, makes them valid.</p>
 
-<p><strong>How to draw fibs from a correction/markdown</strong></p>
+<ul>
+  <li>How to draw fibs from a correction/markdown</li>
+</ul>
 
 <p>The correct way to draw Fibonacci retracement lines for a currection or a markdown is to start from the swing high and drag the fib all the way to the swing low. This way you get to where to the north the market can reach in recovery from the correction.</p>
 
@@ -297,13 +343,13 @@
 
 <p>Cryptocurrencies seem to be particularly fond of the following fib extension levels: 1, 1.618, 2.618, 4.236. These are the ones that you need to have ticked in your TradingView settings as a minimum.</p>
 
-<p><strong>How to draw fibs from a runup</strong></p>
+<ul>
+  <li>How to draw fibs from a runup</li>
+</ul>
 
 <p>If you want to see how far the market will correct from a runup, you do the opposite: start drawing the fib from the bottom to the high.</p>
 
 <p>Fibonacci levels can provide longer term and swing targets if you use them on higher timeframes, even targets that will contain multiple ranges.</p>
 
-<blockquote>
-  <p>That’s all. Please share this post, if you like it.</p>
-</blockquote>
+<p><strong>That’s all. If you think this post was useful, feel free to share it anywhere.</strong></p>
 :ET

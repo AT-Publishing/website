@@ -11,8 +11,8 @@ note: "Trading"
 date: 2020-04-06 10:42:00 +0700
 permalink: /bitfinex-app/
 
-categories: [management]
-tags: ["bitfinex", "how-to", "trading", "crypto-exchange", "crypto-market", "security"]
+categories: [ trading-platforms ]
+tags:       [ recommended-exchange, crypto-opsec, mobile-trading ]
 
 image:
 - https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586166133/atnet/bitfinex-app/Screen_Shot_2020-04-06_at_16.39.27_omhtmg.jpg

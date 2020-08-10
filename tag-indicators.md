@@ -4,8 +4,8 @@ title:        "Crypto Technical Indicators - Articles and Reviews"
 description:  "About the most important technical indicators for crypto trading"
 permalink:    /tag/crypto-technical-indicators/
 
-tag:        crypto-technical-indicators
-category:   trading #for related feed
+tag:        crypto-charting
+category:   crypto-trading-method #for related feed
 promoting:  analysis
 ---
 

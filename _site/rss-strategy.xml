@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Mon, 10 Aug 2020 07:35:45 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Aug 2020 07:35:45 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Aug 2020 08:43:27 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2020 08:43:27 +0000</lastBuildDate>
 
     
       <item>
@@ -33,26 +33,20 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/report2.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" medium="image" />
 
         <link>https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</guid>
 
         
-        <category>wyckoff-trading</category>
+        <category>wyckoff-trading-crypto</category>
         
-        <category>wyckoff</category>
+        <category>crypto-charting</category>
         
-        <category>wyckoff-phases</category>
-        
-        <category>wyckoff-accumulation</category>
-        
-        <category>wyckoff-redistribution</category>
-        
-        <category>wyckoff-distribution</category>
+        <category>crypto-trading-strategy</category>
         
         
-        <category>longread</category>
+        <category>crypto-technical-analysis</category>
         
 
       </item>

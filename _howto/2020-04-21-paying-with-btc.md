@@ -12,8 +12,8 @@ date: 2020-04-21 10:22:00 +0700
 
 slug: pay-with-bitcoin/
 
-categories: [management]
-tags: ["bitfinex", "how-to", "trading", "crypto-exchange", "crypto-market", "security"]
+categories: [management] # so this is a howto that doesn't have parent to strategy :(
+tags:       [ spend-your-crypto, crypto-opsec, bitcoin-wallet ]
 
 image:
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1587527346/atnet/blog_trading/pay-with-btc_ku4see.jpg"

@@ -4,8 +4,8 @@ title:        "Wyckoff Trading - Articles, Tools and Strategies"
 description:  "All we have about the Wyckoff trading method in crypto trading. "
 permalink:    /tag/wyckoff-trading/
 
-tag:        wyckoff-trading
-category:   trading #for related feed
+tag:        wyckoff-trading-crypto
+category:   crypto-technical-analysis #for related feed
 promoting:  exchanges
 
 strategy:   yes

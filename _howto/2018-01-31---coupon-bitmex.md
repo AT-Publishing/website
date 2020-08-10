@@ -9,8 +9,8 @@ title: BitMEX Referral Code iYQB44 - 10% Fee Discount Promo Coupon BitMEX
 permalink: /coupon-bitmex-iyqb44/
 
 
-categories: [exchanges]
-tags: ["bitmex", "seychelles", "crypto-exchange", "crypto-market", "offshore"]
+categories: [ trading-platforms ]
+tags:       [ recommended-exchange, custodial-trading ]
 
 
 image:

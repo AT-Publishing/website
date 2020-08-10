@@ -4,8 +4,8 @@ title:        "Tradingview Script Spotlight - Tradingview Script Reviews"
 description:  "Picking out popular Tradingview scripts from the public library and looking at how they work."
 permalink:    /tag/tradingview-script-review/
 
-tag:          scriptspotlight
-category:     trading #for related feed
+tag:          tradingview-scripts
+category:     trading-platforms #for related feed
 promoting:    analysis
 ---
 
