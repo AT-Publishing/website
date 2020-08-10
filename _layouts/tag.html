@@ -9,7 +9,7 @@ layout: default-news
 {% endif %}
 <div class="container">
   <br>
-  {% if page.tag contains "scriptspotlight" %}
+  {% if page.tag contains "tradingview" %}
         {% include article/cta.html %}
   {% endif %}
   <br>
@@ -18,7 +18,7 @@ layout: default-news
         {% include sidebar.html %}
       </div>
       <div class="columns eight tagfeed-items">
-        <h2 class="tagged-as clear">All at {{ site.title }} under #{{ page.tag }}</h2>
+        <h2 class="tagged-as clear">All tagged as #{{ page.tag }}</h2>
         {% if page.content %}
         <section class="tag-intro">
           {{ content }}
@@ -120,31 +120,19 @@ layout: default-news
         {% assign pages_list = nil %}
       </div>
 
-      {% if page.series %}
-      {% for series in page.series %}
-      <div class="row tagfeed-items">
-        <h2 class="tagged-as">Read more: Series {{ series | upcase }}</h2>
-        {% for post in site.posts %}
-         {% if post.series contains series %}
-         <div class="columns six">
-           {% include home/columnupdates.html %}
-         </div>
-         {% endif %}
+      {% if page.category %}
+      {% assign related = site.posts | where: "categories", page.category | sample: 3 %}
+      <div class="row">
+        <p>
+          <span class="note">Related #{{ page.category | upcase }}</span>
+        </p>
+        {% for post in related %}
+          {% include category/all.html %}
         {% endfor %}
       </div>
-      {% endfor %}
       {% endif %}
 
-      {% if page.category %}
-      <div class="row">
-        <h2 class="tagged-as">Related in {{ page.category | capitalize }}</h2>
-        {% for post in site.posts limit: 5 %}
-         {% if post.categories contains page.category %}
-          {% include category/all.html %}
-         {% endif %}
-        {% endfor %}
-      </div>
-      {% endif %}
+
 
     </div><!--8-->
 
