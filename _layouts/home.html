@@ -118,7 +118,7 @@ layout: default
           <ul>
             {% for post in howtoitems limit:3 %}
             <li class="subtle-item">
-              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#HowTo | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#{{ post.categories[0] | upcase }} | <b>{{ post.title }}</b>{% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
             </li>
             {% endfor %}
           </ul>
@@ -129,15 +129,16 @@ layout: default
       <br>
       <span class="note note-subtle">Crypto OPSEC and security:</span>
       <ul class="popular">
-        {% for post in site.security offset: 0 limit: 4 %}
+        {% for post in site.security offset:0 limit:4 %}
           <li class="subtle-item">
-            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#OPSEC | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#{{ post.categories[0] | upcase }} | <b>{{ post.title }}</b>{% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
           </li>
         {% endfor %}
       </ul>
     </section>
 
     <section id="new-posts">
+
       <div id="paginated-tradingblog">
         <h2 class="tagged-as clear">All from AltcoinTrading.NET Blog</h2>
       </div>
@@ -157,38 +158,47 @@ layout: default
       </div>
 
       {% for post in paginator.posts %}
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
-                {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
-                {% endif %}
-                <small>{{ post.date | date: "%d %b %Y" }} </small>
-                <br>
-                <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              {% if post.last_modified_at %}UPDATE {{ post.last_modified_at | date: "%d %b %Y, %R" }} UTC - {% endif %}{{ post.description }}
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
+                  {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
+                  {% endif %}
+                  <small>{{ post.date | date: "%d %b %Y" }} </small>
+                  <br>
+                  <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </strong>
+              </h5>
+            </div>
+            {% if post.image[0] %}
+            <div class="five columns">
+              <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            {% endif %}
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                {% if post.last_modified_at %}<b>UPDATE {{ post.last_modified_at | date: "%d %b %y" }}</b> - {% endif %}{{ post.description }}
+              </div>
             </div>
           </div>
-          {% if post.image[0] %}
-          <div class="five columns">
-            <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          {% endif %}
+
         </div>
       {% endfor %}
-    </section>
+
+    </section><!-- // new-posts -->
 
 
 
@@ -203,11 +213,7 @@ layout: default
    </div>
 
   </div><!-- row -->
-  <div class="clearfix"></div>
 
-    <section class="atnet-home-bottom space">
-     {% include tags/tag-boc.html %}
-    </section>
 
       </div>
     </div>

@@ -1,0 +1,33 @@
+<div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }} - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+          <span class="tag custom-note lvl-{{post.orderby}}">{{ post.note | upcase }}</span>&nbsp;{{ post.title }}
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>{{ post.description }}</b>
+    </p>
+    <p>
+      {{ post.content | markdownify | strip_html | truncate:150 }}
+    </p>
+    <p>
+      <a class="btn" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->

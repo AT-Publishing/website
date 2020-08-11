@@ -2,6 +2,8 @@
 layout: default-news
 ---
 
+
+
 <div class="container" id="altcointrading-trading">
   <div class="row">
 
@@ -38,6 +40,11 @@ layout: default-news
               <div class="strategy-content">
                 {{ content }}
   					  </div><!-- strategy content -->
+              <div class="meta">
+                <br><br>
+                <p>Posted in <span class="tag article-categories">{{ page.categories[0] | capitalize | replace: "-", " "}}</span>
+                <br>Tagged as {% for tag in page.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
+              </div>
             </article>
           </section>
 
@@ -60,20 +67,20 @@ layout: default-news
               </figure>
               {% include article/related.html %}
             </div>
+
+            {% include sidebar-article.html %}
+
+            <div class="clearfix"></div>
             <div class="smallad" id="at-promo-smallad-post">
                {% include home/smallad.html %}
             </div>
-            {% include sidebar-post.html %}
+
             <div class="clearfix"></div>
             <div id="at-promo-tv-tall">
               {{ site.tv_300-600_animated }}
             </div>
-            <div class="clearfix"></div>
-            <article class="altcointrading-blog-meta">
-              <div class="bottom strategy-content">
-                {% include article/author.html %}
-              </div>
-            </article>
+
+
             <div class="clearfix"></div>
             {% include dogeshare.html %}
 

@@ -1,0 +1,26 @@
+<div id="sidebar" class="sidebar-article">
+
+  <section>
+    <div id="at-promo-vertical">
+      {% include promoting-tall.html %}
+    </div>
+  </section>
+
+  {% if page.categories %}
+  {% assign cat_related = site.posts | where: "categories", page.categories[0] | sample: 5 %}
+  {% endif %}
+  {% if cat_related[0] %}
+  &nbsp;
+  <section>
+    <div class="row box-lvl-a">
+      <h4>Also in <b>{{ page.categories[0] | upcase }}</b></h4>
+      {% for post in cat_related %}
+        {% include category/tall.html %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</div><!-- end sidebar-->
+
+<p>&nbsp;</p>

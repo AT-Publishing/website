@@ -3,18 +3,18 @@
   <h5>Related Posts from AltcoinTrading.NET</h5>
   <ol>
     {% if page.related %}
-      {% for line in page.related %}{% for item in line %}
+      {% for line in page.related limit: 2 %}{% for item in line %}
       <li><a href="{{ item[1] }}">{{ item[0] }}</a></li>
       {% endfor %}{% endfor %}
     {% endif %}
     {% if page.tags %}
         {% assign related = site.posts | where: "tags", page.tags[0] | sample: 2 %}
       {% for item in related %}
-      <li><a href="{{ item.url }}">#{{page.tags[0] | upcase }}: {{ item.title }}</a></li>
+      <li>#{{page.tags[0] | upcase }}: <a href="{{ item.url }}">{{ item.title }}</a></li>
       {% endfor %}
         {% assign related_strategy = site.strategy | where: "tags", page.tags[1] | sample: 2 %}
       {% for item in related_strategy %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li>#{{page.tags[1] | upcase }}: <a href="{{ item.url }}">{{ item.title }}</a></li>
       {% endfor %}
     {% endif %}
   </ol>

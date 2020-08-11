@@ -7,6 +7,7 @@ pinned:     false
 guide:      false
 
 series:     ScriptSpotlight
+note:       ScriptSpotlight
 promoting:  exchanges
 
 layout: at-trading
@@ -37,7 +38,6 @@ image_alt:
 
 categories: [ crypto-technical-analysis ]
 tags:       [ tradingview-scripts, crypto-trading-strategy ]
-
 related:
 - {"Crypto Trading Strategies for all levels, beginner to advanced": "/strategy/"}
 - {"Script Spotlight: All TradingView Scripts Reviewed": "/tag/tradingview-script-review/"}

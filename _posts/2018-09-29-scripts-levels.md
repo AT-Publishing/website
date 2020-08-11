@@ -6,6 +6,7 @@ guest:      false
 sponsored:  false
 stories:    true
 
+note:       ScriptSpotlight
 
 mentions:
  name: "technical analysis"

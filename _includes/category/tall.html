@@ -1,0 +1,17 @@
+<div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}">{% if post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;{% endif %}<b>{{ post.title }}</b> in <b>#{{ post.tags[0] | upcase }}</b> {% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+      </li>
+  </ul>
+  {% if post.image[0] %}
+  <p>
+      <a class="cat-internal-link" title="{{ post.title }}" href="{{ post.url }}">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Related in {{ post.categories[0] }}" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  {% endif %}
+</div><!-- item row -->

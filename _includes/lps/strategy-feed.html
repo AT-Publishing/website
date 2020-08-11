@@ -1,40 +1,30 @@
 <section id="strategy-feed">
-{% assign strat = site.strategy | sort:last_modified_at | reverse %}
-{% for post in strat %}
+
+{% assign articles_strat = site.posts | where: "tags", page.tags[0] | sample: 5 %}
+{% if articles_strat[0] %}
+  <span class="note">#{{page.tags[0] | upcase }}</span>
+  {% for post in articles_strat %}
+    {% include category/full_feed_item.html %}
+  {% endfor %}
+{% endif%}
 
 
-<div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ post.title }} - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-          <span class="tag custom-note lvl-{{post.orderby}}">{{ post.note | upcase }}</span>&nbsp;{{ post.title }}
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>{{ post.description }}</b>
-    </p>
-    <p>
-      {{ post.content | markdownify | strip_html | truncate:150 }}
-    </p>
-    <p>
-      <a class="btn" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
-        Read {{ post.title }} in full >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-{% endfor %}
+{% assign articles2 = site.posts | where: "tags", page.tags[1] | sample: 3 %}
+{% if articles2[0] %}
+  <span class="note">#{{page.tags[1] | upcase }}</span>
+  {% for post in articles2 %}
+    {% include category/full_feed_item.html %}
+  {% endfor %}
+{% endif%}
+
+
+{% assign articles3 = site.posts | where: "tags", page.tags[2] | sample: 3 %}
+{% if articles3[0] %}
+  <span class="note">#{{page.tags[2] | upcase }}</span>
+  {% for post in articles3 %}
+    {% include category/full_feed_item.html %}
+  {% endfor %}
+{% endif%}
+
+
 </section>

@@ -54,16 +54,21 @@ Use the Bitfinex app to trade from your phone, but restrict its capabilities so 
 
 <ul class="popular">
   <li class="popular-item">
-    <a href="/bitfinex-app/">How to use the Bitfinex App in a secure way</a>
+    #HOWTO <a href="/bitfinex-app/">How to use the Bitfinex App in a secure way</a>
   </li>
   <li class="popular-item">
-    <a href="/altcoin-wallets/">Crypto Wallet Guide: Where to store crypto in 2020</a>
+    #GUIDES <a href="/altcoin-wallets/">Crypto Wallet Guide: Where to store crypto in 2020</a>
   </li>
   <li class="popular-item">
-    <a href="/3-dangerous-mistakes-crypto-beginners/">3 Most Dangerous Beginner Mistakes in Crypto Trading</a>
+    #TRADING <a href="/3-dangerous-mistakes-crypto-beginners/">3 Most Dangerous Beginner Mistakes in Crypto Trading</a>
   </li>
 </ul>
 
+&nbsp;
+
+{% include article/cta.html %}
+
+&nbsp;
 
 #### About Bitfinex
 
@@ -102,13 +107,19 @@ The platform is owned and maintained by the same company as the Bitfinex exchang
 
 #### People related to Bitfinex
 
+##### Executives at Bitfinex/iFinex
+
 * **Jean Louis van der Velde** - The CEO who is not publicly known much.
 * **Phil G. Potter**, also known as PGP - The one member of staff that became the face of Bitfinex for years, communicated with traders on teamspeak etc.
 * **Giancarlo Devasini** - CFO at Bitfinex and Tether.
 * **Stuart Hoegner** - Resident lawyer at Bitfinex.
 
+##### Community Managers for Bitfinex
+
 * **Zane Tackett** - Former head of community. Worked for OkCoin before Bitfinex and as the head of OTC at B2C2 after Bitfinex.
 * **Chris Ellis** - Activist, former head of community after Zane Tackett, also known from his appearances in Keiser Report.
+
+##### Other Personalities Related to Bitfinex
 
 * **Bitfinex'd**, on Reddit known as Voogru - A controversial and probably hired figure spreading fear regarding the legal stability of Bitfinex/iFinex since 2016.
 * **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.

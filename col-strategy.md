@@ -1,8 +1,9 @@
 ---
-layout: col-strategy
-title: "Cryptocurrency Trading Strategy Long-Reads"
-description: "Diving deeper into fundamental analysis, technical analysis in cryptocurrency trading and crypto trading strategies."
-permalink: /strategy/
+layout:       col-strategy
+title:        "ATNET Crypto Trading Strategy In-Depth | AltcoinTrading.NET"
+description:  "Diving deeper into fundamental analysis, technical analysis in cryptocurrency trading and crypto trading strategies."
+permalink:    /strategy/
+tags:         [ crypto-trading-strategy, crypto-charting, recommended-exchange, crypto-market-predictions]
 ---
 
 Welcome to the crypto trading strategy long reads.

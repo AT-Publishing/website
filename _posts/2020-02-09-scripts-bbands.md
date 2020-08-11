@@ -6,6 +6,7 @@ guest:      false
 sponsored:  false
 stories:    false
 guide:      false
+note:       ScriptSpotlight
 
 series:       ScriptSpotlight
 categories:   [ crypto-technical-analysis ]

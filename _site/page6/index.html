@@ -734,6 +734,10 @@ figure.thumb {
     text-align: right
 }
 
+.home-latest figure.thumb {
+  padding: 15px 15px 15px 0;
+}
+
 .footer,
 .text-center {
     text-align: center
@@ -914,16 +918,13 @@ h3.popular {
 }
 
 h5.post {
-    padding: 4px 10px;
-    background: #f9f9f9;
-    color: #7A838D;
-    border-left: 5px solid #7A838D;
-    font-size: 21px
+  padding: 15px;
+  color: #7A838D;
+  font-size: 21px;
 }
 
 .row.home-latest {
-    border-top: 2px solid #7a838d;
-    border-bottom: 1px solid #e6e4e4
+    border: 2px solid #7a838d;
 }
 
 .row.home-latest .columns {
@@ -951,6 +952,23 @@ h5.post {
     font-weight: 200;
     position: relative;
     top: -2px
+}
+
+.tag.article-categories {
+  display: inline-block;
+    background: #9e9e9e69;
+    padding: 2px 10px;
+    margin: 0 5px;
+    font-size: inherit;
+    border-radius: 4px;
+}
+.tag.article-tags {
+  display: inline-block;
+    background: #9e9e9e3d;
+    padding: 0 5px;
+    margin: 5px 2px;
+    font-size: inherit;
+    border-radius: 4px;
 }
 
 .post-content .guest,
@@ -1253,8 +1271,7 @@ a.updated-excerpt:hover {
         padding: 3px 25px
     }
     h5.post {
-        padding: 4px 15px;
-        background: 0 0;
+        padding: 15px;
         font-size: 25px
     }
     .home-latest-excerpt {
@@ -1985,7 +2002,7 @@ h4.tagged-as {
     float: right;
 }
 
-#strategy-feed .columns,
+#strategy-feed .columns.columns:nth-child(2n),
 #security-feed .columns {
     margin: 1%;
 }
@@ -2629,16 +2646,16 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">technical</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
-    Divergence
+  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
+    Sideways Market
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
+  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg" alt="Divergence"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1592815183/atnet/_glossary/w_accum1_xtnaua.jpg" alt="Sideways Market"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>
@@ -2671,16 +2688,16 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">jargon</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/bgd/" title="BGD">
-    BGD
+  <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
+    Bart Formation
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/bgd/" title="BGD">
+  <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1586937056/atnet/_glossary/bgd_csyjsh.jpg" alt="BGD"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938500/atnet/_glossary/bart-formation.jpg" alt="Bart Formation"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>
@@ -2692,16 +2709,16 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">technical</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
-    Sideways Market
+  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
+    Divergence
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
+  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1592815183/atnet/_glossary/w_accum1_xtnaua.jpg" alt="Sideways Market"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg" alt="Divergence"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>
@@ -2945,15 +2962,15 @@ amp-user-notification>div>div {
           <ul>
             
             <li class="subtle-item">
-              <a class="index-internal" href="/howto/generate-bitcoin-p2sh-address/" title="How to generate P2SH addresses in Bitcoin Electrum wallet">#HowTo | <b>How to generate P2SH addresses in Bitcoin Electrum wallet</b> on 11 Aug 2020</a>
+              <a class="index-internal" href="/howto/generate-bitcoin-p2sh-address/" title="How to generate P2SH addresses in Bitcoin Electrum wallet">#TECHNICAL | <b>How to generate P2SH addresses in Bitcoin Electrum wallet</b> updated on 11 Aug 2020</a>
             </li>
             
             <li class="subtle-item">
-              <a class="index-internal" href="/howto/buy-ethereum/" title="Beginner’s guide to buying Ethereum (ETH)">#HowTo | <b>Beginner’s guide to buying Ethereum (ETH)</b> on 10 Aug 2020</a>
+              <a class="index-internal" href="/howto/buy-ethereum/" title="Beginner’s guide to buying Ethereum (ETH)">#ONRAMP | <b>Beginner’s guide to buying Ethereum (ETH)</b> updated on 10 Aug 2020</a>
             </li>
             
             <li class="subtle-item">
-              <a class="index-internal" href="/tensorcharts-tutorials/" title="TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies">#HowTo | <b>TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies</b> on 11 Aug 2020</a>
+              <a class="index-internal" href="/tensorcharts-tutorials/" title="TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies">#TRADING-PLATFORMS | <b>TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies</b> updated on 11 Aug 2020</a>
             </li>
             
           </ul>
@@ -2966,25 +2983,26 @@ amp-user-notification>div>div {
       <ul class="popular">
         
           <li class="subtle-item">
-            <a class="index-internal" href="/security/iota/" title="How to secure your IOTA wallet and migrate from Light Wallet to Trinity">#OPSEC | <b>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</b> on 11 Aug 2020</a>
+            <a class="index-internal" href="/security/iota/" title="How to secure your IOTA wallet and migrate from Light Wallet to Trinity">#CRYPTOCURRENCY-WALLETS | <b>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</b> updated on 11 Aug 2020</a>
           </li>
         
           <li class="subtle-item">
-            <a class="index-internal" href="/security/backups/" title="How to Safely Backup Your Cryptocurrency Wallet Keys">#OPSEC | <b>How to Safely Backup Your Cryptocurrency Wallet Keys</b> on 11 Aug 2020</a>
+            <a class="index-internal" href="/security/backups/" title="How to Safely Backup Your Cryptocurrency Wallet Keys">#CRYPTOCURRENCY-WALLETS | <b>How to Safely Backup Your Cryptocurrency Wallet Keys</b> updated on 11 Aug 2020</a>
           </li>
         
           <li class="subtle-item">
-            <a class="index-internal" href="/security/tiered-crypto-storage/" title="Tiered Crypto Storage: How to do it right">#OPSEC | <b>Tiered Crypto Storage: How to do it right</b> on 11 Aug 2020</a>
+            <a class="index-internal" href="/security/tiered-crypto-storage/" title="Tiered Crypto Storage: How to do it right">#CRYPTOCURRENCY-WALLETS | <b>Tiered Crypto Storage: How to do it right</b> updated on 11 Aug 2020</a>
           </li>
         
           <li class="subtle-item">
-            <a class="index-internal" href="/security/sweep-private-keys/" title="Redeeming forked coins: Sweeping private keys and sweeping addresses">#OPSEC | <b>Redeeming forked coins: Sweeping private keys and sweeping addresses</b> on 11 Aug 2020</a>
+            <a class="index-internal" href="/security/sweep-private-keys/" title="Redeeming forked coins: Sweeping private keys and sweeping addresses">#CRYPTOCURRENCY-WALLETS | <b>Redeeming forked coins: Sweeping private keys and sweeping addresses</b> updated on 11 Aug 2020</a>
           </li>
         
       </ul>
     </section>
 
     <section id="new-posts">
+
       <div id="paginated-tradingblog">
         <h2 class="tagged-as clear">All from AltcoinTrading.NET Blog</h2>
       </div>
@@ -3000,307 +3018,388 @@ amp-user-notification>div>div {
       </div>
 
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag custom-note ">Feature</span>&nbsp;
-                
-                <small>29 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market">List of all new cryptocurrencies that emerged during the 2017 bull market</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - The list is very consistent with the fleeting mentality of the cryptocurrency markets.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag custom-note ">Feature</span>&nbsp;
+                  
+                  <small>29 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market">List of all new cryptocurrencies that emerged during the 2017 bull market</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - The list is very consistent with the fleeting mentality of the cryptocurrency markets.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>28 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea ">How is it with arbitrage opportunities in South Korea </a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - To summarize what is known as everyone seems to be interested in that at the moment.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>28 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea ">How is it with arbitrage opportunities in South Korea </a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea ">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - To summarize what is known as everyone seems to be interested in that at the moment.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea ">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>24 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being">CEX.IO Not Accepting New Users for the Time Being</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>24 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being">CEX.IO Not Accepting New Users for the Time Being</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - The cryptocurrency exchange CEX.IO just sent out an email they are temporarily not accepting new users to the platform.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>15 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed">Kraken's long awaited upgrade postponed</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - It is still happening soon&trade; guys!
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>15 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed">Kraken's long awaited upgrade postponed</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - It is still happening soon&trade; guys!
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>03 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency">ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - A shortened transcript with the most important info from the session with timestamps to relevant parts of the footage
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>03 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency">ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - A shortened transcript with the most important info from the session with timestamps to relevant parts of the footage
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag custom-note bg-red">Red Flag</span>&nbsp;
-                
-                <small>03 Dec 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/red-flag-bittrex/" title="Something rotten: Strange actions from Bittrex">Something rotten: Strange actions from Bittrex</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - Bittrex representatives reached out to the admins of the innoficial r/bittrex subreddit to threaten with legal action.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag custom-note bg-red">Red Flag</span>&nbsp;
+                  
+                  <small>03 Dec 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/red-flag-bittrex/" title="Something rotten: Strange actions from Bittrex">Something rotten: Strange actions from Bittrex</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/red-flag-bittrex/" title="Something rotten: Strange actions from Bittrex">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/joke.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - Bittrex representatives reached out to the admins of the innoficial r/bittrex subreddit to threaten with legal action.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/red-flag-bittrex/" title="Something rotten: Strange actions from Bittrex">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/joke.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>21 Nov 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?">Bitcoin Gold: Why is it getting dismissed so fast?</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - Bitcoin Gold is one of the recent bitcoin forks. Ridden with controversy and skepticism - but relevant.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>21 Nov 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?">Bitcoin Gold: Why is it getting dismissed so fast?</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/freelunch1.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - Bitcoin Gold is one of the recent bitcoin forks. Ridden with controversy and skepticism - but relevant.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/freelunch1.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>21 Nov 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/tether-hack/" title="Tether Emergency Notice">Tether Emergency Notice</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - This is your captain speaking: There is absolutely no cause for alarm.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>21 Nov 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/tether-hack/" title="Tether Emergency Notice">Tether Emergency Notice</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/tether-hack/" title="Tether Emergency Notice">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - This is your captain speaking: There is absolutely no cause for alarm.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/tether-hack/" title="Tether Emergency Notice">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">UserGenerated</span>&nbsp;
-                
-                <small>12 Nov 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC">Reddit on the Bcash runup: BCH vs BTC</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - Reddit's opinions on why is this happening, Roger Ver sending 25k BTC to Bitfinex, Korean zero-fee volume.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">UserGenerated</span>&nbsp;
+                  
+                  <small>12 Nov 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC">Reddit on the Bcash runup: BCH vs BTC</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - Reddit's opinions on why is this happening, Roger Ver sending 25k BTC to Bitfinex, Korean zero-fee volume.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-        <div class="row home-latest"  id="gtm-latest">
-          <div class="seven columns">
-            <h5 class="post">
-              <strong>
-                <span class="tag">Blog</span>&nbsp;
-                
-                <small>18 Oct 2017 </small>
-                <br>
-                <a  class="index-internal"  href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents">Crypto cards for non-EU residents</a>
-              </strong>
-            </h5>
-            <div class="home-latest-excerpt">
-              UPDATE 07 Aug 2020, 08:53 UTC - Are there any though? It's all over for non-EU residents and what's miraculously left gets scam accusations left right and center. Stay with your LBC cash, folks. There's also LocalEthereum now, don't forget that.
+        <div class="row home-latest">
+
+          <div class="row">
+            <div class="seven columns">
+              <h5 class="post">
+                <strong>
+                  <span class="tag">Blog</span>&nbsp;
+                  
+                  <small>18 Oct 2017 </small>
+                  <br>
+                  <a  class="index-internal"  href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents">Crypto cards for non-EU residents</a>
+                </strong>
+              </h5>
+            </div>
+            
+            <div class="five columns">
+              <a  class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents">
+                <figure class="thumb">
+                  <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Altcoin Trading Blog"
+                  layout="responsive"
+                  data-original-width="720px" data-original-height="360px"
+                  width="150px" height="80px">
+                  </amp-img>
+                </figure>
+              </a>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <div class="home-latest-excerpt">
+                <b>UPDATE 07 Aug 20</b> - Are there any though? It's all over for non-EU residents and what's miraculously left gets scam accusations left right and center. Stay with your LBC cash, folks. There's also LocalEthereum now, don't forget that.
+              </div>
             </div>
           </div>
-          
-          <div class="five columns">
-            <a  class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents">
-              <figure class="thumb">
-                <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Altcoin Trading Blog"
-                layout="responsive"
-                data-original-width="720px" data-original-height="360px"
-                width="150px" height="80px">
-                </amp-img>
-              </figure>
-            </a>
-          </div>
-          
+
         </div>
       
-    </section>
+
+    </section><!-- // new-posts -->
 
 
 
@@ -3339,310 +3438,36 @@ amp-user-notification>div>div {
 </ul>
 
       </div>
-      
-<div id="sidebar">
+      <div id="sidebar">
   <section>
-    <div id="at-promo-nonpost-sidebar-tall">
-      <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
-      <hr class="skinny">
-      <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
-    </div>
-    <hr class="skinny">
+    <div class="containter-center"> <a href="http://bit.ly/2Muo11z" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501277/atnet/_banner/bitmex-home_336x280_vlo0xb.jpg" alt="BitMEX Melancholic 100x" data-original-width="336px" data-original-height="280px" layout="responsive" width="336px" height="280px"> </amp-img></a></div>
   </section>
-  <section class="posts-security" id="at-nonpost-sidebar-psa">
-    
-
-<h3>Latest PSA's:</h3>
-<ul>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <a class="sidebar-internal" title="CEX.IO Not Accepting New Users for the Time Being" href="https://www.altcointrading.net/cex-io-registrations/">
-    <span class="tag custom-note">PSA</span> <b>CEX.IO Not Accepting New Users for the Time Being</b> - Last update 07 Aug 2020
-  </a>
-  <br>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <a class="sidebar-internal" title="Don't send ETH from Bitstamp to Bfx" href="https://www.altcointrading.net/bitifinex-eats-your-eth/">
-    <span class="tag custom-note">PSA</span> <b>Don't send ETH from Bitstamp to Bfx</b> - Last update 07 Aug 2020
-  </a>
-  <br>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</ul>
-
+  <section>
+    <div class="clearfix adfix"><amp-iframe width="300px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/cloudbet_banner.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div><div class="clearfix"></div>
   </section>
-
   <section id="at-promo-nonpost-sidebar-shilllinks">
-     <h3>Support this publication by using our shill links</h3>
+     <h3>Fee Discount Shill Links:</h3>
       <ul class="airdrops">
         <li>
-          <a rel="nofollow" target="_blank" href="http://bit.ly/the-cat-mouse-game">BITFINEX PROMO CODE <b>5egV78YtlC</b> (10% off fee, no minimum deposit limit)</a><br>
+          <a rel="nofollow" target="_blank" href="http://bit.ly/the-cat-mouse-game">Bitfinex Referrer Code</a> <b>5egV78YtlC</b> (6% fee discount, no minimum deposit)
         </li>
         <li>
-          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="http://bit.ly/melancholic-100x">BITMEX PROMO CODE <b>iYQB44</b> (10% off fee)</a>
+          <a  target="_blank" rel="nofollow" title="bitmex cryptocurrency exchange coupons" href="http://bit.ly/melancholic-100x">Bitmex Referrer Code</a> <b>iYQB44</b> (10% fee discount)
         </li>
         <li>
-          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="http://bit.ly/coinmutter">COINMAMA fny3000 + <b>5% discount 190TY584</b></a>
+          <a  target="_blank" rel="nofollow" title="coinmama cryptocurrency exchange coupons" href="http://bit.ly/coinmutter">Coinmama Referrer Code</a> fny3000 + <b>5% discount 190TY584</b>
         </li>
-
       </ul>
   </section>
-
   <section>
     <div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/2kwSK38"><amp-img itemprop="image" src="/cta/2019_banner_240x400.png" alt="Vaultoro Crypto Gold Exchange" data-original-width="240px" data-original-height="400px" width="240px" height="400px" layout="responsive"></amp-img></a></div><br>
-
   </section>
-
 </div><!-- end sidebar-->
 
    </div>
 
   </div><!-- row -->
-  <div class="clearfix"></div>
 
-    <section class="atnet-home-bottom space">
-     <div class="row tagfeed-items">
-<h2 class="tagged-as clear">Tagged as <a href="/tag/businessofcrypto/"><u>#BusinessOfCrypto</u></a></h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-    </section>
 
       </div>
     </div>
