@@ -9,6 +9,11 @@ navi:
 https://altcointrading.netlify.com/* https://www.altcointrading.net/:splat 301!
 /index.html / 301
 
+/moving-ltc-p2sh/ /howto/move-ltc-p2sh/ 301
+/security/device-management /security/tiered-crypto-storage/ 301
+/security/sweeping /security/sweep-private-keys/ 301
+/security/virtualbox /security/virtualbox/ 301
+
 /strategy/dca/ /strategy/dollar-cost-averaging/ 301
 /retail-buyin-15k-wallets-still-run/ /stats-2018/ 301
 /localethereum-venezuela-crypto/ /localcryptos-interview/ 301
@@ -24,7 +29,6 @@ https://altcointrading.netlify.com/* https://www.altcointrading.net/:splat 301!
 /cryptoloop /coinloop 301
 /no-ico/ /category/no-ico/ 301
 /eth-traders-tool/ /cryptosignal/ 301
-
 
 /category/trading/ /blog/trading/ 301
 /blockchain-tech-companies/ https://www.thebusinessofcrypto.com/company/ 301

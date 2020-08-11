@@ -10,7 +10,7 @@ title:        "TensorCharts Tutorials Collection | Altcoin Trading Tools and Str
 description:  "Collection of guides and tutorials for Tensor Charts. How to read them, what to use them for, how to scalp crypto with Tensorcharts."
 
 permalink:      /tensorcharts-tutorials/
-categories:     [ crypto-technical-analysis ]
+categories:     [ trading-platforms ]
 tags:           [ crypto-charting, crypto-trading-strategy ]
 date:           2020-04-25 01:22:00 +0700
 

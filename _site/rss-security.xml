@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Mon, 10 Aug 2020 08:56:50 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Aug 2020 08:56:50 +0000</lastBuildDate>
+    <pubDate>Tue, 11 Aug 2020 03:57:35 +0000</pubDate>
+    <lastBuildDate>Tue, 11 Aug 2020 03:57:35 +0000</lastBuildDate>
 
     
       <item>
@@ -37,33 +37,19 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/iota/</guid>
         
 
-        <category>iota</category>
-        
-
-        <category>iota-trinity</category>
-        
-
         <category>altcoin-wallet</category>
         
 
-        <category>hot-wallet</category>
-        
-
-        <category>crypto-storage</category>
-        
-
-        <category>wallet-security</category>
+        <category>crypto-opsec</category>
         
         
-        <category>homelab</category>
-        
-        <category>tutorial</category>
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
       <item>
 
-        <title>Backups for the paranoid</title>
+        <title>How to Safely Backup Your Cryptocurrency Wallet Keys</title>
         <description>Secure backup solutions - digital and non-digital - are a big theme, and this is a big post that will be updated when new ideas emerge.</description>
 
         <pubDate>Fri, 13 Oct 2017 09:22:00 +0000</pubDate>
@@ -77,27 +63,19 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/backups/</guid>
         
 
-        <category>wallet-backup</category>
+        <category>altcoin-wallet</category>
         
 
-        <category>crypto-security</category>
-        
-
-        <category>altcoin-wallets</category>
-        
-
-        <category>bitcoin-wallets</category>
+        <category>crypto-opsec</category>
         
         
-        <category>homelab</category>
-        
-        <category>primer</category>
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
       <item>
 
-        <title>Tiered Device Management</title>
+        <title>Tiered Crypto Storage: How to do it right</title>
         <description>A quick guide for cryptocurrency investors on how to do tiered devices right. It is not even such an inconvenience to have separate devices for different activities.</description>
 
         <pubDate>Fri, 20 Oct 2017 06:22:00 +0000</pubDate>
@@ -107,8 +85,8 @@
 
         <media:content url="https://www.altcointrading.net/editorial/socialmedia3.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/security/device-management/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/security/device-management/</guid>
+        <link>https://www.altcointrading.net/security/tiered-crypto-storage/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/tiered-crypto-storage/</guid>
         
 
         <category>crypto-storage-management</category>
@@ -116,36 +94,43 @@
 
         <category>crypto-opsec</category>
         
+
+        <category>altcoin-wallet</category>
         
-        <category>primer</category>
+
+        <category>bitcoin-wallet</category>
         
-        <category>management</category>
+        
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
       <item>
 
         <title>Redeeming forked coins: Sweeping private keys and sweeping addresses</title>
-        <description>What is sweeping, when do which one and a tutorial for safe redeeming of BCH and BTG.</description>
+        <description>What is sweeping, when do which one and a tutorial for safe redeeming of bitcoin forks.</description>
 
         <pubDate>Thu, 23 Nov 2017 16:22:00 +0000</pubDate>
 
         <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/breadbutter3.png" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693897/atnet/__women/pexels-christina-morillo-1181681_qhe2t3.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/security/sweeping/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/security/sweeping/</guid>
-        
-
-        <category>sweeping</category>
+        <link>https://www.altcointrading.net/security/sweep-private-keys/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/sweep-private-keys/</guid>
         
 
-        <category>software</category>
+        <category>crypto-storage-management</category>
+        
+
+        <category>crypto-opsec</category>
+        
+
+        <category>bitcoin-wallet</category>
         
         
-        <category>software</category>
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
@@ -165,61 +150,45 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/virtualbox/</guid>
         
 
-        <category>crypto-wallets</category>
+        <category>crypto-storage-management</category>
         
 
-        <category>virtual-machine</category>
+        <category>crypto-opsec</category>
         
 
-        <category>cold-storage</category>
+        <category>altcoin-wallet</category>
         
 
-        <category>wallet-security</category>
-        
-
-        <category>crypto-security</category>
-        
-
-        <category>android-wallets</category>
+        <category>bitcoin-wallet</category>
         
         
-        <category>homelab</category>
-        
-        <category>tutorial</category>
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
       <item>
 
-        <title>How to avoid email address reuse with a single inbox</title>
+        <title>How to avoid email address reuse, but only having a single inbox</title>
         <description>A quick way to setup your mailbox in such a way that you will not have to reuse your email address again.</description>
 
         <pubDate>Thu, 22 Feb 2018 14:41:00 +0000</pubDate>
 
-        <author>FNY3000@altcointrading.net</author>
+        <author>info@altcointrading.net</author>
         <webmaster>security@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/coffee2.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1596693889/atnet/__women/pexels-andrea-piacquadio-3769021_uw6hdg.jpg" medium="image" />
 
         <link>https://www.altcointrading.net/security/email-reuse/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/security/email-reuse/</guid>
         
 
-        <category>tutanota</category>
+        <category>crypto-opsec</category>
         
 
-        <category>email-aliases</category>
-        
-
-        <category>crypto-security</category>
-        
-
-        <category>cyber-security</category>
+        <category>spend-your-crypto</category>
         
         
-        <category>tutorial</category>
-        
-        <category>management</category>
+        <category>dont-be-pwned</category>
         
       </item>
     
@@ -239,31 +208,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/malware/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>ghostmining</category>
-        
-
-        <category>cnet</category>
-        
-
-        <category>zdnet</category>
-        
-
-        <category>tecmint</category>
-        
-
-        <category>kaspersky-labs</category>
-        
-
-        <category>csoonline</category>
-        
-
-        <category>securelist</category>
-        
-
-        <category>cyber-security</category>
+        <category>crypto-opsec</category>
         
         
         <category>in-the-news</category>
@@ -286,34 +231,10 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/telegram/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>telegram</category>
-        
-
-        <category>telegrab</category>
-        
-
-        <category>talosintelligence</category>
-        
-
-        <category>talos</category>
-        
-
-        <category>kaspersky-labs</category>
-        
-
-        <category>threatpost</category>
-        
-
-        <category>securelist</category>
-        
-
-        <category>zdnet</category>
+        <category>crypto-opsec</category>
         
         
-        <category>software</category>
+        <category>in-the-news</category>
         
       </item>
     
@@ -333,13 +254,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/nocturnal-stealer/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>cryptojacking</category>
-        
-
-        <category>cyber-security</category>
+        <category>crypto-opsec</category>
         
         
         <category>in-the-news</category>
@@ -362,13 +277,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/impostors/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>ghostmining</category>
-        
-
-        <category>cyber-security</category>
+        <category>crypto-opsec</category>
         
         
         <category>in-the-news</category>
@@ -391,16 +300,10 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/mac-malware-crypto-basic-protection/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>cryptojacking</category>
-        
-
-        <category>cyber-security</category>
+        <category>crypto-opsec</category>
         
         
-        <category>primer</category>
+        <category>dont-be-pwned</category>
         
       </item>
     
@@ -420,16 +323,10 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/malicious-memes/</guid>
         
 
-        <category>crypto-malware</category>
-        
-
-        <category>cryptojacking</category>
-        
-
-        <category>cyber-security</category>
+        <category>crypto-opsec</category>
         
         
-        <category>in-the-news</category>
+        <category>dont-be-pwned</category>
         
       </item>
     
@@ -449,7 +346,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/tools/</guid>
         
 
-        <category>crypto-malware</category>
+        <category>crypto-opsec</category>
         
 
         <category>cryptojacking</category>
@@ -458,7 +355,7 @@
         <category>cyber-security</category>
         
         
-        <category>primer</category>
+        <category>dont-be-pwned</category>
         
       </item>
     
@@ -478,13 +375,10 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/cookieminer-2fa-bypass/</guid>
         
 
-        <category>crypto-malware</category>
+        <category>crypto-opsec</category>
         
 
         <category>cryptojacking</category>
-        
-
-        <category>cyber-security</category>
         
         
         <category>in-the-news</category>
@@ -507,16 +401,13 @@
         <guid isPermaLink="true">https://www.altcointrading.net/security/threats-cryptotraders-2020/</guid>
         
 
-        <category>crypto-malware</category>
+        <category>crypto-opsec</category>
         
 
         <category>cryptojacking</category>
         
-
-        <category>cyber-security</category>
         
-        
-        <category>in-the-news</category>
+        <category>dont-be-pwned</category>
         
       </item>
     

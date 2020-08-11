@@ -5,11 +5,14 @@ cloud:        true
 promoting:    payments-services
 note:         "p2p/dex bitcoin"
 
+slug:           generate-bitcoin-p2sh-address/
+
+
 layout:       at-trading
 title:        "How to generate P2SH addresses in Bitcoin Electrum wallet"
 description:  "Some dApps and non-custodial exchanges will only let you withdraw Bitcoin to P2SH addresses, here's how to generate yours from your seedphrase."
 
-slug:           generate-bitcoin-p2sh-address/
+
 categories:     [technical]
 tags:           [ p2sh-wallet , bitcoin-wallet ]
 date:           2020-08-04 00:22:00 +0700

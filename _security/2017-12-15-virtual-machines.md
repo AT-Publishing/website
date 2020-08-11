@@ -2,10 +2,12 @@
 layout:       security
 title:        "Virtual Machine Crypto Wallets: Should You Bother?"
 description:  "When does it make sense to put a crypto wallet on a virtual machine? Includes a full walkthrough tutorial on how to set up a cryptocurrency wallet in Virtualbox."
-tags:           [crypto-wallets, virtual-machine, cold-storage, wallet-security, crypto-security, android-wallets]
-categories:     [homelab, tutorial]
+
 promoting:      entertainment
-slug:           virtualbox
+slug:           virtualbox/
+tags:           [ crypto-storage-management, crypto-opsec, altcoin-wallet, bitcoin-wallet ]
+categories:     [ cryptocurrency-wallets ]
+
 date:           2017-12-15 12:22:00 +0700
 
 image:          ["https://res.cloudinary.com/atnetcloud/image/upload/v1586242335/atnet/cybersecurity/black-laptop-beside-audio-mixer-set-919734_ae2uzl.jpg"]
@@ -14,9 +16,6 @@ image_alt:
 
 related:
  - {"Altcoin Wallets in 2020 - Tried and true": "/altcoin-wallets/"}
- - {"IOTA wallets and cold storage strategies": "/security/iota"}
- - {"Sweeping wallet addresses: Redeeming forked coins": "/security/sweeping"}
- - {"Crypto Wallets on Virtual Machines: Should You Bother?": "/security/virtualbox"}
 ---
 
 Does it make sense to install your desktop crypto wallets on a virtual machine?

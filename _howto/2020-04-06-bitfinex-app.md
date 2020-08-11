@@ -11,7 +11,7 @@ note: "Trading"
 date: 2020-04-06 10:42:00 +0700
 permalink: /bitfinex-app/
 
-categories: [ trading-platforms ]
+categories: [ technical ]
 tags:       [ recommended-exchange, crypto-opsec, mobile-trading ]
 
 image:

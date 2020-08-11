@@ -6,9 +6,10 @@ promoting:    payments-services
 note:         P2SH address compatibility
 layout:       at-trading
 
-title:        How to safely move Litecoins between SegWit (P2SH) and legacy addresses
+title:        How to safely move Litecoin between SegWit P2SH (3) addresses and legacy (L) addresses
 description:  "Some exchanges don't support LTC withdrawals to P2SH wallets and other don't support legacy addresses. Here's how to convert between them."
-permalink:    moving-ltc-p2sh/
+
+slug:         move-ltc-p2sh/
 
 image:
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1596607764/atnet/_how-to/ltc-p2sh-transfers_hvn9gg.jpg"

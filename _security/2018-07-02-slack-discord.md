@@ -5,7 +5,7 @@ author_twitter: "_Karlvonbahnhof"
 layout:         security
 title:          "MacOS Malware Targeting Crypto Community, Spreading Through Admin Impostors"
 description:    "The variants of the particular malware will change but phishing and impostors are not going anywhere."
-tags:           [crypto-malware, ghostmining, cyber-security]
+tags:           [crypto-opsec]
 categories:     [in-the-news]
 promoting:      entertainment
 slug:           impostors

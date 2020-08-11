@@ -2,8 +2,8 @@
 layout:       security
 title:        "List of tools for scam detection"
 description:  "List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto."
-tags:           [crypto-malware, cryptojacking, cyber-security]
-categories:     [primer]
+tags:           [crypto-opsec, cryptojacking, cyber-security]
+categories:     [ dont-be-pwned ]
 promoting:      entertainment
 slug:           tools
 

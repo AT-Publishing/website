@@ -12,7 +12,7 @@ date: 2020-04-21 10:22:00 +0700
 
 slug: pay-with-bitcoin/
 
-categories: [management] # so this is a howto that doesn't have parent to strategy :(
+categories: [ technical ] # so this is a howto that doesn't have parent to strategy :(
 tags:       [ spend-your-crypto, crypto-opsec, bitcoin-wallet ]
 
 image:
