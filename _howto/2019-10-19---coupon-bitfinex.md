@@ -56,6 +56,12 @@ Use the Bitfinex app to trade from your phone, but restrict its capabilities so 
   <li class="popular-item">
     <a href="/bitfinex-app/">How to use the Bitfinex App in a secure way</a>
   </li>
+  <li class="popular-item">
+    <a href="/altcoin-wallets/">Crypto Wallet Guide: Where to store crypto in 2020</a>
+  </li>
+  <li class="popular-item">
+    <a href="/3-dangerous-mistakes-crypto-beginners/">3 Most Dangerous Beginner Mistakes in Crypto Trading</a>
+  </li>
 </ul>
 
 
