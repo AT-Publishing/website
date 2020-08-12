@@ -14,6 +14,7 @@ tags:       [ recommended-exchange, custodial-trading ]
 
 image:
 - https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg
+- https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1597212056/atnet/_how-to/bitfinex-check-certificate_kckdvn.jpg
 image_alt:
 - "Bitfinex referral code 5egV78YtlC"
 
@@ -37,7 +38,9 @@ No KYC required, no minumum deposit required.
 
 #### How to get fee discount on Bitfinex
 
-1. Go to `bitfinex.com`. Check you are on the correct site with the real SSL certificate.
+{% amp700cloud none {{page.image[1]}} %}
+
+1. Go to `bitfinex.com`. Check you are on the correct site with the genuine SSL certificate!
 2. Sign up and enter the referrer code `5egV78YtlC`. You can also use our [sign up link](http://bit.ly/the-cat-mouse-game) that enters the code for you.
 3. That's it! Start trading. The sooner you start trading, the bigger your fee discount is.
 
@@ -45,7 +48,7 @@ Your Bitfinex fee discount starts at 6% and reduces second by second in a linear
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Sign Up with Code</a>
 
-{% amp700 none {{page.image[0]}} %}
+{% amp700cloud none {{page.image[0]}} %}
 
 
 #### How to maximize your Bitfinex trading
