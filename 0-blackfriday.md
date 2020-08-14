@@ -9,8 +9,17 @@ permalink:    /blackfriday/
 
 date:         2019-02-20 03:14 +0700
 image:        [ 'https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/v1596005593/atnet/_banner/eternal-black-friday-crypto_cswzd4.jpg' ]
-author_name:  'GenericShill'
+author_name:  'JMT'
 author:       'mailto:jmt@altcointrading.net'
+
+
+interlink:
+- [ "/tag/tradingview-script-review/", "Best TradingView Scripts that you can use with FREE account", "Get started on TradingView for FREE with these community scripts, and if you get tired of the nagging at chart layout save, you can always upgrade to PRO.", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]
+- [ "/tensorcharts-tutorials/", "Tensorcharts Tutorials", "OK. Tensorcharts are not the easiest crypto charting app to get the grips of. But that also means the crowd is not there, and that it can add an edge to your trading setup.", "https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.jpg"]
+- [ "/altcoin-wallets/", "Best Altcoin Wallets - Updated for 2020", "Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? There are alternatives, no need to worry. Will be somewhat less secure but then Ledger wallet is also a blackbox.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
+
+
+
 ---
 
 ## Black Friday is over, long live Black Friday
@@ -26,7 +35,9 @@ The Black Friday 2020 date **November 27th, 2020** is still long way off, but so
 * [Past Black Friday Sales 2018](#past2018)
 * [Anticipated Black Friday Deals 2020](#anticipated)
 
-## Ledger Discount Code July 2020: Nano X **20% OFF**
+## Latest Deal: Ledger Discount Code July 2020:
+
+These are Ledger wallet discount codes that give you **20% OFF** for Ledger Nano X. 
 
 {{ site.stars.five }}
 
@@ -42,7 +53,7 @@ You get a list of 79 discount codes to choose from:
 <a href="https://bit.ly/2AqVG9p" class="btn">Get your Nano X 20% Discount</a>
 </p>
 
-### It's useful to have multiple hardware wallets!
+##### It's good to have a couple of hardware wallets!
 
 The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
@@ -51,6 +62,17 @@ The best way to make use of the Ledger discount code deal is to have as big a to
 * So, if you trade mostly with, say, Bitcoin as your base currency, Ledger Nano S is the most time-, cost- and security-efficient wallet to serve as your trading wallet.
 
 It's also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
+
+
+&nbsp;
+
+_______
+
+&nbsp;
+
+### Make the most of the Eternal Black Friday deals
+
+{% include article/bf-related.html %}
 
 
 &nbsp;
