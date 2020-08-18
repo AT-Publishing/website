@@ -28,7 +28,7 @@ The idea behind the Bart pattern is that there was an attempt to start a markup 
 
 #### The Inverse Bart formation
 
-Sometimes referred to as "traB". Alernative name would be "poop and scoop".
+Sometimes referred to as "traB". Alernative name would be "poop and scoop", but this one is not used as much anymore.
 
 {% amp700cloud {{page.image[1]}} %}
 
