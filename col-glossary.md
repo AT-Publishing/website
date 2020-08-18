@@ -11,4 +11,4 @@ What you will find all the crypto trading jargon you even wanted to understand b
 
 A lot of crypto jargon are actually nicknames for common indicators from technical analysis. Those glossary entries have a super short explanation of the concept and then links to more thorough content here on ATNET.
 
-Most of the jargon is just funny, though. Don't worry: [The Squishy](/glossary/squishy/), [the Bart and Trab](/glossary/bart/), [the BGD](/glossary/squishy/) - we have it all.
+Most of the jargon is just funny, though. Don't worry: [The Squishy](/glossary/squishy/), [the Bart and Trab](/glossary/bart/), [the BGD](/glossary/bgd/) - we have it all.
