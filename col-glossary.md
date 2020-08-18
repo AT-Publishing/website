@@ -1,11 +1,11 @@
 ---
 layout: col-glossary
-title: "Cryptocurrency Trading Glossary"
-description: "Glossary of crypto trading jargon and technical analysis terms most often used in crypto trading communities."
+title: "ATNET Crypto Trading Glossary"
+description: "Glossary crypto trading terms on ATNET. All the crypto trading jargon and technical analysis terms often used in crypto trading communities."
 permalink: /glossary/
 ---
 
-This is the crypto traders' glossary, for lack of better term.
+This is the crypto traders' glossary on ATNET (AltcoinTrading.NET).
 
 What you will find here are the most common technical indicators that are used in crypto trading. Each has a super short explanation of the concept and links to more thorough content.
 
