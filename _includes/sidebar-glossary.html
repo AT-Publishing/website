@@ -1,5 +1,5 @@
 {% if page.categories %}
-{% assign cat_related = site.glossary | where: "categories", page.categories[0] | sample: 5 %}
+{% assign cat_related = site.glossary | where: "categories", page.categories[0] | sample: 1 %}
 {% endif %}
 
 <div id="sidebar">
