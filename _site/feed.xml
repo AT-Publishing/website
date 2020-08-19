@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2020 07:36:27 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2020 07:36:27 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2020 08:12:18 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2020 08:12:18 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -3639,127 +3639,195 @@ Trading Divergences
     
       <item turbo="true">
         <title><![CDATA[ Cryptocurrency Strategy for Beginners ]]></title>
-        <description><![CDATA[ Lo and behold, there is a strategy even to hodling. ]]></description>
+        <description><![CDATA[ Intro to crypto strategy for beginners. Lo and behold, there is a strategy even to hodling. ]]></description>
 
-        <content:encoded><![CDATA[ It’s not only that crypto trading is not for everyone. The truth is that sometimes there is just not a good opportunity to trade: Too choppy, too aggressive stop hunts, volume too thin.
+        <content:encoded><![CDATA[ Let’s face it right away.
 
-So, how can you turn a profit on your crypto when you don’t want to trade with your holdings?
+Crypto trading is not for everyone
 
-Build a ‘hodl’ strategy
+And it’s not just that crypto trading is not for everyone.
 
-This is the simplest method ever. The basis of it is simply to decide whether you think a cryptocurrency is worth keeping for the long run, and hold it in your wallet.
+The truth is that many times, there is just not a good opportunity to trade.
 
-With only a little more effort in your crypto holding strategy, you can make the actual profit taking much simpler for yourself:
+The market is choppy, there are stop hunts, the volume is too thin.
+
+So, there is this question that bothers all crypto beginners: Can you profit from your crypto holdings even if you don’t want to trade?
+
+You can, but for the most part only if you are ultra-longterm bullish on crypto.
+
+Let’s take a look at the options you have.
+
+1/ Build a “hodl” strategy
+
+This is the simplest method ever.
+
+The basis of it is simply to decide whether you think a cryptocurrency is worth keeping for the long run, and hold it in your wallet.
+
+With only a little more effort in your crypto holding strategy, you can make the actual profit taking much simpler for yourself.
+
+Basic Hodl Strategy Step by Step
 
 
-  First, look for good fundamentals like network effect, resistance to bad news, a use case showing that it’s more than a vaporware.
+  Find a crypto with good fundamentals: network effect, resistance to bad news, a use case showing that it’s more than a vaporware.
   Once you find cryptocurrencies you want to keep, decide on how long you are willing to hold them. Ballpark is good enough: A decade? A year?
-  Next, split that period and make a mental note on how often you will re-evaluate your investment. You could go with seasonal cycles - 6 months, 1 year, or a halving cycle.
-  Every time your point of re-evaluation comes, you can decide to rebalance and take out your principal amount from the profits, or to just keep holding.
+  Split that period and make a mental note on how often you will re-evaluate your investment. You can go with seasonal cycles, as long as they are relevant. Crypto traders all week all year, but there are seasonal things like the halving cycle of Bitcoin.
+  Every time your point of re-evaluation comes, you can decide to rebalance and take out some amount from your profits, or to cut your losses, or to just keep holding everything.
 
 
-Lending your crypto
+If you are wondering about how much to invest and how to pick the best time to buy - that’s already speculation. If you are a beginner, you will do best with DCA, which is dollar cost averaging.
+
+
+  Learn everything about dollar cost averaging in ATNET Strategy.
+
+
+2/ Crypto Lending
 
 If you have significant amount of Bitcoins (or Ether, or any other cryptocurrency that is traded on an exchange) you can lend it to crypto traders and other people who will pay you interest.
 
-There is a range of lending platforms where you can do this. There are places like Ethlend where you can lend a range of some 250 ERC-20 tokens. You can also go for margin and swap funding options for major coins via exchanges like Bitfinex, Bitmex, Poloniex etc.
+There is a range of lending platforms where you can do this. There are places like Ethlend where you can lend a range of some 250 ERC-20 tokens.
 
-For the lazy people who do not want to manually manage the lending stuff, a crypto lending bot can take care of it either for free or for a small fee.
+You can also go for margin and swap funding options for major coins via exchanges like Bitfinex or Bitmex.
 
-The costs depend on whether you will go for an open-source code from Github that you will have to set up and configure yourself, or if you will go the easier way of a commercial product.
 
-Running a Masternode
+  Read more on how to manage the amounts and rates for which you lend out in ATNET Strategy post on lending.
 
-A masternode is simply a cryptocurrency full node with a wallet that keeps the full copy of the blockchain in real time. By that it supports the coin’s network by hosting a full copy of the ledger.
 
-A masternode must be always up and running and is required to perform certain special tasks in various cryptocurrencies. You as the masternode owner get compensated for your masternode doing these tasks.
+If you don’t want to manually manage the lending rates, a crypto lending bot can take care of it either for free or for a fee. The platform 3commas offers easily configurable crypto trading bots.
 
-Keep in mind that most projects have different amount of coins to be held in the node wallet as a minimum to start running your node as a masternode.
+3/ Run a Masternode
 
-Also, the requirement of being up and running 24/7 might be a bit discouraging.
+Masternode is a cryptocurrency full node with a wallet that keeps the full copy of the blockchain. By that it supports the coin’s network.
 
-Staking
+A masternode must be always up and running and is required to perform certain tasks for the cryptocurrency network. You as the masternode owner get a payout in your node’s currency as a compensation for this.
+
+In addition to these responsibilities, running a masternode also requires an upfront investment.
+
+You will need to buy the node’s currency and hold it in the node wallet as a minimum to start running your node as a masternode.
+
+4/ Staking
 
 Staking might be the easiest way to get some extra income on some of the cryptocurrencies you hold.
 
 It is in fact less work than holding, because it requires no strategy or evaluation - as long as you are primarily collecting more of a coin.
 
-In order to be able to start staking, your selected coins have to follow the proof-of-stake consensus mechanism (this is the only way for stakers to be rewarded and the blockchain to be secured at the same time).
+In order to stake a cryptocurrency, it has to follow the proof-of-stake consensus mechanism. But in 2020, there are variations of “wrapped” cryptocurrencies. That means you can also stake bitcoin in its wrapped form, or even a fiat currency. The crypto trading platform Kraken is one of the places that lets you do that.
 
-If you own the proof-of-stake coins, you just keep them in a staking wallet to generate new coins. No effort included, no minimum limit on how much of the coin you have to hold to be able to stake.
+In the past you could earn up to 10% extra coins in a year by just holding and staking them. As the barrier to start staking gradually became lower, the earnings also decreased.
 
-You can earn some 10% extra coins in a year by just holding and staking them. It is like a regular dividend or profit on your cryptocurrencies.
+As of 2020, for the more mainstream cryptocurrencies you will earn better by lending them via margin funding.
 
-Mining and other early opportunities: Bounties, Rebates, Cashback…
 
-Mining of the most popular proof-of-work coins (like Bitcoin) is a by and large a lost case unless you are in special circumstances. These days, mining is only really profitable if you are a big player, but if you have cheap electricity and a decent gaming PC you still can make a small profit on it.
+  Start providing funding on Bitfinex
 
-However, the entry barriers are serious, so mining is usually limited to mining farms and professionals. There are also some cloud mining services but when you look into their terms of use you will quickly notice you will not make a single penny on it.
 
-If you have mining rigs and cooling stuff left over from when small scale Bitcoin mining still paid, you can still turn some profit with that on the altcoin markets. There are new proof-of-work cryptocurrencies still being launched where you can get in early. On AltcoinTrading.NET, you can sometimes find out about these new coins if you browse the Crypto Airdrops section.
+5/ Mining and other early opportunities: Bounties, Rebates, Cashback…
+
+In 2020, mining of the most popular proof-of-work coins (like Bitcoin) is a lost case unless you are in special circumstances.
+
+These days, mining is only really profitable if you are a big player, if you have cheap electricity and special equipment.
+
+If you have mining rigs and cooling stuff left over from when small scale Bitcoin mining still paid off, you can still make some money with that on the altcoin markets.
+
+There are new proof-of-work cryptocurrencies getting launched all the time. With new coins you can get into mining early when it’s easy and pays well.
+
+Here on ATNET we sometimes alert you on these opportunities through our Crypto Airdrops page.
  ]]></content:encoded>
 
-        <turbo:content><![CDATA[ &lt;p&gt;It’s not only that crypto trading is not for everyone. The truth is that sometimes there is just not a good opportunity to trade: Too choppy, too aggressive stop hunts, volume too thin.&lt;/p&gt;
+        <turbo:content><![CDATA[ &lt;p&gt;Let’s face it right away.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;So, how can you turn a profit on your crypto when you don’t want to trade with your holdings?&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;crypto-trading-is-not-for-everyone&quot;&gt;Crypto trading is not for everyone&lt;/h3&gt;
 
-&lt;h3 id=&quot;build-a-hodl-strategy&quot;&gt;Build a ‘hodl’ strategy&lt;/h3&gt;
+&lt;p&gt;And it’s not &lt;em&gt;just&lt;/em&gt; that crypto trading is not for everyone.&lt;/p&gt;
 
-&lt;p&gt;This is the simplest method ever. The basis of it is simply to decide whether you think a cryptocurrency is worth keeping for the long run, and hold it in your wallet.&lt;/p&gt;
+&lt;p&gt;The truth is that many times, there is just not a good opportunity to trade.&lt;/p&gt;
 
-&lt;p&gt;With only a little more effort in your crypto holding strategy, you can make the actual profit taking much simpler for yourself:&lt;/p&gt;
+&lt;p&gt;The market is choppy, there are stop hunts, the volume is too thin.&lt;/p&gt;
+
+&lt;p&gt;So, there is this question that bothers all crypto beginners: &lt;strong&gt;Can you profit from your crypto holdings even if you don’t want to trade?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can, but for the most part only if you are ultra-longterm bullish on crypto.&lt;/p&gt;
+
+&lt;p&gt;Let’s take a look at the options you have.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-build-a-hodl-strategy&quot;&gt;1/ Build a “hodl” strategy&lt;/h3&gt;
+
+&lt;p&gt;This is the simplest method ever.&lt;/p&gt;
+
+&lt;p&gt;The basis of it is simply to decide whether you think a cryptocurrency is worth keeping for the long run, and hold it in your wallet.&lt;/p&gt;
+
+&lt;p&gt;With only a little more effort in your crypto holding strategy, you can make the actual profit taking much simpler for yourself.&lt;/p&gt;
+
+&lt;h4 id=&quot;basic-hodl-strategy-step-by-step&quot;&gt;Basic Hodl Strategy Step by Step&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Find a crypto with good fundamentals: &lt;strong&gt;network effect, resistance to bad news, a use case&lt;/strong&gt; showing that it’s more than a vaporware.&lt;/li&gt;
+  &lt;li&gt;Once you find cryptocurrencies you want to keep, decide on how long you are willing to hold them. Ballpark is good enough: &lt;strong&gt;A decade? A year?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Split that period and make a mental note on &lt;strong&gt;how often you will re-evaluate&lt;/strong&gt; your investment. You can go with seasonal cycles, as long as they are relevant. Crypto traders all week all year, but there are seasonal things like &lt;strong&gt;the halving cycle&lt;/strong&gt; of Bitcoin.&lt;/li&gt;
+  &lt;li&gt;Every time your point of re-evaluation comes, you can decide to rebalance and take out some amount from your profits, or to cut your losses, or to just keep holding everything.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you are wondering about how much to invest and how to pick the best time to buy - that’s already speculation. If you are a beginner, you will do best with DCA, which is dollar cost averaging.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;First, look for good fundamentals like network effect, resistance to bad news, a use case showing that it’s more than a vaporware.&lt;/li&gt;
-  &lt;li&gt;Once you find cryptocurrencies you want to keep, decide on how long you are willing to hold them. Ballpark is good enough: A decade? A year?&lt;/li&gt;
-  &lt;li&gt;Next, split that period and make a mental note on how often you will re-evaluate your investment. You could go with seasonal cycles - 6 months, 1 year, or a halving cycle.&lt;/li&gt;
-  &lt;li&gt;Every time your point of re-evaluation comes, you can decide to rebalance and take out your principal amount from the profits, or to just keep holding.&lt;/li&gt;
+  &lt;li&gt;Learn everything about &lt;a href=&quot;/strategy/dollar-cost-averaging/&quot;&gt;dollar cost averaging in ATNET Strategy&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;lending-your-crypto&quot;&gt;Lending your crypto&lt;/h3&gt;
+&lt;h3 id=&quot;2-crypto-lending&quot;&gt;2/ Crypto Lending&lt;/h3&gt;
 
 &lt;p&gt;If you have significant amount of Bitcoins (or Ether, or any other cryptocurrency that is traded on an exchange) you can lend it to crypto traders and other people who will pay you interest.&lt;/p&gt;
 
-&lt;p&gt;There is a range of &lt;a href=&quot;https://www.cryptocoinzone.com/bitcoin-lending/&quot;&gt;lending platforms&lt;/a&gt; where you can do this. There are places like Ethlend where you can lend a range of some 250 ERC-20 tokens. You can also go for margin and swap funding options for major coins via exchanges like Bitfinex, Bitmex, Poloniex etc.&lt;/p&gt;
+&lt;p&gt;There is a range of &lt;a href=&quot;https://www.cryptocoinzone.com/bitcoin-lending/&quot;&gt;lending platforms&lt;/a&gt; where you can do this. There are places like Ethlend where you can lend a range of some 250 ERC-20 tokens.&lt;/p&gt;
 
-&lt;p&gt;For the lazy people who do not want to manually manage the lending stuff, a crypto lending bot can take care of it either for free or for a small fee.&lt;/p&gt;
+&lt;p&gt;You can also go for margin and swap funding options for major coins via exchanges like Bitfinex or Bitmex.&lt;/p&gt;
 
-&lt;p&gt;The costs depend on whether you will go for an open-source code from Github that you will have to set up and configure yourself, or if you will go the easier way of a commercial product.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read more on how to manage the amounts and rates for which you lend out in &lt;a href=&quot;/strategy/cryptocurrency-lending/&quot;&gt;ATNET Strategy post on lending&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;running-a-masternode&quot;&gt;Running a Masternode&lt;/h3&gt;
+&lt;p&gt;If you don’t want to manually manage the lending rates, a crypto lending bot can take care of it either for free or for a fee. The &lt;a href=&quot;http://bit.ly/34Zampi&quot;&gt;platform 3commas&lt;/a&gt; offers easily configurable crypto trading bots.&lt;/p&gt;
 
-&lt;p&gt;A masternode is simply a cryptocurrency full node with a wallet that keeps the full copy of the blockchain in real time. By that it supports the coin’s network by hosting a full copy of the ledger.&lt;/p&gt;
+&lt;h3 id=&quot;3-run-a-masternode&quot;&gt;3/ Run a Masternode&lt;/h3&gt;
 
-&lt;p&gt;A masternode must be always up and running and is required to perform certain special tasks in various cryptocurrencies. You as the masternode owner get compensated for your masternode doing these tasks.&lt;/p&gt;
+&lt;p&gt;Masternode is a cryptocurrency full node with a wallet that keeps the full copy of the blockchain. By that it supports the coin’s network.&lt;/p&gt;
 
-&lt;p&gt;Keep in mind that most projects have different amount of coins to be held in the node wallet as a minimum to start running your node as a masternode.&lt;/p&gt;
+&lt;p&gt;A masternode must be always up and running and is required to perform certain tasks for the cryptocurrency network. You as the masternode owner get a payout in your node’s currency as a compensation for this.&lt;/p&gt;
 
-&lt;p&gt;Also, the requirement of being up and running 24/7 might be a bit discouraging.&lt;/p&gt;
+&lt;p&gt;In addition to these responsibilities, running a masternode also requires an upfront investment.&lt;/p&gt;
 
-&lt;h3 id=&quot;staking&quot;&gt;Staking&lt;/h3&gt;
+&lt;p&gt;You will need to buy the node’s currency and hold it in the node wallet as a minimum to start running your node as a masternode.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-staking&quot;&gt;4/ Staking&lt;/h3&gt;
 
 &lt;p&gt;Staking might be the easiest way to get some extra income on some of the cryptocurrencies you hold.&lt;/p&gt;
 
 &lt;p&gt;It is in fact less work than holding, because it requires no strategy or evaluation - as long as you are primarily collecting more of a coin.&lt;/p&gt;
 
-&lt;p&gt;In order to be able to start staking, your selected coins have to follow the proof-of-stake consensus mechanism (this is the only way for stakers to be rewarded and the blockchain to be secured at the same time).&lt;/p&gt;
+&lt;p&gt;In order to stake a cryptocurrency, it has to follow the proof-of-stake consensus mechanism. But in 2020, there are variations of “wrapped” cryptocurrencies. That means you can also stake bitcoin in its wrapped form, or even a fiat currency. The crypto trading platform Kraken is one of the places that lets you do that.&lt;/p&gt;
 
-&lt;p&gt;If you own the proof-of-stake coins, you just keep them in a staking wallet to generate new coins. No effort included, no minimum limit on how much of the coin you have to hold to be able to stake.&lt;/p&gt;
+&lt;p&gt;In the past you could earn up to 10% extra coins in a year by just holding and staking them. As the barrier to start staking gradually became lower, the earnings also decreased.&lt;/p&gt;
 
-&lt;p&gt;You can earn some 10% extra coins in a year by just holding and staking them. It is like a regular dividend or profit on your cryptocurrencies.&lt;/p&gt;
+&lt;p&gt;As of 2020, for the more mainstream cryptocurrencies you will earn better by lending them via margin funding.&lt;/p&gt;
 
-&lt;h3 id=&quot;mining-and-other-early-opportunities-bounties-rebates-cashback&quot;&gt;Mining and other early opportunities: Bounties, Rebates, Cashback…&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/catch-me-if-ya-can&quot;&gt;Start providing funding on Bitfinex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Mining of the most popular proof-of-work coins (like Bitcoin) is a by and large a lost case unless you are in special circumstances. These days, mining is only really profitable if you are a big player, but if you have cheap electricity and a decent gaming PC you still can make a small profit on it.&lt;/p&gt;
+&lt;h3 id=&quot;5-mining-and-other-early-opportunities-bounties-rebates-cashback&quot;&gt;5/ Mining and other early opportunities: Bounties, Rebates, Cashback…&lt;/h3&gt;
 
-&lt;p&gt;However, the entry barriers are serious, so mining is usually limited to mining farms and professionals. There are also some cloud mining services but when you look into their terms of use you will quickly notice you will not make a single penny on it.&lt;/p&gt;
+&lt;p&gt;In 2020, mining of the most popular proof-of-work coins (like Bitcoin) is a lost case unless you are in special circumstances.&lt;/p&gt;
 
-&lt;p&gt;If you have mining rigs and cooling stuff left over from when small scale Bitcoin mining still paid, you can still turn some profit with that on the altcoin markets. There are new proof-of-work cryptocurrencies still being launched where you can get in early. On AltcoinTrading.NET, you can sometimes find out about these new coins if you browse the &lt;a href=&quot;/airdrops/&quot;&gt;Crypto Airdrops&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;These days, mining is only really profitable if you are a big player, if you have cheap electricity and special equipment.&lt;/p&gt;
+
+&lt;p&gt;If you have mining rigs and cooling stuff left over from when small scale Bitcoin mining still paid off, you can still make some money with that on the altcoin markets.&lt;/p&gt;
+
+&lt;p&gt;There are new proof-of-work cryptocurrencies getting launched all the time. With new coins you can get into mining early when it’s easy and pays well.&lt;/p&gt;
+
+&lt;p&gt;Here on ATNET we sometimes alert you on these opportunities through our &lt;a href=&quot;/airdrops/&quot;&gt;Crypto Airdrops&lt;/a&gt; page.&lt;/p&gt;
  ]]></turbo:content>
 
         <author><![CDATA[ cryptolounge ]]></author>
         <dc:creator><![CDATA[ cryptolounge ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/details1.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" medium="image" />
         <pubDate>Thu, 20 Jun 2019 19:02:00 +0000</pubDate>
         <link>https://www.altcointrading.net/cryptocurrency-strategy-beginners/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/cryptocurrency-strategy-beginners/</guid>
@@ -3767,10 +3835,10 @@ If you have mining rigs and cooling stuff left over from when small scale Bitcoi
         <slash:comments>0</slash:comments>
         <language>en</language>
 
-        <category><![CDATA[ crypto-trading-strategy ]]></category>
         <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
         
-        <category><![CDATA[ crypto-technical-analysis ]]></category>
+        <category><![CDATA[ crypto-trading-method ]]></category>
         
 
         <yandex:related>
