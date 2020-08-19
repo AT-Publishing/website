@@ -8,7 +8,7 @@ slug:       bgd/
 title:      BGD
 hook:       What do crypto traders call BGD and how to trade it?
 
-categories: [trading]
+categories: [crypto-jargon]
 tags:       ["bgd", "technical-analysis", "crypto-exchange", "crypto-market"]
 note:       jargon
 

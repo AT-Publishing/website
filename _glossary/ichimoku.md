@@ -8,7 +8,7 @@ slug:       ichimoku/
 title:      Ichimoku Cloud
 hook:       
 
-categories: [trading]
+categories: [technical-analysis]
 tags:       ["ichimoku", "ichimoku-cloud", "technical-analysis", "crypto-exchange", "crypto-market"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.jpg"]

@@ -3,17 +3,12 @@
 {% assign handle = page.promoting %}
 {% case handle %}
   {% when "trading" %}
-
-    {{ site.bfx_336x280 }}
-    <hr class="skinny">
-    {{ site.tvfx_320-200 }}
+    {{ site.bfx_vid_tall }}
     <hr class="skinny">
 
   {% when "analysis" %}
-
-    {{ site.bfx_336x280 }}
+    {{ site.tvfx_320-200 }}
     <hr class="skinny">
-    {{ site.mex_336x280 }}
 
   {% when "payments-services" %}
     <hr class="skinny">
@@ -29,20 +24,13 @@
     {{ site.tvfx_320-200 }}
     <hr class="skinny">
 
-
-
-
   {% when "exchanges" %}
     {{ site.localcryptos_square }}
-    <hr class="skinny">
-    {{ site.tvlovescrypto }}
     <hr class="skinny">
     {{ site.mex_336x280 }}
     <hr class="skinny">
 
   {% when "security" %}
-    {{ site.3commas_tall }}
-    <hr class="skinny">
     {{ site.vtoro}}
     <hr class="skinny">
     {{ site.bf4 }}
@@ -53,9 +41,8 @@
     <hr class="skinny">
     {{ site.mex_336x280 }}
     <hr class="skinny">
-
-
     {{ site.vtoro}}
     <hr class="skinny">
+
 {% endcase %}
 </section>

@@ -1,0 +1,27 @@
+{% if page.categories %}
+{% assign cat_related = site.glossary | where: "categories", page.categories[0] | sample: 5 %}
+{% endif %}
+
+<div id="sidebar">
+
+  <div class="clearfix"></div>
+  {{ site.tvfx_320-200 }}
+  <div class="clearfix"></div>
+
+  {% if cat_related[0] %}
+  <div class="row box-lvl-a">
+      <h4 class="tagged-as">ATNET Glossary on {{ page.categories[0] | capitalize }}</h4>
+      {% for post in cat_related %}
+        {% include category/tall.html %}
+      {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="clearfix"></div>
+  {{ site.bfx_vid_tall }}
+  <div class="clearfix"></div>
+
+
+</div><!-- end sidebar-->
+
+<p>&nbsp;</p>

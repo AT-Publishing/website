@@ -8,7 +8,7 @@ slug:       sideways/
 title:      Sideways Market
 hook:       "What is a sideways market, also known as ranging market, and how to trade it."
 
-categories: [trading]
+categories: [technical-analysis]
 tags:       ["ranging-market", "wyckoff-trading", "wyckoff-ranges", "crypto-market"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1592815183/atnet/_glossary/w_accum1_xtnaua.jpg"]

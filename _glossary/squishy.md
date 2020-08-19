@@ -8,7 +8,7 @@ slug:       squishy/
 title:      Squishy
 hook:       What do crypto traders call Squishy and how to trade it?
 
-categories: [trading]
+categories: [crypto-jargon]
 tags:       ["squishy", "macd", "technical-analysis", "crypto-exchange", "crypto-market"]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586939760/atnet/_glossary/macd-squishy.jpg"]

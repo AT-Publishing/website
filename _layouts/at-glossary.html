@@ -8,7 +8,7 @@ layout: default-news
     <section class="altcointrading-blog-header">
       <div class="row">
        <div class="seven columns">
-          <h1 class="post post-main"><strong>{{ page.title }}</strong>&nbsp;[Crypto Trading Glossary]</h1>
+          <h1 class="post post-main">[ATNET Crypto Trading Glossary]&nbsp;<strong>{{ page.title }}</strong></h1>
           {% include article/meta.html %}
 
        </div>
@@ -25,9 +25,6 @@ layout: default-news
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                <div id="at-promo-horizontal">
-                  {% include promoting-horizontal.html %}
-                </div>
                 <blockquote cite="{{ page.url | prepend: site.url }}">
                   {% if page.hook %}{{ page.hook }}{% else %}{{ page.description }}{% endif %}
                 </blockquote>
@@ -63,9 +60,10 @@ layout: default-news
         </div><!-- 8 -->
         <div class="four columns nomargintop">
           <aside>
-            <div class="clearfix"></div>
-            {% include sidebar-post.html %}
-            <div class="clearfix"></div>
+
+            {% include sidebar-glossary.html %}
+            
+
 
           </aside>
         </div><!-- 4 -->
@@ -73,6 +71,10 @@ layout: default-news
       <div class="row">
         <p>&nbsp;</p>
         {% include article/cta.html %}
+        <p>&nbsp;</p>
+        <div id="at-promo-horizontal">
+          {% include promoting-horizontal.html %}
+        </div>
 
       </div>
   </div><!-- row -->
