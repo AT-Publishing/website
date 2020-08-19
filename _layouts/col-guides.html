@@ -43,7 +43,7 @@ layout: default
           <span class="note">Recommended trading platforms: Why and what they do best</span>
           <ul>
             {% for post in howto_posts %}
-            {% if post.categories contains "exchanges" %}
+            {% if post.categories contains "trading-platforms" %}
             <li class="popular-item">
               <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
                 <span class="tag lvl-ab">Platforms</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
@@ -52,7 +52,7 @@ layout: default
             {% endfor %}
           </ul>
 
-          <span class="note">Technicalities that you might need to know when moving crypto around</span>
+          <span class="note">The very basics of how to manage your storage and trading apps. There are basic technicalities that you need to know when moving crypto around.</span>
           <ul>
             {% for post in howto_posts %}
             {% if post.categories contains "technical" %}
@@ -63,19 +63,6 @@ layout: default
             {% endif %}
             {% endfor %}
           </ul>
-
-          <span class="note">The very basics of how to manage your storage and trading apps</span>
-          <ul>
-            {% for post in howto_posts %}
-            {% if post.categories contains "management" %}
-            <li class="popular-item">
-              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-                <span class="tag lvl-b">Stash management</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-
 
 
         </div>
