@@ -1,6 +1,6 @@
 title: "AltcoinTrading.NET"
-subtitle: "Trading strategies, crypto trading opsec primers, airdrops & early opportunities. Value is where the crowd isn't."
-description: "Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_"
+subtitle: "Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't."
+description: "ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_"
 baseurl: ""
 url: "https://www.altcointrading.net"
 timezone: "Etc/GMT"
@@ -10,13 +10,6 @@ plugins: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 ga: UA-73503011-2
 
-
-strategy_callout: '<h4>Coming up in Strategy</h4><p>Cryptotwitter is bitching about it, we are writing about it: trading failed patterns.</p>'
-security_callout: '<h4>Coming up in Security on Tue 17 April:</h4><p>Best ways to get your crypto stolen.</p>'
-series_callout: '<h4>Coming up in #DEX series</h4><p>General update in case you are too busy shorting the house: What has been new in the DEX space lately?</p>'
-teaser: '<h4>Oct 23 | Recent Most Read</h4> - Fidelity Full Data File https://www.thebusinessofcrypto.com/company/fidelity/<br> - Blokchain Gaming Companies Leaderboard https://www.thebusinessofcrypto.com/company/markets/gaming/<br> - Tokenization can boost startups in growing industries like home remodeling https://www.altcointrading.net/tokenization-startup-boost/'
-
-shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/china-margin">Binance</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask">LocalCryptos (Anonymous p2p BTC, ETH, LTC)</a>, <a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a></p></section>'
 
 # this will need to get changed to all blade for a week
 jekyll_get:
@@ -181,6 +174,8 @@ compress_html:
   profile: false
   startings: []
 
+
+shill_links: '<section class="sidebar-nl container-center"><h4>Support this publication by using our shill links</h4><p>Good scriptable charts: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-tv">TradingView</a></p><p>Good crypto trading: <a rel="nofollow" target="_blank" href="http://bit.ly/china-margin">Binance</a></p><p>Hardware wallets: <a rel="nofollow" target="_blank" href="http://bit.ly/atnet-nano-s">Ledger wallet</a></p><p>Easiest spot buys and cashouts: <a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask">LocalCryptos (Anonymous p2p BTC, ETH, LTC)</a>, <a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a></p></section>'
 
 mailchimp: '<div class="mailchimpfix">
 <amp-iframe width="400px" height="300px" layout="fixed" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
@@ -353,7 +348,7 @@ bfx_long: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exch
 data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px">
 </amp-img></a></div>'
 
-bfx_vid_tall: '<div class="clearfix adfix"><small> --- advertisement --- </small><br><a rel="nofollow" href="http://bit.ly/bfx-vid">
+bfx_vid_tall: '<div id="bfx-vid-tall" class="clearfix adfix"><small> --- advertisement --- </small><br><a rel="nofollow" href="http://bit.ly/bfx-vid">
 <amp-video width="350" height="700" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.mp4"
 poster="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_700,w_350/v1597818253/atnet/_banner/bfx-app-poster_jk7ssg.jpg" layout="responsive" controls autoplay>
 <div fallback><p>Your browser does not support HTML5 video.</p></div><source type="video/mp4" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.mp4"><source type="video/webm" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.webm"></amp-video></a>'
@@ -366,9 +361,7 @@ advcash_728x90: '<div class="text-center"><a rel="nofollow" target="_blank" href
 cmama_buy_long: '<div class="containter-center"><div class="clearfix adfix"><small> --- article continues after advertisement --- </small><br><a rel="nofollow" title="Coinmama buy crypto with credit card" href="https://bit.ly/at-cmama2020-buy-ccard" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg" alt="Coinmama buy crypto with credit card" data-original-width="700px" data-original-height="270px" layout="responsive" width="700px" height="270px"></amp-img></a></div></div>'
 cmama_sell_400x350: '<div class="containter-center"><a rel="nofollow" title="Coinmama sell crypto for SEPA or SWIFT" href="https://bit.ly/at-cmama2020-sell" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_350,w_400/v1586843999/atnet/_banner/coinmama_sell1.jpg" alt="Coinmama sell crypto for SEPA or SWIFT" data-original-width="400px" data-original-height="350px" layout="responsive" width="400px" height="350px"></amp-img></a></div>'
 
-#
-   #https://bit.ly/at-cmama2020-sell
-
+#https://bit.ly/at-cmama2020-sell
 #### 3commas ####
 
 3commas_tall: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/34Zampi"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501406/atnet/_banner/3commas_tall_vlbtgu.jpg" alt="3commas DCA bot and trading automation" data-original-width="400px" data-original-height="798px" width="400px" height="798px" layout="responsive"></amp-img></a></div><br>'

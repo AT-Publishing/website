@@ -26,7 +26,7 @@
 </title>
 
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
-<meta name="description" content="Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
+<meta name="description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
 <meta name="keywords" content="altcoin trading, cryptocurrency trading, crypto airdrops">
 <meta name="author" content="https://reddit.com/u/KarlVonBahnhof">
 
@@ -34,7 +34,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET" />
-<meta property="og:description" content="Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_" />
+<meta property="og:description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_" />
 <meta property="og:url" content="https://www.altcointrading.net/page8/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-07-29 07:02:49 +0000" />
@@ -2247,7 +2247,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-smallad"
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
        }
     },
     "clickMainHome": {
@@ -2256,7 +2257,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-main"
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
        }
     },
     "clickHomeMidAd": {
@@ -2265,7 +2267,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-mid",
-         "eventAction": "click-long"
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
        }
     },
     "clickHomeSideAd": {
@@ -2274,16 +2277,28 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-tall"
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
        }
     },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--page8",
+              "eventAction": "click-bfx-vid-tall--promoting-",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
     "clickHomeSideLinks": {
       "on": "click",
       "selector": "#at-promo-nonpost-sidebar-shilllinks",
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-shilllinks"
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
        }
     }
     
@@ -2360,7 +2375,7 @@ amp-user-notification>div>div {
             <a href="/">AltcoinTrading.NET</a></div>
           <small>
             <em>
-              Trading strategies, crypto trading opsec primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+              Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
             </em>
           </small>
         </div>
@@ -2646,48 +2661,6 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">jargon</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/squishy/" title="Squishy">
-    Squishy
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/squishy/" title="Squishy">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586939760/atnet/_glossary/macd-squishy.jpg" alt="Squishy"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
-        <span class="tag custom-note ">technical</span>&nbsp;
-<strong>
-  <a class="index-internal" href="/glossary/ichimoku/" title="Ichimoku Cloud">
-    Ichimoku Cloud
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/ichimoku/" title="Ichimoku Cloud">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.jpg" alt="Ichimoku Cloud"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
-        <span class="tag custom-note ">jargon</span>&nbsp;
-<strong>
   <a class="index-internal" href="/glossary/bgd/" title="BGD">
     BGD
   </a>
@@ -2709,16 +2682,58 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">jargon</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
-    Bart Formation
+  <a class="index-internal" href="/glossary/squishy/" title="Squishy">
+    Squishy
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
+  <a class="index-internal" href="/glossary/squishy/" title="Squishy">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938500/atnet/_glossary/bart-formation.jpg" alt="Bart Formation"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586939760/atnet/_glossary/macd-squishy.jpg" alt="Squishy"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">jargon</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/dca/" title="DCA">
+    DCA
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/dca/" title="DCA">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg" alt="DCA"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">technical</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/ichimoku/" title="Ichimoku Cloud">
+    Ichimoku Cloud
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/ichimoku/" title="Ichimoku Cloud">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.jpg" alt="Ichimoku Cloud"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>

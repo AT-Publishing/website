@@ -26,7 +26,7 @@
 </title>
 
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
-<meta name="description" content="Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
+<meta name="description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
 <meta name="keywords" content="altcoin trading, cryptocurrency trading, crypto airdrops">
 <meta name="author" content="https://reddit.com/u/KarlVonBahnhof">
 
@@ -34,7 +34,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET" />
-<meta property="og:description" content="Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_" />
+<meta property="og:description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_" />
 <meta property="og:url" content="https://www.altcointrading.net/page6/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-07-29 07:02:49 +0000" />
@@ -2247,7 +2247,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-smallad"
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
        }
     },
     "clickMainHome": {
@@ -2256,7 +2257,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-main"
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
        }
     },
     "clickHomeMidAd": {
@@ -2265,7 +2267,8 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-mid",
-         "eventAction": "click-long"
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
        }
     },
     "clickHomeSideAd": {
@@ -2274,16 +2277,28 @@ amp-user-notification>div>div {
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-tall"
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
        }
     },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--page6",
+              "eventAction": "click-bfx-vid-tall--promoting-",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
     "clickHomeSideLinks": {
       "on": "click",
       "selector": "#at-promo-nonpost-sidebar-shilllinks",
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-shilllinks"
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
        }
     }
     
@@ -2360,7 +2375,7 @@ amp-user-notification>div>div {
             <a href="/">AltcoinTrading.NET</a></div>
           <small>
             <em>
-              Trading strategies, crypto trading opsec primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+              Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
             </em>
           </small>
         </div>
@@ -2644,48 +2659,6 @@ amp-user-notification>div>div {
   <div class="row home-glossary">
     
       <div class="columns three">
-        <span class="tag custom-note ">technical</span>&nbsp;
-<strong>
-  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
-    Divergence
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg" alt="Divergence"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
-        <span class="tag custom-note ">technical</span>&nbsp;
-<strong>
-  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
-    Sideways Market
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1592815183/atnet/_glossary/w_accum1_xtnaua.jpg" alt="Sideways Market"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
         <span class="tag custom-note ">jargon</span>&nbsp;
 <strong>
   <a class="index-internal" href="/glossary/squishy/" title="Squishy">
@@ -2707,6 +2680,27 @@ amp-user-notification>div>div {
       </div>
     
       <div class="columns three">
+        <span class="tag custom-note ">technical</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
+    Divergence
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/divergence/" title="Divergence">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg" alt="Divergence"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
         <span class="tag custom-note ">jargon</span>&nbsp;
 <strong>
   <a class="index-internal" href="/glossary/bart/" title="Bart Formation">
@@ -2719,6 +2713,27 @@ amp-user-notification>div>div {
    <figure class="border">
       <amp-img itemprop="image"
       src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938500/atnet/_glossary/bart-formation.jpg" alt="Bart Formation"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">technical</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
+    Sideways Market
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/sideways/" title="Sideways Market">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1592815183/atnet/_glossary/w_accum1_xtnaua.jpg" alt="Sideways Market"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>

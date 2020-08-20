@@ -11,7 +11,7 @@
   xmlns:turbo="http://turbo.yandex.ru">
   <channel>
     <title><![CDATA[  AltcoinTrading.NET - Articles ]]></title>
-    <description><![CDATA[  Cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_ ]]></description>
+    <description><![CDATA[  ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_ ]]></description>
     <link>https://www.altcointrading.net/</link>
     <image>
       <url>https://www.altcointrading.net/img/logo.jpg</url>
@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2020 08:12:18 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2020 08:12:18 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2020 01:37:04 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 01:37:04 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">

@@ -27,7 +27,8 @@
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-smallad"
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
        }
     },
     "clickMainHome": {
@@ -36,7 +37,8 @@
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-top",
-         "eventAction": "click-main"
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
        }
     },
     "clickHomeMidAd": {
@@ -45,7 +47,8 @@
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-mid",
-         "eventAction": "click-long"
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
        }
     },
     "clickHomeSideAd": {
@@ -54,16 +57,28 @@
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-tall"
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
        }
     },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
+              "eventAction": "click-bfx-vid-tall--promoting-{{ page.promoting }}",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
     "clickHomeSideLinks": {
       "on": "click",
       "selector": "#at-promo-nonpost-sidebar-shilllinks",
       "request": "event",
       "vars": {
          "eventCategory": "nonadsense--home-side",
-         "eventAction": "click-shilllinks"
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
        }
     }
     {% endunless %}

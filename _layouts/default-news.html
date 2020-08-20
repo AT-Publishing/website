@@ -50,6 +50,16 @@
               "eventLabel": "id--at-promo-tv-tall"
             }
      },
+     "clickBfxVidTall": {
+             "on": "click",
+             "selector": "#bfx-vid-tall",
+             "request": "event",
+             "vars": {
+               "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
+               "eventAction": "click-bfx-vid-tall--promoting-{{ page.promoting }}",
+               "eventLabel": "id--bfx-vid-tall"
+             }
+      },
      "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
