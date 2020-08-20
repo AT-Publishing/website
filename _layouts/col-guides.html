@@ -28,7 +28,7 @@ layout: default
 
 
           <h2 class="tagged-as">In AltcoinTrading How-To & Guides:</h2>
-          <span class="note">Guides to onramping from fiat into crypto</span>
+          <span class="note" id="onramp">Guides to onramping from fiat into crypto</span>
           <ul>
             {% for post in howto_posts %}
             {% if post.categories contains "onramp" %}
@@ -40,7 +40,7 @@ layout: default
             {% endfor %}
           </ul>
 
-          <span class="note">Recommended trading platforms: Why and what they do best</span>
+          <span class="note" id="trading-platforms">Recommended trading platforms: Why and what they do best</span>
           <ul>
             {% for post in howto_posts %}
             {% if post.categories contains "trading-platforms" %}
@@ -52,7 +52,7 @@ layout: default
             {% endfor %}
           </ul>
 
-          <span class="note">The very basics of how to manage your storage and trading apps. There are basic technicalities that you need to know when moving crypto around.</span>
+          <span class="note" id="technical">The very basics of how to manage your storage and trading apps. There are basic technicalities that you need to know when moving crypto around.</span>
           <ul>
             {% for post in howto_posts %}
             {% if post.categories contains "technical" %}
@@ -67,8 +67,7 @@ layout: default
 
         </div>
         <div class="row postslist">
-          <span class="note">Posted in Crypto Trading Blog & tagged as Guide:</span>
-
+          <span class="note">Tagged as Guide in ATNET Crypto Trading Blog:</span>
           {% include lps/guides-feed.html %}
         </div>
         <div class="row intro">
