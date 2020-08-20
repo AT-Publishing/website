@@ -20,11 +20,29 @@ image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_
 
 ---
 
-The Bart Formation, or just Bart, is a colloquial name given by crypto traders to a chart pattern that is also sometimes called "pump and dump". The cryptocurrency rallies sharply, usually on a shorter timeframe like 30M, and after a pretty much flat period retraces all of its previous gain. The name Bart came from the pattern's likeness to the shape of Bart Simpson's head.
+In crypto, the **Bart Formation**, or just Bart, is a chart pattern where the cryptocurrency market rallies sharply, usually on a shorter timeframe like 30M, and after a period of flat ([sideways](/glossary/sideways/)) action retraces *all of its previous gains*.
 
-On bitcoin markets, the Bart occurs mostly after a long periods of sideways when the traded volumes decline and nothing is happening. On altcoin markets, where thinner books are normal, you can still see Barts quite often.
+The name Bart came from the pattern's likeness to the shape of Bart Simpson's head.
 
-The idea behind the Bart pattern is that there was an attempt to start a markup in the market, by a single actor or by means of organic uncoordinated speculation, but that attempt did not catch on. It is therefore a signal of market weakness.
+
+**Best Tools for Trading Bart**
+
+* Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
+* Technical Analysis: Suport/Resistance, RSI, BBands
+* Charting App: [TradingView](http://bit.ly/atnet-tv)
+
+
+#### What does the Bart pattern mean
+
+On bitcoin markets, the Bart shows up only after long periods of sideways. In those times the volumes decline and not much is happening on the markets.
+
+On altcoin markets, where thin order books are normal, you can still see Barts quite often.
+
+Considering this kind of market environment, what does the Bart pattern mean?
+
+The idea behind the Bart pattern is that there was an attempt to start a run-up in the market. It could have been done by a single actor or by means of organic uncoordinated speculation, that doesn't really matter.
+
+The important information is that this attempt did not catch on. Bart is a signal of relative weakness on the market: The speculation is trying to get ahead of the market.
 
 #### The Inverse Bart formation
 

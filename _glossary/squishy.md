@@ -32,3 +32,10 @@ This long timeframe MACD cross has its own name because it happens fairly rarely
 In general, long timeframe MACD cross is not the best indicator to trigger a short position before the cross has fully happened and laster over a full trading session. It is certainly not a good idea to sell once the two lines of MACD start closing in on each other, looking like they are about to cross in a few sessions: What MACD often does is it will paint this potential soon-to-cross but later the lines will "bounce", as in diverge from one another again.
 
 The best approach is to take squishy as the signal to pay attention and look for more precise indications before triggering a trade.
+
+
+**Best Tools for Trading Squishy**
+
+* Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
+* Technical Analysis: Aside from MACD - Divergences, RSI, Ichimoku
+* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)

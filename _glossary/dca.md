@@ -38,3 +38,9 @@ In regular intervals, you spend a fixed amount of your fiat currency to buy as m
 For instance, you can decide that every month, on the day of receiving your pay check, you buy 500 USD worth of Bitcoin.
 
 * [More on DCA](/strategy/dollar-cost-averaging/)
+
+**Best Tools for Dollar Cost Averaging**
+
+* Trading Platform: [Independent Reserve](http://bit.ly/at-indyres) - Aussie exchange with AutoSchedule feature
+* Technical Analysis: None at all!
+* Charting App: None at all!

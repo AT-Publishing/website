@@ -36,9 +36,15 @@ This sensational reaction is typical in traders who **are overtrading** (sitting
 
 If you are used to looking at the 4H chart and then switch to 5M, everything will look like a huge movement to you.
 
-* You can chart all these time frames for **FREE** with [TradingView](http://bit.ly/atnet-tv)
-
 #### How to trade the BGD
+
+
+**Best Tools for Trading BGD**
+
+* Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
+* Technical Analysis: Suport/Resistance, RSI, BBands
+* Charting App: [TradingView](http://bit.ly/atnet-tv)
+
 
 BGD is a bullish candle. However, it is just a single candle, not a formation - this whole abrupt change on the market was done in something like four hours. That's why you should look at what else could be influencing the market before turning bullish or bearish.
 

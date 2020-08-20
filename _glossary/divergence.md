@@ -47,3 +47,9 @@ We distinguish *regular divergence*, *hidden divergence* and *exaggerated diverg
 *Exaggerated Divergence* is only different in that price makes double top or double bottom rather than new high or new low.
 
 Once again: Divergence itself is not a strong enough signal to trigger a trading decision about entry or exit. [More on trading divergences here](/divergences/)
+
+
+**Best Tools for Trading Divergences**
+
+* Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
+* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)

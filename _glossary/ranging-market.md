@@ -42,7 +42,15 @@ In forex or other markets where very short term trading is common, people like t
 
 * [More on how to scalp crypto](/strategy/scalping/)
 
-In cryptocurrency, even in Bitcoin, the liquidity is sometimes not good enough to do that properly.
+Be warned though, because in cryptocurrency, even in Bitcoin, the liquidity is sometimes not good enough to do that properly.
+
+**Best Tools for Sideways Markets**
+
+* Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
+* Technical Analysis: Wyckoff, Support/Resistance, Boxes
+* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)
+
+#### Trading Techniques for Ranging Markets
 
 One of the old but still well fitting descriptions of a typical ranging market can be found in the Wyckoff method. The Wyckoff method is focused on longer term trades and the crux of the range trading is the identification of the phase in which the market is.
 
