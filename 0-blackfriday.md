@@ -24,36 +24,37 @@ interlink:
 
 ## Black Friday is over, long live Black Friday
 
-The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **random promo's** during the Summer of 2020.
-
+The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **bundle promos** during the rest of 2020.
 
 **Jump to:**
 
-* [TradingView Black Friday Price Breakdown](#tradingview-black-friday-price)
-* [Special Offers - Black Friday before Black Friday](#special)
-* [Past Black Friday Sales 2019](#past2019)
-* [Past Black Friday Sales 2018](#past2018)
+* [TradingView Black Friday Discount Breakdown](#tradingview-black-friday-price)
+* [AirVPN Black Friday Discount Breakdown](#airvpn-discount)
+* Compare prices with [Crypto Black Friday 2019](#past2019)
+* Compare prices with [Crypto Black Friday Sales 2018](#past2018)
 * [Anticipated Black Friday Deals 2020](#anticipated)
 
-## Latest Deal: Ledger Discount Code July 2020:
-
-These are Ledger wallet discount codes that give you **20% OFF** for Ledger Nano X. 
+## August 2020 Deal: Ledger Wallets Bundles - 16-21% Discount
 
 {{ site.stars.five }}
 
-Ledger wallet opened up a **discount code** offer called "Coin League" valid until **July 16th 2020**.
+Ledger wallet keeps with their usual strategy of discounting wallet bundles through the year, and in 2020 we get 3 different Ledger wallet bundles.
 
-You get a list of 79 discount codes to choose from:
+You can get multiple Nano S devices, multiple Nano X wallets or the baxkup pack which has one of each.
 
-* Each code is giving you 20% off Ledger Nano X (the discount doesn't add up)
-* Each code also represents a vote for your favorite coin. Example: `Coinleague-EOS` (/s).
-* By using a selected code to buy Ledger Nano X, you vote for your favorite coin.
+The discount is higher if your pack has more of Nano S wallets, as the Ledger Nano S is the older product.
 
-<p>
-<a href="https://bit.ly/2AqVG9p" class="btn">Get your Nano X 20% Discount</a>
-</p>
+##### 2020 Ledger Backup Pack Discounts:
 
-##### It's good to have a couple of hardware wallets!
+* **Ledger Nano S family Pack**: 3x Ledger Nano S ~ **21% off**
+  * [GO TO OFFER](http://bit.ly/ebf-nanos3x)
+* **Ledger Backup Pack**: 1x Ledger Nano S + 1x Ledger Nano X ~ **18% off**
+  * [GO TO OFFER](http://bit.ly/ebf-bakp)
+* **Ledger Nano X family Pack**: 3x Ledger Nano X ~ **16% off**
+  * [GO TO OFFER](http://bit.ly/ebf-nanox3x)
+
+
+##### Why it's good to have more than one hardware wallet
 
 The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
@@ -90,6 +91,8 @@ _______
 
 ### TradingView Black Friday Price - 40-60% OFF on yearly plans
 
+{{ site.stars.five }}
+
 {{ site.tv_1200-628 }}
 
 TradingView Black Friday offer is pretty regular year after year, and 2019 was no exception.
@@ -116,13 +119,35 @@ Conditions to get the TradingView Black Friday price discount:
 * Bitcoin payments are available for some of the plans.
 
 You can always <a>start with <a href="http://bit.ly/tv-btcusd-2020" rel="nofollow">TradingView FREE plan</a></b> and if you keep using it, the user interface <b>will nag you with the Black Friday offers</b> once they open this year.
+
+<div id="airvpn-discount"></div>
   
+## AirVPN Discount on Black Friday: 74% OFF
 
+{{ site.stars.five }}
 
+AirVPN is the well known VPN provider that accepts Bitcoin payments (directly, without any intermediaries) and is very much focused on user privacy in all aspects. But if you don't want to waste your crypto on AirVPN, they also accept PayPal and bank cards.
+
+The AirVPN.org website doesn't even track cookies or marketing data.
+
+For the Black Friday 2019, they offered up to 74% discount on AirVPN plans. The discount grew with the length of the plan.
+
+* AirVPN **3 year subscription** plan with the Black Friday deal: `99 EUR -> 64.35 EUR` (**1 year free** compared to yearly pricing, or monthly Airvpn cost of **1.79 EUR**)
+* AirVPN **2 year subscription** plan with the Black Friday deal: `79 EUR -> 51.35 EUR`
+* AirVPN **2 year subscription** plan with the Black Friday deal: `49 EUR -> 31.85 EUR`
+
+With the Black Friday deal, AirVPN can get you a decent VPN service for a monthly price that is less than what in many countries costs a cup of supermarket coffee.
+
+* For long subscriptions, it definitely pays off to wait for the next AirVPN Black Friday offer.
+* If you need VPN now, get one of the [shorter plans](http://bit.ly/airvpn-2020) now and rebuy a long one on Black Friday.
+
+<p><a class="btn" href="http://bit.ly/airvpn-2020">Get Airvpn before Black Friday 2020</a></p>
+
+AirVPN have their own native client for all desktop and mobile platforms, but you can also generate the ovpn files and use them with any standard OpenVPN app. [There's a community forum](http://bit.ly/airvpn-2020) in case it is the first time you're setting this up.
 
 ## BillFodl
 
-{{ site.stars.five }}
+{{ site.stars.three }}
 
 Billfodl is next to Cryptosteel one of the leaders in true cold storage for crypto - producer of the super resistant metal private key storage for the paranoid.
 
@@ -134,26 +159,6 @@ Billfodl wallets ship from the US but only show prices before tax on their e-sho
 
 <a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl Sale</a>
 
-## AirVPN Black Friday up to 74% OFF
-
-AirVPN is the well known VPN provider that accepts Bitcoin payments (directly, without any intermediaries) and is very much focused on user privacy in all aspects. The website doesn't even track cookies or marketing data.
-
-For the Black Friday 2019, they offer up to 74% discount on all plans, but the amount varies based on what plan you choose.
-
-It is the longer plan the larger discount with AirVPN, and a three year plan with the Black Friday offer costs **instead of 99 EUR only 64.35 EUR**. That puts your **monthly VPN costs to 1.79 EUR**, which in many countries is a less than a supermarket coffee.
-
-* Yearly Plan: <s>49 EUR</s> ~ 31.85 EUR
-  - [GO TO OFFER](http://bit.ly/air-bf2019)
-* Two-year Plan: <s>79 EUR</s> ~ 51.35 EUR
-  - [GO TO OFFER](http://bit.ly/air-bf2019)
-* Three-year Plan: <s>99 EUR</s> ~ 64.35 EUR (1 year free compared to yearly pricing)
-  - [GO TO OFFER](http://bit.ly/air-bf2019)
-
-AirVPN have their own native client for all desktop and mobile platforms, but you can also generate the ovpn files and use them with any standard OpenVPN app. [There's a community forum](http://bit.ly/air-bf2019) in case it is the first time you're setting this up.
-
-In case you don't want to waste your crypto on this, they also accept PayPal and bank cards, by the way.
-
-**[Go to AirVPN Black Friday / Cyber Monday Offers](http://bit.ly/air-bf2019)**
 
 ## Ledger Black Friday 30% OFF site-wide
 
@@ -309,49 +314,38 @@ Through Black Friday 2018, Coinigy offered discounts **up to 75% on annual accou
 
 <div id="anticipated"></div>
 
-## Anticipated Crypto Deals for BlackFriday 2019
+## Anticipated Crypto Deals for BlackFriday 2020
 
-#### Ledger Nano X Black Friday 2019: Anticipated Site-Wide Discount
+#### Ledger Nano X Black Friday 2020: Anticipated Site-Wide Discount
 
----
+Every year, Ledger wallet Black Friday deals come in a sequence.
 
-{{ site.ledger-bf2019 }}
+Whereas during the year, crypto hodlers can get a good deal with bundles, on Black Friday Ledger typically does site-wide discounts.
 
-Ledger Wallet released the first of their offers for Black Friday 2019: 30% discount deal site-wide. That means you can get even the new hardware wallet **Ledger Nano X with 30% discount**, if you buy from the Ledger shop **after Monday 25th 2PM UTC**.
+* **[Get the current Backup Bundle offer](http://bit.ly/bpbf-2019)**
 
-**If you want to compare all the current products and bundles that and their Black Friday discounts, go to the Ledger's landing page for Black Friday: [Click here!](http://bit.ly/atnet-ledger-bf2019)**
+In 2019 the first wave of pre-BlackFriday sale came with 30% off site-wide at Ledger. It was not as low as it could get, but there was enough stock and the discount applied even on Ledger Nano X which was still a new product.
 
----
-
-**Originally, we were anticipating a bundled offer for the Ledger Nano X, but Ledger confirmed in a message to their affiliates that there will be site-wide discounts through Black Friday week 2019.**
-
-They didn't share any details but if site-wide is really site-wide, you should be able to get Ledger Nano X with a good amount of money off even if you just want to get a single wallet.
-
-
-##### About Ledger Nano X
-
-The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
-
-Keep in mind that Ledger Nano X is a new product. As such, Ledger is not likely to discount it a lot. When you see any markdown offer, you shouldn't really hesitate!
-
-[More about Ledger Nano X](http://bit.ly/ledger-nano-x)
-
-<!-- https://shop.ledger.com/pages/black-Friday?r=e274 -->
-
-<em>If you access Ledger wallet's shop through <a href="https://hodlerscashback.com/hi/#shop">Hodler's Cashback</a>, you'll still get cashback on your bill even with the new "To the Moon" edition of Ledger Nano X.</em>
-
-
-#### Ledger Nano S Black Friday 2019: Anticipated 50% Off
-
-**Ledger confirmed that the Black Friday offers for 2019 start on November 25 with early offers leading up to the actual Black Friday November 29 and ending the week of offers on the Cyber Monday which is December 2nd.**
+##### Ledger Nano X Black Friday 2020: Anticipated 30% Off
 
 {{ site.stars.five }}
 
-Ledger Wallet used to do the Black Friday offer of **21% off on your Ledger Ledger Nano S** but in Black Friday 2018, they released several early-bird offers finishing with a 50% discount.
+The Ledger Nano X is a Bluetooth® enabled secure device that stores the private keys of your cryptocurrencies. It has extended memory capacity, which means it can house keys of more cryptocurrencies than Ledger Nano S.
 
-It is unclear whether that was a one-off event due to the crypto bear market or due to their launch of [Ledger Nano X](http://bit.ly/ledger-nano-x) device in early 2019.
+Nano X is still the top product that Ledger has, so we do not expect much hotter deals than 30% off.
 
-It is expected that due to the increasing competition and also the wider product range at Ledger **the higher discount will repeat for Black Friday 2019**.
+**[More about Ledger Nano X](http://bit.ly/ledger-nano-x)**
+
+
+#### Ledger Nano S Black Friday 2020: Anticipated 70% Off
+
+{{ site.stars.five }}
+
+Ledger Wallet did the Black Friday 2017 offer of 21% off on your Ledger Ledger Nano S, but in Black Friday 2018, the disount on Nano S went up to 50% discount.
+
+In 2019, Nano S buyers could get it with as much as 60% off, albeit for a short time in a bundle deal.
+
+The pattern is clear however that as the product gets older, the discount in sales events grows. We are anticipating the 2020 Black Friday deal on Ledger Nano S to be around 70% off.
 
 <p>
 <a rel="nofollow" class="button" href="http://bit.ly/atnet-ledger">The Classic: Ledger Nano S</a>
@@ -359,7 +353,7 @@ It is expected that due to the increasing competition and also the wider product
 <a rel="nofollow" class="button" href="http://bit.ly/ledger-nano-x">The Buzz: Ledger Nano X</a>
 </p>
 
-#### TradingView Black Friday 2019: Anticipated 60% Off on Yearly Plans
+#### TradingView Black Friday 2020: Anticipated 60% Off on Yearly Plans
 
 Every year, TradingView opens their Black Friday discount for the full Black Friday week (Monday - Sunday). They typically give between 40% and 60% discount on their **yearly plans**. Year on year, the Black Friday offers have been getting a tad better as the competition keeps popping up for TradingView.
 
@@ -373,7 +367,25 @@ Payments are done via PayPal or via bitcoin.
 
 <em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
 
-#### Coinigy Black Friday 2019: Anticipated 75% Off on Yearly Plans
+#### AirVPN Black Friday 2020: Anticipated 70+% Off on 3-year Plan
+
+AirVPN is a privacy-minded VPN provider that accepts Bitcoin payments (directly, without any intermediaries), DASH, LTC, Monero, PayPal and other means of payment.
+
+For the Black Friday 2019, they offered up to 74% discount on AirVPN plans. The discount grew with the length of the plan.
+
+**The 2020 Black Friday deal structure is expected to be similar:**
+
+* AirVPN **3 year subscription** plan with the Black Friday deal: `99 EUR -> 64.35 EUR` (**1 year free** compared to yearly pricing, or monthly Airvpn cost of **1.79 EUR**)
+* AirVPN **2 year subscription** plan with the Black Friday deal: `79 EUR -> 51.35 EUR`
+* AirVPN **2 year subscription** plan with the Black Friday deal: `49 EUR -> 31.85 EUR`
+
+For long subscriptions, it definitely pays off to wait for the next AirVPN Black Friday offer.
+If you need VPN now, get one of the [shorter plans](http://bit.ly/airvpn-2020) now and rebuy a long one on Black Friday.
+
+<p><a class="btn" href="http://bit.ly/airvpn-2020">Get Airvpn before Black Friday 2020</a></p>
+
+
+#### Coinigy Black Friday 2020: Anticipated 75% Off on Yearly Plans
 
 Coinigy is a crypto charting and trading interface that also sells historical OHLP data.
 
