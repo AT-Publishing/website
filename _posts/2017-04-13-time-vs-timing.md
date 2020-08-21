@@ -4,7 +4,7 @@ pinned:     no
 note:       Trading Strategy
 promoting:  analysis
 
-categories:    [ crypto-trading-method ]
+categories:    [ crypto-trading-technique ]
 tags:          [ crypto-trading-strategy, crypto-fundamentals ]
 
 

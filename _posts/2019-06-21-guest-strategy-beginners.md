@@ -19,7 +19,7 @@ permalink:        cryptocurrency-strategy-beginners/
 image:            ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg"]
 image_alt:        ["Cryptocurrency Strategy for Beginners"]
 
-categories:       [ crypto-trading-method ]
+categories:       [ crypto-trading-technique ]
 tags:             [ crypto-fundamentals, crypto-trading-strategy ]
 
 related:

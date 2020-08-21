@@ -9,7 +9,7 @@ title:      LTH (Long-Term Holding)
 hook:       What do crypto traders call LTH and how to do it right?
 
 categories: [crypto-jargon]
-tags:       [lth, dca, crypto-trading-method, trading-technique]
+tags:       [lth, dca, crypto-trading-technique, trading-technique]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1597992675/atnet/_glossary/old-longterm-storage-data_yzsw7f.jpg"]
 

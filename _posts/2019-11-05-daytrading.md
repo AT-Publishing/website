@@ -24,7 +24,7 @@ image_alt:
 note: "Trading Strategy"
 date: 2019-11-05 03:32:00 -0300
 
-categories: [ crypto-trading-method ]
+categories: [ crypto-trading-technique ]
 tags: [ crypto-trading-strategy ]
 
 about:
