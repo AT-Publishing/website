@@ -1,7 +1,7 @@
 ---
 published:  true
 cloud:      true
-promoting:  analysis
+promoting:  exchanges
 layout:     at-glossary
 date:       2020-06-22 14:07:00 +0700
 slug:       sideways/

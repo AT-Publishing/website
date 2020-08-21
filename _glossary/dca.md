@@ -1,7 +1,7 @@
 ---
 published:  true
 cloud:      true
-promoting:  analysis
+promoting:  security
 layout:     at-glossary
 date:       2020-06-22 02:07:00 +0700
 slug:       dca/
