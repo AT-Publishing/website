@@ -10,7 +10,9 @@
     {% if post.title != null %}
     {% if pageTime > endTime %}
     <li class="popular-item">
-      <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #{{ category[0] | upcase }}</a>
+      <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="Recent - {{ post.title }}">
+        <b>{{ post.title }}</b> from {{ post.last_modified_at | date: "%d %b %Y" }}
+      </a><br><span class="soften">#{{ category[0] | downcase }}</span>
     </li>
     {% endif %}
     {% endif %}
@@ -26,7 +28,10 @@
     {% assign endTime = 'now' | date: '%s' | minus: daysToSec | times: 1 %}
     {% if pageTime > endTime %}
     <li class="popular-item">
-      <a class="index-internal" href="{{site.baseurl}}{{ node.url }}" title="Updated - {{ node.title }}"><b>{{ node.title }}</b>{% if post.last_modified_at %} Updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %} in #TradingStrategy</a>
+      <span class="tag lvl-{{ node.orderby }}">#trading-strategy</span>
+      <a class="index-internal" href="{{site.baseurl}}{{ node.url }}">
+        <b>{{ node.title }}</b> from {{ node.last_modified_at | date: "%d %b %Y" }}
+      </a><br><span class="soften">#{{ node.categories[0] | downcase }}</span>
     </li>
     {% endif %}
 {% endfor %}

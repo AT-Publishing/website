@@ -827,6 +827,9 @@ h5.post {
     position: relative;
     top: -2px
 }
+.interlink-updated .tag {
+  display: inline-block;
+}
 
 .tag.article-categories {
   display: inline-block;

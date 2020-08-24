@@ -1,4 +1,4 @@
-I"N?<p>This post is about sweeping private keys in the Electrum wallet for Bitcoin. Usually people need to do that because they are trying to redeem their forked coins. If that’s you, feel free to jump to the relevant section.</p>
+I"@?<p>This post is about sweeping private keys in the Electrum wallet for Bitcoin. Usually people need to do that because they are trying to redeem their forked coins. If that’s you, feel free to jump to the relevant section.</p>
 
 <ul>
   <li>If you just want to know how to redeem Bitcoin Cash (BCH), <a href="#bch">go here</a>.</li>
@@ -185,7 +185,7 @@
 
 <p>If you didn’t sweep addresses before the fork, you need to import either all private keys or your seed phrase.</p>
 
-<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501574/atnet/_banner/bitfinex_long_ztjmjl.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px"> </amp-img></a></div>
+<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/bfx2020-bl" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501574/atnet/_banner/bitfinex_long_ztjmjl.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px"> </amp-img></a></div>
 
 <p> </p>
 
@@ -232,7 +232,7 @@
 <p>If you have <a href="#addresses">swept addresses</a> <strong>prior to the fork</strong>, you will only need the private key of the address that actually held the BTC when the chains were splitting. You can copy it from the table old Electrum wallet generated.</p>
 
 <p>If you didn’t sweep addresses before the fork, you need to import either all private keys or your seed phrase.</p>
-<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501574/atnet/_banner/bitfinex_long_ztjmjl.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px"> </amp-img></a></div>
+<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/bfx2020-bl" target="_blank"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501574/atnet/_banner/bitfinex_long_ztjmjl.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px"> </amp-img></a></div>
 
 <p> </p>
 :ET
