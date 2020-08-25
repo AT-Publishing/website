@@ -316,6 +316,8 @@ tvlovescrypto: '<div class="text-center"><a class="index-internal" target="_blan
 
 tvfx_320-200: '<div class="clearfix adfix"><small> --- [ article continues after ad ] --- </small><br><amp-iframe width="350px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tvfx-320x200.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div>'
 
+tv_head_1: '<br><br><amp-iframe width="305px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/header-tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>'
+
 #### tensorcharts ####
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
 

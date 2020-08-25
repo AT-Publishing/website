@@ -1,11 +1,33 @@
+{% assign toparticles = site.posts | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
+{% assign tophowto = site.howto | sort: date | reverse %} <!-- sort: 'last_modified_at' -->
+
 <div class="container header-wrap">
   <div class="row">
 
     <div class="twelve columns stripe">
 
-      <div class="four columns pull-left" id="performancebox">
-<p>&nbsp;</p>
-
+      <div class="four columns pull-left">
+        <br><br>
+        {% if toparticles[0] %}
+          <p>
+            <span class="note">Latest Blog Post on ATNET:</span>
+          </p>
+          <ul class="popular">
+            <li class="popular-item">
+              <a href="{{ toparticles[0].url }}">{{ toparticles[0].title }} in <span class="soften">#{{ toparticles[0].categories[0] | downcase }}</span></a>
+            </li>
+          </ul>
+        {% endif %}
+        {% if tophowto[0] %}
+          <p>
+            <span class="note">Latest Guide on ATNET:</span>
+          </p>
+          <ul class="popular">
+            <li class="popular-item">
+              <a href="{{ tophowto[0].url }}">{{ tophowto[0].title }} in <span class="soften">#{{ tophowto[0].categories[0] | downcase }}</span></a>
+            </li>
+          </ul>
+        {% endif %}
       </div>
 
       <div class="four columns">
@@ -52,7 +74,7 @@
 
 
       <div class="four columns pull-right" id="altindexbox">
-         
+        {{ site.tv_head_1 }}
       </div>
     </div>
 
