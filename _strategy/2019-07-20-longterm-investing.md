@@ -9,7 +9,7 @@ identifier: lt072019
 layout: strategy
 series: Hodl
 
-title: "Crypto Investment Strategy: Step By Step Guide"
+title: "Crypto Investment Strategy: Step By Step Guide to Long-Term Holding"
 description: "Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. "
 
 categories: ["trading"]
@@ -18,7 +18,7 @@ tags: [ "hodl-strategy", "crypto-investment-strategy", "swing-trading", "trading
 slug: "crypto-investment/"
 cz: false
 
-image: ["/features/crypto-investment-strategy.jpg"]
+image: ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693889/atnet/__women/pexels-andrea-piacquadio-920377_vm1t0a.jpg"]
 image_alt: ["There are altcoin trading strategies and there are “hodl” strategies"]
 
 date: 2019-07-20 01:11:00 +0700

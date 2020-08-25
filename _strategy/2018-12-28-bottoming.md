@@ -17,7 +17,7 @@ tags: [ "fulcrum-bottom", "mises", "reversals", "swing-trading", "trading-strate
 slug: "reversals/"
 cz: false
 
-image: ["/editorial/thinice.jpeg"]
+image: ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344765/atnet/__women/pexels-gladson-xavier-1060330_u3xiyu.jpg"]
 image_alt: ["Bottoming process, just as any other market reversal, is strongly influenced by psychology."]
 
 date: 2018-12-28 11:51:00 +0700

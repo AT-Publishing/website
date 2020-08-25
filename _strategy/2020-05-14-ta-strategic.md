@@ -11,7 +11,7 @@ title:        "Technical Analysis in Crypto: How to use TA strategically"
 description:  "With links to the selection of best tools and scripts"
 slug:         "technical/"
 
-image:         ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_720/v1589430968/atnet/strategy/technical-analysis-strategic-hero.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1589434535/atnet/strategy/btc-gold-sp500-decoupling.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1589438895/atnet/blog_trading/technical-analysis_yuaopw.jpg"]
+image:         ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1596693900/atnet/__women/pexels-ekaterina-bolovtsova-4049990_j5fhci.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1589434535/atnet/strategy/btc-gold-sp500-decoupling.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1589438895/atnet/blog_trading/technical-analysis_yuaopw.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_720/v1589430968/atnet/strategy/technical-analysis-strategic-hero.jpg"]
 image_alt:     ["How to use crypto technical analysis strategically"]
 
 author:         "https://reddit.com/u/KarlVonBahnhof"
@@ -88,7 +88,7 @@ So, what gives?
 
 ## Technical analysis is just a tool
 
-{% amp700cloud page.image[0] %}
+{% amp700cloud page.image[3] %}
 
 With all that said, it boils down to the same thing: Technical analysis is just a tool.
 
