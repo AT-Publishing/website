@@ -28,6 +28,7 @@ layout: default
 
 
           <h2 class="tagged-as">In AltcoinTrading How-To & Guides:</h2>
+
           <span class="note" id="onramp">Guides to onramping from fiat into crypto</span>
           <ul>
             {% for post in howto_posts %}
@@ -39,6 +40,19 @@ layout: default
             {% endif %}
             {% endfor %}
           </ul>
+
+          <span class="note" id="onramp">Crypto Trading 101 Guides</span>
+          <ul>
+            {% for post in howto_posts %}
+            {% if post.categories contains "crypto-trading-101" %}
+            <li class="popular-item">
+              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+                <span class="tag lvl-a">Noobs</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+
 
           <span class="note" id="trading-platforms">Recommended trading platforms: Why and what they do best</span>
           <ul>
