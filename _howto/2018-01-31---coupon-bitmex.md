@@ -27,13 +27,24 @@ date: 2018-01-31 07:07:00 +0100
 ---
 
 
-**BitMEX users who sign up at BitMEX with referral code iYQB44 get 10% fee discount for 6 months.** No KYC necessary, VPN access breaches the TOS but is not blocked.
+**BitMEX users who sign up at BitMEX with referral code `iYQB44` get 10% fee discount for 6 months.**
 
-{% amp700 none {{page.image[0]}} %}
+Up until August 2020, BitMEX was your trusty exchange where no KYC was necessary and you could access the exchange even from Tor or VPN - it breached the TOS but compliance was not enforced, as was the custom.
+
+**In August 2020, [BitMEX announced they will be requiring KYC from all users starting 28 August 2020](https://blog.bitmex.com/announcing-the-bitmex-user-verification-programme/). The KYC procedure includes government documents, selfie and questionnaire.**
+
+If you are US-based trader looking for high leverage, you have the following options:
+* Move on to [non-custodial leveraged trading](/leverj/)
+* Use a VPN to trade on platforms that still don't require KYC.
+
+Traders based in United States are restricted to [trade on Bitfinex](/coupon-bitfinex-5egv78ytlc/) and on [Deribit](http://bit.ly/deribit), but KYC is not yet required on those platforms.
 
 #### Just here for the BitMEX promo code?
 
 `bitmex.com referral code iYQB44 for 10% FEE OFF`
+
+{% amp700cloud none {{page.image[0]}} %}
+
 
 #### For which styles of trading is BitMEX suitable for?
 
