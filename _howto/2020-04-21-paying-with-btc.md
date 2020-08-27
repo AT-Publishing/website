@@ -33,8 +33,7 @@ author_name: AltcoinTradingNET
 author_twitter: "altcointrading_"
 
 related:
-- {"Products of 2019: What did crypto traders spend on?": "/stats-2019/"}
-- {"Trading Blog: Why Are So Many People Trading Cryptocurrency?": "/crypto-trading-growth/"}
+- {"Samourai Wallet: For when you need privacy on Bitcoin blockchain": "/altcoin-wallets/#samourai-wallet-for-bitcoin"}
 - {"Professional Bitcoin Trading: Get 6% fee discount on Bitfinex": "http://bit.ly/the-cat-mouse-game"}
 
 ---
@@ -71,13 +70,13 @@ Since Bitcoin is essentially a piece of software, the danger of hacking or a cri
 
 The answer here is to learn how to keep the bitcoins and cryptocurrencies safe.
 
-First off, you will need a [cryptocurrency wallet](/crypto-storage-for-traders/).
+First off, you will need a [cryptocurrency wallet](/altcoin-wallets/).
 
-Then, a few recommendations from our [crypto opsec section](https://www.altcointrading.net/security/): You will need to keep your phone or laptop safe from malware if you have a crypto wallet on it, better yet you would have a separate device for these purposes. And you should have basic awareness of how you are being targeted by cyber criminals.
+Then, a few recommendations from our [crypto opsec section](/security/): You will need to keep your phone or laptop safe from malware if you have a crypto wallet on it, better yet you would have a separate device for these purposes. And you should have basic awareness of how you are being targeted by cyber criminals.
 
-* [The 101 of securing your Mac and iPhone](https://www.altcointrading.net/security/mac-malware-crypto-basic-protection/)
-* [Tiered device management for hot and cold cryptocurrency wallets](https://www.altcointrading.net/security/device-management/)
-* [Main security threats for crypto hodlers in 2020](https://www.altcointrading.net/security/threats-cryptotraders-2020/)
+* [The 101 of securing your Mac and iPhone](/security/mac-malware-crypto-basic-protection/)
+* [Tiered device management for hot and cold cryptocurrency wallets](/security/device-management/)
+* [Main security threats for crypto hodlers in 2020](/security/threats-cryptotraders-2020/)
 
 #### Managing your value of transaction
 

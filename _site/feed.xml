@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Aug 2020 06:15:37 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Aug 2020 06:15:37 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2020 06:46:16 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2020 06:46:16 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -765,6 +765,7 @@ Ledger wallets were the pioneers of supporting altcoins, and you will find most 
 Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
+
 Segwit addresses: Both native and nested Segwit supported.
 
 
@@ -824,6 +825,7 @@ Among the advanced options that you can choose in Exodus wallet is enabling the 
 Summary
 
 Supported Coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
+
 Segwit addresses: BTC Native segwit supported.
 
 Jaxx Multicoin Wallet
@@ -850,6 +852,7 @@ Since Jaxx 1.2 you get Shapeshift exchange integrated within the wallet.
 Summary
 
 Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
+
 Segwit addresses: Not supported.
 
 Blockchain.com Wallet for BTC, ETH and XLM
@@ -867,6 +870,7 @@ Be careful though: The blockchain.com wallet is the favorite target of imposter 
 Summary
 
 Supported Coins: BTC, ETH, XLM
+
 Segwit addresses: Not supported.
 
 
@@ -934,7 +938,11 @@ Samourai is a privacy-focused Bitcoin wallet that features coin mixing capabilit
 
 Exchanges like Coinbase and Kraken check for the history of the coins you deposit and will make you trouble if your bitcoins were on the darknet or a casino site before.
 
-That’s when you could use Samourai wallet and it’s Staggered Ricochet - more on The Business Of Crypto.
+That’s when you could use Samourai wallet and it’s Staggered Ricochet - learn more on The Business Of Crypto.
+
+
+  If you want to learn more about privacy and security in crypto, head to our OPSEC section here.
+
 
 Hardware Wallets for Altcoins Storage
 
@@ -976,6 +984,7 @@ Current Bundle Offers
 Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
+
 Segwit addresses: Both native and nested Segwit supported.
 
 Trezor wallet for Altcoins
@@ -1000,6 +1009,7 @@ On Reddit:
 Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
+
 Segwit addresses: Both native and nested Segwit supported.
 
  
@@ -1068,8 +1078,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
 
 &lt;p&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Get Ledger Nano X&lt;/a&gt;
@@ -1127,8 +1138,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-1&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native segwit supported.&lt;/p&gt;
 
 &lt;h4 id=&quot;jaxx-multicoin-wallet&quot;&gt;Jaxx Multicoin Wallet&lt;/h4&gt;
 
@@ -1153,8 +1165,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-2&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
 
 &lt;h4 id=&quot;blockchaincom-wallet-for-btc-eth-and-xlm&quot;&gt;Blockchain.com Wallet for BTC, ETH and XLM&lt;/h4&gt;
 
@@ -1170,8 +1183,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-3&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, XLM
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, XLM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Single-coin Wallet Apps&lt;/p&gt;
@@ -1238,7 +1252,11 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;Exchanges like Coinbase and Kraken check for the history of the coins you deposit and will make you trouble if your bitcoins were on the darknet or a casino site before.&lt;/p&gt;
 
-&lt;p&gt;That’s when you could use Samourai wallet and it’s Staggered Ricochet - &lt;a href=&quot;https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet&quot;&gt;more on The Business Of Crypto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That’s when you could use Samourai wallet and it’s Staggered Ricochet - &lt;a href=&quot;https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet&quot;&gt;learn more on The Business Of Crypto&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you want to learn more about privacy and security in crypto, head to our &lt;a href=&quot;/security/&quot;&gt;OPSEC section here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;hardware-wallets-for-altcoins-storage&quot;&gt;Hardware Wallets for Altcoins Storage&lt;/h2&gt;
 
@@ -1279,8 +1297,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-4&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
 
 &lt;h4 id=&quot;trezor-wallet-for-altcoins&quot;&gt;Trezor wallet for Altcoins&lt;/h4&gt;
 
@@ -1303,8 +1322,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-5&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
-&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
