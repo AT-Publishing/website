@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Aug 2020 07:33:03 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Aug 2020 07:33:03 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2020 08:00:58 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2020 08:00:58 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -489,11 +489,15 @@ To buy altcoins for long-term holding, with no plans to actively trading them, y
   buying altcoins for other crypto
 
 
-Buy altcoins for Bitcoin, Ethereum or other big crypto
+We are also going to look into your options if you are based in the US.
+
+Buy altcoins for other cryptocurrency
 
 If you want to invest in smaller altcoins, your last step before the purchase will always be the purchase of a bigger crypto, as there are no fiat markets for new niche cryptocurrencies.
 
-If you already own a big crypto, you can exchange it for smaller altcoins on any of the liquid spot exchanges good for trading.
+If you already own a big crypto, you can exchange it for smaller altcoins on pretty much any exchange: custodial, p2p, non-custodial, built-in exchange inside your wallet.
+
+Big custodial exchanges where you can buy altcoins for crypto (without verification):
 
 
   Binance - wide selection of altcoin markets denominated in BTC, ETH, exchange coin or stablecoins
@@ -501,68 +505,82 @@ If you already own a big crypto, you can exchange it for smaller altcoins on any
   Bitfinex - some selection of alts denominated in BTC, ETH, USDT
 
 
-Buying altcoins for crypto is also the preferred way if you want to make your purchase anonymous.
+Peer-to-peer exchanges where you can buy altcoins for crypto (without verification):
 
 
-  LocalCryptos lets you buy your initial ETH and BTC completely anonymously.
+  LocalCryptos lets you buy your initial ETH, BTC and LTC completely anonymously
   Do NOT use LocalBitcoins in 2020, they collaborate.
 
 
-Otherwise, if you don’t mind being verified, you can buy your initial coins on any of the big-name exchanges. You will pretty much always find a BTC, LTC and ETH market denominated in USD or other fiat.
+Buy altcoins for fiat (USD, EUR, AUD)
 
-
-  Bitstamp
-  Gemini
-  GDAX
-  Kraken
-  Independent Reserve
-
-
-Bitfinex has fiat routes as well, but it’s a bit of a cat and mouse game.
-
-Buy altcoins directly for fiat
-
-You can only buy the bigger cryptocurrencies directly for fiat. It is easy for BTC, ETH, LTC, XMR.
+You can only buy the bigger cryptocurrencies directly for fiat - think BTC, ETH, LTC, XMR.
 
 Selection of smaller cryptos differs exchange by exchange, depending on the platform’s business partnerships.
 
-Centralized platforms (will require AML/KYC to let you purchase)
+Custodial platforms where you can buy altcoins for fiat (will require AML/KYC)
 
 Big cryptos only:
 
-  Bitstamp (EU)
-  Gemini (US)
-  GDAX (US)
-  Independent Reserve (AU) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT
+  Bitstamp (Focused on EU residents)
+  Gemini (Focused on US residents)
+  GDAX (Focused on US residents)
+  Independent Reserve (Aussie, but accepts most residents) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT
 
 
 Small cryptos thanks to partnerships:
 
-  Kraken
-  Bitfinex
+  Kraken (Focused on US residents)
+  Bitfinex (Does not accept US residents)
 
 
-Decentralized platforms
+Non-custodial platforms where you can buy altcoins for fiat
 
 
-  LocalCryptos lets you buy your initial ETH and BTC completely anonymously.
+  LocalCryptos lets you buy your initial ETH, BTC and LTC completely anonymously
   Do NOT use LocalBitcoins in 2020, they collaborate.
 
 
-Altcoin traders from the US
+Exchanges accepting traders from the US
 
 You probably know about the witch hunt. US traders have it more difficult.
 
-You have the following options:
+Good news is that once you get some crypto, even if via p2p marketplace, your problem is mostly solved. You can and trade unverified on Bitfinex, Bittrex or on any non-custodial platform.
+
+To onramp from the US, you have the following options:
 
 
-  Verify on exchanges that are regulated within the US – Gemini, GDAX – if they will take you. They don’t accept all banks, all states and sometimes they just refuse for undisclosed reasons. These two are where you’ll have your deposits in the fastest.
-  Verify on Bitstamp – EU-based but accepts US users. You will need to wire money to Slovenia, which might raise questions from your bank.
-  Kraken used to be too unreliable for trading but has since gotten their platform together and now is an option. The Kraken exchange is still not to be found among the recommended platforms for speculation though, because the reliability of their stop-loss execution is still worse than that of a weather forecast.
-  Bitfinex stopped servicing verified US residents in November 2017. Practically, this only applies to verified accounts, and KYC is not mandatory for crypto-only trading on the platform. If you access Bitfinex from a location in the United States, you will just be asked to claim that US is not your primary country of residence. Once you’ve done that, the interface will let you through.
+  Get crypto on a zero-knowledge p2p platform like LocalCryptos
+  Verify on exchanges that are regulated within the US – Gemini, GDAX – if they will take you.
+    
+      They don’t accept all banks, all states.
+      Often they just refuse for undisclosed reasons.
+      They check crypto deposits for history (e.g. if your bitcoin was on a gambling site before).
+    
+  
+  Verify on Bitstamp – EU-based but accepts US users.
+    
+      You will need to wire money to Slovenia, which might raise questions from your bank.
+    
+  
+  Kraken used to be too unreliable for trading but has since gotten their platform together and now is an option for buying only.
+    
+      If you plan to daytrade, Kraken exchange is not recommended, because the reliability of their stop-loss execution is worse than that of a weather forecast.
+    
+  
 
 
-Once you onramp, even if via p2p or whatever, your problem is kind-of solved. You can and trade unverified on Bitmex (with VPN), Bitfinex, Bittrex or elsewhere.
+If you plan to daytrade, here’s the deal:
+
+
+  Bitfinex stopped servicing verified US residents in November 2017.
+    
+      Practically, this only applies to verified accounts, and KYC is not required for crypto-only trading on the platform.
+      If you access Bitfinex from a location in the United States, you will just be asked to claim that US is not your primary country of residence. Once you’ve done that, the interface will let you through.
+    
+  
+  BitMEX stopped servicing US customers and requires KYC since August 2020
+
  ]]></content:encoded>
 
         <turbo:content><![CDATA[ &lt;p&gt;Whether you want to join the madness of altcoin trading or you just want to buy and hold, this is a 2020 overview of the reliable platforms to buy all the good crypto that is not Bitcoin.&lt;/p&gt;
@@ -679,11 +697,15 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
   &lt;li&gt;buying altcoins for other crypto&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;buy-altcoins-for-bitcoin-ethereum-or-other-big-crypto&quot;&gt;Buy altcoins for Bitcoin, Ethereum or other big crypto&lt;/h4&gt;
+&lt;p&gt;We are also going to look into your options if you are based in the US.&lt;/p&gt;
+
+&lt;h4 id=&quot;buy-altcoins-for-other-cryptocurrency&quot;&gt;Buy altcoins for other cryptocurrency&lt;/h4&gt;
 
 &lt;p&gt;If you want to invest in smaller altcoins, your last step before the purchase will always be the purchase of a bigger crypto, as there are no fiat markets for new niche cryptocurrencies.&lt;/p&gt;
 
-&lt;p&gt;If you already own a big crypto, you can exchange it for smaller altcoins on any of the liquid spot exchanges good for trading.&lt;/p&gt;
+&lt;p&gt;If you already own a big crypto, you can exchange it for smaller altcoins on pretty much any exchange: custodial, p2p, non-custodial, built-in exchange inside your &lt;a href=&quot;/altcoin-wallets/&quot;&gt;wallet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Big custodial exchanges where you can buy altcoins for crypto (without verification):&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/china-margin&quot;&gt;Binance&lt;/a&gt; - wide selection of altcoin markets denominated in BTC, ETH, exchange coin or stablecoins&lt;/li&gt;
@@ -691,73 +713,87 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; - some selection of alts denominated in BTC, ETH, USDT&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Buying altcoins for crypto is also the preferred way if you want to make your purchase anonymous.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Peer-to-peer exchanges where you can buy altcoins for crypto (without verification):&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt; lets you buy your initial ETH and BTC completely anonymously.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bit.ly/2YD6gmA&quot;&gt;LocalCryptos&lt;/a&gt; lets you buy your initial ETH, BTC and LTC &lt;strong&gt;completely anonymously&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Do NOT use LocalBitcoins in 2020, they collaborate.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Otherwise, if you don’t mind being verified, you can buy your initial coins on any of the big-name exchanges. You will pretty much always find a BTC, LTC and ETH market denominated in USD or other fiat.&lt;/p&gt;
+&lt;h4 id=&quot;buy-altcoins-for-fiat-usd-eur-aud&quot;&gt;Buy altcoins for fiat (USD, EUR, AUD)&lt;/h4&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitstamp.net&quot;&gt;Bitstamp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gemini.com&quot;&gt;Gemini&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gdax.com&quot;&gt;GDAX&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trade.kraken.com&quot;&gt;Kraken&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-indyres&quot;&gt;Independent Reserve&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; has fiat routes as well, but it’s a bit of a cat and mouse game.&lt;/p&gt;
-
-&lt;h4 id=&quot;buy-altcoins-directly-for-fiat&quot;&gt;Buy altcoins directly for fiat&lt;/h4&gt;
-
-&lt;p&gt;You can only buy the bigger cryptocurrencies directly for fiat. It is easy for BTC, ETH, LTC, XMR.&lt;/p&gt;
+&lt;p&gt;You can only buy the bigger cryptocurrencies directly for fiat - think BTC, ETH, LTC, XMR.&lt;/p&gt;
 
 &lt;p&gt;Selection of smaller cryptos differs exchange by exchange, depending on the platform’s business partnerships.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Centralized platforms (will require AML/KYC to let you purchase)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Custodial platforms where you can buy altcoins for fiat (will require AML/KYC)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Big cryptos only:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitstamp.net&quot;&gt;Bitstamp&lt;/a&gt; (EU)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gemini.com&quot;&gt;Gemini&lt;/a&gt; (US)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gdax.com&quot;&gt;GDAX&lt;/a&gt; (US)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-indyres&quot;&gt;Independent Reserve&lt;/a&gt; (AU) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bitstamp.net&quot;&gt;Bitstamp&lt;/a&gt; (Focused on EU residents)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gemini.com&quot;&gt;Gemini&lt;/a&gt; (Focused on US residents)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gdax.com&quot;&gt;GDAX&lt;/a&gt; (Focused on US residents)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-indyres&quot;&gt;Independent Reserve&lt;/a&gt; (Aussie, but accepts most residents) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Small cryptos thanks to partnerships:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trade.kraken.com&quot;&gt;Kraken&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trade.kraken.com&quot;&gt;Kraken&lt;/a&gt; (Focused on US residents)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (Does not accept US residents)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Decentralized platforms&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Non-custodial platforms where you can buy altcoins for fiat&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt; lets you buy your initial ETH and BTC completely anonymously.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bit.ly/2YD6gmA&quot;&gt;LocalCryptos&lt;/a&gt; lets you buy your initial ETH, BTC and LTC &lt;strong&gt;completely anonymously&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Do NOT use LocalBitcoins in 2020, they collaborate.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;altcoin-traders-from-the-us&quot;&gt;Altcoin traders from the US&lt;/h3&gt;
+&lt;h3 id=&quot;exchanges-accepting-traders-from-the-us&quot;&gt;Exchanges accepting traders from the US&lt;/h3&gt;
 
 &lt;p&gt;You probably know about the witch hunt. US traders have it more difficult.&lt;/p&gt;
 
-&lt;p&gt;You have the following options:&lt;/p&gt;
+&lt;p&gt;Good news is that once you get &lt;em&gt;some&lt;/em&gt; crypto, even if via p2p marketplace, your problem is mostly solved. You can and trade unverified on &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;, &lt;a href=&quot;https://bittrex.com&quot;&gt;Bittrex&lt;/a&gt; or on any non-custodial platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;To onramp from the US, you have the following options:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Verify on exchanges that are regulated within the US – &lt;a href=&quot;https://gemini.com&quot;&gt;Gemini&lt;/a&gt;, &lt;a href=&quot;https://gdax.com&quot;&gt;GDAX&lt;/a&gt; – if they will take you. They don’t accept all banks, all states and sometimes they just refuse for undisclosed reasons. These two are where you’ll have your deposits in the fastest.&lt;/li&gt;
-  &lt;li&gt;Verify on &lt;a href=&quot;https://bitstamp.net&quot;&gt;Bitstamp&lt;/a&gt; – EU-based but accepts US users. You will need to wire money to Slovenia, which might raise questions from your bank.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trade.kraken.com&quot;&gt;Kraken&lt;/a&gt; used to be too unreliable for trading but has since gotten their platform together and now is an option. &lt;strong&gt;The Kraken exchange is still not to be found among the recommended platforms for speculation though, because the reliability of their stop-loss execution is still worse than that of a weather forecast.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/76slkb/did_everyone_get_the_us_person_notice_from/&quot;&gt;Bitfinex stopped servicing verified US residents in November 2017&lt;/a&gt;. &lt;strong&gt;Practically, this only applies to verified accounts&lt;/strong&gt;, and KYC is not mandatory for crypto-only trading on the platform. If you access Bitfinex from a location in the United States, you will just be asked to claim that US is not your primary country of residence. Once you’ve done that, the interface will let you through.&lt;/li&gt;
+  &lt;li&gt;Get crypto on a zero-knowledge p2p platform like &lt;a href=&quot;https://bit.ly/2YD6gmA&quot;&gt;LocalCryptos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Verify on exchanges that are regulated within the US – &lt;a href=&quot;https://gemini.com&quot;&gt;Gemini&lt;/a&gt;, &lt;a href=&quot;https://gdax.com&quot;&gt;GDAX&lt;/a&gt; – if they will take you.
+    &lt;ul&gt;
+      &lt;li&gt;They don’t accept all banks, all states.&lt;/li&gt;
+      &lt;li&gt;Often they just refuse for undisclosed reasons.&lt;/li&gt;
+      &lt;li&gt;They check crypto deposits for history (e.g. if your bitcoin was on a gambling site before).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Verify on &lt;a href=&quot;https://bitstamp.net&quot;&gt;Bitstamp&lt;/a&gt; – EU-based but accepts US users.
+    &lt;ul&gt;
+      &lt;li&gt;You will need to wire money to Slovenia, which might raise questions from your bank.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trade.kraken.com&quot;&gt;Kraken&lt;/a&gt; used to be too unreliable for trading but has since gotten their platform together and now is an option for &lt;strong&gt;buying only&lt;/strong&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;If you plan to daytrade, &lt;strong&gt;Kraken exchange is not recommended, because the reliability of their stop-loss execution is worse than that of a weather forecast.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Once you onramp, even if via p2p or whatever, your problem is kind-of solved. You can and trade unverified on &lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;Bitmex&lt;/a&gt; (with VPN), &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;, &lt;a href=&quot;https://bittrex.com&quot;&gt;Bittrex&lt;/a&gt; or elsewhere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you plan to daytrade, here’s the deal:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/76slkb/did_everyone_get_the_us_person_notice_from/&quot;&gt;Bitfinex stopped servicing verified US residents in November 2017&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Practically, this only applies to verified accounts, and KYC is not required for crypto-only trading on the platform.&lt;/li&gt;
+      &lt;li&gt;If you access Bitfinex from a location in the United States, you will just be asked to claim that US is not your primary country of residence. Once you’ve done that, the interface will let you through.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/coupon-bitmex-iyqb44/&quot;&gt;BitMEX stopped servicing US customers and requires KYC since August 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
  ]]></turbo:content>
 
         <author><![CDATA[ @tradingfanbois ]]></author>
         <dc:creator><![CDATA[ @tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588582376/atnet/blog_trading/levi-saunders-B7VaD0QlyZY-unsplash_ahzade.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598513740/atnet/__women/christin-hume-slbqShqAhEo-unsplash_esmusd.jpg" medium="image" />
         <pubDate>Mon, 04 May 2020 05:38:00 +0000</pubDate>
         <link>https://www.altcointrading.net/altcoin-exchanges/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/altcoin-exchanges/</guid>
