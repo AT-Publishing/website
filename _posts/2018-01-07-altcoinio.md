@@ -31,6 +31,8 @@ Below you will find the original article about the Altcoin.IO exchange from 2017
 
 [Altcoin.IO was acquired by BnkToTheFuture in 2019](https://www.newswire.com/news/altcoin-io-acquired-by-bnktothefuture-to-launch-non-custodial-20923789).
 
+**Warning:** There is now a new landing page active at `http://altcoinio.com/` which is **an unrelated project**. It could be an impostor, but most likely it is just someone new leveraging what was left from the clout of the original Altcoin.IO Plasma DEX. Either way, `http://altcoinio.com/` is unrelated to the former DEX this article is about.
+
 If you are looking for a reliable non-custodial platform where you can trade cryptocurrencies both for fiat as well as crypto-to-crypto via swaps, <b>your 2020 platform to do that is called <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a></b>.
 
 *Original article below.*
