@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Aug 2020 06:46:16 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Aug 2020 06:46:16 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Aug 2020 07:33:03 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2020 07:33:03 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item turbo="true">
@@ -372,12 +372,14 @@ Also, a whole another point of view comes up in the light of the current economi
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Altcoin Exchanges: Where to buy altcoins in 2020? ]]></title>
+        <title><![CDATA[ Altcoin Exchanges: Where to buy and trade crypto in 2020? ]]></title>
         <description><![CDATA[ Where to buy crypto and where to trade it? Which exchanges are liquid, which have issues and which look like exit scam? Updated 2020. ]]></description>
 
         <content:encoded><![CDATA[ Whether you want to join the madness of altcoin trading or you just want to buy and hold, this is a 2020 overview of the reliable platforms to buy all the good crypto that is not Bitcoin.
 
-Trading Altcoins: Best exchanges for speculation
+Trading Altcoins
+
+Best altcoin exchanges for trading and speculation
 
 Let’s first look at what is important.
 
@@ -391,45 +393,59 @@ Your priorities
 
 This is most important for day-trading, scalping or other short term kinds of speculation. You want to submit your order and have it filled with not much issues.
 
-Chinese exchanges are great for that, they are always busy enough due to the higher popularity of speculation and also, quite honestly, due to the fake volume generating bots.
+As a rule, you get better liquidity on custodial exchanges (you need to send coins to an exchange wallet to trade).
 
-However, many trading platforms in Asia notoriously don’t do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects. You might be more lucky on places like YoBit.
+It is true that the tide is starting to turn slightly in favor of noncustodial trading (you can trade directly from your own wallet). Still, if you are just starting out, custodial exchanges will be easier for you to trade on and so that’s what we are sticking with here.
 
-Most liquid altcoin exchanges:
+Another sweeping statement: Asian crypto exchanges are great for liquid markets. They are always busy enough due to the higher popularity of speculation and also, quite honestly, due to the fake volume generating bots.
+
+However, many trading platforms in Asia notoriously don’t do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects.
+
+You might be more lucky on places like YoBit.
+
+Most liquid centralized (custodial) altcoin trading platforms:
 
 
-  Binance - wide selection of alts, deep liquidity
-  OKEx - smaller selection of big alts but easy access to derivatives
-  Yobit - busy and liquid den of wild speculation, big and small alts
-  Bitfinex - unique selection of alts but not always super liquid
-  BitMEX - only a few alts, but accessible alt derivatives
+  Binance: Wide selection of alts, deep liquidity. Does not welcome US traders.
+  OKEx: Smaller selection of alts but easy access to derivatives.
+  Yobit: Busy and very liquid den of wild speculation, big and small alts.
+  Bitfinex: Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required.
+  BitMEX: Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
 
 
-Not recommended - Poloniex, HitBTC and smaller places that are just as sketchy.
+Avoid these trading platforms - Poloniex, HitBTC and new unknown exchanges that will not have enough liquidity.
 
 
   Stability
 
 
-The platform stability is likewise important for active trading. A trading platform needs to have downtime for maintenance but this should be scheduled.
+The platform’s technical stability is super important for active trading.
 
-A crypto exchange shouldn’t really crash under heavy traffic - ever. Trading platforms earn crazy money on fees, they can afford server maintenance just fine.
+Any trading platform will need to have downtime for maintenance, but it should be scheduled and announced beforehand. Other than that the platform availability should be as high as possible.
 
-Most stable crypto exchanges:
+Most of all, a crypto exchange should not crash under heavy traffic - ever. Altoin markets are prone to FOMO, everyone knows that, it is not like the exchange management could get surprised by that. Plus, trading platforms earn crazy money on fees, they can afford server maintenance just fine.
+
+Most stable crypto trading platform:
 
 
   Binance - occasional downtime communicated via Twitter
   OKEx - hardly any downtime
-  Yobit - occasional downtime
-  Bitfinex - was hacked in 2016 but generally stable
+  Bitfinex - generally stable, downtime communicated via status page
+
+
+Least stable crypto trading platform:
+
+
   BitMEX - servers unreachable very often, not recommended
 
 
 
-  Availability on TradingView
+  Charting on TradingView
 
 
-If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on TradingView. All the bigger trading platforms are there - Binance, Bitfinex, BitMEX.
+If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on TradingView.
+
+All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken etc.
 
 Less important parameters
 
@@ -438,28 +454,40 @@ Less important parameters
     Fiat markets. For altcoin speculation you don’t need USD or other fiat markets at all. The ratios in which alts are traded is often BTC or ETH. To track a fiat value, in 2020 we use DAI or another stablecoin.
   
   
-    AML/KYC for pure altcoin trading is still an overkill in many places. Go with that.
+    AML/KYC for pure crypto-to-crypto trading is an overkill.
   
   
-    In-house charts. Use TradingView FREE or Cryptowat.ch.
+    In-house charts, because TradingView does better job.
   
 
 
-Trading Altcoin Derivatives
+Best altcoin exchanges for trading crypto derivatives
 
 BitMEX
 
-BitMEX is a cryptocurrency derivative platform. You cannot buy altcoins or bitcoin on BitMEX with your national currency, you can only trade their products for profit. You get your winnings paid out in BTC.
+BitMEX is the only pure cryptocurrency derivative platform.
 
-Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (derivative mimicking spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.
 
-US customers are not allowed to sign up to the platform per T&amp;amp;C but Tor/VPN access is not blocked.
+  You cannot buy cryptocurrency on BitMEX with fiat.
+  You can only trade a derivative product for profit, or use it as a hedge, or do market making and arbitrage to rake profits.
 
-Get 10% fee discount
 
-Buying Altcoins
+Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (a derivative product imitating spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.
 
-To buy altcoins for long-term holding, with no plans to actively trading them, you have two options - buying altcoins for fiat or for other crypto.
+US customers are not welcome and KYC is required as of August 2020.
+
+Learn more about BitMEX
+ 
+Get 10% fee discount on BitMEX
+
+Buying Altcoins (Onramping)
+
+To buy altcoins for long-term holding, with no plans to actively trading them, you have two options:
+
+
+  buying altcoins for fiat
+  buying altcoins for other crypto
+
 
 Buy altcoins for Bitcoin, Ethereum or other big crypto
 
@@ -539,7 +567,9 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
 
         <turbo:content><![CDATA[ &lt;p&gt;Whether you want to join the madness of altcoin trading or you just want to buy and hold, this is a 2020 overview of the reliable platforms to buy all the good crypto that is not Bitcoin.&lt;/p&gt;
 
-&lt;h3 id=&quot;trading-altcoins-best-exchanges-for-speculation&quot;&gt;Trading Altcoins: Best exchanges for speculation&lt;/h3&gt;
+&lt;h2 id=&quot;trading-altcoins&quot;&gt;Trading Altcoins&lt;/h2&gt;
+
+&lt;h3 id=&quot;best-altcoin-exchanges-for-trading-and-speculation&quot;&gt;Best altcoin exchanges for trading and speculation&lt;/h3&gt;
 
 &lt;p&gt;Let’s first look at what is important.&lt;/p&gt;
 
@@ -553,75 +583,101 @@ Once you onramp, even if via p2p or whatever, your problem is kind-of solved. Yo
 
 &lt;p&gt;This is most important for &lt;a href=&quot;/daytrading/&quot;&gt;day-trading&lt;/a&gt;, &lt;a href=&quot;/strategy/scalping/&quot;&gt;scalping&lt;/a&gt; or other short term kinds of speculation. You want to submit your order and have it filled with not much issues.&lt;/p&gt;
 
-&lt;p&gt;Chinese exchanges are great for that, they are always busy enough due to the higher popularity of speculation and also, quite honestly, due to the fake volume generating bots.&lt;/p&gt;
+&lt;p&gt;As a rule, you get better liquidity on &lt;strong&gt;custodial exchanges&lt;/strong&gt; (you need to send coins to an exchange wallet to trade).&lt;/p&gt;
 
-&lt;p&gt;However, many trading platforms in Asia notoriously don’t do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects. You might be more lucky on places like YoBit.&lt;/p&gt;
+&lt;p&gt;It is true that the tide is starting to turn slightly in favor of &lt;strong&gt;noncustodial trading&lt;/strong&gt; (you can trade directly from your own wallet). Still, if you are just starting out, custodial exchanges will be easier for you to trade on and so that’s what we are sticking with here.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Most liquid altcoin exchanges:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Another sweeping statement: Asian crypto exchanges are great for liquid markets. They are always busy enough due to the higher popularity of speculation and also, quite honestly, due to the fake volume generating bots.&lt;/p&gt;
+
+&lt;p&gt;However, many trading platforms in Asia notoriously don’t do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects.&lt;/p&gt;
+
+&lt;p&gt;You might be more lucky on places like YoBit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most liquid centralized (custodial) altcoin trading platforms:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/china-margin&quot;&gt;Binance&lt;/a&gt; - wide selection of alts, deep liquidity&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/okex-affilatnet-2020&quot;&gt;OKEx&lt;/a&gt; - smaller selection of big alts but easy access to derivatives&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bit.ly/at-yobit-2020&quot;&gt;Yobit&lt;/a&gt; - busy and liquid den of wild speculation, big and small alts&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; - unique selection of alts but not always super liquid&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt; - only a few alts, but accessible alt derivatives&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/china-margin&quot;&gt;Binance&lt;/a&gt;: Wide selection of alts, deep liquidity. Does not welcome US traders.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/okex-affilatnet-2020&quot;&gt;OKEx&lt;/a&gt;: Smaller selection of alts but easy access to derivatives.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bit.ly/at-yobit-2020&quot;&gt;Yobit&lt;/a&gt;: Busy and very liquid den of wild speculation, big and small alts.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt;: Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Not recommended - Poloniex, &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/&quot;&gt;HitBTC&lt;/a&gt; and smaller places that are just as sketchy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Avoid these trading platforms&lt;/strong&gt; - Poloniex, &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/&quot;&gt;HitBTC&lt;/a&gt; and new unknown exchanges that will not have enough liquidity.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Stability&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The platform stability is likewise important for active trading. A trading platform needs to have downtime for maintenance but this should be scheduled.&lt;/p&gt;
+&lt;p&gt;The platform’s technical stability is super important for active trading.&lt;/p&gt;
 
-&lt;p&gt;A crypto exchange shouldn’t really crash under heavy traffic - ever. Trading platforms earn crazy money on fees, they can afford server maintenance just fine.&lt;/p&gt;
+&lt;p&gt;Any trading platform will need to have downtime for maintenance, but it should be scheduled and announced beforehand. Other than that the platform availability should be as high as possible.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Most stable crypto exchanges:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most of all, a crypto exchange should not crash under heavy traffic - ever. Altoin markets are prone to FOMO, everyone knows that, it is not like the exchange management could get surprised by that. Plus, trading platforms earn crazy money on fees, they can afford server maintenance just fine.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most stable crypto trading platform:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/china-margin&quot;&gt;Binance&lt;/a&gt; - occasional downtime communicated via Twitter&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/okex-affilatnet-2020&quot;&gt;OKEx&lt;/a&gt; - hardly any downtime&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bit.ly/at-yobit-2020&quot;&gt;Yobit&lt;/a&gt; - occasional downtime&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; - was hacked in 2016 but generally stable&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; - generally stable, downtime communicated via status page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Least stable crypto trading platform:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt; - servers unreachable very often, not recommended&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Availability on TradingView&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Charting on TradingView&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt;. All the bigger trading platforms are there - Binance, Bitfinex, BitMEX.&lt;/p&gt;
+&lt;p&gt;If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken etc.&lt;/p&gt;
 
 &lt;h4 id=&quot;less-important-parameters&quot;&gt;Less important parameters&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Fiat markets. For altcoin speculation you don’t need USD or other fiat markets at all. The ratios in which alts are traded is often BTC or ETH. To track a fiat value, in 2020 we use DAI or another stablecoin.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Fiat markets.&lt;/strong&gt; For altcoin speculation you don’t need USD or other fiat markets at all. The ratios in which alts are traded is often BTC or ETH. To track a fiat value, in 2020 we use DAI or another stablecoin.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;AML/KYC for pure altcoin trading is still an overkill in many places. Go with that.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;AML/KYC&lt;/strong&gt; for pure crypto-to-crypto trading is an overkill.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;In-house charts. Use &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView FREE&lt;/a&gt; or &lt;a href=&quot;http://cryptowat.ch&quot;&gt;Cryptowat.ch&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;In-house charts&lt;/strong&gt;, because &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt; does better job.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;trading-altcoin-derivatives&quot;&gt;Trading Altcoin Derivatives&lt;/h3&gt;
+&lt;h3 id=&quot;best-altcoin-exchanges-for-trading-crypto-derivatives&quot;&gt;Best altcoin exchanges for trading crypto derivatives&lt;/h3&gt;
 
 &lt;h4 id=&quot;bitmex&quot;&gt;BitMEX&lt;/h4&gt;
 
-&lt;p&gt;BitMEX is a cryptocurrency derivative platform. You cannot buy altcoins or bitcoin on BitMEX with your national currency, you can only trade their products for profit. You get your winnings paid out in BTC.&lt;/p&gt;
+&lt;p&gt;BitMEX is the only pure cryptocurrency derivative platform.&lt;/p&gt;
 
-&lt;p&gt;Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (derivative mimicking spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You cannot buy cryptocurrency on BitMEX with fiat.&lt;/li&gt;
+  &lt;li&gt;You can only trade a derivative product for profit, or use it as a hedge, or do market making and arbitrage to rake profits.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;US customers are not allowed to sign up to the platform per T&amp;amp;C but Tor/VPN access is not blocked.&lt;/p&gt;
+&lt;p&gt;Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (a derivative product imitating spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.&lt;/p&gt;
 
-&lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;http://bit.ly/atnet-mex&quot; class=&quot;btn&quot;&gt;Get 10% fee discount&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US customers are not welcome and KYC is required as of August 2020.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;buying-altcoins&quot;&gt;Buying Altcoins&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/coupon-bitmex-iyqb44/&quot; class=&quot;btn&quot;&gt;Learn more about BitMEX&lt;/a&gt;
+ 
+&lt;a rel=&quot;nofollow&quot; href=&quot;http://bit.ly/atnet-mex&quot; class=&quot;btn&quot;&gt;Get 10% fee discount on BitMEX&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;To buy altcoins for long-term holding, with no plans to actively trading them, you have two options - buying altcoins for fiat or for other crypto.&lt;/p&gt;
+&lt;h2 id=&quot;buying-altcoins-onramping&quot;&gt;Buying Altcoins (Onramping)&lt;/h2&gt;
+
+&lt;p&gt;To buy altcoins for long-term holding, with no plans to actively trading them, you have two options:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;buying altcoins for fiat&lt;/li&gt;
+  &lt;li&gt;buying altcoins for other crypto&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;buy-altcoins-for-bitcoin-ethereum-or-other-big-crypto&quot;&gt;Buy altcoins for Bitcoin, Ethereum or other big crypto&lt;/h4&gt;
 

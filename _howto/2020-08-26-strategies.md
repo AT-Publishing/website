@@ -67,7 +67,7 @@ Swing trading attempts to take advantage of the volatility that is rampant in th
 
 The idea behind swing trading is to capture the price movement of a cryptocurrency in a particular direction.
 
-With swing trading, you are really trying to get into a position at the exact point a reversal in price occurs. This method of trading is usually most effective using automatic tools such as crypto bots and crypto signals (e.g. [Binance signals](https://www.mycryptopedia.com/top-10-binance-trading-signal-channels-on-telegram/)).
+With swing trading, you are really trying to get into a position at the exact point a reversal in price occurs. This method of trading is usually most effective using automatic tools such as crypto bots and crypto signals (e.g. Binance signals).
 
 The key for being a successful swing trader is to use these tools to help you identify when the price will reverse and will move up or down for an extended period of time.
 
