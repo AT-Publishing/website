@@ -2501,9 +2501,11 @@ amp-user-notification>div>div {
 <h4 id="difference-between-p2sh-and-legacy-ltc-address">Difference between P2SH and Legacy LTC address</h4>
 
 <ul>
-  <li>Segwit-compatible LTC address: starts with <code class="highlighter-rouge">M</code> or <code class="highlighter-rouge">3</code></li>
+  <li>Nested Segwit LTC address (P2SH): starts with <code class="highlighter-rouge">M</code> or more rarely<code class="highlighter-rouge">3</code></li>
   <li>Legacy LTC address: starts with <code class="highlighter-rouge">L</code></li>
 </ul>
+
+<p>The two Segwit formats (M and 3) are equivalent. Originally, the 3-addresses were implemented for Litecoin’s nested Segwit. This caused issues because Bitcoin also uses an address format that starts with 3. For that reason, with the next network upgrade, the Litecoin P2SH addresses were changed into a format that starts with M.</p>
 
 <p>Hardware wallets and OG wallet apps got upgraded soon after the network upgrade. As a result, you will now often get Segwit-compatible addresses for LTC as the default.</p>
 
@@ -2514,7 +2516,9 @@ amp-user-notification>div>div {
   <li>Some exchanges (mostly DEX and dApp platforms) on the other hand only allow withdrawal to P2SH addresses because, that’s the only way a contract-based dApp can reach the LTC blockchain.</li>
 </ul>
 
-<p>Here’s how to move litecoins around without losing them.</p>
+<p>If you want to learn more about SegWit, head over to the <a href="/howto/segwit/">ATNET Glossary</a>.</p>
+
+<p><strong>Here’s just the practical info on how to move litecoins around without losing them.</strong></p>
 
 <h4 id="how-to-withdraw-litecoin-from-exchange-to-p2sh-address-hardware-wallets">How to withdraw Litecoin from Exchange to P2SH Address (Hardware wallets)</h4>
 

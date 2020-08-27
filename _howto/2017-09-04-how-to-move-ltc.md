@@ -37,8 +37,10 @@ This newer format is called `P2SH` (pay-to-script-hash).
 
 #### Difference between P2SH and Legacy LTC address
 
-* Segwit-compatible LTC address: starts with `M` or `3`
+* Nested Segwit LTC address (P2SH): starts with `M` or more rarely`3`
 * Legacy LTC address: starts with `L`
+
+The two Segwit formats (M and 3) are equivalent. Originally, the 3-addresses were implemented for Litecoin's nested Segwit. This caused issues because Bitcoin also uses an address format that starts with 3. For that reason, with the next network upgrade, the Litecoin P2SH addresses were changed into a format that starts with M.
 
 Hardware wallets and OG wallet apps got upgraded soon after the network upgrade. As a result, you will now often get Segwit-compatible addresses for LTC as the default.
 
@@ -47,7 +49,9 @@ However, for crypto exchanges the situation is different.
 * Some exchanges haven't upgraded and only allow LTC withdrawals to legacy addresses.
 * Some exchanges (mostly DEX and dApp platforms) on the other hand only allow withdrawal to P2SH addresses because, that's the only way a contract-based dApp can reach the LTC blockchain.
 
-Here's how to move litecoins around without losing them.
+If you want to learn more about SegWit, head over to the [ATNET Glossary](/howto/segwit/).
+
+**Here's just the practical info on how to move litecoins around without losing them.**
 
 #### How to withdraw Litecoin from Exchange to P2SH Address (Hardware wallets)
 

@@ -46,6 +46,8 @@ related:
 
 If you are a P2P or DEX crypto trader, you probably know that to receive BTC from a decentralized app, you need to use a SegWit bitcoin address.
 
+* If you want to learn more about SegWit, head over to the [ATNET Glossary](/howto/segwit/).
+
 ### Segwit addresses are not all the same
 
 You can easily get a SegWit bitcoin wallet on your phone with the [Exodus](https://exodus.io) app, on your laptop with [Electrum](https.electrum.org) if you are old-school or on any device with [Ledger wallet](http://bit.ly/at-ledger-codes2020).
