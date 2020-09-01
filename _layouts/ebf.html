@@ -1,0 +1,48 @@
+---
+layout: default-news
+---
+<div class="container">
+  <div class="row">
+    <div class="columns eight">
+      <h1 class="post post-main">
+         <strong>
+           {{ page.title }}
+         </strong>
+       </h1>
+    </div>
+    <div class="columns four">
+      <!-- hero image -->
+      <amp-img itemprop="image"
+      src="{{page.image[0]}}"
+      alt="{{page.image_alt[0]}}" data-original-width="700px"
+      data-original-height="497px" layout="responsive" width="700px" height="497px">
+      </amp-img>
+      <br>
+    </div>
+  </div>
+  <div class="row">
+    {% include article/cta.html %}
+  </div>
+  <div class="row">
+    <article class="maincontent">
+      <div class="strategy-content intext">
+       <!-- intro -->
+       {{ content }}
+
+       <!-- current offers: tools  ... add some condition -->
+       {% include ebf/current.html %}
+       <!-- current offers: spend ... add condition -->
+       {% include ebf/current.html %}
+
+       <!-- past offers: by popularity -->
+       {% include ebf/anticipated.html %}
+
+       <!-- past offers: by year > by popularity -->
+       {% include ebf/past.html %}
+
+      </div>
+    </article>
+  </div>
+</div>
+
+{% include ebf/brands-jsonld.html %}
