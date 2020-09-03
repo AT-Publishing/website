@@ -32,8 +32,11 @@ collections:
   - security
   - howto
   - glossary
+  - ebf
 
 collections:
+  ebf:
+    output: false
   howto:
     output: true
     permalink: /:collection/:slug/

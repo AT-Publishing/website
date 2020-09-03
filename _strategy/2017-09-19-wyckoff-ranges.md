@@ -187,7 +187,7 @@ One of the best ones is a free one, was made by [spacetrader](https://www.tradin
 
 [Legend for the colors of the candles:](http://i.imgur.com/nZu9rbe.png)
 
-* Make your [free TradingView account here](http://bit.ly/atnet-tv)
+* Make your [free TradingView account here](http://bit.ly/at-tv-ethusd)
 
 {% amp700cloud border {{page.image[7]}} {{page.image_alt[0]}} %}
 

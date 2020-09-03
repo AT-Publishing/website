@@ -1,0 +1,12 @@
+<div id="anticipated"></div>
+{% assign anti = site.ebf | where: "categories", "anticipated" | reverse %}
+{% for item in anti %}
+<hr>
+<blockquote>{{ item.title }}</blockquote>
+<hr>
+<article>{{ item.content }}</article>
+<div class="meta">
+  <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
+</div>
+<hr>
+{% endfor %}

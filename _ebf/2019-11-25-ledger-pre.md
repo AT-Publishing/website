@@ -1,7 +1,7 @@
 ---
 title:        "Ledger Nano X 2019 Pre-BlackFriday: To the Moon Discount Campaign"
-categories:   [ past ]
-tags:         [ 2019, ledger-nano-x, ledger-nano-s ]
+categories:   [ 2019 ]
+tags:         [ ledger-nano-x, ledger-nano-s ]
 
 ---
 

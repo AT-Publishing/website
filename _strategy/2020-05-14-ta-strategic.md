@@ -55,7 +55,7 @@ The best yardstick is to see if your technical analysis is **helping you make a 
 
 If it isn't doing that, you're doing it wrong. No matter if you are using the "right" indicators and ALL the lines. (Ignore the reverse statement though. If your TA helps you make a decision, you can still be botching it.)
 
-A *sound* trading decision should always be right there at the conclusion of your analysis. If you're closing your [TradingView](http://bit.ly/atnet-tv) chart confused, stop doing whatever you're doing.
+A *sound* trading decision should always http://bit.ly/at-tv-ethusdhttp://bit.ly/atnet-tv) chart confused, stop doing whatever you're doing.
 
 ### Technical analysis is not the source of truth
 

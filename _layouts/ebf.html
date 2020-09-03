@@ -26,19 +26,27 @@ layout: default-news
   <div class="row">
     <article class="maincontent">
       <div class="strategy-content intext">
-       <!-- intro -->
-       {{ content }}
 
-       <!-- current offers: tools  ... add some condition -->
-       {% include ebf/current.html %}
-       <!-- current offers: spend ... add condition -->
-       {% include ebf/current.html %}
+        <div class="columns eight offset-by-two">
 
-       <!-- past offers: by popularity -->
-       {% include ebf/anticipated.html %}
+          {{ content }}
 
-       <!-- past offers: by year > by popularity -->
-       {% include ebf/past.html %}
+           <div id="live"></div>
+           {% include ebf/live.html %}
+
+           {% include ebf/interlink.html %}
+
+           <div id="anticipated"></div>
+           {% include ebf/anticipated.html %}
+           <div id="past"></div>
+           {% include ebf/past.html %}
+           <div id="products"></div>
+           {% include ebf/brands-overview.html %}
+           
+         <blockquote>Anything you want to add? Tweet at us @altcointrading_</blockquote>
+         <p>&nbsp;</p>
+
+       </div>
 
       </div>
     </article>

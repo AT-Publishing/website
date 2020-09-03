@@ -1,11 +1,11 @@
 ---
 layout:       marketing
-published:    true
+published:    false
 
 title:        "Eternal Black Friday | Crypto Black Friday Deals BEFORE Black Friday 2020"
 description:  "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."
 
-permalink:    /blackfriday/
+permalink:    /bf/
 
 date:         2019-02-20 03:14 +0700
 image:        [ 'https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/v1596005593/atnet/_banner/eternal-black-friday-crypto_cswzd4.jpg' ]

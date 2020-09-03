@@ -86,4 +86,4 @@ There is no scientific way to predict at what point in the expectations will rev
 
 ***
 
-**If you are looking for a reliable web charts for crypto, try and make a free TradingView account [here](http://bit.ly/atnet-tv).**
+**If you are looking for a reliable web charts for crypto, try and make a free TradingView account [here](http://bit.ly/at-tv-ethusd).**

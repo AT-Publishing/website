@@ -1,4 +1,4 @@
-I"�Y<p>In April 2018, <a href="https://twitter.com/bbands/status/981267684493963264">John Bollinger asked on Twitter</a> what  everyone’s favorite technical indicators are that they’ve mostly come to rely on. Given that many people aspire to be like John Bollinger, in terms of trading at least, we may safely assume that the responses recorded were to a decent extent authentic.</p>
+I")Z<p>In April 2018, <a href="https://twitter.com/bbands/status/981267684493963264">John Bollinger asked on Twitter</a> what  everyone’s favorite technical indicators are that they’ve mostly come to rely on. Given that many people aspire to be like John Bollinger, in terms of trading at least, we may safely assume that the responses recorded were to a decent extent authentic.</p>
 
 <div>
   <a target="_blank" href="https://www.altcointrading.net/features/timing-tools/timing-indicators.png" title="AltcoinTrading.NET - Timing Tools"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/timing-tools/timing-indicators.png" alt="Timing Tools" title="AltcoinTrading.NET - Timing Tools" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
@@ -66,7 +66,7 @@
 
 <h3 id="advance---decline-contributions">Advance - Decline contributions</h3>
 
-<p>The Advance/Decline Line is an indicator that you can find on the TradingView library in several versions, however, because it works with a basket index it is not directly useful for cryptocurrencies. The legacy ADL is not completely useless, more on that later, but it is not the same.</p>
+<p>The Advance/Decline Line is an indicator that you can find on the <a href="http://bit.ly/at-tv-2020-globalcrypto">TradingView library</a> in several versions, however, because it works with a basket index it is not directly useful for cryptocurrencies. The legacy ADL is not completely useless, more on that later, but it is not the same.</p>
 
 <p>The Advance/Decline Line compares advances and declines of constituents of an index over the given timeframe (normally daily). It does not take into account how big the advances or declines are, but rather only measures how many of each there were. This number is then made relative to past values of the index. The actual figures you get from the indicator will depend on your starting point, but the information you are looking for is only a divergence anyway.</p>
 
