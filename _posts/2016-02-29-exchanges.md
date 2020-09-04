@@ -18,6 +18,7 @@ author:       https://twitter.com/tradingfanbois
 author_name:  "@tradingfanbois"
 
 related:
+- {"ATNET Glossary: What do crypto traders call LBC, why is it now dangerous and what to use instead": "/glossary/lbc/"}
 - {"Independent Reserve: How To Best Leverage What They Are Great At": "/coupon-independent-reserve/"}
 - {"Strategy - Dollar Cost Averaging": "/strategy/dollar-cost-averaging/"}
 
