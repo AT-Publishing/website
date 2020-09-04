@@ -34,3 +34,10 @@ The reason for this fit is the fact that **bbands are in fact a moving average w
 Which means the information bbands are giving you when the price action ventures out of them is basically: *"this ratio shot up a bit more then usuall - it might shoot back some time soon, but then it also might not"*.
 
 And so, now you can hopefully stop treating John Bollinger like a demi-god.
+
+#### High-probability chart patterns with Bollinger bands
+
+* **Double bottom, taken relatively to the bottom bband** (price is about the same distance from the bottom band at both lows, in actual value terms it can be different)
+* **Higher low, taken relatively to the bottom bband** (price is lower on the second low, but is closer to the middle band than on the first low)
+* **BBand squeeze** (the [bandwidth strategy](/scriptspotlight-bollinger-band-width-indicator/): the distance between the top and the bottom Bollinger band is decreasing, which means volatility is low, which means at some point the volatility might get high again - duh)
+* **Three pushes to a high** (a topping pattern that relies on traders to be greedy in a market that is not as strong as it has been for a while until then - this buying-up results in a triple top where the consecutive tops get droopy, volume lowers and price wanders longer distance from the top Bollinger band)
