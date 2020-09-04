@@ -35,6 +35,8 @@ Back in 2017, some time before Bitcoin, Litecoin also upgraded their network to 
 
 This newer format is called `P2SH` (pay-to-script-hash).
 
+* If you are here **just for the P2SH vs legacy address converter**, proceed to [https://litecoin-project.github.io/p2sh-convert/](https://litecoin-project.github.io/p2sh-convert/)
+
 #### Difference between P2SH and Legacy LTC address
 
 * Nested Segwit LTC address (P2SH): starts with `M` or more rarely`3`
