@@ -3,8 +3,10 @@ bundle exec jekyll b
 diff -qr _site/ _prev/
 read -p "Deploy? [y/n]" yn
 case $yn in
-        [Yy]* ) git add . --all && git commit "autopublish rpc" && git push origin master; break;;
+        [Yy]* ) git add . --all && git commit -m "autopublish rpc" && git push origin master;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
 esac
-rm -f _prev/
+rm -rf _prev/
+echo "done."
+
