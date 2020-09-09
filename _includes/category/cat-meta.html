@@ -1,0 +1,12 @@
+{% assign cat_meta = site.posts | where: "categories","meta"  | reverse %}
+{% if cat_meta[0] %}
+  &nbsp;
+  <section>
+    <div class="row box-lvl-a">
+      <h4>[meta] Where do ATNET readers <b>spend their crypto</b>?</h4>
+      {% for post in cat_meta %}
+        {% include category/tall.html %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

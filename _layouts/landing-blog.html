@@ -119,6 +119,12 @@ layout: default-news
         </div><!-- 8 -->
       </div><!-- row-->
       <div class="row">
+        <div class="columns four">
+          <div class="clearfix"></div>
+          {% include category/cat-meta.html %}
+          <div class="clearfix"></div>
+        </div>
+        <div class="columns eight">
           {% if page.featured_series %}
           <section>
           {% for series in page.featured_series %}
@@ -135,6 +141,8 @@ layout: default-news
           {% endfor %}
         </section>
         {% endif %}
+        </div>
+
 
       </div>
 
