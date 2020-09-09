@@ -6,7 +6,7 @@ layout:     at-glossary
 date:       2020-04-15 01:07:00 +0700
 slug:       ichimoku/
 title:      Ichimoku Cloud
-hook:       
+hook:       Ichimoku cloud 101 and links to all the in-depth guides and strategies.
 
 categories: [technical-analysis]
 tags:       ["ichimoku", "ichimoku-cloud", "technical-analysis", "crypto-exchange", "crypto-market"]
