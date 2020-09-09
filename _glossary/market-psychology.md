@@ -3,14 +3,14 @@ published:  true
 cloud:      true
 promoting:  analysis
 layout:     at-glossary
-date:       2020-09-09 03:07:00 +0700
+date:       2020-09-08 03:07:00 +0700
 slug:       market-psychology/
 title:      Crypto Market Psychology
 hook:       What is the definition of crypto market psychology and how is it formed?
 
 categories: [technical-analysis]
 tags:       [crypto-trading-strategy]
-note:       markets
+note:       beyondta
 
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1599631413/atnet/__women/annie-spratt-IZX6InIQXJQ-unsplash_pmu8ph.jpg"]
 

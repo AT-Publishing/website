@@ -3,14 +3,14 @@ published:  true
 cloud:      true
 promoting:  analysis
 layout:     at-glossary
-date:       2020-09-09 03:07:00 +0700
+date:       2020-09-08 03:07:00 +0700
 slug:       trading-psychology/
 title:      Trading Psychology
 hook:       What is the definition of trading psychology and how to work on yours?
 
 categories: [technical-analysis]
 tags:       [crypto-trading-strategy]
-note:       markets
+note:       beyondta
 
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/b_auto,c_lpad,h_360,w_700/v1599630717/atnet/__women/outliers2_nthsch.jpg"]
 
@@ -28,7 +28,7 @@ Most of the crypto investors who entered the BTCUSD markets before four digits w
 
 The wild swings of crypto markets make for huge psychological pressure in professional traders. Among people who are not used to that, the pressure can become over the top and wreck the judgement of the unprepared ones.
 
-This makes it worthwhile to work on your trading psychology, even if you are not a trader but rather a [Long-Term Holder](/glossary/lth/) or are just doing [Dollar Cost Average](/glosary/dca/): Becoming more mentally tough will make it harder for you to sell the bottom of the next market correction.
+This makes it worthwhile to work on your trading psychology, even if you are not a trader but rather a [Long-Term Holder](/glossary/lth/) or are just doing [Dollar Cost Average](/glossary/dca/): Becoming more mentally tough will make it harder for you to sell the bottom of the next market correction.
 
 #### Recommended Books to Improve Your Trading Psychology
 
