@@ -74,11 +74,11 @@ People have done sentiment analysis, price bias analysis, the influence of news,
 
 A lot has been done in what would have to be called *econometrics* of cryptocurrencies. This kind of research works with statistics and mathematical modeling to find relationships between the cryptocurrency price and its network activity, Google search volume, trading volume, the number of active addresses in a day and so on.
 
-These papers are not bad, especially you are setting up your own market monitoring or analysis.[^fn1]
+These papers are not bad, especially you are setting up your own market monitoring or analysis.[1]
 
 The situation with market psychology papers is quite different.
 
-One thing you will notice when you skim through them is that some authors apparently don’t know anything about cryptocurrency markets and probably never lurked in a crypto trading community in their life.[^fn2]
+One thing you will notice when you skim through them is that some authors apparently don’t know anything about cryptocurrency markets and probably never lurked in a crypto trading community in their life.[2]
 
 The result are legacy ideas applied on crypto markets, producing bizarre conclusions.
 
@@ -206,8 +206,8 @@ The crypto market is not as crazy and biased as the legacy finance sees that. Th
 
 _____________
 
-[^fn1] "What can explain the price, volatility and trading volume of Bitcoin?", [Finance Research Letters, ISSN: 1544-6123, Vol: 29, Page: 255-265 (2019)](https://uloz.to/file/sSG1Lxy1x1R3/what-can-explain-the-price-volatility-and-trading-volume-of-bitcoin-pdf)
+[1] "What can explain the price, volatility and trading volume of Bitcoin?", [Finance Research Letters, ISSN: 1544-6123, Vol: 29, Page: 255-265 (2019)](https://uloz.to/file/sSG1Lxy1x1R3/what-can-explain-the-price-volatility-and-trading-volume-of-bitcoin-pdf)
 
-    *Abstract*: We study which variables can explain and predict the return, volatility and trading volume of Bitcoin. The considered variables are return, volatility, trading volume, transaction volume, change in the number of unique Bitcoin addresses, the VIX index and Google searches for “Bitcoin”. We use realized volatility calculated from high-frequency data and find that the heterogeneous autoregressive model is suitable for Bitcoin volatility. Trading volume further improves this volatility model. The trading volume of Bitcoin can be predicted from Google searches for “Bitcoin”. However, none of the considered variables can predict Bitcoin returns.
+*Abstract*: We study which variables can explain and predict the return, volatility and trading volume of Bitcoin. The considered variables are return, volatility, trading volume, transaction volume, change in the number of unique Bitcoin addresses, the VIX index and Google searches for “Bitcoin”. We use realized volatility calculated from high-frequency data and find that the heterogeneous autoregressive model is suitable for Bitcoin volatility. Trading volume further improves this volatility model. The trading volume of Bitcoin can be predicted from Google searches for “Bitcoin”. However, none of the considered variables can predict Bitcoin returns.
 
-[^fn2] "The psychology of cryptocurrency prices", [Finance Research Letters, ISSN: 1544-6123, Vol: 33, Page: 101192 (2020)](https://www.docdroid.net/4ejafT8/fin-research-letters-aloosh-2019-pdf)
+[2] "The psychology of cryptocurrency prices", [Finance Research Letters, ISSN: 1544-6123, Vol: 33, Page: 101192 (2020)](https://www.docdroid.net/4ejafT8/fin-research-letters-aloosh-2019-pdf)
