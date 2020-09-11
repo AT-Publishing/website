@@ -34,7 +34,7 @@ related:
 
 Enter Bitfinex Referral Code `5egV78YtlC` and get **6% fee discount** for any sign up.
 
-No KYC required, no minumum deposit required.
+No KYC required, no minimum deposit required.
 
 #### How to get fee discount on Bitfinex
 
@@ -106,7 +106,40 @@ Ethfinex.com was discontinued since 12 October 2019 and all non-custodial tradin
 
 The platform is owned and maintained by the same company as the Bitfinex exchange, but offers non-custodial crypto trading: **On DeversiFi, you trade crypto directly from your [hardware or software cryptocurrency wallet](/altcoin-wallets/) without any signup**.
 
-<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 6% fee discount</a>
+
+#### Bitfinex Verification Levels
+
+Getting verified on Bitfinex is **not necessary for most traders**, but comes with advantages even if you do not want to deposit or withdraw fiat money.
+
+##### Intermediate Level Verification on Bitfinex
+
+*Requires two government IDs or one ID and a Skype video call. Also requires utility bill for address proof, no older than 90 days.*
+
+Intermediate level verification gives you a more seamless crypto experience on Bitfinex. It does not entitle you to deposit and withdraw fiat, but it does entitle you to deposit and withdraw Tether.
+
+* Access to airdrops and giveaways
+
+Getting verified to at least intermediate level opens up the possibility for you to participate in **[airdrops](/airdrops/)** that Bitfinex runs to promote new token launches on the platform.
+
+* Faster cryptocurrency deposits
+
+Verified users can trade deposited cryptocurrency faster, **fewer confirmations** are required before their deposit is credited.
+
+* Access to exchange token
+
+Bitfinex has their own exchange token (LEO) that can generate **fee discount** on other tokens for you.
+
+##### Full Level Verification on Bitfinex
+
+*Requires bank statement, but only your first deposit must come from that account.*
+
+Full verification on Bitfinex entitles you to all benefits of the intermediate level, plus fiat deposits and withdrawals.
+
+This is the only way in which Bitfinex still has minimum deposit requirement - you can only move **fiat that is worth at least 10k USD**.
+
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView PRO Referral Code</a>
+
 
 #### People related to Bitfinex
 
@@ -127,4 +160,4 @@ The platform is owned and maintained by the same company as the Bitfinex exchang
 * **Bitfinex'd**, on Reddit known as Voogru - A controversial and probably hired figure spreading fear regarding the legal stability of Bitfinex/iFinex since 2016.
 * **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.
 
-<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 10% fee discount</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 6% fee discount</a>
