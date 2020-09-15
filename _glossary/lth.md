@@ -1,7 +1,7 @@
 ---
 published:  true
 cloud:      true
-promoting:  security
+promoting:  exchanges
 layout:     at-glossary
 date:       2020-08-21 08:37:00 +0700
 slug:       lth/

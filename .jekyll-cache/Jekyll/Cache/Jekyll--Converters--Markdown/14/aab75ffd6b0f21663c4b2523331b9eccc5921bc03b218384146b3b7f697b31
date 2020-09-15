@@ -1,0 +1,41 @@
+I"�
+<h3 id="what-is-yield-farming">What is Yield Farming</h3>
+
+<p>Yield Farming is a term for earning passive income on your cryptocurrency by locking it up into a DeFi (decentralized finance) contract.</p>
+
+<h3 id="how-yield-farming-works">How Yield Farming works</h3>
+
+<p>Yield farming is done automatically via a smart contract. Other than that, the principle is similar to earning interest on from a traditional bank in exchange to locking up your savings for a certain period of time.</p>
+
+<p>In 2020 DeFi is still in its infancy and most yield farming is done by ERC20 tokens on the Ethereum blockchain, but that may change in the future.</p>
+
+<h4 id="yield-farming-vs-staking">Yield farming vs Staking</h4>
+
+<p>Yield farming is not staking.</p>
+
+<p>As a staker, you provide your cryptocurrency to the Proof of Stake algorithm which is used to confirm network transactions. By staking, you help keep the network running.</p>
+
+<p>As a yield farmer, you are purely a network user. The DeFi contract through which you do yield farming is just another contract built on top of a blockchain.</p>
+
+<p>In yield farming, you need provide your token to a <strong>liquidity pool</strong> that powers a decentralized exchange, a marketplace or a lending app. Your token can be used in a number of activities, as simple as lending but possibly also much more complex.</p>
+
+<p>The activity is usually something that generates <strong>a fee</strong> (like again <a href="/strategy/cryptocurrency-lending/">crypto lending</a> for instance) which will then go to you as part of your yield.</p>
+
+<p>Examples of popular Yield Farming DeFi projects are <strong>Compound, Synthetix or Uniswap</strong>.</p>
+
+<h3 id="yield-farming-market-metrics">Yield farming market metrics</h3>
+
+<p>The <strong>total locked value</strong> shows the total liquidity locked up in a DeFi contract. That measures its health and also the market share of that project.</p>
+
+<p>Another sign of strength and reliability of a DeFi project can be the <strong>listing</strong> of its token on the most popular crypto exchanges.</p>
+
+<p>Transparency of the project team can be used as a sort of metric too, DeFi is an unregulated field and scams are abundant.</p>
+
+<h3 id="risks-of-yield-farming">Risks of Yield Farming</h3>
+
+<p>Yield Farming is not a free lunch; your profit may be passive but it is not risk-free.</p>
+
+<p>Yield Farming makes use of decentralized applications that are operated by smart contracts. The whole point of this set up is for it to be trustless, but the reality is that <strong>unless you are able to audit a smart contract</strong> on your own, you still need to trust someone’s claim that it’s safe.</p>
+
+<p>Your main risks are <strong>bugs in the smart contract, fraud, exit scams or hack</strong>.</p>
+:ET
