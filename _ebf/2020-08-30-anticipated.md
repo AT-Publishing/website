@@ -64,6 +64,14 @@ Payments are done via PayPal or via bitcoin.
 
 <em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
 
+#### Coinigy Black Friday 2020: Anticipated 75% Off on Yearly Plan
+
+Coinigy is a crypto charting and trading interface that also sells historical OHLP data.
+
+So far, they have never made a discount on the data services, but it is anticipated Black Friday 2019 will see them discounting their access to charting substantially.
+
+<b>Start with <a rel="nofollow" href="https://www.coinigy.com/?r=4bee056c">Coinigy 30 day free trial</a> and if you like the free tier, upgrade on Black Friday.</b>
+
 #### AirVPN Black Friday 2020: Anticipated 70+% Off on 3-year Plan
 
 AirVPN is a privacy-minded VPN provider that accepts Bitcoin payments (directly, without any intermediaries), DASH, LTC, Monero, PayPal and other means of payment.
@@ -83,11 +91,18 @@ If you need VPN now, get one of the [shorter plans](http://bit.ly/airvpn-2020) n
 
 <p><a class="btn" href="http://bit.ly/airvpn-2020">Get Airvpn before Black Friday 2020</a></p>
 
+#### Crypto Trader Tax Black Friday 2020: Anticipated 20% Off
 
-#### Coinigy Black Friday 2020: Anticipated 75% Off on Yearly Plan
+{% include product/tax-about.html %}
 
-Coinigy is a crypto charting and trading interface that also sells historical OHLP data.
+The regular pricing starts at `49 USD` for up to `100 trades` made and grows with the number of reported trades. The price increase is capped at `299 USD` though, at which price you get **unlimited trades**.
 
-So far, they have never made a discount on the data services, but it is anticipated Black Friday 2019 will see them discounting their access to charting substantially.
+If you aren't satisfied with the crypto tax report, Crypto Trader Tax will refund your full payment.
 
-<b>Start with <a rel="nofollow" href="https://www.coinigy.com/?r=4bee056c">Coinigy 30 day free trial</a> and if you like the free tier, upgrade on Black Friday.</b>
+**Black Friday 2020: Anticipated 20% Off**
+
+Since this isn't a tech gadget, we do not expect too much discount for Black Friday - after all, this is a product that does not age.
+
+In 2019 Crypto Trader Tax came with 20% off coupon which is expected in 2020 as well.
+
+If 10% discount would do that for you, you can sign up right now: [Enter CRYPTOTAX10 here](http://bit.ly/at-cttax).
