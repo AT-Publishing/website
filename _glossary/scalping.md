@@ -58,3 +58,5 @@ Alternatively, you still can capitalize on these fast, small trades by using a s
 Your best tool for all short-term crypto trades are [TensorCharts](http://bit.ly/dont-be-an-amateur). TensorCharts split each candle into blocks that show the price levels at which most of the transactions took place. If you learn to work with this data, it can help you a lot with short term trading.
 
 The information you get with TensorCharts is far more complete and granular than what you get from the standard candlesticks charts.
+
+Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

@@ -79,3 +79,6 @@ So, those are the options:
 * If there is a Bart on the hourly charts but you are normally looking at the D and W charts and your opinion there is bullish, you could buy **spot** for the mid- to long-term.
 
 **[Sign up at BitMEX with fee discount](http://bit.ly/2Muo11z)** | **[Sign up at Bitfinex with fee discount](http://bit.ly/at-bfx-banner2020)**
+
+
+Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

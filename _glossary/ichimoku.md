@@ -47,3 +47,5 @@ As mentioned, Ichimoku works best on longer timeframes. The reason is that on sh
 #### Where to get Ichimoku
 
 Ichimoku cloud is one of the default indicators available on [TradingView](http://bit.ly/atnet-tv), even with the free plan. You can find it in the public indicator library.
+
+Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

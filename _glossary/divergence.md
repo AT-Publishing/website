@@ -53,3 +53,5 @@ Once again: Divergence itself is not a strong enough signal to trigger a trading
 
 * Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
 * Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)
+
+Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

@@ -42,3 +42,5 @@ The mistake is to trade directly off the pattern. The correct approach is to tre
 * [Bart pattern / Inverse Bart pattern](/glossary/bart/)
 
 *The best charting platform for these is TradingView. [Start for FREE](https://bit.ly/at-tv-2020-globalcrypto) and wait for their annual [Black Friday](/blackfriday/) 60% off.*
+
+Read our [list of tools for crypto traders](/tools/) for more free and freemium options.
