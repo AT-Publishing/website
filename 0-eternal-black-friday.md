@@ -12,6 +12,8 @@ image:        [ 'https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_70
 author_name:  'JMT'
 author:       'mailto:jmt@altcointrading.net'
 
+categories:   [ crypto-trading-tools ]
+tags:         [ spend-your-crypto, crypto-charting, tradingview-scripts ]
 
 interlink:
 - [ "/tag/tradingview-script-review/", "Best TradingView Scripts that you can use with FREE account", "Get started on TradingView for FREE with these community scripts, and if you get tired of the nagging at chart layout save, you can always upgrade to PRO.", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]

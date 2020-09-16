@@ -14,11 +14,11 @@ navi:
       <loc>{{ site.url }}{{ site.baseurl }}</loc>
       <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
     </url>
-    {% for page in site.pages %}{% unless page.navi.exclude == true %}{% unless page.categories contains "airdrops" %}
+    {% for page in site.pages %}{% unless page.navi.exclude == true %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         {% if page.last_modified_at %}<lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>{% endif %}
     </url>
-    {% endunless %}{% endunless %}{% endfor %}
+    {% endunless %}{% endfor %}
 
 </urlset>
