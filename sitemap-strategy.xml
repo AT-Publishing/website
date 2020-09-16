@@ -13,9 +13,6 @@ navi:
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
-        {% if page.cz or page.german %}<xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"/>
-        {% endif %}{% if page.cz %}<xhtml:link rel="alternate" hreflang="cs" href="https://altcointrading.cz/strategie/{{ page.cz }}/"/>
-        {% endif %}
     </url>
     {% endunless %}{% endfor %}
 </urlset>

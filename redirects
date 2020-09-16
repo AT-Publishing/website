@@ -9,6 +9,8 @@ navi:
 https://altcointrading.netlify.com/* https://www.altcointrading.net/:splat 301!
 /index.html / 301
 
+/press/ /reports/ 301
+
 /moving-ltc-p2sh/ /howto/move-ltc-p2sh/ 301
 /security/device-management /security/tiered-crypto-storage/ 301
 /security/sweeping /security/sweep-private-keys/ 301

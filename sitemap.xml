@@ -22,10 +22,4 @@ navi:
   <sitemap>
     <loc>{{ site.url }}{{ site.baseurl }}/sitemap-security.xml</loc>
   </sitemap>
-  <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-pressreleases.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>{{ site.url }}{{ site.baseurl }}/sitemap-airdrops.xml</loc>
-  </sitemap>
 </sitemapindex>
