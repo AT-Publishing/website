@@ -1,4 +1,4 @@
-I"!<p>A lot changed for initial coin offerings during the summer 2016.</p>
+I"!<p>A lot changed for initial coin offerings during the summer 2016.</p>
 
 <h3 id="lawmakers-have-noticed">Lawmakers have noticed</h3>
 
@@ -92,7 +92,7 @@ transaction, in exchange for bitcoins or other virtual currency, for a period of
   <p>We recommend adding a new metric called inflation factor that indicates how the market cap could be affected over the next five years by token inflation:</p>
 </blockquote>
 
-<p><code class="highlighter-rouge">Inflation factor = (new supply over 5 years) / (current total supply) * 100%.</code></p>
+<p><code class="language-plaintext highlighter-rouge">Inflation factor = (new supply over 5 years) / (current total supply) * 100%.</code></p>
 
 <blockquote>
   <p>Inflation factors calculated for the top 15 tokens <a href="https://cdn-images-1.medium.com/max/1600/1*goypbtaXje1QRL7KGoAK4g.png">here</a>.</p>

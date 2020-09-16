@@ -1,4 +1,4 @@
-I"S<p>In May 2018 new attacks on the desktop version of the Telegram messenger were reported. The reports weren’t specific regarding the targets but since Telegram is the most popular IM in the crypto community, it is certainly something to be aware of.</p>
+I"f<p>In May 2018 new attacks on the desktop version of the Telegram messenger were reported. The reports weren’t specific regarding the targets but since Telegram is the most popular IM in the crypto community, it is certainly something to be aware of.</p>
 
 <p>The sneaky problem here is the current campaign is focused on data gathering only. What it means is you have no way to notice anything wrong, even if your Telegram was compromised.</p>
 
@@ -36,7 +36,7 @@
 
 <h2 id="best-ways-to-protect-yourself">Best ways to protect yourself</h2>
 
-<p>The truly best way is to have an extremely simple trading machine that will actually be really used just for trading - and we are really talking about scrubbed hard drive with a setup <code class="highlighter-rouge">r/minimalism</code> would drool over. The simpler the system, the easier the maintenance and the less exposure to vulnerabilities that have not been discovered yet, which sadly includes any kinds of packages even from trusted sources. You should absolutely have a dedicated beater computer or phone for any riskier activities that involve torrents, download sites or streaming services with aggressive and possibly infected ads - <a href="/security/device-management">more in an older Security post</a>.</p>
+<p>The truly best way is to have an extremely simple trading machine that will actually be really used just for trading - and we are really talking about scrubbed hard drive with a setup <code class="language-plaintext highlighter-rouge">r/minimalism</code> would drool over. The simpler the system, the easier the maintenance and the less exposure to vulnerabilities that have not been discovered yet, which sadly includes any kinds of packages even from trusted sources. You should absolutely have a dedicated beater computer or phone for any riskier activities that involve torrents, download sites or streaming services with aggressive and possibly infected ads - <a href="/security/device-management">more in an older Security post</a>.</p>
 
 <p>Hardware wallets are helpful too, obviously - especially when it comes to the address-rewriting malware: hardware wallets let you check the target address on the HW display which makes it easier to notice any tampering. Using hardware wallets is not risk-free though, they have their own software and hardware vulnerabilities. Both Trezor and Ledger wallet had serious vulnerabilities discovered in the past: <a href="/trezor-hack/">Trezor’s here from August 2017</a> and <a href="https://saleemrashid.com/2018/03/20/breaking-ledger-security-model/">Ledger here</a> from March 2018.</p>
 

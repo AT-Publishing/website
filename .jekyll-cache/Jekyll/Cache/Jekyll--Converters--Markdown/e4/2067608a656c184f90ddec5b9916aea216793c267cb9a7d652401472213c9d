@@ -1,4 +1,4 @@
-I"™<p>Every couple of weeks, always on the full moon, the blackbytes airdrops were happening. If you signed a message with a BTC address before the deadline, you received free <strong>[giga]bytes</strong> and some hours later also some <strong>[giga]blackbytes</strong>.</p>
+I"¬<p>Every couple of weeks, always on the full moon, the blackbytes airdrops were happening. If you signed a message with a BTC address before the deadline, you received free <strong>[giga]bytes</strong> and some hours later also some <strong>[giga]blackbytes</strong>.</p>
 
 <p>While the bytes can be traded on <a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE">Bittrex (by millions as GBYTE)</a>, the blackbytes arenâ€™t traded anywhere. To trade these for bytes you need to sign up to the byteball slack channel <a href="http://slack.byteball.org/">via the autoinviter here</a> and head to #trading_blackbyte channel. The channel has a bot that works as an order book by Gigabyte per Gigablackbyte:</p>
 
@@ -49,7 +49,7 @@
 
 <h4 id="how-to-get-into-the-next-airdrop">How to get into the next airdrop</h4>
 
-<p>To enter the byteball giveaway you need to <a href="https://byteball.org/#download">download byteball wallet</a> and from it enter the chat window with the transition bot by opening this as a link in your browser - <code class="highlighter-rouge">byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000</code>. It will open in the byteball wallet, if you have it installed.</p>
+<p>To enter the byteball giveaway you need to <a href="https://byteball.org/#download">download byteball wallet</a> and from it enter the chat window with the transition bot by opening this as a link in your browser - <code class="language-plaintext highlighter-rouge">byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000</code>. It will open in the byteball wallet, if you have it installed.</p>
 
 <p>The bot will tell you to first state your byteball address, then your bitcoin addresses each followed by a message signed with that address. The signed message must contain only your byteball address.</p>
 

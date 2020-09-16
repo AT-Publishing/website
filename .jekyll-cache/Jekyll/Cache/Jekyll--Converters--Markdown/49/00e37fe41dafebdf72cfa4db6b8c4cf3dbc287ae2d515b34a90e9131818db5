@@ -1,4 +1,4 @@
-I"G<p>The feature of today’s Script Spotlight is an older tool that is not groundbreaking or super sophisticated but it will make your chart reading faster.</p>
+I"�<p>The feature of today’s Script Spotlight is an older tool that is not groundbreaking or super sophisticated but it will make your chart reading faster.</p>
 
 <p>It is called The Detrended Price Oscillator and it is very similar to a simple moving average.</p>
 
@@ -10,7 +10,7 @@
 
 <p><a href="https://www.tradingview.com/script/X2rInS57-Detrended-Price-Oscillator-Strategy/">Full script</a></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  Copyright by HPotter v1.0 30/03/2017
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  Copyright by HPotter v1.0 30/03/2017
 study(title="Detrended Price Oscillator", shorttitle="DPO")
 Length = input(14, minval=1)
 Series = input(title="Price", type=string, defval="close")
@@ -26,13 +26,13 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p><strong>Parameters</strong>: Length (number of timespans to calculate over, default <strong>14</strong>) and Price (candle value input, default <strong>Close</strong>).</p>
 
-<p><strong>What it does</strong>: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: <code class="highlighter-rouge">nRes = xPrice - xsma</code></p>
+<p><strong>What it does</strong>: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: <code class="language-plaintext highlighter-rouge">nRes = xPrice - xsma</code></p>
 
 <p>The resulting line gets plotted below the chart and the chart’s candles are colored red or green depending on whether the value of the difference is positive or negative.</p>
 
 <p>This is what the Detrended Price Oscillator, or DPO, looks like on a 1D BTCUSD chart. (I changed the default colors for clarity)</p>
 
-<p><code class="highlighter-rouge">barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )</code></p>
+<p><code class="language-plaintext highlighter-rouge">barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )</code></p>
 
 <p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 

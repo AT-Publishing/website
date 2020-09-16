@@ -1,4 +1,4 @@
-I"¥1<h2 id="dollar-cost-averaging-definition">Dollar Cost Averaging Definition</h2>
+I"¸1<h2 id="dollar-cost-averaging-definition">Dollar Cost Averaging Definition</h2>
 
 <blockquote>
   <p>Dollar cost averaging, or DCA for short, means investing certain set amount of money into an asset on a regular basis, disregarding the momentarily price action on the market.</p>
@@ -114,7 +114,7 @@
 
 <p>I went to Quandl and took out monthly BTCUSD price data to retrieve the average of each monthly candle for as far back as possible. I threw linear regression onto it, which should be acceptable here - this is really only for illustration.</p>
 
-<p>The line underpinning the BTCUSD longterm trend came as <code class="highlighter-rouge">152,8*x-1826</code> out of which we get an average monthly increment of 153 USD in the value of bitcoin. We need this number to figure out how much bitcoin a DCA investor affords every month, assuming their disposable income will not change.</p>
+<p>The line underpinning the BTCUSD longterm trend came as <code class="language-plaintext highlighter-rouge">152,8*x-1826</code> out of which we get an average monthly increment of 153 USD in the value of bitcoin. We need this number to figure out how much bitcoin a DCA investor affords every month, assuming their disposable income will not change.</p>
 
 <p>If we start our imaginary DCA bitcoin journey at 10k a coin and assume the price to grow over 20 years to around 50k a coin, you will make 240 purchases in total. With monthly disposable income of 2k USD, you will make your first purchase at 10k that will get you 0,2 BTC. Assuming the fantasy linear growth, your last purchase for 2k USD should only be good for something over 0,04 BTC. In total you will progressively accumulate more than 20,5 BTC over 20 years.</p>
 

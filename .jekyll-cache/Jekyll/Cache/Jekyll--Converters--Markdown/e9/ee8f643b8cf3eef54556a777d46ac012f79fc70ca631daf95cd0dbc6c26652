@@ -1,4 +1,4 @@
-I"Œ6<p>Does it make sense to install your desktop crypto wallets on a virtual machine?</p>
+I"Ø6<p>Does it make sense to install your desktop crypto wallets on a virtual machine?</p>
 
 <p>Only in some cases.</p>
 
@@ -58,7 +58,7 @@
 
 <amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/1androidiso_ctht1f.jpg" layout="responsive" data-original-width="753px" data-original-height="823px" width="753px" height="823px"></amp-img>
 
-<p><strong>Step 1</strong> Go to <code class="highlighter-rouge">http://www.android-x86.org/download</code> and get the ISO file of the latest Android. I am going with the 64 bit 7.1 here.</p>
+<p><strong>Step 1</strong> Go to <code class="language-plaintext highlighter-rouge">http://www.android-x86.org/download</code> and get the ISO file of the latest Android. I am going with the 64 bit 7.1 here.</p>
 
 <amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/2virtualbox_jtcljx.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
 
@@ -66,7 +66,7 @@
 
 <amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/3_zvj1na.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
 
-<p><strong>Step 3</strong> Name the machine (doesnâ€™t matter), say it is a Linux - <code class="highlighter-rouge">Other Linux x86</code>.</p>
+<p><strong>Step 3</strong> Name the machine (doesnâ€™t matter), say it is a Linux - <code class="language-plaintext highlighter-rouge">Other Linux x86</code>.</p>
 
 <amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239225/atnet/cybersecurity/4_h18rjg.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
 
@@ -98,7 +98,7 @@
 
 <p>Select ext4 and format the disk.</p>
 
-<p>Choose <code class="highlighter-rouge">YES</code> from now on - you DO really want to format, you DO want GRUB and you DO want that whatever directory writeable.</p>
+<p>Choose <code class="language-plaintext highlighter-rouge">YES</code> from now on - you DO really want to format, you DO want GRUB and you DO want that whatever directory writeable.</p>
 
 <amp-img itemprop="image" alt="Altcoin Trading Security" src="https://res.cloudinary.com/atnetcloud/image/upload/v1586239227/atnet/cybersecurity/9_e1wtsp.jpg" layout="responsive" data-original-width="1920px" data-original-height="1080px" width="753px" height="423px"></amp-img>
 
@@ -108,7 +108,7 @@
 
 <p>Before you reboot the machine to launch your fake Android phone, <strong>unmount the ISO</strong>. If you donâ€™t, the machine will keep attempting to reinstall Android.</p>
 
-<p>So, go to Virtualbox menu and open <code class="highlighter-rouge">Devices &gt; Optical Drives</code> to <strong>unselect the ISO</strong>.</p>
+<p>So, go to Virtualbox menu and open <code class="language-plaintext highlighter-rouge">Devices &gt; Optical Drives</code> to <strong>unselect the ISO</strong>.</p>
 
 <h4 id="create-a-virtual-machine-crypto-wallet">Create a Virtual Machine Crypto Wallet</h4>
 

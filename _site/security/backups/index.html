@@ -2380,7 +2380,7 @@ amp-user-notification>div>div {
             <a href="/">AltcoinTrading.NET</a></div>
           <small>
             <em>
-              Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+              ATNET Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
             </em>
           </small>
         </div>
@@ -2642,7 +2642,7 @@ amp-user-notification>div>div {
 
 <p>An ideal setup for your pi as a backup device should take into account your device and network security and the hardware of the pi. You want your Raspberry Pi to be available from your home network only - it won’t have a web server and a public IP but it will have SSH open which means you will be able to get in from another device in the same network but it will not be accessible from the outer world.</p>
 
-<p>If you don’t want to connect your devices to the internet, have a dedicated USB stick for transfers. To move files in and out you can use <code class="highlighter-rouge">scp</code> if your devices are online. SCP is secure copy via ssh - this way <a href="https://serverfault.com/questions/408152/can-anyone-monitor-my-ssh-scp-file-transfers">not even your ISP will see</a> what kind of stuff you are moving. (If you are using a router provided by your ISP you also might want to read <a href="https://superuser.com/questions/840412/what-information-can-my-isp-see-from-my-router">this</a>.)</p>
+<p>If you don’t want to connect your devices to the internet, have a dedicated USB stick for transfers. To move files in and out you can use <code class="language-plaintext highlighter-rouge">scp</code> if your devices are online. SCP is secure copy via ssh - this way <a href="https://serverfault.com/questions/408152/can-anyone-monitor-my-ssh-scp-file-transfers">not even your ISP will see</a> what kind of stuff you are moving. (If you are using a router provided by your ISP you also might want to read <a href="https://superuser.com/questions/840412/what-information-can-my-isp-see-from-my-router">this</a>.)</p>
 
 <p>A big disadvantage of a Pi is you rely on the longevity of the SD card or a USB stick. If you’ve ever used them outside of a Pi you will know how easily they break. Here’s the deal: the hard drives on devices without their own power source most often break when you pull them out in the middle of writing which creates corrupt data, but even if you are careful about this the hard drives wear more quickly just by having them start up and shut down so often. If you are going to have your Raspberry Pi plugged in all the time it helps the longevity of whatever you are using as a hard drive. It’s not all about handling in this case though, a fundamental difference in SD cards is how the data writing is done – better SD cards don’t keep pounding new data into the same spot on the hard drive until it gets worn, they will spread the writing activity across the disk which prolongs the card’s lifespan. Because of this, don’t go with a default “saver pack” Raspberry Pi – look for <a href="https://reprage.com/post/what-are-the-best-sd-cards-to-use-in-a-raspberry-pi">Pi-compatible SD cards from Sandisk or Panasonic in the price range of 30-150 USD</a>.</p>
 
@@ -2656,7 +2656,7 @@ amp-user-notification>div>div {
 <p>For the setup:</p>
 
 <ul>
-  <li>If you want to keep your Pi offline, you can use a “warm” device (a clean online laptop that is not used for daily browsing) to download verified OS and verified .deb files (or whatever you are using) that you need and install all that on the offline Pi from a USB stick with <code class="highlighter-rouge">dpkg -i</code>. It’s quite a common security practice to have this kind of device just for downloading updates from the internet, verifying the file integrity and then installing the checked file on the device that has to stay safe.</li>
+  <li>If you want to keep your Pi offline, you can use a “warm” device (a clean online laptop that is not used for daily browsing) to download verified OS and verified .deb files (or whatever you are using) that you need and install all that on the offline Pi from a USB stick with <code class="language-plaintext highlighter-rouge">dpkg -i</code>. It’s quite a common security practice to have this kind of device just for downloading updates from the internet, verifying the file integrity and then installing the checked file on the device that has to stay safe.</li>
   <li>If you want to set up SSH access to your Pi <a href="https://www.raspberrypi.org/documentation/remote-access/ssh/">follow this guide</a> - your device will be connected to the internet but invisible outside of your home network. This is a very convenient solution because you have your data accessible at anytime and it can also be automated if you are using SSH keys, but it is not a “cold” solution. For pure backup of a kind of file that isn’t updated at all (= your wallet’s seed) you should not need this solution because you will not need to access your backup regularly, neither to retrieve the data nor to update it.</li>
   <li><a href="https://tails.boum.org/">Tails</a>, the Linux distro built for privacy, <a href="https://tails.boum.org/support/faq/index.en.html#index3h1">will not work on a Raspberry Pi</a>.</li>
 </ul>
@@ -2665,7 +2665,7 @@ amp-user-notification>div>div {
 
 <h4 id="hiding-your-wallet-files">Hiding your wallet files</h4>
 
-<p>Some wallets might generate a file called something like <code class="highlighter-rouge">wallet.dat</code> when you are generating a new wallet. That is well known and the number of people who know what a <code class="highlighter-rouge">wallet.dat</code> is keeps growing.</p>
+<p>Some wallets might generate a file called something like <code class="language-plaintext highlighter-rouge">wallet.dat</code> when you are generating a new wallet. That is well known and the number of people who know what a <code class="language-plaintext highlighter-rouge">wallet.dat</code> is keeps growing.</p>
 
 <p>With <a href="https://electrum.org/#home">Bitcoin Electrum</a>, wallet file encryption is activated by default since version 2.8. Your wallet seed is encrypted once again inside of the encrypted wallet file.</p>
 
@@ -2681,7 +2681,7 @@ amp-user-notification>div>div {
 
 <p>It is very similar for Electrum forks - encryption might not be the default option though, so you should make it a point to check you are opting for it.</p>
 
-<p>However, if you go with the default wallet name during your wallet creation, the file will still be called <code class="highlighter-rouge">default_wallet</code>. On Linux and Mac it is located in <code class="highlighter-rouge">~/.electrum</code>, on Windows in <code class="highlighter-rouge">\Users\YourUserName\AppData\Roaming\Electrum\wallets</code>. You should always give your wallets random names so that is not immediately obvious what kind of file it is.</p>
+<p>However, if you go with the default wallet name during your wallet creation, the file will still be called <code class="language-plaintext highlighter-rouge">default_wallet</code>. On Linux and Mac it is located in <code class="language-plaintext highlighter-rouge">~/.electrum</code>, on Windows in <code class="language-plaintext highlighter-rouge">\Users\YourUserName\AppData\Roaming\Electrum\wallets</code>. You should always give your wallets random names so that is not immediately obvious what kind of file it is.</p>
 
 <p>The wallet file and wallet password are enough to access your coins. With Bitcoin-based cryptocurrencies you don’t need to back up the wallet file if you are backing up your seed, your balance and transaction history is always recoverable from the seed even if you’ve forgotten your wallet password. Seed recovery won’t recover your labels though, so you will need to back up the wallet file if, say, you are using specific addresses within one wallet for specific incomes and wouldn’t want to mix up these routes.</p>
 
@@ -2693,8 +2693,8 @@ amp-user-notification>div>div {
 
 <ol>
   <li>Always make sure you have the seed to your wallet before playing with the wallet files.</li>
-  <li>In the Electrum app, with the use of <code class="highlighter-rouge">File &gt; Save Copy</code> save a copy of your wallet file from <code class="highlighter-rouge">~/.electrum</code> to a new directory in your home folder, call it something like <code class="highlighter-rouge">VacationPhotos_2015</code> or <code class="highlighter-rouge">FacebookBackup_10102017</code>.</li>
-  <li>Pack the directory into an encrypted archive: <code class="highlighter-rouge">tar -cvf YOURDIR.tar YOURDIRPATH | openssl enc -aes-256-cbc -salt -out YOURDIR.tar.bak</code></li>
+  <li>In the Electrum app, with the use of <code class="language-plaintext highlighter-rouge">File &gt; Save Copy</code> save a copy of your wallet file from <code class="language-plaintext highlighter-rouge">~/.electrum</code> to a new directory in your home folder, call it something like <code class="language-plaintext highlighter-rouge">VacationPhotos_2015</code> or <code class="language-plaintext highlighter-rouge">FacebookBackup_10102017</code>.</li>
+  <li>Pack the directory into an encrypted archive: <code class="language-plaintext highlighter-rouge">tar -cvf YOURDIR.tar YOURDIRPATH | openssl enc -aes-256-cbc -salt -out YOURDIR.tar.bak</code></li>
   <li>Move the encrypted archive to your cloud backup or wherever you are normally dumping your random files.</li>
   <li>Optional - if you are worried before crossing borders: Uninstall the Electrum app.</li>
   <li>Optional - <a href="#stegano">make use of use something like this</a>.</li>
@@ -2702,7 +2702,7 @@ amp-user-notification>div>div {
 
 <p>Decrypting and extracting the archive:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl enc -d -aes-256-cbc -in YOURDIR.tar.bak -out YOURDIR.tar
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl enc -d -aes-256-cbc -in YOURDIR.tar.bak -out YOURDIR.tar
 tar -xvf YOURDIR.tar
 </code></pre></div></div>
 
@@ -2711,7 +2711,7 @@ tar -xvf YOURDIR.tar
 <ul>
   <li>This is the basic backup version. For a more elaborate scheme skip to <a href="#stegano">this section</a>.</li>
   <li>The openssl command will ask you for password - choose something strong and store it safely on a paper.</li>
-  <li>The <code class="highlighter-rouge">bak</code> file extention is just a random extension that is used to signify “backup” – it can be anything.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">bak</code> file extention is just a random extension that is used to signify “backup” – it can be anything.</li>
 </ul>
 
 <p><strong>Byteball wallet backup</strong></p>
@@ -2740,19 +2740,19 @@ tar -xvf YOURDIR.tar
 
 <p><strong>How to hide your sensitive files into an image:</strong></p>
 
-<p>Let’s use an Electrum wallet export. Create a directory with the wallet file and a photo. Here the encrypted wallet file is disguised as <code class="highlighter-rouge">FbBackup102017</code>.</p>
+<p>Let’s use an Electrum wallet export. Create a directory with the wallet file and a photo. Here the encrypted wallet file is disguised as <code class="language-plaintext highlighter-rouge">FbBackup102017</code>.</p>
 
 <p><a target="_blank" href="https://www.altcointrading.net/img/steganography/stegano1.jpg" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/steganography/stegano1.jpg" alt="How to Safely Backup Your Cryptocurrency Wallet Keys" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>Now for the heavy lifting: We will use a standard <code class="highlighter-rouge">cat</code> command that is most often used for displaying text in the terminal but with <code class="highlighter-rouge">&gt;&gt;</code> or <code class="highlighter-rouge">&gt;</code> also for file manipulation.</p>
+<p>Now for the heavy lifting: We will use a standard <code class="language-plaintext highlighter-rouge">cat</code> command that is most often used for displaying text in the terminal but with <code class="language-plaintext highlighter-rouge">&gt;&gt;</code> or <code class="language-plaintext highlighter-rouge">&gt;</code> also for file manipulation.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zip FbBackup102017.zip FbBackup102017
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zip FbBackup102017.zip FbBackup102017
 cat FbBackup102017.zip &gt; tony-joe-white.jpg
 </code></pre></div></div>
 
 <p>The terminal should just eat the command, not showing any changes other than the image file size:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># before
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># before
 -rw-r--r--   1 USER  staff  295002 Oct 14 13:57 FbBackup102017.zip
 -rw-r--r--@  1 USER  staff   62306 Sep 10 06:08 tony-joe-white.jpg
 # after
@@ -2765,12 +2765,12 @@ cat FbBackup102017.zip &gt; tony-joe-white.jpg
 
 <p>Now go ahead and remove the sensitive files, retrieving the original wallet file from the image is this simple:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip tony-joe-white.jpg
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip tony-joe-white.jpg
 </code></pre></div></div>
 
-<p>If you want to only test an image file to see if there’s something in it, use <code class="highlighter-rouge">-t</code>:</p>
+<p>If you want to only test an image file to see if there’s something in it, use <code class="language-plaintext highlighter-rouge">-t</code>:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ unzip -t tony-joe-white.jpg
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ unzip -t tony-joe-white.jpg
 Archive:  tony-joe-white.jpg
     testing: FbBackup102017           OK
 No errors detected in compressed data of tony-joe-white.jpg.

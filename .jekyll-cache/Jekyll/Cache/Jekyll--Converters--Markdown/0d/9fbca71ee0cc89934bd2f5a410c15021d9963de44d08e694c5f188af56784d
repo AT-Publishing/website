@@ -1,4 +1,4 @@
-I"q<p><strong>SegWit</strong> is a crypto jargon term that stands for <strong>Segregated Witness</strong>.</p>
+I"�<p><strong>SegWit</strong> is a crypto jargon term that stands for <strong>Segregated Witness</strong>.</p>
 
 <p>Segregated Witness is a network feature activated on the Bitcoin and Litecoin blockchains.</p>
 
@@ -23,16 +23,16 @@
 <p>Bitcoin network:</p>
 
 <ul>
-  <li>Bitcoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="highlighter-rouge">1</code></li>
-  <li>Bitcoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="highlighter-rouge">3</code></li>
-  <li>Bitcoin Native SegWit (bech32, or “base32 encoded with error detection”): address start with <code class="highlighter-rouge">bc1</code></li>
+  <li>Bitcoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="language-plaintext highlighter-rouge">1</code></li>
+  <li>Bitcoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="language-plaintext highlighter-rouge">3</code></li>
+  <li>Bitcoin Native SegWit (bech32, or “base32 encoded with error detection”): address start with <code class="language-plaintext highlighter-rouge">bc1</code></li>
 </ul>
 
 <p>Litecoin network:</p>
 
 <ul>
-  <li>Litecoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="highlighter-rouge">L</code></li>
-  <li>Litecoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="highlighter-rouge">M</code> or more rarely with <code class="highlighter-rouge">3</code></li>
+  <li>Litecoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="language-plaintext highlighter-rouge">L</code></li>
+  <li>Litecoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="language-plaintext highlighter-rouge">M</code> or more rarely with <code class="language-plaintext highlighter-rouge">3</code></li>
 </ul>
 
 <h3 id="from-your-private-key-you-can-generate-either-address-format">From your private key, you can generate either address format</h3>

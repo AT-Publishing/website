@@ -1,4 +1,4 @@
-I")Z<p>In April 2018, <a href="https://twitter.com/bbands/status/981267684493963264">John Bollinger asked on Twitter</a> what  everyone’s favorite technical indicators are that they’ve mostly come to rely on. Given that many people aspire to be like John Bollinger, in terms of trading at least, we may safely assume that the responses recorded were to a decent extent authentic.</p>
+I"<Z<p>In April 2018, <a href="https://twitter.com/bbands/status/981267684493963264">John Bollinger asked on Twitter</a> what  everyone’s favorite technical indicators are that they’ve mostly come to rely on. Given that many people aspire to be like John Bollinger, in terms of trading at least, we may safely assume that the responses recorded were to a decent extent authentic.</p>
 
 <div>
   <a target="_blank" href="https://www.altcointrading.net/features/timing-tools/timing-indicators.png" title="AltcoinTrading.NET - Timing Tools"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/timing-tools/timing-indicators.png" alt="Timing Tools" title="AltcoinTrading.NET - Timing Tools" layout="responsive" width="700px" height="360px"></amp-img></figure></a>
@@ -100,7 +100,7 @@
 
 <p>Breadth Thrust is an old indicator that will undoubtedly need some testing and tweaking to be applied to cryptos. Historically it was used for generating fairly rare and very long-term entry signals ahead of the start of a bull run.</p>
 
-<p>Breadth Thrust is a 10-day moving average of the <code class="highlighter-rouge">advances/(advances+declines)</code> ratio of an index. The information traders look for here is just a single event - the <em>thrust</em>.</p>
+<p>Breadth Thrust is a 10-day moving average of the <code class="language-plaintext highlighter-rouge">advances/(advances+declines)</code> ratio of an index. The information traders look for here is just a single event - the <em>thrust</em>.</p>
 
 <p>In the traditional reading the thrust occurs when the ratio moves from values below 0.4 to values over 0.615 in the span of 10 days (traditionally that is two trading weeks). What that signifies is that after some period of weak participation (which is typical during a bottom range) suddenly the advance in a few select markets pick up very rapidly over short time. In the case of the bottom range, it happens when big enough investors start to rapidly accumulate.</p>
 

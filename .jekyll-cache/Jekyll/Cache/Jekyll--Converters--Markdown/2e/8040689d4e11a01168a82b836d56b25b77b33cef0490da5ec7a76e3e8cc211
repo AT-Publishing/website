@@ -1,4 +1,4 @@
-I"YO<p>Lets start this article about altcoin wallets right off with the obligatory reminder.</p>
+I"’O<p>Lets start this article about altcoin wallets right off with the obligatory reminder.</p>
 
 <blockquote>
   <p>For hodlers: <strong>It is not a good idea to keep untraded cryptocurrency on an exchange.</strong></p>
@@ -74,7 +74,7 @@
 <ul>
   <li>The amount of supported coins  is the largest (110 cryptocurrencies in 2020).</li>
   <li>Exodus supports Monero.</li>
-  <li>For Bitcoin, <strong>both legacy and segwit</strong> addresses are supported You automatically get a pair of legacy (<code class="highlighter-rouge">1</code>-address) and segwit addresses (<code class="highlighter-rouge">bc</code>-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.</li>
+  <li>For Bitcoin, <strong>both legacy and segwit</strong> addresses are supported You automatically get a pair of legacy (<code class="language-plaintext highlighter-rouge">1</code>-address) and segwit addresses (<code class="language-plaintext highlighter-rouge">bc</code>-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.</li>
   <li>The customer support is great and you get a status page to check in case your app gets sluggish.</li>
   <li>There is a swap exchange inside the app.</li>
   <li>Exodus also integrates with hardware wallets (Ledger, Trezor).</li>
@@ -138,7 +138,7 @@
   <li>The Blockchain.com wallet offers ID verification option for your account. Verified users get access to <strong>airdrops</strong>, <strong>fiat-to-crypto</strong> exchange and <strong>ETH staking</strong> wallet.</li>
 </ul>
 
-<p>Be careful though: The <code class="highlighter-rouge">blockchain.com</code> wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company <strong>Blockchain Luxembourg SARL</strong>.</p>
+<p>Be careful though: The <code class="language-plaintext highlighter-rouge">blockchain.com</code> wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company <strong>Blockchain Luxembourg SARL</strong>.</p>
 
 <h5 id="summary-3">Summary</h5>
 

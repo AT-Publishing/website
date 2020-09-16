@@ -1,6 +1,6 @@
-I"<<p>Back in 2017, some time before Bitcoin, Litecoin also upgraded their network to get SegWit support. Segwit, or segregated witness, makes transactions more efficient and cheaper, and also enabled atomic swaps between LTC and BTC.</p>
+I"Y<p>Back in 2017, some time before Bitcoin, Litecoin also upgraded their network to get SegWit support. Segwit, or segregated witness, makes transactions more efficient and cheaper, and also enabled atomic swaps between LTC and BTC.</p>
 
-<p>This newer format is called <code class="highlighter-rouge">P2SH</code> (pay-to-script-hash).</p>
+<p>This newer format is called <code class="language-plaintext highlighter-rouge">P2SH</code> (pay-to-script-hash).</p>
 
 <ul>
   <li>If you are here <strong>just for the P2SH vs legacy address converter</strong>, proceed to <a href="https://litecoin-project.github.io/p2sh-convert/">https://litecoin-project.github.io/p2sh-convert/</a></li>
@@ -9,8 +9,8 @@
 <h4 id="difference-between-p2sh-and-legacy-ltc-address">Difference between P2SH and Legacy LTC address</h4>
 
 <ul>
-  <li>Nested Segwit LTC address (P2SH): starts with <code class="highlighter-rouge">M</code> or more rarely<code class="highlighter-rouge">3</code></li>
-  <li>Legacy LTC address: starts with <code class="highlighter-rouge">L</code></li>
+  <li>Nested Segwit LTC address (P2SH): starts with <code class="language-plaintext highlighter-rouge">M</code> or more rarely<code class="language-plaintext highlighter-rouge">3</code></li>
+  <li>Legacy LTC address: starts with <code class="language-plaintext highlighter-rouge">L</code></li>
 </ul>
 
 <p>The two Segwit formats (M and 3) are equivalent. Originally, the 3-addresses were implemented for Litecoin’s nested Segwit. This caused issues because Bitcoin also uses an address format that starts with 3. For that reason, with the next network upgrade, the Litecoin P2SH addresses were changed into a format that starts with M.</p>
@@ -32,24 +32,24 @@
 
 <p><strong>You will need a P2SH Litecoin address to withdraw LTC from non-custodial exchanges like <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a>.</strong></p>
 
-<p>If you are using a hardware wallet like Ledger or Trezor, your default LTC addresses will be almost definitely P2SH, and they will start with the letter <code class="highlighter-rouge">M</code>.</p>
+<p>If you are using a hardware wallet like Ledger or Trezor, your default LTC addresses will be almost definitely P2SH, and they will start with the letter <code class="language-plaintext highlighter-rouge">M</code>.</p>
 
-<p><strong>If your exchange gives you an error</strong> that says an address starting with <strong>M is not a valid LTC address</strong>, you will still be able to withdraw into the P2SH address that starts with <code class="highlighter-rouge">3</code>.</p>
+<p><strong>If your exchange gives you an error</strong> that says an address starting with <strong>M is not a valid LTC address</strong>, you will still be able to withdraw into the P2SH address that starts with <code class="language-plaintext highlighter-rouge">3</code>.</p>
 
-<p>Litecoin addresses that start with <code class="highlighter-rouge">3</code> are equivalent to that starting with <code class="highlighter-rouge">M</code>, so the coin will show up in the same wallet, in the same address. Using the <code class="highlighter-rouge">3</code>-address is just like using an alias.</p>
+<p>Litecoin addresses that start with <code class="language-plaintext highlighter-rouge">3</code> are equivalent to that starting with <code class="language-plaintext highlighter-rouge">M</code>, so the coin will show up in the same wallet, in the same address. Using the <code class="language-plaintext highlighter-rouge">3</code>-address is just like using an alias.</p>
 
 <ol>
-  <li>Copy your <code class="highlighter-rouge">M</code>-address where you want to receive the LTC</li>
+  <li>Copy your <code class="language-plaintext highlighter-rouge">M</code>-address where you want to receive the LTC</li>
   <li>Go to <a href="https://litecoin-project.github.io/p2sh-convert/">https://litecoin-project.github.io/p2sh-convert/</a> which is a public converter script recommended by Trezor to use for this purpose.</li>
-  <li>Send a small amount of LTC to your <code class="highlighter-rouge">3</code>-address and check that the transaction arrived well. There were reports of <code class="highlighter-rouge">Uphold.com</code> messing this up and sending bitcoins instead.</li>
+  <li>Send a small amount of LTC to your <code class="language-plaintext highlighter-rouge">3</code>-address and check that the transaction arrived well. There were reports of <code class="language-plaintext highlighter-rouge">Uphold.com</code> messing this up and sending bitcoins instead.</li>
   <li>If the test transaction went well, withdraw the rest.</li>
 </ol>
 
 <h4 id="how-to-withdraw-litecoin-to-a-legacy-address-wallet-apps">How to withdraw Litecoin to a legacy address (Wallet Apps)</h4>
 
-<p>In Trezor and Ledger wallets, you can still generate a new legacy account and get an <code class="highlighter-rouge">L</code>-address.</p>
+<p>In Trezor and Ledger wallets, you can still generate a new legacy account and get an <code class="language-plaintext highlighter-rouge">L</code>-address.</p>
 
-<p>Alternatively, you can use the <code class="highlighter-rouge">Exodus.io</code> wallet app - Exodus only supports <code class="highlighter-rouge">L</code>-addresses for Litecoin.</p>
+<p>Alternatively, you can use the <code class="language-plaintext highlighter-rouge">Exodus.io</code> wallet app - Exodus only supports <code class="language-plaintext highlighter-rouge">L</code>-addresses for Litecoin.</p>
 
 <p>Once your LTC is transferred and confirmed, <strong>hardware wallets</strong> will send the LTC from the legacy account into the P2SH account. (<strong>This is not automatic</strong>, you have to do it manually.)</p>
 

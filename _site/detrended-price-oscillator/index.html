@@ -152,7 +152,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/X2rInS57-Detrended-Price-Oscillator-Strategy/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//  Copyright by HPotter v1.0 30/03/2017
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//  Copyright by HPotter v1.0 30/03/2017
 study(title=&quot;Detrended Price Oscillator&quot;, shorttitle=&quot;DPO&quot;)
 Length = input(14, minval=1)
 Series = input(title=&quot;Price&quot;, type=string, defval=&quot;close&quot;)
@@ -168,13 +168,13 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: Length (number of timespans to calculate over, default &lt;strong&gt;14&lt;/strong&gt;) and Price (candle value input, default &lt;strong&gt;Close&lt;/strong&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What it does&lt;/strong&gt;: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: &lt;code class=&quot;highlighter-rouge&quot;&gt;nRes = xPrice - xsma&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What it does&lt;/strong&gt;: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nRes = xPrice - xsma&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;The resulting line gets plotted below the chart and the chart’s candles are colored red or green depending on whether the value of the difference is positive or negative.&lt;/p&gt;
 
 &lt;p&gt;This is what the Detrended Price Oscillator, or DPO, looks like on a 1D BTCUSD chart. (I changed the default colors for clarity)&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2476,7 +2476,7 @@ amp-user-notification>div>div {
             <a href="/">AltcoinTrading.NET</a></div>
           <small>
             <em>
-              Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
+              ATNET Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't. Folow us on Twitter <a target="_blank" href="https://twitter.com/altcointrading_">@altcointrading_</a>
             </em>
           </small>
         </div>
@@ -2614,7 +2614,7 @@ amp-user-notification>div>div {
 
 <p><a href="https://www.tradingview.com/script/X2rInS57-Detrended-Price-Oscillator-Strategy/">Full script</a></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  Copyright by HPotter v1.0 30/03/2017
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>//  Copyright by HPotter v1.0 30/03/2017
 study(title="Detrended Price Oscillator", shorttitle="DPO")
 Length = input(14, minval=1)
 Series = input(title="Price", type=string, defval="close")
@@ -2630,13 +2630,13 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
 
 <p><strong>Parameters</strong>: Length (number of timespans to calculate over, default <strong>14</strong>) and Price (candle value input, default <strong>Close</strong>).</p>
 
-<p><strong>What it does</strong>: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: <code class="highlighter-rouge">nRes = xPrice - xsma</code></p>
+<p><strong>What it does</strong>: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: <code class="language-plaintext highlighter-rouge">nRes = xPrice - xsma</code></p>
 
 <p>The resulting line gets plotted below the chart and the chart’s candles are colored red or green depending on whether the value of the difference is positive or negative.</p>
 
 <p>This is what the Detrended Price Oscillator, or DPO, looks like on a 1D BTCUSD chart. (I changed the default colors for clarity)</p>
 
-<p><code class="highlighter-rouge">barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )</code></p>
+<p><code class="language-plaintext highlighter-rouge">barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )</code></p>
 
 <p><a target="_blank" href="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png" alt="Script Spotlight: Detrended Price Oscillator (DPO)" title="AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
@@ -2706,15 +2706,15 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
     
         
       
-      <li>#TRADINGVIEW-SCRIPTS: <a href="/scriptspotlight-auto-divergences/">Script Spotlight: Automatic Divergences</a></li>
+      <li>#TRADINGVIEW-SCRIPTS: <a href="/detrended-price-oscillator/">Script Spotlight: Detrended Price Oscillator (DPO)</a></li>
       
-      <li>#TRADINGVIEW-SCRIPTS: <a href="/ichimoku-cloud/">Ichimoku Cloud for Crypto Trading</a></li>
+      <li>#TRADINGVIEW-SCRIPTS: <a href="/tools/">List of Crypto Trading Tools (Free and Freemium)</a></li>
       
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
-      
       <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method and ranging markets</a></li>
+      
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
       
     
   </ol>
@@ -2752,14 +2752,14 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitgur/" title="Another better Coinmarketcap - with a heatmap tool"><span class="tag custom-note">Feature</span>&nbsp;<b>Another better Coinmarketcap - with a heatmap tool</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/tensorcharts/" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><span class="tag custom-note">Trading Tool</span>&nbsp;<b>TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+      <a class="cat-internal-link" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/bitgur.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2771,52 +2771,14 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-auto-divergences/" title="Script Spotlight: Automatic Divergences"><b>Script Spotlight: Automatic Divergences</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/detrended-price-oscillator/" title="Script Spotlight: Detrended Price Oscillator (DPO)"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Detrended Price Oscillator (DPO)</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 11 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: Automatic Divergences" href="/scriptspotlight-auto-divergences/">
+      <a class="cat-internal-link" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/ichimoku-cloud/" title="Ichimoku Cloud for Crypto Trading"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Ichimoku Cloud for Crypto Trading</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Ichimoku Cloud for Crypto Trading" href="/ichimoku-cloud/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/technical-analysis/" title="Technical Analysis in Cryptocurrency Trading"><span class="tag custom-note">Trading Blog</span>&nbsp;<b>Technical Analysis in Cryptocurrency Trading</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2836,6 +2798,44 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
       <a class="cat-internal-link" title="Script Spotlight: A/D Levels" href="/scriptspotlight-a-d-levels/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/features/scriptspotlight/adl/adl1.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/bitgur/" title="Another better Coinmarketcap - with a heatmap tool"><span class="tag custom-note">Feature</span>&nbsp;<b>Another better Coinmarketcap - with a heatmap tool</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/bitgur.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/scriptspotlight-bollinger-band-width-indicator/" title="Script Spotlight: Bollinger Band Width"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Bollinger Band Width</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 11 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/bbw/scriptspotlight-bbands.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

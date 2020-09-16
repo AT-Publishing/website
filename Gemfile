@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 
-gem "bundler", '~> 2.0.2'
+gem "bundler"
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-last-modified-at"

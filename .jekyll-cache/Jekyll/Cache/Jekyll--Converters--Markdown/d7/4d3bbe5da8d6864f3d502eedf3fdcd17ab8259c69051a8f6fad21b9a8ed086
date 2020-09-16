@@ -1,4 +1,4 @@
-I"nX<p>This is a list of free or freemium tools and apps that are useful for cryptocurrency traders or hodlers.</p>
+I"�X<p>This is a list of free or freemium tools and apps that are useful for cryptocurrency traders or hodlers.</p>
 
 <p><strong>None of these tools were backed by an ICO</strong>, which has been the original condition for getting a tool listed on here. Some of them are open source, some commercial, but all of them have at least a trial account option.</p>
 
@@ -85,7 +85,7 @@
 
 <p>They bill per tax season based on the number of trades you executed, but they do offer a <a href="http://bit.ly/at-cttax">free trial</a>.</p>
 
-<p>You can also use our coupon for 10% discount: <code class="highlighter-rouge">CRYPTOTAX10</code>.</p>
+<p>You can also use our coupon for 10% discount: <code class="language-plaintext highlighter-rouge">CRYPTOTAX10</code>.</p>
 
 <h4 id="orderbook-monitoring">Orderbook Monitoring</h4>
 
@@ -121,7 +121,7 @@
 
 <p>DataMish is a public Grafana dashboard with <a href="/strategy/cryptocurrency-lending/">lending data from Bitfinex</a>.</p>
 
-<p>It also gives you data like shorts vs longs for main markets on finex. It is kind of a better successor of <code class="highlighter-rouge">bfxdata.com</code>, for those who remember.</p>
+<p>It also gives you data like shorts vs longs for main markets on finex. It is kind of a better successor of <code class="language-plaintext highlighter-rouge">bfxdata.com</code>, for those who remember.</p>
 
 <ul>
   <li><a href="https://www.tokenspread.com/">TokenSpread</a></li>
@@ -135,7 +135,7 @@
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1600147984/atnet/blog_trading/bitinfocharts-hashrate-vs-price.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1600147984/atnet/blog_trading/bitinfocharts-hashrate-vs-price.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>There hasn’t been a lot of apps that track the network activity of cryptocurrencies, even though <a href="/strategy/crypto-market-psychology/">fundamental metrics such as transactions per day, fees, mempool size or transactions per block have correlation with the price of bitcoin</a>. Some came and went, such as now defunct <code class="highlighter-rouge">cryptosign.al</code>.</p>
+<p>There hasn’t been a lot of apps that track the network activity of cryptocurrencies, even though <a href="/strategy/crypto-market-psychology/">fundamental metrics such as transactions per day, fees, mempool size or transactions per block have correlation with the price of bitcoin</a>. Some came and went, such as now defunct <code class="language-plaintext highlighter-rouge">cryptosign.al</code>.</p>
 
 <ul>
   <li><a href="https://bitinfocharts.com/comparison/hashrate-price-btc-ltc.html">Hashrate vs Price from Bitinfocharts</a></li>

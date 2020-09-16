@@ -19,9 +19,9 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Sep 2020 08:56:22 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2020 08:56:22 +0000</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Wed, 16 Sep 2020 04:42:58 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Sep 2020 04:42:58 +0000</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
         <title><![CDATA[ 3 Most Dangerous Cryptocurrency Beginner Mistakes ]]></title>
@@ -1227,7 +1227,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;ul&gt;
   &lt;li&gt;The amount of supported coins  is the largest (110 cryptocurrencies in 2020).&lt;/li&gt;
   &lt;li&gt;Exodus supports Monero.&lt;/li&gt;
-  &lt;li&gt;For Bitcoin, &lt;strong&gt;both legacy and segwit&lt;/strong&gt; addresses are supported You automatically get a pair of legacy (&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;-address) and segwit addresses (&lt;code class=&quot;highlighter-rouge&quot;&gt;bc&lt;/code&gt;-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.&lt;/li&gt;
+  &lt;li&gt;For Bitcoin, &lt;strong&gt;both legacy and segwit&lt;/strong&gt; addresses are supported You automatically get a pair of legacy (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;-address) and segwit addresses (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bc&lt;/code&gt;-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.&lt;/li&gt;
   &lt;li&gt;The customer support is great and you get a status page to check in case your app gets sluggish.&lt;/li&gt;
   &lt;li&gt;There is a swap exchange inside the app.&lt;/li&gt;
   &lt;li&gt;Exodus also integrates with hardware wallets (Ledger, Trezor).&lt;/li&gt;
@@ -1291,7 +1291,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
   &lt;li&gt;The Blockchain.com wallet offers ID verification option for your account. Verified users get access to &lt;strong&gt;airdrops&lt;/strong&gt;, &lt;strong&gt;fiat-to-crypto&lt;/strong&gt; exchange and &lt;strong&gt;ETH staking&lt;/strong&gt; wallet.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Be careful though: The &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchain.com&lt;/code&gt; wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company &lt;strong&gt;Blockchain Luxembourg SARL&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Be careful though: The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blockchain.com&lt;/code&gt; wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company &lt;strong&gt;Blockchain Luxembourg SARL&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h5 id=&quot;summary-3&quot;&gt;Summary&lt;/h5&gt;
 
@@ -2518,7 +2518,7 @@ Resources
 
 &lt;p&gt;If you are a trading beginner, you can use free charting tools like &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;https://cryptowat.ch&quot;&gt;Cryptowatch&lt;/a&gt; or &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://tradingview.go2cloud.org/SHW9&quot;&gt;TradingView&lt;/a&gt;, get a BTCUSD chart with Parabolic SAR, RSI and MACD indicators and go backwards to learn how past trend reversals looked. Then you can compare it with what ETHUSD was doing in that time, and then perhaps XRPUSD and smaller altcoins.&lt;/p&gt;
 
-&lt;p&gt;The hourly bitcoin chart below shows Parabolic SAR set to &lt;code class=&quot;highlighter-rouge&quot;&gt;0.025, 0.02, 0.03&lt;/code&gt; on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://tradingview.go2cloud.org/SHW9&quot;&gt;TradingView&lt;/a&gt;. If you click on the picture to zoom it you’ll see it flipping, and if you look at the RSI at the bottom you’ll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.&lt;/p&gt;
+&lt;p&gt;The hourly bitcoin chart below shows Parabolic SAR set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.025, 0.02, 0.03&lt;/code&gt; on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://tradingview.go2cloud.org/SHW9&quot;&gt;TradingView&lt;/a&gt;. If you click on the picture to zoom it you’ll see it flipping, and if you look at the RSI at the bottom you’ll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/img/trading/btc-rsidiv.png&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/trading/btc-rsidiv.png&quot; alt=&quot;Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -3402,7 +3402,7 @@ This review uses a strategy published to the TradingView community.
 
 &lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/X2rInS57-Detrended-Price-Oscillator-Strategy/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//  Copyright by HPotter v1.0 30/03/2017
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//  Copyright by HPotter v1.0 30/03/2017
 study(title=&quot;Detrended Price Oscillator&quot;, shorttitle=&quot;DPO&quot;)
 Length = input(14, minval=1)
 Series = input(title=&quot;Price&quot;, type=string, defval=&quot;close&quot;)
@@ -3418,13 +3418,13 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: Length (number of timespans to calculate over, default &lt;strong&gt;14&lt;/strong&gt;) and Price (candle value input, default &lt;strong&gt;Close&lt;/strong&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What it does&lt;/strong&gt;: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: &lt;code class=&quot;highlighter-rouge&quot;&gt;nRes = xPrice - xsma&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What it does&lt;/strong&gt;: It takes the price values over the chosen span and calculates a standard moving average from them. It then calculates the difference between the price and the SMA: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nRes = xPrice - xsma&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;The resulting line gets plotted below the chart and the chart’s candles are colored red or green depending on whether the value of the difference is positive or negative.&lt;/p&gt;
 
 &lt;p&gt;This is what the Detrended Price Oscillator, or DPO, looks like on a 1D BTCUSD chart. (I changed the default colors for clarity)&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
