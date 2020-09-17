@@ -1,0 +1,213 @@
+I"I,<p><em>The crypto markets changed a lot over the past years. First version of this blog post was written in January 2017. Back then everyone traded at Poloniex and liquid altcoin-fiat markets didn’t exist yet.</em></p>
+
+<p><em>Now they do, which makes it is easier to onramp into any crypto of your choice. We have rewritten this article to explain the different onramping routes, comparing their pros and cons.</em></p>
+
+<h2 id="contents">Contents</h2>
+
+<ol>
+  <li><a href="#fiat-kyc">How to buy altcoins for fiat with KYC</a>
+    <ul>
+      <li><a href="#bitstamp">Bitstamp</a></li>
+      <li><a href="#coinbase">Coinbase</a></li>
+      <li><a href="#bitfinex">Bitfinex</a></li>
+      <li><a href="#kraken">Kraken</a></li>
+      <li><a href="#independent-reserve">Independent Reserve</a></li>
+    </ul>
+  </li>
+  <li><a href="#fiat-anon">How to buy altcoins for fiat anonymously</a></li>
+  <li><a href="#crypto">Buying small-cap altcoins for other crypto</a></li>
+</ol>
+
+<div id="fiat-kyc"></div>
+
+<h3 id="buying-altcoins-for-fiat-with-identity-verification-kyc">Buying Altcoins for Fiat with Identity Verification (KYC)</h3>
+
+<h3 id="bitstamp">BitStamp</h3>
+
+<ul>
+  <li><strong>Accepts</strong> EU, US and most of the world (SEPA, wire)</li>
+  <li><strong>Banks in</strong> EU (Slovenia)</li>
+  <li><strong>Altcoins</strong> Ripple, Ethereum, Litecoin (large-cap only)</li>
+  <li><strong>Experience</strong> <span class="star-rating">★★★★☆</span></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PROS</code></p>
+
+<p>Bitstamp is a reliable exchange.</p>
+
+<p>If you bank in the EU, you will be using the SEPA payment to send fiat in or out. It clears quickly and costs not much.</p>
+
+<p>Bitstamp accepts US customers too, but it is less convenient for US traders to wire money to Slovenia.</p>
+
+<p>Bitstamp is a good choice for people who bank in Europe, have no intention to actively trade, but want a reliable exchange to buy crypto from. Bitstamp even provides super simplified instant buy interface.</p>
+
+<p><a class="btn" href="https://bitstamp.net">Join Bitstamp</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">CONS</code></p>
+
+<p>You need to be fully verified to even access Bitstamp: ID, proof of residence, selfie.</p>
+
+<p>Certain account worth changes trigger additional KYC, such as questionnaire inquiring about how much you are about to traded and why will you be doing that.</p>
+
+<p>The trading engine is slow and fees too high for active trading: Bitstamp rounds up the fee for every partial purchase which makes the whole trade relatively expensive.</p>
+
+<h3 id="coinbase">Coinbase</h3>
+
+<ul>
+  <li><strong>Accepts</strong> EU, US and most of the world (SEPA, wire)</li>
+  <li><strong>Banks in</strong> US</li>
+  <li><strong>Altcoins</strong> Ethereum, Litecoins, DeFi tokens (mix)</li>
+  <li><strong>Experience</strong> <span class="star-rating">★★★☆☆</span></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PROS</code></p>
+
+<p>Coinbase is the most popular exchange and crypto wallet in the US.</p>
+
+<p>For US residents it is supper convenient to deposit in there, buy crypto on the exchange and keep it in the wallet. They also have an EU bank account for EU residents.</p>
+
+<p>Coinbase lists a mixture of big and small cryptocurrencies, which makes it the easiest way to get exposure to new tokens (<a href="/glossary/yield-farming/">DeFi, anyone?</a>).</p>
+
+<p><a class="btn" href="http://bit.ly/con-base">Join Coinbase</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">CONS</code></p>
+
+<p>In 2017, Coinbase <a href="https://www.forbes.com/sites/kellyphillipserb/2017/11/29/irs-nabs-big-win-over-coinbase-in-bid-for-bitcoin-customer-data/#78885487259a">lost a court case with the IRS</a> and is obliged to share user data with the IRS.</p>
+
+<p>They are capitalizing a lot on the fact that the noobs choose them. (Not that it’s terribly wrong, just saying.) You can buy directly through the wallet but the fees can get crazy. The regular exchange market with normal fees is at Coinbase PRO (formerly GDAX).</p>
+
+<ul>
+  <li>Coinbase Wallet instant buy fee: between 1.49% and 3.99% <a href="https://support.coinbase.com/customer/portal/articles/2109597-buy-sell-bank-transfer-fees">depending on method</a></li>
+  <li>Coinbase PRO instant buy fee (AKA market order, fills right away): 0.25%</li>
+  <li>Coinbase PRO limit buy fee (AKA limit order, fills when the market gets there): 0</li>
+</ul>
+
+<p>Last negative is that Coinbase is tracing where your crypto came from. If you decide to sell a coin you didn’t store in Coinbase wallet, but its previous owner passed it through a casino or a darknet market, Coinbase will detect it and shut your account down without warning.</p>
+
+<h3 id="bitfinex">Bitfinex</h3>
+
+<ul>
+  <li><strong>Accepts</strong> EU, parts of US and most of the world (SEPA, wire)</li>
+  <li><strong>Banks in</strong> Who knows. Company resides in British Virgin Islands.</li>
+  <li><strong>Altcoins</strong> Plenty!</li>
+  <li><strong>Experience</strong> <span class="star-rating">★★★☆☆</span></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PROS</code></p>
+
+<p>The Bitfinex trading interface has no contender, both in desktop app and on smartphones.</p>
+
+<p>The mobile app has configurable permissions, so you can allow only the lending functionality for instance - in case you are worried about your phone’s security. <a href="/bitfinex-app/">More here</a></p>
+
+<p>The exchange offers spot trading, leveraged trading, OTC, margin funding and derivatives exchange. Fees are low and get lower with traded volume.</p>
+
+<p>Verification is not required but you will need the <a href="/coupon-bitfinex-5egv78ytlc/#full-level-verificationon-bitfinex">full verification</a> to purchase for fiat.</p>
+
+<p><a class="btn" href="/coupon-bitfinex-5egv78ytlc/">About Bitfinex</a>
+ 
+<a class="btn" href="http://bit.ly/the-cat-mouse-game">Bitfinex 6% Fee Discount</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">CONS</code></p>
+
+<p>Bitfinex was <a href="https://en.wikipedia.org/wiki/Bitfinex_hack">hacked in August 2016</a>.</p>
+
+<p>Its flagship IOU stablecoin <a href="/tether-hack/">Tether was hacked in 2017</a>.</p>
+
+<p>Their customer support can be unresponsive, and the interface will be a huge overkill for someone who just wants to buy and hold. Bitfinex is far more suitable for active trading than for plain buying.</p>
+
+<h3 id="kraken">Kraken</h3>
+
+<ul>
+  <li><strong>Accepts</strong> EU, US and most of the world (SEPA, wire)</li>
+  <li><strong>Banks in</strong> US, EU</li>
+  <li><strong>Altcoins</strong> Plenty!</li>
+  <li><strong>Experience</strong> <span class="star-rating">★★★★☆</span></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PROS</code></p>
+
+<p>Kraken offers easy to use interface for simple buying, and even easier to use OTC. The bottom limit for OTC transactions is only 100k USD, trades are done via Telegram.</p>
+
+<p>Kraken is the exchange with the most solid banking, and was awarded a <a href="https://decrypt.co/42077/kraken-first-us-crypto-bank-heres-why-matters">banking license in 2020</a>.</p>
+
+<p>KYC is required only to move fiat (ID, proof of address).</p>
+
+<p>Kraken is the best choice for US residents to buy cryptocurrencies.</p>
+
+<p><a class="btn" href="https://kraken.com">Join Kraken</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">CONS</code></p>
+
+<p>Kraken used to be the least reliable crypto exchange, the platform would crash all the time, but they <em>seem</em> to have gotten their stuff together. We’ll see how they’ll hold up during the next bull market.</p>
+
+<p>The trading interface is still pretty janky. In a way, Kraken is the perfect complement of Bitfinex - Bitfinex is better for trading while Kraken for plain purchasing.</p>
+
+<h3 id="independent-reserve">Independent Reserve</h3>
+
+<ul>
+  <li><strong>Accepts</strong> EU, US and most of the world (wire)</li>
+  <li><strong>Banks in</strong> AU</li>
+  <li><strong>Altcoins</strong> A couple, mix of large-cap and new DeFi tokens.</li>
+  <li><strong>Experience</strong> <span class="star-rating">★★★★☆</span></li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">PROS</code></p>
+
+<p>Independent Reserve is an Australian crypto market that is catered towards plain buying, similarly as Kraken does it in the US.</p>
+
+<p>Their main advantage is a built-in scheduler which makes it easy for long-term holders to <a href="/glossary/dca/">DCA in or out</a>.</p>
+
+<p>They have an OTC desk.</p>
+
+<p>Support is pretty good.</p>
+
+<p><a class="btn" href="/coupon-independent-reserve/">About IndepReserve</a>
+ 
+<a class="btn" href="http://bit.ly/at-indyres">Join IndepReserve</a></p>
+
+<p><code class="language-plaintext highlighter-rouge">CONS</code></p>
+
+<p>Banks in Australia, so your wire will take a while.</p>
+
+<p>Their trading interface is super basic, again - this is an exchange for simple buying, not for <a href="/daytrading/">daytrading</a>.</p>
+
+<div id="fiat-anon"></div>
+
+<h3 id="how-to-buy-altcoins-anonymously-without-kyc">How to Buy Altcoins Anonymously (Without KYC)</h3>
+
+<p>There is only one reliable platform that will let you buy altcoins without KYC and that is <a href="https://bit.ly/2YD6gmA">LocalCryptos</a>. LocalCryptos are <em>NOT</em> related to <a href="/glossary/lbc/">LocalBitcoins</a>, a platform that can be no longer recommended.</p>
+
+<p>LocalCryptos is a <strong>zero-knowledge dApp</strong> to which you sign up directly through your MetaMask or other <a href="/altcoin-wallets/">crypto wallet</a>. You own the private keys of your crypto, which means the platform will never have a reason to ask you for KYC, since they don’t work with your crypto at all.</p>
+
+<p>LocalCryptos lets you buy ETH, wrapped BTC and wrapped LTC for fiat and via other various forms of payment.</p>
+
+<p><a class="btn" href="https://bit.ly/2YD6gmA">Join LocalCryptos</a></p>
+
+<div id="crypto"></div>
+
+<h3 id="how-to-buy-small-altcoins-for-other-crypto">How to Buy Small Altcoins for Other Crypto</h3>
+
+<p><strong>Buy and hold small amount of altcoin</strong></p>
+
+<p>If you just want to quickly buy a smaller, but not totally new altcoin, some desktop wallets now have built in exchanges - such as the <a href="https://exodus.io">Exodus wallet</a>. Fees are a bit higher but for small transactions it doesn’t amount to much.</p>
+
+<p><strong>Buy and hold larger amount of altcoin</strong></p>
+
+<p>You will be better off using either Bitfinex or Kraken for larger BTC-to-altcoin trades. Choose according to your preference:</p>
+
+<ul>
+  <li>Bitstamp is the only one that will need to have you KYC verified even to deposit BTC.</li>
+  <li>Kraken’s website can get a little cranky.</li>
+  <li>Bitfinex has the lowest fees but quite a complicated interface.</li>
+</ul>
+
+<h2 id="dont-leave-your-crypto-on-the-exchange">Don’t leave your crypto on the exchange!</h2>
+
+<blockquote>
+  <p>Altcoin Storage: Cryptocurrency Wallets</p>
+</blockquote>
+
+<p>You have two options - an altcoin-specific wallet or a multi-altcoin wallet. In any case, it is always a bad idea to leave your coin on an exchange.</p>
+
+<p><a class="btn" href="/altcoin-wallets/">See recommended altcoin wallets here</a></p>
+:ET
