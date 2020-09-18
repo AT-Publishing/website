@@ -352,6 +352,17 @@ width="336px" height="280px">
 # Users who have signed up with a valid affiliate link will receive a 10% fee discount for 6 months.
 
 
+### changelly
+
+chgl_buy_long: '<div class="containter-center"><a rel="nofollow" title="Changelly buy crypto with credit card" href="http://bit.ly/at-changelly-buy" target="_blank">
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1600405022/atnet/_banner/chgl_buy.jpg" alt="Changelly Buy Crypto Easily"
+data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px">
+</amp-img></a></div>'
+
+chgl_exc_long: '<div class="containter-center"><a rel="nofollow" title="Changelly exchange crypto fast" href="http://bit.ly/at-changelly-2020" target="_blank">
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1600405022/atnet/_banner/chgl_exc.jpg" alt="Changelly Crypto Exchange"
+data-original-width="728px" data-original-height="98px" layout="responsive" width="728px" height="98px">
+</amp-img></a></div>'
 
 #### bitfinex ####
 

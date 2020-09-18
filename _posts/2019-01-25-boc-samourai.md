@@ -3,10 +3,10 @@ layout: at-trading
 pinned: no
 canonical: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
 
-categories: [ cryptocurrency-wallets ]
-tags:       [ bitcoin-wallet, crypto-opsec ]
-genres: Blog
-promoting: security
+categories:   [ cryptocurrency-wallets ]
+tags:         [ bitcoin-wallet, crypto-opsec ]
+genres:      Blog
+promoting:   onramp
 
 
 date: 2019-01-25 01:04:00 +0700

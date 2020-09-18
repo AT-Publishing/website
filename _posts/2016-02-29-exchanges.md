@@ -2,7 +2,7 @@
 layout:       at-trading
 title:        "Altcoin Exchanges: Where to buy and trade crypto in 2020?"
 guide:        yes
-promoting:    payments-services
+promoting:    onramp
 note:         Onramping
 categories:   [ trading-platforms ]
 tags:         [ recommended-exchange, custodial-trading ]

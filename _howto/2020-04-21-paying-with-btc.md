@@ -2,7 +2,7 @@
 guide:      true
 pinned:     false
 cloud:      true
-promoting:  payments-services
+promoting:  onramp
 
 layout: at-trading
 title: "How to safely use bitcoin for payments"

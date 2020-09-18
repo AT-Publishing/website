@@ -1,6 +1,6 @@
 ---
 layout: at-trading
-promoting: security
+promoting: onramp
 
 categories: [ cryptocurrency-wallets ]
 tags: [ crypto-opsec ]
