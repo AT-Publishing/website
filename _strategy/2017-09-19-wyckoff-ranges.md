@@ -45,6 +45,8 @@ author_name: "KarlVonBahnhof"
 
 Richard D. Wyckoff's trading method was popularized in the crypto trading circles mainly thanks to John Bollinger who has been using it a lot for his chart analyses on crypto twitter. He usually combines [Wyckoff method with Bollinger bands](https://twitter.com/bbands/status/920763449742970880), his own invention.
 
+* [ATNET Glossary: BBands](/glossary/bbands/)
+
 ### Wyckoff + Bollinger Bands: Great for Ranging Crypto Markets
 
 The combination of Wyckoff method and Bollinger bands has a reason:
