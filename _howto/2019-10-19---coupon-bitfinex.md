@@ -4,6 +4,7 @@ pinned:     false
 cloud:      false
 promoting:  analysis
 layout:     at-trading
+note:       "Active Trading"
 
 title: "Bitfinex Referral Code 5egV78YtlC | No Minimum Deposit | Fee Discount | 2020 "
 permalink: /coupon-bitfinex-5egv78ytlc/

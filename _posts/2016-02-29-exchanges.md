@@ -26,6 +26,19 @@ related:
 
 Whether you want to join the madness of altcoin trading or you just want to buy and hold, this is a 2020 overview of the reliable platforms to buy all the good crypto that is not Bitcoin.
 
+## Contents
+
+* [Trading Altcoins](#trading-altcoins)
+  * [Your priorities for active crypto trading](#your-priorities)
+    - [List of best altcoin trading platforms](#active-trading-platforms)
+  * [Best platforms for trading crypto derivatives](#derivatives)
+    - [BitMEX](#bitmex)
+    - [Deribit](#deribit)
+* [Buying Altcoins](#onramp)
+  * [Onramping from crypto (with exchange recommendations)](#onramp-crypto)
+  * [Onramping from fiat (with exchange recommendations)](#onramp-fiat)
+    - [Buying or trading altcoins guide for US traders](#usa)
+
 ## Trading Altcoins
 
 ### Best altcoin exchanges for trading and speculation
@@ -50,13 +63,15 @@ However, many trading platforms in Asia notoriously don't do small altcoins much
 
 You might be more lucky on places like YoBit.
 
+<div id="active-trading-platforms"></div>
+
 **Most liquid centralized (custodial) altcoin trading platforms:**
 
-* [Binance](http://bit.ly/china-margin): Wide selection of alts, deep liquidity. Does not welcome US traders.
 * [OKEx](http://bit.ly/okex-affilatnet-2020): Smaller selection of alts but easy access to derivatives.
-* [Yobit](https://bit.ly/at-yobit-2020): Busy and very liquid den of wild speculation, big and small alts.
-* [Bitfinex](http://bit.ly/at-bfx-banner2020): Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required.
+* [Bitfinex](http://bit.ly/at-bfx-banner2020): Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required - **[Learn more about Bitfinex here](/coupon-bitfinex-5egv78ytlc/)**
 * [BitMEX](http://bit.ly/atnet-mex): Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
+* [Binance](http://bit.ly/china-margin): Wide selection of alts, deep liquidity. Does not welcome US traders.
+* [Yobit](https://bit.ly/at-yobit-2020): Busy and very liquid den of wild speculation, big and small alts.
 
 **Avoid these trading platforms** - Poloniex, [HitBTC](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/) and new unknown exchanges that will not have enough liquidity.
 
@@ -93,6 +108,7 @@ All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken e
 
 * **In-house charts**, because [TradingView](http://bit.ly/atnet-tv) does better job.
 
+<div id="derivatives"></div>
 
 ### Best altcoin exchanges for trading crypto derivatives
 
@@ -122,6 +138,7 @@ Also, options trading is getting more popular in crypto.
 
 <a rel="nofollow" href="http://bit.ly/deribit" class="btn" >Sign up on Deribit</a>
 
+<div id="onramp"></div>
 
 ## Buying Altcoins (Onramping)
 
@@ -131,6 +148,8 @@ To buy altcoins for long-term holding, with no plans to actively trading them, y
 * buying altcoins for other crypto
 
 We are also going to look into your options if you are based in the US.
+
+<div id="onramp-crypto"></div>
 
 #### Buy altcoins for other cryptocurrency
 
@@ -149,6 +168,9 @@ If you already own a big crypto, you can exchange it for smaller altcoins on pre
 * [LocalCryptos](https://bit.ly/2YD6gmA) lets you buy your initial ETH, BTC and LTC **completely anonymously**
 * Do NOT use LocalBitcoins in 2020, they collaborate.
 
+<div id="onramp-fiat"></div>
+
+
 #### Buy altcoins for fiat (USD, EUR, AUD)
 
 You can only buy the bigger cryptocurrencies directly for fiat - think BTC, ETH, LTC, XMR.
@@ -157,20 +179,32 @@ Selection of smaller cryptos differs exchange by exchange, depending on the plat
 
 **Custodial platforms where you can buy altcoins for fiat (will require AML/KYC)**
 
-Big cryptos only:
+_Large-cap cryptocurrencies:_
+
+[EU]
+
 * [Bitstamp](https://bitstamp.net) (Focused on EU residents)
+
+[US]
+
 * [Gemini](https://gemini.com) (Focused on US residents)
 * [GDAX](https://gdax.com) (Focused on US residents)
-* [Independent Reserve](http://bit.ly/at-indyres) (Aussie, but accepts most residents) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT
 
-Small cryptos thanks to partnerships:
+[Intl]
+
+* [Independent Reserve](http://bit.ly/at-indyres) (Aussie, but accepts most residents) - BTC, ETH, XRP, BCH, BSV, USDT, LTC, EOS, XLM, ETC, BAT, OMG, REP, ZRX and GNT. As of September 2020, some DeFi tokens have been added. **[Learn more about Independent Reserve](/coupon-independent-reserve/)**
+
+_Both large-cap and small-cap cryptocurrencies:_
+
 * [Kraken](https://trade.kraken.com) (Focused on US residents)
 * [Bitfinex](http://bit.ly/at-bfx-banner2020) (Does not accept US residents)
 
-**Non-custodial platforms where you can buy altcoins for fiat**
+**Non-custodial platforms where you can buy altcoins for fiat (no KYC)**
 
 * [LocalCryptos](https://bit.ly/2YD6gmA) lets you buy your initial ETH, BTC and LTC **completely anonymously**
-* Do NOT use LocalBitcoins in 2020, they collaborate.
+* **[!]** Do NOT use LocalBitcoins in 2020, they collaborate.
+
+<div id="usa"></div>
 
 ### Exchanges accepting traders from the US  
 

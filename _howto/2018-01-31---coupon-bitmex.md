@@ -4,6 +4,7 @@ pinned:     false
 cloud:      true
 promoting:  entertainment
 layout:     at-trading
+note:       "Derivatives"
 
 title: BitMEX Referral Code iYQB44 - 10% Fee Discount Coupon BitMEX
 permalink: /coupon-bitmex-iyqb44/
