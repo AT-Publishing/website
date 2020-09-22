@@ -15,13 +15,13 @@ tags:       [ tokens, crypto-trading-strategy, adoption ]
 
 ---
 
-<h4 id="upcoming">Live and upcoming airdrops 2020</h4>
+<h4 id="upcoming">Upcoming Airdrops 2020</h4>
 
 {% include thismonth-airdrops.html %}
 
 <div class="clearfix"></div>
 
-<h3 class="posh">Recurring Cryptocurrency Airdrops</h3>
+<h3 class="posh">Long-Running Opportunities & Airdrops 2020</h3>
 
 <h4 id="recurring">Daily & Weekly Crypto Airdrops, Bounties, Free Token Giveaways and Contests</h4>
 

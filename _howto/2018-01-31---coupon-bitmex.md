@@ -23,7 +23,11 @@ author: https://altcointrading.net
 author_name: AltcoinTradingNET
 author_twitter: "altcointrading_"
 
-date: 2018-01-31 07:07:00 +0100
+
+related:
+- {"Upcoming Airdrops: Token drops, bonuses and early opportunities": "/airdrops/"}
+- {"Products of 2019: What did crypto traders spend on?": "/stats-2019/"}
+- {"[NO MINIMUM DEPOSIT] Bitfinex Referral Code 5egv78ytlc (promo 6% fee discount)": "/coupon-bitfinex-5egv78ytlc/"}
 
 ---
 

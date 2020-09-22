@@ -38,6 +38,7 @@ Whether you want to join the madness of altcoin trading or you just want to buy 
   * [Onramping from crypto (with exchange recommendations)](#onramp-crypto)
   * [Onramping from fiat (with exchange recommendations)](#onramp-fiat)
     - [Buying or trading altcoins guide for US traders](#usa)
+  * **[!]** More on buying alts and much more on the specific exchanges in this [ATNET guide on How to buy altcoins](/how-to-buy-altcoins/)
 
 ## Trading Altcoins
 
@@ -147,7 +148,13 @@ To buy altcoins for long-term holding, with no plans to actively trading them, y
 * buying altcoins for fiat
 * buying altcoins for other crypto
 
-We are also going to look into your options if you are based in the US.
+You can find more on buying alts and also _much more_ on the specific exchanges in this [ATNET guide on How to buy altcoins](/how-to-buy-altcoins/).
+
+In this post, we are still going to list the best altcoin exchanges and explain what they are good at.
+
+We are also briefly going to look into your options if you are based in the US.
+
+<a class="btn" href="/how-to-buy-altcoins/">Go to How to buy altcoins</a>
 
 <div id="onramp-crypto"></div>
 
