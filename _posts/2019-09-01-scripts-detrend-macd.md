@@ -48,7 +48,7 @@ The feature of today's Script Spotlight is an older tool that is not groundbreak
 
 It is called The Detrended Price Oscillator and it is very similar to a simple moving average.
 
-If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv).
+If you don't have a TradingView account yet, [make one here for free](https://bit.ly/at-tv-2020-globalcrypto).
 
 If you care for high leveraged trading, you're probably looking for [BitMEX](http://bit.ly/melancholic-100x) as well, keep your cool though.
 
@@ -111,4 +111,4 @@ The Detrended Price Oscillator is indeed similar to SMAs. The information is pre
 
 ***
 
-*This review uses a strategy published to the [TradingView](http://bit.ly/atnet-tv) community.*
+*This review uses a strategy published to the [TradingView](https://bit.ly/at-tv-2020-globalcrypto) community.*

@@ -101,6 +101,8 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 ## Divergences Cheat Sheets
 
+* **For the ultra lazy**: [Automatic Divergence Indicator](/scriptspotlight-auto-divergences/) from TradingView. This is a pine script from the public library on TradingView. You'll need an account there to access the indicator, but [TradingView FREE](https://bit.ly/at-tv-2020-globalcrypto) will be enough. 
+
 * [Comprehensive Divergences Cheat-sheet](https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
 
 <amp-img itemprop="image" alt="Altcoin Trading - TA Divergences Cheatsheet"

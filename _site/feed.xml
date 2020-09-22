@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Sep 2020 07:03:45 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2020 07:03:45 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2020 07:19:29 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2020 07:19:29 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -403,7 +403,7 @@ Contents
           Buying or trading altcoins guide for US traders
         
       
-      [!] More on buying alts and much more on the specific exchanges in this ATNET guide on How to buy altcoins
+      [!] More on buying alts and much more on the specific exchanges in this ATNET guide on How to buy altcoins. Covers both buying altcoins no KYC and with KYC.
     
   
 
@@ -684,7 +684,7 @@ If you plan to daytrade, here’s the deal:
           &lt;li&gt;&lt;a href=&quot;#usa&quot;&gt;Buying or trading altcoins guide for US traders&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;[!]&lt;/strong&gt; More on buying alts and much more on the specific exchanges in this &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;ATNET guide on How to buy altcoins&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;[!]&lt;/strong&gt; More on buying alts and much more on the specific exchanges in this &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;ATNET guide on How to buy altcoins&lt;/a&gt;. Covers both buying altcoins &lt;em&gt;no KYC&lt;/em&gt; and &lt;em&gt;with KYC&lt;/em&gt;.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -3520,7 +3520,7 @@ This review uses a strategy published to the TradingView community.
 
 &lt;p&gt;It is called The Detrended Price Oscillator and it is very similar to a simple moving average.&lt;/p&gt;
 
-&lt;p&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;make one here for free&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;make one here for free&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;If you care for high leveraged trading, you’re probably looking for &lt;a href=&quot;http://bit.ly/melancholic-100x&quot;&gt;BitMEX&lt;/a&gt; as well, keep your cool though.&lt;/p&gt;
 
@@ -3582,7 +3582,7 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;This review uses a strategy published to the &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;TradingView&lt;/a&gt; community.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This review uses a strategy published to the &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;TradingView&lt;/a&gt; community.&lt;/em&gt;&lt;/p&gt;
  ]]></turbo:content>
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
@@ -3837,7 +3837,12 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 Divergences Cheat Sheets
 
 
-  Comprehensive Divergences Cheat-sheet  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
+  
+    For the ultra lazy: Automatic Divergence Indicator from TradingView. This is a pine script from the public library on TradingView. You’ll need an account there to access the indicator, but TradingView FREE will be enough.
+  
+  
+    Comprehensive Divergences Cheat-sheet  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
+  
 
 
 
@@ -3935,7 +3940,12 @@ Trading Divergences
 &lt;h2 id=&quot;divergences-cheat-sheets&quot;&gt;Divergences Cheat Sheets&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png&quot;&gt;Comprehensive Divergences Cheat-sheet&lt;/a&gt;  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;For the ultra lazy&lt;/strong&gt;: &lt;a href=&quot;/scriptspotlight-auto-divergences/&quot;&gt;Automatic Divergence Indicator&lt;/a&gt; from TradingView. This is a pine script from the public library on TradingView. You’ll need an account there to access the indicator, but &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;TradingView FREE&lt;/a&gt; will be enough.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png&quot;&gt;Comprehensive Divergences Cheat-sheet&lt;/a&gt;  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;amp-img itemprop=&quot;image&quot; alt=&quot;Altcoin Trading - TA Divergences Cheatsheet&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;1031px&quot; data-original-height=&quot;2464px&quot; width=&quot;750px&quot; height=&quot;1792px&quot;&gt;&lt;/amp-img&gt;
@@ -6309,7 +6319,7 @@ You can use the PPOD but I prefer this Adaptive Divergences script which plots t
 Also, this particular script is an implementation of John Ehlers’ Adaptive RSI. The length value is not specified by user, it adopts according to the price development. The script looks for price cycles and bases the length values on them which gives less false signals. Do try this one.
  ]]></content:encoded>
 
-        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;http://bit.ly/atnet-tv&quot;&gt;make one here for free&lt;/a&gt;. If you care for high leveraged trading, you’re probably looking for &lt;a href=&quot;http://bit.ly/melancholic-100x&quot;&gt;BitMEX&lt;/a&gt; as well, keep your cool though.&lt;/em&gt;&lt;/p&gt;
+        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;make one here for free&lt;/a&gt;. If you care for high leveraged trading, you’re probably looking for &lt;a href=&quot;/coupon-bitmex-iyqb44/&quot;&gt;BitMEX&lt;/a&gt; as well, keep your cool though.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ppo-divergence-alerts-ppod&quot;&gt;PPO Divergence Alerts (PPOD)&lt;/h3&gt;
 
