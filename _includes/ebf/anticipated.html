@@ -1,9 +1,30 @@
 <div id="anticipated"></div>
 {% assign anti = site.ebf | where: "categories", "anticipated" | reverse %}
+
+
+<hr>
+<blockquote>
+  Black Friday 2020: Anticipated <b>Black Friday Deals</b> in Crypto
+</blockquote>
+<hr>
+
+<b>Products Covered:</b>
+<ul>
 {% for item in anti %}
-<hr>
-<blockquote>{{ item.title }}</blockquote>
-<hr>
+<li><a href="#anicipated-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+{% endfor %}
+</ul>
+
+<p>
+  Here are the <b>anticipated crypto deals</b> for BlackFriday {{ site.time | date: '%Y' }}. We are listing here all the most popular products that crypto traders usually want to get during Black Friday.
+</p>
+<p>
+  In the rest of this bloody long post on AltcoinTrading.NET you can also learn of what kind of offers we got last year during <b>Black Friday 2019, 2018 and 2017</b>. Successful promo campaigns are most likely to repeat (or rhyme) in November {{ site.time | date: '%Y' }}.
+</p>
+
+{% for item in anti %}
+<hr id="anicipated-{{ item.tags[0] }}">
+<h3>{{ item.title }}</h3>
 <article>{{ item.content }}</article>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>

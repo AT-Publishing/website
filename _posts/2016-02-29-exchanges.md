@@ -38,7 +38,7 @@ Whether you want to join the madness of altcoin trading or you just want to buy 
   * [Onramping from crypto (with exchange recommendations)](#onramp-crypto)
   * [Onramping from fiat (with exchange recommendations)](#onramp-fiat)
     - [Buying or trading altcoins guide for US traders](#usa)
-  * **[!]** More on buying alts and much more on the specific exchanges in this [ATNET guide on How to buy altcoins](/how-to-buy-altcoins/)
+  * **[!]** More on buying alts and much more on the specific exchanges in this [ATNET guide on How to buy altcoins](/how-to-buy-altcoins/). Covers both buying altcoins _no KYC_ and _with KYC_.
 
 ## Trading Altcoins
 
@@ -209,7 +209,7 @@ _Both large-cap and small-cap cryptocurrencies:_
 **Non-custodial platforms where you can buy altcoins for fiat (no KYC)**
 
 * [LocalCryptos](https://bit.ly/2YD6gmA) lets you buy your initial ETH, BTC and LTC **completely anonymously**
-* **[!]** Do NOT use LocalBitcoins in 2020, they collaborate.
+* **[!]** Do NOT use LocalBitcoins in {{ site.time | date: '%Y' }}, they collaborate.
 
 <div id="usa"></div>
 

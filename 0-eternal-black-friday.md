@@ -26,13 +26,17 @@ interlink:
 
 ## Black Friday is over, long live Black Friday
 
-The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **bundle promos** during the rest of 2020.
+The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **bundle promos** during the rest of {{ site.time | date: '%y' }}.
 
 **Jump to:**
-* Get CURRENT deal offers [AKA Eternal Black Friday](#live)
-* Look at [Anticipated Black Friday Deals 2020](#anticipated)
-* Investigate [Past Black Friday Deals](#past)
-  * Compare prices with [Crypto Black Friday 2019](#past2019)
-  * Compare prices with [Crypto Black Friday Sales 2018](#past2018)
-  * Compare prices with [Crypto Black Friday Sales 2017](#past2017)
-* Learn more about the [products that are worth the wait until Black Friday](#products)
+* All LIVE deals and coupons [AKA Eternal Black Friday](#live)
+  * [(Jump to list of deals)](#live)
+* List of [anticipated Black Friday Deals 2020](#anticipated)
+  * [(Jump to list of products covered)](#anticipated)
+* Records of [Past Black Friday Deals](#past)
+  * Compare with [Crypto Black Friday 2019](#past2019)
+  * Compare with [Crypto Black Friday Sales 2018](#past2018)
+  * Compare with [Crypto Black Friday Sales 2017](#past2017)
+* [All products that are worth the wait until Black Friday](#products)
+
+{% include article/cta-contactus.html %}

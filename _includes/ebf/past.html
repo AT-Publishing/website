@@ -1,13 +1,20 @@
-<h2 class="tagged-as">Past Black Friday Offers: What we got in the past years</h2>
+<h2 class="tagged-as">Past Black Friday Offers: What we got in Black Friday 2019, 2018 and 2017</h2>
 
-Hello Black Friday 2020 shoppers. Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo.
+<p>Hello Black Friday {{ site.time | date: '%y' }} shoppers. Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo.</p>
 
-Every year, the most demanded crypto trading services and products came up with interesting bundle and discount offers in the weeks leading up to Black Friday, just to get the attention of the crypto crowd.
+<p>Every year, the most demanded crypto trading services and products came up with interesting bundle and discount offers in the weeks leading up to Black Friday, just to get the attention of the crypto crowd.</p>
 
 <h3 id="past2019">Crypto Black Fridays Deals 2019</h3>
 {% assign past = site.ebf | where: "categories", "2019" | reverse %}
+
+<b>Jump to Black Friday deal details:</b>
+<ul>
+  {% for item in past %}
+  <li><a href="#past2019-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+  {% endfor %}
+</ul>
 {% for item in past %}
-<h4>{{ item.title }}</h4>
+<h4 id="past2019-{{ item.tags[0] }}">{{ item.title }}</h4>
 <p>{{ item.content }}</p>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
@@ -16,8 +23,16 @@ Every year, the most demanded crypto trading services and products came up with 
 
 <h3 id="past2018">Crypto Black Fridays Deals 2018</h3>
 {% assign past = site.ebf | where: "categories", "2018" | reverse %}
+
+<b>Jump to Black Friday deal details:</b>
+<ul>
+  {% for item in past %}
+  <li><a href="#past2018-{{ item.tags[0] }}">{{ item.tags[0] |replace: '-', ' ' | capitalize }}</a></li>
+  {% endfor %}
+</ul>
+
 {% for item in past %}
-<h4>{{ item.title }}</h4>
+<h4 id="past2018-{{ item.tags[0] }}">{{ item.title }}</h4>
 <p>{{ item.content }}</p>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
@@ -26,8 +41,17 @@ Every year, the most demanded crypto trading services and products came up with 
 
 <h3 id="past2017">Crypto Black Fridays Deals 2017</h3>
 {% assign past = site.ebf | where: "categories", "2017" | reverse %}
+
+
+<b>Jump to Black Friday deal details:</b>
+<ul>
+  {% for item in past %}
+  <li><a href="#past2017-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+  {% endfor %}
+</ul>
+
 {% for item in past %}
-<h4>{{ item.title }}</h4>
+<h4 id="past2017-{{ item.tags[0] }}">{{ item.title }}</h4>
 <p>{{ item.content }}</p>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>

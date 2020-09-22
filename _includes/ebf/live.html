@@ -1,10 +1,24 @@
 <div id="live"></div>
+
+<hr>
+<blockquote>
+  Eternal Black Friday: Crypto Discount Deals *before* Black Friday 2020
+</blockquote>
+<hr>
+
 {% assign anti = site.ebf | where: "categories", "live" | reverse %}
+<b>Products Covered:</b>
+<ul>
 {% for item in anti %}
-<hr>
-<blockquote>{{ item.title }}</blockquote>
-<p class="center">What we got for you: {% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
-<hr>
+<li><a href="#live-{{ item.title | downcase | replace: ' ', '-' }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+{% for item in anti %}
+<hr id="live-{{ item.title | downcase | replace: ' ', '-' }}">
+<h3>{{ item.title }}</h3>
+<p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
 <article>{{ item.content }}</article>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
