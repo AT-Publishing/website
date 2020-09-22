@@ -32,11 +32,18 @@ related:
 
 ---
 
+#### Here for the quick action?
+
 Enter Bitfinex Referral Code `5egV78YtlC` and get **6% fee discount** for any sign up.
 
-No KYC required, no minimum deposit required.
+* No KYC required.
+* No minimum deposit required.
 
-#### How to get fee discount on Bitfinex
+Thank you for playing, good bye.
+
+Now for the rest of the article.
+
+#### How to get a fee discount on Bitfinex
 
 {% amp700cloud none {{page.image[1]}} %}
 
@@ -45,6 +52,8 @@ No KYC required, no minimum deposit required.
 3. That's it! Start trading. The sooner you start trading, the bigger your fee discount is.
 
 Your Bitfinex fee discount starts at 6% and reduces second by second in a linear way. In total, every thirty days your fee discount is reduced by 0.5%.
+
+Getting your identity verified on Bitfinex can generate additional fee discount for you if you make use of the LEO exchange token - jump to [Bitfinex Verification Levels](#bitfinex-verification-levels) to learn more.
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Sign Up with Code</a>
 
@@ -77,6 +86,14 @@ Use the Bitfinex app to trade from your phone, but restrict its capabilities so 
 
 Bitfinex is a custodial crypto trading platform that provides spot trading, leveraged trading and crypto futures trading.
 
+Unlike exchanges such as [Independent Reserve](/coupon-independent-reserve/), Bitfinex is really a platform catering towards active traders. It has a full featured interface with all you need for [daytrading](/daytrading/) spot or futures market in crypto, and the same data-rich UI for the lending market.
+
+On the other hand, Bitfinex doesn't provide as high leverage as [BitMEX](/coupon-bitmex-iyqb44/) and is *not* focused primarily on derivatives, which means the crowd on Bitfinex is less focused on very short-term speculation. Margin cascades are rare.
+
+The user interface on Bitfinex has embedded charts from [TradingView PRO](https://bit.ly/3dGlz3O). The charts offer wide range of indicators for technical analysis.
+
+##### Bitfinex as a Company
+
 As a company, Bitfinex as well as its related companies is based in British Virgin Islands under *iFinex*.
 
 Bitfinex exchange was hacked in August 2016.
@@ -88,11 +105,9 @@ Despite the hack it managed to retain a wide user base thanks to its powerful tr
 * Margin markets are funded via a public P2P lending system. Identity verification is not needed for lending.
 * Bitfinex opened a derivatives section of the platform in September 2019.
 
-The user interface on Bitfinex has embedded charts from [TradingView PRO](https://bit.ly/3dGlz3O). The charts offer wide range of indicators for technical analysis.
-
 The Bitfinex exchange is available worldwide. There is limitation on margin trade for Americans - however the exchange is still operational from American IP address. New users on US IP just have to state they are not American residents.
 
-**No identity verification is needed other than for fiat withdrawal.** There might be restrictions for Bitfinex futures based on your location.
+**No KYC is needed** other than for fiat deposit/withdrawal. There might be restrictions for Bitfinex futures markets based on your location.
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView PRO Referral Code</a>
 
@@ -141,7 +156,7 @@ This is the only way in which Bitfinex still has minimum deposit requirement - y
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView PRO Referral Code</a>
 
 
-#### People related to Bitfinex
+#### Personalities related to Bitfinex
 
 ##### Executives at Bitfinex/iFinex
 
@@ -150,7 +165,7 @@ This is the only way in which Bitfinex still has minimum deposit requirement - y
 * **Giancarlo Devasini** - CFO at Bitfinex and Tether.
 * **Stuart Hoegner** - Resident lawyer at Bitfinex.
 
-##### Community Managers for Bitfinex
+##### Community Managers at Bitfinex
 
 * **Zane Tackett** - Former head of community. Worked for OkCoin before Bitfinex and as the head of OTC at B2C2 after Bitfinex.
 * **Chris Ellis** - Activist, former head of community after Zane Tackett, also known from his appearances in Keiser Report.
