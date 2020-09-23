@@ -1,0 +1,25 @@
+
+<hr>
+<blockquote>
+  Eternal Black Friday: *All Year Round* Crypto Deals and Discount Codes
+</blockquote>
+<hr>
+
+{% assign anti = site.ebf | where: "categories", "eternal-black-friday" | reverse  %}
+<b>Products Covered:</b>
+<ul>
+{% for item in anti %}
+<li><a href="#eternal-{{ item.tags[0] }}">{{ item.tags[0] | capitalize }}</a></li>
+{% endfor %}
+</ul>
+
+
+{% for item in anti %}
+<hr id="eternal-{{ item.tags[0] }}">
+<h3>{{ item.title }} Discount</h3>
+<p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
+<article>{{ item.content }}</article>
+<div class="meta">
+  <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
+</div>
+{% endfor %}

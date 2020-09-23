@@ -12,9 +12,11 @@ image:
 
 ##### BillFodl Wallet Bundle Deal: **Steel Plate Wallet + Trezor Wallet**
 
-The current bundle offer at BillFodl are **bundle deals on the Billfodl** stainless steel seed storage plates **with Trezor wallets**. At various price points you can get Billfodls with Trezor One or Trezor T.
+The current bundle offer at BillFodl are **bundle deals on the Billfodl** stainless steel seed storage plates **with Trezor wallets**.
 
-Super conventient if you are in the US as BillFodl ships from the US.
+You can get Billfodls with either Trezor One or Trezor T.
+
+<a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl</a>
 
 ##### What is Billfodl?
 
