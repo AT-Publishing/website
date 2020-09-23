@@ -62,7 +62,7 @@ Another sweeping statement: Asian crypto exchanges are great for liquid markets.
 
 However, many trading platforms in Asia notoriously don't do small altcoins much. Listing fees on the most liquid places like OKex or Binance are too high for small projects.
 
-You might be more lucky on places like YoBit.
+You might be more lucky on places like [YoBit](https://bit.ly/at-yob2020).
 
 <div id="active-trading-platforms"></div>
 
@@ -72,7 +72,7 @@ You might be more lucky on places like YoBit.
 * [Bitfinex](http://bit.ly/at-bfx-banner2020): Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required - **[Learn more about Bitfinex here](/coupon-bitfinex-5egv78ytlc/)**
 * [BitMEX](http://bit.ly/atnet-mex): Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
 * [Binance](http://bit.ly/china-margin): Wide selection of alts, deep liquidity. Does not welcome US traders.
-* [Yobit](https://bit.ly/at-yobit-2020): Busy and very liquid den of wild speculation, big and small alts.
+* [Yobit](https://bit.ly/at-yob2020): Busy and very liquid den of wild speculation, big and small alts.
 
 **Avoid these trading platforms** - Poloniex, [HitBTC](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/) and new unknown exchanges that will not have enough liquidity.
 
@@ -167,7 +167,7 @@ If you already own a big crypto, you can exchange it for smaller altcoins on pre
 **Big custodial exchanges where you can buy altcoins for crypto (without verification):**
 
 * [Binance](http://bit.ly/china-margin) - wide selection of altcoin markets denominated in BTC, ETH, exchange coin or stablecoins
-* [Yobit](https://bit.ly/at-yobit-2020) - wide selection of altcoin markets denominated in BTC, ETH
+* [Yobit](https://bit.ly/at-yob2020) - wide selection of altcoin markets denominated in BTC, ETH
 * [Bitfinex](http://bit.ly/at-bfx-banner2020) - some selection of alts denominated in BTC, ETH, USDT
 
 **Peer-to-peer exchanges where you can buy altcoins for crypto (without verification):**

@@ -1,0 +1,23 @@
+<!--needs a variable interlink-->
+{% if interlink %}
+  <div class="box-lvl-a">
+    {% for item in interlink %}
+    <div class="row">
+      <div class="columns five">
+        <a href="{{ item[0]}}">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="{{ item[3] }}" alt="ATNET - Altcoin Trading Blog"
+            layout="responsive" data-original-width="720px" data-original-height="360px"
+            width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="{{ item[0] }}"><h5>{{ item[1] | capitalize }}</h5></a>
+        <p>{{ item[2] }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endif %}

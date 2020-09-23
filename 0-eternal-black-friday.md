@@ -20,7 +20,11 @@ interlink:
 - [ "/tensorcharts-tutorials/", "Tensorcharts Tutorials", "OK. Tensorcharts are not the easiest crypto charting app to get the grips of. But that also means the crowd is not there, and that it can add an edge to your trading setup.", "https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.jpg"]
 - [ "/altcoin-wallets/", "Best Altcoin Wallets - Updated for 2020", "Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? There are alternatives, no need to worry. Will be somewhat less secure but then Ledger wallet is also a blackbox.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
 
-
+# needs variable interlink
+top_interlink:
+- [ "/altcoin-wallets/", "Best Altcoin Wallets for 2020", "Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? No worries, plenty other options in 2020.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
+- [ "/how-to-buy-altcoins/", "How to buy altcoins - with KYC & with no KYC", "Full guide on how to onramp and buy cryptocurrencies, with extra tips for Americans.", "https://res.cloudinary.com/atnetcloud/image/upload/v1599118579/atnet/details2_kduxoj.jpg"]
+- [ "/airdrops/", "Upcoming Airdrops 2020", "Crypto airdrops, bounties, signup bonuses and early opportunities.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
 
 ---
 
@@ -38,5 +42,8 @@ The Black Friday 2020 date **November 27th, 2020** is still long way off, but so
   * Compare with [Crypto Black Friday Sales 2018](#past2018)
   * Compare with [Crypto Black Friday Sales 2017](#past2017)
 * [All products that are worth the wait until Black Friday](#products)
+
+{% assign interlink = page.top_interlink %}
+{% include article/interlink-generic.html %}
 
 {% include article/cta-contactus.html %}
