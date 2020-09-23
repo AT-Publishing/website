@@ -8,7 +8,7 @@ slug:       market-psychology/
 title:      Crypto Market Psychology
 hook:       What is the definition of crypto market psychology and how is it formed?
 
-categories: [technical-analysis]
+categories: [technique]
 tags:       [crypto-trading-strategy]
 note:       beyondta
 

@@ -8,7 +8,7 @@ slug:       pattern-trading/
 title:      "Pattern Trading (Formation Trading) in Crypto"
 hook:       What is pattern trading and what are the most common formation patterns to watch for in crypto.
 
-categories: [technical-analysis]
+categories: [technique]
 tags:       [bbands, technical-analysis, fulcrum-bottom, wyckoff]
 note:       technical
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg']

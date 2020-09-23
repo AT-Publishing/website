@@ -8,7 +8,7 @@ slug:       trading-psychology/
 title:      Trading Psychology
 hook:       What is the definition of trading psychology and how to work on yours?
 
-categories: [technical-analysis]
+categories: [technique]
 tags:       [crypto-trading-strategy]
 note:       beyondta
 

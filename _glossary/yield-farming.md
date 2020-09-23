@@ -8,7 +8,7 @@ slug:       yield-farming/
 title:      Yield Farming
 hook:       What does Yield Farming mean in crypto, how it works and what are its risks?
 
-categories: [crypto-jargon]
+categories: [technique]
 tags:       [trading-strategy, defi, p2p]
 note:       jargon
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1600159919/atnet/_glossary/yield-farming_bh4w4m.jpg']
