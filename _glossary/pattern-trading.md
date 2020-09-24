@@ -10,7 +10,7 @@ hook:       What is pattern trading and what are the most common formation patte
 
 categories: [technique]
 tags:       [bbands, technical-analysis, fulcrum-bottom, wyckoff]
-note:       technical
+note:       method
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg']
 
 indepth:    /technical-analysis/

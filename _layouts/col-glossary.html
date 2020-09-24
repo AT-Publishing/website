@@ -72,7 +72,15 @@ layout: default
             <br>
 
             {% assign bycat = site.glossary | where: "categories", "crypto-jargon" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> Crypto Jargon</h4>
+            <h4><b>ATNET Glossary /</b> General Crypto Jargon</h4>
+            {% for post in bycat %}
+              <p>
+                <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+                &middot; {{post.hook}}
+              </p>
+            {% endfor %}
+            {% assign bycat = site.glossary | where: "categories", "defi" | sort: "title"  %} <!-- sort:"note" -->
+            <h4><b>ATNET Glossary /</b> DeFi Glossary</h4>
             {% for post in bycat %}
               <p>
                 <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
@@ -88,7 +96,7 @@ layout: default
               </p>
             {% endfor %}
             {% assign bycat = site.glossary | where: "categories", "technique" | sort: "title" %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> Trading Techniques, Beyond TA</h4>
+            <h4><b>ATNET Glossary /</b> Trading Techniques & Methods, Beyond TA</h4>
             {% for post in bycat %}
               <p>
                 <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>

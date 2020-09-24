@@ -10,7 +10,7 @@ hook:       What is the gist of Wyckoff method and how to make use of it.
 
 categories: [technique]
 tags:       ["wyckoff", "crypto-charting", "technical-analysis", "crypto-exchange", "crypto-market"]
-note:       technical
+note:       method
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1600764172/atnet/pexels-tran-547766_hhvgnw.jpg"]
 
 indepth:    /strategy/wyckoff-ranging-markets/
