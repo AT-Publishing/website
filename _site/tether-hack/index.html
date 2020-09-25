@@ -2124,6 +2124,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2162,6 +2212,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2594,9 +2674,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-HEISTS: <a href="/dao-hack/">All about the DAO hack</a></li>
+      <li>#CRYPTO-HEISTS: <a href="/tether-hack/">Tether Emergency Notice</a></li>
       
-      <li>#CRYPTO-HEISTS: <a href="/bitfinex-tether-transparency/">ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</a></li>
+      <li>#CRYPTO-HEISTS: <a href="/dao-hack/">All about the DAO hack</a></li>
       
         
       
@@ -2638,14 +2718,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/blockchain-entertainment-industry/" title="How Blockchain Disrupts the Entertainment Industry"><b>How Blockchain Disrupts the Entertainment Industry</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How Blockchain Disrupts the Entertainment Industry" href="/blockchain-entertainment-industry/">
+      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/wm/blockchain-entertainment.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2657,14 +2737,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
+      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2676,14 +2756,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/byteball/" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)"><b>GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)" href="/byteball/">
+      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/07/11/pexels-photo-200092.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2695,14 +2775,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/litecoin-pump/" title="Litecoin: This time it's different?"><b>Litecoin: This time it's different?</b> in <b>#</b>  updated on 08 Jan 2020</a>
+        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Litecoin: This time it's different?" href="/litecoin-pump/">
+      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/up.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2714,14 +2794,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/stability-of-stablecoins/" title="The Stability of Stablecoins: NuBits all over again? "><b>The Stability of Stablecoins: NuBits all over again? </b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/openlistings-houses-for-bitcoin/" title="Want to buy a house with bitcoin?"><b>Want to buy a house with bitcoin?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Stability of Stablecoins: NuBits all over again? " href="/stability-of-stablecoins/">
+      <a class="cat-internal-link" title="Want to buy a house with bitcoin?" href="/openlistings-houses-for-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/stablecoins/stability-of-stablecoins.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/openlistings.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

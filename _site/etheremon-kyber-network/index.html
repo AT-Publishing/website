@@ -2128,6 +2128,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2166,6 +2216,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2622,9 +2702,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/cex-io-registrations/">CEX.IO Not Accepting New Users for the Time Being</a></li>
+      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
       
-      <li>#ADOPTION: <a href="/token-marketing-agencies/">How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</a></li>
+      <li>#ADOPTION: <a href="/twitter-crypto-ban-info/">Twitter's 2018 Crypto Ban</a></li>
       
         
       
@@ -2666,14 +2746,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being"><span class="tag custom-note">PSA</span>&nbsp;<b>CEX.IO Not Accepting New Users for the Time Being</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
+      <a class="cat-internal-link" title="CEX.IO Not Accepting New Users for the Time Being" href="/cex-io-registrations/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2685,14 +2765,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
+      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2704,14 +2784,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/interview-andrew-gazdecki/" title="Andrew Gazdecki on The Future of DEX Trading"><span class="tag custom-note">Interview</span>&nbsp;<b>Andrew Gazdecki on The Future of DEX Trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
+      <a class="cat-internal-link" title="Andrew Gazdecki on The Future of DEX Trading" href="/interview-andrew-gazdecki/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2723,14 +2803,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/altcoinio/" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange"><span class="tag custom-note">Non-custodial Trading</span>&nbsp;<b>[EXIT 2019] Review of Altcoin.io Non-custodial Exchange</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 27 Aug 2020</a>
+        <a class="index-internal" href="/how-blockchain-disrupts-legal/" title="How Blockchain Disrupts The Legal Industry: A Primer"><b>How Blockchain Disrupts The Legal Industry: A Primer</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange" href="/altcoinio/">
+      <a class="cat-internal-link" title="How Blockchain Disrupts The Legal Industry: A Primer" href="/how-blockchain-disrupts-legal/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1596775760/atnet/blog_trading/altcoinio_wn7r5y.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/legal-disruption.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2742,14 +2822,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"><b>ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
+      <a class="cat-internal-link" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency" href="/bitfinex-tether-transparency/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

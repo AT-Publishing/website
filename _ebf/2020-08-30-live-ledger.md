@@ -1,7 +1,7 @@
 ---
 title:        "Ledger Wallet Bundle Deals"
 categories:   [ live ]
-tags:         [ hardware-wallet, bundle, ledger ]
+tags:         [ ledger, hardware-wallet, bundle ]
 image:
 - 'https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1588053412/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.55.57_zikwqu.jpg'
 ---

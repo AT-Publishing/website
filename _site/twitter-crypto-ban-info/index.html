@@ -2078,6 +2078,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2116,6 +2166,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2580,7 +2660,7 @@ amp-user-notification>div>div {
       
       <li>#ADOPTION: <a href="/cryptocurrencies-launched-2017/">List of all new cryptocurrencies that emerged during the 2017 bull market</a></li>
       
-      <li>#ADOPTION: <a href="/bitcoin-gold/">Bitcoin Gold: Why is it getting dismissed so fast?</a></li>
+      <li>#ADOPTION: <a href="/cex-io-registrations/">CEX.IO Not Accepting New Users for the Time Being</a></li>
       
         
       
@@ -2622,14 +2702,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
+      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2641,14 +2721,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dai-stablecoin/" title="Dai - Stablecoin alternative to Tether"><b>Dai - Stablecoin alternative to Tether</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Dai - Stablecoin alternative to Tether" href="/dai-stablecoin/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/maker-dao-dai.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2660,14 +2740,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/red-flag-bittrex/" title="Something rotten: Strange actions from Bittrex"><span class="tag custom-note">Red Flag</span>&nbsp;<b>Something rotten: Strange actions from Bittrex</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
+      <a class="cat-internal-link" title="Something rotten: Strange actions from Bittrex" href="/red-flag-bittrex/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/joke.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2679,14 +2759,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/blockchain-entertainment-industry/" title="How Blockchain Disrupts the Entertainment Industry"><b>How Blockchain Disrupts the Entertainment Industry</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?"><b>Bitcoin Gold: Why is it getting dismissed so fast?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How Blockchain Disrupts the Entertainment Industry" href="/blockchain-entertainment-industry/">
+      <a class="cat-internal-link" title="Bitcoin Gold: Why is it getting dismissed so fast?" href="/bitcoin-gold/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/wm/blockchain-entertainment.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/freelunch1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2698,14 +2778,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
+      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

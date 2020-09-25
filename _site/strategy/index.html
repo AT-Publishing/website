@@ -2076,6 +2076,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2114,6 +2164,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2580,43 +2660,6 @@ We do update them though, and they age well.</p>
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" alt="How to Compare the Fundamental Value of Cryptoassets - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-          <span class="tag custom-note lvl-">STRATEGIC THINKING</span>&nbsp;How to Compare the Fundamental Value of Cryptoassets
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes.</b>
-    </p>
-    <p>
-      The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.
-
-As the blockchain space grows thoug...
-    </p>
-    <p>
-      <a class="btn" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-        Keep Reading >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-
-  
-    <div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
     <a class="sidebar-internal" title="Ichimoku Cloud for Crypto Trading" href="/ichimoku-cloud/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" alt="Ichimoku Cloud for Crypto Trading - Crypto Trading Strategy"
@@ -2654,9 +2697,9 @@ Once you know what it does, it makes your crypto ...
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
+    <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Daytrading on Crypto Markets: Good Idea? - Crypto Trading Strategy"
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" alt="How to Compare the Fundamental Value of Cryptoassets - Crypto Trading Strategy"
         layout="responsive"
         data-original-width="720px" data-original-height="360px"
         width="353px" height="190px">
@@ -2667,19 +2710,58 @@ Once you know what it does, it makes your crypto ...
   <div class="columns six"><!-- fucking six 2 -->
     <h4>
       <strong>
-        <a class="sidebar-internal" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
-          <span class="tag custom-note lvl-">TRADING STRATEGY</span>&nbsp;Daytrading on Crypto Markets: Good Idea?
+        <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
+          <span class="tag custom-note lvl-">STRATEGIC THINKING</span>&nbsp;How to Compare the Fundamental Value of Cryptoassets
         </a>
       </strong>
     </h4>
     <p>
-      <b>Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?</b>
+      <b>Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes.</b>
     </p>
     <p>
-      Daytrading is quite a broad term for the style of trading that has you enter and exit the market during a single trading session, preferably in pro...
+      The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.
+
+As the blockchain space grows thoug...
     </p>
     <p>
-      <a class="btn" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
+      <a class="btn" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
+
+  
+    <div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+          <span class="tag custom-note lvl-">TRADING TOOL</span>&nbsp;TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers.</b>
+    </p>
+    <p>
+      What are Tensorcharts?
+
+TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heat...
+    </p>
+    <p>
+      <a class="btn" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
         Keep Reading >>
       </a>
     </p>
@@ -2724,9 +2806,9 @@ Once you know what it does, it makes your crypto ...
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="3 Most Dangerous Cryptocurrency Beginner Mistakes" href="/3-dangerous-mistakes-crypto-beginners/">
+    <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1594627484/atnet/pyramids_aalfab.jpg" alt="3 Most Dangerous Cryptocurrency Beginner Mistakes - Crypto Trading Strategy"
+        <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Technical Analysis in Cryptocurrency Trading - Crypto Trading Strategy"
         layout="responsive"
         data-original-width="720px" data-original-height="360px"
         width="353px" height="190px">
@@ -2737,19 +2819,21 @@ Once you know what it does, it makes your crypto ...
   <div class="columns six"><!-- fucking six 2 -->
     <h4>
       <strong>
-        <a class="sidebar-internal" title="3 Most Dangerous Cryptocurrency Beginner Mistakes" href="/3-dangerous-mistakes-crypto-beginners/">
-          <span class="tag custom-note lvl-">TRADING BLOG</span>&nbsp;3 Most Dangerous Cryptocurrency Beginner Mistakes
+        <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
+          <span class="tag custom-note lvl-">TRADING BLOG</span>&nbsp;Technical Analysis in Cryptocurrency Trading
         </a>
       </strong>
     </h4>
     <p>
-      <b>As the interest in crypto picked up a bit in 2020, so are the number of crypto newbies repeating the same old mistakes as the 2016 lot. Let's take a look at the three most dangerous of them.</b>
+      <b>Technical indicators work. Sometimes. Should you use technical analysis for crypto?</b>
     </p>
     <p>
-      The year 2020 is the time when once again, cryptocurrencies like Bitcoin, Ethereum, Ripple and even the smaller altcoins are going through a new su...
+      This post on cryptocurrency technical analysis specifics was originally published in 2016.
+
+Back then, it was a common debate in the TradingView ch...
     </p>
     <p>
-      <a class="btn" title="3 Most Dangerous Cryptocurrency Beginner Mistakes" href="/3-dangerous-mistakes-crypto-beginners/">
+      <a class="btn" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
         Keep Reading >>
       </a>
     </p>
@@ -2763,6 +2847,43 @@ Once you know what it does, it makes your crypto ...
 
 
   <span class="note">#CRYPTO-CHARTING</span>
+  
+    <div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+          <span class="tag custom-note lvl-">TRADING TOOL</span>&nbsp;TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers.</b>
+    </p>
+    <p>
+      What are Tensorcharts?
+
+TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heat...
+    </p>
+    <p>
+      <a class="btn" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
+
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
@@ -2803,9 +2924,9 @@ Once you know what it does, it makes your crypto ...
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+    <a class="sidebar-internal" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="/features/bitgur.png" alt="Another better Coinmarketcap - with a heatmap tool - Crypto Trading Strategy"
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet) - Crypto Trading Strategy"
         layout="responsive"
         data-original-width="720px" data-original-height="360px"
         width="353px" height="190px">
@@ -2816,56 +2937,21 @@ Once you know what it does, it makes your crypto ...
   <div class="columns six"><!-- fucking six 2 -->
     <h4>
       <strong>
-        <a class="sidebar-internal" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
-          <span class="tag custom-note lvl-">FEATURE</span>&nbsp;Another better Coinmarketcap - with a heatmap tool
+        <a class="sidebar-internal" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
+          <span class="tag custom-note lvl-">TRADING STRATEGY</span>&nbsp;Technical Analysis: Divergences (With a Divergence Cheat Sheet)
         </a>
       </strong>
     </h4>
     <p>
-      <b>Bitgur has heatmaps of six different metrics: Not only price change of coins per time period but also neat stuff like unusual volume spikes.</b>
+      <b>Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market.</b>
     </p>
     <p>
-      Bitgur is another web app that tracks performance of cryptocurrencies. It was developed by an enthusiast who didn’t raise millions via an ICO, and ...
-    </p>
-    <p>
-      <a class="btn" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
-        Keep Reading >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
+      What are divergences in trading?
 
-  
-    <div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png" alt="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
-          <span class="tag custom-note lvl-">TRADING TOOL</span>&nbsp;TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers.</b>
+When traders talk about divergences, or divs, they are pointing out a disagreement between the price action and a...
     </p>
     <p>
-      What are Tensorcharts?
-
-TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heat...
-    </p>
-    <p>
-      <a class="btn" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
+      <a class="btn" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
         Keep Reading >>
       </a>
     </p>

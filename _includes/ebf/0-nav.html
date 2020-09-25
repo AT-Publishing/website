@@ -1,0 +1,33 @@
+<ul>
+  <li>
+    <a href="#live"><b>Eternal Black Friday</b>: Current deals & coupons</a>
+    <ul>
+    {% for item in live %}
+    <li><a href="#live-{{ item.tags[0] }}">{{ item.tags[0] | capitalize }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </li>
+  <li>
+    <a href="#anticipated">Anticipated Black Friday Deals 2020</a>
+    <ul>
+    {% for item in anti %}
+    <li><a href="#anicipated-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+  <li><a href="#past">Past Black Friday Crypto Deals</a>
+    <br>
+    <b><a class="inline" href="#past2019">2019</a></b>&nbsp;
+    <b><a class="inline" href="#past2018">2018</a></b>&nbsp;
+    <b><a class="inline" href="#past2017">2017</a></b>
+  </li>
+  <li><a href="#regular">[!] Eternal Black Friday Staples: Products that always get on sale after Black Friday too</a>
+    <br>
+    {% for item in eter %}
+    <b><a class="inline" href="#eternal-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' }}</a></b>&nbsp;&nbsp;
+    {% endfor %}
+
+    </li>
+  <li><a href="#products">[?] What to Buy on Black Friday: Brands Overview</a></li>
+</ul>

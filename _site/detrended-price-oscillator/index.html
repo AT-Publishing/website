@@ -2178,6 +2178,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2216,6 +2266,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2707,9 +2787,9 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
     
         
       
-      <li>#TRADINGVIEW-SCRIPTS: <a href="/scriptspotlight-bollinger-band-width-indicator/">Script Spotlight: Bollinger Band Width</a></li>
+      <li>#TRADINGVIEW-SCRIPTS: <a href="/scriptspotlight-a-d-levels/">Script Spotlight: A/D Levels</a></li>
       
-      <li>#TRADINGVIEW-SCRIPTS: <a href="/detrended-price-oscillator/">Script Spotlight: Detrended Price Oscillator (DPO)</a></li>
+      <li>#TRADINGVIEW-SCRIPTS: <a href="/scriptspotlight-auto-divergences/">Script Spotlight: Automatic Divergences</a></li>
       
         
       
@@ -2753,33 +2833,14 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitgur/" title="Another better Coinmarketcap - with a heatmap tool"><span class="tag custom-note">Feature</span>&nbsp;<b>Another better Coinmarketcap - with a heatmap tool</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/scriptspotlight-a-d-levels/" title="Script Spotlight: A/D Levels"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: A/D Levels</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 11 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+      <a class="cat-internal-link" title="Script Spotlight: A/D Levels" href="/scriptspotlight-a-d-levels/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/bitgur.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/divergences/" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Technical Analysis: Divergences (With a Divergence Cheat Sheet)</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 22 Sep 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/scriptspotlight/adl/adl1.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2810,14 +2871,33 @@ plot(nRes, color=red, title="Detrended Price Oscillator")
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-a-d-levels/" title="Script Spotlight: A/D Levels"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: A/D Levels</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 11 Aug 2020</a>
+        <a class="index-internal" href="/divergences/" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Technical Analysis: Divergences (With a Divergence Cheat Sheet)</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 22 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: A/D Levels" href="/scriptspotlight-a-d-levels/">
+      <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/scriptspotlight/adl/adl1.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/detrended-price-oscillator/" title="Script Spotlight: Detrended Price Oscillator (DPO)"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Detrended Price Oscillator (DPO)</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 22 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

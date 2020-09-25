@@ -20,14 +20,30 @@ layout: default-news
       <br>
     </div>
   </div>
-  <div class="row">
+  <div class="row desktop-only">
     {% include article/cta.html %}
   </div>
+
+  {% assign anti = site.ebf | where: "categories", "anticipated" | reverse %}
+  {% assign eter = site.ebf | where: "categories", "eternal-black-friday" | reverse  %}
+  {% assign live = site.ebf | where: "categories", "live" | reverse %}
+
+  <div class="row mobile-only" id="ebf-nav-mobile">
+    <div role="button" on="tap:sidebar-ebf.toggle" tabindex="0">
+      <i class="fa fa-bars" aria-hidden="true"></i> Eternal Black Friday Menu
+    </div>
+  </div>
+  <amp-sidebar  class="mobile-only" id="sidebar-ebf" layout="nodisplay" side="right">
+    {% include ebf/0-nav.html %}
+    <br>
+    <div role="button" aria-label="close sidebar" on="tap:sidebar-ebf.toggle" tabindex="0"><p>✕ close</p></div>
+  </amp-sidebar>
+
   <div class="row">
     <article class="maincontent">
-      <div class="strategy-content intext">
+      <div class="row strategy-content intext" id="ebf-row">
 
-        <div class="columns eight offset-by-two">
+        <div class="columns nine" id="ebf-deals">
 
           {{ content }}
 
@@ -49,6 +65,11 @@ layout: default-news
          <p>&nbsp;</p>
 
        </div>
+        <div class="columns three" id="ebf-nav">
+          <div class="desktop-only" id="ebf-menu-sticky">
+           {% include ebf/0-nav.html %}
+          </div>
+        </div>
 
       </div>
     </article>

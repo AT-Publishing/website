@@ -2077,6 +2077,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2115,6 +2165,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2746,6 +2826,42 @@ amp-user-notification>div>div {
   <div class="seven columns">
       <h5 class="post">
         <strong>
+          
+          <small>23 Mar 2018</small>
+
+          
+
+          <br>
+          <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
+            Evolution of Non-Custodial Trading: Order Execution Management
+          </a>
+
+        </strong>
+      </h5>
+      <div class="home-latest-excerpt">
+        <em> Last update 07 Aug 2020: </em>On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.
+      </div>
+  </div>
+    
+  <div class="five columns">
+      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Altcoin Trading Blog"
+          layout="responsive"
+          data-original-width="720px" data-original-height="360px"
+          width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </div>
+    
+</div>
+
+        
+          <div class="row home-latest clearfix">
+  <div class="seven columns">
+      <h5 class="post">
+        <strong>
           <span class="tag custom-note">Onramping</span>&nbsp;
           
           <small>04 May 2020</small>
@@ -2768,42 +2884,6 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="Altcoin Exchanges: Where to buy and trade crypto in 2020?" href="/altcoin-exchanges/">
         <figure class="thumb">
           <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598513740/atnet/__women/christin-hume-slbqShqAhEo-unsplash_esmusd.jpg" alt="Altcoin Trading Blog"
-          layout="responsive"
-          data-original-width="720px" data-original-height="360px"
-          width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </div>
-    
-</div>
-
-        
-          <div class="row home-latest clearfix">
-  <div class="seven columns">
-      <h5 class="post">
-        <strong>
-          
-          <small>23 Mar 2018</small>
-
-          
-
-          <br>
-          <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
-            Evolution of Non-Custodial Trading: Order Execution Management
-          </a>
-
-        </strong>
-      </h5>
-      <div class="home-latest-excerpt">
-        <em> Last update 07 Aug 2020: </em>On non-custodial order execution - what has been done, what is being done and how trade buffering and zero-knowledge API keys can make decentralized exchanges fast, cheap and usable even for bot (algo) trading.
-      </div>
-  </div>
-    
-  <div class="five columns">
-      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Altcoin Trading Blog"
           layout="responsive"
           data-original-width="720px" data-original-height="360px"
           width="150px" height="80px">

@@ -2078,6 +2078,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2116,6 +2166,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2473,7 +2553,7 @@ amp-user-notification>div>div {
       <br>
     </div>
   </div>
-  <div class="row">
+  <div class="row desktop-only">
     <section>
   <div class="row" id="article-ad-cta">
     <h3 id="cta-headline">Want to *really* learn crypto charting & technical analysis?</h3>
@@ -2488,38 +2568,82 @@ amp-user-notification>div>div {
 <p>&nbsp;</p>
 
   </div>
+
+  
+  
+  
+
+  <div class="row mobile-only" id="ebf-nav-mobile">
+    <div role="button" on="tap:sidebar-ebf.toggle" tabindex="0">
+      <i class="fa fa-bars" aria-hidden="true"></i> Eternal Black Friday Menu
+    </div>
+  </div>
+  <amp-sidebar  class="mobile-only" id="sidebar-ebf" layout="nodisplay" side="right">
+    <ul>
+  <li>
+    <a href="#live"><b>Eternal Black Friday</b>: Current deals & coupons</a>
+    <ul>
+    
+    <li><a href="#live-ledger">Ledger</a></li>
+    
+    <li><a href="#live-billfodl">Billfodl</a></li>
+    
+    </ul>
+
+  </li>
+  <li>
+    <a href="#anticipated">Anticipated Black Friday Deals 2020</a>
+    <ul>
+    
+    <li><a href="#anicipated-tradingview">Tradingview</a></li>
+    
+    <li><a href="#anicipated-ledger">Ledger</a></li>
+    
+    <li><a href="#anicipated-coinigy">Coinigy</a></li>
+    
+    <li><a href="#anicipated-airvpn">Airvpn</a></li>
+    
+    <li><a href="#anicipated-cryptotax">Cryptotax</a></li>
+    
+    </ul>
+  </li>
+  <li><a href="#past">Past Black Friday Crypto Deals</a>
+    <br>
+    <b><a class="inline" href="#past2019">2019</a></b>&nbsp;
+    <b><a class="inline" href="#past2018">2018</a></b>&nbsp;
+    <b><a class="inline" href="#past2017">2017</a></b>
+  </li>
+  <li><a href="#regular">[!] Eternal Black Friday Staples: Products that always get on sale after Black Friday too</a>
+    <br>
+    
+    <b><a class="inline" href="#eternal-ledger">ledger</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-cryptosteel">cryptosteel</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-billfodl">billfodl</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-tradingview">tradingview</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-cryptotax">cryptotax</a></b>&nbsp;&nbsp;
+    
+
+    </li>
+  <li><a href="#products">[?] What to Buy on Black Friday: Brands Overview</a></li>
+</ul>
+
+    <br>
+    <div role="button" aria-label="close sidebar" on="tap:sidebar-ebf.toggle" tabindex="0"><p>✕ close</p></div>
+  </amp-sidebar>
+
   <div class="row">
     <article class="maincontent">
-      <div class="strategy-content intext">
+      <div class="row strategy-content intext" id="ebf-row">
 
-        <div class="columns eight offset-by-two">
+        <div class="columns nine" id="ebf-deals">
 
           <h2 id="black-friday-is-over-long-live-black-friday">Black Friday is over, long live Black Friday</h2>
 
 <p>The Black Friday 2020 date <strong>November 27th, 2020</strong> is still long way off, but some products are in <strong>bundle promos</strong> during the rest of 20.</p>
-
-<p><strong>Jump to:</strong></p>
-<ul>
-  <li>All LIVE deals and coupons <a href="#live">AKA Eternal Black Friday</a>
-    <ul>
-      <li><a href="#live">(Jump to list of deals)</a></li>
-    </ul>
-  </li>
-  <li>List of <a href="#anticipated">anticipated Black Friday Deals 2020</a>
-    <ul>
-      <li><a href="#anticipated">(Jump to list of products covered)</a></li>
-    </ul>
-  </li>
-  <li>Records of <a href="#past">Past Black Friday Deals</a>
-    <ul>
-      <li>Compare with <a href="#past2019">Crypto Black Friday 2019</a></li>
-      <li>Compare with <a href="#past2018">Crypto Black Friday Sales 2018</a></li>
-      <li>Compare with <a href="#past2017">Crypto Black Friday Sales 2017</a></li>
-    </ul>
-  </li>
-  <li><a href="#regular">Eternal Black Friday Staples</a>: List of products get on sale OUTSIDE of Black Friday</li>
-  <li><a href="#products">All products that are worth the wait until Black Friday</a></li>
-</ul>
 
 <!--needs a variable interlink-->
 
@@ -2592,20 +2716,10 @@ amp-user-notification>div>div {
 <hr>
 
 
-<b>Products Covered:</b>
-<ul>
 
-<li><a href="#live-ledger-wallet-bundle-deals">Ledger Wallet Bundle Deals</a></li>
-
-<li><a href="#live-trezor-and-billfodl-wallet-bundles">Trezor and BillFodl Wallet Bundles</a></li>
-
-</ul>
-
-
-
-<hr id="live-ledger-wallet-bundle-deals">
+<hr id="live-ledger">
 <h3>Ledger Wallet Bundle Deals</h3>
-<p><span class="tag article-tags"><a href="#live-hardware-wallet">#HARDWARE-WALLET</a></span>&nbsp;<span class="tag article-tags"><a href="#live-bundle">#BUNDLE</a></span>&nbsp;<span class="tag article-tags"><a href="#live-ledger">#LEDGER</a></span>&nbsp;</p>
+<p><span class="tag article-tags"><a href="#live-ledger">#LEDGER</a></span>&nbsp;<span class="tag article-tags"><a href="#live-hardware-wallet">#HARDWARE-WALLET</a></span>&nbsp;<span class="tag article-tags"><a href="#live-bundle">#BUNDLE</a></span>&nbsp;</p>
 <article><div id="live-ledger"></div>
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1588053412/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.55.57_zikwqu.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1588053412/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.55.57_zikwqu.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
@@ -2655,27 +2769,27 @@ amp-user-notification>div>div {
 <p>It’s also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.</p>
 </article>
 <div class="meta">
-  <p>Tagged as <span class="tag article-tags">#HARDWARE-WALLET</span>&nbsp;<span class="tag article-tags">#BUNDLE</span>&nbsp;<span class="tag article-tags">#LEDGER</span>&nbsp;</p>
+  <p>Tagged as <span class="tag article-tags">#LEDGER</span>&nbsp;<span class="tag article-tags">#HARDWARE-WALLET</span>&nbsp;<span class="tag article-tags">#BUNDLE</span>&nbsp;</p>
 </div>
 
-<hr id="live-trezor-and-billfodl-wallet-bundles">
+<hr id="live-billfodl">
 <h3>Trezor and BillFodl Wallet Bundles</h3>
-<p><span class="tag article-tags"><a href="#live-hardware-wallet">#HARDWARE-WALLET</a></span>&nbsp;<span class="tag article-tags"><a href="#live-bundle">#BUNDLE</a></span>&nbsp;<span class="tag article-tags"><a href="#live-cryptocurrency-wallet">#CRYPTOCURRENCY-WALLET</a></span>&nbsp;<span class="tag article-tags"><a href="#live-billfodl">#BILLFODL</a></span>&nbsp;</p>
+<p><span class="tag article-tags"><a href="#live-billfodl">#BILLFODL</a></span>&nbsp;<span class="tag article-tags"><a href="#live-trezor">#TREZOR</a></span>&nbsp;<span class="tag article-tags"><a href="#live-hardware-wallet">#HARDWARE-WALLET</a></span>&nbsp;<span class="tag article-tags"><a href="#live-bundle">#BUNDLE</a></span>&nbsp;<span class="tag article-tags"><a href="#live-cryptocurrency-wallet">#CRYPTOCURRENCY-WALLET</a></span>&nbsp;</p>
 <article><div id="live-billfodl"></div>
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<h5 id="billfodl-wallet-bundle-deal-steel-plate-wallet--trezor-wallet">BillFodl Wallet Bundle Deal: <strong>Steel Plate Wallet + Trezor Wallet</strong></h5>
+<h5 id="billfodl-privacypros-wallet-bundle-deal-steel-plate-wallet--trezor-wallet">BillFodl (PrivacyPros) Wallet Bundle Deal: <strong>Steel Plate Wallet + Trezor Wallet</strong></h5>
 
 <p>The current bundle offer at BillFodl are <strong>bundle deals on the Billfodl</strong> stainless steel seed storage plates <strong>with Trezor wallets</strong>.</p>
 
 <p>You can get Billfodls with either Trezor One or Trezor T.</p>
 
-<p><a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl</a></p>
+<p><a class="button" href="http://bit.ly/at-ppros-2020">Deal at BillFodl (PrivacyPros)</a></p>
 
 <h5 id="what-is-billfodl">What is Billfodl?</h5>
 
-<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_700,w_700/v1599121690/atnet/altcoin-wallets/billfodl-the-one-and-only-billfodl-2_2048x2048_uorc65.jpg" alt="Ledger" data-original-width="700px" data-original-height="700px" layout="responsive" width="700px" height="700px">
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_700,w_700/v1599121690/atnet/altcoin-wallets/billfodl-the-one-and-only-billfodl-2_2048x2048_uorc65.jpg" alt="Billfodl" data-original-width="700px" data-original-height="700px" layout="responsive" width="700px" height="700px">
 </amp-img>
 
 <p>Billfodl is next to Cryptosteel one of the leaders in true cold storage for crypto - producer of the super resistant metal private key storage for the paranoid.
@@ -2690,7 +2804,7 @@ amp-user-notification>div>div {
 
 </article>
 <div class="meta">
-  <p>Tagged as <span class="tag article-tags">#HARDWARE-WALLET</span>&nbsp;<span class="tag article-tags">#BUNDLE</span>&nbsp;<span class="tag article-tags">#CRYPTOCURRENCY-WALLET</span>&nbsp;<span class="tag article-tags">#BILLFODL</span>&nbsp;</p>
+  <p>Tagged as <span class="tag article-tags">#BILLFODL</span>&nbsp;<span class="tag article-tags">#TREZOR</span>&nbsp;<span class="tag article-tags">#HARDWARE-WALLET</span>&nbsp;<span class="tag article-tags">#BUNDLE</span>&nbsp;<span class="tag article-tags">#CRYPTOCURRENCY-WALLET</span>&nbsp;</p>
 </div>
 
 
@@ -2757,28 +2871,11 @@ amp-user-notification>div>div {
            <div id="anticipated"></div>
            <div id="anticipated"></div>
 
-
-
 <hr>
 <blockquote>
   Black Friday 2020: Anticipated <b>Black Friday Deals</b> in Crypto
 </blockquote>
 <hr>
-
-<b>Products Covered:</b>
-<ul>
-
-<li><a href="#anicipated-tradingview">Tradingview</a></li>
-
-<li><a href="#anicipated-ledger">Ledger</a></li>
-
-<li><a href="#anicipated-coinigy">Coinigy</a></li>
-
-<li><a href="#anicipated-airvpn">Airvpn</a></li>
-
-<li><a href="#anicipated-cryptotax">Cryptotax</a></li>
-
-</ul>
 
 <p>
   Here are the <b>anticipated crypto deals</b> for BlackFriday 2020. We are listing here all the most popular products that crypto traders usually want to get during Black Friday.
@@ -3272,21 +3369,6 @@ If you need VPN now, get one of the <a href="http://bit.ly/airvpn-2020">shorter 
 <hr>
 
 
-<b>Products Covered:</b>
-<ul>
-
-<li><a href="#eternal-ledger">Ledger</a></li>
-
-<li><a href="#eternal-billfodl">Billfodl</a></li>
-
-<li><a href="#eternal-tradingview">Tradingview</a></li>
-
-<li><a href="#eternal-cryptotax">Cryptotax</a></li>
-
-</ul>
-
-
-
 <hr id="eternal-ledger">
 <h3>Ledger Wallets Eternal Black Friday Deals Discount</h3>
 <p><span class="tag article-tags"><a href="#live-ledger">#LEDGER</a></span>&nbsp;<span class="tag article-tags"><a href="#live-discount-coupon">#DISCOUNT-COUPON</a></span>&nbsp;</p>
@@ -3346,19 +3428,48 @@ If you need VPN now, get one of the <a href="http://bit.ly/airvpn-2020">shorter 
   <p>Tagged as <span class="tag article-tags">#LEDGER</span>&nbsp;<span class="tag article-tags">#DISCOUNT-COUPON</span>&nbsp;</p>
 </div>
 
-<hr id="eternal-billfodl">
-<h3>Trezor and BillFodl Wallet Bundles Discount</h3>
-<p><span class="tag article-tags"><a href="#live-billfodl">#BILLFODL</a></span>&nbsp;</p>
-<article><p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<hr id="eternal-cryptosteel">
+<h3>Cryptosteel Eternal Black Friday Deals Discount</h3>
+<p><span class="tag article-tags"><a href="#live-cryptosteel">#CRYPTOSTEEL</a></span>&nbsp;<span class="tag article-tags"><a href="#live-discount-coupon">#DISCOUNT-COUPON</a></span>&nbsp;</p>
+<article><p><a target="_blank" href="" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>In addition to Black Friday, Billfodl also runs Christmas sales.</p>
+<p>In addition to Black Friday discount deals, Cryptosteel is running <strong>bundle deals</strong> through the year.</p>
 
-<p>For other times of the year there are <strong>bundle deal</strong> such as the <em>Billfodl Steel Plate Wallet + Trezor Wallet</em> on discount. At various price points you can get Billfodls with Trezor One or Trezor T.</p>
+<p>Getting two or three steel plates or steel capsules gets you a cheaper rate per wallet.</p>
 
-<p><a class="button" href="http://bit.ly/at-billf-xmas19">Go to BillFodl</a></p>
+<p><a href="http://bit.ly/at-csteel-caps2x" class="btn">Go to Cryptosteel</a></p>
+
+<h4>What is Cryptosteel</h4>
+
+<p>Cryptosteel is a steel metal cryptocurrency wallet brand. The hardware wallet products are similar to [Billfodl](#live-billfodl) - they are also stainless steel plates for your wallet's seedphrase, waterproof, rustproof, impactproof and fireproof.
+</p>
+<p>Cryptosteel is a European company though, while Billfodl ships from the US, so just choose either of them based on your location.
+</p>
+
 </article>
 <div class="meta">
-  <p>Tagged as <span class="tag article-tags">#BILLFODL</span>&nbsp;</p>
+  <p>Tagged as <span class="tag article-tags">#CRYPTOSTEEL</span>&nbsp;<span class="tag article-tags">#DISCOUNT-COUPON</span>&nbsp;</p>
+</div>
+
+<hr id="eternal-billfodl">
+<h3>Trezor and BillFodl Wallet Bundles Discount</h3>
+<p><span class="tag article-tags"><a href="#live-billfodl">#BILLFODL</a></span>&nbsp;<span class="tag article-tags"><a href="#live-privacypros">#PRIVACYPROS</a></span>&nbsp;</p>
+<article><p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1599121689/atnet/altcoin-wallets/Screen_Shot_2020-09-03_at_15.26.51_fsoxdd.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Billfodl is the steel metal crypto wallet from the official store at PrivacyPros.</p>
+
+<p>In addition to Black Friday, Billfodl also runs a yearly Christmas sales.</p>
+
+<h4 id="trezor-t--billfodl-and-trezor-1--billfodl-bundle-deal"><strong>Trezor T + BillFodl</strong> and <strong>Trezor 1 + Billfodl</strong> Bundle Deal</h4>
+
+<p>For other times of the year there are <strong>bundle deal</strong> such as the <em>Billfodl Steel Plate Wallet + Trezor Wallet</em> on discount.</p>
+
+<p>At various price points you can get Billfodl with Trezor One or Billfodl with Trezor T at a bundle discount price.</p>
+
+<p><a class="button" href="http://bit.ly/at-ppros-2020">Go to BillFodl (PrivacyPros)</a></p>
+</article>
+<div class="meta">
+  <p>Tagged as <span class="tag article-tags">#BILLFODL</span>&nbsp;<span class="tag article-tags">#PRIVACYPROS</span>&nbsp;</p>
 </div>
 
 <hr id="eternal-tradingview">
@@ -3519,7 +3630,7 @@ alt="Ledger" data-original-width="1000px" data-original-height="1000px" layout="
 <h4>BillFodl Stainless Steel Cold Wallet (Fire-proof Seed Storage)</h4>
 <amp-img itemprop="image"
 src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_700,w_700/v1599121690/atnet/altcoin-wallets/billfodl-the-one-and-only-billfodl-2_2048x2048_uorc65.jpg"
-alt="Ledger" data-original-width="700px" data-original-height="700px" layout="responsive" width="700px" height="700px">
+alt="Billfodl" data-original-width="700px" data-original-height="700px" layout="responsive" width="700px" height="700px">
 </amp-img>
 
 <p>Billfodl is next to Cryptosteel one of the leaders in true cold storage for crypto - producer of the super resistant metal private key storage for the paranoid.
@@ -3554,6 +3665,62 @@ alt="Eternal Black Friday | Crypto Black Friday Deals BEFORE Black Friday 2020" 
          <p>&nbsp;</p>
 
        </div>
+        <div class="columns three" id="ebf-nav">
+          <div class="desktop-only" id="ebf-menu-sticky">
+           <ul>
+  <li>
+    <a href="#live"><b>Eternal Black Friday</b>: Current deals & coupons</a>
+    <ul>
+    
+    <li><a href="#live-ledger">Ledger</a></li>
+    
+    <li><a href="#live-billfodl">Billfodl</a></li>
+    
+    </ul>
+
+  </li>
+  <li>
+    <a href="#anticipated">Anticipated Black Friday Deals 2020</a>
+    <ul>
+    
+    <li><a href="#anicipated-tradingview">Tradingview</a></li>
+    
+    <li><a href="#anicipated-ledger">Ledger</a></li>
+    
+    <li><a href="#anicipated-coinigy">Coinigy</a></li>
+    
+    <li><a href="#anicipated-airvpn">Airvpn</a></li>
+    
+    <li><a href="#anicipated-cryptotax">Cryptotax</a></li>
+    
+    </ul>
+  </li>
+  <li><a href="#past">Past Black Friday Crypto Deals</a>
+    <br>
+    <b><a class="inline" href="#past2019">2019</a></b>&nbsp;
+    <b><a class="inline" href="#past2018">2018</a></b>&nbsp;
+    <b><a class="inline" href="#past2017">2017</a></b>
+  </li>
+  <li><a href="#regular">[!] Eternal Black Friday Staples: Products that always get on sale after Black Friday too</a>
+    <br>
+    
+    <b><a class="inline" href="#eternal-ledger">ledger</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-cryptosteel">cryptosteel</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-billfodl">billfodl</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-tradingview">tradingview</a></b>&nbsp;&nbsp;
+    
+    <b><a class="inline" href="#eternal-cryptotax">cryptotax</a></b>&nbsp;&nbsp;
+    
+
+    </li>
+  <li><a href="#products">[?] What to Buy on Black Friday: Brands Overview</a></li>
+</ul>
+
+          </div>
+        </div>
 
       </div>
     </article>

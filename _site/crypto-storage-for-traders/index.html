@@ -2086,6 +2086,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2124,6 +2174,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2639,9 +2719,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-OPSEC: <a href="/samourai-wallet-bitcoin-anonymity/">Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</a></li>
-      
       <li>#CRYPTO-OPSEC: <a href="/tools/">List of Crypto Trading Tools (Free and Freemium)</a></li>
+      
+      <li>#CRYPTO-OPSEC: <a href="/cryptocurrency-heists-infographic/">Shocking Facts About Cryptocurrency Heists [Infographics]</a></li>
       
         
       
@@ -2700,25 +2780,6 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Updated"><span class="tag custom-note">Guide</span>&nbsp;<b>Altcoin Wallets: Tried and True, 2020 Updated</b> in <b>#MULTICOIN-WALLET</b>  updated on 27 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Altcoin Wallets: Tried and True, 2020 Updated" href="/altcoin-wallets/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/crypto-storage-for-traders/" title="Crypto Wallets by Use Case"><span class="tag custom-note">User Guide</span>&nbsp;<b>Crypto Wallets by Use Case</b> in <b>#CRYPTO-OPSEC</b>  updated on 18 Sep 2020</a>
       </li>
   </ul>
@@ -2738,14 +2799,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 18 Sep 2020</a>
+        <a class="index-internal" href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Updated"><span class="tag custom-note">Guide</span>&nbsp;<b>Altcoin Wallets: Tried and True, 2020 Updated</b> in <b>#MULTICOIN-WALLET</b>  updated on 27 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
+      <a class="cat-internal-link" title="Altcoin Wallets: Tried and True, 2020 Updated" href="/altcoin-wallets/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2765,6 +2826,25 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="PSA - Jaxx Vulnerability (2017)" href="/jaxx-vulnerability/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/img/wallets/jaxx12.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 18 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

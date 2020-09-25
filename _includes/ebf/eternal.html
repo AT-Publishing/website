@@ -5,16 +5,7 @@
 </blockquote>
 <hr>
 
-{% assign anti = site.ebf | where: "categories", "eternal-black-friday" | reverse  %}
-<b>Products Covered:</b>
-<ul>
-{% for item in anti %}
-<li><a href="#eternal-{{ item.tags[0] }}">{{ item.tags[0] | capitalize }}</a></li>
-{% endfor %}
-</ul>
-
-
-{% for item in anti %}
+{% for item in eter %}
 <hr id="eternal-{{ item.tags[0] }}">
 <h3>{{ item.title }} Discount</h3>
 <p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>

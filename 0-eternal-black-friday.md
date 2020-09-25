@@ -32,18 +32,6 @@ top_interlink:
 
 The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **bundle promos** during the rest of {{ site.time | date: '%y' }}.
 
-**Jump to:**
-* All LIVE deals and coupons [AKA Eternal Black Friday](#live)
-  * [(Jump to list of deals)](#live)
-* List of [anticipated Black Friday Deals 2020](#anticipated)
-  * [(Jump to list of products covered)](#anticipated)
-* Records of [Past Black Friday Deals](#past)
-  * Compare with [Crypto Black Friday 2019](#past2019)
-  * Compare with [Crypto Black Friday Sales 2018](#past2018)
-  * Compare with [Crypto Black Friday Sales 2017](#past2017)
-* [Eternal Black Friday Staples](#regular): List of products get on sale OUTSIDE of Black Friday
-* [All products that are worth the wait until Black Friday](#products)
-
 {% assign interlink = page.top_interlink %}
 {% include article/interlink-generic.html %}
 

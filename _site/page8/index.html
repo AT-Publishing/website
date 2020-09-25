@@ -2065,6 +2065,56 @@ h3#cta-headline, #cta-headline {
 }
 
 
+
+
+
+#ebf-row, #ebf-deals {
+  display: block;
+  position: relative;
+}
+#ebf-nav {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky {
+  padding: 20px;
+  /*display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+*/
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#ebf-menu-sticky * {
+    background: white;
+    color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+}
+#ebf-menu-sticky > ul {
+  list-style: none;
+}
+#ebf-menu-sticky > ul > li {
+  padding: 0.5em 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+#ebf-menu-sticky ul > li > a {
+  text-decoration: none;
+  border-bottom:none;
+}
+#ebf-menu-sticky ul li a.inline {
+  border-bottom: 0;
+  line-height: 2;
+}
+
+
+
+/****** -- */
+
 @media (max-width: 660px) {
     #altcointrading-security .nomargintop.four {
         display: none
@@ -2103,6 +2153,36 @@ h3#cta-headline, #cta-headline {
         cursor: pointer;
         box-sizing: border-box;
     }
+
+    #ebf-nav-mobile {
+      position: sticky;
+      top: 0;
+      left: 0;
+      background: #fedb00;
+      width: 100%;
+      display: block;
+      z-index: 9;
+      line-height: 50px;
+      font-family: "Courier New", Courier, monospace;
+      padding-left: 15px;
+      box-sizing: border-box;
+    }
+    amp-sidebar#sidebar-ebf {
+    max-width: 70vw;
+    background-color: whitesmoke;
+    color: #001f3f;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 1.1;
+    font-family: "Courier New", Courier, monospace;
+  }
+  amp-sidebar#sidebar-ebf a {
+    color: #001f3f;
+  }
+  amp-sidebar#sidebar-ebf ul {
+    list-style: none;
+  }
 }
 
 
@@ -2704,60 +2784,18 @@ amp-user-notification>div>div {
   <div class="row home-glossary">
     
       <div class="columns three">
-        <span class="tag custom-note ">jargon</span>&nbsp;
+        <span class="tag custom-note ">beyondta</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/lbc/" title="LBC">
-    LBC
+  <a class="index-internal" href="/glossary/trading-psychology/" title="Trading Psychology">
+    Trading Psychology
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/lbc/" title="LBC">
+  <a class="index-internal" href="/glossary/trading-psychology/" title="Trading Psychology">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" alt="LBC"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
-        <span class="tag custom-note ">jargon</span>&nbsp;
-<strong>
-  <a class="index-internal" href="/glossary/defi/" title="DeFi">
-    DeFi
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/defi/" title="DeFi">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1600916078/atnet/defi-market-analytics.jpg" alt="DeFi"
-      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-      </amp-img>
-    </figure>
-  </a>
-
-
-      </div>
-    
-      <div class="columns three">
-        <span class="tag custom-note ">jargon</span>&nbsp;
-<strong>
-  <a class="index-internal" href="/glossary/segwit/" title="Segwit (vs Legacy)">
-    Segwit (vs Legacy)
-  </a>
-</strong>
-<br><br>
-
-  <a class="index-internal" href="/glossary/segwit/" title="Segwit (vs Legacy)">
-   <figure class="border">
-      <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1598344765/atnet/__women/pexels-thiago-matos-2239700_hgitpt.jpg" alt="Segwit (vs Legacy)"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/b_auto,c_lpad,h_360,w_700/v1599630717/atnet/__women/outliers2_nthsch.jpg" alt="Trading Psychology"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>
@@ -2769,16 +2807,58 @@ amp-user-notification>div>div {
       <div class="columns three">
         <span class="tag custom-note ">method</span>&nbsp;
 <strong>
-  <a class="index-internal" href="/glossary/wyckoff/" title="Wyckoff (simplified)">
-    Wyckoff (simplified)
+  <a class="index-internal" href="/glossary/pattern-trading/" title="Pattern Trading (Formation Trading) in Crypto">
+    Pattern Trading (Formation Trading) in Crypto
   </a>
 </strong>
 <br><br>
 
-  <a class="index-internal" href="/glossary/wyckoff/" title="Wyckoff (simplified)">
+  <a class="index-internal" href="/glossary/pattern-trading/" title="Pattern Trading (Formation Trading) in Crypto">
    <figure class="border">
       <amp-img itemprop="image"
-      src="https://res.cloudinary.com/atnetcloud/image/upload/v1600764172/atnet/pexels-tran-547766_hhvgnw.jpg" alt="Wyckoff (simplified)"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg" alt="Pattern Trading (Formation Trading) in Crypto"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">jargon</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/yield-farming/" title="Yield Farming">
+    Yield Farming
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/yield-farming/" title="Yield Farming">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1600159919/atnet/_glossary/yield-farming_bh4w4m.jpg" alt="Yield Farming"
+      layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+      </amp-img>
+    </figure>
+  </a>
+
+
+      </div>
+    
+      <div class="columns three">
+        <span class="tag custom-note ">jargon</span>&nbsp;
+<strong>
+  <a class="index-internal" href="/glossary/tlv/" title="TLV (Total Locked Value)">
+    TLV (Total Locked Value)
+  </a>
+</strong>
+<br><br>
+
+  <a class="index-internal" href="/glossary/tlv/" title="TLV (Total Locked Value)">
+   <figure class="border">
+      <amp-img itemprop="image"
+      src="https://res.cloudinary.com/atnetcloud/image/upload/v1600842866/atnet/pexels-eberhard-grossgasteiger-4406598_vxxsxc.jpg" alt="TLV (Total Locked Value)"
       layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
       </amp-img>
     </figure>

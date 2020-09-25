@@ -6,17 +6,9 @@
 </blockquote>
 <hr>
 
-{% assign anti = site.ebf | where: "categories", "live" | reverse %}
-<b>Products Covered:</b>
-<ul>
-{% for item in anti %}
-<li><a href="#live-{{ item.title | downcase | replace: ' ', '-' }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
 
-
-{% for item in anti %}
-<hr id="live-{{ item.title | downcase | replace: ' ', '-' }}">
+{% for item in live %}
+<hr id="live-{{ item.tags[0] }}">
 <h3>{{ item.title }}</h3>
 <p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
 <article>{{ item.content }}</article>
