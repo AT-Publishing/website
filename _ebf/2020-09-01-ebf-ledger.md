@@ -27,9 +27,11 @@ Random holiday deals or multicolor wallet bundles get discounted too.
 
 *Back to school* discount codes.
 
-*Promo deals to celebrate the release of the Bitcoin whitepaper* October 31, 2008. Ledger Nano S in special white-colored edition used to be sold in bundle deals.
+*Anniversary of the founding of Ledger Wallet* October 11. A limited edition of a Nano X wallet was released for this occasion in 2019. 
 
 **Q4**
+
+*Promo deals to celebrate the release of the Bitcoin whitepaper* October 31, 2008. Ledger Nano S in special white-colored edition used to be sold in bundle deals.
 
 The November run-up to *Black Friday* deals. Ledger always runs a sequence of different discount offers.
 
