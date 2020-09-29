@@ -102,13 +102,13 @@ The yearly TradingView plans get a Black Friday discount in the range of 40-60% 
 
 * PRO Plan **-40%:** <s>180 USD/year</s> 108 USD/year ~ **9 USD/month**
   - 2 charts per tab, 5 saved layouts, 5 indicators per layout
-  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/at-tvd-btcusd)**
 * PRO+ Plan **-50%:** <s>360 USD/year</s> 179.4 USD/year ~ **14.95 USD/month**
   - 2 charts per tab, 10 saved layouts, 10 indicators per layout
-  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/at-tvd-btcusd)**
 * PREMIUM Plan **-60%:** <s>720 USD/year</s> 287.8 USD/year ~ **23.98 USD/month**
   - 2 charts per tab, unlimited saved layouts, 25 indicators per layout
-  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/tv-btcusd-2020)**
+  - **[GET TradingView FREE to get this plan the next Black Friday](http://bit.ly/at-tvd-btcusd)**
 
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts.
 
@@ -118,7 +118,7 @@ Conditions to get the TradingView Black Friday price discount:
 * Payments are always available via Paypal, most debit cards and some credit cards.
 * Bitcoin payments are available for some of the plans.
 
-You can always <a>start with <a href="http://bit.ly/tv-btcusd-2020" rel="nofollow">TradingView FREE plan</a></b> and if you keep using it, the user interface <b>will nag you with the Black Friday offers</b> once they open this year.
+You can always <a>start with <a href="http://bit.ly/at-tvd-btcusd" rel="nofollow">TradingView FREE plan</a></b> and if you keep using it, the user interface <b>will nag you with the Black Friday offers</b> once they open this year.
 
 <div id="airvpn-discount"></div>
   
@@ -255,7 +255,7 @@ The early bird offers were finished off with a flat 50% discount on Ledger Nano 
 
 {{ site.stars.five }}
 
-<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</b>
+<b>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</b>
 
 As usually, in 2018 TradingView opened a special discount offer for the full Black Friday week (Monday - Sunday). Every year so far they give between 40% and 60% discount on their **yearly plans**.
 
@@ -273,7 +273,7 @@ Here's the typical Black Friday Tradingview deal structure that more or less rep
 
 The PRO TradingView subscription with BlackFriday deal costs monthly the same rate as TensorCharts. Paid in a single payment for the year's worth, accepting Paypal, most debit and credit cards. Bitcoin payments are available for some of the plans only.
 
-<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
+<b>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
 
 #### TensorCharts Black Friday Sale: 50% OFF the Premium plan
 
@@ -365,7 +365,7 @@ Every year, TradingView opens their Black Friday discount for the full Black Fri
 
 Payments are done via PayPal or via bitcoin.
 
-<em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
+<em>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
 
 #### AirVPN Black Friday 2020: Anticipated 70+% Off on 3-year Plan
 
@@ -417,7 +417,7 @@ Unless you are a scalper or an advanced trader interested in super granular data
 
 <a href="https://bitfinex.com/?refcode=5egV78YtlC" rel="nofollow">Bitfinex</a> uses TradingView charts on their exchange, so if you trade there, the consistency is another plus.
 
-<b>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
+<b>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade the next Black Friday.</b>
 
 #### Why go PRO on TradingView: TradingView PRO vs PRO+
 

@@ -96,7 +96,7 @@ Most of all, a crypto exchange should not crash under heavy traffic - ever. Alto
 
 > **Charting on TradingView**
 
-If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on [TradingView](http://bit.ly/atnet-tv).
+If you are at least occasionally taking technical analysis seriously, you will want to have your exchange on [TradingView](http://bit.ly/at-tvd-eth).
 
 All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken etc.
 
@@ -107,7 +107,7 @@ All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken e
 
 * **AML/KYC** for pure crypto-to-crypto trading is an overkill.
 
-* **In-house charts**, because [TradingView](http://bit.ly/atnet-tv) does better job.
+* **In-house charts**, because [TradingView](http://bit.ly/at-tvd-eth) does better job.
 
 <div id="derivatives"></div>
 

@@ -113,6 +113,6 @@ Charlie Lee via [litecointalk.io](https://litecointalk.io/t/my-vision-for-segwit
 
 ________________________
 
-Follow the LTCBTC pair technicals on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %} via [this btc_joe's idea from 23 February](https://www.tradingview.com/chart/LTCBTC/cFRt8jgX-LTC-BTC-this-time-is-different-lol/) - it gets updated daily.
+Follow the LTCBTC pair technicals on {% aff TradingView http://bit.ly/at-tvd-glob %} via [this btc_joe's idea from 23 February](https://www.tradingview.com/chart/LTCBTC/cFRt8jgX-LTC-BTC-this-time-is-different-lol/?offer_id=10&aff_id=3223&source=atnet&sub_id=intext) - it gets updated daily.
 
 Follow Charlie Lee on twitter [https://twitter.com/SatoshiLite](https://twitter.com/SatoshiLite).

@@ -22,4 +22,4 @@ Year on year, the Black Friday offers have been getting a tad better as the comp
 
 Payments are done via PayPal, credit cards, debit cards _or via cryptocurrency_.
 
-<em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
+<em>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>

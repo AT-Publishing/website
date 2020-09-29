@@ -96,7 +96,7 @@ Picking a right entry for shorter runs is a theme for a strategy article in itse
 * A small-cap altcoin usually runs up on extremely good news, a rumour or a speculation. In this case there will be no range to start with.
 * Altcoins that have PoW halving events, notably Litecoin, have predictable patterns around these events.
 
-*If you are looking for a reliable crypto charting app, go try a [free TradingView account](http://bit.ly/atnet-tv).*
+*If you are looking for a reliable crypto charting app, go try a [free TradingView account](http://bit.ly/at-tvd-eth).*
 
 ## 2. Get a Crypto Storage or Income from Interest
 

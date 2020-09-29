@@ -41,7 +41,7 @@ image_alt:
 
 ---
 
-In this Script Spotlight we are looking at scripts of Bollinger Band Width that are available from Tradingview public library. *If you don't have a TradingView account yet, [make a free one here](http://bit.ly/atnet-tv).*
+In this Script Spotlight we are looking at scripts of Bollinger Band Width that are available from Tradingview public library. *If you don't have a TradingView account yet, [make a free one here](http://bit.ly/at-tvd-eth).*
 
 ### Bollinger Band Width
 

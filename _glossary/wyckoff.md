@@ -64,7 +64,7 @@ This effect can be used to work out [market timing](/strategy/timing/) for longe
 
 #### Where to chart Wyckoff patterns
 
-Wyckoff ranges can be drawn with the help of TA tools available on [TradingView](http://bit.ly/atnet-tv), even with the free plan. You will find all you need in the public indicator library.
+Wyckoff ranges can be drawn with the help of TA tools available on [TradingView](http://bit.ly/at-tvd-eth), even with the free plan. You will find all you need in the public indicator library.
 
 For the **asset picking** part of being a Wyckoffian, you can make use of [coinmarketcap alternatives](/tools/#coinmarketcap-alternatives) or [market performance metrics](/tools/#market-performance-metrics) from our free tool list.
 

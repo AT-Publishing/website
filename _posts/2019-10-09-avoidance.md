@@ -95,9 +95,9 @@ We now also have composite indexes in cryptocurrency markets, but the informatio
 
 To find the inceptions of changes in the market, you will have to go back to individual cryptocurrencies and look for topping patterns and reversals.
 
-If you are a trading beginner, you can use free charting tools like {% aff Cryptowatch https://cryptowat.ch %} or {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}, get a BTCUSD chart with Parabolic SAR, RSI and MACD indicators and go backwards to learn how past trend reversals looked. Then you can compare it with what ETHUSD was doing in that time, and then perhaps XRPUSD and smaller altcoins.
+If you are a trading beginner, you can use free charting tools like {% aff Cryptowatch https://cryptowat.ch %} or {% aff TradingView http://bit.ly/at-tvd-glob %}, get a BTCUSD chart with Parabolic SAR, RSI and MACD indicators and go backwards to learn how past trend reversals looked. Then you can compare it with what ETHUSD was doing in that time, and then perhaps XRPUSD and smaller altcoins.
 
-The hourly bitcoin chart below shows Parabolic SAR set to `0.025, 0.02, 0.03` on {% aff TradingView http://tradingview.go2cloud.org/SHW9 %}. If you click on the picture to zoom it you'll see it flipping, and if you look at the RSI at the bottom you'll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.
+The hourly bitcoin chart below shows Parabolic SAR set to `0.025, 0.02, 0.03` on {% aff TradingView http://bit.ly/at-tvd-eth %}. If you click on the picture to zoom it you'll see it flipping, and if you look at the RSI at the bottom you'll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.
 
 {% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
 

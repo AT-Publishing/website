@@ -56,7 +56,7 @@ Technically the platform has very good availability as there is rarely a flood o
 
 **You get 10% fee discount on all your trades for the first 30 days with the following link:**
 
-<a rel="nofollow" href="http://www.cryptofacilities.com/trading?affiliate=3258dbe6-4cad-450b-b4f2-d72ffd414b48" class="button" target="_blank">CryptoFacilities Futures Exchange</a> &nbsp; <a rel="nofollow" href="https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&file_id=205" class="button" target="_blank">TradingView Charting Platform</a>
+<a rel="nofollow" href="http://www.cryptofacilities.com/trading?affiliate=3258dbe6-4cad-450b-b4f2-d72ffd414b48" class="button" target="_blank">CryptoFacilities Futures Exchange</a> &nbsp; <a rel="nofollow" href="http://bit.ly/at-tvd-glob" class="button" target="_blank">TradingView Charting Platform</a>
 
 
 <p>&nbsp;</p>

@@ -43,7 +43,7 @@ related:
 
 ---
 
-If you don't have a TradingView account yet, [make one here for free](http://bit.ly/atnet-tv).
+If you don't have a TradingView account yet, [make one here for free](http://bit.ly/at-tvd-eth).
 
 ### A/D Levels by ParCorn on TradingView
 

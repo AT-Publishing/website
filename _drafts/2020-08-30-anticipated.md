@@ -62,7 +62,7 @@ Every year, TradingView opens their Black Friday discount for the full Black Fri
 
 Payments are done via PayPal or via bitcoin.
 
-<em>Start with <a href="http://bit.ly/atnet-tv" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
+<em>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>
 
 #### Coinigy Black Friday 2020: Anticipated 75% Off on Yearly Plan
 

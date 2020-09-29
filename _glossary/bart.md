@@ -29,7 +29,7 @@ The name Bart came from the pattern's likeness to the shape of Bart Simpson's he
 
 * Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
 * Technical Analysis: Suport/Resistance, RSI, BBands
-* Charting App: [TradingView](http://bit.ly/atnet-tv)
+* Charting App: [TradingView](http://bit.ly/at-tvd-eth)
 
 
 #### What does the Bart pattern mean

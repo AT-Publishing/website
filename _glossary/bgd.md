@@ -43,7 +43,7 @@ If you are used to looking at the 4H chart and then switch to 5M, everything wil
 
 * Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
 * Technical Analysis: Suport/Resistance, RSI, BBands
-* Charting App: [TradingView](http://bit.ly/atnet-tv)
+* Charting App: [TradingView](http://bit.ly/at-tvd-eth)
 
 
 BGD is a bullish candle. However, it is just a single candle, not a formation - this whole abrupt change on the market was done in something like four hours. That's why you should look at what else could be influencing the market before turning bullish or bearish.

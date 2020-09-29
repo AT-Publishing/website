@@ -93,7 +93,7 @@ If you want to daytrade derivatives, your only liquid crypto futures option in 2
 
 #### Charting
 
-For your crypto daytrading chart analysis needs, [TradingView FREE Account](http://bit.ly/atnet-tv) will be enough unless you need timespans shorter than one minute.
+For your crypto daytrading chart analysis needs, [TradingView FREE Account](http://bit.ly/at-tvd-eth) will be enough unless you need timespans shorter than one minute.
 
 ## Summary
 
