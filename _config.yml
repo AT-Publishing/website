@@ -300,13 +300,6 @@ width="300px" height="600px">
 </amp-img></a></div>'
 
 #### tradingview ####
-# http://bit.ly/at-tv-2020-lp-legacy
-
-# BF: now says expired but keep checking.
-# pixel <img src="https://tradingview.go2cloud.org/aff_i?offer_id=2&aff_id=3223&url_id=239" width="0" height="0" style="position:absolute;visibility:hidden;" border="0" />
-# link http://bit.ly/at-tvd-ebf https://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=3223&url_id=239&source=at_page_ebf
-
-
 # updated to directlinks 29 sep
 # ?offer_id=10&aff_id=3223&source=atnet&sub_id=leaderboard
 tv_728-90_static: '<div class="containter-center"><a id="gtm-tv-728-90" href="http://bit.ly/at-tvd-gopro" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501105/atnet/_banner/tv_728x90_eloyrz.jpg" alt="Tradingview never trade alone" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
@@ -321,16 +314,6 @@ tv_728-90_animated: '<div class="clearfix adfix"><div class="only-desktop"><amp-
 tvfx_320-200: '<div class="clearfix adfix"><small> --- [ article continues after ad ] --- </small><br><amp-iframe width="350px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/tvfx-320x200.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe></div>'
 tv_head_1: '<br><br><amp-iframe width="305px" height="250px" layout="responsive" sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms" src="https://amp2disqus.netlify.com/altcointrading/header-tv1.html"><amp-img layout="fill" src="/img/ads/ad-placeholder.jpg" placeholder></amp-img></amp-iframe>'
 
-
-# gopro:
-
-# bit.ly/tv20gp-{lang} --> bit.ly/tvd20gp-{lang}
-#https://www.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
-#https://zh.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
-#https://jp.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
-#https://ko.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
-#https://vi.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
-#https://pt.tradingview.com/gopro/?offer_id=10&aff_id=3223&source=atnet&sub_id=langs
 
 #### tensorcharts ####
 tc1: '<p>TensorCharts are an advanced charting platform servicing crypto traders. It has tools like candle footprint, orderbook heatmap or trades counter. </p><p>TensorCharts run on free and premium subscription models. Create your free TensorCharts account <a rel="nofollow" target="_blank" href="https://tensorcharts.com/?r=14">here</a></p>'
@@ -350,8 +333,6 @@ width="336px" height="280px">
 
 
 # Users who have signed up with a valid affiliate link will receive a 10% fee discount for 6 months.
-
-
 ### changelly
 
 chgl_buy_long: '<div class="containter-center"><a rel="nofollow" title="Changelly buy crypto with credit card" href="http://bit.ly/at-changelly-buy" target="_blank">
@@ -428,10 +409,3 @@ localcryptos_leader_dark: '<div class="text-center"><a rel="nofollow" target="_b
 # seasonal
 
 ledger_codes_leader: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/at-ledger-codes2020"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_800/v1584501783/atnet/_banner/ledger-wallet-discount-codes-header.jpg" alt="Ledger wallet discount code bundle for crypto traders" data-original-width="800px" data-original-height="376px" width="800px" height="376px" layout="responsive"></amp-img></a></div><br>'
-
-##### ===== display ===== #####
-
-#fucksense:
-  #banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px"
-  #  type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad></div><div class="clearfix"></div>'
-  #sidebar: '<amp-ad layout="responsive" width="300px" height="250px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="1212489691"></amp-ad>'
