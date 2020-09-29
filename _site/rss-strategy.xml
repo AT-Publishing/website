@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 29 Sep 2020 04:17:34 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2020 04:17:34 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2020 09:05:27 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2020 09:05:27 +0000</lastBuildDate>
 
     
       <item>
@@ -44,6 +44,10 @@
         <category>crypto-charting</category>
         
         <category>crypto-trading-strategy</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
         
         
         <category>crypto-technical-analysis</category>
@@ -131,6 +135,10 @@
         
         <category>fibonacci-retracement</category>
         
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
         
         <category>trading</category>
         
@@ -199,6 +207,10 @@
         
         <category>cryptocurrency-trading</category>
         
+        <category>bitmex</category>
+        
+        <category>bitfinex</category>
+        
         
         <category>trading</category>
         
@@ -230,6 +242,10 @@
         <category>trading-strategy</category>
         
         <category>cryptocurrency-trading</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
         
         
         <category>trading</category>
@@ -264,6 +280,10 @@
         <category>trading-strategy</category>
         
         <category>crypto-trading</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
         
         
         <category>trading</category>
@@ -331,6 +351,10 @@
         
         <category>crypto-trading</category>
         
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
         
         <category>trading</category>
         
@@ -361,6 +385,10 @@
         
         <category>dollar-cost-averaging</category>
         
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
         
         <category>trading</category>
         
@@ -390,6 +418,8 @@
         <category>strategic-mindset</category>
         
         <category>rational-analysis</category>
+        
+        <category>bitmex</category>
         
         
         <category>trading</category>
@@ -426,6 +456,10 @@
         <category>strategic-mindset</category>
         
         <category>rational-analysis</category>
+        
+        <category>bitmex</category>
+        
+        <category>bitfinex</category>
         
         
         <category>crypto-value-judgement</category>

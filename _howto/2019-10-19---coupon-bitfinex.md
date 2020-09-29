@@ -44,6 +44,11 @@ Thank you for playing, good bye.
 
 Now for the rest of the article.
 
+#### Crypto Trading Strategies Suitable for Bitfinex
+
+{% assign interlink = site.strategy | where:"tags","bitfinex" %}
+{% include article/interlink-article.html %}
+
 #### How to get a fee discount on Bitfinex
 
 {% amp700cloud none {{page.image[1]}} %}

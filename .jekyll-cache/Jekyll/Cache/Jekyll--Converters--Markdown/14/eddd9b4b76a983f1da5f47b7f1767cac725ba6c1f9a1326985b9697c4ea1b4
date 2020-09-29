@@ -1,4 +1,4 @@
-I"�<blockquote>
+I"l,<blockquote>
   <p>Independent Reserve: Value is where the crowd isn’t</p>
 </blockquote>
 
@@ -6,11 +6,13 @@
 
 <p><a href="http://bit.ly/at-indyres">Independent Reserve</a> is an Australian crypto exchange that stayed fairly low-profile in the industry.</p>
 
-<p>It is not a commonly mentioned crypto exchange on Reddit’s crypto subs either, and its trading interface absolutely cannot compare to places like <a href="/coupon-bitfinex-5egv78ytlc/">Bitfinex</a>:</p>
+<p>It is not a commonly mentioned crypto exchange on Reddit’s crypto subs either, probably because its old trading interface absolutely could not compare to places like <a href="/coupon-bitfinex-5egv78ytlc/">Bitfinex</a>:</p>
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_750/v1582619626/atnet/var_exchanges/Screen_Shot_2020-02-25_at_15.11.57_nxjpsk.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_750/v1582619626/atnet/var_exchanges/Screen_Shot_2020-02-25_at_15.11.57_nxjpsk.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>Luckily, in this particular comparison, its banking can neither.</p>
+<p><strong>As of <a href="https://twitter.com/altcointrading_/status/1310810740333322240">October 2020, Independent Reserve finally caved</a> and added a professional charting engine with <a href="https://bit.ly/at-tvd-btcusd">Tradingview</a> charts, to get on par with Bitfinex.</strong></p>
+
+<p>Luckily, in this particular comparison, they are not trying to imitate the state of Bitfinex’s banking too.</p>
 
 <ul>
   <li>Independent Reserve is open to Australian as well as international users</li>
@@ -19,13 +21,85 @@
   <li>Support desk is well staffed and super responsive</li>
 </ul>
 
-<p>And then, not everybody who is in crypto really needs the latest professional trading interface. In fact, there is nothing wrong with <a href="/glossary/lth/">long-term holding</a> AKA buying crypto and holding it for the long run.</p>
+<p>This is a great platform <a href="/glossary/lth/">long-term holding</a> AKA buying crypto for fiat and holding it for the long run.</p>
 
 <p>This is one of the three things that Independent Reserve really excels at. And not just for Bitcoin.</p>
 
 <p>Independent Reserve lets you trade <strong>BTC, ETH, XRP, BCH, USDt, LTC, EOS, LINK, MKR, DAI and more</strong>.</p>
 
 <p>As of September 2020, they have also been adding a carefully vetted selection of <strong>DeFi tokens</strong>.</p>
+
+<h4 id="crypto-trading-strategies-suitable-for-independent-reserve">Crypto Trading Strategies Suitable for Independent Reserve</h4>
+
+<!--needs a variable interlink-->
+
+<div class="box-lvl-x">
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/wyckoff-ranging-markets/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/wyckoff-ranging-markets/"><h5>Wyckoff trading method and ranging markets</h5></a>
+        <p>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/fibs/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="/editorial/breadbutter2.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/fibs/"><h5>Why are fib retracements and extensions important</h5></a>
+        <p>Fibs are the black-box tool that everyone uses because everyone uses it. Why they matter in spite of it?</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/timing/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/timing/"><h5>Timing tools</h5></a>
+        <p>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/fulcrum-bottom/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="/strat/fulcrum/toolbox.jpeg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/fulcrum-bottom/"><h5>Fulcrum bottom</h5></a>
+        <p>Fulcrum bottom has been talked about a lot lately thanks to mentions in Peter Brandt's reports. Describing it as 'head &amp; shoulders except at the bottom' is not quite cutting it though.</p>
+      </div>
+    </div>
+    
+  </div>
+
+<p> </p>
+
+<h2 id="three-things-independent-reserve-does-best">Three things Independent Reserve does best</h2>
 
 <h2 id="1-automated-dollar-cost-averaging-on-independent-reserve">1/ Automated Dollar-cost averaging on Independent Reserve</h2>
 

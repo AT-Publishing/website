@@ -118,3 +118,8 @@ When you're done, open the app and click 'Login'. The app will ask you to scan t
 After that, you will be only asked to create a PIN and to save your fingerprint, if your phone supports that...And that's you done.
 
 <p><a class="btn" href="http://bit.ly/the-cat-mouse-game">Go To Bitfinex > </a></p>
+
+#### Crypto Trading Strategies Suitable for Bitfinex
+
+{% assign interlink = site.strategy | where:"tags","bitfinex" |sample:3 %}
+{% include article/interlink-article.html %}

@@ -1,4 +1,4 @@
-I"Ó<p><strong>BitMEX users who sign up at BitMEX with referral code <code class="language-plaintext highlighter-rouge">iYQB44</code> get 10% fee discount for 6 months.</strong></p>
+I"4<p><strong>BitMEX users who sign up at BitMEX with referral code <code class="language-plaintext highlighter-rouge">iYQB44</code> get 10% fee discount for 6 months.</strong></p>
 
 <p>Up until August 2020, BitMEX was your trusty exchange where no KYC was necessary and you could access the exchange even from Tor or VPN - it breached the TOS but compliance was not enforced, as was the custom.</p>
 
@@ -21,6 +21,76 @@
   <li><a href="/glossary/perps/">ATNET Glossary: Perps</a></li>
   <li><a href="/glossary/pattern-trading/">Pattern trading in crypto, most common patterns</a></li>
 </ul>
+
+<h4 id="crypto-trading-strategies-suitable-for-bitmex">Crypto Trading Strategies Suitable for BitMEX</h4>
+
+<!--needs a variable interlink-->
+
+<div class="box-lvl-x">
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/cryptocurrency-lending/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="/editorial/peanuts.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/cryptocurrency-lending/"><h5>On lending</h5></a>
+        <p>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/scalping/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584520187/atnet/strategy/altcointrading-strategy_jf6rbn.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/scalping/"><h5>Scalping crypto</h5></a>
+        <p>Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/technical/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1596693900/atnet/__women/pexels-ekaterina-bolovtsova-4049990_j5fhci.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/technical/"><h5>Technical analysis in crypto: how to use ta strategically</h5></a>
+        <p>With links to the selection of best tools and scripts</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/crypto-market-psychology/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_south,h_360,w_700/v1599631412/atnet/__women/cheerleaders_mkt-psych.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/crypto-market-psychology/"><h5>Crypto market psychology vs *your* trading psychology</h5></a>
+        <p>The crypto market psychology is what it is for a reason. If that makes you uncomfortable, try working on your trading psychology.</p>
+      </div>
+    </div>
+    
+  </div>
+
+<p>Â </p>
 
 <h3 id="more-about-bitmex">More About BitMEX</h3>
 

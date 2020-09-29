@@ -347,8 +347,13 @@ span.note-lvl-a {
 }
 .box-lvl-a {
   display: block;
-    padding: 20px;
-    border: 5px solid #428944;
+  padding: 20px;
+  border: 5px solid #428944;
+}
+.box-lvl-x {
+  display: block;
+  padding: 20px;
+  border: 5px solid #aab0b5;
 }
 
 li.subtle-item {

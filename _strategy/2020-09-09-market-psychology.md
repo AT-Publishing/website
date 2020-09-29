@@ -18,7 +18,7 @@ author_name:    "KarlVonBahnhof"
 author_twitter: "@_KarlVonBahnhof"
 
 categories:     [ crypto-value-judgement ]
-tags:           [ crypto-trading-strategy, market-psychology, trading-psychology, fundamental-analysis, technical-analysis, strategic-mindset, rational-analysis]
+tags:           [ crypto-trading-strategy, market-psychology, trading-psychology, fundamental-analysis, technical-analysis, strategic-mindset, rational-analysis, bitmex, bitfinex]
 
 related:
 - {"Timing tools: Market timing is not a dubious concept": "/strategy/timing/"}

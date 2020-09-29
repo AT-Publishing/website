@@ -45,6 +45,7 @@ Up until August 2020, BitMEX was your trusty exchange where no KYC was necessary
 {% amp700cloud none {{page.image[0]}} %}
 
 
+
 ### For which trading methods is BitMEX best for?
 
 For examples of trading techniques suitable for BitMEX, see [Scalping Crypto](/strategy/scalping/) or [TensorCharts](/tensorcharts/). Yes, it's mostly short term speculation.
@@ -54,6 +55,11 @@ For examples of trading techniques suitable for BitMEX, see [Scalping Crypto](/s
 * [Daytrading crypto](/daytrading/)
 * [ATNET Glossary: Perps](/glossary/perps/)
 * [Pattern trading in crypto, most common patterns](/glossary/pattern-trading/)
+
+#### Crypto Trading Strategies Suitable for BitMEX
+
+{% assign interlink = site.strategy | where:"tags","bitmex" | limit:3 %}
+{% include article/interlink-article.html %}
 
 ### More About BitMEX
 
