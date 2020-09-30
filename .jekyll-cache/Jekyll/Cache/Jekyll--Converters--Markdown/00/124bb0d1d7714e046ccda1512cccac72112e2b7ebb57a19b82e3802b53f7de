@@ -1,0 +1,96 @@
+I"<p>In this guide we are going to look at why you should learn how to verify GPG signatures and what is the difference between GPG signatures vs checksum verification.</p>
+
+<p>In the last section of this article, there is a <a href="#electrum">step-by-step guide</a> on how to verify GPG signatures on Mac or Linux. It uses Electrum wallet as an example.</p>
+
+<h2 id="checksum-vs-gpg-signature">Checksum vs GPG Signature</h2>
+
+<h3 id="gpg-signatures-why-are-digital-signatures-important">GPG Signatures: Why are digital signatures important</h3>
+
+<p>GPG signature is a digital signature that can be made by someone who owns a private GPG key.</p>
+
+<p>A GPG signature is then a proof that the files you downloaded have been signed by the owner of the GPG key.</p>
+
+<p>Vwerifying GPG signatures will enhance your security. If you do that, you are making sure the software you’re downloading was put up online by the organisation tied to a GPG key.</p>
+
+<p>Typically, <strong>developers do not change their GPG key often and they store it safely - just like you store your crypto wallet seed phrases</strong>.</p>
+
+<p>If a hacker gains access to a website that provides crypto wallets, they can replace the installer files but they will not be able to recreate the GPG signature. When you download those files, your GPG verification will fail and you will know that you muat not install that software.</p>
+
+<p>Learn how to verify GPG signatures here:</p>
+
+<ul>
+  <li><a href="#electrum">Step-by-step guide how to verify GPG signatures on Mac</a>, using Electrum wallet as an example.</li>
+</ul>
+
+<h3 id="checksum-is-not-a-security-feature">Checksum is not a security feature</h3>
+
+<p>If you download open source software, you may have noticed that the developer sometimes provides a <strong>checksum</strong> alongside the installer files.</p>
+
+<p>This is a common practice in software development especially if the installer file you have to download is a large file. You will also get a checksum for images used for virtual machines.</p>
+
+<ul>
+  <li>BTW: <a href="/security/virtualbox/">Installing shitcoin wallets in a virtual machine is not a good security practice</a>.</li>
+</ul>
+
+<p>Checksum is a hash of file. You can take a 2GB file, quickly run a hashing function on it and the output will always be just a short string, no matter how big the file is.</p>
+
+<p>If you download a large file and the hash the developer provided with it, you can then run a hashing function on the big file yourself. If its result matches the hash provided by the developer, you know that the download succeeded and the big file is not corrupted. <strong>And that’s all you should use it for.</strong></p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:3c1b39,c_lpad,h_360,w_700/v1601447351/atnet/_how-to/shasum_kk06ey.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:3c1b39,c_lpad,h_360,w_700/v1601447351/atnet/_how-to/shasum_kk06ey.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><strong>Checksum verification is not a security practice.</strong> If an attacker gets access to a download page and replaces a download file, they will also replace its checksum.</p>
+
+<div id="electrum"></div>
+
+<h2 id="step-by-step-guide-by-example">Step by step guide by example</h2>
+<h3 id="verify-electrum-wallet-gpg-signature-on-mac-and-linux">Verify Electrum wallet GPG signature on Mac and Linux</h3>
+
+<p>We are going to walk you through the GPG signature verification on the example of <a href="/glossary/electrum/">Electrum, a popular OG bitcoin wallet</a>.</p>
+
+<p>On the official downloads page, <code class="language-plaintext highlighter-rouge">electrum.org/#download</code>, the Electrum developer provides installers for all common operating systems with their GPG signatures.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601444942/atnet/_how-to/electrum-pgp-signature_fuyfch.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601444942/atnet/_how-to/electrum-pgp-signature_fuyfch.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ol>
+  <li>
+    <p>Download Electrum from the official website, <a href="https://electrum.org/#download">electrum.org</a>.</p>
+
+    <p>Download both the installer and the signature file.</p>
+  </li>
+  <li>
+    <p>Open your Terminal and install the GPG package.</p>
+
+    <p>On Mac that will be <code class="language-plaintext highlighter-rouge">brew install gnupg</code>, on Linux <code class="language-plaintext highlighter-rouge">apt install gnupg</code>.
+This is really the fastest, easiest and safest way.</p>
+  </li>
+  <li>
+    <p>Get the Electrum GPG key and check it’s the true key.</p>
+
+    <p>Look up GPG keys tied up with the domain electrum.org: <code class="language-plaintext highlighter-rouge">gpg --locate-keys electrum.org</code>.
+There should only be one answer.</p>
+
+    <p><strong>The true Electrum GPG has been published in 2011</strong>, which you should see in the <code class="language-plaintext highlighter-rouge">pub</code> line of the output.</p>
+
+    <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+  </li>
+  <li>
+    <p>Download this key. Copy the string just below the publish date and save the key to a file on your computer:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">gpg --output ~/btc.keyring --export 6694D8DE7BE8EE5631BED9502BD5824B7F9470E6</code>.</p>
+
+    <p>This should create a file at <code class="language-plaintext highlighter-rouge">~/btc.keyring</code>.</p>
+  </li>
+  <li>
+    <p>Change to the folder into which you downloaded your Electrum installer and your signature (.asc) file.</p>
+
+    <p>Verify that they are matching the GPG key:
+<code class="language-plaintext highlighter-rouge">gpgv --keyring ~/btc.keyring ./&lt;electrum-installer&gt;.asc ./&lt;electrum-installer&gt;</code></p>
+
+    <p>The output should look something like the following. It should definitely say the signature is good.</p>
+
+    <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+  </li>
+</ol>
+
+<p>If you followed all the steps above and successfully verified the GPG signature, you can safely install the application.</p>
+:ET

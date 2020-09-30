@@ -24,11 +24,13 @@ related:
 
 Electrum is one of the oldest cryptocurrency wallets still in use.
 
-The original Electrum wallet is a **bitcoin wallet**. Its homepage is at [electrum.org](https://electrum.org) and it is actively maintained by the same developer, Thomas Voegtlin, since 2013.
+The original Electrum wallet is a **bitcoin wallet**. Its homepage is at [electrum.org](https://electrum.org) and it is actively maintained by the same developer, Thomas Voegtlin, since 2011.
 
 Electrum has a good track record in terms of security.
 
 It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won't stand in your way.
+
+* [How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)
 
 ### Electrum to store altcoins (Monero, ETH, ZEC)
 
@@ -62,7 +64,7 @@ As a precaution, it is recommended to
 * always download Electrum from `electrum.org`
 * verify the PGP signature provided by the developer (it is the same one since 2013)
 
-<!--<a class="btn" href="/howto/verify-signature/">How to verify a PGP signature</a>-->
+<a class="btn" href="/howto/verify-signature/">How to verify a PGP signature</a>
 
 ### Electrum Advanced Features
 
