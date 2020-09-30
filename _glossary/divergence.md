@@ -5,8 +5,8 @@ promoting:  analysis
 layout:     at-glossary
 date:       2020-03-30 01:07:00 +0700
 slug:       divergence/
-title:      Divergence
-hook:       Covers regular, hidden and exaggerated divergence with links to more info on how to trade them.
+title:      Div (Divergence)
+hook:       Covers regular div, hidden div and exaggerated divergence with links to more info on how to trade them.
 
 categories: [technical-analysis]
 tags:       ["divergences", "divergence-trading", "technical-analysis", "crypto-exchange", "crypto-market"]
@@ -25,6 +25,8 @@ related:
  - {"Ichimoku cloud crypto settings & rationale behind it": "/ichimoku-cloud/"}
 
 ---
+
+Crypto traders use **div** as a short for **divergence**.
 
 **Divergences** are a "level" indicator, they are too vague to justify opening of a position.
 
@@ -46,12 +48,14 @@ We distinguish *regular divergence*, *hidden divergence* and *exaggerated diverg
 
 *Exaggerated Divergence* is only different in that price makes double top or double bottom rather than new high or new low.
 
+* [ATNET Glossary on Exaggerated Divergence](/glossary/exaggerated-divergence/)
+
 Once again: Divergence itself is not a strong enough signal to trigger a trading decision about entry or exit. [More on trading divergences here](/divergences/)
 
 
 **Best Tools for Trading Divergences**
 
 * Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
-* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)
+* Charting App: [Tradingview](https://bit.ly/at-tvd-btcusd)
 
 Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

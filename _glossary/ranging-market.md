@@ -48,7 +48,7 @@ Be warned though, because in cryptocurrency, even in Bitcoin, the liquidity is s
 
 * Trading Platform: [BitMEX](http://bit.ly/2Muo11z)
 * Technical Analysis: Wyckoff, Support/Resistance, Boxes
-* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)
+* Charting App: [Tradingview](https://bit.ly/at-tvd-btcusd)
 
 #### Trading Techniques for Ranging Markets
 

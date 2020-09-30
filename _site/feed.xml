@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2020 07:04:22 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2020 07:04:22 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 07:33:40 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 07:33:40 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -1188,7 +1188,7 @@ If you are planning to hold an altcoin for more than one year, you should really
 
 The reason is that your chances of messing up something or getting hacked are minimal if you have the private key on any dedicated device simply thanks to the fact that you don’t use the device on a daily basis.
 
-The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone, or Electrum on a dedicated laptop.
+The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone. If you care about your BTC holdings only, you can do Electrum wallet on a dedicated laptop.
 
 
 
@@ -1502,7 +1502,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;The reason is that your chances of messing up something or getting hacked are minimal if you have the private key on any dedicated device simply thanks to the fact that you don’t use the device on a daily basis.&lt;/p&gt;
 
-&lt;p&gt;The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone, or Electrum on a dedicated laptop.&lt;/p&gt;
+&lt;p&gt;The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone. If you care about your BTC holdings only, you can do &lt;a href=&quot;/glossary/electrum/&quot;&gt;Electrum wallet&lt;/a&gt; on a dedicated laptop.&lt;/p&gt;
 
 &lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 

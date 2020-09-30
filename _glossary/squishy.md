@@ -38,6 +38,6 @@ The best approach is to take squishy as the signal to pay attention and look for
 
 * Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
 * Technical Analysis: Aside from MACD - Divergences, RSI, Ichimoku
-* Charting App: [Tradingview](http://bit.ly/tradingview-at-bf2019)
+* Charting App: [Tradingview](https://bit.ly/at-tvd-btcusd)
 
 Read our [list of tools for crypto traders](/tools/) for more free and freemium options.
