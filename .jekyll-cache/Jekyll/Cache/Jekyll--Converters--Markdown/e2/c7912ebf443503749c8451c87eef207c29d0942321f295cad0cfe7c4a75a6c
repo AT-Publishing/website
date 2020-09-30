@@ -1,0 +1,31 @@
+I"8<p>Dust attack is an attack on privacy that happens on the bitcoin blockchain.</p>
+
+<p>A potentially malicious actor is sends the smallest possible transaction amount to large amount of addresses and presumably runs a bot that watches from which addresses the coins were moved and where.</p>
+
+<p>Following the movements of the dust may eventually lead to a transaction that will be identifiable in real life, such as an online order or a p2p cash sale. It can also be used to link different wallets owned by the same person.</p>
+
+<h3 id="september-2020-dust-attack">September 2020 Dust Attack</h3>
+
+<p>There was a dust attack going on in September 2020. The dust amount was 547 satoshis and the attack posed as an advertisement for a website <code class="language-plaintext highlighter-rouge">memo dot sv</code>:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="can-you-prevent-a-dust-attack">Can you prevent a dust attack?</h3>
+
+<p>No.</p>
+
+<p>Anyone can send bitcoin to any address.</p>
+
+<h3 id="what-to-do-if-your-wallet-was-dusted">What to do if your wallet was dusted</h3>
+
+<p>You will have to use the <a href="/glossary/electrum/">Elextrum wallet</a> which is a bitcoin wallet that supports “coin control”. That means you can decide which incoming transaction you want to spend an which not, even if they were both sent to the same address.</p>
+
+<p>You have the following options:</p>
+
+<ul>
+  <li>Spend the dust by sending it to a miner</li>
+  <li>Spend the non-dust by sending it to a new wallet</li>
+</ul>
+
+<p>More on <a href="https://www.reddit.com/r/TREZOR/comments/ium0gd/dust_attack/">Reddit</a>.</p>
+:ET

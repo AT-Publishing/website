@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 29 Sep 2020 09:05:27 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2020 09:05:27 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2020 04:16:08 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2020 04:16:08 +0000</lastBuildDate>
 
     
       <item>
@@ -107,7 +107,7 @@
     
       <item>
 
-        <title>Redeeming forked coins: Sweeping private keys and sweeping addresses</title>
+        <title>Wallet OPSEC: Sweeping private keys and Sweeping Addresses</title>
         <description>What is sweeping, when do which one and a tutorial for safe redeeming of bitcoin forks.</description>
 
         <pubDate>Thu, 23 Nov 2017 16:22:00 +0000</pubDate>

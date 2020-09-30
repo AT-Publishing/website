@@ -1,4 +1,4 @@
-I"Ž$<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+I"{$<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>It is not exactly hot news that the BVI-based custodial cryptocurrency trading platform Bitfinex offers their own trading app for smartphones.</p>
 
@@ -87,21 +87,6 @@
     
     <div class="row">
       <div class="columns five">
-        <a href="/strategy/crypto-market-psychology/">
-          <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_south,h_360,w_700/v1599631412/atnet/__women/cheerleaders_mkt-psych.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
-            </amp-img>
-          </figure>
-        </a>
-      </div>
-      <div class="columns seven">
-        <a href="/strategy/crypto-market-psychology/"><h5>Crypto market psychology vs *your* trading psychology</h5></a>
-        <p>The crypto market psychology is what it is for a reason. If that makes you uncomfortable, try working on your trading psychology.</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="columns five">
         <a href="/strategy/timing/">
           <figure class="noborder main-post-image">
             <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
@@ -117,16 +102,31 @@
     
     <div class="row">
       <div class="columns five">
-        <a href="/strategy/fibs/">
+        <a href="/strategy/scalping/">
           <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="/editorial/breadbutter2.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584520187/atnet/strategy/altcointrading-strategy_jf6rbn.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
           </figure>
         </a>
       </div>
       <div class="columns seven">
-        <a href="/strategy/fibs/"><h5>Why are fib retracements and extensions important</h5></a>
-        <p>Fibs are the black-box tool that everyone uses because everyone uses it. Why they matter in spite of it?</p>
+        <a href="/strategy/scalping/"><h5>Scalping crypto</h5></a>
+        <p>Short-term trading is a way to stop leaving money on the table in sideways markets. Featuring everyone's favourite charting app - TensorCharts.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/dollar-cost-averaging/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/dollar-cost-averaging/"><h5>The case for dca</h5></a>
+        <p>Actually crunching the numbers for you.</p>
       </div>
     </div>
     

@@ -5,7 +5,7 @@ cloud:        true
 promoting:    payments-services
 note:         "p2p/dex bitcoin"
 
-slug:           generate-bitcoin-p2sh-address/
+slug:         generate-bitcoin-p2sh-address/
 
 
 layout:       at-trading
