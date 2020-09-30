@@ -3,7 +3,7 @@ published:  true
 cloud:      true
 promoting:  payments-services
 layout:     at-glossary
-date:       2020-06-22 02:07:00 +0700
+date:       2020-09-30 02:07:00 +0700
 slug:       dust-attack/
 title:      Dust Attack
 hook:       What is a dust attack and what can you do if your crypto wallet was dusted?
