@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 01:58:59 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 01:58:59 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 03:15:11 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 03:15:11 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -949,6 +949,11 @@ If you plan to daytrade, here’s the deal:
 
         <category><![CDATA[ recommended-exchange ]]></category>
         <category><![CDATA[ custodial-trading ]]></category>
+        <category><![CDATA[ bitfinex ]]></category>
+        <category><![CDATA[ independent-reserve ]]></category>
+        <category><![CDATA[ kraken ]]></category>
+        <category><![CDATA[ localcryptos ]]></category>
+        <category><![CDATA[ bitmex ]]></category>
         
         <category><![CDATA[ trading-platforms ]]></category>
         
@@ -1010,6 +1015,8 @@ Segwit addresses: Both native and nested Segwit supported.
 Get Ledger Nano X
 &amp;nbsp;
 Deals from Eternal Black Friday
+
+
 
 
 Your most easy-to-use Crypto Wallets: Mobile Wallet Apps
@@ -1139,10 +1146,10 @@ The MyMonero wallet is super simple.
 
   To use it, you don’t have to sign up. Just access the app or website and start the mnemonic phrase generation.
   The mnemonic phrase is your private key.
-  Your private key is not stored anywhere on the server, you are its sole owner. The danger is, you need to type in your seed into the web interface to access your wallet. This is not safe at all. If you google around, you will find reports from many people about their Monero vanishing from their account.
+  Your private key is not stored anywhere on the server, you are its sole owner. The danger is, you need to type in your seed into the web interface to access your wallet.
 
 
-If you are put off my the need to type in the mnemonic with MyMonero, use Exodus wallet instead. It supports Monero.
+If you don’t want to use MyMonero, you have other options - read here.
 
 IOTA Trinity Wallet App
 
@@ -1202,7 +1209,7 @@ It seems unbelievable now but back in 2016 Ledger Wallet used to claim they woul
   You might still prefer Nano S if you want to split your holdings into multiple devices. There are bundles available.
 
 
-Native Support: Bitcoin, Ethereum, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.
+Native Support: Bitcoin, Ethereum, Monero, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.
 
 Via 3rd party private key management: All Ethereum tokens of the ERC20 standard. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with MyEtherWallet.
 
@@ -1221,7 +1228,7 @@ Current Bundle Offers
 
 Summary
 
-Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
+Supported Coins: Many - BTC, ETH, XRP LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
 
 Segwit addresses: Both native and nested Segwit supported.
 
@@ -1232,7 +1239,7 @@ Trezor utilizes similar system as Ledger Wallet. There is a set of native apps, 
 Trezor is not as popular as ledger because it’s more expensive and less user-friendly.
 
 
-  TREZOR supports natively: BTC, ETH, DASH, LTC and ZCASH.
+  TREZOR supports natively: BTC, ETH, DASH, LTC, ZEC…
   Via 3rd party private key management: Any ERC20 token via MyEtherWallet.
   For BTC and LTC, both legacy and segwit addresses are supported.
 
@@ -1254,9 +1261,9 @@ Segwit addresses: Both native and nested Segwit supported.
 
 Electrum Forks
 
-While Electrum for Bitcoin (https://electrum.org/) is a safe option, you should be careful with Electrum for altcoins. The altcoin versions of Electrum were not developed by the same author as the original Electrum.
+While Electrum for Bitcoin (https://electrum.org/) is a safe option, you should be careful with Electrum for altcoins.
 
-They are just forks - the Electrum code is open-sourced.
+The altcoin spin-offs of Electrum were not developed by the same author as the original Electrum. They are just forks - the Electrum code is open-sourced.
 
 Some of them can be malicious or forked from an old version of Electrum that has a vulnerability:
 
@@ -1325,6 +1332,8 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &amp;nbsp;
 &lt;a class=&quot;btn&quot; href=&quot;/blackfriday/&quot;&gt;Deals from Eternal Black Friday&lt;/a&gt;
 &lt;/p&gt;
+
+&lt;div id=&quot;multicoin-apps&quot;&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;your-most-easy-to-use-crypto-wallets-mobile-wallet-apps&quot;&gt;Your most easy-to-use Crypto Wallets: Mobile Wallet Apps&lt;/h3&gt;
 
@@ -1453,10 +1462,10 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;ul&gt;
   &lt;li&gt;To use it, you don’t have to sign up. Just access the app or website and start the mnemonic phrase generation.&lt;/li&gt;
   &lt;li&gt;The mnemonic phrase is your private key.&lt;/li&gt;
-  &lt;li&gt;Your private key is not stored anywhere on the server, you are its sole owner. &lt;strong&gt;The danger is, you need to type in your seed into the web interface&lt;/strong&gt; to access your wallet. This is not safe at all. If you google around, you will find reports from many people about their Monero vanishing from their account.&lt;/li&gt;
+  &lt;li&gt;Your private key is not stored anywhere on the server, you are its sole owner. &lt;strong&gt;The danger is, you need to type in your seed into the web interface&lt;/strong&gt; to access your wallet.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you are put off my the need to type in the mnemonic with MyMonero, use Exodus wallet instead. It supports Monero.&lt;/p&gt;
+&lt;p&gt;If you don’t want to use MyMonero, you have other options - &lt;a href=&quot;/monero-wallet/&quot;&gt;read here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;iota-trinity-wallet-app&quot;&gt;IOTA Trinity Wallet App&lt;/h3&gt;
 
@@ -1516,7 +1525,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
   &lt;li&gt;You might still prefer Nano S if you want to split your holdings into multiple devices. There are &lt;a href=&quot;https://bit.ly/bundles_at_altcoinwallets&quot;&gt;bundles available&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Native Support: &lt;strong&gt;Bitcoin, Ethereum, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Native Support: &lt;strong&gt;Bitcoin, Ethereum, Monero, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Via 3rd party private key management: &lt;strong&gt;All Ethereum tokens of the ERC20 standard&lt;/strong&gt;. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with &lt;a href=&quot;https://www.myetherwallet.com/&quot;&gt;MyEtherWallet&lt;/a&gt;.&lt;/p&gt;
 
@@ -1535,7 +1544,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h5 id=&quot;summary-4&quot;&gt;Summary&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, XRP LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
 
@@ -1546,7 +1555,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;p&gt;Trezor is not as popular as ledger because it’s more expensive and less user-friendly.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;TREZOR supports natively: &lt;strong&gt;BTC, ETH, DASH, LTC and ZCASH&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;TREZOR supports natively: &lt;strong&gt;BTC, ETH, DASH, LTC, ZEC…&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Via 3rd party private key management: &lt;strong&gt;Any ERC20 token&lt;/strong&gt; via MyEtherWallet.&lt;/li&gt;
   &lt;li&gt;For BTC and LTC, both legacy and segwit addresses are supported.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1568,9 +1577,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;h3 id=&quot;electrum-forks&quot;&gt;Electrum Forks&lt;/h3&gt;
 
-&lt;p&gt;While Electrum for Bitcoin (&lt;a href=&quot;https://electrum.org/#home&quot;&gt;https://electrum.org/&lt;/a&gt;) is a safe option, you should be careful with Electrum for altcoins. The altcoin versions of Electrum were not developed by the same author as the original Electrum.&lt;/p&gt;
+&lt;p&gt;While Electrum for Bitcoin (&lt;a href=&quot;https://electrum.org/#home&quot;&gt;https://electrum.org/&lt;/a&gt;) is a safe option, you should be careful with Electrum for altcoins.&lt;/p&gt;
 
-&lt;p&gt;They are just forks - the Electrum code is open-sourced.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/glossary/electrum/&quot;&gt;The altcoin spin-offs of Electrum were not developed by the same author as the original Electrum.&lt;/a&gt; They are just forks - the Electrum code is open-sourced.&lt;/p&gt;
 
 &lt;p&gt;Some of them &lt;em&gt;can&lt;/em&gt; be malicious or forked from an old version of Electrum that has a vulnerability:&lt;/p&gt;
 
@@ -1588,7 +1597,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;Most web-based wallets, the private keys are stored by a third party. You should not consider these as a safe altcoin storage.&lt;/p&gt;
 
-&lt;p&gt;Opt for blockchain.com or one of the multicoin wallets above for a good ratio of convenience and security.&lt;/p&gt;
+&lt;p&gt;Opt for &lt;strong&gt;blockchain.com&lt;/strong&gt; or one of the multicoin wallets above for a good ratio of convenience and security.&lt;/p&gt;
  ]]></turbo:content>
 
         <author><![CDATA[ @tradingfanbois ]]></author>
@@ -1605,6 +1614,10 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
         <category><![CDATA[ bitcoin-wallet ]]></category>
         <category><![CDATA[ crypto-opsec ]]></category>
         <category><![CDATA[ altcoin-wallet ]]></category>
+        <category><![CDATA[ exodus ]]></category>
+        <category><![CDATA[ jaxx ]]></category>
+        <category><![CDATA[ ledger ]]></category>
+        <category><![CDATA[ electrum ]]></category>
         
         <category><![CDATA[ cryptocurrency-wallets ]]></category>
         

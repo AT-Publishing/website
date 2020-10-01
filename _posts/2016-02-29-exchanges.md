@@ -5,7 +5,7 @@ guide:        yes
 promoting:    onramp
 note:         Onramping
 categories:   [ trading-platforms ]
-tags:         [ recommended-exchange, custodial-trading ]
+tags:         [ recommended-exchange, custodial-trading, bitfinex, independent-reserve, kraken, localcryptos, bitmex ]
 
 description:  "Where to buy crypto and where to trade it? Which exchanges are liquid, which have issues and which look like exit scam? Updated 2020."
 permalink:    altcoin-exchanges/

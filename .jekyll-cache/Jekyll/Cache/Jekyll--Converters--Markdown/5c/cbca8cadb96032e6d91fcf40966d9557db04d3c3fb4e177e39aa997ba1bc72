@@ -1,0 +1,77 @@
+I"j<p><strong>Current situation with Monero wallet solutions:</strong></p>
+
+<ul>
+  <li><a href="https://bit.ly/lnx_at_altcoinwallets">Ledger Nano X and Ledger Nano S support Monero</a> via the XMR app you can install through Ledger live.</li>
+  <li>For hot wallets, there is <a href="https://mymonero.com">MyMonero wallet</a> which is now available as an app. It has a good track record.</li>
+  <li>Freewallet for Monero is probably a scam.</li>
+</ul>
+
+<p>Monero is one of the altcoins that <a href="/value/">cannot be called shitcoin</a>:</p>
+
+<ul>
+  <li>private and untraceable</li>
+  <li>trustless setup</li>
+  <li>developers are not just in for the quick buck</li>
+</ul>
+
+<p>But for the longest time, if you wanted to <a href="/glossary/lth/">LTH</a> Monero, the only hassle-free way was the dodgy setup of money on the exchange. Since the <a href="/reports/">Bitfinex hack</a> in August 2016 and many other hacks since, people keep casually guessing which crypto platform will get attacked next.</p>
+
+<p>Fortunately, the situation has changed lately.</p>
+
+<h3 id="monero-mobile-wallets">Monero Mobile Wallets</h3>
+
+<p><strong>The recommended setup with mobile Monero wallets:</strong></p>
+
+<ul>
+  <li>Use a Monero smartphone wallet to carry small amount of XMR
+    <ul>
+      <li><strong>( recommended ~ <a href="https://mymonero.com">MyMonero</a> or <a href="https://exodus.io">Exodus</a> )</strong></li>
+    </ul>
+  </li>
+  <li>Use a Monero cold storage solution to store the bigger part of the stash
+    <ul>
+      <li><strong>( recommended ~ <a href="https://bit.ly/lnx_at_altcoinwallets">Ledger wallet</a> )</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Freewallet should be avoided</strong>, the app holds users’ private keys and there have been <a href="https://www.reddit.com/r/CryptoCurrency/comments/6gtrmd/freewalletorg_scam_millions_stolen/">multiple scam accusations</a>.</p>
+
+<p>Out of the reputable <a href="/altcoin-wallets/#multicoin-apps">desktop altcoin wallets</a> that are not directly affiliated with Monero, the one to recommend is <a href="https://exodus.io">Exodus</a>.</p>
+
+<p><strong>The background on MyMonero wallet</strong></p>
+
+<p><a href="https://www.reddit.com/r/Monero/comments/7usbhx/psa_no_way_to_verify_github_code_is_app/dtnmxef/">Fluffypony (the creator of the Monero currency) said long ago there were plans for official Android and iOS apps</a> done as user-friendly apps that will connect to a remote node, so that you would not have to set up your own full nodes.</p>
+
+<p>Fluffypony maintained the website MyMonero.com, which has been the longest standing web wallet for Monero. Some Monero holders got phished or hacked there (you had to enter your seed-phrase each time you went to access your wallet).</p>
+
+<p><strong>MyMonero is now finally available as an iOS Monero wallet app and a desktop wallet for Mac, Windows and Linux.</strong></p>
+
+<ul>
+  <li><a href="https://www.reddit.com/r/Monero/wiki/avoid">No other TLD alternatives of MyMonero are legitimate other than <strong>mymonero dot com</strong></a>.</li>
+</ul>
+
+<p><a href="https://mymonero.com" class="btn">Go to MyMonero</a></p>
+
+<h3 id="monero-hardware-wallets">Monero Hardware wallets</h3>
+
+<p>There have been years of plans and announcements about hardware wallets intergations of Monero, but the problem was the Monero blockchain needed a special integration, which was expensive, and on top of that kept evolving.</p>
+
+<p>The hardware wallet app would have been obsolete very soon.</p>
+
+<p>Eventually, we got Ledger supporting Monero.</p>
+
+<p><em>Go to <a href="https://bit.ly/lnx_at_altcoinwallets">Ledger Nano X</a> to learn more or check out current <a href="/blackfriday/">Ledger discount coupons at Eternal Black Friday</a>.</em></p>
+
+<h3 id="electrum-for-monero">Electrum for Monero?</h3>
+
+<p><a href="/glossary/electrum/">Electrum</a>, the famous Bitcoin light wallet, does not support Monero.</p>
+
+<p>A prehistoric version of Monero used to be similar to Bitcoin enough to be stored in a Bitcoin wallet, but those times are gone.</p>
+
+<h3 id="monero-full-node">Monero Full Node</h3>
+
+<p><strong><a href="https://getmonero.org/downloads/">getmonero.com</a></strong></p>
+
+<p>Of course if you have the hardware and data to run a Monero full node, create a wallet with the GUI or CLI tool on your machine and go through with the local blockchain synchronization. In terms of security, running own Monero node is the best option.</p>
+:ET
