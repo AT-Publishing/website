@@ -17,4 +17,4 @@ This is where you find all articles from the trading blog about the most importa
 
 #### With Wyckoff, you will need a good charting tool
 
-**TradingView is currently held for the best crypto technical analysis software, but do [sign up for the free plan](https://bit.ly/3dGlz3O) if you want to be the judge of that yourself.**
+**TradingView is currently held for the best crypto technical analysis software, but do [sign up for the free plan](https://bit.ly/at-tvd-btcusd) if you want to be the judge of that yourself.**

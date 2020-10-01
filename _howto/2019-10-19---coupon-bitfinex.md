@@ -96,7 +96,7 @@ Unlike exchanges such as [Independent Reserve](/coupon-independent-reserve/), Bi
 
 On the other hand, Bitfinex doesn't provide as high leverage as [BitMEX](/coupon-bitmex-iyqb44/) and is *not* focused primarily on derivatives, which means the crowd on Bitfinex is less focused on very short-term speculation. Margin cascades are rare.
 
-The user interface on Bitfinex has embedded charts from [TradingView PRO](https://bit.ly/3dGlz3O). The charts offer wide range of indicators for technical analysis.
+The user interface on Bitfinex has embedded charts from [TradingView PRO](https://bit.ly/at-tvd-btcusd). The charts offer wide range of indicators for technical analysis.
 
 ##### Bitfinex as a Company
 
@@ -115,7 +115,7 @@ The Bitfinex exchange is available worldwide. There is limitation on margin trad
 
 **No KYC is needed** other than for fiat deposit/withdrawal. There might be restrictions for Bitfinex futures markets based on your location.
 
-<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView PRO Referral Code</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/at-tvd-btcusd" class="button">TradingView PRO Referral Code</a>
 
 #### About DeversiFi (formerly ETHFinex, EOSFinex)
 
@@ -159,7 +159,7 @@ Full verification on Bitfinex entitles you to all benefits of the intermediate l
 
 This is the only way in which Bitfinex still has minimum deposit requirement - you can only move **fiat that is worth at least 10k USD**.
 
-<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/3dGlz3O" class="button">TradingView PRO Referral Code</a>
+<a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/at-tvd-btcusd" class="button">TradingView PRO Referral Code</a>
 
 
 #### Personalities related to Bitfinex
