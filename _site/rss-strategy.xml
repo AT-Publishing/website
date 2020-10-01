@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 04:11:21 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 07:47:25 +0000</lastBuildDate>
 
     
       <item>
@@ -79,7 +79,7 @@
     
       <item>
 
-        <title>On Lending</title>
+        <title>Margin Lending Strategy Template</title>
         <description>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</description>
 
         <pubDate>Sat, 11 Nov 2017 03:36:00 +0000</pubDate>
@@ -87,26 +87,26 @@
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
 
-        <media:content url="https://www.altcointrading.net/editorial/peanuts.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" medium="image" />
 
-        <link>https://www.altcointrading.net/strategy/cryptocurrency-lending/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/cryptocurrency-lending/</guid>
+        <link>https://www.altcointrading.net/strategy/lending/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/lending/</guid>
 
+        
+        <category>crypto-lending</category>
+        
+        <category>crypto-trading-strategy</category>
+        
+        <category>market-metrics</category>
         
         <category>bitfinex</category>
         
-        <category>poloniex</category>
-        
         <category>bitmex</category>
         
+        <category>poloniex</category>
         
-        <category>lending</category>
         
-        <category>bitcoin</category>
-        
-        <category>altcoins</category>
-        
-        <category>p2p</category>
+        <category>yield</category>
         
 
       </item>

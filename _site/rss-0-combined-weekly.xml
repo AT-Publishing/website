@@ -14,8 +14,8 @@
     <language>en</language>
     <link>https://www.altcointrading.net</link>
     <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2020 04:11:21 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2020 07:47:25 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,9 +23,44 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
+        
+        <![CDATA[
+         <h4>More of practical discussion in anonymizing Bitcoin transactions via coinjoin and similar (Bitcoin-Dev mailing list in January 2019)</h4>
+         <p><a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-January/016625.html">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>ICE Updated their Bakkt specs page</h4>
+         <p><a href="https://www.theice.com/products/69281872/Bakkt-Bitcoin-USD-Daily-Future">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Asian dApp games are rife with Chinese New Year deals</h4>
+         <p><a href="https://www.thebusinessofcrypto.com/intelligence/etheremons-chinese-new-year-2019-1">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Tradeblock compares centralized vs non-custodial exchanges in terms of traded volume, fees and regulations</h4>
+         <p><a href="https://tradeblock.com/blog/an-analysis-of-decentralized-digital-currency-exchanges">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Amazon Partners On New Ethereum Marketplace For Enterprises / via @forbes</h4>
+         <p><a href="https://www.forbes.com/sites/sarahhansen/2018/11/08/consensys-kaleido-launches-full-stack-marketplace-platform-for-enterprise-blockchains/#73bd54912ad8">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Blockstream proposes a centralized solution to BTC fragmented liquidity - sidechain where tx are validated by big trading houses lie Bitfinex, OKCoin or Rock Trading / via @forbes</h4>
+         <p><a href="https://www.forbes.com/sites/francescoppola/2018/10/11/blockstreams-new-solution-to-bitcoins-liquidity-problem-looks-oddly-familiar/#7e176f721e51">[Read it]</a></p>
+         ]]>
+        
+        <![CDATA[
+         <h4>Tooling for crypto traders - Reddit Sentiment Analysis with link to full code so that you can literally $DYOR. By @rados_io</h4>
+         <p><a href="https://buff.ly/2k61wRT">[Read it]</a></p>
+         ]]>
         
         
       </content:encoded>
@@ -37,7 +72,7 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
@@ -65,22 +100,12 @@
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <![CDATA[
-            <h4>Wyckoff Avoidance Strategy in Cryptocurrency Trading</h4>
+            <h4>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</h4>
             <p>
-              <strong>Updated at 29 Sep 2020, 04:09 UTC in #CRYPTO-VALUE-JUDGEMENT</strong> - Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTOCURRENCY-WALLETS</strong> - The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan.
             </p>
-            <p><a href="https://www.altcointrading.net/wyckoff-avoidance/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/">[Read it]</a></p>
             ]]>
             
             
@@ -90,9 +115,43 @@
             
             
             <![CDATA[
+            <h4>Real PoW Crypto Fundamentals: Crypto Mining and Network Activity</h4>
+            <p>
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTO-VALUE-JUDGEMENT</strong> - Crypto mining is the true fundamental limit of all PoW cryptocurrencies. Transaction activity are a softer fundamental. Learn how to analyse crypto fundamentals on bitcoin markets.
+            </p>
+            <p><a href="https://www.altcointrading.net/pow-fundamentals/">[Read it]</a></p>
+            ]]>
+            
+            
+            
+            
+            
+            <![CDATA[
+            <h4>Wyckoff Avoidance Strategy in Cryptocurrency Trading</h4>
+            <p>
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTO-VALUE-JUDGEMENT</strong> - Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?
+            </p>
+            <p><a href="https://www.altcointrading.net/wyckoff-avoidance/">[Read it]</a></p>
+            ]]>
+            
+            
+            
+            
+            
+            <![CDATA[
+            <h4>How to Compare the Fundamental Value of Cryptoassets</h4>
+            <p>
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTO-VALUE-JUDGEMENT</strong> - Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes.
+            </p>
+            <p><a href="https://www.altcointrading.net/value/">[Read it]</a></p>
+            ]]>
+            
+            
+            
+            <![CDATA[
             <h4>Daytrading on Crypto Markets: Good Idea?</h4>
             <p>
-              <strong>Updated at 29 Sep 2020, 04:09 UTC in #CRYPTO-TRADING-TECHNIQUE</strong> - Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTO-TRADING-TECHNIQUE</strong> - Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?
             </p>
             <p><a href="https://www.altcointrading.net/daytrading/">[Read it]</a></p>
             ]]>
@@ -142,7 +201,7 @@
             <![CDATA[
             <h4>Ichimoku Cloud for Crypto Trading</h4>
             <p>
-              <strong>Updated at 29 Sep 2020, 04:09 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - Ichimoku cloud strategies for crypto: Full indicator tutorial, including the controversial topic - Does it make sense to tweak Ichimoku Cloud settings for crypto trading?
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - Ichimoku cloud strategies for crypto: Full indicator tutorial, including the controversial topic - Does it make sense to tweak Ichimoku Cloud settings for crypto trading?
             </p>
             <p><a href="https://www.altcointrading.net/ichimoku-cloud/">[Read it]</a></p>
             ]]>
@@ -170,7 +229,7 @@
             <![CDATA[
             <h4>Daytrading on Crypto Markets: Good Idea?</h4>
             <p>
-              <strong>Updated at 29 Sep 2020, 04:09 UTC in #TRADING</strong> - Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?
+              <strong>Updated at 01 Oct 2020, 04:17 UTC in #TRADING</strong> - Daytrading means entering and exiting the market in a single day. Is this a good crypto trading strategy?
             </p>
             <p><a href="https://www.altcointrading.net/daytrading/">[Read it]</a></p>
             ]]>
@@ -198,7 +257,7 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
       <link>https://www.altcointrading.net/airdrops/</link>
       <content:encoded>
         <ul>
@@ -214,7 +273,7 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
       <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
@@ -226,7 +285,7 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Thu, 01 Oct 2020 04:11:21 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 07:47:25 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
         
