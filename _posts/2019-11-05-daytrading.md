@@ -25,12 +25,10 @@ note: "Trading Strategy"
 date: 2019-11-05 03:32:00 -0300
 
 categories: [ crypto-trading-technique ]
-tags: [ crypto-trading-strategy ]
+tags: [ crypto-trading-strategy, bitfinex, bitmex ]
 
 about:
  name: "daytrading"
- sameas: ["https://en.wikipedia.org/wiki/Day_trading"]
-
 mentions:
  name: "technical analysis"
  sameas: "https://www.altcointrading.net/technical-analysis/"

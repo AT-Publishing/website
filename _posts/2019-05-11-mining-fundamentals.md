@@ -1,45 +1,24 @@
 ---
-layout:     at-trading
-published:  true
-guest:      false
-pinned:     false
-#canonical: "https://www.thebusinessofcrypto.com/articles/shocking-facts-about-cryptocurrency-heists-infographics"
-series: Fundamentals
+layout:         at-trading
+promoting:      analysis
+date:           2020-09-30 07:12:00 +0700
 
-promoting: analysis
-
-
-date: 2019-05-11 07:12:00 +0700
-
-title: "The True Crypto Fundamentals: Crypto Mining and Transactions"
-description: "Crypto mining is the true fundamental limit of all PoW cryptocurrencies. Transactions, a somewhat softer fundamental, can also provide some guidance. Learn the basics of the nature of these crypto fundamentals."
-
-author: https://reddit.com/u/karlvonbahnhof
-author_name: KarlVonBahnhof
-author_twitter: "_Karlvonbahnhof"
-
-stories: false
-genres: Blog
-tickers: false
-note: 'Fundamentals'
-
-permalink: fundamentals-mining-hashrate-vs-price/
+title:          "Real PoW Crypto Fundamentals: Crypto Mining and Network Activity"
+description:    "Crypto mining is the true fundamental limit of all PoW cryptocurrencies. Transaction activity are a softer fundamental. Learn how to analyse crypto fundamentals on bitcoin markets."
+note:           'Fundamentals'
+permalink:      pow-fundamentals/
 cz: false
 
 image:
-- "/editorial/toolbox.jpeg"
-image_alt:
-- ""
+- 'https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg'
 
 categories: [ crypto-value-judgement ]
-tags:       [ crypto-fundamentals ]
+tags:       [ crypto-fundamentals, crypto-trading-strategy ]
 
 related:
-- {"Trading Strategy - On Market Reversals and Psychology": "/strategy/reversals/"}
-- {"Tried and True Tools, Crypto Hodler's Edition (Security & Scam Detection)": "/security/tools"}
-- {"Blockchain Tech 101": "/guides/#blockchain-tech-101"}
-- {"Script Spotlight: Automatic Divergences": "/scriptspotlight-auto-divergences/"}
-
+- {"ATNET Glossary: Defi Market Metrics": "/glossary/yield-farming/"}
+- {"Value of altcoins (3 categories)": "/value/"}
+- {"Free & Freemium Tools for Crypto Traders": "/tools/"}
 
 mentions:
  name: "stablecoins"
@@ -47,48 +26,70 @@ mentions:
 
 ---
 
+Proof-of-Work cryptocurrencies operate in a drastically different way than fiat money.
+
+[DeFi](/glossary/defi/) and [collateralised stablecoins like Dai](/dai-stablecoin/) are much closer to a money operated by central bank.
+
+This post is not about DeFi or stablecoins. It's about the fundamentals of mined, proof-of-work cryptos based on blockchain that gets generated in a given sequence that cannot be changed to create monetary policies.
+
 ### Immutability as a fundamental
 
-Cryptocurrencies operate in a drastically different way than fiat money as we know it today. Cryptocurrencies are based on blockchain, a ledger that gets generated in a sequence that cannot be reshuffled.
+Any changes brought to a public blockchain are publicly recorded and these records cannot be tampered with.
 
-Blockchain shares all of its data equally between its participants. Any changes brought to the blockchain are publicly recorded, and these records cannot be tampered with. That provides it with a digital, but nonetheless real fundamental - it is impossible to generate a coin out of thin air based on the order of some authority.
+That provides it with a digital, but nonetheless real fundamental - it is impossible to generate money out of thin air based on an order by an authority.
 
-The only type of cryptocurrencies where this doesn't hold true are [IOU-type coins, such as some stablecoins](/iou-stablecoins-potential/).
+Where this doesn't hold true are [IOU coins - stablecoins](/iou-stablecoins-potential/). Stablecoins pegged to a target use the exact same monetary policies as central banks. They manipulate supply, change interest rate and some do open market interventions as well.
 
-### Proof Of Work
+### Proof Of Work: Mining as a fundamental
 
-Rather than keeping all data in a single central hub, on blockchain information gets distributed in nodes called blocks. To add new information to the blocks, a member of the network would have to provide the so-called proof of work, or PoW, by solving complex mathematical problems.
+Information is distributed through blockchain in nodes called blocks. To add new information to the blocks, a member of the network has to provide the famous *proof of work*, or PoW, by solving a sort of mathematical calculation.
 
-One type of such “new information” are crypto transactions. In the case of PoW cryptos, that’s also how new coins are made - a process called mining.
+One type of such "new information" added to the blockchain are *transactions*.
 
-**If you want to at first learn about the very basics, and if you at the same time like straight to the point stats and numbers, just scroll down to <a href="https://bitcoinfy.net/">Bitcoinfy’s</a> infographic below.**
+PoW mining devices are set up to look for a solution of a mathematical problem. When a solution is found, a new block in the ledger is "mined". The new block is broadcast and with it all the information submitted to add to the blockchain.
 
-**For more advanced stuff, keep reading!**
+The miner collects a payout in the blockchain's currency as a reward for providing the proof of work. This is how the supply of the cryptocurrency is provided.
 
-### Mining as a fundamental
+#### Hashrate vs price
 
-In PoW mining, mining devices are set up to look for a solution of a mathematical problem. When a solution is found, a new block in the ledger is found; the block is broadcast and the miner collects a reward.
+An important fundamental metric here is **hashrate**.
 
-An important metric called "hashrate" is the speed at which mining devices are completing this operation. Higher hashrate in the network means there is higher opportunity of finding the next block and receiving the mining reward.
+*Hashrate is the speed at which mining devices are completing the proof-of-work operation.*
 
-There have been only a few people who studied the relationship of hashrate with a PoW cryptocoin's price, and the amount of traders who consider this is even lower.
+The higher the hashrate, the better the opportunity of finding the next block and receiving the mining reward.
 
-It makes sense, because hashrate vs price dynamic in Bitcoin or other similar cryptos it is not a quick one to react. If most crypto traders are daytrading rather than making decisions for longer horizons (say, less than ten trades a year), naturally most people in the trading community will study momentarily chart patterns instead.
+There is a *hashrate vs price dynamic* in Bitcoin or other PoW cryptos. It is not a quick one to react on changes in the market, though.
 
-There are traders who claim that "[Bitcoin is structured so that hashrate follows price](https://medium.com/coinshares/an-honest-explanation-of-price-hashrate-bitcoin-mining-network-dynamics-f820d6218bdf)". The reason is meant to be the same one as the one that contributes to the jumpy character and overreactions we keep seeing in crypto: Vague and delayed decisions.
+There are traders who claim that "[Bitcoin is structured so that hashrate follows price](https://medium.com/coinshares/an-honest-explanation-of-price-hashrate-bitcoin-mining-network-dynamics-f820d6218bdf)". The reason is meant to be the same one as the one that contributes to the jumpy character and overreactions we keep seeing in crypto: Delayed decisions.
 
-In a bear market, a lot of miners will keep mining at a loss, hoping they will survive long enough to realize the profit once the slump is over. Traders and hodlers do a very similar thing. When it starts looking like the price is reversing, pretty much no traders are jumping in until there is some sort of confirmation. In mining, as miners drop out, the profitability of mining will start increasing to lure them back in, but just as with traders, very few are eager to make that move without confirmation. Once that comes, a whole crowd of both traders and miners return to the market.
+In a bear market, some miners choose to keep mining at a loss. By doing that they speculate that they will survive long enough to eventually realize a profit. That is not completely irrational.
 
-This is why crypto mining is a fundamental aspect of PoW cryptocurrencies: It limits the movements of the market.
+Some miners will drop out, which will make it easier to mine because there is now less competition. This is a hashrate increase. The increased profitability of mining will lure miners back in. But just as with traders waiting for a reversal, very few are eager to take a risk without confirmation. In the case of mining profitability, miners are waiting for a bull run to start. Once this confirmation comes, miners and traders alike will FOMO back into the market.
 
-If it is a limit, for a trader or an investor it will make more sense to look not at the short term hashrate movements but instead at the places where the direction changes.
+#### Hashprice
 
-For that, also consider "hashprice" instead of "hashrate". Hash Price measures the daily mining profits, it is the ratio of daily mining revenue and the hashes generated per day. Hashrate fluctuates a lot, hashprice gives a much clearer picture.
+For fundamental analysis of big cryptos like Bitcoin, also consider "hashprice" instead of "hashrate".
+
+Hash Price measures the daily mining profits, it is the ratio of daily mining revenue and the hashes generated per day.
+
+Hashrate fluctuates a lot, hashprice gives a much clearer picture.
 
 <figure class="thumb"><a rel="nofollow" href="http://charts.woobull.com/bitcoin-hash-price/"><amp-img itemprop="image" src="/features/hash-price.png" alt="Altcoin Trading Blog" layout="responsive" data-original-width="1427px" data-original-height="672px" width="1427px" height="672px"></amp-img></a></figure>
 
 On the chart from [here](http://charts.woobull.com/bitcoin-hash-price/) you can see that both hashrate and hashprice of BTC started reversing upwards when the market overreacted with the drop to 3K USD.
 
-### Crypto Mining - The Numbers
+#### Network Activity
+
+Network activity is a much less technical fundamental market metric.
+
+The basic idea is to judge the health of a blockchain network by how much it gets used.
+
+* In the case of cryptocurrencies meant as money, such as BTC, the most important market metrics are transaction counts, ATM counts worldwide, P2P trade stats.
+* In the case of blockchain platforms, the dApp development on them is key.
+
+Some form of network activity is relevant market metric in any type of cryptocurrency: [DeFi uses similar metrics](/glossary/yield-farming/) to asses the health of its markets.
+
+
+### Crypto Mining Infographic
 
 <figure class="thumb"><a rel="nofollow" href="https://bitcoinfy.net/crypto-transactions-and-mining/"><amp-img itemprop="image" src="/features/crypto-transactions-0102.png" alt="Altcoin Trading Blog" layout="responsive" data-original-width="1067px" data-original-height="17568px" width="1067px" height="17568px"></amp-img></a></figure>

@@ -14,7 +14,7 @@ description:  "Some dApps and non-custodial exchanges will only let you withdraw
 
 
 categories:     [technical]
-tags:           [ p2sh-wallet , bitcoin-wallet ]
+tags:           [ p2sh-wallet , bitcoin-wallet, electrum, ledger ]
 date:           2020-08-04 00:22:00 +0700
 
 image:

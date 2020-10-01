@@ -1,0 +1,69 @@
+I"�<p>Proof-of-Work cryptocurrencies operate in a drastically different way than fiat money.</p>
+
+<p><a href="/glossary/defi/">DeFi</a> and <a href="/dai-stablecoin/">collateralised stablecoins like Dai</a> are much closer to a money operated by central bank.</p>
+
+<p>This post is not about DeFi or stablecoins. It’s about the fundamentals of mined, proof-of-work cryptos based on blockchain that gets generated in a given sequence that cannot be changed to create monetary policies.</p>
+
+<h3 id="immutability-as-a-fundamental">Immutability as a fundamental</h3>
+
+<p>Any changes brought to a public blockchain are publicly recorded and these records cannot be tampered with.</p>
+
+<p>That provides it with a digital, but nonetheless real fundamental - it is impossible to generate money out of thin air based on an order by an authority.</p>
+
+<p>Where this doesn’t hold true are <a href="/iou-stablecoins-potential/">IOU coins - stablecoins</a>. Stablecoins pegged to a target use the exact same monetary policies as central banks. They manipulate supply, change interest rate and some do open market interventions as well.</p>
+
+<h3 id="proof-of-work-mining-as-a-fundamental">Proof Of Work: Mining as a fundamental</h3>
+
+<p>Information is distributed through blockchain in nodes called blocks. To add new information to the blocks, a member of the network has to provide the famous <em>proof of work</em>, or PoW, by solving a sort of mathematical calculation.</p>
+
+<p>One type of such “new information” added to the blockchain are <em>transactions</em>.</p>
+
+<p>PoW mining devices are set up to look for a solution of a mathematical problem. When a solution is found, a new block in the ledger is “mined”. The new block is broadcast and with it all the information submitted to add to the blockchain.</p>
+
+<p>The miner collects a payout in the blockchain’s currency as a reward for providing the proof of work. This is how the supply of the cryptocurrency is provided.</p>
+
+<h4 id="hashrate-vs-price">Hashrate vs price</h4>
+
+<p>An important fundamental metric here is <strong>hashrate</strong>.</p>
+
+<p><em>Hashrate is the speed at which mining devices are completing the proof-of-work operation.</em></p>
+
+<p>The higher the hashrate, the better the opportunity of finding the next block and receiving the mining reward.</p>
+
+<p>There is a <em>hashrate vs price dynamic</em> in Bitcoin or other PoW cryptos. It is not a quick one to react on changes in the market, though.</p>
+
+<p>There are traders who claim that “<a href="https://medium.com/coinshares/an-honest-explanation-of-price-hashrate-bitcoin-mining-network-dynamics-f820d6218bdf">Bitcoin is structured so that hashrate follows price</a>”. The reason is meant to be the same one as the one that contributes to the jumpy character and overreactions we keep seeing in crypto: Delayed decisions.</p>
+
+<p>In a bear market, some miners choose to keep mining at a loss. By doing that they speculate that they will survive long enough to eventually realize a profit. That is not completely irrational.</p>
+
+<p>Some miners will drop out, which will make it easier to mine because there is now less competition. This is a hashrate increase. The increased profitability of mining will lure miners back in. But just as with traders waiting for a reversal, very few are eager to take a risk without confirmation. In the case of mining profitability, miners are waiting for a bull run to start. Once this confirmation comes, miners and traders alike will FOMO back into the market.</p>
+
+<h4 id="hashprice">Hashprice</h4>
+
+<p>For fundamental analysis of big cryptos like Bitcoin, also consider “hashprice” instead of “hashrate”.</p>
+
+<p>Hash Price measures the daily mining profits, it is the ratio of daily mining revenue and the hashes generated per day.</p>
+
+<p>Hashrate fluctuates a lot, hashprice gives a much clearer picture.</p>
+
+<figure class="thumb"><a rel="nofollow" href="http://charts.woobull.com/bitcoin-hash-price/"><amp-img itemprop="image" src="/features/hash-price.png" alt="Altcoin Trading Blog" layout="responsive" data-original-width="1427px" data-original-height="672px" width="1427px" height="672px"></amp-img></a></figure>
+
+<p>On the chart from <a href="http://charts.woobull.com/bitcoin-hash-price/">here</a> you can see that both hashrate and hashprice of BTC started reversing upwards when the market overreacted with the drop to 3K USD.</p>
+
+<h4 id="network-activity">Network Activity</h4>
+
+<p>Network activity is a much less technical fundamental market metric.</p>
+
+<p>The basic idea is to judge the health of a blockchain network by how much it gets used.</p>
+
+<ul>
+  <li>In the case of cryptocurrencies meant as money, such as BTC, the most important market metrics are transaction counts, ATM counts worldwide, P2P trade stats.</li>
+  <li>In the case of blockchain platforms, the dApp development on them is key.</li>
+</ul>
+
+<p>Some form of network activity is relevant market metric in any type of cryptocurrency: <a href="/glossary/yield-farming/">DeFi uses similar metrics</a> to asses the health of its markets.</p>
+
+<h3 id="crypto-mining-infographic">Crypto Mining Infographic</h3>
+
+<figure class="thumb"><a rel="nofollow" href="https://bitcoinfy.net/crypto-transactions-and-mining/"><amp-img itemprop="image" src="/features/crypto-transactions-0102.png" alt="Altcoin Trading Blog" layout="responsive" data-original-width="1067px" data-original-height="17568px" width="1067px" height="17568px"></amp-img></a></figure>
+:ET

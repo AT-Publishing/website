@@ -4,7 +4,7 @@ pinned: no
 canonical: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
 
 categories:   [ cryptocurrency-wallets ]
-tags:         [ bitcoin-wallet, crypto-opsec ]
+tags:         [ bitcoin-wallet, crypto-opsec, electrum, samourai ]
 genres:      Blog
 promoting:   onramp
 

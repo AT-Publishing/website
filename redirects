@@ -34,5 +34,7 @@ https://altcointrading.netlify.com/* https://www.altcointrading.net/:splat 301!
 /no-ico/ /category/no-ico/ 301
 /eth-traders-tool/ /cryptosignal/ 301
 
+/fundamentals-mining-hashrate-vs-price/ /pow-fundamentals/ 301
+
 /category/trading/ /blog/trading/ 301
 /blockchain-tech-companies/ https://www.thebusinessofcrypto.com/company/ 301
