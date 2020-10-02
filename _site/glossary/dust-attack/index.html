@@ -33,7 +33,7 @@
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
 <meta name="description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
 
-<meta name="keywords" content="dust-attack, electrum, cryptocurrency-wallet, opsec, og-crypto-tools, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+<meta name="keywords" content="dust-attack, ledger, electrum, cryptocurrency-wallet, opsec, og-crypto-tools, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
 
 <meta name="author" content="AltcoinTrading">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -55,7 +55,7 @@
 <meta property="article:published_time" content="2020-09-29T19:07:00+00:00" />
 
 <!-- post tags -->
-<meta property="article:tag" content="dust-attack" /><meta property="article:tag" content="electrum" /><meta property="article:tag" content="cryptocurrency-wallet" /><meta property="article:tag" content="opsec" /><meta property="article:tag" content="og-crypto-tools" />
+<meta property="article:tag" content="dust-attack" /><meta property="article:tag" content="ledger" /><meta property="article:tag" content="electrum" /><meta property="article:tag" content="cryptocurrency-wallet" /><meta property="article:tag" content="opsec" /><meta property="article:tag" content="og-crypto-tools" />
 <!-- post categories -->
 <meta property="article:section" content="Cryptocurrencies" />
 
@@ -110,7 +110,9 @@
   },
   "image":[
     "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1601438903/atnet/_glossary/pexels-paul-theodor-oja-2437847_aeirb4.jpg",
-    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg"
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg",
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg",
+    "https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg"
     
   ],
   
@@ -2562,8 +2564,6 @@ amp-user-notification>div>div {
 
 <h3 id="what-to-do-if-your-wallet-was-dusted">What to do if your wallet was dusted</h3>
 
-<p>You will have to use the <a href="/glossary/electrum/">Elextrum wallet</a> which is a bitcoin wallet that supports “coin control”. That means you can decide which incoming transaction you want to spend an which not, even if they were both sent to the same address.</p>
-
 <p>You have the following options:</p>
 
 <ul>
@@ -2571,7 +2571,27 @@ amp-user-notification>div>div {
   <li>Spend the non-dust by sending it to a new wallet</li>
 </ul>
 
-<p>More on <a href="https://www.reddit.com/r/TREZOR/comments/ium0gd/dust_attack/">Reddit</a>.</p>
+<p>Generally, spending <strong>everything but the dust</strong> is a better option. More in comments under <a href="https://www.reddit.com/r/TREZOR/comments/ium0gd/dust_attack/">Reddit</a>.</p>
+
+<h4 id="dusted-address-on-a-ledger-wallet">Dusted address on a Ledger wallet</h4>
+
+<p>If the address that got dusted was in a wallet on any Ledger device, or if you <a href="/blackfriday/#live-ledger">have a spare Ledger wallet to use</a>, your solution is easy.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on “<a href="/glossary/coin-control/">coin control</a>” and then unselect the dust.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>If you use change addresses, transaction of any size will move all your non-dusted coins from the dusted address.</p>
+
+<p><a href="http://bit.ly/lnx-2020" class="btn">Get a Ledger Wallet today</a></p>
+
+<h4 id="dusted-address-on-a-basic-crypto-wallet">Dusted address on a basic crypto wallet</h4>
+
+<p>If the address that got dusted was under a <a href="/altcoin-wallets/">basic crypto wallet</a> like Exodus, Jaxx or Blockchain.com, you will have to use the <a href="/glossary/electrum/">Electrum wallet</a>.</p>
+
+<p>Electrum is a bitcoin wallet that supports advanced features such as what’s called <a href="/glossary/coin-control/">coin control</a>. That means you can decide which incoming transaction you want to spend an which not, even if they were both sent to the same address.</p>
 
   					  </div><!-- strategy content -->
             </article>

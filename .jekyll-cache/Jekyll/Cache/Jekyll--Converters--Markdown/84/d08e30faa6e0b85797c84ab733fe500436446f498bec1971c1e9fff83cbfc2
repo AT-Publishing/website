@@ -1,0 +1,49 @@
+I"y<p>Dust attack is an attack on privacy that happens on the bitcoin blockchain.</p>
+
+<p>A potentially malicious actor is sends the smallest possible transaction amount to large amount of addresses and presumably runs a bot that watches from which addresses the coins were moved and where.</p>
+
+<p>Following the movements of the dust may eventually lead to a transaction that will be identifiable in real life, such as an online order or a p2p cash sale. It can also be used to link different wallets owned by the same person.</p>
+
+<h3 id="september-2020-dust-attack">September 2020 Dust Attack</h3>
+
+<p>There was a dust attack going on in September 2020. The dust amount was 547 satoshis and the attack posed as an advertisement for a website <code class="language-plaintext highlighter-rouge">memo dot sv</code>:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1601438858/atnet/_glossary/Screenshot_2020-09-30_at_10.56.15_AM_w12fgg.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="can-you-prevent-a-dust-attack">Can you prevent a dust attack?</h3>
+
+<p>No.</p>
+
+<p>Anyone can send bitcoin to any address.</p>
+
+<h3 id="what-to-do-if-your-wallet-was-dusted">What to do if your wallet was dusted</h3>
+
+<p>You have the following options:</p>
+
+<ul>
+  <li>Spend the dust by sending it to a miner</li>
+  <li>Spend the non-dust by sending it to a new wallet</li>
+</ul>
+
+<p>Generally, spending <strong>everything but the dust</strong> is a better option. More in comments under <a href="https://www.reddit.com/r/TREZOR/comments/ium0gd/dust_attack/">Reddit</a>.</p>
+
+<h4 id="dusted-address-on-a-ledger-wallet">Dusted address on a Ledger wallet</h4>
+
+<p>If the address that got dusted was in a wallet on any Ledger device, or if you <a href="/blackfriday/#live-ledger">have a spare Ledger wallet to use</a>, your solution is easy.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on “<a href="/glossary/coin-control/">coin control</a>” and then unselect the dust.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>If you use change addresses, transaction of any size will move all your non-dusted coins from the dusted address.</p>
+
+<p><a href="http://bit.ly/lnx-2020" class="btn">Get a Ledger Wallet today</a></p>
+
+<h4 id="dusted-address-on-a-basic-crypto-wallet">Dusted address on a basic crypto wallet</h4>
+
+<p>If the address that got dusted was under a <a href="/altcoin-wallets/">basic crypto wallet</a> like Exodus, Jaxx or Blockchain.com, you will have to use the <a href="/glossary/electrum/">Electrum wallet</a>.</p>
+
+<p>Electrum is a bitcoin wallet that supports advanced features such as what’s called <a href="/glossary/coin-control/">coin control</a>. That means you can decide which incoming transaction you want to spend an which not, even if they were both sent to the same address.</p>
+:ET

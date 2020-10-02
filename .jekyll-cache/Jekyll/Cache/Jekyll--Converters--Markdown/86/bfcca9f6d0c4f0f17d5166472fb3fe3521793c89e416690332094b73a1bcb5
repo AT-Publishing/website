@@ -1,4 +1,4 @@
-I"R_<blockquote>
+I"�^<blockquote>
   <p>Secure backup solutions – digital and non-digital – are a big theme. It is usually avoided - as someone pointed out in the r/IOTA, people like to write up creative hacking solutions for all kinds of things but they will typically skip backups. It’s seen as the necessary evil – it’s not fun.</p>
 </blockquote>
 
@@ -132,7 +132,7 @@
 
 <p><strong>How to backup your Electrum wallets (Linux, Mac):</strong></p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/wallets/electrum-export1.png" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wallets/electrum-export1.png" alt="How to Safely Backup Your Cryptocurrency Wallet Keys" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/wallets/electrum-export1.png" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wallets/electrum-export1.png" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <ol>
   <li>Always make sure you have the seed to your wallet before playing with the wallet files.</li>
@@ -161,9 +161,9 @@ tar -xvf YOURDIR.tar
 
 <p>With <a href="https://byteball.org">Byteball</a>, the IOTA-esque altcoin that everyone has thanks to the <a href="https://www.altcointrading.net/airdrops/">airdrops</a>, the situation is a little more complex. Your GBYTEs can be recovered from seedphrase only, your Blackbytes cannot though. If you own both Bytes and Blackbytes and want to backup both you will need to do full backup with export of the encrypted wallet file. You can do that all from the wallet app: Under “Settings” click on “Full backup” and opt for the compression. Also choose a safe password.</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/byteball/byteball-backup1.jpg" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/byteball/byteball-backup1.jpg" alt="How to Safely Backup Your Cryptocurrency Wallet Keys" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/byteball/byteball-backup1.jpg" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/byteball/byteball-backup1.jpg" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/byteball/byteball-backup2.jpg" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/byteball/byteball-backup2.jpg" alt="How to Safely Backup Your Cryptocurrency Wallet Keys" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/byteball/byteball-backup2.jpg" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/byteball/byteball-backup2.jpg" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>You will get a warning that you shouldn’t clone wallets unless they are multisig - you cannot not use the same standard wallet on multiple devices.</p>
 
@@ -185,7 +185,7 @@ tar -xvf YOURDIR.tar
 
 <p>Let’s use an Electrum wallet export. Create a directory with the wallet file and a photo. Here the encrypted wallet file is disguised as <code class="language-plaintext highlighter-rouge">FbBackup102017</code>.</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/steganography/stegano1.jpg" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/steganography/stegano1.jpg" alt="How to Safely Backup Your Cryptocurrency Wallet Keys" title="AltcoinTrading.NET - How to Safely Backup Your Cryptocurrency Wallet Keys" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="https://www.altcointrading.net/img/steganography/stegano1.jpg" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/steganography/stegano1.jpg" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>Now for the heavy lifting: We will use a standard <code class="language-plaintext highlighter-rouge">cat</code> command that is most often used for displaying text in the terminal but with <code class="language-plaintext highlighter-rouge">&gt;&gt;</code> or <code class="language-plaintext highlighter-rouge">&gt;</code> also for file manipulation.</p>
 

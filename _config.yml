@@ -286,12 +286,11 @@ ads:
 
 ledger_300-250_animated: '<div class="containter-center"><a  id="gtm-ledger-300-250" href="http://bit.ly/atnet-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_300-250_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="300px" data-original-height="250px" layout="responsive" width="300px" height="250px"></amp-img></a></div>'
 ledger_728-90_animated: '<div class="containter-center"><a id="gtm-ledger-728-90" href="http://bit.ly/atnet-nano-s" rel="nofollow" target="_blank"><amp-img itemprop="image" src="/ads/ledger_728-90_animated.gif" alt="Ledgerwallet for bitcoin and altcoins" data-original-width="728px" data-original-height="90px" layout="responsive" width="728px" height="90px"></amp-img></a></div>'
-ledger_color: '<div class="containter-center"><a href="https://www.ledger.com/?r=e274" rel="nofollow" target="_blank"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501231/atnet/_banner/ledgers_1030x80_kzbznl.jpg" alt="Ledger wallet color" data-original-width="1030px" data-original-height="80px" layout="responsive" width="1030px" height="90px"></amp-img></a></div>'
 ledger2019: '<div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/atnet-nano-s"><amp-img itemprop="image" src="/features/new-ledger.jpg" alt="New Ledger wallet for crypto traders" data-original-width="1024px" data-original-height="512px" width="300px" height="150px" layout="responsive"></amp-img></a></div><br>'
 ledger_mobilebanner: '<br><div class="text-center"><a class="index-internal" target="_blank" href="http://bit.ly/lnx-2020"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501483/atnet/_banner/ledger_banner_2-5-0x1-0-0_x766qw.jpg" alt="Ledger Nano X - The secure hardware wallet" data-original-width="250px" data-original-height="100px" width="250px" height="100px" layout="fixed"></amp-img></a></div><br>'
 
 lnx_300-600: '<div class="containter-center">
-<a href="hhttp://bit.ly/lnx-2020" target="_blank">
+<a href="http://bit.ly/lnx-2020" target="_blank">
 <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501307/atnet/_banner/lnx-tall_vgl0pk.jpg"
 alt="Ledger wallet Nano X"
 data-original-width="300px" data-original-height="600px"
