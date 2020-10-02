@@ -2,6 +2,7 @@
 guide:      true
 pinned:     false
 cloud:      false
+cg1:          true
 promoting:  analysis
 layout:     at-trading
 note:       "Active Trading"

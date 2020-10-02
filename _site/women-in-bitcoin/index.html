@@ -2350,7 +2350,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2362,18 +2362,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--women-in-bitcoin",
-          "eventAction": "click-horizontal--promoting-onramp",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--women-in-bitcoin",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--women-in-bitcoin",
+            "eventAction": "click-horizontal--promoting-onramp",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2383,8 +2392,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2393,8 +2402,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-onramp",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2403,8 +2412,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-onramp",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2412,10 +2421,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--women-in-bitcoin",
                 "eventAction": "click-post-smallad--promoting-onramp",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2696,9 +2705,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/pow-fundamentals/">Real PoW Crypto Fundamentals: Crypto Mining and Network Activity</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/women-in-bitcoin/">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a></li>
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/wyckoff-avoidance/">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/time-vs-timing/">Time in the Market vs Timing the Market</a></li>
       
         
       
@@ -2738,44 +2747,6 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/stats-2018/" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets" href="/stats-2018/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tradingstation.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/dai-stablecoin/" title="Dai - Stablecoin alternative to Tether"><b>Dai - Stablecoin alternative to Tether</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Dai - Stablecoin alternative to Tether" href="/dai-stablecoin/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/maker-dao-dai.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
@@ -2795,14 +2766,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?"><b>Bitcoin Gold: Why is it getting dismissed so fast?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Bitcoin Gold: Why is it getting dismissed so fast?" href="/bitcoin-gold/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/freelunch1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2814,14 +2785,52 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/sec-cryptocurrencies-not-securities-market-rebound/" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds"><b>SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
+      <a class="cat-internal-link" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds" href="/sec-cryptocurrencies-not-securities-market-rebound/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-newspaper.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/how-blockchain-disrupts-legal/" title="How Blockchain Disrupts The Legal Industry: A Primer"><b>How Blockchain Disrupts The Legal Industry: A Primer</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="How Blockchain Disrupts The Legal Industry: A Primer" href="/how-blockchain-disrupts-legal/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/legal-disruption.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

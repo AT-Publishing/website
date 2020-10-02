@@ -2350,7 +2350,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-glossary">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2362,18 +2362,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--glossarytrading-psychology",
-          "eventAction": "click-horizontal--promoting-analysis",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--glossarytrading-psychology",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--glossarytrading-psychology",
+            "eventAction": "click-horizontal--promoting-analysis",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2383,8 +2392,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2393,8 +2402,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-analysis",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2403,8 +2412,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-analysis",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2412,10 +2421,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--glossarytrading-psychology",
                 "eventAction": "click-post-smallad--promoting-analysis",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2687,14 +2696,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/glossary/trading-psychology/" title="Trading Psychology"><span class="tag custom-note">beyondta</span>&nbsp;<b>Trading Psychology</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 23 Sep 2020</a>
+        <a class="index-internal" href="/glossary/wyckoff/" title="Wyckoff (simplified)"><span class="tag custom-note">method</span>&nbsp;<b>Wyckoff (simplified)</b> in <b>#WYCKOFF</b>  updated on 29 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Trading Psychology" href="/glossary/trading-psychology/">
+      <a class="cat-internal-link" title="Wyckoff (simplified)" href="/glossary/wyckoff/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_auto,c_lpad,h_360,w_700/v1599630717/atnet/__women/outliers2_nthsch.jpg" alt="Related in technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1600764172/atnet/pexels-tran-547766_hhvgnw.jpg" alt="Related in technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

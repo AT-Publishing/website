@@ -2359,7 +2359,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2371,18 +2371,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--crypto-trading-growth",
-          "eventAction": "click-horizontal--promoting-trading",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--crypto-trading-growth",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--crypto-trading-growth",
+            "eventAction": "click-horizontal--promoting-trading",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2392,8 +2401,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2402,8 +2411,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-trading",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2412,8 +2421,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-trading",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2421,10 +2430,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--crypto-trading-growth",
                 "eventAction": "click-post-smallad--promoting-trading",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2707,7 +2716,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-MARKET-PREDICTIONS: <a href="/millennials-bitcoin-valuation/">Thomas Lee on how millennials probably will make the cryptocurrency market</a></li>
+      <li>#CRYPTO-MARKET-PREDICTIONS: <a href="/crypto-trading-growth/">Why Are So Many People Trading Cryptocurrency?</a></li>
       
       <li>#CRYPTO-MARKET-PREDICTIONS: <a href="/women-in-bitcoin/">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a></li>
       
@@ -2749,25 +2758,6 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/millennials-bitcoin-valuation/" title="Thomas Lee on how millennials probably will make the cryptocurrency market"><b>Thomas Lee on how millennials probably will make the cryptocurrency market</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
@@ -2787,6 +2777,63 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
+        <a class="index-internal" href="/etheremon-kyber-network/" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol"><b>Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol" href="/etheremon-kyber-network/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/urban/uturn.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/ico-regulations/" title="Is the end of ICOs approaching?"><b>Is the end of ICOs approaching?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Is the end of ICOs approaching?" href="/ico-regulations/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/uploads/2017/05/09/facebook-ico-group.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
         <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?"><span class="tag custom-note">Editorial</span>&nbsp;<b>Why Are So Many People Trading Cryptocurrency?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
@@ -2795,44 +2842,6 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="Why Are So Many People Trading Cryptocurrency?" href="/crypto-trading-growth/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/features/cryptocurrency-markets.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

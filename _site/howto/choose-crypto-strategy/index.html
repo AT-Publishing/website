@@ -2366,7 +2366,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2378,18 +2378,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--howtochoose-crypto-strategy",
-          "eventAction": "click-horizontal--promoting-payments-services",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--howtochoose-crypto-strategy",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--howtochoose-crypto-strategy",
+            "eventAction": "click-horizontal--promoting-payments-services",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2399,8 +2408,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2409,8 +2418,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-payments-services",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2419,8 +2428,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-payments-services",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2428,10 +2437,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--howtochoose-crypto-strategy",
                 "eventAction": "click-post-smallad--promoting-payments-services",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2704,7 +2713,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/detrended-price-oscillator/">Script Spotlight: Detrended Price Oscillator (DPO)</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/scriptspotlight-bollinger-band-width-indicator/">Script Spotlight: Bollinger Band Width</a></li>
       
       <li>#CRYPTO-TRADING-STRATEGY: <a href="/3-dangerous-mistakes-crypto-beginners/">3 Most Dangerous Cryptocurrency Beginner Mistakes</a></li>
       

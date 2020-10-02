@@ -2,6 +2,8 @@
 guide:        true
 pinned:       false
 cloud:        true
+cg1:          true
+
 promoting:    payments-services
 note:         "p2p/dex bitcoin"
 

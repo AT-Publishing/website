@@ -2,6 +2,7 @@
 guide:      true
 pinned:     false
 cloud:      true
+cg1:          true
 promoting:  entertainment
 layout:     at-trading
 note:       "Derivatives"

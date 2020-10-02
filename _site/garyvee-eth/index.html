@@ -2403,7 +2403,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2415,18 +2415,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--garyvee-eth",
-          "eventAction": "click-horizontal--promoting-entertainment",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--garyvee-eth",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--garyvee-eth",
+            "eventAction": "click-horizontal--promoting-entertainment",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2436,8 +2445,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2446,8 +2455,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-entertainment",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2456,8 +2465,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-entertainment",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2465,10 +2474,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--garyvee-eth",
                 "eventAction": "click-post-smallad--promoting-entertainment",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2699,9 +2708,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/cex-io-registrations/">CEX.IO Not Accepting New Users for the Time Being</a></li>
+      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
       
-      <li>#ADOPTION: <a href="/byteball/">GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</a></li>
+      <li>#ADOPTION: <a href="/openlistings-houses-for-bitcoin/">Want to buy a house with bitcoin?</a></li>
       
         
       
@@ -2742,25 +2751,6 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]"><b>Shocking Facts About Cryptocurrency Heists [Infographics]</b> in <b>#CRYPTO-OPSEC</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Shocking Facts About Cryptocurrency Heists [Infographics]" href="/cryptocurrency-heists-infographic/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/sadness.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/garyvee-eth/" title="Gary Vee on Ethereum"><b>Gary Vee on Ethereum</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
@@ -2780,14 +2770,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
+      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2799,14 +2789,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/sec-cryptocurrencies-not-securities-market-rebound/" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds"><b>SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/etheremon-kyber-network/" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol"><b>Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds" href="/sec-cryptocurrencies-not-securities-market-rebound/">
+      <a class="cat-internal-link" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol" href="/etheremon-kyber-network/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-newspaper.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/urban/uturn.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2818,14 +2808,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry"><span class="tag custom-note">Opinion</span>&nbsp;<b>In 2020, Women Are Finally Breaking Into the Bitcoin Industry</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 18 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
+      <a class="cat-internal-link" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry" href="/women-in-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/blockchain-entertainment-industry/" title="How Blockchain Disrupts the Entertainment Industry"><b>How Blockchain Disrupts the Entertainment Industry</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="How Blockchain Disrupts the Entertainment Industry" href="/blockchain-entertainment-industry/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/wm/blockchain-entertainment.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

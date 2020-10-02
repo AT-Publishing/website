@@ -3,7 +3,7 @@ guide:        true
 pinned:       false
 cloud:        true
 promoting:    entertainment
-note:         "Free Charting App"
+note:         "TradingView Alternative"
 
 layout:       at-trading
 title:        "TensorCharts Tutorials Collection | Altcoin Trading Tools and Strategies"

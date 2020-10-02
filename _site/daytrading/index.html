@@ -2365,7 +2365,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2377,18 +2377,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--daytrading",
-          "eventAction": "click-horizontal--promoting-analysis",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--daytrading",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--daytrading",
+            "eventAction": "click-horizontal--promoting-analysis",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2398,8 +2407,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2408,8 +2417,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-analysis",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2418,8 +2427,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-analysis",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2427,10 +2436,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--daytrading",
                 "eventAction": "click-post-smallad--promoting-analysis",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2708,15 +2717,15 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/daytrading/">Daytrading on Crypto Markets: Good Idea?</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/divergences/">Technical Analysis: Divergences (With a Divergence Cheat Sheet)</a></li>
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/technical-analysis/">Technical Analysis in Cryptocurrency Trading</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/tensorcharts/">TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more</a></li>
       
         
       
-      <li>#BITFINEX: <a href="/strategy/scalping/">Scalping Crypto</a></li>
-      
       <li>#BITFINEX: <a href="/strategy/fibs/">Why are Fib Retracements and Extensions Important</a></li>
+      
+      <li>#BITFINEX: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
       
     
   </ol>
@@ -2753,33 +2762,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
+        <a class="index-internal" href="/time-vs-timing/" title="Time in the Market vs Timing the Market"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Time in the Market vs Timing the Market</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 24 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
+      <a class="cat-internal-link" title="Time in the Market vs Timing the Market" href="/time-vs-timing/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/editorial/likeaboss.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2810,14 +2800,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/time-vs-timing/" title="Time in the Market vs Timing the Market"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Time in the Market vs Timing the Market</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 24 Aug 2020</a>
+        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Time in the Market vs Timing the Market" href="/time-vs-timing/">
+      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/likeaboss.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

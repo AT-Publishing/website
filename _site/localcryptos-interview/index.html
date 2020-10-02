@@ -2351,7 +2351,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2363,18 +2363,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--localcryptos-interview",
-          "eventAction": "click-horizontal--promoting-exchanges",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--localcryptos-interview",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--localcryptos-interview",
+            "eventAction": "click-horizontal--promoting-exchanges",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2384,8 +2393,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2394,8 +2403,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-exchanges",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2404,8 +2413,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-exchanges",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2413,10 +2422,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--localcryptos-interview",
                 "eventAction": "click-post-smallad--promoting-exchanges",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2778,7 +2787,7 @@ On a P2P platform, users need to manually choose a person to trade with. That co
       
       <li>#NONCUSTODIAL-TRADING: <a href="/interview-andrew-gazdecki/">Andrew Gazdecki on The Future of DEX Trading</a></li>
       
-      <li>#NONCUSTODIAL-TRADING: <a href="/leverj/">LeverJ Review: Non-custodial derivative trading</a></li>
+      <li>#NONCUSTODIAL-TRADING: <a href="/localcryptos-interview/">Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement</a></li>
       
         
       
@@ -2818,14 +2827,33 @@ On a P2P platform, users need to manually choose a person to trade with. That co
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dex-trading/" title="Evolution of Non-Custodial Trading: Order Execution Management"><b>Evolution of Non-Custodial Trading: Order Execution Management</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/localcryptos-interview/" title="Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement"><b>Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
+      <a class="cat-internal-link" title="Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement" href="/localcryptos-interview/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/p2p-marketplace.jpeg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/leverj/" title="LeverJ Review: Non-custodial derivative trading"><span class="tag custom-note">Non-Custodial Trading</span>&nbsp;<b>LeverJ Review: Non-custodial derivative trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="LeverJ Review: Non-custodial derivative trading" href="/leverj/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/2018/leverj.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2856,25 +2884,6 @@ On a P2P platform, users need to manually choose a person to trade with. That co
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/localcryptos-interview/" title="Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement"><b>Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement" href="/localcryptos-interview/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/p2p-marketplace.jpeg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/altcoin-exchanges/" title="Altcoin Exchanges: Where to buy and trade crypto in 2020?"><span class="tag custom-note">Onramping</span>&nbsp;<b>Altcoin Exchanges: Where to buy and trade crypto in 2020?</b> in <b>#RECOMMENDED-EXCHANGE</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
@@ -2894,14 +2903,14 @@ On a P2P platform, users need to manually choose a person to trade with. That co
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/leverj/" title="LeverJ Review: Non-custodial derivative trading"><span class="tag custom-note">Non-Custodial Trading</span>&nbsp;<b>LeverJ Review: Non-custodial derivative trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/dex-trading/" title="Evolution of Non-Custodial Trading: Order Execution Management"><b>Evolution of Non-Custodial Trading: Order Execution Management</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="LeverJ Review: Non-custodial derivative trading" href="/leverj/">
+      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/leverj.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

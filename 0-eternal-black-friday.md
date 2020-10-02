@@ -1,6 +1,7 @@
 ---
 layout:       ebf
 published:    true
+cg1:          true
 
 title:        "Eternal Black Friday | Crypto Black Friday Deals BEFORE Black Friday 2020"
 description:  "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."

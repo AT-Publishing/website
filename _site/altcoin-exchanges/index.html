@@ -2350,7 +2350,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2362,18 +2362,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--altcoin-exchanges",
-          "eventAction": "click-horizontal--promoting-onramp",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--altcoin-exchanges",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--altcoin-exchanges",
+            "eventAction": "click-horizontal--promoting-onramp",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2383,8 +2392,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2393,8 +2402,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-onramp",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2403,8 +2412,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-onramp",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2412,10 +2421,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--altcoin-exchanges",
                 "eventAction": "click-post-smallad--promoting-onramp",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2950,14 +2959,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dex-trading/" title="Evolution of Non-Custodial Trading: Order Execution Management"><b>Evolution of Non-Custodial Trading: Order Execution Management</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bitifinex-eats-your-eth/" title="Don't send ETH from Bitstamp to Bfx"><span class="tag custom-note">PSA</span>&nbsp;<b>Don't send ETH from Bitstamp to Bfx</b> in <b>#PSA</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
+      <a class="cat-internal-link" title="Don't send ETH from Bitstamp to Bfx" href="/bitifinex-eats-your-eth/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/trading/ethereum.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2988,14 +2997,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitifinex-eats-your-eth/" title="Don't send ETH from Bitstamp to Bfx"><span class="tag custom-note">PSA</span>&nbsp;<b>Don't send ETH from Bitstamp to Bfx</b> in <b>#PSA</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/dex-trading/" title="Evolution of Non-Custodial Trading: Order Execution Management"><b>Evolution of Non-Custodial Trading: Order Execution Management</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Don't send ETH from Bitstamp to Bfx" href="/bitifinex-eats-your-eth/">
+      <a class="cat-internal-link" title="Evolution of Non-Custodial Trading: Order Execution Management" href="/dex-trading/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/trading/ethereum.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/exchanges.png" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

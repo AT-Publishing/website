@@ -10,7 +10,7 @@
 <html amp lang="en">
 {% include head.html %}
 <body>
-<amp-analytics type="googleanalytics" data-permit-notification-id="amp-privacy">
+<amp-analytics type="googleanalytics">
 <script type="application/json">
 {
   "vars": {
@@ -89,21 +89,9 @@
 
 
 <amp-user-notification
-    layout=nodisplay
-    id="amp-privacy"
-    data-persist-dismissal="true">
-    <div id="notif-inner">
-      <p>
-        This site uses cookies.
-        <a href="/about-legal/">[More]</a>
-        <a on="tap:amp-privacy.dismiss">[No problem]</a>
-      </p>
-    </div>
-</amp-user-notification>
-<amp-user-notification
   layout=nodisplay
   id="amp-user-optin-strategy"
-  data-persist-dismissal="true"
+  data-persist-dismissal="false"
   >
   <div class="altcointrading-strategy-optin">
     <div class="row sidebar-nl">

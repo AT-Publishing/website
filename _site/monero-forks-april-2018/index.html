@@ -2442,7 +2442,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2454,18 +2454,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--monero-forks-april-2018",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--monero-forks-april-2018",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--monero-forks-april-2018",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2475,8 +2484,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2485,8 +2494,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2495,8 +2504,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2504,10 +2513,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--monero-forks-april-2018",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2825,14 +2834,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/openlistings-houses-for-bitcoin/" title="Want to buy a house with bitcoin?"><b>Want to buy a house with bitcoin?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?"><span class="tag custom-note">Trading</span>&nbsp;<b>Will Your Bitcoin Investment Suffer from Coronavirus?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Want to buy a house with bitcoin?" href="/openlistings-houses-for-bitcoin/">
+      <a class="cat-internal-link" title="Will Your Bitcoin Investment Suffer from Coronavirus?" href="/bitcoin-coronavirus-crisis/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/openlistings.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2844,14 +2853,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/stats-2019/" title="Products of 2019: What did crypto traders most spend on?"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Products of 2019: What did crypto traders most spend on?</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
+        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Products of 2019: What did crypto traders most spend on?" href="/stats-2019/">
+      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/2020/stats-spending-traders.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2863,14 +2872,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ledger-monero/" title="Ledger CTO says Monero viable"><b>Ledger CTO says Monero viable</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Ledger CTO says Monero viable" href="/ledger-monero/">
+      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/06/15/ledger-monero.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2890,25 +2918,6 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="CEX.IO Not Accepting New Users for the Time Being" href="/cex-io-registrations/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/etheremon-kyber-network/" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol"><b>Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol" href="/etheremon-kyber-network/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/urban/uturn.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

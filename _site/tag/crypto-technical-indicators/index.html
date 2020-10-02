@@ -2349,7 +2349,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="tag">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2361,18 +2361,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--tagcrypto-technical-indicators",
-          "eventAction": "click-horizontal--promoting-analysis",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--tagcrypto-technical-indicators",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--tagcrypto-technical-indicators",
+            "eventAction": "click-horizontal--promoting-analysis",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2382,8 +2391,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2392,8 +2401,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-analysis",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2402,8 +2411,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-analysis",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2411,10 +2420,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--tagcrypto-technical-indicators",
                 "eventAction": "click-post-smallad--promoting-analysis",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 

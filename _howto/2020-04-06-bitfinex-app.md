@@ -2,6 +2,7 @@
 guide:      true
 pinned:     false
 cloud:      true
+cg1:          true
 promoting:  analysis
 
 layout: at-trading

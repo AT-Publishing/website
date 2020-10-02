@@ -2411,7 +2411,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2423,18 +2423,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--ethereum-etf-unlikely",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--ethereum-etf-unlikely",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--ethereum-etf-unlikely",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2444,8 +2453,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2454,8 +2463,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2464,8 +2473,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2473,10 +2482,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--ethereum-etf-unlikely",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2765,14 +2774,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/interview-andrew-gazdecki/" title="Andrew Gazdecki on The Future of DEX Trading"><span class="tag custom-note">Interview</span>&nbsp;<b>Andrew Gazdecki on The Future of DEX Trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
+      <a class="cat-internal-link" title="Andrew Gazdecki on The Future of DEX Trading" href="/interview-andrew-gazdecki/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2784,14 +2793,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/openlistings-houses-for-bitcoin/" title="Want to buy a house with bitcoin?"><b>Want to buy a house with bitcoin?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Want to buy a house with bitcoin?" href="/openlistings-houses-for-bitcoin/">
+      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/openlistings.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2822,14 +2831,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/millennials-bitcoin-valuation/" title="Thomas Lee on how millennials probably will make the cryptocurrency market"><b>Thomas Lee on how millennials probably will make the cryptocurrency market</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Thomas Lee on how millennials probably will make the cryptocurrency market" href="/millennials-bitcoin-valuation/">
+      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/rain.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2841,14 +2850,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
+      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

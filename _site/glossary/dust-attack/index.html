@@ -2351,7 +2351,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-glossary">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2363,18 +2363,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--glossarydust-attack",
-          "eventAction": "click-horizontal--promoting-payments-services",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--glossarydust-attack",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--glossarydust-attack",
+            "eventAction": "click-horizontal--promoting-payments-services",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2384,8 +2393,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2394,8 +2403,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-payments-services",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2404,8 +2413,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-payments-services",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2413,10 +2422,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--glossarydust-attack",
                 "eventAction": "click-post-smallad--promoting-payments-services",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2660,14 +2669,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/glossary/lbc/" title="LBC"><span class="tag custom-note">jargon</span>&nbsp;<b>LBC</b> in <b>#TRADING-PLATFORM</b>  updated on 04 Sep 2020</a>
+        <a class="index-internal" href="/glossary/bgd/" title="BGD"><span class="tag custom-note">jargon</span>&nbsp;<b>BGD</b> in <b>#BGD</b>  updated on 29 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="LBC" href="/glossary/lbc/">
+      <a class="cat-internal-link" title="BGD" href="/glossary/bgd/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1586937056/atnet/_glossary/bgd_csyjsh.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

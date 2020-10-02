@@ -2402,7 +2402,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2414,18 +2414,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--iou-stablecoins-potential",
-          "eventAction": "click-horizontal--promoting-entertainment",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--iou-stablecoins-potential",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--iou-stablecoins-potential",
+            "eventAction": "click-horizontal--promoting-entertainment",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2435,8 +2444,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2445,8 +2454,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-entertainment",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2455,8 +2464,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-entertainment",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2464,10 +2473,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--iou-stablecoins-potential",
                 "eventAction": "click-post-smallad--promoting-entertainment",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2706,7 +2715,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#STABLECOINS: <a href="/dai-stablecoin/">Dai - Stablecoin alternative to Tether</a></li>
+      <li>#STABLECOINS: <a href="/iou-stablecoins-potential/">Follow the money: Who's banking on IOU stablecoins?</a></li>
       
       <li>#STABLECOINS: <a href="/stability-of-stablecoins/">The Stability of Stablecoins: NuBits all over again? </a></li>
       
@@ -2749,14 +2758,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/etheremon-kyber-network/" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol"><b>Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
+      <a class="cat-internal-link" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol" href="/etheremon-kyber-network/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/urban/uturn.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2768,14 +2777,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]"><b>Shocking Facts About Cryptocurrency Heists [Infographics]</b> in <b>#CRYPTO-OPSEC</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stats-2019/" title="Products of 2019: What did crypto traders most spend on?"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Products of 2019: What did crypto traders most spend on?</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Shocking Facts About Cryptocurrency Heists [Infographics]" href="/cryptocurrency-heists-infographic/">
+      <a class="cat-internal-link" title="Products of 2019: What did crypto traders most spend on?" href="/stats-2019/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/sadness.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/2020/stats-spending-traders.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2787,14 +2796,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?"><span class="tag custom-note">Trading</span>&nbsp;<b>Will Your Bitcoin Investment Suffer from Coronavirus?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Will Your Bitcoin Investment Suffer from Coronavirus?" href="/bitcoin-coronavirus-crisis/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2806,14 +2815,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/how-blockchain-disrupts-legal/" title="How Blockchain Disrupts The Legal Industry: A Primer"><b>How Blockchain Disrupts The Legal Industry: A Primer</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
+      <a class="cat-internal-link" title="How Blockchain Disrupts The Legal Industry: A Primer" href="/how-blockchain-disrupts-legal/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/legal-disruption.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2825,14 +2834,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

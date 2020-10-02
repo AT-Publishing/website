@@ -1,5 +1,6 @@
 ---
 layout:   page-airdrops
+cg1:          true
 
 image:    ["/editorial/tagged/atnet-office.png"]
 images:   ["/editorial/flying.jpg"]

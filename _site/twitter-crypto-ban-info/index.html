@@ -2350,7 +2350,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2362,18 +2362,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--twitter-crypto-ban-info",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--twitter-crypto-ban-info",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--twitter-crypto-ban-info",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2383,8 +2392,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2393,8 +2402,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2403,8 +2412,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2412,10 +2421,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--twitter-crypto-ban-info",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2669,7 +2678,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/ledger-monero/">Ledger CTO says Monero viable</a></li>
+      <li>#ADOPTION: <a href="/token-marketing-agencies/">How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</a></li>
       
       <li>#ADOPTION: <a href="/bakkt-criticism/">The grim side of Bakkt's potential consequences</a></li>
       
@@ -2713,14 +2722,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/stability-of-stablecoins/" title="The Stability of Stablecoins: NuBits all over again? "><b>The Stability of Stablecoins: NuBits all over again? </b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Stability of Stablecoins: NuBits all over again? " href="/stability-of-stablecoins/">
+      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/stablecoins/stability-of-stablecoins.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2732,14 +2741,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/garyvee-eth/" title="Gary Vee on Ethereum"><b>Gary Vee on Ethereum</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Gary Vee on Ethereum" href="/garyvee-eth/">
+      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/gary.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/stats-2018/" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets" href="/stats-2018/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/tradingstation.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2770,33 +2798,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]"><b>Shocking Facts About Cryptocurrency Heists [Infographics]</b> in <b>#CRYPTO-OPSEC</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Shocking Facts About Cryptocurrency Heists [Infographics]" href="/cryptocurrency-heists-infographic/">
+      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/sadness.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

@@ -2353,7 +2353,7 @@ amp-user-notification>div>div {
 </head>
 
 <body>
-<amp-analytics type="googleanalytics" data-permit-notification-id="amp-privacy">
+<amp-analytics type="googleanalytics">
 <script type="application/json">
 {
   "vars": {
@@ -2371,21 +2371,9 @@ amp-user-notification>div>div {
 
 
 <amp-user-notification
-    layout=nodisplay
-    id="amp-privacy"
-    data-persist-dismissal="true">
-    <div id="notif-inner">
-      <p>
-        This site uses cookies.
-        <a href="/about-legal/">[More]</a>
-        <a on="tap:amp-privacy.dismiss">[No problem]</a>
-      </p>
-    </div>
-</amp-user-notification>
-<amp-user-notification
   layout=nodisplay
   id="amp-user-optin-strategy"
-  data-persist-dismissal="true"
+  data-persist-dismissal="false"
   >
   <div class="altcointrading-strategy-optin">
     <div class="row sidebar-nl">
@@ -2671,80 +2659,6 @@ We do update them though, and they age well.</p>
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Technical Analysis in Cryptocurrency Trading - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
-          <span class="tag custom-note lvl-">TRADING BLOG</span>&nbsp;Technical Analysis in Cryptocurrency Trading
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>Technical indicators work. Sometimes. Should you use technical analysis for crypto?</b>
-    </p>
-    <p>
-      This post on cryptocurrency technical analysis specifics was originally published in 2016.
-
-Back then, it was a common debate in the TradingView ch...
-    </p>
-    <p>
-      <a class="btn" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
-        Keep Reading >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-
-  
-    <div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" alt="How to Compare the Fundamental Value of Cryptoassets - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-          <span class="tag custom-note lvl-">STRATEGIC THINKING</span>&nbsp;How to Compare the Fundamental Value of Cryptoassets
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>Guide on how to assess the fundamental value of cryptocurrencies. Some cryptocoins serve for payments and remittance, some are dApp fuel tokens, some are quick spinoffs only used for pump and dump schemes.</b>
-    </p>
-    <p>
-      The fundamental value of a cryptocurrency is not declared by any authority, it derives from how they are used.
-
-As the blockchain space grows thoug...
-    </p>
-    <p>
-      <a class="btn" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
-        Keep Reading >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-
-  
-    <div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
     <a class="sidebar-internal" title="Ichimoku Cloud for Crypto Trading" href="/ichimoku-cloud/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" alt="Ichimoku Cloud for Crypto Trading - Crypto Trading Strategy"
@@ -2782,9 +2696,9 @@ Once you know what it does, it makes your crypto ...
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
+    <a class="sidebar-internal" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" alt="Cryptocurrency Strategy for Beginners - Crypto Trading Strategy"
+        <amp-img itemprop="image" src="/features/bbw/scriptspotlight-bbands.png" alt="Script Spotlight: Bollinger Band Width - Crypto Trading Strategy"
         layout="responsive"
         data-original-width="720px" data-original-height="360px"
         width="353px" height="190px">
@@ -2795,25 +2709,19 @@ Once you know what it does, it makes your crypto ...
   <div class="columns six"><!-- fucking six 2 -->
     <h4>
       <strong>
-        <a class="sidebar-internal" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
-          <span class="tag custom-note lvl-">HODLING</span>&nbsp;Cryptocurrency Strategy for Beginners
+        <a class="sidebar-internal" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
+          <span class="tag custom-note lvl-">SCRIPTSPOTLIGHT</span>&nbsp;Script Spotlight: Bollinger Band Width
         </a>
       </strong>
     </h4>
     <p>
-      <b>Intro to crypto strategy for beginners. Lo and behold, there is a strategy even to hodling.</b>
+      <b>BBands Variations on Tradingview, focusing on Bollinger Bandwidth this time. In this series we are picking and reviewing TradingView scripts for technical analysis that recently popped up in the daily popular feed.</b>
     </p>
     <p>
-      Let’s face it right away.
-
-Crypto trading is not for everyone
-
-And it’s not just that crypto trading is not for everyone.
-
-The truth is that many t...
+      In this Script Spotlight we are looking at scripts of Bollinger Band Width that are available from Tradingview public library. If you don’t have a ...
     </p>
     <p>
-      <a class="btn" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
+      <a class="btn" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
         Keep Reading >>
       </a>
     </p>
@@ -2823,9 +2731,9 @@ The truth is that many t...
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Real PoW Crypto Fundamentals: Crypto Mining and Network Activity" href="/pow-fundamentals/">
+    <a class="sidebar-internal" title="Time in the Market vs Timing the Market" href="/time-vs-timing/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" alt="Real PoW Crypto Fundamentals: Crypto Mining and Network Activity - Crypto Trading Strategy"
+        <amp-img itemprop="image" src="/img/editorial/likeaboss.jpg" alt="Time in the Market vs Timing the Market - Crypto Trading Strategy"
         layout="responsive"
         data-original-width="720px" data-original-height="360px"
         width="353px" height="190px">
@@ -2836,21 +2744,93 @@ The truth is that many t...
   <div class="columns six"><!-- fucking six 2 -->
     <h4>
       <strong>
-        <a class="sidebar-internal" title="Real PoW Crypto Fundamentals: Crypto Mining and Network Activity" href="/pow-fundamentals/">
-          <span class="tag custom-note lvl-">FUNDAMENTALS</span>&nbsp;Real PoW Crypto Fundamentals: Crypto Mining and Network Activity
+        <a class="sidebar-internal" title="Time in the Market vs Timing the Market" href="/time-vs-timing/">
+          <span class="tag custom-note lvl-">TRADING STRATEGY</span>&nbsp;Time in the Market vs Timing the Market
         </a>
       </strong>
     </h4>
     <p>
-      <b>Crypto mining is the true fundamental limit of all PoW cryptocurrencies. Transaction activity are a softer fundamental. Learn how to analyse crypto fundamentals on bitcoin markets.</b>
+      <b>They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure.</b>
     </p>
     <p>
-      Proof-of-Work cryptocurrencies operate in a drastically different way than fiat money.
+      Let’s take a quick look at the difference between trading and investing.
 
-DeFi and collateralised stablecoins like Dai are much close...
+When you trade you don’t care which way the market goes as long as your p...
     </p>
     <p>
-      <a class="btn" title="Real PoW Crypto Fundamentals: Crypto Mining and Network Activity" href="/pow-fundamentals/">
+      <a class="btn" title="Time in the Market vs Timing the Market" href="/time-vs-timing/">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
+
+  
+    <div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Technical Analysis in Cryptocurrency Trading - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
+          <span class="tag custom-note lvl-">TRADING BLOG</span>&nbsp;Technical Analysis in Cryptocurrency Trading
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>Technical indicators work. Sometimes. Should you use technical analysis for crypto?</b>
+    </p>
+    <p>
+      This post on cryptocurrency technical analysis specifics was originally published in 2016.
+
+Back then, it was a common debate in the TradingView ch...
+    </p>
+    <p>
+      <a class="btn" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
+
+  
+    <div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Script Spotlight: Detrended Price Oscillator (DPO) - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
+          <span class="tag custom-note lvl-">SCRIPTSPOTLIGHT</span>&nbsp;Script Spotlight: Detrended Price Oscillator (DPO)
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>The Detrended Price Oscillator strategy tool from TradingView is similar to a moving average, but easier to read.</b>
+    </p>
+    <p>
+      The feature of today’s Script Spotlight is an older tool that is not groundbreaking or super sophisticated but it will make your chart reading fast...
+    </p>
+    <p>
+      <a class="btn" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
         Keep Reading >>
       </a>
     </p>
@@ -2864,6 +2844,41 @@ DeFi and collateralised stablecoins like Dai are much close...
 
 
   <span class="note">#CRYPTO-CHARTING</span>
+  
+    <div class="row"><!-- fucking row -->
+  <div class="six columns thumb-wrap">
+    <a class="sidebar-internal" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="/features/bitgur.png" alt="Another better Coinmarketcap - with a heatmap tool - Crypto Trading Strategy"
+        layout="responsive"
+        data-original-width="720px" data-original-height="360px"
+        width="353px" height="190px">
+        </amp-img>
+      </figure>
+    </a>
+  </div><!-- fucking six -->
+  <div class="columns six"><!-- fucking six 2 -->
+    <h4>
+      <strong>
+        <a class="sidebar-internal" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+          <span class="tag custom-note lvl-">FEATURE</span>&nbsp;Another better Coinmarketcap - with a heatmap tool
+        </a>
+      </strong>
+    </h4>
+    <p>
+      <b>Bitgur has heatmaps of six different metrics: Not only price change of coins per time period but also neat stuff like unusual volume spikes.</b>
+    </p>
+    <p>
+      Bitgur is another web app that tracks performance of cryptocurrencies. It was developed by an enthusiast who didn’t raise millions via an ICO, and ...
+    </p>
+    <p>
+      <a class="btn" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+        Keep Reading >>
+      </a>
+    </p>
+  </div><!-- fucking six2 -->
+</div><!-- fucking row -->
+
   
     <div class="row"><!-- fucking row -->
   <div class="six columns thumb-wrap">
@@ -2895,43 +2910,6 @@ TensorCharts are an advanced charting platform servicing crypto traders. It has 
     </p>
     <p>
       <a class="btn" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
-        Keep Reading >>
-      </a>
-    </p>
-  </div><!-- fucking six2 -->
-</div><!-- fucking row -->
-
-  
-    <div class="row"><!-- fucking row -->
-  <div class="six columns thumb-wrap">
-    <a class="sidebar-internal" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Technical Analysis: Divergences (With a Divergence Cheat Sheet) - Crypto Trading Strategy"
-        layout="responsive"
-        data-original-width="720px" data-original-height="360px"
-        width="353px" height="190px">
-        </amp-img>
-      </figure>
-    </a>
-  </div><!-- fucking six -->
-  <div class="columns six"><!-- fucking six 2 -->
-    <h4>
-      <strong>
-        <a class="sidebar-internal" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
-          <span class="tag custom-note lvl-">TRADING STRATEGY</span>&nbsp;Technical Analysis: Divergences (With a Divergence Cheat Sheet)
-        </a>
-      </strong>
-    </h4>
-    <p>
-      <b>Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market.</b>
-    </p>
-    <p>
-      What are divergences in trading?
-
-When traders talk about divergences, or divs, they are pointing out a disagreement between the price action and a...
-    </p>
-    <p>
-      <a class="btn" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
         Keep Reading >>
       </a>
     </p>

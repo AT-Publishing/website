@@ -2380,7 +2380,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2392,18 +2392,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--ledger-monero",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--ledger-monero",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--ledger-monero",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2413,8 +2422,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2423,8 +2432,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2433,8 +2442,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2442,10 +2451,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--ledger-monero",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2661,9 +2670,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
+      <li>#ADOPTION: <a href="/byteball/">GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</a></li>
       
-      <li>#ADOPTION: <a href="/garyvee-eth/">Gary Vee on Ethereum</a></li>
+      <li>#ADOPTION: <a href="/token-marketing-agencies/">How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</a></li>
       
         
       
@@ -2705,14 +2714,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]"><b>Shocking Facts About Cryptocurrency Heists [Infographics]</b> in <b>#CRYPTO-OPSEC</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/millennials-bitcoin-valuation/" title="Thomas Lee on how millennials probably will make the cryptocurrency market"><b>Thomas Lee on how millennials probably will make the cryptocurrency market</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Shocking Facts About Cryptocurrency Heists [Infographics]" href="/cryptocurrency-heists-infographic/">
+      <a class="cat-internal-link" title="Thomas Lee on how millennials probably will make the cryptocurrency market" href="/millennials-bitcoin-valuation/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/sadness.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/rain.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2724,14 +2733,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dai-stablecoin/" title="Dai - Stablecoin alternative to Tether"><b>Dai - Stablecoin alternative to Tether</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stats-2018/" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Dai - Stablecoin alternative to Tether" href="/dai-stablecoin/">
+      <a class="cat-internal-link" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets" href="/stats-2018/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/maker-dao-dai.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tradingstation.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2743,14 +2752,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?"><span class="tag custom-note">Trading</span>&nbsp;<b>Will Your Bitcoin Investment Suffer from Coronavirus?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
+      <a class="cat-internal-link" title="Will Your Bitcoin Investment Suffer from Coronavirus?" href="/bitcoin-coronavirus-crisis/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2762,14 +2771,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ledger-monero/" title="Ledger CTO says Monero viable"><b>Ledger CTO says Monero viable</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/sec-cryptocurrencies-not-securities-market-rebound/" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds"><b>SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Ledger CTO says Monero viable" href="/ledger-monero/">
+      <a class="cat-internal-link" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds" href="/sec-cryptocurrencies-not-securities-market-rebound/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/06/15/ledger-monero.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-newspaper.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2781,14 +2790,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
+      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

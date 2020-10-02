@@ -2400,7 +2400,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2412,18 +2412,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--tether-subpoena",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--tether-subpoena",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--tether-subpoena",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2433,8 +2442,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2443,8 +2452,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2453,8 +2462,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2462,10 +2471,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--tether-subpoena",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2693,7 +2702,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#BITFINEX: <a href="/tether-subpoena/">Bloomberg publishes two months old Tether subpoena</a></li>
+      <li>#BITFINEX: <a href="/ichimoku-cloud/">Ichimoku Cloud for Crypto Trading</a></li>
       
       <li>#BITFINEX: <a href="/daytrading/">Daytrading on Crypto Markets: Good Idea?</a></li>
       

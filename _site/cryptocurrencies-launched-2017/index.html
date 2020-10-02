@@ -2350,7 +2350,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2362,18 +2362,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--cryptocurrencies-launched-2017",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--cryptocurrencies-launched-2017",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--cryptocurrencies-launched-2017",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2383,8 +2392,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2393,8 +2402,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2403,8 +2412,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2412,10 +2421,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--cryptocurrencies-launched-2017",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2635,7 +2644,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
+      <li>#ADOPTION: <a href="/twitter-crypto-ban-info/">Twitter's 2018 Crypto Ban</a></li>
       
       <li>#ADOPTION: <a href="/ledger-monero/">Ledger CTO says Monero viable</a></li>
       
@@ -2679,14 +2688,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
+      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2698,14 +2707,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/openlistings-houses-for-bitcoin/" title="Want to buy a house with bitcoin?"><b>Want to buy a house with bitcoin?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Want to buy a house with bitcoin?" href="/openlistings-houses-for-bitcoin/">
+      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/openlistings.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2717,14 +2726,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?"><span class="tag custom-note">Editorial</span>&nbsp;<b>Why Are So Many People Trading Cryptocurrency?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry"><span class="tag custom-note">Opinion</span>&nbsp;<b>In 2020, Women Are Finally Breaking Into the Bitcoin Industry</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 18 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Why Are So Many People Trading Cryptocurrency?" href="/crypto-trading-growth/">
+      <a class="cat-internal-link" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry" href="/women-in-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/cryptocurrency-markets.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2736,14 +2745,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/millennials-bitcoin-valuation/" title="Thomas Lee on how millennials probably will make the cryptocurrency market"><b>Thomas Lee on how millennials probably will make the cryptocurrency market</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
+      <a class="cat-internal-link" title="Thomas Lee on how millennials probably will make the cryptocurrency market" href="/millennials-bitcoin-valuation/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/rain.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

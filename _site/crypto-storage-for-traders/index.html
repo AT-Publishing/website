@@ -2358,7 +2358,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2370,18 +2370,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--crypto-storage-for-traders",
-          "eventAction": "click-horizontal--promoting-onramp",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--crypto-storage-for-traders",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--crypto-storage-for-traders",
+            "eventAction": "click-horizontal--promoting-onramp",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2391,8 +2400,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2401,8 +2410,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-onramp",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2411,8 +2420,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-onramp",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2420,10 +2429,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--crypto-storage-for-traders",
                 "eventAction": "click-post-smallad--promoting-onramp",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2730,9 +2739,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-OPSEC: <a href="/crypto-storage-for-traders/">Crypto Wallets by Use Case</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/cryptocurrency-heists-infographic/">Shocking Facts About Cryptocurrency Heists [Infographics]</a></li>
       
-      <li>#CRYPTO-OPSEC: <a href="/samourai-wallet-bitcoin-anonymity/">Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2020 Updated</a></li>
       
         
       
@@ -2772,14 +2781,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Updated"><span class="tag custom-note">Guide</span>&nbsp;<b>Altcoin Wallets: Tried and True, 2020 Updated</b> in <b>#MULTICOIN-WALLET</b>  updated on 01 Oct 2020</a>
+        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Altcoin Wallets: Tried and True, 2020 Updated" href="/altcoin-wallets/">
+      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/monero-wallet/" title="Monero Wallets: Your options in 2020"><span class="tag custom-note">Wallet Guide</span>&nbsp;<b>Monero Wallets: Your options in 2020</b> in <b>#CRYPTO-OPSEC</b>  updated on 01 Oct 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Monero Wallets: Your options in 2020" href="/monero-wallet/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2810,33 +2838,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 01 Oct 2020</a>
+        <a class="index-internal" href="/altcoin-wallets/" title="Altcoin Wallets: Tried and True, 2020 Updated"><span class="tag custom-note">Guide</span>&nbsp;<b>Altcoin Wallets: Tried and True, 2020 Updated</b> in <b>#MULTICOIN-WALLET</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
+      <a class="cat-internal-link" title="Altcoin Wallets: Tried and True, 2020 Updated" href="/altcoin-wallets/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/jaxx-vulnerability/" title="PSA - Jaxx Vulnerability (2017)"><b>PSA - Jaxx Vulnerability (2017)</b> in <b>#MULTICOIN-WALLET</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="PSA - Jaxx Vulnerability (2017)" href="/jaxx-vulnerability/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/img/wallets/jaxx12.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

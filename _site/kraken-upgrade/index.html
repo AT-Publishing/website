@@ -2404,7 +2404,7 @@ amp-user-notification>div>div {
 -->
 </head>
 
-<body>
+<body class="at-trading">
   <amp-analytics type="googleanalytics">
   <script type="application/json">
   {
@@ -2416,18 +2416,27 @@ amp-user-notification>div>div {
         "on": "visible",
         "request": "pageview"
       },
-    "clickBannerHorizontal": {
-        "on": "click",
-        "selector": "#at-promo-horizontal",
-        "request": "event",
-        "vars": {
-          "eventCategory": "nonadsense--kraken-upgrade",
-          "eventAction": "click-horizontal--promoting-",
-          "eventLabel": "id--at-promo-horizontal"
-
+      "clickAnyIntext": {
+          "on": "click",
+          "selector": ".intext",
+          "request": "event",
+          "vars": {
+            "eventCategory": "any-intext--kraken-upgrade",
+            "eventAction": "click-any-intext-link",
+            "eventLabel": "any-intext"
           }
-   },
-   "clickBannerVertical": {
+      },
+      "clickBannerHorizontal": {
+          "on": "click",
+          "selector": "#at-promo-horizontal",
+          "request": "event",
+          "vars": {
+            "eventCategory": "nonadsense--kraken-upgrade",
+            "eventAction": "click-horizontal--promoting-",
+            "eventLabel": "id--at-promo-horizontal"
+          }
+        },
+        "clickBannerVertical": {
           "on": "click",
           "selector": "#at-promo-vertical",
           "request": "event",
@@ -2437,8 +2446,8 @@ amp-user-notification>div>div {
             "eventLabel": "id--at-promo-vertical"
 
           }
-    },
-    "clickBannerTVTall": {
+        },
+        "clickBannerTVTall": {
             "on": "click",
             "selector": "#at-promo-tv-tall",
             "request": "event",
@@ -2447,8 +2456,8 @@ amp-user-notification>div>div {
               "eventAction": "click-tv-tall--promoting-",
               "eventLabel": "id--at-promo-tv-tall"
             }
-     },
-     "clickBfxVidTall": {
+          },
+          "clickBfxVidTall": {
              "on": "click",
              "selector": "#bfx-vid-tall",
              "request": "event",
@@ -2457,8 +2466,8 @@ amp-user-notification>div>div {
                "eventAction": "click-bfx-vid-tall--promoting-",
                "eventLabel": "id--bfx-vid-tall"
              }
-      },
-     "click on smallad-post trigger": {
+           },
+           "click on smallad-post trigger": {
               "on": "click",
               "selector": "#at-promo-smallad-post",
               "request": "event",
@@ -2466,10 +2475,10 @@ amp-user-notification>div>div {
                 "eventCategory": "nonadsense--kraken-upgrade",
                 "eventAction": "click-post-smallad--promoting-",
                 "eventLabel": "id--at-promo-smallad-post"
-        }
-     }
-    }
-  }
+              }
+            }
+    }  // end triggers
+  } // end script
   </script>
   </amp-analytics>
 
@@ -2709,7 +2718,7 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
+      <li>#ADOPTION: <a href="/bcash-rally-november-2017/">Reddit on the Bcash runup: BCH vs BTC</a></li>
       
       <li>#ADOPTION: <a href="/byteball/">GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</a></li>
       
@@ -2753,14 +2762,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
+      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2791,14 +2800,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"><b>ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency" href="/bitfinex-tether-transparency/">
+      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2810,14 +2819,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
+      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2829,14 +2838,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ico-regulations/" title="Is the end of ICOs approaching?"><b>Is the end of ICOs approaching?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/sec-cryptocurrencies-not-securities-market-rebound/" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds"><b>SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Is the end of ICOs approaching?" href="/ico-regulations/">
+      <a class="cat-internal-link" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds" href="/sec-cryptocurrencies-not-securities-market-rebound/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/05/09/facebook-ico-group.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-newspaper.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
