@@ -4,11 +4,12 @@
 {% assign strat = site.strategy %}
 {% assign sec = site.security %}
 
-<!DOCTYPE html><html amp lang="en">
+<!DOCTYPE html>
+<html amp lang="en">
 {% include head-news.html %}
-<body class="{{ page.layout }}">
-  <amp-analytics type="googleanalytics">
-  <script type="application/json">
+<body class="default-sub">
+<amp-analytics type="googleanalytics">
+<script type="application/json">
   {
     "vars": {
       "account": "{{ site.ga }}"
@@ -17,12 +18,72 @@
       "trackPageview": {
         "on": "visible",
         "request": "pageview"
+      }{% unless page.title %},
+      "clickSmalladHome": {
+        "on": "click",
+        "selector": "#at-promo-smallad-home-top",
+        "request": "event",
+        "vars": {
+           "eventCategory": "nonadsense--home-top",
+           "eventAction": "click-smallad",
+           "eventLabel": "clickSmalladHome"
+         }
+      },
+      "clickMainHome": {
+        "on": "click",
+        "selector": "#at-promo-main-home",
+        "request": "event",
+        "vars": {
+           "eventCategory": "nonadsense--home-top",
+           "eventAction": "click-main",
+           "eventLabel": "clickMainHome"
+         }
+      },
+      "clickHomeMidAd": {
+        "on": "click",
+        "selector": "#at-promo-smallad-home-mid",
+        "request": "event",
+        "vars": {
+           "eventCategory": "nonadsense--home-mid",
+           "eventAction": "click-long",
+           "eventLabel": "clickHomeMidAd"
+         }
+      },
+      "clickHomeSideAd": {
+        "on": "click",
+        "selector": "#at-promo-nonpost-sidebar-tall",
+        "request": "event",
+        "vars": {
+           "eventCategory": "nonadsense--home-side",
+           "eventAction": "click-tall",
+           "eventLabel": "clickHomeSideAd"
+         }
+      },
+      "clickBfxVidTall": {
+              "on": "click",
+              "selector": "#bfx-vid-tall",
+              "request": "event",
+              "vars": {
+                "eventCategory": "nonadsense--{{ page.url | remove: '/' }}",
+                "eventAction": "click-bfx-vid-tall--promoting-{{ page.promoting }}",
+                "eventLabel": "clickHomeBfxVidTall"
+              }
+       },
+      "clickHomeSideLinks": {
+        "on": "click",
+        "selector": "#at-promo-nonpost-sidebar-shilllinks",
+        "request": "event",
+        "vars": {
+           "eventCategory": "nonadsense--home-side",
+           "eventAction": "click-shilllinks",
+           "eventLabel": "clickHomeSideLinks"
+         }
       }
-    }  // fuck this shit
-  } // go fuck yourself with fucking amp google fucks
-  </script>
-  </amp-analytics>
-
+      {% endunless %}
+    }
+  }
+</script>
+</amp-analytics>
 
 {% include header.html %}
 {{ content }}
