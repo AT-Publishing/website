@@ -2,21 +2,7 @@
 <html amp lang="en">
 {% include head.html %}
 <body>
-<amp-analytics type="googleanalytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "{{ site.ga }}"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    }
-  }
-}
-</script>
-</amp-analytics>
+{% include 0-ga.html %}
 {% include header.html %}
   <div class="container">
     <div class="row">

@@ -1,0 +1,18 @@
+I"�<p><a href="https://bitgur.com">Bitgur</a> is another web app that tracks performance of cryptocurrencies. It was developed by an enthusiast who didn’t raise millions via an ICO, and it has a public roadmap on <a href="https://trello.com/b/LyRXpDPZ/bitgur-roadmap">Trello</a>.</p>
+
+<p>The developer has a Reddit account as <a href="https://www.reddit.com/user/Bitgur_com">u/Bitgur_com</a>.</p>
+
+<p>On the homepage it looks like prettier coinmarketcap - all cryptocurrencies in a table with price charts, sortable by market cap, price, 24h volume or price change.</p>
+
+<p>The tools under the tab “Heatmaps” are what make Bitgur interesting.</p>
+
+<h4 id="cryptocurrency-heatmaps">Cryptocurrency Heatmaps</h4>
+
+<p>Heatmaps are a great way to have a single glance information about what’s going down on the markets. Which currencies are mooning or dumping the most this day? What exchange is getting trading volume increase? Which coins are more volatile?</p>
+
+<p>Each field on the heatmap contains the value of the metric, such as price change for the day on a green or red background. The field size represents either market cap or volume, depends on what the heatmap is tracking.</p>
+
+<p>Bitgur has heatmaps of six different metrics: Not only price change of coins per time period but also neat stuff like unusual volume spikes. That comes handy especially if you are trading small-cap altcoins, and AFAIK not available from elsewhere.</p>
+
+<p>Bitgur heatmaps live on <a href="https://bitgur.com/map">bitgur.com/map</a>.</p>
+:ET
