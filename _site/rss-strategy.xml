@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 06 Oct 2020 02:14:08 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2020 02:14:08 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2020 02:28:15 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2020 02:28:15 +0000</lastBuildDate>
 
     
       <item>
@@ -79,7 +79,7 @@
     
       <item>
 
-        <title>Margin Lending Strategy Template</title>
+        <title>Margin Lending Strategy Template (Best for Bitfinex lending)</title>
         <description>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</description>
 
         <pubDate>Sat, 11 Nov 2017 03:36:00 +0000</pubDate>
@@ -135,7 +135,9 @@
         
         <category>fibonacci-retracement</category>
         
-        <category>bitfinex</category>
+        <category>tradingview</category>
+        
+        <category>bitmex</category>
         
         <category>independent-reserve</category>
         
@@ -199,17 +201,17 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/scalping/</guid>
 
         
-        <category>tensorcharts</category>
-        
         <category>orderbook-heatmap</category>
         
         <category>scalping</category>
         
         <category>cryptocurrency-trading</category>
         
+        <category>tensorcharts</category>
+        
         <category>bitmex</category>
         
-        <category>bitfinex</category>
+        <category>tradingview</category>
         
         
         <category>trading</category>
@@ -243,9 +245,11 @@
         
         <category>cryptocurrency-trading</category>
         
-        <category>bitfinex</category>
+        <category>tradingview</category>
         
         <category>independent-reserve</category>
+        
+        <category>bitfinex</category>
         
         
         <category>trading</category>
@@ -280,8 +284,6 @@
         <category>trading-strategy</category>
         
         <category>crypto-trading</category>
-        
-        <category>bitfinex</category>
         
         <category>independent-reserve</category>
         
@@ -351,7 +353,7 @@
         
         <category>crypto-trading</category>
         
-        <category>bitfinex</category>
+        <category>ledger</category>
         
         <category>independent-reserve</category>
         
@@ -421,6 +423,8 @@
         
         <category>bitmex</category>
         
+        <category>tradingview</category>
+        
         
         <category>trading</category>
         
@@ -458,8 +462,6 @@
         <category>rational-analysis</category>
         
         <category>bitmex</category>
-        
-        <category>bitfinex</category>
         
         
         <category>crypto-value-judgement</category>

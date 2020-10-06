@@ -4,7 +4,7 @@ published: true
 note: 'Real Data'
 
 layout: strategy
-title: "Margin Lending Strategy Template"
+title: "Margin Lending Strategy Template (Best for Bitfinex lending)"
 description: "How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts."
 
 categories:   [ yield ]

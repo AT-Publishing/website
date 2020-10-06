@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 06 Oct 2020 02:14:08 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2020 02:14:08 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2020 02:28:15 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2020 02:28:15 +0000</lastBuildDate>
 
     
       <item>
@@ -44,45 +44,6 @@
         
         
         <category>cryptocurrency-wallets</category>
-        
-      </item>
-    
-      <item>
-
-        <title>Cryptocurrency Wallet Backups: Your Options</title>
-        <description>Secure crypto wallet backup solutions - digital and non-digital - are a big theme, and this is a big post that will be updated when new ideas emerge.</description>
-
-        <pubDate>Fri, 13 Oct 2017 09:22:00 +0000</pubDate>
-
-        <author>info@altcointrading.net</author>
-        <webmaster>security@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693895/atnet/__women/pexels-bongkarn-thanyakij-3803225_pa4xi1.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/security/backups/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/security/backups/</guid>
-        
-
-        <category>crypto-opsec</category>
-        
-        
-        <category>cryptocurrency-wallets</category>
-        
-        <category>bitcoin-wallet</category>
-        
-        <category>altcoin-wallet</category>
-        
-        <category>private-keys</category>
-        
-        <category>electrum</category>
-        
-        <category>jaxx</category>
-        
-        <category>exodus</category>
-        
-        <category>ledger</category>
-        
-        <category>trezor</category>
         
       </item>
     

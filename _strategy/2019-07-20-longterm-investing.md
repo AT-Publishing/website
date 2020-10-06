@@ -13,7 +13,7 @@ title: "Crypto Investment Strategy: Step By Step Guide to Long-Term Holding"
 description: "Full walkthrough with all the basics you need to have down for a sensible mid to long-term cryptocurrency investment strategy. With a case in point - XRP. "
 
 categories: ["trading"]
-tags: [ "hodl-strategy", "crypto-investment-strategy", "swing-trading", "trading-strategy", "crypto-trading", "bitfinex", "independent-reserve"]
+tags: [ "hodl-strategy", "crypto-investment-strategy", "swing-trading", "trading-strategy", "crypto-trading", "ledger", "independent-reserve"]
 
 slug: "crypto-investment/"
 cz: false
