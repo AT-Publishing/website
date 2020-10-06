@@ -220,7 +220,7 @@ TradingView has an offer for crypto traders to promote their new payment option 
 
 The price for the **unlimited TradingView** subscription with bitcoin payments is **fixed at 0.09 BTC per year**, and so the USD price for your TradingView PRO varies with the changes in BTCUSD price.
 
-<b>Go to the TradingView crypto offer <a href="http://bit.ly/tradingview-moon" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
+<b>Go to the TradingView crypto offer <a href="https://bit.ly/at-tvd-eth" rel="nofollow">TradingView Deal</a> and see how much discount you'll be getting.</b>
 
 <div id="past2018"></div>
 
