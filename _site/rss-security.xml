@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 06 Oct 2020 03:06:28 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2020 03:06:28 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2020 08:50:42 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2020 08:50:42 +0000</lastBuildDate>
 
     
       <item>
@@ -382,6 +382,45 @@
         
         
         <category>dont-be-pwned</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Cryptocurrency Wallet Backups: Your Options</title>
+        <description>Non-digital crypto wallet backups are better for longer term. Digital backups for shorter time, such as when you need to get rid of crypto software from your laptop only for a few days.</description>
+
+        <pubDate>Mon, 05 Oct 2020 23:22:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693895/atnet/__women/pexels-bongkarn-thanyakij-3803225_pa4xi1.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/security/backups/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/security/backups/</guid>
+        
+
+        <category>crypto-opsec</category>
+        
+        
+        <category>cryptocurrency-wallets</category>
+        
+        <category>bitcoin-wallet</category>
+        
+        <category>altcoin-wallet</category>
+        
+        <category>private-keys</category>
+        
+        <category>electrum</category>
+        
+        <category>jaxx</category>
+        
+        <category>exodus</category>
+        
+        <category>ledger</category>
+        
+        <category>trezor</category>
         
       </item>
     
