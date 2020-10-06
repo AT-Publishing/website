@@ -2408,6 +2408,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--tether-hack",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--tether-hack",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--tether-hack",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2586,7 +2666,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Tether has issued an emergency notice stating that more than 30 millions of newly generated tethers have been stolen by an unknown malicious hacker.</p>
 
 <p><a href="https://tether.to/tether-critical-announcement/">https://tether.to/tether-critical-announcement/</a></p>
@@ -2633,9 +2713,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-HEISTS: <a href="/eth-multisig-hack/">ETH multisig hack</a></li>
+      <li>#CRYPTO-HEISTS: <a href="/bitfinex-tether-transparency/">ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</a></li>
       
-      <li>#CRYPTO-HEISTS: <a href="/tether-hack/">Tether Emergency Notice</a></li>
+      <li>#CRYPTO-HEISTS: <a href="/finexening/">The Finexening - Bitfinex hack</a></li>
       
         
       
@@ -2677,33 +2757,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/ico-regulations/" title="Is the end of ICOs approaching?"><b>Is the end of ICOs approaching?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Is the end of ICOs approaching?" href="/ico-regulations/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/05/09/facebook-ico-group.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2734,14 +2795,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/blockchain-entertainment-industry/" title="How Blockchain Disrupts the Entertainment Industry"><b>How Blockchain Disrupts the Entertainment Industry</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/byteball/" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)"><b>GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How Blockchain Disrupts the Entertainment Industry" href="/blockchain-entertainment-industry/">
+      <a class="cat-internal-link" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)" href="/byteball/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/wm/blockchain-entertainment.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/07/11/pexels-photo-200092.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2753,14 +2814,33 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-heists-infographic/" title="Shocking Facts About Cryptocurrency Heists [Infographics]"><b>Shocking Facts About Cryptocurrency Heists [Infographics]</b> in <b>#CRYPTO-OPSEC</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Shocking Facts About Cryptocurrency Heists [Infographics]" href="/cryptocurrency-heists-infographic/">
+      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/sadness.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry"><span class="tag custom-note">Opinion</span>&nbsp;<b>In 2020, Women Are Finally Breaking Into the Bitcoin Industry</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 18 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry" href="/women-in-bitcoin/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

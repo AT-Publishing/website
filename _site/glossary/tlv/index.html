@@ -2362,6 +2362,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--glossarytlv",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--glossarytlv",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--glossarytlv",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2540,7 +2620,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content" id="block-intext">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <h3 id="what-is-tlv">What is TLV</h3>
 
 <p>TLV is short for Total Locked Value, a <a href="/glossary/yield-farming/">yield farming</a> market metric.</p>

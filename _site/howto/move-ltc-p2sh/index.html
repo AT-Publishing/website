@@ -2369,6 +2369,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--howtomove-ltc-p2sh",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--howtomove-ltc-p2sh",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--howtomove-ltc-p2sh",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2548,7 +2628,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Back in 2017, some time before Bitcoin, Litecoin also upgraded their network to get SegWit support. Segwit, or segregated witness, makes transactions more efficient and cheaper, and also enabled atomic swaps between LTC and BTC.</p>
 
 <p>This newer format is called <code class="language-plaintext highlighter-rouge">P2SH</code> (pay-to-script-hash).</p>

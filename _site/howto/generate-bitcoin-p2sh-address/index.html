@@ -2380,6 +2380,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--howtogenerate-bitcoin-p2sh-address",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--howtogenerate-bitcoin-p2sh-address",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--howtogenerate-bitcoin-p2sh-address",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2559,7 +2639,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p><strong>This is a tutorial to help you generate P2SH bitcoin addresses to withdraw bitcoin from non-custodial apps like <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a>.</strong></p>
 
 <p>If you are a P2P or DEX crypto trader, you probably know that to receive BTC from a decentralized app, you need to use a SegWit bitcoin address.</p>

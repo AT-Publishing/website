@@ -2372,6 +2372,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--scriptspotlight-bollinger-band-width-indicator",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--scriptspotlight-bollinger-band-width-indicator",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--scriptspotlight-bollinger-band-width-indicator",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2551,7 +2631,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>In this Script Spotlight we are looking at scripts of Bollinger Band Width that are available from Tradingview public library. <em>If you don’t have a TradingView account yet, <a href="http://bit.ly/at-tvd-eth">make a free one here</a>.</em></p>
 
 <h3 id="bollinger-band-width">Bollinger Band Width</h3>
@@ -2641,15 +2721,15 @@ amp-user-notification>div>div {
     
         
       
-      <li>#TRADINGVIEW-SCRIPTS: <a href="/ichimoku-cloud/">Ichimoku Cloud for Crypto Trading</a></li>
+      <li>#TRADINGVIEW-SCRIPTS: <a href="/detrended-price-oscillator/">Script Spotlight: Detrended Price Oscillator (DPO)</a></li>
       
       <li>#TRADINGVIEW-SCRIPTS: <a href="/scriptspotlight-auto-divergences/">Script Spotlight: Automatic Divergences</a></li>
       
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method and ranging markets</a></li>
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/lending/">Margin Lending Strategy Template</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
       
     
   </ol>
@@ -2688,33 +2768,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-a-d-levels/" title="Script Spotlight: A/D Levels"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: A/D Levels</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 29 Sep 2020</a>
+        <a class="index-internal" href="/ichimoku-cloud/" title="Ichimoku Cloud for Crypto Trading"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Ichimoku Cloud for Crypto Trading</b> in <b>#CRYPTO-CHARTING</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: A/D Levels" href="/scriptspotlight-a-d-levels/">
+      <a class="cat-internal-link" title="Ichimoku Cloud for Crypto Trading" href="/ichimoku-cloud/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/scriptspotlight/adl/adl1.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/technical-analysis/" title="Technical Analysis in Cryptocurrency Trading"><span class="tag custom-note">Trading Blog</span>&nbsp;<b>Technical Analysis in Cryptocurrency Trading</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2745,14 +2806,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitgur/" title="Another better Coinmarketcap - with a heatmap tool"><span class="tag custom-note">Feature</span>&nbsp;<b>Another better Coinmarketcap - with a heatmap tool</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/technical-analysis/" title="Technical Analysis in Cryptocurrency Trading"><span class="tag custom-note">Trading Blog</span>&nbsp;<b>Technical Analysis in Cryptocurrency Trading</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
+      <a class="cat-internal-link" title="Technical Analysis in Cryptocurrency Trading" href="/technical-analysis/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/bitgur.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/2018/technical-analysis.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2772,6 +2833,25 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
         <figure class="thumb">
           <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/detrended-price-oscillator/" title="Script Spotlight: Detrended Price Oscillator (DPO)"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Detrended Price Oscillator (DPO)</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 22 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

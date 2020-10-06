@@ -2362,6 +2362,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--glossaryperps",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--glossaryperps",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--glossaryperps",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2540,7 +2620,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content" id="block-intext">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>In the crypto trader jargon, <strong>perps</strong> is short for <strong>perpetual contract</strong> or <strong>perpetual swap</strong>, a popular derivative product intruduced by <a href="http://bit.ly/2Muo11z">BitMEX trading platform</a>. Similar product is now traded also on OKEx and elsewhere.</p>
 
 <p>The perpetual contract is derivative product like a future contract, but there is no expiration date. Therefore you will not get the futures-specific behavior near the expiration date, the perpetual contract behaves more like spot market.</p>
@@ -2584,14 +2664,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/glossary/squishy/" title="Squishy"><span class="tag custom-note">jargon</span>&nbsp;<b>Squishy</b> in <b>#SQUISHY</b>  updated on 30 Sep 2020</a>
+        <a class="index-internal" href="/glossary/lbc/" title="LBC"><span class="tag custom-note">jargon</span>&nbsp;<b>LBC</b> in <b>#TRADING-PLATFORM</b>  updated on 04 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Squishy" href="/glossary/squishy/">
+      <a class="cat-internal-link" title="LBC" href="/glossary/lbc/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586939760/atnet/_glossary/macd-squishy.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

@@ -2362,6 +2362,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--howtonews-analysis",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--howtonews-analysis",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--howtonews-analysis",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2541,7 +2621,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p><strong>The blockchain industry is still in a phase of rapid growth, and so the number of cryptocurrency news outlets is ever increasing.</strong></p>
 
 <p>One one hand, this growing number of independent information resources goes very well with the concept of decentralization. There is absolutely nothing wrong with that.</p>
@@ -2649,9 +2729,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/bitcoin-coronavirus-crisis/">Will Your Bitcoin Investment Suffer from Coronavirus?</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/pos/">Economics of Proof of Stake</a></li>
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/wyckoff-avoidance/">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/cryptocurrency-strategy-beginners/">Cryptocurrency Strategy for Beginners</a></li>
       
         
       

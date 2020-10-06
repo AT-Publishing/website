@@ -2363,6 +2363,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--securitythreats-cryptotraders-2020",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--securitythreats-cryptotraders-2020",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--securitythreats-cryptotraders-2020",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2518,9 +2598,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-OPSEC: <a href="/trezor-hack/">Trezor devices have serious security vulnerability</a></li>
-      
       <li>#CRYPTO-OPSEC: <a href="/tools/">List of Crypto Trading Tools (Free and Freemium)</a></li>
+      
+      <li>#CRYPTO-OPSEC: <a href="/cryptocurrency-heists-infographic/">Shocking Facts About Cryptocurrency Heists [Infographics]</a></li>
       
         
       
@@ -2586,7 +2666,7 @@ amp-user-notification>div>div {
             <a target="_blank" href="https://us15.list-manage.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
           </p>
           <hr>
-          <div class="securitycontent intext">
+          <div class="securitycontent intext" id="article-body">
             <p>Malware and exploits are a real maturing industry, the times are long gone when you had to be a literal high-tech lowlife in order to hack someone.</p>
 
 <p>As we reported back in 2018, you can get <a href="/security/nocturnal-stealer/">Malware-as-a-Service for measly 20 bucks</a> if you’re ok to try your luck with something generic in hopes there is still some low-hanging fruit left.</p>

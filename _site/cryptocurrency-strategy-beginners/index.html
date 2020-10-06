@@ -2362,6 +2362,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--cryptocurrency-strategy-beginners",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--cryptocurrency-strategy-beginners",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--cryptocurrency-strategy-beginners",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2541,7 +2621,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Let’s face it right away.</p>
 
 <h3 id="crypto-trading-is-not-for-everyone">Crypto trading is not for everyone</h3>
@@ -2669,13 +2749,13 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/women-in-bitcoin/">In 2020, Women Are Finally Breaking Into the Bitcoin Industry</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/cryptocurrency-strategy-beginners/">Cryptocurrency Strategy for Beginners</a></li>
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/time-vs-timing/">Time in the Market vs Timing the Market</a></li>
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/wyckoff-avoidance/">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a></li>
       
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/lending/">Margin Lending Strategy Template</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
       
       <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method and ranging markets</a></li>
       
@@ -2715,14 +2795,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners"><span class="tag custom-note">Hodling</span>&nbsp;<b>Cryptocurrency Strategy for Beginners</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 21 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
+      <a class="cat-internal-link" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2753,14 +2833,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
+        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
+      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2772,14 +2852,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners"><span class="tag custom-note">Hodling</span>&nbsp;<b>Cryptocurrency Strategy for Beginners</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 21 Aug 2020</a>
+        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
+      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

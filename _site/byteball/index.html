@@ -2364,6 +2364,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--byteball",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--byteball",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--byteball",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2542,7 +2622,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Every couple of weeks, always on the full moon, the blackbytes airdrops were happening. If you signed a message with a BTC address before the deadline, you received free <strong>[giga]bytes</strong> and some hours later also some <strong>[giga]blackbytes</strong>.</p>
 
 <p>While the bytes can be traded on <a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE">Bittrex (by millions as GBYTE)</a>, the blackbytes aren’t traded anywhere. To trade these for bytes you need to sign up to the byteball slack channel <a href="http://slack.byteball.org/">via the autoinviter here</a> and head to #trading_blackbyte channel. The channel has a bot that works as an order book by Gigabyte per Gigablackbyte:</p>
@@ -2630,9 +2710,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/bakkt-criticism/">The grim side of Bakkt's potential consequences</a></li>
+      <li>#ADOPTION: <a href="/etheremon-kyber-network/">Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</a></li>
       
-      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
+      <li>#ADOPTION: <a href="/twitter-crypto-ban-info/">Twitter's 2018 Crypto Ban</a></li>
       
         
       
@@ -2674,14 +2754,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/tokenization-startup-boost/" title="Tokenization can boost startups in growing industries like home remodeling"><b>Tokenization can boost startups in growing industries like home remodeling</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Tokenization can boost startups in growing industries like home remodeling" href="/tokenization-startup-boost/">
+      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/home-decor-startups.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2693,14 +2773,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/weiss-rating/" title="Weiss rating of cryptocurrencies is due today at 8AM UTC"><b>Weiss rating of cryptocurrencies is due today at 8AM UTC</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being"><span class="tag custom-note">PSA</span>&nbsp;<b>CEX.IO Not Accepting New Users for the Time Being</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Weiss rating of cryptocurrencies is due today at 8AM UTC" href="/weiss-rating/">
+      <a class="cat-internal-link" title="CEX.IO Not Accepting New Users for the Time Being" href="/cex-io-registrations/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/weiss-ratings.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2712,14 +2792,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/millennials-bitcoin-valuation/" title="Thomas Lee on how millennials probably will make the cryptocurrency market"><b>Thomas Lee on how millennials probably will make the cryptocurrency market</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Thomas Lee on how millennials probably will make the cryptocurrency market" href="/millennials-bitcoin-valuation/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/rain.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2731,14 +2811,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/blockchain-entertainment-industry/" title="How Blockchain Disrupts the Entertainment Industry"><b>How Blockchain Disrupts the Entertainment Industry</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How Blockchain Disrupts the Entertainment Industry" href="/blockchain-entertainment-industry/">
+      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/wm/blockchain-entertainment.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2750,14 +2830,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC"><b>Reddit on the Bcash runup: BCH vs BTC</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
+      <a class="cat-internal-link" title="Reddit on the Bcash runup: BCH vs BTC" href="/bcash-rally-november-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

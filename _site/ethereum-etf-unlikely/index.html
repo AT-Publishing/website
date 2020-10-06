@@ -2423,6 +2423,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--ethereum-etf-unlikely",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--ethereum-etf-unlikely",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--ethereum-etf-unlikely",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2601,7 +2681,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p><a target="_blank" href="https://www.altcointrading.net/img/emotions/sadness.jpg" title="AltcoinTrading.NET - Bitcoin ETF rejected, Ethereum ETF is probably off the table too"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/emotions/sadness.jpg" alt="Bitcoin ETF rejected, Ethereum ETF is probably off the table too" title="AltcoinTrading.NET - Bitcoin ETF rejected, Ethereum ETF is probably off the table too" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: Cryptocurrencies are not going to be part of the mainstream finance for now.</em></p>
@@ -2713,14 +2793,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?"><span class="tag custom-note">Editorial</span>&nbsp;<b>Why Are So Many People Trading Cryptocurrency?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
+      <a class="cat-internal-link" title="Why Are So Many People Trading Cryptocurrency?" href="/crypto-trading-growth/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/cryptocurrency-markets.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2732,14 +2812,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/how-blockchain-disrupts-legal/" title="How Blockchain Disrupts The Legal Industry: A Primer"><b>How Blockchain Disrupts The Legal Industry: A Primer</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
+      <a class="cat-internal-link" title="How Blockchain Disrupts The Legal Industry: A Primer" href="/how-blockchain-disrupts-legal/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/legal-disruption.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2751,14 +2831,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/stability-of-stablecoins/" title="The Stability of Stablecoins: NuBits all over again? "><b>The Stability of Stablecoins: NuBits all over again? </b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/interview-andrew-gazdecki/" title="Andrew Gazdecki on The Future of DEX Trading"><span class="tag custom-note">Interview</span>&nbsp;<b>Andrew Gazdecki on The Future of DEX Trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Stability of Stablecoins: NuBits all over again? " href="/stability-of-stablecoins/">
+      <a class="cat-internal-link" title="Andrew Gazdecki on The Future of DEX Trading" href="/interview-andrew-gazdecki/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/stablecoins/stability-of-stablecoins.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2770,14 +2850,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being"><span class="tag custom-note">PSA</span>&nbsp;<b>CEX.IO Not Accepting New Users for the Time Being</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stats-2019/" title="Products of 2019: What did crypto traders most spend on?"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Products of 2019: What did crypto traders most spend on?</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="CEX.IO Not Accepting New Users for the Time Being" href="/cex-io-registrations/">
+      <a class="cat-internal-link" title="Products of 2019: What did crypto traders most spend on?" href="/stats-2019/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/2020/stats-spending-traders.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2789,14 +2869,14 @@ These Ideas can’t exist on the same chain, there isn’t some quantum solution
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?"><span class="tag custom-note">Trading</span>&nbsp;<b>Will Your Bitcoin Investment Suffer from Coronavirus?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Will Your Bitcoin Investment Suffer from Coronavirus?" href="/bitcoin-coronavirus-crisis/">
+      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

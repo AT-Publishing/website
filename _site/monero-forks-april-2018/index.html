@@ -2454,6 +2454,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--monero-forks-april-2018",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--monero-forks-april-2018",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--monero-forks-april-2018",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2632,7 +2712,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Gone are the times when Monero was immune to the forking trend. Upon their latest upgrade on 6 April 2018 that booted ASIC mining there have been so many forks that monero.org (not getmonero.org) set up a <a href="https://monero.org/forks/">special page on their website listing all of the fork events and spin-off cryptocurrencies</a>.</p>
 
 <p>This article is putting the names together with the forks’ latest development updates and also checking back on the “original Monero” projects that cropped up early in April 2018, starting off with the one fork that is happening fairly soon.</p>
@@ -2773,14 +2853,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
+      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2792,14 +2872,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stats-2018/" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
+      <a class="cat-internal-link" title="Stats from 2018 - Readers like Melancholic 100x and Ledger Wallets" href="/stats-2018/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tradingstation.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2811,14 +2891,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitcoin-gold/" title="Bitcoin Gold: Why is it getting dismissed so fast?"><b>Bitcoin Gold: Why is it getting dismissed so fast?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Bitcoin Gold: Why is it getting dismissed so fast?" href="/bitcoin-gold/">
+      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/freelunch1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2830,14 +2910,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stats-2019/" title="Products of 2019: What did crypto traders most spend on?"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Products of 2019: What did crypto traders most spend on?</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="Products of 2019: What did crypto traders most spend on?" href="/stats-2019/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/2020/stats-spending-traders.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2849,14 +2929,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/etheremon-kyber-network/" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol"><b>Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC"><b>Reddit on the Bcash runup: BCH vs BTC</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Etheremon is the first dApp Game to integrate with Kyber Network’s liquidity protocol" href="/etheremon-kyber-network/">
+      <a class="cat-internal-link" title="Reddit on the Bcash runup: BCH vs BTC" href="/bcash-rally-november-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/urban/uturn.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

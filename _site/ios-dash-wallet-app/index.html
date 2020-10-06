@@ -2406,6 +2406,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--ios-dash-wallet-app",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--ios-dash-wallet-app",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--ios-dash-wallet-app",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2584,7 +2664,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Anonymous coins have always been a concern for the App Store as allegedly they didn’t want to be linked to illicit activities. If you are a DASH holder though, your situation regarding wallets is a bit less bleak than what’s normal for crypto right now.</p>
 
 <p><strong>The new official DASH wallet</strong></p>
@@ -2637,9 +2717,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#REGULATIONS: <a href="/red-flag-bittrex/">Something rotten: Strange actions from Bittrex</a></li>
+      <li>#REGULATIONS: <a href="/sec-cryptocurrencies-not-securities-market-rebound/">SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</a></li>
       
-      <li>#REGULATIONS: <a href="/ios-dash-wallet-app/">Anonymous coins on the Apple App Store</a></li>
+      <li>#REGULATIONS: <a href="/red-flag-bittrex/">Something rotten: Strange actions from Bittrex</a></li>
       
         
       
@@ -2681,14 +2761,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/garyvee-eth/" title="Gary Vee on Ethereum"><b>Gary Vee on Ethereum</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
+      <a class="cat-internal-link" title="Gary Vee on Ethereum" href="/garyvee-eth/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/emotions/gary.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2700,14 +2780,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
+      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2719,14 +2799,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/litecoin-pump/" title="Litecoin: This time it's different?"><b>Litecoin: This time it's different?</b> in <b>#</b>  updated on 29 Sep 2020</a>
+        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Litecoin: This time it's different?" href="/litecoin-pump/">
+      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/up.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2738,14 +2818,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/weiss-rating/" title="Weiss rating of cryptocurrencies is due today at 8AM UTC"><b>Weiss rating of cryptocurrencies is due today at 8AM UTC</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/sec-cryptocurrencies-not-securities-market-rebound/" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds"><b>SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Weiss rating of cryptocurrencies is due today at 8AM UTC" href="/weiss-rating/">
+      <a class="cat-internal-link" title="SEC - Cryptocurrencies such as Bitcoin and Ethereum are not securities; market rebounds" href="/sec-cryptocurrencies-not-securities-market-rebound/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/weiss-ratings.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-newspaper.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2757,14 +2837,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/interview-andrew-gazdecki/" title="Andrew Gazdecki on The Future of DEX Trading"><span class="tag custom-note">Interview</span>&nbsp;<b>Andrew Gazdecki on The Future of DEX Trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
+      <a class="cat-internal-link" title="Andrew Gazdecki on The Future of DEX Trading" href="/interview-andrew-gazdecki/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

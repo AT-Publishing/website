@@ -2458,6 +2458,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--bcash-rally-november-2017",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--bcash-rally-november-2017",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--bcash-rally-november-2017",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2636,7 +2716,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <h4 id="gossip-update-on-29-november-2017-staying-in-the-loop">Gossip Update on 29 November 2017: Staying in the loop</h4>
 
 <amp-twitter width="375" height="472" layout="responsive" data-tweetid="935326980026830848">
@@ -2737,9 +2817,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/ledger-monero/">Ledger CTO says Monero viable</a></li>
+      <li>#ADOPTION: <a href="/twitter-crypto-ban-info/">Twitter's 2018 Crypto Ban</a></li>
       
-      <li>#ADOPTION: <a href="/cex-io-registrations/">CEX.IO Not Accepting New Users for the Time Being</a></li>
+      <li>#ADOPTION: <a href="/ledger-monero/">Ledger CTO says Monero viable</a></li>
       
         
       
@@ -2781,14 +2861,52 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry"><span class="tag custom-note">Opinion</span>&nbsp;<b>In 2020, Women Are Finally Breaking Into the Bitcoin Industry</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 18 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
+      <a class="cat-internal-link" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry" href="/women-in-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/cex-io-registrations/" title="CEX.IO Not Accepting New Users for the Time Being"><span class="tag custom-note">PSA</span>&nbsp;<b>CEX.IO Not Accepting New Users for the Time Being</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="CEX.IO Not Accepting New Users for the Time Being" href="/cex-io-registrations/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/cexio-registration.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2819,52 +2937,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><span class="tag custom-note">Feature</span>&nbsp;<b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

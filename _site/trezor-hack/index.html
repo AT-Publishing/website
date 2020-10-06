@@ -2440,6 +2440,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--trezor-hack",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--trezor-hack",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--trezor-hack",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2618,7 +2698,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Just yesterday, Trezor released a security update. It updated your firmware to version 1.5.2 as older versions of firmware could make your seedphrase visible to someone who’d steal the device, took it apart and flashed it with a hacked-up firmware.</p>
 
 <p><a href="https://blog.trezor.io/trezor-firmware-security-update-1-5-2-5ef1b6f13fed">Here</a> is the official story from Satoshi Labs:</p>
@@ -2707,7 +2787,7 @@ amp-user-notification>div>div {
       
       <li>#CRYPTO-OPSEC: <a href="/crypto-storage-for-traders/">Crypto Wallets by Use Case</a></li>
       
-      <li>#CRYPTO-OPSEC: <a href="/monero-wallet/">Monero Wallets: Your options in 2020</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2020 Updated</a></li>
       
         
       
@@ -2749,14 +2829,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/jaxx-vulnerability/" title="PSA - Jaxx Vulnerability (2017)"><b>PSA - Jaxx Vulnerability (2017)</b> in <b>#MULTICOIN-WALLET</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/monero-wallet/" title="Monero Wallets: Your options in 2020"><span class="tag custom-note">Wallet Guide</span>&nbsp;<b>Monero Wallets: Your options in 2020</b> in <b>#CRYPTO-OPSEC</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="PSA - Jaxx Vulnerability (2017)" href="/jaxx-vulnerability/">
+      <a class="cat-internal-link" title="Monero Wallets: Your options in 2020" href="/monero-wallet/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/wallets/jaxx12.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2787,33 +2867,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/monero-wallet/" title="Monero Wallets: Your options in 2020"><span class="tag custom-note">Wallet Guide</span>&nbsp;<b>Monero Wallets: Your options in 2020</b> in <b>#CRYPTO-OPSEC</b>  updated on 01 Oct 2020</a>
+        <a class="index-internal" href="/jaxx-vulnerability/" title="PSA - Jaxx Vulnerability (2017)"><b>PSA - Jaxx Vulnerability (2017)</b> in <b>#MULTICOIN-WALLET</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Monero Wallets: Your options in 2020" href="/monero-wallet/">
+      <a class="cat-internal-link" title="PSA - Jaxx Vulnerability (2017)" href="/jaxx-vulnerability/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 01 Oct 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/wallets/jaxx12.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2833,6 +2894,25 @@ amp-user-notification>div>div {
       <a class="cat-internal-link" title="Crypto Wallets by Use Case" href="/crypto-storage-for-traders/">
         <figure class="thumb">
           <amp-img itemprop="image" src="/editorial/altcointrading-strategy.jpeg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/samourai-wallet-bitcoin-anonymity/" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"><b>Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</b> in <b>#BITCOIN-WALLET</b>  updated on 01 Oct 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility" href="/samourai-wallet-bitcoin-anonymity/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/security.jpg" alt="Related in cryptocurrency-wallets" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

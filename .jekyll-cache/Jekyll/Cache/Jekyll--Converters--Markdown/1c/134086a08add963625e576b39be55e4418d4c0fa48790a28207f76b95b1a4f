@@ -1,0 +1,227 @@
+I"�><p>Secure crypto wallet backup solutions are a big theme.</p>
+
+<p>Crypto traders as well as hodlers tend to avoid work on backups, because it’s not fun. As someone pointed out on Reddit, people like to code creative hacks for all kinds of things related to crypto, but they will so often either skip backups entirely or never test them.</p>
+
+<p>Not a good idea with crypto, where you literally are your own bank.</p>
+
+<h2 id="seed-phrase-backups">Seed Phrase Backups</h2>
+
+<p>Whether you are using <a href="/glossary/electrum">Electrum</a> for Bitcoin, <a href="/altcoin-wallets/">Exodus for all kinds of altcoins</a> or a hardware wallet like <a href="/blackfriday/#live-ledger">Ledger</a>, your default cryptocurrency wallet backup is <em>always</em> the <strong>backup of the 12+ word recovery seed phrase</strong>.</p>
+
+<p>The seed phrase backup should be written on a piece of paper, in case you are writing down the literal full seed phrase.</p>
+
+<p>There are safe ways to back up your seed phrase electronically, too.</p>
+
+<div id="seed-nondigital"></div>
+
+<h3 id="non-digital-backups">Non-Digital Backups</h3>
+
+<h4 id="basic-seed-phrase-backup">Basic Seed Phrase Backup</h4>
+
+<p>If you can store your full seed phrase in <strong>multiple safe locations</strong>, a good choice is a piece of paper and <strong>regular pencil</strong>. Not ink or gel pen or anything that catches air humidity – just a regular pencil.</p>
+
+<ul>
+  <li>Electrum will display your seed while you are setting up your wallet, and it won’t let you finish the setup without writing the seed down and retyping it in.</li>
+  <li>In user-friendly wallets like Exodus, Jaxx or Blockchain.com you need to go to Settings and Backup. (It’s usually called the same.) That will show you the seed phrase. Write it down.</li>
+  <li>Exodus and possibly some other wallet will not display your recovery seed phrase if your wallet is empty.</li>
+</ul>
+
+<p>A decent place to store this seed phrase backup would be a <strong>safety deposit box</strong> in a bank or elsewhere, or <strong>your lawyer’s office</strong>.</p>
+
+<h4 id="how-to-make-pencil-and-paper-privkey-backup-safer">How to make pencil-and-paper privkey backup safer</h4>
+
+<ul>
+  <li>
+    <p>Get a metal sheet seed phrase storage such as <a href="http://bit.ly/at-csteel-caps2x">CryptoSteel</a> or <a href="http://bit.ly/at-ppros-2020">BillFodl</a>.</p>
+
+    <p>They are equivalent products, CryptoSteel ships from EU while BillFodl from US. Both are made of high grade stainless steel and are resistant to rust, fire and explosion. Sometimes you can get them in bundle deals with Trezor wallets, check our <a href="/blackfriday/">Eternal Black Friday</a> page for more.</p>
+  </li>
+  <li>
+    <p>Split your seed into chunks and divide them between several people. Then give instruction about the order of the pieces to a lawyer. You should not give the whole seed AND instructions to a single person.</p>
+  </li>
+  <li>
+    <p>Shuffle your seed. Example: A 12-word recovery phase splits into three groups by four words. Decide to move every third word to the following group. <em>You should test yourself a few times on how to shuffle your seed back.</em></p>
+  </li>
+</ul>
+
+<h4 id="paper-wallet-crypto-backup">Paper wallet crypto backup</h4>
+
+<p>A more technical way is to get a <em>paper wallet generator</em>.</p>
+
+<p>A paper wallet generator will print your seed phrase or private key along with a QR code that you will be able to scan with your smartphone.</p>
+
+<p>This way is not so popular anymore, it’s here pretty much to just say the following:</p>
+
+<ul>
+  <li><strong>Do not use a paper wallet generator that is hosted online</strong>.</li>
+</ul>
+
+<p>You should use a paper wallet generator that you downloaded from Github, ideally from a release page of your coin’s developer team or from a link that was recommended on the dev’s website</p>
+
+<ul>
+  <li>
+    <p><strong>Always use a paper wallet generator offline</strong>.</p>
+  </li>
+  <li>
+    <p>To print a paper wallet, it is safer to <strong>connect to a printer via a cable</strong> instead of wifi.</p>
+  </li>
+  <li>
+    <p>The printer should be your own, not a public one. <a href="https://www.pcworld.com/article/254518/your_printer_could_be_a_security_sore_spot.html">Data sent to print are in some cases retrievable from printers</a>.</p>
+  </li>
+</ul>
+
+<p>You see how much easier it is to just write things down with a pencil.</p>
+
+<p><em>Paper wallet generators for some popular cryptocurrencies:</em></p>
+
+<ul>
+  <li><a href="https://github.com/cantonbecker/bitcoinpaperwallet">Bitcoin</a></li>
+  <li><a href="https://github.com/matthiaszimmermann/ethereum-paper-wallet">Ethereum</a></li>
+  <li><a href="https://github.com/litecoin-project/liteaddress.org">Litecoin</a></li>
+  <li><a href="https://github.com/moneromooo-monero/monero-wallet-generator">Monero</a></li>
+  <li><a href="https://github.com/arancauchi/IOTA-Paper-Wallet">IOTA</a></li>
+  <li><a href="https://github.com/stellar/paper-wallet">Stellar Lumens</a></li>
+  <li><a href="https://github.com/PIVX-Project/PIVX-Paperwallet">PIVX</a></li>
+</ul>
+
+<div id="seed-digital"></div>
+
+<h3 id="digital-backups">Digital Backups</h3>
+
+<p>If you want to have your seed phrase at hand, without having to go to your safety box in the bank all the time, you will need to store it on some way on your computer.</p>
+
+<p>Digital backups are safe, but if your wallet has a lot of crypto, you will probably not want to risk anything. Stick to paper backups. <strong>It’s a fair choice if you don’t feel like a tech person and a command line power user.</strong></p>
+
+<p>There are some things you should still back up digitally even if it’s not going to be the seed phrase.</p>
+
+<h4 id="what-to-still-back-up-digitally-as-a-non-techie">What to still back up digitally as a non-techie</h4>
+
+<p>If you have multiple seed phrases physically stored at multiple locations, you should definitely store <strong>hints</strong> as to where to find them.</p>
+
+<p>No need to store the full directions, just the hint that will help you recall where the storage is.</p>
+
+<p>You <em>will</em> need a hint for a cold storage that has not been accessed in a few years.</p>
+
+<p>It is safe to do the same for your password reminders: Back up the hints in an encrypted note in LastPass, or as an email draft in a <a href="/security/email-reuse/">zero-knowledge email client like Tutanota</a>.</p>
+
+<p>Use 2FA.</p>
+
+<p>Don’t backup the actual full data, just the hints.</p>
+
+<p>That way it’s safe.</p>
+
+<h4 id="digital-seed-phrase-backups">Digital seed phrase backups</h4>
+
+<p>In the first layer in digital backups it’s not even about encryption - it’s about not making it obvious that there is something to hide. To access well hidden data, one should need to know not only a passphrase but also where exactly to look for.</p>
+
+<p>…
+…
+…
+…
+…</p>
+
+<h4 id="digital-crypto-wallet-backups-electrum-wallet-backup">Digital Crypto Wallet Backups: Electrum Wallet Backup</h4>
+
+<p>Many crypto wallets generate a file called something like <code class="language-plaintext highlighter-rouge">wallet.dat</code> when you are generating a new wallet.</p>
+
+<p>There is a lot of malware that is programmed to look for wallet.dat files.</p>
+
+<p>Since version 2.8, <a href="/glossary/electrum/">Bitcoin Electrum</a> will by default encrypt the wallet file. Your wallet seed is encrypted once again inside of the (already encrypted) wallet file.</p>
+
+<ul>
+  <li>If you go with the default wallet name during your wallet creation, the file will still be called <code class="language-plaintext highlighter-rouge">default_wallet</code>. On Linux and Mac it is located in <code class="language-plaintext highlighter-rouge">~/.electrum</code>, on Windows in <code class="language-plaintext highlighter-rouge">\Users\YourUserName\AppData\Roaming\Electrum\wallets</code>.</li>
+</ul>
+
+<p>Always give your wallets <strong>random names</strong> or <strong>code names</strong> that only you understand. This way generic malware scripts will not find the wallet file, because they are looking for standard names.</p>
+
+<ul>
+  <li>To access your Bitcoin, you need either <strong>the Electrum wallet file and its password</strong> or <strong>the seedphrase</strong>.</li>
+</ul>
+
+<p>You do not need to back up both, but restoring a wallet from the seed will not restore your transaction labels.</p>
+
+<p><strong>How to backup your Electrum wallets (Linux, Mac):</strong></p>
+
+<p><a target="_blank" href="https://www.altcointrading.net/img/wallets/electrum-export1.png" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/wallets/electrum-export1.png" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ol>
+  <li>Always make sure you have the seed to your wallet before playing with the wallet files.</li>
+  <li>In the Electrum app, with the use of <code class="language-plaintext highlighter-rouge">File &gt; Save Copy</code> save a copy of your wallet file from <code class="language-plaintext highlighter-rouge">~/.electrum</code> to a new directory in your home folder, call it something like <code class="language-plaintext highlighter-rouge">VacationPhotos_2015</code> or <code class="language-plaintext highlighter-rouge">FacebookBackup_10102017</code>.</li>
+  <li>Pack the directory into an encrypted archive: <code class="language-plaintext highlighter-rouge">tar -cvf YOURDIR.tar YOURDIRPATH | openssl enc -aes-256-cbc -salt -out YOURDIR.tar.bak</code></li>
+  <li>Move the encrypted archive to your cloud backup or wherever you are normally dumping your random files.</li>
+  <li>Optional - if you are worried before crossing borders: Uninstall the Electrum app.</li>
+  <li>Optional - <a href="#stegano">make use of use something like this</a>.</li>
+</ol>
+
+<p>Decrypting and extracting the archive:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl enc -d -aes-256-cbc -in YOURDIR.tar.bak -out YOURDIR.tar
+tar -xvf YOURDIR.tar
+</code></pre></div></div>
+
+<p><em>About this method:</em></p>
+
+<ul>
+  <li>This is the basic backup version. For a more elaborate scheme skip to <a href="#stegano">this section</a>.</li>
+  <li>The openssl command will ask you for password - choose something strong and store it safely on a paper.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">bak</code> file extention is just a random extension that is used to signify “backup” – it can be anything.</li>
+</ul>
+
+<div id="stegano"></div>
+
+<h4 id="cryptocurrency-backups-for-the-paranoid">Cryptocurrency backups for the paranoid</h4>
+
+<p>Like <a href="https://www.bloomberg.com/news/videos/2017-09-26/how-macro-trader-novogratz-became-a-bitcoin-convert-video">Mr Novogratz said</a>, if you have a crypto wallet access data hidden under your kitchen sink and the wallet has hundred million dollars on it, you want a guy sitting there watching your kitchen sink, right? It has one flaw though: If you have that guy sitting there watching, you are giving away the information that there is something very valuable that you are hiding.</p>
+
+<p>Here comes the juicy part. There is a lovely and very old technique called <a href="http://acrigs.com/FRAVIA/stego.htm">steganography</a>. Steganography in the broad sense is science of hiding information. In the digital age, it means appending hidden data to a file that can be used after that without anyone suspecting anything.</p>
+
+<p>One good way to do it could be appending your sensitive data (or hints to sensitive data access) to some inconspicuous kind of file that everyone has on their computer - maybe to a family photo on your normal laptop or to a screenshot of man page or some tutorial on a Raspberry Pi.</p>
+
+<p>Yes - by using a terminal window you can hide any file into an image. <strong>On Linux and Mac you don’t need any extra packages to pull it off</strong> which makes it an even more attractive (and “colder”) solution.</p>
+
+<p><strong>How to hide your sensitive files into an image:</strong></p>
+
+<p>Let’s use an Electrum wallet export. Create a directory with the wallet file and a photo. Here the encrypted wallet file is disguised as <code class="language-plaintext highlighter-rouge">FbBackup102017</code>.</p>
+
+<p><a target="_blank" href="https://www.altcointrading.net/img/steganography/stegano1.jpg" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/steganography/stegano1.jpg" alt="Cryptocurrency Wallet Backups: Your Options" title="AltcoinTrading.NET - Cryptocurrency Wallet Backups: Your Options" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Now for the heavy lifting: We will use a standard <code class="language-plaintext highlighter-rouge">cat</code> command that is most often used for displaying text in the terminal but with <code class="language-plaintext highlighter-rouge">&gt;&gt;</code> or <code class="language-plaintext highlighter-rouge">&gt;</code> also for file manipulation.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zip FbBackup102017.zip FbBackup102017
+cat FbBackup102017.zip &gt; tony-joe-white.jpg
+</code></pre></div></div>
+
+<p>The terminal should just eat the command, not showing any changes other than the image file size:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># before
+-rw-r--r--   1 USER  staff  295002 Oct 14 13:57 FbBackup102017.zip
+-rw-r--r--@  1 USER  staff   62306 Sep 10 06:08 tony-joe-white.jpg
+# after
+-rw-r--r--   1 USER  staff  295002 Oct 14 13:57 FbBackup102017.zip
+-rw-r--r--@  1 USER  staff  295002 Oct 14 13:57 tony-joe-white.jpg
+
+</code></pre></div></div>
+
+<p>Suddenly, the image file get’s as big as the zip file – it won’t be striking once you’ve removed the wallet zip file though. Also, the image thumb stays the same too, but on Mac Preview.app won’t open the image file anymore.</p>
+
+<p>Now go ahead and remove the sensitive files, retrieving the original wallet file from the image is this simple:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>unzip tony-joe-white.jpg
+</code></pre></div></div>
+
+<p>If you want to only test an image file to see if there’s something in it, use <code class="language-plaintext highlighter-rouge">-t</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ unzip -t tony-joe-white.jpg
+Archive:  tony-joe-white.jpg
+    testing: FbBackup102017           OK
+No errors detected in compressed data of tony-joe-white.jpg.
+</code></pre></div></div>
+
+<p><strong>What to do with the images?</strong></p>
+
+<p>If you are cheeky enough you could try to upload your picture online somewhere (nobody knows whats in it anyway, right?). Well, don’t do it - most upload systems process the image to save space and check for any bizarre data that could be a security threat. This will strip your extra data you appended to your image.</p>
+
+<p>A more reasonable system is to have maybe a directory with your most favorite family photos (or photos of your favorite artworks or memes or whatever - it is so common to do this), each of them having some encrypted data appended. The directory would then be made a regular archive.</p>
+
+<p>A photo archive like that can be backed up on an external hard drive or on your cold/warm device. If you think you could sleep well like that, data packed the way described above plus encrypted <em>should</em> survive a cloud backup too.</p>
+:ET

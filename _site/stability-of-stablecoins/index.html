@@ -2553,6 +2553,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--stability-of-stablecoins",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--stability-of-stablecoins",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--stability-of-stablecoins",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2731,7 +2811,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>Let’s start with quick look at some data - <a href="https://www.docdroid.net/LbFhNvP/stablecoinsc1.pdf">PDF via docdroid here</a>, plus the <a href="https://www.docdroid.net/RD9TNMz/stablecoins-comparison.txt">CSV source</a> if you care.</p>
 
 <div>
@@ -2934,9 +3014,9 @@ analysis paper will be posted to our website in the coming days”.</li>
     
         
       
-      <li>#STABLECOINS: <a href="/stability-of-stablecoins/">The Stability of Stablecoins: NuBits all over again? </a></li>
-      
       <li>#STABLECOINS: <a href="/dai-stablecoin/">Dai - Stablecoin alternative to Tether</a></li>
+      
+      <li>#STABLECOINS: <a href="/stability-of-stablecoins/">The Stability of Stablecoins: NuBits all over again? </a></li>
       
         
       
@@ -2978,14 +3058,14 @@ analysis paper will be posted to our website in the coming days”.</li>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?"><span class="tag custom-note">Editorial</span>&nbsp;<b>Why Are So Many People Trading Cryptocurrency?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Why Are So Many People Trading Cryptocurrency?" href="/crypto-trading-growth/">
+      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/cryptocurrency-markets.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2997,14 +3077,14 @@ analysis paper will be posted to our website in the coming days”.</li>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/byteball/" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)"><b>GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
+      <a class="cat-internal-link" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)" href="/byteball/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/07/11/pexels-photo-200092.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3016,14 +3096,14 @@ analysis paper will be posted to our website in the coming days”.</li>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/altcoinio/" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange"><span class="tag custom-note">Non-custodial Trading</span>&nbsp;<b>[EXIT 2019] Review of Altcoin.io Non-custodial Exchange</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 27 Aug 2020</a>
+        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange" href="/altcoinio/">
+      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1596775760/atnet/blog_trading/altcoinio_wn7r5y.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3035,14 +3115,14 @@ analysis paper will be posted to our website in the coming days”.</li>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bakkt-criticism/" title="The grim side of Bakkt's potential consequences"><b>The grim side of Bakkt's potential consequences</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="The grim side of Bakkt's potential consequences" href="/bakkt-criticism/">
+      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash1/unitedstates.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

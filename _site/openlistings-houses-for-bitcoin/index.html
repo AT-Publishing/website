@@ -2365,6 +2365,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--openlistings-houses-for-bitcoin",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--openlistings-houses-for-bitcoin",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--openlistings-houses-for-bitcoin",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2543,7 +2623,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>This came to us from the guys at <a href="https://www.openlistings.com/blog/buy-a-house-with-bitcoin/">OpenListings.com</a>. In their blog about buying a house with bitcoin they do admit the demand rose very much through the 2017 hype.</p>
 
 <p>Most of all, some new people now have money to spend, often for the first time ever in their lives. At the same time, the perspective of BTC hitting 19k USD again at some point makes it psychologically somewhat attractive to hold on to. Certainly more attractive than a lot of extra USD generated from the sale of a property, as we know USD will never hit very much at all in terms of the upside.</p>
@@ -2623,9 +2703,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#ADOPTION: <a href="/byteball/">GBYTE, or Byteball: The OG airdrop that launched the whole airdorp industry (2017)</a></li>
+      <li>#ADOPTION: <a href="/bcash-rally-november-2017/">Reddit on the Bcash runup: BCH vs BTC</a></li>
       
-      <li>#ADOPTION: <a href="/bitcoin-gold/">Bitcoin Gold: Why is it getting dismissed so fast?</a></li>
+      <li>#ADOPTION: <a href="/kraken-upgrade/">Kraken's long awaited upgrade postponed</a></li>
       
         
       
@@ -2667,14 +2747,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/litecoin-pump/" title="Litecoin: This time it's different?"><b>Litecoin: This time it's different?</b> in <b>#</b>  updated on 29 Sep 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Litecoin: This time it's different?" href="/litecoin-pump/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/up.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2686,14 +2766,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"><b>ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/stability-of-stablecoins/" title="The Stability of Stablecoins: NuBits all over again? "><b>The Stability of Stablecoins: NuBits all over again? </b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency" href="/bitfinex-tether-transparency/">
+      <a class="cat-internal-link" title="The Stability of Stablecoins: NuBits all over again? " href="/stability-of-stablecoins/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/stablecoins/stability-of-stablecoins.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2705,14 +2785,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2724,14 +2804,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/tokenization-startup-boost/" title="Tokenization can boost startups in growing industries like home remodeling"><b>Tokenization can boost startups in growing industries like home remodeling</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/finexening/" title="The Finexening - Bitfinex hack"><b>The Finexening - Bitfinex hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Tokenization can boost startups in growing industries like home remodeling" href="/tokenization-startup-boost/">
+      <a class="cat-internal-link" title="The Finexening - Bitfinex hack" href="/finexening/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/home-decor-startups.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/bitfinex/gox.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2743,14 +2823,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/weiss-rating/" title="Weiss rating of cryptocurrencies is due today at 8AM UTC"><b>Weiss rating of cryptocurrencies is due today at 8AM UTC</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Weiss rating of cryptocurrencies is due today at 8AM UTC" href="/weiss-rating/">
+      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/weiss-ratings.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

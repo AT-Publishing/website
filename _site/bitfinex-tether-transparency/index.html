@@ -2433,6 +2433,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--bitfinex-tether-transparency",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--bitfinex-tether-transparency",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--bitfinex-tether-transparency",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2611,7 +2691,7 @@ amp-user-notification>div>div {
 
             </article>
             <article class="maincontent altcointrading-blog-content">
-              <div class="strategy-content intext">
+              <div class="strategy-content intext" id="article-body">
                 <p>On December 3rd, ChrisJ who works for Bitfinex talked on Whalepool TS about <a class="intern" href="/bitfinex-banking">Bfx transparency</a> issues, the <a class="intern" href="/tether-hack">recent Tether hack</a> and more.</p>
 
 <p>The Tether hack will need to be reported to law enforcement which was the reason why <a href="https://twitter.com/AMuse1512/status/941730603535425536">ChrisJ removed the warrant canaries from his Twitter account</a> - an event that <a href="https://www.reddit.com/r/BitcoinMarkets/comments/7k5asc/bitfinex_employee_removes_warrant_canaries_from/">left people wondering</a> whether Bitfinex is under subpoena.</p>
@@ -2682,9 +2762,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-HEISTS: <a href="/dao-hack/">All about the DAO hack</a></li>
-      
       <li>#CRYPTO-HEISTS: <a href="/tether-hack/">Tether Emergency Notice</a></li>
+      
+      <li>#CRYPTO-HEISTS: <a href="/bitfinex-tether-transparency/">ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</a></li>
       
         
       
@@ -2726,52 +2806,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
+      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/stability-of-stablecoins/" title="The Stability of Stablecoins: NuBits all over again? "><b>The Stability of Stablecoins: NuBits all over again? </b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="The Stability of Stablecoins: NuBits all over again? " href="/stability-of-stablecoins/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/features/stablecoins/stability-of-stablecoins.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2802,14 +2844,52 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/iou-stablecoins-potential/" title="Follow the money: Who's banking on IOU stablecoins?"><b>Follow the money: Who's banking on IOU stablecoins?</b> in <b>#STABLECOINS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Follow the money: Who's banking on IOU stablecoins?" href="/iou-stablecoins-potential/">
+      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/stablecoin-wars.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/stats-2019/" title="Products of 2019: What did crypto traders most spend on?"><span class="tag custom-note">Crypto Spending Report</span>&nbsp;<b>Products of 2019: What did crypto traders most spend on?</b> in <b>#SPEND-YOUR-CRYPTO</b>  updated on 09 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Products of 2019: What did crypto traders most spend on?" href="/stats-2019/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/2020/stats-spending-traders.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/monero-forks-april-2018/" title="Monero Forks Recap in April 2018"><b>Monero Forks Recap in April 2018</b> in <b>#CHAIN-SPLIT</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Monero Forks Recap in April 2018" href="/monero-forks-april-2018/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/urban/fork1.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

@@ -2364,6 +2364,86 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--securitytools",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
+    "clickAnyIntext": {
+      "on": "click",
+      "selector": "#article-body",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-intext--securitytools",
+         "eventLabel": "click--any--intext"
+       }
+    },
+    "clickSmalladHome": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-top",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-smallad",
+         "eventLabel": "clickSmalladHome"
+       }
+    },
+    "clickMainHome": {
+      "on": "click",
+      "selector": "#at-promo-main-home",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-main",
+         "eventLabel": "clickMainHome"
+       }
+    },
+    "clickHomeMidAd": {
+      "on": "click",
+      "selector": "#at-promo-smallad-home-mid",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-long",
+         "eventLabel": "clickHomeMidAd"
+       }
+    },
+    "clickHomeSideAd": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-tall",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-tall",
+         "eventLabel": "clickHomeSideAd"
+       }
+    },
+    "clickBfxVidTall": {
+            "on": "click",
+            "selector": "#bfx-vid-tall",
+            "request": "event",
+            "vars": {
+              "eventCategory": "nonadsense--click",
+              "eventAction": "click-bfx-vid-tall--securitytools",
+              "eventLabel": "clickHomeBfxVidTall"
+            }
+     },
+    "clickHomeSideLinks": {
+      "on": "click",
+      "selector": "#at-promo-nonpost-sidebar-shilllinks",
+      "request": "event",
+      "vars": {
+         "eventCategory": "nonadsense--click",
+         "eventAction": "click-shilllinks",
+         "eventLabel": "clickHomeSideLinks"
+       }
     }
   }
 }
@@ -2519,9 +2599,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-OPSEC: <a href="/tools/">List of Crypto Trading Tools (Free and Freemium)</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2020 Updated</a></li>
       
-      <li>#CRYPTO-OPSEC: <a href="/monero-wallet/">Monero Wallets: Your options in 2020</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/samourai-wallet-bitcoin-anonymity/">Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility</a></li>
       
         
       
@@ -2587,7 +2667,7 @@ amp-user-notification>div>div {
             <a target="_blank" href="https://us15.list-manage.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Subscribe to the Altcoin Trading newsletter.</a> (Newsletter <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c">Archive</a>)
           </p>
           <hr>
-          <div class="securitycontent intext">
+          <div class="securitycontent intext" id="article-body">
             <p>This is a list of security tools that are helpful in avoiding cryptocurrency scams, impostors and phishing.</p>
 
 <p>We will be updating the list regularly, and you are all invited to submit your favorite tools in the comment section.</p>
