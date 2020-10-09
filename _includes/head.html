@@ -14,7 +14,7 @@
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 <title>
-  {% if page.title %}{{ page.title | capitalize }} {% if page.last_modified_at %} ({{ page.last_modified_at | date: "%d %b %Y" }}) {% endif %} | {{ site.title }}{% else %}{{ site.title }}{% endif %}
+  {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - {{ site.subtitle }}{% endif %}
 </title>
 
 <link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">

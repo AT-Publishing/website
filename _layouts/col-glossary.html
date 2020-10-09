@@ -5,7 +5,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="three columns">
-        <span class="note">Also for Crypto Traders:</span>
+        <span class="note">More for Crypto Traders:</span>
         <ul>
           <li class="popular-item">
             <a href="/tag/tradingview-script-review/">TradingView Script Reviews</a>
@@ -14,13 +14,13 @@ layout: default
             <a href="/strategy/">Crypto Trading Strategy</a>
           </li>
           <li class="popular-item">
-            <a href="/guides/">How-To Guides (onramping, tech, exchanges)</a>
+            <a href="/guides/">How-To Guides (onramping, tech, product guides)</a>
           </li>
         </ul>
 
       </div>
       <div class="nine columns">
-        <p>{{ site.3commas_long }}</p>
+        <p>{{ site.localcryptos_leader_purple }}</p>
       </div>
     </div>
 
@@ -65,7 +65,7 @@ layout: default
           </div>
         </div>
 
-        {% include article/cta.html %}
+        {% include article/cta-brand-glos.html %}
 
         <div class="row">
           <div class="columns eight offset-by-two" id="all">
@@ -87,6 +87,7 @@ layout: default
                 &middot; {{post.hook}}
               </p>
             {% endfor %}
+
             {% assign bycat = site.glossary | where: "categories", "technical-analysis" | sort: "title" %} <!-- sort:"note" -->
             <h4><b>ATNET Glossary /</b> Chart Patterns & TA</h4>
             {% for post in bycat %}
@@ -111,6 +112,8 @@ layout: default
 
 
       </section>
+
+      {% include article/cta.html %}
 
 
       </div>
