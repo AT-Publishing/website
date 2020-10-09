@@ -118,6 +118,8 @@ The Bitfinex exchange is available worldwide. There is limitation on margin trad
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex Referral Code</a> &nbsp; <a rel="nofollow" href="https://bit.ly/at-tvd-btcusd" class="button">TradingView PRO Referral Code</a>
 
+<div id="deversifi"></div>
+
 #### About DeversiFi (formerly ETHFinex, EOSFinex)
 
 Bitfinex has been dabbing into non-custodial trading. Their first venture there was EthFinex, a non-custodial DEX for ETH-based trading.
