@@ -8,7 +8,7 @@ navi:
  exclude: yes
 ---
 
-Last Update: {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC
+Last Update: **Oct 12, 2020**
 
 #### About AltcoinTrading.NET
 
@@ -42,7 +42,7 @@ Asuncion 3794, Paraguay
 
 * Twitter: [@altcointrading_](https://twitter.com/altcointrading_)
 * LinkedIn: [AltcoinTrading.NET](https://www.linkedin.com/company/altcointradingnet/)
-* Email: `jmt (at) altcointrading (dot) net`
+* Email: `info (at) altcointrading (dot) net`
 * To contact a specific post author, use the "Author" link below each post's title.
 
 #### Privacy Policy

@@ -17,7 +17,4 @@ Av. Francisco Solano Lopez 3794
 Asuncion 3794, Paraguay
 ```
 
-Online contact:
-
-* General: info@altcointrading.net
-* Business: jmt@altcointrading.net
+Online contact: `info (at) altcointrading (dot) net`

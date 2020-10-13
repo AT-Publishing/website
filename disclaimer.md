@@ -5,7 +5,7 @@ permalink:  /disclaimer/
 tags:       [ hidden ]
 ---
 
-Disclaimer Last Updated: **{{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC**
+Disclaimer Last Updated: **Oct 12, 2020**
 
 
 *Any information provided on Altcointrading.NET (including subdomains) serves only for educational purposes and is not intended as financial advice.*
