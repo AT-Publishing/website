@@ -12,37 +12,23 @@ Last Update: {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC
 
 #### About AltcoinTrading.NET
 
-We are a group of traders and we write for traders. We are not a fast-news website, the aim of AltcoinTrading.NET is to
+We are a group of traders and we write for traders. The aim of AltcoinTrading.NET is to serve people interested in building up their cryptocurrency trading skill.
 
-1. publish product and news analyses on subjects that move the crypto world
-2. to serve people interested in building a skill
+We only serve the information to help our readers form their own decisions. Non of the content we publish constitutes an investment advice or a security advice.
 
-For the sake of clarity, we only serve the information on which our readers should form their decision themselves, non of the content we publish constitutes an investment advice or a security advice. [Read our disclaimer](/disclaimer/)
+* [Read our disclaimer](/disclaimer/)
 
 #### Content disclosure
 
-AltcoinTrading.NET does **not** publish trading advice, tips, calls or any other directional recommendations regarding cryptocurrencies, cryptocurrency markets or any other markets. We occasionally publish [market news commentary](/fibs/daily) which is meant to remain neutral and is only published for educational purposes, to showcase how information can be extracted from charting patterns.
+AltcoinTrading.NET does **not** publish trading advice, tips, calls or any other directional recommendations regarding cryptocurrencies, cryptocurrency markets or any other markets.
 
-We sometimes (not always) get compensated to distribute press releases and information about information airdrops.
+* [Read our disclaimer](/disclaimer/)
 
-All sponsored content is separated from regular articles on the site: [Airdrops are limited to the single page /airdrops/](/airdrops/), [Press Releases are always prominently tagged PRESS RELEASE and all listed at /press/](/press/). Press releases are not distributed to our readers via email marketing.
+We sometimes (not always) get compensated to publish articles featuring products, or to publish information about airdrops.
 
-Articles published in the main content sections (prominently tagged as BLOG, FEATURE, USER GUIDE, SECURITY, STRATEGY) **are never sponsored in any way**, even if they feature a commercial product.
+* [Contact us for guest posting](/guestpost/)
 
-For any content that features a tradeable cryptocurrency we require the author to not have an open position in said cryptocurrency nor to open one within 48 hours after publishing.
-
-#### Links disclosure
-
-In the sidebar, in the Airdrops section, in advertisement banners and very occasionally in text, we sometimes use affiliate links. We do not use affiliate links to products belonging to companies that we work for on a professional basis. We don't use shorteners to mask referral links.
-
-**If you want to avoid affiliate links:**
-
-All content from AltcoinTrading.NET that is marked as "News" gets deployed simultaneously at AltcoinTrading.NET and at News.AltcoinTrading.NET. **Articles on News.AltcoinTrading.NET do not contain any affiliate links** and banner advertising on News.AltcoinTrading.NET is limited to the homepage.
-
-If you want to read our articles but want to avoid all affiliate links, you can subscribe to our mailing list and deselect everything except *News analyses ONLY* - [opt in here](http://eepurl.com/cOgd6P). That way you will get new post alerts with links to News.AltcoinTrading.NET rather than to AltcoinTrading.NET.
-
-[Go to News.AltcoinTrading.NET](https://news.altcointrading.net/)
-
+In the sidebar, in the Airdrops section, in advertisement banners and very occasionally in text, we may use affiliate links.
 
 #### Contact Us
 
@@ -54,30 +40,14 @@ Av. Francisco Solano Lopez 3794
 Asuncion 3794, Paraguay
 ```
 
-Twitter: [@altcointrading_](https://twitter.com/altcointrading_)
+* Twitter: [@altcointrading_](https://twitter.com/altcointrading_)
+* LinkedIn: [AltcoinTrading.NET](https://www.linkedin.com/company/altcointradingnet/)
+* Email: `jmt (at) altcointrading (dot) net`
+* To contact a specific post author, use the "Author" link below each post's title.
 
-LinkedIn: [AltcoinTrading.NET](https://www.linkedin.com/company/altcointradingnet/)
+#### Privacy Policy
 
-Email:
-
-* General: info@altcointrading.net
-* Business: jmt@altcointrading.net
-* Use the "Author" link below each post to contact author directly.
-
-
-You are welcome to contact us per email with feedback, questions or offers. If you are interested is submitting an airdrop, a press release or a guest post, [please use the links on our contact page](/contact/).
-
-
-#### Credits
-
-* Featured images (articles, pages, strategy, security): [pexels.com](https://pexels.com), edit: [venngage.com](https://venngage.com)
-* Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
-* Teasers and CTAs: [canva](https://canva.com)
-* Icons: Google AMP default set
-* BitMEX & other exchange images with magnifying glass by [Marco Verch](https://www.flickr.com/photos/30478819@N08/44357666551) - Free to use and modify with attribution. Modified size.
-
-
-#### Privacy Policy **Last updated: May 22, 2018**
+**Privacy Policy Last Updated: October 12, 2020**
 
 This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
 
@@ -135,17 +105,11 @@ Occasionally, at our discretion, we may include or offer third party products or
 
 **Comment system**
 
-We have enabled Disqus as a third party comment engine. [Disqus privacy policy](https://help.disqus.com/customer/portal/articles/466259-privacy-policy).
+We do not use a comment system.
 
 **Google**
 
-We **have enabled Google AdSense on April 25, 2018** on this site as a third-party display advertising solution. The "News" site at news.altcointrading.net continues to run without display advertising and affiliate links in posts.
-
-* [Google Ads privacy policy](https://policies.google.com/technologies/ads)
-* About [different types of cookies Google uses for advertisement](https://policies.google.com/technologies/types)
-* [How Google uses cookies](https://policies.google.com/technologies/cookies)
-
-You can change your Ads Personalization settings at [https://adssettings.google.com/](https://adssettings.google.com/).
+We do not use any third-party display advertising solution. We do not run Google Ads.
 
 
 ##### PRIVACY & SPAM
@@ -192,4 +156,12 @@ The CAN-SPAM Act is a law that sets the rules for commercial email, establishes 
 
 **Contacting Us**
 
-If there are any questions regarding this privacy policy you may contact us at info@altcointrading.net.
+If there are any questions regarding this privacy policy you may contact us at `privacy (at) altcointrading (dot) net`.
+
+
+#### Artwork Credits
+
+* Featured images (articles, pages, strategy, security): [pexels.com](https://pexels.com), edit: [venngage.com](https://venngage.com)
+* Doge Image in the footer and in social sharers via [unixstickers.com](http://www.unixstickers.com/stickers/software_stickers/dogecoin-doge-cryptocurrency-logo-shaped-sticker) created from [dogecoin logo](http://dogecoin.com/)
+* Teasers and CTAs: [canva](https://canva.com)
+* BitMEX & other exchange images with magnifying glass by [Marco Verch](https://www.flickr.com/photos/30478819@N08/44357666551) - Free to use and modify with attribution. Modified size.

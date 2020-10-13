@@ -1,68 +1,56 @@
 ---
-layout: page
-title: Disclaimer
-permalink: /disclaimer/
-tags:
-- hidden
-navi:
- exclude: yes
+layout:     page
+title:      Disclaimer
+permalink:  /disclaimer/
+tags:       [ hidden ]
 ---
 
-
-<br>
-
-<div>
-
-<p id="socicons" class="contacticon center">
-	<a href="mailto:info@altcointrading.net"><i class="fa fa-3x fa-envelope-square"></i></a>
-	<a href="https://t.me/altcointrading_net" target="_blank"><i class="fa fa-3x fa-telegram"></i></a>
-  <a href="https://reddit.com/r/altcointrader" target="_blank"><i class="fa fa-3x fa-reddit"></i></a>
-</p>
-
-</div>
-
-Disclaimer **Updated: October 2, 2017**
+Disclaimer Last Updated: **{{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC**
 
 
-*Information provided on Altcointrading.net (including subdomains) serves only for educational purposes and is not intended as financial advice.*
+*Any information provided on Altcointrading.NET (including subdomains) serves only for educational purposes and is not intended as financial advice.*
 
-**Risks of trade in cryptocurrencies**
+## Risks Disclaimer
 
-With the trade in cryptocurrencies significant risks are involved. Cryptocurrencies are not legal tender and are accepted only to a limited extent for making purchases. Cryptocurrencies do not represent a claim on any issuer or by any third party and they have no intrinsic value. Due to various causes, the value of cryptocurrencies may be wholly or partially lost. The value of cryptocurrencies is determined by supply and demand and can fluctuate significantly.
+**Risks of trading cryptocurrencies**
+
+Trading cryptocurrencies involves significant risks.
+
+Cryptocurrencies are not legal tender and are accepted only to a limited extent for making purchases. Cryptocurrencies do not represent a claim on any issuer or by any third party and they have no intrinsic value.
+
+Due to various causes, the value of cryptocurrencies may be wholly or partially lost. The value of cryptocurrencies can fluctuate significantly.
+
+Most of cryptocurrency trading happens on unregulated platforms that can be subject to heists or fraud, by a third party as well as by the platform management.
 
 **No supervision**
 
-Cryptocurrencies are not regulated by any government, and trade in cryptocurrencies is not regulated. Nor trading cryptocurrencies falls within the scope of the Act on Financial Supervision (Wft). If you trade in cryptocurrencies the Act on Financial Supervision (Wft) therefore offers no protection.
+Public cryptocurrencies are not regulated by any government. Cryptocurrency wallets can not be compared with a bank account in this context.
 
-Any form of deposit guarantee is not applicable to cryptocurrencies or funds that are held temporarily through trading platforms. Wallets can not be compared with a bank account in this context.
+Cryptocurrency trading is not regulated in most countries. Nor trading cryptocurrencies falls within the scope of the Act on Financial Supervision (Wft). If you trade in cryptocurrencies the Act on Financial Supervision (Wft) therefore offers no protection.
 
-**Risks of Internet trading**
+You may be barred from trading cryptocurrency derivatives, if you are a resident or citizen of United States and some other countries. These terms will be specified by each trading platform, custodial or non-custodial. It is your responsibility to ensure you are allowed to participate in a market.
 
-Trading in cryptocurrencies via the Internet brings special risks. Such as technical - or transfer problems that may occur when using a computer, tablet, smartphone or similar device, malfunction of the Internet or the network or systems of CleverCoin or other service providers concerned that can prevent or suspend their services on which the trading relies. Also, maintenance on trading platforms may prevent access to it.
+**Risks of online trading**
 
-Also the information exchange between a computer, tablet, smartphone or similar device with the platform can be intercepted, data or access codes can be copied or imitated by methods such as hacking or piracy, which can lead to loss of cryptocurrencies or funds.
+Trading in cryptocurrencies via the internet brings special risks.
+
+* Technical risks or transfer problems that may occur when using a computer, tablet, smartphone or similar device.
+* Malfunction of the internet network or the network or systems of your trading platform that can result in losses.
+* Suspension of services by service providers that can prevent or suspend trading on any platform.
+* Information exchange between a computer, tablet, smartphone or similar device with a trading platform or an online cryptocurrency wallet can be intercepted, data or access codes can be copied or imitated by methods such as hacking or phishing, which can lead to loss of cryptocurrencies or funds.
 
 There is no guarantee that none of these risks will be realized.
 
-**Limitation of liability**
+## Limitation of liability
 
-Altcointrading.net accepts no responsibility or liability for any losses which may be incurred by any person or persons using the whole or part of the contents of the information, systems, plans, methods, competitions and games contained herein and made available on this site. Use the information provided on the Altcointrading.net site at your own risk.
+AltcoinTrading.NET accepts no responsibility or liability for any losses which may be incurred by any person or persons using the whole or part of the contents of the information, systems, plans, methods, competitions and games contained herein and made available on this site. **Use the information provided on the AltcoinTrading.NET site at your own risk.**
 
-Although Altcointrading.net may recommend an exchange or other Internet site or business, we accept no responsibility for anything which may or may not occur through any dealings you have with those other sites. It is your responsibility to satisfy yourself that all businesses you deal with have a good reputation and will honor their word and promises.
+No trading occurs on the AltcoinTrading.NET Website. AltcoinTrading.NET is not an exchange nor a trading platform. Although AltcoinTrading.NET may recommend an exchange or other Internet site or business, we accept no responsibility for anything which may or may not occur through any dealings you have with those other sites. **It is your responsibility to perform due diligence concerning all businesses you deal with.**
 
-No trading occurs on the Altcointrading.net Website. Altcointrading.net is not an exchange nor a trading platform.
+AltcoinTrading.NET does not promote or encourage illegal or underage activities, or the use of cryptocurrencies to persons who reside in jurisdictions where use of cryptocurrencies is considered unlawful. AltcoinTrading.NET presents information for educational and entertainment purposes only.
 
-Altcointrading.net does not promote or encourage illegal or underage activities, or the use of cryptocurrencies to persons who reside in jurisdictions where use of cryptocurrencies is considered unlawful. Altcointrading.net presented for informational, educational and entertainment purposes only.
+## Contact
 
-**Contacting Us**
+If there are any questions regarding this privacy policy, please contact us using the information below.
 
-If there are any questions regarding this privacy policy you may contact us using the information below.
-
-
-
-<div class="col three caption">
-	For questions or suggestions please reach out to us by email info@altcointrading.net or via Telegram at https://t.me/altcointrading_net.
-</div>
-<br/>
-<hr/>
-<br/>
+`disclaimer (at) altcointrading (dot) net`
