@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Thu, 15 Oct 2020 08:18:16 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2020 08:18:16 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2020 08:40:52 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2020 08:40:52 +0000</lastBuildDate>
 
     
       <item>
@@ -39,9 +39,9 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</guid>
 
         
-        <category>wyckoff-trading-crypto</category>
-        
         <category>crypto-charting</category>
+        
+        <category>wyckoff-trading-crypto</category>
         
         <category>crypto-trading-strategy</category>
         
@@ -127,6 +127,8 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/fibs/</guid>
 
         
+        <category>crypto-charting</category>
+        
         <category>fibs</category>
         
         <category>crypto-trading</category>
@@ -169,9 +171,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/how-to-vet-icos/</guid>
 
         
-        <category>tokendata</category>
-        
-        <category>ico</category>
+        <category>blockchain-technology</category>
         
         <category>ico-analysis</category>
         
@@ -179,8 +179,6 @@
         
         
         <category>trading</category>
-        
-        <category>icos</category>
         
 
       </item>
@@ -201,11 +199,11 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/scalping/</guid>
 
         
-        <category>orderbook-heatmap</category>
+        <category>crypto-trading-technique</category>
         
         <category>scalping</category>
         
-        <category>cryptocurrency-trading</category>
+        <category>orderbook-heatmap</category>
         
         <category>tensorcharts</category>
         
@@ -379,6 +377,8 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/dollar-cost-averaging/</guid>
 
         
+        <category>crypto-trading-strategy</category>
+        
         <category>hodl-strategy</category>
         
         <category>crypto-investment-strategy</category>
@@ -413,7 +413,7 @@
         <guid isPermaLink="true">https://www.altcointrading.net/strategy/technical/</guid>
 
         
-        <category>crypto-technical-indicators</category>
+        <category>crypto-technical-analysis</category>
         
         <category>technical-analysis</category>
         

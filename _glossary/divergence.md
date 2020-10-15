@@ -9,7 +9,7 @@ title:      Div (Divergence)
 hook:       Covers regular div, hidden div and exaggerated divergence with links to more info on how to trade them.
 
 categories: [technical-analysis]
-tags:       ["divergences", "divergence-trading", "technical-analysis", "crypto-exchange", "crypto-market"]
+tags:       ["crypto-charting", "technical-analysis", "divergences", "divergence-trading", "crypto-market"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.jpg"]
 

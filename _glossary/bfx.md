@@ -9,7 +9,7 @@ title:      BFX
 hook:       BFX in ATNET Crypto glossary. What do crypto traders call BFX?
 
 categories: [crypto-jargon]
-tags:       [bfx, crypto-trading-platforms, bitfinex, trading-platform, custodial-trading, noncustodial-trading]
+tags:       [recommended-exchange, crypto-trading-platforms, bfx, bitfinex, trading-platform, custodial-trading, noncustodial-trading]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg"]
 

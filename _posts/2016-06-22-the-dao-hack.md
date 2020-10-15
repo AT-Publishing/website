@@ -3,7 +3,7 @@ layout: at-trading
 title: "All about the DAO hack"
 description: "A summary of what is going on with DAO's and ETH"
 categories:    [ reports ]
-tags:          [ crypto-heists ]
+tags:          [ blockchain-technology, crypto-heists ]
 permalink:    dao-hack/
 image:
 - "https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg"

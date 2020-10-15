@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2020 08:18:16 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2020 08:18:16 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2020 08:40:52 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2020 08:40:52 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -2870,6 +2870,7 @@ Resources
         <language>en</language>
 
         <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-trading-technique ]]></category>
         <category><![CDATA[ wyckoff-trading-crypto ]]></category>
         <category><![CDATA[ crypto-charting ]]></category>
         <category><![CDATA[ wyckoff ]]></category>
@@ -3282,6 +3283,8 @@ Where now?
         <language>en</language>
 
         <category><![CDATA[ crypto-opsec ]]></category>
+        <category><![CDATA[ blockchain-technology ]]></category>
+        <category><![CDATA[ altcoin-wallets ]]></category>
         
         <category><![CDATA[ cryptocurrency-wallets ]]></category>
         
@@ -4864,6 +4867,7 @@ It is safe to say that the malware industry has fully integrated the use of cryp
         <language>en</language>
 
         <category><![CDATA[ crypto-opsec ]]></category>
+        <category><![CDATA[ blockchain-technology ]]></category>
         
         <category><![CDATA[ reports ]]></category>
         
@@ -5616,6 +5620,7 @@ But as history has proven, at the end of the day innovation is inevitable in bus
         <language>en</language>
 
         <category><![CDATA[ tokens ]]></category>
+        <category><![CDATA[ blockchain-technology ]]></category>
         
         <category><![CDATA[ reports ]]></category>
         

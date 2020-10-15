@@ -19,7 +19,7 @@ image_alt:
 - "Smart contracts replacing the lawyer involvement in creation of binding legal agreements, reducing the back office costs."
 
 categories: ["reports"]
-tags: [ regulations ]
+tags: [ regulations, blockchain-technology ]
 
 related:
 - {"Traceto.io CEO on the nexus between KYC and credit risk in the blockchain industry": "/traceto-interview/"}

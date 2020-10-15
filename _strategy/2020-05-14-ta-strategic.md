@@ -18,7 +18,7 @@ author:         "https://reddit.com/u/KarlVonBahnhof"
 author_name:    "KarlVonBahnhof"
 author_twitter: "@_KarlVonBahnhof"
 categories:     [ trading ]
-tags:           [ crypto-technical-indicators, technical-analysis, strategic-mindset, rational-analysis, bitmex, tradingview]
+tags:           [ crypto-technical-analysis, technical-analysis, strategic-mindset, rational-analysis, bitmex, tradingview]
 
 related:
 - {"Technical analysis in crypto: Can it work?": "/technical-analysis/"}

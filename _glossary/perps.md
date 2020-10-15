@@ -9,7 +9,7 @@ title:      Perps
 hook:       What do crypto traders call perps and how to trade it?
 
 categories: [crypto-jargon]
-tags:       [perps, perpetual-swap, inverse-swap]
+tags:       [crypto-trading-technique, perps, perpetual-swap, inverse-swap, bitmex, deribit]
 note:       jargon
 
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599207217/atnet/_glossary/perpetual-forever_ntpdga.jpg']

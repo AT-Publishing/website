@@ -7,7 +7,7 @@ date:         2019-10-09 05:02:00 -0300
 promoting:    analysis
 
 categories: [ crypto-value-judgement ]
-tags:       [ crypto-trading-strategy, wyckoff-trading-crypto, crypto-charting, wyckoff, crypto-fundamentals ]
+tags:       [ crypto-trading-strategy, crypto-trading-technique, wyckoff-trading-crypto, crypto-charting, wyckoff, crypto-fundamentals ]
 
 permalink:   wyckoff-avoidance/
 image:

@@ -9,7 +9,7 @@ title:      Ichimoku Cloud
 hook:       Ichimoku cloud 101 and links to all the in-depth guides and strategies.
 
 categories: [technical-analysis]
-tags:       ["ichimoku", "ichimoku-cloud", "technical-analysis", "crypto-exchange", "crypto-market"]
+tags:       ["crypto-charting", "ichimoku", "ichimoku-cloud", "technical-analysis"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1582606127/atnet/blog_ichimoku-crypto/bitfinex_ichimoku_leg_cgphhq.jpg"]
 

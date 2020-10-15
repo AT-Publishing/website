@@ -19,7 +19,7 @@ image_alt:
 - Screenshot from a closed Facebook ICO group (link at the bottom of the article)
 
 categories: [ reports ]
-tags: [ crypto-market-predictions ]
+tags: [ crypto-market-predictions, blockchain-technology ]
 ---
 A lot changed for initial coin offerings during the summer 2016.
 

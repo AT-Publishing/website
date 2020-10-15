@@ -9,7 +9,7 @@ title:      Segwit (vs Legacy)
 hook:       What do crypto traders call Segwit and should you use it?
 
 categories: [crypto-jargon]
-tags:       [segwit, noncustodial-trading, custodial-trading, otc-trading]
+tags:       [blockchain-technology, segwit, noncustodial-trading, custodial-trading, otc-trading]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1598344765/atnet/__women/pexels-thiago-matos-2239700_hgitpt.jpg"]
 

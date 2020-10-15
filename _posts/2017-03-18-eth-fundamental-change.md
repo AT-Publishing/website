@@ -4,7 +4,7 @@ date: 2017-03-18 17:20
 title: "(2017 Report) Alphabay to adopt ETH for payments ahead of new privacy features"
 description: "With ZCash on Ethereum (ZoE) a fundamental change in ETH is possibly ahead."
 categories: [ crypto-value-judgement ]
-tags: [crypto-fundamentals]
+tags: [crypto-fundamentals, blockchain-technology]
 
 permalink: zoe-ethereum-alphabay/
 image:

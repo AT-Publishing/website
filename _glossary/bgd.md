@@ -9,7 +9,7 @@ title:      BGD
 hook:       What do crypto traders call BGD and how to trade it?
 
 categories: [crypto-jargon]
-tags:       ["bgd", "technical-analysis", "crypto-exchange", "crypto-market"]
+tags:       ["pattern-trading", "technical-analysis", "bgd", "tradingview"]
 note:       jargon
 
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1586937056/atnet/_glossary/bgd_csyjsh.jpg",

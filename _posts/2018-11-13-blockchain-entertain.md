@@ -31,7 +31,7 @@ image_alt:
 - "blockchain-entertainment-industry"
 
 categories: [ reports ]
-tags: [ tokens ]
+tags: [ tokens, blockchain-technology ]
 chart: []
 
 

@@ -9,7 +9,7 @@ title:      ATH
 hook:       ATH in ATNET Crypto glossary. What do crypto traders call ATH?
 
 categories: [crypto-jargon]
-tags:       [ath, crypto-technical-analysis]
+tags:       [crypto-technical-analysis,ath]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1602210203/atnet/_glossary/matheus-bandoch-mkdI8JN6sDU-unsplash_ms7lup.jpg"]
 

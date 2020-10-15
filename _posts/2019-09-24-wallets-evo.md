@@ -3,7 +3,7 @@ layout: at-trading
 promoting: onramp
 
 categories: [ cryptocurrency-wallets ]
-tags: [ crypto-opsec ]
+tags: [ crypto-opsec, blockchain-technology, altcoin-wallets ]
 
 mentions:
  name: "crypto storage device management"

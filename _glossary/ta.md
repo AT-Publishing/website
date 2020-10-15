@@ -9,7 +9,7 @@ title:      TA (Technical Analysis)
 hook:       TA in ATNET Crypto glossary. What do crypto traders call TA?
 
 categories: [crypto-jargon]
-tags:       [ta, technical-analysis, tradingview, trading-platform, custodial-trading, noncustodial-trading]
+tags:       [crypto-technical-analysis, ta, technical-analysis, tradingview, trading-platform, custodial-trading, noncustodial-trading]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1597046889/atnet/strategy/w_widening_otucep.jpg"]
 

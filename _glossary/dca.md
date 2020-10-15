@@ -9,7 +9,7 @@ title:      DCA
 hook:       What do crypto traders call DCA and how to do it?
 
 categories: [crypto-jargon]
-tags:       ["dca", "dollar-cost-averaging", "dca-strategy", "crypto-exchange", "crypto-market"]
+tags:       ["crypto-trading-strategy", "dca", "dollar-cost-averaging", "dca-strategy", "crypto-exchange", "crypto-market"]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
 
