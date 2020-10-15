@@ -8,8 +8,8 @@ slug:       exaggerated-divergence/
 title:      Exaggerated divergence
 hook:       What do crypto traders call Exaggerated divergence and how to read it?
 
-categories: [crypto-jargon]
-tags:       ["dca", "dollar-cost-averaging", "dca-strategy", "crypto-exchange", "crypto-market", "bitfinex", "tradingview"]
+categories: [technical]
+tags:       ["pattern-trading", "technique", "technical-analysis", "bitfinex", "tradingview"]
 note:       jargon
 image:      
 - "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1582614657/atnet/blog_tensorcharts/tensor5_il51aq.jpg"

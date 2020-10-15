@@ -9,7 +9,7 @@ title:      TK Lines (TK Cross)
 hook:       What do crypto traders call TK Cross and TK Lines?
 
 categories: [technical-analysis]
-tags:       ["ichimoku", "ichimoku-cloud", "technical-analysis", "tradingview", "bitfinex"]
+tags:       ["pattern-trading", "ichimoku", "ichimoku-cloud", "technical-analysis", "tradingview", "bitfinex"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1602742868/pexels-henry-_-co-2517210_olyicp.jpg"]
 

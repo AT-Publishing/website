@@ -9,11 +9,15 @@ title:      "Pattern Trading (Formation Trading) in Crypto"
 hook:       What is pattern trading and what are the most common formation patterns to watch for in crypto.
 
 categories: [technique]
-tags:       [bbands, technical-analysis, fulcrum-bottom, wyckoff]
+tags:       [pattern-trading, tk-cross, bbands, technical-analysis, fulcrum-bottom, wyckoff]
+taghub:     true
+
 note:       method
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg']
 
 indepth:    /technical-analysis/
+
+
 
 ---
 
@@ -40,6 +44,7 @@ The mistake is to trade directly off the pattern. The correct approach is to tre
 * [Double bottom](/glossary/bbands/) (on price or bbands)
 * [Three pushes to a high](/glossary/bbands/) (again on price or bbands)
 * [Bart pattern / Inverse Bart pattern](/glossary/bart/)
+* [TK Lines Trading](/glossaary/tk-lines/)
 
 *The best charting platform for these is TradingView. [Start for FREE](https://bit.ly/at-tv-2020-globalcrypto) and wait for their annual [Black Friday](/blackfriday/) 60% off.*
 

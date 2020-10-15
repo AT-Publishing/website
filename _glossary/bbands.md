@@ -6,10 +6,10 @@ layout:     at-glossary
 date:       2020-09-01 01:07:00 +0700
 slug:       bbands/
 title:      BBands
-hook:       What are BBands, why are they loved so much by crypto traders and what are their highest probability patterns on the crypto markets. 
+hook:       What are BBands, why are they loved so much by crypto traders and what are their highest probability patterns on the crypto markets.
 
 categories: [technical-analysis]
-tags:       ["technical-analysis", "bbands", "bollinger-bands", "tradingview", "crypto-market"]
+tags:       ["pattern-trading", "technical-analysis", "bbands", "bollinger-bands", "tradingview", "crypto-market"]
 note:       technical
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1597046889/atnet/strategy/w_widening_otucep.jpg"]
 
