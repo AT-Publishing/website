@@ -11,7 +11,7 @@ hook:       What do crypto traders call Moonmath and where to get it?
 categories: [crypto-jargon]
 tags:       [moonmath, dca, crypto-trading-technique, trading-technique]
 note:       jargon
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1602737929/pexels-vladyslav-dushenkovsky-4100130_kxv0kl.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/v1602737879/Screenshot_2020-10-15_at_11.54.50_AM_fckiu6.jpg"]
+image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1602737929/pexels-vladyslav-dushenkovsky-4100130_kxv0kl.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1602737879/Screenshot_2020-10-15_at_11.54.50_AM_fckiu6.jpg"]
 
 indepth:    /cryptocurrency-strategy-beginners/
 
