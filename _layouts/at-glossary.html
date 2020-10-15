@@ -41,25 +41,53 @@ layout: default-news
               <div class="strategy-content intext" id="article-body">
                 {{ content }}
   					  </div><!-- strategy content -->
+
+              <div class="row">
+                {% if page.indepth %}
+                <article class="maincontent altcointrading-blog-content">
+                  <div class="glossary-indepth">
+                    <p>
+                      <a href="{{page.indepth}}" class="button">Read the in-depth article about <u>{{page.title }}</u></a>
+                    </p>
+                  </div>
+                </article>
+                {% endif %}
+                <article class="maincontent altcointrading-blog-content">
+                  {% assign tag_posts = site.posts | where: "tags", page.tags[0] | sample:3  %}
+                  {% assign tag_strat = site.strategy | where: "tags", page.tags[0] | sample:3  %}
+                  {% assign tag_sec = site.security | where: "tags", page.tags[0] |sample:3  %}
+                      <div class="row">
+                            {% if tag_posts[0] %}
+                            <h5 class="tagged-as">ATNET Blogs on #{{ page.tags[0] | upcase }}</h5>
+                            <ul class="popular">
+                                {% for post in tag_posts %}
+                                  <li class="popular-item"><a href="{{post.url}}">[blog] <b>{{post.title}}</b></a> - {{ post.description }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                            {% if tag_strat[0] %}
+                            <h5 class="tagged-as">ATNET Strategy on #{{ page.tags[0] | upcase }}</h5>
+
+                              <ul class="popular">
+                                {% for post in tag_strat %}
+                                  <li class="popular-item"><a href="{{post.url}}">[strategy] <b>{{post.title}}</b></a> - {{ post.description }}</li>
+                                {% endfor %}
+                              </ul>
+                            {% endif %}
+                            {% if tag_sec[0] %}
+                            <h5 class="tagged-as">ATNET Security Primers on #{{ page.tags[0] | upcase }}</h5>
+                              <ul class="popular">
+                                {% for post in tag_sec %}
+                                  <li class="popular-item"><a href="{{post.url}}">[opsec] <b>{{post.title}}</b></a> - {{ post.description }}</li>
+                                {% endfor %}
+                              </ul>
+                            {% endif %}
+                      </article>
+              </div><!-- row-->
             </article>
-
-              {% if page.indepth %}
-              <article class="maincontent altcointrading-blog-content">
-                <div class="glossary-indepth">
-                  <p>
-                    <a href="{{page.indepth}}" class="button">Read the in-depth article about <u>{{page.title }}</u></a>
-                  </p>
-                </div>
-              </article>
-              {% endif %}
-
-
           </section>
-
-
         </div><!-- 8 -->
         <div class="four columns nomargintop">
-        
           <aside>
             {% include sidebar-glossary.html %}
           </aside>

@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Thu, 15 Oct 2020 07:09:05 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2020 07:09:05 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2020 08:18:16 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2020 08:18:16 +0000</lastBuildDate>
 
     
       <item>
@@ -403,24 +403,32 @@
 
         <category>crypto-opsec</category>
         
-        
-        <category>cryptocurrency-wallets</category>
-        
+
         <category>bitcoin-wallet</category>
         
+
         <category>altcoin-wallet</category>
         
+
         <category>private-keys</category>
         
+
         <category>electrum</category>
         
+
         <category>jaxx</category>
         
+
         <category>exodus</category>
         
+
         <category>ledger</category>
         
+
         <category>trezor</category>
+        
+        
+        <category>cryptocurrency-wallets</category>
         
       </item>
     
