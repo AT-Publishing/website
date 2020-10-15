@@ -16,7 +16,7 @@ image:      ['https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atn
 indepth:    /altcoin-exchanges/
 ---
 
-LBC is the acronym for LocalBitcoins, the once-trusty platform for anonymous purchase of cryptocurrency.
+LBC is the acronym for LocalBitcoins, the once-trusty [peer-to-peer](/glossary/p2p/) platform for anonymous purchase of cryptocurrency.
 
 Localbitcoins started as a forum-style marketplace where you could find vendors near your location, chat with them to set up a meeting and then finalize the trade in person. Over time online payment methods were added and you could buy and sell crypto with verified or unverified digital wallets like Skrill, or you could do bank transfers.
 
@@ -26,7 +26,7 @@ ID verification (KYC/AML) was originally not required by LocalBitcoins; it was s
 
 #### LocalBitcoins started requiring KYC in 2018
 
-LBC was the most popular p2p platform for many years, even for some time after criminals trying to cash out five figures of bitcoins through one LBC meeting started getting in jail.
+LBC was the most popular [p2p platform](/glossary/p2p/) for many years, even for some time after criminals trying to cash out five figures of bitcoins through one LBC meeting started getting in jail.
 
 The main weakness is that while LocalBitcoins are a **p2p (peer-to-peer)** marketplace, they are **custodial** - you need to send your bitcoin into the LBC wallet to make it available for the escrow.
 
@@ -36,9 +36,11 @@ By then it was already rumored they tightly collaborate with law enforcement and
 
 #### Where to buy bitcoin and altcoins anonymously in 2020
 
-Platform called [LocalCryptos](https://bit.ly/2YD6gmA) is where it's at in 2020. LocalCryptos are not related to LocalBitcoins. You can get rates from 1% above market and fees are .25%/.75% maker taker.
+Platform called [LocalCryptos](https://bit.ly/2YD6gmA) is where [P2P trading](/glossary/p2p/) is at in 2020. LocalCryptos are not related to LocalBitcoins. You can get rates from 1% above market and fees are .25%/.75% maker taker.
 
-They started as LocalEthereum, Bitcoin and Litecoin were only added after their wrapped versions were developed. The LocalCryptos platform is a dApp running on Ethereum smart contracts. You get your private key on sign up, which you **must back up** because the marketplace is **fully zero-knowledge and fully non-custodial**.
+They started as LocalEthereum, Bitcoin and Litecoin were only added later. The LocalCryptos platform is a dApp running on Ethereum smart contracts and on Bitcoin scripts.
+
+You get your private key on sign up, which you must back up because the marketplace is **fully zero-knowledge and fully non-custodial**.
 
 This means you lose your account and all coins it has if you lose your private key, but it also means the law enforcement cannot force any platform-wide action since the platform owns no data.
 

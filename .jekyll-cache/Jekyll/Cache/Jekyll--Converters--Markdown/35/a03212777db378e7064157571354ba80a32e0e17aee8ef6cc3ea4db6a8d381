@@ -1,0 +1,41 @@
+I"�<p>In crypto jargon, <strong>P2P</strong> is short for <strong>peer-to-peer</strong> or <strong>person-to-person</strong> and usually refers to a way of purchasing cryptocurrency.</p>
+
+<p>If you purchase crypto in a P2P way, you do that directly with a counterparty; without the participation of a service provider such an exchange platform. You may have used a platform to find that counterparty, but your transaction happens between your cryptocurrency wallet and the wallet of your counterparty.</p>
+
+<ul>
+  <li>More on <a href="/how-to-buy-altcoins/#fiat-anon">how to buy cryptocurrency anonymously with no KYC</a></li>
+</ul>
+
+<h4 id="p2p-crypto-markets-not-always-more-private">P2P Crypto Markets: Not Always More Private</h4>
+
+<p>To people who are new or just onramping to crypto, the term P2P often sounds synonymous with <em>private</em>, <em>anonymous</em> or <em>untraceable</em>.</p>
+
+<p>That is not true.</p>
+
+<p>A case in point is the P2P market <a href="/glossary/lbc/">LBC</a> which was forced to submit traders’ identities to government forces due to the marketplace’s code structure which was way too simple.</p>
+
+<h4 id="why-you-should-not-use-localbitcoins">Why You Should Not Use Localbitcoins</h4>
+
+<p>LBC, and many other P2P trading platforms, are basically an online forum where people post offers for others to look up. To sell cryptocurrency, you need to fund a wallet that belongs to LBC from <em>your own wallet</em>. To buy a cryptocurrency, you need to withdraw your crypto from a wallet that belongs to LBC to <em>your own wallet</em>.</p>
+
+<p>In addition to that, <a href="/glossary/lbc/">LBC</a> still has access to all the direct messages between counterparties. It is very common that a seller of cryptocurrency will require you to DM a scan of your document to see if your bank account or Paypal matches it.</p>
+
+<p>To government agencies, this provides a direct link between <em>your cryptocurrency wallet</em> and your bank account.</p>
+
+<h4 id="p2p-and-private-look-for-zero-knowledge">P2P and Private: Look For Zero Knowledge</h4>
+
+<p>Platform called <a href="https://bit.ly/2YD6gmA">LocalCryptos</a> is where it’s at in 2020.</p>
+
+<ul>
+  <li>LocalCryptos are not related to LocalBitcoins.</li>
+</ul>
+
+<p>The LocalCryptos platform is a dApp running on <strong>Ethereum smart contracts and Bitcoin scripts</strong>.</p>
+
+<p>You get your private key on sign up, which you <a href="/security/backups/">must back up</a> because the marketplace is <strong>fully zero-knowledge and fully non-custodial</strong>. The platform is not a counterparty to any transaction and they do not have access to DMs communicated between traders as these are end to end encrypted.</p>
+
+<p>The founder of LocalCryptos has <a href="/localcryptos-interview/">strong political opinions and is not shy to share them</a>.</p>
+
+<div class="text-center"><a rel="nofollow" target="_blank" href="https://localcryptos.com/r/bocmask"><amp-img itemprop="image" alt="Localcryptos non-custodial p2p market" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596605388/atnet/_banner/localcryptos-purple-728x90_dx2w2w.jpg" layout="responsive" data-original-width="728px" data-original-height="90px" width="728px" height="90px"></amp-img></a></div>
+<p><br /></p>
+:ET
