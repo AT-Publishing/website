@@ -116,7 +116,7 @@ Trading psychology is another word for your mindset, the way you seek out inform
 
 We have gone through the reasons why mainstream finance news cannot be a good source when it comes to crypto markets.
 
-Do not think that less mainstream sources will automatically do it though. Just go to TradingView's market ideas section and look what is top by user votes under Trading Psychology, or anywhere else for that matter.
+Do not think that less mainstream sources will automatically do it though. Just go to [TradingView's market ideas](http://bit.ly/at-tvd-eth) section and look what is top by user votes under Trading Psychology, or anywhere else for that matter.
 
 Your own research, your own insight and your own look into fundamental tech data will top any reputable mainstream resource in the long run.
 
@@ -156,7 +156,7 @@ It was years after Google became the most used search engine when the search res
 
 It sounds almost funny nowadays: We hit Google the minute we are stuck on the simplest problem because that way we don't have to think.
 
-There was [a lot of revolt](https://web.archive.org/web/20000919045453/http://www.searchlores.org/antiadve.htm) among the OGs when the “evil” business people started littering the search results with things that make money:
+There was [a lot of backlash](https://web.archive.org/web/20000919045453/http://www.searchlores.org/antiadve.htm) among the OGs when the “evil” business people started littering the search results with things that make money:
 
 {% amp700cloud border {{page.image[1]}} %}
 

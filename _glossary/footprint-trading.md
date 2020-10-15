@@ -9,64 +9,32 @@ title:      Footprint Trading
 hook:       What is footprint trading and how to start with it?
 
 categories: [technique]
-tags:       [crypto-trading-strategy, trading-technique, tensorcharts]
+tags:       [crypto-trading-strategy, trading-technique, tensorcharts, orderbook-heatmap, scalping, bitmex]
 note:       beyondta
 
-image:      [""]
+image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1602740935/pexels-mat-reding-4394072_hwvfdr.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_fill,h_360,w_700/v1602739968/atnet/tensorcharts-old-footprint_kn5rd7.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_limit,h_360,w_700/v1602740103/atnet/68747470733a2f2f77702e66787373692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f31312f666f6f747072696e742d362e706e67_eha6co.jpg"]
 
 indepth:    /strategy/scalping/
 
 ---
 
-.......
+Footprint trading is an advanced trading technique used on both cryptocurrency and legacy markets.
 
-Trading psychology is a term that refers to the individual mindset a trader has while being active participant of a market.
+The benefits of footprint trading are more pronounced in short-term speculation techniques, such as [scalping](/strategy/scalping/).
 
-#### Trading Psychology in Crypto Markets
+#### Footprint Charting
 
-The majority of cryptocurrency traders all the way until 2019 when some institutional on-boarding kicked off were not professional traders.
+Footprint charting is a way of plotting the price action to get the so-called "footprint" within a candle.
 
-Most of the crypto investors who entered the BTCUSD markets before four digits were young professionals, often working in IT or technology.
+The footprint is essentially a **histogram** that plots the volume traded at each price segment of a candle. A candle footprint chart could look like this:
 
-The wild swings of crypto markets make for huge psychological pressure in professional traders. Among people who are not used to that, the pressure can become over the top and wreck the judgement of the unprepared ones.
+{% amp700cloud page.image[1] %}
 
-This makes it worthwhile to work on your trading psychology, even if you are not a trader but rather a [Long-Term Holder](/glossary/lth/) or are just doing [Dollar Cost Average](/glossary/dca/): Becoming more mentally tough will make it harder for you to sell the bottom of the next market correction.
+Usually, the display is done in a way that is easier to look at, such as by coloring segments of the candle with different levels of intensity:
 
-#### Recommended Books to Improve Your Trading Psychology
+{% amp700cloud page.image[2] %}
 
-* Jared Tendler — **The Mental Game of Poker**
+#### Tools for footprint trading in crypto
 
-Different industry, but applies very well to crypto trading.
-
-One of the key lessons of Tendler's book is called **unconscious competence**: You can learn a new skill well, but until it is settled in your mind so well that you aren’t even aware that you were not born with it, then you will not remember to use it in the critical moment when you are under pressure.
-
-* Daniel Kahneman — **Thinking Fast and Slow**
-
-This is a famous one.
-
-You will learn an awful lot about cognitive biases, quick judgements and all kind of stuff that you would probably want to avoid knowing about because it will make you feel quite dumb.
-
-* Michael Mauboussin — **More Than You Know**
-
-This is another one that became a popular read among poker players.
-
-It goes through a lot of interesting ideas on what influences your trading and definitely influences the trading of a substantial portion of the crowd.
-
-Take for instance *emotions*:
-
-Most people will tell you to disregard your emotions when you trade. Sadly, research shows that it's impossible.
-
-What you can do instead is to accept that your emotions will trigger during abrupt price action. Then you can try to anticipate how they could influence your trading in different situations.
-
-With this worked out, you can then do your best to not act on the emotion when it triggers and instead capitalize on the rest of the crowd where the majority will be acting on the same emotion.
-
-#### Trading Psychology vs Market Psychology
-
-Trading psychology and market psychology are two different, but related terms.
-
-*Read the [ATNET Glossary on Market Psychology](/glossary/market-psychology/).*
-
-As a trader, your individual mindset and decision making process contributed to the existence of the market and in one way or another becomes an influence of the [market psychology](/glossary/market-psychology/).
-
-* You may be in agreement with the prevailing market tendency, act on it and make this tendency even stronger.
-* You may be in disagreement with the aggregate market tendency, act on it and in this way create the opposite side of the book that is required for the market to exist.
+* **[Tensorcharts](http://bit.ly/dont-be-an-amateur)** was the original charting app that was the first to provide footprint charting for crypto. Footprint is available in paid plans. ([More on TensorCharts](/tensorcharts/))
+* **[Tradingview](http://bit.ly/at-tvd-eth)** currently does not provide footprint charting, but it is [going to be added as a feature to Tradingview paid plans soon](https://github.com/tradingview/lightweight-charts/issues/350#issuecomment-590759521).

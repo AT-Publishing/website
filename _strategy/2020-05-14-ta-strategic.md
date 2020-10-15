@@ -55,7 +55,7 @@ The best yardstick is to see if your technical analysis is **helping you make a 
 
 If it isn't doing that, you're doing it wrong. No matter if you are using the "right" indicators and ALL the lines. (Ignore the reverse statement though. If your TA helps you make a decision, you can still be botching it.)
 
-A *sound* trading decision should always http://bit.ly/at-tvd-ethhttp://bit.ly/at-tvd-eth) chart confused, stop doing whatever you're doing.
+A *sound* trading decision should always be right there at the end of your analysis. If you're leaving your [chart](http://bit.ly/at-tvd-eth) confused, stop doing whatever you're doing.
 
 ### Technical analysis is not the source of truth
 
@@ -67,7 +67,7 @@ It is also one of the most common misconceptions you see among traders on social
 
 * If you are a short time-frame trader, they point at regularities that may be happening on the market and the details of which are probably unknown to you. They are also not all that important as long as you are picky enough about which assets you trade.
 
-* For the long-term decisions, you get a bird's-eye view of the market. You can see some vague tendencies and trends, and you definitely can see if it the activity is healthy hustle and bustle or ill-looking convultions and tremor.
+* For the long-term decisions, you get a bird's-eye view of the market. You can see some vague tendencies and trends, and you definitely can see if it the activity is healthy hustle and bustle or ill-looking convolutions and tremor.
 
 If you look at a chart and see "inverse head and shoulders, therefore I should open a 20x long", go look at something else.
 
