@@ -9,7 +9,7 @@ title:      TLV (Total Locked Value)
 hook:       What does TLV mean in crypto and what information it gives you?
 
 categories: [ defi ]
-tags:       [ technique, trading-strategy, defi, p2p]
+tags:       [ crypto-trading-technique, crypto-trading-strategy, market-metrics, defi, p2p]
 note:       jargon
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/v1600842866/atnet/pexels-eberhard-grossgasteiger-4406598_vxxsxc.jpg']
 ---

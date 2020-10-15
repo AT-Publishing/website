@@ -9,7 +9,7 @@ title:      Footprint Trading
 hook:       What is footprint trading and how to start with it?
 
 categories: [technique]
-tags:       [crypto-trading-strategy, trading-technique, tensorcharts, orderbook-heatmap, scalping, bitmex]
+tags:       [crypto-trading-technique, crypto-trading-strategy, tensorcharts, orderbook-heatmap, scalping, bitmex]
 note:       beyondta
 
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1602740935/pexels-mat-reding-4394072_hwvfdr.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_fill,h_360,w_700/v1602739968/atnet/tensorcharts-old-footprint_kn5rd7.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_limit,h_360,w_700/v1602740103/atnet/68747470733a2f2f77702e66787373692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f31312f666f6f747072696e742d362e706e67_eha6co.jpg"]

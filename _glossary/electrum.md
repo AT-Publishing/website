@@ -9,7 +9,7 @@ title:      Electrum
 hook:       All you need to know about the Electrum wallet - is it good, which coins it supports, should you use it.
 
 categories: [ opsec ]
-tags:       ["electrum", "cryptocurrency-wallet", "opsec", "og-crypto-tools"]
+tags:       ["cryptocurrency-wallet", "electrum", "crypto-opsec", "og-crypto-tools"]
 note:       OG Crypto Opsec
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1588053673/atnet/altcoin-wallets/gold-bitcoin-844127_pfcs9y.jpg"]
 

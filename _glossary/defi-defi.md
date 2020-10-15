@@ -9,7 +9,7 @@ title:      DeFi
 hook:       What does DeFi really stands for?
 
 categories: [ defi ]
-tags:       [ tokens, defi, p2p]
+tags:       [ blockchain-technology, tokens, defi, p2p]
 note:       jargon
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1600916078/atnet/defi-market-analytics.jpg']
 ---
