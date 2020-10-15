@@ -1,0 +1,40 @@
+I"U<p>In crypto, <strong>Moonmath</strong> is a half-joke prediction model for future Bitcoin price based on past performance.</p>
+
+<p>The basic Moonmath table projects a price development starting from a certain past timespan. It tells you on which future date the price of Bitcoin will reach one million dollars, should the trend of the selected timeframe continue.</p>
+
+<p>Moonmath is available at <a href="https://www.moonmath.win/">moonmath.win</a>, a website developed and maintained by Redditor u/jarederaj.</p>
+
+<h4 id="criticisms">Criticisms</h4>
+
+<p>Moonmath exists just for fun, but since every crypto-related website has to disclaim that its contents are just for fun due to financial regulations, it is worth explaining why Moonmath <em>actually</em> exists just for fun.</p>
+
+<ul>
+  <li>Moonmath uses a mathematical model that projects future performance based off past performance. This idea is extremely unreliable in general.</li>
+  <li>The projection that Moonmath gives is too linear. It predicts a slow, steady price action which is not the reality of <a href="/blog/trading/">cryptocurrency trading</a> at all.</li>
+</ul>
+
+<h4 id="contributions">Contributions</h4>
+
+<p>Since its inception, the Moonmath website started hosting other price projection tools that are to be taken seriously since they are more reliable in nature.</p>
+
+<ul>
+  <li><strong>Azop’s Rainbow Charts</strong> that are otherwise only available through Reddit’s long lost and not searchable comments, or through now defunct website <code class="language-plaintext highlighter-rouge">azopstability.com</code> (<a href="https://web.archive.org/web/20180829163949/https://azopstability.com/understanding-the-charts/">Archive link</a>)</li>
+</ul>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1602737879/Screenshot_2020-10-15_at_11.54.50_AM_fckiu6.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1602737879/Screenshot_2020-10-15_at_11.54.50_AM_fckiu6.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ul>
+  <li><strong>Supert’s Bitcoin price projection based off network activity</strong> which is actually a very good approach to assess a <a href="/pow-fundamentals/">crypto’s fundamentals</a>. Redditor <code class="language-plaintext highlighter-rouge">u/_supert_</code> posts them only as comments to Reddit’s daily threads, hence they are also easy to miss.</li>
+</ul>
+
+<p>An old version of Supert’s Bitcoin price prediction model is available on <a href="https://github.com/supert-is-taken/bitcoin-tx-model">Github</a>.</p>
+
+<h4 id="tools-for-crypto-long-term-holding-that-are-better-than-moonmath">Tools for Crypto Long-Term Holding that are better than Moonmath</h4>
+
+<ul>
+  <li>Purchases with KYC: <a href="http://bit.ly/at-indyres">Independent Reserve</a> (Aussie exchange with DCA AutoSchedule function)</li>
+  <li>Purchases with no KYC: <a href="https://bit.ly/2YD6gmA">LocalCryptos</a> (The state of the art in <a href="/glossary/p2p/">crypto P2P trading</a>)</li>
+  <li><a href="/blackfriday/#august-2020-deal-ledger-wallets-bundles---16-21-discount">Ledger wallet deals from ATNET’s Eternal Black Friday</a></li>
+  <li>…Or go for some other <a href="/altcoin-wallets/">crypto wallet</a></li>
+</ul>
+:ET
