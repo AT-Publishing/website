@@ -38,11 +38,9 @@ categories: [ crypto-technical-analysis ]
 tags: [ crypto-charting, crypto-trading-strategy, custodial-trading ]
 
 related:
- - {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
- - {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping"}
- - {"ScriptSpotlight - Automatic Divergences": "/scriptspotlight-auto-divergences/"}
- - {"No-ICO projects": "/category/no-ico/"}
- - {"Cryptocurrency Strategy for Beginners: There is strategy even for hodling": "/cryptocurrency-strategy-beginners/"}
+- {"ATNET Glossary: Footprint Trading": "/glossary/footprint-trading/"}
+- {"Collection of TensorCharts tutorials on YouTube and elsewhere": "/tensorcharts-tutorials/"}
+- {"Trading Strategy / Scalping with TensorCharts": "/strategy/scalping"}
 
 ---
 
@@ -50,9 +48,15 @@ related:
 
 {{ site.tc1 }}
 
-The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind [Footprint Charts](https://footprintchart.com/). The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits.
+The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind Footprint Charts(R).
+
+The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits.
+
+* Learn about [Footprint Trading in the ATNET Glossary](/glossary/footprint-trading/)
 
 It's an advanced charting tool particularly good for daytraders and scalpers on the legacy markets. You can request a free demo of the Footprint Charts app [here](https://marketdelta.com/solutions/footprint-charts/).
+
+## Footprint candles
 
 #### Difference between Tensorcharts vs Footprintcharts
 
@@ -70,6 +74,8 @@ Basically, it is similar to a far more precise [volume flow script](https://www.
 
 That's not all though. In addition to the traded footprint, TensorCharts also provide a whole host of other advanced crypto trading tools.
 
+## Orderbook heatmap
+
 #### What is Orderbook Heatmap
 
 Here's what I mean: Even in the basic free tier, TensorCharts provide the famous orderbook heatmap.
@@ -83,6 +89,8 @@ What's the orderbook visualization good for? Let me explain:
 {% amp700cloud border {{page.image[5]}} {{page.image_alt[0]}} %}
 
 You can customize your orderbook heatmap through settings and decide how granular the data should be.
+
+* To learn ow to use Tensor Charts head over to our [TensorCharts Tutorials](/tensorcharts-tutorials/).
 
 #### See the spoofers thanks to orderbook heatmap
 
@@ -118,7 +126,7 @@ On this BTCUSD 5M chart you see the differences in order sizes are more marked, 
 
 There's lot more that you can do with TensorCharts, I encourage you to explore their [documentation](https://docs.tensorcharts.com/docs/counters_ratio/).
 
-### What you get in TensorCharts FREE Plan
+## TensorCharts FREE Plan
 
 <a rel="nofollow" href="https://tensorcharts.com/?r=14">TensorCharts</a> are available free with basic functions pulling data from the most popular exchange APIs: Bitfinex, Binance, GDAX, BitStamp, BitMEX. In the free plan you get 5M and 1H timeframes, orderbook heatmap and trades counter.
 
@@ -126,23 +134,13 @@ It is not necessary to create a user account.
 
 If you like working with orderbook heatmaps and only [basic indicators like bbands](/technical-analysis/) or [fibs](/strategy/fibs), Tensorcharts are far better than the currently most popular free charting app Cryptowatch.
 
-### TensorCharts PRO Plans
+## TensorCharts PRO Plans
 
 Paid plans went live on September 18th 2018, one year to day since the development of the TensorCharts app started.
 
 Plans range from 8 USD - 25 USD per month, paid only in crypto.
 
-### How to use Tensor Charts
-
-We have a **whole section for [TensorCharts Tutorials](/tensorcharts-tutorials/)** but if you don't want to go there just now, below a couple of walkthrough videos on YouTube (cca 1 minute each).
-
-[Series of TensorCharts video tutorials on YouTube](https://www.youtube.com/watch?v=YZCUMtV8rBU&list=PLV2igM-bP06wcjn5J2Msu9nI3VYhvhu6T)
-
-<amp-youtube
-       data-videoid="YZCUMtV8rBU"
-       layout="responsive"
-       width="700" height="360">
-</amp-youtube>
+* To learn ow to use Tensor Charts head over to our **section for [TensorCharts Tutorials](/tensorcharts-tutorials/)**.
 
 
 ## Summary: Powerful Tool
