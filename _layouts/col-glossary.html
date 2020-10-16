@@ -70,17 +70,8 @@ layout: default
         <div class="row">
           <div class="columns eight offset-by-two" id="all">
             <br>
-
-            {% assign bycat = site.glossary | where: "categories", "crypto-jargon" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> General Crypto Jargon</h4>
-            {% for post in bycat %}
-              <p>
-                <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
-                &middot; {{post.hook}}
-              </p>
-            {% endfor %}
-            {% assign bycat = site.glossary | where: "categories", "defi" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> DeFi Glossary</h4>
+            {% assign bycat = site.glossary | where: "categories", "technique" | sort: "title" %} <!-- sort:"note" -->
+            <h4><b>ATNET Glossary /</b> Trading Techniques & Methods, Beyond TA</h4>
             {% for post in bycat %}
               <p>
                 <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
@@ -96,8 +87,18 @@ layout: default
                 &middot; {{post.hook}}
               </p>
             {% endfor %}
-            {% assign bycat = site.glossary | where: "categories", "technique" | sort: "title" %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> Trading Techniques & Methods, Beyond TA</h4>
+
+            {% assign bycat = site.glossary | where: "categories", "defi" | sort: "title"  %} <!-- sort:"note" -->
+            <h4><b>ATNET Glossary /</b> DeFi Glossary</h4>
+            {% for post in bycat %}
+              <p>
+                <span class="tag lvl-defi">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+                &middot; {{post.hook}}
+              </p>
+            {% endfor %}
+
+            {% assign bycat = site.glossary | where: "categories", "crypto-jargon" | sort: "title"  %} <!-- sort:"note" -->
+            <h4><b>ATNET Glossary /</b> General Crypto Jargon</h4>
             {% for post in bycat %}
               <p>
                 <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
@@ -105,20 +106,10 @@ layout: default
               </p>
             {% endfor %}
 
-
           </div>
-
         </div>
-
-
       </section>
-
       {% include article/cta.html %}
-
-
       </div>
-
     </div>
-
-
   </div>
