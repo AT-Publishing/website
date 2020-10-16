@@ -45,7 +45,7 @@ layout: default-news
               <div class="row">
                 {% if page.indepth %}
                 <article class="maincontent altcointrading-blog-content">
-                  <div class="glossary-indepth">
+                  <div class="glossary-indepth" id="glossary-indepth">
                     <p>
                       <a href="{{page.indepth}}" class="button">Read the in-depth article about <u>{{page.title }}</u></a>
                     </p>
@@ -56,7 +56,7 @@ layout: default-news
                   {% assign tag_posts = site.posts | where: "tags", page.tags[0] | sample:3  %}
                   {% assign tag_strat = site.strategy | where: "tags", page.tags[0] | sample:3  %}
                   {% assign tag_sec = site.security | where: "tags", page.tags[0] |sample:3  %}
-                      <div class="row">
+                      <div class="row" id="glossary-bytag0">
                             {% if tag_posts[0] %}
                             <h5 class="tagged-as">ATNET Blogs on #{{ page.tags[0] | upcase }}</h5>
                             <ul class="popular">
