@@ -14,7 +14,7 @@
           </p>
           <ul class="popular">
             <li class="popular-item">
-              <a href="{{ toparticles[0].url }}">{{ toparticles[0].title }} in <span class="soften">#{{ toparticles[0].categories[0] | downcase }}</span></a>
+              <a href="{{ toparticles[0].url }}"><b>{{ toparticles[0].title }}</b> <span class="soften">#{{ toparticles[0].categories[0] | downcase }}</span> <span class="soften">#{{ toparticles[0].tags[0] | downcase }}</span></a>
             </li>
           </ul>
         {% endif %}
@@ -24,7 +24,7 @@
           </p>
           <ul class="popular">
             <li class="popular-item">
-              <a href="{{ tophowto[0].url }}">{{ tophowto[0].title }} in <span class="soften">#{{ tophowto[0].categories[0] | downcase }}</span></a>
+              <a href="{{ tophowto[0].url }}"><b>{{ tophowto[0].title }}</b> <span class="soften">#{{ tophowto[0].categories[0] | downcase }}</span> <span class="soften">#{{ toparticles[0].tags[0] | downcase }}</span></a>
             </li>
           </ul>
         {% endif %}
