@@ -7,11 +7,12 @@ promoting:  analysis
 layout:     at-trading
 note:       "Active Trading"
 
-title: "Bitfinex Referral Code 5egV78YtlC | No Minimum Deposit | Fee Discount | 2020 "
-permalink: /coupon-bitfinex-5egv78ytlc/
+title:        "Bitfinex (Referral Code 5egV78YtlC)"
+description:  "Bitfinex Referral Code 5egV78YtlC for fee discount. No Minimum Deposit in 2020."
+permalink:    /coupon-bitfinex-5egv78ytlc/
 
-categories: [ trading-platforms ]
-tags:       [ recommended-exchange, custodial-trading ]
+categories:   [ trading-platforms ]
+tags:         [ recommended-exchange, custodial-trading ]
 
 
 image:

@@ -29,17 +29,6 @@ layout: default
 
           <h2 class="tagged-as">In AltcoinTrading How-To & Guides:</h2>
 
-          <span class="note" id="onramp">Guides to onramping from fiat into crypto</span>
-          <ul>
-            {% for post in howto_posts %}
-            {% if post.categories contains "onramp" %}
-            <li class="popular-item">
-              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-                <span class="tag lvl-a">Onramping</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
 
           <span class="note" id="onramp">Crypto Trading 101 Guides</span>
           <ul>
@@ -52,21 +41,38 @@ layout: default
             {% endif %}
             {% endfor %}
           </ul>
-
-
-          <span class="note" id="trading-platforms">Recommended trading platforms: Why and what they do best</span>
+          <span class="note" id="onramp">Guides to onramping from fiat into crypto</span>
           <ul>
             {% for post in howto_posts %}
-            {% if post.categories contains "trading-platforms" %}
+            {% if post.categories contains "onramp" %}
             <li class="popular-item">
               <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-                <span class="tag lvl-ab">Platforms</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+                <span class="tag lvl-a">Onramping</span> | <b>{{ post.title }}</b>{% if post.last_modified_at %} on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
             </li>
             {% endif %}
             {% endfor %}
           </ul>
 
-          <span class="note" id="technical">The very basics of how to manage your storage and trading apps. There are basic technicalities that you need to know when moving crypto around.</span>
+
+<div class="row box-lvl-a">
+  <h4>Recommended trading platforms</h4>
+  <p>Why are they recommended and what they do best:</p>
+  {% for post in howto_posts %}
+    {% if post.categories contains "trading-platforms" %}
+    <h5>
+      <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+        <span class="tag lvl-ab">{{ post.note }}</span> <b>{{ post.title }}</b>
+      </a>
+    </h5>
+    <p>{{ post.description }}</p>
+    <p></p>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<br><br>
+
+          <span class="note" id="technical">How to manage crypto wallets and trading apps (super basic level)</span>
           <ul>
             {% for post in howto_posts %}
             {% if post.categories contains "technical" %}
@@ -80,9 +86,9 @@ layout: default
 
 
         </div>
-        <div class="row postslist">
-          <span class="note">Tagged as Guide in ATNET Crypto Trading Blog:</span>
-          {% include lps/guides-feed.html %}
+        <div class="row" id="guidespage-interlink1">
+          {% assign interlink = page.interlink1 %}
+          {% include article/interlink-generic.html %}
         </div>
         <div class="row intro">
           {{ content }}
