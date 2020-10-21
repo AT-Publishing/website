@@ -1,0 +1,52 @@
+I"�<p>In crypto talk, CBDC stands for <strong>central-bank-issued digital currencies</strong>, or simply <strong>central bank digital currencies</strong>.</p>
+
+<p>The topic of CBDC became a hot topic in the blockchain and crypto community after the October 19th, 2020 annual meeting of International Monetary Fund where the FED chairman Jerome Powell had a talk on cryptocurrencies.</p>
+
+<h4 id="why-are-cbdcs-attractive-to-the-authorities">Why are CBDCs attractive to the authorities</h4>
+
+<p>The reasons can be pretty much listed via the main points of the 2020 IMF meeting talk:</p>
+
+<ul>
+  <li>Central banks started taking cryptocurrencies seriously since Facebook launched Libra, in the way that they started considering issuing their own cryptocurrencies.</li>
+  <li>The one feature that everyone likes about digital currencies is that you can make them perfectly traceable, which would prevent any illicit activity. Anyone’s money could be frozen or retrieved by an authority etc - the control is simply better than with fiat money.</li>
+  <li>CBDCs are not a threat to international stability as long as people would need to be authorised to be able to pay with a foreign currency. This would eradicate for instance the USD cash black markets we see in some Latin American countries.</li>
+</ul>
+
+<p>Full reports with comments are <a href="https://www.reddit.com/r/BitcoinMarkets/comments/jdutiu/daily_discussion_monday_october_19_2020/g9bd6dg?utm_source=share&amp;utm_medium=web2x&amp;context=3">available on Reddit</a>.</p>
+
+<h4 id="limitations-of-cbdcs">Limitations of CBDCs</h4>
+
+<p><strong>Too Much Transparency</strong></p>
+
+<p>The community has not put too much credit to the CBDC initiatives. The consensus seems to be that as with many <a href="/glossary/defi/">DeFi</a> projects, the blockchain-based solution would bring in too much transparency.</p>
+
+<p>In other words, there is the idea institutions like central banks or even commercial banks and insurance companies benefit from <em>private data silos</em> and from the fact that their <em>workflows are not public</em>.</p>
+
+<p><strong>QE</strong></p>
+
+<p>There is also the argument that it does not seem possible to do fractional banking, quantitative easing and other currently employed monetary policies in <a href="/glossary/defi/">DeFi</a>.</p>
+
+<p>This is in fact not true, as was shown in a <a href="https://insights.deribit.com/market-research/the-future-of-money-could-be-discretionary/">Deribit Insights article on stablecoins</a>:</p>
+
+<ul>
+  <li>A central bank currency can be treated as a stablecoin because it would be pegged to certain value (ie to such value that would allow citizens of a country to keep buying a stable basket of goods)</li>
+  <li>No stablecoin has this architecture properly in place, but there are ways to regulate the value peg by changing interest rates. For instance, this type of peg regulation is in place on the <a href="/glossary/perps/">BitMEX perpetual swap market</a></li>
+  <li>Finally, open market operations equivalent to QE are possible in DeFi. In an open market operation, some amount of the currency would be initially minted without backing. This currency would be used to buy up assets like ETH on the open market. These newly bought assets would then back the currency and the system would remain solvent. At the same time, the supply of the currency in the system increases, hopefully creating pressure on the price.</li>
+</ul>
+
+<p>This idea does not address why anyone would trade ETH for an asset that is not backed by anything, but sadly it is safe to assume that claiming “It’s backed by the word of the government” would probably fly well enough.</p>
+
+<h3 id="more-in-defi-glossary">More in DeFi Glossary</h3>
+
+<ul>
+  <li><a href="/glossary/yield-farming/">How does yield farming work?</a></li>
+  <li><a href="/glossary/tlv/">What is total locked value?</a></li>
+</ul>
+
+<h3 id="where-to-trade-defi-tokens">Where to trade DeFi tokens</h3>
+
+<ul>
+  <li>When ETH gas is cheap, use the non-custodial platform <em>Uniswap</em>.</li>
+  <li>For other times, make an account on <em>WhiteBit</em>. They let you trade with no KYC until 2 BTC withdrawals per day. First 14 days are on <strong>zero fee</strong> if you sign up with this <strong><a href="https://bit.ly/3kwUh2k">shill link</a></strong>.</li>
+</ul>
+:ET
