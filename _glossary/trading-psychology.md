@@ -18,7 +18,9 @@ indepth:    /strategy/crypto-market-psychology/
 
 ---
 
-Trading psychology is a term that refers to the individual mindset a trader has while being active participant of a market.
+Trading psychology is a term that refers to the individual mindset a trader has while being active participant of a [market](/glossary/market-psychology/).
+
+<!--more-->
 
 #### Trading Psychology in Crypto Markets
 

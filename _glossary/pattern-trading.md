@@ -29,6 +29,8 @@ Pattern trading is notoriously linked with retail traders who go with someone el
 
 The fault lies not in the market patterns themselves though, it is in the way they are used.
 
+<!--more-->
+
 ### Why do traders lose with pattern trading?
 
 Markets do indeed move with some regularity. There are real fundamental cycles, in crypto this could be the bitcoin halving for instance, and these do influence the market. Another thing is the typical market participant - traders have their favorite markets to trade, people with similar focus or mentality flock to the same market, they will trade the market with almost the same mindset and that's how regular patterns develop.

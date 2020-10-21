@@ -21,6 +21,8 @@ In the crypto trader jargon, **quarterlies** is short for **quarterly futures**.
 
 Quarterly futures are a derivative contract that expires every three months.
 
+<!--more-->
+
 ### Why are crypto quarterlies so popular
 
 The popularity of the quarterly contract has dissipated over the recent years.

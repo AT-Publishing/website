@@ -14,9 +14,9 @@ note:       jargon
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1600159919/atnet/_glossary/yield-farming_bh4w4m.jpg']
 ---
 
-### What is Yield Farming
+What is Yield Farming: In DeFi context, Yield Farming is a term for earning passive income on your cryptocurrency by locking it up into a DeFi (decentralized finance) contract.
 
-Yield Farming is a term for earning passive income on your cryptocurrency by locking it up into a DeFi (decentralized finance) contract.
+<!--more-->
 
 ### How Yield Farming works
 

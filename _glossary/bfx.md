@@ -24,6 +24,8 @@ In crypto trading jargon, **BFX** is short for **Bitfinex**.
 * [More about Bitfinex here](/coupon-bitfinex-5egv78ytlc/)
 * [A huge rave about the Bitfinex phone app](/bitfinex-app/)
 
+<!--more-->
+
 ### About Bitfinex Trading Platform
 
 

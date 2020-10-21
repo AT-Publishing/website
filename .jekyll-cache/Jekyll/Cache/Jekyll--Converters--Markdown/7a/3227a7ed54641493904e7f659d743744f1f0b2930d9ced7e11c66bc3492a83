@@ -1,0 +1,26 @@
+I"-
+<p>Footprint trading is an advanced trading technique used on both cryptocurrency and legacy markets.</p>
+
+<p>The benefits of footprint trading are more pronounced in short-term speculation techniques, such as <a href="/strategy/scalping/">scalping</a>.</p>
+
+<!--more-->
+
+<h4 id="footprint-charting">Footprint Charting</h4>
+
+<p>Footprint charting is a way of plotting the price action to get the so-called “footprint” within a candle.</p>
+
+<p>The footprint is essentially a <strong>histogram</strong> that plots the volume traded at each price segment of a candle. A candle footprint chart could look like this:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_fill,h_360,w_700/v1602739968/atnet/tensorcharts-old-footprint_kn5rd7.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_fill,h_360,w_700/v1602739968/atnet/tensorcharts-old-footprint_kn5rd7.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Usually, the display is done in a way that is easier to look at, such as by coloring segments of the candle with different levels of intensity:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_limit,h_360,w_700/v1602740103/atnet/68747470733a2f2f77702e66787373692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f31312f666f6f747072696e742d362e706e67_eha6co.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_limit,h_360,w_700/v1602740103/atnet/68747470733a2f2f77702e66787373692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f31312f666f6f747072696e742d362e706e67_eha6co.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="tools-for-footprint-trading-in-crypto">Tools for footprint trading in crypto</h4>
+
+<ul>
+  <li><strong><a href="http://bit.ly/dont-be-an-amateur">Tensorcharts</a></strong> was the original charting app that was the first to provide footprint charting for crypto. Footprint is available in paid plans. (<a href="/tensorcharts/">More on TensorCharts</a>)</li>
+  <li><strong><a href="http://bit.ly/at-tvd-eth">Tradingview</a></strong> currently does not provide footprint charting, but it is <a href="https://github.com/tradingview/lightweight-charts/issues/350#issuecomment-590759521">going to be added as a feature to Tradingview paid plans soon</a>.</li>
+</ul>
+:ET

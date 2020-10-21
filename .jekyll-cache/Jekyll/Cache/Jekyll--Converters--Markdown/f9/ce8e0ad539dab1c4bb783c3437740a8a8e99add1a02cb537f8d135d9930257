@@ -1,0 +1,28 @@
+I"	<p>In the blockchain industry, we call <strong>coin control</strong> an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
+
+<p>This feature is necessary if you want to escape from a <a href="/glossary/dust-attack/">dust attack</a>, an attack on privacy that happens on the bitcoin blockchain.</p>
+
+<!--more-->
+
+<h3 id="bitcoin-wallets-that-support-coin-control">Bitcoin wallets that support coin control</h3>
+
+<ul>
+  <li><a href="http://bit.ly/lnx-2020">Ledger wallets</a></li>
+  <li><a href="/glossary/electrum/">Electrum wallet</a></li>
+  <li><a href="/samourai-wallet-bitcoin-anonymity/">Samourai wallet</a></li>
+</ul>
+
+<h4 id="coin-control-on-a-ledger-wallet">Coin Control on a Ledger wallet</h4>
+
+<p>On any Ledger device, coin control is easily accessible through the Ledger Live application.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on “<a href="/glossary/coin-control/">coin control</a>” and then unselect the dust.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>If you use change addresses, transaction of any size will move all your non-dusted coins from the dusted address.</p>
+
+<p><a href="http://bit.ly/lnx-2020" class="btn">Get a Ledger Wallet today</a></p>
+:ET

@@ -32,6 +32,8 @@ Crypto traders use **div** as a short for **divergence**.
 
 Still, they are an important aspect of technical analysis and can give you edge because of how easily they get missed or misinterpreted.
 
+<!--more-->
+
 ### Types of Divergences
 
 We distinguish *regular divergence*, *hidden divergence* and *exaggerated divergence*.

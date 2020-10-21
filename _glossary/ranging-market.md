@@ -26,11 +26,11 @@ related:
 
 ---
 
-#### What is a ranging market
-
 Ranging market is a market that is **lacking a trend of direction**.
 
 It is not bullish (not consistently marking up) and not bearish (not consistently marking down).
+
+<!--more-->
 
 #### Alternative names for ranging market
 

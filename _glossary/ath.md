@@ -22,6 +22,8 @@ In trading jargon, **ATH** stands for **All-Time High**.
 
 A market makes a new all-time high if its price action rises above the previous all-time maximum price. There is no other requirement for timeframe, [patterns](/glossary/pattern-trading/) or any special [technical setup](/technical-analysis/). Even if the market retraces abruptly, the new ATH still counts.
 
+<!--more-->
+
 ### The Bitcoin ATH
 
 On the bitcoin-dollar market, an ATH will happen when the price rises to anywhere over 20k USD.

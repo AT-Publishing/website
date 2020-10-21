@@ -19,6 +19,8 @@ image:      ['https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w
 
 In the crypto trader jargon, **perps** is short for **perpetual contract** or **perpetual swap**, a popular derivative product intruduced by [BitMEX trading platform](http://bit.ly/2Muo11z). Similar product is now traded also on OKEx and elsewhere.
 
+<!--more-->
+
 The perpetual contract is derivative product like a future contract, but there is no expiration date. Therefore you will not get the [futures-specific behavior near the expiration date](/glossary/quarterlies/), the perpetual contract behaves more like spot market.
 
 The most obvious difference for you as a crypto trader is that to long a BTCUSD perpetual contract, you deposit crypto, whereas on spot market you would need USD to long a BTCUSD market.

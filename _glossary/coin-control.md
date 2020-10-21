@@ -25,6 +25,8 @@ In the blockchain industry, we call **coin control** an advanced feature of cryp
 
 This feature is necessary if you want to escape from a [dust attack](/glossary/dust-attack/), an attack on privacy that happens on the bitcoin blockchain.
 
+<!--more-->
+
 ### Bitcoin wallets that support coin control
 
 * [Ledger wallets](http://bit.ly/lnx-2020)

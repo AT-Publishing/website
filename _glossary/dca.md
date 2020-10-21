@@ -21,9 +21,9 @@ about:
 
 ---
 
-#### DCA acronym meaning in crypto trading
+The DCA acronym in crypto trading or investing stands for **dollar cost averaging**.
 
-DCA in the context of trading or investing stands for "dollar cost averaging".
+<!--more-->
 
 #### What is the goal of DCA?
 

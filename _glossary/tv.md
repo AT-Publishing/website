@@ -25,6 +25,8 @@ Less seasoned crypto traders or visitors who are not familiar with the jargon us
 
 * [Tradingview PRO gets discounted during Black Friday](/blackfriday/#anicipated-tradingview)
 
+<!--more-->
+
 TradingView is a popular [charting app and social platform](/tag/tradingview-script-review/) where legacy and crypto traders share ideas, learn about [technical analysis](/technical-analysis/) or just mind their own charts.
 
 In crypto trading industry, TradingView is currently the top most popular charting solution used also by exchanges like [Bitfinex](http://bit.ly/catch-me-if-ya-can).

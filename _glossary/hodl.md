@@ -25,7 +25,11 @@ about:
 
 In crypto jargon, we say **hodl** instead of "hold", as in "hold crypto".
 
-The term "hodl" is not an acronym.
+The term "hodl" is **not** an acronym but a drunk misspelling of "hold".
+
+
+<!--more-->
+
 
 ### Original HODL Post
 

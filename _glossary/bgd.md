@@ -22,6 +22,8 @@ In the crypto trader jargon, BGD is short for **"big green dildo"**.
 
 Crypto traders call BGD a large green candle painted at a longer timeframe (at the very least hourly).
 
+<!--more-->
+
 #### What is a valid BGD?
 
 BGD must be noticeably big candle on a timeframe of at least 3H or 4H.

@@ -21,6 +21,8 @@ indepth:    /cryptocurrency-strategy-beginners/
 In crypto, **Moonmath** is a half-joke prediction model for future Bitcoin price based on past performance.
 
 The basic Moonmath table projects a price development starting from a certain past timespan. It tells you on which future date the price of Bitcoin will reach one million dollars, should the trend of the selected timeframe continue.
+<!--more-->
+
 
 Moonmath is available at [moonmath.win](https://www.moonmath.win/), a website developed and maintained by Redditor u/jarederaj.
 

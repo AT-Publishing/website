@@ -20,6 +20,8 @@ DeFi is short for degenerate finance.
 
 Sorry, decentralized finance.
 
+<!--more-->
+
 ### More in DeFi Glossary
 
 * [How does yield farming work?](/glossary/yield-farming/)

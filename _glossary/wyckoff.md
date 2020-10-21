@@ -23,9 +23,11 @@ related:
 
 ---
 
-#### Wyckoff Simplified (ELI5)
+**Wyckoff Simplified (ELI5)**: Wyckoff Method is a trading strategy that combines supply/demand dynamics with market psychology.
 
-Wyckoff Method is a trading strategy that combines supply/demand dynamics with market psychology.
+
+<!--more-->
+
 
 #### Best Timeframes for Wyckoff
 

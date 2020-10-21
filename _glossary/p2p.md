@@ -25,6 +25,8 @@ If you purchase crypto in a P2P way, you do that directly with a counterparty; w
 
 * More on [how to buy cryptocurrency anonymously with no KYC](/how-to-buy-altcoins/#fiat-anon)
 
+<!--more-->
+
 #### P2P Crypto Markets: Not Always More Private
 
 To people who are new or just onramping to crypto, the term P2P often sounds synonymous with *private*, *anonymous* or *untraceable*.

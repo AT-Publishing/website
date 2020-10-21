@@ -28,6 +28,8 @@ As any divergence, the *Exaggerated Divergence* a divergent development of price
 
 Exaggerated divergence works **like a regular divergence**, except that price makes **double top or double bottom** rather than new high or new low.
 
+<!--more-->
+
 **For example:** In regular *bullish* divergence, the price makes a lower low while an oscillator makes higher low, which is the bullish signal. An exaggerated divergence would show a double bottom while an oscillator would make higher low. Double bottom by itself is bullish, which is why the divergence is seen as stronger than a regular bullish div - hence the name.
 
 {% amp700cloud {{page.image[1]}} %}

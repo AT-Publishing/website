@@ -18,6 +18,10 @@ In crypto talk, CBDC stands for **central-bank-issued digital currencies**, or s
 
 The topic of CBDC became a hot topic in the blockchain and crypto community after the October 19th, 2020 annual meeting of International Monetary Fund where the FED chairman Jerome Powell had a talk on cryptocurrencies.
 
+While most crypto enthusiasts do not give CBDCs a lot of credit, there are legitimate reasons for such assumption to be wrong.
+
+<!--more-->
+
 #### Why are CBDCs attractive to the authorities
 
 The reasons can be pretty much listed via the main points of the 2020 IMF meeting talk:

@@ -32,6 +32,8 @@ It can be an advanced bitcoin wallet if you enable advanced functionalities, but
 
 * [How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)
 
+<!--more-->
+
 ### Electrum to store altcoins (Monero, ETH, ZEC)
 
 Electrum is a bitcoin-only wallet. The original Electrum wallet does not support any altcoins.

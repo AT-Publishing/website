@@ -24,6 +24,7 @@ In crypto, the **Bart Formation**, or just Bart, is a chart pattern where the cr
 
 The name Bart came from the pattern's likeness to the shape of Bart Simpson's head.
 
+<!--more-->
 
 **Best Tools for Trading Bart**
 

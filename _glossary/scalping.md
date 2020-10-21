@@ -25,6 +25,8 @@ related:
 
 Scalping refers to trading technique of **capitalizing on small price changes**. Positions are typically shortly after they become profitable, collecting a small profit.
 
+<!--more-->
+
 **Best Tools for Scalping**
 
 * Trading Platform: [BitMEX](http://bit.ly/2Muo11z)

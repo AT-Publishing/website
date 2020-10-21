@@ -22,6 +22,8 @@ Footprint trading is an advanced trading technique used on both cryptocurrency a
 
 The benefits of footprint trading are more pronounced in short-term speculation techniques, such as [scalping](/strategy/scalping/).
 
+<!--more-->
+
 #### Footprint Charting
 
 Footprint charting is a way of plotting the price action to get the so-called "footprint" within a candle.

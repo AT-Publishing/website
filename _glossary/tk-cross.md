@@ -26,6 +26,8 @@ In technical analysis, **TK Cross** refers to a crossover of the Tenken and Kinj
 
 The TK lines are sometimes called the **balance lines**.
 
+<!--more-->
+
 #### TK Cross Trading Strategies
 
 The TK lines, or Tenken and Kinjun, are fast and slow moving averages.

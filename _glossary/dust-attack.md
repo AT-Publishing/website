@@ -28,6 +28,10 @@ A potentially malicious actor is sends the smallest possible transaction amount 
 
 Following the movements of the dust may eventually lead to a transaction that will be identifiable in real life, such as an online order or a p2p cash sale. It can also be used to link different wallets owned by the same person.
 
+The counteraction to do if your wallet "got dusted" is called [coin control](/glossary/coin-control/).
+
+<!--more-->
+
 ### September 2020 Dust Attack
 
 There was a dust attack going on in September 2020. The dust amount was 547 satoshis and the attack posed as an advertisement for a website `memo dot sv`:

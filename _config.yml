@@ -10,6 +10,7 @@ plugins: [jekyll-paginate, jekyll-last-modified-at]
 paginate: 10
 ga: UA-73503011-2
 
+excerpt_separator: <!--more-->
 
 # this will need to get changed to all blade for a week
 jekyll_get:
@@ -136,6 +137,7 @@ defaults:
      author:          https://medium.com/cryptolounge
      author_name:     Altcoin Trading Glossary
      author_twitter:  altcointrading_
+     excerpt_separator: <!--more-->
  -
    scope:
      path: "strategy" # all

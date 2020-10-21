@@ -14,13 +14,13 @@ note:       jargon
 image:      ['https://res.cloudinary.com/atnetcloud/image/upload/v1600842866/atnet/pexels-eberhard-grossgasteiger-4406598_vxxsxc.jpg']
 ---
 
-### What is TLV
-
-TLV is short for Total Locked Value, a [yield farming](/glossary/yield-farming/) market metric.
+**What is TLV**: In DeFi slang, TLV is short for Total Locked Value, a [yield farming](/glossary/yield-farming/) market metric.
 
 The **total locked value** shows the total liquidity locked up in a DeFi contract.
 
 TLV measures its health and also the market share of that project.
+
+<!--more-->
 
 ### Other DeFi market metrics
 

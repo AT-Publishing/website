@@ -22,6 +22,9 @@ In crypto, **LTH** stands either for "Long-Term Holding" or "Long-Term Holder".
 
 A person who is a "Long-Term Holder" is someone who invested in cryptocurrencies for at least several years. LTH is not a short-term market speculation, but a long-term bullish opinion on a cryptocurrency or blockchain in general.
 
+<!--more-->
+
+
 #### LTH and DCA
 
 Very often, "Long-Term Holder" will practice the [strategy of DCA](/strategy/dollar-cost-averaging/), or dollar cost averaging, to purchase cryptocurrency. This is done to avoid any speculation at whatsoever.

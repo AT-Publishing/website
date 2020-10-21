@@ -23,6 +23,8 @@ Segregated Witness is a network feature activated on the Bitcoin and Litecoin bl
 
 * You may be looking for: [LTC address converter](/howto/move-ltc-p2sh/), [BTC address converter](/howto/generate-bitcoin-p2sh-address/)
 
+<!--more-->
+
 ### What does Segregated Witness mean?
 
 SegWit segregates part of the data out of the transaction. It is specifically part of the transaction signature data that gets removed. As a result, the transaction is smaller in terms of bytes, and requires less network fee.

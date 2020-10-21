@@ -23,6 +23,8 @@ about:
 
 "Squishy" is a crypto jargon for the **bearish MACD crossover** specifically on the 3D timeframe.
 
+<!--more-->
+
 #### Why bearish MACD crossover specifically on 3D timeframe?
 
 This long timeframe MACD cross has its own name because it happens fairly rarely and reliably results in a prolonged downturn on the market.

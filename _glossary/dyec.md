@@ -25,4 +25,8 @@ DYEC is a variation on the famous DYEL exclamation from online fitness communiti
 
 In crypto communities, DYEC is a valid response when someone posts bad [technical analysis](/technical-analysis/), which is something that happens a lot in very popular communities such as [TradingView](http://bit.ly/at-tvd-eth).
 
+
+<!--more-->
+
+
 By calling out bad [TA](/glossary/ta/) you either get something to brag about on the internet (more common on Reddit), or you'll get totally hammered by super loyal fanboi ultras (more common on Twitter).

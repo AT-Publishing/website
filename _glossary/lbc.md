@@ -18,6 +18,8 @@ indepth:    /altcoin-exchanges/
 
 LBC is the acronym for LocalBitcoins, the once-trusty [peer-to-peer](/glossary/p2p/) platform for anonymous purchase of cryptocurrency.
 
+<!--more-->
+
 Localbitcoins started as a forum-style marketplace where you could find vendors near your location, chat with them to set up a meeting and then finalize the trade in person. Over time online payment methods were added and you could buy and sell crypto with verified or unverified digital wallets like Skrill, or you could do bank transfers.
 
 The platform had an escrow where the crypto vendor had to mark the transaction as successful for the bitcoins to be released to the buyer. The escrow was the feature that kept people trading through LBC despite the fees and the clunky interface, although people with a trusted regular vendor often moved on and transacted privately without escrow (and therefore without LBC fees).

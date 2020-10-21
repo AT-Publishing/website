@@ -26,13 +26,13 @@ related:
 
 ---
 
-#### Ichimoku Cloud 101
-
-Ichimoku cloud is a technical indicator suitable **best for longer timeframes**.
+Ichimoku Cloud 101: Ichimoku cloud is a technical indicator suitable **best for longer timeframes**.
 
 It is developed to give a "single glance" idea about the structure of the market, which is also loosely the meaning of the Japanese term Ichimoku.
 
 This single-glance market information is typically whether the market is weak, strong or possibly approaching reversal.
+
+<!--more-->
 
 #### Ichimoku Trading Strategies
 

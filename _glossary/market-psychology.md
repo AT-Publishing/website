@@ -22,6 +22,8 @@ Market psychology is a term that describes the prevailing tendencies on a given 
 
 Market psychology is effectively an aggregate of trading decisions made by individual traders.
 
+<!--more-->
+
 #### Market Psychology vs Trading Psychology
 
 Trading psychology and market psychology are two different, but related terms.

@@ -21,6 +21,8 @@ indepth:    /strategy/technical/
 
 In crypto and legacy trading speak, **TA**  refers to **technical analysis**.
 
+<!--more-->
+
 ### Joke names for technical analysis
 
 Crypto traders have invented several joke names for technical analysis, trying to make the point that technical patterns are a fallacy and that lines on chart are completely arbitrary.

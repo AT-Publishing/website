@@ -1,0 +1,60 @@
+I"s<p>Electrum is one of the oldest cryptocurrency wallets still in use.</p>
+
+<p>The original Electrum wallet is a <strong>bitcoin wallet</strong>. Its homepage is at <a href="https://electrum.org">electrum.org</a> and it is actively maintained by the same developer, Thomas Voegtlin, since 2011.</p>
+
+<p>Electrum has a good track record in terms of security.</p>
+
+<p>It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won’t stand in your way.</p>
+
+<ul>
+  <li><a href="/howto/verify-signature/#electrum">How to safely install Electrum wallet, step by step guide</a></li>
+</ul>
+
+<!--more-->
+
+<h3 id="electrum-to-store-altcoins-monero-eth-zec">Electrum to store altcoins (Monero, ETH, ZEC)</h3>
+
+<p>Electrum is a bitcoin-only wallet. The original Electrum wallet does not support any altcoins.</p>
+
+<p>Back in the infancy of alternative cryptocurrencies, altcoins like monero had for a short time relatively similar codebase to that of bitcoin. Then it used to be possible to store monero in Electrum, in Trezor with a bit of hacking, and in any other bitcoin wallet.</p>
+
+<p>Those times are gone; it is <strong>no longer possible to store in Electrum any cryptocurrencies that are not bitcoin</strong>.</p>
+
+<p>Do not send monero to Electrum, do not send ethereum to Electrum, do not send zcash to Electrum.</p>
+
+<h4 id="electrum-forks">Electrum forks</h4>
+
+<p>Because Electrum has been such a successful bitcoin wallet, with bitcoin forks and with some altcoins the developers opted to release their own wallets based on the original Electrum code.</p>
+
+<p>Those wallets are a different software authored by developers other than Thomas Voegtlin.</p>
+
+<p>Electrum forks for altcoins are NOT available from <code class="language-plaintext highlighter-rouge">electrum.org</code> and <strong>may not be safe to use</strong>.</p>
+
+<h3 id="electrum-security-issues">Electrum security issues</h3>
+
+<p>At the time of writing the latest Electrum release is <em>Electrum-4.0.3</em> and there are no known vulnerabilities in it.</p>
+
+<p>There have been two major security issues with older versions of the Electrum wallet. Both were exploited and fixed in 2018.</p>
+
+<ul>
+  <li>Electrum versions older than 3.3.4 are <a href="https://github.com/spesmilo/electrum/issues/4968">susceptible to a phishing attack</a>, where the attacker tricks you into downloading a fake Electrum update and steals your private keys.</li>
+  <li>Electrum versions older than 3.0.5 have a <a href="https://www.reddit.com/r/Bitcoin/comments/7ooack/critical_electrum_vulnerability/">serious vulnerability</a> where your private keys may get exposed if your <strong>currently open</strong> wallet does not have a <strong>passphrase</strong> set and you’re <strong>online with browser open</strong>.</li>
+</ul>
+
+<p>As a precaution, it is recommended to</p>
+
+<ul>
+  <li>always download Electrum from <code class="language-plaintext highlighter-rouge">electrum.org</code></li>
+  <li>verify the PGP signature provided by the developer (it is the same one since 2013)</li>
+</ul>
+
+<p><a class="btn" href="/howto/verify-signature/">How to verify a PGP signature</a></p>
+
+<h3 id="electrum-advanced-features">Electrum Advanced Features</h3>
+
+<ul>
+  <li>Deciding which incoming transaction you want to spend. This is useful for <a href="/glossary/dust-attack/">dust attacks</a></li>
+  <li>Private key <a href="/security/sweep-private-keys/">sweeping</a>, which is useful for redeeming forks and airdrops.</li>
+  <li>Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.</li>
+</ul>
+:ET
