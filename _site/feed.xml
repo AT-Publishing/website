@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Oct 2020 07:28:43 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2020 07:28:43 +0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2020 08:48:06 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2020 08:48:06 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -555,7 +555,7 @@ Contents
       
       Best platforms for trading crypto derivatives
         
-          BitMEX
+          BitMEX (no longer reliable)
           Deribit
         
       
@@ -607,9 +607,22 @@ Most liquid centralized (custodial) altcoin trading platforms:
 
   OKEx: Smaller selection of alts but easy access to derivatives.
   Bitfinex: Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required - Learn more about Bitfinex here
-  BitMEX: Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
+  BitMEX: NOT RELIABLE – Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
   Binance: Wide selection of alts, deep liquidity. Does not welcome US traders.
   Yobit: Busy and very liquid den of wild speculation, big and small alts.
+
+
+IMPORTANT! BitMEX platform is unreliable in 2020.
+
+  
+    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+  
+  
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
+  
+  
+    For options trading, use Deribit.
+  
 
 
 Avoid these trading platforms - Poloniex, HitBTC and new unknown exchanges that will not have enough liquidity.
@@ -636,6 +649,19 @@ Least stable crypto trading platform:
 
 
   BitMEX - servers unreachable very often, not recommended
+
+
+IMPORTANT! BitMEX platform is unreliable in 2020.
+
+  
+    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+  
+  
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
+  
+  
+    For options trading, use Deribit.
+  
 
 
 
@@ -666,14 +692,25 @@ Best altcoin exchanges for trading crypto derivatives
 
 BitMEX
 
-BitMEX is the only pure cryptocurrency derivative platform.
+IMPORTANT! BitMEX platform is unreliable in 2020.
+
+  
+    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+  
+  
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
+  
+  
+    For options trading, use Deribit.
+  
+
+
+BitMEX is a pure cryptocurrency derivative platform.
 
 
   You cannot buy cryptocurrency on BitMEX with fiat.
   You can only trade a derivative product for profit, or use it as a hedge, or do market making and arbitrage to rake profits.
 
-
-Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (a derivative product imitating spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.
 
 US customers are not welcome and KYC is required as of August 2020.
 
@@ -836,7 +873,7 @@ If you plan to daytrade, here’s the deal:
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#derivatives&quot;&gt;Best platforms for trading crypto derivatives&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#bitmex&quot;&gt;BitMEX&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#bitmex&quot;&gt;BitMEX&lt;/a&gt; (no longer reliable)&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;#deribit&quot;&gt;Deribit&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -888,9 +925,22 @@ If you plan to daytrade, here’s the deal:
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/okex-affilatnet-2020&quot;&gt;OKEx&lt;/a&gt;: Smaller selection of alts but easy access to derivatives.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required - &lt;strong&gt;&lt;a href=&quot;/coupon-bitfinex-5egv78ytlc/&quot;&gt;Learn more about Bitfinex here&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt;: Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt;: NOT RELIABLE – Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/china-margin&quot;&gt;Binance&lt;/a&gt;: Wide selection of alts, deep liquidity. Does not welcome US traders.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://bit.ly/at-yob2020&quot;&gt;Yobit&lt;/a&gt;: Busy and very liquid den of wild speculation, big and small alts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
+&lt;ul class=&quot;popular&quot;&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Avoid these trading platforms&lt;/strong&gt; - Poloniex, &lt;a href=&quot;https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/&quot;&gt;HitBTC&lt;/a&gt; and new unknown exchanges that will not have enough liquidity.&lt;/p&gt;
@@ -917,6 +967,19 @@ If you plan to daytrade, here’s the deal:
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://bit.ly/atnet-mex&quot;&gt;BitMEX&lt;/a&gt; - servers unreachable very often, not recommended&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
+&lt;ul class=&quot;popular&quot;&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -947,14 +1010,25 @@ If you plan to daytrade, here’s the deal:
 
 &lt;h4 id=&quot;bitmex&quot;&gt;BitMEX&lt;/h4&gt;
 
-&lt;p&gt;BitMEX is the only pure cryptocurrency derivative platform.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
+&lt;ul class=&quot;popular&quot;&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
+  &lt;/li&gt;
+  &lt;li class=&quot;popular-item&quot;&gt;
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;BitMEX is a pure cryptocurrency derivative platform.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You cannot buy cryptocurrency on BitMEX with fiat.&lt;/li&gt;
   &lt;li&gt;You can only trade a derivative product for profit, or use it as a hedge, or do market making and arbitrage to rake profits.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (a derivative product imitating spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;US customers are not welcome and KYC is required as of August 2020.&lt;/strong&gt;&lt;/p&gt;
 

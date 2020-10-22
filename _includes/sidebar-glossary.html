@@ -32,13 +32,38 @@
   {% endif %}
 
   <div class="clearfix"></div>
-  {% include category/cat-meta.html %}
+
+  {% if brand %}
+  {% assign brand_howtos = site.howto | where: "tags", brand | sample: 3 %}
+  {% assign brand_strats = site.strategy | where: "tags", brand | sample: 3 %}
+  <section class="related-stacked">
+    {% if brand_howtos[0] %}
+    <div class="row box-lvl-a"  id="side-brand-howto">
+      <h4>You might need these <b>guides</b>:</h4>
+      {% for post in brand_howtos %}
+        {% include category/stacked.html %}
+      {% endfor %}
+      <p>
+        <a class="btn" href="/guides/">See All</a>
+      </p>
+    </div>
+    {% endif %}
+    &nbsp;
+    {% if brand_strats[0] %}
+    <div class="row box-lvl-a" id="side-brand-strat">
+      <h4>You might like these <b>crypto trading strategies</b>:</h4>
+      {% for post in brand_strats %}
+        {% include category/stacked.html %}
+      {% endfor %}
+      <p>
+        <a class="btn" href="/strategy/">See All</a>
+      </p>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
   <div class="clearfix"></div>
 
-
-  <div class="clearfix"></div>
-  {{ site.bfx_vid_tall }}
-  <div class="clearfix"></div>
 
 
 </div><!-- end sidebar-->

@@ -32,7 +32,7 @@ Whether you want to join the madness of altcoin trading or you just want to buy 
   * [Your priorities for active crypto trading](#your-priorities)
     - [List of best altcoin trading platforms](#active-trading-platforms)
   * [Best platforms for trading crypto derivatives](#derivatives)
-    - [BitMEX](#bitmex)
+    - [BitMEX](#bitmex) (no longer reliable)
     - [Deribit](#deribit)
 * [Buying Altcoins](#onramp)
   * [Onramping from crypto (with exchange recommendations)](#onramp-crypto)
@@ -70,9 +70,11 @@ You might be more lucky on places like [YoBit](https://bit.ly/at-yob2020).
 
 * [OKEx](http://bit.ly/okex-affilatnet-2020): Smaller selection of alts but easy access to derivatives.
 * [Bitfinex](http://bit.ly/at-bfx-banner2020): Unique selection of alts and now also derivatives (no minimum deposit anymore). Does not welcome US traders but KYC is not required - **[Learn more about Bitfinex here](/coupon-bitfinex-5egv78ytlc/)**
-* [BitMEX](http://bit.ly/atnet-mex): Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
+* [BitMEX](http://bit.ly/atnet-mex): NOT RELIABLE -- Accessible alt derivatives and high leverage. Requires KYC, does not welcome US traders.
 * [Binance](http://bit.ly/china-margin): Wide selection of alts, deep liquidity. Does not welcome US traders.
 * [Yobit](https://bit.ly/at-yob2020): Busy and very liquid den of wild speculation, big and small alts.
+
+{% include callouts/mex.html %}
 
 **Avoid these trading platforms** - Poloniex, [HitBTC](https://www.reddit.com/r/BitcoinMarkets/comments/461rhm/a_warning_to_avoid_hitbtc/) and new unknown exchanges that will not have enough liquidity.
 
@@ -93,6 +95,9 @@ Most of all, a crypto exchange should not crash under heavy traffic - ever. Alto
 **Least stable crypto trading platform:**
 
 * [BitMEX](http://bit.ly/atnet-mex) - servers unreachable very often, not recommended
+
+{% include callouts/mex.html %}
+
 
 > **Charting on TradingView**
 
@@ -115,12 +120,12 @@ All the bigger trading platforms are there - Binance, Bitfinex, BitMEX, Kraken e
 
 #### BitMEX
 
-BitMEX is the only pure cryptocurrency derivative platform.
+{% include callouts/mex.html %}
+
+BitMEX is a pure cryptocurrency derivative platform.
 
 * You cannot buy cryptocurrency on BitMEX with fiat.
 * You can only trade a derivative product for profit, or use it as a hedge, or do market making and arbitrage to rake profits.
-
-Currently the most traded products are BTC futures, ZEC futures and BTC permanent swap (a derivative product imitating spot BTCUSD market). New altcoin derivative markets keep being added as the altcoin flavors of the month come and go.
 
 **US customers are not welcome and KYC is required as of August 2020.**
 

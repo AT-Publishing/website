@@ -46,7 +46,13 @@ related:
 
 {% amp700cloud page.image[3] %}
 
-It is not exactly hot news that the BVI-based custodial cryptocurrency trading platform Bitfinex offers their own trading app for smartphones.
+It is not exactly hot news that the BVI-based custodial cryptocurrency trading platform Bitfinex offers their own trading app for smartphones:
+
+
+<div class="clearfix"></div>
+  {{ site.bfx_vid_tall }}
+<div class="clearfix"></div>
+
 
 What you might not know is that the Bitfinex app is built in a different way than most crypto trading apps, and that it actually matters.
 

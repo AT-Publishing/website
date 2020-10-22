@@ -1,63 +1,95 @@
----
-guide:      true
-pinned:     false
-cloud:      false
-cg1:          true
-promoting:  analysis
-layout:     at-trading
-note:       "Active Trading"
+I"s7<h4 id="here-for-the-quick-action">Here for the quick action?</h4>
 
-title:        "Bitfinex (Referral Code 5egV78YtlC)"
-description:  "Bitfinex Referral Code 5egV78YtlC for fee discount. No Minimum Deposit in 2020."
-permalink:    /coupon-bitfinex-5egv78ytlc/
+<p>Enter Bitfinex Referral Code <code class="language-plaintext highlighter-rouge">5egV78YtlC</code> and get <strong>6% fee discount</strong> for any sign up.</p>
 
-categories:   [ trading-platforms ]
-tags:         [ recommended-exchange, custodial-trading ]
+<ul>
+  <li>No KYC required.</li>
+  <li>No minimum deposit required.</li>
+</ul>
 
+<p>Thank you for playing, good bye.</p>
 
-image:
-- https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg
-- https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1597212056/atnet/_how-to/bitfinex-check-certificate_kckdvn.jpg
-image_alt:
-- "Bitfinex referral code 5egV78YtlC"
-
-date: 2019-10-19 00:07:00 +0100
-
-
-author: https://altcointrading.net
-author_name: AltcoinTradingNET
-author_twitter: "altcointrading_"
-
-related:
-- {"Black Friday Every Day - Ledger wallet runs on discount multiple times a year!": "/blackfriday/"}
-- {"Where to buy altcoins & other basic how-to's": "/guides/"}
-- {"How to buy crypto in a bitcoin ATM": "/howto/use-bitcoin-atm/"}
-
----
-
-#### Here for the quick action?
-
-Enter Bitfinex Referral Code `5egV78YtlC` and get **6% fee discount** for any sign up.
-
-* No KYC required.
-* No minimum deposit required.
-
-Thank you for playing, good bye.
-
-Now for the rest of the article.
+<p>Now for the rest of the article.</p>
 
 <div class="clearfix"></div>
-  {{ site.bfx_vid_tall }}
+<div id="bfx-vid-tall" class="clearfix adfix"><small> --- advertisement --- </small><br /><a rel="nofollow" href="http://bit.ly/bfx-vid"> <amp-video width="350" height="700" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.mp4" poster="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_700,w_350/v1597818253/atnet/_banner/bfx-app-poster_jk7ssg.jpg" layout="responsive" controls="" autoplay=""> <div fallback=""><p>Your browser does not support HTML5 video.</p></div><source type="video/mp4" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.mp4" /><source type="video/webm" src="https://res.cloudinary.com/atnetcloud/video/upload/br_820k,c_scale,w_350/v1597817728/atnet/_banner/bitfinex-app-walk-1_cuecdj.webm" /></amp-video></a>
 <div class="clearfix"></div>
 
 #### Crypto Trading Strategies Suitable for Bitfinex
 
-{% assign interlink = site.strategy | where:"tags","bitfinex" %}
-{% include article/interlink-article.html %}
+
+<!--needs a variable interlink-->
+
+  <div class="box-lvl-x">
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/wyckoff-ranging-markets/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/wyckoff-ranging-markets/"><h5>Wyckoff trading method and ranging markets</h5></a>
+        <p>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/lending/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/lending/"><h5>Margin lending strategy template (best for bitfinex lending)</h5></a>
+        <p>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/timing/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/timing/"><h5>Timing tools</h5></a>
+        <p>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/dollar-cost-averaging/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/dollar-cost-averaging/"><h5>The case for dca</h5></a>
+        <p>Actually crunching the numbers for you.</p>
+      </div>
+    </div>
+    
+  </div>
+
+&nbsp;
+
 
 #### How to get a fee discount on Bitfinex
 
-{% amp700cloud none {{page.image[1]}} %}
+<a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1597212056/atnet/_how-to/bitfinex-check-certificate_kckdvn.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1597212056/atnet/_how-to/bitfinex-check-certificate_kckdvn.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 
 1. Go to `bitfinex.com`. Check you are on the correct site with the genuine SSL certificate!
 2. Sign up and enter the referrer code `5egV78YtlC`. You can also use our [sign up link](http://bit.ly/the-cat-mouse-game) that enters the code for you.
@@ -69,7 +101,7 @@ Getting your identity verified on Bitfinex can generate additional fee discount 
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Sign Up with Code</a>
 
-{% amp700cloud none {{page.image[0]}} %}
+<a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a>
 
 
 #### How to maximize your Bitfinex trading
@@ -90,7 +122,19 @@ Use the Bitfinex app to trade from your phone, but restrict its capabilities so 
 
 &nbsp;
 
-{% include article/cta.html %}
+<section>
+  <div class="row" id="article-ad-cta">
+    <h3 id="cta-headline">Want to *really* learn crypto charting &amp; technical analysis?</h3>
+    <p>Hate to break it to you, but there's no trading school, no neatly structured course and no simple how to. <br />
+      Read our articles to get familiar with <b>the tools</b>, but <b>try everything hands on</b>. Trading will press your emotions, you can only really <b>learn it as you go</b>.</p>
+    <p>All the good crypto charting tools and platforms are accessible for FREE in either TradingView app or at Bitfinex. Just start!</p>
+    <p>
+      <a class="btn btn-orange" href="https://bit.ly/at-tvd-btcusd">Get TradingView</a>&nbsp;<a class="btn btn-orange btn-orange-bg" href="http://bit.ly/catch-me-if-ya-can">Signup at Bitfinex</a>
+    </p>
+  </div>
+</section>
+<p>&nbsp;</p>
+
 
 &nbsp;
 
@@ -190,3 +234,5 @@ This is the only way in which Bitfinex still has minimum deposit requirement - y
 * **Ivan Manuel Molina Lee** - Head of Crypto Capital, accused of money laundering via Bitfinex.
 
 <a rel="nofollow" href="http://bit.ly/the-cat-mouse-game" class="button">Bitfinex/DeversiFi 6% fee discount</a>
+</div>
+:ET

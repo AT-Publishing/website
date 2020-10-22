@@ -33,12 +33,16 @@ related:
 
 ---
 
+{% include callouts/mex.html %}
 
-**BitMEX users who sign up at BitMEX with referral code `iYQB44` get 10% fee discount for 6 months.**
+#### Why is Bitmex no longer a good place to trade
 
 Up until August 2020, BitMEX was your trusty exchange where no KYC was necessary and you could access the exchange even from Tor or VPN - it breached the TOS but compliance was not enforced, as was the custom.
 
 **In August 2020, [BitMEX announced they will be requiring KYC from all users starting 28 August 2020](https://blog.bitmex.com/announcing-the-bitmex-user-verification-programme/).** The KYC procedure includes government documents, selfie and a questionnaire. As a reminder [BitMEX does not serve US traders](#murica).
+
+BitMEX users who sign up at BitMEX with referral code `iYQB44` get 10% fee discount for 6 months.
+
 
 #### Just here for the BitMEX promo code?
 

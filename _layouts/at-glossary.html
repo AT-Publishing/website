@@ -38,6 +38,11 @@ layout: default-news
 
             </article>
             <article class="maincontent altcointrading-blog-content" id="block-intext">
+
+              <div id="at-promo-horizontal">
+                {% include promoting-horizontal.html %}
+              </div>
+
               <div class="strategy-content intext" id="article-body">
                 {{ content }}
   					  </div><!-- strategy content -->
@@ -59,6 +64,7 @@ layout: default-news
                       <div class="row" id="glossary-bytag0">
                             {% if tag_posts[0] %}
                             <h5 class="tagged-as">ATNET Blogs on #{{ page.tags[0] | upcase }}</h5>
+
                             <ul class="popular">
                                 {% for post in tag_posts %}
                                   <li class="popular-item"><a href="{{post.url}}">[blog] <b>{{post.title}}</b></a> - {{ post.description }}</li>
@@ -96,10 +102,7 @@ layout: default-news
       <div class="row">
         <p>&nbsp;</p>
         {% include article/cta.html %}
-        <p>&nbsp;</p>
-        <div id="at-promo-horizontal">
-          {% include promoting-horizontal.html %}
-        </div>
+
 
       </div>
   </div><!-- row -->
