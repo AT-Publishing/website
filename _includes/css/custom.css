@@ -116,7 +116,7 @@ textarea {
 }
 
 section em {
-    font-family: Alegreya, serif;
+    font-family: monospace;
     font-style: italic;
     font-size: 115%;
     color: #000b17
@@ -1743,6 +1743,7 @@ h4.tagged-as {
     position: relative;
     top: -1px;
 }
+
 
 .strategy-hook blockquote {
     font-family: 'Passion+One';

@@ -6,17 +6,52 @@
     </div>
   </section>
 
+  {% if brand %}
+  {% assign brand_howtos = site.howto | where: "tags", brand | sample: 3 %}
+  {% assign brand_strats = site.strategy | where: "tags", brand | sample: 3 %}
+
+  <div class="clearfix"></div>
+
+  <section class="related-stacked">
+    {% if brand_howtos[0] %}
+    <div class="row box-lvl-a"  id="side-brand-howto">
+      <h4>You might need these <b>guides</b>:</h4>
+      {% for post in brand_howtos %}
+        {% include category/stacked.html %}
+      {% endfor %}
+      <p>
+        <a class="btn" href="/guides/">See All</a>
+      </p>
+    </div>
+    {% endif %}
+    {% if brand_strats[0] %}
+    <div class="row box-lvl-a" id="side-brand-strat">
+      <h4>You might like these <b>crypto trading strategies</b>:</h4>
+      {% for post in brand_strats %}
+        {% include category/stacked.html %}
+      {% endfor %}
+      <p>
+        <a class="btn" href="/strategy/">See All</a>
+      </p>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
   {% if page.categories %}
   {% assign cat_related = site.posts | where: "categories", page.categories[0] | sample: 5 %}
   {% endif %}
   {% if cat_related[0] %}
   &nbsp;
   <section>
-    <div class="row box-lvl-a">
-      <h4>Also in <b>{{ page.categories[0] | upcase }}</b></h4>
+    <div class="row box-lvl-a" id="side-cat-related">
+      <h4>More Blogs in <b>{{ page.categories[0] | replace: "-", " " }}</b></h4>
       {% for post in cat_related %}
         {% include category/tall.html %}
       {% endfor %}
+      <p>
+        <a class="btn" href="/blog/trading/">See All</a>
+      </p>
     </div>
   </section>
   {% endif %}

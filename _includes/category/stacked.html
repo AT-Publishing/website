@@ -1,0 +1,17 @@
+<div class="row clearfix">
+  <div class="columns four">
+    <a class="cat-internal-link" title="{{ post.title }}" href="{{ post.url }}">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Related in {{ post.categories[0] }}" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns eight">
+    <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
+      {% if post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;{% endif %}
+      <b>{{ post.title | truncate: 30  | replace: " ", "&nbsp;"}}</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;

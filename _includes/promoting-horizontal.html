@@ -2,17 +2,33 @@
 {% case handle %}
   {% when "trading" %}
     {{ site.tv_1200-628 }}
+    {% assign brand = "bitfinex" %}
+
   {% when "analysis" %}
     {{ site.tv_728-90_animated }}
+    {% assign brand = "tradingview" %}
+
   {% when "entertainment" %}
     {{ site.ageofrust_vid_700x360 }}
+    {% assign brand = "bybit" %}
+
   {% when "security" %}
     {{ site.ledger_728-90_animated }}
+    {% assign brand = "ledger" %}
+
   {% when "onramp" %}
     {{ site.chgl_buy_long }}
+    {% assign brand = "independent-reserve" %}
+
   {% when "payments-services" %}
     {{ site.localcryptos_leader_dark }}
+    {% assign brand = "localcryptos" %}
+
   {% when "exchanges" %}
     {{ site.bfx_long }}
+    {% assign brand = "bitfinex" %}
+
   {% else %}
+  {% assign brand = "bitfinex" %}
+
 {% endcase %}
