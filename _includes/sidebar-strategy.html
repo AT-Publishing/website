@@ -27,8 +27,9 @@
   {% if brand %}
   {% assign brand_howtos = site.howto | where: "tags", brand | sample: 3 %}
   <div class="clearfix"></div>
+  {% if brand_howtos[0] %}
+  &nbsp;
   <section class="related-stacked">
-    {% if brand_howtos[0] %}
     <div class="row box-lvl-a"  id="side-brand-howto">
       <h4>You might need these <b>guides</b>:</h4>
       {% for post in brand_howtos %}
@@ -38,8 +39,8 @@
         <a class="btn" href="/guides/">See All</a>
       </p>
     </div>
-    {% endif %}
   </section>
+  {% endif %}
   {% endif %}
 
 

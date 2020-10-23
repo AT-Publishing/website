@@ -66,7 +66,10 @@ Definitely something to consider: The markets for big cryptos are maturing, trad
 
 &nbsp;
 
-{% include article/interlink-article.html %}
+#### Read Later:
+
+{% assign interlink = page.interlink %}
+{% include article/interlink-generic.html %}
 
 &nbsp;
 

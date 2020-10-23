@@ -1,4 +1,4 @@
-I"Pc<p><em>If you want more Wyckoff, take a look at the <a href="/tag/wyckoff-trading/">“Wyckoff Trading”</a> tag in the blog.</em></p>
+I"?m<p><em>If you want more Wyckoff, take a look at the <a href="/tag/wyckoff-trading/">“Wyckoff Trading”</a> tag in the blog.</em></p>
 
 <h2 id="what-is-wyckoff-method">What is Wyckoff Method?</h2>
 
@@ -35,9 +35,58 @@
 
 <p> </p>
 
+<h4 id="read-later">Read Later:</h4>
+
 <!--needs a variable interlink-->
 
-<p> </p>
+<div class="box-lvl-a">
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/strategy/reversals/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://www.altcointrading.net/img/emotions/up.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/reversals/"><h5>The psychology of reversals</h5></a>
+        <p>Wyckoff ranges are often used to spot market reversals. The important ones, on higher timeframes. You have to understand the market psychology during a developing reversal to be able to use Wyckoff properly.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/scriptspotlight-bollinger-band-width-indicator/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/scriptspotlight-bollinger-band-width-indicator/"><h5>Script spotlight - bollinger bandwidth</h5></a>
+        <p>Review of Bollinger Bandwidth Strategy from the TradingView script library.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/glossary/pattern-trading/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/glossary/pattern-trading/"><h5>Pattern trading in crypto (atnet glossary)</h5></a>
+        <p>What are the highest probability patterns in crypto? How to do pattern trading right? How to not be a head-and-shoulders loser?</p>
+      </div>
+    </div>
+    
+  </div>
 
 <p> </p>
 
