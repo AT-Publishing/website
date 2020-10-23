@@ -17,7 +17,7 @@ image_alt:     ["How to use crypto technical analysis strategically"]
 author:         "https://reddit.com/u/KarlVonBahnhof"
 author_name:    "KarlVonBahnhof"
 author_twitter: "@_KarlVonBahnhof"
-categories:     [ trading ]
+categories:     [ trading-psychology ]
 tags:           [ crypto-technical-analysis, technical-analysis, strategic-mindset, rational-analysis, bitmex, tradingview]
 
 related:

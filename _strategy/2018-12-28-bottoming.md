@@ -11,7 +11,7 @@ layout: strategy
 title: "Thoughts on Reversals and Psychology"
 description: "Bottoming process, just as any other market reversal, is strongly influenced by psychology."
 
-categories: ["trading"]
+categories: [ trading-psychology ]
 tags: [ "fulcrum-bottom", "mises", "reversals", "swing-trading", "trading-strategy", "crypto-trading"]
 
 slug: "reversals/"

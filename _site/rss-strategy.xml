@@ -19,13 +19,13 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Thu, 22 Oct 2020 08:48:06 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2020 08:48:06 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2020 08:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2020 08:00:00 +0000</lastBuildDate>
 
     
       <item>
 
-        <title>Wyckoff trading method and ranging markets</title>
+        <title>Wyckoff trading method for ranging markets</title>
         <description>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</description>
 
         <pubDate>Sat, 21 Oct 2017 22:16:00 +0000</pubDate>
@@ -41,6 +41,8 @@
         
         <category>crypto-charting</category>
         
+        <category>crypto-technical-analysis</category>
+        
         <category>wyckoff-trading-crypto</category>
         
         <category>crypto-trading-strategy</category>
@@ -50,7 +52,7 @@
         <category>independent-reserve</category>
         
         
-        <category>crypto-technical-analysis</category>
+        <category>pattern-trading</category>
         
 
       </item>
@@ -72,7 +74,7 @@
 
         
         
-        <category>tip</category>
+        <category>trading-technique</category>
         
 
       </item>
@@ -144,13 +146,7 @@
         <category>independent-reserve</category>
         
         
-        <category>trading</category>
-        
-        <category>bitcoin</category>
-        
-        <category>altcoins</category>
-        
-        <category>technical-analysis</category>
+        <category>pattern-trading</category>
         
 
       </item>
@@ -178,7 +174,7 @@
         <category>cryptocurrency-investing</category>
         
         
-        <category>trading</category>
+        <category>yield</category>
         
 
       </item>
@@ -212,7 +208,7 @@
         <category>tradingview</category>
         
         
-        <category>trading</category>
+        <category>trading-technique</category>
         
 
       </item>
@@ -250,7 +246,7 @@
         <category>bitfinex</category>
         
         
-        <category>trading</category>
+        <category>data-analysis</category>
         
 
       </item>
@@ -286,7 +282,7 @@
         <category>independent-reserve</category>
         
         
-        <category>trading</category>
+        <category>pattern-trading</category>
         
 
       </item>
@@ -320,7 +316,7 @@
         <category>crypto-trading</category>
         
         
-        <category>trading</category>
+        <category>trading-psychology</category>
         
 
       </item>
@@ -356,7 +352,7 @@
         <category>independent-reserve</category>
         
         
-        <category>trading</category>
+        <category>trading-technique</category>
         
 
       </item>
@@ -392,7 +388,7 @@
         <category>independent-reserve</category>
         
         
-        <category>trading</category>
+        <category>trading-technique</category>
         
 
       </item>
@@ -426,7 +422,7 @@
         <category>tradingview</category>
         
         
-        <category>trading</category>
+        <category>trading-psychology</category>
         
 
       </item>
@@ -464,7 +460,7 @@
         <category>bitmex</category>
         
         
-        <category>crypto-value-judgement</category>
+        <category>trading-psychology</category>
         
 
       </item>

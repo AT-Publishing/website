@@ -1,16 +1,16 @@
 ---
-published: true
-note: 'Strategic Tools'
-orderby: c
+published:      true
+note:           'Strategic Tools'
+orderby:         c
+promoting:      analysis
 
-layout: strategy
-title: "Wyckoff trading method and ranging markets"
-description: "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
+title:        "Wyckoff trading method for ranging markets"
+description:  "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
 
-categories: [ crypto-technical-analysis ]
-tags: [ crypto-charting, wyckoff-trading-crypto, crypto-trading-strategy, bitfinex, independent-reserve ]
+categories: [ pattern-trading ]
+tags:       [ crypto-charting, crypto-technical-analysis, wyckoff-trading-crypto, crypto-trading-strategy, bitfinex, independent-reserve ]
 
-slug: wyckoff-ranging-markets/
+slug:       wyckoff-ranging-markets/
 
 image:
 - "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg"
@@ -25,10 +25,15 @@ image:
 image_alt:
 - "Cryptocurrency trading strategy."
 
+layout: strategy
 date: 2017-10-22 05:16:00 +0700
-
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
+
+interlink:
+- [ "/strategy/reversals/", "The Psychology of Reversals", "Wyckoff ranges are often used to spot market reversals. The important ones, on higher timeframes. You have to understand the market psychology during a developing reversal to be able to use Wyckoff properly.", "https://www.altcointrading.net/img/emotions/up.jpg"]
+- [ "/scriptspotlight-bollinger-band-width-indicator/", "Script Spotlight - Bollinger Bandwidth", "Review of Bollinger Bandwidth Strategy from the TradingView script library.", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]
+- [ "/glossary/pattern-trading/", "Pattern Trading in Crypto (ATNET Glossary)", "What are the highest probability patterns in crypto? How to do pattern trading right? How to not be a head-and-shoulders loser?", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1599206541/atnet/_glossary/geometric-pattern_ctc43d.jpg"]
 
 ---
 
@@ -59,6 +64,11 @@ Definitely something to consider: The markets for big cryptos are maturing, trad
 
 > John Bollinger: "Bollinger Bands work fantastic on Bitcoin. And they work fantastic on all forex. There's a reason for that. Currency trading is pairs trading - you’re long one and short the other, essentially. The idea is to earn a return at reduced volatility over time. So, forex is pairs trading and pairs have a statistical property, they’re stationary or they exhibit in the statistical parlance, stationarity. And it just turns out that Bollinger Bands work just a little bit better with series that exhibit stationarity. So, there is sort of a built-in edge to using Bollinger Bands on anything that’s a pair." (From [Meb Faber's podcast, Episode 37, 2017/02/01](http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/))
 
+&nbsp;
+
+{% include article/interlink-article.html %}
+
+&nbsp;
 
 ## Market Ranges
 

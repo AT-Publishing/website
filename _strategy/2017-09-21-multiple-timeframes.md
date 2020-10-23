@@ -9,8 +9,7 @@ description: "On why it's constructive to trade multiple time frames at the same
 
 #tags: ['popular']
 
-categories:
-- "tip"
+categories: [ trading-technique ]
 
 slug: multiple-time-frame/
 
