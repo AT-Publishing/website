@@ -1,0 +1,73 @@
+I"�<p>Whether you want to onramp or start actively trading, KYC is quite likely a big topic. KYC, meaning ‘know your customer’, might make you effectively cut off from purchasing crypto just because you were born in the wrong country.</p>
+
+<p>For others, KYC is just a superfluous evil they don’t have time for.</p>
+
+<p>For yet others, uploading your documents into a cryptocurrency exchange looks like a surefire way to get them abused and sold on darknet. This third group has been around the block quite a bit, I can tell you.</p>
+
+<p>Buying crypto non-KYC is <strong>by far</strong> not without risks either, though.</p>
+
+<p>Below are the <strong>three most important things to look for</strong> in a platform that claims to let you buy or trade crypto without KYC.</p>
+
+<ul>
+  <li>We go at length about all possible ways of buying crypto in our <a href="/how-to-buy-altcoins/">How-To guide on buying</a>.</li>
+</ul>
+
+<h2 id="1-non-kyc-crypto-exchange-should-be-non-custodial">1. Non-KYC Crypto Exchange Should Be Non-Custodial</h2>
+
+<p>This is not 2011. Good part of the world knows what crypto is and that crypto exchanges exist - including law enforcement and other authorities. Cryptocurrencies are a financial instrument to most of them, and almost always is regulated in <em>some way</em>.</p>
+
+<p>KYC &amp; AML requirements exist to prevent people from cashing out their profits into fiat after they have used crypto for illegal purposes, or to prevent people trading derivatives after an arbitrary financial authority decided they shouldn’t.</p>
+
+<p>Custodial exchanges are the perfect platform for law enforcement to leverage. While your identity can be traced on most crypto exchanges from your IP, email address or reused username, your assets can only be seized from a custodial exchange (or from a bank account).</p>
+
+<ul>
+  <li>To trade custodial, you need to send your cryptocurrency to a wallet controlled by the exchange, giving up the control over your asset. (Non-custodial trading is done from a wallet only you control.)</li>
+  <li>To cash out custodial, you need to link your account to a bank account, which requires multiple documents proving your identity. (Good non-custodial platforms like <a href="http://bit.ly/localcryptos">LocalCryptos</a> encrypt private communication, keeping your fiat-based identity secret.)</li>
+</ul>
+
+<p>Even if you sign up on a crypto exchange that boasts to not require KYC, <strong>there is no guarantee this will not change in the future and without any warning</strong>.</p>
+
+<p>A small, under-the-radar custodial trading platform might be ignored by the authorities for long enough, but at some point it <em>will be required</em> to start KYC’ing their traders. <a href="">BitMEX</a> lasted much longer than most but eventually the exchange started requiring KYC in August 2020.</p>
+
+<p>Some crypto traders even call this “The KYC Scam”: Crypto trading platforms like <a href="https://www.reddit.com/r/Bitcoin/comments/8qh2ks/psa_beware_of_growing_risk_the_kyc_scam/">Bittrex, Poloniex or Changelly have been documented to froze withdrawal function</a> at random, forcing users to submit KYC or else taking the loss.</p>
+
+<p>You probably get by now that using non-custodial platforms goes a long way. At this stage, non-custodial trading is not new either - no need to sacrifice performance or fear bugs in the exchange code to more extent than with custodial exchange.</p>
+
+<p>The selection of markets is finally getting good enough too:</p>
+
+<ul>
+  <li>There is <a href="http://bit.ly/localcryptos">LocalCryptos</a> to buy or sell large cryptos like BTC and ETH.</li>
+  <li>To trade altcoins, <a href="/glossary/defi/">defi</a> and other tokens, we have Uniswap.</li>
+  <li>Futures and derivatives markets are being developed at <a href="/leverj/">LeverJ</a></li>
+</ul>
+
+<p>So there’s that. Even so, if you <em>must</em> trade custodial because you need the liquidity and market depth, keep reading through the two following points.</p>
+
+<h2 id="2-cheap-and-easy-crypto-withdrawals">2. Cheap and Easy Crypto Withdrawals</h2>
+
+<p>One of the warning signs of BitMEX being in trouble could have been the prohibitively high fees for crypto withdrawals (up to 10x the current fee rate for BTC).</p>
+
+<p>Simply put, when a crypto exchange does something that <strong>discourages traders from withdrawing their money</strong> whenever they are not trading, you know the platform is in trouble.</p>
+
+<p>The most recent showcase of this tell-tale sign was the Chinese futures exchange OKEx. In October 2020 all cryptocurrency withdrawals were halted on OKEx. It soon transpired that <a href="https://www.msn.com/en-us/money/news/chinese-police-investigation-halts-withdrawals-at-cryptoexchange-okex/ar-BB1a59XF">the reason for the halt was in fact police investigation</a>.</p>
+
+<p>A crypto exchange will never announce they got hacked or seized before touching user withdrawals. Withdrawals will go first, only after some time will the users know what actually happened and whether they have a chance of getting their crypto back.</p>
+
+<p>You can avoid getting caught up in this by <a href="/altcoin-wallets/">withdrawing your money to a crypto wallet</a> often enough, for which you need the exchange to have low withdrawal fees.</p>
+
+<p>This is paramount in non-KYC exchanges as these are most likely to get in trouble at some point.</p>
+
+<h2 id="3-proven-track-of-record-exchange-reps-on-reddit">3. Proven Track Of Record, Exchange Reps on Reddit</h2>
+
+<p>A custodial exchange needs to have easily accessible support. Private Telegram chats and 1-on-1 customer service is usually reserved for fully verified high volume traders, but everyone should be able to quickly reach out to an exchange representative on Reddit when they notice a problem with the platform.</p>
+
+<p>Good track of record is important too - and not just a record of past without hacking.</p>
+
+<p><a href="/finexening/">Bitfinex was hacked in August 2016</a> but they handled the situation well by being upfront about it. They promptly organized AMA sessions with the community head and eventually came up with the redemption token scheme which made up for the losses individual users had to take - even for the losses of unverified users. (Note that legacy solutions offer no help for non-KYC users.)</p>
+
+<p>Good handling of the incident leaves Bitfinex with a great track of records even though they were hacked, and a recommended non-KYC custodial exchange.</p>
+
+<ul>
+  <li><a href="http://bit.ly/at-bfx-banner2020">Sign up at Bitfinex with 6% fee discount</a></li>
+</ul>
+:ET
