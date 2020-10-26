@@ -3,7 +3,7 @@ published:  true
 cloud:      true
 promoting:  analysis
 layout:     at-glossary
-date:       2020-10-08 08:48:00 +0700
+date:       2020-10-26 08:48:00 +0700
 slug:       mewn/
 title:      Mewn
 hook:       Mewn in ATNET Crypto glossary. What does Mewn stand for in crypto?

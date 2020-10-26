@@ -147,11 +147,6 @@
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/glossary/mewn/</loc>
-        <lastmod>2020-10-26T04:59:13+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://www.altcointrading.net/glossary/ta/</loc>
         <lastmod>2020-10-21T09:04:53+00:00</lastmod>
     </url>
@@ -189,6 +184,11 @@
     <url>
         <loc>https://www.altcointrading.net/glossary/cbdc/</loc>
         <lastmod>2020-10-21T09:04:53+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/glossary/mewn/</loc>
+        <lastmod>2020-10-26T06:51:25+00:00</lastmod>
     </url>
     
 </urlset>
