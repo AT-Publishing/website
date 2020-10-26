@@ -1,4 +1,4 @@
-I"|c<p>This is a list of free or freemium tools and apps that are useful for cryptocurrency traders or hodlers.</p>
+I"qh<p>This is a list of free or freemium tools and apps that are useful for cryptocurrency traders or hodlers.</p>
 
 <p><strong>None of these tools were backed by an ICO</strong>, which has been the original condition for getting a tool listed on here. Some of them are open source, some commercial, but all of them have at least a trial account option.</p>
 
@@ -7,18 +7,39 @@
 <h2 id="contents">Contents</h2>
 
 <ol>
+  <li><a href="#market-screener">Market Screener</a></li>
   <li><a href="#large-transaction-alerts">Large Transaction monitoring</a></li>
   <li><a href="#portfolio-tracking">Portfolio tracking</a></li>
   <li><a href="#crypto-taxes">Crypto Taxes</a></li>
   <li><a href="#orderbook-monitoring">Orderbook Monitoring</a></li>
   <li><a href="#market-performance-metrics">Market Performance Metrics</a></li>
-  <li><a href="#crypto-charting-apps">Crypto Charting Apps</a></li>
+  <li><a href="#crypto-charting-apps">Crypto Charting Tools</a></li>
   <li><a href="#social-media-sentiment">Social media sentiment</a></li>
   <li><a href="#crypto-news-aggregators">Crypto News aggregators</a></li>
   <li><a href="#coinmarketcap-alternatives">CoinMarketCap Alternatives</a></li>
   <li><a href="#crypto-events">Crypto Events</a></li>
   <li><a href="#security">OPSEC and Security Tools</a></li>
 </ol>
+
+<h4 id="market-screener">Market Screener</h4>
+
+<amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360,w_700/v1603682127/atnet/blog_trading/finviz_bmxhan.jpg" alt="FinFiz Crypto" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px"></amp-img>
+
+<p> </p>
+
+<ul>
+  <li><a href="http://bit.ly/finviz-crypto-screener">FinViz Crypto Screener</a></li>
+</ul>
+
+<p>FinViz is a stock, forex and crypto market screener. Crypto is the latest addition to this 10+ year old trading tool.</p>
+
+<p>That sadly means you won’t get as many features as you get for stocks on FinViz, such as the feed of institutional and insider transactions pulled directly from SEC forms.</p>
+
+<p>In its free version, FinViz Crypto is still a handy tool to get crypto charts of the 15 top crypto markets next to each other, together with a graph of the relative performance of top coins on their USD markets.</p>
+
+<p>If you also trade <a href="/crypto-trading-vs-forex-trading-review/">forex and stocks</a>, take a look at the Elite subscription.</p>
+
+<p><a class="btn" href="/blackfriday/#finviz">Buy FinViz Elite with Black Friday Discount</a></p>
 
 <h4 id="large-transaction-alerts">Large Transaction Alerts</h4>
 

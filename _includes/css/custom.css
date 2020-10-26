@@ -1928,7 +1928,7 @@ ul.list-updated>li:nth-of-type(5) {
     text-align: center;
     padding: 3em 5em 1em;
 }
-#article-as-cta>h3 {
+#article-ad-cta>h3, #article-ad-cta>p {
   color: white;
 }
 h3#cta-headline, #cta-headline {
