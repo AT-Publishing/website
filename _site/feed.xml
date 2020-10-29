@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Oct 2020 07:00:09 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2020 07:00:09 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2020 08:09:27 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2020 08:09:27 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -5130,134 +5130,6 @@ It is safe to say that the malware industry has fully integrated the use of cryp
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility ]]></title>
-        <description><![CDATA[ The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan. ]]></description>
-
-        <content:encoded><![CDATA[ On January 21st, Samourai Wallet released an update that makes an important step towards the fungibility of Bitcoin as a payment vehicle.
-
-When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.
-
- --- article continues after advertisement --- 
-
-By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.
-
-One of the disadvantages though is the fact that Bitcoin’s blockchain is public. In many corners of the cryptocurrency community, this is even the main reason for Monero’s existence.
-
-Nonetheless, there is the opposing argument as well - You only need stealth privacy quite rarely. And so, do we really need a separate crypto-money just for these rare cases? A separate blockchain for stealth transactions?
-
-This article cannot provide an answer to that question - in time, the market will decide.
-
-If you subscribe to the philosophy that it is not feasible to hold multiple cryptocurrencies for different uses, you will most likely benefit from what Samourai Wallet has been working on.
-
-Staggered Ricochet
-
-Samourai Wallet really deserves to call itself “the bitcoin wallet for the streets”. The first version of Samourai wallet came to existence during the bear market of 2015 already with the intention to offer some built-in transaction anonymizing function; ever since this angle kept only improving.
-
-The new “Staggered Ricochet” is an extension of an existing premium option for BTC transactions called simply “Ricochet”. Ricochet is not a mixing function, but it helps to increase your plausible deniability by adding hops into your transaction - the principle is similar to relay hops used by Tor, the anonymous deep web browser.
-
-Ricochet makes your transaction somewhat slower and somewhat more expensive, because you are inserting extra transactions between your starting address and the destination address.
-
-Staggered Ricochet is a take on some advanced issues that are emerging as blockchain transaction analytics becomes more advanced. This update improves Ricochet by making its tell-tale patterns less recognizable: Staggered Ricochet makes sure each hop-transaction gets mined in a different block and also, each hop-transaction will only first be exposed to the mempool when it is just ready to be broadcast.
-
-Explanation from Samourai Wallet’s blog:
-
-
-  One of the clever ways of fingerprinting transactions that blockchain spies have been known to use is monitoring the mempool and using associated metadata including time first broadcast to assist in their address clustering heuristics. To help break that method Staggered Ricochet transactions will not be exposed to the public mempool until they are ready to be broadcast.
-
-
-Cost and Time
-
-On the expense side, Samourai Wallet with the Staggered Ricochet option is a good fit for  the philosophy of using stealth privacy only once in a while: As with simple Ricochet, you are paying extra fees for the hops, and additionally, a Staggered Ricochet transaction will potentially take up to a few hours to confirm because of the block restriction. You do not want to use it every time, and you don’t want to buy your coffee this way.
-
-For the cases where you want privacy though, I would argue that state-of-the-art enhancements like the Staggered Ricochet can even be a safer option than using a private cryptocurrency: You are adding extra hops to a very busy public blockchain in a manner that cannot be easily detected.
-
-If you choose to pay with a cryptocurrency known for its focus on anonymous transations, by doing so you are advertising that this particular transation really needs to stay hidden. All it takes is a vulnerability that breaks that ledger’s anonymity - which by all means can happen.
-
-
-
-Samourai Wallet is available for free at samouraiwallet.com/download.
-
-As for smartphones, the app is currently only available for Android. If you are a slightly more advanced user, you can run the Android app on your computer via VirtualBox - a how-to guide here.
-
-
-
- ]]></content:encoded>
-
-        <turbo:content><![CDATA[ &lt;p&gt;On January 21st, Samourai Wallet released an update that makes an important step towards the fungibility of Bitcoin as a payment vehicle.&lt;/p&gt;
-
-&lt;p&gt;When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.&lt;/p&gt;
-
-&lt;div class=&quot;containter-center&quot;&gt;&lt;div class=&quot;clearfix adfix&quot;&gt;&lt;small&gt; --- article continues after advertisement --- &lt;/small&gt;&lt;br /&gt;&lt;a rel=&quot;nofollow&quot; title=&quot;Coinmama buy crypto with credit card&quot; href=&quot;https://bit.ly/at-cmama2020-buy-ccard&quot; target=&quot;_blank&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_270,w_700/v1586843999/atnet/_banner/coinmama_buy1.jpg&quot; alt=&quot;Coinmama buy crypto with credit card&quot; data-original-width=&quot;700px&quot; data-original-height=&quot;270px&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;270px&quot;&gt;&lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.&lt;/p&gt;
-
-&lt;p&gt;One of the disadvantages though is the fact that Bitcoin’s blockchain is public. In many corners of the cryptocurrency community, this is even the main reason for Monero’s existence.&lt;/p&gt;
-
-&lt;p&gt;Nonetheless, there is the opposing argument as well - You only need stealth privacy quite rarely. And so, do we really need a separate crypto-money just for these rare cases? A separate blockchain for stealth transactions?&lt;/p&gt;
-
-&lt;p&gt;This article cannot provide an answer to that question - in time, the market will decide.&lt;/p&gt;
-
-&lt;p&gt;If you subscribe to the philosophy that it is not feasible to hold multiple cryptocurrencies for different uses, you will most likely benefit from what Samourai Wallet has been working on.&lt;/p&gt;
-
-&lt;h4 id=&quot;staggered-ricochet&quot;&gt;Staggered Ricochet&lt;/h4&gt;
-
-&lt;p&gt;Samourai Wallet really deserves to call itself “the bitcoin wallet for the streets”. The first version of Samourai wallet came to existence during the bear market of 2015 already with the intention to offer some built-in transaction anonymizing function; ever since this angle kept only improving.&lt;/p&gt;
-
-&lt;p&gt;The new “Staggered Ricochet” is an extension of an existing premium option for BTC transactions called simply “Ricochet”. Ricochet is not a mixing function, but it helps to increase your plausible deniability by adding hops into your transaction - the principle is similar to relay hops used by Tor, the anonymous deep web browser.&lt;/p&gt;
-
-&lt;p&gt;Ricochet makes your transaction somewhat slower and somewhat more expensive, because you are inserting extra transactions between your starting address and the destination address.&lt;/p&gt;
-
-&lt;p&gt;Staggered Ricochet is a take on some advanced issues that are emerging as blockchain transaction analytics becomes more advanced. This update improves Ricochet by making its tell-tale patterns less recognizable: Staggered Ricochet makes sure each hop-transaction gets mined in a different block and also, each hop-transaction will only first be exposed to the mempool when it is just ready to be broadcast.&lt;/p&gt;
-
-&lt;p&gt;Explanation from &lt;a href=&quot;https://blog.samouraiwallet.com/post/182192289762/staggered-ricochet-utxo-tagging-paynym-ux&quot;&gt;Samourai Wallet’s blog&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;One of the clever ways of fingerprinting transactions that blockchain spies have been known to use is monitoring the mempool and using associated metadata including time first broadcast to assist in their address clustering heuristics. To help break that method Staggered Ricochet transactions will not be exposed to the public mempool until they are ready to be broadcast.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;cost-and-time&quot;&gt;Cost and Time&lt;/h4&gt;
-
-&lt;p&gt;On the expense side, Samourai Wallet with the Staggered Ricochet option is a good fit for  the philosophy of using stealth privacy only once in a while: As with simple Ricochet, you are paying extra fees for the hops, and additionally, a Staggered Ricochet transaction will potentially take up to a few hours to confirm because of the block restriction. You do not want to use it every time, and you don’t want to buy your coffee this way.&lt;/p&gt;
-
-&lt;p&gt;For the cases where you want privacy though, I would argue that state-of-the-art enhancements like the Staggered Ricochet can even be a safer option than using a private cryptocurrency: You are adding extra hops to a very busy public blockchain in a manner that cannot be easily detected.&lt;/p&gt;
-
-&lt;p&gt;If you choose to pay with a cryptocurrency known for its focus on anonymous transations, by doing so you are advertising that this particular transation really needs to stay hidden. All it takes is a vulnerability that breaks that ledger’s anonymity - which by all means can happen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Samourai Wallet is available for free at &lt;a href=&quot;https://samouraiwallet.com/download&quot;&gt;samouraiwallet.com/download&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As for smartphones, the app is currently only available for Android. If you are a slightly more advanced user, you can run the Android app on your computer via VirtualBox - &lt;a href=&quot;https://www.altcointrading.net/security/virtualbox&quot;&gt;a how-to guide here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
- ]]></turbo:content>
-
-        <author><![CDATA[ Chris at The Business Of Crypto ]]></author>
-        <dc:creator><![CDATA[ Chris at The Business Of Crypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/security.jpg" medium="image" />
-        <pubDate>Thu, 24 Jan 2019 18:04:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</guid>
-        <comments>https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ bitcoin-wallet ]]></category>
-        <category><![CDATA[ crypto-opsec ]]></category>
-        <category><![CDATA[ electrum ]]></category>
-        <category><![CDATA[ samourai ]]></category>
-        
-        <category><![CDATA[ cryptocurrency-wallets ]]></category>
-        
-
-        <yandex:related>
-        
-        </yandex:related>
-
-      </item>
-    
-      <item turbo="true">
         <title><![CDATA[ Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement ]]></title>
         <description><![CDATA[ Chat about the business of P2P trading, challenges of crypto OTC and how a poor country can matter for the future of crypto. ]]></description>
 
@@ -6566,6 +6438,180 @@ If the Bakkt hype is to be taken seriously though, no flight to decentralization
         
 
         
+
+      </item>
+    
+      <item turbo="true">
+        <title><![CDATA[ Script Spotlight: Automatic Divergences ]]></title>
+        <description><![CDATA[ In this series we are picking scripts for technical analysis that recently popped up in the TradingView daily popular feed. ]]></description>
+
+        <content:encoded><![CDATA[ If you don’t have a TradingView account yet, make one here for free. If you care for high leveraged trading, you’re probably looking for BitMEX as well, keep your cool though.
+
+PPO Divergence Alerts (PPOD)
+
+Full script
+
+PPOD is a script that plots labels under or above candles where a divergence on PPO occurred.
+
+PPO or Price Oscillator is a technical indicator very similar to MACD. It is calculated the same way as MACD but it presents the final value as a percentage.
+
+
+  
+    MACD takes the difference in values between those two Moving Averages and an EMA of those Moving Averages, then plots that difference between the two lines as a histogram.
+  
+  
+    PPO does the same but it then calculates a percentage. This makes value comparisons simpler over longer durations of time.
+  
+
+
+The PPOD script is this PPO Divergence script only re-styled so that it will plot labels instead of a line indicator below the chart. It can be rewritten for use with other oscillators.
+
+Parameters: (lookback period to look for divergences, PPO fast line, PPO slow line, PPO signal line, PPO smoothing)
+
+Does it work?
+
+
+
+This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: (55,12,26,9,2).
+
+Here the strongest signals are the red and pink labels that signify a bearish and bullish divergence on that timeframe. The red and green arrows show where the PPO was overbought and oversold - it is an oscillator which means you can use similar patterns as you would with MACD or RSI.
+
+We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.
+
+
+
+On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.
+
+If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:
+
+
+
+In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.
+
+Now specifically to shorter timeframes - If the volatility is high, there will always be divergences. They show the price is overshooting, nothing else. The only actionable information to take from that is “maybe I should become a market maker”, I think. It means nothing for trades that are meant to last longer than a couple of minutes.
+
+Divergences are not useless for scalpers and daytraders though. One good strategy is to start the day looking at 4H to see what will most likely be the dominant direction of the session. Some days it is better to primarily focus on quick longs, some days on quick shorts.
+
+In the most basic way you could simply plot an MA to see whether the price is above or below it. Divergences can be used in a similar way for confirmation.
+
+Removing the Lines Is NOT An Advantage
+
+There is one problem I have with line indicators reduced to simple alerts though: You do not get to see whether your indicator settings are not complete rubbish.
+
+Say, you are a scalper and want to use PPO Divergence alerts on 5M chart. You will load the chart, find that the default settings don’t fit and you will start tweaking them.
+
+Maybe you will find that settings with very low smoothing and big difference between the fast and slow lines work best, and you decide to go with that. The alert script keeps printing the alerts just the same but you don’t know there is more noise than signal unless you plot the actual underlying line indicator with your settings.
+
+Plotting a single symbol works much better with events that do not have development. You can do it nicely with “rektlines”: Find singular events that will trigger most of the bots - something like an MA cross, an Ichimoku TK cross, MACD cross. Calculate 10% and 5% level against the position of the bot and you have a level where the bot positions on 10x and 20x leverage will get liquidated.
+
+In this kind of case plotting a single symbol is completely fine but I would not use PPO Divergence alerts only without also using the line indicator.
+
+Better Alternative: The Adaptive RSI Divergences
+
+Full script
+
+
+
+I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.
+
+You can use the PPOD but I prefer this Adaptive Divergences script which plots the actual div lines.
+
+Also, this particular script is an implementation of John Ehlers’ Adaptive RSI. The length value is not specified by user, it adopts according to the price development. The script looks for price cycles and bases the length values on them which gives less false signals. Do try this one.
+ ]]></content:encoded>
+
+        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;If you don’t have a TradingView account yet, &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;make one here for free&lt;/a&gt;. If you care for high leveraged trading, you’re probably looking for &lt;a href=&quot;/coupon-bitmex-iyqb44/&quot;&gt;BitMEX&lt;/a&gt; as well, keep your cool though.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ppo-divergence-alerts-ppod&quot;&gt;PPO Divergence Alerts (PPOD)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/CFMteznK-PPO-Divergence-Alerts-2-0/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;PPOD is a script that plots labels under or above candles where a divergence on PPO occurred.&lt;/p&gt;
+
+&lt;p&gt;PPO or Price Oscillator is a technical indicator very similar to MACD. It is calculated the same way as MACD but it presents the final value as a percentage.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;MACD takes the difference in values between those two Moving Averages and an EMA of those Moving Averages, then plots that difference between the two lines as a histogram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PPO does the same but it then calculates a percentage. This makes value comparisons simpler over longer durations of time.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The PPOD script is &lt;a href=&quot;https://www.tradingview.com/script/p3oqCa56-Pekipek-s-PPO-Divergence-BETA/&quot;&gt;this PPO Divergence script&lt;/a&gt; only re-styled so that it will plot labels instead of a line indicator below the chart. It can be rewritten for use with other oscillators.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Parameters&lt;/strong&gt;: (lookback period to look for divergences, PPO fast line, PPO slow line, PPO signal line, PPO smoothing)&lt;/p&gt;
+
+&lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: &lt;strong&gt;(55,12,26,9,2)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here the strongest signals are the red and pink labels that signify a bearish and bullish divergence on that timeframe. The red and green arrows show where the PPO was overbought and oversold - it is an oscillator which means you can use similar patterns as you would with MACD or RSI.&lt;/p&gt;
+
+&lt;p&gt;We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.&lt;/p&gt;
+
+&lt;p&gt;If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.&lt;/p&gt;
+
+&lt;p&gt;Now specifically to shorter timeframes - If the volatility is high, there will always be divergences. They show the price is overshooting, nothing else. The only actionable information to take from that is “maybe I should become a market maker”, I think. It means nothing for trades that are meant to last longer than a couple of minutes.&lt;/p&gt;
+
+&lt;p&gt;Divergences are not useless for scalpers and daytraders though. One good strategy is to start the day looking at 4H to see what will most likely be the dominant direction of the session. Some days it is better to primarily focus on quick longs, some days on quick shorts.&lt;/p&gt;
+
+&lt;p&gt;In the most basic way you could simply plot an MA to see whether the price is above or below it. Divergences can be used in a similar way for confirmation.&lt;/p&gt;
+
+&lt;h4 id=&quot;removing-the-lines-is-not-an-advantage&quot;&gt;Removing the Lines Is NOT An Advantage&lt;/h4&gt;
+
+&lt;p&gt;There is one problem I have with line indicators reduced to simple alerts though: You do not get to see whether your indicator settings are not complete rubbish.&lt;/p&gt;
+
+&lt;p&gt;Say, you are a scalper and want to use PPO Divergence alerts on 5M chart. You will load the chart, find that the default settings don’t fit and you will start tweaking them.&lt;/p&gt;
+
+&lt;p&gt;Maybe you will find that settings with very low smoothing and big difference between the fast and slow lines work best, and you decide to go with that. The alert script keeps printing the alerts just the same but you don’t know there is more noise than signal unless you plot the actual underlying line indicator with your settings.&lt;/p&gt;
+
+&lt;p&gt;Plotting a single symbol works much better with events that do not have development. You can do it nicely with “rektlines”: Find singular events that will trigger most of the bots - something like an MA cross, an Ichimoku TK cross, MACD cross. Calculate 10% and 5% level against the position of the bot and you have a level where the bot positions on 10x and 20x leverage will get liquidated.&lt;/p&gt;
+
+&lt;p&gt;In this kind of case plotting a single symbol is completely fine but I would not use PPO Divergence alerts only without also using the line indicator.&lt;/p&gt;
+
+&lt;h3 id=&quot;better-alternative-the-adaptive-rsi-divergences&quot;&gt;Better Alternative: The Adaptive RSI Divergences&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/SvPOv1cc/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.&lt;/p&gt;
+
+&lt;p&gt;You can use the PPOD but I prefer this Adaptive Divergences script which plots the actual div lines.&lt;/p&gt;
+
+&lt;p&gt;Also, this particular script is an implementation of John Ehlers’ Adaptive RSI. The length value is not specified by user, it adopts according to the price development. The script looks for price cycles and bases the length values on them which gives less false signals. Do try this one.&lt;/p&gt;
+ ]]></turbo:content>
+
+        <author><![CDATA[ AltcoinTrading.NET ]]></author>
+        <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
+        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <pubDate>Wed, 19 Sep 2018 06:13:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/scriptspotlight-auto-divergences/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-auto-divergences/</guid>
+        <comments>https://www.altcointrading.net/scriptspotlight-auto-divergences/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
+        
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
+        
+
+        <yandex:related>
+        
+        </yandex:related>
 
       </item>
     

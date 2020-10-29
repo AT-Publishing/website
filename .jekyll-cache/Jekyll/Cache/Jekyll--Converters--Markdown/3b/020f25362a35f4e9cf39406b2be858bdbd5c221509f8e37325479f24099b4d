@@ -1,4 +1,4 @@
-I"o<p>Just yesterday, Trezor released a security update. It updated your firmware to version 1.5.2 as older versions of firmware could make your seedphrase visible to someone who’d steal the device, took it apart and flashed it with a hacked-up firmware.</p>
+I"�<p>In August 2017, Trezor released a security update. It updated your firmware to version 1.5.2 as older versions of firmware could make your seedphrase visible to someone who’d steal the device, took it apart and flashed it with a hacked-up firmware.</p>
 
 <p><a href="https://blog.trezor.io/trezor-firmware-security-update-1-5-2-5ef1b6f13fed">Here</a> is the official story from Satoshi Labs:</p>
 
@@ -16,9 +16,11 @@
 
 <p>As it happens, <a href="https://medium.com/@Zero404Cool/trezor-security-glitches-reveal-your-private-keys-761eeab03ff8">the unofficial version</a> is a lot worse:</p>
 
-<p>The frantic patch creation we see now, before any coins have been lost (apparently), is because the <a href="https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEFCON-25-Datko-and-Quartier-Breaking-Bitcoin-Hardware-Wallets.pdf">issue was talked about at DEF CON 25</a>. All Trezors, regardless of the firmware, use a chip that is vulnerable. According to the author of the article linked above, the chip will always be vulnerable in some way and Trezors are not safe unless all devices are replaced with ones that use safer chips.</p>
+<blockquote>
+  <p>The frantic patch creation we see now, before any coins have been lost (apparently), is because the <a href="https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEFCON-25-Datko-and-Quartier-Breaking-Bitcoin-Hardware-Wallets.pdf">issue was talked about at DEF CON 25</a>. All Trezors, regardless of the firmware, use a chip that is vulnerable. According to the author of the article linked above, the chip will always be vulnerable in some way and Trezors are not safe unless all devices are replaced with ones that use safer chips.</p>
+</blockquote>
 
-<amp-img itemprop="image" alt="Altcoin Trading - Trezor Vulnerability" src="https://cdn-images-1.medium.com/max/1000/1*wZCWyhLJHmg_6S2XqFwdTQ.jpeg" layout="responsive" data-original-width="1000px" data-original-height="268px" width="750px" height="200px"></amp-img>
+<amp-img itemprop="image" alt="Altcoin Trading - Trezor Vulnerability" src="https://res.cloudinary.com/atnetcloud/image/upload/v1603942667/atnet/altcoin-wallets/1_wZCWyhLJHmg_6S2XqFwdTQ_ixshzu.jpg" layout="responsive" data-original-width="1000px" data-original-height="268px" width="750px" height="200px"></amp-img>
 
 <p><br /></p>
 
@@ -42,15 +44,17 @@
 
 <h4 id="what-can-you-do">What can you do?</h4>
 
-<ul>
-  <li>
-    <p><strong>Turn on password protection</strong>. Passwords in Trezor create a 25th word of a seedphrase. Trezor claims password protection makes the devices safe against this exploit, it is for researchers now to prove or disprove that.</p>
-  </li>
-  <li>
-    <p><strong>Keep your Trezor in a vault, don’t have it on you when you cross borders.</strong> You could have done better with a paper wallet though, or simply with a seedphrase note, couldn’t you?</p>
-  </li>
-  <li>
-    <p><strong>Build your own cold storage solution.</strong> Back in the day, people used to use a spare clean computer with Armory or Electrum. <a href="https://github.com/goatpig/BitcoinArmory/graphs/contributors">BitcoinArmory is maintained again</a> but Electrum is the wallet that gets forked to support your altcoin of the month. When you have doubts as to whether to trust a wallet software, like many people had with Bitcoin Cash wallet Electron, you can always install it on a virtual machine.</p>
-  </li>
-</ul>
+<p><strong>Extend your seed with a 25th word</strong>.</p>
+
+<p>Passwords in Trezor create a 25th word of a seedphrase. Trezor claims password protection makes the devices safe against this exploit, it is for researchers now to prove or disprove that.</p>
+
+<p><strong>Don’t carry your Trezor on you when you cross borders.</strong></p>
+
+<p>It is the physical access that is dangerous.</p>
+
+<p><strong>Build your own cold storage solution.</strong></p>
+
+<p>Back in the day, people used to use a spare laptop with Armory or Electrum on it. Electrum is the better choice now, BitcoinArmory is only maintained sporadically.</p>
+
+<p>Learn more about <a href="/glossary/electrum/">Electrum in the ATNET Glossary and links there from</a>.</p>
 :ET

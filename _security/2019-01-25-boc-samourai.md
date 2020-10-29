@@ -1,46 +1,41 @@
 ---
-layout: at-trading
-pinned: no
-canonical: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
+layout:       at-trading
+canonical:    'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet'
 
-categories:   [ cryptocurrency-wallets ]
-tags:         [ bitcoin-wallet, crypto-opsec, electrum, samourai ]
-genres:      Blog
-promoting:   onramp
+categories:   [ psa ]
+tags:         [ cryptocurrency-wallets, crypto-opsec, adoption, bitcoin-wallet, electrum, samourai ]
+note:         PSA
+promoting:    onramp
 
+date:         2019-01-25 01:04:00 +0700
 
-date: 2019-01-25 01:04:00 +0700
+title:        "How Samourai Wallet contributes to Bitcoin's fungibility"
+description:  "The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan."
 
-title: "Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"
-description: "The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan."
 
 author: 'https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet#about-the-author'
-author_name: 'Chris at The Business Of Crypto'
+author_name:    'Chris at The Business Of Crypto'
 author_twitter: "_Karlvonbahnhof"
+editor_name:    Diana Trang
 
-editor_name: Diana Trang
-
-permalink: samourai-wallet-bitcoin-anonymity/
+permalink:      samourai-wallet-bitcoin-anonymity/
 
 image:
-- "/editorial/security.jpg"
+- "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693898/atnet/__women/pexels-daria-shevtsova-1546621_bjygn6.jpg"
 image_alt:
 - "Samourai Wallet has released an update that contributes heaps to Bitcoin's fungibility"
 
 
 related:
-- {"[Updated 25 Jan 2019] Guide to storing IOTA - and how to migrate from Light Wallet to Trinity": "/security/iota"}
-- {"Tried and True Tools, Crypto Hodler's Edition (Security & Scam Detection)": "/security/tools"}
-- {"Trading Strategy - On Market Reversals and Psychology": "/strategy/reversals/"}
-- {"Etheremon's first bounty for the Chinese New year 2019": "https://www.thebusinessofcrypto.com/intelligence/etheremons-chinese-new-year-2019-1/"}
+- {"Guide to storing IOTA - and how to migrate from Light Wallet to Trinity": "/security/iota"}
+- {"Tried and True OPSec Tools, Crypto Hodler's Edition": "/security/tools"}
 ---
 
-On January 21st, Samourai Wallet released an update that makes an important step towards the fungibility of Bitcoin as a payment vehicle.
+In January 2019, Samourai Wallet released an update that made an important step towards the fungibility of Bitcoin as a payment vehicle.
 
 When we consider the potential of cryptocurrencies to be used as money, Bitcoin has the undisputed advantage of adoption: Everyone knows what Bitcoin is, it has been used in peer-to-peer transactions for years, there are relatively easy ways to store it.
 
-{{ site.cmama_buy_long }}
-
+{{ site.bfx_long }}
 
 By now, Bitcoin as a payment method has somewhat solidified by sticking around for so long.
 
@@ -81,5 +76,3 @@ If you choose to pay with a cryptocurrency known for its focus on anonymous tran
 *As for smartphones, the app is currently only available for Android. If you are a slightly more advanced user, you can run the Android app on your computer via VirtualBox - [a how-to guide here](https://www.altcointrading.net/security/virtualbox).*
 
 ***
-
-{{ site.cny2019 }}

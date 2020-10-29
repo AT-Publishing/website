@@ -30,7 +30,7 @@ image_alt:
 - "Stablecoins are hyped up right now, but how many of you 2016 New Generation OGs remember NuBits?"
 
 categories: [ reports ]
-tags: [ stablecoins, blockchain-technology ]
+tags: [ stablecoins, blockchain-technology, bitfinex, tether ]
 
 related:
 - {"Dai - Stablecoin alternative to Tether": "/dai-stablecoin/"}

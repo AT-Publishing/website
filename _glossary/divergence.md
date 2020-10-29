@@ -5,8 +5,8 @@ promoting:  analysis
 layout:     at-glossary
 date:       2020-03-30 01:07:00 +0700
 slug:       divergence/
-title:      Div (Divergence)
-hook:       Covers regular div, hidden div and exaggerated divergence with links to more info on how to trade them.
+title:      Div
+hook:       Div, AKA Divergence. Covers regular div, hidden div and exaggerated divergence with links to more info on how to trade them.
 
 categories: [technical-analysis]
 tags:       ["crypto-charting", "technical-analysis", "divergences", "divergence-trading", "crypto-market"]

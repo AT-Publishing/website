@@ -1,30 +1,29 @@
 <section id="strategy-feed">
 
-{% assign articles_strat = site.posts | where: "tags", page.tags[0] | sample: 5 %}
-{% if articles_strat[0] %}
-  <span class="note">#{{page.tags[0] | upcase }}</span>
-  {% for post in articles_strat %}
-    {% include category/full_feed_item.html %}
-  {% endfor %}
-{% endif%}
+  {% assign articles_strat = site.posts | where: "tags", page.tags[0] | sample: 5 %}
+  {% if articles_strat[0] %}
+    <h2 class="tagged-as">#{{page.tags[0] | upcase }}</h2>
+    {% for post in articles_strat %}
+      {% include block-post-sleek.html %}
+    {% endfor %}
+  {% endif%}
 
 
-{% assign articles2 = site.posts | where: "tags", page.tags[1] | sample: 3 %}
-{% if articles2[0] %}
-  <span class="note">#{{page.tags[1] | upcase }}</span>
-  {% for post in articles2 %}
-    {% include category/full_feed_item.html %}
-  {% endfor %}
-{% endif%}
+  {% assign articles2 = site.posts | where: "tags", page.tags[1] | sample: 3 %}
+  {% if articles2[0] %}
+    <h2 class="tagged-as">#{{page.tags[1] | upcase }}</h2>
+    {% for post in articles2 %}
+      {% include block-post-sleek.html %}
+    {% endfor %}
+  {% endif%}
 
 
-{% assign articles3 = site.posts | where: "tags", page.tags[2] | sample: 3 %}
-{% if articles3[0] %}
-  <span class="note">#{{page.tags[2] | upcase }}</span>
-  {% for post in articles3 %}
-    {% include category/full_feed_item.html %}
-  {% endfor %}
-{% endif%}
-
+  {% assign articles3 = site.posts | where: "tags", page.tags[2] | sample: 3 %}
+  {% if articles3[0] %}
+    <h2 class="tagged-as">#{{page.tags[2] | upcase }}</h2>
+    {% for post in articles3 %}
+      {% include block-post-sleek.html %}
+    {% endfor %}
+  {% endif%}
 
 </section>

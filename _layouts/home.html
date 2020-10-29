@@ -15,21 +15,32 @@ layout: default
      <div class="columns eight">
        <div class="row">
          {% for post in stratitems offset: 0 limit: 2 %}
-             <div class="columns six">{% include home/columnstrat.html %}
-               <p>{{ post.description }}</p>
+             <div class="columns six intro">{% include home/columnstrat.html %}
+               <p>
+                 {{ post.description }}
+                 <br>
+                 <b>{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</b>
+                 <br><span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
+               </p>
              </div>
          {% endfor %}
        </div>
        <div class="row">
          {% for post in stratitems offset: 2 limit: 2 %}
-             <div class="columns six">{% include home/columnstrat.html %}
-               <p>{{ post.description }}</p>
-             </div>
+           <div class="columns six intro">{% include home/columnstrat.html %}
+             <p>
+               {{ post.description }}
+               <br>
+               <b>{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</b>
+               <br><span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
+             </p>
+           </div>
          {% endfor %}
        </div>
        <div class="row">
+         <br>
          <div class="columns six offset-by-four">
-           <a href="/strategy/" class="btn">Crypto Trading Strategy</a>
+           <a href="/strategy/" class="btn">More Crypto Trading Strategies</a>
          </div>
          <br>
          <br>
@@ -39,13 +50,13 @@ layout: default
      <!-- 1 promo, 1 latest post -->
      <div class="columns four">
         <div id="at-promo-main-home">
-          {{ site.bfx_336x280 }}
+          {{ site.bfx_vid_tall }}
+          <div class="clearfix"></div>
         </div>
         <br>
         <div class="at-home-latestblog box-lvl-a">
           {% for post in blogitems offset: 0 limit: 1 %}
              {% include home/columnupdates.html %}
-
             {% if post.related %}
             Also Read: <br>
             <ul class="list-lvl-a">
@@ -60,6 +71,7 @@ layout: default
     </div>
 
   </div><!-- / row-->
+  <div class="clearfix"></div>
   <div class="row">
       <h2 class="tagged-as clear">ATNET Crypto Glossary</h2>
   </div>
@@ -87,6 +99,13 @@ layout: default
         {% include home/lineupdates.html %}
       </div>
     {% endfor %}
+    <div class="row">
+      <div class="columns six offset-by-four">
+        <a href="/guides/" class="btn">Crypto How-To Guides</a>
+      </div>
+      <br>
+      <br>
+    </div>
   </div>
 
 
@@ -110,33 +129,6 @@ layout: default
       </div>
     </section>
 
-    <section id="home-howto">
-      <br>
-      <div class="row">
-
-          <span class="note note-subtle">Most Read in How-To:</span>
-          <ul>
-            {% for post in howtoitems limit:3 %}
-            <li class="subtle-item">
-              <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#{{ post.categories[0] | upcase }} | <b>{{ post.title }}</b>{% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-            </li>
-            {% endfor %}
-          </ul>
-
-      </div>
-    </section>
-    <section id="home-security">
-      <br>
-      <span class="note note-subtle">Crypto OPSEC and security:</span>
-      <ul class="popular">
-        {% for post in site.security offset:0 limit:4 %}
-          <li class="subtle-item">
-            <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">#{{ post.categories[0] | upcase }} | <b>{{ post.title }}</b>{% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-
     <section id="new-posts">
 
       <div id="paginated-tradingblog">
@@ -158,44 +150,7 @@ layout: default
       </div>
 
       {% for post in paginator.posts %}
-        <div class="row home-latest">
-
-          <div class="row">
-            <div class="seven columns">
-              <h5 class="post">
-                <strong>
-                  {% if post.stories %}<span class="tag">{{ post.genres }}</span>&nbsp;
-                  {% elsif post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;
-                  {% endif %}
-                  <small>{{ post.date | date: "%d %b %Y" }} </small>
-                  <br>
-                  <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                </strong>
-              </h5>
-            </div>
-            {% if post.image[0] %}
-            <div class="five columns">
-              <a  class="index-internal" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-                <figure class="thumb">
-                  <amp-img itemprop="image" src="{{ post.image[0] }}" alt="Altcoin Trading Blog"
-                  layout="responsive"
-                  data-original-width="720px" data-original-height="360px"
-                  width="150px" height="80px">
-                  </amp-img>
-                </figure>
-              </a>
-            </div>
-            {% endif %}
-          </div>
-          <div class="row">
-            <div class="twelve columns">
-              <div class="home-latest-excerpt">
-                {% if post.last_modified_at %}<b>UPDATE {{ post.last_modified_at | date: "%d %b %y" }}</b> - {% endif %}{{ post.description }}
-              </div>
-            </div>
-          </div>
-
-        </div>
+        {% include block-post-sleek.html %}
       {% endfor %}
 
     </section><!-- // new-posts -->

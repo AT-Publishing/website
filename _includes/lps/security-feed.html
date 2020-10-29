@@ -1,7 +1,33 @@
-{% assign items = site.security | sort:"last_modified_at" | reverse %}
+{% assign items = site.security | sort:"last_modified_at"  %}
 
-<section id="security-tutorials">
+
+<section id="security-psa">
+  <p>&nbsp;</p>
+  <div class="row ">
+    <h2 class="tagged-as">PSA <b>#CryptoTrading</b></h2>
+    <p>PSA's regarding crypto exchanges, wallets and anything that looks suspicious.</p>
+  </div>
+  {% for post in items %}
+    {% if post.categories contains 'psa' %}
+      {% include block-post-sleek.html %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+<section class="commercial-break">
+  <p>&nbsp;</p>
+  <div class="row">
+    <div class="columns eight offset-by-two">
+      {{ site.localcryptos_leader_dark }}
+    </div>
+  </div>
+  <p>&nbsp;</p>
+</section>
+
+<section id="security-storage">
   <div class="intro">
+    <h2 class="tagged-as">Crypto Security & <b>#OPSEC</b></h2>
+
     <h4>Securing Your Crypto Storage <b>#YourKeysYourResponsibility</b></h4>
     <p>All how-to and guides where you learn how to improve the security of your crypto storage without a phd in computer science (for the most part).</p>
     <p>&nbsp;</p>

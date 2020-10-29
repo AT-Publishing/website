@@ -14,9 +14,8 @@
 {% endif %}
   <div class="twelve columns">
     <h5 class="category-post post">
-      {% if post.note %}<span class="tag custom-note {{ post.noteclass }}">{{ post.note }}</span>&nbsp;{% endif %}
-      <small>#strategy</small>
-      <small>&nbsp;{{ post.last_modified_at | date: "%d %b '%y" }}</small>
+      {% if post.note %}<span class="tag custom-note lvl-{{ post.orderby }}">{{ post.note }}</span>&nbsp;{% endif %}
+      <small class="soften"><b>#strategy</b></small>
       <br>
       <strong>
         <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>

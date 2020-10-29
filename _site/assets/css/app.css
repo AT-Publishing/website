@@ -1547,9 +1547,11 @@ hr.skinny {
 .top h5.post {
     padding: 4px 0px;
     background: transparent;
-    color: #7A838D;
+    color: #001f3f;
     border-left: none;
     font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
 .top h6.post {padding: 4px 0px; margin: 0}
 
@@ -1794,6 +1796,9 @@ h4.tagged-as {
     line-height: 1.2;
     color: #1d1d2c;
 }
+.top .intro > p {
+  padding: 1em 2em 0;
+}
 
 #strategies-labeled .tag {
     display: inline;
@@ -1808,6 +1813,7 @@ h4.tagged-as {
 .lvl-a,
 .lvl-technical {
     background: #438945;
+    display: inline-block;
     /* green*/
 }
 

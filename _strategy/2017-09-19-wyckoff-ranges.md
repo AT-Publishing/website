@@ -1,7 +1,7 @@
 ---
 published:      true
-note:           'Strategic Tools'
-orderby:         c
+note:           'Trading Approach'
+orderby:        c
 promoting:      analysis
 
 title:        "Wyckoff trading method for ranging markets"
@@ -23,7 +23,7 @@ image:
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1597046976/atnet/strategy/volflow_g9skkx.jpg"
 
 image_alt:
-- "Cryptocurrency trading strategy."
+- "Wyckoff Cryptocurrency trading strategy."
 
 layout: strategy
 date: 2017-10-22 05:16:00 +0700
@@ -39,34 +39,71 @@ interlink:
 
 *If you want more Wyckoff, take a look at the ["Wyckoff Trading"](/tag/wyckoff-trading/) tag in the blog.*
 
-## What is Wyckoff Method?
+> For TradingView scripts that are good for Wyckoff analysis, [jump here](#tradingview-wyckoff).
 
-* The Wyckoff Method is a strategic trading approach based on the supply and demand dynamic that forms the base of market cycles.
-* The Wyckoff method distinguishes several typical 'phases' (patterns) where the market either ranges or advances (in either direction).
-* It is suitable mainly for trading the higher timeframes.
-* Richard Wyckoff originally developed the trading method for the stock market several decades ago but today's cryptocurrency traders are finding it very useful once again - mainly on the markets of larger cryptos such as BTC or ETH.
+## Wyckoff Method Definition
+
+Wyckoff Method is a strategic approach to trading.
+
+The method is based on supply and demand.
+
+Supply and demand is the basic dynamic at the root of **market cycles**. Richard Wyckoff, the method's author, came up with patterns that simplify the analysis of market cycles.
+
+The method was originally meant for stock markets. It is most useful on crypto markets these days.
+
+### Best Timeframe For Wyckoff
+
+Wyckoff works in terms of supply and demand. This dynamic exists on any timeframe, but it **has a bias**.
+
+It is best to start with higher timeframes.
+
+Look for Wyckoff phases, establish the market bias, then look into details.
+
+For initial analysis, the 1D timeframe is most recommended. It's easy to get with [TradingView FREE plan](http://bit.ly/at-tvd-glob).
+
+### Wyckoff Phases
+
+Wyckoff divides each market cycle into **phases**.
+
+In each phase, the market has a characteristic direction:
+
+* Markup phase: The market steadily advances
+* Markdown phase: The market steadily declines
+* Accumulation, Reaccumulation and Distribution phase: The market ranges (moves [sideways](/glossary/#sideways))
+
+This post focuses on Wyckoff method for ranging markets.
+
+We will focus on Accumulation, Reaccumulation and Distribution phase here.
 
 ## Wyckoff Method in Crypto
 
-Richard D. Wyckoff's trading method was popularized in the crypto trading circles mainly thanks to John Bollinger who has been using it a lot for his chart analyses on crypto twitter. He usually combines [Wyckoff method with Bollinger bands](https://twitter.com/bbands/status/920763449742970880), his own invention.
+Wyckoff method entered the crypto trading community thanks to John Bollinger, the inventor of [bbands](/glossary/#bbands).
+
+He also suggested combining [Wyckoff method with bbands](https://twitter.com/bbands/status/920763449742970880).
 
 * [ATNET Glossary: BBands](/glossary/bbands/)
 
-### Wyckoff + Bollinger Bands: Great for Ranging Crypto Markets
+### Wyckoff Method with Bollinger Bands
 
-The combination of Wyckoff method and Bollinger bands has a reason:
+All you need to do to combine Wyckoff Method and BBands is to treat the lines in BBands as baselines.
 
-* The Wyckoff method describes market ranges, in other words periods of reduced volatility.
-* Cryptocurrencies trade in pairs and show a typical pair behavior.
-* Trading pairs with bbands give you an edge.
+Instead of looking for new lows or new highs in terms of price, you look at their distance from BBands.
 
-Definitely something to consider: The markets for big cryptos are maturing, traders who were used to capitalising on the obscene crypto volatility might have to actually develop a skill for the milder, ranging trades before their time comes again with the next alt season.
+This approach is great for ranging markets, as Bollinger described himself on [Meb Faber's show](http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/):
 
-> John Bollinger: "Bollinger Bands work fantastic on Bitcoin. And they work fantastic on all forex. There's a reason for that. Currency trading is pairs trading - you’re long one and short the other, essentially. The idea is to earn a return at reduced volatility over time. So, forex is pairs trading and pairs have a statistical property, they’re stationary or they exhibit in the statistical parlance, stationarity. And it just turns out that Bollinger Bands work just a little bit better with series that exhibit stationarity. So, there is sort of a built-in edge to using Bollinger Bands on anything that’s a pair." (From [Meb Faber's podcast, Episode 37, 2017/02/01](http://mebfaber.com/2017/02/01/episode-37-john-bollinger-people-time-frame-confusion-think-huge-amount-damage/))
+> "Bollinger Bands work fantastic on Bitcoin. And they work fantastic on all forex. There's a reason for that. Currency trading is pairs trading - you’re long one and short the other, essentially. The idea is to earn a return at reduced volatility over time. So, forex is pairs trading and pairs have a statistical property, they’re stationary or they exhibit in the statistical parlance, stationarity. And it just turns out that Bollinger Bands work just a little bit better with series that exhibit stationarity. So, there is sort of a built-in edge to using Bollinger Bands on anything that’s a pair."
+
+This approach is great for *ranging markets*, because that's where the pair behaviour is strongest in markets like BTCUSD.
+
+* Ranging markets have lower volatility.
+* With lower volatility the market is more likely to stay inside the BBands.
+* It's easy to measure how far any new lows or highs got from their side of the BBands.
+
+We will go more into market ranges in the following section.
 
 &nbsp;
 
-#### Read Later:
+#### Read Later?
 
 {% assign interlink = page.interlink %}
 {% include article/interlink-generic.html %}
@@ -75,95 +112,239 @@ Definitely something to consider: The markets for big cryptos are maturing, trad
 
 ## Market Ranges
 
-#### Key Wyckoff Phases
+A little recap.
 
-One of the most notable things the very old Wyckoff method left us are the so called *phases*.
+Wyckoff divides each market cycle into **phases**.
 
-In general, some market phases are characterised by increased volatility or rapid price changes.
+In each phase, the market has a characteristic direction - or a **lack of direction**.
 
-In Wyckoff method, the **key market phases** originally analysed by Wyckoff are in fact **ranges**:
+> Ranges are market phases where volatility is low and price is confined within a certain level.
 
-* Ranges are market phases where volatility is low and price is confined within a certain level.
+It might be tempting to say that the most important phase of the market cycle is the one in which the asset gains the most. But according to Wyckoff, ranges are in fact the **key market phases**. It is during sideways actions that the future bull run brews...Or the future bear slump.
 
-Market ranges are where experienced traders start scaling in and slowly building up a position in the **anticipated direction**. This way, once the ranging phase is over and the volatile phase starts, they are already riding on a profit.
+#### Why are Ranges Key in Wyckoff
 
-As a result, there is less pressure to FOMO on them and in fact less risk as well: Being in a trending market with a position already in profit, the trader can simply check the markets once a day and move his stop loss.
+Wyckoff says market ranges are key.
 
-**What is a Market Range**
+What does it mean for you as a trader?
+
+Market ranges are where experienced traders start scaling into a position in the **anticipated direction**.
+
+This is the only way to avoid FOMO. Once the sideways phase is over and the market starts moving, you will be already riding on a profit. At this stage you can check the market once a day, maybe move your stop loss and move on with your life.
+
+#### Recognize a Market range
 
 * Ranges are market structures where the market is **not trending**.
 * Ranging market is bouncing (roughly!) between the same two support and resistance levels
 * Volume is typically declining with time.
 
-More on ranging (sideways) markets in our glossary:
+This post focuses on ranging markets. That means will focus on Accumulation, Reaccumulation and Distribution phase here.
 
-<p><a href="/glossary/sideways/" class="btn">Glossary: "Sideways"</a></p>
 
-#### Wyckoff Market Cycles in Crypto
-
-Cryptocurrencies had an amazing multi-year bull market that ended early on in 2018.
-
-That means right now the two most seen and most remembered Wyckoff phases in cryptocurrency markets are the **(re)acummulation phase** and the **distribution phase**.
-
-* Accumulation phase is the bottom of a bear market.
-* Reaccumulation phase is the breather pause in a bull run.
-* Distribution range is the period of trend reversal at the end of a bull run.
-
-* [Here is a thorough distribution phase description from stockcharts.com](http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#distributionwyckoff_phases).
-
-* [Here is the acummulation phase from the same source](http://stockcharts.com/school/doku.php?id=chart_school:market_analysis:the_wyckoff_method#accumilationwyckoff_phases)
+### Wyckoff Phases: Accumulation, Reaccumulation and Distribution
 
 {% amp700cloud border {{page.image[1]}} {{page.image_alt[0]}} %}
 
-#### Is it Wyckoff Reaccumulation or Wyckoff Distribution?
+Let's explain each of the key Wyckoff ranges in simple terms:
 
-The notorious problem is the reaccumulation phase looking very much like the distribution phase.
+* Accumulation phase: The long, slow bottom of the bear market.
+* Reaccumulation phase: The breather pause midway through the run-up.
+* Distribution phase: The topping pattern with multiple highs at the end of a bull run.
 
-From the high-level point of view, there is only one difference - the market continues to rise after reaccumulation rather than proceeding to markdown, which it does in distribution.
+Pretty clear huh?
 
-That's not very helpful when analyzing the market, is it?
+So, how do you tell whether the market is just taking a breather (reaccumulation) or whether it is actually the top (distribution)?
 
-You will need to go deeper to see how the distribution and re-accumulation differ.
+#### Wyckoff Reaccumulation vs Wyckoff Distribution
+
+Hindsight is 20/20. From the high-level point of view, there is only one difference.
+
+Either the market continues to rise, or it goes to Goblin town.
+
+That's not very helpful when analysing the market, is it?
+
+The cue here is to *look deeper into the market structures*. You will see that the distribution and re-accumulation phases do differ.
 
 Let's look into the ways you can tell one from another.
 
-##### Supply and Demand in Wyckoff distribution vs Wyckoff reaccumulation
+##### Supply and Demand Patterns
 
-Telling the difference between Wyckoff distribution and Wyckoff reaccumulation boils down to the basics of supply and demand.
+The difference between Wyckoff distribution and Wyckoff reaccumulation boils down to the basics of supply and demand.
 
-While hard fundamentals might not matter that much on legacy markets, they still do apply better in the free-ish, not overly regulated crypto.
+The basic principle of supply and demand is particularly important for crypto. The cryptocurrency markets not too regulated, there is less of institutional players, high-frequency trading is not as rampant.
 
-Richard Wyckoff considered the very basic principles of supply and demand and applied them to the markets when he developed his trading method:
+Crypto is a good place to look at longer-term market characteristics.
 
-> Excess supply leads to decrease in price, excess demand leads to price increase -- plus, if there is effort, in the markets the result must be proportional to it. The volume and the price change must be in harmony.
+The basic supply-demand dynamic goes like this:
 
-This supply vs demand logic is particularly useful at the ends of ranges.
+* Excess supply leads to decrease in price.
+* Excess demand leads to price increase
 
-##### Analyze The market patterns: "Trying to jump the creek" vs "Walking on thin ice"
+Wyckoff adds one additional point:
 
-This is a thing that will suit best to the more macro-oriented traders.
+* The volume and the price change must be in harmony.
 
-In the final stages of a range, when the price bounced back and forth in a range a few times, the market can do two things:
+A big price jump on thin volume is less valid than a price jump on high volume.
 
-* It can keep **pressing down** to support levels, getting bought up short term but not in a way that would gain following and become long-lived.
-* Or the market keeps **rallying in bursts**, pushing up towards resistance, getting rejected back down but clearly only for the stort term gains targeted by scalpers and bots who short the resistance. The dumps do not gain serious following.
+Additionally, small price change on high volume says that there is a lot of people on the other side of the market.
 
-In a way, traders are making the market like this.
+##### Stereotypical Market Behavior Patterns
 
-##### Use BBands: Tops have the typical 3-push pattern, bottoms the typical W pattern
+This is first cue to telling reaccumulation from distribution range.
 
-In ranging markets, Bollinger bands provide **balance boundaries**.
+Long-term traders or hodlers will understand it easily.
 
-* The center line on Bollinger Bands, which is in fact **a moving average**, forms the **mean price** around which the ranging occurs. Note that the line doesn't have to be perfectly horizontal at all! That's one of the practical points where combining Wyckoff method with Bollinger bands gives you an edge.
-* The upper and lower bands work with standard deviations, or StdDev. They form the upper and lower boundary of a range. With StdDev of 3, overshooting the bands will *likely* lead to a retracement back inside of the bands, but just the overshooting alone is not a trigger to open a trade: You will find that sometimes it can overshoot quite substantially.
+* [ATNET Glossary on Market Psychology](/glossary/#crypto-market-psychology)
 
-Now that we have our boundaries established, we can start searching for typical Wyckoff range chart patterns **relative to the bands**.
+There are typical behaviors that the market displays at the deal-breaking moments of market cycles.
 
-This is where bbands get to be really helpful: Traders often look for lower highs when they are looking for a top formation and higher lows when they are looking for a bottom formation. But they are only considering the basic horizontal chart levels.
+In Wyckoff method, there are two critical patterns that you definitely should know. Both these patterns occur at the end of a market range, just when it becomes clearer to everybody which way the market is heading.
 
-That's not wrong, it's just a bit too basic. If you look at the actual price action's own boundary, which are the bbands, you get a more refined information and potentially a better entry or exit.
+Wyckoff Range-End Patterns:
 
-Because of the fear and greed psychology, cryptocurrency markets typically do three pushes when forming a top but only two drops when forming a bottom - also known as *three pushes to a high* and *W-bottom*.
+* **"Trying to jump the creek"**: The market rallies up towards a resistance level several times. It does not have to be the upper bound of the whole range, it can be an interim resistance! It gets rejected every time, there's selling activity around the resistance line, but the sell-offs do not generate a lot of volume or follow-through.
+* **"Walking on thin ice"**: The market is pressing down towards a support level. It does not have to be the lower bound of the whole range, it can be an interim support! On this support level, it gets bought up, but the volume in these rallies is thin. The buying activity will not last long, the market will move south.
+
+These end patterns can be positioned mid way through the range, which can be confusing. The key metric to follow here is *volume vs price change*.
+
+* Small price change on high volume says that there is a lot of people on the other side of the market.
+* Large price change on large volume says the market is likely to move in the current direction.
+
+Learn to read these range-end situations. You will be in the best position to ride a trend from the moment when its direction is in all likelihood decided but a lot of other traders did not get the memo yet.
+
+##### Market Reversal Patterns on BBands
+
+Bolling Bands reversal patterns likewise rely on stereotypical market psychology.
+
+* Typical Top: **"Three pushes to a high"**, which shows market greed.
+* Typical Bottom: **"W-Bottom"**, which shows market fear.
+
+These two reversal patterns are, in fact, market ranges.
+
+They are simpler and shorter than Wyckoff ranges, but they are still ranges. Markets don't turn around and reverse within one 5 minute candle, unless they are a shitcoin market traded by maybe 4 people.
+
+On markets with decent liquidity, like BTCUSD, such an instant agreement doesn't happen.
+
+Now that we know reversal patterns are ranges, we know how to use Bollinger bands with then: BBands provide the **balance boundaries** for a market range.
+
+The center line on Bollinger Bands (a moving average) is the mean price around which the ranging occurs. To you that will be the **baseline**.
+
+Your edge is in that this line is not perfectly horizontal.
+
+A simple horizontal price level is most other traders' baseline.
+
+The upper and lower Bollinger Bands are *standard deviations of the baseline*. Quite intuitively, they tell you how far the market overshoots in each direction.
+
+To you, the standard deviations will be the limit of the market range, even though they are not perfectly horizontal.
+
+Telling a continuation pattern (Wyckoff's reaccumulation) from a top pattern (Wyckoff's distribution) becomes quite easy.
+
+* If you expect the market to move on in a **bullish** bias, you absolutely need to see it to progressively **overshoot downwards less and less**
+
+In a Wyckoff w/ BBands setup, this translates as **higher lows** relatively to the lower BBand.
+
+Due to market psychology, this will typically look like a "W". There will only be two lows, on the second one people will start noticing the good buy opportunity.
+
+* If you expect the market to move on in a **bearish** bias, you absolutely need to see it to progressively **overshoot upwards less and less**
+
+In a Wyckoff w/ BBands setup, this translates as **lower highs** relatively to the upper BBand.
+
+Due to market psychology, there will typically be three highs. Quite some traders will be buying up here, expecting the market to continue up, "as always". The long bias is the reason why the topping pattern has 3 peaks and the bottoming one 2 throughs.
+
+You can absolutely look for lower highs and lower lows relative to the price as well, of course. It's not wrong, it's just a bit too basic.
+
+With BBands, the same information gets clear sooner.
+
+<div id="tradingview-wyckoff"></div>
+
+## TradingView Tools for Wyckoff Trading
+
+* **Make your [FREE TradingView account here](http://bit.ly/at-tvd-eth)!**
+
+### Volume Indicators
+
+*Volume* vs *price change* is key information in Wyckoff analysis.
+
+Either the price change and volume are in sync, or there is a [divergence](/glossary/#div) between them:
+
+* **Price drops**. Volume is rising while price gradually drops less and less with every new candle -- that's a *price vs volume divergence*.
+
+This situation tells us that there is significant demand. Thanks to this demand, the drop will not be able to continue for much longer.
+
+* **Price drops**. Volume is rising while price keeps sliding down -- no divergence here.
+
+There is not enough demand and plenty of supply. The price is bound to drop some more.
+
+* **Price rallies**. Volume is rising but price starts topping -- again, that's a divergence.
+
+Local top there, there is not enough demand to push through.
+
+* **Price rallies**. Volume is rising and price is still pumping -- no divergence here.
+
+The market will keep going.
+
+#### Measuring Volume On TradingView
+
+There are classic volume-based indicators like on-balance volume.
+
+I find the easiest kind of volume indicator to work with are *colored candles*.
+
+There are a bunch of scripts on [TradingView](http://bit.ly/at-tvd-eth), this one is pretty good:
+
+*Volume Flow Script by spacetrader*
+
+* [Make a TradingView account](http://bit.ly/at-tvd-eth).
+* [Get the script](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/) or search for `[ST] Volume Flow v6` in the script library.
+* [Read the color key](http://i.imgur.com/nZu9rbe.png).
+
+{% amp700cloud border {{page.image[7]}} {{page.image_alt[0]}} %}
+
+#### Measuring Price Change On TradingView
+
+ROC (rate of change) is a default technical indicator available from the [TradingView](http://bit.ly/at-tvd-eth) as well as on crypto trading platforms that use [TradingView](http://bit.ly/at-tvd-eth) charts.
+
+[Bitfinex](http://bit.ly/at-bfx-banner2020) charts have the ROC option.
+
+#### Bollinger Bands on TradingView
+
+Since BBands are one of the most popular charting tools not only for crypto markets, there is a lot of scripts and strategies on [TradingView](http://bit.ly/at-tvd-eth) that feature them.
+
+* [Bollinger Bandwidth to alert you on range ends, which are the periods of lowest volatility](/scriptspotlight-bollinger-band-width-indicator/)
+* [The %B indicator telling you the distance of the current price of its band](https://www.tradingview.com/support/solutions/43000501971-bollinger-bands-b-b/)
+* For [scalpers](/strategy/scalping/), there are even [ready-made TradingView strategies with BBands](https://www.tradingview.com/script/D3PkU5ho-Kozlod-Simple-BB-Strategy-XBTUSD-1-minute/). They are very simple, but something to work with.
+
+
+## 1W/1D Wyckoff Range Study: BTCUSD in 2017
+
+As they say, hindsight is 20/20.
+
+Still, let's take a look at the market ranges that we got during the year of bitcoin's 20k [ATH](/glossary/#ath).
+
+**Exhibit A: Weekly BTCUSD chart with the infamous 2-year bear market:**
+
+Do you see the accumulation structure at the bottom? This is where the bull run was born.
+
+{% amp700cloud border {{page.image[2]}} {{page.image_alt[0]}} %}
+
+**Exhibit B: Daily BTCUSD chart of a BTCUSD continuation action.**
+
+{% amp700cloud border {{page.image[3]}} {{page.image_alt[0]}} %}
+
+The structure A/ formed after a long downtrend. Back then, crypto as a whole was shaken by MtGox bankruptcy.
+
+The common opinion was that bitcoin was going to bleed out into death and that the cryptocurrency experiment failed.
+
+From a different point of view, savvy investors were in the position to literally buy bitcoin wholesale.
+
+Buying the capitulation, provided the trader sees a *fundamental* opportunity in the asset.
+
+In this case the individual narrative could have been that there simply are situations that require a payment method resistant to censorship and regulations. A collapse of an exchange could not have any impact on that.
+
+
+## W-Bottom Study: Simple W-Bottom vs BBand W-Bottom
+
+{% amp700cloud border {{page.image[5]}} {{page.image_alt[0]}} %}
+
 
 Let's take the W-bottom formation. On the chart's vertical axis only, you'd think of it like this:
 
@@ -175,67 +356,25 @@ With bbands you will look for the 3-push and W-bottom structures relative to the
 
 * If the bottom 2 has lower price than bottom 1 but is farther up from the lower bband than bottom 1, it's a strongly convincing bottom. The edge lies in the fact that it's a higher low *relatively to the bbands*, a bullish structure that a lot of traders will miss.
 
-{% amp700cloud border {{page.image[5]}} {{page.image_alt[0]}} %}
 
+## Deeper Analysis: Ranges within ranges
 
-##### Combine Wyckoff with Volume Indicators
+This will be useful for short-term traders.
 
-A simple and effective approach to see if a range is distribution or reaccumulation is simply to look at volumes.
-
-It is true that especially on shorter timeframes, whale traders might be able to paint the volume -- but sometimes their campaign gains following nonetheless.
-
-With basic volume, you get to use the basic supply/demand logic:
-
-* If there is a drop, the volume is rising but price gradually drops less and less -- that's a price vs volume divergence. It means there is significant demand and the drop is not expected to continue for much longer.
-* If there is a drop, the volume is rising and the price keeps sliding down -- there is not enough demand and plenty of supply. The price is bound to drop some more.
-
-* If there is a rally, the volume is rising but price starts topping -- again, that's a divergence. Local top there.
-* If there is a rally, the volume is rising and price is still pumping -- it will keep going.
-
-By this logic, when there the market starts ranging, flagging and correcting healthily, the volume will diminish through the range too.
-
-There are volume-based indicators like on-balance volume and others but what's perhaps most helpful for traders are colored candles. There are several scripts for TradingView available that will color your chart's candles according to the changing trading volume flow. Volume flow colored candles will give you a quick single-look idea about the state of the market, no need to overcomplicate it.
-
-*Volume Flow Script for Tradingview*
-
-One of the best ones is a free one, was made by [spacetrader](https://www.tradingview.com/u/spacetrader/) and you can get it from the strategy library if you search for `[ST] Volume Flow v6`. The [code and some how-to is available here](https://www.tradingview.com/script/EHTKtnIt-ST-Volume-Flow-v6/), it is well possible to reuse it for a script in another language.
-
-[Legend for the colors of the candles:](http://i.imgur.com/nZu9rbe.png)
-
-* Make your [free TradingView account here](http://bit.ly/at-tvd-eth)
-
-{% amp700cloud border {{page.image[7]}} {{page.image_alt[0]}} %}
-
-## Case in Point: BTCUSD market in 2017
-
-As they say, hindsight is 20/20. Here are two different kinds of BTCUSD price action.
-
-**A/ Weekly BTCUSD chart with the infamous 2-year bear market:** there was an accumulation structure at the bottom.
-
-{% amp700cloud border {{page.image[2]}} {{page.image_alt[0]}} %}
-
-**B/ Daily BTCUSD chart of recent BTCUSD action that ended up corrective continuation.**
-
-{% amp700cloud border {{page.image[3]}} {{page.image_alt[0]}} %}
-
-The structure A/ formed obviously after a long downtrend. The fundamentals were shaken by MtGox bankruptcy, the prevailing opinion was that bitcoin was going to bleed out into death and that the whole cryptocurrency experiment failed.
-
-From the fundamental point of view, at this stage savvy traders are have the option to literally buy wholesale: Buying the capitulation, provided the trader sees an opportunity in the asset. ("It will not really fail, there are industries that need payments resistant to censorship and regulations, people who just went in during the hype to make a quick buck are just capitulating irrationally.")
-
-##### Pro Tip: Ranges within ranges
-
-For a deeper analysis you can scale in to shorter timeframes and look for ranges within the range.
+Let's zoom into shorter timeframes and look for ranges within the range.
 
 * In every range, there will be part of a price action that will trade closer to the upper boundary of the range. That can be identified as the *micro-distribution*.
 * From there, the price might drop to the middle of the range or deeper and consolidate there for a bit.
 * In crypto, it typically results in a deeper drop: the *micro-accumulation*.
 * From there, the price gets bought up towards the middle of the range again. The future direction depends among other things on the strength of the bounce.
 
+You can use *micro-ranges* either to scalp the range, or to get more information about the market bias that is currently forming.
+
 **Finding the inner market ranges**
 
-You get your inner ranges simply by checking lower timeframes, which you do anyway when you are looking for entries. The only change here is you are looking for ranging structures that stay within the bbands.
+Start at a high timeframe and find the *macro-range*.
 
-Let's take the daily range in BTCUSD from above - that's a 1D chart with the original range:
+Here is a 1D BTCUSD with a range:
 
 {% amp700cloud border {{page.image[3]}} {{page.image_alt[0]}} %}
 
@@ -243,7 +382,7 @@ Now let's switch to 4H:
 
 {% amp700cloud border {{page.image[6]}} {{page.image_alt[0]}} %}
 
-Here you can easily spot the first inner reaccumulation range:
+Here you can easily spot the first *micro* reaccumulation range:
 
 * Market reaches a resistance, tests it several times. In this case there were some long-term Fibonacci retracement lines.
 * Relevant bband basis starts curling down.
@@ -260,86 +399,23 @@ The second inner range was a distribution:
 * In a very simplified way you can say that if the price keeps pressing onto a support/resistance for some time, you can assume it will break it, even if only for short time. With support/resistance, it's typically either a clear bounce, or it goes through.
 * Market continues downwards.
 
-Following the fast markdown the market tests previous breakout point and gets quickly bought up, consolidates a little on diminishing volume (sign of ranging coming to close) and continues upward. Looking back to the 1D chart you see the market formed a strong w-bottom with good higher low (both price-wise and relatively to the bband) and pushed through a resistance line.
+On the whole:
 
-All in all, on the 1D this was reaccumulation: A continuation structure in a bull trend.
+* Looking back at the 1D chart, the market made a W-bottom
+* This higher low happened both price-wise and relatively to the bband
+* Then the market managed to push through a resistance line
 
-Assessing the shorter timeframe movements of the range should help you get the idea about the health of the trend and the next direction of the market.
+The verdict is a reaccumulation: A continuation structure in a bull trend.
 
+Looking at *micro-ranges* will give you more information about the state of the market.
 
+This will translate into the longer-term market bias, but at the same time it will let you make some extra profit short-term trading.
 
-## Wrapping Up Wyckoff Range Basics
+## Relevant ATNET Glossary Entries
 
-> Technical Tools & Fundamental Analysis
-
-Simple, basic TA can be very helpful:
-
-* Do the partial run-ups form healthy-looking bull flags?
-* Does the range have M/W patterns?
-* Do the candles at the bottoms of the retracements have long wicks, indicating strong dip-buying?
-
-Also look for rare formations provided they are reliable -- like widening formations that resemble bull flag which is rare but it indicates good bullish momentum:
-
-{% amp700cloud border {{page.image[4]}} {{page.image_alt[0]}} %}
-
-> Fundamental value of the asset
-
-It would not be Wyckoff if there wasn't some fundamental pickiness about what to actually trade. Indeed, **fundamental analysis** cannot be completely discounted here.
-
-In crypto, fundamentals can seem problematic though:
-* The [valuation of most altcoins](/value/) is based on future expectation rather than any kind of present utility.
-* Altcoiners however will say the same about bitcoin, argumenting that not many people use it for actual payments.
-
-The real fundamental data for big cryptocurrencies exist though.
-
-Look at the following metrics:
-
-* Bitcoin network activity
-* Daily transaction counts
-* Total number of ATMs
-* P2P exchange data
-* Darknet markets usage
-
-At the end of the distribution phase, it is fair to be caustiously leaning bullish on the base of strong fundamentals.
-
-At the end of a bull run, it is to be expected that the (fundamentally) strongest asset will start it's decline as the last one.
-
-> How to trade a ranging market in general?
-
-* **Short-Term:** Look for bounds of the inner ranges and formations and scalp them.
-* **Long-Term:** Prepare to take substantial position at important points. Determine the "doom" bottom and set buys or the "upthrust" and set sells.
-
-> How to set price targets when trading ranges?
-
-* Short Term: Formation targets
-
-If you are trading flags, channels, megafones and triangles, the height of these usually provides a short term target within the range.
-
-* Short/Mid Term: SCMR (Blue candle magic)
-
-One of the very popular (paid) technical analysis suites for TradingView has been [the SCMR](https://www.tradingview.com/market/sc-spydercrusher/). It provides the elusive colored candles - blue candle signifying a bullish shift in volume, suggesting bottom is near. Another popular feature are the dynamic levels which are basically better pivot lines. Traders use these very successfully.
-
-* Mid/Long-Term: Point & Figure
-
-PnF charts are whole another magic. If you trade BTCUSD and don't know PnF, stop by to the r/bitcoinmarkets Daily to search for posts by [u/merlin560](https://www.reddit.com/user/merlin560) and [u/joyrider5](https://www.reddit.com/user/joyrider5) who post PnF summary regularly.
-
-* Mid/Long-Term: Fibonacci retracement
-
-It's anyone's guess if the Fibonacci retracement stuff fundamentally makes sense but in 2017 most traders still use fibs to determine their targets, especially in a bull run that keeps reaching new ATHs where there is no previous data to draw resistance lines from. Some people do use simple pivots, but it seems that Fibs are still the most prevalent -- which, if nothing else, makes them valid.
-
-* How to draw fibs from a correction/markdown
-
-The correct way to draw Fibonacci retracement lines for a currection or a markdown is to start from the swing high and drag the fib all the way to the swing low. This way you get to where to the north the market can reach in recovery from the correction.
-
-You can get a fib retracement from a corrective range too - drag from its high to its low on the timeframe where you see the range. It's far from a bad idea to have several fib structures one over another to see which fib levels coincide.
-
-Cryptocurrencies seem to be particularly fond of the following fib extension levels: 1, 1.618, 2.618, 4.236. These are the ones that you need to have ticked in your TradingView settings as a minimum.
-
-* How to draw fibs from a runup
-
-If you want to see how far the market will correct from a runup, you do the opposite: start drawing the fib from the bottom to the high.
-
-Fibonacci levels can provide longer term and swing targets if you use them on higher timeframes, even targets that will contain multiple ranges.
-
-
-**That's all. If you think this post was useful, feel free to share it anywhere.**
+* [BBands](/glossary/#bbands)
+* [Pattern Trading](/glossary/#pattern-trading) (hub)
+* [TV](/glossary/#tv)
+* [Scalping](/glossary/#scalping)
+* [Market Psychology](/glossary/#market-psychology)
+* [HODL](/glossary/#hodl)

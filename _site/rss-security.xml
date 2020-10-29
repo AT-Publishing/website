@@ -17,9 +17,41 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Mon, 26 Oct 2020 07:00:09 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2020 07:00:09 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2020 08:09:27 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2020 08:09:27 +0000</lastBuildDate>
 
+    
+      <item>
+
+        <title>Trezor devices have serious security vulnerability</title>
+        <description>...even after any possible firmware update.</description>
+
+        <pubDate>Thu, 17 Aug 2017 12:18:25 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1588053694/atnet/altcoin-wallets/woman-holding-a-bitcoin-1037912_b9838h.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/trezor-hack/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/trezor-hack/</guid>
+        
+
+        <category>cryptocurrency-wallets</category>
+        
+
+        <category>trezor</category>
+        
+
+        <category>crypto-opsec</category>
+        
+
+        <category>electrum</category>
+        
+        
+        <category>psa</category>
+        
+      </item>
     
       <item>
 
@@ -341,6 +373,44 @@
     
       <item>
 
+        <title>How Samourai Wallet contributes to Bitcoin's fungibility</title>
+        <description>The 'Bitcoin wallet for the streets' deserves every bit of that marketing slogan.</description>
+
+        <pubDate>Thu, 24 Jan 2019 18:04:00 +0000</pubDate>
+
+        <author>Chris at The Business Of Crypto@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693898/atnet/__women/pexels-daria-shevtsova-1546621_bjygn6.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/samourai-wallet-bitcoin-anonymity/</guid>
+        
+
+        <category>cryptocurrency-wallets</category>
+        
+
+        <category>crypto-opsec</category>
+        
+
+        <category>adoption</category>
+        
+
+        <category>bitcoin-wallet</category>
+        
+
+        <category>electrum</category>
+        
+
+        <category>samourai</category>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+
         <title>Mac malware “CookieMiner” targets crypto traders, aims to bypass 2FA on exchanges and web wallets</title>
         <description>Here's what the malware does and how to protect your crypto.</description>
 
@@ -441,6 +511,38 @@
         
         
         <category>cryptocurrency-wallets</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Don't send ETH between exchanges</title>
+        <description>Their smart contract mechanisms are rarely compatible. Your money will be lost and exchanges will not want to help you, for legal reasons.</description>
+
+        <pubDate>Wed, 28 Oct 2020 00:30:55 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1603937675/atnet/cybersecurity/ethereum_tojfxf.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/bitifinex-eats-your-eth/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/bitifinex-eats-your-eth/</guid>
+        
+
+        <category>custodial-trading</category>
+        
+
+        <category>bitfinex</category>
+        
+
+        <category>bitstamp</category>
+        
+
+        <category>independent-reserve</category>
+        
+        
+        <category>psa</category>
         
       </item>
     

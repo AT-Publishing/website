@@ -1,0 +1,52 @@
+I"�
+<p>Ever since ETH trading launched on mainstream custodial exchanges, people have been having this problem.</p>
+
+<p>With Bitcoin, you could get away with sending BTC directly between exchanges - although technically you are not allowed to do that for legal reasons.</p>
+
+<p>Either way, most people assumed the same would go through with ETH.</p>
+
+<p>It does not. Exchanges process ETH withdrawals via a smart contract, and deposits via different smart contract. It is a script, not a simple wallet to wallet transaction.</p>
+
+<p>And for the security of the funds, the deposit smart contract will reject any funds that come from a smart contract, not from a plain wallet.</p>
+
+<p>If you send ETH directly from another exchange, it will be coming from a contract and it will not be credited on the receiving side.</p>
+
+<p>This is for the technical part of the problem.</p>
+
+<h3 id="do-not-test-them-on-this-in-2020">Do not test them on this in 2020</h3>
+
+<p>Now, the legal part of it.</p>
+
+<p>In 2020 the authorities started cracking down hard on <a href="/buy-crypto-no-kyc/">non-KYC exchanges</a>.</p>
+
+<p>Sending money directly between two crypto trading platforms is problematic in this regard. If you think about what it actually does, you will find it could be interpreted as sending money between two banks.</p>
+
+<p>The only exchange that has a banking license is Kraken.</p>
+
+<p>You can safely assume that the most popular exchanges like Bitfinex will not get anything close to a banking license anytime soon.</p>
+
+<p>Act accordingly.</p>
+
+<ul>
+  <li><a href="/coupon-bitfinex-5egv78ytlc/#about-bitfinex">More about Bitfinex and Deversifi</a></li>
+</ul>
+
+<h3 id="what-if-you-already-did-it">What if you already did it?</h3>
+
+<p>The receiving exchange still has the money. It is not <em>completely</em> lost.</p>
+
+<p>What you need is to contact the customer service and get them to manually credit it.</p>
+
+<p>This can lead to varying amounts of trouble, depending how overloaded the support system currently is.</p>
+
+<p>In periods of heavy market action, the support will be overloaded and you will probably need to harass them on social media for attention. They might also <a href="https://twitter.com/bitfinex/status/900646338941128704">charge you for solving deposit issues</a>.</p>
+
+<p>Also, due to the legal issues above, it is possible they will refuse to help you.</p>
+
+<p>Anyway, it is better to try.</p>
+
+<ul>
+  <li>Bitfinex maintains the <a href="https://www.reddit.com/r/bitfinex/">r/bitfinex</a></li>
+  <li>Kraken reps will get back to you on mentioning “kraken exchange” or “kraken futures” in <a href="https://www.reddit.com/r/bitcoinmarkets/">r/bitcoinmarkets dailies</a></li>
+</ul>
+:ET
