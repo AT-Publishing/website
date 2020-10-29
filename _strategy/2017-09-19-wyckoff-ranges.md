@@ -69,7 +69,7 @@ In each phase, the market has a characteristic direction:
 
 * Markup phase: The market steadily advances
 * Markdown phase: The market steadily declines
-* Accumulation, Reaccumulation and Distribution phase: The market ranges (moves [sideways](/glossary/#sideways))
+* Accumulation, Reaccumulation and Distribution phase: The market ranges (moves [sideways](/glossary/#sideways-market))
 
 This post focuses on Wyckoff method for ranging markets.
 
@@ -414,8 +414,8 @@ This will translate into the longer-term market bias, but at the same time it wi
 ## Relevant ATNET Glossary Entries
 
 * [BBands](/glossary/#bbands)
-* [Pattern Trading](/glossary/#pattern-trading) (hub)
-* [TV](/glossary/#tv)
+* [Pattern Trading](/glossary/#pattern-trading-formation-trading-in-crypto) (hub)
+* [TV](/glossary/#tv-tradingview)
 * [Scalping](/glossary/#scalping)
 * [Market Psychology](/glossary/#market-psychology)
-* [HODL](/glossary/#hodl)
+* [HODL](/glossary/#hodl-hodling)
