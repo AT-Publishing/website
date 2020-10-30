@@ -23,8 +23,9 @@ categories:       [ crypto-trading-technique ]
 tags:             [ crypto-fundamentals, crypto-trading-strategy ]
 
 related:
-- {"Crypto Security & OPSEC Primers on ATNET": "/security/"}
-- {"Crypto How-To's & Guides on ATNET": "/guides/"}
+- {"PSAs & Security Guideson ATNET": "/security/"}
+- {"Basic Crypto How-To's on ATNET": "/guides/"}
+- {"Buying Crypto Non-KYC: Where to do it with minimal risk?": "/buy-crypto-no-kyc/"}
 
 ---
 
@@ -52,6 +53,9 @@ The basis of it is simply to decide whether you think a cryptocurrency is worth 
 
 With only a little more effort in your crypto holding strategy, you can make the actual profit taking much simpler for yourself.
 
+<a class="btn" href="/how-to-buy-altcoins/">Ultimate Guide on Buying Altcoins (w/ KYC, no KYC)</a>
+
+
 #### Basic Hodl Strategy Step by Step
 
 1. Find a crypto with good fundamentals: **network effect, resistance to bad news, a use case** showing that it's more than a vaporware.
@@ -61,7 +65,9 @@ With only a little more effort in your crypto holding strategy, you can make the
 
 If you are wondering about how much to invest and how to pick the best time to buy - that's already speculation. If you are a beginner, you will do best with DCA, which is dollar cost averaging.
 
-* Learn everything about [dollar cost averaging in ATNET Strategy](/strategy/dollar-cost-averaging/).
+<p><a class="btn" href="/howto/revolut-recurring-buy/">You can now DCA via Revolut app</a></p>
+
+**Aspiring for more than Revolut? Learn everything there is to know about [dollar cost averaging in ATNET Strategy](/strategy/dollar-cost-averaging/).**
 
 ### 2/ Crypto Lending
 
@@ -97,7 +103,7 @@ In the past you could earn up to 10% extra coins in a year by just holding and s
 
 As of 2020, for the more mainstream cryptocurrencies you will earn better by lending them via margin funding.
 
-* [Start providing funding on Bitfinex](http://bit.ly/catch-me-if-ya-can)
+<p><a class="btn" href="http://bit.ly/catch-me-if-ya-can">Start Staking on Bitfinex</a></p>
 
 ### 5/ Mining and other early opportunities: Bounties, Rebates, Cashback...
 
@@ -109,4 +115,6 @@ If you have mining rigs and cooling stuff left over from when small scale Bitcoi
 
 There are new proof-of-work cryptocurrencies getting launched all the time. With new coins you can get into mining early when it's easy and pays well.
 
-Here on ATNET we sometimes alert you on these opportunities through our [Crypto Airdrops](/airdrops/) page.
+Here on ATNET we alert you on these opportunities through our [Crypto Airdrops](/airdrops/) page.
+
+<p><a class="btn" href="/airdrops/">Browse Upcoming Airdrops</a></p>
