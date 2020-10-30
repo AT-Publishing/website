@@ -2,7 +2,7 @@
 layout:     at-trading
 published:  yes
 guest:      yes
-pinned:     no
+pinned:     yes
 promoting:  trading
 
 genres:           Blog
