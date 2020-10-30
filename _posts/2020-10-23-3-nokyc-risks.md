@@ -22,9 +22,9 @@ author_name: altcointrading
 author_twitter: "altcointrading_"
 
 related:
-- {"Ultimate Guide on How to Buy Altcoins: With KYC & Anonymously": "/how-to-buy-altcoins/"}
-- {"2017 Tether hack debrief": "/bitfinex-tether-transparency/"}
-- {"Margin Lending Strategy Template (and strategy walkthrough)": "/strategy/cryptocurrency-lending/"}
+- {"Ultimate Guide to Buying Altcoins: With KYC & Anonymously": "/how-to-buy-altcoins/"}
+- {"Margin Lending Strategy Walkthrough": "/strategy/cryptocurrency-lending/"}
+- {"2017 Tether Hack Report": "/bitfinex-tether-transparency/"}
 
 ---
 

@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign blogitems = site.posts | sort: date | reverse %}
-{% assign stratitems = site.strategy | sort: date | reverse %}
+{% assign stratitems = site.strategy | sort:"last_modified_at" | reverse %}
 {% assign glositems = site.glossary | sort: date | reverse  %}
 {% assign howtoitems = site.howto | sort: date | reverse %}
 
@@ -37,7 +37,7 @@ layout: default
            </div>
          {% endfor %}
        </div>
-       <div class="row">
+       <!--<div class="row">
          <br>
          <div class="columns six offset-by-four">
            <a href="/strategy/" class="btn">More Crypto Trading Strategies</a>
@@ -45,6 +45,10 @@ layout: default
          <br>
          <br>
          <br>
+       </div>-->
+       <div class="clearfix row box-lvl-c" id="blackfriday-cta">
+         <!-- it's time for -->
+         {% include callouts/bf.html %}
        </div>
      </div>
      <!-- 1 promo, 1 latest post -->
