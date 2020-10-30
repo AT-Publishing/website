@@ -41,6 +41,15 @@ Often, crypto traders will resort to scalping during [sideways](/glossary/sidewa
 
 * [More on how to scalp crypto in ATNET Strategy](/strategy/scalping/)
 
+#### Formation Scalping
+
+Formation scalping is a trading technique that leverages the regularity of [market ranges](/glossary/sideways/).
+
+This is a popular technique among Wyckoffian traders. They have a good hand on recognising market ranges.
+
+Formation scalping allows them to earn additional profit on trading the sideways phase of the market before a trend is decided.
+
+* [More on Wyckoff ranges in ATNET Strategy](/strategy/wyckoff-ranging-markets/)
 
 #### Automated Scalping
 

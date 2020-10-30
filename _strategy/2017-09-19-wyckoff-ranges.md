@@ -184,6 +184,8 @@ Wyckoff adds one additional point:
 
 * The volume and the price change must be in harmony.
 
+This is the so-called **Wyckoff law of effort vs result**.
+
 A big price jump on thin volume is less valid than a price jump on high volume.
 
 Additionally, small price change on high volume says that there is a lot of people on the other side of the market.
@@ -368,7 +370,7 @@ Let's zoom into shorter timeframes and look for ranges within the range.
 * In crypto, it typically results in a deeper drop: the *micro-accumulation*.
 * From there, the price gets bought up towards the middle of the range again. The future direction depends among other things on the strength of the bounce.
 
-You can use *micro-ranges* either to scalp the range, or to get more information about the market bias that is currently forming.
+You can use *micro-ranges* either to scalp the range (this is called [formation scalping](/glossary/#scalping)), or to get more information about the market bias that is currently forming.
 
 **Finding the inner market ranges**
 
