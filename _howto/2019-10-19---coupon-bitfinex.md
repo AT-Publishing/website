@@ -41,6 +41,7 @@ Enter Bitfinex Referral Code `5egV78YtlC` and get **6% fee discount** for any si
 
 * No KYC required.
 * No minimum deposit required.
+* No withdrawal limit for unverified traders.
 
 Thank you for playing, good bye.
 

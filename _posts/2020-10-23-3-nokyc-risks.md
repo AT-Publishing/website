@@ -28,9 +28,9 @@ related:
 
 ---
 
-Whether you want to onramp or start actively trading, KYC is quite likely a big topic. KYC, meaning 'know your customer', might make you effectively cut off from purchasing crypto just because you were born in the wrong country.
+Whether you want to onramp or start actively trading, [KYC](/glossary/#kyc) is quite likely a big topic. KYC, meaning 'know your customer', might make you effectively cut off from purchasing crypto just because you were born in the wrong country.
 
-For others, KYC is just a superfluous evil they don't have time for.
+For others, [KYC](/glossary/#kyc) is just a superfluous evil they don't have time for.
 
 For yet others, uploading your documents into a cryptocurrency exchange looks like a surefire way to get them abused and sold on darknet. This third group has been around the block quite a bit, I can tell you.
 
@@ -38,13 +38,13 @@ Buying crypto non-KYC is **by far** not without risks either, though.
 
 Below are the **three most important things to look for** in a platform that claims to let you buy or trade crypto without KYC.
 
-* We go at length about all possible ways of buying crypto in our [How-To guide on buying](/how-to-buy-altcoins/).
+> We go at length about all possible ways of buying crypto in our [How-To guide on buying](/how-to-buy-altcoins/).
 
 ## 1. Non-KYC Crypto Exchange Should Be Non-Custodial
 
 This is not 2011. Good part of the world knows what crypto is and that crypto exchanges exist - including law enforcement and other authorities. Cryptocurrencies are a financial instrument to most of them, and almost always is regulated in *some way*.
 
-KYC & AML requirements exist to prevent people from cashing out their profits into fiat after they have used crypto for illegal purposes, or to prevent people trading derivatives after an arbitrary financial authority decided they shouldn't.
+[KYC & AML](/glossary/#kyc) requirements exist to prevent people from cashing out their profits into fiat after they have used crypto for illegal purposes, or to prevent people trading derivatives after an arbitrary financial authority decided they shouldn't.
 
 Custodial exchanges are the perfect platform for law enforcement to leverage. While your identity can be traced on most crypto exchanges from your IP, email address or reused username, your assets can only be seized from a custodial exchange (or from a bank account).
 
@@ -73,6 +73,10 @@ One of the warning signs of BitMEX being in trouble could have been the prohibit
 
 Simply put, when a crypto exchange does something that **discourages traders from withdrawing their money** whenever they are not trading, you know the platform is in trouble.
 
+Ideally, there should be no upper cap on crypto withdrawals for no-KYC users. Exchanges might pull a story about mitigating abuse by criminals. This is nonsense, on public blockchains all transactions are traceable. Capping withdrawals makes no sense.
+
+> Bitfinex has no maximum withdrawal limit for unverified traders. [Sign up here with 6% fee discount](http://bit.ly/at-bfx-banner2020)
+
 The most recent showcase of this tell-tale sign was the Chinese futures exchange OKEx. In October 2020 all cryptocurrency withdrawals were halted on OKEx. It soon transpired that [the reason for the halt was in fact police investigation](https://www.msn.com/en-us/money/news/chinese-police-investigation-halts-withdrawals-at-cryptoexchange-okex/ar-BB1a59XF).
 
 A crypto exchange will never announce they got hacked or seized before touching user withdrawals. Withdrawals will go first, only after some time will the users know what actually happened and whether they have a chance of getting their crypto back.
@@ -91,4 +95,13 @@ Good track of record is important too - and not just a record of past without ha
 
 Good handling of the incident leaves Bitfinex with a great track of records even though they were hacked, and a recommended non-KYC custodial exchange.
 
-* [Sign up at Bitfinex with 6% fee discount](http://bit.ly/at-bfx-banner2020)
+> [Sign up at Bitfinex with 6% fee discount](http://bit.ly/at-bfx-banner2020)
+
+#### List of all recommended no-KYC crypto exchanges
+
+* (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
+* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**
+* (Custodial) [WhiteBit](https://bit.ly/3kwUh2k): futures, airdrops **has limits**
+* (Non-Custodial) [LocalCryptos](http://bit.ly/localcryptos): onramp
+* (Non-Custodial) [Uniswap](https://uniswap.org): spot
+* (Non-Custodial) [LeverJ](/leverj/): futures

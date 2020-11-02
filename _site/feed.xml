@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Nov 2020 06:37:52 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2020 06:37:52 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2020 08:43:19 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2020 08:43:19 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -78,6 +78,12 @@ One of the warning signs of BitMEX being in trouble could have been the prohibit
 
 Simply put, when a crypto exchange does something that discourages traders from withdrawing their money whenever they are not trading, you know the platform is in trouble.
 
+Ideally, there should be no upper cap on crypto withdrawals for no-KYC users. Exchanges might pull a story about mitigating abuse by criminals. This is nonsense, on public blockchains all transactions are traceable. Capping withdrawals makes no sense.
+
+
+  Bitfinex has no maximum withdrawal limit for unverified traders. Sign up here with 6% fee discount
+
+
 The most recent showcase of this tell-tale sign was the Chinese futures exchange OKEx. In October 2020 all cryptocurrency withdrawals were halted on OKEx. It soon transpired that the reason for the halt was in fact police investigation.
 
 A crypto exchange will never announce they got hacked or seized before touching user withdrawals. Withdrawals will go first, only after some time will the users know what actually happened and whether they have a chance of getting their crypto back.
@@ -99,11 +105,22 @@ Good handling of the incident leaves Bitfinex with a great track of records even
 
   Sign up at Bitfinex with 6% fee discount
 
+
+List of all recommended no-KYC crypto exchanges
+
+
+  (Custodial) Bitfinex: spot, margin, lending, futures, airdrops
+  (Custodial) ByBit: futures, airdrops has limits
+  (Custodial) WhiteBit: futures, airdrops has limits
+  (Non-Custodial) LocalCryptos: onramp
+  (Non-Custodial) Uniswap: spot
+  (Non-Custodial) LeverJ: futures
+
  ]]></content:encoded>
 
-        <turbo:content><![CDATA[ &lt;p&gt;Whether you want to onramp or start actively trading, KYC is quite likely a big topic. KYC, meaning ‘know your customer’, might make you effectively cut off from purchasing crypto just because you were born in the wrong country.&lt;/p&gt;
+        <turbo:content><![CDATA[ &lt;p&gt;Whether you want to onramp or start actively trading, &lt;a href=&quot;/glossary/#kyc&quot;&gt;KYC&lt;/a&gt; is quite likely a big topic. KYC, meaning ‘know your customer’, might make you effectively cut off from purchasing crypto just because you were born in the wrong country.&lt;/p&gt;
 
-&lt;p&gt;For others, KYC is just a superfluous evil they don’t have time for.&lt;/p&gt;
+&lt;p&gt;For others, &lt;a href=&quot;/glossary/#kyc&quot;&gt;KYC&lt;/a&gt; is just a superfluous evil they don’t have time for.&lt;/p&gt;
 
 &lt;p&gt;For yet others, uploading your documents into a cryptocurrency exchange looks like a surefire way to get them abused and sold on darknet. This third group has been around the block quite a bit, I can tell you.&lt;/p&gt;
 
@@ -111,15 +128,15 @@ Good handling of the incident leaves Bitfinex with a great track of records even
 
 &lt;p&gt;Below are the &lt;strong&gt;three most important things to look for&lt;/strong&gt; in a platform that claims to let you buy or trade crypto without KYC.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;We go at length about all possible ways of buying crypto in our &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;How-To guide on buying&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We go at length about all possible ways of buying crypto in our &lt;a href=&quot;/how-to-buy-altcoins/&quot;&gt;How-To guide on buying&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;1-non-kyc-crypto-exchange-should-be-non-custodial&quot;&gt;1. Non-KYC Crypto Exchange Should Be Non-Custodial&lt;/h2&gt;
 
 &lt;p&gt;This is not 2011. Good part of the world knows what crypto is and that crypto exchanges exist - including law enforcement and other authorities. Cryptocurrencies are a financial instrument to most of them, and almost always is regulated in &lt;em&gt;some way&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;KYC &amp;amp; AML requirements exist to prevent people from cashing out their profits into fiat after they have used crypto for illegal purposes, or to prevent people trading derivatives after an arbitrary financial authority decided they shouldn’t.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/glossary/#kyc&quot;&gt;KYC &amp;amp; AML&lt;/a&gt; requirements exist to prevent people from cashing out their profits into fiat after they have used crypto for illegal purposes, or to prevent people trading derivatives after an arbitrary financial authority decided they shouldn’t.&lt;/p&gt;
 
 &lt;p&gt;Custodial exchanges are the perfect platform for law enforcement to leverage. While your identity can be traced on most crypto exchanges from your IP, email address or reused username, your assets can only be seized from a custodial exchange (or from a bank account).&lt;/p&gt;
 
@@ -152,6 +169,12 @@ Good handling of the incident leaves Bitfinex with a great track of records even
 
 &lt;p&gt;Simply put, when a crypto exchange does something that &lt;strong&gt;discourages traders from withdrawing their money&lt;/strong&gt; whenever they are not trading, you know the platform is in trouble.&lt;/p&gt;
 
+&lt;p&gt;Ideally, there should be no upper cap on crypto withdrawals for no-KYC users. Exchanges might pull a story about mitigating abuse by criminals. This is nonsense, on public blockchains all transactions are traceable. Capping withdrawals makes no sense.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bitfinex has no maximum withdrawal limit for unverified traders. &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Sign up here with 6% fee discount&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;The most recent showcase of this tell-tale sign was the Chinese futures exchange OKEx. In October 2020 all cryptocurrency withdrawals were halted on OKEx. It soon transpired that &lt;a href=&quot;https://www.msn.com/en-us/money/news/chinese-police-investigation-halts-withdrawals-at-cryptoexchange-okex/ar-BB1a59XF&quot;&gt;the reason for the halt was in fact police investigation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A crypto exchange will never announce they got hacked or seized before touching user withdrawals. Withdrawals will go first, only after some time will the users know what actually happened and whether they have a chance of getting their crypto back.&lt;/p&gt;
@@ -170,8 +193,19 @@ Good handling of the incident leaves Bitfinex with a great track of records even
 
 &lt;p&gt;Good handling of the incident leaves Bitfinex with a great track of records even though they were hacked, and a recommended non-KYC custodial exchange.&lt;/p&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Sign up at Bitfinex with 6% fee discount&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;list-of-all-recommended-no-kyc-crypto-exchanges&quot;&gt;List of all recommended no-KYC crypto exchanges&lt;/h4&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Sign up at Bitfinex with 6% fee discount&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: spot, margin, lending, futures, airdrops&lt;/li&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;ByBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;https://bit.ly/3kwUh2k&quot;&gt;WhiteBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt;: onramp&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;https://uniswap.org&quot;&gt;Uniswap&lt;/a&gt;: spot&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;/leverj/&quot;&gt;LeverJ&lt;/a&gt;: futures&lt;/li&gt;
 &lt;/ul&gt;
  ]]></turbo:content>
 
