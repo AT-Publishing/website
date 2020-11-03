@@ -2772,14 +2772,35 @@ amp-user-notification>div>div {
 <p>It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won’t stand in your way.</p>
 
 <ul>
-  <li><a href="/howto/verify-signature/#electrum">How to safely install Electrum wallet, step by step guide</a></li>
+  <li><strong><a href="/howto/verify-signature/#electrum">How to safely install Electrum wallet, step by step guide</a></strong></li>
 </ul>
 
 <!--more-->
 
+<h3 id="electrum-segwit-or-legacy">Electrum SegWit or Legacy?</h3>
+
+<p>During the Electrum wallet set up, the application asks you to choose between <a href="/glossary/segwit/">SegWit and Legacy</a> wallet.</p>
+
+<p>The difference here is mostly in the address format. SegWit is the newer format, it has some advanced capabilities and slightly lower fees.</p>
+
+<p>If you don’t care and just want to be on the safe side without complicating things, choose legacy.</p>
+
+<ul>
+  <li>Legacy Bitcoin addresses start with <code class="language-plaintext highlighter-rouge">1</code>. These are recognised as valid at all exchanges except <a href="https://bit.ly/2YD6gmA">LocalCryptos</a> which is a dApp and needs the advanced features of SegWit to automate the escrow process.</li>
+  <li>SegWit Bitcoin addresses start with <code class="language-plaintext highlighter-rouge">3</code> (called P2SH) or <code class="language-plaintext highlighter-rouge">bc1</code> (called bech32). The <code class="language-plaintext highlighter-rouge">bc1</code> version is the latest one, but not yet accepted everywhere.</li>
+</ul>
+
+<p>If you want to, you can make a legacy wallet and then create another Electrum wallet with the same seed, but choose SegWit. This will give you two wallets with different sets of addresses, but all under the same seed.</p>
+
+<p>On <a href="/blackfriday/#live-ledger">Ledger Nano Wallets</a>, you can do the same thing by creating a new subaccount in Ledger Live.</p>
+
 <h3 id="electrum-to-store-altcoins-monero-eth-zec">Electrum to store altcoins (Monero, ETH, ZEC)</h3>
 
-<p>Electrum is a bitcoin-only wallet. The original Electrum wallet does not support any altcoins.</p>
+<p>Electrum is a bitcoin-only wallet.</p>
+
+<p>The real Electrum wallet does not support any altcoins.</p>
+
+<h4 id="electrum-forks-for-altcoins">Electrum Forks for Altcoins</h4>
 
 <p>Back in the infancy of alternative cryptocurrencies, altcoins like monero had for a short time relatively similar codebase to that of bitcoin. Then it used to be possible to store monero in Electrum, in Trezor with a bit of hacking, and in any other bitcoin wallet.</p>
 
@@ -2797,7 +2818,7 @@ amp-user-notification>div>div {
 
 <h3 id="electrum-security-issues">Electrum security issues</h3>
 
-<p>At the time of writing the latest Electrum release is <em>Electrum-4.0.3</em> and there are no known vulnerabilities in it.</p>
+<p>At the time of writing the latest Electrum release is <em>Electrum-4.0.4 (Nov 2020)</em> and there are no known vulnerabilities in it.</p>
 
 <p>There have been two major security issues with older versions of the Electrum wallet. Both were exploited and fixed in 2018.</p>
 
@@ -2818,9 +2839,10 @@ amp-user-notification>div>div {
 <h3 id="electrum-advanced-features">Electrum Advanced Features</h3>
 
 <ul>
-  <li>Deciding which incoming transaction you want to spend. This is useful for <a href="/glossary/dust-attack/">dust attacks</a></li>
-  <li>Private key <a href="/security/sweep-private-keys/">sweeping</a>, which is useful for redeeming forks and airdrops.</li>
-  <li>Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.</li>
+  <li><strong>Coin Control:</strong> Deciding which incoming transaction you want to spend. This is useful for <a href="/glossary/dust-attack/">dust attacks</a></li>
+  <li><strong>Sign &amp; Verify</strong>: Electrum lets you sign a message with your private keys. A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.</li>
+  <li><strong>Sweeping</strong>: Private key <a href="/security/sweep-private-keys/">sweeping</a>, which is useful for redeeming forks and airdrops.</li>
+  <li><strong>Watch-Only</strong>: Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.</li>
 </ul>
 
   					  </div><!-- strategy content -->
@@ -2927,6 +2949,25 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
+    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
+      <span class="tag custom-note">Real Data</span>&nbsp;
+      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
     <a class="cat-internal-link" title="Timing Tools" href="/strategy/timing/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -2957,25 +2998,6 @@ amp-user-notification>div>div {
     <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
       <span class="tag custom-note">Trading Approach</span>&nbsp;
       <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
     </a>
   </div>
 </div><!-- item row -->

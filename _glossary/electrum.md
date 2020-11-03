@@ -30,13 +30,32 @@ Electrum has a good track record in terms of security.
 
 It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won't stand in your way.
 
-* [How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)
+* **[How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)**
 
 <!--more-->
 
+### Electrum SegWit or Legacy?
+
+During the Electrum wallet set up, the application asks you to choose between [SegWit and Legacy](/glossary/segwit/) wallet.
+
+The difference here is mostly in the address format. SegWit is the newer format, it has some advanced capabilities and slightly lower fees.
+
+If you don't care and just want to be on the safe side without complicating things, choose legacy.
+
+* Legacy Bitcoin addresses start with `1`. These are recognised as valid at all exchanges except [LocalCryptos](https://bit.ly/2YD6gmA) which is a dApp and needs the advanced features of SegWit to automate the escrow process.
+* SegWit Bitcoin addresses start with `3` (called P2SH) or `bc1` (called bech32). The `bc1` version is the latest one, but not yet accepted everywhere.
+
+If you want to, you can make a legacy wallet and then create another Electrum wallet with the same seed, but choose SegWit. This will give you two wallets with different sets of addresses, but all under the same seed.
+
+On [Ledger Nano Wallets](/blackfriday/#live-ledger), you can do the same thing by creating a new subaccount in Ledger Live.
+
 ### Electrum to store altcoins (Monero, ETH, ZEC)
 
-Electrum is a bitcoin-only wallet. The original Electrum wallet does not support any altcoins.
+Electrum is a bitcoin-only wallet.
+
+The real Electrum wallet does not support any altcoins.
+
+#### Electrum Forks for Altcoins
 
 Back in the infancy of alternative cryptocurrencies, altcoins like monero had for a short time relatively similar codebase to that of bitcoin. Then it used to be possible to store monero in Electrum, in Trezor with a bit of hacking, and in any other bitcoin wallet.
 
@@ -54,7 +73,7 @@ Electrum forks for altcoins are NOT available from `electrum.org` and **may not 
 
 ### Electrum security issues
 
-At the time of writing the latest Electrum release is *Electrum-4.0.3* and there are no known vulnerabilities in it.
+At the time of writing the latest Electrum release is *Electrum-4.0.4 (Nov 2020)* and there are no known vulnerabilities in it.
 
 There have been two major security issues with older versions of the Electrum wallet. Both were exploited and fixed in 2018.
 
@@ -70,6 +89,7 @@ As a precaution, it is recommended to
 
 ### Electrum Advanced Features
 
-* Deciding which incoming transaction you want to spend. This is useful for [dust attacks](/glossary/dust-attack/)
-* Private key [sweeping](/security/sweep-private-keys/), which is useful for redeeming forks and airdrops.
-* Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.
+* **Coin Control:** Deciding which incoming transaction you want to spend. This is useful for [dust attacks](/glossary/dust-attack/)
+* **Sign & Verify**: Electrum lets you sign a message with your private keys. A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.  
+* **Sweeping**: Private key [sweeping](/security/sweep-private-keys/), which is useful for redeeming forks and airdrops.
+* **Watch-Only**: Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.
