@@ -34,7 +34,23 @@ We go more at length [in the blog]((/buy-crypto-no-kyc/) about what are the red 
 
 To make the long story short, trading crypto without KYC is less risky if your exchange has a proven track of records and doesn't limit your crypto withdrawals.
 
-## Recommended Crypto Exchanges without KYC
+## Crypto Wallet with No KYC
+
+This is just to clarify one thing: If a cryptocurrency wallet requires you to KYC, it's possibly a scam.
+
+The only good reason for KYC is the exchange between fiat and crypto. That is why Coinbase _exchange_ will want you to KYC buy Coinbase _wallet_ has no good reason to.
+
+[Airdrops](/airdrops/) requiring KYC are in most cases borderline scam. At best, it's simply not worth it to give away your identity to collect couple dollar's worth of useless token.
+
+A cryptocurrency wallet is just a device to generate private keys for you. Anyone who has access to a wallet's key has access to the wallet's coin. **Do not KYC to get a cryptocurrency wallet.**
+
+Free and anonymous cryptocurrency wallets include:
+
+* [Electrum](/glossary/electrum/)
+* [Jaxx, Exodus](/altcoin-wallets/#multicoin-apps)
+* [Ledger Wallet](/blackfriday/#live-ledger), if you pay in crypto and are carefull about the delivery place
+
+## Recommended Crypto Trading Platforms without KYC
 
 * (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
 * (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**

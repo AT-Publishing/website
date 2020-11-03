@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 07:41:26 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 07:41:26 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2020 08:12:37 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2020 08:12:37 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -760,13 +760,13 @@ Contents
     
       Your priorities for active crypto trading
         
-          List of best altcoin trading platforms
+          List of best altcoin trading platforms - Both no KYC &amp;amp; KYC.
         
       
       Best platforms for trading crypto derivatives
         
           BitMEX (no longer reliable)
-          Deribit
+          Deribit (recommended instead of BitMEX)
         
       
     
@@ -811,6 +811,19 @@ However, many trading platforms in Asia notoriously don’t do small altcoins mu
 You might be more lucky on places like YoBit.
 
 
+
+Recommended No-KYC Crypto Trading Exchanges
+
+
+  (Custodial) Bitfinex: spot, margin, lending, futures, airdrops
+  (Custodial) ByBit: futures, airdrops has limits
+  (Custodial) WhiteBit: futures, airdrops has limits
+  (Non-Custodial) LocalCryptos: onramp
+  (Non-Custodial) Uniswap: spot
+  (Non-Custodial) LeverJ: futures
+
+
+Why the “has limits” callout? These exchanges have withdrawal limits. That increases the risks associated with trading there. More in this blog.
 
 Most liquid centralized (custodial) altcoin trading platforms:
 
@@ -1078,13 +1091,13 @@ If you plan to daytrade, here’s the deal:
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#your-priorities&quot;&gt;Your priorities for active crypto trading&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#active-trading-platforms&quot;&gt;List of best altcoin trading platforms&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#active-trading-platforms&quot;&gt;List of best altcoin trading platforms&lt;/a&gt; - Both no KYC &amp;amp; KYC.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#derivatives&quot;&gt;Best platforms for trading crypto derivatives&lt;/a&gt;
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;#bitmex&quot;&gt;BitMEX&lt;/a&gt; (no longer reliable)&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#deribit&quot;&gt;Deribit&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#deribit&quot;&gt;Deribit&lt;/a&gt; (recommended instead of BitMEX)&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -1129,6 +1142,19 @@ If you plan to daytrade, here’s the deal:
 &lt;p&gt;You might be more lucky on places like &lt;a href=&quot;https://bit.ly/at-yob2020&quot;&gt;YoBit&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div id=&quot;active-trading-platforms&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended No-KYC Crypto Trading Exchanges&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: spot, margin, lending, futures, airdrops&lt;/li&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;ByBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Custodial) &lt;a href=&quot;https://bit.ly/3kwUh2k&quot;&gt;WhiteBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt;: onramp&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;https://uniswap.org&quot;&gt;Uniswap&lt;/a&gt;: spot&lt;/li&gt;
+  &lt;li&gt;(Non-Custodial) &lt;a href=&quot;/leverj/&quot;&gt;LeverJ&lt;/a&gt;: futures&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why the &lt;em&gt;“has limits”&lt;/em&gt; callout? These exchanges have withdrawal limits. That increases the risks associated with trading there. &lt;a href=&quot;/buy-crypto-no-kyc/&quot;&gt;More in this blog.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Most liquid centralized (custodial) altcoin trading platforms:&lt;/strong&gt;&lt;/p&gt;
 

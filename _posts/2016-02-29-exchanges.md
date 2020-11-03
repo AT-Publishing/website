@@ -18,9 +18,9 @@ author:       https://twitter.com/tradingfanbois
 author_name:  "@tradingfanbois"
 
 related:
-- {"ATNET Glossary: What do crypto traders call LBC, why is it now dangerous and what to use instead": "/glossary/lbc/"}
-- {"Independent Reserve: How To Best Leverage What They Are Great At": "/coupon-independent-reserve/"}
-- {"Strategy - Dollar Cost Averaging": "/strategy/dollar-cost-averaging/"}
+- {"Buying Crypto Without KYC: How to minimize your risk?": "/buy-crypto-no-kyc/"}
+- {"Independent Reserve: The best exchange for DCA": "/coupon-independent-reserve/"}
+- {"Trading Strategy: Dollar Cost Averaging": "/strategy/dollar-cost-averaging/"}
 
 ---
 
@@ -30,10 +30,10 @@ Whether you want to join the madness of altcoin trading or you just want to buy 
 
 * [Trading Altcoins](#trading-altcoins)
   * [Your priorities for active crypto trading](#your-priorities)
-    - [List of best altcoin trading platforms](#active-trading-platforms)
+    - [List of best altcoin trading platforms](#active-trading-platforms) - Both no KYC & KYC.
   * [Best platforms for trading crypto derivatives](#derivatives)
     - [BitMEX](#bitmex) (no longer reliable)
-    - [Deribit](#deribit)
+    - [Deribit](#deribit) (recommended instead of BitMEX)
 * [Buying Altcoins](#onramp)
   * [Onramping from crypto (with exchange recommendations)](#onramp-crypto)
   * [Onramping from fiat (with exchange recommendations)](#onramp-fiat)
@@ -65,6 +65,17 @@ However, many trading platforms in Asia notoriously don't do small altcoins much
 You might be more lucky on places like [YoBit](https://bit.ly/at-yob2020).
 
 <div id="active-trading-platforms"></div>
+
+**Recommended No-KYC Crypto Trading Exchanges**
+
+* (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
+* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**
+* (Custodial) [WhiteBit](https://bit.ly/3kwUh2k): futures, airdrops **has limits**
+* (Non-Custodial) [LocalCryptos](http://bit.ly/localcryptos): onramp
+* (Non-Custodial) [Uniswap](https://uniswap.org): spot
+* (Non-Custodial) [LeverJ](/leverj/): futures
+
+Why the *"has limits"* callout? These exchanges have withdrawal limits. That increases the risks associated with trading there. [More in this blog.](/buy-crypto-no-kyc/)
 
 **Most liquid centralized (custodial) altcoin trading platforms:**
 
