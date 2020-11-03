@@ -10,7 +10,7 @@ image:
 
 Every year, TradingView opens their Black Friday discount for the full Black Friday week (Monday - Sunday).
 
-They typically give between 40% and 60% discount on their **yearly plans**.
+They typically give **between 40% and 60%** discount on their **yearly plans**. TradingView always runs the same offer through both Black Friday and Cyber Monday.
 
 Year on year, the Black Friday offers have been getting a tad better as the competition keeps popping up for TradingView.
 
@@ -20,6 +20,6 @@ Year on year, the Black Friday offers have been getting a tad better as the comp
 * **TradingView PRO+** with yearly payment ~ **14.95 USD/month** (179.4 USD/year)
 * **TradingView PREMIUM** with yearly payment ~ **23.98 USD/month** (287.8 USD/year)
 
-Payments are done via PayPal, credit cards, debit cards _or via cryptocurrency_.
+TradingView accepts payments via PayPal, credit cards, debit cards _and several cryptocurrencies_.
 
 <em>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</em>

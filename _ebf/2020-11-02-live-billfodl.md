@@ -26,7 +26,7 @@ Current bundle prices depend on the version of the hardware wallet as their tech
 * Trezor One + BillFodl - **145 USD**
 * KeepKey + BillFodl - **109 USD**
 
-<a class="button" id="spec-affil" rel="nofollow" href="https://privacypros.io/collections/billfodl-wallet-bundles/?afmc=95&utm_campaign=95&utm_source=leaddyno&utm_medium=affiliate">Go to at BillFodl Bundles on PrivacyPros</a>
+<a class="button" id="spec-affil" rel="nofollow" href="https://privacypros.io/collections/billfodl-wallet-bundles/?afmc=95&utm_campaign=95&utm_source=leaddyno&utm_medium=affiliate">Get Your BillFodl Bundle on PrivacyPros</a>
 
 
 ##### About Billfodl

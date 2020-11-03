@@ -23,9 +23,9 @@ interlink:
 
 # needs variable interlink
 top_interlink:
-- [ "/glossary/coin-control/", "ATNET Glossary on Coin Control", "If you are building a stash of crypto for the long run, you will get dusted at some point. Learn about Ledger wallet's coin control.", "https://res.cloudinary.com/atnetcloud/image/upload/v1599118579/atnet/details2_kduxoj.jpg"]
-- [ "/glossary/pattern-trading/", "Pattern Trading Hub", "List of the highest probability patterns on crypto markets.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
-- [ "/buy-crypto-no-kyc/", "Buying Crypto Non-KYC", "Where to buy crypto anonymously with minimal risks?", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
+- [ "/glossary/coin-control/", "ATNET Glossary on Coin Control", "If you are building a stash of crypto for the long run, you will get dusted at some point. Learn about Ledger wallet's coin control.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
+- [ "/glossary/pattern-trading/", "Pattern Trading Hub", "List of the highest probability patterns on crypto markets.", "https://res.cloudinary.com/atnetcloud/image/upload/v1602742868/pexels-henry-_-co-2517210_olyicp.jpg"]
+- [ "/buy-crypto-no-kyc/", "Buying Crypto Non-KYC", "Where to buy crypto anonymously with minimal risks?", "https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:a46014,c_lpad,h_360,w_700/v1603688562/atnet/pexels-photo-2179248_d5dt4i.jpg"]
 
 ---
 
@@ -36,4 +36,36 @@ The Black Friday 2020 date **November 27th, 2020** is still long way off, but so
 {% assign interlink = page.top_interlink %}
 {% include article/interlink-generic.html %}
 
-{% include article/cta-contactus.html %}
+&nbsp;
+
+<div id="timeline"></div>
+
+## Crypto Black Friday 2020: Timeline
+
+> Early November
+
+Early November in crypto is the time for the bulk deals. Year on year, you can get [Ledger wallets in bundles](#live-ledger) of different models, or bundles of [steel plate wallets with hardware wallets](#live-billfodl).
+
+These discounts don't usually come better than ~20% off per a wallet, but you have certainty there will be enough stock available.
+
+> Mid November
+
+[Ledger](http://bit.ly/ledger-nano-x) is the most active in these in-between November days. There are usually new bundle offers or discount codes released for those who want a hardware wallet but do not want to wait until Black Friday.
+
+> Black Friday Week (Mon 23 Nov - Fri 27 Nov)
+
+[TradingView](#anticipated-tv) starts its annual 60-ish % off on the Black Friday week.
+
+[Ledger wallets](#anticipated-ledger) usually get a flat discount through this week.
+
+> Black Friday 2020 (Fri 27 Nov, Sat 28 Nov, Sun 29 Nov)
+
+The Black Friday weekend is the time of the year to switch from TradingView FREE to TradingView PRO. There is no other chance to get anything off through the rest of the year.
+
+<em>Get your <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE now</a> and if you like it, upgrade on Black Friday.</em>
+
+> Cyber Monday 2020 (Mon 30 Nov)
+
+Cyber Monday is the last day of [TradingView](#anticipated-tv) yearly sale.
+
+Other than that, this is also your only chance to get [AirVPN](#anticipated-airvpn) subscription with a proper discount. AirVPN gives ~70% off on their longest subscription plans.

@@ -14,7 +14,7 @@ Every year, Ledger wallet Black Friday deals come in a sequence.
 
 Whereas during the year, crypto hodlers can get a good deal with bundles, on Black Friday Ledger typically does site-wide discounts.
 
-* **[Get the current Bundle discount offer](http://bit.ly/bpbf-2019)**
+* **[Get the current Bundle discount offer](#live-ledger)**
 
 In 2019 the first wave of pre-BlackFriday sale came with 30% off site-wide at Ledger. It was not as low as it could get, but there was enough stock and the discount applied even on Ledger Nano X which was still a new product.
 
