@@ -1,0 +1,102 @@
+I"Z<p>You know what they say: Not your keys, not your bitcoin.</p>
+
+<p>Conversely - if you can prove you own the keys, for all intents and purposes that also says you own the crypto.</p>
+
+<p><strong>This verification is typically needed when you lose access to an exchange account where you were not KYC’d.</strong></p>
+
+<h3 id="message-signature-as-a-proof">Message Signature as a proof</h3>
+
+<p>For obvious reasons, you cannot show the private key to anyone.</p>
+
+<p>Showing it would prove your ownership, but at the same time it would make you lose said ownership.</p>
+
+<p>One of the established ways to prove the ownership of a private key is to sign a message with it. To sign a message you only work with the public address associated with your private keys, but you need to do it from the wallet that holds it.</p>
+
+<p>That requires your physical access to your wallet device or laptop, and a password that decrypts the wallet and lets you use it.</p>
+
+<h3 id="crypto-wallets-that-let-you-sign-a-message">Crypto wallets that let you sign a message</h3>
+
+<p>Message signing has become an advanced function. Most new crypto wallets that are user friendly do not support it.</p>
+
+<ul>
+  <li><strong>Trezor</strong>: SUPPORTS MESSAGE SIGNING
+    <ul>
+      <li><a href="/blackfriday/#live-billfodl">Trezor wallet’s</a> Chrome extension lets you sign a message with an address belonging to your wallet.</li>
+    </ul>
+  </li>
+  <li><strong>Ledger</strong>: NO SUPPORT
+    <ul>
+      <li>Ledger wallet did support message signature and verification in its old web interface. The web UI us now deprecated. Ledger Live does NOT support message signing.</li>
+    </ul>
+  </li>
+  <li><strong>Electrum</strong>: SUPPORTS MESSAGE SIGNING
+    <ul>
+      <li><a href="/glossary/electrum/">Electrum supports message signatures</a> for all address formats: legacy, P2SH segwit and bech32 native segwit. However, a lot of crypto software that deals with message verifications will not validate bech32 signatures - The format is too new.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="your-wallet-does-not-support-message-signatures">Your wallet does not support message signatures?</h3>
+
+<p>If you have access to your wallet’s seed phrase, use it to load your wallet into Electrum.</p>
+
+<p><strong>Here’s how to do it:</strong></p>
+
+<ul>
+  <li>Open the Electrum wallet and in the File menu, select “New/Restore”</li>
+  <li>Select “Standard wallet”</li>
+  <li>Select “Already have a seed”</li>
+</ul>
+
+<p>If you need to verify ownership of a Legacy address starting with <code class="language-plaintext highlighter-rouge">1</code>:</p>
+<ul>
+  <li>Type in your seed phrase</li>
+  <li>Choose legacy</li>
+</ul>
+
+<p>If you need to verify ownership of a P2SH Segwit address starting with <code class="language-plaintext highlighter-rouge">3</code>:</p>
+
+<ul>
+  <li>Type in your seed phrase and click “Options”</li>
+  <li>Select BIP39 (ignore any warnings)</li>
+  <li>Select derivation path “p2sh-segwit”</li>
+</ul>
+
+<p>If you need to verify ownership of a native Segwit address starting with <code class="language-plaintext highlighter-rouge">bc1</code>:</p>
+<ul>
+  <li>Type in your seed phrase</li>
+  <li>Choose segwit</li>
+</ul>
+
+<h3 id="what-if-you-still-cannot-sign-a-message">What if you still cannot sign a message?</h3>
+
+<p>This can happen. Especially if you use native segwit address.</p>
+
+<p>To prove your ownership, the exchange (or whoever asks) can require you to move an arbitrary (but pre-defined) amount of crypto from the address in question to any other address in your wallet.</p>
+
+<p>You are sending money to yourself, so there is no loss (other than transaction fee). Signature is still obviously the preferred method.</p>
+
+<h3 id="how-to-sign-a-message-in-electrum">How to Sign a Message in Electrum</h3>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_west,h_360,w_700/v1604394376/atnet/_how-to/sign1_mze3qr.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_west,h_360,w_700/v1604394376/atnet/_how-to/sign1_mze3qr.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ol>
+  <li>Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.</li>
+  <li>Go to addresses and find the address you need to use.</li>
+  <li>Right-click the address and choose “Sign/Verify Message”</li>
+  <li>Copypaste the message to sign into its box and click “Sign”. You will be asked for the wallet password.</li>
+  <li>The signature string is in the bottom box.</li>
+</ol>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_west,h_360,w_700/v1604394385/atnet/_how-to/sign2a_rzb79r.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_west,h_360,w_700/v1604394385/atnet/_how-to/sign2a_rzb79r.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="how-to-verify-a-message-in-electrum">How to Verify a Message in Electrum</h3>
+
+<ol>
+  <li>Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.</li>
+  <li>Go to addresses and find the address you need to use.</li>
+  <li>Right-click the address and choose “Sign/Verify Message”</li>
+  <li>Copypaste the message to sign into its box.</li>
+  <li>Copypaste the signature into its box and click “Verify”.</li>
+</ol>
+:ET

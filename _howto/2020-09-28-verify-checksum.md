@@ -27,6 +27,8 @@ related:
 
 ---
 
+*This article is about PGP signatures, used to verify you downloaded a genuine copy of a software. For a guide on how to sign or verify a message in Electrum wallet, go [here](/howto/sign-verify-message/).*
+
 In this guide we are going to look at why you should learn how to verify GPG signatures and what is the difference between GPG signatures vs checksum verification.
 
 In the last section of this article, there is a [step-by-step guide](#electrum) on how to verify GPG signatures on Mac or Linux. It uses Electrum wallet as an example.
