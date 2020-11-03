@@ -23,9 +23,9 @@ interlink:
 
 # needs variable interlink
 top_interlink:
-- [ "/altcoin-wallets/", "Best Altcoin Wallets for 2020", "Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? No worries, plenty other options in 2020.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
-- [ "/how-to-buy-altcoins/", "How to buy altcoins - with KYC & with no KYC", "Full guide on how to onramp and buy cryptocurrencies, with extra tips for Americans.", "https://res.cloudinary.com/atnetcloud/image/upload/v1599118579/atnet/details2_kduxoj.jpg"]
-- [ "/airdrops/", "Upcoming Airdrops 2020", "Crypto airdrops, bounties, signup bonuses and early opportunities.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
+- [ "/glossary/coin-control/", "ATNET Glossary on Coin Control", "If you are building a stash of crypto for the long run, you will get dusted at some point. Learn about Ledger wallet's coin control.", "https://res.cloudinary.com/atnetcloud/image/upload/v1599118579/atnet/details2_kduxoj.jpg"]
+- [ "/glossary/pattern-trading/", "Pattern Trading Hub", "List of the highest probability patterns on crypto markets.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
+- [ "/buy-crypto-no-kyc/", "Buying Crypto Non-KYC", "Where to buy crypto anonymously with minimal risks?", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
 
 ---
 

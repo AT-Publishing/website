@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2020 02:23:28 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2020 02:23:28 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2020 04:19:31 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2020 04:19:31 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -1418,13 +1418,34 @@ If you plan to daytrade, here’s the deal:
         <title><![CDATA[ Altcoin Wallets: Tried and True, 2020 Updated ]]></title>
         <description><![CDATA[ Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets. ]]></description>
 
-        <content:encoded><![CDATA[ Lets start this article about altcoin wallets right off with the obligatory reminder.
+        <content:encoded><![CDATA[  
+
+
+  
+    Crypto Wallet Black Friday Deals Always Come Early
+  
+  
+    
+         
+    
+    
+         
+    
+    
+         
+    
+  
+
+
+ 
+
+Lets start this article about altcoin wallets right off with the obligatory reminder.
 
 
   For hodlers: It is not a good idea to keep untraded cryptocurrency on an exchange.
 
 
-Exchanges hold larger amounts of crypto than personal wallets and therefore are more targeted by cyber criminals.
+Exchanges hold big amounts of crypto and are therefore a clear target for cyber criminals.
 
 
   Read about the Tether hack in 2017
@@ -1436,11 +1457,9 @@ Exchanges hold larger amounts of crypto than personal wallets and therefore are 
   For traders: It is also not a good idea to send coins from one exchange to another.
 
 
-Exchange transaction systems are a blackbox, especially with high-tech altcoins like Ethereum that support sending triggered by a smart contract.
+Crypto exchanges are not banks. They are not supposed to having people transacting among them. Plus, it’s for your own security that exchanges detect transactions that do not come from a wallet and trash them. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.
 
-An altcoin wallet will receive such transaction, but an exchange which has built in security mechanisms to avoid network spam might not. You can go spend months dealing with customer support to retrieve your funds, sure. But I guess you have better things to do.
-
-And now, quick TLDR for those who don’t want to get paralyzed by too many options:
+Now, quick TLDR for those who don’t want to get paralysed by too many options:
 
 Your best bet in terms of altcoin storage
 
@@ -1734,13 +1753,34 @@ Most web-based wallets, the private keys are stored by a third party. You should
 Opt for blockchain.com or one of the multicoin wallets above for a good ratio of convenience and security.
  ]]></content:encoded>
 
-        <turbo:content><![CDATA[ &lt;p&gt;Lets start this article about altcoin wallets right off with the obligatory reminder.&lt;/p&gt;
+        <turbo:content><![CDATA[ &lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&quot;clearfix row box-lvl-c&quot; id=&quot;blackfriday-cta&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h5&gt;Crypto Wallet &lt;b&gt;Black Friday Deals&lt;/b&gt; Always Come &lt;em&gt;Early&lt;/em&gt;&lt;/h5&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row home-glossary&quot;&gt;
+    &lt;div class=&quot;columns four&quot; id=&quot;bf-callout-ledger&quot;&gt;
+      &lt;div class=&quot;text-center&quot;&gt; &lt;a class=&quot;index-internal&quot; target=&quot;_blank&quot; href=&quot;/blackfriday/#live-ledger&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/ledger_bundles_wkd9dp.jpg&quot; alt=&quot;Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy&quot; data-original-width=&quot;336px&quot; data-original-height=&quot;280px&quot; width=&quot;336px&quot; height=&quot;280px&quot; layout=&quot;responsive&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;columns four&quot; id=&quot;bf-callout-billfodl&quot;&gt;
+      &lt;div class=&quot;text-center&quot;&gt; &lt;a class=&quot;index-internal&quot; target=&quot;_blank&quot; href=&quot;/blackfriday/#live-billfodl&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/billfodl1_bsiyki.jpg&quot; alt=&quot;Crypto Black Friday offers 2020 - BillFodl and Trezor Bundles&quot; data-original-width=&quot;336px&quot; data-original-height=&quot;280px&quot; width=&quot;336px&quot; height=&quot;280px&quot; layout=&quot;responsive&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;columns four&quot; id=&quot;bf-callout-tv&quot;&gt;
+      &lt;div class=&quot;text-center&quot;&gt; &lt;a class=&quot;index-internal&quot; target=&quot;_blank&quot; href=&quot;/blackfriday/#anicipated-tradingview&quot;&gt; &lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1604026300/atnet/blackfriday2020/tradingview-incoming_iokoq8.jpg&quot; alt=&quot;Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy&quot; data-original-width=&quot;336px&quot; data-original-height=&quot;280px&quot; width=&quot;336px&quot; height=&quot;280px&quot; layout=&quot;responsive&quot;&gt; &lt;/amp-img&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Lets start this article about altcoin wallets right off with the obligatory reminder.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;For hodlers: &lt;strong&gt;It is not a good idea to keep untraded cryptocurrency on an exchange.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Exchanges hold larger amounts of crypto than personal wallets and therefore are more targeted by cyber criminals.&lt;/p&gt;
+&lt;p&gt;Exchanges hold big amounts of crypto and are therefore a clear target for cyber criminals.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Read about the &lt;a href=&quot;https://www.altcointrading.net/bitfinex-tether-transparency/&quot;&gt;Tether hack in 2017&lt;/a&gt;&lt;/li&gt;
@@ -1752,11 +1792,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
   &lt;p&gt;For traders: &lt;strong&gt;It is also not a good idea to send coins from one exchange to another.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Exchange transaction systems are a blackbox, especially with high-tech altcoins like Ethereum that support sending triggered by a smart contract.&lt;/p&gt;
+&lt;p&gt;Crypto exchanges are not banks. They are not supposed to having people transacting among them. &lt;a href=&quot;/bitifinex-eats-your-eth/&quot;&gt;Plus, it’s for your own security that exchanges detect transactions that do not come from a wallet and trash them&lt;/a&gt;. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.&lt;/p&gt;
 
-&lt;p&gt;An altcoin wallet will receive such transaction, but an &lt;a href=&quot;https://www.altcointrading.net/bitifinex-eats-your-eth/&quot;&gt;exchange which has built in security mechanisms to avoid network spam might not&lt;/a&gt;. You can go spend months dealing with customer support to retrieve your funds, sure. But I guess you have better things to do.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;And now, quick TLDR for those who don’t want to get paralyzed by too many options:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now, quick TLDR for those who don’t want to get paralysed by too many options:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;your-best-bet-in-terms-of-altcoin-storage&quot;&gt;Your best bet in terms of altcoin storage&lt;/h3&gt;
 

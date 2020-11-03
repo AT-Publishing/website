@@ -1,4 +1,4 @@
-I"<h2 id="black-friday-is-over-long-live-black-friday">Black Friday is over, long live Black Friday</h2>
+I"ï<h2 id="black-friday-is-over-long-live-black-friday">Black Friday is over, long live Black Friday</h2>
 
 <p>The Black Friday 2020 date <strong>November 27th, 2020</strong> is still long way off, but some products are in <strong>bundle promos</strong> during the rest of 20.</p>
 
@@ -8,22 +8,7 @@
     
     <div class="row">
       <div class="columns five">
-        <a href="/altcoin-wallets/">
-          <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
-            </amp-img>
-          </figure>
-        </a>
-      </div>
-      <div class="columns seven">
-        <a href="/altcoin-wallets/"><h5>Best altcoin wallets for 2020</h5></a>
-        <p>Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? No worries, plenty other options in 2020.</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="columns five">
-        <a href="/how-to-buy-altcoins/">
+        <a href="/glossary/coin-control/">
           <figure class="noborder main-post-image">
             <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1599118579/atnet/details2_kduxoj.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
@@ -31,14 +16,29 @@
         </a>
       </div>
       <div class="columns seven">
-        <a href="/how-to-buy-altcoins/"><h5>How to buy altcoins - with kyc &amp; with no kyc</h5></a>
-        <p>Full guide on how to onramp and buy cryptocurrencies, with extra tips for Americans.</p>
+        <a href="/glossary/coin-control/"><h5>Atnet glossary on coin control</h5></a>
+        <p>If you are building a stash of crypto for the long run, you will get dusted at some point. Learn about Ledger wallet's coin control.</p>
       </div>
     </div>
     
     <div class="row">
       <div class="columns five">
-        <a href="/airdrops/">
+        <a href="/glossary/pattern-trading/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/glossary/pattern-trading/"><h5>Pattern trading hub</h5></a>
+        <p>List of the highest probability patterns on crypto markets.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
+        <a href="/buy-crypto-no-kyc/">
           <figure class="noborder main-post-image">
             <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg" alt="ATNET - Altcoin Trading Blog" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
@@ -46,8 +46,8 @@
         </a>
       </div>
       <div class="columns seven">
-        <a href="/airdrops/"><h5>Upcoming airdrops 2020</h5></a>
-        <p>Crypto airdrops, bounties, signup bonuses and early opportunities.</p>
+        <a href="/buy-crypto-no-kyc/"><h5>Buying crypto non-kyc</h5></a>
+        <p>Where to buy crypto anonymously with minimal risks?</p>
       </div>
     </div>
     
