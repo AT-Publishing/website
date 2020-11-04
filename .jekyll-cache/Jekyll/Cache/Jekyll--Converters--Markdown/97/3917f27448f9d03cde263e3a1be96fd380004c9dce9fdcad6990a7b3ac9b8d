@@ -1,10 +1,14 @@
-I"—"<h4 id="what-are-divergences-in-trading">What are divergences in trading?</h4>
+I"’#<h4 id="what-are-divergences-in-trading">What are divergences in trading?</h4>
 
 <p>When traders talk about <strong>divergences</strong>, or <strong>divs</strong>, they are pointing out a disagreement between the price action and a technical indicator. The thing to look for in the price development are highs and lows, pick a pair of prominent ones and check if your indicator rendered the opposite thing: price made higher high, look for lower high in the indicator for that timespan.</p>
 
 <p>The indicator of choice is typically some kind of oscillator (RSI, MACD).</p>
 
 <p>These divergences signify prevailing momentum in the market. Depending on the type of the divergence they suggest either continuation or reversal.</p>
+
+<ul>
+  <li><em>There are plenty of divergence indicators in the <a href="https://bit.ly/at-tvd-glob">TradingView FREE</a> script library</em></li>
+</ul>
 
 <p><strong>Divergences in short</strong></p>
 
@@ -53,6 +57,8 @@
 <p>Divergence with %b is a more precise way to observe whether new extremes of the price action are closer to or farther from the bollinger bandâ€™s boundaries. There is a more reliable version of the <em>double bottom</em> formation on the bbands: price makes a new low but that now is not a new low relatively to the bbands. That is to say, the first low is below the lower bband and the second low is a lower low in absolute terms (the price) but also either on or above the lower bband - <a href="/technical-analysis/">video on bbands explaining that in this article</a>.</p>
 
 <p>TradingView provides the %b indicator which measures how far is the price from the bollinger band of your selected standard deviation and it plots this distance. The situation where you have new low in price but not a new low relatively to the bands shows as a regular bullish divergence on %b.</p>
+
+<p><a class="btn" href="http://bit.ly/at-tvd-gopro" rel="nofollow">Get TradingView FREE</a></p>
 
 <p>This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls arenâ€™t winning yet.</p>
 

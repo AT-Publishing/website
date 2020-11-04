@@ -8,7 +8,7 @@ title:        "Wyckoff trading method for ranging markets"
 description:  "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
 
 categories: [ pattern-trading ]
-tags:       [ crypto-charting, crypto-technical-analysis, wyckoff-trading-crypto, crypto-trading-strategy, bitfinex, independent-reserve ]
+tags:       [ crypto-charting, crypto-technical-analysis, wyckoff-trading-crypto, crypto-trading-strategy, bitfinex, independent-reserve, tradingview, top ]
 
 slug:       wyckoff-ranging-markets/
 

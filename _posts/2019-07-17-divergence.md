@@ -30,7 +30,7 @@ image_alt: "Divergences between lows or highs on the price action and the MACD o
 stories: false
 note: 'Trading Strategy'
 categories: [ crypto-technical-analysis ]
-tags:       [ crypto-trading-strategy, crypto-charting, trading-divergences, top  ]
+tags:       [ crypto-trading-strategy, crypto-charting, trading-divergences, tradingview, top  ]
 
 author:      https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -51,6 +51,8 @@ When traders talk about **divergences**, or **divs**, they are pointing out a di
 The indicator of choice is typically some kind of oscillator (RSI, MACD).
 
 These divergences signify prevailing momentum in the market. Depending on the type of the divergence they suggest either continuation or reversal.
+
+* _There are plenty of divergence indicators in the [TradingView FREE](https://bit.ly/at-tvd-glob) script library_
 
 **Divergences in short**
 
@@ -95,6 +97,8 @@ This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish diverg
 Divergence with %b is a more precise way to observe whether new extremes of the price action are closer to or farther from the bollinger band's boundaries. There is a more reliable version of the *double bottom* formation on the bbands: price makes a new low but that now is not a new low relatively to the bbands. That is to say, the first low is below the lower bband and the second low is a lower low in absolute terms (the price) but also either on or above the lower bband - [video on bbands explaining that in this article](/technical-analysis/).
 
 TradingView provides the %b indicator which measures how far is the price from the bollinger band of your selected standard deviation and it plots this distance. The situation where you have new low in price but not a new low relatively to the bands shows as a regular bullish divergence on %b.
+
+<p><a class="btn" href="http://bit.ly/at-tvd-gopro" rel="nofollow">Get TradingView FREE</a></p>
 
 This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls aren't winning yet.
 

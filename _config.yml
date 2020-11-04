@@ -204,8 +204,14 @@ ref:
   coinbase: '<a target="_blank" href="http://bit.ly/plebtier">Coinbase</a>&nbsp;'
 
 ### CTAs to deal pages
-
+#
 bf:
+  tcharts1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="/blackfriday/#anticipated-tensorcharts">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1604461163/atnet/blackfriday2020/tensorcharts-blackfriday_w1nbw7.jpg"
+  alt="Crypto Black Friday offers 2020 - Tensorcharts Premium" data-original-width="336px" data-original-height="280px"
+  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
   billfodl1: '<div class="text-center">
   <a class="index-internal" target="_blank" href="/blackfriday/#live-billfodl">
   <amp-img itemprop="image"

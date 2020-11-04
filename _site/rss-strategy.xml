@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Wed, 04 Nov 2020 03:17:44 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2020 03:17:44 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2020 04:02:15 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2020 04:02:15 +0000</lastBuildDate>
 
     
       <item>
@@ -50,6 +50,10 @@
         <category>bitfinex</category>
         
         <category>independent-reserve</category>
+        
+        <category>tradingview</category>
+        
+        <category>top</category>
         
         
         <category>pattern-trading</category>
@@ -205,7 +209,7 @@
         
         <category>bitmex</category>
         
-        <category>tradingview</category>
+        <category>top</category>
         
         
         <category>trading-technique</category>
@@ -386,6 +390,8 @@
         <category>bitfinex</category>
         
         <category>independent-reserve</category>
+        
+        <category>top</category>
         
         
         <category>trading-technique</category>
