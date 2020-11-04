@@ -1,0 +1,13 @@
+{% assign top_posts = site.posts | where: "tags", "top" | sample: 1 %}
+&nbsp;
+<section>
+  <div class="row box-lvl-a" id="side-cat-related">
+    <h4>Most Read Trading Blog<br><b>Week #{{ site.time | date: "%W" }}</b></h4>
+    {% for post in top_posts %}
+      {% include category/tall.html %}
+    {% endfor %}
+    <p>
+      <a class="btn" href="/blog/trading/">All Blogs</a>
+    </p>
+  </div>
+</section>

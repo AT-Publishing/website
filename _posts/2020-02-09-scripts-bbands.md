@@ -10,7 +10,7 @@ note:       ScriptSpotlight
 
 series:       ScriptSpotlight
 categories:   [ crypto-technical-analysis ]
-tags:         [ tradingview-scripts, crypto-trading-strategy, crypto-charting ]
+tags:         [ tradingview-scripts, crypto-trading-strategy, crypto-charting, top  ]
 
 mentions:
  name: "technical analysis"

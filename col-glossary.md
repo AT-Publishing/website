@@ -1,8 +1,9 @@
 ---
-layout: col-glossary
-title: "ATNET Crypto Trading Glossary"
-description: "Glossary crypto trading terms on ATNET. All the crypto trading jargon and technical analysis terms often used in crypto trading communities."
-permalink: /glossary/
+top:          yes
+layout:       col-glossary
+title:        "ATNET Crypto Trading Glossary"
+description:  "Glossary crypto trading terms on ATNET. All the crypto trading jargon and technical analysis terms often used in crypto trading communities."
+permalink:     /glossary/
 ---
 
 Welcome to the **crypto traders' glossary** on **ATNET** (AltcoinTrading.NET).

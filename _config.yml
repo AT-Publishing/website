@@ -1,14 +1,14 @@
-title: "AltcoinTrading.NET"
-subtitle: "ATNET Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't."
-description: "ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_"
-baseurl: ""
-url: "https://www.altcointrading.net"
-timezone: "Etc/GMT"
-exclude: [node_modules, README.md]
-keep_files: [cta, editorial, features, img, img-howto, sec, strat, uploads]
-plugins: [jekyll-paginate, jekyll-last-modified-at]
-paginate: 10
-ga: UA-73503011-2
+title:        "AltcoinTrading.NET"
+subtitle:     "ATNET Trading strategies, crypto trading glossary, OPSEC primers, airdrops & early opportunities. Value is where the crowd isn't."
+description:  "ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_"
+baseurl:      ""
+url:          "https://www.altcointrading.net"
+timezone:     "Etc/GMT"
+exclude:      [node_modules, README.md]
+keep_files:   [cta, editorial, features, img, img-howto, sec, strat, uploads]
+plugins:      [jekyll-paginate, jekyll-last-modified-at]
+paginate:     10
+ga:           UA-73503011-2
 
 excerpt_separator: <!--more-->
 

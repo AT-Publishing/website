@@ -1,4 +1,5 @@
 ---
+
 published:  true
 guest:      false
 pinned:     false
@@ -29,7 +30,7 @@ image_alt: "Divergences between lows or highs on the price action and the MACD o
 stories: false
 note: 'Trading Strategy'
 categories: [ crypto-technical-analysis ]
-tags:       [ crypto-trading-strategy, crypto-charting, trading-divergences ]
+tags:       [ crypto-trading-strategy, crypto-charting, trading-divergences, top  ]
 
 author:      https://twitter.com/tradingfanbois
 author_name: tradingfanbois
@@ -101,7 +102,7 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 ## Divergences Cheat Sheets
 
-* **For the ultra lazy**: [Automatic Divergence Indicator](/scriptspotlight-auto-divergences/) from TradingView. This is a pine script from the public library on TradingView. You'll need an account there to access the indicator, but [TradingView FREE](https://bit.ly/at-tv-2020-globalcrypto) will be enough. 
+* **For the ultra lazy**: [Automatic Divergence Indicator](/scriptspotlight-auto-divergences/) from TradingView. This is a pine script from the public library on TradingView. You'll need an account there to access the indicator, but [TradingView FREE](https://bit.ly/at-tv-2020-globalcrypto) will be enough.
 
 * [Comprehensive Divergences Cheat-sheet](https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
 
