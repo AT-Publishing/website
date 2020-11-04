@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Nov 2020 04:04:56 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2020 04:04:56 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2020 05:54:05 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2020 05:54:05 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -1477,13 +1477,21 @@ Ledger wallets were the pioneers of supporting altcoins, and you will find most 
 
   Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and all ERC20 compliant Ethereum tokens.
   For BTC and LTC, both legacy and segwit address are supported. You can view and access all address formats in Ledger Live (the app for wallet management).
+  All Ledger wallets have easy coin control via Ledger Live
+  Signing &amp;amp; verifying a message is not possible in Ledger wallets
 
 
 Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
 
-Segwit addresses: Both native and nested Segwit supported.
+Segwit addresses: Both native and nested Segwit supported as subaccounts in one wallet
+
+Easy coin control
+
+No message signatures
+
+**
 
 
 Get Ledger Nano X
@@ -1566,7 +1574,9 @@ Summary
 
 Supported Coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
 
-Segwit addresses: BTC Native segwit supported.
+Segwit addresses: BTC Native segwit supported
+
+No advanced functions (coin control, message signatures)
 
 Jaxx Multicoin Wallet
 
@@ -1593,7 +1603,9 @@ Summary
 
 Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
 
-Segwit addresses: Not supported.
+Segwit addresses: Not supported
+
+No advanced functions (coin control, message signatures)
 
 Blockchain.com Wallet for BTC, ETH and XLM
 
@@ -1611,7 +1623,9 @@ Summary
 
 Supported Coins: BTC, ETH, XLM
 
-Segwit addresses: Not supported.
+Segwit addresses: Not supported
+
+No advanced functions (coin control, message signatures)
 
 
   Single-coin Wallet Apps
@@ -1812,13 +1826,21 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;ul&gt;
   &lt;li&gt;Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and &lt;strong&gt;all ERC20 compliant Ethereum tokens&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;For BTC and LTC, &lt;strong&gt;both legacy and segwit address are supported&lt;/strong&gt;. You can view and access all address formats in Ledger Live (the app for wallet management).&lt;/li&gt;
+  &lt;li&gt;All Ledger wallets have &lt;a href=&quot;/glossary/#coin-control&quot;&gt;easy coin control&lt;/a&gt; via Ledger Live&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/howto/sign-verify-message/&quot;&gt;Signing &amp;amp; verifying a message&lt;/a&gt; is &lt;strong&gt;not&lt;/strong&gt; possible in Ledger wallets&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h5 id=&quot;summary&quot;&gt;Summary&lt;/h5&gt;
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported as subaccounts in one wallet&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Easy&lt;/strong&gt; coin control&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; message signatures&lt;/p&gt;
+
+&lt;p&gt;**&lt;/p&gt;
 
 &lt;p&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Get Ledger Nano X&lt;/a&gt;
@@ -1901,7 +1923,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native &lt;a href=&quot;/glossary/#segwit&quot;&gt;segwit&lt;/a&gt; supported&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
 &lt;h4 id=&quot;jaxx-multicoin-wallet&quot;&gt;Jaxx Multicoin Wallet&lt;/h4&gt;
 
@@ -1928,7 +1952,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
 &lt;h4 id=&quot;blockchaincom-wallet-for-btc-eth-and-xlm&quot;&gt;Blockchain.com Wallet for BTC, ETH and XLM&lt;/h4&gt;
 
@@ -1946,7 +1972,9 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, XLM&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Single-coin Wallet Apps&lt;/p&gt;
