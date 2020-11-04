@@ -14,7 +14,9 @@ They typically give **between 40% and 60%** discount on their **yearly plans**. 
 
 Year on year, the Black Friday offers have been getting a tad better as the competition keeps popping up for TradingView.
 
-**TradingView Black Friday Price: Breakdown per month with anticipated Black Friday discount**
+#### TradingView Black Friday Price
+
+Price Breakdown per month with anticipated Black Friday discount for TradingView PRO, PRO+ and PREMIUM:
 
 * **TradingView PRO** with yearly payment ~ **9 USD/month** (108 USD/year)
 * **TradingView PRO+** with yearly payment ~ **14.95 USD/month** (179.4 USD/year)

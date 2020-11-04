@@ -31,10 +31,7 @@ top_interlink:
 
 ## Black Friday is over, long live Black Friday
 
-The Black Friday 2020 date **November 27th, 2020** is still long way off, but some products are in **bundle promos** during the rest of {{ site.time | date: '%y' }}.
-
-{% assign interlink = page.top_interlink %}
-{% include article/interlink-generic.html %}
+The Black Friday 2020 date **November 27th, 2020** is still a few days off, but some crypto products are in **bundle promo deals** already.
 
 &nbsp;
 
@@ -54,18 +51,24 @@ These discounts don't usually come better than ~20% off per a wallet, but you ha
 
 > Black Friday Week (Mon 23 Nov - Fri 27 Nov)
 
-[TradingView](#anticipated-tv) starts its annual 60-ish % off on the Black Friday week.
+[TradingView](#anticipated-tv) starts its annual 60-ish % off on the Black Friday week. **Full breakdown of the typical [TradingView Black Friday price structure here](#tradingview-black-friday-price).**
 
 [Ledger wallets](#anticipated-ledger) usually get a flat discount through this week.
 
 > Black Friday 2020 (Fri 27 Nov, Sat 28 Nov, Sun 29 Nov)
 
-The Black Friday weekend is the time of the year to switch from TradingView FREE to TradingView PRO. There is no other chance to get anything off through the rest of the year.
+The Black Friday weekend is the time of the year to switch from TradingView FREE to TradingView PRO (at least). There is no other chance to get anything off through the rest of the year.
+
+**Full breakdown of the typical [TradingView Black Friday price structure here](#tradingview-black-friday-price).**
 
 <em>Get your <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE now</a> and if you like it, upgrade on Black Friday.</em>
 
 > Cyber Monday 2020 (Mon 30 Nov)
 
-Cyber Monday is the last day of [TradingView](#anticipated-tv) yearly sale.
+Cyber Monday is the last day of [TradingView](#anticipated-tv) yearly sale. **Full breakdown of the typical [TradingView Black Friday price structure here](#tradingview-black-friday-price).**
 
 Other than that, this is also your only chance to get [AirVPN](#anticipated-airvpn) subscription with a proper discount. AirVPN gives ~70% off on their longest subscription plans.
+
+
+{% assign interlink = page.top_interlink %}
+{% include article/interlink-generic.html %}

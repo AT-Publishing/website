@@ -1,4 +1,5 @@
 ---
+published: false
 title:        "Crypto Trader Tax Black Friday 2020 - Anticipated Small Discount"
 categories:   [ anticipated ]
 tags:         [ cryptotax, crypto-trading-tools, coupon-CRYPTOTAX10 ]
