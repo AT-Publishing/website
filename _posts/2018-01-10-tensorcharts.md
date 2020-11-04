@@ -35,7 +35,7 @@ image_alt:
 - "Ever heard of footprint charts? Tensorcharts are a similar idea, you will surprised how much information you can get from a single glance at the chart."
 
 categories: [ crypto-technical-analysis ]
-tags: [ crypto-charting, crypto-trading-strategy, custodial-trading ]
+tags: [ crypto-charting, crypto-trading-strategy, custodial-trading, tensorcharts, top ]
 
 related:
 - {"ATNET Glossary: Footprint Trading": "/glossary/footprint-trading/"}
