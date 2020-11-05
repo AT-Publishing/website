@@ -68,10 +68,22 @@ layout: default
         {% include article/cta-brand-glos.html %}
 
         <div class="row">
+          <p>&nbsp;</p>
+          <ul class="popular">
+            <li class="popular-item"><a href="#trading-technique"><b>ATNET Glossary</b> on Trading Techniques & Methods, Beyond TA</a></li>
+            <li class="popular-item"><a href="#charting"><b>ATNET Glossary</b> on Chart Patterns & Technical Analysis</a></li>
+            <li class="popular-item"><a href="#defi"><b>ATNET Glossary</b> on DeFi</a></li>
+            <li class="popular-item"><a href="#opsec"><b>ATNET Glossary</b> on OPSEC and privacy</a></li>
+            <li class="popular-item"><a href="#jargon"><b>ATNET Glossary</b> on the industry jargon</a></li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+
+        <div class="row">
           <div class="columns eight offset-by-two" id="all">
             <br>
             {% assign bycat = site.glossary | where: "categories", "technique" | sort: "title" %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> Trading Techniques & Methods, Beyond TA</h4>
+            <h2 id="trading-technique"><b>ATNET Glossary /</b> Trading Techniques & Methods, Beyond TA</h2>
             {% for post in bycat %}
             <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
             <p>                <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
@@ -84,7 +96,7 @@ layout: default
             {% endfor %}
 
             {% assign bycat = site.glossary | where: "categories", "technical-analysis" | sort: "title" %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> Chart Patterns & TA</h4>
+            <h2 id="charting"><b>ATNET Glossary /</b> Chart Patterns & TA</h2>
             {% for post in bycat %}
             <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
             <p>                <span class="tag lvl-{{post.note}}">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
@@ -97,7 +109,7 @@ layout: default
             {% endfor %}
 
             {% assign bycat = site.glossary | where: "categories", "defi" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> DeFi Glossary</h4>
+            <h2 id="defi"><b>ATNET Glossary /</b> DeFi Glossary</h2>
             {% for post in bycat %}
             <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
             <p>
@@ -111,7 +123,7 @@ layout: default
             {% endfor %}
 
             {% assign bycat = site.glossary | where: "categories", "opsec" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> OPSEC Glossary</h4>
+            <h2 id="opsec"><b>ATNET Glossary /</b> OPSEC Glossary</h2>
             {% for post in bycat %}
             <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
             <p>
@@ -125,7 +137,7 @@ layout: default
             {% endfor %}
 
             {% assign bycat = site.glossary | where: "categories", "crypto-jargon" | sort: "title"  %} <!-- sort:"note" -->
-            <h4><b>ATNET Glossary /</b> General Crypto Jargon</h4>
+            <h2 id="jargon"><b>ATNET Glossary /</b> General Crypto Jargon</h2>
             {% for post in bycat %}
               <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
               <p>
