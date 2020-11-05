@@ -110,6 +110,20 @@ layout: default
               </p>
             {% endfor %}
 
+            {% assign bycat = site.glossary | where: "categories", "opsec" | sort: "title"  %} <!-- sort:"note" -->
+            <h4><b>ATNET Glossary /</b> OPSEC Glossary</h4>
+            {% for post in bycat %}
+            <h5 id="{{ post.title | downcase | replace: ' ','-' | replace: ')','' | replace: '(','' }}">{{ post.title}}</h5>
+            <p>
+                <span class="tag lvl-defi">{{post.note}}</span> <a href="{{post.url}}">{{ post.title}}</a>
+                &middot; {{post.hook}}
+                <br>
+                {{ post.excerpt }}
+                <a class="btn" href="{{post.url}}">Full Glossary Entry</a>
+                <br>
+              </p>
+            {% endfor %}
+
             {% assign bycat = site.glossary | where: "categories", "crypto-jargon" | sort: "title"  %} <!-- sort:"note" -->
             <h4><b>ATNET Glossary /</b> General Crypto Jargon</h4>
             {% for post in bycat %}

@@ -39,7 +39,7 @@
   <section class="related-stacked">
     {% if brand_howtos[0] %}
     <div class="row box-lvl-a"  id="side-brand-howto">
-      <h4>You might need these <b>guides</b>:</h4>
+      <h4>You might need one of these <b>guides</b>:</h4>
       {% for post in brand_howtos %}
         {% include category/stacked.html %}
       {% endfor %}
@@ -48,15 +48,15 @@
       </p>
     </div>
     {% endif %}
-    &nbsp;
+    <p>&nbsp;</p>
     {% if brand_strats[0] %}
-    <div class="row box-lvl-a" id="side-brand-strat">
-      <h4>You might like these <b>crypto trading strategies</b>:</h4>
+    <div class="row box-lvl-c" id="side-brand-strat">
+      <h4>Related <b>crypto trading strategies</b>:</h4>
       {% for post in brand_strats %}
         {% include category/stacked.html %}
       {% endfor %}
       <p>
-        <a class="btn" href="/strategy/">See All</a>
+        <a class="btn" href="/strategy/">All Strategies</a>
       </p>
     </div>
     {% endif %}

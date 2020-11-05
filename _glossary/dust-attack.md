@@ -8,7 +8,7 @@ slug:       dust-attack/
 title:      Dust Attack
 hook:       What is a dust attack and what can you do if your crypto wallet was dusted?
 
-categories: [crypto-jargon]
+categories: [ opsec ]
 tags:       [ crypto-opsec, dust-attack, tech, ledger, electrum, cryptocurrency-wallet, crypto-tools]
 note:       jargon
 image:      [

@@ -8,7 +8,7 @@ slug:       coin-control/
 title:      Coin Control
 hook:       What is coin control and where can you get it?
 
-categories: [ crypto-jargon ]
+categories: [ opsec ]
 tags:       [ crypto-opsec, dust-attack, ledger, electrum, cryptocurrency-wallet, crypto-tools]
 note:       jargon
 image:      [
