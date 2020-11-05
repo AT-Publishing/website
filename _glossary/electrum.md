@@ -6,7 +6,7 @@ layout:     at-glossary
 date:       2020-09-28 01:07:00 +0700
 slug:       electrum/
 title:      Electrum
-hook:       All you need to know about the Electrum wallet - is it good, which coins it supports, should you use it.
+hook:       All you need to know about the Electrum wallet, plus links to all the guides (how to install, signatures, backups, sweeping, segwit and legacy addresses)
 
 categories: [ opsec ]
 tags:       ["cryptocurrency-wallet", "electrum", "crypto-opsec", "og-crypto-tools"]
@@ -16,9 +16,8 @@ image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1588053673/atn
 indepth:    /altcoin-wallets/
 
 related:
-- {"OPSEC Primers: Sweeping private Keys": "/security/sweep-private-keys/"}
-- {"How to generate P2SH addresses in Bitcoin Electrum": "/howto/generate-bitcoin-p2sh-address/"}
-- {"ATNET Glossary: Trading Psychology": "/glossary/trading-psychology/"}
+- {"Cryptocurrency Strategy for Beginners": "/cryptocurrency-strategy-beginners/"}
+- {"Beginner’s guide on How to buy Ethereum (ETH)": "/howto/buy-ethereum/"}
 
 ---
 
@@ -30,7 +29,14 @@ Electrum has a good track record in terms of security.
 
 It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won't stand in your way.
 
-* **[How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)**
+**You Might Need These How-To's:**
+
+* [How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)
+* [How to backup Electrum wallet](/security/backups/) (both the seed phrase and the full wallet)
+* [How to sign a message in Electrum wallet](/howto/sign-verify-message/#how-to-sign-a-message-in-electrum)
+* [How to verify a message in Electrum wallet](/howto/sign-verify-message/#how-to-verify-a-message-in-electrum)
+* [How to sweep private keys in Electrum](/security/sweep-private-keys/)
+* [How to generate nested SegWit (P2SH) addresses (3-format) from your Bitcoin seed in Electrum](/howto/generate-bitcoin-p2sh-address/)
 
 <!--more-->
 
@@ -90,6 +96,6 @@ As a precaution, it is recommended to
 ### Electrum Advanced Features
 
 * **Coin Control:** Deciding which incoming transaction you want to spend. This is useful for [dust attacks](/glossary/dust-attack/)
-* **Sign & Verify**: Electrum lets you sign a message with your private keys. A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.  
+* **Sign & Verify**: Electrum lets you [sign a message with your private keys](/howto/sign-verify-message/). A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.  
 * **Sweeping**: Private key [sweeping](/security/sweep-private-keys/), which is useful for redeeming forks and airdrops.
-* **Watch-Only**: Creating watch-only wallets, which is a way to keep track of your transactions that is safer than having the real crypto wallet up and running.
+* **Watch-Only**: Creating watch-only wallets. This is a way to keep track of your transactions that is safer than having a full crypto wallet up and running.
