@@ -4,6 +4,10 @@
 
 <div id="sidebar">
 
+  <div class="clearfix"></div>
+  {% include callouts/bf-thistool.html %}
+  <div class="clearfix"></div>
+
   {% if page.taghub %}
   <aside>
     {% assign tag_related = site.glossary | where: "tags", page.tags[0]  %}

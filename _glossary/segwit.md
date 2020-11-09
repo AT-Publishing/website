@@ -34,10 +34,6 @@ In general, segwit transactions are cheaper, and on top of that they allow certa
 
 * If you want to switch to SegWit addresses, you need either the [Electrum wallet](/glossary/electrum/) or one of the [Ledger wallets](/altcoin-wallets/).
 
-<div class="">
-  {% include callouts/bf-thistool.html %}
-</div>
-
 
 ### Should you use Segwit or Legacy?
 
