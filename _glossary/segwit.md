@@ -9,7 +9,7 @@ title:      Segwit (vs Legacy)
 hook:       What do crypto traders call Segwit and should you use it?
 
 categories: [crypto-jargon]
-tags:       [blockchain-technology, segwit, noncustodial-trading, custodial-trading, otc-trading]
+tags:       [blockchain-technology, segwit, noncustodial-trading, custodial-trading, otc-trading, ledger, top]
 note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1598344765/atnet/__women/pexels-thiago-matos-2239700_hgitpt.jpg"]
 
@@ -21,6 +21,7 @@ indepth:    /altcoin-wallets/
 
 Segregated Witness is a network feature activated on the Bitcoin and Litecoin blockchains.
 
+* If you want to switch to SegWit addresses, you need either the [Electrum wallet](/glossary/electrum/) or one of the [Ledger wallets](/altcoin-wallets/)
 * You may be looking for: [LTC address converter](/howto/move-ltc-p2sh/), [BTC address converter](/howto/generate-bitcoin-p2sh-address/)
 
 <!--more-->
@@ -31,13 +32,16 @@ SegWit segregates part of the data out of the transaction. It is specifically pa
 
 In general, segwit transactions are cheaper, and on top of that they allow certain advanced scripting. Second layer scaling solutions such as Lightning Network are among these advanced capabilities.
 
+* If you want to switch to SegWit addresses, you need either the [Electrum wallet](/glossary/electrum/) or one of the [Ledger wallets](/altcoin-wallets/).
+
+<div class="">
+  {% include callouts/bf-thistool.html %}
+</div>
+
+
 ### Should you use Segwit or Legacy?
 
 Ultimately, it is up to you. Segwit and legacy addresses are mutually compatible.
-
-If you support second layer scaling and scripting solutions on the Bitcoin and Litecoin network, use SegWit. If you like the idea of *slightly* cheaper transactions, use SegWit. If you don't really care, keep using legacy.
-
-### Segwit vs legacy address format
 
 Bitcoin network:
 
@@ -49,6 +53,27 @@ Litecoin network:
 
 * Litecoin Legacy (P2PKH, or "pay to public key hash"): address starting with `L`
 * Litecoin Nested SegWit (P2SH, or "pay to script hash"): address starting with `M` or more rarely with `3`
+
+If you support second layer scaling and scripting solutions on the Bitcoin and Litecoin network, use SegWit. If you like the idea of *slightly* cheaper transactions, use SegWit. If you don't really care, keep using legacy, unless you really have to.
+
+
+#### Where to use bitcoin P2SH wallet
+
+* apps that use automated escrow, like localcryptos (you have no other choice there)
+* crypto trading platforms where you withdraw money often
+* crypto exchanges where you are not verified and might be required to [sign a message with your address](sign-verify-message/) (signing is problematic with native segwit)
+
+<a rel="nofollow" href="https://localcryptos.com/r/bocmask">Try LocalCryptos!</a>
+
+#### Where to use bitcoin bech32 wallet
+
+* crypto trading platforms where you withdraw money often
+* crypto exchanges where you are fully verified (KYC/AML)
+
+#### Where to use bitcoin legacy wallet (P2PKH)
+
+* crypto exchanges where you are not verified and might be required to [sign a message with your address](sign-verify-message/) (signing is problematic with native segwit)
+
 
 ### From your private key, you can generate either address format
 

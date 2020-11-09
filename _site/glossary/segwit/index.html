@@ -34,7 +34,7 @@
 <link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
 <meta name="description" content="ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_">
 
-<meta name="keywords" content="blockchain-technology, segwit, noncustodial-trading, custodial-trading, otc-trading, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
+<meta name="keywords" content="blockchain-technology, segwit, noncustodial-trading, custodial-trading, otc-trading, ledger, top, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
 
 <meta name="author" content="AltcoinTrading">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -56,7 +56,7 @@
 <meta property="article:published_time" content="2020-08-26T17:37:00+00:00" />
 
 <!-- post tags -->
-<meta property="article:tag" content="blockchain-technology" /><meta property="article:tag" content="segwit" /><meta property="article:tag" content="noncustodial-trading" /><meta property="article:tag" content="custodial-trading" /><meta property="article:tag" content="otc-trading" />
+<meta property="article:tag" content="blockchain-technology" /><meta property="article:tag" content="segwit" /><meta property="article:tag" content="noncustodial-trading" /><meta property="article:tag" content="custodial-trading" /><meta property="article:tag" content="otc-trading" /><meta property="article:tag" content="ledger" /><meta property="article:tag" content="top" />
 <!-- post categories -->
 <meta property="article:section" content="Cryptocurrencies" />
 
@@ -2780,6 +2780,7 @@ amp-user-notification>div>div {
 <p>Segregated Witness is a network feature activated on the Bitcoin and Litecoin blockchains.</p>
 
 <ul>
+  <li>If you want to switch to SegWit addresses, you need either the <a href="/glossary/electrum/">Electrum wallet</a> or one of the <a href="/altcoin-wallets/">Ledger wallets</a></li>
   <li>You may be looking for: <a href="/howto/move-ltc-p2sh/">LTC address converter</a>, <a href="/howto/generate-bitcoin-p2sh-address/">BTC address converter</a></li>
 </ul>
 
@@ -2791,13 +2792,31 @@ amp-user-notification>div>div {
 
 <p>In general, segwit transactions are cheaper, and on top of that they allow certain advanced scripting. Second layer scaling solutions such as Lightning Network are among these advanced capabilities.</p>
 
+<ul>
+  <li>If you want to switch to SegWit addresses, you need either the <a href="/glossary/electrum/">Electrum wallet</a> or one of the <a href="/altcoin-wallets/">Ledger wallets</a>.</li>
+</ul>
+
+<div class="">
+  
+<div class="clearfix row box-lvl-c" id="blackfriday-cta">
+  <div class="row">
+    <h5>A <em>Tool</em> Mentioned Here Is On <b>Black Friday Sale</b> Right Now!</h5>
+  </div>
+  <div class="row home-glossary">
+    <div class="columns twelve">
+     
+        <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/#live-ledger"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/ledger_bundles_wkd9dp.jpg" alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy" data-original-width="336px" data-original-height="280px" width="336px" height="280px" layout="responsive"> </amp-img></a></div><br />
+     
+    </div>
+  </div>
+</div>
+
+
+</div>
+
 <h3 id="should-you-use-segwit-or-legacy">Should you use Segwit or Legacy?</h3>
 
 <p>Ultimately, it is up to you. Segwit and legacy addresses are mutually compatible.</p>
-
-<p>If you support second layer scaling and scripting solutions on the Bitcoin and Litecoin network, use SegWit. If you like the idea of <em>slightly</em> cheaper transactions, use SegWit. If you don’t really care, keep using legacy.</p>
-
-<h3 id="segwit-vs-legacy-address-format">Segwit vs legacy address format</h3>
 
 <p>Bitcoin network:</p>
 
@@ -2812,6 +2831,31 @@ amp-user-notification>div>div {
 <ul>
   <li>Litecoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="language-plaintext highlighter-rouge">L</code></li>
   <li>Litecoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="language-plaintext highlighter-rouge">M</code> or more rarely with <code class="language-plaintext highlighter-rouge">3</code></li>
+</ul>
+
+<p>If you support second layer scaling and scripting solutions on the Bitcoin and Litecoin network, use SegWit. If you like the idea of <em>slightly</em> cheaper transactions, use SegWit. If you don’t really care, keep using legacy, unless you really have to.</p>
+
+<h4 id="where-to-use-bitcoin-p2sh-wallet">Where to use bitcoin P2SH wallet</h4>
+
+<ul>
+  <li>apps that use automated escrow, like localcryptos (you have no other choice there)</li>
+  <li>crypto trading platforms where you withdraw money often</li>
+  <li>crypto exchanges where you are not verified and might be required to <a href="sign-verify-message/">sign a message with your address</a> (signing is problematic with native segwit)</li>
+</ul>
+
+<p><a rel="nofollow" href="https://localcryptos.com/r/bocmask">Try LocalCryptos!</a></p>
+
+<h4 id="where-to-use-bitcoin-bech32-wallet">Where to use bitcoin bech32 wallet</h4>
+
+<ul>
+  <li>crypto trading platforms where you withdraw money often</li>
+  <li>crypto exchanges where you are fully verified (KYC/AML)</li>
+</ul>
+
+<h4 id="where-to-use-bitcoin-legacy-wallet-p2pkh">Where to use bitcoin legacy wallet (P2PKH)</h4>
+
+<ul>
+  <li>crypto exchanges where you are not verified and might be required to <a href="sign-verify-message/">sign a message with your address</a> (signing is problematic with native segwit)</li>
 </ul>
 
 <h3 id="from-your-private-key-you-can-generate-either-address-format">From your private key, you can generate either address format</h3>
@@ -2866,11 +2910,11 @@ amp-user-notification>div>div {
 
                             <ul class="popular">
                                 
+                                  <li class="popular-item"><a href="/dao-hack/">[blog] <b>All about the DAO hack</b></a> - A summary of what is going on with DAO's and ETH</li>
+                                
                                   <li class="popular-item"><a href="/crypto-storage-for-traders/">[blog] <b>Crypto Wallets by Use Case</b></a> - Arguably the core of 'be your own bank' principle - How did crypto wallets evolve and what are the features you're looking for, as a trader?</li>
                                 
-                                  <li class="popular-item"><a href="/cryptocurrency-heists-infographic/">[blog] <b>Shocking Facts About Cryptocurrency Heists [Infographics]</b></a> - Cryptojacking, ICO exits, scams, malware and thefts - outrageous amounts of cryptos have changed hands through illicit activity.</li>
-                                
-                                  <li class="popular-item"><a href="/ico-regulations/">[blog] <b>Is the end of ICOs approaching?</b></a> - The very first ICO-ish thing was fined heavily. Will new regulations pop the ICO bubble? </li>
+                                  <li class="popular-item"><a href="/how-blockchain-disrupts-legal/">[blog] <b>How Blockchain Disrupts The Legal Industry: A Primer</b></a> - Smart contracts, digital testaments and even marketplaces to trade whole discontinued startups are here.</li>
                                 
                             </ul>
                             
@@ -2887,11 +2931,11 @@ amp-user-notification>div>div {
                             <h5 class="tagged-as">ATNET Security Primers on #BLOCKCHAIN-TECHNOLOGY</h5>
                               <ul class="popular">
                                 
+                                  <li class="popular-item"><a href="/security/iota/">[opsec] <b>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</b></a> - All the IOTA storage options you have in 2019, IOTA cold storage homelab and a short guide to migrating IOTA from Light Wallet to Trinity Wallet (and Ledger, if you wish).</li>
+                                
                                   <li class="popular-item"><a href="/security/threats-cryptotraders-2020/">[opsec] <b>Security Threats for Crypto Traders in 2020</b></a> - What kind of threats can we as crypto traders and hodlers expect in 2020 and what are the ways to protect our holdings?</li>
                                 
-                                  <li class="popular-item"><a href="/security/sweep-private-keys/">[opsec] <b>Wallet OPSEC: Sweeping private keys and Sweeping Addresses</b></a> - What is sweeping, when do which one and a tutorial for safe redeeming of bitcoin forks.</li>
-                                
-                                  <li class="popular-item"><a href="/security/iota/">[opsec] <b>How to secure your IOTA wallet and migrate from Light Wallet to Trinity</b></a> - All the IOTA storage options you have in 2019, IOTA cold storage homelab and a short guide to migrating IOTA from Light Wallet to Trinity Wallet (and Ledger, if you wish).</li>
+                                  <li class="popular-item"><a href="/security/backups/">[opsec] <b>Cryptocurrency Wallet Backups: Your Options</b></a> - Non-digital crypto wallet backups are better for longer term. Digital backups for shorter time, such as when you need to get rid of crypto software from your laptop only for a few days.</li>
                                 
                               </ul>
                             
@@ -2919,14 +2963,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/glossary/squishy/" title="Squishy"><span class="tag custom-note">jargon</span>&nbsp;<b>Squishy</b> in <b>#PATTERN-TRADING</b>  updated on 21 Oct 2020</a>
+        <a class="index-internal" href="/glossary/bart/" title="Bart Formation"><span class="tag custom-note">jargon</span>&nbsp;<b>Bart Formation</b> in <b>#PATTERN-TRADING</b>  updated on 21 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Squishy" href="/glossary/squishy/">
+      <a class="cat-internal-link" title="Bart Formation" href="/glossary/bart/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586939760/atnet/_glossary/macd-squishy.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938500/atnet/_glossary/bart-formation.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -2950,25 +2994,6 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="How to generate P2SH addresses in Bitcoin Electrum wallet" href="/howto/generate-bitcoin-p2sh-address/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Related in technical" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/howto/generate-bitcoin-p2sh-address/" title="How to generate P2SH addresses in Bitcoin Electrum wallet">
-      <span class="tag custom-note">p2p/dex bitcoin</span>&nbsp;
-      <b>How&nbsp;to&nbsp;generate&nbsp;P2SH&nbsp;addres...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
     <a class="cat-internal-link" title="How to verify your desktop crypto wallet is genuine" href="/howto/verify-signature/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693909/atnet/__women/pexels-peter-olexa-4012966_ocqe57.jpg" alt="Related in technical" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -2980,6 +3005,25 @@ amp-user-notification>div>div {
     <a class="index-internal" href="/howto/verify-signature/" title="How to verify your desktop crypto wallet is genuine">
       <span class="tag custom-note">Tech</span>&nbsp;
       <b>How&nbsp;to&nbsp;verify&nbsp;your&nbsp;desktop&nbsp;...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="How to generate P2SH addresses in Bitcoin Electrum wallet" href="/howto/generate-bitcoin-p2sh-address/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg" alt="Related in technical" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/howto/generate-bitcoin-p2sh-address/" title="How to generate P2SH addresses in Bitcoin Electrum wallet">
+      <span class="tag custom-note">p2p/dex bitcoin</span>&nbsp;
+      <b>How&nbsp;to&nbsp;generate&nbsp;P2SH&nbsp;addres...</b>
     </a>
   </div>
 </div><!-- item row -->

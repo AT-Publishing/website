@@ -1,0 +1,113 @@
+I"�<p><strong>SegWit</strong> is a crypto jargon term that stands for <strong>Segregated Witness</strong>.</p>
+
+<p>Segregated Witness is a network feature activated on the Bitcoin and Litecoin blockchains.</p>
+
+<ul>
+  <li>If you want to switch to SegWit addresses, you need either the <a href="/glossary/electrum/">Electrum wallet</a> or one of the <a href="/altcoin-wallets/">Ledger wallets</a></li>
+  <li>You may be looking for: <a href="/howto/move-ltc-p2sh/">LTC address converter</a>, <a href="/howto/generate-bitcoin-p2sh-address/">BTC address converter</a></li>
+</ul>
+
+<!--more-->
+
+<h3 id="what-does-segregated-witness-mean">What does Segregated Witness mean?</h3>
+
+<p>SegWit segregates part of the data out of the transaction. It is specifically part of the transaction signature data that gets removed. As a result, the transaction is smaller in terms of bytes, and requires less network fee.</p>
+
+<p>In general, segwit transactions are cheaper, and on top of that they allow certain advanced scripting. Second layer scaling solutions such as Lightning Network are among these advanced capabilities.</p>
+
+<ul>
+  <li>If you want to switch to SegWit addresses, you need either the <a href="/glossary/electrum/">Electrum wallet</a> or one of the <a href="/altcoin-wallets/">Ledger wallets</a>.</li>
+</ul>
+
+<div class="">
+  
+<div class="clearfix row box-lvl-c" id="blackfriday-cta">
+  <div class="row">
+    <h5>A <em>Tool</em> Mentioned Here Is On <b>Black Friday Sale</b> Right Now!</h5>
+  </div>
+  <div class="row home-glossary">
+    <div class="columns twelve">
+     
+        <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/#live-ledger"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/ledger_bundles_wkd9dp.jpg" alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy" data-original-width="336px" data-original-height="280px" width="336px" height="280px" layout="responsive"> </amp-img></a></div><br />
+     
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<h3 id="should-you-use-segwit-or-legacy">Should you use Segwit or Legacy?</h3>
+
+<p>Ultimately, it is up to you. Segwit and legacy addresses are mutually compatible.</p>
+
+<p>Bitcoin network:</p>
+
+<ul>
+  <li>Bitcoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="language-plaintext highlighter-rouge">1</code></li>
+  <li>Bitcoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="language-plaintext highlighter-rouge">3</code></li>
+  <li>Bitcoin Native SegWit (bech32, or “base32 encoded with error detection”): address start with <code class="language-plaintext highlighter-rouge">bc1</code></li>
+</ul>
+
+<p>Litecoin network:</p>
+
+<ul>
+  <li>Litecoin Legacy (P2PKH, or “pay to public key hash”): address starting with <code class="language-plaintext highlighter-rouge">L</code></li>
+  <li>Litecoin Nested SegWit (P2SH, or “pay to script hash”): address starting with <code class="language-plaintext highlighter-rouge">M</code> or more rarely with <code class="language-plaintext highlighter-rouge">3</code></li>
+</ul>
+
+<p>If you support second layer scaling and scripting solutions on the Bitcoin and Litecoin network, use SegWit. If you like the idea of <em>slightly</em> cheaper transactions, use SegWit. If you don’t really care, keep using legacy, unless you really have to.</p>
+
+<h4 id="where-to-use-bitcoin-p2sh-wallet">Where to use bitcoin P2SH wallet</h4>
+
+<ul>
+  <li>apps that use automated escrow, like localcryptos (you have no other choice there)</li>
+  <li>crypto trading platforms where you withdraw money often</li>
+  <li>crypto exchanges where you are not verified and might be required to <a href="sign-verify-message/">sign a message with your address</a> (signing is problematic with native segwit)</li>
+</ul>
+
+<p><a rel="nofollow" href="https://localcryptos.com/r/bocmask">Try LocalCryptos!</a></p>
+
+<h4 id="where-to-use-bitcoin-bech32-wallet">Where to use bitcoin bech32 wallet</h4>
+
+<ul>
+  <li>crypto trading platforms where you withdraw money often</li>
+  <li>crypto exchanges where you are fully verified (KYC/AML)</li>
+</ul>
+
+<h4 id="where-to-use-bitcoin-legacy-wallet-p2pkh">Where to use bitcoin legacy wallet (P2PKH)</h4>
+
+<ul>
+  <li>crypto exchanges where you are not verified and might be required to <a href="sign-verify-message/">sign a message with your address</a> (signing is problematic with native segwit)</li>
+</ul>
+
+<h3 id="from-your-private-key-you-can-generate-either-address-format">From your private key, you can generate either address format</h3>
+
+<p>If you own a private key, you can choose to use Segwit or Legacy addresses with it - or both. Your wallet seed can be used to generate either address format.</p>
+
+<p><strong>The address format matters because…</strong></p>
+
+<ul>
+  <li>… not all features you might want to use are available with all formats.</li>
+  <li>… your wallet might only support one address type at a time. Electrum wallet does this, and for you it means that if you choose to restore a seed into a SegWit wallet, your Legacy balance will not show.</li>
+  <li>… some exchanges will only let you send coins to a legacy wallet.</li>
+</ul>
+
+<p>For a full list on which wallets support which address format, head over to our post about <a href="/altcoin-wallets/">altcoin wallets</a>.</p>
+
+<h3 id="why-do-some-wallets-say-a-segwit-address-is-invalid">Why do some wallets say a SegWit address is invalid?</h3>
+
+<p>Segwit and legacy addresses are mutually compatible. You can transfer your coin from a legacy address into a segwit address and the other way round.</p>
+
+<p>That however does not mean that all wallets will let you make a transaction to any address.</p>
+
+<p>Some wallets did not implement SegWit address generation yet, because it is quite a new technology and they worry about possible bugs. For instance the bloxkchain.com wallet does not support other than legacy addresses. That means they will not let you send or receive your coins from or to a segwit address.</p>
+
+<p>Some wallets, and still some exchanges, will not let you withdraw coins to anything other than legacy address. This is done to minimize possible errors on part of users.</p>
+
+<p>Decentralized exchanges and non-custodial trading platforms like <a rel="nofollow" href="https://localcryptos.com/r/bocmask">LocalCryptos</a> will only let you withdraw coins to SegWit addresses, because they need the scripting functionality that are enabled by SegWit.</p>
+
+<ul>
+  <li>You may be looking for the <a href="/howto/move-ltc-p2sh/">LTC address converter</a> or the <a href="/howto/generate-bitcoin-p2sh-address/">BTC address converter</a></li>
+</ul>
+:ET

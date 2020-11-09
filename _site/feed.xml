@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Nov 2020 05:00:31 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2020 05:00:31 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2020 05:37:32 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2020 05:37:32 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -1485,7 +1485,7 @@ Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
 
-Segwit addresses: Both native and nested Segwit supported as subaccounts in one wallet
+Segwit addresses: Both native and nested Segwit wallets (bech32 and P2SH) supported as subaccounts in Ledger Live
 
 Easy coin control
 
@@ -1574,7 +1574,7 @@ Summary
 
 Supported Coins: BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… = 110 cryptoassets in total
 
-Segwit addresses: BTC Native segwit supported
+Segwit addresses: BTC Native segwit supported (bech32 wallet)
 
 No advanced functions (coin control, message signatures)
 
@@ -1603,7 +1603,7 @@ Summary
 
 Supported coins: BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… = 90 cryptoassets in total
 
-Segwit addresses: Not supported
+Segwit addresses: Not supported (legacy wallets only)
 
 No advanced functions (coin control, message signatures)
 
@@ -1623,7 +1623,7 @@ Summary
 
 Supported Coins: BTC, ETH, XLM
 
-Segwit addresses: Not supported
+Segwit addresses: Not supported (legacy wallet only)
 
 No advanced functions (coin control, message signatures)
 
@@ -1739,7 +1739,7 @@ Summary
 
 Supported Coins: Many - BTC, ETH, XRP LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
 
-Segwit addresses: Both native and nested Segwit supported.
+Segwit addresses: Both native and nested Segwit supported (bech32 and P2SH)
 
 Trezor wallet for Altcoins
 
@@ -1764,7 +1764,7 @@ Summary
 
 Supported Coins: Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens
 
-Segwit addresses: Both native and nested Segwit supported.
+Segwit addresses: Both native and nested Segwit supported (bech32 and P2SH)
 
  
 
@@ -1834,7 +1834,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported as subaccounts in one wallet&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit wallets (bech32 and P2SH) supported as subaccounts in Ledger Live&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Easy&lt;/strong&gt; coin control&lt;/p&gt;
 
@@ -1923,7 +1923,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… &lt;strong&gt;= 110 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native &lt;a href=&quot;/glossary/#segwit&quot;&gt;segwit&lt;/a&gt; supported&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; BTC Native &lt;a href=&quot;/glossary/#segwit&quot;&gt;segwit&lt;/a&gt; supported (bech32 wallet)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
@@ -1952,7 +1952,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported coins:&lt;/strong&gt; BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… &lt;strong&gt;= 90 cryptoassets in total&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported (legacy wallets only)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
@@ -1972,7 +1972,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; BTC, ETH, XLM&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Not supported (legacy wallet only)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;No&lt;/strong&gt; advanced functions (coin control, message signatures)&lt;/p&gt;
 
@@ -2088,7 +2088,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, XRP LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported (bech32 and P2SH)&lt;/p&gt;
 
 &lt;h4 id=&quot;trezor-wallet-for-altcoins&quot;&gt;Trezor wallet for Altcoins&lt;/h4&gt;
 
@@ -2113,7 +2113,7 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
 &lt;p&gt;&lt;strong&gt;Supported Coins:&lt;/strong&gt; Many - BTC, ETH, LTC, XRP, ZEC &amp;amp; more; also all ERC20 tokens&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Segwit addresses:&lt;/strong&gt; Both native and nested Segwit supported (bech32 and P2SH)&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
