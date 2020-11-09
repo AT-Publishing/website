@@ -47,15 +47,15 @@ Thank you for coming to our TED talk.
 
 ## Trading on Bitfinex
 
-Bitfinex is currently the last trusted exchange that offers leveraged products without KYC.
+Bitfinex is currently the **last remaining trusted trading platform** that offers leveraged products without KYC.
 
 [Deribit started requiring KYC on 9 November 2020](/referral-code-deribit/).
 
-<div class="clearfix"></div>
-  {{ site.bfx_vid_tall }}
-<div class="clearfix"></div>
-
 #### Crypto Trading Strategies Best for Bitfinex
+
+Although no minimum deposit is required to unlock a new account, Bitfinex is an exchange most used by serious traders and investors who have at the very least 5 figures worth of trading stash.
+
+For that reason, trading on Bitfinex is quite different than on ultra speculative places like [BitMEX](/coupon-bitmex-iyqb44/) or [YoBit](https://bit.ly/at-yob2020).
 
 {% assign interlink = site.strategy | where:"tags","bitfinex" %}
 {% include article/interlink-article.html %}
