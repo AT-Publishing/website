@@ -29,29 +29,33 @@ author_name: AltcoinTradingNET
 author_twitter: "altcointrading_"
 
 related:
-- {"Black Friday Every Day - Ledger wallet runs on discount multiple times a year!": "/blackfriday/"}
-- {"Where to buy altcoins & other basic how-to's": "/guides/"}
+- {"Buying Crypto Non-KYC: Where to do it with minimal risk?": "/buy-crypto-no-kyc/"}
+- {"Black Friday 2020": "/blackfriday/"}
 - {"How to buy crypto in a bitcoin ATM": "/howto/use-bitcoin-atm/"}
 
 ---
 
-#### Here for the quick action?
+#### Just Here for the quick action?
 
-Enter Bitfinex Referral Code `5egV78YtlC` and get **6% fee discount** for any sign up.
+Enter Bitfinex Referral Code `5egV78YtlC` or click the shill link below to get **6% fee discount** on Bitfinex.
 
-* No KYC required.
-* No minimum deposit required.
-* No withdrawal limit for unverified traders.
+<a id="spec-affil" rel="nofollow" href="https://www.bitfinex.com/?refcode=5egV78YtlC" class="btn">Shill Link</a>
 
-Thank you for playing, good bye.
+_No KYC required - No minimum deposit - No withdrawal limit_
 
-Now for the rest of the article.
+Thank you for coming to our TED talk.
+
+## Trading on Bitfinex
+
+Bitfinex is currently the last trusted exchange that offers leveraged products without KYC.
+
+[Deribit started requiring KYC on 9 November 2020](/referral-code-deribit/).
 
 <div class="clearfix"></div>
   {{ site.bfx_vid_tall }}
 <div class="clearfix"></div>
 
-#### Crypto Trading Strategies Suitable for Bitfinex
+#### Crypto Trading Strategies Best for Bitfinex
 
 {% assign interlink = site.strategy | where:"tags","bitfinex" %}
 {% include article/interlink-article.html %}

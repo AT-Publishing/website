@@ -90,6 +90,8 @@ If you are US-based trader looking for high leverage, you have the following opt
 * Move on to [non-custodial leveraged trading](/leverj/)
 * Use a VPN to trade on platforms that still don't require KYC.
 
-Traders based in United States are restricted to [trade on Bitfinex](/coupon-bitfinex-5egv78ytlc/) and on [Deribit](http://bit.ly/deribit), but KYC is not yet required on those platforms.
+Traders based in United States are restricted to [trade on Bitfinex](/coupon-bitfinex-5egv78ytlc/), but KYC is not yet required on that platforms.
+
+[Deribit started requiring KYC on 9 November 2020](/referral-code-deribit/).
 
 <p><a rel="nofollow" href="http://bit.ly/2Muo11z" class="button">Get 10% fee discount on BitMEX</a></p>
