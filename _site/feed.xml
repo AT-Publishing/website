@@ -12,15 +12,15 @@
   <channel>
     <title><![CDATA[  AltcoinTrading.NET - Articles ]]></title>
     <description><![CDATA[  ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_ ]]></description>
-    <link>https://www.altcointrading.net/</link>
+    <link>http://localhost:4000/</link>
     <image>
-      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <url>http://localhost:4000/img/logo.jpg</url>
       <title><![CDATA[  AltcoinTrading.NET ]]></title>
-      <link>https://www.altcointrading.net/</link>
+      <link>http://localhost:4000/</link>
     </image>
-    <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 04:07:39 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 04:07:39 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 04:41:05 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -211,11 +211,11 @@ List of all recommended no-KYC crypto exchanges
 
         <author><![CDATA[ altcointrading ]]></author>
         <dc:creator><![CDATA[ altcointrading ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/b_rgb:a46014,c_lpad,h_360,w_700/v1603688562/atnet/pexels-photo-2179248_d5dt4i.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:a46014,c_lpad,h_360,w_700/v1603688562/atnet/pexels-photo-2179248_d5dt4i.jpg" medium="image" />
         <pubDate>Sun, 25 Oct 2020 17:04:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/buy-crypto-no-kyc/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/buy-crypto-no-kyc/</guid>
-        <comments>https://www.altcointrading.net/buy-crypto-no-kyc/#comments</comments>
+        <link>http://localhost:4000/buy-crypto-no-kyc/</link>
+        <guid isPermaLink="true">http://localhost:4000/buy-crypto-no-kyc/</guid>
+        <comments>http://localhost:4000/buy-crypto-no-kyc/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -379,11 +379,11 @@ Crypto Mining Infographic
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" medium="image" />
         <pubDate>Wed, 30 Sep 2020 00:12:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/pow-fundamentals/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/pow-fundamentals/</guid>
-        <comments>https://www.altcointrading.net/pow-fundamentals/#comments</comments>
+        <link>http://localhost:4000/pow-fundamentals/</link>
+        <guid isPermaLink="true">http://localhost:4000/pow-fundamentals/</guid>
+        <comments>http://localhost:4000/pow-fundamentals/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -567,11 +567,11 @@ I hope that this article it might encourage you to learn more about cryptocurren
 
         <author><![CDATA[ altcointrading ]]></author>
         <dc:creator><![CDATA[ altcointrading ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1594627484/atnet/pyramids_aalfab.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1594627484/atnet/pyramids_aalfab.jpg" medium="image" />
         <pubDate>Mon, 13 Jul 2020 17:09:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/3-dangerous-mistakes-crypto-beginners/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/3-dangerous-mistakes-crypto-beginners/</guid>
-        <comments>https://www.altcointrading.net/3-dangerous-mistakes-crypto-beginners/#comments</comments>
+        <link>http://localhost:4000/3-dangerous-mistakes-crypto-beginners/</link>
+        <guid isPermaLink="true">http://localhost:4000/3-dangerous-mistakes-crypto-beginners/</guid>
+        <comments>http://localhost:4000/3-dangerous-mistakes-crypto-beginners/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -727,11 +727,11 @@ Also, a whole another point of view comes up in the light of the current economi
 
         <author><![CDATA[ altcointrading ]]></author>
         <dc:creator><![CDATA[ altcointrading ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" medium="image" />
         <pubDate>Tue, 16 Jun 2020 02:02:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/women-in-bitcoin/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/women-in-bitcoin/</guid>
-        <comments>https://www.altcointrading.net/women-in-bitcoin/#comments</comments>
+        <link>http://localhost:4000/women-in-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/women-in-bitcoin/</guid>
+        <comments>http://localhost:4000/women-in-bitcoin/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -1415,11 +1415,11 @@ If you plan to daytrade, here’s the deal:
 
         <author><![CDATA[ @tradingfanbois ]]></author>
         <dc:creator><![CDATA[ @tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598513740/atnet/__women/christin-hume-slbqShqAhEo-unsplash_esmusd.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598513740/atnet/__women/christin-hume-slbqShqAhEo-unsplash_esmusd.jpg" medium="image" />
         <pubDate>Mon, 04 May 2020 05:38:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/altcoin-exchanges/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/altcoin-exchanges/</guid>
-        <comments>https://www.altcointrading.net/altcoin-exchanges/#comments</comments>
+        <link>http://localhost:4000/altcoin-exchanges/</link>
+        <guid isPermaLink="true">http://localhost:4000/altcoin-exchanges/</guid>
+        <comments>http://localhost:4000/altcoin-exchanges/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2144,11 +2144,11 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 
         <author><![CDATA[ @tradingfanbois ]]></author>
         <dc:creator><![CDATA[ @tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1588053701/atnet/altcoin-wallets/altcoin-wallets.jpg" medium="image" />
         <pubDate>Tue, 28 Apr 2020 03:32:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/altcoin-wallets/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/altcoin-wallets/</guid>
-        <comments>https://www.altcointrading.net/altcoin-wallets/#comments</comments>
+        <link>http://localhost:4000/altcoin-wallets/</link>
+        <guid isPermaLink="true">http://localhost:4000/altcoin-wallets/</guid>
+        <comments>http://localhost:4000/altcoin-wallets/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2285,11 +2285,11 @@ They are looking for an alternative and a way to move forward. The liquidity and
 
         <author><![CDATA[ TC ]]></author>
         <dc:creator><![CDATA[ TC ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1587521095/atnet/blog_trading/coronavirus-crisis1_fkryjy.jpg" medium="image" />
         <pubDate>Wed, 22 Apr 2020 01:02:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/bitcoin-coronavirus-crisis/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/bitcoin-coronavirus-crisis/</guid>
-        <comments>https://www.altcointrading.net/bitcoin-coronavirus-crisis/#comments</comments>
+        <link>http://localhost:4000/bitcoin-coronavirus-crisis/</link>
+        <guid isPermaLink="true">http://localhost:4000/bitcoin-coronavirus-crisis/</guid>
+        <comments>http://localhost:4000/bitcoin-coronavirus-crisis/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2377,7 +2377,7 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
 
 &lt;p&gt;The gist of the Bollinger bandwidth script is essentially plotting the information about how far apart are the Standard Deviation lines of Bollinger bands, that is, the outer bands.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/bbw/scriptspotlight-bbands.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/bbw/scriptspotlight-bbands.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/bbw/scriptspotlight-bbands.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/bbw/scriptspotlight-bbands.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Bollinger bands is a technical analysis indicator providing information about &lt;strong&gt;volatility&lt;/strong&gt; that, thanks to the indicator, is displayed in such a way that it can &lt;strong&gt;show more clearly&lt;/strong&gt; in which &lt;strong&gt;direction&lt;/strong&gt; is the market likely to move in the nearest future:&lt;/p&gt;
 
@@ -2410,13 +2410,13 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
 
 &lt;p&gt;Here is the indicator with 21 day WAP, stdev3 and a threshold of 500 on BTCUSD 4H:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/bbw/io-bbw1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/bbw/io-bbw1.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/bbw/io-bbw1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/bbw/io-bbw1.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see it is not super precise; it’s not the kind of information you should use to trigger your getting into a position - it’s far more valuable to consult it if you are considering getting out.&lt;/p&gt;
 
 &lt;p&gt;On a 5M chart for BTCUSD you can use the same information in a different way - here with the threshold of 150 you can see it will highlight just the time periods that happened to be most volatile. On super short timeframes you are of course not looking for a sustainable trend, but if you’re a scalper, this information is pretty good for you.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/bbw/io-bbw2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/bbw/io-bbw2.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/bbw/io-bbw2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/bbw/io-bbw2.png&quot; alt=&quot;Script Spotlight: Bollinger Band Width&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Bollinger Band Width&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;As with longer timeframes though - you will need to backtest it.&lt;/p&gt;
 
@@ -2431,11 +2431,11 @@ Having the bandwidth in a separate box under the price chart also lets you plot 
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/bbw/scriptspotlight-bbands.png" medium="image" />
+        <media:content url="http://localhost:4000/features/bbw/scriptspotlight-bbands.png" medium="image" />
         <pubDate>Sat, 08 Feb 2020 03:03:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/scriptspotlight-bollinger-band-width-indicator/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-bollinger-band-width-indicator/</guid>
-        <comments>https://www.altcointrading.net/scriptspotlight-bollinger-band-width-indicator/#comments</comments>
+        <link>http://localhost:4000/scriptspotlight-bollinger-band-width-indicator/</link>
+        <guid isPermaLink="true">http://localhost:4000/scriptspotlight-bollinger-band-width-indicator/</guid>
+        <comments>http://localhost:4000/scriptspotlight-bollinger-band-width-indicator/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2546,7 +2546,7 @@ Let’s see what 2020 brings!
   &lt;li&gt;&lt;a href=&quot;/coupon-bitmex-iyqb44/&quot;&gt;More about BitMEX + referral code for 10% fee discount&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/editorial/2020/mex-vol.png&quot; alt=&quot;Products of 2019: What did crypto traders most spend on?&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/editorial/2020/mex-vol.png&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/editorial/2020/mex-vol.png&quot; alt=&quot;Products of 2019: What did crypto traders most spend on?&quot; title=&quot;AltcoinTrading.NET - Products of 2019: What did crypto traders most spend on?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;https://coinpaprika.com/exchanges/bitmex/&lt;/small&gt;&lt;/p&gt;
 
@@ -2603,11 +2603,11 @@ Let’s see what 2020 brings!
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/2020/stats-spending-traders.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/2020/stats-spending-traders.jpg" medium="image" />
         <pubDate>Thu, 09 Jan 2020 01:02:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/stats-2019/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/stats-2019/</guid>
-        <comments>https://www.altcointrading.net/stats-2019/#comments</comments>
+        <link>http://localhost:4000/stats-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/stats-2019/</guid>
+        <comments>http://localhost:4000/stats-2019/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -2744,7 +2744,7 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
 
 &lt;p&gt;It was the time when the multi-year bull market in Bitcoin and most other cryptos was in its infancy, the markets were acting wild and every futures contract settlement day was filled with what Reddit dubbed the “&lt;a href=&quot;/glossary/bart/&quot;&gt;Bart formation&lt;/a&gt;”: A steep rise in a single candle that doesn’t really catch on and is subsequently dumped in another single candle, or alternatively the opposite sequence known as the “inverse Bart”.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/bart-formation-crypto.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/bart-formation-crypto.png&quot; alt=&quot;Technical Analysis in Cryptocurrency Trading&quot; title=&quot;AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/bart-formation-crypto.png&quot; title=&quot;AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/bart-formation-crypto.png&quot; alt=&quot;Technical Analysis in Cryptocurrency Trading&quot; title=&quot;AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This used to be the daily bread of the BTCUSD market back in the day when it was a niche play, and it still can look this wild on small-cap altcoin markets.&lt;/p&gt;
 
@@ -2847,11 +2847,11 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
 
         <author><![CDATA[ JMT (goodopsec.org) ]]></author>
         <dc:creator><![CDATA[ JMT (goodopsec.org) ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/2018/technical-analysis.png" medium="image" />
+        <media:content url="http://localhost:4000/features/2018/technical-analysis.png" medium="image" />
         <pubDate>Wed, 04 Dec 2019 04:32:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/technical-analysis/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/technical-analysis/</guid>
-        <comments>https://www.altcointrading.net/technical-analysis/#comments</comments>
+        <link>http://localhost:4000/technical-analysis/</link>
+        <guid isPermaLink="true">http://localhost:4000/technical-analysis/</guid>
+        <comments>http://localhost:4000/technical-analysis/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3007,11 +3007,11 @@ If you still want to give daytrading a shot, you should pay attention to the cho
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/woman-daytrading.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/woman-daytrading.jpg" medium="image" />
         <pubDate>Tue, 05 Nov 2019 06:32:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/daytrading/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/daytrading/</guid>
-        <comments>https://www.altcointrading.net/daytrading/#comments</comments>
+        <link>http://localhost:4000/daytrading/</link>
+        <guid isPermaLink="true">http://localhost:4000/daytrading/</guid>
+        <comments>http://localhost:4000/daytrading/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3207,7 +3207,7 @@ Resources
 
 &lt;p&gt;The hourly bitcoin chart below shows Parabolic SAR set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.025, 0.02, 0.03&lt;/code&gt; on &lt;a class=&quot;external&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; href=&quot;http://bit.ly/at-tvd-eth&quot;&gt;TradingView&lt;/a&gt;. If you click on the picture to zoom it you’ll see it flipping, and if you look at the RSI at the bottom you’ll see a divergence between the RSI lows and the price lows, which is bullish as it shows the lows are too low for the strength of the market.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/img/trading/btc-rsidiv.png&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/img/trading/btc-rsidiv.png&quot; alt=&quot;Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/img/trading/btc-rsidiv.png&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/img/trading/btc-rsidiv.png&quot; alt=&quot;Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; title=&quot;AltcoinTrading.NET - Wyckoff Avoidance Strategy in Cryptocurrency Trading&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;when-technical-analysis-fails&quot;&gt;When technical analysis fails&lt;/h4&gt;
 
@@ -3241,11 +3241,11 @@ Resources
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg" medium="image" />
         <pubDate>Wed, 09 Oct 2019 08:02:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/wyckoff-avoidance/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/wyckoff-avoidance/</guid>
-        <comments>https://www.altcointrading.net/wyckoff-avoidance/#comments</comments>
+        <link>http://localhost:4000/wyckoff-avoidance/</link>
+        <guid isPermaLink="true">http://localhost:4000/wyckoff-avoidance/</guid>
+        <comments>http://localhost:4000/wyckoff-avoidance/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3443,11 +3443,11 @@ Ultimately, it’s about picking the right battles and knowing the right time to
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/crypto-forex-comparing-differences.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/crypto-forex-comparing-differences.jpg" medium="image" />
         <pubDate>Sun, 06 Oct 2019 23:31:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/</guid>
-        <comments>https://www.altcointrading.net/crypto-trading-vs-forex-trading-review/#comments</comments>
+        <link>http://localhost:4000/crypto-trading-vs-forex-trading-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/crypto-trading-vs-forex-trading-review/</guid>
+        <comments>http://localhost:4000/crypto-trading-vs-forex-trading-review/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3654,11 +3654,11 @@ Where now?
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/altcointrading-strategy.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/altcointrading-strategy.jpeg" medium="image" />
         <pubDate>Tue, 24 Sep 2019 08:22:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/crypto-storage-for-traders/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/crypto-storage-for-traders/</guid>
-        <comments>https://www.altcointrading.net/crypto-storage-for-traders/#comments</comments>
+        <link>http://localhost:4000/crypto-storage-for-traders/</link>
+        <guid isPermaLink="true">http://localhost:4000/crypto-storage-for-traders/</guid>
+        <comments>http://localhost:4000/crypto-storage-for-traders/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -3989,11 +3989,11 @@ BURNIE, Andrew; BURNIE, James; HENDERSON, Andrew. Developing a Cryptocurrency As
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" medium="image" />
         <pubDate>Thu, 12 Sep 2019 00:10:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/value/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/value/</guid>
-        <comments>https://www.altcointrading.net/value/#comments</comments>
+        <link>http://localhost:4000/value/</link>
+        <guid isPermaLink="true">http://localhost:4000/value/</guid>
+        <comments>http://localhost:4000/value/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4118,7 +4118,7 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;barcolor(pos == -1 ? orange: pos == 1 ? lime : aqua )&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend1.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
 
@@ -4126,13 +4126,13 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
 &lt;p&gt;On the 1W DPO gives an &lt;strong&gt;easy single-glance information about the market&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend2.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Even better, it is worth noting that the information you get from the color changes is &lt;strong&gt;equivalent to the cross of the Bollinger Band middle line&lt;/strong&gt; on Bollinger Bands of the same length.&lt;/p&gt;
 
 &lt;p&gt;Here on a 1W chart for the lengths of &lt;strong&gt;28&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/detrended-oscilator/detrend3.png&quot; alt=&quot;Script Spotlight: Detrended Price Oscillator (DPO)&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Detrended Price Oscillator (DPO)&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For very long-term crypto charts this is actually more convenient that the bbands, if you are only looking for the position of the price relative to the mean.&lt;/p&gt;
 
@@ -4153,11 +4153,11 @@ plot(nRes, color=red, title=&quot;Detrended Price Oscillator&quot;)
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/unsplash1/filesystem.jpg" medium="image" />
         <pubDate>Sun, 01 Sep 2019 01:14:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/detrended-price-oscillator/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/detrended-price-oscillator/</guid>
-        <comments>https://www.altcointrading.net/detrended-price-oscillator/#comments</comments>
+        <link>http://localhost:4000/detrended-price-oscillator/</link>
+        <guid isPermaLink="true">http://localhost:4000/detrended-price-oscillator/</guid>
+        <comments>http://localhost:4000/detrended-price-oscillator/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4250,7 +4250,7 @@ Most people who are trading cryptocurrency are in it for the money. If done prop
 
 &lt;p&gt;It’s a disruptive technology that promises outstanding returns. The small investments you put into cryptocurrency can grow into life-changing profits over a couple of years. This is the main reason why you should be interested in trading cryptocurrency.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/crypto-trading-stats.png&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/crypto-trading-stats.png&quot; alt=&quot;Why Are So Many People Trading Cryptocurrency?&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/crypto-trading-stats.png&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/crypto-trading-stats.png&quot; alt=&quot;Why Are So Many People Trading Cryptocurrency?&quot; title=&quot;AltcoinTrading.NET - Why Are So Many People Trading Cryptocurrency?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://trends.google.com/trends/explore?geo=US&amp;amp;q=crypto%20trading&quot;&gt;Google Trends&lt;/a&gt; organic stats for “crypto trading” in US / 2019&lt;/em&gt;&lt;/p&gt;
 
@@ -4317,11 +4317,11 @@ Most people who are trading cryptocurrency are in it for the money. If done prop
 
         <author><![CDATA[ AltcoinTradingNET ]]></author>
         <dc:creator><![CDATA[ AltcoinTradingNET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/cryptocurrency-markets.jpg" medium="image" />
+        <media:content url="http://localhost:4000/features/cryptocurrency-markets.jpg" medium="image" />
         <pubDate>Mon, 05 Aug 2019 17:26:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/crypto-trading-growth/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/crypto-trading-growth/</guid>
-        <comments>https://www.altcointrading.net/crypto-trading-growth/#comments</comments>
+        <link>http://localhost:4000/crypto-trading-growth/</link>
+        <guid isPermaLink="true">http://localhost:4000/crypto-trading-growth/</guid>
+        <comments>http://localhost:4000/crypto-trading-growth/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4560,11 +4560,11 @@ Trading Divergences
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" medium="image" />
         <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/divergences/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/divergences/</guid>
-        <comments>https://www.altcointrading.net/divergences/#comments</comments>
+        <link>http://localhost:4000/divergences/</link>
+        <guid isPermaLink="true">http://localhost:4000/divergences/</guid>
+        <comments>http://localhost:4000/divergences/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -4875,11 +4875,11 @@ Browse Upcoming Airdrops
 
         <author><![CDATA[ cryptolounge ]]></author>
         <dc:creator><![CDATA[ cryptolounge ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" medium="image" />
         <pubDate>Thu, 20 Jun 2019 19:02:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/cryptocurrency-strategy-beginners/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/cryptocurrency-strategy-beginners/</guid>
-        <comments>https://www.altcointrading.net/cryptocurrency-strategy-beginners/#comments</comments>
+        <link>http://localhost:4000/cryptocurrency-strategy-beginners/</link>
+        <guid isPermaLink="true">http://localhost:4000/cryptocurrency-strategy-beginners/</guid>
+        <comments>http://localhost:4000/cryptocurrency-strategy-beginners/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5287,11 +5287,11 @@ In the video below his decision process consists of first looking at the cloud s
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" medium="image" />
+        <media:content url="http://localhost:4000https://res.cloudinary.com/atnetcloud/image/upload/v1582606126/atnet/blog_ichimoku-crypto/lagging-etp_bbngkt.png" medium="image" />
         <pubDate>Wed, 05 Jun 2019 10:14:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/ichimoku-cloud/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/ichimoku-cloud/</guid>
-        <comments>https://www.altcointrading.net/ichimoku-cloud/#comments</comments>
+        <link>http://localhost:4000/ichimoku-cloud/</link>
+        <guid isPermaLink="true">http://localhost:4000/ichimoku-cloud/</guid>
+        <comments>http://localhost:4000/ichimoku-cloud/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5356,11 +5356,11 @@ It is safe to say that the malware industry has fully integrated the use of cryp
 
         <author><![CDATA[ Business Of Crypto ]]></author>
         <dc:creator><![CDATA[ Business Of Crypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/tagged/sadness.png" medium="image" />
+        <media:content url="http://localhost:4000/editorial/tagged/sadness.png" medium="image" />
         <pubDate>Tue, 26 Mar 2019 06:31:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/cryptocurrency-heists-infographic/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/cryptocurrency-heists-infographic/</guid>
-        <comments>https://www.altcointrading.net/cryptocurrency-heists-infographic/#comments</comments>
+        <link>http://localhost:4000/cryptocurrency-heists-infographic/</link>
+        <guid isPermaLink="true">http://localhost:4000/cryptocurrency-heists-infographic/</guid>
+        <comments>http://localhost:4000/cryptocurrency-heists-infographic/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5548,7 +5548,7 @@ More on LocalCryptos.com.
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/LocalCryptos-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/LocalCryptos-office.jpg&quot; alt=&quot;Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/LocalCryptos-office.jpg&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/LocalCryptos-office.jpg&quot; alt=&quot;Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; title=&quot;AltcoinTrading.NET - Michael Foster of LocalCryptos: Venezuela could be start of a bigger movement&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;“The boom forced us to learn how to keep up, the bear market reminded us to stay frugal and remain strategic and careful.” (&lt;a href=&quot;https://blog.LocalCryptos.com/reflecting-on-2018-and-building-a-colossal-2019/&quot;&gt;LocalCryptos Blog&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
@@ -5674,11 +5674,11 @@ On a P2P platform, users need to manually choose a person to trade with. That co
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/p2p-marketplace.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/p2p-marketplace.jpeg" medium="image" />
         <pubDate>Tue, 08 Jan 2019 14:54:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/localcryptos-interview/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/localcryptos-interview/</guid>
-        <comments>https://www.altcointrading.net/localcryptos-interview/#comments</comments>
+        <link>http://localhost:4000/localcryptos-interview/</link>
+        <guid isPermaLink="true">http://localhost:4000/localcryptos-interview/</guid>
+        <comments>http://localhost:4000/localcryptos-interview/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5835,11 +5835,11 @@ Doesn’t look like very dead to me, folks.
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/tradingstation.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/tradingstation.jpg" medium="image" />
         <pubDate>Mon, 31 Dec 2018 13:31:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/stats-2018/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/stats-2018/</guid>
-        <comments>https://www.altcointrading.net/stats-2018/#comments</comments>
+        <link>http://localhost:4000/stats-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/stats-2018/</guid>
+        <comments>http://localhost:4000/stats-2018/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -5981,11 +5981,11 @@ But as history has proven, at the end of the day innovation is inevitable in bus
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/wm/blockchain-entertainment.png" medium="image" />
+        <media:content url="http://localhost:4000/editorial/wm/blockchain-entertainment.png" medium="image" />
         <pubDate>Tue, 13 Nov 2018 15:44:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/blockchain-entertainment-industry/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/blockchain-entertainment-industry/</guid>
-        <comments>https://www.altcointrading.net/blockchain-entertainment-industry/#comments</comments>
+        <link>http://localhost:4000/blockchain-entertainment-industry/</link>
+        <guid isPermaLink="true">http://localhost:4000/blockchain-entertainment-industry/</guid>
+        <comments>http://localhost:4000/blockchain-entertainment-industry/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6086,19 +6086,19 @@ These particular properties have been sold already but feel free to browse aroun
 
 &lt;p&gt;These particular properties have been sold already but feel free to browse around. You will be surprised, it’s not only super posh frat boys who is being targeted.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/1.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/1.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/1.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/1.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;6023 W Beachwood Ln. Los Angeles, CA 90038&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;“This Hollywood Hills new construction is smart home ready &amp;amp; highly walkable. Listing price is $1,190,000. If you buy it with Open Listings, you’ll get $11,900 back.” &lt;a href=&quot;https://www.openlistings.com/p/6023-w-beachwood-ln-los-angeles-ca-90038&quot;&gt;View&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/2.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/2.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/2.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/2.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1338 Orchard Ave. Wenatchee, WA 98801&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;“This charming &amp;amp; Wenatchee home could make a great investment for the right Bitcoin buyer with its big corner lot and full apartment above the garage. Listing price is $399,900.” &lt;a href=&quot;https://www.openlistings.com/p/1338-orchard-ave-wenatchee-wa-98801&quot;&gt;View&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/3.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/3.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/3.png&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/3.png&quot; alt=&quot;Want to buy a house with bitcoin?&quot; title=&quot;AltcoinTrading.NET - Want to buy a house with bitcoin?&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1301 Duhig Rd Napa, CA 94559&lt;/strong&gt;&lt;/p&gt;
 
@@ -6107,11 +6107,11 @@ These particular properties have been sold already but feel free to browse aroun
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/openlistings.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/features/openlistings.jpeg" medium="image" />
         <pubDate>Mon, 12 Nov 2018 07:24:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/openlistings-houses-for-bitcoin/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/openlistings-houses-for-bitcoin/</guid>
-        <comments>https://www.altcointrading.net/openlistings-houses-for-bitcoin/#comments</comments>
+        <link>http://localhost:4000/openlistings-houses-for-bitcoin/</link>
+        <guid isPermaLink="true">http://localhost:4000/openlistings-houses-for-bitcoin/</guid>
+        <comments>http://localhost:4000/openlistings-houses-for-bitcoin/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6192,11 +6192,11 @@ It cannot be said convincingly whether Tether is solvent or not but given the cu
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/stablecoin-wars.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/stablecoin-wars.jpeg" medium="image" />
         <pubDate>Wed, 17 Oct 2018 11:12:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/iou-stablecoins-potential/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/iou-stablecoins-potential/</guid>
-        <comments>https://www.altcointrading.net/iou-stablecoins-potential/#comments</comments>
+        <link>http://localhost:4000/iou-stablecoins-potential/</link>
+        <guid isPermaLink="true">http://localhost:4000/iou-stablecoins-potential/</guid>
+        <comments>http://localhost:4000/iou-stablecoins-potential/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6289,11 +6289,11 @@ So, what do you think about this innovative method in the home improvement indus
 
         <author><![CDATA[ Ambreen ]]></author>
         <dc:creator><![CDATA[ Ambreen ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/home-decor-startups.jpeg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/home-decor-startups.jpeg" medium="image" />
         <pubDate>Wed, 10 Oct 2018 04:34:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/tokenization-startup-boost/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/tokenization-startup-boost/</guid>
-        <comments>https://www.altcointrading.net/tokenization-startup-boost/#comments</comments>
+        <link>http://localhost:4000/tokenization-startup-boost/</link>
+        <guid isPermaLink="true">http://localhost:4000/tokenization-startup-boost/</guid>
+        <comments>http://localhost:4000/tokenization-startup-boost/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6393,7 +6393,7 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 
 &lt;h3 id=&quot;ad-levels-by-parcorn-on-tradingview&quot;&gt;A/D Levels by ParCorn on TradingView&lt;/h3&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl1.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl1.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The A/D here stands for accumulation and distribution, but this particular indicator does not analyze trend at all.&lt;/p&gt;
 
@@ -6431,7 +6431,7 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 
 &lt;p&gt;Here is the A/D Levels script on Bitfinex BTCUSD 5M as retrieved on Sep 29.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-5m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-5m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-5m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I found that it printed ridiculous amounts of supports and resistances over ranges.&lt;/p&gt;
 
@@ -6441,7 +6441,7 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 
 &lt;p&gt;&lt;strong&gt;Higher Timeframes&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-30m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-30m.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-30m.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For the 30M timeframe and made the criteria for acceptable wick ratio even higher.&lt;/p&gt;
 
@@ -6453,7 +6453,7 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 
 &lt;p&gt;It does not print support on volatile days’ wicks because it compares with the true range. You can also see where support turns resistance:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/adl/adl-1d.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/adl/adl-1d.png&quot; alt=&quot;Script Spotlight: A/D Levels&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: A/D Levels&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
@@ -6468,11 +6468,11 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/features/scriptspotlight/adl/adl1.png" medium="image" />
+        <media:content url="http://localhost:4000/features/scriptspotlight/adl/adl1.png" medium="image" />
         <pubDate>Sat, 29 Sep 2018 07:43:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/scriptspotlight-a-d-levels/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-a-d-levels/</guid>
-        <comments>https://www.altcointrading.net/scriptspotlight-a-d-levels/#comments</comments>
+        <link>http://localhost:4000/scriptspotlight-a-d-levels/</link>
+        <guid isPermaLink="true">http://localhost:4000/scriptspotlight-a-d-levels/</guid>
+        <comments>http://localhost:4000/scriptspotlight-a-d-levels/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6670,11 +6670,11 @@ If the Bakkt hype is to be taken seriously though, no flight to decentralization
 
         <author><![CDATA[ BusinessOfCrypto ]]></author>
         <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/unsplash1/unitedstates.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/unsplash1/unitedstates.jpg" medium="image" />
         <pubDate>Fri, 28 Sep 2018 06:13:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/bakkt-criticism/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/bakkt-criticism/</guid>
-        <comments>https://www.altcointrading.net/bakkt-criticism/#comments</comments>
+        <link>http://localhost:4000/bakkt-criticism/</link>
+        <guid isPermaLink="true">http://localhost:4000/bakkt-criticism/</guid>
+        <comments>http://localhost:4000/bakkt-criticism/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 
@@ -6791,7 +6791,7 @@ Also, this particular script is an implementation of John Ehlers’ Adaptive RSI
 
 &lt;h4 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h4&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1d.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is the PPOD indicator on 1D chart of BTCUSD on Bitfinex using the default settings: &lt;strong&gt;(55,12,26,9,2)&lt;/strong&gt;.&lt;/p&gt;
 
@@ -6799,13 +6799,13 @@ Also, this particular script is an implementation of John Ehlers’ Adaptive RSI
 
 &lt;p&gt;We can see on 1D the PPOD caught the 20k top although only after two other bearish div alerts at range tops. It also registers the current bottom.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-4h.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On 4H you can see it registers the recent 8400 top couple of candles after the fact, but then it prints another divergence on the bounce which ended up being a pivotal point. That’s not bad.&lt;/p&gt;
 
 &lt;p&gt;If you are a scalper, you will run into problems on short timeframes and on the 1W chart the overbought/oversold fits better than the actual divergences:&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/ppod-1w.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In both cases it is important to remember what divergences actually show: If a divergence happens, there is a mismatch between the price and the buy or sell momentum. That strengthens the potential for a reversal but it is not itself a trigger to trade on that reversal. Whether you find a divergence or not does depend a lot on your settings, and I don’t think the same settings will necessarily be suitable for all market conditions.&lt;/p&gt;
 
@@ -6831,7 +6831,7 @@ Also, this particular script is an implementation of John Ehlers’ Adaptive RSI
 
 &lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/SvPOv1cc/&quot;&gt;Full script&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://www.altcointrading.net/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;http://localhost:4000/features/scriptspotlight/divergences/adaptive-rsi.png&quot; alt=&quot;Script Spotlight: Automatic Divergences&quot; title=&quot;AltcoinTrading.NET - Script Spotlight: Automatic Divergences&quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I can recommend using scripts that will paint the divergence along with the underlying indicator, though. Looking for divergences is a pain.&lt;/p&gt;
 
@@ -6842,11 +6842,11 @@ Also, this particular script is an implementation of John Ehlers’ Adaptive RSI
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/unsplash1/filesystem.jpg" medium="image" />
+        <media:content url="http://localhost:4000/editorial/unsplash1/filesystem.jpg" medium="image" />
         <pubDate>Wed, 19 Sep 2018 06:13:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/scriptspotlight-auto-divergences/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-auto-divergences/</guid>
-        <comments>https://www.altcointrading.net/scriptspotlight-auto-divergences/#comments</comments>
+        <link>http://localhost:4000/scriptspotlight-auto-divergences/</link>
+        <guid isPermaLink="true">http://localhost:4000/scriptspotlight-auto-divergences/</guid>
+        <comments>http://localhost:4000/scriptspotlight-auto-divergences/#comments</comments>
         <slash:comments>0</slash:comments>
         <language>en</language>
 

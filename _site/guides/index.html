@@ -17,14 +17,14 @@
 <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
 <link rel="prerender" href="//www.altcointrading.net/airdrops/">
 
-<link rel="canonical" href="https://www.altcointrading.net/guides/">
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/guides/">
+<link rel="canonical" href="http://localhost:4000/guides/">
+<link rel="alternate" hreflang="en" href="http://localhost:4000/guides/">
 
 <title>
   Crypto Trading 101 & Guides To Get You Started Trading | AltcoinTrading.NET
 </title>
 
-<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
 <meta name="description" content="Guides for novice cryptocurrency traders and hodlers.">
 <meta name="keywords" content="altcoin trading, cryptocurrency trading, crypto airdrops">
 <meta name="author" content="https://reddit.com/u/KarlVonBahnhof">
@@ -35,11 +35,11 @@
 <meta property="og:title" content="Crypto Trading 101 &amp; Guides To Get You Started Trading
 " />
 <meta property="og:description" content="Guides for novice cryptocurrency traders and hodlers." />
-<meta property="og:url" content="https://www.altcointrading.net/guides/" />
+<meta property="og:url" content="http://localhost:4000/guides/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-10-16 08:18:42 +0000" />
-<meta property="og:image" content="https://www.altcointrading.net/editorial/brand/atnet-boc.png" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/editorial/brand/atnet-boc.png" />
+<meta property="og:image" content="http://localhost:4000/editorial/brand/atnet-boc.png" />
+<meta property="og:image:secure_url" content="http://localhost:4000/editorial/brand/atnet-boc.png" />
 <meta property="og:image:width" content="700" />
 <meta property="og:image:height" content="360" />
 
@@ -56,7 +56,7 @@
 {
  "@context":"http:\/\/schema.org",
  "@type":"Organization",
- "url":"https://www.altcointrading.net",
+ "url":"http://localhost:4000",
  "sameAs":[
     "https:\/\/www.linkedin.com\/company\/altcointradingnet\/",
     "https:\/\/twitter.com\/altcointrading_",
@@ -88,7 +88,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://www.altcointrading.net/guides/"
+    "@id":"http://localhost:4000/guides/"
   },
   "headline": "Crypto Trading 101 & Guides To Get You Started Trading",
   
@@ -107,12 +107,12 @@
     "name": "AltcoinTrading.NET",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.altcointrading.net/img/logo.jpg"
+      "url": "http://localhost:4000/img/logo.jpg"
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.altcointrading.net/img/emotions/whales.jpg",
+    "url": "http://localhost:4000/img/emotions/whales.jpg",
     "height": 700,
     "width": 360
   },
@@ -2384,16 +2384,6 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--guides",
-         "eventLabel": "click--ebf-deals--intext"
-       }
-    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2573,7 +2563,67 @@ amp-user-notification>div>div {
          "eventAction": "click-shilllinks",
          "eventLabel": "clickHomeSideLinks"
        }
-    }
+    },
+    "clickBFLive": {
+       "on": "click",
+       "selector": "#live",
+       "request": "event",
+       "vars": {
+          "eventCategory": "shill--click",
+          "eventAction": "click-intext--guides",
+          "eventLabel": "click--bf-intext--live"
+        }
+     },
+     "clickBFAnti": {
+        "on": "click",
+        "selector": "#anticipated",
+        "request": "event",
+        "vars": {
+           "eventCategory": "shill--click",
+           "eventAction": "click-intext--guides",
+           "eventLabel": "click--bf-intext--anticipated"
+         }
+      },
+      "clickBFPast": {
+         "on": "click",
+         "selector": "#past",
+         "request": "event",
+         "vars": {
+            "eventCategory": "shill--click",
+            "eventAction": "click-intext--guides",
+            "eventLabel": "click--bf-intext--past"
+          }
+       },
+       "clickBFRegu": {
+          "on": "click",
+          "selector": "#regular",
+          "request": "event",
+          "vars": {
+             "eventCategory": "shill--click",
+             "eventAction": "click-intext--guides",
+             "eventLabel": "click--bf-intext--regular"
+           }
+        },
+        "clickBFProd": {
+           "on": "click",
+           "selector": "#products",
+           "request": "event",
+           "vars": {
+              "eventCategory": "shill--click",
+              "eventAction": "click-intext--guides",
+              "eventLabel": "click--bf-intext--products"
+            }
+         },
+         "sideEBF": {
+           "on": "click",
+           "selector": "#ebf-menu-sticky",
+           "request": "event",
+           "vars": {
+              "eventCategory": "internal--click",
+              "eventAction": "click-internal--guides",
+              "eventLabel": "click--sticky-nav"
+            }
+         }
   }
 }
 </script>
@@ -2645,7 +2695,7 @@ amp-user-notification>div>div {
       <div class="four columns">
         <div class="logo">
           <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://www.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img>

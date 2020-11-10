@@ -23,15 +23,15 @@
 
 
   
-  <link rel="canonical" href="https://www.altcointrading.net/pos/">
+  <link rel="canonical" href="http://localhost:4000/pos/">
   
 
 
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/pos/">
+<link rel="alternate" hreflang="en" href="http://localhost:4000/pos/">
 
 <title>Economics of Proof of Stake</title>
 
-<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
 <meta name="description" content="Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing, and the amazing regard of the ETH boss crew to Social Justice.">
 
 <meta name="keywords" content="crypto-fundamentals, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
@@ -43,11 +43,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET | Economics of Proof of Stake" />
 <meta property="og:description" content="Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing, and the amazing regard of the ETH boss crew to Social Justice." />
-<meta property="og:url" content="https://www.altcointrading.net/pos/" />
+<meta property="og:url" content="http://localhost:4000/pos/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-08-07T08:53:02+00:00" />
-<meta property="og:image" content="https://www.altcointrading.net/img/editorial/steak2.jpg" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/img/editorial/steak2.jpg" />
+<meta property="og:image" content="http://localhost:4000/img/editorial/steak2.jpg" />
+<meta property="og:image:secure_url" content="http://localhost:4000/img/editorial/steak2.jpg" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
@@ -65,8 +65,8 @@
 <meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="AltcoinTrading.NET | Economics of Proof of Stake" />
 <meta name="twitter:description" content="Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing, and the amazing regard of the ETH boss crew to Social Justice." />
-<meta property="twitter:image" content="https://www.altcointrading.net/img/editorial/steak2.jpg" />
-<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/img/editorial/steak2.jpg" />
+<meta property="twitter:image" content="http://localhost:4000/img/editorial/steak2.jpg" />
+<meta property="twitter:image:secure_url" content="http://localhost:4000/img/editorial/steak2.jpg" />
 <meta name="twitter:creator" content="#" />
 
 
@@ -98,7 +98,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://www.altcointrading.net/pos/"
+    "@id":"http://localhost:4000/pos/"
   },
   "headline": "Economics of Proof of Stake",
   "datePublished": "2017-07-07T01:00:00+00:00",
@@ -110,10 +110,10 @@
     "name": "AltcoinTrading.NET"
   },
   "image":[
-    "https://www.altcointrading.net/img/editorial/steak2.jpg",
-    "https://www.altcointrading.net/img/daddyvitalik/yeswecan.png",
-    "https://www.altcointrading.net/img/daddyvitalik/IsHeForReal.png",
-    "https://www.altcointrading.net/img/daddyvitalik/VitalikTheLordSavior.png"
+    "http://localhost:4000/img/editorial/steak2.jpg",
+    "http://localhost:4000/img/daddyvitalik/yeswecan.png",
+    "http://localhost:4000/img/daddyvitalik/IsHeForReal.png",
+    "http://localhost:4000/img/daddyvitalik/VitalikTheLordSavior.png"
     
   ],
   
@@ -2393,16 +2393,6 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--pos",
-         "eventLabel": "click--ebf-deals--intext"
-       }
-    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2582,7 +2572,67 @@ amp-user-notification>div>div {
          "eventAction": "click-shilllinks",
          "eventLabel": "clickHomeSideLinks"
        }
-    }
+    },
+    "clickBFLive": {
+       "on": "click",
+       "selector": "#live",
+       "request": "event",
+       "vars": {
+          "eventCategory": "shill--click",
+          "eventAction": "click-intext--pos",
+          "eventLabel": "click--bf-intext--live"
+        }
+     },
+     "clickBFAnti": {
+        "on": "click",
+        "selector": "#anticipated",
+        "request": "event",
+        "vars": {
+           "eventCategory": "shill--click",
+           "eventAction": "click-intext--pos",
+           "eventLabel": "click--bf-intext--anticipated"
+         }
+      },
+      "clickBFPast": {
+         "on": "click",
+         "selector": "#past",
+         "request": "event",
+         "vars": {
+            "eventCategory": "shill--click",
+            "eventAction": "click-intext--pos",
+            "eventLabel": "click--bf-intext--past"
+          }
+       },
+       "clickBFRegu": {
+          "on": "click",
+          "selector": "#regular",
+          "request": "event",
+          "vars": {
+             "eventCategory": "shill--click",
+             "eventAction": "click-intext--pos",
+             "eventLabel": "click--bf-intext--regular"
+           }
+        },
+        "clickBFProd": {
+           "on": "click",
+           "selector": "#products",
+           "request": "event",
+           "vars": {
+              "eventCategory": "shill--click",
+              "eventAction": "click-intext--pos",
+              "eventLabel": "click--bf-intext--products"
+            }
+         },
+         "sideEBF": {
+           "on": "click",
+           "selector": "#ebf-menu-sticky",
+           "request": "event",
+           "vars": {
+              "eventCategory": "internal--click",
+              "eventAction": "click-internal--pos",
+              "eventLabel": "click--sticky-nav"
+            }
+         }
   }
 }
 </script>
@@ -2623,7 +2673,7 @@ amp-user-notification>div>div {
       <div class="four columns">
         <div class="logo">
           <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://www.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img>
@@ -2753,7 +2803,7 @@ amp-user-notification>div>div {
 
                 </div>
 
-                <blockquote cite="https://www.altcointrading.net/pos/">
+                <blockquote cite="http://localhost:4000/pos/">
                   Proof of stake shows off the extraordinary ability of crypto news portals to write a 500 word article that says absolutely nothing, and the amazing regard of the ETH boss crew to Social Justice.
                 </blockquote>
                 <span class="google-news-tag"></span>&nbsp;
@@ -2794,7 +2844,7 @@ amp-user-notification>div>div {
 
 <p>It seems that Vitalik is aware of these sentiments that are outside of economics, but it is anyone’s guess if he has plans to use them:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/daddyvitalik/IsHeForReal.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/daddyvitalik/IsHeForReal.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/img/daddyvitalik/IsHeForReal.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/daddyvitalik/IsHeForReal.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: From Vitalik’s medium.com post <a href="https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51">“A Proof of Stake Design Philosophy”</a></em></p>
 
@@ -2821,7 +2871,7 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
 
 <p>This kind of anti-capitalistic compromise understandably causes some stir, but Vitalik is clearly bigger than that:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/daddyvitalik/yeswecan.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/daddyvitalik/yeswecan.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/img/daddyvitalik/yeswecan.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/daddyvitalik/yeswecan.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: via <a href="https://twitter.com/BitfuryGeorge/status/883177297309839360">@BitfuryGeorge</a></em></p>
 
@@ -2858,7 +2908,7 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
 
 <p>Frankly it does not really scream advantages, other than what relates to “Vitalik philosophy”:</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/daddyvitalik/VitalikTheLordSavior.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/daddyvitalik/VitalikTheLordSavior.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/img/daddyvitalik/VitalikTheLordSavior.png" title="AltcoinTrading.NET - Economics of Proof of Stake"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/daddyvitalik/VitalikTheLordSavior.png" alt="Economics of Proof of Stake" title="AltcoinTrading.NET - Economics of Proof of Stake" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><em>Image: From Vitalik’s medium.com post <a href="https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51">“A Proof of Stake Design Philosophy”</a></em></p>
 
@@ -2915,9 +2965,9 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
     
         
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/wyckoff-avoidance/">Wyckoff Avoidance Strategy in Cryptocurrency Trading</a></li>
-      
       <li>#CRYPTO-FUNDAMENTALS: <a href="/technical-analysis/">Technical Analysis in Cryptocurrency Trading</a></li>
+      
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/3-dangerous-mistakes-crypto-beginners/">3 Most Dangerous Cryptocurrency Beginner Mistakes</a></li>
       
         
       
@@ -3008,6 +3058,25 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
       
         <div class="row clearfix">
   <div class="columns three">
+    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
+      <span class="tag custom-note">Real Data</span>&nbsp;
+      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
     <a class="cat-internal-link" title="The Case for DCA" href="/strategy/dollar-cost-averaging/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" alt="Related in trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -3019,25 +3088,6 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
     <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">
       <span class="tag custom-note">Real Data</span>&nbsp;
       <b>The&nbsp;Case&nbsp;for&nbsp;DCA</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="Timing Tools" href="/strategy/timing/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/timing/" title="Timing Tools">
-      <span class="tag custom-note">Strategic Tools</span>&nbsp;
-      <b>Timing&nbsp;Tools</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3062,33 +3112,14 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/value/" title="How to Compare the Fundamental Value of Cryptoassets"><span class="tag custom-note">Strategic Thinking</span>&nbsp;<b>How to Compare the Fundamental Value of Cryptoassets</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 30 Oct 2020</a>
+        <a class="index-internal" href="/wyckoff-avoidance/" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Wyckoff Avoidance Strategy in Cryptocurrency Trading</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 15 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
+      <a class="cat-internal-link" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading" href="/wyckoff-avoidance/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/pos/" title="Economics of Proof of Stake"><b>Economics of Proof of Stake</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Economics of Proof of Stake" href="/pos/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/steak2.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3119,14 +3150,14 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/3-dangerous-mistakes-crypto-beginners/" title="3 Most Dangerous Cryptocurrency Beginner Mistakes"><span class="tag custom-note">Trading Blog</span>&nbsp;<b>3 Most Dangerous Cryptocurrency Beginner Mistakes</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 22 Sep 2020</a>
+        <a class="index-internal" href="/pos/" title="Economics of Proof of Stake"><b>Economics of Proof of Stake</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="3 Most Dangerous Cryptocurrency Beginner Mistakes" href="/3-dangerous-mistakes-crypto-beginners/">
+      <a class="cat-internal-link" title="Economics of Proof of Stake" href="/pos/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1594627484/atnet/pyramids_aalfab.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/editorial/steak2.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3138,14 +3169,33 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/wyckoff-avoidance/" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Wyckoff Avoidance Strategy in Cryptocurrency Trading</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 15 Oct 2020</a>
+        <a class="index-internal" href="/zoe-ethereum-alphabay/" title="(2017 Report) Alphabay to adopt ETH for payments ahead of new privacy features"><b>(2017 Report) Alphabay to adopt ETH for payments ahead of new privacy features</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 15 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Wyckoff Avoidance Strategy in Cryptocurrency Trading" href="/wyckoff-avoidance/">
+      <a class="cat-internal-link" title="(2017 Report) Alphabay to adopt ETH for payments ahead of new privacy features" href="/zoe-ethereum-alphabay/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1596784857/wyckoff-avoidance-crypto_tgm2y7.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/emotions/bridge.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/value/" title="How to Compare the Fundamental Value of Cryptoassets"><span class="tag custom-note">Strategic Thinking</span>&nbsp;<b>How to Compare the Fundamental Value of Cryptoassets</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 30 Oct 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="How to Compare the Fundamental Value of Cryptoassets" href="/value/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693908/atnet/__women/pexels-daria-shevtsova-3277932_mwr6q9.jpg" alt="Related in crypto-value-judgement" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3212,7 +3262,7 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
 <ul class="social share">
   <li>
     <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="twitter" width="40" height="40"
@@ -3220,15 +3270,15 @@ If ETH main office says you cheat, you lose your stake. If ETH main office says 
   </li>
   <li>
     <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Economics of Proof of Stake by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
 
 </ul>

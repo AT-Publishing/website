@@ -8,19 +8,19 @@
     </description>
 
     <image>
-      <url>https://www.altcointrading.net/img/logo.jpg</url>
+      <url>http://localhost:4000/img/logo.jpg</url>
       <title>AltcoinTrading.NET</title>
-      <link>https://www.altcointrading.net</link>
+      <link>http://localhost:4000</link>
     </image>
 
     <language>en</language>
 
 
-    <link>https://www.altcointrading.net/airdrops/</link>
-    <atom:link href="https://www.altcointrading.net/rss-airdrops.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/airdrops/</link>
+    <atom:link href="http://localhost:4000/rss-airdrops.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 10 Nov 2020 04:07:39 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 04:07:39 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 04:41:05 +0000</lastBuildDate>
 
     
      

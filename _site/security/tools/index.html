@@ -23,15 +23,15 @@
 
 
   
-  <link rel="canonical" href="https://www.altcointrading.net/security/tools/">
+  <link rel="canonical" href="http://localhost:4000/security/tools/">
   
 
 
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/security/tools/">
+<link rel="alternate" hreflang="en" href="http://localhost:4000/security/tools/">
 
 <title>List of tools for scam detection</title>
 
-<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
 <meta name="description" content="List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto.">
 
 <meta name="keywords" content="crypto-opsec, cryptojacking, cyber-security, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
@@ -43,11 +43,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET | List of tools for scam detection" />
 <meta property="og:description" content="List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto." />
-<meta property="og:url" content="https://www.altcointrading.net/security/tools/" />
+<meta property="og:url" content="http://localhost:4000/security/tools/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-08-11T03:59:52+00:00" />
-<meta property="og:image" content="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" />
+<meta property="og:image" content="http://localhost:4000/sec/tools/security-tools-browsers.jpeg" />
+<meta property="og:image:secure_url" content="http://localhost:4000/sec/tools/security-tools-browsers.jpeg" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
@@ -65,8 +65,8 @@
 <meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="AltcoinTrading.NET | List of tools for scam detection" />
 <meta name="twitter:description" content="List of browser tools to up your security and avoid fraudulent websites in general - not only when trading crypto." />
-<meta property="twitter:image" content="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" />
-<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg" />
+<meta property="twitter:image" content="http://localhost:4000/sec/tools/security-tools-browsers.jpeg" />
+<meta property="twitter:image:secure_url" content="http://localhost:4000/sec/tools/security-tools-browsers.jpeg" />
 <meta name="twitter:creator" content="@altcointrading_" />
 
 
@@ -98,7 +98,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://www.altcointrading.net/security/tools/"
+    "@id":"http://localhost:4000/security/tools/"
   },
   "headline": "List of tools for scam detection",
   "datePublished": "2019-01-11T05:02:00+00:00",
@@ -110,9 +110,9 @@
     "name": ""
   },
   "image":[
-    "https://www.altcointrading.net/sec/tools/security-tools-browsers.jpeg",
-    "https://www.altcointrading.net/sec/tools/netcraft.png",
-    "https://www.altcointrading.net/sec/tools/sessionbuddy.png"
+    "http://localhost:4000/sec/tools/security-tools-browsers.jpeg",
+    "http://localhost:4000/sec/tools/netcraft.png",
+    "http://localhost:4000/sec/tools/sessionbuddy.png"
     
   ],
   
@@ -2392,16 +2392,6 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--securitytools",
-         "eventLabel": "click--ebf-deals--intext"
-       }
-    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2581,7 +2571,67 @@ amp-user-notification>div>div {
          "eventAction": "click-shilllinks",
          "eventLabel": "clickHomeSideLinks"
        }
-    }
+    },
+    "clickBFLive": {
+       "on": "click",
+       "selector": "#live",
+       "request": "event",
+       "vars": {
+          "eventCategory": "shill--click",
+          "eventAction": "click-intext--securitytools",
+          "eventLabel": "click--bf-intext--live"
+        }
+     },
+     "clickBFAnti": {
+        "on": "click",
+        "selector": "#anticipated",
+        "request": "event",
+        "vars": {
+           "eventCategory": "shill--click",
+           "eventAction": "click-intext--securitytools",
+           "eventLabel": "click--bf-intext--anticipated"
+         }
+      },
+      "clickBFPast": {
+         "on": "click",
+         "selector": "#past",
+         "request": "event",
+         "vars": {
+            "eventCategory": "shill--click",
+            "eventAction": "click-intext--securitytools",
+            "eventLabel": "click--bf-intext--past"
+          }
+       },
+       "clickBFRegu": {
+          "on": "click",
+          "selector": "#regular",
+          "request": "event",
+          "vars": {
+             "eventCategory": "shill--click",
+             "eventAction": "click-intext--securitytools",
+             "eventLabel": "click--bf-intext--regular"
+           }
+        },
+        "clickBFProd": {
+           "on": "click",
+           "selector": "#products",
+           "request": "event",
+           "vars": {
+              "eventCategory": "shill--click",
+              "eventAction": "click-intext--securitytools",
+              "eventLabel": "click--bf-intext--products"
+            }
+         },
+         "sideEBF": {
+           "on": "click",
+           "selector": "#ebf-menu-sticky",
+           "request": "event",
+           "vars": {
+              "eventCategory": "internal--click",
+              "eventAction": "click-internal--securitytools",
+              "eventLabel": "click--sticky-nav"
+            }
+         }
   }
 }
 </script>
@@ -2622,7 +2672,7 @@ amp-user-notification>div>div {
       <div class="four columns">
         <div class="logo">
           <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://www.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img>
@@ -2742,9 +2792,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-OPSEC: <a href="/monero-wallet/">Monero Wallets: Your options in 2020</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/crypto-storage-for-traders/">Crypto Wallets by Use Case</a></li>
       
-      <li>#CRYPTO-OPSEC: <a href="/cryptocurrency-heists-infographic/">Shocking Facts About Cryptocurrency Heists [Infographics]</a></li>
+      <li>#CRYPTO-OPSEC: <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2020 Updated</a></li>
       
         
       
@@ -2823,7 +2873,7 @@ amp-user-notification>div>div {
 
 <h3 id="netcraft">Netcraft</h3>
 
-<p><a target="_blank" href="https://www.altcointrading.net/sec/tools/netcraft.png" title="AltcoinTrading.NET - List of tools for scam detection"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/sec/tools/netcraft.png" alt="List of tools for scam detection" title="AltcoinTrading.NET - List of tools for scam detection" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/sec/tools/netcraft.png" title="AltcoinTrading.NET - List of tools for scam detection"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/sec/tools/netcraft.png" alt="List of tools for scam detection" title="AltcoinTrading.NET - List of tools for scam detection" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>The company behind <a href="https://chrome.google.com/webstore/detail/netcraft-extension/bmejphbfclcpmpohkggcjeibfilpamia?hl=en">Netcraft extension</a> provides a bunch of anti-malware services, phishing detection and fraud alerts. They even have an intelligent system that calculates a score of how likely is it that a domain name is a fraudulent imposter.</p>
 
@@ -2842,7 +2892,7 @@ amp-user-notification>div>div {
 
 <h3 id="sessionbuddy">SessionBuddy</h3>
 
-<p><a target="_blank" href="https://www.altcointrading.net/sec/tools/sessionbuddy.png" title="AltcoinTrading.NET - List of tools for scam detection"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/sec/tools/sessionbuddy.png" alt="List of tools for scam detection" title="AltcoinTrading.NET - List of tools for scam detection" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/sec/tools/sessionbuddy.png" title="AltcoinTrading.NET - List of tools for scam detection"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/sec/tools/sessionbuddy.png" alt="List of tools for scam detection" title="AltcoinTrading.NET - List of tools for scam detection" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p><a href="https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en">SessionBuddy</a> is meant as a convenience tool rather than a security tool, but it could be helpful to those of you who are either new to crypto or don’t really check their holdings and exchange accounts very often.</p>
 

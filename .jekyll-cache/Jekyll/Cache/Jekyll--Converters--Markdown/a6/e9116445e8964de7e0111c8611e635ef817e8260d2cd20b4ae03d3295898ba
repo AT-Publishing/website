@@ -1,9 +1,0 @@
-I"�<p>Dust attack is an attack on privacy that happens on the bitcoin blockchain.</p>
-
-<p>A potentially malicious actor is sends the smallest possible transaction amount to large amount of addresses and presumably runs a bot that watches from which addresses the coins were moved and where.</p>
-
-<p>Following the movements of the dust may eventually lead to a transaction that will be identifiable in real life, such as an online order or a p2p cash sale. It can also be used to link different wallets owned by the same person.</p>
-
-<p>The counteraction to do if your wallet “got dusted” is called <a href="/glossary/coin-control/">coin control</a>.</p>
-
-:ET

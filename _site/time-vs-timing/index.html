@@ -23,15 +23,15 @@
 
 
   
-  <link rel="canonical" href="https://www.altcointrading.net/time-vs-timing/">
+  <link rel="canonical" href="http://localhost:4000/time-vs-timing/">
   
 
 
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/time-vs-timing/">
+<link rel="alternate" hreflang="en" href="http://localhost:4000/time-vs-timing/">
 
 <title>Time in the Market vs Timing the Market</title>
 
-<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
 <meta name="description" content="They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure.">
 
 <meta name="keywords" content="crypto-trading-strategy, crypto-fundamentals, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
@@ -43,11 +43,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET | Time in the Market vs Timing the Market" />
 <meta property="og:description" content="They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure." />
-<meta property="og:url" content="https://www.altcointrading.net/time-vs-timing/" />
+<meta property="og:url" content="http://localhost:4000/time-vs-timing/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-08-24T08:58:22+00:00" />
-<meta property="og:image" content="https://www.altcointrading.net/img/editorial/likeaboss.jpg" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/img/editorial/likeaboss.jpg" />
+<meta property="og:image" content="http://localhost:4000/img/editorial/likeaboss.jpg" />
+<meta property="og:image:secure_url" content="http://localhost:4000/img/editorial/likeaboss.jpg" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
@@ -65,8 +65,8 @@
 <meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="AltcoinTrading.NET | Time in the Market vs Timing the Market" />
 <meta name="twitter:description" content="They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what’s likely, not what’s hundred percent sure." />
-<meta property="twitter:image" content="https://www.altcointrading.net/img/editorial/likeaboss.jpg" />
-<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/img/editorial/likeaboss.jpg" />
+<meta property="twitter:image" content="http://localhost:4000/img/editorial/likeaboss.jpg" />
+<meta property="twitter:image:secure_url" content="http://localhost:4000/img/editorial/likeaboss.jpg" />
 <meta name="twitter:creator" content="#" />
 
 
@@ -98,7 +98,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://www.altcointrading.net/time-vs-timing/"
+    "@id":"http://localhost:4000/time-vs-timing/"
   },
   "headline": "Time in the Market vs Timing the Market",
   "datePublished": "2017-04-13T12:24:00+00:00",
@@ -110,8 +110,8 @@
     "name": "AltcoinTrading.NET"
   },
   "image":[
-    "https://www.altcointrading.net/img/editorial/likeaboss.jpg",
-    "https://www.altcointrading.net/img/editorial/fuck.jpg"
+    "http://localhost:4000/img/editorial/likeaboss.jpg",
+    "http://localhost:4000/img/editorial/fuck.jpg"
     
   ],
   
@@ -2391,16 +2391,6 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--time-vs-timing",
-         "eventLabel": "click--ebf-deals--intext"
-       }
-    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2580,7 +2570,67 @@ amp-user-notification>div>div {
          "eventAction": "click-shilllinks",
          "eventLabel": "clickHomeSideLinks"
        }
-    }
+    },
+    "clickBFLive": {
+       "on": "click",
+       "selector": "#live",
+       "request": "event",
+       "vars": {
+          "eventCategory": "shill--click",
+          "eventAction": "click-intext--time-vs-timing",
+          "eventLabel": "click--bf-intext--live"
+        }
+     },
+     "clickBFAnti": {
+        "on": "click",
+        "selector": "#anticipated",
+        "request": "event",
+        "vars": {
+           "eventCategory": "shill--click",
+           "eventAction": "click-intext--time-vs-timing",
+           "eventLabel": "click--bf-intext--anticipated"
+         }
+      },
+      "clickBFPast": {
+         "on": "click",
+         "selector": "#past",
+         "request": "event",
+         "vars": {
+            "eventCategory": "shill--click",
+            "eventAction": "click-intext--time-vs-timing",
+            "eventLabel": "click--bf-intext--past"
+          }
+       },
+       "clickBFRegu": {
+          "on": "click",
+          "selector": "#regular",
+          "request": "event",
+          "vars": {
+             "eventCategory": "shill--click",
+             "eventAction": "click-intext--time-vs-timing",
+             "eventLabel": "click--bf-intext--regular"
+           }
+        },
+        "clickBFProd": {
+           "on": "click",
+           "selector": "#products",
+           "request": "event",
+           "vars": {
+              "eventCategory": "shill--click",
+              "eventAction": "click-intext--time-vs-timing",
+              "eventLabel": "click--bf-intext--products"
+            }
+         },
+         "sideEBF": {
+           "on": "click",
+           "selector": "#ebf-menu-sticky",
+           "request": "event",
+           "vars": {
+              "eventCategory": "internal--click",
+              "eventAction": "click-internal--time-vs-timing",
+              "eventLabel": "click--sticky-nav"
+            }
+         }
   }
 }
 </script>
@@ -2621,7 +2671,7 @@ amp-user-notification>div>div {
       <div class="four columns">
         <div class="logo">
           <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://www.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img>
@@ -2752,7 +2802,7 @@ amp-user-notification>div>div {
 
                 </div>
 
-                <blockquote cite="https://www.altcointrading.net/time-vs-timing/">
+                <blockquote cite="http://localhost:4000/time-vs-timing/">
                   They say that in the long run, time in the market beats timing the market. With the short term direction you cannot know for sure - even technical and fundamental analysis together with Reddit sentiment can only give you what's likely, not what's hundred percent sure.
                 </blockquote>
                 <span class="google-news-tag">Trading Strategy</span>&nbsp;
@@ -2808,7 +2858,7 @@ amp-user-notification>div>div {
 
 <h3 id="food-for-thought-an-unlikely-altcoin-fundamental">Food for thought: An unlikely altcoin fundamental</h3>
 
-<p><a target="_blank" href="https://www.altcointrading.net/img/editorial/fuck.jpg" title="AltcoinTrading.NET - Time in the Market vs Timing the Market"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/img/editorial/fuck.jpg" alt="Time in the Market vs Timing the Market" title="AltcoinTrading.NET - Time in the Market vs Timing the Market" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/img/editorial/fuck.jpg" title="AltcoinTrading.NET - Time in the Market vs Timing the Market"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/img/editorial/fuck.jpg" alt="Time in the Market vs Timing the Market" title="AltcoinTrading.NET - Time in the Market vs Timing the Market" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>What would happen if Ethereum lost Vitalik? Something quite explicit for sure, right?</p>
 
@@ -2869,9 +2919,9 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/value/">How to Compare the Fundamental Value of Cryptoassets</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/detrended-price-oscillator/">Script Spotlight: Detrended Price Oscillator (DPO)</a></li>
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/divergences/">Technical Analysis: Divergences (With a Divergence Cheat Sheet)</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/value/">How to Compare the Fundamental Value of Cryptoassets</a></li>
       
         
       
@@ -2915,25 +2965,6 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
-      <span class="tag custom-note">Trading Approach</span>&nbsp;
-      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
     <a class="cat-internal-link" title="Technical Analysis in Crypto: How to use TA strategically" href="/strategy/technical/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1596693900/atnet/__women/pexels-ekaterina-bolovtsova-4049990_j5fhci.jpg" alt="Related in trading-psychology" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -2953,17 +2984,36 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Timing Tools" href="/strategy/timing/">
+    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/timing/" title="Timing Tools">
+    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
+      <span class="tag custom-note">Trading Approach</span>&nbsp;
+      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Why are Fib Retracements and Extensions Important" href="/strategy/fibs/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="/editorial/breadbutter2.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/fibs/" title="Why are Fib Retracements and Extensions Important">
       <span class="tag custom-note">Strategic Tools</span>&nbsp;
-      <b>Timing&nbsp;Tools</b>
+      <b>Why&nbsp;are&nbsp;Fib&nbsp;Retracements&nbsp;an...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -2988,14 +3038,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
+        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
+      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3007,14 +3057,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/south-korea-arbitrage/" title="How is it with arbitrage opportunities in South Korea "><b>How is it with arbitrage opportunities in South Korea </b> in <b>#CUSTODIAL-TRADING</b>  updated on 21 Aug 2020</a>
+        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners"><span class="tag custom-note">Hodling</span>&nbsp;<b>Cryptocurrency Strategy for Beginners</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 05 Nov 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How is it with arbitrage opportunities in South Korea " href="/south-korea-arbitrage/">
+      <a class="cat-internal-link" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/korea-premium.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3045,14 +3095,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-strategy-beginners/" title="Cryptocurrency Strategy for Beginners"><span class="tag custom-note">Hodling</span>&nbsp;<b>Cryptocurrency Strategy for Beginners</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 05 Nov 2020</a>
+        <a class="index-internal" href="/daytrading/" title="Daytrading on Crypto Markets: Good Idea?"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Daytrading on Crypto Markets: Good Idea?</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 01 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Cryptocurrency Strategy for Beginners" href="/cryptocurrency-strategy-beginners/">
+      <a class="cat-internal-link" title="Daytrading on Crypto Markets: Good Idea?" href="/daytrading/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693911/atnet/__women/pexels-vlada-karpovich-4050296_zjrjnt.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/woman-daytrading.jpg" alt="Related in crypto-trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3119,7 +3169,7 @@ amp-user-notification>div>div {
 <ul class="social share">
   <li>
     <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="twitter" width="40" height="40"
@@ -3127,15 +3177,15 @@ amp-user-notification>div>div {
   </li>
   <li>
     <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Time in the Market vs Timing the Market by AltcoinTrading.NET at http://localhost:4000"></amp-social-share>
   </li>
 
 </ul>

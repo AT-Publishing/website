@@ -6,117 +6,117 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-      <loc>https://www.altcointrading.net</loc>
+      <loc>http://localhost:4000</loc>
       <xhtml:link rel="alternate" hreflang="en" href="http://www.altcointrading.net"/>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/airdrops/</loc>
+        <loc>http://localhost:4000/airdrops/</loc>
         <lastmod>2020-10-02T06:58:25+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/blackfriday/</loc>
+        <loc>http://localhost:4000/blackfriday/</loc>
         <lastmod>2020-11-04T01:46:19+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/airdrop-archive/</loc>
+        <loc>http://localhost:4000/airdrop-archive/</loc>
         <lastmod>2019-06-29T09:14:59+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/blog/trading/</loc>
+        <loc>http://localhost:4000/blog/trading/</loc>
         <lastmod>2020-08-24T07:36:16+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/glossary/</loc>
+        <loc>http://localhost:4000/glossary/</loc>
         <lastmod>2020-11-04T03:19:55+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/guides/</loc>
+        <loc>http://localhost:4000/guides/</loc>
         <lastmod>2020-10-16T08:18:42+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/security/</loc>
+        <loc>http://localhost:4000/security/</loc>
         <lastmod>2020-04-07T09:12:31+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/strategy/</loc>
+        <loc>http://localhost:4000/strategy/</loc>
         <lastmod>2020-08-11T07:51:31+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/disclaimer/</loc>
+        <loc>http://localhost:4000/disclaimer/</loc>
         <lastmod>2020-10-13T07:17:44+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/</loc>
+        <loc>http://localhost:4000/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/reports/</loc>
+        <loc>http://localhost:4000/reports/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/tag/businessofcrypto/</loc>
+        <loc>http://localhost:4000/tag/businessofcrypto/</loc>
         <lastmod>2020-03-31T08:54:01+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/tag/crypto-technical-indicators/</loc>
+        <loc>http://localhost:4000/tag/crypto-technical-indicators/</loc>
         <lastmod>2020-10-01T02:01:17+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/tag/tradingview-script-review/</loc>
+        <loc>http://localhost:4000/tag/tradingview-script-review/</loc>
         <lastmod>2020-10-01T02:01:17+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/tag/wyckoff-trading/</loc>
+        <loc>http://localhost:4000/tag/wyckoff-trading/</loc>
         <lastmod>2020-10-01T02:01:17+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page2/</loc>
+        <loc>http://localhost:4000/page2/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page3/</loc>
+        <loc>http://localhost:4000/page3/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page4/</loc>
+        <loc>http://localhost:4000/page4/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page5/</loc>
+        <loc>http://localhost:4000/page5/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page6/</loc>
+        <loc>http://localhost:4000/page6/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page7/</loc>
+        <loc>http://localhost:4000/page7/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/page8/</loc>
+        <loc>http://localhost:4000/page8/</loc>
         <lastmod>2020-07-29T07:02:49+00:00</lastmod>
     </url>
     

@@ -23,15 +23,15 @@
 
 
   
-  <link rel="canonical" href="https://www.altcointrading.net/technical-analysis/">
+  <link rel="canonical" href="http://localhost:4000/technical-analysis/">
   
 
 
-<link rel="alternate" hreflang="en" href="https://www.altcointrading.net/technical-analysis/">
+<link rel="alternate" hreflang="en" href="http://localhost:4000/technical-analysis/">
 
 <title>Technical Analysis in Cryptocurrency Trading</title>
 
-<link rel="icon" type="image/x-icon" href="https://www.altcointrading.net/img/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://localhost:4000/img/favicon.ico">
 <meta name="description" content="Technical indicators work. Sometimes. Should you use technical analysis for crypto?">
 
 <meta name="keywords" content="crypto-trading-strategy, crypto-technical-analysis, crypto-fundamentals, tradingview, bitcoin price news, bitcoinmarkets, btc markets, crypto trading, cryptocurrency trading">
@@ -43,11 +43,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="AltcoinTrading.NET | Technical Analysis in Cryptocurrency Trading" />
 <meta property="og:description" content="Technical indicators work. Sometimes. Should you use technical analysis for crypto?" />
-<meta property="og:url" content="https://www.altcointrading.net/technical-analysis/" />
+<meta property="og:url" content="http://localhost:4000/technical-analysis/" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="2020-11-04T04:04:28+00:00" />
-<meta property="og:image" content="https://www.altcointrading.net/features/2018/technical-analysis.png" />
-<meta property="og:image:secure_url" content="https://www.altcointrading.net/features/2018/technical-analysis.png" />
+<meta property="og:image" content="http://localhost:4000/features/2018/technical-analysis.png" />
+<meta property="og:image:secure_url" content="http://localhost:4000/features/2018/technical-analysis.png" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
@@ -65,8 +65,8 @@
 <meta name="twitter:site" content="@altcointrading_" />
 <meta name="twitter:title" content="AltcoinTrading.NET | Technical Analysis in Cryptocurrency Trading" />
 <meta name="twitter:description" content="Technical indicators work. Sometimes. Should you use technical analysis for crypto?" />
-<meta property="twitter:image" content="https://www.altcointrading.net/features/2018/technical-analysis.png" />
-<meta property="twitter:image:secure_url" content="https://www.altcointrading.net/features/2018/technical-analysis.png" />
+<meta property="twitter:image" content="http://localhost:4000/features/2018/technical-analysis.png" />
+<meta property="twitter:image:secure_url" content="http://localhost:4000/features/2018/technical-analysis.png" />
 <meta name="twitter:creator" content="tradingfanbois" />
 
 
@@ -98,7 +98,7 @@
   "@type": "BlogPosting",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"https://www.altcointrading.net/technical-analysis/"
+    "@id":"http://localhost:4000/technical-analysis/"
   },
   "headline": "Technical Analysis in Cryptocurrency Trading",
   "datePublished": "2019-12-04T04:32:00+00:00",
@@ -110,8 +110,8 @@
     "name": "JMT (goodopsec.org)"
   },
   "image":[
-    "https://www.altcointrading.net/features/2018/technical-analysis.png",
-    "https://www.altcointrading.net/features/bart-formation-crypto.png"
+    "http://localhost:4000/features/2018/technical-analysis.png",
+    "http://localhost:4000/features/bart-formation-crypto.png"
     
   ],
   
@@ -2408,16 +2408,6 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--technical-analysis",
-         "eventLabel": "click--ebf-deals--intext"
-       }
-    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2597,7 +2587,67 @@ amp-user-notification>div>div {
          "eventAction": "click-shilllinks",
          "eventLabel": "clickHomeSideLinks"
        }
-    }
+    },
+    "clickBFLive": {
+       "on": "click",
+       "selector": "#live",
+       "request": "event",
+       "vars": {
+          "eventCategory": "shill--click",
+          "eventAction": "click-intext--technical-analysis",
+          "eventLabel": "click--bf-intext--live"
+        }
+     },
+     "clickBFAnti": {
+        "on": "click",
+        "selector": "#anticipated",
+        "request": "event",
+        "vars": {
+           "eventCategory": "shill--click",
+           "eventAction": "click-intext--technical-analysis",
+           "eventLabel": "click--bf-intext--anticipated"
+         }
+      },
+      "clickBFPast": {
+         "on": "click",
+         "selector": "#past",
+         "request": "event",
+         "vars": {
+            "eventCategory": "shill--click",
+            "eventAction": "click-intext--technical-analysis",
+            "eventLabel": "click--bf-intext--past"
+          }
+       },
+       "clickBFRegu": {
+          "on": "click",
+          "selector": "#regular",
+          "request": "event",
+          "vars": {
+             "eventCategory": "shill--click",
+             "eventAction": "click-intext--technical-analysis",
+             "eventLabel": "click--bf-intext--regular"
+           }
+        },
+        "clickBFProd": {
+           "on": "click",
+           "selector": "#products",
+           "request": "event",
+           "vars": {
+              "eventCategory": "shill--click",
+              "eventAction": "click-intext--technical-analysis",
+              "eventLabel": "click--bf-intext--products"
+            }
+         },
+         "sideEBF": {
+           "on": "click",
+           "selector": "#ebf-menu-sticky",
+           "request": "event",
+           "vars": {
+              "eventCategory": "internal--click",
+              "eventAction": "click-internal--technical-analysis",
+              "eventLabel": "click--sticky-nav"
+            }
+         }
   }
 }
 </script>
@@ -2638,7 +2688,7 @@ amp-user-notification>div>div {
       <div class="four columns">
         <div class="logo">
           <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://www.altcointrading.net/img/logo.jpg"
+          src="http://localhost:4000/img/logo.jpg"
           layout="responsive"
           data-original-width="75px" data-original-height="90px"
           width="75px" height="90px"></amp-img>
@@ -2769,7 +2819,7 @@ amp-user-notification>div>div {
 
                 </div>
 
-                <blockquote cite="https://www.altcointrading.net/technical-analysis/">
+                <blockquote cite="http://localhost:4000/technical-analysis/">
                   Technical indicators work. Sometimes. Should you use technical analysis for crypto?
                 </blockquote>
                 <span class="google-news-tag">Trading Blog</span>&nbsp;
@@ -2793,7 +2843,7 @@ amp-user-notification>div>div {
 
 <p>It was the time when the multi-year bull market in Bitcoin and most other cryptos was in its infancy, the markets were acting wild and every futures contract settlement day was filled with what Reddit dubbed the “<a href="/glossary/bart/">Bart formation</a>”: A steep rise in a single candle that doesn’t really catch on and is subsequently dumped in another single candle, or alternatively the opposite sequence known as the “inverse Bart”.</p>
 
-<p><a target="_blank" href="https://www.altcointrading.net/features/bart-formation-crypto.png" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.net/features/bart-formation-crypto.png" alt="Technical Analysis in Cryptocurrency Trading" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+<p><a target="_blank" href="http://localhost:4000/features/bart-formation-crypto.png" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading"><figure class="border"><amp-img itemprop="image" src="http://localhost:4000/features/bart-formation-crypto.png" alt="Technical Analysis in Cryptocurrency Trading" title="AltcoinTrading.NET - Technical Analysis in Cryptocurrency Trading" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>This used to be the daily bread of the BTCUSD market back in the day when it was a niche play, and it still can look this wild on small-cap altcoin markets.</p>
 
@@ -2934,15 +2984,15 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
     
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/daytrading/">Daytrading on Crypto Markets: Good Idea?</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/time-vs-timing/">Time in the Market vs Timing the Market</a></li>
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/pow-fundamentals/">Real PoW Crypto Fundamentals: Crypto Mining and Network Activity</a></li>
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/daytrading/">Daytrading on Crypto Markets: Good Idea?</a></li>
       
         
       
-      <li>#CRYPTO-TECHNICAL-ANALYSIS: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method for ranging markets</a></li>
-      
       <li>#CRYPTO-TECHNICAL-ANALYSIS: <a href="/strategy/technical/">Technical Analysis in Crypto: How to use TA strategically</a></li>
+      
+      <li>#CRYPTO-TECHNICAL-ANALYSIS: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method for ranging markets</a></li>
       
     
   </ol>
@@ -3012,44 +3062,6 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
-      <span class="tag custom-note">Trading Approach</span>&nbsp;
-      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="The Case for DCA" href="/strategy/dollar-cost-averaging/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" alt="Related in trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="The Case for DCA">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>The&nbsp;Case&nbsp;for&nbsp;DCA</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
     <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -3061,6 +3073,44 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
     <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
       <span class="tag custom-note">Real Data</span>&nbsp;
       <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Timing Tools" href="/strategy/timing/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/timing/" title="Timing Tools">
+      <span class="tag custom-note">Strategic Tools</span>&nbsp;
+      <b>Timing&nbsp;Tools</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
+      <span class="tag custom-note">Trading Approach</span>&nbsp;
+      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3104,33 +3154,14 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-bollinger-band-width-indicator/" title="Script Spotlight: Bollinger Band Width"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Bollinger Band Width</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 04 Nov 2020</a>
+        <a class="index-internal" href="/detrended-price-oscillator/" title="Script Spotlight: Detrended Price Oscillator (DPO)"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: Detrended Price Oscillator (DPO)</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 22 Sep 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
+      <a class="cat-internal-link" title="Script Spotlight: Detrended Price Oscillator (DPO)" href="/detrended-price-oscillator/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/bbw/scriptspotlight-bbands.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/divergences/" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Technical Analysis: Divergences (With a Divergence Cheat Sheet)</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 04 Nov 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3161,14 +3192,33 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-auto-divergences/" title="Script Spotlight: Automatic Divergences"><b>Script Spotlight: Automatic Divergences</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 22 Sep 2020</a>
+        <a class="index-internal" href="/bitgur/" title="Another better Coinmarketcap - with a heatmap tool"><span class="tag custom-note">Feature</span>&nbsp;<b>Another better Coinmarketcap - with a heatmap tool</b> in <b>#CRYPTO-CHARTING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: Automatic Divergences" href="/scriptspotlight-auto-divergences/">
+      <a class="cat-internal-link" title="Another better Coinmarketcap - with a heatmap tool" href="/bitgur/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash1/filesystem.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/bitgur.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/scriptspotlight-a-d-levels/" title="Script Spotlight: A/D Levels"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>Script Spotlight: A/D Levels</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 29 Sep 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Script Spotlight: A/D Levels" href="/scriptspotlight-a-d-levels/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/features/scriptspotlight/adl/adl1.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3235,7 +3285,7 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
 <ul class="social share">
   <li>
     <amp-social-share type="facebook" width="40" height="40"
-    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="twitter" width="40" height="40"
@@ -3243,15 +3293,15 @@ that generally work for smaller-cap cryptocurrencies too, while you can still us
   </li>
   <li>
     <amp-social-share type="linkedin" width="40" height="40"
-    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="whatsapp" width="40" height="40"
-    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at http://localhost:4000"></amp-social-share>
   </li>
   <li>
     <amp-social-share type="gplus" width="40" height="40"
-    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at https://www.altcointrading.net"></amp-social-share>
+    data-param-text="Just read Technical Analysis in Cryptocurrency Trading by JMT (goodopsec.org) at http://localhost:4000"></amp-social-share>
   </li>
 
 </ul>
