@@ -53,7 +53,7 @@ Free and anonymous cryptocurrency wallets include:
 ## Recommended Crypto Trading Platforms without KYC
 
 * (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
-* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**
+* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits, is shady**
 * (Custodial) [WhiteBit](https://bit.ly/3kwUh2k): futures, airdrops **has limits**
 * (Non-Custodial) [LocalCryptos](http://bit.ly/localcryptos): onramp
 * (Non-Custodial) [Uniswap](https://uniswap.org): spot

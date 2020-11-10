@@ -69,7 +69,6 @@ You might be more lucky on places like [YoBit](https://bit.ly/at-yob2020).
 **Recommended No-KYC Crypto Trading Exchanges**
 
 * (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
-* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**
 * (Custodial) [WhiteBit](https://bit.ly/3kwUh2k): futures, airdrops **has limits**
 * (Non-Custodial) [LocalCryptos](http://bit.ly/localcryptos): onramp
 * (Non-Custodial) [Uniswap](https://uniswap.org): spot

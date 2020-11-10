@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 06:24:19 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 06:24:19 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2020 06:31:55 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 06:31:55 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -110,7 +110,6 @@ List of all recommended no-KYC crypto exchanges
 
 
   (Custodial) Bitfinex: spot, margin, lending, futures, airdrops
-  (Custodial) ByBit: futures, airdrops has limits
   (Custodial) WhiteBit: futures, airdrops has limits
   (Non-Custodial) LocalCryptos: onramp
   (Non-Custodial) Uniswap: spot
@@ -201,7 +200,6 @@ List of all recommended no-KYC crypto exchanges
 
 &lt;ul&gt;
   &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: spot, margin, lending, futures, airdrops&lt;/li&gt;
-  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;ByBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;(Custodial) &lt;a href=&quot;https://bit.ly/3kwUh2k&quot;&gt;WhiteBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;(Non-Custodial) &lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt;: onramp&lt;/li&gt;
   &lt;li&gt;(Non-Custodial) &lt;a href=&quot;https://uniswap.org&quot;&gt;Uniswap&lt;/a&gt;: spot&lt;/li&gt;
@@ -816,7 +814,6 @@ Recommended No-KYC Crypto Trading Exchanges
 
 
   (Custodial) Bitfinex: spot, margin, lending, futures, airdrops
-  (Custodial) ByBit: futures, airdrops has limits
   (Custodial) WhiteBit: futures, airdrops has limits
   (Non-Custodial) LocalCryptos: onramp
   (Non-Custodial) Uniswap: spot
@@ -838,13 +835,10 @@ Most liquid centralized (custodial) altcoin trading platforms:
 IMPORTANT! BitMEX platform is unreliable in 2020.
 
   
-    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
-  
-  
-    For options trading, use Deribit.
+    For options trading, use Deribit (requires KYC since 9 Nov)
   
 
 
@@ -877,13 +871,10 @@ Least stable crypto trading platform:
 IMPORTANT! BitMEX platform is unreliable in 2020.
 
   
-    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
-  
-  
-    For options trading, use Deribit.
+    For options trading, use Deribit (requires KYC since 9 Nov)
   
 
 
@@ -918,13 +909,10 @@ BitMEX
 IMPORTANT! BitMEX platform is unreliable in 2020.
 
   
-    For perpetual swap, use Bybit (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount with this link).
-  
-  
-    For options trading, use Deribit.
+    For options trading, use Deribit (requires KYC since 9 Nov)
   
 
 
@@ -1147,7 +1135,6 @@ If you plan to daytrade, here’s the deal:
 
 &lt;ul&gt;
   &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt;: spot, margin, lending, futures, airdrops&lt;/li&gt;
-  &lt;li&gt;(Custodial) &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;ByBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;(Custodial) &lt;a href=&quot;https://bit.ly/3kwUh2k&quot;&gt;WhiteBit&lt;/a&gt;: futures, airdrops &lt;strong&gt;has limits&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;(Non-Custodial) &lt;a href=&quot;http://bit.ly/localcryptos&quot;&gt;LocalCryptos&lt;/a&gt;: onramp&lt;/li&gt;
   &lt;li&gt;(Non-Custodial) &lt;a href=&quot;https://uniswap.org&quot;&gt;Uniswap&lt;/a&gt;: spot&lt;/li&gt;
@@ -1169,13 +1156,10 @@ If you plan to daytrade, here’s the deal:
 &lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
 &lt;ul class=&quot;popular&quot;&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
-  &lt;/li&gt;
-  &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1208,13 +1192,10 @@ If you plan to daytrade, here’s the deal:
 &lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
 &lt;ul class=&quot;popular&quot;&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
-  &lt;/li&gt;
-  &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1249,13 +1230,10 @@ If you plan to daytrade, here’s the deal:
 &lt;p&gt;&lt;b&gt;IMPORTANT! BitMEX platform is unreliable in 2020.&lt;/b&gt;&lt;/p&gt;
 &lt;ul class=&quot;popular&quot;&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For &lt;a href=&quot;/glossary/perps/&quot;&gt;perpetual swap&lt;/a&gt;, use &lt;a href=&quot;http://bit.ly/at-bybit-2020-drops&quot;&gt;Bybit&lt;/a&gt; (&amp;lt;-- 10 USD signup bonus with this link).
+    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount with this link).
-  &lt;/li&gt;
-  &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt;.
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 

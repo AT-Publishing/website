@@ -100,7 +100,6 @@ Good handling of the incident leaves Bitfinex with a great track of records even
 #### List of all recommended no-KYC crypto exchanges
 
 * (Custodial) [Bitfinex](http://bit.ly/at-bfx-banner2020): spot, margin, lending, futures, airdrops
-* (Custodial) [ByBit](http://bit.ly/at-bybit-2020-drops): futures, airdrops **has limits**
 * (Custodial) [WhiteBit](https://bit.ly/3kwUh2k): futures, airdrops **has limits**
 * (Non-Custodial) [LocalCryptos](http://bit.ly/localcryptos): onramp
 * (Non-Custodial) [Uniswap](https://uniswap.org): spot
