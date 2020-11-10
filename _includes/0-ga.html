@@ -9,78 +9,16 @@
       "on": "visible",
       "request": "pageview"
     },
-   {% if page.layout == 'ebf' %}
-  /*"clickEbfDeals": {
-     "on": "click",
-     "selector": "#ebf-deals",
-     "request": "event",
-     "vars": {
-        "eventCategory": "shill--click",
-        "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-        "eventLabel": "click--ebf-deals--intext"
-      }
-   },*/
-   "clickBFLive": {
+    "clickEbfDeals": {
       "on": "click",
-      "selector": "#live",
+      "selector": "#ebf-deals",
       "request": "event",
       "vars": {
          "eventCategory": "shill--click",
          "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-         "eventLabel": "click--bf-intext--live"
+         "eventLabel": "click--ebf-deals--intext"
        }
     },
-    "clickBFAnti": {
-       "on": "click",
-       "selector": "#anticipated",
-       "request": "event",
-       "vars": {
-          "eventCategory": "shill--click",
-          "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-          "eventLabel": "click--bf-intext--anticipated"
-        }
-     },
-     "clickBFPast": {
-        "on": "click",
-        "selector": "#past",
-        "request": "event",
-        "vars": {
-           "eventCategory": "shill--click",
-           "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-           "eventLabel": "click--bf-intext--past"
-         }
-      },
-      "clickBFRegu": {
-         "on": "click",
-         "selector": "#regular",
-         "request": "event",
-         "vars": {
-            "eventCategory": "shill--click",
-            "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-            "eventLabel": "click--bf-intext--regular"
-          }
-       },
-       "clickBFProd": {
-          "on": "click",
-          "selector": "#products",
-          "request": "event",
-          "vars": {
-             "eventCategory": "shill--click",
-             "eventAction": "click-intext--{{ page.url | remove: '/' }}",
-             "eventLabel": "click--bf-intext--products"
-           }
-        },
-        "sideEBF": {
-          "on": "click",
-          "selector": "#ebf-menu-sticky",
-          "request": "event",
-          "vars": {
-             "eventCategory": "internal--click",
-             "eventAction": "click-internal--{{ page.url | remove: '/' }}",
-             "eventLabel": "click--sticky-nav"
-           }
-        },
-   {% endif %}
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",

@@ -2380,7 +2380,16 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
-   
+    "clickEbfDeals": {
+      "on": "click",
+      "selector": "#ebf-deals",
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--page7",
+         "eventLabel": "click--ebf-deals--intext"
+       }
+    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
