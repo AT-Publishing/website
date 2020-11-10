@@ -7,15 +7,15 @@
       <![CDATA[  Oh would you look at that. We didn't set any cute relevant intro for the email blast this week! It's probably because we are crypto bazzillionaires and so we don't give a flying eff about the state of our website! -- Just kidding, we probably just fucked something up. Keep it real, believe in Satoshi and follow us on Twitter @altcointrading_. What we do: ATNET cryptocurrency trading strategies and hodl strategies, the best tools for crypto trading and basic crypto OPSEC guides. Follow us on Twitter @altcointrading_ ]]>
     </description>
     <image>
-      <url>http://localhost:4000/img/logo.jpg</url>
+      <url>https://www.altcointrading.net/img/logo.jpg</url>
       <title><![CDATA[ AltcoinTrading.NET ]]></title>
-      <link>http://localhost:4000</link>
+      <link>https://www.altcointrading.net</link>
     </image>
     <language>en</language>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 04:41:05 +0000</lastBuildDate>
+    <link>https://www.altcointrading.net</link>
+    <atom:link href="https://www.altcointrading.net/rss-0-combined-weekly.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 06:11:55 +0000</lastBuildDate>
 
     <item>
       <title><![CDATA[ What's Been Going On This Week]]></title>
@@ -23,8 +23,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ news@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KarlvonBahnhof, info@altcointrading.net ]]></dc:creator>
-      <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
         <![CDATA[
@@ -72,8 +72,8 @@
       <media:content url="https://i.imgur.com/uMgLKmt.png" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ KvB ]]></dc:creator>
-      <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
             
@@ -83,7 +83,7 @@
             <p>
               <strong>Updated at 02 Nov 2020, 08:45 UTC in #REPORTS</strong> - There are risks to buying or trading crypto on no-KYC exchanges. Where are the safest places to buy crypto without KYC?
             </p>
-            <p><a href="http://localhost:4000/buy-crypto-no-kyc/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/buy-crypto-no-kyc/">[Read it]</a></p>
             ]]>
             
             
@@ -101,7 +101,7 @@
             <p>
               <strong>Updated at 09 Nov 2020, 05:39 UTC in #CRYPTOCURRENCY-WALLETS</strong> - Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets.
             </p>
-            <p><a href="http://localhost:4000/altcoin-wallets/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/altcoin-wallets/">[Read it]</a></p>
             ]]>
             
             
@@ -129,7 +129,7 @@
             <p>
               <strong>Updated at 05 Nov 2020, 07:23 UTC in #CRYPTO-TRADING-TECHNIQUE</strong> - Intro to crypto strategy for beginners. Lo and behold, there is a strategy even to hodling.
             </p>
-            <p><a href="http://localhost:4000/cryptocurrency-strategy-beginners/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/cryptocurrency-strategy-beginners/">[Read it]</a></p>
             ]]>
             
             
@@ -143,7 +143,7 @@
             <p>
               <strong>Updated at 04 Nov 2020, 03:19 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - BBands Variations on Tradingview, focusing on Bollinger Bandwidth this time. In this series we are picking and reviewing TradingView scripts for technical analysis that recently popped up in the daily popular feed.
             </p>
-            <p><a href="http://localhost:4000/scriptspotlight-bollinger-band-width-indicator/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/scriptspotlight-bollinger-band-width-indicator/">[Read it]</a></p>
             ]]>
             
             
@@ -153,7 +153,7 @@
             <p>
               <strong>Updated at 04 Nov 2020, 04:04 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - Technical indicators work. Sometimes. Should you use technical analysis for crypto?
             </p>
-            <p><a href="http://localhost:4000/technical-analysis/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/technical-analysis/">[Read it]</a></p>
             ]]>
             
             
@@ -165,7 +165,7 @@
             <p>
               <strong>Updated at 04 Nov 2020, 04:04 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - Divergence is a disagreement between price and an oscillating indicator such as MACD or RSI. It is not strong enough an indicator to enter a position, but it gives an idea of the state of the market.
             </p>
-            <p><a href="http://localhost:4000/divergences/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/divergences/">[Read it]</a></p>
             ]]>
             
             
@@ -175,7 +175,7 @@
             <p>
               <strong>Updated at 04 Nov 2020, 04:04 UTC in #CRYPTO-TECHNICAL-ANALYSIS</strong> - Ichimoku cloud strategies for crypto: Full indicator tutorial, including the controversial topic - Does it make sense to tweak Ichimoku Cloud settings for crypto trading?
             </p>
-            <p><a href="http://localhost:4000/ichimoku-cloud/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/ichimoku-cloud/">[Read it]</a></p>
             ]]>
             
             
@@ -185,7 +185,7 @@
             <p>
               <strong>Updated at 04 Nov 2020, 04:07 UTC in #CRYPTO-TRADING-TOOLS</strong> - Curated list of tools for crypto traders, hodlers and investors.
             </p>
-            <p><a href="http://localhost:4000/tools/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/tools/">[Read it]</a></p>
             ]]>
             
             
@@ -195,7 +195,7 @@
             <p>
               <strong>Updated at 03 Nov 2020, 08:14 UTC in #TRADING-PLATFORMS</strong> - Where to buy crypto and where to trade it? Which exchanges are liquid, which have issues and which look like exit scam? Updated 2020.
             </p>
-            <p><a href="http://localhost:4000/altcoin-exchanges/">[Read it]</a></p>
+            <p><a href="https://www.altcointrading.net/altcoin-exchanges/">[Read it]</a></p>
             ]]>
             
             
@@ -233,8 +233,8 @@
       <media:content url="https://cdn-images-1.medium.com/max/1000/1*gMGR9Ps4DqRq9F9h5v1Fng.jpeg" medium="image" />
       <author><![CDATA[ airdrops@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ JMT ]]></dc:creator>
-      <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
-      <link>http://localhost:4000/airdrops/</link>
+      <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+      <link>https://www.altcointrading.net/airdrops/</link>
       <content:encoded>
         <ul>
         
@@ -249,8 +249,8 @@
       <media:content url="https://i.imgur.com/hgFq1dn.jpg" medium="image" />
       <author><![CDATA[ info@altcointrading.net ]]></author>
       <dc:creator><![CDATA[ Reddit obviously ]]></dc:creator>
-      <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
-      <link>http://localhost:4000/</link>
+      <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+      <link>https://www.altcointrading.net/</link>
       <content:encoded>
         
       </content:encoded>
@@ -261,7 +261,7 @@
       <media:content url="https://i.imgur.com/EZH8aFE.jpg" medium="image" />
       <author><![CDATA[ editor@thebusinessofcrypto.com ]]></author>
       <dc:creator><![CDATA[ thebusinessofcrypto.com ]]></dc:creator>
-      <pubDate>Tue, 10 Nov 2020 04:41:05 +0000</pubDate>
+      <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
       <link>https://www.thebusinessofcrypto.com/airdropped/</link>
       <content:encoded>
         
