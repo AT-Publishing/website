@@ -49,19 +49,27 @@ layout: default-news
 
           {{ content }}
 
-           <div id="live"></div>
+           <div id="live">
            {% include ebf/live.html %}
+           </div><!--live-->
 
            {% include ebf/interlink.html %}
 
-           <div id="anticipated"></div>
+           <div id="anticipated">
            {% include ebf/anticipated.html %}
-           <div id="past"></div>
+           </div>
+
+           <div id="past">
            {% include ebf/past.html %}
-           <div id="regular"></div>
+           </div>
+
+           <div id="regular">
            {% include ebf/eternal.html %}
-           <div id="products"></div>
+           </div>
+
+           <div id="products">
            {% include ebf/brands-overview.html %}
+           </div>
 
          <blockquote>Anything you want to add? Tweet at us @altcointrading_</blockquote>
          <p>&nbsp;</p>

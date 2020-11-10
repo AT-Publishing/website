@@ -2394,6 +2394,7 @@ amp-user-notification>div>div {
       "on": "visible",
       "request": "pageview"
     },
+   
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",
@@ -2442,16 +2443,6 @@ amp-user-notification>div>div {
          "eventCategory": "shill--click",
          "eventAction": "click-spec-affil--howtoverify-signature",
          "eventLabel": "click--spec-affil"
-       }
-    },
-    "clickEbfDeals": {
-      "on": "click",
-      "selector": "#ebf-deals",
-      "request": "event",
-      "vars": {
-         "eventCategory": "shill--click",
-         "eventAction": "click-intext--howtoverify-signature",
-         "eventLabel": "click--ebf-deals--intext"
        }
     },
     "side-brand-howto": {
@@ -2822,52 +2813,36 @@ amp-user-notification>div>div {
 
 <p>We are going to walk you through the GPG signature verification on the example of <a href="/glossary/electrum/">Electrum, a popular OG bitcoin wallet</a>.</p>
 
-<p>On the official downloads page, <code class="language-plaintext highlighter-rouge">electrum.org/#download</code>, the Electrum developer provides installers for all common operating systems with their GPG signatures.</p>
+<p>You will need to use command line for this, but all the commands are listed and explained below.</p>
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601444942/atnet/_how-to/electrum-pgp-signature_fuyfch.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601444942/atnet/_how-to/electrum-pgp-signature_fuyfch.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
+<p><strong>Scammer Alert:</strong> Always download Electrum from the official downloads page, <code class="language-plaintext highlighter-rouge">electrum.org/#download</code>. Electrum provides installers for all common operating systems, along with their GPG signatures.</p>
+
+<h4 id="signature-verification-step-by-step">Signature Verification Step by step</h4>
+
 <ol>
-  <li>
-    <p>Download Electrum from the official website, <a href="https://electrum.org/#download">electrum.org</a>.</p>
-
-    <p>Download both the installer and the signature file.</p>
-  </li>
-  <li>
-    <p>Open your Terminal and install the GPG package.</p>
-
-    <p>On Mac that will be <code class="language-plaintext highlighter-rouge">brew install gnupg</code>, on Linux <code class="language-plaintext highlighter-rouge">apt install gnupg</code>.
-This is really the fastest, easiest and safest way.</p>
-  </li>
-  <li>
-    <p>Get the Electrum GPG key and check it’s the true key.</p>
-
-    <p>Look up GPG keys tied up with the domain electrum.org: <code class="language-plaintext highlighter-rouge">gpg --locate-keys electrum.org</code>.
-There should only be one answer.</p>
-
-    <p><strong>The true Electrum GPG has been published in 2011</strong>, which you should see in the <code class="language-plaintext highlighter-rouge">pub</code> line of the output.</p>
-
-    <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
-  </li>
-  <li>
-    <p>Download this key. Copy the string just below the publish date and save the key to a file on your computer:</p>
-
-    <p><code class="language-plaintext highlighter-rouge">gpg --output ~/btc.keyring --export 6694D8DE7BE8EE5631BED9502BD5824B7F9470E6</code>.</p>
-
-    <p>This should create a file at <code class="language-plaintext highlighter-rouge">~/btc.keyring</code>.</p>
-  </li>
-  <li>
-    <p>Change to the folder into which you downloaded your Electrum installer and your signature (.asc) file.</p>
-
-    <p>Verify that they are matching the GPG key:
-<code class="language-plaintext highlighter-rouge">gpgv --keyring ~/btc.keyring ./&lt;electrum-installer&gt;.asc ./&lt;electrum-installer&gt;</code></p>
-
-    <p>The output should look something like the following. It should definitely say the signature is good.</p>
-
-    <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
-  </li>
+  <li>Download Electrum from the official website, electrum.org. You will need both the installer and the GPG signature file.</li>
+  <li>Open your Terminal to install the package that can verify GPG signatures.
+ On Mac that will be <code class="language-plaintext highlighter-rouge">brew install gnupg</code>, on Linux <code class="language-plaintext highlighter-rouge">apt install gnupg</code>. This is really the fastest, easiest and safest way.</li>
+  <li>Look up GPG keys tied up with the domain electrum.org
+ You do that like this: <code class="language-plaintext highlighter-rouge">gpg --locate-keys electrum.org</code>. There should only be a single answer.
+ The true Electrum GPG has been published in 2011, which you should see in the pub line of the output.
+  <a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444962/atnet/_how-to/electrum-locate_dnnyq8.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></li>
+  <li>Save this key to your computer. The key_id is a code-like string just below the date of publishing. It will start with something like 66AB….
+ <code class="language-plaintext highlighter-rouge">gpg --output ~/btc.keyring --export &lt;key_id&gt;</code>
+ You now have a new file at ~/btc.keyring.</li>
+  <li>Change to the folder where you have your Electrum installer.
+ You’ve also got its GPG signature file there. That’s the file that ends with <code class="language-plaintext highlighter-rouge">.asc</code>.</li>
+  <li>Verify that they are matching the Electrum GPG key you downloaded.
+ <code class="language-plaintext highlighter-rouge">gpgv --keyring ~/btc.keyring ./&lt;electrum-installer&gt;.asc ./&lt;electrum-installer&gt;</code>
+ The output should say “Good signature”.
+ <a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:2c0b34,c_lpad,h_360,w_700/v1601444965/atnet/_how-to/electrum-verified_rvoxkz.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></li>
 </ol>
 
-<p>If you followed all the steps above and successfully verified the GPG signature, you can safely install the application.</p>
+<p>That’s it!</p>
+
+<p>If you followed all the steps above and got a Good signature, you can safely install the Electrum wallet.</p>
 
   					  </div><!-- strategy content -->
               <div class="meta">
@@ -2971,25 +2946,6 @@ There should only be one answer.</p>
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Timing Tools" href="/strategy/timing/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/timing/" title="Timing Tools">
-      <span class="tag custom-note">Strategic Tools</span>&nbsp;
-      <b>Timing&nbsp;Tools</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
     <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -3001,6 +2957,25 @@ There should only be one answer.</p>
     <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
       <span class="tag custom-note">Trading Approach</span>&nbsp;
       <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Technical Analysis in Crypto: How to use TA strategically" href="/strategy/technical/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_face,h_360,w_700/v1596693900/atnet/__women/pexels-ekaterina-bolovtsova-4049990_j5fhci.jpg" alt="Related in trading-psychology" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/technical/" title="Technical Analysis in Crypto: How to use TA strategically">
+      <span class="tag custom-note">Mindset</span>&nbsp;
+      <b>Technical&nbsp;Analysis&nbsp;in&nbsp;Crypt...</b>
     </a>
   </div>
 </div><!-- item row -->

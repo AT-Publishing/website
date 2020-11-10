@@ -76,43 +76,31 @@ If you download a large file and the hash the developer provided with it, you ca
 
 We are going to walk you through the GPG signature verification on the example of [Electrum, a popular OG bitcoin wallet](/glossary/electrum/).
 
-On the official downloads page, `electrum.org/#download`, the Electrum developer provides installers for all common operating systems with their GPG signatures.
+You will need to use command line for this, but all the commands are listed and explained below.
 
 {% amp700cloud page.image[1] %}
 
+**Scammer Alert:** Always download Electrum from the official downloads page, `electrum.org/#download`. Electrum provides installers for all common operating systems, along with their GPG signatures.
 
-1. Download Electrum from the official website, [electrum.org](https://electrum.org/#download).
+#### Signature Verification Step by step
 
-   Download both the installer and the signature file.
+1. Download Electrum from the official website, electrum.org. You will need both the installer and the GPG signature file.
+2. Open your Terminal to install the package that can verify GPG signatures.
+    On Mac that will be `brew install gnupg`, on Linux `apt install gnupg`. This is really the fastest, easiest and safest way.
+3. Look up GPG keys tied up with the domain electrum.org
+    You do that like this: `gpg --locate-keys electrum.org`. There should only be a single answer.
+    The true Electrum GPG has been published in 2011, which you should see in the pub line of the output.
+     {% amp700cloud page.image[2] %}
+4. Save this key to your computer. The key_id is a code-like string just below the date of publishing. It will start with something like 66AB....
+    `gpg --output ~/btc.keyring --export <key_id>`
+    You now have a new file at ~/btc.keyring.
+5. Change to the folder where you have your Electrum installer.
+    You've also got its GPG signature file there. That's the file that ends with `.asc`.
+6. Verify that they are matching the Electrum GPG key you downloaded.
+    `gpgv --keyring ~/btc.keyring ./<electrum-installer>.asc ./<electrum-installer>`
+    The output should say "Good signature".
+    {% amp700cloud page.image[3] %}
 
-2. Open your Terminal and install the GPG package.
+That's it!
 
-   On Mac that will be `brew install gnupg`, on Linux `apt install gnupg`.
-   This is really the fastest, easiest and safest way.
-
-3. Get the Electrum GPG key and check it's the true key.
-
-   Look up GPG keys tied up with the domain electrum.org: `gpg --locate-keys electrum.org`.
-   There should only be one answer.
-
-   **The true Electrum GPG has been published in 2011**, which you should see in the `pub` line of the output.
-
-   {% amp700cloud page.image[2] %}
-
-4. Download this key. Copy the string just below the publish date and save the key to a file on your computer:
-
-   `gpg --output ~/btc.keyring --export 6694D8DE7BE8EE5631BED9502BD5824B7F9470E6`.
-
-   This should create a file at `~/btc.keyring`.
-
-5. Change to the folder into which you downloaded your Electrum installer and your signature (.asc) file.
-
-   Verify that they are matching the GPG key:
-   `gpgv --keyring ~/btc.keyring ./<electrum-installer>.asc ./<electrum-installer>`
-
-   The output should look something like the following. It should definitely say the signature is good.
-
-   {% amp700cloud page.image[3] %}
-
-
-If you followed all the steps above and successfully verified the GPG signature, you can safely install the application.
+If you followed all the steps above and got a Good signature, you can safely install the Electrum wallet.
