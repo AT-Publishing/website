@@ -22,14 +22,22 @@ xmlns:turbo="http://turbo.yandex.ru">
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-bf.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2020 06:11:55 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2020 06:24:19 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2020 06:24:19 +0000</lastBuildDate>
 
     
     
       <item>
         <title><![CDATA[ BillFodl + Hardware Wallet Bundles ]]></title>
-        <description><![CDATA[  ]]></description>
+        <description><![CDATA[
+          <p>
+            <b>LIVE DEAL!</b> Get the details <a href="" | prepend: site.baseurl | prepend: site.url }}">right here</a>.
+          </p>
+          <p>
+            #billfodl&nbsp;#ledger&nbsp;#keepkey&nbsp;#trezor&nbsp;#hardware-wallet&nbsp;#bundle&nbsp;#cryptocurrency-wallet&nbsp;
+          </p>
+           ]]>
+        </description>
         <content:encoded><![CDATA[ 
 
 
@@ -68,7 +76,7 @@ NOTE: Billfodl wallets ship from the US and only show prices before tax on their
 
 
  ]]></content:encoded>
-        <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+        <pubDate>Tue, 10 Nov 2020 06:24:19 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -79,7 +87,15 @@ NOTE: Billfodl wallets ship from the US and only show prices before tax on their
     
       <item>
         <title><![CDATA[ Ledger Wallet Bundle Deals ]]></title>
-        <description><![CDATA[  ]]></description>
+        <description><![CDATA[
+          <p>
+            <b>LIVE DEAL!</b> Get the details <a href="" | prepend: site.baseurl | prepend: site.url }}">right here</a>.
+          </p>
+          <p>
+            #ledger&nbsp;#hardware-wallet&nbsp;#bundle&nbsp;
+          </p>
+           ]]>
+        </description>
         <content:encoded><![CDATA[ 
 
 
@@ -128,7 +144,7 @@ The best way to make use of the Ledger discount code deal is to have as big a to
 
 It’s also useful to have a separate wallet for the darknetmarkets. Speaking purely hypothetically of course.
  ]]></content:encoded>
-        <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+        <pubDate>Tue, 10 Nov 2020 06:24:19 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -191,7 +207,7 @@ It’s also useful to have a separate wallet for the darknetmarkets. Speaking pu
 
           ]]>
         </description>
-        <pubDate>Tue, 10 Nov 2020 06:11:55 +0000</pubDate>
+        <pubDate>Tue, 10 Nov 2020 06:24:19 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
