@@ -15,18 +15,20 @@ layout: default-news
       <amp-img itemprop="image"
       src="{{page.image[0]}}"
       alt="{{page.image_alt[0]}}" data-original-width="700px"
-      data-original-height="497px" layout="responsive" width="700px" height="497px">
+      data-original-height="394px" layout="responsive" width="700px" height="394px">
       </amp-img>
       <br>
     </div>
   </div>
   <div class="row desktop-only">
-    {% include article/cta.html %}
+    {% include callouts/bf-longest.html %}
   </div>
 
   {% assign anti = site.ebf | where: "categories", "anticipated" | reverse %}
   {% assign eter = site.ebf | where: "categories", "eternal-black-friday" | reverse  %}
   {% assign live = site.ebf | where: "categories", "live" | reverse %}
+  {% assign tlin = site.ebf | where: "categories", "timeline" | reverse %}
+
 
   <div class="row mobile-only" id="ebf-nav-mobile">
     <div role="button" on="tap:sidebar-ebf.toggle" tabindex="0">
@@ -53,11 +55,19 @@ layout: default-news
            {% include ebf/live.html %}
            </div><!--live-->
 
-           {% include ebf/interlink.html %}
+           <div id="timeline">
+             {% for item in tlin %}{{ item.content }}{% endfor %}
+           </div>
+
+
+           {% assign interlink = page.top_interlink %}
+           {% include article/interlink-generic.html %}
 
            <div id="anticipated">
            {% include ebf/anticipated.html %}
            </div>
+
+           {% include ebf/interlink.html %}
 
            <div id="past">
            {% include ebf/past.html %}

@@ -17,8 +17,8 @@
     <link>https://www.altcointrading.net/security/</link>
     <atom:link href="https://www.altcointrading.net/rss-security.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Wed, 11 Nov 2020 04:03:03 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2020 04:03:03 +0000</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2020 07:19:40 +0000</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2020 07:19:40 +0000</lastBuildDate>
 
     
       <item>
@@ -540,6 +540,41 @@
         
 
         <category>independent-reserve</category>
+        
+        
+        <category>psa</category>
+        
+      </item>
+    
+      <item>
+
+        <title>Red Flags of a Trading Platform in Trouble</title>
+        <description>Crypto trading red flags listed and explained, the poster child for troubled crypto exchange being 2017 Bittrex.</description>
+
+        <pubDate>Wed, 11 Nov 2020 03:02:00 +0000</pubDate>
+
+        <author>info@altcointrading.net</author>
+        <webmaster>security@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/b_rgb:ff3a00,c_lpad,h_360,w_700/v1605078550/atnet/_glossary/Screenshot_2020-11-11_at_2.08.33_PM_gpw9pf.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/exchange-red-flags/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/exchange-red-flags/</guid>
+        
+
+        <category>kyc</category>
+        
+
+        <category>custodial-trading</category>
+        
+
+        <category>bitfinex</category>
+        
+
+        <category>localcryptos</category>
+        
+
+        <category>bitmex</category>
         
         
         <category>psa</category>

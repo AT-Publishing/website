@@ -9,10 +9,11 @@
 {% for item in live %}
 <hr id="live-{{ item.tags[0] }}">
 <h3>{{ item.title }}</h3>
-<h5>Last Updated <b>{{ item.last_modified_at | date: "%d %b %Y at %R" }}</b></h5>
 <p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
 <article>
-  {{ item.content }}</article>
+  <h5 class="update">Last Updated <b>{{ item.last_modified_at | date: "%d %b %Y at %R" }}</b></h5>
+  {{ item.content }}
+</article>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
 </div>
