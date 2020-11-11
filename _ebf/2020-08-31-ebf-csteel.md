@@ -1,9 +1,9 @@
 ---
 title:        "Cryptosteel Eternal Black Friday Deals"
 categories:   [ eternal-black-friday ]
-tags:         [ cryptosteel, discount-coupon ]
+tags:         [ cryptosteel, cryptocurrency-wallet ]
 image:
-- ''
+- 'https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_south,h_360,w_700/v1605066267/atnet/altcoin-wallets/cryptosteel-capsule-sliding-tiles-wide-1030x686_v1llpy.jpg'
 ---
 
 {% amp700cloud page.image[0] %}

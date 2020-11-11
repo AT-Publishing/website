@@ -15,6 +15,7 @@
 {% for item in anti %}
 <hr id="anicipated-{{ item.tags[0] }}">
 <h3>{{ item.title }}</h3>
+<h5>Last Updated <b>{{ item.last_modified_at | date: "%d %b %Y at %R" }}</b></h5>
 <article>{{ item.content }}</article>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>

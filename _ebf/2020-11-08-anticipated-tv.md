@@ -3,18 +3,18 @@ title:        "TradingView Black Friday 2020 - Anticipated More than Half Price 
 categories:   [ anticipated ]
 tags:         [ tradingview, crypto-charting ]
 image:
-- 'https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg'
+- 'https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1584501142/atnet/_banner/tv_1200_628_a4o4s6.jpg'
 ---
 
 **ATNET anticipates 60% Off on Yearly Plans at TradingView Black Friday 2020**
 
-Every year, TradingView opens their Black Friday sale for the full Black Friday week (Monday - Sunday).
+Update! TradingView confirmed that in 2020, like previous years, the Black Friday discount on paid plans will run through the whole Black Friday week.
 
-They typically give **between 40% and 60%** discount on their yearly paid plans. TradingView always runs the same sale offer through both Black Friday and Cyber Monday.
+At TradingView, Black Friday 2020 runs from 23 November to 1 December!
 
-There is no difference in the TradingView Black Friday deal and the TradingView Cyber Monday deal.
+<p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</strong></p>
 
-Year on year, the Black Friday sale deals have been getting a tad better as the competition keeps popping up for TradingView.
+{% amp700cloud page.image[0] %}
 
 #### TradingView Black Friday Price
 
@@ -26,8 +26,27 @@ Price Breakdown per month with anticipated Black Friday deals for TradingView PR
 
 2020 deals prediction is based on data from [2019](#past2019-tradingview), [2018](#past2018-tradingview) and [2017](#past2017) Black Friday sales.
 
-TradingView accepts payments via PayPal, credit cards, debit cards and major cryptocurrencies.
+TradingView accepts the following means of payment:
 
-<p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</strong></p>
+* PayPal
+* credit cards
+* debit cards
+* major cryptocurrencies
+
+TradingView has a free-forever plan. If you've never used this legendary charting app, test it now to see if you like it before the yearly sale starts.
 
 <p><a href="http://bit.ly/at-tvd-eth" class="btn" rel="nofollow">TradingView FREE</a></p>
+
+
+#### What we know about TradingView blackfriday sales
+
+Every year, TradingView opens their Black Friday sale for the full Black Friday week (Monday - Sunday).
+
+They typically give **between 40% and 60%** discount on their yearly paid plans. TradingView always runs the same sale offer through both Black Friday and Cyber Monday.
+
+There is no difference in the TradingView Black Friday deal and the TradingView Cyber Monday deal.
+
+Year on year, the Black Friday sale deals have been getting a tad better as the competition keeps popping up for TradingView.
+
+
+<p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</strong></p>
