@@ -188,7 +188,7 @@
     "name": "{{ page.author_name }}"
   },
   "image":[
-    {% for item in page.image %}"{{ item | prepend: site.baseurl | prepend: site.url | xml_escape }}"{% if forloop.last == false %},{% endif %}
+    {% for item in page.image %}"{{ item | xml_escape }}"{% if forloop.last == false %},{% endif %}
     {% endfor %}
   ],
   {% if page.about %}
