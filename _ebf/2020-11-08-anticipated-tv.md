@@ -10,9 +10,9 @@ image:
 
 #### TradingView Black Friday 2020 Deal Confirmed
 
-> 60% Off on Yearly Plans at TradingView
-> Black Friday 2020 Deal starts on 23 November
-> 60% Discount on TradingView runs until 1 December
+* **60% Off** on Yearly Plans at TradingView
+* Black Friday 2020 Deal starts on **23 November**
+* 60% Discount on TradingView ends on **1 December**
 
 TradingView confirmed that in 2020, like previous years, the Black Friday discount on paid plans will run through the whole Black Friday week.
 
