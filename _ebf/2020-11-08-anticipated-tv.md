@@ -1,18 +1,26 @@
 ---
-title:        "TradingView Black Friday 2020 - Anticipated More than Half Price Off on Yearly Plans"
+title:        "TradingView Black Friday 2020 - Confirmed 60% Off (Sign Up Now)"
 categories:   [ anticipated ]
-tags:         [ tradingview, crypto-charting ]
+tags:         [ tradingview, crypto-charting, confirmed ]
 image:
 - 'https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1584501142/atnet/_banner/tv_1200_628_a4o4s6.jpg'
 ---
 
-**ATNET anticipates 60% Off on Yearly Plans at TradingView Black Friday 2020**
+**[CONFIRMED]**
 
-Update! TradingView confirmed that in 2020, like previous years, the Black Friday discount on paid plans will run through the whole Black Friday week.
+#### TradingView Black Friday 2020 Deal Confirmed
+
+> 60% Off on Yearly Plans at TradingView
+> Black Friday 2020 Deal starts on 23 November
+> 60% Discount on TradingView runs until 1 December
+
+TradingView confirmed that in 2020, like previous years, the Black Friday discount on paid plans will run through the whole Black Friday week.
+
+TradingView will discount their paid plans by 60% on Black Friday 2020.
 
 At TradingView, Black Friday 2020 runs from 23 November to 1 December!
 
-<p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on Black Friday.</strong></p>
+<p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on 23rd November!</strong></p>
 
 {% amp700cloud page.image[0] %}
 
