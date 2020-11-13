@@ -2,15 +2,7 @@
 {% assign anti = site.ebf | where: "categories", "anticipated" | sort: last_modified_at | reverse %}
 
 <section>
-  <span class="note">Last Updated <em>LIVE</em> Black Friday Deals</span>
-  <div class="row" id="bf-live-home">
-    {% for item in live limit:3 %}
-    <p>
-      <span class="update">{{ item.last_modified_at | date: "%d %b at %R"}}</span>
-       - {{ item.title }}: <a href="/blackfriday/#live-{{ item.tags[0] }}"><b>MORE</b></a>
-    </p>
-    {% endfor %}
-  </div>
+
   <span class="note">Last Updated <em>ANTICIPATED</em> Black Friday Deals</span>
   <div class="row" id="bf-live-home">
     {% for item in anti limit:3 %}
@@ -20,7 +12,19 @@
     </p>
     {% endfor %}
   </div>
+
+  <span class="note">Last Updated <em>LIVE</em> Black Friday Deals</span>
+  <div class="row" id="bf-live-home">
+    {% for item in live limit:3 %}
+    <p>
+      <span class="update">{{ item.last_modified_at | date: "%d %b at %R"}}</span>
+       - {{ item.title }}: <a href="/blackfriday/#live-{{ item.tags[0] }}"><b>MORE</b></a>
+    </p>
+    {% endfor %}
+  </div>
+
   <div class="row">
     <p><a class="btn" href="/blackfriday/">All Black Friday Deals</a></p>
   </div>
+  
 </section>
