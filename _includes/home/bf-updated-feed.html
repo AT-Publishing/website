@@ -4,11 +4,11 @@
 <section>
 
   <span class="note">Last Updated <em>ANTICIPATED</em> Black Friday Deals</span>
-  <div class="row" id="bf-live-home">
+  <div class="row" id="bf-anti-home">
     {% for item in anti limit:3 %}
     <p>
       <span class="update">{{ item.last_modified_at | date: "%d %b at %R"}}</span>
-       - {{ item.title }}: <a href="/blackfriday/#live-{{ item.tags[0] }}"><b>MORE</b></a>
+       - {{ item.title }}: <a href="/blackfriday/#anticipated-{{ item.tags[0] }}"><b>MORE</b></a>
     </p>
     {% endfor %}
   </div>
@@ -26,5 +26,5 @@
   <div class="row">
     <p><a class="btn" href="/blackfriday/">All Black Friday Deals</a></p>
   </div>
-  
+
 </section>

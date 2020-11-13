@@ -1,5 +1,5 @@
 ---
-title:        "TradingView Black Friday 2020 - Confirmed 60% Off (Sign Up Now)"
+title:        "[CONFIRMED] TradingView Black Friday 2020 - Confirmed 60% Off (Sign Up Now)"
 categories:   [ anticipated ]
 tags:         [ tradingview, crypto-charting, confirmed ]
 image:
