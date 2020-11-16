@@ -1,0 +1,354 @@
+I"^[<p>Lets start this article about altcoin wallets right off with the obligatory reminder.</p>
+
+<blockquote>
+  <p>For hodlers: <strong>It is not a good idea to keep untraded cryptocurrency on an exchange.</strong></p>
+</blockquote>
+
+<p>Exchanges hold big amounts of crypto and are therefore a clear target for cyber criminals.</p>
+
+<ul>
+  <li>Read about the <a href="https://www.altcointrading.net/bitfinex-tether-transparency/">Tether hack in 2017</a></li>
+  <li>Or about the <a href="https://www.altcointrading.net/dao-hack/">DAO hack in 2016</a></li>
+  <li>Or about the <a href="https://www.altcointrading.net/finexening/">Bitfinex hack in 2016</a></li>
+</ul>
+
+<blockquote>
+  <p>For traders: <strong>It is also not a good idea to send coins from one exchange to another.</strong></p>
+</blockquote>
+
+<p>Crypto exchanges are not banks. They are not supposed to having people transacting among them. <a href="/bitifinex-eats-your-eth/">Plus, it’s for your own security that exchanges detect transactions that do not come from a wallet and trash them</a>. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.</p>
+
+<p><strong>Now, quick TLDR for those who don’t want to get paralysed by too many options:</strong></p>
+
+<h3 id="your-best-bet-in-terms-of-cryptocurrency-storage">Your best bet in terms of cryptocurrency storage</h3>
+
+<p><strong>Everyone’s Favorite Altcoin Wallet</strong>: <a href="https://bit.ly/lnx_at_altcoinwallets">The Ledger Nano X</a></p>
+
+<p>The market has spoken. <strong>Ledger Nano X can be called the best cryptocurrency wallet</strong> that’s currently out there. It has limitations, but for the day to day use it has everything you need as a trader or hodler.</p>
+
+<ul>
+  <li><a href="/blackfriday/#anticipated-ledger">Ledger Nano X Gets Cheaper on Black Friday!</a></li>
+</ul>
+
+<p>Ledger Nano X is better than Ledger Nano S for altcoin traders because it has larger memory capacity. That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.</p>
+
+<p>Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptocurrencies are supported unless their blockchain is really brand new and one of a kind.</p>
+
+<ul>
+  <li>Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and <strong>all ERC20 compliant Ethereum tokens</strong>.</li>
+  <li>For BTC and LTC, <strong>both legacy and segwit address are supported</strong>. You can view and access all address formats in Ledger Live (the app for wallet management).</li>
+  <li>All Ledger wallets have <a href="/glossary/#coin-control">easy coin control</a> via Ledger Live</li>
+  <li><a href="/howto/sign-verify-message/">Signing &amp; verifying a message</a> is <strong>not</strong> possible in Ledger wallets</li>
+</ul>
+
+<h5 id="summary">Summary</h5>
+
+<p><strong>Supported Coins:</strong> Many - BTC, ETH, LTC, XRP, ZEC &amp; more; also all ERC20 tokens</p>
+
+<p><strong>Segwit addresses:</strong> Both native and nested Segwit wallets (bech32 and P2SH) supported as subaccounts in Ledger Live</p>
+
+<p><strong>Easy</strong> <a href="/glossary/#coin-control">coin control</a></p>
+
+<p><strong>No</strong> <a href="/howto/sign-verify-message/">message signatures</a></p>
+
+<p>**</p>
+
+<p>
+<a class="btn" href="https://bit.ly/lnx_at_altcoinwallets">Get Ledger Nano X</a>
+&nbsp;
+<a class="btn" href="/blackfriday/">Deals from Eternal Black Friday</a>
+</p>
+
+<p> </p>
+
+<div class="clearfix row box-lvl-c" id="blackfriday-cta">
+  <div class="row">
+    <h5>Crypto Wallet <b>Black Friday Deals</b> Always Come <em>Early</em></h5>
+  </div>
+  <div class="row home-glossary">
+    <div class="columns four" id="bf-callout-ledger">
+      <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/#live-ledger"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/ledger_bundles_wkd9dp.jpg" alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy" data-original-width="336px" data-original-height="280px" width="336px" height="280px" layout="responsive"> </amp-img></a></div><br />
+    </div>
+    <div class="columns four" id="bf-callout-billfodl">
+      <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/#live-billfodl"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/billfodl1_bsiyki.jpg" alt="Crypto Black Friday offers 2020 - BillFodl and Trezor Bundles" data-original-width="336px" data-original-height="280px" width="336px" height="280px" layout="responsive"> </amp-img></a></div><br />
+    </div>
+    <div class="columns four" id="bf-callout-tv">
+      <div class="text-center"> <a class="index-internal" target="_blank" href="/blackfriday/#anicipated-tradingview"> <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1604026300/atnet/blackfriday2020/tradingview-incoming_iokoq8.jpg" alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy" data-original-width="336px" data-original-height="280px" width="336px" height="280px" layout="responsive"> </amp-img></a></div><br />
+    </div>
+  </div>
+</div>
+
+<p> </p>
+
+<div id="multicoin-apps"></div>
+
+<h3 id="your-most-easy-to-use-crypto-wallets-mobile-wallet-apps">Your most easy-to-use Crypto Wallets: Mobile Wallet Apps</h3>
+
+<blockquote>
+  <p>Multi-coin wallet apps</p>
+</blockquote>
+
+<ul>
+  <li>Exodus</li>
+  <li>Jaxx</li>
+  <li>Blockchain.com</li>
+</ul>
+
+<h4 id="exodus-multicoin-wallet">Exodus Multicoin Wallet</h4>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1588058978/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.18.06_owggbk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ul>
+  <li><a href="https://www.exodus.io/">https://www.exodus.io/</a></li>
+</ul>
+
+<p>Multicoin wallet for deskop and smartphone with integrated an swap exchange inside the app.</p>
+
+<p>Exodus is currently your best option for a multicoin wallet:</p>
+
+<ul>
+  <li>The amount of supported coins  is the largest (110 cryptocurrencies in 2020).</li>
+  <li>Exodus supports Monero.</li>
+  <li>For Bitcoin, <strong>both legacy and segwit</strong> addresses are supported You automatically get a pair of legacy (<code class="language-plaintext highlighter-rouge">1</code>-address) and segwit addresses (<code class="language-plaintext highlighter-rouge">bc</code>-address, bech32 native segwit) so that you can always withdraw no matter what address type your exchange supports.</li>
+  <li>The customer support is great and you get a status page to check in case your app gets sluggish.</li>
+  <li>There is a swap exchange inside the app.</li>
+  <li>Exodus also integrates with hardware wallets (Ledger, Trezor).</li>
+</ul>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596614896/atnet/altcoin-wallets/exodus-android-app_en491r.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596614896/atnet/altcoin-wallets/exodus-android-app_en491r.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>The Exodus wallet app is super user-friendly. It won’t let you do anything too technical, but it is great for beginners.</p>
+
+<ul>
+  <li>You launch the wallet as any other app, no user sign up. You can start from a seedphrase but you don’t have to.</li>
+  <li>As there are over 100 altcoins supported, you need to enable wallet functionality for any coin you want to store.</li>
+  <li>Wallets are <strong>generated for you without giving you their seed phrase</strong> yet.</li>
+  <li>To backup your seedphrase, you first need to receive some coin into any wallet at all. The <a href="https://support.exodus.io/article/41-how-do-i-backup-my-exodus-wallet">Exodus backup option</a> is only unlocked after you make a deposit. This way you will only have seed phrases written down that actually have money on them.</li>
+  <li>The only owner of your private keys is you.</li>
+  <li><strong>Do not forget backing up your seed phrase!</strong></li>
+</ul>
+
+<p>Among the advanced options that you can choose in Exodus wallet is enabling the generation of new BTC addresses after each receiving transaction and setting up passcode or fingerprint lock.</p>
+
+<h5 id="summary-1">Summary</h5>
+
+<p><strong>Supported Coins:</strong> BTC, ETH, ERC20 tokens, Tezos, EOS, XRP, TRX… <strong>= 110 cryptoassets in total</strong></p>
+
+<p><strong>Segwit addresses:</strong> BTC Native <a href="/glossary/#segwit">segwit</a> supported (bech32 wallet)</p>
+
+<p><strong>No</strong> advanced functions (coin control, message signatures)</p>
+
+<h4 id="jaxx-multicoin-wallet">Jaxx Multicoin Wallet</h4>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588058183/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.16.02_scvbmp.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ul>
+  <li><a href="https://www.jaxx.io/">https://www.jaxx.io/</a></li>
+</ul>
+
+<p>Still one of the most popular multicoin wallets these days is <a href="https://jaxx.io/support.html">Jaxx</a>. It is available as browser extension, desktop app and mobile app.</p>
+
+<p>Jaxx wallet is very user-friendly and good for the beginners:</p>
+<ul>
+  <li>You launch the wallet as any other app, no user sign up.</li>
+  <li>Wallets are automatically generated for you. No seed handling right at the start.</li>
+  <li>To see your private keys (seed phrase), you need to run backup. <strong>Backup options is available even if you do not have any crypto in your wallet yet.</strong> You will find the Backup option under <em>Settings</em> on the right hand side.</li>
+  <li>The only owner of your private keys is you.</li>
+  <li><strong>Do not forget backing up your seed phrase!</strong></li>
+</ul>
+
+<p>Since Jaxx 1.2 you get <a href="https://shapeshift.io/">Shapeshift</a> exchange integrated within the wallet.</p>
+
+<h5 id="summary-2">Summary</h5>
+
+<p><strong>Supported coins:</strong> BTC, ETH, ERC20 via MyEtherWallet, ETC, DASH, LTC, REP, RSK, ZEC… <strong>= 90 cryptoassets in total</strong></p>
+
+<p><strong>Segwit addresses:</strong> Not supported (legacy wallets only)</p>
+
+<p><strong>No</strong> advanced functions (coin control, message signatures)</p>
+
+<h4 id="blockchaincom-wallet-for-btc-eth-and-xlm">Blockchain.com Wallet for BTC, ETH and XLM</h4>
+
+<p>If you only need to store <strong>BTC, ETH and XLM</strong>,  smartphone app for you in 2020 the <strong>blockchain.com</strong> wallet (formerly blockchain.info).</p>
+
+<ul>
+  <li>The smartphone app can be unlocked with PIN or fingerprint.</li>
+  <li>You automatically get the Blockchain.com web wallet access. It is a web wallet, which is less secure, but it has several levels of MFA (multi-factor authentication) and a whitelist option.</li>
+  <li>The Blockchain.com wallet offers ID verification option for your account. Verified users get access to <strong>airdrops</strong>, <strong>fiat-to-crypto</strong> exchange and <strong>ETH staking</strong> wallet.</li>
+</ul>
+
+<p>Be careful though: The <code class="language-plaintext highlighter-rouge">blockchain.com</code> wallet is the favorite target of imposter attacks. Always double check you are downloading the app from developer company <strong>Blockchain Luxembourg SARL</strong>.</p>
+
+<h5 id="summary-3">Summary</h5>
+
+<p><strong>Supported Coins:</strong> BTC, ETH, XLM</p>
+
+<p><strong>Segwit addresses:</strong> Not supported (legacy wallet only)</p>
+
+<p><strong>No</strong> advanced functions (coin control, message signatures)</p>
+
+<blockquote>
+  <p>Single-coin Wallet Apps</p>
+</blockquote>
+
+<p>Some less mainstream cryptocurrencies are still not supported by the popular multi-coin wallets like Jaxx or Exodus. Some of them do have their own wallet apps for smartphones now, which are easy to use.</p>
+
+<p>We will also mention one Bitcoin-only wallet because of its special features.</p>
+
+<ul>
+  <li>MyMonero</li>
+  <li>IOTA Trinity</li>
+  <li>Samourai</li>
+</ul>
+
+<h4 id="mymonero-lightweight-wallet">MyMonero Lightweight Wallet</h4>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_west,h_360,w_700/v1588057688/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_14.07.35_hp3g8r.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><strong><a href="https://mymonero.com/#/">mymonero.com</a></strong></p>
+
+<p>MyMonero has been long endorsed on the Monero’s official website (getmonero.com).</p>
+
+<p>MyMonero was originally only available as a web wallet. In 2020 you get the <a href="https://wallet.mymonero.com/">monero web wallet</a> and a <a href="https://mymonero.com/">desktop/smartphone app</a>.</p>
+
+<p>The MyMonero wallet is super simple.</p>
+<ul>
+  <li>To use it, you don’t have to sign up. Just access the app or website and start the mnemonic phrase generation.</li>
+  <li>The mnemonic phrase is your private key.</li>
+  <li>Your private key is not stored anywhere on the server, you are its sole owner. <strong>The danger is, you need to type in your seed into the web interface</strong> to access your wallet.</li>
+</ul>
+
+<p>If you don’t want to use MyMonero, you have other options - <a href="/monero-wallet/">read here</a>.</p>
+
+<h3 id="iota-trinity-wallet-app">IOTA Trinity Wallet App</h3>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596616733/atnet/altcoin-wallets/iota-trinity_showcase_whz3v7.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1596616733/atnet/altcoin-wallets/iota-trinity_showcase_whz3v7.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<ul>
+  <li><a href="https://trinity.iota.org/">https://trinity.iota.org/</a></li>
+</ul>
+
+<p>Trinity is a relatively new release, and the first IOTA wallet that works without weird high-tech settings hacks. Trinity is the official wallet for IOTA and it is a desktop and smartphone app.</p>
+
+<p>Using Trinity is easy and great for beginners (not that you’d have much choice though) but you can still enable advanced, more technical mode.</p>
+
+<ul>
+  <li>The app starts with the option to either use a private key or to generate a new one.</li>
+  <li>If you are generating a new key, Trinity will force you to write it down and then TYPE IT BACK instead of copypasting it. This is good for security (but a pain in the a$$ because IOTA seeds are not mnemonic).</li>
+  <li>The sync of the transactions is a bit sluggish but in general there is less of the problem with vanishing histories that we knew from previous IOTA wallets.</li>
+</ul>
+
+<p>More in-depth and technical writeup on how to <a href="/security/iota/">secure your IOTA wallet in our OPSEC section</a>.</p>
+
+<h3 id="samourai-wallet-for-bitcoin">Samourai wallet for Bitcoin</h3>
+
+<ul>
+  <li><a href="https://samouraiwallet.com/">https://samouraiwallet.com/</a></li>
+</ul>
+
+<p>This is not a post about Bitcoin wallets, and Samourai will be an overkill for traders who just need something easy to move money around. But there are certain situations that would warrant the use of a wallet like Samourai.</p>
+
+<p>Samourai is a privacy-focused Bitcoin wallet that features coin mixing capabilities.</p>
+
+<p>Exchanges like Coinbase and Kraken check for the history of the coins you deposit and will make you trouble if your bitcoins were on the darknet or a casino site before.</p>
+
+<p>That’s when you could use Samourai wallet and it’s Staggered Ricochet - <a href="https://www.thebusinessofcrypto.com/articles/samourai-wallet-staggered-ricochet">learn more on The Business Of Crypto</a>.</p>
+
+<ul>
+  <li>If you want to learn more about privacy and security in crypto, head to our <a href="/security/">OPSEC section here</a>.</li>
+</ul>
+
+<h2 id="hardware-wallets-for-altcoins-storage">Hardware Wallets for Altcoins Storage</h2>
+
+<p>If you are planning to hold an altcoin for more than one year, you should really get a hardware wallet. You will still need to keep it updated, but in your case you are still getting the best security even from basic setups.</p>
+
+<p>The reason is that your chances of messing up something or getting hacked are minimal if you have the private key on any dedicated device simply thanks to the fact that you don’t use the device on a daily basis.</p>
+
+<p>The easiest choice here is a commercial hardware wallet device, but you can absolutely have a phone app on a dedicated smartphone. If you care about your BTC holdings only, you can do <a href="/glossary/electrum/">Electrum wallet</a> on a dedicated laptop.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1588053657/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.57.04_kgpitv.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="ledger-wallet-for-altcoins">Ledger Wallet for Altcoins</h4>
+
+<p>It seems unbelievable now but back in 2016 Ledger Wallet used to claim they would not support any altcoins. They started adding altcoin support to Nano S with the first altcoin bubble in 2017.</p>
+
+<ul>
+  <li>Nano S is not the best option though, because it has a limited memory capacity and can only hold one or two different crypto wallets.</li>
+  <li>A single <a href="https://bit.ly/lnx_at_altcoinwallets">Ledger Nano X</a> is way better in this aspect.</li>
+  <li>You might still prefer Nano S if you want to split your holdings into multiple devices. There are <a href="https://bit.ly/bundles_at_altcoinwallets">bundles available</a>.</li>
+</ul>
+
+<p>Native Support: <strong>Bitcoin, Ethereum, Monero, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis.</strong></p>
+
+<p>Via 3rd party private key management: <strong>All Ethereum tokens of the ERC20 standard</strong>. All ETH tokens can be managed using Ledger Nano S and Ledger Blue with <a href="https://www.myetherwallet.com/">MyEtherWallet</a>.</p>
+
+<p><strong>On Reddit:</strong></p>
+
+<ul>
+  <li>Subreddit - <a href="https://www.reddit.com/r/ledgerwallet">r/ledgerwallet/</a></li>
+  <li>People - <a href="https://www.reddit.com/u/btchip/">u/btchip</a></li>
+</ul>
+
+<p>
+<a class="btn" href="https://bit.ly/lnx_at_altcoinwallets">Get Ledger Nano X</a>
+&nbsp;
+<a class="btn" href="https://bit.ly/bundles_at_altcoinwallets">Current Bundle Offers</a>
+</p>
+
+<h5 id="summary-4">Summary</h5>
+
+<p><strong>Supported Coins:</strong> Many - BTC, ETH, XRP LTC, XRP, ZEC &amp; more; also all ERC20 tokens</p>
+
+<p><strong>Segwit addresses:</strong> Both native and nested Segwit supported (bech32 and P2SH)</p>
+
+<h4 id="trezor-wallet-for-altcoins">Trezor wallet for Altcoins</h4>
+
+<p>Trezor utilizes similar system as Ledger Wallet. There is a set of native apps, you are able to manage several cryptocurrency wallets from a web app after unlocking your access with your PIN.</p>
+
+<p>Trezor is not as popular as ledger because it’s more expensive and less user-friendly.</p>
+
+<ul>
+  <li>TREZOR supports natively: <strong>BTC, ETH, DASH, LTC, ZEC…</strong></li>
+  <li>Via 3rd party private key management: <strong>Any ERC20 token</strong> via MyEtherWallet.</li>
+  <li>For BTC and LTC, both legacy and segwit addresses are supported.</li>
+</ul>
+
+<p><strong>On Reddit:</strong></p>
+
+<ul>
+  <li>Subreddit - <a href="https://www.reddit.com/r/trezor">r/TREZOR</a></li>
+  <li>People - <a href="https://www.reddit.com/u/slush0">u/slush0</a>, <a href="https://www.reddit.com/u/stickac">u/stickac</a></li>
+</ul>
+
+<h5 id="summary-5">Summary</h5>
+
+<p><strong>Supported Coins:</strong> Many - BTC, ETH, LTC, XRP, ZEC &amp; more; also all ERC20 tokens</p>
+
+<p><strong>Segwit addresses:</strong> Both native and nested Segwit supported (bech32 and P2SH)</p>
+
+<p> </p>
+
+<h3 id="electrum-forks">Electrum Forks</h3>
+
+<p>While Electrum for Bitcoin (<a href="https://electrum.org/#home">https://electrum.org/</a>) is a safe option, you should be careful with Electrum for altcoins.</p>
+
+<p><a href="/glossary/electrum/">The altcoin spin-offs of Electrum were not developed by the same author as the original Electrum.</a> They are just forks - the Electrum code is open-sourced.</p>
+
+<p>Some of them <em>can</em> be malicious or forked from an old version of Electrum that has a vulnerability:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,g_north,h_360,w_700/v1588053117/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.37.36_cqbzj7.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,g_north,h_360,w_700/v1588053117/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.37.36_cqbzj7.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>You should only use an Electrum fork if you are able to check its codebase and confirm the code is not malicious.</p>
+
+<p>These two Electrum forks have been quite popular:</p>
+<ul>
+  <li>Electrum for Litecoin - <a href="https://electrum-ltc.org/">https://electrum-ltc.org/</a></li>
+  <li>Electrum for Dash - <a href="https://www.dash.org/downloads">https://www.dash.org/downloads</a></li>
+</ul>
+
+<h3 id="web-based-multi-altcoin-wallets">Web Based Multi-Altcoin Wallets</h3>
+
+<p>Most web-based wallets, the private keys are stored by a third party. You should not consider these as a safe altcoin storage.</p>
+
+<p>Opt for <strong>blockchain.com</strong> or one of the multicoin wallets above for a good ratio of convenience and security.</p>
+:ET

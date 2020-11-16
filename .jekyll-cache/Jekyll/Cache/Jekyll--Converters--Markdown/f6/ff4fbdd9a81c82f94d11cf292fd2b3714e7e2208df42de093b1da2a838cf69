@@ -1,0 +1,20 @@
+I"E<p>Electrum is one of the oldest cryptocurrency wallets still in use.</p>
+
+<p>The original Electrum wallet is a <strong>bitcoin wallet</strong>. Its homepage is at <a href="https://electrum.org">electrum.org</a> and it is actively maintained by the same developer, Thomas Voegtlin, since 2011.</p>
+
+<p>Electrum has a good track record in terms of security.</p>
+
+<p>It can be an advanced bitcoin wallet if you enable advanced functionalities, but if you are more on the beginner end, they won’t stand in your way.</p>
+
+<p><strong>You Might Need These How-To’s:</strong></p>
+
+<ul>
+  <li><a href="/howto/verify-signature/#electrum">How to safely install Electrum wallet, step by step guide</a></li>
+  <li><a href="/security/backups/">How to backup Electrum wallet</a> (both the seed phrase and the full wallet)</li>
+  <li><a href="/howto/sign-verify-message/#how-to-sign-a-message-in-electrum">How to make bitcoin signature in Electrum wallet</a></li>
+  <li><a href="/howto/sign-verify-message/#how-to-verify-a-message-in-electrum">How to verify bitcoin signature in Electrum wallet</a></li>
+  <li><a href="/security/sweep-private-keys/">How to sweep private keys in Electrum</a></li>
+  <li><a href="/howto/generate-bitcoin-p2sh-address/">How to generate nested SegWit (P2SH) addresses (3-format) from your Bitcoin seed in Electrum</a></li>
+</ul>
+
+:ET

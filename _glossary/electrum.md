@@ -33,8 +33,8 @@ It can be an advanced bitcoin wallet if you enable advanced functionalities, but
 
 * [How to safely install Electrum wallet, step by step guide](/howto/verify-signature/#electrum)
 * [How to backup Electrum wallet](/security/backups/) (both the seed phrase and the full wallet)
-* [How to sign a message in Electrum wallet](/howto/sign-verify-message/#how-to-sign-a-message-in-electrum)
-* [How to verify a message in Electrum wallet](/howto/sign-verify-message/#how-to-verify-a-message-in-electrum)
+* [How to make bitcoin signature in Electrum wallet](/howto/sign-verify-message/#how-to-sign-a-message-in-electrum)
+* [How to verify bitcoin signature in Electrum wallet](/howto/sign-verify-message/#how-to-verify-a-message-in-electrum)
 * [How to sweep private keys in Electrum](/security/sweep-private-keys/)
 * [How to generate nested SegWit (P2SH) addresses (3-format) from your Bitcoin seed in Electrum](/howto/generate-bitcoin-p2sh-address/)
 
@@ -96,6 +96,6 @@ As a precaution, it is recommended to
 ### Electrum Advanced Features
 
 * **Coin Control:** Deciding which incoming transaction you want to spend. This is useful for [dust attacks](/glossary/dust-attack/)
-* **Sign & Verify**: Electrum lets you [sign a message with your private keys](/howto/sign-verify-message/). A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.  
+* **Bitcoin Signatures**: Electrum lets you [sign a message with your private keys](/howto/sign-verify-message/). A valid signature is a proof of ownership of that private key. This verification is typically needed when you lose access to an exchange account where you were not verified.  
 * **Sweeping**: Private key [sweeping](/security/sweep-private-keys/), which is useful for redeeming forks and airdrops.
 * **Watch-Only**: Creating watch-only wallets. This is a way to keep track of your transactions that is safer than having a full crypto wallet up and running.

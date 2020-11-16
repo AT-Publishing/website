@@ -1,7 +1,7 @@
 ---
 layout:       at-trading
-title:        "How to sign a message or verify a signature in a bitcoin wallet"
-description:  "This is the one thing where you might actually need the Electrum wallet. Ledger wallet no longer supports message signing."
+title:        "Bitcoin Signature: How to sign and verify a message in your bitcoin wallet"
+description:  "Ledger wallet no longer supports bitcoin signatures. You will need the Electrum wallet, but signatures are easy to do."
 note:         "Tech"
 date:         2020-11-03 03:42:00 +0700
 slug:         sign-verify-message/
@@ -29,6 +29,31 @@ You know what they say: Not your keys, not your bitcoin.
 Conversely - if you can prove you own the keys, for all intents and purposes that also says you own the crypto.
 
 **This verification is typically needed when you lose access to an exchange account where you were not KYC'd.**
+
+### How to Make Bitcoin Signature in Electrum
+
+{% amp700cloud page.image[1] %}
+
+1. Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.
+2. Go to addresses and find the address you need to use.
+3. Right-click the address and choose "Sign/Verify Message"
+4. Copypaste the message to sign into its box and click "Sign". You will be asked for the wallet password.
+5. The signature string is in the bottom box.
+
+{% amp700cloud page.image[2] %}
+
+
+### How to Verify Bitcoin Signature in Electrum
+
+
+1. Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.
+2. Go to addresses and find the address you need to use.
+3. Right-click the address and choose "Sign/Verify Message"
+4. Copypaste the message to sign into its box.
+5. Copypaste the signature into its box and click "Verify".
+
+
+## Why do we use Bitcoin signatures
 
 ### Message Signature as a proof
 
@@ -83,25 +108,3 @@ This can happen. Especially if you use native segwit address.
 To prove your ownership, the exchange (or whoever asks) can require you to move an arbitrary (but pre-defined) amount of crypto from the address in question to any other address in your wallet.
 
 You are sending money to yourself, so there is no loss (other than transaction fee). Signature is still obviously the preferred method.
-
-### How to Sign a Message in Electrum
-
-{% amp700cloud page.image[1] %}
-
-1. Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.
-2. Go to addresses and find the address you need to use.
-3. Right-click the address and choose "Sign/Verify Message"
-4. Copypaste the message to sign into its box and click "Sign". You will be asked for the wallet password.
-5. The signature string is in the bottom box.
-
-{% amp700cloud page.image[2] %}
-
-
-### How to Verify a Message in Electrum
-
-
-1. Open the Electrum wallet. If you have multiple wallets, you need to go to the one which has the address you are verifying.
-2. Go to addresses and find the address you need to use.
-3. Right-click the address and choose "Sign/Verify Message"
-4. Copypaste the message to sign into its box.
-5. Copypaste the signature into its box and click "Verify".

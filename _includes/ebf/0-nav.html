@@ -15,7 +15,7 @@
     <a href="#anticipated">Anticipated Black Friday Deals 2020</a>
     <ul>
     {% for item in anti %}
-    <li><a href="#anicipated-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+    <li><a href="#anticipated-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
     {% endfor %}
     </ul>
   </li>
