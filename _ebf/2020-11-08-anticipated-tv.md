@@ -22,6 +22,8 @@ At TradingView, Black Friday 2020 runs from 23 November to 1 December!
 
 <p><strong>Start with <a href="http://bit.ly/at-tvd-eth" rel="nofollow">TradingView FREE plan</a> and if you like it, upgrade on 23rd November!</strong></p>
 
+<p><strong>...By the way.</strong> Bfx still lets people trade with no KYC. <a href="http://bit.ly/the-cat-mouse-game" rel="nofollow" target="_blank">Sign up here</a> and get 6% fee off.</p>
+
 
 ##### Why upgrade your TradingView on Black Friday?
 
