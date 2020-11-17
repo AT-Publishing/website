@@ -20,8 +20,6 @@ image: [
 
 image_alt: ["Why you shouldn't lend your cryptocurrency for peanuts"]
 
-date: 2017-11-11 10:36:00 +0700
-update: 2017-11-11 11:39:00 +0700
 
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
@@ -29,7 +27,7 @@ author_twitter: "@_KarlVonBahnhof"
 
 ---
 
-A lot has been written about margin funding — ranging from “hey free moneyh” to country-specific tax problems.
+A lot has been written about margin funding. Anything from “hey free moneyh” to country-specific tax problems.
 
 Some crypto traders like to lend their coins when they aren’t trading them (and also when they want to make themselves stop trading), some (a minority) prefer to withdraw their coins to a wallet where they own the private keys unless the lending rates go to really mental heights.
 

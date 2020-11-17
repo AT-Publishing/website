@@ -1,4 +1,4 @@
-I"‹<<h4 id="just-here-for-the-quick-action">Just Here for the quick action?</h4>
+I"†<<h4 id="just-here-for-the-quick-action">Just Here for the quick action?</h4>
 
 <p>Enter Bitfinex Referral Code <code class="language-plaintext highlighter-rouge">5egV78YtlC</code> or click the shill link below to get <strong>6% fee discount</strong> on Bitfinex.</p>
 
@@ -26,16 +26,16 @@
     
     <div class="row">
       <div class="columns five">
-        <a href="/strategy/wyckoff-ranging-markets/">
+        <a href="/strategy/timing/">
           <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
           </figure>
         </a>
       </div>
       <div class="columns seven">
-        <a href="/strategy/wyckoff-ranging-markets/"><h5>Wyckoff trading method for ranging markets</h5></a>
-        <p>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</p>
+        <a href="/strategy/timing/"><h5>Timing tools</h5></a>
+        <p>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</p>
       </div>
     </div>
     
@@ -56,16 +56,16 @@
     
     <div class="row">
       <div class="columns five">
-        <a href="/strategy/timing/">
+        <a href="/strategy/wyckoff-ranging-markets/">
           <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
           </figure>
         </a>
       </div>
       <div class="columns seven">
-        <a href="/strategy/timing/"><h5>Timing tools</h5></a>
-        <p>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</p>
+        <a href="/strategy/wyckoff-ranging-markets/"><h5>Wyckoff trading method for ranging markets</h5></a>
+        <p>Fully reworked primer on ranging crypto markets. Includes Wyckoff method for market phases and recommended TradingView scripts.</p>
       </div>
     </div>
     
@@ -79,8 +79,8 @@
         </a>
       </div>
       <div class="columns seven">
-        <a href="/strategy/dollar-cost-averaging/"><h5>The case for dca</h5></a>
-        <p>Actually crunching the numbers for you.</p>
+        <a href="/strategy/dollar-cost-averaging/"><h5>Complete crypto dca strategy: why, how, where</h5></a>
+        <p>Did you know by how much can DCA beat HODL?</p>
       </div>
     </div>
     

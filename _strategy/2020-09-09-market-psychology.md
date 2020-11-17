@@ -2,7 +2,6 @@
 orderby:      b
 genres:       Blog
 note:         'Beyond TA'
-date:         2020-09-09 00:01:00 +0700
 layout:       strategy
 promoting:    exchanges
 

@@ -19,47 +19,9 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 17 Nov 2020 04:27:51 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Nov 2020 04:27:51 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2020 07:03:08 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2020 07:03:08 +0000</lastBuildDate>
 
-    
-      <item>
-
-        <title>Wyckoff trading method for ranging markets</title>
-        <description>A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases.</description>
-
-        <pubDate>Sat, 21 Oct 2017 22:16:00 +0000</pubDate>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>strategy@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</guid>
-
-        
-        <category>crypto-charting</category>
-        
-        <category>crypto-technical-analysis</category>
-        
-        <category>wyckoff-trading-crypto</category>
-        
-        <category>crypto-trading-strategy</category>
-        
-        <category>bitfinex</category>
-        
-        <category>independent-reserve</category>
-        
-        <category>tradingview</category>
-        
-        <category>top</category>
-        
-        
-        <category>pattern-trading</category>
-        
-
-      </item>
     
       <item>
 
@@ -79,40 +41,6 @@
         
         
         <category>trading-technique</category>
-        
-
-      </item>
-    
-      <item>
-
-        <title>Margin Lending Strategy Template (Best for Bitfinex lending)</title>
-        <description>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</description>
-
-        <pubDate>Sat, 11 Nov 2017 03:36:00 +0000</pubDate>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>strategy@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/strategy/lending/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/lending/</guid>
-
-        
-        <category>crypto-lending</category>
-        
-        <category>crypto-trading-strategy</category>
-        
-        <category>market-metrics</category>
-        
-        <category>bitfinex</category>
-        
-        <category>bitmex</category>
-        
-        <category>poloniex</category>
-        
-        
-        <category>yield</category>
         
 
       </item>
@@ -363,48 +291,10 @@
     
       <item>
 
-        <title>The Case for DCA</title>
-        <description>Actually crunching the numbers for you.</description>
-
-        <pubDate>Sat, 28 Sep 2019 00:41:00 +0000</pubDate>
-
-        <author>AltcoinTrading.NET@altcointrading.net</author>
-        <webmaster>strategy@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/strategy/dollar-cost-averaging/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/dollar-cost-averaging/</guid>
-
-        
-        <category>crypto-trading-strategy</category>
-        
-        <category>hodl-strategy</category>
-        
-        <category>crypto-investment-strategy</category>
-        
-        <category>trading-strategy</category>
-        
-        <category>dollar-cost-averaging</category>
-        
-        <category>bitfinex</category>
-        
-        <category>independent-reserve</category>
-        
-        <category>top</category>
-        
-        
-        <category>trading-technique</category>
-        
-
-      </item>
-    
-      <item>
-
         <title>Technical Analysis in Crypto: How to use TA strategically</title>
         <description>With links to the selection of best tools and scripts</description>
 
-        <pubDate>Wed, 13 May 2020 23:41:00 +0000</pubDate>
+        <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
 
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
@@ -438,7 +328,7 @@
         <title>Crypto Market Psychology vs *Your* Trading Psychology</title>
         <description>The crypto market psychology is what it is for a reason. If that makes you uncomfortable, try working on your trading psychology.</description>
 
-        <pubDate>Tue, 08 Sep 2020 17:01:00 +0000</pubDate>
+        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
 
         <author>KarlVonBahnhof@altcointrading.net</author>
         <webmaster>strategy@altcointrading.net</webmaster>
@@ -467,6 +357,118 @@
         
         
         <category>trading-psychology</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Margin Lending Strategy Template (Best for Bitfinex lending)</title>
+        <description>How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</description>
+
+        <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/lending/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/lending/</guid>
+
+        
+        <category>crypto-lending</category>
+        
+        <category>crypto-trading-strategy</category>
+        
+        <category>market-metrics</category>
+        
+        <category>bitfinex</category>
+        
+        <category>bitmex</category>
+        
+        <category>poloniex</category>
+        
+        
+        <category>yield</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Wyckoff trading method for ranging markets</title>
+        <description>Fully reworked primer on ranging crypto markets. Includes Wyckoff method for market phases and recommended TradingView scripts.</description>
+
+        <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</guid>
+
+        
+        <category>crypto-charting</category>
+        
+        <category>crypto-technical-analysis</category>
+        
+        <category>wyckoff-trading-crypto</category>
+        
+        <category>crypto-trading-strategy</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
+        <category>tradingview</category>
+        
+        <category>top</category>
+        
+        
+        <category>pattern-trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Complete Crypto DCA Strategy: Why, How, Where</title>
+        <description>Did you know by how much can DCA beat HODL?</description>
+
+        <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+
+        <author>AltcoinTrading.NET@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1598344764/atnet/__women/priscilla-du-preez-bZQJLStVYWs-unsplash_ta0vjj.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/dollar-cost-averaging/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/dollar-cost-averaging/</guid>
+
+        
+        <category>crypto-trading-strategy</category>
+        
+        <category>dca</category>
+        
+        <category>hodl</category>
+        
+        <category>dollar-cost-averaging</category>
+        
+        <category>crypto-investment-strategy</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
+        <category>top</category>
+        
+        
+        <category>trading-technique</category>
         
 
       </item>

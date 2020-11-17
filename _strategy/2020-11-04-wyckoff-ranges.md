@@ -5,7 +5,7 @@ orderby:        c
 promoting:      analysis
 
 title:        "Wyckoff trading method for ranging markets"
-description:  "A primer on how to look at a ranging market. Long read, specific to trading ranges in cryptocurrencies, and some basic Wyckoff method to look into the market phases."
+description:  "Fully reworked primer on ranging crypto markets. Includes Wyckoff method for market phases and recommended TradingView scripts."
 
 categories: [ pattern-trading ]
 tags:       [ crypto-charting, crypto-technical-analysis, wyckoff-trading-crypto, crypto-trading-strategy, bitfinex, independent-reserve, tradingview, top ]
@@ -26,7 +26,6 @@ image_alt:
 - "Wyckoff Cryptocurrency trading strategy."
 
 layout: strategy
-date: 2017-10-22 05:16:00 +0700
 author: "https://reddit.com/u/KarlVonBahnhof"
 author_name: "KarlVonBahnhof"
 
@@ -37,9 +36,9 @@ interlink:
 
 ---
 
-*If you want more Wyckoff, take a look at the ["Wyckoff Trading"](/tag/wyckoff-trading/) tag in the blog.*
-
 > For TradingView scripts that are good for Wyckoff analysis, [jump here](#tradingview-wyckoff).
+> Paid TradingView plans will get 60% during Black Friday 2020. [Get the free trial now and upgrade in Black Friday week!](http://bit.ly/at-tvd-glob)
+> We have more Wyckoff in the ["Wyckoff Trading"](/tag/wyckoff-trading/) tag in the blog
 
 ## Wyckoff Method Definition
 

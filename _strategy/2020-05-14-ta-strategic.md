@@ -3,7 +3,6 @@ orderby:      b
 genres:       Blog
 note:         'Mindset'
 published:    true
-date:         2020-05-14 06:41:00 +0700
 layout:       strategy
 promoting:    analysis
 

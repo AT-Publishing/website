@@ -7,18 +7,8 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
-        <loc>https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</loc>
-        <lastmod>2020-11-04T04:04:28+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://www.altcointrading.net/strategy/multiple-time-frame/</loc>
         <lastmod>2020-10-23T08:02:15+00:00</lastmod>
-    </url>
-    
-    <url>
-        <loc>https://www.altcointrading.net/strategy/lending/</loc>
-        <lastmod>2020-10-06T02:30:23+00:00</lastmod>
     </url>
     
     <url>
@@ -57,11 +47,6 @@
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/strategy/dollar-cost-averaging/</loc>
-        <lastmod>2020-11-04T04:04:28+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://www.altcointrading.net/strategy/technical/</loc>
         <lastmod>2020-10-23T08:02:15+00:00</lastmod>
     </url>
@@ -69,6 +54,21 @@
     <url>
         <loc>https://www.altcointrading.net/strategy/crypto-market-psychology/</loc>
         <lastmod>2020-10-23T08:02:15+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/lending/</loc>
+        <lastmod>2020-11-17T07:00:04+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/wyckoff-ranging-markets/</loc>
+        <lastmod>2020-11-17T06:59:28+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/dollar-cost-averaging/</loc>
+        <lastmod>2020-11-17T07:01:46+00:00</lastmod>
     </url>
     
 </urlset>
