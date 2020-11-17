@@ -1,0 +1,263 @@
+I"i"<h2 id="dollar-cost-averaging-definition">Dollar Cost Averaging Definition</h2>
+
+<blockquote>
+  <p>Dollar cost averaging, or DCA, means investing set amount of money into an asset on a regular basis, disregarding the price action.</p>
+</blockquote>
+
+<h2 id="dollar-cost-averaging-strategy-in-cryptocurrencies">Dollar Cost Averaging Strategy in Cryptocurrencies</h2>
+
+<p>All you need to pull off a DCA strategy in crypto is to 1) be long-term bullish on crypto and 2) automate your regular DCA purchases. This way your emotions will not come into play.</p>
+
+<p>A monthly DCA into bitcoin looks like this:</p>
+
+<ul>
+  <li>You spend the same amount of fiat on bitcoin every month.</li>
+  <li>You buy your DCA share of bitcoin on the same day every month, regardless of how the market is moving.</li>
+</ul>
+
+<p>In the long run, doing DCA with skull-splitting regularity beats simple <a href="/glossary/hodl/">hodling</a>.</p>
+
+<p>The reason is obviously that with DCA you are adding more money to your crypto stash.</p>
+
+<p><strong>Adding to your stash makes sense, since you are already long-term bullish.</strong> Most crypto hodler don’t DCA simply because they don’t think adding a little bit every month will make a difference.</p>
+
+<p>In the following section we will illustrate that it does make a difference. DCA over two decades adds up to a lot.</p>
+
+<p>After that, we’ll mention some of the less obvious benefits of DCA.</p>
+
+<p>And lastly, the crypto exchanges that let you easily automate your crypto DCA.</p>
+
+<h2 id="why-dca-beats-hodl">Why DCA beats HODL</h2>
+
+<p>Let’s crunch the numbers.</p>
+
+<p>The two tables below show the net worth of an investor who bought a stash of 10, 50 or 200 BTC at 10k or lower.</p>
+
+<p>50k USD is a reasonable conservative target for the next bull cycle.</p>
+
+<p>We’re mapping how the value of the stash rises when BTC appreciates.</p>
+
+<h3 id="long-term-hodl-no-dca">Long-Term HODL, No DCA</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>[realistic] Long-Term Stash Only: No DCA</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BTCUSD Appreciation</td>
+      <td>From 10 000 US$</td>
+      <td>To 50 000 US$</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stash</td>
+      <td>10</td>
+      <td>50</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>- Start Value</td>
+      <td>100 000 US$</td>
+      <td>500 000 US$</td>
+      <td>2 000 000 US$</td>
+    </tr>
+    <tr>
+      <td>- End Value</td>
+      <td>500 000 US$</td>
+      <td>2 500 000 US$</td>
+      <td>10 000 000 US$</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>[optimistic] Long-Term Stash Only: No DCA</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BTCUSD Appreciation</td>
+      <td>From 10 000 US$</td>
+      <td>To 100 000 US$</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stash</td>
+      <td>10</td>
+      <td>50</td>
+      <td>200</td>
+    </tr>
+    <tr>
+      <td>- Start Value</td>
+      <td>100 000 US$</td>
+      <td>500 000 US$</td>
+      <td>2 000 000 US$</td>
+    </tr>
+    <tr>
+      <td>- End Value</td>
+      <td>1 000 000 US$</td>
+      <td>5 000 000 US$</td>
+      <td>20 000 000 US$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you started with a stash of 10 BTC only, your best chance in the optimistic scenario is hitting 1 MM USD. That is, ever. It can be next year or in 30 years.</p>
+
+<p>Now let’s throw monthly DCA into the mix.</p>
+
+<h3 id="two-decades-of-dca-illustration">Two Decades of DCA (Illustration)</h3>
+
+<p>Since this is only an illustration, and the idea it illustrates is basically a bullish bias, I simply threw a linear regression onto the BTCUSD chart.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1598344273/atnet/strategy/btcusd-trend_bmzsqo.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1598344273/atnet/strategy/btcusd-trend_bmzsqo.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>From this fantasy linear bullish trend I got how much bitcoin you will be able to afford each month for the same amount of fiat.</p>
+
+<p>Let’s say you can spend 2k USD every month on anything you like.</p>
+
+<ul>
+  <li>At 10k/BTC your extra money get you 0.2 BTC.</li>
+  <li>At 50k/BTC, your extra money get you 0.04 BTC.</li>
+</ul>
+
+<p>In two decades, you will have a sum of 20.5 BTC added to your stash.</p>
+
+<p>Not too shabby.</p>
+
+<p>For crypto investors who didn’t have the money to buy 3 digits of bitcoin at the start, DCA can really make a big difference.</p>
+
+<p>Idle hodling of a stash means much lower profit for what already is a long-term bullish bias.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Monthly DCA, 20 years</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Disposable income</td>
+      <td>2 000 US$</td>
+    </tr>
+    <tr>
+      <td>Stash</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Starting Stash (start value)</td>
+      <td>100 000,00 US$</td>
+    </tr>
+    <tr>
+      <td>Starting Stash (end value)</td>
+      <td>500 000 US$</td>
+    </tr>
+    <tr>
+      <td>BTC added</td>
+      <td>20,65</td>
+    </tr>
+    <tr>
+      <td>DCA Addition (end value)</td>
+      <td>1 032 500 US$</td>
+    </tr>
+    <tr>
+      <td>Total Final Net Worth</td>
+      <td>1 532 500 US$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Things get even juicier on a higher disposable income…as they usually do</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Monthly DCA, 20 years</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Disposable income</td>
+      <td>3 000 US$</td>
+    </tr>
+    <tr>
+      <td>Stash</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Starting Stash (start value)</td>
+      <td>100 000,00 US$</td>
+    </tr>
+    <tr>
+      <td>Starting Stash (end value)</td>
+      <td>500 000 US$</td>
+    </tr>
+    <tr>
+      <td>BTC added</td>
+      <td>30,97</td>
+    </tr>
+    <tr>
+      <td>DCA Addition (end value)</td>
+      <td>1 548 500 US$</td>
+    </tr>
+    <tr>
+      <td>Total Final Net Worth</td>
+      <td>2 048 500 US$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>I hope you understand how counter-productive it is to sit around watching the charts and willing the price to go up, if you are just a hodler.</p>
+
+<p><strong>If you are already so bullish, then DCA and move on with your life.</strong></p>
+
+<h2 id="benefits-of-dca-for-crypto-traders">Benefits of DCA for crypto traders</h2>
+
+<ul>
+  <li>In <a href="/glossary/sideways/">ranging</a> or slumping markets with low volums, the predictive powers of technical analysis decrease as well. The stop hunts and wicks become more prominent, the conditions are simply not good to trade on TA.</li>
+  <li>You avoid babysitting the charts for very small (if any) profits and getting burned out before the macro trend shifts to a more profit-generating action.</li>
+  <li>If you are long term bullish in a bear market, with DCA you have the lowest risk of battered bull syndrome.</li>
+  <li>It’s impossible to overtrade when doing DCA.</li>
+</ul>
+
+<h2 id="best-exchanges-to-dca-into-crypto">Best Exchanges to DCA into Crypto</h2>
+
+<p>We are humans, and avoiding fear and greed can be hard.</p>
+
+<p>The point of DCA strategy is you stick to your long-term bias come what may. This is best done when automated, so this is your first condition.</p>
+
+<p>Other than easy automation you obviously need a legit exchange that will verify your ID and give you a stable banking route.</p>
+
+<p>As of now, only <strong>Kraken</strong> and <strong>Independent Reserve</strong> fulfil both conditions.</p>
+
+<ol>
+  <li>Do your KYC/AML on the exchange.</li>
+  <li>Set up a monthly transaction from your bank to the exchange (such as on the day after you get paid).</li>
+  <li><a href="/coupon-independent-reserve/">Independent Reserve has a feature called Auto Trader</a>. Set it up to buy a cryptocurrency for a set percentage of your balance once a day.</li>
+  <li>Once your money arrives at the exchange, your DCA will be executed.</li>
+  <li>On days when there is no deposit in your exchange wallet, Auto Trader will not do anything.</li>
+</ol>
+
+<p><a href="http://bit.ly/at-indyres" rel="nofollow" class="btn">Sign up at Independent Reserve</a></p>
+
+<h2 id="related-strategies">Related Strategies</h2>
+
+<ul>
+  <li><a href="/strategy/lending/">Guide to crypto margin lending</a></li>
+  <li><a href="/strategy/reversals/">Market psychology of reversals</a></li>
+  <li><a href="/altcoin-wallets/">Best cryptocurrency wallets (2020 update)</a></li>
+</ul>
+:ET
