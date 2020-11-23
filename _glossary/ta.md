@@ -5,7 +5,7 @@ promoting:  analysis
 layout:     at-glossary
 date:       2020-10-08 08:48:00 +0700
 slug:       ta/
-title:      TA (Technical Analysis)
+title:      TA
 hook:       TA in ATNET Crypto glossary. What do crypto traders call TA?
 
 categories: [crypto-jargon]

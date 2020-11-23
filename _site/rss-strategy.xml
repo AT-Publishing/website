@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2020 07:56:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2020 15:37:38 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2020 15:37:38 +0000</lastBuildDate>
 
     
       <item>
@@ -141,44 +141,6 @@
         
         
         <category>trading-technique</category>
-        
-
-      </item>
-    
-      <item>
-
-        <title>Timing Tools</title>
-        <description>Market timing tools provide just the starting point of decision making but they are not as dubious as they are sometimes portrayed.</description>
-
-        <pubDate>Sun, 06 May 2018 20:51:00 +0000</pubDate>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>strategy@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/strategy/timing/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/timing/</guid>
-
-        
-        <category>market-timing</category>
-        
-        <category>timing-tools</category>
-        
-        <category>swing-trading</category>
-        
-        <category>trading-strategy</category>
-        
-        <category>cryptocurrency-trading</category>
-        
-        <category>tradingview</category>
-        
-        <category>independent-reserve</category>
-        
-        <category>bitfinex</category>
-        
-        
-        <category>data-analysis</category>
         
 
       </item>
@@ -469,6 +431,44 @@
         
         
         <category>trading-technique</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Market Timing in Crypto</title>
+        <description>Timing the market has a bad rap - for no reason. There are strategic approaches to it, even on crypto markets.</description>
+
+        <pubDate>Mon, 23 Nov 2020 10:51:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693904/atnet/__women/pexels-karolina-grabowska-4475524_xrnwun.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/timing/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/timing/</guid>
+
+        
+        <category>market-timing</category>
+        
+        <category>timing-tools</category>
+        
+        <category>swing-trading</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>cryptocurrency-trading</category>
+        
+        <category>tradingview</category>
+        
+        <category>independent-reserve</category>
+        
+        <category>bitfinex</category>
+        
+        
+        <category>data-analysis</category>
         
 
       </item>

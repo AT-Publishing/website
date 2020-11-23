@@ -27,11 +27,6 @@
     </url>
     
     <url>
-        <loc>https://www.altcointrading.net/strategy/timing/</loc>
-        <lastmod>2020-11-11T04:05:14+00:00</lastmod>
-    </url>
-    
-    <url>
         <loc>https://www.altcointrading.net/strategy/fulcrum-bottom/</loc>
         <lastmod>2020-10-23T08:02:15+00:00</lastmod>
     </url>
@@ -69,6 +64,11 @@
     <url>
         <loc>https://www.altcointrading.net/strategy/dollar-cost-averaging/</loc>
         <lastmod>2020-11-17T07:05:19+00:00</lastmod>
+    </url>
+    
+    <url>
+        <loc>https://www.altcointrading.net/strategy/timing/</loc>
+        <lastmod>2020-11-11T04:05:14+00:00</lastmod>
     </url>
     
 </urlset>
