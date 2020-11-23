@@ -1,5 +1,5 @@
 ---
-title:        "BillFodl + Hardware Wallet Bundles"
+title:        "BillFodl + Ledger and FARADAY BAGS Bundles"
 categories:   [ live ]
 tags:         [ billfodl, ledger, keepkey, trezor, hardware-wallet, bundle, cryptocurrency-wallet ]
 image:
@@ -10,23 +10,36 @@ image:
 
 {% amp700cloud page.image[0] %}
 
-BillFodl (or **PrivacyPros**) is coming up with bundle deals with all currently existing wallets.
+BillFodl (or **PrivacyPros**) is coming up with NEW bundle deals that are good for all-round privacy and cybersecurity.
 
-The steel plate wallet is compatible with the seed format of **Trezor, Ledger and KeepKey** wallet.
+#### BillFodl + Ledger Wallet Discount Bundle Prices
 
-This is a brand new 2020 deal.
+These bundles get you the fire-proof steel seed storage and a Ledger hardware wallet.
 
-Current bundle prices depend on the version of the hardware wallet as their tech gets out of date more quickly.
-
-**BillFodl & HW Wallet Bundle Prices**, ordered from the most expensive to the cheapest option:
-
-* Trezor T + BillFodl Bundle - **240 USD**
 * Ledger Nano X + BillFodl Bundle - **199 USD**
 * Ledger Nano S + BillFodl Bundle - **139 USD**
+
+#### Cyber Security Bundles
+
+These bundles get you the fire-proof steel seed storage in bundles with extra tools like Faraday bags.
+
+**Faraday bags** are a cheap and effective way to keep your hardware wallets or other electronic devices shielded from Wifi and other radio frequency signals.
+
+* Cyber Security Bundle - **120 USD**
+
+<a class="button" rel="nofollow" href="https://privacypros.io/products/cyber-security-bundle/?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">Get Your Cyber Security Bundle on PrivacyPros</a>
+
+
+#### BillFodl + Trezor Wallet Discount Bundle Prices
+
+These bundles get you the fire-proof steel seed storage and a Trezor hardware wallet.
+
+* Trezor T + BillFodl Bundle - **240 USD**
 * Trezor One + BillFodl - **145 USD**
-* KeepKey + BillFodl - **109 USD**
 
 <a class="button" id="spec-affil" rel="nofollow" href="https://privacypros.io/collections/billfodl-wallet-bundles/?afmc=95&utm_campaign=95&utm_source=leaddyno&utm_medium=affiliate">Get Your BillFodl Bundle on PrivacyPros</a>
+
+
 
 
 ##### About Billfodl
