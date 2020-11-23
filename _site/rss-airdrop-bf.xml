@@ -22,8 +22,8 @@ xmlns:turbo="http://turbo.yandex.ru">
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-bf.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Nov 2020 07:46:12 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2020 07:46:12 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2020 07:56:00 +0000</lastBuildDate>
 
     
     
@@ -38,7 +38,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Mon, 23 Nov 2020 07:46:12 +0000</pubDate>
+        <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -58,7 +58,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Mon, 23 Nov 2020 07:46:12 +0000</pubDate>
+        <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -78,7 +78,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Mon, 23 Nov 2020 07:46:12 +0000</pubDate>
+        <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -100,6 +100,15 @@ xmlns:turbo="http://turbo.yandex.ru">
     <th>Link</th>
   </tr>
 
+<tr>
+  <td>Opportunity: DeFi Tokens on reputable exchange with lower fees</td>
+  <td>14 days after listing</td>
+  <td>
+    The Aussie exchange Independent reserve is listing new DeFi tokens these days. For each of the new markets has the fee reduced to 0.1% for the first 2 weeks.
+    Currently those markets are yearn.finance, Aave and Kyber Network Crystal.
+  </td>
+  <td><a target="_blank" href="http://bit.ly/at-indyres">sign up</a></td>
+</tr>
   <tr>
     <td>LATOKEN Earn</td>
     <td>Nov 2020</td>
@@ -141,7 +150,7 @@ xmlns:turbo="http://turbo.yandex.ru">
 
           ]]>
         </description>
-        <pubDate>Mon, 23 Nov 2020 07:46:12 +0000</pubDate>
+        <pubDate>Mon, 23 Nov 2020 07:56:00 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
