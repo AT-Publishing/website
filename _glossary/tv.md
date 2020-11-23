@@ -14,7 +14,7 @@ note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]
 
 
-indepth:    /blackfriday/#anicipated-tradingview
+indepth:    /blackfriday/#anticipated-tradingview
 
 
 ---
@@ -23,7 +23,7 @@ On crypto trading forums and chats, **TV** usually refers to **TradingView**.
 
 Less seasoned crypto traders or visitors who are not familiar with the jargon usually take the abbreviation to mean television, but it's almost always TradingView.
 
-* [Tradingview PRO gets discounted during Black Friday](/blackfriday/#anicipated-tradingview)
+* [Tradingview PRO gets discounted during Black Friday](/blackfriday/#anticipated-tradingview)
 
 <!--more-->
 

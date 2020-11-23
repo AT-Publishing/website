@@ -14,7 +14,7 @@ note:       jargon
 image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1586242335/atnet/cybersecurity/black-laptop-beside-audio-mixer-set-919734_ae2uzl.jpg"]
 
 
-indepth:    /blackfriday/#anicipated-tradingview
+indepth:    /blackfriday/#anticipated-tradingview
 
 
 ---

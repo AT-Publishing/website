@@ -33,6 +33,6 @@ Some of the most common joke names for technical analysis are **t1ts and a$$ (TA
 
 ### Best tools for Technical Analysis in crypto
 
-* [Tradingview PRO gets discounted during Black Friday](/blackfriday/#anicipated-tradingview)
+* [Tradingview PRO gets discounted during Black Friday](/blackfriday/#anticipated-tradingview)
 
 TradingView is a popular [technical analysis app](/tag/tradingview-script-review/) where legacy and crypto traders share ideas, [trading strategies](/strategy/) or just mind their own charts.
