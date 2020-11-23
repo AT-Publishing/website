@@ -3,12 +3,16 @@ title:        "Ledger Wallet Bundle Deals"
 categories:   [ live ]
 tags:         [ ledger, hardware-wallet, bundle ]
 image:
-- 'https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1588053412/atnet/altcoin-wallets/Screen_Shot_2020-04-28_at_12.55.57_zikwqu.jpg'
+- 'https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_1000/v1606117432/atnet/blackfriday2020/Screenshot_2020-11-23_at_8.43.34_AM_uacqvo.png'
 ---
 
 <div id="live-ledger"></div>
 
-{% amp700cloud page.image[0] %}
+<amp-img itemprop="image" alt="AltcoinTrading.NET"
+          src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_1000/v1606117432/atnet/blackfriday2020/Screenshot_2020-11-23_at_8.43.34_AM_uacqvo.jpg"
+          layout="responsive"
+          data-original-width="1000px" data-original-height="390px"
+          width="1000px" height="390px"></amp-img>
 
 ##### Ledger Wallet Family Pack: Up to 21% off per device
 

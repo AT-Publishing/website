@@ -8,8 +8,6 @@ image:
 
 <div id="live-billfodl"></div>
 
-{% amp700cloud page.image[0] %}
-
 BillFodl (or **PrivacyPros**) is coming up with NEW bundle deals that are good for all-round privacy and cybersecurity.
 
 #### BillFodl + Ledger Wallet Discount Bundle Prices
@@ -19,6 +17,8 @@ These bundles get you the fire-proof steel seed storage and a Ledger hardware wa
 * Ledger Nano X + BillFodl Bundle - **199 USD**
 * Ledger Nano S + BillFodl Bundle - **139 USD**
 
+<a class="button" rel="nofollow" href="https://shop.privacypros.io?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">Get Your BillFodl Bundle on PrivacyPros</a>
+
 #### Cyber Security Bundles
 
 These bundles get you the fire-proof steel seed storage in bundles with extra tools like Faraday bags.
@@ -27,8 +27,7 @@ These bundles get you the fire-proof steel seed storage in bundles with extra to
 
 * Cyber Security Bundle - **120 USD**
 
-<a class="button" rel="nofollow" href="https://privacypros.io/products/cyber-security-bundle/?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">Get Your Cyber Security Bundle on PrivacyPros</a>
-
+<a class="button" rel="nofollow" href="https://shop.privacypros.io?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">Get Your Cyber Security Bundle on PrivacyPros</a>
 
 #### BillFodl + Trezor Wallet Discount Bundle Prices
 
@@ -37,11 +36,10 @@ These bundles get you the fire-proof steel seed storage and a Trezor hardware wa
 * Trezor T + BillFodl Bundle - **240 USD**
 * Trezor One + BillFodl - **145 USD**
 
-<a class="button" id="spec-affil" rel="nofollow" href="https://privacypros.io/collections/billfodl-wallet-bundles/?afmc=95&utm_campaign=95&utm_source=leaddyno&utm_medium=affiliate">Get Your BillFodl Bundle on PrivacyPros</a>
-
-
-
+<a class="button" rel="nofollow" href="https://shop.privacypros.io?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">Get Your BillFodl Bundle on PrivacyPros</a>
 
 ##### About Billfodl
+
+{% amp700cloud page.image[0] %}
 
 {% include product/billfodl-about.html %}
