@@ -3,7 +3,7 @@ layout:       ebf
 published:    true
 cg1:          true
 
-title:        "Eternal Black Friday | Crypto Black Friday Deals BEFORE Black Friday 2020"
+title:        "Crypto Black Friday 2020"
 description:  "Black Friday sales for cryptocurrency traders and investors. TradingView, Ledger wallet, Coinigy, TensorCharts and more discount offers, whether it's Black Friday or not."
 
 permalink:    /blackfriday/
@@ -31,7 +31,7 @@ top_interlink:
 
 ## Black Friday 2020 is almost here
 
-The Black Friday 2020 date **November 27th, 2020** is still a few days off, but some crypto products are in **bundle promo deals** already.
+The Black Friday 2020 date **November 27th, 2020** is still a few days off, but some crypto products are in **Black Friday deals** since Monday 23rd.
 
 Time to spend 3 hours a day researching deals /s.
 
