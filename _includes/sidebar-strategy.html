@@ -1,6 +1,5 @@
 <div id="sidebar" class="sidebar-article">
 
-
   <section>
     <div class="row box-lvl-b">
       <h4>Crypto Trading Tools, <b>FREE & FREEmium</b></h4>
@@ -20,66 +19,15 @@
           </a>
         </div>
       </div><!-- item row -->
-      &nbsp;
-
-      <p>
-        <a class="btn" href="/tools/">Get Tools</a>
-      </p>
+    
     </div>
-  </section>
-
-
-  <section>
-    <br>
-    {% include block_top.html %}
-    <br>
   </section>
 
   <section>
     <div id="at-promo-vertical">
-      {% include promoting-tall.html %}
+      {{ site.tvfx_320-200 }}
     </div>
   </section>
-
-  {% if page.categories %}
-  {% assign cat_related = site.strategy | where: "categories", page.categories[0] | sample: 5 %}
-  {% endif %}
-  {% if cat_related[0] %}
-  &nbsp;
-  <section>
-    <div class="row box-lvl-b" id="side-cat-related">
-      <h4>More Strategies in <b>{{ page.categories[0] | replace: "-", " " }}</b></h4>
-      {% for post in cat_related %}
-        {% include category/tall.html %}
-      {% endfor %}
-      <p>
-        <a class="btn" href="/blog/trading/">See All</a>
-      </p>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if brand %}
-  {% assign brand_howtos = site.howto | where: "tags", brand | sample: 3 %}
-  <div class="clearfix"></div>
-  {% if brand_howtos[0] %}
-  &nbsp;
-  <section class="related-stacked">
-    <div class="row box-lvl-a"  id="side-brand-howto">
-      <h4>You might need these <b>guides</b>:</h4>
-      {% for post in brand_howtos %}
-        {% include category/stacked.html %}
-      {% endfor %}
-      <p>
-        <a class="btn" href="/guides/">See All</a>
-      </p>
-    </div>
-  </section>
-  {% endif %}
-  {% endif %}
-
-
-
 
 </div><!-- end sidebar-->
 

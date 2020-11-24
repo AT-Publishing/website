@@ -2,7 +2,7 @@
 .relative {
     position: relative
 }
-p.center {
+p.center, .center {
   text-align: center;
 }
 .tooltip-label,
@@ -2118,6 +2118,23 @@ h3#cta-headline, #cta-headline {
 }
 
 
+/** strategy layout extensions */
+.meta {
+  margin: 25px 0;
+}
+.meta > p {
+  margin: 0;
+  opacity: 0.5;
+}
+#sticky {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+#strategy-menu-sticky .six {
+
+}
 /* bf special */
 h5.update, span.update {
   font-family: 'Courier New', monospace;

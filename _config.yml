@@ -155,19 +155,9 @@ defaults:
 author: "AltcoinTrading"
 markdown: kramdown
 
-bio:
-  marc: 'Marc Auf der Heyde is a 19 year old aspiring author based in Berlin, Germany. He has been involved in cryptocurrency since August 2016, and has been writing since 2008. Marc is the Founder and President of a <a target="_blank" href="https://www.theyoungauthors.com">platform for young authors</a> where they can share their creative works and get feedback from others. He will start studying Computer Science in September, 2018, in Glasgow and hopes to Branch out into Blockchain projects in the near future.'
-  jmt: 'JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.'
-  diana: 'Diana Trang is the editor of <a href="https://www.thebusinessofcrypto.com">The Business Of Crypto</a>.'
-
 author_details:
   - {name: "KarlVonBahnhof", bio: "KarlVonBahnhof also on Reddit, Chris belongs to the crypto trader class of 2013. Located in the Americas most of the time, you're most likely to meet at r/BitcoinMarkets though.", twitter: "https://twitter.com/_karlvonbahnhof", facebook: "https://www.facebook.com/chris.appell.90", reddit: "https://www.reddit.com/u/karlvonbahnhof", quora: false, telegram: false, email: "chris@altcointrading.net"}
   - {name: "tradingfanbois", bio: "JMT under the Twitter handle @tradingfanbois has been deep in bitcoin markets since late 2014. It is the person who takes care of our office. Also answering your Quora questions regarding Bitcoin, cryptocurrencies and technical analysis.", twitter: "https://twitter.com/tradingfanbois", facebook: false, reddit: false, quora: "https://www.quora.com/profile/JM-T-6", telegram: false, email: "jmt@altcointrading.net"}
-  - {name: "CryptoDisrupt", bio: "CryptoDisrupt.com is a crypto news portal and a Youtube channel with regular live panel discussions.", twitter: false, facebook: false, reddit: "https://www.reddit.com/user/AlfieMarsh", quora: false, telegram: false, email: "info@cryptodisrupt.com"}
-  - {name: "Cameron", bio: "Cameron is a writer at cityofhype.com, a portal (not only) about all things personal finance. Cameron is a finance analysts and investor in currencies and securities.", twitter: "https://twitter.com/cityofhype", facebook: false, reddit: false, quora: false, telegram: false, email: "info@cityofhype.com"}
-  - {name: "0xfunn", bio: "Credibility designer and ethereum maximalist allsporter.com + allsportercoin.io.", twitter": "https://twitter.com/0xfunn", facebook: false, reddit: false, quora: false, telegram: false, email: false}
-  - {name: "Lisa Henderson", bio: "Lisa contributes all sorts of content to <a target='_blank' href='https://dealmeisters.com'>Deal Meisters</a>, with a special interest in food related topics. A true foodie at heart, in her free time Lisa enjoys cooking, trying new local restaurants, creative writing, and relaxing at the beach.", twitter: false, facebook: false, reddit: false, quora: false, telegram: false, email: "team@dealmeisters.com"}
-  - {name: "Ambreen", bio: "I am a technical content writer.", twitter: false, facebook: false, reddit: false, quora: false, telegram: false, email: "ambreen@voipterminator.com"}
 
 compress_html:
   clippings: [div, p, ul, td, h1, h2]
@@ -202,6 +192,61 @@ ref:
   bitmex: '<a target="_blank" href="http://bit.ly/atnet-mex">BitMEX</a>&nbsp;'
   coinmama: '<a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>&nbsp;'
   coinbase: '<a target="_blank" href="http://bit.ly/plebtier">Coinbase</a>&nbsp;'
+
+
+
+# boxes for strategy
+
+box:
+  bfx1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="http://bit.ly/the-cat-mouse-game">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210948/atnet/_banner/square/box-bfx2.jpg"
+  alt="Bitfinex Fee Discount" data-original-width="336px" data-original-height="280px"
+  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
+  dca1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="/coupon-independent-reserve/">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606211364/atnet/_banner/square/indyres1.jpg"
+  alt="Bitfinex Fee Discount" data-original-width="336px" data-original-height="280px"
+  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
+  tcharts1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="https://bit.ly/at-tc-2020">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210898/atnet/_banner/square/box-tensorcharts.jpg"
+  alt="Crypto Black Friday offers 2020 - Tensorcharts Premium" data-original-width="336px" data-original-height="280px"
+  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
+  billfodl1: '<div class="text-center">
+  <a class="index-internal" target="_blank" rel="nofollow" href="https://shop.privacypros.io?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210938/atnet/_banner/square/box-security.jpg"
+  alt="Crypto Black Friday offers 2020 - BillFodl and Trezor Bundles"
+  data-original-width="336px"
+  data-original-height="280px"
+  width="336px" height="280px"
+  layout="responsive">
+  </amp-img></a></div><br>'
+  ledger1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="https://bit.ly/bundles_at_altcoinwallets">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210868/atnet/_banner/square/box-ledger.jpg"
+  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
+  data-original-width="336px"
+  data-original-height="280px"
+  width="336px" height="280px"
+  layout="responsive">
+  </amp-img></a></div><br>'
+  tv1: '<div class="text-center">
+  <a class="index-internal" target="_blank" href="https://bit.ly/at-tvd-gopro">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210946/atnet/_banner/square/box-tradingview.jpg"
+  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
+  data-original-width="336px"
+  data-original-height="280px"
+  width="336px" height="280px"
+  layout="responsive">
+  </amp-img></a></div><br>'
+  
 
 ### CTAs to deal pages
 #
@@ -399,7 +444,7 @@ data-original-width="728px" data-original-height="98px" layout="responsive" widt
 #### bitfinex ####
 
 
-bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank">
+bfx_336x280: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/at-bfx-banner2020" target="_blank"><small> --- Click HERE for 6% Fee Discount on Bitfinex --- </small><br>
 <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1584501533/atnet/_banner/bitfinex_app_owrfca.jpg" alt="Bitfinex Platform Exchange Fee Discount" data-original-width="1049px" data-original-height="899px" layout="responsive" width="336px" height="280px"></amp-img></a></div>'
 
 bfx_long: '<div class="containter-center"><a rel="nofollow" title="Bitfinex Exchange Fee Discount" href="http://bit.ly/bfx2020-bl" target="_blank">

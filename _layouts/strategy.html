@@ -12,74 +12,101 @@ layout: default-news
             {{ page.title }}
           </strong>
         </h1>
-       <span class="note">
-         {% if page.last_modified_at %}<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">Last Update {{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>.&nbsp;{% endif %}
-         Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y at %R" }} UTC</time>
-         {% if page.author %}<span class="guest">&nbsp;&middot;&nbsp;By <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-         {% if page.guest %}<span class="guest">&nbsp;&middot;&nbsp;Guest post by <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
-       </span>
-        <br>
+
+        {% if page.promoting %}
+        <div class="row" id="at-promo-horizontal">
+          {% include promoting-horizontal.html %}
+          <br>
+        </div>
+        {% endif %}
+
       </div>
       <div class="four columns">
         <div class="sidebar-nl container-center">
            <b>Want More Crypto Trading Strategy?</b> 5 Weeks of Onboarding Reads: <a target="_blank" href="https://us15.list-manage.com/subscribe?u=b5cca524e997c8e12f8ad51e1&id=9b56578f1c"><u>Subscribe</u></a> and select "All Posts" or "Strategy & Security".
         </div>
-
+        <div class="meta">
+            <p>
+              Trading Strategy: {{ page.title }}
+            </p>
+            <p>
+              {% if page.last_modified_at %}Last Update:  <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%d %b %Y at %R" }} UTC</time>{% endif %}
+            </p>
+            <p>
+              {% if page.author %}<span class="guest">Author: <a rel="nofollow" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a></span>{% endif %}
+            </p>
+        </div>
       </div>
     </div>
     <div class="row">
         <div class="columns eight">
-          <article class="maincontent">
-
-            <div class="row" id="at-promo-horizontal">
-              {% include promoting-horizontal.html %}
-            </div>
+          <article class="maincontent strategy-article">
 
             <div class="strategy-content intext" id="article-body">
-            {{ content }}
 
-              <div class="row">
-                <p><em>Posted in:&nbsp;{% if page.stories %} {{ page.genres }} &nbsp;{%else %}{{ page.note }}&nbsp;{% endif %}</em></p>
-              </div>
+              {{ content }}
 
               &nbsp;
 
-            <section class="altcointradingnet-bio">
-              <p>
-                Written by <a rel="nofollow,noopener" target="_blank" href="{{ page.author }}">{{ page.author_name }}</a>
-              </p>
-              <div>
-                {% for item in site.author_details %}
-                  {% if page.author_name contains item.name %}
-                    {% include bios/template.html %}
-                  {% endif %}
-                {% endfor %}
+              <div class="row center">
+                {{ site.bfx_336x280 }}
               </div>
-            </section>
-            <br>
+
+              <div class="row meta">
+                <p>Posted in:&nbsp;{% if page.stories %} {{ page.genres }} &nbsp;{%else %}{{ page.note }}&nbsp;{% endif %}</p>
+              </div>
+
+
+              &nbsp;
 
 					 </div><!-- strategy content -->
           </article>
         </div>
-        <div class="four columns nomargintop">
-          <br>
-          <div>
-            {% include callouts/bf-thistool.html %}
+        <div class="four columns" id="sticky">
+          <div class="desktop-only" id="strategy-menu-sticky">
+            <div class="row home-glossary">
+              <h5>Get the <em>Tools</em> for this <em>Crypto Trading Strategy</em></h5>
+              <div class="columns twelve">
+                <div class="columns six offset-by-three">
+
+                {% if page.tags contains "bitfinex" %}
+                   {{ site.box.bfx1 }}
+                   {% endif %}
+                {% if page.tags contains "dca" %}
+                      {{ site.box.dca1 }}
+                      {% endif %}
+
+                {% if page.tags contains "ledger" %}
+                   {{ site.box.ledger1 }}
+                   {% endif %}
+
+                {% if page.tags contains "tensorcharts" %}
+                   {{ site.box.tcharts1 }}
+                   {% endif %}
+
+                {% if page.tags contains "tradingview" %}
+                   {{ site.box.tv1 }}
+                   {% endif %}
+
+                {% if page.tags contains "security"  %}
+                   {{ site.box.billfodl1 }}
+                {% endif %}
+                </div>
+              </div>
+            </div>
+            <div class="thistool">
+              {% include callouts/bf-thistool.html %}
+            </div>
+
+
+            <div class="strategy-side">
+              <p>&nbsp;</p>
+              {% include sidebar-strategy.html %}
+            </div>
           </div>
-          <br>
-          {% include sidebar-strategy.html %}
-          <br>
-          <section>
-            <h5>Bitfinex API-based Trading App</h5>
-            {{ site.bfx_vid_tall }}
-          </section>
-          <section>
-            <h5>Cloudbet Bonus</h5>
-            {{ site.cbet_b }}
-          </section>
 
+        </div><!-- fucking 4 cols -->
 
-        </div>
       </div>
   </div>
 </div>
