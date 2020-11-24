@@ -22,10 +22,10 @@ To get the full 40% discount on Ledger wallets, you need to use a promo code `BL
   * [GO TO OFFER](https://bit.ly/3kYPCWW) AND USE CODE `BLACKFRIDAY20`
 
 <amp-img itemprop="image" alt="AltcoinTrading.NET"
-          src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_1000/v1606117432/atnet/blackfriday2020/Screenshot_2020-11-23_at_8.43.34_AM_uacqvo.jpg"
+          src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_1000/v1606201696/atnet/blackfriday2020/Screenshot_2020-11-24_at_8.07.30_AM_ulbdiw.jpg"
           layout="responsive"
-          data-original-width="1000px" data-original-height="390px"
-          width="1000px" height="390px"></amp-img>
+          data-original-width="1000px" data-original-height="555px"
+          width="1000px" height="555px"></amp-img>
 
 
 ### Ledger wallet bundle deals are still available too!
