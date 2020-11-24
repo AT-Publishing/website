@@ -1,5 +1,5 @@
 ---
-title:        "Ledger Wallet Bundle Deals"
+title:        "[GO!] Ledger Wallets 40% Discount"
 categories:   [ live ]
 tags:         [ ledger, hardware-wallet, bundle ]
 image:
@@ -8,11 +8,27 @@ image:
 
 <div id="live-ledger"></div>
 
+### Ledger Black Friday Deal is live! 40% off
+
+* **40% discount** on Ledger Nano S or Ledger Nano X
+* Ends on **30 November 11:59 PM UTC**
+* Discount only applies on single wallets, not on bundles
+
+To get the full 40% discount on Ledger wallets, you need to use a promo code `BLACKFRIDAY20` at checkout.
+
+* Ledger Nano X Black Friday Discount: <s>119 EUR</s> now 72 EUR!
+  * [GO TO OFFER](https://bit.ly/3kYPCWW) AND USE CODE `BLACKFRIDAY20`
+* Ledger Nano S Black Friday Discount: <s>59 EUR</s> now 36 EUR!
+  * [GO TO OFFER](https://bit.ly/3kYPCWW) AND USE CODE `BLACKFRIDAY20`
+
 <amp-img itemprop="image" alt="AltcoinTrading.NET"
           src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_1000/v1606117432/atnet/blackfriday2020/Screenshot_2020-11-23_at_8.43.34_AM_uacqvo.jpg"
           layout="responsive"
           data-original-width="1000px" data-original-height="390px"
           width="1000px" height="390px"></amp-img>
+
+
+### Ledger wallet bundle deals are still available too!
 
 ##### Ledger Wallet Family Pack: Up to 21% off per device
 
@@ -20,13 +36,7 @@ image:
 
 {{ site.stars.five }}
 
-Ledger wallet keeps with their usual strategy of discounting wallet bundles through the year, and in autumn 2020 we get 3 different Ledger wallet bundles.
-
-You can get the new **Ledger Family Pack** (triplet of Nano S wallets or triplet of Nano X wallets) or the classic **Ledger Backup Pack** which has one of each Ledger Nano devices.
-
 Your discount gets higher for packs with Nano S wallets, as the Ledger Nano S is the older product.
-
-**2020 Ledger Wallet Bundle Discounts - Price Breakdown**
 
 * **Ledger Nano S family Pack**: 3x Ledger Nano S ~ **21% off**
   * [GO TO OFFER](http://bit.ly/ebf-nanos3x)
@@ -36,7 +46,7 @@ Your discount gets higher for packs with Nano S wallets, as the Ledger Nano S is
   * [GO TO OFFER](http://bit.ly/ebf-nanox3x)
 
 
-##### Why it's good to have more than one hardware wallet
+##### Why it is good to have more than one hardware wallet
 
 The best way to make use of the Ledger discount code deal is to have as big a total bill as possible:
 
