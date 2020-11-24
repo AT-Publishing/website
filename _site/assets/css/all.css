@@ -2134,10 +2134,18 @@ h3#cta-headline, #cta-headline {
   position: sticky;
   top: 0;
   right: 0;
+  border-left: 5px solid #000b18;
+    padding-left: 2rem;
 }
-
-#strategy-menu-sticky .six {
-
+#strategy-menu-sticky .little-boxes > div {
+  border: 1px solid #413f4f;
+}
+#strategy-menu-sticky .home-glossary > .columns {
+    padding: 15px 0 0;
+}
+#strategy-menu-sticky h5 {
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 /* bf special */
 h5.update, span.update {
