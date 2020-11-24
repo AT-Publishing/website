@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 24 Nov 2020 17:30:19 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2020 17:30:19 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Nov 2020 19:13:50 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2020 19:13:50 +0000</lastBuildDate>
 
     
       <item>
@@ -41,44 +41,6 @@
         
         
         <category>trading-technique</category>
-        
-
-      </item>
-    
-      <item>
-
-        <title>Why are Fib Retracements and Extensions Important</title>
-        <description>Fibs are the black-box tool that everyone uses because everyone uses it. Why they matter in spite of it?</description>
-
-        <pubDate>Sat, 09 Dec 2017 03:36:00 +0000</pubDate>
-
-        <author>KarlVonBahnhof@altcointrading.net</author>
-        <webmaster>strategy@altcointrading.net</webmaster>
-
-        <media:content url="https://www.altcointrading.net/editorial/breadbutter2.jpg" medium="image" />
-
-        <link>https://www.altcointrading.net/strategy/fibs/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fibs/</guid>
-
-        
-        <category>crypto-charting</category>
-        
-        <category>fibs</category>
-        
-        <category>crypto-trading</category>
-        
-        <category>technical-analysis</category>
-        
-        <category>fibonacci-retracement</category>
-        
-        <category>tradingview</category>
-        
-        <category>bitmex</category>
-        
-        <category>independent-reserve</category>
-        
-        
-        <category>pattern-trading</category>
         
 
       </item>
@@ -469,6 +431,42 @@
         
         
         <category>data-analysis</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Strategy: Technical Analysis with random tools like Fibs</title>
+        <description>Now that we are nearing the ATH levels again, let's reiterate how things *really* work around here.</description>
+
+        <pubDate>Tue, 24 Nov 2020 09:36:00 +0000</pubDate>
+
+        <author>KarlVonBahnhof@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1606239788/atnet/strategy/mystery_zev8mj.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/fibs/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/fibs/</guid>
+
+        
+        <category>crypto-charting</category>
+        
+        <category>fibs</category>
+        
+        <category>crypto-trading</category>
+        
+        <category>technical-analysis</category>
+        
+        <category>fibonacci-retracement</category>
+        
+        <category>tradingview</category>
+        
+        <category>bitfinex</category>
+        
+        
+        <category>pattern-trading</category>
         
 
       </item>
