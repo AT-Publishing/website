@@ -3,5 +3,12 @@ User-agent: *
 Disallow: /README.md
 Disallow: /sw.js
 Disallow: /posts.json
+Disallow: /*.yml
+Disallow: /*.yaml
+
+User-agent: Googlebot-Image
+Disallow: /img/doge-share.png
+Disallow: /img/list.jpg
+Disallow: /img/ads/ad-placeholder.jpg
 
 Sitemap: https://www.altcointrading.net/sitemap.xml

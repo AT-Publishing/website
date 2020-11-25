@@ -22,8 +22,8 @@ xmlns:turbo="http://turbo.yandex.ru">
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-bf.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Nov 2020 07:17:45 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Nov 2020 07:17:45 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2020 07:26:24 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2020 07:26:24 +0000</lastBuildDate>
 
     
     
@@ -38,7 +38,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Wed, 25 Nov 2020 07:17:45 +0000</pubDate>
+        <pubDate>Wed, 25 Nov 2020 07:26:24 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -58,7 +58,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Wed, 25 Nov 2020 07:17:45 +0000</pubDate>
+        <pubDate>Wed, 25 Nov 2020 07:26:24 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -78,7 +78,7 @@ xmlns:turbo="http://turbo.yandex.ru">
           </p>
           ]]>
         </content:encoded>
-        <pubDate>Wed, 25 Nov 2020 07:17:45 +0000</pubDate>
+        <pubDate>Wed, 25 Nov 2020 07:26:24 +0000</pubDate>
         <author>shill.shillerton@altcointrading.net</author>
         <webmaster>shill.shillerton@altcointrading.net</webmaster>
         <link>" | prepend: site.baseurl | prepend: site.url }}</link>
@@ -150,7 +150,7 @@ xmlns:turbo="http://turbo.yandex.ru">
 
           ]]>
         </description>
-        <pubDate>Wed, 25 Nov 2020 07:17:45 +0000</pubDate>
+        <pubDate>Wed, 25 Nov 2020 07:26:24 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
