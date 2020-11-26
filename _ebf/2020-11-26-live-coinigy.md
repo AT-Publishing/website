@@ -14,6 +14,6 @@ Sign up now with the free trial and upgrade later with the discount:
 
 <a rel="nofollow" class="btn" href="http://bit.ly/at-cgy-2020">Coinigy 30 day free trial</a>
 
-### About Coinigy
+#### About Coinigy
 
 {% include product/coinigy-about.html %}
