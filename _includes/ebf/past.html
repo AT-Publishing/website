@@ -1,8 +1,27 @@
-<h2 class="tagged-as">Past Black Friday Offers: What we got in Black Friday 2019, 2018 and 2017</h2>
+<h2 class="tagged-as">Past Black Friday Offers:<br>What you missed in 2017-2020</h2>
 
-<p>Hello Black Friday {{ site.time | date: '%y' }} shoppers. Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo.</p>
+<p>Hello crypto deal hunters. Now that crypto hardware wallets and charting apps have been around for a few years, this is not our first rodeo.</p>
 
 <p>Every year, the most demanded crypto trading services and products came up with interesting bundle and discount offers in the weeks leading up to Black Friday, just to get the attention of the crypto crowd.</p>
+
+
+
+<h3 id="past2019">Crypto Black Fridays Deals 2020</h3>
+{% assign past = site.ebf | where: "categories", "2020" | reverse %}
+
+<b>Jump to Black Friday deal details:</b>
+<ul>
+  {% for item in past %}
+  <li><a href="#past2020-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
+  {% endfor %}
+</ul>
+{% for item in past %}
+<h4 id="past2020-{{ item.tags[0] }}">{{ item.title }}</h4>
+<p>{{ item.content }}</p>
+<div class="meta">
+  <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
+</div>
+{% endfor %}
 
 <h3 id="past2019">Crypto Black Fridays Deals 2019</h3>
 {% assign past = site.ebf | where: "categories", "2019" | reverse %}

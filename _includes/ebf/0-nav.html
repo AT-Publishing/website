@@ -1,26 +1,14 @@
 <ul>
-  <li>
-    <a href="#live"><b>Crypto Black Friday 2020</b>: Live Deals</a>
-    <ul>
-
-    {% for item in live %}
-    <li><a href="#live-{{ item.tags[0] }}">{{ item.tags[0] | capitalize }}</a></li>
-    {% endfor %}
-    <li><a href="#timeline">[!] 2020 Timeline</a></li>
-
-    </ul>
+  <li><a href="#past">Past Crypto Black Fridays</a>
+    Deals in <b><a href="#past2020">2020</a></b> &middot; <b><a href="#past2019">2019</a></b> &middot; <b><a href="#past2018">2018</a></b> &middot; <b><a href="#past2017">2017</a></b>
   </li>
-  <!--<li><a href="#products"><b>[?]</b> What to Buy on Black Friday: Brands Overview</a></li>-->
   <li>
-    <a href="#anticipated">Anticipated Black Friday Deals 2020</a>
+    <a href="#anticipated">Anticipated Eternal Black Friday Deals</a>
     <ul>
     {% for item in anti %}
     <li><a href="#anticipated-{{ item.tags[0] }}">{{ item.tags[0] | replace: '-', ' ' | capitalize }}</a></li>
     {% endfor %}
     </ul>
-  </li>
-  <li><a href="#past">Past Crypto Black Fridays</a>
-    Deals in <b><a href="#past2019">2019</a></b> &middot; <b><a href="#past2018">2018</a></b> &middot; <b><a href="#past2017">2017</a></b>
   </li>
   <li>
     <a href="/coupon-independent-reserve/" target="_blank">

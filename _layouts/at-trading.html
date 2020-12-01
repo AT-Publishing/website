@@ -53,10 +53,6 @@ layout: default-news
         <div class="four columns nomargintop">
           <aside>
 
-            <div class="">
-              {% include callouts/bf-thistool.html %}
-            </div>
-
             <div>
               {% if page.canonical %}
               <p>
@@ -70,6 +66,10 @@ layout: default-news
                 </amp-img>
               </figure>
               {% include article/related.html %}
+            </div>
+
+            <div class="">
+              {% include callouts/thistool.html %}
             </div>
 
             {% include sidebar-article.html %}

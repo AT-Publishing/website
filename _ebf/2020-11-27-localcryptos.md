@@ -1,6 +1,6 @@
 ---
-title:        "[Go!] Buy the dip with LocalCryptos Black Friday 2020"
-categories:   [ live ]
+title:        "Buy the dip with LocalCryptos Black Friday 2020"
+categories:   [ 2020 ]
 tags:         [ localcryptos, p2p, onramp ]
 
 ---

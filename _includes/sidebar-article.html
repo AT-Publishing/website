@@ -6,9 +6,6 @@
     </div>
   </section>
 
-  <div class="smallad row" id="bf-updates">
-    {% include home/bf-updated-feed.html %}
-  </div>
 
   {% if brand %}
   {% assign brand_howtos = site.howto | where: "tags", brand | sample: 3 %}

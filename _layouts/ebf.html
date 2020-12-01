@@ -27,10 +27,6 @@ layout: default-news
       <br>
     </div>
   </div>
-  <div class="row desktop-only">
-    {% include callouts/bf-longest.html %}
-  </div>
-
   {% assign anti = site.ebf | where: "categories", "anticipated" | reverse %}
   {% assign eter = site.ebf | where: "categories", "eternal-black-friday" | reverse  %}
   {% assign live = site.ebf | where: "categories", "live" | reverse %}
@@ -58,14 +54,25 @@ layout: default-news
 
           {{ content }}
 
-           <div id="live">
+           <!--<div id="live">
            {% include ebf/live.html %}
-           </div><!--live-->
+           </div>live
 
            <div id="timeline">
              {% for item in tlin %}{{ item.content }}{% endfor %}
            </div>
 
+
+
+           -->
+
+           <div id="past">
+           {% include ebf/past.html %}
+           </div>
+
+           <div id="regular">
+           {% include ebf/eternal.html %}
+           </div>
 
            {% assign interlink = page.top_interlink %}
            {% include article/interlink-generic.html %}
@@ -76,13 +83,7 @@ layout: default-news
 
            {% include ebf/interlink.html %}
 
-           <div id="past">
-           {% include ebf/past.html %}
-           </div>
 
-           <div id="regular">
-           {% include ebf/eternal.html %}
-           </div>
 
            <div id="products">
            {% include ebf/brands-overview.html %}

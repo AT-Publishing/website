@@ -197,12 +197,18 @@ ref:
 
 # boxes for strategy
 
-box:
+tools:
   bfx1: '<div class="text-center">
   <a class="index-internal" target="_blank" href="http://bit.ly/the-cat-mouse-game">
   <amp-img itemprop="image"
   src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210948/atnet/_banner/square/box-bfx2.jpg"
   alt="Bitfinex Fee Discount" data-original-width="336px" data-original-height="280px"
+  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
+  lc1: '<div class="text-center">
+  <a class="index-internal" target="_blank" rel="nofollow" href="https://localcryptos.com/r/bocmask">
+  <amp-img itemprop="image"
+  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606806854/atnet/_banner/square/localcryptos_p2p_noncustodial.jpg"
+  alt="LocalCryptos Fee Discount" data-original-width="336px" data-original-height="280px"
   width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
   dca1: '<div class="text-center">
   <a class="index-internal" target="_blank" href="/coupon-independent-reserve/">
@@ -214,13 +220,13 @@ box:
   <a class="index-internal" target="_blank" href="https://bit.ly/at-tc-2020">
   <amp-img itemprop="image"
   src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210898/atnet/_banner/square/box-tensorcharts.jpg"
-  alt="Crypto Black Friday offers 2020 - Tensorcharts Premium" data-original-width="336px" data-original-height="280px"
+  alt="Eternal Black Friday offers 2020 - Tensorcharts Premium" data-original-width="336px" data-original-height="280px"
   width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
   billfodl1: '<div class="text-center">
   <a class="index-internal" target="_blank" rel="nofollow" href="https://shop.privacypros.io?afmc=60&utm_campaign=60&utm_source=leaddyno&utm_medium=affiliate">
   <amp-img itemprop="image"
   src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210938/atnet/_banner/square/box-security.jpg"
-  alt="Crypto Black Friday offers 2020 - BillFodl and Trezor Bundles"
+  alt="Eternal Black Friday offers 2020 - BillFodl and Trezor Bundles"
   data-original-width="336px"
   data-original-height="280px"
   width="336px" height="280px"
@@ -230,7 +236,7 @@ box:
   <a class="index-internal" target="_blank" href="https://bit.ly/bundles_at_altcoinwallets">
   <amp-img itemprop="image"
   src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210868/atnet/_banner/square/box-ledger.jpg"
-  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
+  alt="Eternal Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
   data-original-width="336px"
   data-original-height="280px"
   width="336px" height="280px"
@@ -240,105 +246,22 @@ box:
   <a class="index-internal" target="_blank" href="https://bit.ly/at-tvd-gopro">
   <amp-img itemprop="image"
   src="https://res.cloudinary.com/atnetcloud/image/upload/v1606210946/atnet/_banner/square/box-tradingview.jpg"
-  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
+  alt="Eternal Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
   data-original-width="336px"
   data-original-height="280px"
   width="336px" height="280px"
   layout="responsive">
   </amp-img></a></div><br>'
 
-
-### CTAs to deal pages
-#
-bf:
-  tcharts1: '<div class="text-center">
-  <a class="index-internal" target="_blank" href="/blackfriday/#anticipated-tensorcharts">
-  <amp-img itemprop="image"
-  src="https://res.cloudinary.com/atnetcloud/image/upload/v1604461163/atnet/blackfriday2020/tensorcharts-blackfriday_w1nbw7.jpg"
-  alt="Crypto Black Friday offers 2020 - Tensorcharts Premium" data-original-width="336px" data-original-height="280px"
-  width="336px" height="280px" layout="responsive"></amp-img></a></div><br>'
-  billfodl1: '<div class="text-center">
-  <a class="index-internal" target="_blank" href="/blackfriday/#live-billfodl">
-  <amp-img itemprop="image"
-  src="https://res.cloudinary.com/atnetcloud/image/upload/v1604371510/atnet/blackfriday2020/billfodl1_bsiyki.jpg"
-  alt="Crypto Black Friday offers 2020 - BillFodl and Trezor Bundles"
-  data-original-width="336px"
-  data-original-height="280px"
-  width="336px" height="280px"
-  layout="responsive">
-  </amp-img></a></div><br>'
-  ledger1: '<div class="text-center">
-  <a class="index-internal" target="_blank" href="/blackfriday/#live-ledger">
-  <amp-img itemprop="image"
-  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606117232/atnet/blackfriday2020/ledger-live_spswzs.jpg"
-  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
-  data-original-width="336px"
-  data-original-height="280px"
-  width="336px" height="280px"
-  layout="responsive">
-  </amp-img></a></div><br>'
-  tv1: '<div class="text-center">
-  <a class="index-internal" target="_blank" href="/blackfriday/#live-tradingview">
-  <amp-img itemprop="image"
-  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606117232/atnet/blackfriday2020/tradingview-live_o3nylp.jpg"
-  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
-  data-original-width="336px"
-  data-original-height="280px"
-  width="336px" height="280px"
-  layout="responsive">
-  </amp-img></a></div><br>'
-  airvpn1: '<div class="text-center">
-  <a class="index-internal" target="_blank" href="/blackfriday/#live-airvpn">
-  <amp-img itemprop="image"
-  src="https://res.cloudinary.com/atnetcloud/image/upload/v1606371530/atnet/blackfriday2020/ledger_bundles_bdx4n0.jpg"
-  alt="Crypto Black Friday offers 2020 - tradingview, ledger wallet, airvpn, tensorcharts, conigy"
-  data-original-width="336px"
-  data-original-height="280px"
-  width="336px" height="280px"
-  layout="responsive">
-  </amp-img></a></div><br>'
 
 bf1: '<div class="text-center">
 <a class="index-internal" target="_blank" href="/blackfriday/">
 <amp-img itemprop="image"
-src="/cta/blackfriday-crypto-2019_300x213.jpeg"
-alt="Crypto Black Friday offers 2019 - tradingview, ledger wallet, tensorcharts, conigy"
+src="/cta/eternal-black-friday-crypto.jpg"
+alt="Eternal Black Friday offers 2020 - tradingview, ledger wallet, tensorcharts, conigy"
 data-original-width="300px"
 data-original-height="213px"
 width="300px" height="213px"
-layout="responsive">
-</amp-img></a></div><br>'
-
-bf2: '<div class="text-center">
-<a class="index-internal" target="_blank" href="/blackfriday/">
-<amp-img itemprop="image"
-src="/cta/eternal-black-friday-crypto.jpg"
-alt="Crypto Black Friday"
-data-original-width="1747px"
-data-original-height="1240px"
-width="300px" height="213px"
-layout="responsive">
-</amp-img></a></div><br>'
-
-bf3: '<div class="text-center">
-<a class="index-internal" target="_blank" href="/blackfriday/">
-<amp-img itemprop="image"
-src="/cta/blackfriday-crypto-valentine.png"
-alt="Crypto Valentines day - Eternal Black Friday"
-data-original-width="1312px"
-data-original-height="926px"
-width="300px" height="211px"
-layout="responsive">
-</amp-img></a></div><br>'
-
-bf4: '<div class="text-center">
-<a class="index-internal" target="_blank" href="/blackfriday/">
-<amp-img itemprop="image"
-src="https://res.cloudinary.com/atnetcloud/image/upload/c_scale,f_auto,w_400/v1589248403/atnet/_banner/halving-banner_vvkx8g.png"
-alt="Crypto Discount Codes - Eternal Black Friday"
-data-original-width="400px"
-data-original-height="400px"
-width="400px" height="400px"
 layout="responsive">
 </amp-img></a></div><br>'
 
