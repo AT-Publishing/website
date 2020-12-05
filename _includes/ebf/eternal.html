@@ -1,15 +1,18 @@
 
 <hr>
 <blockquote>
-  Eternal Black Friday: *All Year Round* Crypto Deals and Discount Codes
+  Crypto Deals and Discounts All Year Round (Eternal Black Friday)
 </blockquote>
 <hr>
 
 {% for item in eter %}
 <hr id="eternal-{{ item.tags[0] }}">
-<h3>{{ item.title }} Discount</h3>
+<h3>{{ item.title }} (Crypto Deals)</h3>
 <p>{% for tag in item.tags %}<span class="tag article-tags"><a href="#live-{{tag}}">#{{tag | upcase}}</a></span>&nbsp;{% endfor %}</p>
-<article>{{ item.content }}</article>
+<article>
+  <h5 class="update">Last Updated <b>{{ item.last_modified_at | date: "%d %b %Y at %R" }}</b></h5>
+  {{ item.content }}
+</article>
 <div class="meta">
   <p>Tagged as {% for tag in item.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
 </div>

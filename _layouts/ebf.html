@@ -54,6 +54,10 @@ layout: default-news
 
           {{ content }}
 
+          <div id="regular">
+          {% include ebf/eternal.html %}
+          </div>
+
            <!--<div id="live">
            {% include ebf/live.html %}
            </div>live
@@ -61,17 +65,10 @@ layout: default-news
            <div id="timeline">
              {% for item in tlin %}{{ item.content }}{% endfor %}
            </div>
-
-
-
            -->
 
            <div id="past">
            {% include ebf/past.html %}
-           </div>
-
-           <div id="regular">
-           {% include ebf/eternal.html %}
            </div>
 
            {% assign interlink = page.top_interlink %}

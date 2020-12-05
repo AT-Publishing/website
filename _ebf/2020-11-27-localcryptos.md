@@ -5,7 +5,7 @@ tags:         [ localcryptos, p2p, onramp ]
 
 ---
 
-The p2p marketplace LocalCryptos is coming with a Black Friday discount this year: **30% fee discount** only on Friday 27th Nov 2020.
+The p2p marketplace LocalCryptos is coming with a Black Friday discount in 2020: **30% fee discount** only on Friday 27th Nov 2020.
 
 The 30% promo applies on all the trade fees, including crypto swaps.
 
