@@ -217,7 +217,7 @@ Learn to read these range-end situations. You will be in the best position to ri
 
 Bolling Bands reversal patterns likewise rely on stereotypical market psychology.
 
-* Typical Top: **"Three pushes to a high"**, which shows market greed.
+* Typical Top: **"Three pushes to a high"**, which shows market greed. More on [three-pushes patterns in ATNET Glossary](/glossary/bbands/).
 * Typical Bottom: **"W-Bottom"**, which shows market fear.
 
 These two reversal patterns are, in fact, market ranges.

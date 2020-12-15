@@ -19,9 +19,283 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Dec 2020 08:47:52 +0000</pubDate>
-    <lastBuildDate>Sat, 05 Dec 2020 08:47:52 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Dec 2020 09:25:47 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2020 09:25:47 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item turbo="true">
+        <title><![CDATA[ OBV: On-Balance Volume Divergence Crypto Strategies ]]></title>
+        <description><![CDATA[ On Balance Volume divergence trading made easier by transforming OBV into oscillator. Pine script available for free on TradingView. ]]></description>
+
+        <content:encoded><![CDATA[ In ScriptSpotlight, we review TA scripts that are available from Tradingview public library. If you don’t have a TradingView account yet, make a free one here.
+
+In this ScriptSpotlight:
+
+
+  Why OBV works
+  OBV Oscillator Tradingview Script Review
+
+
+On Balance Volume (OBV)
+
+On Balance Volume is a technical analysis indicator best known from the stock market. Swing traders use OBV to identify periods of quiet accumulation.
+
+During such times, entities dubbed “smart money” are buying up the asset in question, but their activity has minimal effect on price.
+
+Traders who are able to use OBV, Wyckoff method or fundamental analysis to discover the “smart money” accumulation is happening can choose to enter the market at a better entry price than breakout traders.
+
+There is also the use of OBV to improve your exit price or minimize the risk of drawdowns. Traders who spot a bearish OBV divergence can sell as the “smart money” starts selling into retail, typically all the while the news sites and social media are still insanely bullish.
+
+How OBV works
+
+On Balance Volume is a way to graphically express the old stock market wisdom: Volume precedes price action.
+
+The OBV chart is a single line that changes proportionally to the last period’s volume.
+
+
+  Current close price is below last close price (Price goes down): We subtract current traded volume from OBV (OBV goes down)
+  Current close price is above last close price (Price goes up): We add current traded volume to OBV (OBV goes up)
+
+
+How to use OBV in crypto trading
+
+Looking for smart money accumulation, we want to see only small increases in price but large volumes and therefore large changes in OBV.
+
+On the chart, smart money accumulation will show as a divergence of OBV vs price.
+
+OBV Divergence Types
+
+OBV follows the same divergence patterns as RSI divergence:
+
+
+  Bullish OBV divergence: OBV bottoms out, making higher low, on continually falling price
+  Bearish OBV divergence: OBV tops out, making a lower high, on continually rising price
+
+
+Get OBV on TradingView
+
+OBV Divergence on TradingView
+
+There is plenty of OBV scripts in the TradingView library.
+
+Here’s one version that is modified precisely to bring up divergences: OBV Oscillator.
+
+The script calculates the regular OBV, as explained above…
+
+src = close
+obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 ? -volume : 0*volume)
+# new obv = if close went up then add volume,
+#           if close went down then subtract volume,
+#           else leave old obv
+
+
+…and then it makes it into an oscillator by subtracting its own exponential moving average from itself:
+
+obv_osc = (obv(src) - ema(obv(src),length))
+
+
+This brings up weaker divergences on short time frames that would not always show up on regular OBV.
+
+Full script code
+
+Does it work?
+
+Yes.
+
+On shorter timeframes (1H-4H), the oscillator does bring up divergence that the plain OBV does not yet show.
+
+Below is a December 2020 BTCUSD in 2H timeframe.
+
+On the left, there is a clear bearish divergence that is far more pronounced with the oscillator. Plain OBV shows it as well, just much more shallower.
+
+Later on, more to the right, there is another bearish divergence that is not shown on plain OBV at all.
+
+With this weaker divergence you could argue that the price stayed more or less flat anyway, and so this div might not be worth the attention anyway.
+
+
+
+When in doubt, zoom out: Let’s take a look at the same situation on a higher timeframe then.
+
+Below is BTCUSD in 4H.
+
+The divergence highlighted on 2H is still there (yellow), and moreover it is now a part of a larger divergence (pink).
+
+The larger div is not shown in plain OBV.
+
+
+
+On the classic 1D chart, the differences between OBV oscillator and plain OBV vanish.
+
+It is still worth noting that the oscillator will paint the line bright red to scream at you at that THIS IS NOT GOOD in case you’d prefer to ignore that…which you still kind of could with plain OBV.
+
+
+
+This could be one of the three-pushes patterns but I’ll leave the full analysis to you.
+
+That’s right -
+
+It Is Still Just a Divergence
+
+OBV divergence is still a divergence. Divergences are good for a quick glance to see where the market is at. They are not precise enough to give you information like “buy now”.
+
+To get that level of precision, you will need to either use additional different indicators or you can “scale in”/”scale out” of your position.
+
+Scaling in or out is basically DCA of speculative trading.
+
+Summary
+
+The OBV oscillator script on TradingView makes OBV-price divergence more prominent on shorter timeframes. If used well, it will give you the chance to get better entry or exit price.
+
+OBV as well as OBV divergences can be traded on at cryptocurrency markets, stock markets and in general anywhere as long as the volume data is public.
+ ]]></content:encoded>
+
+        <turbo:content><![CDATA[ &lt;p&gt;&lt;em&gt;In ScriptSpotlight, we review TA scripts that are available from Tradingview public library. If you don’t have a TradingView account yet, &lt;a href=&quot;http://bit.ly/at-tvd-eth&quot;&gt;make a free one here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In this ScriptSpotlight:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-obv-works&quot;&gt;Why OBV works&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#does-it-work&quot;&gt;OBV Oscillator Tradingview Script Review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;on-balance-volume-obv&quot;&gt;On Balance Volume (OBV)&lt;/h2&gt;
+
+&lt;p&gt;On Balance Volume is a technical analysis indicator best known from the stock market. Swing traders use OBV to identify periods of quiet accumulation.&lt;/p&gt;
+
+&lt;p&gt;During such times, entities dubbed “smart money” are buying up the asset in question, but their activity has minimal effect on price.&lt;/p&gt;
+
+&lt;p&gt;Traders who are able to use OBV, Wyckoff method or fundamental analysis to discover the “smart money” accumulation is happening can choose to enter the market at a better entry price than breakout traders.&lt;/p&gt;
+
+&lt;p&gt;There is also the use of OBV to improve your exit price or minimize the risk of drawdowns. Traders who spot a bearish OBV divergence can sell as the “smart money” starts selling into retail, typically all the while the news sites and social media are still insanely bullish.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-obv-works&quot;&gt;How OBV works&lt;/h3&gt;
+
+&lt;p&gt;On Balance Volume is a way to graphically express the old stock market wisdom: &lt;strong&gt;Volume precedes price action.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The OBV chart is a single line that changes proportionally to the last period’s volume.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Current close price is below last close price (Price goes down): We subtract current traded volume from OBV (OBV goes down)&lt;/li&gt;
+  &lt;li&gt;Current close price is above last close price (Price goes up): We add current traded volume to OBV (OBV goes up)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-use-obv-in-crypto-trading&quot;&gt;How to use OBV in crypto trading&lt;/h3&gt;
+
+&lt;p&gt;Looking for smart money accumulation, we want to see only small increases in price but large volumes and therefore large changes in OBV.&lt;/p&gt;
+
+&lt;p&gt;On the chart, smart money accumulation will show as a &lt;strong&gt;divergence of OBV vs price&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;obv-divergence-types&quot;&gt;OBV Divergence Types&lt;/h4&gt;
+
+&lt;p&gt;OBV follows the same &lt;a href=&quot;/glossary/#div&quot;&gt;divergence&lt;/a&gt; patterns as RSI divergence:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bullish OBV divergence: OBV bottoms out, making higher low, on continually falling price&lt;/li&gt;
+  &lt;li&gt;Bearish OBV divergence: OBV tops out, making a lower high, on continually rising price&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bit.ly/at-tvd-eth&quot;&gt;Get OBV on TradingView&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;obv-divergence-on-tradingview&quot;&gt;OBV Divergence on TradingView&lt;/h2&gt;
+
+&lt;p&gt;There is plenty of OBV scripts in the TradingView library.&lt;/p&gt;
+
+&lt;p&gt;Here’s one version that is modified precisely to bring up divergences: &lt;a href=&quot;https://www.tradingview.com/script/Ox9gyUFA-Indicator-OBV-Oscillator/&quot;&gt;OBV Oscillator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The script calculates the regular OBV, as explained above…&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;src = close
+obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 ? -volume : 0*volume)
+# new obv = if close went up then add volume,
+#           if close went down then subtract volume,
+#           else leave old obv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;…and then it makes it into an oscillator by subtracting its own exponential moving average from itself:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;obv_osc = (obv(src) - ema(obv(src),length))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This brings up weaker divergences on short time frames that would not always show up on regular OBV.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tradingview.com/script/Ox9gyUFA-Indicator-OBV-Oscillator/&quot;&gt;Full script code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;does-it-work&quot;&gt;Does it work?&lt;/h3&gt;
+
+&lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;p&gt;On shorter timeframes (1H-4H), the oscillator does bring up divergence that the plain OBV does not yet show.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Below is a December 2020 BTCUSD in 2H timeframe.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On the left, there is a clear bearish divergence that is far more pronounced with the oscillator. Plain OBV shows it as well, just much more shallower.&lt;/p&gt;
+
+&lt;p&gt;Later on, more to the right, there is another bearish divergence that is not shown on plain OBV at all.&lt;/p&gt;
+
+&lt;p&gt;With this weaker divergence you could argue that the price stayed more or less flat anyway, and so this div might not be worth the attention anyway.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;When in doubt, zoom out: Let’s take a look at the same situation on a higher timeframe then.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Below is BTCUSD in 4H.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The divergence highlighted on 2H is still there (yellow), and moreover it is now a part of a larger divergence (pink).&lt;/p&gt;
+
+&lt;p&gt;The larger div is not shown in plain OBV.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On the classic 1D chart, the differences between OBV oscillator and plain OBV vanish.&lt;/p&gt;
+
+&lt;p&gt;It is still worth noting that the oscillator will paint the line bright red to scream at you at that THIS IS NOT GOOD in case you’d prefer to ignore that…which you still kind of could with plain OBV.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This could be one of the &lt;a href=&quot;/glossary/bbands/&quot;&gt;three-pushes patterns&lt;/a&gt; but I’ll leave the full analysis to you.&lt;/p&gt;
+
+&lt;p&gt;That’s right -&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It Is Still Just a Divergence&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;OBV divergence is still a &lt;a href=&quot;/glossary/#div&quot;&gt;divergence&lt;/a&gt;. Divergences are good for a quick glance to see where the market is at. They are not precise enough to give you information like “buy now”.&lt;/p&gt;
+
+&lt;p&gt;To get that level of precision, you will need to either use additional different indicators or you can “scale in”/”scale out” of your position.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/strategy/dollar-cost-averaging/&quot;&gt;Scaling in or out is basically DCA&lt;/a&gt; of speculative trading.&lt;/p&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;The OBV oscillator script on &lt;a href=&quot;http://bit.ly/at-tvd-eth&quot;&gt;TradingView&lt;/a&gt; makes OBV-price divergence more prominent on shorter timeframes. If used well, it will give you the chance to get better entry or exit price.&lt;/p&gt;
+
+&lt;p&gt;OBV as well as OBV divergences can be traded on at cryptocurrency markets, stock markets and in general anywhere as long as the volume data is public.&lt;/p&gt;
+ ]]></turbo:content>
+
+        <author><![CDATA[ KarlVonBahnhof ]]></author>
+        <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1608021193/atnet/blog_divs/obv-spotlight_of1vpj.jpg" medium="image" />
+        <pubDate>Sun, 13 Dec 2020 10:03:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/scriptspotlight-obv-div/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-obv-div/</guid>
+        <comments>https://www.altcointrading.net/scriptspotlight-obv-div/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ tradingview-scripts ]]></category>
+        <category><![CDATA[ divergence ]]></category>
+        <category><![CDATA[ obv ]]></category>
+        <category><![CDATA[ bbands ]]></category>
+        <category><![CDATA[ three-pushes-pattern ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ crypto-charting ]]></category>
+        <category><![CDATA[ tradingview ]]></category>
+        
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
+        
+
+        
+
+      </item>
     
       <item turbo="true">
         <title><![CDATA[ Buying small amounts of crypto: Where can you do a pocket money DCA? ]]></title>
@@ -6697,206 +6971,6 @@ Nonetheless, I am surprised the indicator actually provides quite a good informa
         <yandex:related>
         
         </yandex:related>
-
-      </item>
-    
-      <item turbo="true">
-        <title><![CDATA[ The grim side of Bakkt's potential consequences ]]></title>
-        <description><![CDATA[ It seems all of the critics of Bakkt point to a single issue. ]]></description>
-
-        <content:encoded><![CDATA[ Last month, Bakkt was still firmly in the shadow of cryptocurrency ETF proposals. Come September everything changed and the current Bitcoin community agenda regarding Bakkt seems to be one hundred percent neon pristine positive.
-
-It is always worth being careful about new projects, particularly ones with this overwhelmingly consistent response in a space like bitcoin markets and technology.
-
-There should be some polarization in the community, it only shows there is development potential happening from bottom up.
-
-Without disagreements, how can the blockchain space claim it is decentralized, and how different would the community be from a scripted TV debate or personalized Facebook agenda pushing?
-
-The thirsty traders
-
-As it appears now, the dire market conditions messed with the appetite for decentralized governance significantly.
-
-In August 2018, freshmen cryptocurrency investors from late 2017 and early 2018 were getting exhausted by the prolonged downtrend in the fiat value of all cryptoassets.
-
-While there is always a lot of silent people doing their thing as the bitcoin OTC volume estimates suggest, the public community voice was clear: There was a bubble after all, the correction has been long and exhausting, we need some fundamental positive news to justify a turning point.
-
-In other words, We need someone who actually has money to invest, unlike us at this point, to start buying. Perhaps the ETF will do that?
-
-
-  Fuck the ETF, sure it can help price but why isn’t the Bakkt Project by ICE (the guys who own the fkn New York Stock Exchange) being hyped? It’s way more bullish. Physically backed futures contracts. That means they must buy the actual BTC, not like the BS futures we have now that don’t require the underlying asset to trade. ICE will have to buy up a ton of BTC and store it. Increase in price and reduced circulating supply. Win-Win. / Reddit, August 2018
-
-
-This is not the place for Satoshi visions and other memes, rather it is that the community response prompts a simple appeal to common sense:
-
-
-  Are you really participating in a capital market and relying with your decision making judgement on the conventional public opinions?
-  With this mindset, would you have ever bought a cryptocurrency at any point in time before the bulk of 2017’s gains became publicly acknowledged?
-
-
-Who criticizes Bakkt
-
-With the majority of the community being stoked about potential relief from the bear market, there is not a lot of criticism based on ideology this time. When someone already brings up a point against Bakkt, it tends to be very factual.
-
-And there is every opportunity to do so, for anyone who is interested: Bakkt project has a landing page and a blog but as of end September 2018, the content of both is marketing speak exclusively. Facts or responses to questions are sparse and vague.
-
-At this stage, even an airdrop that distributes for a mailing list sign up gets questioned harder.
-
-Not your keys, not your Bitcoin
-
-“An ETF is a multibillion-dollar ‘not-your-keys-not-your-Bitcoin’ vehicle. That is why I am against it,” Andreas Antonopoulos said to the Bitcoin ETF obsession - an argument that applies the same to the Bakkt’s cryptoasset custody offering.
-
-According to Antonopoulos, the implication of this big a market for “second-tier investors” is the power over consensus gained by actors who are not personally interested in the state of the network because they do not hold their own private keys.
-
-Recalling the 2017 Bitcoin Cash fork and many other Bitcoin forks that followed, the pivotal point for most of them was the decision of major cryptocurrency exchanges to either support or disregard the forked coin. With bigger institutional investors coming to the market, should the fork pattern repeat, they will be the majority.
-
-Nick Szabo similarly argues at this point the legacy products “might cause more problems than it’s worth”, as quoted by Bitcoinist.
-
-The correlation of price with Bitcoin network activity
-
-The symbiont.io president and Wall Street veteran Caitlin Long was similarly concerned about how forks will be handled by Bakkt, a question that was raised but left without an answer from Bakkt.
-
-Long also criticized the fact that client collateral will not be held segregated for each client but in a single account (“commingled”) and that it will employ fractional reserve backing practices (“rehypothecation”).
-
-
-  Read full commentary in “What Will Bakkt Do For Crypto?” on CryptoIsComing
-
-
-While Bakkt futures will not offer explicit leverage, the two practices mentioned will effectively enable clients to trade with more Bitcoin than there is.
-
-That weakens Bakkt’s contribution to price discovery and removes a degree of transparency from Bitcoin trading.
-
-At the current state of Bitcoin markets, price action is still very much correlated with network activity and cryptocurrency exchange positions data, both of which are easily accessible in real time. Due to the hidden leverage, Bakkt trading could potentially cause events that will be divorced from metrics observable by the retail trader.
-
-The fresh opportunity
-
-Right now though, it appears that the business of capital management needs cryptoassets one way or another.
-
-Elon Musk recently tweeted that he is considering taking Tesla private at 420 USD. Whether it was meant seriously or not, it has drawn the attention to a bigger problem: Due to increasingly strict regulations, the number of publicly listed companies in the US has fallen steadily since 1997.
-
-In fact, more companies have delisted than gone public in every year of the past 20 years except the single year of 2013.
-
-One of the implications of this situation is the damaging effect it has on portfolio management. It simply becomes more difficult to build a diversified portfolio when you don’t have a diversity of stocks to choose from, to quote the US Global Investors report written by Frank Holmes on 10th August 2018.
-
-The report identifies cryptocurrencies and blockchain technology as a potential opportunity for investors who look to diversify.
-
-The long-enough timeline?
-
-It seems all of the critics of Bakkt point to a single issue: While it is laudable to pioneer a crypto custody service and to set the compliance standard for others, Bakkt’s own biggest edge seems to be in creating a silo of information about a market that, given the public trading conditions in the US, may later become crucial.
-
-Even so, there are people who believe that ultimately Bakkt’s model will fail:
-
-“A regulated exchange with a custodian may be popular for a short period of time, but it’s not the future. The future will be the original idea of a peer-to-peer network,” says Abhishek Punia, a cryptocurrency analyst at Draper Associates, one of the VC firms that are most active in the blockchain technology industry.
-
-After all, silos are prone to conflicts of interest and the difference from legacy finance is rampant here: Nobody is a prisoner of the only available system; unless the Earth’s electricity gets completely shut down, anyone will always have a possibility to interact with blockchains in a non-custodial or even fully decentralized manner.
-
-If the Bakkt hype is to be taken seriously though, no flight to decentralization is likely to happen before an impactful damaging incident.
- ]]></content:encoded>
-
-        <turbo:content><![CDATA[ &lt;p&gt;&lt;strong&gt;Last month, Bakkt was still firmly in the shadow of cryptocurrency ETF proposals. Come September everything changed and the current Bitcoin community agenda regarding Bakkt seems to be one hundred percent neon pristine positive.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It is always worth being careful about new projects, particularly ones with this overwhelmingly consistent response in a space like bitcoin markets and technology.&lt;/p&gt;
-
-&lt;p&gt;There should be some polarization in the community, it only shows there is development potential happening from bottom up.&lt;/p&gt;
-
-&lt;p&gt;Without disagreements, how can the blockchain space claim it is decentralized, and how different would the community be from a scripted TV debate or personalized Facebook agenda pushing?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-thirsty-traders&quot;&gt;The thirsty traders&lt;/h2&gt;
-
-&lt;p&gt;As it appears now, the dire market conditions messed with the appetite for decentralized governance significantly.&lt;/p&gt;
-
-&lt;p&gt;In August 2018, freshmen cryptocurrency investors from late 2017 and early 2018 were getting exhausted by the prolonged downtrend in the fiat value of all cryptoassets.&lt;/p&gt;
-
-&lt;p&gt;While there is always a lot of silent people doing their thing as the &lt;a href=&quot;https://twitter.com/ercwl/status/1023667334660149248&quot;&gt;bitcoin OTC volume estimates suggest&lt;/a&gt;, the public community voice was clear: There was a bubble after all, the correction has been long and exhausting, we need some fundamental positive news to justify a turning point.&lt;/p&gt;
-
-&lt;p&gt;In other words, &lt;em&gt;We need someone who actually has money to invest, unlike us at this point, to start buying. Perhaps the ETF will do that?&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Fuck the ETF, sure it can help price but why isn’t the Bakkt Project by ICE (the guys who own the fkn New York Stock Exchange) being hyped? It’s way more bullish. Physically backed futures contracts. That means they must buy the actual BTC, not like the BS futures we have now that don’t require the underlying asset to trade. ICE will have to buy up a ton of BTC and store it. Increase in price and reduced circulating supply. Win-Win. / &lt;a href=&quot;https://www.reddit.com/r/CryptoCurrency/comments/9837wb/andreas_antonopoulos_btc_etf_is_really_bad_news/e4dmnux/?utm_content=permalink&amp;amp;utm_medium=front&amp;amp;utm_source=reddit&amp;amp;utm_name=CryptoCurrency&quot;&gt;Reddit, August 2018&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is not the place for Satoshi visions and other memes, rather it is that the community response prompts a simple appeal to common sense:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Are you really participating in a capital market and relying with your decision making judgement on the conventional public opinions?&lt;/li&gt;
-  &lt;li&gt;With this mindset, would you have ever bought a cryptocurrency at any point in time before the bulk of 2017’s gains became publicly acknowledged?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;who-criticizes-bakkt&quot;&gt;Who criticizes Bakkt&lt;/h2&gt;
-
-&lt;p&gt;With the majority of the community being stoked about potential relief from the bear market, there is not a lot of criticism based on ideology this time. When someone already brings up a point against Bakkt, it tends to be very factual.&lt;/p&gt;
-
-&lt;p&gt;And there is every opportunity to do so, for anyone who is interested: &lt;a href=&quot;https://www.bakkt.com/index&quot;&gt;Bakkt project has a landing page and a blog&lt;/a&gt; but as of end September 2018, the content of both is marketing speak exclusively. Facts or responses to questions are sparse and vague.&lt;/p&gt;
-
-&lt;p&gt;At this stage, even an airdrop that distributes for a mailing list sign up gets questioned harder.&lt;/p&gt;
-
-&lt;h3 id=&quot;not-your-keys-not-your-bitcoin&quot;&gt;Not your keys, not your Bitcoin&lt;/h3&gt;
-
-&lt;p&gt;“An ETF is a multibillion-dollar ‘not-your-keys-not-your-Bitcoin’ vehicle. That is why I am against it,” Andreas Antonopoulos said to the Bitcoin ETF obsession - an argument that applies the same to the Bakkt’s &lt;a href=&quot;https://www.thebusinessofcrypto.com/custody/&quot;&gt;cryptoasset custody&lt;/a&gt; offering.&lt;/p&gt;
-
-&lt;p&gt;According to Antonopoulos, the implication of this big a market for “second-tier investors” is the power over consensus gained by actors who are not personally interested in the state of the network because they do not hold their own private keys.&lt;/p&gt;
-
-&lt;p&gt;Recalling the 2017 Bitcoin Cash fork and many other Bitcoin forks that followed, the pivotal point for most of them was the decision of major cryptocurrency exchanges to either support or disregard the forked coin. With bigger institutional investors coming to the market, should the fork pattern repeat, they will be the majority.&lt;/p&gt;
-
-&lt;p&gt;Nick Szabo similarly argues at this point the legacy products “might cause more problems than it’s worth”, as &lt;a href=&quot;https://bitcoinist.com/andreas-antonopoulos-criticizes-bitcoin-etfs/&quot;&gt;quoted by Bitcoinist&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-correlation-of-price-with-bitcoin-network-activity&quot;&gt;The correlation of price with Bitcoin network activity&lt;/h3&gt;
-
-&lt;p&gt;The symbiont.io president and Wall Street veteran Caitlin Long was &lt;a href=&quot;https://twitter.com/CaitlinLong_/status/1031565897167765505&quot;&gt;similarly concerned about how forks will be handled by Bakkt&lt;/a&gt;, a question that was raised but left without an answer from Bakkt.&lt;/p&gt;
-
-&lt;p&gt;Long also criticized the fact that client collateral will not be held segregated for each client but in a single account (“commingled”) and that it will employ fractional reserve backing practices (“rehypothecation”).&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read full commentary in &lt;a href=&quot;https://cryptoiscoming.com/what-will-bakkt-do-for-crypto/&quot;&gt;“What Will Bakkt Do For Crypto?” on CryptoIsComing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;While Bakkt futures will not offer explicit leverage, the two practices mentioned will effectively enable clients to trade with more Bitcoin than there is.&lt;/p&gt;
-
-&lt;p&gt;That weakens Bakkt’s &lt;a href=&quot;https://www.thebusinessofcrypto.com/company/bakkt/&quot;&gt;contribution to price discovery&lt;/a&gt; and removes a degree of transparency from Bitcoin trading.&lt;/p&gt;
-
-&lt;p&gt;At the current state of Bitcoin markets, price action is still very much correlated with network activity and cryptocurrency exchange positions data, both of which are easily accessible in real time. Due to the hidden leverage, Bakkt trading could potentially cause events that will be divorced from metrics observable by the retail trader.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-fresh-opportunity&quot;&gt;The fresh opportunity&lt;/h2&gt;
-
-&lt;p&gt;Right now though, it appears that the business of capital management needs cryptoassets one way or another.&lt;/p&gt;
-
-&lt;p&gt;Elon Musk recently tweeted that he is considering taking Tesla private at 420 USD. Whether it was meant seriously or not, it has drawn the attention to a bigger problem: Due to increasingly strict regulations, the number of publicly listed companies in the US has fallen steadily since 1997.&lt;/p&gt;
-
-&lt;p&gt;In fact, more companies have delisted than gone public in every year of the past 20 years except the single year of 2013.&lt;/p&gt;
-
-&lt;p&gt;One of the implications of this situation is the damaging effect it has on portfolio management. It simply becomes more difficult to build a diversified portfolio when you don’t have a diversity of stocks to choose from, to quote the &lt;a href=&quot;http://www.usfunds.com/media/files/pdfs/investor-alert/_2018/2018-08-10/Investor_Alert_08-10-2018.pdf&quot;&gt;US Global Investors report written by Frank Holmes on 10th August 2018&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The report identifies cryptocurrencies and blockchain technology as a potential opportunity for investors who look to diversify.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-long-enough-timeline&quot;&gt;The long-enough timeline?&lt;/h2&gt;
-
-&lt;p&gt;It seems all of the critics of Bakkt point to a single issue: While it is laudable to pioneer a crypto custody service and to set the compliance standard for others, Bakkt’s own biggest edge seems to be in creating a silo of information about a market that, given the public trading conditions in the US, may later become crucial.&lt;/p&gt;
-
-&lt;p&gt;Even so, there are people who believe that ultimately Bakkt’s model will fail:&lt;/p&gt;
-
-&lt;p&gt;“A regulated exchange with a custodian may be popular for a short period of time, but it’s not the future. The future will be the original idea of a peer-to-peer network,” &lt;a href=&quot;https://bravenewcoin.com/insights/bitcoin-and-the-nyse-unpacking-bakkts-big-plans&quot;&gt;says Abhishek Punia&lt;/a&gt;, a cryptocurrency analyst at Draper Associates, one of the VC firms that are most active in the &lt;a href=&quot;https://www.thebusinessofcrypto.com/company/&quot;&gt;blockchain technology industry&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After all, silos are prone to conflicts of interest and the difference from legacy finance is rampant here: Nobody is a prisoner of the only available system; unless the Earth’s electricity gets completely shut down, anyone will always have a possibility to interact with blockchains in a non-custodial or even fully decentralized manner.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;If the Bakkt hype is to be taken seriously though, no flight to decentralization is likely to happen before an impactful damaging incident.&lt;/strong&gt;&lt;/p&gt;
- ]]></turbo:content>
-
-        <author><![CDATA[ BusinessOfCrypto ]]></author>
-        <dc:creator><![CDATA[ BusinessOfCrypto ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/unsplash1/unitedstates.jpg" medium="image" />
-        <pubDate>Fri, 28 Sep 2018 06:13:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/bakkt-criticism/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/bakkt-criticism/</guid>
-        <comments>https://www.altcointrading.net/bakkt-criticism/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ adoption ]]></category>
-        <category><![CDATA[ regulations ]]></category>
-        
-        <category><![CDATA[ reports ]]></category>
-        
-
-        
 
       </item>
     

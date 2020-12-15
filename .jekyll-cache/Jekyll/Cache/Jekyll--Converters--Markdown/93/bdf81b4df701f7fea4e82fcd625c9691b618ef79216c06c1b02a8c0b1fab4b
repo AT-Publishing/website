@@ -1,0 +1,121 @@
+I"�<p><em>In ScriptSpotlight, we review TA scripts that are available from Tradingview public library. If you don’t have a TradingView account yet, <a href="http://bit.ly/at-tvd-eth">make a free one here</a>.</em></p>
+
+<p>In this ScriptSpotlight:</p>
+
+<ul>
+  <li><a href="#how-obv-works">Why OBV works</a></li>
+  <li><a href="#does-it-work">OBV Oscillator Tradingview Script Review</a></li>
+</ul>
+
+<h2 id="on-balance-volume-obv">On Balance Volume (OBV)</h2>
+
+<p>On Balance Volume is a technical analysis indicator best known from the stock market. Swing traders use OBV to identify periods of quiet accumulation.</p>
+
+<p>During such times, entities dubbed “smart money” are buying up the asset in question, but their activity has minimal effect on price.</p>
+
+<p>Traders who are able to use OBV, Wyckoff method or fundamental analysis to discover the “smart money” accumulation is happening can choose to enter the market at a better entry price than breakout traders.</p>
+
+<p>There is also the use of OBV to improve your exit price or minimize the risk of drawdowns. Traders who spot a bearish OBV divergence can sell as the “smart money” starts selling into retail, typically all the while the news sites and social media are still insanely bullish.</p>
+
+<h3 id="how-obv-works">How OBV works</h3>
+
+<p>On Balance Volume is a way to graphically express the old stock market wisdom: <strong>Volume precedes price action.</strong></p>
+
+<p>The OBV chart is a single line that changes proportionally to the last period’s volume.</p>
+
+<ul>
+  <li>Current close price is below last close price (Price goes down): We subtract current traded volume from OBV (OBV goes down)</li>
+  <li>Current close price is above last close price (Price goes up): We add current traded volume to OBV (OBV goes up)</li>
+</ul>
+
+<h3 id="how-to-use-obv-in-crypto-trading">How to use OBV in crypto trading</h3>
+
+<p>Looking for smart money accumulation, we want to see only small increases in price but large volumes and therefore large changes in OBV.</p>
+
+<p>On the chart, smart money accumulation will show as a <strong>divergence of OBV vs price</strong>.</p>
+
+<h4 id="obv-divergence-types">OBV Divergence Types</h4>
+
+<p>OBV follows the same <a href="/glossary/#div">divergence</a> patterns as RSI divergence:</p>
+
+<ul>
+  <li>Bullish OBV divergence: OBV bottoms out, making higher low, on continually falling price</li>
+  <li>Bearish OBV divergence: OBV tops out, making a lower high, on continually rising price</li>
+</ul>
+
+<p><a href="http://bit.ly/at-tvd-eth">Get OBV on TradingView</a></p>
+
+<h2 id="obv-divergence-on-tradingview">OBV Divergence on TradingView</h2>
+
+<p>There is plenty of OBV scripts in the TradingView library.</p>
+
+<p>Here’s one version that is modified precisely to bring up divergences: <a href="https://www.tradingview.com/script/Ox9gyUFA-Indicator-OBV-Oscillator/">OBV Oscillator</a>.</p>
+
+<p>The script calculates the regular OBV, as explained above…</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>src = close
+obv(src) =&gt; cum(change(src) &gt; 0 ? volume : change(src) &lt; 0 ? -volume : 0*volume)
+# new obv = if close went up then add volume,
+#           if close went down then subtract volume,
+#           else leave old obv
+</code></pre></div></div>
+
+<p>…and then it makes it into an oscillator by subtracting its own exponential moving average from itself:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>obv_osc = (obv(src) - ema(obv(src),length))
+</code></pre></div></div>
+
+<p>This brings up weaker divergences on short time frames that would not always show up on regular OBV.</p>
+
+<p><a href="https://www.tradingview.com/script/Ox9gyUFA-Indicator-OBV-Oscillator/">Full script code</a></p>
+
+<h3 id="does-it-work">Does it work?</h3>
+
+<p>Yes.</p>
+
+<p>On shorter timeframes (1H-4H), the oscillator does bring up divergence that the plain OBV does not yet show.</p>
+
+<p><strong>Below is a December 2020 BTCUSD in 2H timeframe.</strong></p>
+
+<p>On the left, there is a clear bearish divergence that is far more pronounced with the oscillator. Plain OBV shows it as well, just much more shallower.</p>
+
+<p>Later on, more to the right, there is another bearish divergence that is not shown on plain OBV at all.</p>
+
+<p>With this weaker divergence you could argue that the price stayed more or less flat anyway, and so this div might not be worth the attention anyway.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>When in doubt, zoom out: Let’s take a look at the same situation on a higher timeframe then.</p>
+
+<p><strong>Below is BTCUSD in 4H.</strong></p>
+
+<p>The divergence highlighted on 2H is still there (yellow), and moreover it is now a part of a larger divergence (pink).</p>
+
+<p>The larger div is not shown in plain OBV.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>On the classic 1D chart, the differences between OBV oscillator and plain OBV vanish.</p>
+
+<p>It is still worth noting that the oscillator will paint the line bright red to scream at you at that THIS IS NOT GOOD in case you’d prefer to ignore that…which you still kind of could with plain OBV.</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>This could be one of the <a href="/glossary/bbands/">three-pushes patterns</a> but I’ll leave the full analysis to you.</p>
+
+<p>That’s right -</p>
+
+<p><strong>It Is Still Just a Divergence</strong></p>
+
+<p>OBV divergence is still a <a href="/glossary/#div">divergence</a>. Divergences are good for a quick glance to see where the market is at. They are not precise enough to give you information like “buy now”.</p>
+
+<p>To get that level of precision, you will need to either use additional different indicators or you can “scale in”/”scale out” of your position.</p>
+
+<p><a href="/strategy/dollar-cost-averaging/">Scaling in or out is basically DCA</a> of speculative trading.</p>
+
+<h4 id="summary">Summary</h4>
+
+<p>The OBV oscillator script on <a href="http://bit.ly/at-tvd-eth">TradingView</a> makes OBV-price divergence more prominent on shorter timeframes. If used well, it will give you the chance to get better entry or exit price.</p>
+
+<p>OBV as well as OBV divergences can be traded on at cryptocurrency markets, stock markets and in general anywhere as long as the volume data is public.</p>
+:ET
