@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Dec 2020 09:25:47 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Dec 2020 09:25:47 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Dec 2020 09:38:04 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2020 09:38:04 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -4866,6 +4866,10 @@ The logic behind divergences is that sometimes the indicators shows hidden tende
 
 However, this is not a sharp enough indication to signal the actual entry. It gives the idea about the direction you should be looking for when looking for an entry on that timeframe but you will need to dig deeper and switch to shorter timeframes to find a plausible place for your entry.
 
+Volume vs Price: OBV divergence
+
+We wrote a ScriptSpotlight on OBV vs price divergences here.
+
 Examples of MACD divergence, RSI divergence and %bb divergence
 
 Price vs MACD Divergence, standard settings
@@ -4974,6 +4978,10 @@ Trading Divergences
 &lt;p&gt;The logic behind divergences is that sometimes the indicators shows hidden tendencies of the market (strength or weakness) that might not be visible from the price action yet.&lt;/p&gt;
 
 &lt;p&gt;However, this is not a sharp enough indication to signal the actual entry. It gives the idea about the direction you should be looking for when looking for an entry on that timeframe but you will need to dig deeper and switch to shorter timeframes to find a plausible place for your entry.&lt;/p&gt;
+
+&lt;h4 id=&quot;volume-vs-price-obv-divergence&quot;&gt;Volume vs Price: OBV divergence&lt;/h4&gt;
+
+&lt;p&gt;We wrote a ScriptSpotlight on OBV vs price divergences &lt;a href=&quot;/scriptspotlight-obv-div/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;examples-of-macd-divergence-rsi-divergence-and-bb-divergence&quot;&gt;Examples of MACD divergence, RSI divergence and %bb divergence&lt;/h4&gt;
 

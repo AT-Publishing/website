@@ -78,6 +78,10 @@ The logic behind divergences is that sometimes the indicators shows hidden tende
 
 However, this is not a sharp enough indication to signal the actual entry. It gives the idea about the direction you should be looking for when looking for an entry on that timeframe but you will need to dig deeper and switch to shorter timeframes to find a plausible place for your entry.
 
+#### Volume vs Price: OBV divergence
+
+We wrote a ScriptSpotlight on OBV vs price divergences [here](/scriptspotlight-obv-div/).
+
 #### Examples of MACD divergence, RSI divergence and %bb divergence
 
 **Price vs MACD Divergence, standard settings**
