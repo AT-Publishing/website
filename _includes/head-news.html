@@ -16,13 +16,9 @@
 <link rel="prerender" href="//www.altcointrading.net/blackfriday/">
 
 {% unless page.canonical %}
-  {% if page.stories %}
-  <link rel="canonical" href="https://news.altcointrading.net{{ page.url }}">
-  {% else %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
 {% else %}
-<link rel="canonical" href="{{ page.canonical }}">
+  <link rel="canonical" href="{{ page.canonical }}">
 {% endunless %}
 
 <link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
