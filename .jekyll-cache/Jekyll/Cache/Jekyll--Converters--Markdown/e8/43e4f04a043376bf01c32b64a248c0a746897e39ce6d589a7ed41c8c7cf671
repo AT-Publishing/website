@@ -1,0 +1,44 @@
+I"ç<p>In technical analysis, <strong>engulfing</strong> refers to a pattern on the classic candlestick chart.</p>
+
+<p>The engulfing pattern is formed by two consecutive candles of different colours, where the body of the second candle fully overlaps the body of the first.</p>
+
+<!--more-->
+
+<h4 id="engulfing-candle-trading">Engulfing Candle Trading</h4>
+
+<p>Engulfing can be a bullish or bearish pattern, depending on the configuration:</p>
+
+<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1608748225/atnet/_glossary/engulfing_g5qpan.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1608748225/atnet/_glossary/engulfing_g5qpan.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><strong>Bullish engulfing</strong></p>
+
+<p>Bullish engulfing means that on your timeframe, there has been a change in momentum - <em>bullish reversal</em>. This surge in bullish momentum is what painted the candle nr. 2 bigger than candle nr. 1.</p>
+
+<p><strong>Bearish engulfing</strong></p>
+
+<p>Bearish engulfing means that on your timeframe, there has been a change in momentum - <em>bearish reversal</em>. This surge in bearish momentum is what painted the candle nr. 2 bigger than candle nr. 1.</p>
+
+<p>Engulfings are a well performing pattern on cryptocurrency markets, due to the higher volatility there. In crypto, momentum often changes quickly, especially on smaller altcoin markets.</p>
+
+<p>Statistically speaking, engulfing performs well in general. With both bullish and bearish engulfing, you get over 50% success by trading on engulfing only. The issue with engulfing is that this two-candle pattern says nothing about whether the reversal has any chance to catch on. It absolutely can get rejected very soon!</p>
+
+<p>So, if you are a <a href="/strategy/scalping/">scalper</a>, engulfing might be good enough to trade on. Engulfing is also a good candidate for <a href="http://bit.ly/at-coinrule">TA-based bot trading automation</a>.</p>
+
+<p>For those who are not super keen on <a href="/daytrading/">daytrading</a> or other short term trading techniques, it is best to consider not only engulfing but also other technical indicators. Check divergences, momentum, volume profile. This way you‚Äôll get clue if the reversal is serious or just a short-lived nonevent.</p>
+
+<ul>
+  <li><a href="/divergences/">More on divergences</a></li>
+  <li><a href="/glossary/vpvr/">More on volume profile trading</a></li>
+  <li><a href="/glossary/bbands/">More on BBands</a></li>
+</ul>
+
+<h3 id="where-to-get-engulfing-alerts">Where to get engulfing alerts</h3>
+
+<p><a href="http://bit.ly/at-tvd-eth">TradingView</a> has a bunch of public scripts that highlight engulfing candles for you. You will be able to get these even with the free plan, in the public indicator library.</p>
+
+<p>To get mail or sms alerts for engulfing, consider going PRO on <a href="http://bit.ly/at-tvd-eth">TradingView</a>.</p>
+
+<h4 id="build-engulfing-candles-into-your-trading-strategy">Build engulfing candles into your trading strategy</h4>
+
+<p>Alternatively, for a fully automated TA-based trading, try the <a href="http://bit.ly/at-coinrule">Coinrule bot</a>. The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.</p>
+:ET
