@@ -10,7 +10,7 @@ tags:         [  crypto-opsec, altcoin-wallet, ledger, monero, electrum ]
 permalink:    monero-wallet/
 
 image:
-- "https://res.cloudinary.com/atnetcloud/image/upload/v1596530762/atnet/_how-to/pexels-negative-space-169573_sxippd.jpg"
+- https://res.cloudinary.com/dttheory/image/upload/v1609096527/at-top/monero-wallets-2021_msdpd9.jpg
 image_alt:
 - "Monero GUI wallet can be connected to a remote node if you cannot sync the whole blockchain."
 

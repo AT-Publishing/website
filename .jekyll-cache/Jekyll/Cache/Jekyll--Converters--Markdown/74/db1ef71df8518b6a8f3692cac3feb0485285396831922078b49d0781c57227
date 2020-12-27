@@ -1,0 +1,57 @@
+I"�<p>Every couple of weeks, always on the full moon, the blackbytes airdrops were happening. If you signed a message with a BTC address before the deadline, you received free <strong>[giga]bytes</strong> and some hours later also some <strong>[giga]blackbytes</strong>.</p>
+
+<p>While the bytes can be traded on <a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE">Bittrex (by millions as GBYTE)</a>, the blackbytes aren’t traded anywhere. To trade these for bytes you need to sign up to the byteball slack channel <a href="http://slack.byteball.org/">via the autoinviter here</a> and head to #trading_blackbyte channel. The channel has a bot that works as an order book by Gigabyte per Gigablackbyte:</p>
+
+<p><a target="_blank" href="https://www.altcointrading.nethttps://image.prntscr.com/image/D2NJV0HoTAqCiTrhnt38OQ.png" title="AltcoinTrading.NET - GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.nethttps://image.prntscr.com/image/D2NJV0HoTAqCiTrhnt38OQ.png" alt="GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)" title="AltcoinTrading.NET - GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>On the screenshot, the top of the ask book was at 0.01290 GB/GBB and top of the bid book at 0.02008 GB/GBB.</p>
+
+<p>Gigabytes per bitcoin were trading at Bittrex around 0.24 BTC ($585) before the airdrops became popular, the ratio plummeted later.</p>
+
+<h4 id="about-byteball">About Byteball</h4>
+
+<p>Byteball is a payment network that makes it easy to set conditional payments - <em>finalize payment only if condition is met</em> - similar to ethereum smart contracts but more user-friendly:</p>
+
+<p><a target="_blank" href="https://www.altcointrading.nethttps://wiki.byteball.org/uploads/slackjore/bind-400.png" title="AltcoinTrading.NET - GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)"><figure class="border"><amp-img itemprop="image" src="https://www.altcointrading.nethttps://wiki.byteball.org/uploads/slackjore/bind-400.png" alt="GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)" title="AltcoinTrading.NET - GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)" layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>The way transactions are confirmed is from the high level similar to <a href="https://www.altcointrading.net/iota">IOTA’s tangle</a>:</p>
+
+<blockquote>
+  <p>Transactions created by users are cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball.</p>
+</blockquote>
+
+<p>In byteball this is called DAG (directed acyclic graph) - every new transaction references one or more earlier ones by including and signing their hashes. By including its parents, each new transaction also indirectly includes and confirms all parents of the parents, parents of the parents of the parents, and so on.</p>
+
+<p>The supply is capped, there is no mining:</p>
+
+<blockquote>
+  <p>The total number of bytes is 10^15, all bytes were issued in the genesis transaction. Since the fees paid are returned into the circulation, the money supply will remain the same.</p>
+</blockquote>
+
+<p>The difference between bytes and blackbytes is that blackbytes have enhanced privacy:</p>
+
+<blockquote>
+  <p>Private payments can be made using blackbytes, a cash-like untraceable currency. Its transactions are not visible on the public database that shows all payments made with (white)bytes. Blackbytes are sent peer-to-peer instead in an encrypted chat session.</p>
+</blockquote>
+
+<p><a href="https://bitcointalk.org/index.php?topic=1608859.0">Read more at bitcointalk</a></p>
+
+<h3 id="byteball-airdrops">Byteball airdrops</h3>
+
+<p>If you didn’t catch the latest airdrop, there will be another one - <a href="https://byteball.org">byteball.org</a> has a countdown.</p>
+
+<p>Currently the next one is scheduled for March 2, 2018. Also, at the moment the reward is shifting towards holders of GB who didn’t sell after the airdrop:</p>
+
+<ul>
+  <li>For every 16 BTC you receive 0.1 GB (1 gigabyte = 1 billion bytes),</li>
+  <li>For every 1 GB you receive additional 0.1 GB.</li>
+</ul>
+
+<h4 id="how-to-get-into-the-next-airdrop">How to get into the next airdrop</h4>
+
+<p>To enter the byteball giveaway you need to <a href="https://byteball.org/#download">download byteball wallet</a> and from it enter the chat window with the transition bot by opening this as a link in your browser - <code class="language-plaintext highlighter-rouge">byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000</code>. It will open in the byteball wallet, if you have it installed.</p>
+
+<p>The bot will tell you to first state your byteball address, then your bitcoin addresses each followed by a message signed with that address. The signed message must contain only your byteball address.</p>
+
+<p>SegWit BTC addresses are not supported.</p>
+:ET

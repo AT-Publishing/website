@@ -14,7 +14,7 @@ description:  "Some exchanges don't support LTC withdrawals to P2SH wallets and 
 slug:         move-ltc-p2sh/
 
 image:
-- "https://res.cloudinary.com/atnetcloud/image/upload/v1596607764/atnet/_how-to/ltc-p2sh-transfers_hvn9gg.jpg"
+- https://res.cloudinary.com/dttheory/image/upload/v1609095859/at-top/ltc-p2sh-guide_kgtjxv.jpg
 image_alt:
 - How to move litecoins between exchanges
 categories:   [technical]

@@ -24,12 +24,12 @@ author: https://twitter.com/tradingfanbois
 author_name: tradingfanbois
 
 image:
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensorcharts_vxc3td.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614662/atnet/blog_tensorcharts/cointerminal_y3vih5.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor4_hv5i4o.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor7_kczr8l.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor5_il51aq.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensorcharts_vxc3td_rrar8m.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/cointerminal_y3vih5_erdcrs.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensor4_hv5i4o_rcp1uk.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensor9_znpvtm_ubphwd.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensor7_kczr8l_o33kfu.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensor5_il51aq_hegicn.png
 
 image_alt:
 - "Ever heard of footprint charts? Tensorcharts are a similar idea, you will surprised how much information you can get from a single glance at the chart."
