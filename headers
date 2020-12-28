@@ -6,7 +6,7 @@ navi:
 ---
 
 /*
-  #X-Frame-Options: DENY
+  X-Frame-Options: SAMEORIGIN
   Content-Security-Policy: frame-src https://code.createjs.com https://cdnjs.cloudflare.com https://s3.tradingview.com https://amp2disqus.netlify.com https://www.altcointrading.net
   X-Content-Type-Options: nosniff
   X-XSS-Protection: "1; mode=block" always
