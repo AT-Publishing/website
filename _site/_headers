@@ -1,12 +1,22 @@
+/*
+  #X-Frame-Options: DENY
+  Content-Security-Policy: frame-src https://amp2disqus.netlify.com https://www.altcointrading.net
+  X-Content-Type-Options: "nosniff" always
+  X-XSS-Protection: "1; mode=block" always
+  Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token
+  Access-Control-Allow-Credentials: true
+  Access-Control-Allow-Origin: https://amp2disqus.netlify.com
+  Access-Control-Allow-Origin: https://www.altcointrading.net
+  AMP-Access-Control-Allow-Source-Origin: https://amp2disqus.netlify.com
+  AMP-Access-Control-Allow-Source-Origin: https://www.altcointrading.net
+  Access-Control-Allow-Methods: POST, GET, OPTIONS
+  Access-Control-Expose-Headers: AMP-Access-Control-Allow-Source-Origin
 /eth.json
   # Headers for that path:
   Access-Control-Allow-Origin: *
   X-Frame-Options: ALLOW
   X-XSS-Protection: 1; mode=block
 /posts.json
-  Access-Control-Allow-Origin: *
-  X-Frame-Options: ALLOW
-/fibs.json
   Access-Control-Allow-Origin: *
   X-Frame-Options: ALLOW
 /atnet.json
