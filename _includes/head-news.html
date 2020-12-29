@@ -40,8 +40,8 @@
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 <meta property="og:site_name" content="AltcoinTrading.NET" />
 <meta property="og:updated_time" content="{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% elsif page.update %}{{ page.update }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}" />
-<meta property="og:image" content="{% if page.image[0] %}{% unless page.cloud %}{{ site.url }}{{ site.baseurl }}{% endif %}{{ page.image[0] }}{% else %}/editorial/brand/altcointrading_net-markets.png{% endif %}" />
-<meta property="og:image:secure_url" content="{% if page.image[0] %}{{ site.url }}{{ site.baseurl }}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/brand/altcointrading_net-markets.png{% endif %}" />
+<meta property="og:image" content="{% if page.image[0] %}{% unless page.cloud %}{{ site.url }}{{ site.baseurl }}{% endunless %}{{ page.image[0] }}{% else %}/editorial/brand/altcointrading_net-markets.png{% endif %}" />
+<meta property="og:image:secure_url" content="{% if page.image[0] %}{% unless page.cloud %}{{ site.url }}{{ site.baseurl }}{% endunless %}{{ page.image[0] }}{% else %}{{site.url}}{{site.baseurl}}/editorial/brand/altcointrading_net-markets.png{% endif %}" />
 
 <!-- article -->
 <meta property="article:publisher" content="https://www.facebook.com/Altcoin-Trading-World-Network-201445543927265/" />
