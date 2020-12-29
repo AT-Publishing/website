@@ -1,5 +1,7 @@
 ---
 layout:       at-trading
+cloud:        true
+
 title:        "Buying Crypto Non-KYC: Where to do it with minimal risk?"
 description:  "There are risks to buying or trading crypto on no-KYC exchanges. Where are the safest places to buy crypto without KYC?"
 note:         "Trading Blog"
@@ -13,9 +15,8 @@ tags:         [ crypto-fundamentals, crypto-trading-strategy, bitfinex, localcry
 
 permalink:    buy-crypto-no-kyc/
 
-image:        [
-"https://res.cloudinary.com/atnetcloud/image/upload/b_rgb:a46014,c_lpad,h_360,w_700/v1603688562/atnet/pexels-photo-2179248_d5dt4i.jpg"
-]
+image:        
+- https://res.cloudinary.com/dttheory/image/upload/v1609260371/at-2/buy-crypto-nokyc_iavk3o.jpg
 
 author: https://www.altcointrading.net
 author_name: altcointrading
