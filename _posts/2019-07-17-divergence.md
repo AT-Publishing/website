@@ -1,11 +1,9 @@
 ---
-
 published:  true
 guest:      false
 pinned:     false
 guide:      false
 sponsored:  false
-
 cloud:      true
 
 promoting:  exchanges
@@ -16,13 +14,12 @@ description: "Divergence is a disagreement between price and an oscillating indi
 
 permalink: divergences/
 
-
 image:
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/divergences1_lcfavg.jpg
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/hiddendivergences_ptaof1.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.png
-- https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.png
+- https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/divergences1_ssjq7o.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/hiddendivergences_amlxe2.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-stochrsi_mdocxm.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-bbands_v2qwxz.jpg
 
 image_alt: "Divergences between lows or highs on the price action and the MACD or RSI can provide valuable signals."
 
@@ -36,9 +33,11 @@ author:      https://twitter.com/tradingfanbois
 author_name: tradingfanbois
 
 about:
- name: "technical analysis divergence"
- sameas: ["https://www.investopedia.com/terms/d/divergence.asp"]
-
+ name: "divergence trading"
+ sameas: ["https://www.altcointrading.net/glossary/divergence/"]
+mentions:
+ name: "obv divergence"
+ sameas: ["https://www.altcointrading.net/scriptspotlight-obv-div/"]
 related:
  - {"Trading Strategy: Technical analysis as a tool for strategic thinking": "/strategy/technical/"}
  - {"Ichimoku cloud - Does it make sense to tweak the settings for crypto?": "/ichimoku-cloud/"}

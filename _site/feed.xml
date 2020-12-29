@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Dec 2020 12:57:24 +0000</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2020 12:57:24 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Dec 2020 16:37:20 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Dec 2020 16:37:20 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -234,7 +234,7 @@ obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 
 
 &lt;p&gt;With this weaker divergence you could argue that the price stayed more or less flat anyway, and so this div might not be worth the attention anyway.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-2h-btcusd_exjssc.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243856/at-top/divs/obv-div-2h-btcusd_sljsrj.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243856/at-top/divs/obv-div-2h-btcusd_sljsrj.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When in doubt, zoom out: Let’s take a look at the same situation on a higher timeframe then.&lt;/p&gt;
 
@@ -244,13 +244,13 @@ obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 
 
 &lt;p&gt;The larger div is not shown in plain OBV.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-4h-btcusd_mnujc5.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243856/at-top/divs/obv-div-4h-btcusd_hldzta.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243856/at-top/divs/obv-div-4h-btcusd_hldzta.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On the classic 1D chart, the differences between OBV oscillator and plain OBV vanish.&lt;/p&gt;
 
 &lt;p&gt;It is still worth noting that the oscillator will paint the line bright red to scream at you at that THIS IS NOT GOOD in case you’d prefer to ignore that…which you still kind of could with plain OBV.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1608020092/atnet/blog_divs/obv-div-1d-btcusd_gcmlf3.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243855/at-top/divs/obv-div-1d-btcusd_rk2bij.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243855/at-top/divs/obv-div-1d-btcusd_rk2bij.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This could be one of the &lt;a href=&quot;/glossary/bbands/&quot;&gt;three-pushes patterns&lt;/a&gt; but I’ll leave the full analysis to you.&lt;/p&gt;
 
@@ -273,7 +273,7 @@ obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 
 
         <author><![CDATA[ KarlVonBahnhof ]]></author>
         <dc:creator><![CDATA[ KarlVonBahnhof ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1608021193/atnet/blog_divs/obv-spotlight_of1vpj.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243855/at-top/divs/obv-spotlight_rihxh2.jpg" medium="image" />
         <pubDate>Sun, 13 Dec 2020 10:03:00 +0000</pubDate>
         <link>https://www.altcointrading.net/scriptspotlight-obv-div/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/scriptspotlight-obv-div/</guid>
@@ -4973,7 +4973,7 @@ Trading Divergences
 
 &lt;p&gt;&lt;em&gt;Exaggerated Divergence&lt;/em&gt; is only different in that price makes double top or double bottom rather than new high or new low.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/divergences1_lcfavg.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/divergences1_lcfavg.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/divergences1_ssjq7o.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/divergences1_ssjq7o.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;divergences-only-show-a-level-where-to-wait-for-entry-signal&quot;&gt;Divergences only show a level where to wait for entry signal&lt;/h4&gt;
 
@@ -4991,13 +4991,13 @@ Trading Divergences
 
 &lt;p&gt;This is a regular bullish divergence on an old ETHUSD chart.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Price vs StochRSI Divergence&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a 1D chart of BTCUSD, Bitfinex. The StochRSI shows hidden bearish divergence, the momentum is set to continue the bearish trend.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-stochrsi_hhovvf.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-stochrsi_mdocxm.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-stochrsi_mdocxm.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Price vs %b Divergence, BBands 21 periods - stdev 3&lt;/strong&gt;&lt;/p&gt;
 
@@ -5009,7 +5009,7 @@ Trading Divergences
 
 &lt;p&gt;This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 1D. Having bearish divergences on a longer timeframe and a bullish divergence on a shorter one shows a short recovery might be in the cards but the bulls aren’t winning yet.&lt;/p&gt;
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609354/atnet/blog_divs/price-bbands_hxbpi5.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-bbands_v2qwxz.jpg&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243855/at-top/divs/price-bbands_v2qwxz.jpg&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;divergences-cheat-sheets&quot;&gt;Divergences Cheat Sheets&lt;/h2&gt;
 
@@ -5056,7 +5056,7 @@ Trading Divergences
 
         <author><![CDATA[ tradingfanbois ]]></author>
         <dc:creator><![CDATA[ tradingfanbois ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1582609532/atnet/blog_divs/bitfinex-divergences_iqfmiz.png" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg" medium="image" />
         <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
         <link>https://www.altcointrading.net/divergences/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/divergences/</guid>
