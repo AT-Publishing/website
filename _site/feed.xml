@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Dec 2020 09:19:15 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Dec 2020 09:19:15 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Dec 2020 09:22:03 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Dec 2020 09:22:03 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -915,7 +915,7 @@ Crypto Mining Infographic
 
         <author><![CDATA[ AltcoinTrading.NET ]]></author>
         <dc:creator><![CDATA[ AltcoinTrading.NET ]]></dc:creator>
-        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg" medium="image" />
+        <media:content url="https://www.altcointrading.nethttps://res.cloudinary.com/dttheory/image/upload/v1609243772/at-2/howto-buyeth/buy-eth-guide_y0lc0w.jpg" medium="image" />
         <pubDate>Wed, 30 Sep 2020 00:12:00 +0000</pubDate>
         <link>https://www.altcointrading.net/pow-fundamentals/</link>
         <guid isPermaLink="true">https://www.altcointrading.net/pow-fundamentals/</guid>
@@ -925,6 +925,8 @@ Crypto Mining Infographic
 
         <category><![CDATA[ crypto-fundamentals ]]></category>
         <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ localcryptos ]]></category>
+        <category><![CDATA[ independent-reserve ]]></category>
         
         <category><![CDATA[ crypto-value-judgement ]]></category>
         
@@ -5018,17 +5020,17 @@ Trading Divergences
     &lt;p&gt;&lt;strong&gt;For the ultra lazy&lt;/strong&gt;: &lt;a href=&quot;/scriptspotlight-auto-divergences/&quot;&gt;Automatic Divergence Indicator&lt;/a&gt; from TradingView. This is a pine script from the public library on TradingView. You’ll need an account there to access the indicator, but &lt;a href=&quot;https://bit.ly/at-tv-2020-globalcrypto&quot;&gt;TradingView FREE&lt;/a&gt; will be enough.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png&quot;&gt;Comprehensive Divergences Cheat-sheet&lt;/a&gt;  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/5SnaDpt_pblcug.png&quot;&gt;Comprehensive Divergences Cheat-sheet&lt;/a&gt;  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Altcoin Trading - TA Divergences Cheatsheet&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;1031px&quot; data-original-height=&quot;2464px&quot; width=&quot;750px&quot; height=&quot;1792px&quot;&gt;&lt;/amp-img&gt;
+&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Altcoin Trading - TA Divergences Cheatsheet&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/5SnaDpt_pblcug.png&quot; layout=&quot;responsive&quot; data-original-width=&quot;1031px&quot; data-original-height=&quot;2464px&quot; width=&quot;750px&quot; height=&quot;1792px&quot;&gt;&lt;/amp-img&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg&quot;&gt;Basic divergences cheatsheet from BabyPips&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/babypips-divergences-cheatsheet_apro7m.jpg&quot;&gt;Basic divergences cheatsheet from BabyPips&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Simple Divergences Cheatsheet&quot; src=&quot;https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg&quot; layout=&quot;responsive&quot; data-original-width=&quot;652px&quot; data-original-height=&quot;965px&quot; width=&quot;652px&quot; height=&quot;965px&quot;&gt;&lt;/amp-img&gt;
+&lt;amp-img itemprop=&quot;image&quot; alt=&quot;Simple Divergences Cheatsheet&quot; src=&quot;https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/babypips-divergences-cheatsheet_apro7m.jpg&quot; layout=&quot;responsive&quot; data-original-width=&quot;652px&quot; data-original-height=&quot;965px&quot; width=&quot;652px&quot; height=&quot;965px&quot;&gt;&lt;/amp-img&gt;
 
 &lt;h4 id=&quot;crypto-divergences-explained-by-josh-olszewicz&quot;&gt;Crypto Divergences Explained by Josh Olszewicz&lt;/h4&gt;
 

@@ -10,10 +10,10 @@ permalink:      pow-fundamentals/
 cz: false
 
 image:
-- 'https://res.cloudinary.com/atnetcloud/image/upload/v1591952603/atnet/howto_buy-eth/closeup-photo-of-three-round-coins-in-person-s-palm-1097946_hpzdww.jpg'
+- https://res.cloudinary.com/dttheory/image/upload/v1609243772/at-2/howto-buyeth/buy-eth-guide_y0lc0w.jpg
 
 categories: [ crypto-value-judgement ]
-tags:       [ crypto-fundamentals, crypto-trading-strategy ]
+tags:       [ crypto-fundamentals, crypto-trading-strategy, localcryptos, independent-reserve ]
 
 related:
 - {"ATNET Glossary: Defi Market Metrics": "/glossary/yield-farming/"}
