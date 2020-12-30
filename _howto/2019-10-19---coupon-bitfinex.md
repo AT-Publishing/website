@@ -12,12 +12,13 @@ description:  "Bitfinex Referral Code 5egV78YtlC for fee discount. No Minimum De
 permalink:    /coupon-bitfinex-5egv78ytlc/
 
 categories:   [ trading-platforms ]
-tags:         [ recommended-exchange, custodial-trading ]
+tags:         [ recommended-exchange, custodial-trading, bitfinex ]
 
 
 image:
-- https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1582621901/atnet/var_exchanges/bitfinex-coupon-5egV78YtlC_p2n6ed.jpg
-- https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_north,h_360,w_700/v1597212056/atnet/_how-to/bitfinex-check-certificate_kckdvn.jpg
+- https://res.cloudinary.com/dttheory/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1609318704/at-top/platforms/bitfinex-coupon-5egV78YtlC.jpg
+- https://res.cloudinary.com/dttheory/image/upload/c_lfill,g_north,h_360,w_700/v1609318790/at-top/platforms/bitfinex-check-ssl-certificate.jpg
+
 image_alt:
 - "Bitfinex referral code 5egV78YtlC"
 

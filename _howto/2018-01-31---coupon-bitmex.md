@@ -13,11 +13,12 @@ permalink: /coupon-bitmex-iyqb44/
 
 
 categories: [ trading-platforms ]
-tags:       [ recommended-exchange, custodial-trading ]
+tags:       [ recommended-exchange, custodial-trading, bitmex ]
 
 
 image:
-- https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/v1582621902/atnet/var_exchanges/bitmex-coupon-iYQB44_copa1b.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609318706/at-top/platforms/bitmex-coupon-iYQB44.jpg
+
 image_alt:
 - "BitMEX coupon referral code iYQB44"
 
