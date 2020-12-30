@@ -11,7 +11,7 @@ hook:       What do crypto traders call the Bart formation and how to trade it?
 categories: [crypto-jargon]
 tags:       ["pattern-trading", "bart", "reverse-bart", "bart-formation", "technical-analysis", "crypto-exchange", "crypto-market"]
 note:       jargon
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938500/atnet/_glossary/bart-formation.jpg", "https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1586938501/atnet/_glossary/inverse-bart-formation.jpg"]
+image:      ["https://res.cloudinary.com/dttheory/image/upload/v1609333868/at-3/bart-formation_wo0ylp.jpg", "https://res.cloudinary.com/dttheory/image/upload/v1609333868/at-3/inverse-bart-formation_bmjsib.jpg"]
 
 #indepth:    /ichimoku-cloud/
 

@@ -12,9 +12,9 @@ categories: [crypto-jargon]
 tags:       ["crypto-technical-analysis", "pattern-trading",  "bgd", "tradingview"]
 note:       jargon
 
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1586937056/atnet/_glossary/bgd_csyjsh.jpg",
-"https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,g_center,h_360,w_700/v1596526477/atnet/_glossary/bitfinex-btcusd-bgd_fo1rb7.jpg"]
-
+image:      
+- https://res.cloudinary.com/dttheory/image/upload/v1609333802/at-3/bgd_mr0vko.jpg
+- https://res.cloudinary.com/dttheory/image/upload/v1609333802/at-3/bitfinex-btcusd-bgd_lfsnw4.jpg
 
 ---
 

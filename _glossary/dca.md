@@ -9,9 +9,9 @@ title:      DCA
 hook:       What do crypto traders call DCA and how to do it?
 
 categories: [crypto-jargon]
-tags:       ["crypto-trading-strategy", "dca", "dollar-cost-averaging", "dca-strategy", "crypto-exchange", "crypto-market"]
+tags:       ["crypto-trading-strategy", "dca", "dollar-cost-averaging", "dca-strategy", "crypto-exchange", "crypto-market", "independent-reserve"]
 note:       jargon
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_700/c_crop,h_360,w_700/v1592815278/atnet/_glossary/pexels-photo-3943728.jpeg_fgmk4o.jpg"]
+image:      ["https://res.cloudinary.com/dttheory/image/upload/v1609333718/at-3/stock-dca_gdhcf3.jpg"]
 
 indepth:    /strategy/dollar-cost-averaging/
 
@@ -21,7 +21,7 @@ about:
 
 ---
 
-The DCA acronym in crypto trading or investing stands for **dollar cost averaging**.
+The DCA meaning in crypto trading or investing is **dollar cost averaging**.
 
 <!--more-->
 
