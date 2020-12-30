@@ -16,7 +16,7 @@ categories: [ technical ] # so this is a howto that doesn't have parent to strat
 tags:       [ spend-your-crypto, crypto-opsec, bitcoin-wallet ]
 
 image:
-- "https://res.cloudinary.com/atnetcloud/image/upload/v1587527346/atnet/blog_trading/pay-with-btc_ku4see.jpg"
+- https://res.cloudinary.com/dttheory/image/upload/v1609319244/at-top/tools/howto-pay-with-btc.jpg
 
 image_alt:
 - "How to use bitcoin for payments"

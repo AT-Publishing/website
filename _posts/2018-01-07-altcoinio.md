@@ -14,7 +14,7 @@ title:        "[EXIT 2019] Review of Altcoin.io Non-custodial Exchange"
 description:  "Altcoin.io was a decentralized exchange built in 2017 on atomic swaps with Josh Olzsewicz and Andrew Gazdecki on board. The platform was acquired by BnkToTheFuture in 2019."
 
 image:
-- "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,h_360/c_crop,h_360,w_700/v1596775760/atnet/blog_trading/altcoinio_wn7r5y.jpg"
+- https://res.cloudinary.com/dttheory/image/upload/c_scale,h_360/c_crop,h_360,w_700/at-top/tools/altcoinio.jpg
 image_alt:
 - "The Altcoin.io Wallet."
 

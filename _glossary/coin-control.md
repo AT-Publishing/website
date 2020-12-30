@@ -11,10 +11,10 @@ hook:       What is coin control and where can you get it?
 categories: [ opsec ]
 tags:       [ crypto-opsec, dust-attack, ledger, electrum, cryptocurrency-wallet, crypto-tools]
 note:       jargon
-image:      [
-"https://res.cloudinary.com/atnetcloud/image/upload/v1587527346/atnet/blog_trading/pay-with-btc_ku4see.jpg",
-"https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg",
-"https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg"]
+image:      
+- https://res.cloudinary.com/dttheory/image/upload/v1609319244/at-top/tools/howto-pay-with-btc.jpg
+- https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg
+- https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg
 
 indepth:    /altcoin-wallets/
 

@@ -111,17 +111,17 @@ This is a 2H chart of BTCUSD, Bitfinex - the same period as the previous one on 
 
 * **For the ultra lazy**: [Automatic Divergence Indicator](/scriptspotlight-auto-divergences/) from TradingView. This is a pine script from the public library on TradingView. You'll need an account there to access the indicator, but [TradingView FREE](https://bit.ly/at-tv-2020-globalcrypto) will be enough.
 
-* [Comprehensive Divergences Cheat-sheet](https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
+* [Comprehensive Divergences Cheat-sheet](https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/5SnaDpt_pblcug.png)  with proper explanations. It is valid for all oscillating indicators, you can use it to evaluate MACD divergences as well as RSI divergences.
 
 <amp-img itemprop="image" alt="Altcoin Trading - TA Divergences Cheatsheet"
- src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609528/atnet/blog_divs/5SnaDpt_whl4al.png" layout="responsive"
+ src="https://res.cloudinary.com/dttheory/image/upload/v1609243853/at-top/divs/5SnaDpt_pblcug.png" layout="responsive"
  data-original-width="1031px" data-original-height="2464px"
 width="750px" height="1792px"></amp-img>
 
-* [Basic divergences cheatsheet from BabyPips](https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg)
+* [Basic divergences cheatsheet from BabyPips](https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/babypips-divergences-cheatsheet_apro7m.jpg)
 
 <amp-img itemprop="image" alt="Simple Divergences Cheatsheet"
- src="https://res.cloudinary.com/atnetcloud/image/upload/v1582609523/atnet/blog_divs/babypips-divergences-cheatsheet_my6dqy.jpg" layout="responsive"
+ src="https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/babypips-divergences-cheatsheet_apro7m.jpg" layout="responsive"
  data-original-width="652px" data-original-height="965px"
 width="652px" height="965px"></amp-img>
 

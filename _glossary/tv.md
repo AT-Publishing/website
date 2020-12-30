@@ -11,7 +11,7 @@ hook:       TV in ATNET Crypto glossary. What do crypto traders call TV?
 categories: [crypto-jargon]
 tags:       [tv, crypto-trading-platforms, tradingview, trading-platform, custodial-trading, noncustodial-trading]
 note:       jargon
-image:      ["https://res.cloudinary.com/atnetcloud/image/upload/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]
+image:      ["https://res.cloudinary.com/dttheory/image/upload/v1609096986/at-top/tools/adl1_ctr4th.jpg"]
 
 
 indepth:    /blackfriday/#anticipated-tradingview

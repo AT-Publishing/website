@@ -17,8 +17,8 @@ categories:   [ crypto-trading-tools ]
 tags:         [ spend-your-crypto, crypto-charting, tradingview-scripts ]
 
 interlink:
-- [ "/tag/tradingview-script-review/", "Best TradingView Scripts that you can use with FREE account", "Get started on TradingView for FREE with these community scripts, and if you get tired of the nagging at chart layout save, you can always upgrade to PRO.", "https://res.cloudinary.com/atnetcloud/image/upload/c_scale,w_400/v1597393037/atnet/blog_trading/adl1_dtmaed.jpg"]
-- [ "/tensorcharts-tutorials/", "Tensorcharts Tutorials", "OK. Tensorcharts are not the easiest crypto charting app to get the grips of. But that also means the crowd is not there, and that it can add an edge to your trading setup.", "https://res.cloudinary.com/atnetcloud/image/upload/v1582614657/atnet/blog_tensorcharts/tensor9_znpvtm.jpg"]
+- [ "/tag/tradingview-script-review/", "Best TradingView Scripts that you can use with FREE account", "Get started on TradingView for FREE with these community scripts, and if you get tired of the nagging at chart layout save, you can always upgrade to PRO.", "https://res.cloudinary.com/dttheory/image/upload/c_scale,w_400/at-top/tools/adl1_ctr4th.jpg"]
+- [ "/tensorcharts-tutorials/", "Tensorcharts Tutorials", "OK. Tensorcharts are not the easiest crypto charting app to get the grips of. But that also means the crowd is not there, and that it can add an edge to your trading setup.", "https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensor9_znpvtm_ubphwd.png"]
 - [ "/altcoin-wallets/", "Best Altcoin Wallets - Updated for 2020", "Not keen on getting a second Ledger because your Nano S will not fit all your altcoin wallets into memory? There are alternatives, no need to worry. Will be somewhat less secure but then Ledger wallet is also a blackbox.", "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596530695/atnet/_how-to/generate-p2sh-btc-2_cnfxye.jpg"]
 
 # needs variable interlink
