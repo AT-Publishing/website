@@ -13,7 +13,7 @@ tags:       [ crypto-charting, crypto-technical-analysis, wyckoff-trading-crypto
 slug:       wyckoff-ranging-markets/
 
 image:
-- "https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693893/atnet/__women/pexels-andrew-neel-3954635_yrsfws.jpg"
+- "https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-andrew-neel-3954635_yrsfws.jpg"
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1597046799/atnet/strategy/wyckoff_mntely.jpg"
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1597046836/atnet/strategy/w_accum1_mtt41m.jpg"
 - "https://res.cloudinary.com/atnetcloud/image/upload/v1597046862/atnet/strategy/w_reaccum1_jynuwt.jpg"
