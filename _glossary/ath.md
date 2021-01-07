@@ -26,14 +26,14 @@ A market makes a new all-time high if its price action rises above the previous 
 
 ### The Bitcoin ATH
 
-On the bitcoin-dollar market, an ATH will happen when the price rises to anywhere over 20k USD.
+On the bitcoin-dollar market, the last ATH happenned when the price rose above 20k USD.
 
 ### ATH jargon term
 
-ATH is a term that you will find used in legacy trading as well, it is not specific to crypto.  
+ATH is a term that you will find used in legacy trading as well. The ATH term is not specific to crypto markets.  
 
 **Best Tools for Charting (Crypto AND Legacy)**
 
 * Charting App: [TradingView](http://bit.ly/at-tvd-eth)
 * Advanced Charting App: [Tensorcharts](http://bit.ly/at-tc-2020)
-* Trading Platforms: [BitMEX](http://bit.ly/2Muo11z) or [Bitfinex](http://bit.ly/at-bfx-banner2020)
+* Trading Platforms: [Bitfinex](http://bit.ly/at-bfx-banner2020)
