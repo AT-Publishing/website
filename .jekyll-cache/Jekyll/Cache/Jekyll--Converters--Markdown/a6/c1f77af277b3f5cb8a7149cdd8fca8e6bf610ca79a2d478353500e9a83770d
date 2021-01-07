@@ -1,0 +1,66 @@
+I"Q<p><strong>Volume trading</strong> is a popular technique in cryptocurrency trading.</p>
+
+<p>Volume trading is not particular to crypto markets, it is used on legacy markets as well.</p>
+
+<!--more-->
+
+<h3 id="volume-profile-strategies">Volume Profile Strategies</h3>
+
+<p>Broadly, volume trading is any trading technique that takes into account changes in traded volume on a market.</p>
+
+<p>On crypto trading forums, when someone talks about <em>volume trading</em>, it will be <em>volume profile trading</em>.</p>
+
+<p>Volume trading strategies that spread the most include:</p>
+
+<ul>
+  <li><strong>Volume support/resistance</strong>: Price levels where very high volume was traded will in the future form the base of <a href="/glossary/sideways/">ranges</a>. Evidently these are areas where a lot of the asset changed hands, so they can be considered support/resistance levels.</li>
+  <li><strong>Filling the gap</strong>: If the price action went fast on a very thin volume, the theory says the price will throw back to the volume support and “fill the gap”.</li>
+  <li><strong>Volume vs price change</strong>: If the price moves a lot on a thin volume, the sustainability of the action is questioned. This situation can paint the <a href="/glossary/bart/">Bart Simpson pattern</a>.</li>
+</ul>
+
+<h3 id="popular-tools-for-volume-trading">Popular tools for Volume Trading</h3>
+
+<p>There are several technical analysis tools and devices that crypto traders like to use for volume trading.</p>
+
+<p>The most popular volume trading indicators:</p>
+
+<ul>
+  <li><strong>VPVR</strong>, or <a href="/glossary/vpvr/">volume profile visible range</a>, gives granular data</li>
+  <li><strong>OBV</strong>, or <a href="/scriptspotlight-obv-div/">on balance volume</a>, gives averaged-out data</li>
+  <li>Charting apps like footprint charts or <a href="/tensorcharts/">Tensorcharts</a> work with volume profile within a candle</li>
+</ul>
+
+<h4 id="granular-volume-trading-is-expensive">Granular Volume Trading is Expensive</h4>
+
+<p>Volume Trading tools are marketed as an advanced tools. It is not that volume trading would be difficult to understand, but that VP gives rich, granular (…expensive) market data. Your usual free TA tools give you averaged, statistical data.</p>
+
+<p><a href="http://bit.ly/at-tvd-gopro" rel="nofollow" class="btn">Get VPVR with TradingView PRO</a>
+ 
+<a href="https://tensorcharts.com/?r=14" rel="nofollow" class="btn">Get VPVR with Tensorcharts PRO</a></p>
+
+<p>There are free volume profile indicators in the scripts in <a href="http://bit.ly/3nLSSqy">TradingView library</a>.</p>
+
+<p>These are not the same but they are a start.</p>
+
+<p><strong>Best Tools for Crypto Volume Trading</strong></p>
+
+<ul>
+  <li>Trading Platform: <a href="http://bit.ly/at-bfx-banner2020">Bitfinex</a></li>
+  <li>Charting Tool: <a href="https://bit.ly/at-tvd-btcusd">Tradingview</a></li>
+  <li>Automated Trading Strategies: <a href="http://bit.ly/at-coinrule">Coinrule</a></li>
+</ul>
+
+<p>Read our <a href="/tools/">list of tools for crypto traders</a> for more free and freemium options.</p>
+
+<h4 id="volume-profile-related-trading-tools">Volume profile related trading tools</h4>
+
+<p>Volume profile is often used as a complement to other methods of technical analysis.</p>
+
+<ul>
+  <li><a href="/ichimoku-cloud/">Ichimoku cloud</a></li>
+  <li><a href="/glossary/bbands/">Bollinger bands strategies</a></li>
+  <li><a href="/tensorcharts/">Order flow and heatmaps</a></li>
+</ul>
+
+<p>Last but not least: If you like the <a href="/strategy/wyckoff-ranging-markets/">Wyckoff method</a>, plotting volume on the side of the chart can help you analyze market ranges.</p>
+:ET
