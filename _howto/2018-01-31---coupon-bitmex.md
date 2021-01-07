@@ -8,7 +8,7 @@ layout:     at-trading
 note:       "Degen Empire"
 
 title: BitMEX (Referral Code iYQB44)
-description: BitMEX crypto derivatives trading. Use coupon iYQB44 for 10% Fee Discount on BitMEX.
+description: (Requires KYC) BitMEX crypto derivatives trading. Use coupon iYQB44 for 10% Fee Discount on BitMEX.
 permalink: /coupon-bitmex-iyqb44/
 
 

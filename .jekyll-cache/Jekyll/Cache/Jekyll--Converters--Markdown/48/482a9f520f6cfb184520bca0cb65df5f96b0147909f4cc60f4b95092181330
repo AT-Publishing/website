@@ -1,0 +1,66 @@
+I"Q<p>What is your <a href="/howto/choose-crypto-strategy/">crypto trading strategy</a>?</p>
+
+<p>Whether you want to hedge with derivatives, run a short term speculation or just buy and hold, there is a crypto bot that can make the work easier.</p>
+
+<h2 id="trading-bots-for-dca-strategies">Trading bots for DCA Strategies</h2>
+
+<p>DCA, or dollar cost averaging, is a long-term bullish position. If you think the price of an asset will grow at some point within the next 1-10 years, you are long-term bullish.</p>
+
+<p>If you want to put your money where your bullish sentiment is, but you do not want to waste time trying to get the perfect entry price^TM, you want DCA.</p>
+
+<p>With DCA, you scale into your position by making small regular purchases. You can use the same step-by-step method to exit the market as well.</p>
+
+<p><strong>More on the method</strong>: <a href="https://www.altcointrading.net/glossary/dca/">ATNET Glossary &gt; DCA</a></p>
+
+<p><strong>How does a bot help</strong>: To make sure you still buy even if the price is moving up <em>(too expensive!1)</em> or moving down <em>(going to zero!1)</em></p>
+
+<p><strong>Where to get the bot</strong>: <a href="http://bit.ly/at-indyres">Independent Reserve</a></p>
+
+<p><strong>How much does the bot cost</strong>: Nada</p>
+
+<h2 id="trading-bots-for-ta-strategies">Trading bots for TA Strategies</h2>
+
+<p>TA, or technical analysis, has a number of <a href="/glossary/pattern-trading/">pattern trading strategies</a> that can be executed pretty much automatically.</p>
+
+<p>Especially with short term techniques like <a href="https://www.altcointrading.net/glossary/scalping/">scalping</a>, the human factors of emotions, stress and mental fatigue can work very much against you.</p>
+
+<h3 id="examples-of-ta-classics-that-can-be-automated">Examples of TA classics that can be automated</h3>
+
+<ul>
+  <li>Scalping the Bollinger bands: Buying at the bottom line touch, selling the top line touch.</li>
+  <li>MACD crosses: Buy on bullish cross, sell on bearish cross on shorter timeframes.</li>
+  <li>RSI, oscillators and their derived transformations: Buy on oversold or other bullish signal, sell on overbought or other bearish signal on shorter timeframes.</li>
+</ul>
+
+<p>Short term trading is mentally draining to most people. With an automated strategy you can still participate in the market with limited babysitting of your positions.</p>
+
+<p><strong>More on the method</strong>: <a href="https://www.altcointrading.net/glossary/ta/">ATNET Glossary &gt; TA</a></p>
+
+<p><strong>How does a bot help</strong>: Automation will minimise the time spent on sitting at your desk watching charts.</p>
+
+<p><strong>Where to get the bot</strong>: <a href="http://bit.ly/at-coinrule">Coinrule</a></p>
+
+<p><strong>How much does the bot cost</strong>: Free for volumes below 3K USD per month, or 25% off with <a href="http://bit.ly/at-coinrule">this link</a>.</p>
+
+<h2 id="crypto-bots-for-lending-strategies">Crypto bots for Lending Strategies</h2>
+
+<p>Margin lending on spot crypto exchanges can become a race to the bottom pretty quickly. With <a href="/glossary/perps/">perpetual swap</a> funding the situation is different, the interest rate has a function in stabilising the market.</p>
+
+<p>With plain margin funding, the rate level can get suppressed very quickly whenever there’s a bunch of people submitting offers just below the market.</p>
+
+<p>If you submit your lending offers manually, you will tend to do that, because you want to make sure your offer gets filled. This behavior presses the lending rates down and effectively lowers your lending profits.</p>
+
+<p><a href="http://bit.ly/the-cat-mouse-game">Bitfinex</a> recently rolled out the “Lending PRO” interface that is available in the web interface from the top menu under “Lending”.</p>
+
+<p>You can set your minimum acceptable rate there, let’s say 0.009 per 3 days at BTC lending market. Your lending wallet balance will be automatically offered when the rates are above that level.</p>
+
+<p>You will not be tempted to get “at least something” when the rates have momentarily dropped to ridiculously low levels just during the two minutes you are checking them.</p>
+
+<p><strong>More on the method</strong>: <a href="https://www.altcointrading.net/strategy/lending/">ATNET Strategy &gt; Lending</a></p>
+
+<p><strong>How does a bot help</strong>: Automatically offers your lending wallet balance for the best possible rate as long as the current rate gets above your minimal required rate.</p>
+
+<p><strong>Where to get the bot</strong>: <a href="http://bit.ly/the-cat-mouse-game">Bitfinex</a></p>
+
+<p><strong>How much does the bot cost</strong>: Nada</p>
+:ET

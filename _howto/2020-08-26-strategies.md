@@ -1,7 +1,7 @@
 ---
 layout:       at-trading
 title:        "How To Choose Your Cryptocurrency Strategy"
-description:  "Intro 101 post summarizing the three basic cryptocurrency strategies, and how to choose yours if you are just starting out with cryptocurrencies."
+description:  "Intro 101 post summarising the three basic cryptocurrency strategies, and how to choose yours if you are just starting out with cryptocurrencies."
 note:         "Trading 101"
 date:         2020-08-25 20:42:00 +0700
 slug:         choose-crypto-strategy/

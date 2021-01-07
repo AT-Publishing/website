@@ -1,6 +1,6 @@
 ---
 layout:       at-trading
-title:        "How to verify your desktop crypto wallet is genuine"
+title:        "GPG Signature: Verify that your crypto wallet update is genuine"
 description:  "How to do GPG signature verification and checksum verification: A step by step guide on verifying the integrity of crypto wallets, trading apps and other software you download."
 note:         "Tech"
 date:         2020-09-28 23:42:00 +0700

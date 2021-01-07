@@ -8,7 +8,7 @@ layout:     at-trading
 note:       "Options/Futures"
 
 title: Deribit 10% Fee Discount (bit.ly/deribit Referral Code)
-description: Daribit is your 2020 BitMEX alternative for crypto derivatives trading.
+description: (Requires KYC) Deribit is your 2020 BitMEX alternative for crypto derivatives trading.
 permalink: /referral-code-deribit/
 
 

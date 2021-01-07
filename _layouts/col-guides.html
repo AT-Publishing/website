@@ -1,11 +1,15 @@
 ---
 layout: default
+
 ---
+
+{% assign howto_posts = site.howto | sort:date | reverse %}
+
 
 <div class="container">
   <div class="row">
     <div class="seven columns">
-      <p>{{ site.localcryptos_banner_512 }}</p>
+      <p>{{ site.localcryptos_leader_dark }}</p>
     </div>
     <div class="five columns">
      <h2 class="post">
@@ -17,14 +21,44 @@ layout: default
     </div>
   </div>
 
-  <hr>
+  <br>
+
+  <div class="row box-lvl-a">
+    <h4>Recommended crypto trading platforms: Why, where, how</h4>
+    <ul>
+      <li class="popular-item">Best crypto platforms for active trading</li>
+      <li class="popular-item">Best crypto platforms for buy-and-hold or DCA</li>
+      <li class="popular-item">Reliable exchanges you maybe don't even know</li>
+      <li class="popular-item">Current KYC requirements for crypto trading</li>
+    </ul>
+    {% for post in howto_posts %}
+      {% if post.categories contains "trading-platforms" %}
+      <div class="row">
+        <div class="columns three">
+          <h5><span class="tag lvl-ab">{{ post.note }}</span></h5>
+        </div>
+        <div class="columns seven">
+          <h5>
+          <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
+            <b>{{ post.title }}</b>
+          </a>
+          </h5>
+          <p>{{ page.description }}</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <br>
 
   <div class="row">
     <div class="columns twelve">
       <article class="maincontent col-guides">
 
         <div class="row">
-          {% assign howto_posts = site.howto | sort:date | reverse %}
 
 
           <h2 class="tagged-as">In AltcoinTrading How-To & Guides:</h2>
@@ -53,24 +87,6 @@ layout: default
             {% endfor %}
           </ul>
 
-
-<div class="row box-lvl-a">
-  <h4>Recommended trading platforms</h4>
-  <p>Why are they recommended and what they do best:</p>
-  {% for post in howto_posts %}
-    {% if post.categories contains "trading-platforms" %}
-    <h5>
-      <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
-        <span class="tag lvl-ab">{{ post.note }}</span> <b>{{ post.title }}</b>
-      </a>
-    </h5>
-    <p>{{ post.description }}</p>
-    <p></p>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<br><br>
 
           <span class="note" id="technical">How to manage crypto wallets and trading apps (super basic level)</span>
           <ul>
