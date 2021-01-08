@@ -1,0 +1,73 @@
+I"r<p>In the trading jargon, <strong>DCB</strong> is short for <strong>dead cat bounce</strong>. This term is not specific to crypto.</p>
+
+<p>Market traders call DCB the first bottom after the price action reverses down from a top.</p>
+
+<!--more-->
+
+<h3 id="what-is-a-valid-dcb">What is a valid DCB?</h3>
+
+<p>DCB is the first bottom after a downturn on the market. Typically, the market will bottom out in two bottoms, sometimes forming a W-pattern.</p>
+
+<p>The dead cat bounce can occur on any timeframe.</p>
+
+<p>It is still a DCB no matter whether the reversal of the direction is only temporary (such as with a retracement) or if the asset continues to makes new lows and goes into a bear market.</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/dcb_h9gasi.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/dcb_h9gasi.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h3 id="how-to-trade-a-dcb">How to trade a DCB?</h3>
+
+<p>There are several strategies to trade the dead cat bounce. To choose one, consider your risk appetite, your timeframe preference and your long-term position.</p>
+
+<ul>
+  <li>Do you want to do a speculative trade? What’s the expected upside, what’s the expected downside?</li>
+  <li>Is this speculation, like <a href="/strategy/scalping/">scalping</a>, or do you want to protect yourself in case this is the top?</li>
+  <li>In the long run, are you bullish or bearish on the asset?</li>
+</ul>
+
+<h4 id="trading-dcb-as-a-speculation">Trading DCB as a speculation</h4>
+
+<p>Scalpers and short term traders will watch the 1-5 minute timeframe for turns in volume, hitting a support and sometimes Fib levels.</p>
+
+<p><strong>Longing the first bottom</strong></p>
+
+<p>On first bullish signal, open a leveraged long. Then close it for small profit once the bounce from the bottom starts to slow down.</p>
+
+<ul>
+  <li><a href="/tensorcharts/">Tensorcharts</a> can be very useful for this.</li>
+</ul>
+
+<p><strong>Shorting the market retrace</strong></p>
+
+<p>On the market topping out and starting the market retrace, open a short. Set up either a trailing stop or a regular stop at the top and move the stop down as the price falls.</p>
+
+<p>On good volume, a good place for the stop is the middle of the previous candle.</p>
+
+<p>On thinner and volatile markets with stop hunts, the top of the previous candle is better.</p>
+
+<p><em>For a fully automated TA-based trading, try the <a href="http://bit.ly/at-coinrule">Coinrule bot</a>. The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.</em></p>
+
+<h4 id="market-retracement-trading-dcb-in-case-it-could-be-the-top">Market Retracement: Trading DCB in case it could be “the top”</h4>
+
+<p>If the price retraces from a top, nobody can be certain whether it’s a local top or the end of the bull market. There are always signs, but then again - sometimes honeybadger doesn’t care and the bull market extends further in spite of those signs.</p>
+
+<p>There is a technique of trading the market retracement that can protect you in case the price falls more and for longer.</p>
+
+<p>This technique is less for profit and more for hedge.</p>
+
+<ul>
+  <li>Open a short once you notice the price topping out. <a href="/glossary/pattern-trading/">BBands patterns help there</a>.</li>
+  <li>Set your stop to previous high once the price moves down.</li>
+  <li>Wait for the DCB, the rise from it and the top of the first bounce.</li>
+  <li>Once the price moves down for there, set your stop to the top of the first bounce.</li>
+</ul>
+
+<p>In case the market makes new highs, your stop will trigger and you’ll be back in. In case the market falls further, you have a short.</p>
+
+<p><strong>Best Tools for Trading DCB</strong></p>
+
+<ul>
+  <li>Trading Platform: <a href="http://bit.ly/at-bfx-banner2020">Bitfinex</a></li>
+  <li>Technical Analysis: Suport/Resistance, RSI, BBands</li>
+  <li>Charting App: <a href="http://bit.ly/at-tvd-eth">TradingView</a></li>
+</ul>
+:ET
