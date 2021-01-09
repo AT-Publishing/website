@@ -48,7 +48,7 @@ related:
 
 {{ site.tc1 }}
 
-The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind Footprint Charts(R).
+The idea of [TensorCharts](https://tensorcharts.com/?r=14) is similar to the one behind Footprint Charts^(R).
 
 The charts that will let you "see inside the bars" as their slogan says, and unlike many marketing catchphrases, this one actually fits.
 
@@ -142,6 +142,15 @@ Plans range from 8 USD - 25 USD per month, paid only in crypto.
 
 * To learn ow to use Tensor Charts head over to our **section for [TensorCharts Tutorials](/tensorcharts-tutorials/)**.
 
+## Tensorcharts Free Alternative
+
+If you are not sure you are willing to pay for this stuff, you can piece together a **poor man's tensorcharts alternative** on [TradingView](https://bit.ly/at-tvd-btcusd).
+
+It is not even close to the same product, but if you just don't want to pay, it is something.
+
+* Make a chart at [TradingView FREE](https://bit.ly/at-tvd-btcusd)
+* Go to Indicators and script and search for ["Poor man's volume profile", a free VPVR alternative](/glossary/vpvr/). Apply it.
+* Next look up "[ST] Volume Flow v6" by spacetrader, which colors your candles based on changes in volume. It colours full candles as a whole, the data is less granular than footprint candles. But it's free.
 
 ## Summary: Powerful Tool
 
