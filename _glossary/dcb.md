@@ -59,7 +59,7 @@ On good volume, a good place for the stop is the middle of the previous candle.
 
 On thinner and volatile markets with stop hunts, the top of the previous candle is better.
 
-_For a fully automated TA-based trading, try the [Coinrule bot](http://bit.ly/at-coinrule). The interface is user friendly, no need to write code to create or even backtest your automated trading strategy._
+_For a fully automated TA-based trading, try the [Coinrule bot](http://bit.ly/coinrulebot). The interface is user friendly, no need to write code to create or even backtest your automated trading strategy._
 
 #### Market Retracement: Trading DCB in case it could be "the top"
 

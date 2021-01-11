@@ -46,7 +46,7 @@ Engulfings are a well performing pattern on cryptocurrency markets, due to the h
 
 Statistically speaking, engulfing performs well in general. With both bullish and bearish engulfing, you get over 50% success by trading on engulfing only. The issue with engulfing is that this two-candle pattern says nothing about whether the reversal has any chance to catch on. It absolutely can get rejected very soon!
 
-So, if you are a [scalper](/strategy/scalping/), engulfing might be good enough to trade on. Engulfing is also a good candidate for [TA-based bot trading automation](http://bit.ly/at-coinrule).
+So, if you are a [scalper](/strategy/scalping/), engulfing might be good enough to trade on. Engulfing is also a good candidate for [TA-based bot trading automation](http://bit.ly/coinrulebot).
 
 For those who are not super keen on [daytrading](/daytrading/) or other short term trading techniques, it is best to consider not only engulfing but also other technical indicators. Check divergences, momentum, volume profile. This way you'll get clue if the reversal is serious or just a short-lived nonevent.
 
@@ -62,4 +62,4 @@ To get mail or sms alerts for engulfing, consider going PRO on [TradingView](htt
 
 #### Build engulfing candles into your trading strategy
 
-Alternatively, for a fully automated TA-based trading, try the [Coinrule bot](http://bit.ly/at-coinrule). The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.
+Alternatively, for a fully automated TA-based trading, try the [Coinrule bot](http://bit.ly/coinrulebot). The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.

@@ -70,7 +70,7 @@ Last but not least: If you like the [Wyckoff method](/strategy/wyckoff-ranging-m
 
 * Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
 * Charting Tool: [Tradingview](https://bit.ly/at-tvd-btcusd)
-* Trading Bot: [Coinrule](http://bit.ly/at-coinrule)
+* Trading Bot: [Coinrule](http://bit.ly/coinrulebot)
 
 
 Read our [list of tools for crypto traders](/tools/) for more free and freemium options.

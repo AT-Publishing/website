@@ -22,7 +22,7 @@
 
 <p>Statistically speaking, engulfing performs well in general. With both bullish and bearish engulfing, you get over 50% success by trading on engulfing only. The issue with engulfing is that this two-candle pattern says nothing about whether the reversal has any chance to catch on. It absolutely can get rejected very soon!</p>
 
-<p>So, if you are a <a href="/strategy/scalping/">scalper</a>, engulfing might be good enough to trade on. Engulfing is also a good candidate for <a href="http://bit.ly/at-coinrule">TA-based bot trading automation</a>.</p>
+<p>So, if you are a <a href="/strategy/scalping/">scalper</a>, engulfing might be good enough to trade on. Engulfing is also a good candidate for <a href="http://bit.ly/coinrulebot">TA-based bot trading automation</a>.</p>
 
 <p>For those who are not super keen on <a href="/daytrading/">daytrading</a> or other short term trading techniques, it is best to consider not only engulfing but also other technical indicators. Check divergences, momentum, volume profile. This way you’ll get clue if the reversal is serious or just a short-lived nonevent.</p>
 
@@ -40,5 +40,5 @@
 
 <h4 id="build-engulfing-candles-into-your-trading-strategy">Build engulfing candles into your trading strategy</h4>
 
-<p>Alternatively, for a fully automated TA-based trading, try the <a href="http://bit.ly/at-coinrule">Coinrule bot</a>. The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.</p>
+<p>Alternatively, for a fully automated TA-based trading, try the <a href="http://bit.ly/coinrulebot">Coinrule bot</a>. The interface is user friendly, no need to write code to create or even backtest your automated trading strategy.</p>
 :ET

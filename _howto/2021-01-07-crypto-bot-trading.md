@@ -76,9 +76,9 @@ Short term trading is mentally draining to most people. With an automated strate
 
 **How does a bot help**: Automation will minimise the time spent on sitting at your desk watching charts.
 
-**Where to get the bot**: [Coinrule](http://bit.ly/at-coinrule)
+**Where to get the bot**: [Coinrule](http://bit.ly/coinrulebot)
 
-**How much does the bot cost**: Free for volumes below 3K USD per month, or 25% off with [this link](http://bit.ly/at-coinrule).
+**How much does the bot cost**: Free for volumes below 3K USD per month, or 25% off with [this link](http://bit.ly/coinrulebot).
 
 
 ## Crypto bots for Lending Strategies

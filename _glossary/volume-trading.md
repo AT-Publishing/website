@@ -68,7 +68,7 @@ These are not the same but they are a start.
 
 * Trading Platform: [Bitfinex](http://bit.ly/at-bfx-banner2020)
 * Charting Tool: [Tradingview](https://bit.ly/at-tvd-btcusd)
-* Automated Trading Strategies: [Coinrule](http://bit.ly/at-coinrule)
+* Automated Trading Strategies: [Coinrule](http://bit.ly/coinrulebot)
 
 
 Read our [list of tools for crypto traders](/tools/) for more free and freemium options.
