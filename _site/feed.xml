@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jan 2021 13:25:58 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2021 13:25:58 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2021 08:08:44 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2021 08:08:44 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -289,6 +289,7 @@ obv(src) =&amp;gt; cum(change(src) &amp;gt; 0 ? volume : change(src) &amp;lt; 0 
         <category><![CDATA[ crypto-trading-strategy ]]></category>
         <category><![CDATA[ crypto-charting ]]></category>
         <category><![CDATA[ tradingview ]]></category>
+        <category><![CDATA[ top ]]></category>
         
         <category><![CDATA[ crypto-technical-analysis ]]></category>
         
@@ -759,6 +760,7 @@ List of all recommended no-KYC crypto exchanges
         <category><![CDATA[ crypto-trading-strategy ]]></category>
         <category><![CDATA[ bitfinex ]]></category>
         <category><![CDATA[ localcryptos ]]></category>
+        <category><![CDATA[ top ]]></category>
         
         <category><![CDATA[ reports ]]></category>
         

@@ -11,7 +11,7 @@ pinned:       no
 promoting:    exchanges
 
 categories:   [ reports ]
-tags:         [ crypto-fundamentals, crypto-trading-strategy, bitfinex, localcryptos ]
+tags:         [ crypto-fundamentals, crypto-trading-strategy, bitfinex, localcryptos, top ]
 
 permalink:    buy-crypto-no-kyc/
 

@@ -22,8 +22,8 @@ xmlns:turbo="http://turbo.yandex.ru">
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-bf.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jan 2021 13:25:58 +0000</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2021 13:25:58 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2021 08:08:44 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2021 08:08:44 +0000</lastBuildDate>
 
     
     
@@ -39,6 +39,25 @@ xmlns:turbo="http://turbo.yandex.ru">
     <th>About the airdrop</th>
     <th>Link</th>
   </tr>
+
+
+
+<tr>
+  <td>Huobi Token campaigns</td>
+  <td>4 weeks, 1st run started 12 Jan</td>
+  <td>
+    Huobi Token (HT) is a DeFi asset on the Huobi Ecological Chain (HECO). You can get a wallet address to receive the tokens in Huobi exchange. Huobi is giving out rewards for Twitter activity, blogging, YouTube content creation and Telegram activity. Rules on bitcointalk.
+  </td>
+  <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=5308826.0">rules</a></td>
+</tr>
+<tr>
+  <td>Bitfresh bounty program</td>
+  <td>Started 10 Jan</td>
+  <td>
+    Bitfresh is giving out token for Twitter follow and retweets. The more followers you have, the more tokens you get. Full rules on bitcointalk.
+  </td>
+  <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=5308408.0">rules</a></td>
+</tr>
 
   <tr>
     <td>Earn YoBit's YoDefi tokens</td>
@@ -127,7 +146,7 @@ xmlns:turbo="http://turbo.yandex.ru">
 
           ]]>
         </description>
-        <pubDate>Mon, 11 Jan 2021 13:25:58 +0000</pubDate>
+        <pubDate>Fri, 15 Jan 2021 08:08:44 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
