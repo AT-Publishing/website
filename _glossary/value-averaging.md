@@ -62,7 +62,7 @@ If they are altcoins, it might be better to take the BTC value instead. If you o
 
 * [More on DCA](/strategy/dollar-cost-averaging/)
 
-**Best Tools for Dollar Cost Averaging**
+**Best Tools for Value Cost Averaging**
 
 * Trading Platform: [Independent Reserve](http://bit.ly/at-indyres)
 * Technical Analysis: Simply check price!

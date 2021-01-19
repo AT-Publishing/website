@@ -1,0 +1,53 @@
+I"�<p><strong>Value averaging</strong>, sometimes also <em>value cost averaging</em>, is a strategy for rebalancing of the assets you hold as an investment based on each asset’s value. Value averaging is an alternative to <a href="/glossary/dca/"><strong>dollar cost averaging</strong></a>.</p>
+
+<!--more-->
+
+<h4 id="what-is-the-goal-of-value-averaging">What is the goal of value averaging?</h4>
+
+<p>Value averaging is a technique to keep your exposure to an asset at a roughly same level.</p>
+
+<p>In contrast to dollar cost averaging, value averaging requires you to follow the asset’s price changes and act on them.</p>
+
+<ul>
+  <li>If you dollar cost average into an asset, you are essentially building an <strong>ultra long-term, unleveraged (spot) long position</strong> in that asset.</li>
+  <li>If you value average an asset, you sell some of your holdings when its price increases</li>
+</ul>
+
+<h4 id="how-do-you-value-average-in-crypto-markets">How do you value average in crypto markets?</h4>
+
+<p>Value averaging in a crypto-asset can be done manually or automatically. <strong>Automating value averaging</strong> needs a bit more settings than automating DCA, but you will be able to run an automation like even in the free version of <a href="http://bit.ly/coinrulebot">Coinrule</a>.</p>
+
+<p><strong>This is how to value average, manually or through automation:</strong></p>
+
+<ul>
+  <li>Choose your target percentage. Maybe you are not comfortable with more than 30% of your crypto asset’s value in ETH, maybe you are not comfortable with more than 20% of your net worth in crypto. There is no rule for these numbers, it all depends on your perception of risk and your preferences.</li>
+  <li>Choose your time interval for rebalancing. Sensible choices could be once a month, once a quarter or once a year.</li>
+  <li>Once in each time interval, retrieve your asset’s value.</li>
+  <li>Calculate the percentage of your portfolio or of your total net worth the asset makes at its current price.</li>
+  <li>Buy or sell to get your target percentage.</li>
+</ul>
+
+<h4 id="value-average-pricing-in-what">Value average pricing in what?</h4>
+
+<p>It is worth mentioning you do not need to work with the USD value of your assets.</p>
+
+<p>If they are altcoins, it might be better to take the BTC value instead. If you only hold BTC but want to sell off as its price increases, you might want to consider its <a href="https://www.buybitcoinworldwide.com/bitcoin-price-in-gold/">value in gold</a>.</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot-2021-01-19-at-1.32.48-pm.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot-2021-01-19-at-1.32.48-pm.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="value-averaging-as-risk-management">Value averaging as risk management</h4>
+
+<p>Value averaging is a less bullish position than DCA, or dollar cost averaging. Value averaging can be seen as a way of risk management.</p>
+
+<ul>
+  <li><a href="/strategy/dollar-cost-averaging/">More on DCA</a></li>
+</ul>
+
+<p><strong>Best Tools for Value Cost Averaging</strong></p>
+
+<ul>
+  <li>Trading Platform: <a href="http://bit.ly/at-indyres">Independent Reserve</a></li>
+  <li>Technical Analysis: Simply check price!</li>
+  <li>Automation: <a href="http://bit.ly/coinrulebot">Coinrule</a></li>
+</ul>
+:ET
