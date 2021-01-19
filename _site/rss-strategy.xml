@@ -19,8 +19,8 @@
     <link>https://www.altcointrading.net/strategy/</link>
     <atom:link href="https://www.altcointrading.net/rss-strategy.xml" rel="self" type="application/rss+xml"/>
 
-    <pubDate>Tue, 19 Jan 2021 12:43:32 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2021 12:43:32 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Jan 2021 16:58:14 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Jan 2021 16:58:14 +0000</lastBuildDate>
 
     
       <item>
@@ -467,6 +467,44 @@
         
         
         <category>pattern-trading</category>
+        
+
+      </item>
+    
+      <item>
+
+        <title>Cashing-Out Strategy: Coin Control for HODLers</title>
+        <description>Did you HODL for years? Coin control will make it easier to sell</description>
+
+        <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+
+        <author>AltcoinTrading.NET@altcointrading.net</author>
+        <webmaster>strategy@altcointrading.net</webmaster>
+
+        <media:content url="https://www.altcointrading.nethttps://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/roads2.jpg" medium="image" />
+
+        <link>https://www.altcointrading.net/strategy/coin-control-selling-crypto/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/strategy/coin-control-selling-crypto/</guid>
+
+        
+        <category>hodl-strategy</category>
+        
+        <category>crypto-investment-strategy</category>
+        
+        <category>coin-control</category>
+        
+        <category>dollar-cost-averaging</category>
+        
+        <category>crypto-investment-strategy</category>
+        
+        <category>trading-strategy</category>
+        
+        <category>bitfinex</category>
+        
+        <category>independent-reserve</category>
+        
+        
+        <category>trading-technique</category>
         
 
       </item>

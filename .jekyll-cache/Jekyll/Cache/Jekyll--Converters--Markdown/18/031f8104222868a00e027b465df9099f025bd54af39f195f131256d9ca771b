@@ -1,0 +1,103 @@
+I"�$<p><strong>Coin control</strong> is a security feature of some cryptocurrency wallets. It could also be called a privacy feature, depends on how you use it.</p>
+
+<p>For instance, you will need coin control to protect yourself from <a href="/glossary/dust-attack/">dust attacks</a>.</p>
+
+<p>The same feature can help you sell your cryptocurrency stack with less trouble, though.</p>
+
+<p>In this crypto strategy article we will discuss how to use coin control function in Ledger and Electrum wallets to make selling your crypto easier in the future and also what your options are if you transact a lot with your crypto holdings.</p>
+
+<h3 id="what-coin-control-does">What Coin Control does</h3>
+
+<p>In the <a href="/glossary/coin-control/">ATNET Glossary entry on coin control</a>, we define coin control as follows:</p>
+
+<blockquote>
+  <p>Coin control is an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
+</blockquote>
+
+<h3 id="coin-control-strategy-for-hodlers">Coin Control strategy for hodlers</h3>
+
+<p>The legacy institutions do not care about where your coins come from, but some cryptocurrency exchanges do.</p>
+
+<p>The US exchange and trading platform Coinbase was the first in this cohort, rejecting bitcoin deposits whenever the coins had passed through a known casino wallet in the past. It is not surprising considering that Coinbase was the first crypto exchange that was <a href="https://www.forbes.com/sites/kellyphillipserb/2018/02/28/coinbase-notifies-customers-that-it-will-turn-over-court-ordered-data/">court-ordered to hand over customer information to authorities in 2018</a>.</p>
+
+<p>Kraken, another US-based platform, followed soon after. Reports of people getting their bitcoin deposits rejected started popping out on Reddit, among them people who claimed they work freelance and were just trying to sell the crypto their client sent them. Supposedly it was the client who got the coins from a gambling site.</p>
+
+<p>Remember, bitcoin is pseudonymous. Bitcoin transactions can be traced back. Most of the existing addresses are unidentified, but wallets belonging to casinos, marketplaces and trading platforms are known. They might not always be labeled and exactly determined, but they will inevitably have higher frequency of transactions going through them, more money in them, or both.</p>
+
+<p>Unless you can prove that the crypto you are selling is the same you provably bought at a certain exchange on a certain date, there is no way to prove it was not you who owned the coins when they were sent into a casino or darknet wallet at any point in the past.</p>
+
+<p>That is the practical issue for you as a cryptocurrency trader. The coins we get from margin trading and futures markets are not the same coins we deposited.</p>
+
+<h3 id="selling-with-kyc-what-you-bought-with-kyc">Selling with KYC what you bought with KYC</h3>
+
+<p>As long as you are a hodler, your situation is easiest. Keep your trade and withdrawal logs from the exchange where you bought. Even better, sell at the same platform where you bought.</p>
+
+<p>Ideally you should be able to make a <a href="/howto/sign-verify-message/">bitcoin signature</a> with the address you used to withdraw the coins after you bought them on a KYC exchange.</p>
+
+<p>You will probably be selling your coins from a different address even as long-term holder as a lot of bitcoiners changed from legacy to segwit addresses. Your access to the last address before sale is proven by the fact that you sent the coins out of it, or you might be asked to sign a message again.</p>
+
+<p>In the best case scenario, there would be only personal addresses in between those two. Nothing that would look like a busy commercial hot wallet. Keep in mind that if something dodgy happened with your coins between the two points that you verified ownership of, you will have a hard time convincing the authorities it was not you who were in control of the coins at that point.</p>
+
+<h3 id="can-you-still-split-the-coins">Can you still split the coins?</h3>
+
+<p>If you have a lot of crypto and you want to sell good part of it in the years to come, you may still be able to use the coin control feature to single out the coins you bought on a KYC exchange and held. Even if you reused the same address many times, it is still doable.
+Coins from P2P exchanges and coins that were on trading platforms like OKcoin futures will have to be considered “mixed”.</p>
+
+<p>Retrieve your KYC exchange logs and identify the coins that you still hold where you deposited them.</p>
+
+<p>If you used different addresses for different exchanges, you’re all set.</p>
+
+<p>If not, use coin control in Ledger or Electrum wallets to split the wallet balance. Find the transactions that are documented in your KYC exchange logs and send <em>only that money</em> to a different address under the same wallet:</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot_2020-09-08_at_15.51.09_ele277.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot_2020-09-08_at_15.51.09_ele277.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot_2020-09-08_at_17.14.56_l40exk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/screenshot_2020-09-08_at_17.14.56_l40exk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>Don’t have the keys from the old wallet? You are still good as long as you sell on the exchange where you bought and the coins were only in private-looking addresses since you bought them.</p>
+
+<h3 id="cannot-do-coin-control">Cannot do coin control?</h3>
+
+<p>One obvious option are the P2P markets like <a href="http://bit.ly/localcryptos">LocalCryptos</a>. You will not be able to trade large amounts there, but it could be good enough for <a href="/strategy/dollar-cost-averaging/">“dollar cost averaging” out of the market</a>.</p>
+
+<p>Another option is making your purchase directly in cryptocurrency.</p>
+
+<p>And lastly, crypto-backed lending.</p>
+
+<h4 id="lending-as-the-way-out">Lending as the way out</h4>
+
+<p>There has been a number of P2P lending platforms, both crypto and fiat backed. The early ones mostly failed, it was difficult to make people pay back.</p>
+
+<p>A second wave of crypto-backed lending came with the ICO bubble which produced a lot of dodgy lending tokens and one relatively stable lending project, Nexo.</p>
+
+<p>In 2020, Bitfinex opened a new service called <a href="http://bit.ly/at-bfxborrow">Bitfinex Borrow</a> which lets you borrow large-cap cryptos or several fiat currencies for collateral made up of cryptos or fiat.</p>
+
+<p>Crypto-backed loans will be one way to buy your lambo if you cannot prove the origin of your holdings.</p>
+
+<p>Other than that, borrowing instead of selling can also be more convenient due to taxes.</p>
+
+<p>Bitfinex offers fiat loans in USD, EUR and JPY and as it is a very liquid exchange, you would not have huge issues exchanging between them. But the same operation could get borderline impossible on a niche platform that only does loans.</p>
+
+<p>This is important point to consider when you think about your risks. More in the next section.</p>
+
+<h3 id="other-issues-you-may-face-cashing-out">Other issues you may face cashing out</h3>
+
+<p>To illustrate what will likely happen to quite a few of us in the future, here is a <a href="https://www.reddit.com/r/KrakenSupport/comments/7xnj05/withdrawal_rejected/">post made on Thursday, February 15, 2018</a> to the official KrakenSupport subreddit.</p>
+
+<blockquote>
+  <p>Kraken won’t let me withdraw 160,000 USD. I am a Canadian resident and I am trying to withdraw to the same bank account that I made my initial deposits. Here is proof of my verification […] I can also upload all my trades in Kraken to show that none of the money is suspicious.</p>
+</blockquote>
+
+<p>Kraken’s representative answered the issue was that OP’s bank rejected the transaction and in the spirit of not pissing off their banking partners, Kraken blocked all traffic between OP’s Kraken account and that bank.</p>
+
+<p>The rep then suggested OP withdraws in a different fiat currency, explaining that Kraken uses different intermediary banks for different fiat currencies.</p>
+
+<p>OP eventually succeeded withdrawing the amount in small batches of CAD. Other posters chimed in with similar experience - splitting the withdrawal into small chunks and spreading it out among different currencies or even different exchanges is the best way to cash out.</p>
+
+<p><em>If you want to lower your risks of getting stuck at verifying your accounts on a bunch of exchanges when you decide to sell, verify now to get ahead</em></p>
+
+<ul>
+  <li><a href="http://bit.ly/at-bfx-banner2020">Bitfinex</a></li>
+  <li><a href="http://bit.ly/at-indyres">Independent Reserve</a></li>
+  <li><a href="http://bit.ly/localcryptos">LocalCryptos</a> (P2P)</li>
+</ul>
+:ET

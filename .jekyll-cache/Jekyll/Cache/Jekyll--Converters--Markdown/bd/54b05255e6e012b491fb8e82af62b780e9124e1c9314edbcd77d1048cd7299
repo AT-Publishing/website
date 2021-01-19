@@ -1,10 +1,14 @@
-I"	<p>In the blockchain industry, we call <strong>coin control</strong> an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
+I"V<p>In the blockchain industry, we call <strong>coin control</strong> an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
 
 <p>This feature is necessary if you want to escape from a <a href="/glossary/dust-attack/">dust attack</a>, an attack on privacy that happens on the bitcoin blockchain.</p>
 
 <!--more-->
 
 <h3 id="bitcoin-wallets-that-support-coin-control">Bitcoin wallets that support coin control</h3>
+
+<p>If your bitcoin wallet supports coin control, it means the wallet will let you choose which of your coins you want to spend before you broadcast your transaction.</p>
+
+<p>The coin control feature will show you all your incoming transactions in your wallet that are currently unspent. You will then be able to choose which coins to spend. So for instance, maybe you want to spend only bitcoins that came to your address from a centralized exchange but you want to leave all coins from a decentralized exchange unspent.</p>
 
 <ul>
   <li><a href="http://bit.ly/lnx-2020">Ledger wallets</a></li>
@@ -18,7 +22,7 @@
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626705/atnet/_glossary/Screenshot_2020-09-08_at_15.51.09_ele277.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
-<p>Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on “<a href="/glossary/coin-control/">coin control</a>” and then unselect the dust.</p>
+<p>Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on “<a href="/glossary/coin-control/">coin control</a>” and then unselect the coins you do not want to include in your transaction.</p>
 
 <p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lpad,h_360,w_700/v1601626722/atnet/_glossary/Screenshot_2020-09-08_at_17.14.56_l40exk.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 

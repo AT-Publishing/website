@@ -29,6 +29,10 @@ This feature is necessary if you want to escape from a [dust attack](/glossary/d
 
 ### Bitcoin wallets that support coin control
 
+If your bitcoin wallet supports coin control, it means the wallet will let you choose which of your coins you want to spend before you broadcast your transaction.
+
+The coin control feature will show you all your incoming transactions in your wallet that are currently unspent. You will then be able to choose which coins to spend. So for instance, maybe you want to spend only bitcoins that came to your address from a centralized exchange but you want to leave all coins from a decentralized exchange unspent.
+
 * [Ledger wallets](http://bit.ly/lnx-2020)
 * [Electrum wallet](/glossary/electrum/)
 * [Samourai wallet](/samourai-wallet-bitcoin-anonymity/)
@@ -39,7 +43,7 @@ On any Ledger device, coin control is easily accessible through the Ledger Live 
 
 {% amp700cloud page.image[1] %}
 
-Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on "[coin control](/glossary/coin-control/)" and then unselect the dust.
+Ledger Live supports coin control in the dialog you go through when sending crypto out. You simply click on "[coin control](/glossary/coin-control/)" and then unselect the coins you do not want to include in your transaction.
 
 {% amp700cloud page.image[2] %}
 
