@@ -2344,6 +2344,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2474,6 +2484,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--eth-multisig-hack",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -2963,7 +2983,7 @@ amp-user-notification>div>div {
       
       <li>#CRYPTO-HEISTS: <a href="/tether-hack/">Tether Emergency Notice</a></li>
       
-      <li>#CRYPTO-HEISTS: <a href="/finexening/">The Finexening - Bitfinex hack</a></li>
+      <li>#CRYPTO-HEISTS: <a href="/eth-multisig-hack/">ETH multisig hack</a></li>
       
         
       
@@ -3103,17 +3123,36 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Market Timing in Crypto" href="/strategy/timing/">
+    <a class="cat-internal-link" title="Strategy: Technical Analysis with random tools like Fibs" href="/strategy/fibs/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/timing/" title="Market Timing in Crypto">
-      <span class="tag custom-note">Crypto Indexes</span>&nbsp;
-      <b>Market&nbsp;Timing&nbsp;in&nbsp;Crypto</b>
+    <a class="index-internal" href="/strategy/fibs/" title="Strategy: Technical Analysis with random tools like Fibs">
+      <span class="tag custom-note">Self-Fulfilling Prophecy</span>&nbsp;
+      <b>Strategy:&nbsp;Technical&nbsp;Analysi...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Cashing-Out Strategy: Coin Control for HODLers" href="/strategy/coin-control-selling-crypto/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/roads2.jpg" alt="Related in trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/coin-control-selling-crypto/" title="Cashing-Out Strategy: Coin Control for HODLers">
+      <span class="tag custom-note">Offramping</span>&nbsp;
+      <b>Cashing-Out&nbsp;Strategy:&nbsp;Coin&nbsp;...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3139,25 +3178,6 @@ amp-user-notification>div>div {
 &nbsp;
 
       
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
       <p>
         <a class="btn" href="/strategy/">See All</a>
       </p>
@@ -3176,14 +3196,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bitfinex-tether-transparency/" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency"><b>ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="ChrisJ (Bitfinex) on the Tether hack and Bitfinex transparency" href="/bitfinex-tether-transparency/">
+      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/coffee2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3195,14 +3215,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC"><b>Reddit on the Bcash runup: BCH vs BTC</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Reddit on the Bcash runup: BCH vs BTC" href="/bcash-rally-november-2017/">
+      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3214,14 +3234,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/altcoinio/" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange"><span class="tag custom-note">Non-custodial Trading</span>&nbsp;<b>[EXIT 2019] Review of Altcoin.io Non-custodial Exchange</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 30 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
+      <a class="cat-internal-link" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange" href="/altcoinio/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/c_scale,h_360/c_crop,h_360,w_700/at-top/tools/altcoinio.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3233,14 +3253,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/weiss-rating/" title="Weiss rating of cryptocurrencies is due today at 8AM UTC"><b>Weiss rating of cryptocurrencies is due today at 8AM UTC</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Weiss rating of cryptocurrencies is due today at 8AM UTC" href="/weiss-rating/">
+      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/weiss-ratings.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3252,14 +3272,14 @@ amp-user-notification>div>div {
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/buy-crypto-no-kyc/" title="Buying Crypto Non-KYC: Where to do it with minimal risk?"><span class="tag custom-note">Trading Blog</span>&nbsp;<b>Buying Crypto Non-KYC: Where to do it with minimal risk?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 15 Jan 2021</a>
+        <a class="index-internal" href="/bitcoin-coronavirus-crisis/" title="Will Your Bitcoin Investment Suffer from Coronavirus?"><span class="tag custom-note">Trading</span>&nbsp;<b>Will Your Bitcoin Investment Suffer from Coronavirus?</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 30 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Buying Crypto Non-KYC: Where to do it with minimal risk?" href="/buy-crypto-no-kyc/">
+      <a class="cat-internal-link" title="Will Your Bitcoin Investment Suffer from Coronavirus?" href="/bitcoin-coronavirus-crisis/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609260371/at-2/buy-crypto-nokyc_iavk3o.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609319421/at-top/tools/coronavirus-crypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

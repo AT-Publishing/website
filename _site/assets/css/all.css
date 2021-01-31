@@ -2154,4 +2154,14 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 

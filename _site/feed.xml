@@ -19,8 +19,8 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Jan 2021 12:50:22 +0000</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2021 12:50:22 +0000</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2021 15:16:46 +0000</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2021 15:16:46 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item turbo="true">
@@ -1380,7 +1380,7 @@ IMPORTANT! BitMEX platform is unreliable in 2020.
     For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For options trading, use Deribit (requires KYC since 9 Nov)
+    For options trading, use Deribit (requires easy KYC since 9 Nov)
   
 
 
@@ -1416,7 +1416,7 @@ IMPORTANT! BitMEX platform is unreliable in 2020.
     For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For options trading, use Deribit (requires KYC since 9 Nov)
+    For options trading, use Deribit (requires easy KYC since 9 Nov)
   
 
 
@@ -1454,7 +1454,7 @@ IMPORTANT! BitMEX platform is unreliable in 2020.
     For futures trading, use Bitfinex (&amp;lt;-- 6% fee discount, no KYC)
   
   
-    For options trading, use Deribit (requires KYC since 9 Nov)
+    For options trading, use Deribit (requires easy KYC since 9 Nov)
   
 
 
@@ -1701,7 +1701,7 @@ If you plan to daytrade, here’s the deal:
     For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires easy KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1737,7 +1737,7 @@ If you plan to daytrade, here’s the deal:
     For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires easy KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1775,7 +1775,7 @@ If you plan to daytrade, here’s the deal:
     For futures trading, use &lt;a href=&quot;http://bit.ly/at-bfx-banner2020&quot;&gt;Bitfinex&lt;/a&gt; (&amp;lt;-- 6% fee discount, no KYC)
   &lt;/li&gt;
   &lt;li class=&quot;popular-item&quot;&gt;
-    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires KYC since 9 Nov)
+    For options trading, use &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit&lt;/a&gt; (requires easy KYC since 9 Nov)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1961,16 +1961,16 @@ If you plan to daytrade, here’s the deal:
       </item>
     
       <item turbo="true">
-        <title><![CDATA[ Altcoin Wallets: Tried and True, 2020 Updated ]]></title>
+        <title><![CDATA[ Altcoin Wallets: Tried and True, 2021 Updated ]]></title>
         <description><![CDATA[ Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets. ]]></description>
 
         <content:encoded><![CDATA[ Lets start this article about altcoin wallets right off with the obligatory reminder.
 
 
-  For hodlers: It is not a good idea to keep untraded cryptocurrency on an exchange.
+  For hodlers: It is not a good idea to keep cryptocurrency on an exchange.
 
 
-Exchanges hold big amounts of crypto and are therefore a clear target for cyber criminals.
+Exchanges hold big amounts of crypto and are therefore targeted cyber criminals.
 
 
   Read about the Tether hack in 2017
@@ -1979,27 +1979,73 @@ Exchanges hold big amounts of crypto and are therefore a clear target for cyber 
 
 
 
-  For traders: It is also not a good idea to send coins from one exchange to another.
+  For traders: It is not a good idea to send cryptocurrency from one exchange to another.
 
 
-Crypto exchanges are not banks. They are not supposed to having people transacting among them. Plus, it’s for your own security that exchanges detect transactions that do not come from a wallet and trash them. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.
+Crypto exchanges are not banks. But let’s say that you send LTC from Bitstamp directly to Bitfinex. From regulatory perspective, the Bitstamp would do what normally only companies with banking license can do: They would be sending your money on your behalf between two financial institutions.
 
-Now, quick TLDR for those who don’t want to get paralysed by too many options:
+Exchanges may even detect transactions that do not come from a personal wallet and trash them. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.
 
-Your best bet in terms of cryptocurrency storage
 
-Everyone’s Favorite Altcoin Wallet: The Ledger Nano X
+  For everyone: There are ongoing phishing attacks looking for any popular crypto wallet owners.
+
+
+This Reddit post explains why is it so easy to fall for a phishing attack and what habits can you acquire to protect yourself.
+
+Altcoin Wallets: Who’s at Top Of The Market
+
+
+  
+    
+      Commercial
+      
+        Ledger Nano X
+        
+        Top Commercial Altcoin Wallet
+      
+    
+  
+  
+    
+      Free
+      
+        Exodus
+        
+        Top Free Altcoin Wallet App
+      
+    
+  
+
+
+
+
+Your best bet for cryptocurrency storage
+
+Everyone’s Favorite Commercial Altcoin Wallet: Ledger Nano X
 
 The market has spoken. Ledger Nano X can be called the best cryptocurrency wallet that’s currently out there. It has limitations, but for the day to day use it has everything you need as a trader or hodler.
 
+What you need to know before you buy a Nano X wallet
 
-  Ledger Nano X Gets Cheaper in bundle deals!
-  Being everyone’s favorite has a downside: This Reddit post explains why so many people fall prey to the Ledger phishing attacks
+Ledger Nano X Gets Cheaper in bundle deals. These offers are available throughout the year from the official Ledger store. The best deal come around Black Friday but Ledger runs some sort of deal at all times of the year.
 
+Ledger company suffered a database breach that leaked emails and physical locations of customers. Since second half of 2020, there has been an ongoing phishing attack directed to the leaked e-mail addresses.
 
-Ledger Nano X is better than Ledger Nano S for altcoin traders because it has larger memory capacity. That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.
+It is fair to expect a similar breach will happen again and will happen to other altcoin wallet retailers as well.
 
-Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptocurrencies are supported unless their blockchain is really brand new and one of a kind.
+To lower the risks associated with getting on a scammer’s list, use a package drop-off location or an office hub for delivery and make your order from a disposable email address.
+
+Another way is to buy your Ledger Nano X from a small, local authorised reseller instead. These retailers are covering a smaller part of the market, which makes them less appealing to a cybercriminal. On the flip side, their information security may be worse, which means they might actually be easier to hack.
+
+It’s your call.
+
+What do altcoin traders like about Nano X
+
+Ledger Nano X is better than Ledger Nano S for altcoin traders because it has larger memory capacity.
+
+That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.
+
+Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptocurrencies are supported unless their blockchain is really brand new and one-of-a-kind.
 
 
   Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and all ERC20 compliant Ethereum tokens.
@@ -2302,10 +2348,10 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
         <turbo:content><![CDATA[ &lt;p&gt;Lets start this article about altcoin wallets right off with the obligatory reminder.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;For hodlers: &lt;strong&gt;It is not a good idea to keep untraded cryptocurrency on an exchange.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;For hodlers: &lt;strong&gt;It is not a good idea to keep cryptocurrency on an exchange.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Exchanges hold big amounts of crypto and are therefore a clear target for cyber criminals.&lt;/p&gt;
+&lt;p&gt;Exchanges hold big amounts of crypto and are therefore targeted cyber criminals.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Read about the &lt;a href=&quot;https://www.altcointrading.net/bitfinex-tether-transparency/&quot;&gt;Tether hack in 2017&lt;/a&gt;&lt;/li&gt;
@@ -2314,27 +2360,73 @@ Opt for blockchain.com or one of the multicoin wallets above for a good ratio of
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;For traders: &lt;strong&gt;It is also not a good idea to send coins from one exchange to another.&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;For traders: &lt;strong&gt;It is not a good idea to send cryptocurrency from one exchange to another.&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Crypto exchanges are not banks. They are not supposed to having people transacting among them. &lt;a href=&quot;/bitifinex-eats-your-eth/&quot;&gt;Plus, it’s for your own security that exchanges detect transactions that do not come from a wallet and trash them&lt;/a&gt;. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.&lt;/p&gt;
+&lt;p&gt;Crypto exchanges are not banks. But let’s say that you send LTC from Bitstamp directly to Bitfinex. From regulatory perspective, the Bitstamp would do what normally only companies with banking license can do: They would be sending your money on your behalf between two financial institutions.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Now, quick TLDR for those who don’t want to get paralysed by too many options:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/bitifinex-eats-your-eth/&quot;&gt;Exchanges may even detect transactions that do not come from a personal wallet and trash them&lt;/a&gt;. You can go spend months dealing with customer support to retrieve your funds, sure. But I hope you have better things to do.&lt;/p&gt;
 
-&lt;h3 id=&quot;your-best-bet-in-terms-of-cryptocurrency-storage&quot;&gt;Your best bet in terms of cryptocurrency storage&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For everyone: &lt;strong&gt;There are ongoing phishing attacks looking for any popular crypto wallet owners.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Everyone’s Favorite Altcoin Wallet&lt;/strong&gt;: &lt;a href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;The Ledger Nano X&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/AltcoinTrader/comments/k3tpx3/why_do_we_fall_for_ledger_phishing_even_though_we/&quot;&gt;This Reddit post explains why is it so easy to fall for a phishing attack&lt;/a&gt; and what habits can you acquire to protect yourself.&lt;/p&gt;
+
+&lt;h3 id=&quot;altcoin-wallets-whos-at-top-of-the-market&quot;&gt;Altcoin Wallets: Who’s at Top Of The Market&lt;/h3&gt;
+
+&lt;div class=&quot;row&quot; id=&quot;top-wallets&quot;&gt;
+  &lt;div class=&quot;columns six&quot;&gt;
+    &lt;div class=&quot;here-box quiterelated&quot;&gt;
+      &lt;h5&gt;Commercial&lt;/h5&gt;
+      &lt;a href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;
+        Ledger Nano X
+        &lt;br /&gt;
+        Top Commercial Altcoin Wallet
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;columns six&quot;&gt;
+    &lt;div class=&quot;here-box quiterelated&quot;&gt;
+      &lt;h5&gt;Free&lt;/h5&gt;
+      &lt;a href=&quot;https://www.exodus.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;
+        Exodus
+        &lt;br /&gt;
+        Top Free Altcoin Wallet App
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;your-best-bet-for-cryptocurrency-storage&quot;&gt;Your best bet for cryptocurrency storage&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Everyone’s Favorite Commercial Altcoin Wallet&lt;/strong&gt;: &lt;a href=&quot;https://bit.ly/lnx_at_altcoinwallets&quot;&gt;Ledger Nano X&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The market has spoken. &lt;strong&gt;Ledger Nano X can be called the best cryptocurrency wallet&lt;/strong&gt; that’s currently out there. It has limitations, but for the day to day use it has everything you need as a trader or hodler.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/blackfriday/&quot;&gt;Ledger Nano X Gets Cheaper in bundle deals!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Being everyone’s favorite has a downside: &lt;a href=&quot;https://www.reddit.com/r/AltcoinTrader/comments/k3tpx3/why_do_we_fall_for_ledger_phishing_even_though_we/&quot;&gt;This Reddit post explains why so many people fall prey to the Ledger phishing attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h4 id=&quot;what-you-need-to-know-before-you-buy-a-nano-x-wallet&quot;&gt;What you need to know before you buy a Nano X wallet&lt;/h4&gt;
 
-&lt;p&gt;Ledger Nano X is better than Ledger Nano S for altcoin traders because it has larger memory capacity. That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/blackfriday/&quot;&gt;Ledger Nano X Gets Cheaper in bundle deals.&lt;/a&gt; These offers are available throughout the year from the official Ledger store. The best deal come around Black Friday but Ledger runs &lt;em&gt;some&lt;/em&gt; sort of deal at all times of the year.&lt;/p&gt;
 
-&lt;p&gt;Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptocurrencies are supported unless their blockchain is really brand new and one of a kind.&lt;/p&gt;
+&lt;p&gt;Ledger company suffered a database breach that leaked emails and physical locations of customers. Since second half of 2020, there has been an ongoing phishing attack directed to the leaked e-mail addresses.&lt;/p&gt;
+
+&lt;p&gt;It is fair to expect a similar breach will happen again and will happen to other altcoin wallet retailers as well.&lt;/p&gt;
+
+&lt;p&gt;To lower the risks associated with getting on a scammer’s list, use a package drop-off location or an office hub for delivery and make your order from a &lt;a href=&quot;https://www.altcointrading.net/security/email-reuse/&quot;&gt;disposable email address&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another way is to buy your Ledger Nano X from a small, local &lt;a href=&quot;https://shop.ledger.com/pages/retailers&quot;&gt;authorised reseller instead&lt;/a&gt;. These retailers are covering a smaller part of the market, which makes them less appealing to a cybercriminal. On the flip side, their information security may be worse, which means they might actually be easier to hack.&lt;/p&gt;
+
+&lt;p&gt;It’s your call.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-do-altcoin-traders-like-about-nano-x&quot;&gt;What do altcoin traders like about Nano X&lt;/h4&gt;
+
+&lt;p&gt;Ledger Nano X is better than Ledger Nano S for altcoin traders because it has larger memory capacity.&lt;/p&gt;
+
+&lt;p&gt;That means a single device can house private keys of many more cryptocurrencies than Ledger Nano S.&lt;/p&gt;
+
+&lt;p&gt;Ledger wallets were the pioneers of supporting altcoins, and you will find most cryptocurrencies are supported unless their blockchain is really brand new and one-of-a-kind.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Some of the supported cryptocurrencies: Bitcoin, Ethereum, IOTA, Ethereum Classic, Dogecoin, Litecoin, Zcash, Dash, Ripple, Stratis and &lt;strong&gt;all ERC20 compliant Ethereum tokens&lt;/strong&gt;.&lt;/li&gt;

@@ -2282,6 +2282,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2416,6 +2426,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -3559,7 +3579,7 @@ amp-user-notification>div>div {
     </a>
   </div>
   <div class="columns eight">
-    <h4><span class="tag lvl-a">CRYPTOCURRENCY-WALLETS</span> <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2020 Updated</a></h4>
+    <h4><span class="tag lvl-a">CRYPTOCURRENCY-WALLETS</span> <a href="/altcoin-wallets/">Altcoin Wallets: Tried and True, 2021 Updated</a></h4>
     <div class="intro">
       <p>
         Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets.
@@ -3674,14 +3694,14 @@ amp-user-notification>div>div {
       <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-obv-div/" title="OBV: On-Balance Volume Divergence Crypto Strategies"><span class="tag custom-note">ScriptSpotlight</span>&nbsp;<b>OBV: On-Balance Volume Divergence Crypto Strategies</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 15 Jan 2021</a>
+        <a class="index-internal" href="/tensorcharts/" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more"><span class="tag custom-note">Trading Tool</span>&nbsp;<b>TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more</b> in <b>#CRYPTO-CHARTING</b>  updated on 09 Jan 2021</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="OBV: On-Balance Volume Divergence Crypto Strategies" href="/scriptspotlight-obv-div/">
+      <a class="cat-internal-link" title="TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more" href="/tensorcharts/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/c_scale,w_700/v1609243855/at-top/divs/obv-spotlight_rihxh2.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609095671/at-top/tc/tensorcharts_vxc3td_rrar8m.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

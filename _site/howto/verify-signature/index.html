@@ -2296,6 +2296,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2426,6 +2436,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--howtoverify-signature",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -3048,17 +3068,17 @@ amp-user-notification>div>div {
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Strategy: Technical Analysis with random tools like Fibs" href="/strategy/fibs/">
+    <a class="cat-internal-link" title="Market Timing in Crypto" href="/strategy/timing/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/fibs/" title="Strategy: Technical Analysis with random tools like Fibs">
-      <span class="tag custom-note">Self-Fulfilling Prophecy</span>&nbsp;
-      <b>Strategy:&nbsp;Technical&nbsp;Analysi...</b>
+    <a class="index-internal" href="/strategy/timing/" title="Market Timing in Crypto">
+      <span class="tag custom-note">Crypto Indexes</span>&nbsp;
+      <b>Market&nbsp;Timing&nbsp;in&nbsp;Crypto</b>
     </a>
   </div>
 </div><!-- item row -->

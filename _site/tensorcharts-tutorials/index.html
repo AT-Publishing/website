@@ -2308,6 +2308,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2438,6 +2448,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--tensorcharts-tutorials",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -2967,15 +2987,15 @@ amp-user-notification>div>div {
     
         
       
-      <li>#CRYPTO-CHARTING: <a href="/ichimoku-cloud/">Ichimoku Cloud for Crypto Trading</a></li>
+      <li>#CRYPTO-CHARTING: <a href="/scriptspotlight-obv-div/">OBV: On-Balance Volume Divergence Crypto Strategies</a></li>
       
-      <li>#CRYPTO-CHARTING: <a href="/scriptspotlight-a-d-levels/">Script Spotlight: A/D Levels</a></li>
+      <li>#CRYPTO-CHARTING: <a href="/bitgur/">Another better Coinmarketcap - with a heatmap tool</a></li>
       
         
       
-      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/wyckoff-ranging-markets/">Wyckoff trading method for ranging markets</a></li>
-      
       <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/lending/">Margin Lending Strategy Template (Best for Bitfinex lending)</a></li>
+      
+      <li>#CRYPTO-TRADING-STRATEGY: <a href="/strategy/crypto-market-psychology/">Crypto Market Psychology vs *Your* Trading Psychology</a></li>
       
     
   </ol>

@@ -9,6 +9,16 @@
       "on": "visible",
       "request": "pageview"
     },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--{{ page.url | remove: '/' }}",
+         "eventLabel": "click-topwallets"
+       }
+    },
     "click-bf-callout-ledger": {
       "on": "click",
       "selector": "#bf-callout-ledger",

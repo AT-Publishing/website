@@ -2295,6 +2295,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2425,6 +2435,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--glossarydust-attack",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -2936,11 +2956,11 @@ amp-user-notification>div>div {
 
                             <ul class="popular">
                                 
-                                  <li class="popular-item"><a href="/crypto-storage-for-traders/">[blog] <b>Crypto Wallets by Use Case</b></a> - Arguably the core of 'be your own bank' principle - How did crypto wallets evolve and what are the features you're looking for, as a trader?</li>
+                                  <li class="popular-item"><a href="/altcoin-wallets/">[blog] <b>Altcoin Wallets: Tried and True, 2021 Updated</b></a> - Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets.</li>
+                                
+                                  <li class="popular-item"><a href="/tools/">[blog] <b>List of Crypto Trading Tools (Free and Freemium)</b></a> - Curated list of tools for crypto traders, hodlers and investors.</li>
                                 
                                   <li class="popular-item"><a href="/cryptocurrency-heists-infographic/">[blog] <b>Shocking Facts About Cryptocurrency Heists [Infographics]</b></a> - Cryptojacking, ICO exits, scams, malware and thefts - outrageous amounts of cryptos have changed hands through illicit activity.</li>
-                                
-                                  <li class="popular-item"><a href="/altcoin-wallets/">[blog] <b>Altcoin Wallets: Tried and True, 2020 Updated</b></a> - Where to store cryptocurrencies? Best ERC20 cold storage? See a list of altcoin wallets including multicoin wallets, web based wallets and hardware wallets.</li>
                                 
                             </ul>
                             
@@ -2949,11 +2969,11 @@ amp-user-notification>div>div {
                             <h5 class="tagged-as">ATNET Security Primers on #CRYPTO-OPSEC</h5>
                               <ul class="popular">
                                 
-                                  <li class="popular-item"><a href="/security/impostors/">[opsec] <b>MacOS Malware Targeting Crypto Community, Spreading Through Admin Impostors</b></a> - The variants of the particular malware will change but phishing and impostors are not going anywhere.</li>
+                                  <li class="popular-item"><a href="/security/email-reuse/">[opsec] <b>How to avoid email address reuse, but only having a single inbox</b></a> - A quick way to setup your mailbox in such a way that you will not have to reuse your email address again.</li>
                                 
-                                  <li class="popular-item"><a href="/security/telegram/">[opsec] <b>The New Dangers of Telegram Messenger - Telegrab & Beyond</b></a> - As Telegram exploits from May 2018 are not really juicy enough for the netsec community, malicious campaigns are passing quietly under the radar.</li>
+                                  <li class="popular-item"><a href="/security/threats-cryptotraders-2020/">[opsec] <b>Security Threats for Crypto Traders in 2020</b></a> - What kind of threats can we as crypto traders and hodlers expect in 2020 and what are the ways to protect our holdings?</li>
                                 
-                                  <li class="popular-item"><a href="/security/backups/">[opsec] <b>Cryptocurrency Wallet Backups: Your Options</b></a> - Non-digital crypto wallet backups are better for longer term. Digital backups for shorter time, such as when you need to get rid of crypto software from your laptop only for a few days.</li>
+                                  <li class="popular-item"><a href="/security/mac-malware-crypto-basic-protection/">[opsec] <b>The Basics of Securing Your Mac and iPhone Against Malicious Threats</b></a> - The business of cyber crime is extremely good at following the money, you can be sure as a cryptocurrency holder you are a particularly hot article.</li>
                                 
                               </ul>
                             

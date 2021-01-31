@@ -2309,6 +2309,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2439,6 +2449,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--bitcoin-coronavirus-crisis",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -2956,9 +2976,9 @@ They are looking for an alternative and a way to move forward. The liquidity and
     
         
       
-      <li>#CRYPTO-FUNDAMENTALS: <a href="/crypto-trading-vs-forex-trading-review/">Crypto vs Forex Trading: How do they compare?</a></li>
-      
       <li>#CRYPTO-FUNDAMENTALS: <a href="/zoe-ethereum-alphabay/">(2017 Report) Alphabay to adopt ETH for payments ahead of new privacy features</a></li>
+      
+      <li>#CRYPTO-FUNDAMENTALS: <a href="/technical-analysis/">Technical Analysis in Cryptocurrency Trading</a></li>
       
         
       
@@ -3034,25 +3054,6 @@ They are looking for an alternative and a way to move forward. The liquidity and
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
-      <span class="tag custom-note">Trading Approach</span>&nbsp;
-      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
     <a class="cat-internal-link" title="Strategy: Technical Analysis with random tools like Fibs" href="/strategy/fibs/">
       <figure class="thumb">
         <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
@@ -3089,6 +3090,25 @@ They are looking for an alternative and a way to move forward. The liquidity and
 &nbsp;
 
       
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Market Timing in Crypto" href="/strategy/timing/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/strategy/timing/" title="Market Timing in Crypto">
+      <span class="tag custom-note">Crypto Indexes</span>&nbsp;
+      <b>Market&nbsp;Timing&nbsp;in&nbsp;Crypto</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
       <p>
         <a class="btn" href="/strategy/">See All</a>
       </p>
@@ -3107,14 +3127,14 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/bcash-rally-november-2017/" title="Reddit on the Bcash runup: BCH vs BTC"><b>Reddit on the Bcash runup: BCH vs BTC</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
+      <a class="cat-internal-link" title="Reddit on the Bcash runup: BCH vs BTC" href="/bcash-rally-november-2017/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/freelunch2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3126,14 +3146,14 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/ledger-monero/" title="Ledger CTO says Monero viable"><b>Ledger CTO says Monero viable</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
+      <a class="cat-internal-link" title="Ledger CTO says Monero viable" href="/ledger-monero/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/06/15/ledger-monero.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3145,14 +3165,14 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/eos/" title="EOS - The blockchain that means the business"><span class="tag custom-note">Feature</span>&nbsp;<b>EOS - The blockchain that means the business</b> in <b>#TOKENS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/byteball/" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)"><b>GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)</b> in <b>#ADOPTION</b>  updated on 27 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="EOS - The blockchain that means the business" href="/eos/">
+      <a class="cat-internal-link" title="GBYTE, or Byteball: The OG airdrop that launched the whole airdrop industry (2017)" href="/byteball/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/eos.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/07/11/pexels-photo-200092.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3164,14 +3184,14 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/altcoinio/" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange"><span class="tag custom-note">Non-custodial Trading</span>&nbsp;<b>[EXIT 2019] Review of Altcoin.io Non-custodial Exchange</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 30 Dec 2020</a>
+        <a class="index-internal" href="/how-blockchain-disrupts-legal/" title="How Blockchain Disrupts The Legal Industry: A Primer"><b>How Blockchain Disrupts The Legal Industry: A Primer</b> in <b>#REGULATIONS</b>  updated on 15 Oct 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="[EXIT 2019] Review of Altcoin.io Non-custodial Exchange" href="/altcoinio/">
+      <a class="cat-internal-link" title="How Blockchain Disrupts The Legal Industry: A Primer" href="/how-blockchain-disrupts-legal/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/c_scale,h_360/c_crop,h_360,w_700/at-top/tools/altcoinio.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/legal-disruption.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3183,14 +3203,14 @@ They are looking for an alternative and a way to move forward. The liquidity and
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/crypto-trading-growth/" title="Why Are So Many People Trading Cryptocurrency?"><span class="tag custom-note">Editorial</span>&nbsp;<b>Why Are So Many People Trading Cryptocurrency?</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/women-in-bitcoin/" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry"><span class="tag custom-note">Opinion</span>&nbsp;<b>In 2020, Women Are Finally Breaking Into the Bitcoin Industry</b> in <b>#CRYPTO-FUNDAMENTALS</b>  updated on 29 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Why Are So Many People Trading Cryptocurrency?" href="/crypto-trading-growth/">
+      <a class="cat-internal-link" title="In 2020, Women Are Finally Breaking Into the Bitcoin Industry" href="/women-in-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/cryptocurrency-markets.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/f_auto/v1592291833/atnet/women-in-crypto_zdi4bt.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>

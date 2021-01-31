@@ -2281,6 +2281,16 @@ h5.update, span.update {
     display: inline-block;
     padding: 0 8px;
 }
+#top-wallets h5 {
+  margin-right: 10px;
+    color: #cec9b2;
+    border-radius: 0;
+    background: transparent;
+    width: auto;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
 
   /* desktop */
 .tooltip-label-menu {
@@ -2415,6 +2425,16 @@ amp-user-notification>div>div {
     "trackPageview": {
       "on": "visible",
       "request": "pageview"
+    },
+    "clist-topwallet": {
+      "on": "click",
+      "selector": "#top-wallets"
+      "request": "event",
+      "vars": {
+         "eventCategory": "shill--click",
+         "eventAction": "click-intext--about-legal",
+         "eventLabel": "click-topwallets"
+       }
     },
     "click-bf-callout-ledger": {
       "on": "click",
@@ -2984,14 +3004,14 @@ Asuncion 3794, Paraguay
       <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/divergences/" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><span class="tag custom-note">Trading Strategy</span>&nbsp;<b>Technical Analysis: Divergences (With a Divergence Cheat Sheet)</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 30 Dec 2020</a>
+        <a class="index-internal" href="/tools/" title="List of Crypto Trading Tools (Free and Freemium)"><span class="tag custom-note">Trading Tools</span>&nbsp;<b>List of Crypto Trading Tools (Free and Freemium)</b> in <b>#CRYPTO-CHARTING</b>  updated on 29 Jan 2021</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
+      <a class="cat-internal-link" title="List of Crypto Trading Tools (Free and Freemium)" href="/tools/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609096987/at-top/tools/tools_jyuwbg.jpg" alt="Related in crypto-trading-tools" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
