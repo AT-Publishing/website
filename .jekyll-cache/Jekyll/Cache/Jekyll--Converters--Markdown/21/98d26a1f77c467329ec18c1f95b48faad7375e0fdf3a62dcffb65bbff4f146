@@ -1,4 +1,4 @@
-I"9$<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+I",$<p><a target="_blank" href="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,g_xy_center,h_360,w_700,y_1000/v1586154845/atnet/bitfinex-app/bitfinex-app_wallet-transfer-0.jpg" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
 
 <p>It is not exactly hot news that the BVI-based custodial cryptocurrency trading platform Bitfinex offers their own trading app for smartphones:</p>
 
@@ -84,6 +84,21 @@ After that, you will be only asked to create a PIN and to save your fingerprint,
     
     <div class="row">
       <div class="columns five">
+        <a href="/strategy/fibs/">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            </amp-img>
+          </figure>
+        </a>
+      </div>
+      <div class="columns seven">
+        <a href="/strategy/fibs/"><h5>Strategy: technical analysis past ath with fibs</h5></a>
+        <p>Now that we are past ATH levels again, let's reiterate how things *really* work around here.</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="columns five">
         <a href="/strategy/lending/">
           <figure class="noborder main-post-image">
             <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
@@ -99,31 +114,16 @@ After that, you will be only asked to create a PIN and to save your fingerprint,
     
     <div class="row">
       <div class="columns five">
-        <a href="/strategy/fibs/">
+        <a href="/strategy/dollar-cost-averaging/">
           <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
+            <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/priscilla-du-preez-bzqjlstvyws-unsplash_ta0vjj.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
             </amp-img>
           </figure>
         </a>
       </div>
       <div class="columns seven">
-        <a href="/strategy/fibs/"><h5>Strategy: technical analysis with random tools like fibs</h5></a>
-        <p>Now that we are nearing the ATH levels again, let's reiterate how things *really* work around here.</p>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="columns five">
-        <a href="/strategy/timing/">
-          <figure class="noborder main-post-image">
-            <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="ATNET - Altcoin Trading Blog - Related" layout="responsive" data-original-width="720px" data-original-height="360px" width="720px" height="360px">
-            </amp-img>
-          </figure>
-        </a>
-      </div>
-      <div class="columns seven">
-        <a href="/strategy/timing/"><h5>Market timing in crypto</h5></a>
-        <p>Timing the market has a bad rap. But there are strategic approaches to it, even on crypto markets.</p>
+        <a href="/strategy/dollar-cost-averaging/"><h5>Complete crypto dca strategy: why, how, where</h5></a>
+        <p>Did you know by how much can DCA beat HODL?</p>
       </div>
     </div>
     

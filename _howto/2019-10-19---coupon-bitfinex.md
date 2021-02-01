@@ -5,7 +5,7 @@ cloud:      false
 cg1:          true
 promoting:  analysis
 layout:     at-trading
-note:       "Active Trading"
+note:       "Trading/Lending"
 
 title:        "Bitfinex (Referral Code 5egV78YtlC)"
 description:  "Bitfinex Referral Code 5egV78YtlC for fee discount. No Minimum Deposit in 2020."
@@ -16,11 +16,11 @@ tags:         [ recommended-exchange, custodial-trading, bitfinex ]
 
 
 image:
-- https://res.cloudinary.com/dttheory/image/upload/c_scale,h_360/c_crop,g_center,h_360,w_700/v1609318704/at-top/platforms/bitfinex-coupon-5egV78YtlC.jpg
+- https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/bitfinex-fee-discount_y6daaf.jpg
 - https://res.cloudinary.com/dttheory/image/upload/c_lfill,g_north,h_360,w_700/v1609318790/at-top/platforms/bitfinex-check-ssl-certificate.jpg
 
 image_alt:
-- "Bitfinex referral code 5egV78YtlC"
+- "Bitfinex referral code 5egV78YtlC fee disount"
 
 date: 2019-10-19 00:07:00 +0100
 

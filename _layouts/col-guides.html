@@ -26,24 +26,33 @@ layout: default
   <div class="row box-lvl-a">
     <h4>Recommended crypto trading platforms: Why, where, how</h4>
     <ul>
-      <li class="popular-item">Best crypto platforms for active trading</li>
-      <li class="popular-item">Best crypto platforms for buy-and-hold or DCA</li>
+      <li class="popular-item">Best crypto platforms for active trading as well as DCA / buy-and-hold</li>
       <li class="popular-item">Reliable exchanges you maybe don't even know</li>
-      <li class="popular-item">Current KYC requirements for crypto trading</li>
+      <li class="popular-item">Up-to-date KYC requirements and experience with their fulfillment</li>
     </ul>
     {% for post in howto_posts %}
       {% if post.categories contains "trading-platforms" %}
       <div class="row">
-        <div class="columns three">
+        <div class="columns two">
           <h5><span class="tag lvl-ab">{{ post.note }}</span></h5>
         </div>
-        <div class="columns seven">
+        <div class="columns five">
+          <a href="{{site.baseurl}}{{ post.url }}">
+          <figure class="noborder main-post-image">
+            <amp-img itemprop="image" src="{{ post.image[0] }}" alt="{{ page.title}} > {{ post.title }}"
+            layout="responsive" data-original-width="720px" data-original-height="360px"
+            width="720px" height="360px">
+            </amp-img>
+          </figure>
+          </a>
+        </div>
+        <div class="columns five">
           <h5>
           <a class="index-internal" href="{{site.baseurl}}{{ post.url }}" title="{{ post.title }}">
             <b>{{ post.title }}</b>
           </a>
           </h5>
-          <p>{{ page.description }}</p>
+          <p>{{ post.description }}</p>
           <p>&nbsp;</p>
         </div>
       </div>
