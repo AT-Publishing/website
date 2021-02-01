@@ -193,6 +193,9 @@ ref:
   coinmama: '<a rel="nofollow" target="_blank" href="http://go.coinmama.com/visit/?bta=49711&nci=5343">CoinMama</a>&nbsp;'
   coinbase: '<a target="_blank" href="http://bit.ly/plebtier">Coinbase</a>&nbsp;'
 
+fucksense:
+  banner: '<div class="clearfix clearfix adfix"><amp-ad layout="responsive" width="728px" height="90px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="4445157690"></amp-ad></div><div class="clearfix"></div>'
+  sidebar: '<amp-ad layout="responsive" width="300px" height="250px" type="adsense" data-ad-client="ca-pub-6979812205705127" data-ad-slot="1212489691"></amp-ad>'
 
 
 # boxes for strategy
