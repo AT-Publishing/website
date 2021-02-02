@@ -1,7 +1,7 @@
 <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}">{% if post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;{% endif %}<b>{{ post.title }}</b> in <b>#{{ post.tags[0] | upcase }}</b> {% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
+        <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}"><b>{{ post.title }}</b> in <b>#{{ post.tags[0] | upcase }}</b> {% if post.last_modified_at %} updated on {{ post.last_modified_at | date: "%d %b %Y" }}{% endif %}</a>
       </li>
   </ul>
   {% if post.image[0] %}
