@@ -1,0 +1,47 @@
+I"�<p>In technical analysis, <strong>Fibs</strong> is short for Fibonacci lines. Fibonacci retracement and extension lines are used in technical analysis.</p>
+
+<p>Fibs are not specific to crypto, they are also popular among forex traders.</p>
+
+<!--more-->
+
+<h4 id="how-to-draw-fibs-for-an-uptrend">How to draw Fibs for an uptrend</h4>
+
+<p>When drawing Fibs for a bullish rally, <strong>start at the top</strong> of the advance and <strong>drag the Fib tool down</strong> to the point where the rally started.</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/1.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/1.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>This should give a Fib scheme with fib line labeled “1” at the top of the rally and fib line labeled “0” at the bottom.</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/2.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/2.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<p>In most charting apps, the default drawing just described will produce the retracement as well as extension fibs. For the basic lines no further tweaking of the settings is necessary.</p>
+
+<ul>
+  <li><strong>Fib Retracement</strong>: The lines between 0 and 1 fibs are your retracement fib levels. Legend has it that a retrace that falls no further than to 0.5 fib will resolve as a trend continuation.</li>
+  <li><strong>Fib Extension</strong>: The lines above 1 fib are your fib extension. Legend has it that’s where a lot of traders take profits.</li>
+</ul>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/3.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/3.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="is-there-a-scientific-basis-for-fibs">Is there a scientific basis for fibs?</h4>
+
+<p>No.</p>
+
+<h4 id="do-fibs-work">Do fibs work?</h4>
+
+<p>Yes.</p>
+
+<p><a target="_blank" href="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/4.png" title="AltcoinTrading.NET - "><figure class="border"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/4.png" alt="" title="AltcoinTrading.NET - " layout="responsive" width="700px" height="360px"></amp-img></figure></a></p>
+
+<h4 id="automated-trading-with-fibs">Automated Trading with Fibs</h4>
+
+<p>It is easy to set up a zero-attention trading set up with Fibs: use fibs for your stop loss and take profit orders.</p>
+
+<p>For more complex strategies, set up an algo at <a href="http://bit.ly/coinrulebot">Coinrule</a></p>
+
+<h4 id="where-to-get-fibs">Where to get Fibs</h4>
+
+<p>Ichimoku cloud is one of the default indicators available on <a href="http://bit.ly/at-tvd-eth">TradingView</a>, even with the free plan. You can find it in the public indicator library.</p>
+
+<p>Read our <a href="/tools/">list of tools for crypto traders</a> for more free and freemium options.</p>
+:ET

@@ -1,6 +1,6 @@
 /*
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: frame-src https://code.createjs.com https://cdnjs.cloudflare.com https://s3.tradingview.com https://amp2disqus.netlify.com https://amp2disqus.netlify.app https://www.altcointrading.net
+  Content-Security-Policy: frame-src https://www.youtube.com https://code.createjs.com https://cdnjs.cloudflare.com https://s3.tradingview.com https://amp2disqus.netlify.com https://amp2disqus.netlify.app https://www.altcointrading.net
   X-Content-Type-Options: nosniff
   X-XSS-Protection: "1; mode=block" always
   Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token

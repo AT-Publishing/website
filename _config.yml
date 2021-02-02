@@ -319,6 +319,13 @@ layout="responsive"
 width="300px" height="600px">
 </amp-img></a></div>'
 
+# https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/coinrule2200x200.png
+coinrule_blue:  '<div class="row center containter-center"><a href="http://bit.ly/coinrulebot" target="_blank"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/coinrule2200x200.png"
+alt="Coinrule" data-original-width="200px" data-original-height="200px" layout="fixed" width="200px" height="200px"></amp-img></a></div>'
+# https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/coinrule3200x200.png
+coinrule_box: '<div class="containter-center"><a href="http://bit.ly/coinrulebot" target="_blank"><amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/coinrule3200x200.png"
+alt="Coinrule" data-original-width="200px" data-original-height="200px" layout="fixed" width="200px" height="200px"></amp-img></a></div>'
+
 #### tradingview ####
 # updated to directlinks 29 sep
 # ?offer_id=10&aff_id=3223&source=atnet&sub_id=leaderboard
