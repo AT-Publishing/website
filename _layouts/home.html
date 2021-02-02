@@ -20,8 +20,8 @@ layout: default
                  {{ post.description }}
                  <br>
                  <span class="tags">{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</span>
+                 <span class="soften">Updated {{ post.last_modified_at | date: "%d %b %Y" }}</span>
                  <br>
-                 <span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
                </p>
              </div>
          {% endfor %}
@@ -33,50 +33,45 @@ layout: default
                {{ post.description }}
                <br>
                <span class="tags">{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</span>
+               <span class="soften">Updated {{ post.last_modified_at | date: "%d %b %Y" }}</span>
                <br>
-               <span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
              </p>
            </div>
          {% endfor %}
        </div>
        <div class="row">
-         <br>
-         <div class="columns six offset-by-four">
-           <a href="/strategy/" class="btn">More Crypto Trading Strategies</a>
-         </div>
-         <br>
-         <br>
-         <br>
+         {{ site.localcryptos_leader_dark }}
        </div>
 
      </div>
      <!-- 1 promo, 1 latest post -->
      <div class="columns four">
+       <div class="at-home-latestblog">
+         {% for post in blogitems offset: 0 limit: 1 %}
+            {% include home/columnupdates.html %}
+           {% if post.related %}
+           Also Read: <br>
+           <ul class="list-lvl-a">
+             {% for line in post.related %}{% for item in line %}
+             <li>[+] <a href="{{ item[1] }}">{{ item[0] }}</a></li>
+             {% endfor %}{% endfor %}
+           </ul>
+           {% endif %}
+
+         {% endfor %}
+       </div>
         <div id="at-promo-main-home">
           {{ site.bfx_vid_tall }}
           <div class="clearfix"></div>
         </div>
         <br>
-        <div class="at-home-latestblog box-lvl-plain">
-          {% for post in blogitems offset: 0 limit: 1 %}
-             {% include home/columnupdates.html %}
-            {% if post.related %}
-            Also Read: <br>
-            <ul class="list-lvl-a">
-              {% for line in post.related %}{% for item in line %}
-              <li>[+] <a href="{{ item[1] }}">{{ item[0] }}</a></li>
-              {% endfor %}{% endfor %}
-            </ul>
-            {% endif %}
 
-          {% endfor %}
-        </div>
     </div>
 
   </div><!-- / row-->
   <div class="clearfix"></div>
   <div class="row">
-      <h2 class="tagged-as clear">ATNET Crypto Glossary</h2>
+      <h5 class="post">ATNET Crypto Glossary</h5>
   </div>
   <div class="row home-glossary">
     {% for post in glositems offset: 0 limit: 4 %}
@@ -84,17 +79,15 @@ layout: default
         {% include home/lineupdates.html %}
       </div>
     {% endfor %}
-  </div>
-  <div class="row">
-    <div class="columns six offset-by-four">
+    <div class="row">
       <a href="/glossary/" class="btn">Crypto Trading Glossary</a>
+      <p>&nbsp;</p>
     </div>
-    <br>
-    <br>
   </div>
 
+
   <div class="row">
-      <h2 class="tagged-as clear">ATNET How-To Guides</h2>
+      <h5 class="post">ATNET How-To Guides</h5>
   </div>
   <div class="row home-glossary">
     {% for post in howtoitems offset: 0 limit: 4 %}
@@ -103,41 +96,30 @@ layout: default
       </div>
     {% endfor %}
     <div class="row">
-      <div class="columns six offset-by-four">
-        <a href="/guides/" class="btn">Crypto How-To Guides</a>
-      </div>
-      <br>
-      <br>
+      <a href="/guides/" class="btn">Crypto How-To Guides</a>
     </div>
   </div>
 
-
-  <div class="row">
-    <br>
-    <br>
-    <div id="at-promo-smallad-home-mid" class="columns eight offset-by-two">
-      {{ site.tv_728-90_static }}
-    </div>
-    <br>
-  </div>
 
   <div class="row">
 
    <div class="eight columns">
 
+     <section>
+       <div class="row">
+         {{ site.bfx_long }}
+       </div>
+     </section>
     <section id="home-airdrops">
       <br>
-      <div id="at-home-drops" class="smallad">
+      <div id="at-home-drops">
         {% include home/airdrops.html %}
       </div>
     </section>
-
     <section id="new-posts">
-
       <div id="paginated-tradingblog">
-        <h2 class="tagged-as clear">All from AltcoinTrading.NET Blog</h2>
+        <h2 class="tagged-as clear">AltcoinTrading.NET Blog</h2>
       </div>
-
       <div class="pagination">
         {% if paginator.previous_page %}
           <a href="{{ paginator.previous_page_path }}#paginated-tradingblog"><< Previous</a>
@@ -151,20 +133,14 @@ layout: default
           <span class=" ">Next >></span>
         {% endif %}
       </div>
-
       {% for post in paginator.posts %}
         {% include block-post-sleek.html %}
       {% endfor %}
-
     </section><!-- // new-posts -->
-
-
-
     <div class="clearfix"></div>
   </div><!--8-->
    <div class="four columns notopmargin">
-
-      <div class="smallad" id="at-promo-smallad-home-top">
+      <div id="at-promo-smallad-home-top">
          {% include home/smallad.html %}
       </div>
       {% include sidebar.html %}

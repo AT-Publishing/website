@@ -15,12 +15,13 @@
   <div class="twelve columns">
     <h5 class="category-post post">
       <strong>
-        {% if post.note %}<span class="tag custom-note lvl-a">{{ post.note }}</span>&nbsp;
-        {% endif %}
-        {% if post.categories %}<small>#{{ post.categories[0] }}</small>&nbsp;{% endif %}
-        <small>&nbsp;{{ post.last_modified_at | date: "%d %b '%y" }}&nbsp;</small>
+        {% if post.note %}<span class="tag custom-note lvl-a">{{ post.note }}</span>&nbsp;{% endif %}
+        {% if post.categories %}<small>{{ post.categories[0] }}</small>&nbsp;{% endif %}
         <br>
-        <a  class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <a class="index-internal"  href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+          {{ post.title }}
+        </a>
+        <small>Updated&nbsp;{{ post.last_modified_at | date: "%d %b '%y" }}&nbsp;</small>
       </strong>
     </h5>
   </div>

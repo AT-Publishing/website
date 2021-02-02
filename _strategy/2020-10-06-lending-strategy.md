@@ -158,7 +158,7 @@ For years, this popular minimum on Bitfinex has been around 0.01% daily.
 
 On the contrary, the upside is much less limited. Super high rates on USD are quite normal during FOMO bull runs when everyone wants to go long. The neighborhood of 0.15% a day for USD on Bitfinex was not a rare thing to see during the 2017 crypto bull market.
 
-{% amp700 border {{page.image[1]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[1]}} {{page.image_alt[0]}} %}
 
 So while it is not reasonable to expect you'll be able to get the same rate every day every month, it is also not off to expect juicy rates.
 
@@ -166,7 +166,7 @@ So while it is not reasonable to expect you'll be able to get the same rate ever
 
 The last thing to show is the way to establish your minimum acceptable rate, and why the popular minimum rate is not good high enough.  
 
-{% amp700 border {{page.image[2]}} {{page.image_alt[0]}} %}
+{% amp700cloud border {{page.image[2]}} {{page.image_alt[0]}} %}
 
 ### Your minimum acceptable daily rate
 
