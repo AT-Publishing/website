@@ -29,11 +29,19 @@ Volume trading is not particular to crypto markets, it is used on legacy markets
 
 <!--more-->
 
-### Volume Profile Strategies
-
 Broadly, volume trading is any trading technique that takes into account changes in traded volume on a market.
 
-On crypto trading forums, when someone talks about *volume trading*, it will be *volume profile trading*.
+On crypto trading forums, when someone talks about *volume trading*, it will usually be *volume profile trading*.
+
+### Glossary entries where you can learn about volume trading
+
+* [VPVR (Volume profile visible range)](/glossary/vpvr/)
+* [Market Profile](/glossary/market-profile/)
+* [Footprint Trading](/glossary/footprint-trading/)
+* [OBV Divergence](/scriptspotlight-obv-div/)
+* [BGD](/glossary/bgd/)
+
+### Volume Profile Strategies
 
 Volume trading strategies that spread the most include:
 
@@ -74,7 +82,7 @@ These are not the same but they are a start.
 Read our [list of tools for crypto traders](/tools/) for more free and freemium options.
 
 
-#### Volume profile related trading tools
+#### Technical analysis tools that combine well with volume trading
 
 Volume profile is often used as a complement to other methods of technical analysis.
 
@@ -82,4 +90,4 @@ Volume profile is often used as a complement to other methods of technical analy
 * [Bollinger bands strategies](/glossary/bbands/)
 * [Order flow and heatmaps](/tensorcharts/)
 
-Last but not least: If you like the [Wyckoff method](/strategy/wyckoff-ranging-markets/), plotting volume on the side of the chart can help you analyze market ranges.
+Last but not least: If you are a fan of the [Wyckoff method](/strategy/wyckoff-ranging-markets/), plotting volume on the side of the chart can help you analyze market ranges.

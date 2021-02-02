@@ -1,0 +1,73 @@
+I"�<p><strong>Pattern trading</strong>, or <strong>formation trading</strong>, refers to making trading decisions based on standard chart patterns.</p>
+
+<p>List of <a href="/glossary/pattern-trading/#list">high-probability crypto charting patterns</a> is at the bottom of this entry.</p>
+
+<!--more-->
+
+<p>You will most often see pattern trading on “slower” markets such as stock markets, and a lot of crypto traders use formation trading as well. Again, usually on the “slower”, large cap crypto markets.</p>
+
+<p>Pattern trading is notoriously linked with retail traders who go with someone else’s advice because they don’t know what they’re doing, and often lose. Specifically, vague patterns like “head &amp; shoulders” are often mentioned in this way.</p>
+
+<p>The fault lies not in the market patterns themselves though, it is in the way they are used.</p>
+
+<h3 id="why-do-traders-lose-with-pattern-trading">Why do traders lose with pattern trading?</h3>
+
+<p>Markets do repeat their patterns with regularity.</p>
+
+<p>There are real fundamentally based market phases. In crypto this could be the bitcoin halving for instance, and these do influence the market.</p>
+
+<p>Another thing is the typical market participant - traders have their favorite markets to trade, people with similar focus or mentality flock to the same market, they will trade the market with almost the same mindset and that’s how regular patterns develop.</p>
+
+<p>The mistake is to rely <strong>only</strong> on a pattern. As <a href="https://2581ccf3-c620-4083-bcf2-4e32010c04dc.filesusr.com/ugd/58be43_1b0ed41ed411488c9dc827821c888bc7.pdf">John Bollinger’s capital management company explains in their SEC disclosure brochure</a>:</p>
+
+<blockquote>
+  <p>Technical analysis may involve the use of charts to identify market patterns and trends, which may be based on investor sentiment rather than the fundamentals of the company. The primary risk in using technical analysis is that spotting historical trends may not help to predict such trends in the future.</p>
+</blockquote>
+
+<p>The better approach is to treat the pattern as a more general information about the state of the market.</p>
+
+<ul>
+  <li>Is the market trending or ranging firmly around a mean? Painting a <a href="/glossary/market-profile/">Market profile</a> will help you decide that, if you’re not sure.</li>
+  <li>Is a trending market bull-flagging? We are setting up for a steady uptrend and a bull cycle. You could look at <a href="/glossary/ichimoku/">ichimoku cloud</a> and <a href="/glossary/bbands/">bbands high probability patterns</a> for cues about your specific actions.</li>
+  <li>Is the market <a href="/glossary/sideways/">ranging</a> after a downtrend? We could be making a bottom - <a href="/strategy/wyckoff-ranging-markets/">Wyckoff method</a> and even a quick look at <a href="/strategy/fibs/">Fibonacci</a> would help here.</li>
+</ul>
+
+<div id="list"></div>
+
+<h3 id="high-probability-patterns-on-crypto-markets">High-probability patterns on crypto markets</h3>
+
+<ul>
+  <li>Bull flag / Bear flag</li>
+  <li><a href="/glossary/bbands/">Double bottom</a> (on price or bbands)</li>
+  <li><a href="/glossary/bbands/">Three pushes to a high</a> (again on price or bbands)</li>
+  <li><a href="/glossary/bart/">Bart pattern / Inverse Bart pattern</a></li>
+  <li><a href="/glossary/dcb">Dead Cat Bounce</a></li>
+  <li><a href="/glossary/squishy/">Squishy</a> (on MACD)</li>
+</ul>
+
+<p>Weaker patterns that are better for short-term consideration:</p>
+
+<ul>
+  <li><a href="/glossary/tk-lines/">TK Lines Trading</a></li>
+  <li><a href="/glossary/engulfing/">Engulfing candles</a></li>
+</ul>
+
+<p>Weaker patterns that are good to get a broad overview, but nothing specific:</p>
+
+<ul>
+  <li><a href="/glossary/divergence/">Divergence</a></li>
+  <li><a href="/glossary/exaggerated-divergence/">Exaggerated Divergence</a></li>
+  <li><a href="/scriptspotlight-obv-div/">OBV Divergence</a></li>
+</ul>
+
+<p>Technical analysis that does not work with patterns and therefore combines well with pattern chart analysis:</p>
+
+<ul>
+  <li><a href="/glossary/market-profile/">Market Profile</a></li>
+  <li><a href="/glossary/vpvr/">Volume Profile</a></li>
+  <li><a href="/glossary/footprint-trading/">Footprint Charting</a></li>
+  <li><a href="/strategy/timing/">Market Timing using Crypto Index Funds</a></li>
+</ul>
+
+<p>Read our <a href="/tools/">list of tools for crypto traders</a> for free and freemium crypto trading tools.</p>
+:ET

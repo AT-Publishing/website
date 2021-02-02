@@ -1,14 +1,24 @@
-I"Q<p><strong>Volume trading</strong> is a popular technique in cryptocurrency trading.</p>
+I"i<p><strong>Volume trading</strong> is a popular technique in cryptocurrency trading.</p>
 
 <p>Volume trading is not particular to crypto markets, it is used on legacy markets as well.</p>
 
 <!--more-->
 
-<h3 id="volume-profile-strategies">Volume Profile Strategies</h3>
-
 <p>Broadly, volume trading is any trading technique that takes into account changes in traded volume on a market.</p>
 
-<p>On crypto trading forums, when someone talks about <em>volume trading</em>, it will be <em>volume profile trading</em>.</p>
+<p>On crypto trading forums, when someone talks about <em>volume trading</em>, it will usually be <em>volume profile trading</em>.</p>
+
+<h3 id="glossary-entries-where-you-can-learn-about-volume-trading">Glossary entries where you can learn about volume trading</h3>
+
+<ul>
+  <li><a href="/glossary/vpvr/">VPVR (Volume profile visible range)</a></li>
+  <li><a href="/glossary/market-profile/">Market Profile</a></li>
+  <li><a href="/glossary/footprint-trading/">Footprint Trading</a></li>
+  <li><a href="/scriptspotlight-obv-div/">OBV Divergence</a></li>
+  <li><a href="/glossary/bgd/">BGD</a></li>
+</ul>
+
+<h3 id="volume-profile-strategies">Volume Profile Strategies</h3>
 
 <p>Volume trading strategies that spread the most include:</p>
 
@@ -52,7 +62,7 @@
 
 <p>Read our <a href="/tools/">list of tools for crypto traders</a> for more free and freemium options.</p>
 
-<h4 id="volume-profile-related-trading-tools">Volume profile related trading tools</h4>
+<h4 id="technical-analysis-tools-that-combine-well-with-volume-trading">Technical analysis tools that combine well with volume trading</h4>
 
 <p>Volume profile is often used as a complement to other methods of technical analysis.</p>
 
@@ -62,5 +72,5 @@
   <li><a href="/tensorcharts/">Order flow and heatmaps</a></li>
 </ul>
 
-<p>Last but not least: If you like the <a href="/strategy/wyckoff-ranging-markets/">Wyckoff method</a>, plotting volume on the side of the chart can help you analyze market ranges.</p>
+<p>Last but not least: If you are a fan of the <a href="/strategy/wyckoff-ranging-markets/">Wyckoff method</a>, plotting volume on the side of the chart can help you analyze market ranges.</p>
 :ET
