@@ -29,8 +29,14 @@ top_interlink:
 
 ---
 
-## Black Friday Is Over, Long Live Black Friday
+> Black Friday Is Over, Long Live Eternal Black Friday.
 
-The Black Friday 2020 date was **November 27th, 2020**, but some crypto products are always in **bundle deals**.
+The crypto black friday 2021 is a long way off, but many crypto products are always in **bundle deals**.
 
-&nbsp;
+The crypto black friday is a major event mostly for crypto traders, because the black friday week is the only time of the year when crypto charting apps go on sale. If you are not interested in [technical analysis](/technical-analysis/), [market structure analysis](/glossary/market-profile/), [footprint trading](/tensorcharts/) or even [arbitrage](/glossary/arb/), chances are there will be deals available for you throughout the rest of the year too.
+
+If you are after a good deal on your new Ledger wallet, there are some throughout the year - always. Just keep checking back.
+
+Metal steel plates, faraday bags and other privacy tools usually get on sale multiple times of the year too.
+
+We don't publish giveaways, competitions and exchange fee discount promos here. If you're interested in those, follow the [airdrops page](/airdrops/).

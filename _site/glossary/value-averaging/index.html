@@ -518,6 +518,11 @@ span.note-lvl-a {
   padding: 20px;
   border: 5px solid #aab0b5;
 }
+.box-lvl-plain {
+  display: block;
+  padding: 20px;
+  border: 5px solid #000b18;
+}
 
 li.subtle-item {
   list-style-position: inside;
@@ -639,7 +644,7 @@ ul.navi li {
     list-style-type: none;
     display: inline-block;
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: .3rem
 }
 
@@ -798,8 +803,14 @@ h3.popular {
 
 .footer {
     line-height: 2;
-    background: #fee248;
+    background: #01060a;
     display: block
+}
+.footer * {
+  color: #aab0b5;
+}
+.footer a:hover {
+  color: #ffffff;
 }
 
 .contacticon .center {
@@ -998,19 +1009,20 @@ h5.post {
 
 .tag.article-categories {
   display: inline-block;
-    background: #9e9e9e69;
-    padding: 2px 10px;
-    margin: 0 5px;
-    font-size: inherit;
-    border-radius: 4px;
+  background: transparent;
 }
 .tag.article-tags {
   display: inline-block;
-    background: #9e9e9e3d;
-    padding: 0 5px;
-    margin: 5px 2px;
-    font-size: inherit;
-    border-radius: 4px;
+    background: transparent;
+    font-size: 12px;
+}
+.tag.article-tags > a {
+  color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
 }
 
 .post-content .guest,
@@ -1028,12 +1040,15 @@ h5.post {
 }
 
 .home-glossary .custom-note {
-    background: #3cc3b8;
+    background: #7a838d;
     display: inline-block;
 }
 .home-glossary > .columns {
     padding: 15px 0 40px;
-    border-top: 5px solid #3cc3b8;
+    border-top: 5px solid #7a838d;
+}
+.home-glossary a {
+  color: #2f3031;
 }
 
 .sec-latest,
@@ -1504,13 +1519,12 @@ h3.cat-post {
 
 .sidebar-nl,
 amp-user-notification>div {
-    background: #fff570;
+    background: #3cc3b8;
     color: #001f3f;
+    height: 100%;
     display: block;
     padding: 20px;
-    font-family: "Courier New";
     font-size: 12px;
-    line-height: 1
 }
 
 amp-user-notification>div {
@@ -1952,7 +1966,12 @@ h4.tagged-as {
     color: #1d1d2c;
 }
 .top .intro > p {
-  padding: 1em 2em 0;
+  padding: 1em 2em 0 0;
+}
+.top .intro > .tag {
+  display: block;
+  margin: 10px 0;
+  color: #001f3f6e;
 }
 
 #strategies-labeled .tag {
@@ -1991,7 +2010,12 @@ h4.tagged-as {
 }
 
 .soften {
-    opacity: 50%;
+    color: #001f3f6e;
+}
+span.tags {
+  display: block;
+  margin: 15px 0;
+  color: #001f3f6e;
 }
 
 .col-security .tag {
@@ -2302,10 +2326,10 @@ h3#cta-headline, #cta-headline {
 }
 /* bf special */
 h5.update, span.update {
-  font-family: 'Courier New', monospace;
-    background: #ffdc00;
-    display: inline-block;
-    padding: 0 8px;
+  background: #021f4033;
+      display: inline-block;
+      padding: 0 8px;
+      font-weight: 300;
 }
 #top-wallets h5 {
   margin-right: 10px;
@@ -2790,17 +2814,16 @@ amp-user-notification>div>div {
     <div class="twelve columns desktop-only">
       <ul class="navi">
         
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -2816,17 +2839,16 @@ amp-user-notification>div>div {
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
 <ul class="navi mobile-only">
   
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -2968,11 +2990,11 @@ amp-user-notification>div>div {
 
                             <ul class="popular">
                                 
-                                  <li class="popular-item"><a href="/wyckoff-avoidance/">[blog] <b>Wyckoff Avoidance Strategy in Cryptocurrency Trading</b></a> - Wyckoff method of avoidance means to trade only the best stocks in the leading sectors. How to apply this motto when trading cryptocurrencies?</li>
-                                
-                                  <li class="popular-item"><a href="/3-dangerous-mistakes-crypto-beginners/">[blog] <b>3 Most Dangerous Cryptocurrency Beginner Mistakes</b></a> - As the interest in crypto picked up a bit in 2020, so are the number of crypto newbies repeating the same old mistakes as the 2016 lot. Let's take a look at the three most dangerous of them.</li>
-                                
                                   <li class="popular-item"><a href="/technical-analysis/">[blog] <b>Technical Analysis in Cryptocurrency Trading</b></a> - Technical indicators work. Sometimes. Should you use technical analysis for crypto?</li>
+                                
+                                  <li class="popular-item"><a href="/tensorcharts/">[blog] <b>TensorCharts - Crypto charting app with Orderbook Heatmap, Counter's Ratio and more</b></a> - Best crypto trading tool for your crypto 5-min chart strategy, scalping and market health analysis. TensorCharts are available free in the basic version that is still good for scalpers.</li>
+                                
+                                  <li class="popular-item"><a href="/scriptspotlight-bollinger-band-width-indicator/">[blog] <b>Script Spotlight: Bollinger Band Width</b></a> - BBands Variations on Tradingview, focusing on Bollinger Bandwidth this time. In this series we are picking and reviewing TradingView scripts for technical analysis that recently popped up in the daily popular feed.</li>
                                 
                             </ul>
                             
@@ -2981,11 +3003,11 @@ amp-user-notification>div>div {
 
                               <ul class="popular">
                                 
-                                  <li class="popular-item"><a href="/strategy/crypto-market-psychology/">[strategy] <b>Crypto Market Psychology vs *Your* Trading Psychology</b></a> - The crypto market psychology is what it is for a reason. If that makes you uncomfortable, try working on your trading psychology.</li>
-                                
-                                  <li class="popular-item"><a href="/strategy/lending/">[strategy] <b>Margin Lending Strategy Template (Best for Bitfinex lending)</b></a> - How to decide whether the swap rate is enough to cover your risk and why it is a stupid idea to lend your coins for peanuts.</li>
+                                  <li class="popular-item"><a href="/strategy/dollar-cost-averaging/">[strategy] <b>Complete Crypto DCA Strategy: Why, How, Where</b></a> - Did you know by how much can DCA beat HODL?</li>
                                 
                                   <li class="popular-item"><a href="/strategy/wyckoff-ranging-markets/">[strategy] <b>Wyckoff trading method for ranging markets</b></a> - Fully reworked primer on ranging crypto markets. Includes Wyckoff method for market phases and recommended TradingView scripts.</li>
+                                
+                                  <li class="popular-item"><a href="/strategy/crypto-market-psychology/">[strategy] <b>Crypto Market Psychology vs *Your* Trading Psychology</b></a> - The crypto market psychology is what it is for a reason. If that makes you uncomfortable, try working on your trading psychology.</li>
                                 
                               </ul>
                             
@@ -3043,20 +3065,20 @@ amp-user-notification>div>div {
   <div class="clearfix"></div>
 
   
-  <div class="row box-lvl-a">
+  <div class="row box-lvl-plain">
       <h4 class="tagged-as">ATNET Glossary on Crypto-jargon</h4>
       
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/glossary/bart/" title="Bart Formation"><b>Bart Formation</b> in <b>#PATTERN-TRADING</b>  updated on 30 Dec 2020</a>
+        <a class="index-internal" href="/glossary/dca/" title="DCA"><b>DCA</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 30 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Bart Formation" href="/glossary/bart/">
+      <a class="cat-internal-link" title="DCA" href="/glossary/dca/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609333868/at-3/bart-formation_wo0ylp.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609333718/at-3/stock-dca_gdhcf3.jpg" alt="Related in crypto-jargon" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3241,7 +3263,12 @@ amp-user-notification>div>div {
     <br>
     <h2>1 DOGE = 1 DOGE</h2>
     <br>
-    &copy; 2016-2020 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    &copy; 2016-2021 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    <br>
+    <br>
+    <br>
+    <br>
+
   </div>
 </div>
 

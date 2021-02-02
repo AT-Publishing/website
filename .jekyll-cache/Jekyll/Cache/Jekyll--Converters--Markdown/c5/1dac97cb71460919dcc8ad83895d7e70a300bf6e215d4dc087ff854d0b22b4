@@ -1,0 +1,45 @@
+I"@<p>In the trading jargon, <strong>arb</strong> is short for <strong>arbitrage</strong>. This term is not specific to crypto.</p>
+
+<p>Market traders call <strong>arbitrage</strong> a non-directional trading strategy that makes profit from different pricing of the same asset on different markets.</p>
+
+<!--more-->
+
+<h3 id="how-to-do-basic-crypto-arbitrage">How to do basic crypto arbitrage?</h3>
+
+<ol>
+  <li>Find two crypto exchanges where cryptocurrency trades at different prices</li>
+  <li>Buy crypto at the cheaper one</li>
+  <li>Sell the crypto at the expensive one</li>
+  <li>Withdraw your base currency</li>
+</ol>
+
+<p>As a real-life example, the actual exchange-to-p2p arbitrage workflow includes having a stash of crypto on the (expensive) p2p exchange ready to sell and a stash of fiat on the (cheap) trading exchange ready to buy. Speeding up the process by selling different coin than what you buy at a specific price improves greatly the p2p trading experience.</p>
+
+<h3 id="is-arbitrage-profitable">Is arbitrage profitable?</h3>
+
+<p>The very early days of crypto trading were good for arbitrage even on bitcoin markets, because the liquidity was lower and markets were not as efficient. Since maybe 2018, it mostly does not pay to execute arbitrage trades manually. It is a low-risk low-profit game of numbers: If you can do it with 6 figures USD through a bot, it is still worth it. Other than that, not so much.</p>
+
+<p>One notable exception to the rule are people with dual citizenship or some other legal rarity that gives them full access into two mutually disconnected markets.</p>
+
+<p>Typically that would mean having a fully verified account on a “western” trading platform, complete with a local bank connection, and the same set up in a country like <a href="/south-korea-arbitrage/">South Korea</a>, India or Brazil.</p>
+
+<p>Moving fiat money to and from these countries is not easy, the arbitrage opportunity is therefore stable.</p>
+
+<h3 id="arbitrage-as-p2p-reselling">Arbitrage as P2P reselling</h3>
+
+<p>On p2p marketplaces like <a href="https://bit.ly/2YD6gmA">LocalCryptos</a>, cryptocurrencies trade 2-10% over market. Buying on an exchange like Bitstamp and selling P2P is a stable arbitrage opportunity.</p>
+
+<h3 id="is-arbitrage-risk-free">Is arbitrage risk-free?</h3>
+
+<p>No.</p>
+
+<p>Arbitrage is a non-directional trade, but your money may get stuck at any point on its way and get you exposed to market volatility.</p>
+
+<p><strong>Best Tools for Arb (Arbing, Arbitrage)</strong></p>
+
+<ul>
+  <li>Trading Platform: <a href="http://bit.ly/at-indyres">Independent Reserve</a>, <a href="https://bit.ly/2YD6gmA">LocalCryptos</a></li>
+  <li>Technical Analysis: Basic <a href="/glossary/market-profile/">market phase analysis</a> to avoid trading at fragile times.</li>
+  <li>Automation: <a href="http://bit.ly/coinrulebot">Coinrule</a></li>
+</ul>
+:ET

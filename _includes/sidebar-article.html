@@ -16,7 +16,7 @@
 
   <section class="related-stacked">
     {% if brand_howtos[0] %}
-    <div class="row box-lvl-a"  id="side-brand-howto">
+    <div class="row box-lvl-plain"  id="side-brand-howto">
       <h4>You might need these <b>guides</b>:</h4>
       {% for post in brand_howtos %}
         {% include category/stacked.html %}
@@ -28,7 +28,8 @@
     {% endif %}
     &nbsp;
     {% if brand_strats[0] %}
-    <div class="row box-lvl-a" id="side-brand-strat">
+    <br>
+    <div class="row box-lvl-plain" id="side-brand-strat">
       <h4>You might like these <b>crypto trading strategies</b>:</h4>
       {% for post in brand_strats %}
         {% include category/stacked.html %}

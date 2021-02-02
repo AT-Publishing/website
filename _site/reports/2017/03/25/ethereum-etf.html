@@ -714,6 +714,11 @@ span.note-lvl-a {
   padding: 20px;
   border: 5px solid #aab0b5;
 }
+.box-lvl-plain {
+  display: block;
+  padding: 20px;
+  border: 5px solid #000b18;
+}
 
 li.subtle-item {
   list-style-position: inside;
@@ -835,7 +840,7 @@ ul.navi li {
     list-style-type: none;
     display: inline-block;
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: .3rem
 }
 
@@ -994,8 +999,14 @@ h3.popular {
 
 .footer {
     line-height: 2;
-    background: #fee248;
+    background: #01060a;
     display: block
+}
+.footer * {
+  color: #aab0b5;
+}
+.footer a:hover {
+  color: #ffffff;
 }
 
 .contacticon .center {
@@ -1194,19 +1205,20 @@ h5.post {
 
 .tag.article-categories {
   display: inline-block;
-    background: #9e9e9e69;
-    padding: 2px 10px;
-    margin: 0 5px;
-    font-size: inherit;
-    border-radius: 4px;
+  background: transparent;
 }
 .tag.article-tags {
   display: inline-block;
-    background: #9e9e9e3d;
-    padding: 0 5px;
-    margin: 5px 2px;
-    font-size: inherit;
-    border-radius: 4px;
+    background: transparent;
+    font-size: 12px;
+}
+.tag.article-tags > a {
+  color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
 }
 
 .post-content .guest,
@@ -1224,12 +1236,15 @@ h5.post {
 }
 
 .home-glossary .custom-note {
-    background: #3cc3b8;
+    background: #7a838d;
     display: inline-block;
 }
 .home-glossary > .columns {
     padding: 15px 0 40px;
-    border-top: 5px solid #3cc3b8;
+    border-top: 5px solid #7a838d;
+}
+.home-glossary a {
+  color: #2f3031;
 }
 
 .sec-latest,
@@ -1700,13 +1715,12 @@ h3.cat-post {
 
 .sidebar-nl,
 amp-user-notification>div {
-    background: #fff570;
+    background: #3cc3b8;
     color: #001f3f;
+    height: 100%;
     display: block;
     padding: 20px;
-    font-family: "Courier New";
     font-size: 12px;
-    line-height: 1
 }
 
 amp-user-notification>div {
@@ -2148,7 +2162,12 @@ h4.tagged-as {
     color: #1d1d2c;
 }
 .top .intro > p {
-  padding: 1em 2em 0;
+  padding: 1em 2em 0 0;
+}
+.top .intro > .tag {
+  display: block;
+  margin: 10px 0;
+  color: #001f3f6e;
 }
 
 #strategies-labeled .tag {
@@ -2187,7 +2206,12 @@ h4.tagged-as {
 }
 
 .soften {
-    opacity: 50%;
+    color: #001f3f6e;
+}
+span.tags {
+  display: block;
+  margin: 15px 0;
+  color: #001f3f6e;
 }
 
 .col-security .tag {
@@ -2498,10 +2522,10 @@ h3#cta-headline, #cta-headline {
 }
 /* bf special */
 h5.update, span.update {
-  font-family: 'Courier New', monospace;
-    background: #ffdc00;
-    display: inline-block;
-    padding: 0 8px;
+  background: #021f4033;
+      display: inline-block;
+      padding: 0 8px;
+      font-weight: 300;
 }
 #top-wallets h5 {
   margin-right: 10px;
@@ -2986,17 +3010,16 @@ amp-user-notification>div>div {
     <div class="twelve columns desktop-only">
       <ul class="navi">
         
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -3012,17 +3035,16 @@ amp-user-notification>div>div {
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
 <ul class="navi mobile-only">
   
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -3367,8 +3389,27 @@ faith estimate</strong> of the market price of ether.</p>
 
   <section class="related-stacked">
     
-    <div class="row box-lvl-a"  id="side-brand-howto">
+    <div class="row box-lvl-plain"  id="side-brand-howto">
       <h4>You might need these <b>guides</b>:</h4>
+      
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="Bitfinex (Referral Code 5egV78YtlC)" href="/coupon-bitfinex-5egv78ytlc/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/bitfinex-fee-discount_y6daaf.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/coupon-bitfinex-5egv78ytlc/" title="Bitfinex (Referral Code 5egV78YtlC)">
+      <span class="tag custom-note">Trading/Lending</span>&nbsp;
+      <b>Bitfinex&nbsp;(Referral&nbsp;Code&nbsp;5eg...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
       
         <div class="row clearfix">
   <div class="columns three">
@@ -3408,25 +3449,6 @@ faith estimate</strong> of the market price of ether.</p>
 &nbsp;
 
       
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="Bitfinex (Referral Code 5egV78YtlC)" href="/coupon-bitfinex-5egv78ytlc/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/bitfinex-fee-discount_y6daaf.jpg" alt="Related in trading-platforms" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/coupon-bitfinex-5egv78ytlc/" title="Bitfinex (Referral Code 5egV78YtlC)">
-      <span class="tag custom-note">Trading/Lending</span>&nbsp;
-      <b>Bitfinex&nbsp;(Referral&nbsp;Code&nbsp;5eg...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
       <p>
         <a class="btn" href="/guides/">See All</a>
       </p>
@@ -3434,22 +3456,23 @@ faith estimate</strong> of the market price of ether.</p>
     
     &nbsp;
     
-    <div class="row box-lvl-a" id="side-brand-strat">
+    <br>
+    <div class="row box-lvl-plain" id="side-brand-strat">
       <h4>You might like these <b>crypto trading strategies</b>:</h4>
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
+    <a class="cat-internal-link" title="Market Timing in Crypto" href="/strategy/timing/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-karolina-grabowska-4475524_xrnwun.jpg" alt="Related in data-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
+    <a class="index-internal" href="/strategy/timing/" title="Market Timing in Crypto">
+      <span class="tag custom-note">Crypto Indexes</span>&nbsp;
+      <b>Market&nbsp;Timing&nbsp;in&nbsp;Crypto</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3458,17 +3481,17 @@ faith estimate</strong> of the market price of ether.</p>
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Complete Crypto DCA Strategy: Why, How, Where" href="/strategy/dollar-cost-averaging/">
+    <a class="cat-internal-link" title="Wyckoff trading method for ranging markets" href="/strategy/wyckoff-ranging-markets/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/priscilla-du-preez-bzqjlstvyws-unsplash_ta0vjj.jpg" alt="Related in trading-technique" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/pexels-andrew-neel-3954635_yrsfws.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/dollar-cost-averaging/" title="Complete Crypto DCA Strategy: Why, How, Where">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>Complete&nbsp;Crypto&nbsp;DCA&nbsp;Strateg...</b>
+    <a class="index-internal" href="/strategy/wyckoff-ranging-markets/" title="Wyckoff trading method for ranging markets">
+      <span class="tag custom-note">Trading Approach</span>&nbsp;
+      <b>Wyckoff&nbsp;trading&nbsp;method&nbsp;for&nbsp;...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3512,25 +3535,6 @@ faith estimate</strong> of the market price of ether.</p>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ios-dash-wallet-app/" title="Anonymous coins on the Apple App Store"><b>Anonymous coins on the Apple App Store</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Anonymous coins on the Apple App Store" href="/ios-dash-wallet-app/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/img/editorial/effort.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
         <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
@@ -3550,14 +3554,14 @@ faith estimate</strong> of the market price of ether.</p>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/dao-hack/" title="All about the DAO hack"><b>All about the DAO hack</b> in <b>#BLOCKCHAIN-TECHNOLOGY</b>  updated on 15 Oct 2020</a>
+        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="All about the DAO hack" href="/dao-hack/">
+      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="https://www.ethereum.org/images/assets/1900/Ethereum-homestead-background-3.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3569,14 +3573,14 @@ faith estimate</strong> of the market price of ether.</p>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/tether-hack/" title="Tether Emergency Notice"><b>Tether Emergency Notice</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/interview-andrew-gazdecki/" title="Andrew Gazdecki on The Future of DEX Trading"><b>Andrew Gazdecki on The Future of DEX Trading</b> in <b>#NONCUSTODIAL-TRADING</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Tether Emergency Notice" href="/tether-hack/">
+      <a class="cat-internal-link" title="Andrew Gazdecki on The Future of DEX Trading" href="/interview-andrew-gazdecki/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/peanuts2.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/altcoin-io/altcoin-io_interface.gif" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3588,14 +3592,33 @@ faith estimate</strong> of the market price of ether.</p>
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/token-marketing-agencies/" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations"><b>How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/weiss-rating/" title="Weiss rating of cryptocurrencies is due today at 8AM UTC"><b>Weiss rating of cryptocurrencies is due today at 8AM UTC</b> in <b>#CRYPTO-MARKET-PREDICTIONS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="How media agencies profited from the 2018 Google and Twitter anti-crypto regulations" href="/token-marketing-agencies/">
+      <a class="cat-internal-link" title="Weiss rating of cryptocurrencies is due today at 8AM UTC" href="/weiss-rating/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/tagged/goodbye.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/weiss-ratings.png" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/kraken-upgrade/" title="Kraken's long awaited upgrade postponed"><b>Kraken's long awaited upgrade postponed</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Kraken's long awaited upgrade postponed" href="/kraken-upgrade/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/blood.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3865,7 +3888,12 @@ faith estimate</strong> of the market price of ether.</p>
     <br>
     <h2>1 DOGE = 1 DOGE</h2>
     <br>
-    &copy; 2016-2020 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    &copy; 2016-2021 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    <br>
+    <br>
+    <br>
+    <br>
+
   </div>
 </div>
 

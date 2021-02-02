@@ -1,4 +1,5 @@
 ---
+published: false
 title:        "Ledger Wallets Deals (Eternal Black Friday)"
 categories:   [ eternal-black-friday ]
 tags:         [ ledger, discount-coupon ]

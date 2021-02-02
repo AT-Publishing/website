@@ -740,6 +740,11 @@ span.note-lvl-a {
   padding: 20px;
   border: 5px solid #aab0b5;
 }
+.box-lvl-plain {
+  display: block;
+  padding: 20px;
+  border: 5px solid #000b18;
+}
 
 li.subtle-item {
   list-style-position: inside;
@@ -861,7 +866,7 @@ ul.navi li {
     list-style-type: none;
     display: inline-block;
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: .3rem
 }
 
@@ -1020,8 +1025,14 @@ h3.popular {
 
 .footer {
     line-height: 2;
-    background: #fee248;
+    background: #01060a;
     display: block
+}
+.footer * {
+  color: #aab0b5;
+}
+.footer a:hover {
+  color: #ffffff;
 }
 
 .contacticon .center {
@@ -1220,19 +1231,20 @@ h5.post {
 
 .tag.article-categories {
   display: inline-block;
-    background: #9e9e9e69;
-    padding: 2px 10px;
-    margin: 0 5px;
-    font-size: inherit;
-    border-radius: 4px;
+  background: transparent;
 }
 .tag.article-tags {
   display: inline-block;
-    background: #9e9e9e3d;
-    padding: 0 5px;
-    margin: 5px 2px;
-    font-size: inherit;
-    border-radius: 4px;
+    background: transparent;
+    font-size: 12px;
+}
+.tag.article-tags > a {
+  color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
 }
 
 .post-content .guest,
@@ -1250,12 +1262,15 @@ h5.post {
 }
 
 .home-glossary .custom-note {
-    background: #3cc3b8;
+    background: #7a838d;
     display: inline-block;
 }
 .home-glossary > .columns {
     padding: 15px 0 40px;
-    border-top: 5px solid #3cc3b8;
+    border-top: 5px solid #7a838d;
+}
+.home-glossary a {
+  color: #2f3031;
 }
 
 .sec-latest,
@@ -1726,13 +1741,12 @@ h3.cat-post {
 
 .sidebar-nl,
 amp-user-notification>div {
-    background: #fff570;
+    background: #3cc3b8;
     color: #001f3f;
+    height: 100%;
     display: block;
     padding: 20px;
-    font-family: "Courier New";
     font-size: 12px;
-    line-height: 1
 }
 
 amp-user-notification>div {
@@ -2174,7 +2188,12 @@ h4.tagged-as {
     color: #1d1d2c;
 }
 .top .intro > p {
-  padding: 1em 2em 0;
+  padding: 1em 2em 0 0;
+}
+.top .intro > .tag {
+  display: block;
+  margin: 10px 0;
+  color: #001f3f6e;
 }
 
 #strategies-labeled .tag {
@@ -2213,7 +2232,12 @@ h4.tagged-as {
 }
 
 .soften {
-    opacity: 50%;
+    color: #001f3f6e;
+}
+span.tags {
+  display: block;
+  margin: 15px 0;
+  color: #001f3f6e;
 }
 
 .col-security .tag {
@@ -2524,10 +2548,10 @@ h3#cta-headline, #cta-headline {
 }
 /* bf special */
 h5.update, span.update {
-  font-family: 'Courier New', monospace;
-    background: #ffdc00;
-    display: inline-block;
-    padding: 0 8px;
+  background: #021f4033;
+      display: inline-block;
+      padding: 0 8px;
+      font-weight: 300;
 }
 #top-wallets h5 {
   margin-right: 10px;
@@ -3012,17 +3036,16 @@ amp-user-notification>div>div {
     <div class="twelve columns desktop-only">
       <ul class="navi">
         
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -3038,17 +3061,16 @@ amp-user-notification>div>div {
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
 <ul class="navi mobile-only">
   
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -3343,9 +3365,9 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
     
         
       
-      <li>#ADOPTION: <a href="/token-marketing-agencies/">How media agencies profited from the 2018 Google and Twitter anti-crypto regulations</a></li>
+      <li>#ADOPTION: <a href="/bakkt-criticism/">The grim side of Bakkt's potential consequences</a></li>
       
-      <li>#ADOPTION: <a href="/bcash-rally-november-2017/">Reddit on the Bcash runup: BCH vs BTC</a></li>
+      <li>#ADOPTION: <a href="/twitter-crypto-ban-info/">Twitter's 2018 Crypto Ban</a></li>
       
         
       
@@ -3414,7 +3436,7 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
 
   <section class="related-stacked">
     
-    <div class="row box-lvl-a"  id="side-brand-howto">
+    <div class="row box-lvl-plain"  id="side-brand-howto">
       <h4>You might need these <b>guides</b>:</h4>
       
         <div class="row clearfix">
@@ -3430,25 +3452,6 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
     <a class="index-internal" href="/howto/crypto-trading-bot/" title="Crypto Trading Bots: How to start bot trading crypto?">
       <span class="tag custom-note">Tech</span>&nbsp;
       <b>Crypto&nbsp;Trading&nbsp;Bots:&nbsp;How&nbsp;to...</b>
-    </a>
-  </div>
-</div><!-- item row -->
-&nbsp;
-
-      
-        <div class="row clearfix">
-  <div class="columns three">
-    <a class="cat-internal-link" title="GPG Signature: Verify that your crypto wallet update is genuine" href="/howto/verify-signature/">
-      <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693909/atnet/__women/pexels-peter-olexa-4012966_ocqe57.jpg" alt="Related in technical" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-        </amp-img>
-      </figure>
-    </a>
-  </div>
-  <div class="columns nine">
-    <a class="index-internal" href="/howto/verify-signature/" title="GPG Signature: Verify that your crypto wallet update is genuine">
-      <span class="tag custom-note">Tech</span>&nbsp;
-      <b>GPG&nbsp;Signature:&nbsp;Verify&nbsp;that&nbsp;...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3474,6 +3477,25 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
 &nbsp;
 
       
+        <div class="row clearfix">
+  <div class="columns three">
+    <a class="cat-internal-link" title="GPG Signature: Verify that your crypto wallet update is genuine" href="/howto/verify-signature/">
+      <figure class="thumb">
+        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/c_lfill,h_360,w_700/v1596693909/atnet/__women/pexels-peter-olexa-4012966_ocqe57.jpg" alt="Related in technical" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        </amp-img>
+      </figure>
+    </a>
+  </div>
+  <div class="columns nine">
+    <a class="index-internal" href="/howto/verify-signature/" title="GPG Signature: Verify that your crypto wallet update is genuine">
+      <span class="tag custom-note">Tech</span>&nbsp;
+      <b>GPG&nbsp;Signature:&nbsp;Verify&nbsp;that&nbsp;...</b>
+    </a>
+  </div>
+</div><!-- item row -->
+&nbsp;
+
+      
       <p>
         <a class="btn" href="/guides/">See All</a>
       </p>
@@ -3481,7 +3503,8 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
     
     &nbsp;
     
-    <div class="row box-lvl-a" id="side-brand-strat">
+    <br>
+    <div class="row box-lvl-plain" id="side-brand-strat">
       <h4>You might like these <b>crypto trading strategies</b>:</h4>
       
         <div class="row clearfix">
@@ -3505,17 +3528,17 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
       
         <div class="row clearfix">
   <div class="columns three">
-    <a class="cat-internal-link" title="Margin Lending Strategy Template (Best for Bitfinex lending)" href="/strategy/lending/">
+    <a class="cat-internal-link" title="Strategy: Technical Analysis past ATH with Fibs" href="/strategy/fibs/">
       <figure class="thumb">
-        <amp-img itemprop="image" src="https://res.cloudinary.com/atnetcloud/image/upload/v1601538278/atnet/bitfinex-app/peanuts_fxdas0.jpg" alt="Related in yield" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+        <amp-img itemprop="image" src="https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/01/mystery_zev8mj.jpg" alt="Related in pattern-trading" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
         </amp-img>
       </figure>
     </a>
   </div>
   <div class="columns nine">
-    <a class="index-internal" href="/strategy/lending/" title="Margin Lending Strategy Template (Best for Bitfinex lending)">
-      <span class="tag custom-note">Real Data</span>&nbsp;
-      <b>Margin&nbsp;Lending&nbsp;Strategy&nbsp;Tem...</b>
+    <a class="index-internal" href="/strategy/fibs/" title="Strategy: Technical Analysis past ATH with Fibs">
+      <span class="tag custom-note">Self-Fulfilling Prophecy</span>&nbsp;
+      <b>Strategy:&nbsp;Technical&nbsp;Analysi...</b>
     </a>
   </div>
 </div><!-- item row -->
@@ -3559,14 +3582,33 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/ethereum-etf-unlikely/" title="Bitcoin ETF rejected, Ethereum ETF is probably off the table too"><b>Bitcoin ETF rejected, Ethereum ETF is probably off the table too</b> in <b>#ADOPTIONS</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/eth-multisig-hack/" title="ETH multisig hack"><b>ETH multisig hack</b> in <b>#CRYPTO-HEISTS</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Bitcoin ETF rejected, Ethereum ETF is probably off the table too" href="/ethereum-etf-unlikely/">
+      <a class="cat-internal-link" title="ETH multisig hack" href="/eth-multisig-hack/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/sadness.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/uploads/2017/05/31/pexels-photo-247873.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          </amp-img>
+        </figure>
+      </a>
+  </p>
+  
+</div><!-- item row -->
+
+      
+        <div class="row clearfix">
+  <ul class="popular">
+      <li class="subtle-item">
+        <a class="index-internal" href="/twitter-crypto-ban-info/" title="Twitter's 2018 Crypto Ban"><b>Twitter's 2018 Crypto Ban</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+      </li>
+  </ul>
+  
+  <p>
+      <a class="cat-internal-link" title="Twitter's 2018 Crypto Ban" href="/twitter-crypto-ban-info/">
+        <figure class="thumb">
+          <amp-img itemprop="image" src="/editorial/unsplash2/atnet-twitter.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3597,14 +3639,14 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrencies-launched-2017/" title="List of all new cryptocurrencies that emerged during the 2017 bull market"><b>List of all new cryptocurrencies that emerged during the 2017 bull market</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/traceto-interview/" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry"><b>Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry</b> in <b>#INTERVIEW</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="List of all new cryptocurrencies that emerged during the 2017 bull market" href="/cryptocurrencies-launched-2017/">
+      <a class="cat-internal-link" title="Traceto.io CEO: We expect the nexus between KYC and credit risk in the blockchain industry" href="/traceto-interview/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/newcrypto.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/interview/traceto-chionh-chye-kit-altcointradingnet.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3616,33 +3658,14 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
         <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/reports/2017/03/25/ethereum-etf.html" title="About the proposed Ethereum ETF"><b>About the proposed Ethereum ETF</b> in <b>#</b>  updated on 07 Aug 2020</a>
+        <a class="index-internal" href="/openlistings-houses-for-bitcoin/" title="Want to buy a house with bitcoin?"><b>Want to buy a house with bitcoin?</b> in <b>#ADOPTION</b>  updated on 07 Aug 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="About the proposed Ethereum ETF" href="/reports/2017/03/25/ethereum-etf.html">
+      <a class="cat-internal-link" title="Want to buy a house with bitcoin?" href="/openlistings-houses-for-bitcoin/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/img/emotions/document.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
-          </amp-img>
-        </figure>
-      </a>
-  </p>
-  
-</div><!-- item row -->
-
-      
-        <div class="row clearfix">
-  <ul class="popular">
-      <li class="subtle-item">
-        <a class="index-internal" href="/cryptocurrency-debit-card-non-eu/" title="Crypto cards for non-EU residents"><b>Crypto cards for non-EU residents</b> in <b>#REGULATIONS</b>  updated on 07 Aug 2020</a>
-      </li>
-  </ul>
-  
-  <p>
-      <a class="cat-internal-link" title="Crypto cards for non-EU residents" href="/cryptocurrency-debit-card-non-eu/">
-        <figure class="thumb">
-          <amp-img itemprop="image" src="/editorial/storm.jpg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="/features/openlistings.jpeg" alt="Related in reports" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3912,7 +3935,12 @@ The BTG codebase is developed by an anonymous person of unknown reputation and w
     <br>
     <h2>1 DOGE = 1 DOGE</h2>
     <br>
-    &copy; 2016-2020 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    &copy; 2016-2021 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    <br>
+    <br>
+    <br>
+    <br>
+
   </div>
 </div>
 

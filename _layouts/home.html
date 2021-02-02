@@ -19,8 +19,9 @@ layout: default
                <p>
                  {{ post.description }}
                  <br>
-                 <b>{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</b>
-                 <br><span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
+                 <span class="tags">{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</span>
+                 <br>
+                 <span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
                </p>
              </div>
          {% endfor %}
@@ -31,8 +32,9 @@ layout: default
              <p>
                {{ post.description }}
                <br>
-               <b>{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</b>
-               <br><span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
+               <span class="tags">{% for tag in post.tags limit:3 %}#{{tag|upcase}} {% endfor %}</span>
+               <br>
+               <span class="soften">{{ post.last_modified_at | date: "%d %b %Y" }}</span>
              </p>
            </div>
          {% endfor %}
@@ -55,7 +57,7 @@ layout: default
           <div class="clearfix"></div>
         </div>
         <br>
-        <div class="at-home-latestblog box-lvl-a">
+        <div class="at-home-latestblog box-lvl-plain">
           {% for post in blogitems offset: 0 limit: 1 %}
              {% include home/columnupdates.html %}
             {% if post.related %}

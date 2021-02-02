@@ -492,6 +492,11 @@ span.note-lvl-a {
   padding: 20px;
   border: 5px solid #aab0b5;
 }
+.box-lvl-plain {
+  display: block;
+  padding: 20px;
+  border: 5px solid #000b18;
+}
 
 li.subtle-item {
   list-style-position: inside;
@@ -613,7 +618,7 @@ ul.navi li {
     list-style-type: none;
     display: inline-block;
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: .3rem
 }
 
@@ -772,8 +777,14 @@ h3.popular {
 
 .footer {
     line-height: 2;
-    background: #fee248;
+    background: #01060a;
     display: block
+}
+.footer * {
+  color: #aab0b5;
+}
+.footer a:hover {
+  color: #ffffff;
 }
 
 .contacticon .center {
@@ -972,19 +983,20 @@ h5.post {
 
 .tag.article-categories {
   display: inline-block;
-    background: #9e9e9e69;
-    padding: 2px 10px;
-    margin: 0 5px;
-    font-size: inherit;
-    border-radius: 4px;
+  background: transparent;
 }
 .tag.article-tags {
   display: inline-block;
-    background: #9e9e9e3d;
-    padding: 0 5px;
-    margin: 5px 2px;
-    font-size: inherit;
-    border-radius: 4px;
+    background: transparent;
+    font-size: 12px;
+}
+.tag.article-tags > a {
+  color: #001f3f;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+    border: none;
 }
 
 .post-content .guest,
@@ -1002,12 +1014,15 @@ h5.post {
 }
 
 .home-glossary .custom-note {
-    background: #3cc3b8;
+    background: #7a838d;
     display: inline-block;
 }
 .home-glossary > .columns {
     padding: 15px 0 40px;
-    border-top: 5px solid #3cc3b8;
+    border-top: 5px solid #7a838d;
+}
+.home-glossary a {
+  color: #2f3031;
 }
 
 .sec-latest,
@@ -1478,13 +1493,12 @@ h3.cat-post {
 
 .sidebar-nl,
 amp-user-notification>div {
-    background: #fff570;
+    background: #3cc3b8;
     color: #001f3f;
+    height: 100%;
     display: block;
     padding: 20px;
-    font-family: "Courier New";
     font-size: 12px;
-    line-height: 1
 }
 
 amp-user-notification>div {
@@ -1926,7 +1940,12 @@ h4.tagged-as {
     color: #1d1d2c;
 }
 .top .intro > p {
-  padding: 1em 2em 0;
+  padding: 1em 2em 0 0;
+}
+.top .intro > .tag {
+  display: block;
+  margin: 10px 0;
+  color: #001f3f6e;
 }
 
 #strategies-labeled .tag {
@@ -1965,7 +1984,12 @@ h4.tagged-as {
 }
 
 .soften {
-    opacity: 50%;
+    color: #001f3f6e;
+}
+span.tags {
+  display: block;
+  margin: 15px 0;
+  color: #001f3f6e;
 }
 
 .col-security .tag {
@@ -2276,10 +2300,10 @@ h3#cta-headline, #cta-headline {
 }
 /* bf special */
 h5.update, span.update {
-  font-family: 'Courier New', monospace;
-    background: #ffdc00;
-    display: inline-block;
-    padding: 0 8px;
+  background: #021f4033;
+      display: inline-block;
+      padding: 0 8px;
+      font-weight: 300;
 }
 #top-wallets h5 {
   margin-right: 10px;
@@ -2801,17 +2825,16 @@ amp-user-notification>div>div {
     <div class="twelve columns desktop-only">
       <ul class="navi">
         
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -2827,17 +2850,16 @@ amp-user-notification>div>div {
 <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
 <ul class="navi mobile-only">
   
-<li><a title="Cryptocurrency Trading Strategy" href="/strategy/"><span class="yellow">Trading Strategies</span></a></li>
-<li><a title="Cryptocurrency Newbie Traders Guides" href="/guides/">Guides</a></li>
-<li><a>&middot;</a></li>
+<li><a title="ATNET Cryptocurrency Basics Guides and How-to" href="/guides/">Guides</a></li>
 <li><a title="ATNET Crypto Glossary" href="/glossary/">Glossary</a></li>
-<li><a title="ATNET Crypto Trading Tools" href="/tools/"><span class="yellow">Tools</span></a></li>
+<li><a>&middot;</a></li>
+<li><a title="ATNET Crypto Trading Tools" href="/tools/">Tools</a></li>
+<li><a>&middot;</a></li>
+<li><a title="Cryptocurrency Trading Strategy" href="/strategy/">Strategy</a></li>
 <li><a title="ATNET Crypto OPSEC" href="/security/">PSAs & OPSEC</a></li>
 <li><a>&middot;</a></li>
 <li><a title="Cryptocurrency Trading Blog" href="/blog/trading/">Blog</a></li>
-<li><a title="AltcoinTrading.NET Reports" href="/reports/">History of Crypto</a></li>
-<li><a>&middot;</a></li>
-<li><a title="Free Tradingview scripts review" href="/tag/tradingview-script-review/"><span class="yellow">TradingView Scripts</span></a></li>
+<li><a title="AltcoinTrading.NET Documenting Crypto History" href="/reports/">Documenting</a></li>
 <li><a>&middot;</a></li>
 <li><a title="AltcoinTrading.NET Airdrops" href="/airdrops/">Airdrops</a></li>
 <li><a title="AltcoinTrading.NET Black Friday" href="/blackfriday/">Eternal Black Friday</a></li>
@@ -2875,7 +2897,7 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <span class="tag custom-note lvl-a">Offramping</span>&nbsp;
-      <small class="soften"><b>#strategy</b></small>
+      <small class="soften"><b>strategy</b></small>
       <br>
       <strong>
         <a  class="index-internal"  href="/strategy/coin-control-selling-crypto/" title="Cashing-Out Strategy: Coin Control for HODLers">Cashing-Out Strategy: Coin Control for HODLers</a>
@@ -2887,8 +2909,9 @@ amp-user-notification>div>div {
                <p>
                  Did you HODL for years? Coin control will make it easier to sell
                  <br>
-                 <b>#HODL-STRATEGY #CRYPTO-INVESTMENT-STRATEGY #COIN-CONTROL </b>
-                 <br><span class="soften">19 Jan 2021</span>
+                 <span class="tags">#HODL-STRATEGY #CRYPTO-INVESTMENT-STRATEGY #COIN-CONTROL </span>
+                 <br>
+                 <span class="soften">19 Jan 2021</span>
                </p>
              </div>
          
@@ -2909,7 +2932,7 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <span class="tag custom-note lvl-c">Self-Fulfilling Prophecy</span>&nbsp;
-      <small class="soften"><b>#strategy</b></small>
+      <small class="soften"><b>strategy</b></small>
       <br>
       <strong>
         <a  class="index-internal"  href="/strategy/fibs/" title="Strategy: Technical Analysis past ATH with Fibs">Strategy: Technical Analysis past ATH with Fibs</a>
@@ -2921,8 +2944,9 @@ amp-user-notification>div>div {
                <p>
                  Now that we are past ATH levels again, let's reiterate how things *really* work around here.
                  <br>
-                 <b>#CRYPTO-CHARTING #FIBS #CRYPTO-TRADING </b>
-                 <br><span class="soften">01 Feb 2021</span>
+                 <span class="tags">#CRYPTO-CHARTING #FIBS #CRYPTO-TRADING </span>
+                 <br>
+                 <span class="soften">01 Feb 2021</span>
                </p>
              </div>
          
@@ -2946,7 +2970,7 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <span class="tag custom-note lvl-ab">Crypto Indexes</span>&nbsp;
-      <small class="soften"><b>#strategy</b></small>
+      <small class="soften"><b>strategy</b></small>
       <br>
       <strong>
         <a  class="index-internal"  href="/strategy/timing/" title="Market Timing in Crypto">Market Timing in Crypto</a>
@@ -2958,8 +2982,9 @@ amp-user-notification>div>div {
              <p>
                Timing the market has a bad rap. But there are strategic approaches to it, even on crypto markets.
                <br>
-               <b>#MARKET-TIMING #TIMING-TOOLS #SWING-TRADING </b>
-               <br><span class="soften">01 Jan 2021</span>
+               <span class="tags">#MARKET-TIMING #TIMING-TOOLS #SWING-TRADING </span>
+               <br>
+               <span class="soften">01 Jan 2021</span>
              </p>
            </div>
          
@@ -2980,7 +3005,7 @@ amp-user-notification>div>div {
   <div class="twelve columns">
     <h5 class="category-post post">
       <span class="tag custom-note lvl-a">Real Data</span>&nbsp;
-      <small class="soften"><b>#strategy</b></small>
+      <small class="soften"><b>strategy</b></small>
       <br>
       <strong>
         <a  class="index-internal"  href="/strategy/dollar-cost-averaging/" title="Complete Crypto DCA Strategy: Why, How, Where">Complete Crypto DCA Strategy: Why, How, Where</a>
@@ -2992,8 +3017,9 @@ amp-user-notification>div>div {
              <p>
                Did you know by how much can DCA beat HODL?
                <br>
-               <b>#CRYPTO-TRADING-STRATEGY #DCA #HODL </b>
-               <br><span class="soften">01 Jan 2021</span>
+               <span class="tags">#CRYPTO-TRADING-STRATEGY #DCA #HODL </span>
+               <br>
+               <span class="soften">01 Jan 2021</span>
              </p>
            </div>
          
@@ -3016,7 +3042,7 @@ amp-user-notification>div>div {
           <div class="clearfix"></div>
         </div>
         <br>
-        <div class="at-home-latestblog box-lvl-a">
+        <div class="at-home-latestblog box-lvl-plain">
           
              <div class="row cat-updates">
 
@@ -3694,14 +3720,14 @@ amp-user-notification>div>div {
       <div class="row clearfix">
   <ul class="popular">
       <li class="subtle-item">
-        <a class="index-internal" href="/scriptspotlight-bollinger-band-width-indicator/" title="Script Spotlight: Bollinger Band Width"><b>Script Spotlight: Bollinger Band Width</b> in <b>#TRADINGVIEW-SCRIPTS</b>  updated on 04 Nov 2020</a>
+        <a class="index-internal" href="/divergences/" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)"><b>Technical Analysis: Divergences (With a Divergence Cheat Sheet)</b> in <b>#CRYPTO-TRADING-STRATEGY</b>  updated on 30 Dec 2020</a>
       </li>
   </ul>
   
   <p>
-      <a class="cat-internal-link" title="Script Spotlight: Bollinger Band Width" href="/scriptspotlight-bollinger-band-width-indicator/">
+      <a class="cat-internal-link" title="Technical Analysis: Divergences (With a Divergence Cheat Sheet)" href="/divergences/">
         <figure class="thumb">
-          <amp-img itemprop="image" src="/features/bbw/scriptspotlight-bbands.png" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
+          <amp-img itemprop="image" src="https://res.cloudinary.com/dttheory/image/upload/v1609243854/at-top/divs/bitfinex-divergences_m4tjzj.jpg" alt="Related in crypto-technical-analysis" layout="responsive" data-original-width="720px" data-original-height="360px" width="150px" height="80px">
           </amp-img>
         </figure>
       </a>
@@ -3898,7 +3924,12 @@ amp-user-notification>div>div {
     <br>
     <h2>1 DOGE = 1 DOGE</h2>
     <br>
-    &copy; 2016-2020 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    &copy; 2016-2021 | <a target="_blank" href="https://www.theoryforce.com">Site architecture & Frontend by TheoryForce</a>
+    <br>
+    <br>
+    <br>
+    <br>
+
   </div>
 </div>
 

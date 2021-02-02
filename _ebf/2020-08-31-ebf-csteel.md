@@ -8,7 +8,7 @@ image:
 
 {% amp700cloud page.image[0] %}
 
-In addition to Black Friday discount deals, Cryptosteel is running **bundle deals** through the year.
+The metal crypto seed storage Cryptosteel is running **bundle deals** through the year.
 
 Getting two or three steel plates or steel capsules gets you a cheaper rate per wallet.
 

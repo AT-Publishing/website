@@ -10,7 +10,7 @@ image:
 
 Billfodl is the steel metal crypto wallet from the official store at PrivacyPros.
 
-In addition to Black Friday, Billfodl also runs a yearly Christmas sales.
+Billfodl runs bundle deals on packs of steel seed storage and hardware wallets.
 
 #### **Trezor T + BillFodl** and **Trezor 1 + Billfodl** Bundle Deal
 

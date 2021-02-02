@@ -11,7 +11,7 @@
   {% if page.taghub %}
   <aside>
     {% assign tag_related = site.glossary | where: "tags", page.tags[0]  %}
-    <div class="row box-lvl-a">
+    <div class="row box-lvl-plain">
         <h4 class="tagged-as">All under #{{ page.tags[0] | upcase }}</h4>
         <ul class="popular">
           {% for post in tag_related %}
@@ -27,7 +27,7 @@
   <div class="clearfix"></div>
 
   {% if cat_related[0] %}
-  <div class="row box-lvl-a">
+  <div class="row box-lvl-plain">
       <h4 class="tagged-as">ATNET Glossary on {{ page.categories[0] | capitalize }}</h4>
       {% for post in cat_related limit:1%}
         {% include category/tall.html %}
