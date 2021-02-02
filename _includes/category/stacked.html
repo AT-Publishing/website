@@ -9,8 +9,7 @@
   </div>
   <div class="columns nine">
     <a class="index-internal" href="{{ post.url }}" title="{{ post.title }}">
-      {% if post.note %}<span class="tag custom-note">{{ post.note }}</span>&nbsp;{% endif %}
-      <b>{{ post.title | truncate: 30  | replace: " ", "&nbsp;"}}</b>
+      <b>{{ post.title | truncate: 60  | replace: " ", "&nbsp;"}}</b>
     </a>
   </div>
 </div><!-- item row -->

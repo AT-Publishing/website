@@ -25,25 +25,31 @@ layout: default-news
             <article class="maincontent altcointrading-blog-head">
               <div class="columns twelve strategy-hook">
 
-                <div id="at-promo-horizontal">
-                  {% include promoting-horizontal.html %}
-                </div>
+                {% include article/meta.html %}
 
                 <blockquote cite="{{ page.url | prepend: site.url }}">
                   {% if page.hook %}{{ page.hook }}{% else %}{{ page.description }}{% endif %}
                 </blockquote>
-                {% include article/meta.html %}
               </div>
 
             </article>
             <article class="maincontent altcointrading-blog-content">
+              <div id="at-promo-horizontal">
+                {% include promoting-horizontal.html %}
+              </div>
               <div class="strategy-content intext" id="article-body">
                 {{ content }}
   					  </div><!-- strategy content -->
+
               <div class="meta">
-                <br><br>
-                <p>Posted in <span class="tag article-categories">{{ page.categories[0] | capitalize | replace: "-", " "}}</span>
-                <br>Tagged as {% for tag in page.tags %}<span class="tag article-tags">#{{tag | upcase}}</span>&nbsp;{% endfor %}</p>
+                <p>
+                <span class="soften">Category: {{page.categories[0] | capitalize | replace: "-"," " }}</span>
+                &middot;
+                <span class="soften">Label: {{ page.note }}</span>
+                &middot;
+                <span>Author: {{ page.author_name | capitalize }}</span> <a target="_blank" href="{{page.author}}">(contact author)</a>
+                </p>
+
               </div>
             </article>
           </section>

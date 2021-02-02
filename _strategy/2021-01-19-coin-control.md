@@ -4,7 +4,7 @@ genres:     Blog
 note:       'Offramping'
 layout:     strategy
 
-title:        "Cashing-Out Strategy: Coin Control for HODLers"
+title:        "Strategic Profit-Taking: Coin Control for HODLers"
 description:  "Did you HODL for years? Coin control will make it easier to sell"
 slug:         "coin-control-selling-crypto/"
 

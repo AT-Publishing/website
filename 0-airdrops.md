@@ -7,7 +7,7 @@ images:   ["/editorial/flying.jpg"]
 
 permalink:  /airdrops/
 
-title:        "Upcoming Airdrops & Crypto Bonuses 2020 - Crypto Airdrops"
+title:        "Upcoming Airdrops & Bounties"
 description:  "Upcoming crypto airdrops and free crypto giveaway list with weekly airdrop alerts by mail (Fri 7AM EST)."
 
 date:       2019-06-06 13:07:00 +0100

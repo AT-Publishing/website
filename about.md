@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About & Legal
+title: Legal Mentions
 permalink: /about-legal/
 tags:
 - hidden

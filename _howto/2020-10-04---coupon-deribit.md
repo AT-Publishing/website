@@ -7,8 +7,8 @@ promoting:  entertainment
 layout:     at-trading
 note:       "Options & Futures"
 
-title: Deribit 10% Fee Discount (bit.ly/deribit Referral Code)
-description: (Quick & easy KYC) Deribit is your 2021 BitMEX alternative for perps and other crypto derivatives trading.
+title: Deribit (bit.ly/deribit 10% fee discount)
+description: (Quick & easy KYC) Deribit is your 2021 BitMEX alternative for perps and other crypto derivatives trading. Fee discount with referral link.
 permalink: /referral-code-deribit/
 
 

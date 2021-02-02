@@ -8,7 +8,7 @@ layout:     at-trading
 note:       "Trading/Lending"
 
 title:        "Bitfinex (Referral Code 5egV78YtlC)"
-description:  "Bitfinex Referral Code 5egV78YtlC for fee discount. No Minimum Deposit in 2020."
+description:  "Bitfinex Referral Code 5egV78YtlC for 6% fee discount. No Minimum Deposit in 2021."
 permalink:    /coupon-bitfinex-5egv78ytlc/
 
 categories:   [ trading-platforms ]
