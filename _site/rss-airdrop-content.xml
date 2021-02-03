@@ -13,8 +13,8 @@
     <language>en</language>
     <link>https://www.altcointrading.net/airdrops/</link>
     <atom:link href="https://www.altcointrading.net/rss-airdrop-content.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Feb 2021 10:17:14 +0000</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2021 10:17:14 +0000</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 12:05:55 +0000</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 12:05:55 +0000</lastBuildDate>
       <item>
         <title>All LIVE or soon launching Airdrops and Bounties</title>
         <description>
@@ -26,6 +26,14 @@
     <th>Airdrop Date</th>
     <th>About the airdrop</th>
     <th>Link</th>
+  </tr>
+  <tr>
+    <td>Armor Network Early Mining Opportunity</td>
+    <td>For a few weeks now</td>
+    <td>
+      Armor Network is a fast, anonymous and untraceable cryptocurrency integrated into Telegram ecosystem. No ICO, no premine. Genesis block 21 Jan, mining rewards are still high. WARNING: Right now uses a Telegram wallet, so you don't own the private key.
+    </td>
+    <td><a rel="nofollow" href="https://armornetwork.org">info</a></td>
   </tr>
 <tr>
   <td>Bitfinex Global Grid Competition</td>
@@ -120,7 +128,7 @@
 
           ]]>
         </description>
-        <pubDate>Wed, 03 Feb 2021 10:17:14 +0000</pubDate>
+        <pubDate>Wed, 03 Feb 2021 12:05:55 +0000</pubDate>
         <author>airdrops@altcointrading.net</author>
         <webmaster>airdrops@altcointrading.net</webmaster>
         <link>https://www.altcointrading.net/airdrops/</link>
