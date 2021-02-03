@@ -1,6 +1,7 @@
 /*
   X-Frame-Options: SAMEORIGIN
   Content-Security-Policy: frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.youtube.com https://code.createjs.com https://cdnjs.cloudflare.com https://s3.tradingview.com https://amp2disqus.netlify.com https://amp2disqus.netlify.app https://www.altcointrading.net
+  Content-Security-Policy: frame-ancestors https://tpc.googlesyndication.com
   X-Content-Type-Options: nosniff
   X-XSS-Protection: "1; mode=block" always
   Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token
@@ -12,6 +13,8 @@
   Access-Control-Allow-Origin: https://s3.tradingview.com
   Access-Control-Allow-Origin: https://code.createjs.com
   Access-Control-Allow-Origin: https://cdnjs.cloudflare.com
+  AMP-Access-Control-Allow-Source-Origin: https://googleads.g.doubleclick.net
+  AMP-Access-Control-Allow-Source-Origin: https://tpc.googlesyndication.com
   AMP-Access-Control-Allow-Source-Origin: https://amp2disqus.netlify.app
   AMP-Access-Control-Allow-Source-Origin: https://www.altcointrading.net
   AMP-Access-Control-Allow-Source-Origin: https://s3.tradingview.com
