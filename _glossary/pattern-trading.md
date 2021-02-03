@@ -57,6 +57,7 @@ The better approach is to treat the pattern as a more general information about 
 
 ### High-probability patterns on crypto markets
 
+* [Fibs](/glossary/fibs/) and how to draw them
 * Bull flag / Bear flag
 * [Double bottom](/glossary/bbands/) (on price or bbands)
 * [Three pushes to a high](/glossary/bbands/) (again on price or bbands)
