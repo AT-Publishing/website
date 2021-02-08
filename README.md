@@ -1,6 +1,3 @@
-`     
-
-`
 
 
 # full website - altcointrading.net

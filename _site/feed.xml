@@ -19,9 +19,420 @@
       <link>https://www.altcointrading.net/</link>
     </image>
     <atom:link href="https://www.altcointrading.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Feb 2021 15:24:24 +0000</pubDate>
-    <lastBuildDate>Sat, 06 Feb 2021 15:24:24 +0000</lastBuildDate>
+    <pubDate>Mon, 08 Feb 2021 15:56:40 +0000</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2021 15:56:40 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item turbo="true">
+        <title><![CDATA[ How to read option charts: Market sentiment analysis based on crypto derivatives ]]></title>
+        <description><![CDATA[ Crypto options markets reflect the sentiment on the market and are small enough to split the whales from the retail. That makes them a useful tool for technical analysis. ]]></description>
+
+        <content:encoded><![CDATA[ Options are underused on the crypto markets, at least for now.
+
+Option markets have been getting more attention recently, as a result of the GME action. The GME pump was actually the (option-based) gamma squeeze, not a regular spot market short squeeze.
+
+Using options for market analysis
+
+There are interesting, non-speculative uses for options in the crypto space.
+
+
+  You can use options instead of a stop-loss order for instance. Not a bad idea if you trade with leverage on exchanges that crash under heavy load, like Kraken or Coinbase or Binance.
+  Options can be used for hedging and to manage your risks. When used well, options limit the amount of money put to risk better than any futures or spot position.
+
+
+However, this is a blog about technical analysis for the crypto markets. We’ll keep it focused around the use of options for analysis.
+
+This article will explain how to use the option markets to look at market sentiment and whale activity. It is written for people who never traded options and perhaps don’t even want to. The point is really just to understand what goes on in the option charts.
+
+We won’t go into “the greeks” and other technical stuff, but there is a list of resources at the bottom.
+
+Options basics
+
+Options are a derivative, a financial instrument based on an underlying asset. Crypto options are based on cryptoassets - typically bitcoin, less often ethereum and other altcoins.
+
+An option contract gives its owner the option to make a trade with the underlying asset for a price agreed in advance (the strike price). The date when the trade is meant to happen is also agreed in advance (the expiration date).
+
+Calls and Puts explained
+
+
+  Buying a call option means getting the option to buy the asset for strike price at expiration date. The call option is making money if the spot price is above the strike price, because you’re getting the asset cheaper than it currently trades.
+  Buying a put option means getting the option to sell the asset for strike price at expiration date. The put option is making money if the spot price is below the strike price, because you’re selling the asset dearer than it currently trades.
+
+
+On crypto markets, that “optional” final trade happens always and traders get paid out in crypto. For traders who use options to speculate, biggest share of their profit or loss will come from the difference between the strike price and the spot price of the asset when the final trade executes.
+
+There are other ways to yield profit or information from options, though.
+
+Premium
+
+Buying an option costs. There are other fees as well, but for the purposes of analysis you only need to know that there is a one-off fee for buying an option contract, and that this fee goes to the seller of the contract.
+
+The price of the contract (the premium) changes based on supply/demand logic, just like any other market would. That is where market sentiment is reflected.
+
+This was the bare minimum you need to know if you just want to understand what is happening on the options markets.
+
+Basic options chart cheatsheet
+
+
+
+Taken from Deribit options exchange.
+
+How to read options charts
+
+Skew
+
+The way option’s premium changes based on the option’s strike price is called skew.
+
+If the price for buying an options contract was the same for every strike price, that would be called flat skew. Flat skew is unlikely to happen. There is supply and demand in play, and supply and demand are skewed by the prevailing bias.
+
+Skew tells you whether the market, in total, puts more money into the view that the underlying asset is underpriced, or into the view that it is overpriced.
+
+Arguably following the actual money is a better information than getting your sentiment from social media. As we all know, often the smaller fishes make sure they are heard the most.
+
+Skew on legacy vs crypto markets
+
+On stock markets, call options are cheap and put options are expensive. There is a large demand for put options because stock holders use them to hedge against falling price of the stock they hold.
+
+The demand for call options is not matching it, which results in the skew.
+
+On crypto markets, traders in general have some expectations to the upside. There is some hedging activity but all in all call options are relatively expensive due to the high demand.
+
+Even “out of the money” calls are more expensive in crypto than they would be on legacy markets. (Out of money call is a contract to buy the asset at a price that is even higher than the current spot price.)
+
+If the skew changes, it shows an important sentiment shift on the market. The skew is a good sentiment indicator - it is backed by actual money and it’s very difficult to paint it.
+
+Whale watching on option markets
+
+Crypto options are a market small enough for Deribit Insights still highlighting individual whale positions on Twitter. You can follow significant trades on any market, sure. But only options make it possible to speculate on very specific targets.
+
+Here is one large bitcoin options trader letting himself be heard that he expects BTCUSD to range for the next 5 days: One ‘Fund’ logically decided the range was set for the next week, selling 5th Feb 28k Put 40+42k Call Strangles (Selling both) x800
+
+If you typed those numbers into the position builder spreadsheet linked in resources, you’d get the following chart.
+
+
+
+The chart shows that the position of that ‘found’ would earn money as long as BTCUSD would be between ~35k and ~48k on 5th February. The maximum profit would have been for spot price around 40k.
+
+The position was large enough to move the options market, that’s why it was highlighted in the tweet. Needless to say, it ended up making money.
+
+
+
+You will not get this level of accuracy from sentiment analysis of social media posts. And I’m not even taking into account that your average crypto-redditor hardly has any money in crypto.
+
+Fair warning
+
+This is just another method for technical analysis, based on what other traders anticipate. There is no guarantee any of that activity is in touch with reality at all.
+
+If you made it this far though, chances are it will be easy enough for you to learn to read the option markets and use that information as a piece in the puzzle.
+
+Not many people will give it the time it needs, which is always a good thing for a trader.
+
+What follows now is a list of typical participants on the crypto option markets to give you an idea of what you’ll be looking at.
+
+Who are the crypto option markets participants?
+
+The following list sums up the most typical entities on crypto options market, including the positions they like to trade.
+
+
+  Directional funds, or whales
+
+
+Directional funds are large crypto holders who open simple positions to express their views on where the spot price will go. These “funds” trade options for speculative profits.
+
+Typical positions expressing the “fund’s” views:
+
+  buying calls (bullish)
+  selling puts (bullish)
+  buying asset on spot and buying puts as a hedge (bullish)
+  shorting futures and buying calls as a stop loss (bearish)
+  multi-leg option constructs that limit risks (uncertainty)
+
+
+
+  Yield enhancement traders
+
+
+Yield enhancing traders in crypto options markets are larger spot crypto holders who use a lot of hedged and arbitrage strategies. They are trading to generate yield from their spot holdings but without explicitly speculating on the direction of the future price movements.
+
+Typical yield enhancing positions:
+
+  cash &amp;amp; carry arbitrage and other strategies that collect the premium regardless of how the spot price moves
+  strangles and other option constructs that make money when the spot price leaves a trading range to either direction
+  covered calls, which is a low risk strategy of earning income from an asset you already own by selling its call options
+
+
+
+  Bitcoin Miners
+
+
+Miners are a category of option markets participants specific to bitcoin.
+
+Their activity can be focused on yield generation or hedging:
+
+  yield collection on the bitcoin they hold and pay the bills of their mining operation
+  hedging through buying put options as a protection against bitcoin price drop
+
+
+
+  Volatility funds
+
+
+Volatility traders are among the more technical options traders. They trade speculating on the volatility of the spot market, not its direction.
+
+
+  Market makers
+
+
+Market makers provide liquidity. As in other markets, they will get in at extreme prices and out with a small profit, making this activity a numbers game.
+
+An oversimplified example:
+
+  market maker buys option contracts when they are extremely underpriced just after a whale sold a lot of them
+  then the market maker will offer those contracts for sale a little less underpriced, collecting the difference
+
+
+
+  Retail
+
+
+Last but not least, retail is the diverse and splintered group of small traders.
+
+Even though retail traders are usually not coordinated, they will often trade in agreement based on influential news or common sentiment. Technical analysis itself can be a tool generating crowd agreement.
+
+When the retail is in agreement, market sentiment is most clearly visible but it is also the good time to start looking for large traders who trade in the opposite direction.
+
+Resources
+
+For the technical basics of option markets:
+
+Brief but pretty complete intro to technicals of the option markets is hanging on the Twitter profile of Tony Stewart @pelioncap who is a pro trader with long experience on legacy and crypto option markets. The PDF link below goes to a document compiled from that Twitter thread (which has nearly 100 chained tweets!)
+
+Tony Stewart's options intro in PDF
+
+For the market analysis:
+
+
+  Deribit Options flow is a weekly-ish blog series at Deribit that explores exactly the sentiments that can be read out of the changes in options pricing on the BTC options markets.
+  Deribit Insights on Twitter get tweet threads also focusing on sentiments on the options market. They even highlight individual positions, if they are big enough.
+  Options position builder is a Google spreadsheet that you will need to read the above two links, unless you are a seasoned options trader. The position builder will chart and visualize the positions reported in the option flow and Deribit insights above.
+
+ ]]></content:encoded>
+
+        <turbo:content><![CDATA[ &lt;p&gt;Options are underused on the crypto markets, at least for now.&lt;/p&gt;
+
+&lt;p&gt;Option markets have been getting more attention recently, as a result of the GME action. The GME pump was actually the (option-based) &lt;a href=&quot;https://www.bloomberg.com/news/articles/2021-02-04/reddit-s-power-to-push-stocks-down-is-the-next-worry-for-traders&quot;&gt;gamma squeeze&lt;/a&gt;, not a regular spot market short squeeze.&lt;/p&gt;
+
+&lt;h3 id=&quot;using-options-for-market-analysis&quot;&gt;Using options for market analysis&lt;/h3&gt;
+
+&lt;p&gt;There are interesting, non-speculative uses for options in the crypto space.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can use options instead of a stop-loss order for instance. Not a bad idea if you trade with leverage on exchanges that &lt;a href=&quot;https://twitter.com/altcointrading_/status/1357005993096413185&quot;&gt;crash under heavy load, like Kraken&lt;/a&gt; or Coinbase or Binance.&lt;/li&gt;
+  &lt;li&gt;Options can be used for hedging and to manage your risks. When used well, options limit the amount of money put to risk better than any futures or spot position.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, this is a blog about &lt;a href=&quot;/technical-analysis/&quot;&gt;technical analysis&lt;/a&gt; for the crypto markets. We’ll keep it focused around the use of options for analysis.&lt;/p&gt;
+
+&lt;p&gt;This article will explain how to use the option markets to look at &lt;strong&gt;market sentiment&lt;/strong&gt; and &lt;strong&gt;whale activity&lt;/strong&gt;. It is written for people who never traded options and perhaps don’t even want to. The point is really just to understand what goes on in the option charts.&lt;/p&gt;
+
+&lt;p&gt;We won’t go into “the greeks” and other technical stuff, but there is a list of resources at the bottom.&lt;/p&gt;
+
+&lt;h3 id=&quot;options-basics&quot;&gt;Options basics&lt;/h3&gt;
+
+&lt;p&gt;Options are a derivative, a financial instrument based on an underlying asset. Crypto options are based on cryptoassets - typically bitcoin, less often ethereum and other altcoins.&lt;/p&gt;
+
+&lt;p&gt;An option contract gives its owner the &lt;em&gt;option&lt;/em&gt; to make a trade with the underlying asset for a price agreed in advance (the &lt;strong&gt;strike price&lt;/strong&gt;). The date when the trade is meant to happen is also agreed in advance (the &lt;strong&gt;expiration date&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;h5 id=&quot;calls-and-puts-explained&quot;&gt;Calls and Puts explained&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Buying a call option means getting the option to buy the asset for strike price at expiration date. The call option is making money if the spot price is above the strike price, because you’re getting the asset cheaper than it currently trades.&lt;/li&gt;
+  &lt;li&gt;Buying a put option means getting the option to sell the asset for strike price at expiration date. The put option is making money if the spot price is below the strike price, because you’re selling the asset dearer than it currently trades.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On crypto markets, that “optional” final trade happens &lt;em&gt;always&lt;/em&gt; and traders get paid out in crypto. For traders who use options to speculate, biggest share of their profit or loss will come from the difference between the strike price and the spot price of the asset when the final trade executes.&lt;/p&gt;
+
+&lt;p&gt;There are other ways to yield profit or information from options, though.&lt;/p&gt;
+
+&lt;h5 id=&quot;premium&quot;&gt;Premium&lt;/h5&gt;
+
+&lt;p&gt;Buying an option costs. There are other fees as well, but for the purposes of analysis you only need to know that there is a one-off fee for buying an option contract, and that this fee goes to the seller of the contract.&lt;/p&gt;
+
+&lt;p&gt;The price of the contract (the &lt;strong&gt;premium&lt;/strong&gt;) changes based on supply/demand logic, just like any other market would. That is where market sentiment is reflected.&lt;/p&gt;
+
+&lt;p&gt;This was the bare minimum you need to know if you just want to understand what is happening on the options markets.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-options-chart-cheatsheet&quot;&gt;Basic options chart cheatsheet&lt;/h3&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/deribit-options-table.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/deribit-options-table.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Taken from &lt;a href=&quot;http://bit.ly/deribit&quot;&gt;Deribit options exchange&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-read-options-charts&quot;&gt;How to read options charts&lt;/h3&gt;
+
+&lt;h5 id=&quot;skew&quot;&gt;Skew&lt;/h5&gt;
+
+&lt;p&gt;The way option’s premium changes based on the option’s strike price is called &lt;strong&gt;skew&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the price for buying an options contract was the same for every strike price, that would be called flat skew. Flat skew is unlikely to happen. There is supply and demand in play, and supply and demand are skewed by the prevailing bias.&lt;/p&gt;
+
+&lt;p&gt;Skew tells you whether the market, in total, puts more money into the view that the underlying asset is underpriced, or into the view that it is overpriced.&lt;/p&gt;
+
+&lt;p&gt;Arguably following the actual money is a better information than getting your sentiment from social media. As we all know, often the smaller fishes make sure they are heard the most.&lt;/p&gt;
+
+&lt;h5 id=&quot;skew-on-legacy-vs-crypto-markets&quot;&gt;Skew on legacy vs crypto markets&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;On stock markets&lt;/strong&gt;, call options are cheap and put options are expensive. There is a large demand for put options because stock holders use them to hedge against falling price of the stock they hold.&lt;/p&gt;
+
+&lt;p&gt;The demand for call options is not matching it, which results in the skew.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On crypto markets&lt;/strong&gt;, traders in general have some expectations to the upside. There is some hedging activity but all in all call options are relatively expensive due to the high demand.&lt;/p&gt;
+
+&lt;p&gt;Even “out of the money” calls are more expensive in crypto than they would be on legacy markets. (Out of money call is a contract to buy the asset at a price that is even higher than the current spot price.)&lt;/p&gt;
+
+&lt;p&gt;If the skew changes, it shows an important sentiment shift on the market. The skew is a good sentiment indicator - it is backed by actual money and it’s very difficult to paint it.&lt;/p&gt;
+
+&lt;h3 id=&quot;whale-watching-on-option-markets&quot;&gt;Whale watching on option markets&lt;/h3&gt;
+
+&lt;p&gt;Crypto options are a market small enough for Deribit Insights still highlighting individual whale positions on Twitter. You can follow significant trades on any market, sure. But only options make it possible to speculate on very specific targets.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/DeribitInsights/status/1355494231754858500&quot;&gt;Here&lt;/a&gt; is one large bitcoin options trader letting himself be heard that he expects BTCUSD to range for the next 5 days: &lt;em&gt;One ‘Fund’ logically decided the range was set for the next week, selling 5th Feb 28k Put 40+42k Call Strangles (Selling both) x800&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you typed those numbers into the &lt;a href=&quot;https://coinpub.org/spreadsheets/pnl-calculators/&quot;&gt;position builder spreadsheet&lt;/a&gt; linked in resources, you’d get the following chart.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/feb5-seller.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/feb5-seller.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The chart shows that the position of that ‘found’ would earn money as long as BTCUSD would be between ~35k and ~48k on 5th February. The maximum profit would have been for spot price around 40k.&lt;/p&gt;
+
+&lt;p&gt;The position was large enough to move the options market, that’s why it was highlighted in the tweet. Needless to say, it ended up making money.&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/feb5.png&quot; title=&quot;AltcoinTrading.NET - &quot;&gt;&lt;figure class=&quot;border&quot;&gt;&lt;amp-img itemprop=&quot;image&quot; src=&quot;https://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/feb5.png&quot; alt=&quot;&quot; title=&quot;AltcoinTrading.NET - &quot; layout=&quot;responsive&quot; width=&quot;700px&quot; height=&quot;360px&quot;&gt;&lt;/amp-img&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will not get this level of accuracy from sentiment analysis of social media posts. And I’m not even taking into account that your average crypto-redditor hardly has any money in crypto.&lt;/p&gt;
+
+&lt;h5 id=&quot;fair-warning&quot;&gt;Fair warning&lt;/h5&gt;
+
+&lt;p&gt;This is just another method for &lt;a href=&quot;/glossary/pattern-trading/&quot;&gt;technical analysis, based on what other traders anticipate&lt;/a&gt;. There is no guarantee any of that activity is in touch with reality at all.&lt;/p&gt;
+
+&lt;p&gt;If you made it this far though, chances are it will be easy enough for you to learn to read the option markets and use that information as a piece in the puzzle.&lt;/p&gt;
+
+&lt;p&gt;Not many people will give it the time it needs, which is always a good thing for a trader.&lt;/p&gt;
+
+&lt;p&gt;What follows now is a list of typical participants on the crypto option markets to give you an idea of what you’ll be looking at.&lt;/p&gt;
+
+&lt;h3 id=&quot;who-are-the-crypto-option-markets-participants&quot;&gt;Who are the crypto option markets participants?&lt;/h3&gt;
+
+&lt;p&gt;The following list sums up the most typical entities on crypto options market, including the positions they like to trade.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Directional funds, or whales&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Directional funds are large crypto holders who open simple positions to express their views on where the spot price will go. These “funds” trade options for speculative profits.&lt;/p&gt;
+
+&lt;p&gt;Typical positions expressing the “fund’s” views:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;buying calls (bullish)&lt;/li&gt;
+  &lt;li&gt;selling puts (bullish)&lt;/li&gt;
+  &lt;li&gt;buying asset on spot and buying puts as a hedge (bullish)&lt;/li&gt;
+  &lt;li&gt;shorting futures and buying calls as a stop loss (bearish)&lt;/li&gt;
+  &lt;li&gt;multi-leg option constructs that limit risks (uncertainty)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yield enhancement traders&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yield enhancing traders in crypto options markets are larger spot crypto holders who use a lot of hedged and arbitrage strategies. They are trading to generate yield from their spot holdings but without explicitly speculating on the direction of the future price movements.&lt;/p&gt;
+
+&lt;p&gt;Typical yield enhancing positions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;cash &amp;amp; carry arbitrage and other strategies that collect the premium regardless of how the spot price moves&lt;/li&gt;
+  &lt;li&gt;strangles and other option constructs that make money when the spot price leaves a trading range to either direction&lt;/li&gt;
+  &lt;li&gt;covered calls, which is a low risk strategy of earning income from an asset you already own by selling its call options&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bitcoin Miners&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Miners are a category of option markets participants specific to bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Their activity can be focused on yield generation or hedging:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;yield collection on the bitcoin they hold and pay the bills of their mining operation&lt;/li&gt;
+  &lt;li&gt;hedging through buying put options as a protection against bitcoin price drop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Volatility funds&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Volatility traders are among the more technical options traders. They trade speculating on the volatility of the spot market, not its direction.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Market makers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Market makers provide liquidity. As in other markets, they will get in at extreme prices and out with a small profit, making this activity a numbers game.&lt;/p&gt;
+
+&lt;p&gt;An oversimplified example:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;market maker buys option contracts when they are extremely underpriced just after a whale sold a lot of them&lt;/li&gt;
+  &lt;li&gt;then the market maker will offer those contracts for sale a little less underpriced, collecting the difference&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Retail&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last but not least, retail is the diverse and splintered group of small traders.&lt;/p&gt;
+
+&lt;p&gt;Even though retail traders are usually not coordinated, they will often trade in agreement based on influential news or common sentiment. Technical analysis itself can be a &lt;a href=&quot;/strategy/fibs/&quot;&gt;tool generating crowd agreement&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When the retail is in agreement, market sentiment is most clearly visible but it is also the good time to start looking for large traders who trade in the opposite direction.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;h5 id=&quot;for-the-technical-basics-of-option-markets&quot;&gt;For the technical basics of option markets:&lt;/h5&gt;
+
+&lt;p&gt;Brief but pretty complete intro to technicals of the option markets is hanging on the Twitter profile of Tony Stewart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@pelioncap&lt;/code&gt; who is a pro trader with long experience on legacy and crypto option markets. The PDF link below goes to a document compiled from that Twitter thread (which has nearly 100 chained tweets!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn&quot; href=&quot;/uploads/pdf/pelioncap-options-intro.pdf&quot;&gt;Tony Stewart's options intro in PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;for-the-market-analysis&quot;&gt;For the market analysis:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://insights.deribit.com/option-flows/&quot;&gt;Deribit Options flow&lt;/a&gt; is a weekly-ish blog series at &lt;a href=&quot;http://bitly.com/deribit/&quot;&gt;Deribit&lt;/a&gt; that explores exactly the sentiments that can be read out of the changes in options pricing on the BTC options markets.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/DeribitInsights/status/1356544427603468294&quot;&gt;Deribit Insights on Twitter&lt;/a&gt; get tweet threads also focusing on sentiments on the options market. They even highlight individual positions, if they are big enough.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coinpub.org/spreadsheets/pnl-calculators/&quot;&gt;Options position builder&lt;/a&gt; is a Google spreadsheet that you will need to read the above two links, unless you are a seasoned options trader. The position builder will chart and visualize the positions reported in the option flow and Deribit insights above.&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></turbo:content>
+
+        <author><![CDATA[ altcointrading ]]></author>
+        <dc:creator><![CDATA[ altcointrading ]]></dc:creator>
+        <media:content url="https://www.altcointrading.nethttps://theoryforceb4ef41a12c623318794.files.wordpress.com/2021/02/tube-reading.jpg" medium="image" />
+        <pubDate>Sun, 07 Feb 2021 23:04:00 +0000</pubDate>
+        <link>https://www.altcointrading.net/options-basics/</link>
+        <guid isPermaLink="true">https://www.altcointrading.net/options-basics/</guid>
+        <comments>https://www.altcointrading.net/options-basics/#comments</comments>
+        <slash:comments>0</slash:comments>
+        <language>en</language>
+
+        <category><![CDATA[ crypto-charting ]]></category>
+        <category><![CDATA[ crypto-fundamentals ]]></category>
+        <category><![CDATA[ crypto-trading-strategy ]]></category>
+        <category><![CDATA[ deribit ]]></category>
+        <category><![CDATA[ bitfinex ]]></category>
+        
+        <category><![CDATA[ crypto-technical-analysis ]]></category>
+        
+
+        <yandex:related>
+        
+        </yandex:related>
+
+      </item>
     
       <item turbo="true">
         <title><![CDATA[ What’s Better For Betting Sites: Ethereum or Bitcoin? ]]></title>
@@ -6999,105 +7410,6 @@ It cannot be said convincingly whether Tether is solvent or not but given the cu
         
 
         
-
-      </item>
-    
-      <item turbo="true">
-        <title><![CDATA[ Tokenization can boost startups in growing industries like home remodeling ]]></title>
-        <description><![CDATA[ Houzz launched its new cryptocurrency for home remodeling earlier this year. Is this a good initiative for startups like Renovaten? ]]></description>
-
-        <content:encoded><![CDATA[ Home improvement business is projected to grow in near future, involving blockchain is just one way to increase the worth of industry.
-
-Though cryptocurrencies already have a sizeable global footprint and faced some tough time in finding real-world value, in 2018 many businesses are just starting to tokenize their assets and services by launching their own proprietary cryptocurrencies.
-
-Houzz, the online community for architecture and interior design, did just that in April 2018 when theyr announced their ICO.
-
-The company launched Houzzcoinzz, cryptocurrency tokens designed exclusively for their potential users. It mimics the functionality of an in-store gift card but additionally, the token can be mined. Also, being publicly traded, the Houzzcoinzz fluctuate in monetary value and thereby in purchasing power.
-
-Just how is it beneficial for their clients though? Is a proprietary token for home improvements a good initiative for emerging US startups like Renovaten, Next step living or Renoviso?
-
-How does proprietary cryptocurrency benefit customers?
-
-One of the key benefits of launching this new cryptocurrency is the simplification of transactions. Customers can buy more than 10 million products from the company, now paying instantly with a proprietary digital currency specifically developed for the home renovation and design trade.
-
-Furthermore, the security aspect is not to be missed. The company’s blockchain protects the transaction itself as well as the shopping history of each client.
-
-Tokenization as a breakthrough for entrepreneurs
-
-Cryptocurrency has revolutionized the way business owners transact value, invest their savings and raise capital.
-
-The blockchain technology offers highly impactful infrastructure for businesses to run their setups and build an entirely new business strategy in some highly trusted way without involving any centralized authority.
-
-Even better, as nascent as the blockchain technology industry is, it offers a good opportunity to connect with the world’s famous entrepreneurs.
-
-Businesses and individuals can transact value with the help of blockchain technology at much higher speed with very limited setup costs, and invest in high profile technology businesses in their startup phase.
-
-The ease and cost efficiency of raising capital is a major reason; every home improvement startup should at least consider launching their own token.
-
-Tokenization can boost startups in growing industries
-
-According to research performed by Renovaten, the home remodeling expenses are expected to increase in the next coming years and may break the highs of ten years. The home improvement expenses in the US have already hit $304 billion this year.
-
-Renovaten speculates new startups will continue to leverage blockchain technology to build their brands and offer the highest possible value to their customers and investors.
-
-So, what do you think about this innovative method in the home improvement industry? Are you ready to adapt this evolution for your startup?
- ]]></content:encoded>
-
-        <turbo:content><![CDATA[ &lt;p&gt;Home improvement business is projected to grow in near future, involving blockchain is just one way to increase the worth of industry.&lt;/p&gt;
-
-&lt;p&gt;Though cryptocurrencies already have a sizeable global footprint and faced some tough time in finding real-world value, in 2018 many businesses are just starting to tokenize their assets and services by launching their own proprietary cryptocurrencies.&lt;/p&gt;
-
-&lt;p&gt;Houzz, the online community for architecture and interior design, did just that in &lt;a href=&quot;https://www.houzz.com/ideabooks/106250651/list/introducing-houzzcoinzz-the-newest-way-to-shop-for-your-home&quot;&gt;April 2018 when theyr announced their ICO&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The company launched Houzzcoinzz, cryptocurrency tokens designed exclusively for their potential users. It mimics the functionality of an in-store gift card but additionally, the token can be mined. Also, being publicly traded, the Houzzcoinzz fluctuate in monetary value and thereby in purchasing power.&lt;/p&gt;
-
-&lt;p&gt;Just how is it beneficial for their clients though? Is a proprietary token for home improvements a good initiative for emerging US startups like &lt;strong&gt;Renovaten&lt;/strong&gt;, &lt;strong&gt;Next step living&lt;/strong&gt; or &lt;strong&gt;Renoviso&lt;/strong&gt;?&lt;/p&gt;
-
-&lt;h2 id=&quot;how-does-proprietary-cryptocurrency-benefit-customers&quot;&gt;How does proprietary cryptocurrency benefit customers?&lt;/h2&gt;
-
-&lt;p&gt;One of the key benefits of launching this new cryptocurrency is the simplification of transactions. Customers can buy more than 10 million products from the company, now paying instantly with a proprietary digital currency specifically developed for the home renovation and design trade.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the security aspect is not to be missed. The company’s blockchain protects the transaction itself as well as the shopping history of each client.&lt;/p&gt;
-
-&lt;h2 id=&quot;tokenization-as-a-breakthrough-for-entrepreneurs&quot;&gt;Tokenization as a breakthrough for entrepreneurs&lt;/h2&gt;
-
-&lt;p&gt;Cryptocurrency has revolutionized the way business owners transact value, invest their savings and raise capital.&lt;/p&gt;
-
-&lt;p&gt;The blockchain technology offers highly impactful infrastructure for businesses to run their setups and build an entirely new business strategy in some highly trusted way without involving any centralized authority.&lt;/p&gt;
-
-&lt;p&gt;Even better, as nascent as the blockchain technology industry is, it offers a good opportunity to connect with the world’s famous entrepreneurs.&lt;/p&gt;
-
-&lt;p&gt;Businesses and individuals can transact value with the help of blockchain technology at much higher speed with very limited setup costs, and invest in high profile technology businesses in their startup phase.&lt;/p&gt;
-
-&lt;p&gt;The ease and cost efficiency of raising capital is a major reason; every home improvement startup should at least consider launching their own token.&lt;/p&gt;
-
-&lt;h2 id=&quot;tokenization-can-boost-startups-in-growing-industries&quot;&gt;Tokenization can boost startups in growing industries&lt;/h2&gt;
-
-&lt;p&gt;According to research performed by &lt;a href=&quot;https://www.renovaten.com/&quot;&gt;Renovaten&lt;/a&gt;, the home remodeling expenses are expected to increase in the next coming years and may break the highs of ten years. The home improvement expenses in the US have already hit $304 billion this year.&lt;/p&gt;
-
-&lt;p&gt;Renovaten speculates new startups will continue to leverage blockchain technology to build their brands and offer the highest possible value to their customers and investors.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;So, what do you think about this innovative method in the home improvement industry? Are you ready to adapt this evolution for your startup?&lt;/strong&gt;&lt;/p&gt;
- ]]></turbo:content>
-
-        <author><![CDATA[ Ambreen ]]></author>
-        <dc:creator><![CDATA[ Ambreen ]]></dc:creator>
-        <media:content url="https://www.altcointrading.net/editorial/home-decor-startups.jpeg" medium="image" />
-        <pubDate>Wed, 10 Oct 2018 04:34:00 +0000</pubDate>
-        <link>https://www.altcointrading.net/tokenization-startup-boost/</link>
-        <guid isPermaLink="true">https://www.altcointrading.net/tokenization-startup-boost/</guid>
-        <comments>https://www.altcointrading.net/tokenization-startup-boost/#comments</comments>
-        <slash:comments>0</slash:comments>
-        <language>en</language>
-
-        <category><![CDATA[ tokens ]]></category>
-        
-        <category><![CDATA[ reports ]]></category>
-        
-
-        <yandex:related>
-        
-        </yandex:related>
 
       </item>
     

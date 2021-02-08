@@ -25,6 +25,8 @@ In the blockchain industry, we call **coin control** an advanced feature of cryp
 
 This feature is necessary if you want to escape from a [dust attack](/glossary/dust-attack/), an attack on privacy that happens on the bitcoin blockchain.
 
+Perhaps more importantly, **you might need coin control to sell bitcoin for fiat**. Exchanges check the history of BTC you want to sell with them. To avoid issues and delays in selling, try to deposit coins that you bought from the same exchange. [More here](/strategy/coin-control-selling-crypto/)
+
 <!--more-->
 
 ### Bitcoin wallets that support coin control

@@ -1,6 +1,8 @@
-I"V<p>In the blockchain industry, we call <strong>coin control</strong> an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
+I"¡<p>In the blockchain industry, we call <strong>coin control</strong> an advanced feature of cryptocurrency wallets that lets you choose which incoming transaction you want to spend and which to leave unspent.</p>
 
 <p>This feature is necessary if you want to escape from a <a href="/glossary/dust-attack/">dust attack</a>, an attack on privacy that happens on the bitcoin blockchain.</p>
+
+<p>Perhaps more importantly, <strong>you might need coin control to sell bitcoin for fiat</strong>. Exchanges check the history of BTC you want to sell with them. To avoid issues and delays in selling, try to deposit coins that you bought from the same exchange. <a href="/strategy/coin-control-selling-crypto/">More here</a></p>
 
 <!--more-->
 
